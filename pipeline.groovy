@@ -6,7 +6,7 @@ def PowerShell(psCmd) {
 }
 
 pipeline {
-    ${nodeSelect}
+    master
 
     stages {
         stage('Update RSS Feed') {
