@@ -24,12 +24,7 @@ pipeline {
          }
          stage('Publish') {
             steps {
-                script {
-                    try {
                         PowerShell(". 'C:/Jenkins/Scripts/qe-blog-rss-push.ps1'")
-                    } catch (Exception e) {
-                        "Success"
-                    }
             }
          }
         stage('Clean Workspace') {
