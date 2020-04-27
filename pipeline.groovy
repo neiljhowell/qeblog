@@ -6,7 +6,7 @@ def PowerShell(psCmd) {
 }
 
 pipeline {
-    master
+    ${node}
 
     stages {
         stage('Update RSS Feed') {
@@ -20,12 +20,11 @@ pipeline {
                 bat '''git config user.email "robosquad@accruent.com"'''
                 bat 'git add .'
                 bat '''git commit -m "testing"'''
-                //bat 'git push origin HEAD:master --force'
             }
          }
          stage('Publish') {
             steps {
-                PowerShell(". 'C:/push.ps1'")
+                PowerShell(". 'C:/Jenkins/Scripts/qe-blog-rss-push.ps1'")
             }
          }
              /*
