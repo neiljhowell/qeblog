@@ -27,12 +27,10 @@ pipeline {
                 PowerShell(". 'C:/Jenkins/Scripts/qe-blog-rss-push.ps1'")
             }
          }
-             /*
         stage('Clean Workspace') {
             steps {
                 cleanWs()
             }
         }
-       */
     }
 }
