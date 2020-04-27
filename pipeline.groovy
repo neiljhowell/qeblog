@@ -6,7 +6,7 @@ def PowerShell(psCmd) {
 }
 
 pipeline {
-    master
+    agent { label 'master' }
 
     stages {
         stage('Update RSS Feed') {
