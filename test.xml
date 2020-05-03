@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 29 Apr 2020 16:45:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 01 May 2020 05:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,43 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The Power of AI &#124; Applitools</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/the-power-of-ai-applitools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 01 May 2020 05:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[Power]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/the-power-of-ai-applitools/</guid>
+
+					<description><![CDATA[Parasoft Selenic and Applitools Eyes Integrate to Improve Web UI Testing Guest Author: Joyce (Joy) Ruff, Product Marketing Manager at]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<h3>Parasoft Selenic and Applitools Eyes Integrate to Improve Web UI Testing</h3>
+<p>Guest Author: Joyce (Joy) Ruff, Product Marketing Manager at Parasoft.</p>
+<p>In a web application design, the user interface (UI) can make or break the usability. To verify the UI works well, you need to ensure that you can thoroughly test it. As applications become more complex and more difficult to test, an automated test environment provides better visibility to potential web UI issues. </p>
+<p>For many companies, Selenium is the de facto standard for web UI testing. Parasoft introduced the Selenic tool to enhance Selenium test creation with the page object model, simplify maintenance with self-healing, and reduce testing time with optimized execution. With Parasoft Selenic, you can understand if your Selenium tests have broken due to locators or wait conditions and receive AI-powered recommendations for how to fix them.</p>
+<p>With the latest release, Selenic now provides integration with Applitools, which uses AI to capture screenshots of UI differences that can be hard to see without the aid of computer vision. The combination of these capabilities makes it easier for you to assess the results of your Web UI testing. With a simple configuration setup, when you run your Selenium tests with Selenic, an Applitools Visual AI screenshot will be automatically captured at each click and navigation step, ensuring maximum test coverage with incredible speed, accuracy, and stability.</p>
+<p>See how fast and easy it is to integrate Applitools and Selenic for better visibility of your web UI changes in this short video.</p>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p><div class="fitvids-video"><iframe title="Integrating Applitools and Parasoft Selenic" width="800" height="450" src="https://www.youtube.com/embed/gebLWMekpjk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+</figure>
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"></figure>
+</div>
+<p><em>Joy Ruff is a Product Marketing Manager, focused on product positioning and marketing content for Parasoft’s functional testing tools. With over 25 years of experience, she has provided technical marketing and sales enablement for various enterprise hardware and software solutions. Follow her on Twitter @jfruff.</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/parasoft-selenic-integration/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ThreatList: Human-Mimicking Bots Spike, Targeting e-Commerce and Travel</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/threatlist-human-mimicking-bots-spike-targeting-e-commerce-and-travel/</link>
 		
@@ -398,50 +435,6 @@
 <br />A pre-auth SQL injection bug leading to remote code execution is at the heart of a data-stealing campaign against XG firewalls, using the Asnarok trojan.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/hackers-zero-day-attacks-sophos-firewalls/155169/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The Impact of Visual AI On Test Automation [webinar]</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/the-impact-of-visual-ai-on-test-automation-webinar/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 27 Apr 2020 16:07:58 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Impact]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[Visual]]></category>
-		<category><![CDATA[Webinar]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/the-impact-of-visual-ai-on-test-automation-webinar/</guid>
-
-					<description><![CDATA[In November 2019, 288 Selenium, Cypress, and WebdriverIO quality engineers spent a combined 1.5 years of time writing traditional and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In November 2019, 288 Selenium, Cypress, and WebdriverIO quality engineers spent a combined 1.5 years of time writing traditional and Visual AI tests against 5 common use cases.</p>
-<p>In this webinar, we will reveal what they learned, and explain how you can apply these lessons in less than an hour to your own test suites and build Visual AI-driven test automation for:</p>
-<ul>
-<li>Testing UI elements using minimum locators, texts and labels</li>
-<li>Data-driven testing and functional testing</li>
-<li>Testing table sorting and filtering functionalities</li>
-<li>Testing graphical displays such as bar-charts</li>
-<li>Testing highly dynamic content</li>
-</ul>
-<p>Watch this webinar and see how Visual AI can radically improve your ability to author new tests faster, reduce test maintenance, and catch more early-stage bugs faster than ever before possible. </p>
-<h3>Full Slide Deck </h3>
-<figure class="wp-block-embed-slideshare wp-block-embed is-type-rich is-provider-slideshare wp-embed-aspect-1-1 wp-has-aspect-ratio"/>
-<h3>Full Recording </h3>
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<p><div class="fitvids-video"><iframe title="[webinar] The Impact of Visual AI on Test Automation: Selenium, Cypress, and WebdriverIO" width="800" height="450" src="https://www.youtube.com/embed/5mvArOvE9B8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-</figure>
-<h3>Additional Visual AI Materials</h3>
-<h3 class="has-text-align-center">— HAPPY TESTING — </h3>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/visual-ai-webinar/">Source link </a></p>
 ]]></content:encoded>
 					
 		
