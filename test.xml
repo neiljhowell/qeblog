@@ -65,6 +65,52 @@
 		
 			</item>
 		<item>
+		<title>Sauce Labs Offers Software Testing to COVID-19 Innovators</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/sauce-labs-offers-software-testing-to-covid-19-innovators/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Innovators]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Offers]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/sauce-labs-offers-software-testing-to-covid-19-innovators/</guid>
+
+					<description><![CDATA[We’ve always provided open source projects with access to our full-service live and automated testing capabilities to help them keep]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>We’ve always provided open source projects with access to <a target="_blank" href="https://saucelabs.com/solutions/open-source" rel="noopener noreferrer">our full-service live and automated testing capabilities</a> to help them keep their software bug-free. Now, we’re extending our Open Sauce program to offer free and reduced-cost testing for organizations innovating to address COVID-19. </p>
+<p>Our Open Sauce program offers access to thousands of browser, OS, and emulator/simulator combinations, five concurrent sessions for testing in parallel, and unlimited testing minutes. To support the COVID-19 response, we’re also now offering qualifying organizations real devices for live testing on mobile devices.</p>
+<p>One company, <a target="_blank" href="https://nsightify.com/" rel="noopener noreferrer">nSightify</a>, is now leveraging our COVID-19 support offering for testing. nSightify has a mobile app designed to facilitate communications for first responders such as firefighters and EMS workers. They reached out to Sauce when they saw the need to add a telehealth feature to their mobile app to enable paramedics and other first responders to quickly consult with doctors to determine whether a COVID-19 patient needs hospitalization or can be treated elsewhere. This feature allows first responders to get eyes on the patient quickly and ensure they’re treated appropriately, which means better patient care… and the added benefit that hospital and emergency resources can stay available for the most critical cases.  </p>
+<p></p>
+<p>“Leveraging the Sauce Labs Continuous Testing cloud has allowed us to test quickly on real devices and quickly get our telehealth feature to market,” says John Dadey, CEO of nSightify.  “We went from manually testing one device at a time to automating the process, and it’s helped us reduce our overall testing time by 50-70%.” </p>
+<p>The Open Sauce program offers several benefits:</p>
+<ul>
+<li>
+<p>The ability to get up and running fast with live and automated testing</p>
+</li>
+<li>
+<p>Instant access to our Virtual Device Cloud for testing desktop and mobile websites and applications</p>
+</li>
+<li>
+<p>The ability to share test results—videos, screenshots and log files—via Slack, HipChat or email, making collaboration a cinch</p>
+</li>
+</ul>
+<p>To see if your organization qualifies for free or reduced-cost testing under the Open Sauce program, please fill out the <a target="_blank" href="https://saucelabs.com/open-sauce" rel="noopener noreferrer">form on our website</a>.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/sauce-labs-offers-testing-to-covid19-innovators">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ThreatList: Human-Mimicking Bots Spike, Targeting e-Commerce and Travel</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/threatlist-human-mimicking-bots-spike-targeting-e-commerce-and-travel/</link>
 		
@@ -410,31 +456,6 @@
 <br />Thanks to WFH, IoT refrigerators, Samsung TVs and more can now be back-channel proxies into the corporate network.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/enterprise-security-woes-explode-home-networks/155280/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Hackers Mount Zero-Day Attacks on Sophos Firewalls</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/hackers-mount-zero-day-attacks-on-sophos-firewalls/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 27 Apr 2020 16:16:14 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Firewalls]]></category>
-		<category><![CDATA[hackers]]></category>
-		<category><![CDATA[Mount]]></category>
-		<category><![CDATA[Sophos]]></category>
-		<category><![CDATA[ZeroDay]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/hackers-mount-zero-day-attacks-on-sophos-firewalls/</guid>
-
-					<description><![CDATA[A pre-auth SQL injection bug leading to remote code execution is at the heart of a data-stealing campaign against XG]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A pre-auth SQL injection bug leading to remote code execution is at the heart of a data-stealing campaign against XG firewalls, using the Asnarok trojan.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/hackers-zero-day-attacks-sophos-firewalls/155169/">Source link </a></p>
 ]]></content:encoded>
 					
 		
