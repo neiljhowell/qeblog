@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 01 May 2020 05:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 01 May 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,81 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>4 Kubernetes security challenges and how to address them</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/4-kubernetes-security-challenges-and-how-to-address-them/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 01 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Address]]></category>
+		<category><![CDATA[challenges]]></category>
+		<category><![CDATA[kubernetes]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/4-kubernetes-security-challenges-and-how-to-address-them/</guid>
+
+					<description><![CDATA[The widespread use of Kubernetes is testament to enterprises&#8217; faith in their ability not just to handle the complexity of modern]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>The widespread use of Kubernetes is testament to enterprises&#8217; faith in their ability not just to handle the complexity of modern app development and <a target="_blank" href="https://content.microfocus.com/sap-modernization-enterprise-devops-tb/modernize-legacy-apps?lx=AL8Ybs&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">modernization initiatives</a>, but to do so at scale.</p>
+<p>According to <a target="_blank" href="https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf" rel="nofollow noopener noreferrer">a recent survey of 1,340 technical experts</a> in companies of all sizes, conducted by the Cloud Native Computing Foundation (CNCF), 78% of respondents are <a target="_blank" href="https://techbeacon.com/devops/one-year-using-kubernetes-production-lessons-learned" rel="noopener noreferrer">using the open-source container orchestration tool in production</a>. This is up from just 58% last year.</p>
+<p>But while Kubernetes is one of the most popular projects on GitHub, many organizations are still <a target="_blank" href="https://techbeacon.com/enterprise-it/47-advanced-tutorials-mastering-kubernetes" rel="noopener noreferrer">intimidated by its complexity</a>.</p>
+<p dir="ltr">Organizations have seen <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/move-app-to-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the value of building </a><a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/move-app-to-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">microservices</a>—delivering applications as discrete functional parts, each of which can be delivered as a container and managed separately. But for every application there are more parts to manage, especially at scale.</p>
+<p dir="ltr">Kubernetes solves that problem by providing an extensible, declarative platform that <a target="_blank" href="https://techbeacon.com/enterprise-it/capistrano-kubernetes-lessons-phraseapps-transition" rel="noopener noreferrer">automates the management of containers</a> for high availability, resiliency, and scale. But Kubernetes is a big, complex, fast-moving, and sometimes confusing platform that requires users to develop new skills. The Kubernetes project itself recently completed a security audit. (Here&#8217;s <a target="_blank" href="http://techbeacon.com/enterprise-it/kubernetes-security-audits-what-admins-need-know-do" rel="noopener noreferrer">what admins need to know</a> about it.)</p>
+<p dir="ltr">Companies developing their <a target="_blank" href="http://techbeacon.com/enterprise-it/kubernetes-heralds-cloud-native-era" rel="noopener noreferrer">cloud-native strategies</a>, including <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/ai-cloud-ops-efficiency?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">what platforms and tools they should use</a> to ensure the safe deployment of cloud-native apps, may benefit from understanding Kubernetes&#8217; security challenges, which fall into four main buckets.</p>
+<p dir="ltr">Here are the challenges you&#8217;ll face, and recommendations for mitigating them.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>1. Hardening and compliance</h3>
+<p dir="ltr">When using Kubernetes, you must be hyperfocused on what is and is not turned on by default. For example, pod security policies are key to securing a multi-tenant cluster, but the feature is still beta and is not turned on by default. The feature-rich Kubernetes platform can make it <a target="_blank" href="https://techbeacon.com/enterprise-it/how-configure-harden-your-managed-kubernetes-services" rel="noopener noreferrer">challenging to understand the default features</a>, but it is essential to figure it out.</p>
+<p dir="ltr">Organizations can <a target="_blank" href="https://techbeacon.com/security/4-lessons-soc-metrics-what-your-secops-team-needs-know" rel="noopener noreferrer">use security benchmarks</a> to help harden Kubernetes. The Center for Internet Security, for example, provides configuration guidelines to harden systems, <a target="_blank" href="https://www.cisecurity.org/benchmark/kubernetes/" rel="nofollow noopener noreferrer">including Kubernetes</a>, against evolving cyber threats.</p>
+<p dir="ltr">Having this type of step-by-step checklist can go a long way toward securing a system as complex as Kubernetes. However, since security is always about risk management, organizations need to evaluate <a target="_blank" href="https://techbeacon.com/app-dev-testing/3-best-practices-container-performance-testing" rel="noopener noreferrer">the impact of certain settings on performance</a> and weigh the risks versus the benefits.</p>
+<p dir="ltr">Some organizations don&#8217;t have the skillsets or time <a target="_blank" href="https://techbeacon.com/enterprise-it/6-best-practices-highly-available-kubernetes-clusters" rel="noopener noreferrer">to harden Kubernetes</a> on their own. It can be a huge job to ensure that the desired configuration of the cluster is set and maintained to include things such as ensuring access to the API server is always over HTTPS, that X.509 certificates are used to authenticate communication between platform components, or that the etcd datastore is encrypted.</p>
+<p dir="ltr">Organizations that are overwhelmed by even this relatively short list might want to consider a commercial implementation of Kubernetes that has already done the hardening.</p>
+<h3>2. Managing configurations of all workloads deployed on the cluster</h3>
+<p dir="ltr">In addition to managing the configuration of the cluster, organizations need to manage the configurations of all the workloads running on the cluster. You can use the <a target="_blank" href="https://helm.sh" rel="nofollow noopener noreferrer">open-source tool Helm Charts</a> to <a target="_blank" href="https://techbeacon.com/enterprise-it/how-manage-containers-scale-3-challenges" rel="noopener noreferrer">automate application provisioning and configuration</a> for Kubernetes as well as to deploy simple or complex applications made up of several separate services.</p>
+<p dir="ltr">However, while Helm is very useful for managing Day 1 operations, it does not extend to Day 2 operations, which is where Kubernetes operators shine.</p>
+<p dir="ltr">Operators are a way to package, deploy, and manage complex applications designed to run on Kubernetes. Operators take human operational knowledge and encode it into software that is packaged with the application and shared.</p>
+<p dir="ltr">They make it easier for application developers to deliver automated lifecycle management for the services that run on Kubernetes. Helm Charts can also be wrapped in a Kubernetes operator and used together.</p>
+<p>When it comes to security, operators ensure that services deployed on Kubernetes maintain supported configurations; if an unsupported configuration is made to a deployed service, operators can reset the service to its original, declared configuration.</p>
+<p>The really interesting thing is that you can use Kubernetes operators to manage Kubernetes itself, making it easier to deliver and automate secured deployments.</p>
+<p><em>[ Robotic Process Automation can do mundane tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this April 28 Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with TechBeacon&#8217;s Guide. ]</em></p>
+<h3>3. Managing multi-tenant clusters</h3>
+<p>As Kubernetes scales, it becomes more and more difficult to manage all workloads deployed on the clusters and the clusters themselves. Multi-tenancy is one of the most effective ways to handle what could easily become chaotic. Indeed, Kubernetes&#8217; support for multi-tenancy has come a long way.</p>
+<p>Key capabilities include the following, (which, you should note, are not always turned on by default):</p>
+<ul>
+<li>
+<p dir="ltr" role="presentation"><strong>Namespaces,</strong> which allow organizations to isolate multiple teams within the same physical cluster when used with RBAC (defined below) and network policies.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Role-based access control (RBAC) </strong>determines whether a user is allowed to perform a given action within a cluster or namespace. To help simplify the use of RBAC, consider the use of default roles that can be bound to users and groups cluster-wide or locally per namespace.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Resource quotas in Kubernetes </strong>limit aggregate resource consumption per namespace, making systems less vulnerable to attacks such as denial of service. By default, all resources in a Kubernetes cluster are created with unbounded CPU and memory requests/limits.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Network policy for micro-segmentation</strong> specifies how groups of pods communicate with each other and other network endpoints. Policies are namespace-scoped. By default, if no policies are set in a namespace, ingress and egress traffic is allowed to and from pods in that namespace.</p>
+</li>
+</ul>
+<h3>4. Balancing security and agility</h3>
+<p dir="ltr">The pressure is on for organizations to constantly innovate, which makes it easy to treat security as an afterthought. Ideally, security is built into the DevOps cycle, but organizations will benefit by explicitly adding &#8220;sec&#8221; into the middle of DevOps—or, put another way, by <a target="_blank" href="https://techbeacon.com/security/6-devsecops-best-practices-automate-early-often" rel="noopener noreferrer">building as much security automation</a> into the pipeline as possible.</p>
+<p dir="ltr">To ensure that app dev organizations can implement security best practices, take a step back and revisit your CI/CD pipelines. Are they using automated unit and functional tests? Have they integrated automated security gates such as integrated vulnerability scanners?</p>
+<p dir="ltr">Ops can help with DevSecOps by adding features to both development and production clusters that make it easy for the app dev team to <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-microservices-broke-monitoring-how-fix-it" rel="noopener noreferrer">leverage monitoring, alerting, and logging services</a> in a uniform way while developing and deploying microservice-based apps.</p>
+<p dir="ltr">In addition, while adding a service mesh to a Kubernetes cluster may seem to add complexity, it&#8217;s actually making important business logic more visible. Previously, developers needed to build the logic into their code. Now, these capabilities can be made available as part of the Kubernetes platform, saving developers work and accelerating the delivery of microservices.</p>
+<p dir="ltr">A service mesh also provides more visibility for microservice interactions to the operations team, especially when observability and visualization of east-west cluster traffic are included as part of the service mesh solution.</p>
+<p dir="ltr">But this is not just about tools; it&#8217;s also about culture and process. Ideally, this kind of self-assessment work, along with changes to the CI/CD pipeline, is done in collaboration with the organization&#8217;s security team, creating an opportunity for <a target="_blank" href="https://techbeacon.com/devops/how-bridge-security-development-divide" rel="noopener noreferrer">developers to learn more about security and vice versa</a>. After all, there&#8217;s a shortage of security professionals, so let&#8217;s work together and spread the wealth.</p>
+<h3>Use the tools and techniques at your disposal</h3>
+<p>Build security capabilities into your software that make it as easy as possible for your organization to meet its security goals without having to rely on a large collection of point products that may or may not work well together.</p>
+<p>It&#8217;s terrific to see the Kubernetes community invest not only in traditional security evaluations, such as the Kubernetes security audit, but also in the full spectrum of capabilities that enhance security, including hardening guidance, RBAC, pod security policies, network policies, service mesh, and operators.</p>
+<p dir="ltr"><em>Want to know more? During my<a target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/" rel="nofollow noopener noreferrer"> KubeCon + CloudNativeCon Europe</a> conference session, &#8220;Kubernetes and Cloud Native Security: A State of the Union,&#8221; I&#8217;ll offer my take on the overall state of Kubernetes with regard to cloud-native security, and steps to take to address the most common challenges. The conference runs August 13-16, 2020.</em></p>
+<p><em>[ Learn how to <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">change the IT services game with ESM</a> in TechBeacon&#8217;s Guide. Plus: Download the <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/forrester-wave-esm-q419?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave for Enterprise Service Management</a> ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/4-kubernetes-security-challenges-how-address-them">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>The Power of AI &#124; Applitools</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/the-power-of-ai-applitools/</link>
 		
@@ -431,31 +506,6 @@
 <p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95121040_3285688338109273_1073127905669677056_o.png?_nc_cat=109&#038;_nc_sid=8024bb&#038;_nc_ohc=RY7nQ5uHNqUAX88tpMN&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=afd29d28cfb055fc75b31c0e450f3276&#038;oe=5ED06986" rel="noopener noreferrer"></a><br />
 <br />
 <br /><a href="https://www.facebook.com/163354693676002/posts/3285689888109118">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Enterprise Security Woes Explode with Home Networks in the Mix</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/enterprise-security-woes-explode-with-home-networks-in-the-mix/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 28 Apr 2020 21:33:38 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[Explode]]></category>
-		<category><![CDATA[Home]]></category>
-		<category><![CDATA[Mix]]></category>
-		<category><![CDATA[Networks]]></category>
-		<category><![CDATA[Woes]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/enterprise-security-woes-explode-with-home-networks-in-the-mix/</guid>
-
-					<description><![CDATA[Thanks to WFH, IoT refrigerators, Samsung TVs and more can now be back-channel proxies into the corporate network. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Thanks to WFH, IoT refrigerators, Samsung TVs and more can now be back-channel proxies into the corporate network.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/enterprise-security-woes-explode-home-networks/155280/">Source link </a></p>
 ]]></content:encoded>
 					
 		
