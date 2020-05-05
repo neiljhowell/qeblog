@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 01 May 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 01 May 2020 20:53:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,31 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Upgraded Cerberus Spyware Spreads Rapidly via MDM</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/upgraded-cerberus-spyware-spreads-rapidly-via-mdm/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 01 May 2020 20:53:49 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cerberus]]></category>
+		<category><![CDATA[MDM]]></category>
+		<category><![CDATA[Rapidly]]></category>
+		<category><![CDATA[Spreads]]></category>
+		<category><![CDATA[Spyware]]></category>
+		<category><![CDATA[Upgraded]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/upgraded-cerberus-spyware-spreads-rapidly-via-mdm/</guid>
+
+					<description><![CDATA[No longer a simple Android banker, Cerberus is now a full-fledged RAT that can take complete control of devices and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />No longer a simple Android banker, Cerberus is now a full-fledged RAT that can take complete control of devices and automatically spread via mobile device management servers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cerberus-trojan-major-spyware-targeted-attack/155415/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>4 Kubernetes security challenges and how to address them</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/4-kubernetes-security-challenges-and-how-to-address-them/</link>
 		
@@ -475,37 +500,6 @@
 <p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95586692_3285802318097875_2731273040439541760_o.png?_nc_cat=104&#038;_nc_sid=8024bb&#038;_nc_ohc=MkC-oNhx4ZIAX-dbFiG&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=1b94b3af62fb8706871581920e559f1e&#038;oe=5ECFAD3A" rel="noopener noreferrer"></a><br />
 <br />
 <br /><a href="https://www.facebook.com/163354693676002/posts/3285802428097864">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Joey Hendricks and Stijn Schepers from Accenture will be part of the panel tonig&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/joey-hendricks-and-stijn-schepers-from-accenture-will-be-part-of-the-panel-tonig/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 09:12:21 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Accenture]]></category>
-		<category><![CDATA[Hendricks]]></category>
-		<category><![CDATA[Joey]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[panel]]></category>
-		<category><![CDATA[Part]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Schepers]]></category>
-		<category><![CDATA[Stijn]]></category>
-		<category><![CDATA[tonig]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/joey-hendricks-and-stijn-schepers-from-accenture-will-be-part-of-the-panel-tonig/</guid>
-
-					<description><![CDATA[💥Joey Hendricks and Stijn Schepers from Accenture will be part of the panel tonight for our 5th #NeotysPAC about “How]]></description>
-										<content:encoded><![CDATA[
-<p><span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t40/1/16/1f4a5.png&quot;)"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span>Joey Hendricks and Stijn Schepers from Accenture will be part of the panel tonight for our 5th <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/neotyspac?source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARDlpgPgJ-bntaOr_AbOUQ7jQEge-TTI1aIgZR6aW3TdOMcpH6rjuqWmhKw6dVb8lqY1tTy7QTra8oaGhhZFr6KgZjzRZbTZMcKaKt23wy8Hb8csHJkf9NqTV51eQXZSrqM5H8V2_g_keH1B8mKhKC-DuBduINSgDL6wbhL8mEHyo0kwQX-3SRSwT1vv0YewwqhckdF5jKALHz0x7Yxux4cdEliGqxNjb73rt1jqXt8XneisRtNnB6kIHDmmf82_fGR70Njr3gOUrG3Ry5B-ZKLS7y2_5iWgyJNuTt1BQtEk1cuMeaHRUz_0DmVMFWzC8sBz-97JTxqXJ_GCeexC_dRYTg&#038;__tn__=%2ANK-R" data-ft="&#123;&quot;type&quot;:104,&quot;tn&quot;:&quot;*N&quot;&#125;" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#NeotysPAC</span></span></a> about “How AI/ML can help <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/performancetesting?source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARDlpgPgJ-bntaOr_AbOUQ7jQEge-TTI1aIgZR6aW3TdOMcpH6rjuqWmhKw6dVb8lqY1tTy7QTra8oaGhhZFr6KgZjzRZbTZMcKaKt23wy8Hb8csHJkf9NqTV51eQXZSrqM5H8V2_g_keH1B8mKhKC-DuBduINSgDL6wbhL8mEHyo0kwQX-3SRSwT1vv0YewwqhckdF5jKALHz0x7Yxux4cdEliGqxNjb73rt1jqXt8XneisRtNnB6kIHDmmf82_fGR70Njr3gOUrG3Ry5B-ZKLS7y2_5iWgyJNuTt1BQtEk1cuMeaHRUz_0DmVMFWzC8sBz-97JTxqXJ_GCeexC_dRYTg&#038;__tn__=%2ANK-R" data-ft="&#123;&quot;type&quot;:104,&quot;tn&quot;:&quot;*N&quot;&#125;" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#PerformanceTesting</span></span></a>” with Stefano Doni, Luca Forni, Giovanni Paolo Gibilisco, Andreas Grabner, Alan Gordon, Wilson Mar, Leandro Melendez, Ian Molyneaux, Siva Murugan O K, Alexander Podelko, Henrik Rexed, Scott Stevens, Brian Wilson and Jonathon Wright <span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f37b.png&quot;)"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span><span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t91/1/16/2615.png&quot;)"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span> </p>
-<p> Registration here <span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png&quot;)"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span><a target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F35lDcSD%3Ffbclid%3DIwAR3L-xUwbqreF8P0W0-m8KV_kNFgvdQ8LrKi1wkLwoZJL8UaYf3LlwoJLhE&#038;h=AT0VuXbrxOZTOvoi5hDaB6ROhtGZVvhfIwdAr_F5ahVTXJTVYA9qtusx-0-yB_hguTHgHCMOUk3KZ3uI228E-2fG-mQSOIXCmNeOj56MRrp9Jj_hLZftQnsfLU_JSVxveqSvbsx5u7wyH0ScxNPq2mCb9kDh2ReyAkK9Vjp5vE98Tu4Z1QkVVLtbTfGZuVw6idQZuTdRfAzck-lZaukyKsUG9Ih7DsVCq8yJVO5hXn4LbF8ckN8P8xBnoW-lWOQADnmRmii_HYvuBekkJlahywVGQPd5M2IXUHXEb9A85OQpaWeaLzRlY_gVJZQR2-L1ZHYsT4vqN8fsi5B50EAvxd_iZD5l0S5AoiJGEvAEbGrtgADbS5kTpPoNCbQnju5X5W3BCGGGEjvx6V9WCgFUoqGVvykafT95grqeDBsLDe6iiS-U7EamolEDqncXT_nFAY-umH2jDuWYUu6A8W2APaPUKsJqYWDoha3lTsBwdT6MrG1bNJWiLdNMDRJXhoPayUpYOIfR_BUPSF1ZZ4MBY0LDwUoDnVOJLRhJQ1wW38GMFpPMzWsUtcMBBROYOvT30jhwkkX3JGQ1ffi0rrfCNHZnoN2Y4q7OE2TgdjT3YyrRAmUBQGXtRWp_PUqROt4HxhRc-xoqaA" data-ft="&#123;&quot;tn&quot;:&quot;-U&quot;&#125;" rel="noopener nofollow noreferrer" data-lynx-mode="async">https://bit.ly/35lDcSD</a></p>
-<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95121040_3285688338109273_1073127905669677056_o.png?_nc_cat=109&#038;_nc_sid=8024bb&#038;_nc_ohc=RY7nQ5uHNqUAX88tpMN&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=afd29d28cfb055fc75b31c0e450f3276&#038;oe=5ED06986" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3285689888109118">Source</a>  </p>
 ]]></content:encoded>
 					
 		
