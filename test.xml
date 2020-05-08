@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 01 May 2020 20:53:49 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 07 May 2020 10:00:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,161 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Naikon APT Hid Five-Year Espionage Attack Under Radar</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/naikon-apt-hid-five-year-espionage-attack-under-radar/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 May 2020 10:00:16 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[APT]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Espionage]]></category>
+		<category><![CDATA[FiveYear]]></category>
+		<category><![CDATA[Hid]]></category>
+		<category><![CDATA[Naikon]]></category>
+		<category><![CDATA[Radar]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/naikon-apt-hid-five-year-espionage-attack-under-radar/</guid>
+
+					<description><![CDATA[The Chinese APT has been discovered behind a five-year espionage campaign that compromises government servers &#8211; and uses that as]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The Chinese APT has been discovered behind a five-year espionage campaign that compromises government servers &#8211; and uses that as leverage for other attacks.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/naikon-apt-five-year-espionage-attack/155492/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to get started with enterprise service management: 8 key steps</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/how-to-get-started-with-enterprise-service-management-8-key-steps/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[Service]]></category>
+		<category><![CDATA[started]]></category>
+		<category><![CDATA[steps]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/how-to-get-started-with-enterprise-service-management-8-key-steps/</guid>
+
+					<description><![CDATA[There has never been a better time to get started with enterprise service management (ESM). The vendor landscape has solidified,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>There has never been a better time to get started with enterprise service management (ESM). The vendor landscape has solidified, and TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyer’s Guide to Enterprise Service Management Products</a> reveals a market that&#8217;s competing vigorously for your business.</p>
+<p>Charles Betz, who wrote <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/forrester-wave-esm-q419?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">The Forrester Wave for Enterprise Service Management</a>, said the products interoperate nicely and are easier to use than those of earlier generations.</p>
+<blockquote>
+<p>&#8220;Any of these tools is a credible alternative—even the ones that come in last in the &#8216;Wave.&#8217; There are around 400 tools to choose from—it&#8217;s crazy—and they all offer value of some kind.&#8221;<br />—<a target="_blank" href="https://twitter.com/CharlesTBetz" rel="nofollow noopener noreferrer">Charles Betz</a></p>
+</blockquote>
+<p>Couple that abundance of choice with enhancements that add AI, automation, machine learning, and predictive capabilities, and you have a new ESM game where businesses can save money while supporting their customers and employees with new levels of responsiveness and efficiency.</p>
+<p><a target="_blank" href="https://content.microfocus.com/it-service-management-tb/automation-ai-and-analytics-reinventing-itsm?lx=-rqtPA" rel="noopener noreferrer">A 2019 EMA study</a><a target="_blank" href="https://content.microfocus.com/it-service-management-tb/automation-ai-and-analytics-reinventing-itsm?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer"> </a>found that 87% of the organizations surveyed already had some level of ESM underway. So, many of your competitors are likely already reaping some of the benefits of ESM: increased customer satisfaction, scalable efficiency, and enhanced productivity. </p>
+<p>If you&#8217;ve been waiting for the right time to <a target="_blank" href="https://techbeacon.com/enterprise-it/5-ways-overcome-practical-political-challenges-esm" rel="noopener noreferrer">introduce ESM to your organization</a>, there&#8217;s no longer any reason to stall. As they say, the best time to plant a tree was 20 years ago. The second-best time is today.</p>
+<p>Having a lot of tools to choose from can be overwhelming, but don&#8217;t worry about that quite yet. You don&#8217;t start by looking for the right tools; you start by looking for the right project. First you need to be sure you know exactly what you need to accomplish, and why that&#8217;s worth doing.</p>
+<p>Many organizations have experience with <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/itsm-tools-practices?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">IT service management (ITSM)</a>, but that&#8217;s not quite the same thing. </p>
+<p>A key difference between ESM and ITSM is scope. ITSM refers to services delivered by IT—things such as provisioning laptops, managing cloud services, and patching and upgrading servers. ESM is a much larger idea, covering all kinds of non-IT services your enterprise delivers to customers and employees, such as hiring, catering, business travel, and sales call requests.</p>
+<p><a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/extend-it-service-management?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">ESM is a long-term strategy</a> for an organization and can add significant value to the business across many dimensions, over many years. But it will die after the first try in your organization if the first project is overly complex, takes too long, or delivers a mediocre result in an area that nobody really cares about.</p>
+<p>Here are eight ways to set yourself up for success with a smart ESM project that will prove the value of service management and lay the foundation for your ESM road map—and <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">your digital transformation</a>—for years to come.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>1. Choose a progressive department</h3>
+<p>The IT department is used to service management automation, but other departments might find it harder to embrace it. You&#8217;ll be miles ahead if you can run your project in an area of the organization that welcomes experimentation.</p>
+<p>Look for a department that is known for being progressive, with managers who are not afraid of the uncertainties that come with trying new technologies and practices.</p>
+<p>Avoid spinning up your initial project in a department where teams are afraid to make mistakes. They will be slower to learn and will not have the proper support and confidence to move ESM forward, said Doug Tedder, principal of Tedder Consulting.</p>
+<blockquote>
+<p>&#8220;Successful companies understand that progress often requires you to fail fast and learn fast. [Their attitude is], if we don’t succeed at first, what did we learn? Let’s make changes and try again.&#8221;<br />—<a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a></p>
+</blockquote>
+<p>There is practical value in letting one area of the business step up to be the pioneers for ESM projects. Their experience will pave the way for projects across the whole organization.</p>
+<p>In a couple of years, that group will be prepared to tackle more difficult ESM challenges, such as how to make sure you handle privacy data properly, he said. Without that well-supported learning model, the organization as a whole may take much longer to reach the level of ESM maturity that will let it take advantage of emerging technologies and competitive opportunities.</p>
+<h3>2. Look at different request-fulfillment workflows</h3>
+<p>Straightforward service requests of every kind are &#8220;low-hanging-fruit targets for starting ESM,&#8221; Tedder said. Human resources is a natural place to expand these principles beyond IT, because HR is usually &#8220;fairly well-defined regarding function and responsibilities and handles many requests from both within and external to the organization,&#8221; he said.</p>
+<p>Phyllis Drucker, a senior consultant at Linium, said HR tended to be forward-thinking about automation, considering chatbots, for example, for their portals &#8220;even out of the gate.&#8221;</p>
+<blockquote>
+<p>&#8220;[HR organizations are] far more focused on the employee experience than many IT groups, who are more focused on the technical aspects of support.&#8221;<br />—<a target="_blank" href="https://twitter.com/msitsm" rel="nofollow noopener noreferrer">Phyllis Drucker</a></p>
+</blockquote>
+<p>A fairly typical HR implementation will include setting up a portal to handle some of the more frequent HR requests. This involves importing existing knowledge into the tool&#8217;s knowledge base, and then instrumenting a common chatbot script that looks for answers or submits simple requests, according to Drucker.</p>
+<p>Other corporate areas to consider are facilities, internal catering services, or really any internal support organization that receives and processes requests from another area of an organization, Tedder said.</p>
+<p>When you find situations where end users, employees, or customers are currently using email or phone calls to request information or services, &#8220;they are falling-off-the-tree ripe for ESM,&#8221; according to <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/enterprise-service-m?lx=XrrwBl" rel="noopener noreferrer">a 2019 EMA report</a> titled &#8220;Enterprise Service Management: It&#8217;s Closer Than You Think.&#8221; It&#8217;s based on in-depth research with 400 global IT executives.</p>
+<p>Even if you use ESM only to log and track a request, close the ticket when the work is done, and deliver regular reports, you will have delivered a winning ESM project with measurable value. You&#8217;ll be replacing manual workflows where requests can get lost, forgotten, or misdirected with order, accountability, speed, and increased customer satisfaction.</p>
+<p><em>[ Robotic Process Automation can do mundane tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this April 28 Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with TechBeacon&#8217;s Guide. ]</em></p>
+<h3><span>3. Choose projects with limited risks</span></h3>
+<p>Make sure you start with smaller, internal processes before you jump into a workflow that customers see, Tedder said. Internal processes let you learn by doing, see results, and make adjustments, he said.</p>
+<p>Customer-facing processes are less forgiving and can even damage your brand if something clumsy happens.</p>
+<p>And remember that it’s very risky to work with regulated data and systems during your initial projects. Sales and financial departments are not the best places to experiment.</p>
+<blockquote>
+<p>&#8220;Eventually they will benefit from what you learn on the other things.&#8221;<br />—Doug Tedder</p>
+</blockquote>
+<p>Always bear in mind that <a target="_blank" href="https://techbeacon.com/enterprise-it/how-extend-it-service-management-whole-business" rel="noopener noreferrer">your entire organization will be learning to trust service management</a>, and each successful project will build experience and credibility across the business. Limiting the exposure to risk, especially early on, will make everyone more comfortable.</p>
+<h3>4. Get to launch quickly</h3>
+<p>Limit the scope so you don&#8217;t run out of oxygen before you can launch. Don&#8217;t choose initial projects that will take six months or a year to complete, said Tedder. Think in terms of small, quick iterations of work.</p>
+<p>Look at things that you can spin up in a month or two, and that will begin delivering measurable improvements within a quarter or two.</p>
+<p>If your sponsor wants to tackle something big, break it up into phases, and make sure the first phase is meaningful and can be finished quickly.</p>
+<h3>5. Use existing tools when you can</h3>
+<p>People sometimes discover products already in use somewhere in the organization that could be used for ESM. Of course, not all tools can be leveraged for this purpose.</p>
+<p>For example, it is very likely that someone is using some kind of ticket-tracking tool somewhere in your organization, but it might not turn out to be an ESM tool, said Tedder. You may even discover that some of those using a ticket-tracking tool are trying to use it to manage their ESM demands and are struggling, he said.</p>
+<p>This kind of tool would not be a good fit for your ESM project.</p>
+<p>As you look for tool capabilities that would support ESM, Tedder suggested you look for:</p>
+<ul>
+<li>Workflow definition and automation</li>
+<li>Queue management</li>
+<li>Performance reporting</li>
+<li>Service request catalog support</li>
+<li>Service portfolio support</li>
+<li>Escalation/alerting</li>
+<li>Ability to pre-define models (for managing requests, incidents, etc.)</li>
+</ul>
+<p>If you do <a target="_blank" href="https://techbeacon.com/enterprise-it/how-choose-it-service-management-tool" rel="noopener noreferrer">find existing ITSM tools</a> that you want to use for ESM, Tedder suggested you be very smart about how you use them.</p>
+<blockquote>
+<p>&#8220;In my experience, many organizations are too concerned with the implementation of the tool and do not put any effort into the design of processes, measurement, and continual improvement—things that are critical for ESM success.&#8221;<br />—Doug Tedder</p>
+</blockquote>
+<p>Existing tools may not be free, so you may need to buy additional licenses when you expand the use of an existing tool. But if you can find a way to repurpose something already being used, you will benefit from having people in-house who already know how to use it, and you might be able to shave some days off of your timeline.</p>
+<h3>6. Do something that will have a measurable impact</h3>
+<p>ESM is supposed to make back-office operations better, faster, and cheaper across the organization, so select a project with the metrics to prove it. Choose something that can deliver business benefits, including reduced costs or improved speed and efficiency by implementing workflow automation, user self-service, or workload reductions.</p>
+<p>This is likely to be where most of the financial savings will be identified that will clearly demonstrate the ROI, according to <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/digital-transformation-esm?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">a recent ESM white paper</a>, &#8220;Digital Transformation &amp; ESM.&#8221;</p>
+<p>Be sure to capture all the relevant &#8220;before&#8221; metrics to show what the baseline was when using overly manual processes, delivering siloed responses to requests, and relying on shared email boxes to capture service requests.</p>
+<p>Relevant metrics will demonstrate how ESM has made something better, faster, and/or cheaper. Track things such as average response time for incoming requests, employee satisfaction ratings, average completion time for service requests, average daily requests handled per staff member, service volumes, and even customer feedback and satisfaction scores.</p>
+<p>Remember, ESM must earn the trust of the business. Data is the language you use for that.</p>
+<h3>7. Leverage existing knowledge bases</h3>
+<p>Having a good base of current, well-documented knowledge can set you up nicely for a chatbot implementation. With a good existing knowledge base, little else is needed to get started, said Linium&#8217;s Drucker.</p>
+<p>You need a service portal with an embedded chatbot and a couple of simple scripts that allow the bot to pull information from the existing knowledge base, or submit the right request for someone, she said. &#8220;I&#8217;ve seen organizations start at this level with a simple but robust script that searches for answers or submits a ticket,&#8221; said Drucker.</p>
+<p>If you have been doing ESM for a long time and have already developed good knowledge bases, the predictive tools that some ESM apps offer are the easiest place to start adding automation, Drucker said.</p>
+<blockquote>
+<p>&#8220;In some cases, you can just turn these tools on and they will almost instantly start offering up information. The effort goes into setting up the processes to deal with that information.&#8221;<br />—Phyllis Drucker</p>
+</blockquote>
+<h4>Be prepared for what it takes</h4>
+<p>Don&#8217;t underestimate the level of effort this might require. You&#8217;ll need to define exactly what should happen in every possible scenario, so your processes play by the rules of governance.</p>
+<p>These examples from Drucker highlight the level of analysis that this requires:</p>
+<ul>
+<li>If a tool displays five similar incidents and five possible fixes, does the service desk agent know how to proceed? Have results been tested enough to know how exact a match is needed to avoid doing more harm versus restoring service with a workaround?</li>
+<li>If the tool says a particular change has a 75% chance of success as documented, does the organization understand the process and risk well enough to drive the right level of authorization for the change, based on that prediction?</li>
+</ul>
+<h3>8. Take a building-block approach</h3>
+<p>It’s a good idea to think about your ESM initiatives in terms of building blocks, Tedder said. Here are some tips.</p>
+<ul>
+<li><strong>Focus on the first business problem</strong> you want to solve; maybe you can do something small in that space first. It should take weeks, not years, to solve it to some degree of completeness. Get that block in place.</li>
+<li><strong>Be responsive to the needs of the business.</strong> Design an adaptive, flexible road map that can adjust to emerging opportunities. You want to make sure that you are working on things that really matter to the entire organization, not just the requirements of one or two departments.</li>
+<li><strong>Add block after block of new ESM projects</strong> or extended AI capabilities in a regular cadence.</li>
+<li><strong>Show incremental value,</strong> using meaningful metrics mapped to business objectives.</li>
+<li><strong>Continue to roll in that way, </strong>and in two years you will have everything in place that you dreamed of, and your organization will be prepared to adopt advanced technologies as they come to market.</li>
+</ul>
+<p>You&#8217;ll also have a lot more satisfied customers and employees by then. And you&#8217;ll probably have a bigger ESM budget and staff as well.</p>
+<ol/>
+<h3>Get started</h3>
+<p>Once you have defined a project that you can pilot in a safe place, that won&#8217;t take too long to complete, and that will be meaningful to your business, you&#8217;re ready to think about tools. If you didn&#8217;t discover some tools already in place that are right for your project, you will need to add ESM to your toolkit.</p>
+<p>Get this first project right, and you will earn the trust of the business, build expertise in your team, and establish a foundation that can support the digital transformation of your business for years to come.</p>
+<p><em><span>TechBeacon&#8217;s </span><a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyers Guide to Enterprise Service Managment Products</a> will help you find products that will fit your functional requirements, environment, and team expertise. The guide provides expert advice from consultants, analysts, and ESM practitioners that will help you home in on the products you should consider for your project. It also will help you prepare a strong request for proposal (RFP).</em></p>
+<p><em>[ Learn how to <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">change the IT services game with ESM</a> in TechBeacon&#8217;s Guide. Plus: Download the <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/forrester-wave-esm-q419?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave for Enterprise Service Management</a> ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/8-steps-get-started-enterprise-service-management">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Upgraded Cerberus Spyware Spreads Rapidly via MDM</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/upgraded-cerberus-spyware-spreads-rapidly-via-mdm/</link>
 		
@@ -189,6 +344,173 @@
 		
 			</item>
 		<item>
+		<title>Accessibility Testing: Everything you need to know</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/accessibility-testing-everything-you-need-to-know/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2020 06:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Accessibility]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/accessibility-testing-everything-you-need-to-know/</guid>
+
+					<description><![CDATA[Note: Today’s guest post author, Giridhar Rajkumar, holds many roles: speaker, author, founder, and instructor. He founded Tips for Test]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"></figure>
+</div>
+<p><em/><em>Note: Today’s guest post author, Giridhar Rajkumar, holds many roles: speaker, author, founder, and instructor. He founded Tips for Test Automation, LearnDevTestOps, and The Tester’s Hub. He serves as a Cypress.io ambassador. Giridhar has 10+ years of experience as a test automation consultant at Wipro Limited. </em></p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://lh6.googleusercontent.com/1S01k9gj05kAcZFsLt4wLfv10MUXiJMW4_iK92ahMzH_3OJ7ewS0ur2g9oeapRpi6XIW9EaIL2OcTnvizFKenDuwvd9yauJF6J5JYHbk3eZRRKbHGi4-4u7U_q5oxtDekYaSq_75" alt=""/></figure>
+</div>
+<p>We all are living in a Digital Era where the smartphones and web applications dominate everything we do in day-to-day activities some way or the other. The time we spend daily interacting with our phones or laptops is huge these days.</p>
+<p>We need to understand the fact that not all people would be able to use today’s mobile or web applications in the same way. There are people with various disabilities which makes the usage of some applications not accessible to them.</p>
+<p>An application should always be built keeping in mind about all types of end-users. Considering the statistics released by the <a target="_blank" href="https://www.worldbank.org/en/topic/disability" rel="noopener noreferrer">WorldBank</a> – </p>
+<p><strong><em>“One billion people or 15% of the world population undergo some sort of disability.”</em></strong></p>
+<p>So, as an organisation, it is our foremost duty to consider accessibility testing a priority before we release any applications to our end users.</p>
+<p>In this article, we will see a few types of common disabilities, how to perform accessibility testing and some of the commonly used tools in the market to perform various types of accessibility testing.</p>
+<h2><strong>Types of disabilities</strong></h2>
+<p>There are multiple types of disabilities people will face at some point in time in their life. Here are some common disabilities:</p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/TyixQITmkVerxSQFv0RXl7IlFutuDlNIR0a-NZQQbEeGfzaEFgM-lWq22t-55gG68m38g3X3OWyeGTqgDPfUhMBdJmmwLBPAvY6GXkfifK6QnZrt-dnaSvPFQy5nZYGrAcH0uwwm" alt="" width="447" height="447"/></figure>
+</div>
+<ol>
+<li>Physical Disability </li>
+<li>Cognitive Disability </li>
+<li>Eyesight / Vision Disability </li>
+<li>Hearing Disability</li>
+<li>Temporary Disability</li>
+</ol>
+<p><strong><em>Physical Disability</em></strong> is a kind of a disability where people may have challenges with speaking, rely on motorised equipment and cannot access physical devices like a keyboard or mouse to interact with the applications.</p>
+<p><strong><em>Cognitive Disability</em></strong> is the type in which people have poor memory and have difficulties in understanding and expressing their thoughts to the other person.</p>
+<p><strong><em>Eyesight disability</em></strong> is one of the most ¹ disabilities and again, according to the <a target="_blank" href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment" rel="noopener noreferrer">World Health Organisation</a>, around 2.2 million people globally have visual impairments or blindness.</p>
+<p><strong><em>Hearing Disability</em></strong> is the inability to hear. This can be partial or complete deafness.</p>
+<p><strong><em>Temporary Disability</em></strong> can occur due to environmental conditions, illness or accidents and mostly a temporary situation.</p>
+<h2><strong>How to perform Accessibility Testing?</strong></h2>
+<p>Now that we know the common disabilities, it’s time for us to know how we can leverage the testing strategies for accessibility. But before that, we need to know a few artifacts that are considered industry standards.</p>
+<p>Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C) has issued a set of guidelines known as ‘The Web Content Accessibility Guidelines (WCAG)’ which organisations must strictly follow to make the application accessible to people with disabilities. The different phases of SDLC should follow these set of guidelines as part of their <em>Non-Functional Testing </em>process.</p>
+<p>These guidelines can be found <a target="_blank" href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="noopener noreferrer">here</a>.</p>
+<p>For each and every guideline, there are testable success criteria, which are at three levels:</p>
+<ul>
+<li>A (lowest)</li>
+<li>AA (mid-range)</li>
+<li>AAA (highest)</li>
+</ul>
+<p>These levels may vary from different organisations and in different situations. Conformance at higher levels indicates conformance at lower levels. For example, by conforming to AA, a Web page meets both the A and AA conformance levels. Level A sets a minimum level of accessibility and does not achieve broad accessibility for many situations. For this reason, UC recommends AA conformance for all Web-based information.</p>
+<p>Many organisations practically do accessibility testing by recruiting real-time testers in their own abilities to validate whether their product meets the correct user experience.</p>
+<p>Having said that, let’s now see how we can perform accessibility testing for the types of disabilities we read about earlier.</p>
+<h3><strong>Physical Disability</strong></h3>
+<ol>
+<li>Check whether there is voice recognition software and test its consistency</li>
+</ol>
+<ol start="2">
+<li>For people with a speech disability, check whether the physical keyboard is efficient to use</li>
+</ol>
+<ol start="3">
+<li>People with a motor disability should have an option to find human help in case of emergencies</li>
+</ol>
+<ol start="4">
+<li>Test the application with a specialised mouse for people who have limitations in muscular control</li>
+</ol>
+<ol start="5">
+<li>Make sure the timeouts are configured accordingly as the user consumes more time for situations like entering the values in the form etc.</li>
+</ol>
+<h3><strong>Cognitive Disability</strong></h3>
+<ol>
+<li>Check whether the controls are clear for the users to use</li>
+</ol>
+<ol start="2">
+<li>Easily understandable menus so that the user can select what they need</li>
+</ol>
+<ol start="3">
+<li>Maximum usage of images and graphs instead of texts which make understanding the context difficult</li>
+</ol>
+<ol start="4">
+<li>Test whether the user can complete a task without unnecessary distractions like alerts, advertisements, etc.</li>
+</ol>
+<ol start="5">
+<li>Validate whether there is an option to find human help</li>
+</ol>
+<h3><strong>Eyesight / Vision Disability</strong></h3>
+<ol>
+<li>Test whether the application provides keyboard shortcuts for all the operations used by a mouse</li>
+</ol>
+<ol start="2">
+<li>Text to audio converters</li>
+</ol>
+<ol start="3">
+<li>Magnifiers in place for fewer vision abilities</li>
+</ol>
+<ol start="4">
+<li>Fonts used are satisfying the rules of W3C Accessibility Checker</li>
+</ol>
+<ol start="5">
+<li>Color blindness filters</li>
+</ol>
+<h3><strong>Hearing Disability</strong></h3>
+<ol>
+<li>Test whether the application alerts the users with vibration even when that feature is turned off (mobile apps)</li>
+</ol>
+<ol start="2">
+<li>Providing manuals in sign language for better understanding the application</li>
+</ol>
+<ol start="3">
+<li>Flash alerts in mobile phones like led lights flashing during incoming calls</li>
+</ol>
+<ol start="4">
+<li>Audio to text converters in place</li>
+</ol>
+<h3><strong>Temporary Disability</strong></h3>
+<p>This type of disability is spontaneous and can happen anytime in one’s life. This can include a foreign person using an ATM in a region where the language could be a barrier. In this case, we need to see if there is an option in the ATM system to use a common language, commonly English to control.</p>
+<p>There might be a situation where a person can have a broken arm or undergo surgery on one eye. So we need to ensure whether the application we develop can be adapted by the user during those situations without giving stress to the users.</p>
+<p>Though we are in a digital era, not all disabilities are identified and addressed. So in reality, unfortunately not all types of disabilities are considered while an application is built and released.</p>
+<h2><strong>Tools to perform Accessibility Testing</strong></h2>
+<p>With all the guidelines defined according to W3C standards, one or more tools can be used to validate the required success criteria of the application. Accessibility testing can be achieved either manually or automated. There are several open-source and commercial tools in the market to test the application for accessibility compliance. </p>
+<p>Following are some of the tools that can be used.</p>
+<h3><strong>Screen Magnification</strong></h3>
+<p>People with limited vision may not be able to read the content with the normal font size. Such people need to zoom in on the content to read it.</p>
+<p><em>Magnifier </em>App in Windows and <em>Zoom </em>option in macOS are excellent tools. </p>
+<h3><strong>Color Contrast Analyser</strong></h3>
+<p>Color Contrast Analyser (CCA) helps to keep sufficient contrast between foreground and background colors by providing appropriate test results.</p>
+<h3><strong>Applitools Contrast Advisor</strong></h3>
+<p>The forthcoming Applitools Contrast Advisor uses AI powered computer vision (Visual AI) to help identify potential contrast violations. If the measured contrast ratio in text or images is less than the minimum defined by WCAG then a contrast accessibility failure is flagged for that element. It can be used for both web, mobile web, and native mobile applications.</p>
+<p>Users can toggle between WCAG 2.0 or 2.1 as well as AA or AAA to be advised on how well their website or application complies. </p>
+<p>This product can be enabled within your existing automation framework with a simple line of code, or easily configured to automatically scan your site or application without writing a single line of code.</p>
+<p>Applitools Contrast Advisor will be available in limited release starting in mid-May.</p>
+<p><a target="_blank" href="https://applitools.com/request-demo/" rel="noopener noreferrer">Contact Applitools to schedule an early-preview demo today</a>.</p>
+<h3><strong>Screen Readers</strong></h3>
+<p>Screen readers are the tools used for narrating the content of a page. A screen reader can narrate everything for the user like the texts on the website, links, checkboxes, radio buttons, images, etc.</p>
+<p>Here are some famous screen readers for browsers and mobile devices:</p>
+<ul>
+<li><em>IE and Chrome:</em> JAWS (Job Access With Speech)</li>
+<li><em>Firefox</em>: NVDA (Non-Visual Desktop Access)</li>
+<li><em>Safari</em>: Voice Over </li>
+<li><em>iPhone</em>: Voice Over</li>
+<li><em>Android</em>: Talkback </li>
+</ul>
+<h3><strong>Speech Recognition Tools</strong></h3>
+<p>Speech recognition tools are used to interact with the application by dictating text or commands to it. It can be used to dictate text, control buttons, links, open an application and other controls. Windows Speech Recognition, Apple Dictation and Dragon are some common Speech Recognition tools.</p>
+<h3><strong>Axe Browser Plugin</strong></h3>
+<p>Axe is a browser plugin for Chrome and Firefox web browsers. It scans the web page to find for WCAG 2 (Web Content Accessibility Guidelines 2) and Section 508 (Standards defined for Federal Agencies) accessibility and reports the violations. The axe-Chrome extension utilizes the axe open-source JavaScript library developed by Deque Systems.</p>
+<h3><strong>WorldSpace Attest from Deque</strong></h3>
+<p>The Worldspace Attest is a toolkit used by developers while they code. It supports the shift-left approach to identify the accessibility issues (as per the guidelines defined by WCAG, Section 508, etc.,) much earlier in an automated fashion. This has the feature to integrate with the existing test automation framework which will check for the compliance issues while the functional tests run.  It currently supports all major browsers like IE, Chrome, Safari, Firefox. It has extensive support for both iOS and Android devices as well.</p>
+<h2><strong>It’s Everyone’s Right!</strong></h2>
+<p>As per the United Nations Convention on the Rights of Persons with Disabilities (UN <a target="_blank" href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" rel="noopener noreferrer">CRPD</a>), access to information and communications, including web &amp; mobile applications, is defined as a basic human right and applications must comply to Accessibility Standards.</p>
+<p>Performing accessibility testing will help us make our applications friendly to those with disabilities, thus offering them equal rights to the digital world. </p>
+<p><strong><em>Remember, everyone will become disabled in some way, sometime, in our lives as part of nature’s cycle.</em></strong></p>
+<h2><strong>References:</strong></h2>
+<h2>For More Information</h2>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/accessibility-testing-strategy/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Sauce Labs Offers Software Testing to COVID-19 Innovators</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/sauce-labs-offers-software-testing-to-covid-19-innovators/</link>
 		
@@ -344,155 +666,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/app-dev-testing/performance-reality-check-how-keep-unexpected-surges">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>5th #NeotysPAC Meet-UP</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/5th-neotyspac-meet-up/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 14:15:43 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[5th]]></category>
-		<category><![CDATA[meetup]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/5th-neotyspac-meet-up/</guid>
-
-					<description><![CDATA[🍻☕️ Don’t forget, tonight (9pm CET &#8211; 2pm EDT) there is our 5th #NeotysPAC Meet-Up about “How AI/ML can help]]></description>
-										<content:encoded><![CDATA[<p><br />
-</a></p>
-<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Don’t forget, tonight (9pm CET &#8211; 2pm EDT) there is our 5th <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3286212784723495%3Atop_level_post_id.3286212784723495%3Atl_objid.3286212784723495%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3286212784723495%3Apage_id.163354693676002%3Aphoto_id.191014848539073%3Astory_location.4%3Astory_attachment_style.video_inline%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1588169743%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3286212784723495%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3286212784723495%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1588316399%3A-7153527716436829758&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet-Up about “How AI/ML can help <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3286212784723495%3Atop_level_post_id.3286212784723495%3Atl_objid.3286212784723495%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3286212784723495%3Apage_id.163354693676002%3Aphoto_id.191014848539073%3Astory_location.4%3Astory_attachment_style.video_inline%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1588169743%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3286212784723495%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3286212784723495%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1588316399%3A-7153527716436829758&amp;__tn__=%2As-R" rel="noopener noreferrer">#PerformanceTesting</a>”. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /> Join our panel of experts to discuss and share your experience. Last chance to register <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F35lDcSD%3Ffbclid%3DIwAR0X3WisBF50rFG2kp5_OwitFJTkALqnyogF7IIoAc17tvqq6msqJfxUt84&amp;h=AT2ggzsDqLJm1gEP4K96iLnxggv2BpG4oCHN2g36qYV9qEcMvoWcVrPaqr5in8t624FQt63Lv8Kv2CYO0dka53_EdIO7n7REKTQuSRj1wHRkE6IUYih8GJYpjtf0R0spZ-TEmJ26BsHSnwIRJCI28FCy8fcGOLFxrfkELPCcjNVliZF8ltQGaJX4vxCzGiKmlsi6rwdLsGycEvHkJXPBlAJYdCpBiZD6_qYdpDABi9kjegermZBzi-_kHGXzXAZe-oj-7D7GH_JlbLVqo0KL0TTprX5wBzrJYNShu0Dveg-JZBrFhN41PTeF0-HLRoyOnE5M1iCGtAtpz_uTpUiMpxCpYd_dJggpOLd9emHxeE-RJXId-BwZ-iQbu0E60XDmmOCQXBMSj8ZzmTE5C5FUyxNZtB3FpNpBcTsmo2TzDKOkahzozCUAlIOS_mK263BsRnqNPge7qpvW3GHtPUVk3JYCKigJdMcIQW25kxpUIH5wlE6GOfkPWgy3qoqXgVzj0BSm1zslUQkzrafExogvipWkvOhgipttc-j---p4P49_XsHX4EejB4Oi52O8XM_NDgeD0xkjH55DOXAx4TECjUV-59P0pFpUol8iQyxk5xfXZhf_cZ8cW5U8zzWUBm28v8jK6PSOIWJvlfj_SWxcE5ee_wfCVBBeNKfgA-u4Z_OXlvJYxp1Ldu5nDP65xTGcLcRV2UL4H4PlQl7Zicq54Mxb_9CymHYboAavvROgLtJr-KbzSlQxfrrP1RoFTt2js0Z8t8zFplqZtuyB7qHkmBDMvROU0yUktu5kLwx3KVsz6EzanGRc0dPZ4yCyoNZjgXylT3VbR6hPbghNmHeuAy0Zjflwp3atIVbc77wCgqn41z6xFPaFP222gA_05oBW5OKk0zxc4_mVgM7rQP9INSIQCUGUnDHiV_UBAiz3nZrdtSuAaBPzBngzEDYu0vkJQHMu37FbNYVJMTkVhlcHjOH_5NeKdp7cxquTdif5r9u8Es54EuY9ZgZwqcYKnb9HqDkM6XkgSJ2IesyBVq8gTAxUMOWwUr9gSUCkXWTXxu48bJNPh53LSbvDJH2Dnn8FYzLHFekpvruKQBDuljCskj2tUmpExjIgZccNeG-KCiqCml7lv4dQbdqxSQUQXGXIM3M58UzJUAziavBIkqDGOnk9AMGbm8j62_1W026MQUJCtsfIvmNj7bubooUml3VJTWNdX42e5QOIVlEVWFvVav1Cmw" rel="noopener noreferrer">https://bit.ly/35lDcSD</a>
-</p>
-<p> <div id="fb-root"></div><script>window.fbAsyncInit = function() {FB.init({appId      : '',xfbml      : true,version    : 'v2.5'});var my_video_player;FB.Event.subscribe('xfbml.ready', function(msg) {if (msg.type === 'video') {my_video_player = msg.instance; my_video_player.unmute();}});};(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));  </script><div class="fb-video"    data-autoplay="false" data-allowfullscreen="true" data-href="https://www.facebook.com/video.php?v=something&set=vb.500808182&type=1"><div class="fb-xfbml-parse-ignore"></div></div>
-
-
-	
-
-<div id="fb-root"></div><script>window.fbAsyncInit = function() {FB.init({appId      : '',xfbml      : true,version    : 'v2.5'});var my_video_player;FB.Event.subscribe('xfbml.ready', function(msg) {if (msg.type === 'video') {my_video_player = msg.instance; my_video_player.unmute();}});};(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));  </script><div class="fb-video"    data-autoplay="false" data-allowfullscreen="true" data-href="https://www.facebook.com/video.php?v=191014848539073&set=vb.500808182&type=1"><div class="fb-xfbml-parse-ignore"></div></div>
-
-
-	
-
-<br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3286212784723495">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>EFF: Google, Apple’s Contact-Tracing System Open to Cyberattacks</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/eff-google-apples-contact-tracing-system-open-to-cyberattacks/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 13:40:58 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apples]]></category>
-		<category><![CDATA[ContactTracing]]></category>
-		<category><![CDATA[Cyberattacks]]></category>
-		<category><![CDATA[EFF]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Open]]></category>
-		<category><![CDATA[System]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/eff-google-apples-contact-tracing-system-open-to-cyberattacks/</guid>
-
-					<description><![CDATA[Malicious actors could potentially harvest data over the air and use it to shake confidence in the public-health system, EFF]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Malicious actors could potentially harvest data over the air and use it to shake confidence in the public-health system, EFF says.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-apple-contact-tracing-system-cyberattacks/155287/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Performance Testing in Troubled Times (Don&#8217;t be like Robinhood)</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/performance-testing-in-troubled-times-dont-be-like-robinhood/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 13:20:58 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Dont]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Robinhood]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Times]]></category>
-		<category><![CDATA[Troubled]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/performance-testing-in-troubled-times-dont-be-like-robinhood/</guid>
-
-					<description><![CDATA[As we enter the fifth month of the year I&#8217;m sure no one predicted the trouble times we would find]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div id=""><picture class="single-article__img"><source media="(max-width: 899px)" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/04/PerfGuildInTroublesTimes-575x360-c-default.png"></source></picture>
-<p>As we enter the fifth month of the year I&#8217;m sure no one predicted the trouble times we would find ourselves in 2020.</p>
-<p>More than a few companies were caught off guard by how COVID-19 impacted traffic to their websites.</p>
-<p>The bad news is that some sites completely crashed due to the spike in traffic.</p>
-<h2>Site Down Due to Performance Issues</h2>
-<p>Image if Netflix went down for 24 hrs. Netflix usage has gone up a lot amid COVID-19, but how would you feel if you could not access it for 24 hrs due to performance issues?</p>
-<p>This is what happened to the stock trading app, <a target="_blank" href="https://robinhood.com/us/en/" rel="noopener noreferrer">Robinhood</a>. Recently, it went down for 24 hours during what was probably one of the stock market&#8217;s most significant swings—costing their users millions of dollars.</p>
-<blockquote class="twitter-tweet">
-<p dir="ltr" lang="en"><a target="_blank" href="https://twitter.com/hashtag/RobinHood?src=hash&amp;ref_src=twsrc%5Etfw" rel="noopener noreferrer">#RobinHood</a> bunch of crooks. Can’t sell my positions… for last hour. Server not working… I’m clearing all of my money out today and closing the account….. <a target="_blank" href="https://t.co/r0T5flOn99" rel="noopener noreferrer">pic.twitter.com/r0T5flOn99</a></p>
-<p>— PDXOptions823 (@PDXOptions823) <a target="_blank" href="https://twitter.com/PDXOptions823/status/1234501849463439360?ref_src=twsrc%5Etfw" rel="noopener noreferrer">March 2, 2020</a></p>
-</blockquote>
-<p>The reason for this significant outage?</p>
-<p>Due to a surge in traffic, their system struggled with unprecedented load and crashed.</p>
-<figure id="attachment_996273" aria-describedby="caption-attachment-996273" style="width: 760px" class="wp-caption alignnone"><a target="_blank" href="https://testguild.com/robinhood/robinhooddownreason/" rel="attachment wp-att-996273 noopener noreferrer"><img class="size-full wp-image-996273" alt="RobinHood Down" width="760" height="469" srcset="https://testguild.com/wp-content/uploads/2020/04/RobinHoodDownReason.png 760w, https://testguild.com/wp-content/uploads/2020/04/RobinHoodDownReason-1200x0-c-default.png 1200w" data-lazy-sizes="(max-width: 760px) 100vw, 760px" src="https://testguild.com/wp-content/uploads/2020/04/RobinHoodDownReason.png"/><noscript><img class="size-full wp-image-996273" src="https://testguild.com/wp-content/plugins/gumlet/assets/images/pixel.png" alt="RobinHood Down" width="760" height="469" sizes="(max-width: 760px) 100vw, 760px" data-gmsrc="https://testguild.com/wp-content/uploads/2020/04/RobinHoodDownReason.png"/></noscript></a><figcaption id="caption-attachment-996273" class="wp-caption-text">An Update from Robinhood’s Founders</figcaption></figure>
-<h2>Why Performance Engineering Matters</h2>
-<p>How many users and how much long-term revenue do you think Robinhood lost because of bad performance?</p>
-<blockquote class="twitter-tweet">
-<p dir="ltr" lang="en">Wow, it’s crazy <a target="_blank" href="https://twitter.com/RobinhoodApp?ref_src=twsrc%5Etfw" rel="noopener noreferrer">@RobinhoodApp</a> has been down on both it’s app and website. Can’t close opened positions. I swear the last time I use this app. This is not the First time this has happened . <a target="_blank" href="https://twitter.com/hashtag/robinhood?src=hash&amp;ref_src=twsrc%5Etfw" rel="noopener noreferrer">#robinhood</a> app crash</p>
-<p>— Optionslatte (@optionslatte) <a target="_blank" href="https://twitter.com/optionslatte/status/1234491111244169220?ref_src=twsrc%5Etfw" rel="noopener noreferrer">March 2, 2020</a></p>
-</blockquote>
-<p>Remember that top software engineering companies considers performance, not as a nice-to-have, but as a crucial feature of their products.</p>
-<p>But most engineering teams don&#8217;t regularly test the performance and scalability of their applications &amp; infrastructure, and most lack the<br />tools or knowledge to do so correctly.</p>
-<p>The good news is that this has only highlighted the importance of, and need for, more performance testing.</p>
-<p>But how will your company approach their performance engineering as we move forward? Do you have a plan in place? Do you even know where to start?</p>
-<h2>PerfGuild 2020 Registration Open</h2>
-<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="attachment wp-att-996274 noopener noreferrer"><img class="alignnone size-full wp-image-996274" alt="PerfGuild 2020" width="800" height="419" srcset="https://testguild.com/wp-content/uploads/2020/04/PerfGuild_TShirt.png 800w, https://testguild.com/wp-content/uploads/2020/04/PerfGuild_TShirt-1200x0-c-default.png 1200w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" src="https://testguild.com/wp-content/uploads/2020/04/PerfGuild_TShirt.png"/><noscript><img class="alignnone size-full wp-image-996274" src="https://testguild.com/wp-content/plugins/gumlet/assets/images/pixel.png" alt="PerfGuild 2020" width="800" height="419" sizes="(max-width: 800px) 100vw, 800px" data-gmsrc="https://testguild.com/wp-content/uploads/2020/04/PerfGuild_TShirt.png"/></noscript></a></p>
-<p>That&#8217;s why I&#8217;m excited to announce the opening of the third annual <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild</a>.</p>
-<p>I know what you’re thinking – not another online event <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>But Test Guild’s mission since <em>2017</em> has been to deliver the best of the conference experience, filled with actionable testing advice, all online.</p>
-<p>This is not a pivot, a fad, or a second option for us — we have <strong>only </strong>done and will <strong>only do</strong> <em>online conferences</em> using our proven, guild-style community-driven platform.</p>
-<p>You can trust us not to waste your time with a quickly-pulled-together, poorly run, online event.</p>
-<p>We’ll be here for you long after all the craziness going on in the world with lockdowns and social distancing is over.</p>
-<p>So we&#8217;re bringing together some of the best experts in the world when it comes to performance testing.</p>
-<p>During the conference, you&#8217;ll learn what works. More importantly, what doesn&#8217;t work for some of the top experts I could find to help you create or improve your performance engineering efforts.</p>
-<p>Check out the Third Annual PerfGuild online conference, where some of the top performance-engineering experts in the industry will teach you what is working right now.</p>
-<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">Click here to get your early-bird ticket at 50%</a>. (This offer expires May 5, after which the price will increase.)</p>
-<p>At the @testguilds #perfguild20 you&#8217;ll discover:</p>
-<ul>
-<li>Hybrid load testing using real browsers</li>
-<li>Effective performance engineering</li>
-<li>Leveraging your automation scripts for performance testing</li>
-<li>A code-first approach to performance engineering</li>
-<li>Java performance testing tips</li>
-<li>How to add front-end performance to your SDLC</li>
-<li>How to add distortion and variance to your performance tests to find black swan performance events caused by things like COVID-19</li>
-<li>Much, much more</li>
-</ul>
-<h2>Why You Should Join This Online Performance Testing Event in 2020</h2>
-<p>Here&#8217;s what a few of our past PerfGuild attendees said about their experience:</p>
-<blockquote>
-<p>“Perf Guild has probably been the best training money I have ever spent in my 18 years with Deere and 15 years with the DoD.” – Randy Stevenson</p>
-<p>“There was a lot of good info provided at a low cost. I&#8217;d definitely say its money well spent.”</p>
-<p>“The format is great, you&#8217;ve nailed it! I like that I get the social aspect from home.”</p>
-</blockquote>
-<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">Click to learn more</a></p>
-<p>I hope you&#8217;ll join us at PerfGuild and make the rest of 2020 as performant as possible.</p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '593311440870141');
-  fbq('track', 'PageView');
-</script><br />
-<br /><br />
-<br /><a href="https://testguild.com/robinhood/">Source link </a></p>
 ]]></content:encoded>
 					
 		
