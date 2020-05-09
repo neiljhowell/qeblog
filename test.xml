@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 07 May 2020 10:00:16 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 08 May 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,127 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How to improve your IT problem management: 5 must-do steps</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/how-to-improve-your-it-problem-management-5-must-do-steps/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 08 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Improve]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[mustdo]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[steps]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/how-to-improve-your-it-problem-management-5-must-do-steps/</guid>
+
+					<description><![CDATA[Those of us working in service management, and throughout IT, not only spend time and effort resolving incidents, but also helping]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Those of us working in service management, and throughout IT, not only spend time and effort resolving incidents, but also helping address users&#8217; underlying tech problems. Much of this is a consequence of a bigger problem: the time constraints of <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/optimize-it-service?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">modern IT support</a>. And, as is often the case, problems lead to more problems.</p>
+<p>Improving problem management processes and juggling incident management require striking a balance between the two. It&#8217;s not too challenging to tackle once you make the decision to <a target="_blank" href="https://techbeacon.com/enterprise-it/how-ku-transformed-its-health-system-lean-it-service-management" rel="noopener noreferrer">start fixing the problems facing the service desk</a> head on.</p>
+<p>You&#8217;re already working to capacity with daily responsibilities. Setting up and maintaining problem management can, therefore, quickly become a mundane job rather than a top-level priority. However, <a target="_blank" href="https://techbeacon.com/devops/has-devops-morphed-itsm" rel="noopener noreferrer">taking an agile attitude</a> and being open to working both reactively and proactively can streamline the process. Here&#8217;s how.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management (ESM)</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyers Guide to ESM Products</a> ]</em></p>
+<h3>1. Separate incidents from problems</h3>
+<p>While it might seem counterproductive, the most crucial step is to separate single incidents from larger problems. Log these in their own dedicated spaces.</p>
+<p>Doing so allows for clarity and transparency of the problem&#8217;s details, creates an accessible record during any investigations, and provides insight into the resources needed to fix all incidents. Additionally, this eliminates the temptation of storing everything in a single hold-all space that is typically used as a one-stop shop when dealing with a call.</p>
+<h3>2. Create a known-error database</h3>
+<p>Once you&#8217;ve identified each problem&#8217;s root cause, track these in a known-error database. Much as with incidents, keep known errors in a separate area from problems. The reason behind this is simply to allow the service desk to become more dynamic in its categorizations.</p>
+<p>In the event that you must re-categorize an error to something more suitable post-investigation, you can. Now, as you discover problems, the <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/itsm-tools-practices?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">service management solution </a>can provide an up-to-date record of shifts in your thinking and priorities. The known-error database then becomes an accessible, comprehensive archive of all problems discovered, as well as their workarounds for your team&#8217;s future use.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>3. Understand the 5 whys</h3>
+<p><a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/optimize-it-service?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Challenging the service desk&#8217;s methodology</a> helps continuously provide your team with a different perspective on daily challenges and helps identify new root causes of problems. By eliminating some of the more intensive methods for identifying problems at their core, you&#8217;re able to simplify your conflict digging.</p>
+<p>An effortless way of doing so is through the &#8220;five whys&#8221; approach.</p>
+<p>When adopting the five whys, you throw out complexity and return to a toddler-like approach to problem solving, asking, &#8220;Why?&#8221; &#8220;Why?&#8221; &#8220;Why?&#8221; Rather than deriving a foundational conclusion, you’re encouraged to ask even more about why something may be the way it is, asking a series of questions until arriving at the root cause. Continuing to ask why something is happening is key; typically, five whys is the magic number.</p>
+<h3>4. Assign a problem manager role</h3>
+<p>Assigning a member of the team or hiring someone for the position who is responsible for problem management helps improve the service desk&#8217;s entire process set. Naming an individual to help support solving problems can motivate the team in the direction of the same goal.</p>
+<p>These same individuals gain—through the course of their work—the insight needed to monitor and analyze trends to better address problem management. The problem manager helps maintain momentum for the team and supports your ability to create a better internal organization for problem solving, which helps users.</p>
+<h3>5. Share knowledge</h3>
+<p>When it comes to problem solving, perhaps nothing is better than team collaboration. Invite the team to contribute to problem management; this adds variety to their daily roles and helps identify root causes more quickly if you have colleagues who are motivated.</p>
+<p>Using the team&#8217;s knowledge also <a target="_blank" href="https://techbeacon.com/enterprise-it/customer-experience-what-counts-today-how-good-itsm-helps" rel="noopener noreferrer">helps embed cultural change</a> throughout your organization, which ultimately means better problem management for users&#8217; reported issues. </p>
+<h3>A balancing act</h3>
+<p>Improving problem management while also juggling incident management means striking a balance between the two. Setting up and maintaining problem management can quickly be addressed when you implement the processes for doing so simply and straightforwardly.</p>
+<p>The results of doing so are well worth the effort, and your organization will reap the rewards of reduced incident impact, increased staff efficiency, and, ultimately, happier customers.</p>
+<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/how-improve-your-it-problem-management-5-must-do-steps">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Exit The Test Maintenance Road to Nowhere Through Visual AI</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 May 2020 16:44:36 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Exit]]></category>
+		<category><![CDATA[Maintenance]]></category>
+		<category><![CDATA[Road]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/</guid>
+
+					<description><![CDATA[On the Test Maintenance Road to Nowhere? Your Visual AI Exit Is Just Ahead. Congrats! You just spent hours authoring]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<p>On the Test Maintenance Road to Nowhere? Your Visual AI Exit Is Just Ahead.</p>
+
+
+
+<p>Congrats! You just spent hours authoring new tests. They all passed 100% of the time. Now you can now start the real work of managing quality. That is, until the application under test starts to change. Now, the potential for instability in code-based assertions surfaces, and your maintenance nightmare ensues.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:paragraph -->
+<p>When a test fails, quality engineers spend a ton of time trying to understand the cause of the failure. Did we surface an actual regression? An unexpected new feature? An environmental issue such as a new browser or system update? A false-positive due to subtle movements in our locators? After hours of troubleshooting and frustration, we finally get the tests to pass again.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Just in time for the next candidate to come along. More tests break. We do it all over again.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.chlkgvg6lzv5">Test Maintenance Is a Road to Nowhere — How Did We Get Here?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","id":18231,"width":657,"height":438,"sizeSlug":"large"} -->
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>If you have been following this blog series about the seminal report on the <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">Impact of Visual AI Test Automation</a>, what follows next is logical — a test suite that relies on code-based locators requires you apply resources and team discipline to ensure locator consistency. Otherwise, assume your assertions likely will change between releases – making your test code unstable. <em>Test instability is the root cause of your test maintenance woes</em>. An example using this simple one-page application illustrates the point:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18236} -->
+<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:paragraph --><p>Here is a simple login page. Our job – write the code to navigate to this page and click the Login button (our test condition) and validate the response. Since we didn’t enter a username and password combination, we expect an error response requesting that we fill both fields.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Now, let’s go ahead and author our functional tests using Selenium.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18238} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2.png" alt="imageLikeEmbed 2" class="wp-image-18238" srcset="https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2.png 1280w, https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2-300x169.png 300w, https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2-1024x576.png 1024w, https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2-768x432.png 768w" sizes="(max-width: 1280px) 100vw, 1280px"/></figure><!-- /wp:image --><!-- wp:paragraph -->
+<!-- /wp:paragraph -->
+
+</div>
+<br>
+<br><a href="https://applitools.com/blog/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Naikon APT Hid Five-Year Espionage Attack Under Radar</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/naikon-apt-hid-five-year-espionage-attack-under-radar/</link>
 		
@@ -69,8 +190,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/how-to-get-started-with-enterprise-service-management-8-key-steps/</guid>
 
 					<description><![CDATA[There has never been a better time to get started with enterprise service management (ESM). The vendor landscape has solidified,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>There has never been a better time to get started with enterprise service management (ESM). The vendor landscape has solidified, and TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyer’s Guide to Enterprise Service Management Products</a> reveals a market that&#8217;s competing vigorously for your business.</p>
 <p>Charles Betz, who wrote <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/forrester-wave-esm-q419?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">The Forrester Wave for Enterprise Service Management</a>, said the products interoperate nicely and are easier to use than those of earlier generations.</p>
@@ -183,6 +303,41 @@
 		
 			</item>
 		<item>
+		<title>Meet the Experts: Marcus Merrell</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/meet-the-experts-marcus-merrell/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Experts]]></category>
+		<category><![CDATA[Marcus]]></category>
+		<category><![CDATA[Meet]]></category>
+		<category><![CDATA[Merrell]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/meet-the-experts-marcus-merrell/</guid>
+
+					<description><![CDATA[One thing we’re particularly proud of around here is our team of automated testing experts and open source contributors. We’ve]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><i>One thing we’re particularly proud of around here is our team of automated testing experts and open source contributors. We’ve got a whole team of people who eat, sleep, and breathe testing—and love to share their knowledge with others. We are kicking off a series of posts highlighting our team of experts, starting with our senior director of field services, Marcus Merrell. </i></p>
+<p><i>&#8212;&#8212;&#8212;&#8211;</i></p>
+<p>If you’ve been around the Selenium world for any length of time, you’ve likely run into <a target="_blank" href="https://twitter.com/mmerrell" rel="noopener noreferrer">Marcus Merrell</a>. As an organizing member of the Selenium Conference, Marcus is heavily involved in bringing together the Selenium open source community to meet and share ideas at the annual conference. </p>
+<p>Marcus is our senior director of field services, and he leads a team that is well qualified to help customers with their collective expertise in release management, CI/CD, cloud software and container management. He is also experienced in analytics and marketing automation. </p>
+<p>Marcus’ role at Sauce Labs allows him to do what he’s passionate about: help people build an automation program that is solid and sustainable. We recently sat down with Marcus and talked about how he does it. Watch this short video to hear what he loves about his job, advice on how to keep your builds green, and even a little insight into his musical tastes!</p>
+<p><div class="fitvids-video"><iframe title="Meet The Sauce Labs Experts - Marcus Merrell" width="800" height="450" src="https://www.youtube.com/embed/z_Sl2LrGu3Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<p>At <a target="_blank" href="https://saucecon.com/agenda-2020/" rel="noopener noreferrer">SauceCon Online</a> coming up May 12 and 14, Marcus will present on <i>Testing Better With Data</i>. Data is the key to testing better, because you need insights into what is (and perhaps more importantly, what is not) working in your testing practice. Along with his co-presenter Alistair Heys, Marcus will take a deep dive into some of the ways that data can help augment your continuous testing strategy and share how you can use analytic insights to help accelerate quality. Marcus will also sit on the Ask the Experts panel during the event. </p>
+<p>Hear from Marcus and many other experts at SauceCon Online May 12 and 14. To see the full agenda and register for free, visit the <a target="_blank" href="https://saucecon.com/agenda-2020/" rel="noopener noreferrer">SauceCon website</a>. </p>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://saucelabs.com/blog/meet-the-experts-marcus-merrell">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Upgraded Cerberus Spyware Spreads Rapidly via MDM</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/upgraded-cerberus-spyware-spreads-rapidly-via-mdm/</link>
 		
@@ -220,8 +375,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/4-kubernetes-security-challenges-and-how-to-address-them/</guid>
 
 					<description><![CDATA[The widespread use of Kubernetes is testament to enterprises&#8217; faith in their ability not just to handle the complexity of modern]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>The widespread use of Kubernetes is testament to enterprises&#8217; faith in their ability not just to handle the complexity of modern app development and <a target="_blank" href="https://content.microfocus.com/sap-modernization-enterprise-devops-tb/modernize-legacy-apps?lx=AL8Ybs&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">modernization initiatives</a>, but to do so at scale.</p>
 <p>According to <a target="_blank" href="https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf" rel="nofollow noopener noreferrer">a recent survey of 1,340 technical experts</a> in companies of all sizes, conducted by the Cloud Native Computing Foundation (CNCF), 78% of respondents are <a target="_blank" href="https://techbeacon.com/devops/one-year-using-kubernetes-production-lessons-learned" rel="noopener noreferrer">using the open-source container orchestration tool in production</a>. This is up from just 58% last year.</p>
@@ -505,167 +659,6 @@
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/accessibility-testing-strategy/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Sauce Labs Offers Software Testing to COVID-19 Innovators</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/sauce-labs-offers-software-testing-to-covid-19-innovators/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[COVID19]]></category>
-		<category><![CDATA[Innovators]]></category>
-		<category><![CDATA[Labs]]></category>
-		<category><![CDATA[Offers]]></category>
-		<category><![CDATA[Sauce]]></category>
-		<category><![CDATA[software]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/sauce-labs-offers-software-testing-to-covid-19-innovators/</guid>
-
-					<description><![CDATA[We’ve always provided open source projects with access to our full-service live and automated testing capabilities to help them keep]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>We’ve always provided open source projects with access to <a target="_blank" href="https://saucelabs.com/solutions/open-source" rel="noopener noreferrer">our full-service live and automated testing capabilities</a> to help them keep their software bug-free. Now, we’re extending our Open Sauce program to offer free and reduced-cost testing for organizations innovating to address COVID-19. </p>
-<p>Our Open Sauce program offers access to thousands of browser, OS, and emulator/simulator combinations, five concurrent sessions for testing in parallel, and unlimited testing minutes. To support the COVID-19 response, we’re also now offering qualifying organizations real devices for live testing on mobile devices.</p>
-<p>One company, <a target="_blank" href="https://nsightify.com/" rel="noopener noreferrer">nSightify</a>, is now leveraging our COVID-19 support offering for testing. nSightify has a mobile app designed to facilitate communications for first responders such as firefighters and EMS workers. They reached out to Sauce when they saw the need to add a telehealth feature to their mobile app to enable paramedics and other first responders to quickly consult with doctors to determine whether a COVID-19 patient needs hospitalization or can be treated elsewhere. This feature allows first responders to get eyes on the patient quickly and ensure they’re treated appropriately, which means better patient care… and the added benefit that hospital and emergency resources can stay available for the most critical cases.  </p>
-<p></p>
-<p>“Leveraging the Sauce Labs Continuous Testing cloud has allowed us to test quickly on real devices and quickly get our telehealth feature to market,” says John Dadey, CEO of nSightify.  “We went from manually testing one device at a time to automating the process, and it’s helped us reduce our overall testing time by 50-70%.” </p>
-<p>The Open Sauce program offers several benefits:</p>
-<ul>
-<li>
-<p>The ability to get up and running fast with live and automated testing</p>
-</li>
-<li>
-<p>Instant access to our Virtual Device Cloud for testing desktop and mobile websites and applications</p>
-</li>
-<li>
-<p>The ability to share test results—videos, screenshots and log files—via Slack, HipChat or email, making collaboration a cinch</p>
-</li>
-</ul>
-<p>To see if your organization qualifies for free or reduced-cost testing under the Open Sauce program, please fill out the <a target="_blank" href="https://saucelabs.com/open-sauce" rel="noopener noreferrer">form on our website</a>.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/sauce-labs-offers-testing-to-covid19-innovators">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ThreatList: Human-Mimicking Bots Spike, Targeting e-Commerce and Travel</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/threatlist-human-mimicking-bots-spike-targeting-e-commerce-and-travel/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 16:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bots]]></category>
-		<category><![CDATA[ECommerce]]></category>
-		<category><![CDATA[HumanMimicking]]></category>
-		<category><![CDATA[Spike]]></category>
-		<category><![CDATA[Targeting]]></category>
-		<category><![CDATA[ThreatList]]></category>
-		<category><![CDATA[Travel]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/threatlist-human-mimicking-bots-spike-targeting-e-commerce-and-travel/</guid>
-
-					<description><![CDATA[Overall bot activity on the web has soared, with a 26 percent growth rate &#8212; attacks on applications, APIs and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Overall bot activity on the web has soared, with a 26 percent growth rate &#8212; attacks on applications, APIs and mobile sites are all on the rise.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/threatlist-bots-spike-e-commerce-and-travel/155302/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Performance reality check: 4 ways to keep up with unexpected surges</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/performance-reality-check-4-ways-to-keep-up-with-unexpected-surges/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Check]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Reality]]></category>
-		<category><![CDATA[surges]]></category>
-		<category><![CDATA[unexpected]]></category>
-		<category><![CDATA[ways]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/?p=1942</guid>
-
-					<description><![CDATA[From online retail to finance, and from streaming entertainment to healthcare providers and agencies, all manner of businesses and government entities have]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>From online retail to finance, and from streaming entertainment to healthcare providers and agencies, all manner of businesses and government entities have seen their web traffic and app activity explode. COVID-19 has changed everything for many organizations, and it did so overnight, with no time to prepare.</p>
-<p>Microsoft says the use of its Teams collaboration software in Italy <a target="_blank" href="https://www.theregister.co.uk/2020/03/31/microsoft_corrects_cloud_surge_claim/" rel="nofollow noopener noreferrer">increased by 775% in March alone</a>, sending the company scrambling to increase capacity while implementing <a target="_blank" href="https://azure.microsoft.com/en-us/blog/update-2-on-microsoft-cloud-services-continuity/" rel="nofollow noopener noreferrer">temporary restrictions and quotas</a> for Azure customers to prevent systems from going offline.</p>
-<p>While performance is increasingly being considered during the software design phase, more typically <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-critical?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener noreferrer">performance engineering </a><a target="_blank" href="http://content.microfocus.com/performance-engineering-tb/performance-engineering-critical?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener noreferrer">is an iterative process</a> that occurs after a service or app has been launched. If the system is bogging down due to heavy load, engineers figure out <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-techniques?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener noreferrer">what they can do to make it better</a>, whether that&#8217;s redesigning code through component decoupling or simply deploying cloud services such as caching systems and content delivery networks. Performance improves, and everyone relaxes.</p>
-<p>But enterprises such as Instacart, Zoom, Amazon, and Netflix just don&#8217;t have the luxury of time in the new COVID-19 reality. Last month, <a target="_blank" href="https://variety.com/2020/digital/news/netflix-streaming-hits-all-time-highs-coronavirus-1203543218/" rel="nofollow noopener noreferrer">Netflix usage</a> hit its all-time high, and it&#8217;s still going up. Analysts and users alike are increasingly worried whether it and other Internet services <a target="_blank" href="https://www.fool.com/investing/2020/04/05/should-netflix-fear-crashes-in-a-high-traffic-time.aspx" rel="nofollow noopener noreferrer">can handle the load</a>.</p>
-<p>So far, they&#8217;ve been able to, through a combination of savvy business decisions and clever engineering. TechBeacon spoke with several tech leaders to suss out the best practices that were keeping these types of services afloat amid the huge—and sudden—crush of activity, and what other organizations can learn from how they&#8217;re coping.</p>
-<p>Here are four best practices from the front lines of <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-testing-to-engineering?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">performance engineering</a>.</p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/performance-engineering-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Performance Engineering with TechBeacon&#8217;s Guide</a>. Plus: Get this report: <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-devops-gartner?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Adopt a Performance Engineering Approach for DevOps</a> ]</em></p>
-<h3>1. Embrace simplicity</h3>
-<p>James Pulley, co-host of the performance testing podcast <a target="_blank" href="https://www.perfbytes.com/" rel="nofollow noopener noreferrer">PerfBytes</a>, harkens back to another event that changed much overnight. During 9/11, the major online news organizations &#8220;had to move to a highly simplified web page because they were getting so much traffic,&#8221; he said.</p>
-<blockquote>
-<p>&#8220;They got rid of fancy graphics to reduce the number of bytes they were sending. Today, the same strategy is being employed at a Netflix level, reducing bit rates at the top end.&#8221; <br />—<a target="_blank" href="https://twitter.com/perfpulley" rel="nofollow noopener noreferrer">James Pulley</a></p>
-</blockquote>
-<p>Sure enough, the company has <a target="_blank" href="https://media.netflix.com/en/company-blog/reducing-netflix-traffic-where-its-needed" rel="nofollow noopener noreferrer">voluntarily cut its bandwidth usage</a> in Europe. This doesn&#8217;t just help keep streaming from overloading public networks, but it also helps Netflix servers avoid a meltdown.</p>
-<p>Byte creep is a real problem, Pulley said. The <a target="_blank" href="https://speedcurve.com/blog/web-performance-page-bloat/" rel="nofollow noopener noreferrer">average size of a web page</a> grew from about 1MB in 2011 to 3MB in 2017, and it&#8217;s still on the rise. As such, the first step organizations need to take to weather a traffic crush is to cut the fat.</p>
-<blockquote>
-<p>&#8220;If you have six web beacons, go to one. If you have a style sheet full of artifacts, get all of that out.&#8221;<br />—James Pulley</p>
-</blockquote>
-<p>Use Minify and Zip where possible; you want the data you send to be as small as it can be. And make sure your cache model is refined and working. If you see a file that hasn&#8217;t changed in five years that&#8217;s still being requested every five days, &#8220;you&#8217;re wasting bandwidth,&#8221; he added. Finally, be more aggressive about returning resources to the pool by giving shorter sessions to users.</p>
-<h3>2. Treat data like code</h3>
-<p><a target="_blank" href="https://www.linkedin.com/in/matthew-yeh-7339897/" rel="nofollow noopener noreferrer">Matt Yeh</a>, senior director of product marketing at DataOps platform vendor Delphix, said that one way to scale your development cycles to handle increased demand is by focusing on agility in the data tier. This means getting teams to <a target="_blank" href="https://techbeacon.com/app-dev-testing/want-effective-test-automation-devops-manage-your-test-data" rel="noopener noreferrer">treat data the same way they treat code</a>.</p>
-<p>Feeding and refreshing test data for cloud-based test environments from an on-premises production instance &#8220;is harder than many leaders think,&#8221; he said. Without the ability to automate data delivery as part of a DevOps workflow in the cloud, &#8220;a data agility problem is created that drives bad behavior and slows the delivery pipeline.&#8221;</p>
-<p>Data agility is the most important factor for application development, because while code is being built and deployed via self-service, &#8220;the data tier still remains rigid and resistant to the same level of speed and automation at most organizations,&#8221; Yeh said.</p>
-<p>Make your tools and processes address the data tier in the same way teams have improved the flow of their application code.</p>
-<blockquote>
-<p>&#8220;You can eliminate data-related waste, rework, and wait times.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/matthew-yeh-7339897/" rel="nofollow noopener noreferrer">Matt Yeh</a></p>
-</blockquote>
-<p><em>[ Learn what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">start taking advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
-<h3>3. Take a &#8216;shift-left&#8217; approach to quality</h3>
-<p>The Rule of 10 says that after each step of quality assurance, it is <a target="_blank" href="http://www.design4manufacturability.com/DFM_article.htm" rel="nofollow noopener noreferrer">10 times harder and more expensive to fix a defect</a>. To address this, said <a target="_blank" href="https://twitter.com/weisstal?lang=en" rel="nofollow noopener noreferrer">Tal Weiss</a>, CTO of software quality tool vendor OverOps, many organizations are starting to understand the merits of adopting a shift-left approach to quality.</p>
-<p>This means that by increasing quality measures taken in the development and testing phases of software delivery, you can <a target="_blank" href="https://techbeacon.com/app-dev-testing/shift-your-testing-how-increase-quality-not-anxiety" rel="noopener noreferrer">significantly reduce the odds of production issues</a>. This mindset can be applied to the data tier as much as it can be to code.</p>
-<h3>4. Embrace performance engineering tools</h3>
-<p>&#8220;Performance engineering and testing doesn&#8217;t necessarily need to change, but it definitely needs to happen,&#8221; said Guillaume Quintard, software engineer for content delivery network vendor Varnish Software.</p>
-<p>Performance engineering teams need to understand where their breaking point is and have a proactive plan in place for what to do when it is reached to avoid an outage.</p>
-<blockquote>
-<p>&#8220;As an industry, we&#8217;ve had these tools for a long time.&#8221;<br />—<a target="_blank" href="https://twitter.com/gquintard_?lang=en" rel="nofollow noopener noreferrer">Guillaume Quintard</a></p>
-</blockquote>
-<p>Mike Canney, business development and product strategy professional at performance analytics tool vendor Accedian, expanded on that thought. Performance engineering teams typically have a very good understanding from a systems perspective, but &#8220;what&#8217;s missing is a real understanding of the network and application visibility,&#8221; he said.</p>
-<p>To get a complete picture of network performance, you have to understand things like bandwidth and latency, he said. &#8220;You need to be able to see how having multiple users impacts bandwidth, and how much bandwidth and latency impacts response time.&#8221; </p>
-<p>Canney also noted that sheer bandwidth isn&#8217;t always the issue. There are many variables that can affect a network.</p>
-<blockquote>
-<p>&#8220;Before you throw money at expanding bandwidth, make sure that&#8217;s actually the problem by utilizing network visibility tools.&#8221;<br />—<a target="_blank" href="https://twitter.com/mikecanney" rel="nofollow noopener noreferrer">Mike Canney</a></p>
-</blockquote>
-<h4>Other factors to weigh</h4>
-<p>It&#8217;s also important to understand business transactions—measuring the unit of work that is actually performed in each transaction. For example, a single search on a retail website may ultimately create thousands of micro-transactions as the item is located, inventory is measured, the offering of upsells or related goods is weighed, and so on.</p>
-<blockquote>
-<p>&#8220;Once you understand the business transactions and what goes into them, it&#8217;s much easier to do network modeling and predictive analysis.&#8221;<br />—Mike Canney</p>
-</blockquote>
-<p>Ultimately, all organizations need to take a long-term approach to performance engineering. </p>
-<blockquote>
-<p>&#8220;Testing is more relevant than ever, but relying on traditional tests is no longer an option.&#8221;<br />—<a target="_blank" href="https://twitter.com/weisstal?lang=en" rel="nofollow noopener noreferrer">Tal Weiss</a></p>
-</blockquote>
-<p>Building in automated quality gates and feedback loops will allow for thorough, fast testing that doesn&#8217;t hold up release timelines. This can be done by leveraging a variety of automated testing methods within your CI/CD pipeline, such as static and dynamic code analysis.</p>
-<h3>Process and procedure trump everything</h3>
-<p>Goutham Belliappa, vice president of AI engineering at Capgemini, sums up the matter by noting that the overarching issue surrounding traffic surges is not usually a technical one but a human one.</p>
-<blockquote>
-<p>&#8220;COVID-19 has forced many companies to go digital, even those that thought they were unable to. For many businesses, bandwidth is being slammed, but the problem is more of a process and procedure one.&#8221; <br />—<a target="_blank" href="https://twitter.com/GBELLIAP" rel="nofollow noopener noreferrer">Goutham Belliappa</a></p>
-</blockquote>
-<p>For example, VPNs hastily rolled out to workers who were never envisioned as working from home have only exacerbated problems for IT departments that also are no longer in the office.</p>
-<p>The bottom line: The tools needed to weather the storm are already in most organizations&#8217; collective arsenals, but development teams need to more fully utilize them and better understand how the data tier <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-predictive-analytics-can-boost-app-performance" rel="noopener noreferrer">affects application performance</a>.</p>
-<p>The good news is that it&#8217;s easy to take some smart first steps. Reducing data overhead and minimizing data transfer—even if it&#8217;s only temporary—are essential ones to keeping your services up and running during this crisis.</p>
-<p><em>[ Understand quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/performance-reality-check-how-keep-unexpected-surges">Source link </a></p>
 ]]></content:encoded>
 					
 		
