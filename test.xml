@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 08 May 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 08 May 2020 19:49:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,31 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Black Hat USA, DEF CON 28 Go Virtual</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/black-hat-usa-def-con-28-go-virtual/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 08 May 2020 19:49:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Black]]></category>
+		<category><![CDATA[CON]]></category>
+		<category><![CDATA[DEF]]></category>
+		<category><![CDATA[Hat]]></category>
+		<category><![CDATA[USA]]></category>
+		<category><![CDATA[Virtual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/black-hat-usa-def-con-28-go-virtual/</guid>
+
+					<description><![CDATA[Due to the coronavirus pandemic, there will be no in-person Black Hat USA or DEF CON conferences this year. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Due to the coronavirus pandemic, there will be no in-person Black Hat USA or DEF CON conferences this year.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/black-hat-usa-def-con-28-go-virtual/155606/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How to improve your IT problem management: 5 must-do steps</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/how-to-improve-your-it-problem-management-5-must-do-steps/</link>
 		
@@ -492,173 +517,6 @@
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/parasoft-selenic-integration/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Accessibility Testing: Everything you need to know</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/accessibility-testing-everything-you-need-to-know/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 30 Apr 2020 06:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Accessibility]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/accessibility-testing-everything-you-need-to-know/</guid>
-
-					<description><![CDATA[Note: Today’s guest post author, Giridhar Rajkumar, holds many roles: speaker, author, founder, and instructor. He founded Tips for Test]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"></figure>
-</div>
-<p><em/><em>Note: Today’s guest post author, Giridhar Rajkumar, holds many roles: speaker, author, founder, and instructor. He founded Tips for Test Automation, LearnDevTestOps, and The Tester’s Hub. He serves as a Cypress.io ambassador. Giridhar has 10+ years of experience as a test automation consultant at Wipro Limited. </em></p>
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://lh6.googleusercontent.com/1S01k9gj05kAcZFsLt4wLfv10MUXiJMW4_iK92ahMzH_3OJ7ewS0ur2g9oeapRpi6XIW9EaIL2OcTnvizFKenDuwvd9yauJF6J5JYHbk3eZRRKbHGi4-4u7U_q5oxtDekYaSq_75" alt=""/></figure>
-</div>
-<p>We all are living in a Digital Era where the smartphones and web applications dominate everything we do in day-to-day activities some way or the other. The time we spend daily interacting with our phones or laptops is huge these days.</p>
-<p>We need to understand the fact that not all people would be able to use today’s mobile or web applications in the same way. There are people with various disabilities which makes the usage of some applications not accessible to them.</p>
-<p>An application should always be built keeping in mind about all types of end-users. Considering the statistics released by the <a target="_blank" href="https://www.worldbank.org/en/topic/disability" rel="noopener noreferrer">WorldBank</a> – </p>
-<p><strong><em>“One billion people or 15% of the world population undergo some sort of disability.”</em></strong></p>
-<p>So, as an organisation, it is our foremost duty to consider accessibility testing a priority before we release any applications to our end users.</p>
-<p>In this article, we will see a few types of common disabilities, how to perform accessibility testing and some of the commonly used tools in the market to perform various types of accessibility testing.</p>
-<h2><strong>Types of disabilities</strong></h2>
-<p>There are multiple types of disabilities people will face at some point in time in their life. Here are some common disabilities:</p>
-<div class="wp-block-image">
-<figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/TyixQITmkVerxSQFv0RXl7IlFutuDlNIR0a-NZQQbEeGfzaEFgM-lWq22t-55gG68m38g3X3OWyeGTqgDPfUhMBdJmmwLBPAvY6GXkfifK6QnZrt-dnaSvPFQy5nZYGrAcH0uwwm" alt="" width="447" height="447"/></figure>
-</div>
-<ol>
-<li>Physical Disability </li>
-<li>Cognitive Disability </li>
-<li>Eyesight / Vision Disability </li>
-<li>Hearing Disability</li>
-<li>Temporary Disability</li>
-</ol>
-<p><strong><em>Physical Disability</em></strong> is a kind of a disability where people may have challenges with speaking, rely on motorised equipment and cannot access physical devices like a keyboard or mouse to interact with the applications.</p>
-<p><strong><em>Cognitive Disability</em></strong> is the type in which people have poor memory and have difficulties in understanding and expressing their thoughts to the other person.</p>
-<p><strong><em>Eyesight disability</em></strong> is one of the most ¹ disabilities and again, according to the <a target="_blank" href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment" rel="noopener noreferrer">World Health Organisation</a>, around 2.2 million people globally have visual impairments or blindness.</p>
-<p><strong><em>Hearing Disability</em></strong> is the inability to hear. This can be partial or complete deafness.</p>
-<p><strong><em>Temporary Disability</em></strong> can occur due to environmental conditions, illness or accidents and mostly a temporary situation.</p>
-<h2><strong>How to perform Accessibility Testing?</strong></h2>
-<p>Now that we know the common disabilities, it’s time for us to know how we can leverage the testing strategies for accessibility. But before that, we need to know a few artifacts that are considered industry standards.</p>
-<p>Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C) has issued a set of guidelines known as ‘The Web Content Accessibility Guidelines (WCAG)’ which organisations must strictly follow to make the application accessible to people with disabilities. The different phases of SDLC should follow these set of guidelines as part of their <em>Non-Functional Testing </em>process.</p>
-<p>These guidelines can be found <a target="_blank" href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="noopener noreferrer">here</a>.</p>
-<p>For each and every guideline, there are testable success criteria, which are at three levels:</p>
-<ul>
-<li>A (lowest)</li>
-<li>AA (mid-range)</li>
-<li>AAA (highest)</li>
-</ul>
-<p>These levels may vary from different organisations and in different situations. Conformance at higher levels indicates conformance at lower levels. For example, by conforming to AA, a Web page meets both the A and AA conformance levels. Level A sets a minimum level of accessibility and does not achieve broad accessibility for many situations. For this reason, UC recommends AA conformance for all Web-based information.</p>
-<p>Many organisations practically do accessibility testing by recruiting real-time testers in their own abilities to validate whether their product meets the correct user experience.</p>
-<p>Having said that, let’s now see how we can perform accessibility testing for the types of disabilities we read about earlier.</p>
-<h3><strong>Physical Disability</strong></h3>
-<ol>
-<li>Check whether there is voice recognition software and test its consistency</li>
-</ol>
-<ol start="2">
-<li>For people with a speech disability, check whether the physical keyboard is efficient to use</li>
-</ol>
-<ol start="3">
-<li>People with a motor disability should have an option to find human help in case of emergencies</li>
-</ol>
-<ol start="4">
-<li>Test the application with a specialised mouse for people who have limitations in muscular control</li>
-</ol>
-<ol start="5">
-<li>Make sure the timeouts are configured accordingly as the user consumes more time for situations like entering the values in the form etc.</li>
-</ol>
-<h3><strong>Cognitive Disability</strong></h3>
-<ol>
-<li>Check whether the controls are clear for the users to use</li>
-</ol>
-<ol start="2">
-<li>Easily understandable menus so that the user can select what they need</li>
-</ol>
-<ol start="3">
-<li>Maximum usage of images and graphs instead of texts which make understanding the context difficult</li>
-</ol>
-<ol start="4">
-<li>Test whether the user can complete a task without unnecessary distractions like alerts, advertisements, etc.</li>
-</ol>
-<ol start="5">
-<li>Validate whether there is an option to find human help</li>
-</ol>
-<h3><strong>Eyesight / Vision Disability</strong></h3>
-<ol>
-<li>Test whether the application provides keyboard shortcuts for all the operations used by a mouse</li>
-</ol>
-<ol start="2">
-<li>Text to audio converters</li>
-</ol>
-<ol start="3">
-<li>Magnifiers in place for fewer vision abilities</li>
-</ol>
-<ol start="4">
-<li>Fonts used are satisfying the rules of W3C Accessibility Checker</li>
-</ol>
-<ol start="5">
-<li>Color blindness filters</li>
-</ol>
-<h3><strong>Hearing Disability</strong></h3>
-<ol>
-<li>Test whether the application alerts the users with vibration even when that feature is turned off (mobile apps)</li>
-</ol>
-<ol start="2">
-<li>Providing manuals in sign language for better understanding the application</li>
-</ol>
-<ol start="3">
-<li>Flash alerts in mobile phones like led lights flashing during incoming calls</li>
-</ol>
-<ol start="4">
-<li>Audio to text converters in place</li>
-</ol>
-<h3><strong>Temporary Disability</strong></h3>
-<p>This type of disability is spontaneous and can happen anytime in one’s life. This can include a foreign person using an ATM in a region where the language could be a barrier. In this case, we need to see if there is an option in the ATM system to use a common language, commonly English to control.</p>
-<p>There might be a situation where a person can have a broken arm or undergo surgery on one eye. So we need to ensure whether the application we develop can be adapted by the user during those situations without giving stress to the users.</p>
-<p>Though we are in a digital era, not all disabilities are identified and addressed. So in reality, unfortunately not all types of disabilities are considered while an application is built and released.</p>
-<h2><strong>Tools to perform Accessibility Testing</strong></h2>
-<p>With all the guidelines defined according to W3C standards, one or more tools can be used to validate the required success criteria of the application. Accessibility testing can be achieved either manually or automated. There are several open-source and commercial tools in the market to test the application for accessibility compliance. </p>
-<p>Following are some of the tools that can be used.</p>
-<h3><strong>Screen Magnification</strong></h3>
-<p>People with limited vision may not be able to read the content with the normal font size. Such people need to zoom in on the content to read it.</p>
-<p><em>Magnifier </em>App in Windows and <em>Zoom </em>option in macOS are excellent tools. </p>
-<h3><strong>Color Contrast Analyser</strong></h3>
-<p>Color Contrast Analyser (CCA) helps to keep sufficient contrast between foreground and background colors by providing appropriate test results.</p>
-<h3><strong>Applitools Contrast Advisor</strong></h3>
-<p>The forthcoming Applitools Contrast Advisor uses AI powered computer vision (Visual AI) to help identify potential contrast violations. If the measured contrast ratio in text or images is less than the minimum defined by WCAG then a contrast accessibility failure is flagged for that element. It can be used for both web, mobile web, and native mobile applications.</p>
-<p>Users can toggle between WCAG 2.0 or 2.1 as well as AA or AAA to be advised on how well their website or application complies. </p>
-<p>This product can be enabled within your existing automation framework with a simple line of code, or easily configured to automatically scan your site or application without writing a single line of code.</p>
-<p>Applitools Contrast Advisor will be available in limited release starting in mid-May.</p>
-<p><a target="_blank" href="https://applitools.com/request-demo/" rel="noopener noreferrer">Contact Applitools to schedule an early-preview demo today</a>.</p>
-<h3><strong>Screen Readers</strong></h3>
-<p>Screen readers are the tools used for narrating the content of a page. A screen reader can narrate everything for the user like the texts on the website, links, checkboxes, radio buttons, images, etc.</p>
-<p>Here are some famous screen readers for browsers and mobile devices:</p>
-<ul>
-<li><em>IE and Chrome:</em> JAWS (Job Access With Speech)</li>
-<li><em>Firefox</em>: NVDA (Non-Visual Desktop Access)</li>
-<li><em>Safari</em>: Voice Over </li>
-<li><em>iPhone</em>: Voice Over</li>
-<li><em>Android</em>: Talkback </li>
-</ul>
-<h3><strong>Speech Recognition Tools</strong></h3>
-<p>Speech recognition tools are used to interact with the application by dictating text or commands to it. It can be used to dictate text, control buttons, links, open an application and other controls. Windows Speech Recognition, Apple Dictation and Dragon are some common Speech Recognition tools.</p>
-<h3><strong>Axe Browser Plugin</strong></h3>
-<p>Axe is a browser plugin for Chrome and Firefox web browsers. It scans the web page to find for WCAG 2 (Web Content Accessibility Guidelines 2) and Section 508 (Standards defined for Federal Agencies) accessibility and reports the violations. The axe-Chrome extension utilizes the axe open-source JavaScript library developed by Deque Systems.</p>
-<h3><strong>WorldSpace Attest from Deque</strong></h3>
-<p>The Worldspace Attest is a toolkit used by developers while they code. It supports the shift-left approach to identify the accessibility issues (as per the guidelines defined by WCAG, Section 508, etc.,) much earlier in an automated fashion. This has the feature to integrate with the existing test automation framework which will check for the compliance issues while the functional tests run.  It currently supports all major browsers like IE, Chrome, Safari, Firefox. It has extensive support for both iOS and Android devices as well.</p>
-<h2><strong>It’s Everyone’s Right!</strong></h2>
-<p>As per the United Nations Convention on the Rights of Persons with Disabilities (UN <a target="_blank" href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" rel="noopener noreferrer">CRPD</a>), access to information and communications, including web &amp; mobile applications, is defined as a basic human right and applications must comply to Accessibility Standards.</p>
-<p>Performing accessibility testing will help us make our applications friendly to those with disabilities, thus offering them equal rights to the digital world. </p>
-<p><strong><em>Remember, everyone will become disabled in some way, sometime, in our lives as part of nature’s cycle.</em></strong></p>
-<h2><strong>References:</strong></h2>
-<h2>For More Information</h2>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/accessibility-testing-strategy/">Source link </a></p>
 ]]></content:encoded>
 					
 		
