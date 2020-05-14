@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 12 May 2020 15:04:02 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 May 2020 19:10:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,115 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Texas Courts Won’t Pay Up in Ransomware Attack</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/texas-courts-wont-pay-up-in-ransomware-attack/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 19:10:19 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[texas]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/texas-courts-wont-pay-up-in-ransomware-attack/</guid>
+
+					<description><![CDATA[Texas appellate courts and judicial agencies’ websites and computer servers were shut down after a ransomware attack. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Texas appellate courts and judicial agencies’ websites and computer servers were shut down after a ransomware attack.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/texas-courts-ransomware-attack/155711/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What your DevOps team needs to know: 4 lessons from exploited vulnerabilities</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/what-your-devops-team-needs-to-know-4-lessons-from-exploited-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Lessons]]></category>
+		<category><![CDATA[team]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/what-your-devops-team-needs-to-know-4-lessons-from-exploited-vulnerabilities/</guid>
+
+					<description><![CDATA[In March 2019, an online intruder discovered that cloud storage used by financial giant Capital One suffered from a vulnerability]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>In March 2019, an online intruder discovered that cloud storage used by financial giant Capital One suffered from a vulnerability in the firm&#8217;s application firewall and storage servers, allowing the attacker to send commands from one to the other.</p>
+<p>The exploitation of the vulnerability—<a target="_blank" href="https://owasp.org/www-community/attacks/Server_Side_Request_Forgery" rel="nofollow noopener noreferrer">an issue known as server-side request forgery (SSRF)</a>—resulted in the leaking of sensitive personal information on more than 106 million individuals in the United States and Canada. Capital One had misconfigured its web application firewall, failing to prevent privileged access to the company&#8217;s cloud storage server hosted on Amazon Web Services.</p>
+<p>This class of vulnerability was well understood and easy to exploit. It should have been a priority to fix. But the takeaway from this incident is how easy missing an important security flaw can be, said Frank Kim, instructor and curriculum lead at the SANS Institute, a technical training organization.</p>
+<blockquote>
+<p>&#8220;Even Capital One, a leader in DevOps security, makes mistakes. There are so many vulnerabilities, and companies are trying to push out so much functionality. We need to be able to close the window of vulnerability more quickly.&#8221;<br />—<a target="_blank" href="https://twitter.com/fykim" rel="nofollow noopener noreferrer">Frank Kim</a></p>
+</blockquote>
+<p>Most companies are doing <a target="_blank" href="https://content.microfocus.com/build-appsec-dev-tb/appsec-best-practices?lx=a0uQni&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">credible jobs of finding and fixing vulnerabilities in code</a>, ensuring deployed servers are not misconfigured, and putting defenses in place to protect networks and data. The problem, however, is that a single misconfiguration can have massive repercussions. SSRF, for example, is a well-understood class of vulnerabilities, but such attacks are hard to mitigate on cloud services, and protections did not exist a year ago.</p>
+<blockquote>
+<p>&#8220;As we know about DevOps, it is not just the technology when we are talking about the vulnerabilities, it is the process and the technology. We can&#8217;t just throw all these tools at the DevOps teams, because even though we say developers should do more security, their incentives—getting functional code out as quickly as possible—have not changed.&#8221;<br />—Frank Kim</p>
+</blockquote>
+<p>In November, eight months after the breach, Amazon <a target="_blank" href="https://duo.com/decipher/aws-adds-new-protections-against-ssrf-other-web-app-attacks" rel="nofollow noopener noreferrer">implemented protections against such attacks</a>.</p>
+<p>Massive breaches are often caused by simple vulnerabilities that developers, operations, and <a target="_blank" href="https://content.microfocus.com/build-appsec-dev-tb/appsec-strategies?lx=a0uQni&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">application-security teams have missed</a>. Here are four lessons from major breaches on how to catch the next seemingly small software bug before it snowballs into a massive breach.</p>
+<p><em>[ The shift is on to secure code. Get up to speed with <a target="_blank" href="https://content.microfocus.com/l/state-of-application-security-testing-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s State of App Sec Guide</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/gartner-magic-quadrant-appsec-testing?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Gartner 2020 Magic Quadrant for Application Security Testing</a> ]</em></p>
+<h3>1. Know your assets</h3>
+<p>On March 6, 2017, the Apache Foundation released a patch for a vulnerability (<a target="_blank" href="https://nvd.nist.gov/vuln/detail/CVE-2017-5638" rel="nofollow noopener noreferrer">CVE-2017-5638</a>) in Apache Struts 2, which allows attackers to execute commands using a specially crafted header HTTP header. Four days later, attackers used the flaw to scan servers at credit-reporting agency Equifax, compromising a key server there. From May to July, attackers returned and stole sensitive financial information on <a target="_blank" href="https://www.gao.gov/assets/700/694158.pdf" rel="nofollow noopener noreferrer">more than 145 million American adults from the company</a>.</p>
+<p>The cost of the Equifax breach to date: <a target="_blank" href="https://www.bankinfosecurity.com/equifaxs-data-breach-costs-hit-14-billion-a-12473" rel="nofollow noopener noreferrer">$1.4 billion</a>.</p>
+<p>Overall, Equifax knew about the vulnerability and had taken steps to patch the flaws across its systems. However, application-security experts have come up with <a target="_blank" href="https://www.databreachtoday.com/blogs/learn-from-how-others-get-breached-equifax-edition-p-2870" rel="nofollow noopener noreferrer">a list of 29 failures</a> that led to the eventual breach. Perhaps the two most important ones: a lack of visibility into what assets and software the company had deployed, said Jim Manico, founder of Manicode Security and volunteer project leader at the Open Web Application Security Project (OWASP).</p>
+<blockquote>
+<p>&#8220;All that Equifax had to do was apply the patch across their network, but on a couple of servers, either they missed them or they applied the patch and it broke, so they rolled it back&#8221;<br />—<a target="_blank" href="https://twitter.com/manicode" rel="nofollow noopener noreferrer">Jim Manico</a></p>
+</blockquote>
+<p>Being able to determine what assets may be affected by a new vulnerability, and doing it at speed, has become increasingly important, he said. Attackers create exploits from the information they glean from patches much more quickly than they could just a decade ago. In 2006, the average time it took to exploit a known vulnerability was 45 days; in 2015, it was two weeks; and with the Apache Struts 2 flaw, it took three days, Manico said.</p>
+<blockquote>
+<p>&#8220;The responsibility for patching has changed over the last 15 years as attackers have sped up their ability to go from a software patch to an exploit. For anyone running Struts 2, they had 72 hours to patch their systems. This is the No. 1 problem for application security, and developers continue to take it lackadaisically.&#8221;<br />—Jim Manico</p>
+</blockquote>
+<h3>2. Maintain coverage of important classes of vulnerabilities</h3>
+<p>The SSRF issue that led to the Capital One breach demonstrates the importance of attaining 100% coverage across both the codebase and deployed applications. While SSRF can be hard to patch in many cases, the class is relatively easy for attackers to find, according to Evan Johnson, manager of the product security team at CloudFlare. He wrote in <a target="_blank" href="https://ejj.io/blog/capital-one" rel="nofollow noopener noreferrer">an analysis of the Capital One breach</a>:</p>
+<blockquote>
+<p>&#8220;SSRF is a bug hunter&#8217;s dream because it is an easy to perform attacks and regularly yields critical findings. &#8230; The problem is common and well-known, but hard to prevent and does not have any mitigations built in to the AWS platform.&#8221;<br />—<a target="_blank" href="https://twitter.com/ejcx_" rel="nofollow noopener noreferrer">Evan Johnson</a></p>
+</blockquote>
+<p>While the OWASP Top-10 is a good start for a list of software vulnerability classes that need coverage, every development team has a different list. What is important is for the company to make sure it has good coverage—through tools and processes—of the vulnerability classes on the developers&#8217; list, said Dan Cornell, chief technology officer of Denim Group, an application-security consultancy.</p>
+<p>While companies are trying to push more security checks into integrated development environments (IDEs), they should only &#8220;shift left&#8221; those tools that retain a high-level of coverage while not disrupting development, he said.</p>
+<blockquote>
+<p>&#8220;From a coverage standpoint, you can test for certain vulnerabilities at a certain level of quality, so there are certain types of checking that you can push left. But there are some things that take too much time to integrate into a pipeline—like full static analysis to find SQL injection issues—to move onto the developers&#8217; plates.&#8221;<br />—<a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener noreferrer">Dan Cornell</a></p>
+</blockquote>
+<p><em>[ Find out <a target="_blank" href="https://www.brighttalk.com/webcast/7477/392511/keys-to-scaling-an-appsec-program?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to scale your application security program</a> in this May 12 Webinar. </em><em>Plus: Learn <a target="_blank" href="https://content.microfocus.com/l/build-app-sec-dev-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to build application security into your software</a> with<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>TechBeacon&#8217;s<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>guide ]</em></p>
+<h3>3. Teach security continuously</h3>
+<p>Development teams usually do not have the incentive to prioritize security in their daily work. Instead, security tends to get in the way of implementing features and do so on deadline.</p>
+<p>Security is a tax on developer productivity, but if done correctly, it only has to be an incremental one. Addressing issues early helps minimize the impact on the developer and the impact on the company, which could be very substantial, said Tim Mackey, principal security strategist with vulnerability-management firm Synopsys.</p>
+<blockquote>
+<p>&#8220;When I&#8217;ve talked to organizations that had a data breach, they say they have had to spend 50% of the time following a breach, fixing the issues—we are talking about impacts of that magnitude. Developers need the continuous positive reinforcement in their IDE &#8230; where you can make them feel incremental pain and get them information in context so they do the right thing, because they may not know how.&#8221;<br />—<a target="_blank" href="https://twitter.com/timintech" rel="nofollow noopener noreferrer">Tim Mackey</a></p>
+</blockquote>
+<p>Security requirements for developers should also be explicit and actionable, said Nidhi Shah, principal security researcher at Micro Focus. Application-security teams should conduct threat modeling, work with the development team to create the architecture for the product, and then turn those considerations into part of the specification, she says.</p>
+<blockquote>
+<p>&#8220;The developer should not have to translate architecture requirements into tasks during development. Security should instead be specified as part of the feature template that the developer needs to produce.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/nidhi-shah-8046481/" rel="nofollow noopener noreferrer">Nidhi Shah</a></p>
+</blockquote>
+<h3>4. Strive to make patching painless</h3>
+<p>The lowest level of application-security maturity is not patching, which should be unacceptable for any software development team. Companies whose application-security teams track open-source components, triage patches, and include coding feedback in the integrated development environment are above average, at Level 2.</p>
+<p>Yet these scanners miss things.</p>
+<p>The highest level of maturity for OWASP&#8217;s Manico is not depending on the scanners, but lowering the disruption of patching by automation</p>
+<blockquote>
+<p>&#8220;Attaining this level of maturity makes your security posture the best, but it also makes your functionality the most fragile, because you are changing every day. If you update every day, you need two things to go fast: one, rigorous security and functionality automation, and two, the willingness to fix dependencies in the open-source world.&#8221;<br />—Jim Manico</p>
+</blockquote>
+<p>Yet getting to the point where everything can be patched quickly and relatively painlessly may be out of reach for most development organizations, said Denim Group&#8217;s Cornell.</p>
+<blockquote>
+<p>&#8220;It is easy to give the advice that you need to patch everything, but it is harder to follow at scale, and there are some systems which cannot suffer a disruption. When you patch a server and the Oracle database does not come up and you are losing thousands of dollars a minute, that will make you more hesitant to patch quickly.&#8221;<br />—Dan Cornell</p>
+</blockquote>
+<p>In the end, application-security teams need to recruit developers to their cause by making it easy to learn security and integrating security tools that do not get in the way of development.</p>
+<p>We need to provide developers help, says Micro Focus&#8217;s Shah.</p>
+<blockquote>
+<p>&#8220;If security is not part of the functional requirement, they are not going to implement it. Deciding whether we can upgrade, whether the vulnerability is applicable to our software—those are questions that often the developer is not able to determine.&#8221;<br />—Nidhi Shah</p>
+</blockquote>
+<p><em>[ Take a deep-dive with our <a target="_blank" href="https://content.microfocus.com/l/application-security-tb" rel="noopener noreferrer">Application Security Trends and Tools Guide</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/application-security-tb/buyers-guide-appsec?lx=P_znZe" rel="noopener noreferrer">App Sec Buyer&#8217;s Guide</a>. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/what-your-devops-team-needs-know-4-lessons-exploited-vulnerabilities">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th #NeotysPAC Meet-UP about “&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/tomorrow-at-9-pm-cet-3-pm-edt-dont-miss-the-7th-neotyspac-meet-up-about/</link>
 		
@@ -793,102 +902,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/what-does-your-password-say-about-your-preferences/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Exit The Test Maintenance Road to Nowhere Through Visual AI</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 07 May 2020 16:44:36 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Exit]]></category>
-		<category><![CDATA[Maintenance]]></category>
-		<category><![CDATA[Road]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/</guid>
-
-					<description><![CDATA[On the Test Maintenance Road to Nowhere? Your Visual AI Exit Is Just Ahead. Congrats! You just spent hours authoring]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<p>On the Test Maintenance Road to Nowhere? Your Visual AI Exit Is Just Ahead.</p>
-
-
-
-<p>Congrats! You just spent hours authoring new tests. They all passed 100% of the time. Now you can now start the real work of managing quality. That is, until the application under test starts to change. Now, the potential for instability in code-based assertions surfaces, and your maintenance nightmare ensues.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:paragraph -->
-<p>When a test fails, quality engineers spend a ton of time trying to understand the cause of the failure. Did we surface an actual regression? An unexpected new feature? An environmental issue such as a new browser or system update? A false-positive due to subtle movements in our locators? After hours of troubleshooting and frustration, we finally get the tests to pass again.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Just in time for the next candidate to come along. More tests break. We do it all over again.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.chlkgvg6lzv5">Test Maintenance Is a Road to Nowhere — How Did We Get Here?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"center","id":18231,"width":657,"height":438,"sizeSlug":"large"} -->
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>If you have been following this blog series about the seminal report on the <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">Impact of Visual AI Test Automation</a>, what follows next is logical — a test suite that relies on code-based locators requires you apply resources and team discipline to ensure locator consistency. Otherwise, assume your assertions likely will change between releases – making your test code unstable. <em>Test instability is the root cause of your test maintenance woes</em>. An example using this simple one-page application illustrates the point:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18236} -->
-<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:paragraph --><p>Here is a simple login page. Our job – write the code to navigate to this page and click the Login button (our test condition) and validate the response. Since we didn’t enter a username and password combination, we expect an error response requesting that we fill both fields.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Now, let’s go ahead and author our functional tests using Selenium.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18238} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2.png" alt="imageLikeEmbed 2" class="wp-image-18238" srcset="https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2.png 1280w, https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2-300x169.png 300w, https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2-1024x576.png 1024w, https://applitools.com/wp-content/uploads/2020/05/imageLikeEmbed-2-768x432.png 768w" sizes="(max-width: 1280px) 100vw, 1280px"/></figure><!-- /wp:image --><!-- wp:paragraph -->
-<!-- /wp:paragraph -->
-
-</div>
-<br>
-<br><a href="https://applitools.com/blog/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/">Source link </a>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Naikon APT Hid Five-Year Espionage Attack Under Radar</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/naikon-apt-hid-five-year-espionage-attack-under-radar/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 07 May 2020 10:00:16 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APT]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Espionage]]></category>
-		<category><![CDATA[FiveYear]]></category>
-		<category><![CDATA[Hid]]></category>
-		<category><![CDATA[Naikon]]></category>
-		<category><![CDATA[Radar]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/naikon-apt-hid-five-year-espionage-attack-under-radar/</guid>
-
-					<description><![CDATA[The Chinese APT has been discovered behind a five-year espionage campaign that compromises government servers &#8211; and uses that as]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The Chinese APT has been discovered behind a five-year espionage campaign that compromises government servers &#8211; and uses that as leverage for other attacks.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/naikon-apt-five-year-espionage-attack/155492/">Source link </a></p>
 ]]></content:encoded>
 					
 		
