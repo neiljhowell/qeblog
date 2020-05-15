@@ -1,1 +1,910 @@
-default backend - 404
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>QE Blog</title>
+	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
+	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
+	<description>Where we share news, resources, and latest trends in testing</description>
+	<lastBuildDate>Fri, 15 May 2020 15:59:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
+
+<image>
+	<url>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
+	<title>QE Blog</title>
+	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>RATicate Group Hits Industrial Firms With Revolving Payloads</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/raticate-group-hits-industrial-firms-with-revolving-payloads/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 15:59:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Firms]]></category>
+		<category><![CDATA[Group]]></category>
+		<category><![CDATA[Hits]]></category>
+		<category><![CDATA[Industrial]]></category>
+		<category><![CDATA[Payloads]]></category>
+		<category><![CDATA[RATicate]]></category>
+		<category><![CDATA[Revolving]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/raticate-group-hits-industrial-firms-with-revolving-payloads/</guid>
+
+					<description><![CDATA[A new threat group uses NSIS as an installer to target industrial companies with revolving payloads, including LokiBot, FormBook, BetaBot,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A new threat group uses NSIS as an installer to target industrial companies with revolving payloads, including LokiBot, FormBook, BetaBot, Agent Tesla and Netwire.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/raticate-group-industrial-firms-revolving-payloads/155775/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why injecting security into DevOps is a no-brainer</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-injecting-security-into-devops-is-a-no-brainer/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[injecting]]></category>
+		<category><![CDATA[nobrainer]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-injecting-security-into-devops-is-a-no-brainer/</guid>
+
+					<description><![CDATA[Despite a significant uptick in awareness of DevOps security issues, many companies aren&#8217;t on top of the software development security challenges they]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Despite a significant uptick in awareness of DevOps security issues, many companies aren&#8217;t on top of the software development security challenges they face, and must rely on outside teams to handle their software security program. </p>
+<p>Surveys show that there is significant resistance to<a target="_blank" href="https://techbeacon.com/security/primer-secure-devops-why-devsecops-matters" rel="noopener noreferrer"> company-wide DevSecOps implementations</a>, and that many managers view incorporating security standards into DevOps processes as a roadblock to agile software delivery.</p>
+<p>Why the negative attitude toward DevSecOps rollouts with so many software managers? For starters, many DevOps professionals <a target="_blank" href="https://techbeacon.com/devops/how-bridge-security-development-divide" rel="noopener noreferrer">don’t want to sacrifice speedy application development</a> and deployment for a secure environment, complete with the frequent testing and tracking that comes with DevSecOps.</p>
+<p>Another factor is that many software managers don&#8217;t understand how to properly <a target="_blank" href="https://techbeacon.com/security/what-your-devops-team-needs-know-4-lessons-exploited-vulnerabilities" rel="noopener noreferrer">implement a security program into their DevOps programs</a>. That’s why many organizations are continuing to struggle with implementing security standards in their DevOps platforms.</p>
+<p>For software development managers who want to get off the fence and <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/shift-security-left-continuous-testing?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">improve their security effectiveness</a>, the best incentive may be to check out what happens when you <em>don&#8217;t</em> deploy a DevSecOps security program. Here&#8217;s a closer look.</p>
+<p><em>[ Continuous delivery and release automation (CDRA) demands speed and quality. Find out how in <a target="_blank" href="https://content.microfocus.com/l/continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to CDRA</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/forrester-wave-cdra-q418?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave on CDRA</a>.  ]</em></p>
+<h3>Reputational damage gets real</h3>
+<p>Fewer customers want to do business with a company that doesn&#8217;t take data security seriously, and even fewer employees want to work for that company.</p>
+<p>Case in point: In 2015, UK-based TalkTalk suffered a data breach that compromised the personal data of 157,000 customers, and exposed the bank records of 20,000 of them. </p>
+<p>When the UK’s Information Commissioner Office <a target="_blank" href="https://www.independent.co.uk/news/business/news/talktalk-fine-data-breach-theft-customers-information-stolen-record-penalty-a7346316.html" rel="nofollow noopener noreferrer">cited the company for &#8220;multiple failings&#8221;</a> in its security processes, the broadband provider <a target="_blank" href="https://www.wired.co.uk/article/talktalk-hack-customers-lost" rel="nofollow noopener noreferrer">lost 100,000 customers</a>—and a big chunk of its information technology team, many of whom were too embarrassed to work at the company any longer.</p>
+<p>Brand distancing often happens in the aftermath of a major data hack, and not implementing stronger security measures is a major reason why reputational damage is so severe. Bugs linger, and product rollouts get delayed.</p>
+<p>One of the most significant benefits from having a solid DevSecOps program is that your software security teams, usually through repeated testing, can identify system vulnerabilities early and fix them in time. That means little or no delay in software rollouts and software projects that come in clean.</p>
+<h3>Security and speed: You <em>can</em> have both</h3>
+<p>If you don&#8217;t spot system vulnerabilities early in the DevOps process, all that time spent on agile software coding and development can go for naught. Not only are deadlines threatened, but new or revamped company products and services—the bread and butter of any business—are delayed.</p>
+<p>This costs the company staffing time (to fix the vulnerabilities while plugging the pipeline) and money (in the form of delayed orders and delayed payments from vendors, partners, and customers).</p>
+<p>Your software developers already have plenty to do when creating and installing functionality for your products, yet one of the strongest tenets of DevSecOps is the increased data security knowledge that those software developers gain as key members of a data software security team.</p>
+<p>With DevSecOps, software developers are on the front lines of data security, fully trained on the security side of software builds and capable of spotting coding errors as they happen. </p>
+<p>In the end, you’ve got not only a seasoned software developer who knows how to generate code and push deadlines through to the end, but also a curious and plugged-in data software system specialist who can help save you time and money down the road, as your DevOps program expands and the stakes grow higher for your company.</p>
+<p>You run the risk of financial and legal liability. No savvy company decision makers should ignore DevSecOps, considering the <a target="_blank" href="https://techbeacon.com/security/32-application-security-stats-matter" rel="noopener noreferrer">huge costs associated with breaches</a>. Instead, they should think about investing in cost-saving DevSecOps training, testing, and implementation.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/optimize-devops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the secrets of successful DevOps initiatives</a> in TechBeacon’s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/optimizing-devops-EMA-report?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Optimizing DevOps Initiatives: Both Sides of the DevOps Divide</a> report ]</em></p>
+<h3>Ignore DevSecOps at your own risk</h3>
+<p>The downsides associated with avoiding software security practices can be measured far beyond the most pervasive issues I&#8217;ve cited above—brand damage and legal and compliance costs among them.</p>
+<p>Rather than simply accepting these risks, get proactive and go full throttle with a software security plan that takes all of the above issues off the table—for good.</p>
+<p><em>[ Get up to speed on quality-driven development with <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s new guide</a>. Plus: <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Download the World Quality Report 2019-20 </a>for lessons from leading organizations. ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/devops/why-injecting-security-devops-no-brainer">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Secure Your Data Everywhere? It’s Easy With Unified Cloud Edge</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-secure-your-data-everywhere-its-easy-with-unified-cloud-edge/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 14 May 2020 14:00:22 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Easy]]></category>
+		<category><![CDATA[Edge]]></category>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[Unified]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-secure-your-data-everywhere-its-easy-with-unified-cloud-edge/</guid>
+
+					<description><![CDATA[The need to protect sensitive data has two main drivers, privacy legislation and protection of intellectual property against external breaches]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+							
+						</div>
+<p>The need to protect sensitive data has two main drivers, privacy legislation and protection of intellectual property against external breaches and insider threat. 58% of the countries worldwide now have legislation in place; these will become more onerous over time.  Breaches and insider theft of data is a frequently reported topic in the media due to the steady stream of brand impacting, high-profile cases.  Breaches are expensive due to fines, loss of revenue and remediation costs.</p>
+<p>Historically data protection via <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/security-awareness/data-protection/dlp-best-practices.html" rel="noopener noreferrer">DLP</a> was implemented on the end point and in the business’s network.  Both approaches have strengths and weaknesses; network DLP is unable to monitor the movement of sensitive data to USB memory sticks and end point DLP doesn’t offer some of the more sophisticated DLP capabilities that require a lot of memory and compute power.  Many customers deployed both enterprise DLP solutions.</p>
+<p>Other vendors without enterprise DLP offerings have added “DLP-lite” capabilities to their products, predominantly email and web security products and some businesses have chosen those over enterprise DLP solutions.</p>
+<p>This approach was sustainable before widespread adoption of the cloud.  95% of companies have or are adopting cloud services and 79% of them admit to storing sensitive data there.  Data is now everywhere, on laptops, servers, in sanctioned apps, in unsanctioned Shadow IT apps and moving from cloud to cloud.  Protecting data within the four walls of an organization is no longer sufficient.</p>
+<p>Businesses, particularly those with a Cloud First strategy have responded to this challenge by introducing a CASB solution such as <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-cloud.html" rel="noopener noreferrer">McAfee’s MVISION Cloud</a> product.  Dependent on the product this can address some, or all, of these cloud adoption challenges – MVISION Cloud addresses them all.</p>
+<p>The problem however is that some businesses are living with gaps in their protection as they don’t deploy multiple products.  Endpoint DLP can’t solve for cloud, neither can cloud DLP solve for endpoint and web DLP can’t effectively solve for sanctioned apps allowing online collaboration, or endpoint.  When looking at common use cases along with potential DLP leak vectors you’ll appreciate why a single product isn’t a complete solution:</p>
+<p><img class="wp-image-100958 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/05/1-2.png" alt="" width="936" height="492" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/1-2.png 936w, https://www.mcafee.com/wp-content/uploads/2020/05/1-2-300x158.png 300w, https://www.mcafee.com/wp-content/uploads/2020/05/1-2-768x404.png 768w, https://www.mcafee.com/wp-content/uploads/2020/05/1-2-205x108.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>To attempt to address this, businesses deploy multiple products.  Doing so closes all the gaps but has downsides.  Multiple products are expensive to license, have higher IT management overheads and complexity due to subtly implementations.  These differences are due to different DLP policies, data classifications and content extraction engines which makes it difficult to ensure consistency of detection across products, as data classifications that have been fine-tuned over time have to be re-implemented from scratch with each additional product, leading to a reduction of efficacy.</p>
+<p>McAfee’s Unified Cloud Edge (UCE) solution solves these problems.  UCE is a combination of endpoint DLP, web SaaS proxy and CASB, covering all the potential data leak vectors: endpoint, unsanctioned shadow IT apps, sanctioned apps (including email) and cloud to cloud transfers.  UCE is managed via a single console and uses the same DLP technology everywhere, such as policy and content extraction engines to maximize efficacy through consistent results.  Businesses can retain their investment in those carefully crafted data classifications, allowing use across all vectors and easy extension to the cloud.  UCE is a cloud native, highly scalable solution with industry leading uptime and availability.</p>
+<p>Want to find out more?  Then head over to <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/unified-cloud-edge.html" rel="noopener noreferrer">https://www.mcafee.com/enterprise/en-us/solutions/unified-cloud-edge.html</a></p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/data-security/how-to-secure-your-data-everywhere-its-easy-with-unified-cloud-edge/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Five Data-Driven Reasons To Add Visual AI To Your End-To-End Tests</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/five-data-driven-reasons-to-add-visual-ai-to-your-end-to-end-tests/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 14 May 2020 00:04:59 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Add]]></category>
+		<category><![CDATA[DataDriven]]></category>
+		<category><![CDATA[EndToEnd]]></category>
+		<category><![CDATA[Reasons]]></category>
+		<category><![CDATA[Tests]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/five-data-driven-reasons-to-add-visual-ai-to-your-end-to-end-tests/</guid>
+
+					<description><![CDATA[Do you believe in learning from the experiences of others? If others found themselves more productive adding Visual AI to]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<p>Do you believe in learning from the experiences of others? If others found themselves more productive adding Visual AI to their functional tests, would you give it a try?</p>
+
+
+
+<p>In November 2019, over 3,000 engineers signed up to participate in the Applitools Visual AI Rockstar Hackathon. 288 completed the challenge and submitted tests – comparing their use of coded test validation versus the same tests using Visual AI. They found themselves with better coverage, faster test development, more stable test code, with easier code test code maintenance.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:paragraph -->
+<p>On April 23, <a target="_blank" href="https://www.linkedin.com/in/jameslamberti/" rel="noopener noreferrer">James Lamberti</a>, CMO at Applitools, and <a target="_blank" href="https://www.linkedin.com/in/rajaraodv/" rel="noopener noreferrer">Raja Rao</a> DV, Director of Growth Marketing at Applitools, discussed the findings from the Applitools Hackathon submissions. The 288 engineers who submitted their test code for evaluation by the Hackathon team spent an average of 11 hours per submission. That’s over 3,000 person-hours – the equivalent of  1 ½ years of engineering work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Over 3000 participants signed up. They came from around the world.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18404} -->
+<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:paragraph --><p>They used a variety of testing tools and a range of programming languages.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18400} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM.jpg" alt="Screen Shot 2020 05 13 at 11.27.03 AM" class="wp-image-18400" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM.jpg 1379w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM-300x182.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM-1024x622.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM-768x467.jpg 768w" sizes="(max-width: 1379px) 100vw, 1379px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>In the end, they showed some pretty amazing results from adding Applitools Visual AI to their existing test workflow.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.pvx565295tcx">Describing the Hackathon Tests</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Raja described the tests that made up the Hackathon.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18409} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM.png" alt="Screen Shot 2020 05 13 at 11.30.42 AM" class="wp-image-18409" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM.png 1489w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM-300x161.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM-1024x550.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM-768x413.png 768w" sizes="(max-width: 1489px) 100vw, 1489px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Each test involved a side-by-side comparison of two versions of a web app. In one version, the baseline, the page rendered correctly. In the other version, the new candidate, the page rendered with errors. This would simulate the real-world issues of dealing with test maintenance as apps develop new functionality.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hackathon participants had to write code that did the following:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Ensure the page rendered as expected on the baseline.</li><li>Capture all mistakes in the page rendering on the new candidate</li><li>Report on all the differences between the baseline and the new candidate</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Also, Hackathon participants needed to realize that finding a single error on a page met the necessary – but not sufficient condition for testing. A single test that captures all the problems at once has a faster resolution time than running into multiple bug capture/fix loops. Test engineers needed to write tests that captured all the test conditions, as well as properly reporting all the failures.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hackathon participants would code their test using a conventional test runner plus assertions of results in the output DOM. Then, they used the same test runner code but replaced all their assertions with Applitools Visual AI comparisons.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To show these test results, he used the <a target="_blank" href="https://github.com/corinazaharia/applitools_hackathon_2019/" rel="noopener noreferrer">Github repository</a> of Corina Zaharia, one of the platinum Hackathon winners.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>At this point here, Raja walked through each of the test cases.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.bva7svfglxhp">CASE 1 – Missing Elements</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Raja presented two web pages. One was complete. The other had missing elements. Hackathon participants had to find those elements and report them in a single test.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18407} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM.png" alt="Screen Shot 2020 05 13 at 11.49.52 AM" class="wp-image-18407" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM.png 1503w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM-300x178.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM-1024x608.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM-768x456.png 768w" sizes="(max-width: 1503px) 100vw, 1503px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>To begin coding tests, Corina started with the baseline. She identified each of the HTML elements and ensured that their text identifiers existed. She wrote assertions for every element on the page.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18396} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.52.31-AM.png" alt="Screen Shot 2020 05 13 at 11.52.31 AM" class="wp-image-18396" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.52.31-AM.png 719w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.52.31-AM-266x300.png 266w" sizes="(max-width: 719px) 100vw, 719px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>In evaluating submissions, judges ensured that the following differences got captured:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><li>The title changed</li><li>The Username icon was missing</li><li>The Password icon was missing</li><li>The username placeholder changed</li><li>The wrong password label</li><li>The password placeholder changed</li><li>There was extra space next to the check box</li><li>The Twitter icon had moved</li><li>The Facebook icon had moved</li><li>The LinkedIn Icon was missing.</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>Capturing this page required identifying element locators and validating locator values.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In comparison, adding Visual AI required only three instructions:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Open a capture session</li><li>Capture the page with an eyes.checkWindow() command</li><li>Close the capture session</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>No identifiers needed – Applitools captured the visual differences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With much less coding, Applitools captured all the visual differences. And, test maintenance takes place in Applitools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.70p2xt92yovu">CASE 2 – Data-Driven Testing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In Case 2, Hackathon participants needed to validate how a login page behaved when applying different inputs. The test table looked like this:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>No username, no password</li><li>Username, no password</li><li>Password, no username</li><li>Username and password combination invalid</li><li>Valid username and password</li></ul><!-- /wp:list --><!-- wp:image {"id":18399} --><figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM.png" alt="Screen Shot 2020 05 13 at 11.51.30 AM" class="wp-image-18399" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM.png 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-300x163.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-1024x557.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-768x418.png 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-1536x835.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Each condition resulted in a different response page.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hackathon participants found an identical page to the tests in Case 1 – but they were responsible for handling the different responses to each of the different test conditions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Again, the coding for the conventional test required entering the test conditions via test runner asserting all the elements on the page, including asserting error messages.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Also, the question was left open for testers – what should they test when they test the valid password and username condition? The simplest answer – just make sure the app visits the correct target post-login page. But, more advanced testers wanted to make sure that the target paged rendered as expected.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>So, again, the comparison with coded assertions and adding Visual AI makes clear how much more easily Visual AI captures baselines and then compares the new candidate against the baselines.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.g2j5h7s6mojx">CASE 3 – Testing Table Sort</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The next case – testing table capabilities – fits into capabilities found on many web apps that provide multiple selections. Many consumer apps, such as retailers, reviewers, and banks, provide tables for their customers. Some business apps provide similar kinds of selectors – in retail, financial, and medical applications.  In many use cases, users expect tables with advanced capabilities, such as sorting and filtering.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18394} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM.jpg" alt="Screen Shot 2020 05 13 at 11.53.33 AM" class="wp-image-18394" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-300x153.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-1024x521.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-768x391.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-1536x781.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Tables can provide some challenges for testers. Tables can contain lots of elements. Many table functions can require complex test coding – for example, sorting and filtering.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To test table sorting with conventional assertion code, Hackathon participants had to write code that captured all the data in the table, performed the appropriate sort of that data, and use the internally-sorted table in the test code with the sorted table on the web page. Great test coders took pains to ensure that they had done this well and could handle various sorting options.  The winners took time to ensure that their code covered the table behavior. This complex behavior did not get caught by all participants, even with a decent amount of effort.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In contrast, all the participants understood how to test the table sort with Visual AI. Capture the page, execute the sort, capture the result, and validate inside Applitools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.c4hfxf18ufcu">Case 4 – Non-Textual Plug-ins</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The fourth case involved using graphical rendering of a table in canvas. How do you test that?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18405} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM.jpg" alt="Screen Shot 2020 05 13 at 12.15.01 PM" class="wp-image-18405" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM.jpg 1595w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-300x166.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-1024x567.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-768x425.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-1536x850.jpg 1536w" sizes="(max-width: 1595px) 100vw, 1595px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Without normal web element locators, a lot of participants got lost.  They weren’t sure how to start finding the graphing elements and to build a comparison between the baseline behavior and the new candidate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Winning Hackathon participants dug into the rendering code to find the javascript calls for the graph and the source data for table elements. This allowed them to extract the values that should be rendered and compare them between the baseline and the new candidate. And, while the winners wrote fairly elegant code, this particular skill took time to dive into JavaScript. And, a fair amount of coding effort.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As with the table sorting Case 3, all the participants understood how to test the graph with Visual AI. Capture the page, and then compare the new candidate with the baseline in Applitools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.ulbqu62p9u9e">Case 5 – Dynamic Data</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The final case required the participants to test a page with floating advertisements that can change.  In fact, as long as content gets rendered in the advertising box, and the rest of the candidate remains unchanged, the test passes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18403} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM.jpg" alt="Screen Shot 2020 05 13 at 12.16.59 PM" class="wp-image-18403" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-300x167.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-1024x569.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-768x427.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-1536x853.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>The winning participants coded conditional tests to ensure that code existed in the advertising boxes, though they did not have the ability to see how that code got rendered.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With Visual AI, participants had to use different visual comparison modes in Applitools. The standard mode – Strict Mode – searches for visual elements that have moved or rendered in unexpected ways. With dynamic data, Strict Mode comparisons fail.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For these situations, Applitools offers Layout Mode instead. When using Layout Mode, the text and graphical elements need to share order and orientation, but their actual visual representation can be different.  In Layout Mode, the following are considered identical – image above text.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":18416,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/image4.png" alt="" class="wp-image-18416" srcset="https://applitools.com/wp-content/uploads/2020/05/image4.png 980w, https://applitools.com/wp-content/uploads/2020/05/image4-300x300.png 300w, https://applitools.com/wp-content/uploads/2020/05/image4-150x150.png 150w, https://applitools.com/wp-content/uploads/2020/05/image4-768x768.png 768w, https://applitools.com/wp-content/uploads/2020/05/image4-200x200.png 200w, https://applitools.com/wp-content/uploads/2020/05/image4-90x90.png 90w, https://applitools.com/wp-content/uploads/2020/05/image4-30x30.png 30w" sizes="(max-width: 980px) 100vw, 980px"/></figure><!-- /wp:image --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center"><strong>This Is A Dog</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":18395,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg" alt="" class="wp-image-18395" srcset="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg 640w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-30x30.jpg 30w" sizes="(max-width: 640px) 100vw, 640px"/></figure><!-- /wp:image --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center"><strong>Not A Dog</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+<p>However, the pair below has a different layout.  On the left, the text sits below the image, while on the right the text sits above the image</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":18416,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/image4.png" alt="" class="wp-image-18416" srcset="https://applitools.com/wp-content/uploads/2020/05/image4.png 980w, https://applitools.com/wp-content/uploads/2020/05/image4-300x300.png 300w, https://applitools.com/wp-content/uploads/2020/05/image4-150x150.png 150w, https://applitools.com/wp-content/uploads/2020/05/image4-768x768.png 768w, https://applitools.com/wp-content/uploads/2020/05/image4-200x200.png 200w, https://applitools.com/wp-content/uploads/2020/05/image4-90x90.png 90w, https://applitools.com/wp-content/uploads/2020/05/image4-30x30.png 30w" sizes="(max-width: 980px) 100vw, 980px"/></figure><!-- /wp:image --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center"><strong>This Is A Dog</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><strong>Not A Dog</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18395,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg" alt="" class="wp-image-18395" srcset="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg 640w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-30x30.jpg 30w" sizes="(max-width: 640px) 100vw, 640px"/></figure><!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+<p>Applitools users can hard-code their check mode for different regions into their page capture. Alternatively, they can use Strict Mode for the entire page and handle the region as a Layout Mode exception in the Applitools UI.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>All the Hackathon participants, whether coding their tests for Layout mode for the region or by using Layout mode for the selected area once the baseline had been captured in Applitools, had little difficulty coding their tests.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.u62kcuwvwt0s">Learning From Hackathon Participants</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>At this point, James began describing what we had learned from the 1.5 person-years of coding work done on the Hackathon. We learned what gave people difficulty, where common problems occurred, and how testing with Visual AI compared with conventional assertions of values in the DOM.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="h.x9wws3fgz5j2">Faster Test Creation</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I alluded to it in the test description, but test authors wrote their tests much more quickly using Visual AI. On average, coders spent 7 person-hours writing coded assertion-based tests for the Hackathon test cases. In contrast, they spent a mere 1.2 hours writing tests using Visual AI for the same test cases.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":18401,"width":599,"height":459} -->
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM.jpg" alt="Screen Shot 2020 05 13 at 12.29.50 PM" class="wp-image-18401" width="599" height="459" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM.jpg 1143w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM-300x230.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM-1024x787.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM-768x590.jpg 768w" sizes="(max-width: 599px) 100vw, 599px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Interestingly, the prize-winning submitters spent, on average 10.2 hours writing their winning submissions. They wrote more thorough conventional tests, which would yield accurate coverage when failures did occur. On the other hand, their coverage did not match the complete-page coverage they got from Visual  AI. And, their prize-winning Visual AI tests required, on average, six minutes more to write than the average of the whole of the test engineers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="h.px218u1gaycx">More Efficient Coding</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The next takeaway came from calculating coding efficiency. For conventional tests, the average participant wrote about 350 lines of code. The prize winners, whose code had greater coverage, wrote a little more than 450 lines of code, on average. This correlates with the 7 hours and 10 hours of time spent writing tests.  It’s not a perfect measure, but participants writing conventional tests wrote about 50 lines of code per hour over 7 hours, and the top winners wrote about 45 lines of code per hour over 10 hours.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":18402} -->
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM.jpg" alt="Screen Shot 2020 05 13 at 12.30.45 PM" class="wp-image-18402" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-300x170.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-1024x581.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-768x436.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-1536x872.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>In contrast, with Visual AI, the average coder needed 60 lines of code, and the top coders only 58 lines of code. Visual AI still results in 50 lines of code per hour for the average participant, and 45 lines of code for the winning participant. But, they are much more efficient.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="h.ue36leewxkir">More Stable Code</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>End-to-end tests depend on element locators in the DOM to determine how to apply test conditions, such as by allowing test runners to enter data and click buttons. Conventional tests also depend on locators for asserting content in the response to the applied test conditions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":18410,"width":600,"height":483} -->
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM.png" alt="Screen Shot 2020 05 13 at 12.31.30 PM" class="wp-image-18410" width="600" height="483" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM.png 1148w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM-300x242.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM-1024x825.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM-768x619.png 768w" sizes="(max-width: 600px) 100vw, 600px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Most software engineers realize that labels and other element locators get created by software developers – who can change locators due to intentional change or unanticipated difference. And element locator using Xpath can suddenly discover the wrong relative locator due to an enhancement. The same is true for labels, which can change between releases – even when there is no visible user behavior difference.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No one wants testing to overconstrain development. No one wants development to remain ignorant of testing needs. And yet, because mistakes sometimes happen, or changes are sometimes necessary, locators and labels change – resulting in test code that no longer works properly.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Interestingly, when evaluating conventional tests, the average Hackathon participant used 34 labels and locators, while the Hackathon prize winners used 47 labels and locators.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Meanwhile, for the Visual AI tests, the average participant used 9 labels and locators, while the winning submissions used only 8. At a conservative measure, Visual AI reduces the dependency of code on external factors – we calculate it at 3.8 x more stable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="h.xvx3dix29aty">Catching Bugs Early</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Visual AI can catch bugs early in coding cycles.  Because Visual AI depends on the rendered representations and not on the code to be rendered, Visual AI will catch visual differences that might be missed by the existing test code. For instance, think of an assertion for the contents of a text box. In this new release, the test passes because the box has the same text. However, the box width has been cut in half, causing the text to extend outside the box boundary and be obscured. The test passes, but in reality it fails. The test assumed a condition that is no longer true.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":18397,"width":620,"height":381} -->
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM.jpg" alt="Screen Shot 2020 05 13 at 12.32.15 PM" class="wp-image-18397" width="620" height="381" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM.jpg 1419w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM-300x185.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM-1024x631.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM-768x473.jpg 768w" sizes="(max-width: 620px) 100vw, 620px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Visual AI catches these differences. It will catch changes that result in different functional behavior that requires new coding. It will catch changes – like the one described above, that result in visual differences that impact users. And, it will avoid flagging changes that may change the DOM but not the view or behavior from the user’s perspective.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="h.dd003mtbnl0">Easier to Learn than Code-Based Testing</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The last thing James shared involved the learning curve for users. In general, we assumed that test coverage and score on the Hackathon evaluation correlated with participant coding skill. The average score achieved by all testers using conventional code-based assertions was 79%. After taking a 90-minute online course on Visual AI through Test Automation University, the average score for Visual AI testers was 88%.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":18398,"width":531,"height":449} -->
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM.png" alt="Screen Shot 2020 05 13 at 12.32.48 PM" class="wp-image-18398" width="531" height="449" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM.png 1065w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM-300x254.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM-1024x868.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM-768x651.png 768w" sizes="(max-width: 531px) 100vw, 531px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Because people don’t use visual capture every day, testers need to learn how to think about applying visual testing. But, once the participants had just a little training, they wrote more comprehensive and more accurate tests, and they learned how to run those test evaluations in Applitools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.cgiwnz8k92bd">What This Means For You</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>James and Raja reiterated the benefits they outlined in their webinar: faster test creation, more coverage, code efficiency, code stability, early bug catching and ease of learning. Then they asked: what does this mean for you?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you use text-based assertions for your end-to-end tests, you might find clear, tangible benefits from using Visual AI in your product release flow. It integrates easily into your CICD or other development processes. It can augment existing tests, not requiring any kind of rip and replace.  Real, tangible benefits come to many companies that deploy Visual AI. What is stopping you?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":18406} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM.jpg" alt="Screen Shot 2020 05 13 at 12.33.25 PM" class="wp-image-18406" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM.jpg 1280w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM-300x197.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM-1024x673.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM-768x505.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Often, learning comes first. Fortunately, Applitools makes it really easy for you to learn Visual AI. Just take a class on <a target="_blank" href="https://testautomationu.applitools.com/" rel="noopener noreferrer">Test Automation University</a>. There is Raja’s course: <a target="_blank" href="https://testautomationu.applitools.com/modern-functional-testing/index.html" rel="noopener noreferrer">Modern Functional Test Automation through Visual AI</a>. There is Angie Jones’s course: <a target="_blank" href="https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/index.html" rel="noopener noreferrer">Automated Visual Testing: A Fast Path To Test Automation Success</a>.  And, there are others.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can sign up for a <a target="_blank" href="http://www.applitools.com/free?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=free-account&amp;utm_campaign=&amp;utm_subgroup=" rel="noopener noreferrer">free Applitools account</a>. Using Applitools helps you understand what you can do With Applitools.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Finally, you can <a target="_blank" href="https://applitools.com/request-demo?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=request-a-demo&amp;utm_campaign=&amp;utm_subgroup=" rel="noopener noreferrer">request a demonstration</a> from a sales engineer.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>At Applitools, we let users make the case for the value of our Visual AI solution. We hope you will get a lot out of trying it yourself.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.1xulvviyerh9">For More Information</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<!-- /wp:list --><!-- wp:paragraph -->
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<!-- /wp:paragraph -->								
+			</div>
+<br>
+<br><a href="https://applitools.com/blog/add-visual-ai/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Texas Courts Won’t Pay Up in Ransomware Attack</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/texas-courts-wont-pay-up-in-ransomware-attack/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 19:10:19 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Courts]]></category>
+		<category><![CDATA[Pay]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[texas]]></category>
+		<category><![CDATA[Wont]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/texas-courts-wont-pay-up-in-ransomware-attack/</guid>
+
+					<description><![CDATA[Texas appellate courts and judicial agencies’ websites and computer servers were shut down after a ransomware attack. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Texas appellate courts and judicial agencies’ websites and computer servers were shut down after a ransomware attack.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/texas-courts-ransomware-attack/155711/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What your DevOps team needs to know: 4 lessons from exploited vulnerabilities</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-devops-team-needs-to-know-4-lessons-from-exploited-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Lessons]]></category>
+		<category><![CDATA[team]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/what-your-devops-team-needs-to-know-4-lessons-from-exploited-vulnerabilities/</guid>
+
+					<description><![CDATA[In March 2019, an online intruder discovered that cloud storage used by financial giant Capital One suffered from a vulnerability]]></description>
+										<content:encoded><![CDATA[<p> </p>
+<div>
+<p>In March 2019, an online intruder discovered that cloud storage used by financial giant Capital One suffered from a vulnerability in the firm&#8217;s application firewall and storage servers, allowing the attacker to send commands from one to the other.</p>
+<p>The exploitation of the vulnerability—<a target="_blank" href="https://owasp.org/www-community/attacks/Server_Side_Request_Forgery" rel="nofollow noopener noreferrer">an issue known as server-side request forgery (SSRF)</a>—resulted in the leaking of sensitive personal information on more than 106 million individuals in the United States and Canada. Capital One had misconfigured its web application firewall, failing to prevent privileged access to the company&#8217;s cloud storage server hosted on Amazon Web Services.</p>
+<p>This class of vulnerability was well understood and easy to exploit. It should have been a priority to fix. But the takeaway from this incident is how easy missing an important security flaw can be, said Frank Kim, instructor and curriculum lead at the SANS Institute, a technical training organization.</p>
+<blockquote>
+<p>&#8220;Even Capital One, a leader in DevOps security, makes mistakes. There are so many vulnerabilities, and companies are trying to push out so much functionality. We need to be able to close the window of vulnerability more quickly.&#8221;<br />—<a target="_blank" href="https://twitter.com/fykim" rel="nofollow noopener noreferrer">Frank Kim</a></p>
+</blockquote>
+<p>Most companies are doing <a target="_blank" href="https://content.microfocus.com/build-appsec-dev-tb/appsec-best-practices?lx=a0uQni&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">credible jobs of finding and fixing vulnerabilities in code</a>, ensuring deployed servers are not misconfigured, and putting defenses in place to protect networks and data. The problem, however, is that a single misconfiguration can have massive repercussions. SSRF, for example, is a well-understood class of vulnerabilities, but such attacks are hard to mitigate on cloud services, and protections did not exist a year ago.</p>
+<blockquote>
+<p>&#8220;As we know about DevOps, it is not just the technology when we are talking about the vulnerabilities, it is the process and the technology. We can&#8217;t just throw all these tools at the DevOps teams, because even though we say developers should do more security, their incentives—getting functional code out as quickly as possible—have not changed.&#8221;<br />—Frank Kim</p>
+</blockquote>
+<p>In November, eight months after the breach, Amazon <a target="_blank" href="https://duo.com/decipher/aws-adds-new-protections-against-ssrf-other-web-app-attacks" rel="nofollow noopener noreferrer">implemented protections against such attacks</a>.</p>
+<p>Massive breaches are often caused by simple vulnerabilities that developers, operations, and <a target="_blank" href="https://content.microfocus.com/build-appsec-dev-tb/appsec-strategies?lx=a0uQni&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">application-security teams have missed</a>. Here are four lessons from major breaches on how to catch the next seemingly small software bug before it snowballs into a massive breach.</p>
+<p><em>[ The shift is on to secure code. Get up to speed with <a target="_blank" href="https://content.microfocus.com/l/state-of-application-security-testing-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s State of App Sec Guide</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/gartner-magic-quadrant-appsec-testing?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Gartner 2020 Magic Quadrant for Application Security Testing</a> ]</em></p>
+<h3>1. Know your assets</h3>
+<p>On March 6, 2017, the Apache Foundation released a patch for a vulnerability (<a target="_blank" href="https://nvd.nist.gov/vuln/detail/CVE-2017-5638" rel="nofollow noopener noreferrer">CVE-2017-5638</a>) in Apache Struts 2, which allows attackers to execute commands using a specially crafted header HTTP header. Four days later, attackers used the flaw to scan servers at credit-reporting agency Equifax, compromising a key server there. From May to July, attackers returned and stole sensitive financial information on <a target="_blank" href="https://www.gao.gov/assets/700/694158.pdf" rel="nofollow noopener noreferrer">more than 145 million American adults from the company</a>.</p>
+<p>The cost of the Equifax breach to date: <a target="_blank" href="https://www.bankinfosecurity.com/equifaxs-data-breach-costs-hit-14-billion-a-12473" rel="nofollow noopener noreferrer">$1.4 billion</a>.</p>
+<p>Overall, Equifax knew about the vulnerability and had taken steps to patch the flaws across its systems. However, application-security experts have come up with <a target="_blank" href="https://www.databreachtoday.com/blogs/learn-from-how-others-get-breached-equifax-edition-p-2870" rel="nofollow noopener noreferrer">a list of 29 failures</a> that led to the eventual breach. Perhaps the two most important ones: a lack of visibility into what assets and software the company had deployed, said Jim Manico, founder of Manicode Security and volunteer project leader at the Open Web Application Security Project (OWASP).</p>
+<blockquote>
+<p>&#8220;All that Equifax had to do was apply the patch across their network, but on a couple of servers, either they missed them or they applied the patch and it broke, so they rolled it back&#8221;<br />—<a target="_blank" href="https://twitter.com/manicode" rel="nofollow noopener noreferrer">Jim Manico</a></p>
+</blockquote>
+<p>Being able to determine what assets may be affected by a new vulnerability, and doing it at speed, has become increasingly important, he said. Attackers create exploits from the information they glean from patches much more quickly than they could just a decade ago. In 2006, the average time it took to exploit a known vulnerability was 45 days; in 2015, it was two weeks; and with the Apache Struts 2 flaw, it took three days, Manico said.</p>
+<blockquote>
+<p>&#8220;The responsibility for patching has changed over the last 15 years as attackers have sped up their ability to go from a software patch to an exploit. For anyone running Struts 2, they had 72 hours to patch their systems. This is the No. 1 problem for application security, and developers continue to take it lackadaisically.&#8221;<br />—Jim Manico</p>
+</blockquote>
+<h3>2. Maintain coverage of important classes of vulnerabilities</h3>
+<p>The SSRF issue that led to the Capital One breach demonstrates the importance of attaining 100% coverage across both the codebase and deployed applications. While SSRF can be hard to patch in many cases, the class is relatively easy for attackers to find, according to Evan Johnson, manager of the product security team at CloudFlare. He wrote in <a target="_blank" href="https://ejj.io/blog/capital-one" rel="nofollow noopener noreferrer">an analysis of the Capital One breach</a>:</p>
+<blockquote>
+<p>&#8220;SSRF is a bug hunter&#8217;s dream because it is an easy to perform attacks and regularly yields critical findings. &#8230; The problem is common and well-known, but hard to prevent and does not have any mitigations built in to the AWS platform.&#8221;<br />—<a target="_blank" href="https://twitter.com/ejcx_" rel="nofollow noopener noreferrer">Evan Johnson</a></p>
+</blockquote>
+<p>While the OWASP Top-10 is a good start for a list of software vulnerability classes that need coverage, every development team has a different list. What is important is for the company to make sure it has good coverage—through tools and processes—of the vulnerability classes on the developers&#8217; list, said Dan Cornell, chief technology officer of Denim Group, an application-security consultancy.</p>
+<p>While companies are trying to push more security checks into integrated development environments (IDEs), they should only &#8220;shift left&#8221; those tools that retain a high-level of coverage while not disrupting development, he said.</p>
+<blockquote>
+<p>&#8220;From a coverage standpoint, you can test for certain vulnerabilities at a certain level of quality, so there are certain types of checking that you can push left. But there are some things that take too much time to integrate into a pipeline—like full static analysis to find SQL injection issues—to move onto the developers&#8217; plates.&#8221;<br />—<a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener noreferrer">Dan Cornell</a></p>
+</blockquote>
+<p><em>[ Find out <a target="_blank" href="https://www.brighttalk.com/webcast/7477/392511/keys-to-scaling-an-appsec-program?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to scale your application security program</a> in this May 12 Webinar. </em><em>Plus: Learn <a target="_blank" href="https://content.microfocus.com/l/build-app-sec-dev-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to build application security into your software</a> with<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>TechBeacon&#8217;s<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>guide ]</em></p>
+<h3>3. Teach security continuously</h3>
+<p>Development teams usually do not have the incentive to prioritize security in their daily work. Instead, security tends to get in the way of implementing features and do so on deadline.</p>
+<p>Security is a tax on developer productivity, but if done correctly, it only has to be an incremental one. Addressing issues early helps minimize the impact on the developer and the impact on the company, which could be very substantial, said Tim Mackey, principal security strategist with vulnerability-management firm Synopsys.</p>
+<blockquote>
+<p>&#8220;When I&#8217;ve talked to organizations that had a data breach, they say they have had to spend 50% of the time following a breach, fixing the issues—we are talking about impacts of that magnitude. Developers need the continuous positive reinforcement in their IDE &#8230; where you can make them feel incremental pain and get them information in context so they do the right thing, because they may not know how.&#8221;<br />—<a target="_blank" href="https://twitter.com/timintech" rel="nofollow noopener noreferrer">Tim Mackey</a></p>
+</blockquote>
+<p>Security requirements for developers should also be explicit and actionable, said Nidhi Shah, principal security researcher at Micro Focus. Application-security teams should conduct threat modeling, work with the development team to create the architecture for the product, and then turn those considerations into part of the specification, she says.</p>
+<blockquote>
+<p>&#8220;The developer should not have to translate architecture requirements into tasks during development. Security should instead be specified as part of the feature template that the developer needs to produce.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/nidhi-shah-8046481/" rel="nofollow noopener noreferrer">Nidhi Shah</a></p>
+</blockquote>
+<h3>4. Strive to make patching painless</h3>
+<p>The lowest level of application-security maturity is not patching, which should be unacceptable for any software development team. Companies whose application-security teams track open-source components, triage patches, and include coding feedback in the integrated development environment are above average, at Level 2.</p>
+<p>Yet these scanners miss things.</p>
+<p>The highest level of maturity for OWASP&#8217;s Manico is not depending on the scanners, but lowering the disruption of patching by automation</p>
+<blockquote>
+<p>&#8220;Attaining this level of maturity makes your security posture the best, but it also makes your functionality the most fragile, because you are changing every day. If you update every day, you need two things to go fast: one, rigorous security and functionality automation, and two, the willingness to fix dependencies in the open-source world.&#8221;<br />—Jim Manico</p>
+</blockquote>
+<p>Yet getting to the point where everything can be patched quickly and relatively painlessly may be out of reach for most development organizations, said Denim Group&#8217;s Cornell.</p>
+<blockquote>
+<p>&#8220;It is easy to give the advice that you need to patch everything, but it is harder to follow at scale, and there are some systems which cannot suffer a disruption. When you patch a server and the Oracle database does not come up and you are losing thousands of dollars a minute, that will make you more hesitant to patch quickly.&#8221;<br />—Dan Cornell</p>
+</blockquote>
+<p>In the end, application-security teams need to recruit developers to their cause by making it easy to learn security and integrating security tools that do not get in the way of development.</p>
+<p>We need to provide developers help, says Micro Focus&#8217;s Shah.</p>
+<blockquote>
+<p>&#8220;If security is not part of the functional requirement, they are not going to implement it. Deciding whether we can upgrade, whether the vulnerability is applicable to our software—those are questions that often the developer is not able to determine.&#8221;<br />—Nidhi Shah</p>
+</blockquote>
+<p><em>[ Take a deep-dive with our <a target="_blank" href="https://content.microfocus.com/l/application-security-tb" rel="noopener noreferrer">Application Security Trends and Tools Guide</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/application-security-tb/buyers-guide-appsec?lx=P_znZe" rel="noopener noreferrer">App Sec Buyer&#8217;s Guide</a>. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/what-your-devops-team-needs-know-4-lessons-exploited-vulnerabilities">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th #NeotysPAC Meet-UP about “&#8230;</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tomorrow-at-9-pm-cet-3-pm-edt-dont-miss-the-7th-neotyspac-meet-up-about/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 15:04:02 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[7th]]></category>
+		<category><![CDATA[CET]]></category>
+		<category><![CDATA[Dont]]></category>
+		<category><![CDATA[EDT]]></category>
+		<category><![CDATA[meetup]]></category>
+		<category><![CDATA[NeotysPAC]]></category>
+		<category><![CDATA[Tomorrow]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/tomorrow-at-9-pm-cet-3-pm-edt-dont-miss-the-7th-neotyspac-meet-up-about/</guid>
+
+					<description><![CDATA[🍻 ☕️ Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th #NeotysPAC Meet-UP about “IoT is]]></description>
+										<content:encoded><![CDATA[<p></p>
+<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3317795731565200%3Atop_level_post_id.3317795731565200%3Atl_objid.3317795731565200%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3317795731565200%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3317795464898560%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1589295842%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3317795731565200%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3317795731565200%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A-4551370403805524322&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet-UP about “IoT is Coming&#8230; how can we realistically test IoT solutions?”. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /> Join Luca Forni, Rob Jahn, Suresh D Kanan, Ian Molyneaux, Gayatree Nawaldad, Alexander Podelko, Henrik Rexed and Fabio Violante <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2yDMfSV%3Ffbclid%3DIwAR0q2OTvsUKudOoKCcKno8EfEtDdjA3FaCqEQDHWFWiYYlxExQpzoDRi58M&amp;h=AT24JQvbsseS-4X10Ijf2Yd7BS1Ozmd7kj-Srzk2XH_qjqC8wM8S3pEnb66bxriaX2svoZ10JhcXfePcoXxj5H1LZvDRKr0FPZ--qjVZiXcZFVDZQ5ULYoU0jPTA4mFfvSCndCsjO17bhD62NakDVw7lcXLoR7mlTMwbl6ghxZGiCdhcu1a7dTq7zz63cfJocypJuyYgmtUfvUJB9d_N6hL6slY1zBJ5ajc3Zcq3rx70iyxSV2FD5UbPoW4MDm27oXcT442cOqD0IsmFnCSPZwbGMQEVRXY4pfmdJIM20p4_PgfsQr5jB7v2NHpcGMvyjYoHuuMTXAmN2XaNwGq9OIL1PxWLAUMUuXr81A6nTRmQoMO7MDohAz7qjBoA8E6crUpdYW_-CLb1e7mZjFLratHCeIAfbG_S8AKEW1ijqgg89BrgOInjfnKPFnoqNJ9jNi6NeyISTwTJRLjykJSEnDP_T04mli8i1s1j03KoPGVeYmkWqeVwexD3vl7fPI9wFtyyTTwYiloj4ipeGjWkSEHVJRzRekWzh1G4jq1-ykFKgWGWlE5G9-WdattHhnaxpcRBakHrJkMLVxZTRbZ-ij31mRaEv2IlM943LMMRmTnnoL4cJK80zqNcIFDii_9nqsejwc1e9GHIw4YjrEgZAm27uyR6W115nA2kORBx4GXJxxf_g_aweB9TlOY-ANMFpVWsUMMmIVwVlml6hQ4mW5YT0klO4yT_GJRROrfxBTmP6jUiXhku1K28Dtcmoz9_mJ3UH4zh_dPdVALZB7VO1HIj4FFem-7eAPG43hWyGGwJ1Lx79Mumf0EtqYE4xNC85TxzCkTjzKNrYgSHH-gmx-5g05LhoK0vFaclsg0SgkNuSLO2vc2LLRZ4S-e3dS-BSmy7_X8R9-rsadnOvsmdrO2mnKgQPKRl320GNd0tutjnnL8Ff6fVIyHLAGLvI8nmtc3ciZDp2jw239eoZbUpRcHeQydFLYHl-PT8nW5xJe4B7RNuole7sW6mKYtHg6X_P2O_dFPiNEcLtVE1yjY-Y1zNoEsJJz6Iz2w29J3QaNLmunxvXuCnl45Sy3aK6PBlOQV1ow3l-WCI4fMTIoddGw9hYjoJ7VwivxwqIZoLMRr4Z5L0aCngzOHKjNA-DCW64_lUP1N1KIZAm9vPn9sqiySAN5mpL0qOKhsfgXmfK-dAIempGm30xWF1obv1kMdOXJ4RcPrqOabfuRd48Xad99byyw7I2PZzm-Oxi3H-e48U61OWlRrIH3lfNqzeeA" rel="noopener noreferrer">https://bit.ly/2yDMfSV</a>
+</p>
+<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/97063738_3317795481565225_3929188794237976576_o.png?_nc_cat=110&#038;_nc_sid=8024bb&#038;_nc_ohc=5z0oiGP2__sAX-WdGK4&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=ceaa9dcf940ebb89cb7549340a43858b&#038;oe=5EDF7C17" rel="noopener noreferrer"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3317795731565200">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why ESM fails: 7 sure-fire ways to kill your project</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-esm-fails-7-sure-fire-ways-to-kill-your-project/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[ESM]]></category>
+		<category><![CDATA[fails]]></category>
+		<category><![CDATA[kill]]></category>
+		<category><![CDATA[Project]]></category>
+		<category><![CDATA[surefire]]></category>
+		<category><![CDATA[ways]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/why-esm-fails-7-sure-fire-ways-to-kill-your-project/</guid>
+
+					<description><![CDATA[Enterprise service management (ESM) is ideal for streamlining and optimizing customer services that multiple teams and departments jointly provide in]]></description>
+										<content:encoded><![CDATA[<p> </p>
+<div>
+<p>Enterprise service management (ESM) is ideal for streamlining and optimizing customer services that multiple teams and departments jointly provide in an organization. ESM initiatives in many businesses around the world are helping to increase customer satisfaction, control costs, and increase productivity.</p>
+<p>ESM <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/extend-it-service-management?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">applies IT service management (ITSM) principles, practices, and tools to non-IT parts of the business</a>, such as human resources, finance, travel, and facilities. It requires a new way of thinking and working. That&#8217;s why teams that are willing to adapt and evolve are having the greatest success with it.</p>
+<p>ESM is most effective when companies can do two things right:</p>
+<ol>
+<li><strong>Identify the true needs of their customers </strong>at the present time, not just what leaders think customers should need or what satisfied them in the past.</li>
+<li><strong>Transcend the silos</strong> and find new ways to add more customer value, no matter who contributes what to the value stream.</li>
+</ol>
+<p>Fail at either of those, and your project will be in danger of becoming irrelevant, or paralyzed by bureaucratic and political roadblocks.</p>
+<p>Here are the key issues that enterprise service management consultants and practitioners say threaten the success of ESM projects in organizations of many sizes—and tips on how to avoid or overcome them.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management (ESM)</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyers Guide to ESM Products</a> ]</em></p>
+<h3>1. Trying to go it alone</h3>
+<p>ESM tools can be complex to implement properly, and if your entire team is new to ESM, you can waste a lot of time, make a lot of rookie mistakes, and still end up with an implementation that is too limiting. Have the vendor help you install and configure a new ESM tool, said Doug Tedder, principal at Tedder Consulting.</p>
+<blockquote>
+<p>&#8220;[This] will keep you from the trap of making it too specific to what you’re trying to do right now.&#8221; <br />—<a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a></p>
+</blockquote>
+<p>It will also keep you from stalling out the entire project. For example, one large public-school system in the US purchased a popular ESM tool but was left on its own during a very complicated implementation with multiple workflows. The experience was extremely frustrating, wasted a lot of time, and soured many employees on the whole project, said <a target="_blank" href="https://twitter.com/VesnaSoraic" rel="nofollow noopener noreferrer">Vesna Soraic</a>, senior manager of product marketing at Micro Focus.</p>
+<p>You can avoid that. When <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">evaluating ESM tool vendors</a>, be honest about your team&#8217;s limitations, said Tedder. Implementation mistakes can plague you for years, so it&#8217;s smart to get it right from the beginning.</p>
+<blockquote>
+<p>&#8220;Make sure you ask about implementation assistance if your team lacks expertise.&#8221; <br />—Doug Tedder</p>
+</blockquote>
+<h3>2. Thinking too small</h3>
+<p>A limited vision of what ESM can do for your organization will lead to limited improvements that don&#8217;t take advantage of the full potential of ESM that executives will be expecting. Don&#8217;t think too small by focusing only on digitizing existing workloads, or automating a few parts of an existing workflow. <a target="_blank" href="https://techbeacon.com/resources/techbeacon-guide-how-roll-out-robotic-process-automation" rel="noopener noreferrer">That&#8217;s really just automation</a>.</p>
+<p>Think big, said Lou Hunnebeck, principal advisor at IT services provider DXC Technology, because that&#8217;s <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-roadmap?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">the digital transformation that executives are chasing</a> right now.</p>
+<blockquote>
+<p>&#8220;[It&#8217;s better to think about] doing something in a fundamentally different way, or doing something completely new.&#8221; <br />—<a target="_blank" href="https://twitter.com/louhunnebeck" rel="nofollow noopener noreferrer">Lou Hunnebeck</a></p>
+</blockquote>
+<p>ESM, done right, can support <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">true digital transformation</a> in both the back and front offices. It can help your organization deliver extraordinary value to customers by doing things in completely different ways (faster, cheaper, better than before), and offering new things that meet their needs better than ever (and better than the competition).</p>
+<p>Companies are digitally transforming the way they serve and delight their customers, from the kiosks at McDonald&#8217;s that let toddlers customize their own Happy Meal to self-parking cars that take the stress out of parallel parking to Disney&#8217;s MagicBands that let guests into their hotel room and into the parks with a FastPass—and can tip them off about rides with short lines and alert Disney characters to wish them a happy birthday. <a target="_blank" href="https://techbeacon.com/enterprise-it/why-esm-must-evolve-automate-end-end-value-streams" rel="noopener noreferrer">This does not happen if you think small</a>.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>3. Trying to tackle too much in one project</h3>
+<p>It is tempting to try to address an entire end-to-end process in one ESM project—especially if you&#8217;re thinking big in terms of impact. But unless you’re looking at a very simple process, you will almost certainly run into serious problems with that approach, said Hunnebeck.</p>
+<p>First, you may produce a process flow mapped at too high a level. This is a problem because it leaves too many gaps. It&#8217;s hard to &#8220;find the gotchas, and identify opportunities for efficiencies,&#8221; in a high-level process map, because too many important details are missing, he said.</p>
+<p>On the other hand, you may attempt to produce a highly detailed <a target="_blank" href="https://techbeacon.com/devops/whats-wrong-your-value-stream-mapping" rel="noopener noreferrer">value-stream map</a>, documenting every data point about the current state. When you are addressing a complex process that involves multiple teams and workflows, this usually takes too long, and can seldom be completed within the project timeline.</p>
+<p>This commonly happens to teams that think they can analyze and document their processes once and that&#8217;s it, said Hunnebeck.</p>
+<blockquote>
+<p>“That’s ridiculous. You don’t have to do things via waterfall; you should work iteratively.”<br />—Lou Hunnebeck</p>
+</blockquote>
+<p>When you target an improvement, choose something that you think can be done in 30 to 90 days. If you have to break up big projects into small pieces, that&#8217;s fine. But if you extend any initiative much beyond that, you lose people’s focus, and organizational support may shift to other things, Hunnebeck said.</p>
+<p>These short-term projects will help you take your organization through a staged approach to ESM adoption, where projects are able to evolve based on priorities, said Dennis Drogseth, vice president of research at consultancy Enterprise Management Associates.</p>
+<blockquote>
+<p>&#8220;[Don&#8217;t think in terms of] a single before and after, but a stepladder to where you&#8217;re trying to go.&#8221;<br />—<a target="_blank" href="https://twitter.com/dndrogseth" rel="nofollow noopener noreferrer">Dennis Drogseth</a></p>
+</blockquote>
+<p>This iterative model is critical to keeping momentum going because it gets you to the finish line over and over. Find improvements the business will value, and that you &#8220;can solve to some degree of completeness in a matter of weeks,&#8221; said Tedder. </p>
+<blockquote>
+<p>&#8220;Show small, incremental value and continue to roll on that,&#8221; with a road map of projects that eventually result in holistic transformation.&#8221;<br />—Doug Tedder</p>
+</blockquote>
+<p>This approach produces multiple benefits. Once teams put an iterative improvement in place, they are able to quickly evaluate its performance and market its success throughout the organization, said Hunnebeck. Teams can use lessons learned on their subsequent projects, and help the organization realize the benefits of ESM in real time.</p>
+<h3>4. Failing to think like a customer</h3>
+<p>If you lose your connection <a target="_blank" href="https://techbeacon.com/app-dev-testing/using-devops-app-agility-rethink-how-you-engage-customers" rel="noopener noreferrer">to your customers&#8217; current needs</a>, wants, and underlying pain points, you run the risk of expanding in the wrong directions, missing emerging opportunities, and failing to see major shifts in the market that change the game. In other words, you become more Blockbuster and less Netflix.</p>
+<p>One of the fundamental prerequisites of any ESM implementation is to have a clear understanding of who the customer is and what&#8217;s important to them. This is the case whether you are providing services to your external customers or to employees.</p>
+<p>As a service provider, you need to look at your consumers from the perspective of what they need, what is important to them, and what their desired outcomes are, said DXC&#8217;s Hunnebeck.</p>
+<p>With this approach, you become laser-focused on the needs of your customers, and this can in turn <a target="_blank" href="https://techbeacon.com/devops/how-infuse-customer-feedback-your-devops" rel="noopener noreferrer">drive customer-centric innovation</a> that delivers more value every year. This is a key component of the success of Amazon, whose mission statement begins with: &#8220;Earth’s most customer-centric company.&#8221;</p>
+<p>A deep understanding of a customer pain point or need gives you a good point of departure for ESM. You start with a clearly defined, highly relevant business problem, and then &#8220;imagine how a combination of technology and process and services all might come to bear to solve the issue,&#8221; Tedder said.</p>
+<h3>5. Leaving out important voices</h3>
+<p>You&#8217;re more likely to make poor decisions if you don&#8217;t involve all the people who know important things about the process you are trying to improve. A classic mistake is inviting only managers to participate. Managers frequently don&#8217;t know what&#8217;s happening in a process or workflow. They assume that a procedure that&#8217;s been defined and documented is being followed precisely.</p>
+<p>But if you get input from people on the factory floor, said Hunnebeck, they often say, &#8220;Oh no, we don&#8217;t really do it that way. What we really do is XYZ. And by the way, if you don&#8217;t do Z in a particular way, it falls apart.&#8221; </p>
+<p>Pulling in the right voices is also an iterative process. You start with a few people with broad knowledge of the value stream, and &#8220;then you expand and add more and more stakeholders who know things that you didn&#8217;t know,&#8221; she said.</p>
+<p>When you are trying to improve something on a detailed level, it is essential to listen to all those extra voices and resist making any assumptions. All too often, people assume too much and &#8220;it blows up in their faces,&#8221; said Hunnebeck.</p>
+<h4>How to solicit the correct input</h4>
+<p>When you are working with a cross-functional process, or a value stream with multiple sub-processes, you need to:</p>
+<ul>
+<li>Identify all the stakeholders (upstream and downstream)</li>
+<li>Identify all the contributors and their roles in the value stream</li>
+<li>Get all the right people to provide input when it&#8217;s going to do you the most good</li>
+</ul>
+<p>For example, said Hunnebeck, when you identify a proposed improvement, you need to give all the stakeholders across the value stream the chance to say, &#8220;If you change that part of the process, it will have a negative effect downstream,&#8221; or, &#8220;We need to provide you with new inputs from upstream to enable that automation.&#8221; </p>
+<p>To succeed you need a mix of executive leadership, process, and political alignment, and strong mid-level management, said Drogseth. You will also need people who can architect, DevOps people, and analytics experts. </p>
+<p>All of these perspectives will provide specific kinds of value to the project, and can challenge and correct any faulty assumptions that individual team members might make.</p>
+<p>By not working iteratively, not involving the right voices, and making too many assumptions, people will struggle to automate process. Mistakes happen when teams try to skip some of these best practices and rush toward the finish line.</p>
+<blockquote>
+<p>&#8220;It’s not rocket science, but there aren’t any shortcuts.&#8221;<br />—Lou Hunnebeck</p>
+</blockquote>
+<h3>6. Neglecting to sponsor and own the project properly</h3>
+<p>It&#8217;s a common mistake to think that your ESM project can be a part-time activity for everyone involved. Most contributors will need to participate as they continue to doing their regular jobs. But you <em>will</em> need a full-time commitment from one or two people—designated as the project owners—to shepherd it to completion, Hunnebeck said.</p>
+<p>This will be possible only if you have the right level of corporate sponsorship for your ESM initiatives. Helpiing the C-suite to get their heads around this &#8220;is critical,&#8221; said Tedder. If you have someone in the top management owning ESM for the entire organization, that person will have sufficient authority to mandate the cooperation of all departments, teams, and individuals that will need to contribute something to the project.</p>
+<p>And that includes excusing someone from their day job to own the ESM project.</p>
+<p>Realistically, you can&#8217;t run an ESM project without a full-time owner and expect to deliver results on time. The role requires tremendous amounts of coordination and communication.</p>
+<blockquote>
+<p>&#8220;It can&#8217;t be a side job if you want to keep this going.&#8221;<br />—Lou Hunnebeck</p>
+</blockquote>
+<h4>How a project manager gets it done</h4>
+<p>An ESM project owner typically proceeds like this.</p>
+<p>First, identify the high-level flow, as a point of departure for the project team. &#8220;You don’t want to start with a blank page,&#8221; said Hunnebeck. Next, identify the obvious people who should have a broad knowledge of the value stream, and invite them to participate.</p>
+<p>Third, schedule and facilitate a preliminary on-site workshop for a couple of days to:</p>
+<ul>
+<li>Scope out the end-to-end flow as far as possible (low-tech approaches can be very effective here; think sticky notes and flip charts).</li>
+<li>Share metrics from each participant that are relevant to their pieces of the value stream.</li>
+<li>Build the larger list of other people who need to provide input.</li>
+<li>Create a clear go-forward plan with specific details.</li>
+</ul>
+<p>Rarely will every person be needed at the in-person meeting, said Hunnebeck. But the in-person meeting is incredibly valuable to get everyone engaged and drive a sense of ownership.</p>
+<blockquote>
+<p>&#8220;It also sends a powerful message from the business: We are serious and we’re willing to spend money on this.&#8221;<br />—Lou Hunnebeck</p>
+</blockquote>
+<p>After the workshop, engage all the potential participants, clearly explaining what contribution you expect from people with deep knowledge about big sections of the process—including the amount of time you will need from them, the kinds of things you&#8217;ll need them to do, and their overall responsibilities.</p>
+<p>Next, invite technical resources who are experts in specific tools or other parts of the process to participate. You will need to work with their managers to get support for the time they&#8217;ll spend on this.</p>
+<p>You will also want to ensure that they will be recognized and rewarded for their participation. &#8220;If they feel like their boss doesn&#8217;t support it, or they don&#8217;t have time to contribute to it and won&#8217;t be recognized for it, you&#8217;re already dead in the water,&#8221; said Hunnebeck.</p>
+<p>After the first workshop, set up a regular cadence of meetings that makes sense for your team. </p>
+<p>Other tasks the point person will need to do include:</p>
+<ul>
+<li>Manage the overall project.</li>
+<li>At every opportunity, involve key stakeholders (including those outside the project team) to get their input, validate assumptions, and check for unknown ramifications.</li>
+<li>Train and educate all participants.</li>
+<li>Communicate progress with organization.</li>
+</ul>
+<h3>7. Failing to communicate enough</h3>
+<p>Too often, employees hear about an ESM initiative in an all-hands meeting and then never hear about it again. That is a huge mistake. ESM requires culture change across the entire organization, so people need to understand and embrace it. When ESM owners fail to communicate, they miss an opportunity to educate, engage, and involve everyone in the process of digital transformation.</p>
+<p>If you want support, be sure to communicate. Ask stakeholders for advice about issues you are grappling with; regularly let employees know what you&#8217;re up to, and why it matters. Ask for reality checks from people in the trenches who may feel marginalized.</p>
+<p>Your executive sponsor will be essential here. When you want to recognize and commend people for their contribution, have that come from the sponsor, said Hunnebeck. Have them sign all the key memos and employee updates, and show their enthusiasm for the project.</p>
+<p>All of this will reinforce the message that the company is serious about this, that &#8220;we intend to succeed, and we are making progress,&#8221; said Hunnebeck.</p>
+<h3>Create principles to keep you on track</h3>
+<p>Formulate a set of guiding values that can help guide your team when tough choices need to be made. This can be part of your agenda for the two-day workshop. For example, Hunnebeck&#8217;s clients often include things like: </p>
+<ul>
+<li><strong>Focus on value</strong>: Make improvements that will make a difference.</li>
+<li><strong>Start where you are</strong>: Don&#8217;t try to rip everything out and start over.</li>
+<li><strong>Work iteratively, with feedback loops: </strong>We changed something; did it change anything material? Was is impactful?</li>
+<li><strong>Collaborate and promote visibility:</strong> Don&#8217;t end up with two or three people doing everything themselves. Communicate news and kudos specifically, generously, and often.</li>
+<li><strong>Think and work holistically: </strong>Think end to end—what are the ramifications of every change?</li>
+</ul>
+<h3>Now get rolling</h3>
+<p>The main problems that commonly derail ESM projects are totally preventable. You can set yourself up for success by avoiding the seven deadly sins above, and by working to create an organizational culture that fosters innovative problem solving and celebrates the customer.</p>
+<p>To get rolling in the right direction, think about processes that might need improvement, then <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/how-to-get-started-w?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">select an ESM project that is suitable for your organization</a>. Then you&#8217;re ready to <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">evaluate the ESM tools and technologies </a>that might fit your needs.</p>
+<p>You have everything to gain by leaning into ESM, and by being smart, persistent, and strategic about how you implement it. Start now, don&#8217;t take any shortcuts, and before long your company might join the likes of McDonald&#8217;s, Netflix, and Disney as you transform the way you deliver customer value and change the game.</p>
+<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/why-esm-fails-7-sure-fire-ways-kill-your-project">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Chatbooks Confirms Breach After ‘Shiny Hunters’ Sell Data</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/chatbooks-confirms-breach-after-shiny-hunters-sell-data/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 13:56:11 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Chatbooks]]></category>
+		<category><![CDATA[confirms]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Hunters]]></category>
+		<category><![CDATA[Sell]]></category>
+		<category><![CDATA[Shiny]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/chatbooks-confirms-breach-after-shiny-hunters-sell-data/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/chatbooks-confirms-breach-after-shiny-hunters-sell-data/155646/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Testing Better Together With the 2020 Continuous Testing Benchmark Report</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-better-together-with-the-2020-continuous-testing-benchmark-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 08:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Benchmark]]></category>
+		<category><![CDATA[Continuous]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-better-together-with-the-2020-continuous-testing-benchmark-report/</guid>
+
+					<description><![CDATA[A little more than a year ago today, aiming to address what we saw as a significant gap in the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>A little more than a year ago today, aiming to address what we saw as a significant gap in the testing market, we first launched the Sauce Labs Continuous Testing Benchmark, a new report organizations could use to see how their continuous testing efforts stacked up against both critical best practices and the testing efforts of other enterprises. In the time since, hundreds of organizations have leveraged the report to better understand and improve upon the state of their continuous testing initiatives. It has become an essential resource for the testing community.</p>
+<p>It’s only fitting then that the <a target="_blank" href="https://saucelabs.com/resources/white-papers/sauce-labs-continuous-testing-benchmark-report-2020" rel="noopener noreferrer">Sauce Labs Continuous Testing Benchmark for 2020</a> is now available on the same day we kickoff <a target="_blank" href="https://saucecon.com/" rel="noopener noreferrer">SauceCon Online</a>. The theme for this year’s conference is “Test Better, Together,” and perhaps no community resource better exemplifies the spirit of testing better together than the Sauce Labs Continuous Testing Benchmark. </p>
+<p>The report looks at real customer data from the Sauce Labs Continuous Testing Cloud, a platform on which more than 3 million tests are run each day, and on which more than 3 billion tests have been run since its inception. It articulates the four benchmark metrics critical to continuous testing excellence and measures how organizations’ collective testing efforts stack up against these defined standards. Those metrics include test quality, test run time, test platform coverage, and test efficiency, the latter of which looks closely at the extent to which organizations are leveraging available testing capacity to achieve parallelization. </p>
+<p>New for 2020, the report examines the performance of mobile tests (for mobile apps and websites) in addition to desktop tests (for desktop apps and websites). As organizations increasingly adopt a mobile-first mindset, understanding and improving the efficacy of our mobile testing efforts is paramount. Equally paramount (as is laid bare in the 2020 benchmark report) is the need for organizations to improve test quality. Test quality is, after all, the foundation on which successful continuous testing is built. Though organizations’ collective performance against the test quality benchmark did improve in comparison to 2019, we still have a long way to go.</p>
+<p>That’s why the report also looks for the first time at the potential impact of<a target="_blank" href="https://saucelabs.com/news/sauce-labs-launches-new-machine-learning-based-analytics-solution-to-improve-test-quality" rel="noopener noreferrer"> failure analysis</a>, a new method of applying machine-learning to pass/fail data in order to surface the most common underlying causes of failures within a test suite. Given the urgent need to improve test quality, failure analysis stands as one of the most promising new developments the testing industry has seen in some time.</p>
+<p>More important than what the 2020 benchmark report reveals, however, is what it represents: an opportunity for testers and developers to continue learning, growing, and ultimately, improving. Amid the day-to-day pressures of developing great software, it’s easy to forget that most organizations are just beginning their continuous testing journeys, and most will face challenges as those journeys evolve. The best way for us to collectively overcome those challenges is to continue the sense of sharing, support, and community that has come to define the testing industry. We hope this report will continue to play a role in those efforts, making it that much easier for us to test better, together.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/testing-better-together-with-the-2020-continuous-testing-benchmark-report">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
