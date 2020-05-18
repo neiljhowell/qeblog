@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 15 May 2020 20:40:58 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 May 2020 20:41:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,32 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Hoaxcalls Botnet Exploits Symantec Secure Web Gateways</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/hoaxcalls-botnet-exploits-symantec-secure-web-gateways/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 20:41:24 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Botnet]]></category>
+		<category><![CDATA[Exploits]]></category>
+		<category><![CDATA[Gateways]]></category>
+		<category><![CDATA[Hoaxcalls]]></category>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[Symantec]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/hoaxcalls-botnet-exploits-symantec-secure-web-gateways/</guid>
+
+					<description><![CDATA[The fast-moving botnet has added an exploit for an unpatched bug in an unsupported version of the security gateway. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The fast-moving botnet has added an exploit for an unpatched bug in an unsupported version of the security gateway.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/hoaxcalls-botnet-symantec-secure-web-gateways/155806/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Thai Pangsakulyanont, Hackathon Winner &#124; Applitools</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thai-pangsakulyanont-hackathon-winner-applitools/</link>
 		
@@ -147,6 +173,84 @@
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/devops/why-injecting-security-devops-no-brainer">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>‘Thunderspy’ enlightening—very, very frightening &#124; TechBeacon</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thunderspy-enlightening-very-very-frightening-techbeacon/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 14 May 2020 18:30:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[enlighteningvery]]></category>
+		<category><![CDATA[frightening]]></category>
+		<category><![CDATA[TechBeacon]]></category>
+		<category><![CDATA[Thunderspy]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thunderspy-enlightening-very-very-frightening-techbeacon/</guid>
+
+					<description><![CDATA[Seven flaws in Thunderbolt ports let an attacker fully access data on recent PCs and some Macs. Is this just fantasy?]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><strong>Seven flaws in Thunderbolt</strong> ports let an attacker fully access data on recent PCs and some Macs. Is this just fantasy?</p>
+<p><strong>The bugs bypass</strong> Intel’s security controls, so malefactors can decrypt drives with ease. Didn’t mean to make you cry.</p>
+<p><strong>And the researchers threw shade</strong> on Intel for its response to their disclosure. Sends shivers down my spine.</p>
+<p><strong>However, the attack isn’t trivial to pull off.</strong> In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer">Security Blogwatch</a></i>, we see a little silhouetto <a target="_blank" href="https://techbeacon.com/security/what-your-devops-team-needs-know-4-lessons-exploited-vulnerabilities" rel="noopener noreferrer">of a vuln</a>.</p>
+<p><a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Pandemic vs. Planes.</em></p>
+<p><em>[ Join this May 28 Webinar to learn <a target="_blank" href="https://www.brighttalk.com/webcast/7477/400829?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to mitigate threats with agility during the COVID-19 pandemic</a>. Plus: See TechBeacon&#8217;s Guide to a <a target="_blank" href="https://content.microfocus.com/l/cloud-based-security-analytics-ops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Modern Security Operations Center</a> ]</em></p>
+<h3>IOMMU, Figaro!</h3>
+<p><strong>What’s the craic?</strong> Andy Greenberg reports—<i><a target="_blank" href="https://www.wired.com/story/thunderspy-thunderbolt-evil-maid-hacking/" rel="nofollow ugc noopener noreferrer" title="read the full text">Thunderbolt Flaws Expose Millions of PCs to Hands-On Hacking</a>:</i></p>
+<blockquote><p><em>Security researchers have long been wary of Intel&#8217;s Thunderbolt interface as a potential security issue. … On Thunderbolt-enabled Windows or Linux PCs manufactured before 2019, [Thunderspy] can bypass the login screen of a sleeping or locked computer—and even its hard disk encryption—to gain full access to the computer&#8217;s data.<br />…<br />It leaves no trace of intrusion and can be pulled off in just a few minutes. … There&#8217;s no easy software fix. [It’s] both unpatched and unpatchable for millions of computers.<br />…<br />The fact that Thunderbolt remains a viable attack method for evil maids isn&#8217;t entirely unexpected, says Karsten Nohl, a well-known hardware security researcher. … Still, he was surprised to see how easily Intel&#8217;s &#8220;security levels&#8221; can be bypassed.<br />…<br />Users may want to disable their Thunderbolt port altogether in their computer&#8217;s BIOS … enable hard disk encryption, and turn their computers off entirely when they leave them unattended.</em></p></blockquote>
+<p><strong>And</strong> Sergiu Gatlan adds—<i><a target="_blank" href="https://www.bleepingcomputer.com/news/security/new-thunderbolt-security-flaws-affect-systems-shipped-before-2019/" rel="nofollow ugc noopener noreferrer" title="read the full text">New Thunderbolt security flaws</a>:</i></p>
+<blockquote><p><em>The new attack, discovered by Eindhoven University of Technology researcher Björn Ruytenberg, [allows] attackers to steal information from any vulnerable Thunderbolt-enabled device. … &#8220;All systems released before 2019, and more recent systems that do not ship Kernel DMA Protection, will remain fully vulnerable to Thunderspy forever,&#8221; the researcher explains.<br />…<br />For Linux and Windows users, all systems purchased before 2019 are vulnerable … while devices bought during and after 2019 might [be]. Macs from 2011 and older, except for Retina MacBooks, are all impacted.<br />…<br />Intel confirmed that the vulnerabilities are valid but [can] not mitigate the Thunderspy vulnerabilities by issuing a patch [as it] would require a silicon redesign.</em></p></blockquote>
+<p><strong>Björn <i>who?</i></strong> Björn Ruytenberg—<i><a target="_blank" href="https://thunderspy.io/" rel="nofollow ugc noopener noreferrer" title="read the full text">When Lightning Strikes Thrice</a>:</i></p>
+<blockquote><p><em>We have found 7 vulnerabilities in Intel’s design and developed 9 realistic scenarios how these could be exploited by a malicious entity to get access to your system, past the defenses that Intel had set up for your protection. … Thunderspy enables creating arbitrary … device identities and cloning user-authorized … devices, even in the presence of Security Levels pre-boot protection and cryptographic device authentication.<br />…<br />Our research has found the following vulnerabilities:<br /> </em></p>
+<ol>
+<li><em>Inadequate firmware verification schemes </em></li>
+<li><em>Weak device authentication scheme </em></li>
+<li><em>Use of unauthenticated device metadata </em></li>
+<li><em>Downgrade attack using backwards compatibility </em></li>
+<li><em>Use of unauthenticated controller configurations </em></li>
+<li><em>SPI flash interface deficiencies </em></li>
+<li><em>No Thunderbolt security on Boot Camp</em></li>
+</ol>
+<p><em>These vulnerabilities lead to nine practical exploitation scenarios.<br />…<br />We disclosed vulnerabilities 1-5 to Intel on February 10. They wrote on March 10 … that vulnerabilities 3-5 were new to them. After further research we disclosed vulnerability 6, which Intel confirmed on March 17. … We informed Apple of vulnerability 7 on April 17.<br />…<br />In our first email we asked Intel to promptly notify affected parties, in coordination with us. However, Intel did not take any action and finally, after several email exchanges, listed only 5 parties whom they would inform. We then sent them a list of other parties we had identified as affected, including 11 OEMs/ODMs and the Linux kernel security team. Eventually they notified us that they informed some parties on 25 March about the vulnerabilities and upcoming disclosure, without giving us details of what this information consisted of and whom exactly they contacted. We reached out to several more parties after realizing that they had been skipped by Intel.</em></p></blockquote>
+<p><div class="fitvids-video"><iframe title="Thunderspy PoC demo 1: Unlocking Windows PC in 5 minutes" width="800" height="450" src="https://www.youtube.com/embed/7uvSZA1F9os?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<p><strong>Yikes, Intel.</strong> Jerry Bryant puts on his big-boy PR pants—<i><a target="_blank" href="https://blogs.intel.com/technology/2020/05/more-information-on-thunderspy/" rel="nofollow ugc noopener noreferrer" title="read the full text">More Information on Thunderbolt<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Security</a>:</i></p>
+<blockquote><p><em>In February 2020, researchers from Eindhoven University of Technology … discussed issues related to invasive physical attacks on Thunderbolt<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> hosts and devices. While the underlying vulnerability is not new and was addressed in operating system releases last year, the researchers demonstrated new potential physical attack vectors using a customized peripheral device on systems that did not have these mitigations enabled.<br />…<br />We thank the researchers from Eindhoven University for reporting this to us.</em></p></blockquote>
+<p><strong>Wait, so “nothing to see here”?</strong> Shaun Nichols mocks—<i><a target="_blank" href="https://www.theregister.co.uk/2020/05/11/thunderspy_port_hack/" rel="nofollow ugc noopener noreferrer" title="read the full text">Incredible how you can steal data via Thunderbolt once you&#8217;ve taken the PC apart, attached a flash programmer, rewritten the firmware&#8230;</a>:</i></p>
+<blockquote><p><em>Let&#8217;s be frank: This is, for most people, more of a neat trick than infosec Armageddon. A miscreant would need to have physical access to the machine long enough to unscrew the case, attach an SPI flash programmer with an SOP8 clip to rewrite the Thunderbolt port controller&#8217;s firmware to unlock access, and then attach a device to the interface to copy data via PCIe and DMA through the port, and then, if necessary, flash back the original firmware and fit the computer back together.<br />…<br />It&#8217;s not bad news if your threat model already assumed physical access was a game-over scenario. It&#8217;s not something that can be exploited over the internet or network, or by malware running on your PC or Mac.</em></p></blockquote>
+<p><strong>Similarly,</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16354758&amp;cid=60048432" rel="nofollow ugc noopener noreferrer" title="read the full text">thereddaikon</a></i> eyerolls furiously:</p>
+<blockquote><p><em>This shouldn&#8217;t be a surprise or revelation to anyone. It&#8217;s a natural consequence of DMA. The whole point is to access system memory without having to go through the CPU and reduce overhead.<br />…<br />It&#8217;s an explicit and intentional feature. DMA support allows Thunderbolt to act as external PCIe. Without it eGPU and other accessories wouldn&#8217;t be possible.<br />…<br />[If] the attacker can physically access the machine, don&#8217;t let them do it. If they can lay hands on the device you have already lost. That&#8217;s rule #1 of security.</em></p></blockquote>
+<p><strong>Um, okay.</strong> <i><a target="_blank" href="https://forums.theregister.co.uk/forum/all/2020/05/11/thunderspy_port_hack/#c_4030306" rel="nofollow ugc noopener noreferrer" title="read the full text">doublelayer</a></i> offers a more nuanced view:</p>
+<blockquote><p><em>While it&#8217;s not useless, it only works in a relatively small number of cases. And in many of those cases, there is a more direct method of getting access.</p>
+<p>It&#8217;s a good reminder to those who are concerned about an attacker of that level of skill and determination to avoid suspending to memory, but that has been known for some time.</p>
+<p></em></p></blockquote>
+<p><strong>So just epoxy up the TB port?</strong> Careful with that ax, <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16354758&amp;cid=60047928" rel="nofollow ugc noopener noreferrer" title="read the full text">Junta</a>:</i></p>
+<blockquote><p><em>On some laptops the only charging ports are Thunderbolt ports. So you have to leave the port available or your laptop won&#8217;t be able to recharge.</em></p></blockquote>
+<p><strong>But</strong> <i><a target="_blank" href="https://forums.theregister.co.uk/forum/all/2020/05/11/thunderspy_port_hack/#c_4030967" rel="nofollow ugc noopener noreferrer" title="read the full text">HildyJ</a></i> has a better use for said glue:</p>
+<blockquote><p><em>For anyone seriously worried about this, epoxy the screws to case.</em></p></blockquote>
+<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16354758&amp;cid=60047896" rel="nofollow ugc noopener noreferrer" title="read the full text">iggymanz</a></i> cuts to the chase:</p>
+<blockquote><p><em>If you go to the bathroom and leave your laptop in a coffee shop, you&#8217;re a naive dumbass.</em></p></blockquote>
+<h3>The moral of the story?</h3>
+<p>Choose up-to-date hardware, and configure it correctly. And consider disabling suspend.</p>
+<p><em>[ Learn how to <a target="_blank" href="https://www.brighttalk.com/webcast/7477/396323?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">supercharge your behavioral analytics with CrowdStrike EDR</a> in this Webinar. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-security-operations-2019-tb/2019-state-security-ops?lx=udA_0U&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">State of SecOps Report</a>. ]</em></p>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=CPh9J2KfgRI" rel="noopener nofollow noreferrer" title="And Finally">Any way the wind blows</a></strong></p>
+<p><div class="fitvids-video"><iframe title="Pandemic vs Planes: The World&#039;s Busiest Airports Before &amp; After COVID" width="800" height="450" src="https://www.youtube.com/embed/CPh9J2KfgRI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow noreferrer">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow noreferrer">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener noreferrer">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE.</em></p>
+<p><em>Image sauce: <a target="_blank" href="https://pixabay.com/photos/lightning-storm-arizona-monsoon-1158027/" rel="noopener nofollow noreferrer">Keli Black</a> (<a target="_blank" href="https://pixabay.com/service/license/" rel="noopener nofollow noreferrer" title="Some rights reserved">Pixabay</a>)</em></p>
+<p><em>[ Do you think cybercriminals take a break during a crisis? Think again. <a target="_blank" href="https://events.microfocus.com/en-au-breach-defense-readiness/515637?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">Join this three-part Webinar series</a> to learn best practices for a well-designed SOC. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/thunderspy-enlightening-very-very-frightening">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -717,210 +821,66 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
-		<title>Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th #NeotysPAC Meet-UP about “&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tomorrow-at-9-pm-cet-3-pm-edt-dont-miss-the-7th-neotyspac-meet-up-about/</link>
+		<title>McAfee Recognized on CRN’s 2020 Women of the Channel</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-recognized-on-crns-2020-women-of-the-channel/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 May 2020 15:04:02 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[7th]]></category>
-		<category><![CDATA[CET]]></category>
-		<category><![CDATA[Dont]]></category>
-		<category><![CDATA[EDT]]></category>
-		<category><![CDATA[meetup]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[Tomorrow]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/tomorrow-at-9-pm-cet-3-pm-edt-dont-miss-the-7th-neotyspac-meet-up-about/</guid>
-
-					<description><![CDATA[🍻 ☕️ Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th #NeotysPAC Meet-UP about “IoT is]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Tomorrow, at 9 pm CET &#8211; 3 pm EDT don’t miss the 7th <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3317795731565200%3Atop_level_post_id.3317795731565200%3Atl_objid.3317795731565200%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3317795731565200%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3317795464898560%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1589295842%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3317795731565200%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3317795731565200%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A-4551370403805524322&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet-UP about “IoT is Coming&#8230; how can we realistically test IoT solutions?”. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /> Join Luca Forni, Rob Jahn, Suresh D Kanan, Ian Molyneaux, Gayatree Nawaldad, Alexander Podelko, Henrik Rexed and Fabio Violante <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2yDMfSV%3Ffbclid%3DIwAR0q2OTvsUKudOoKCcKno8EfEtDdjA3FaCqEQDHWFWiYYlxExQpzoDRi58M&amp;h=AT24JQvbsseS-4X10Ijf2Yd7BS1Ozmd7kj-Srzk2XH_qjqC8wM8S3pEnb66bxriaX2svoZ10JhcXfePcoXxj5H1LZvDRKr0FPZ--qjVZiXcZFVDZQ5ULYoU0jPTA4mFfvSCndCsjO17bhD62NakDVw7lcXLoR7mlTMwbl6ghxZGiCdhcu1a7dTq7zz63cfJocypJuyYgmtUfvUJB9d_N6hL6slY1zBJ5ajc3Zcq3rx70iyxSV2FD5UbPoW4MDm27oXcT442cOqD0IsmFnCSPZwbGMQEVRXY4pfmdJIM20p4_PgfsQr5jB7v2NHpcGMvyjYoHuuMTXAmN2XaNwGq9OIL1PxWLAUMUuXr81A6nTRmQoMO7MDohAz7qjBoA8E6crUpdYW_-CLb1e7mZjFLratHCeIAfbG_S8AKEW1ijqgg89BrgOInjfnKPFnoqNJ9jNi6NeyISTwTJRLjykJSEnDP_T04mli8i1s1j03KoPGVeYmkWqeVwexD3vl7fPI9wFtyyTTwYiloj4ipeGjWkSEHVJRzRekWzh1G4jq1-ykFKgWGWlE5G9-WdattHhnaxpcRBakHrJkMLVxZTRbZ-ij31mRaEv2IlM943LMMRmTnnoL4cJK80zqNcIFDii_9nqsejwc1e9GHIw4YjrEgZAm27uyR6W115nA2kORBx4GXJxxf_g_aweB9TlOY-ANMFpVWsUMMmIVwVlml6hQ4mW5YT0klO4yT_GJRROrfxBTmP6jUiXhku1K28Dtcmoz9_mJ3UH4zh_dPdVALZB7VO1HIj4FFem-7eAPG43hWyGGwJ1Lx79Mumf0EtqYE4xNC85TxzCkTjzKNrYgSHH-gmx-5g05LhoK0vFaclsg0SgkNuSLO2vc2LLRZ4S-e3dS-BSmy7_X8R9-rsadnOvsmdrO2mnKgQPKRl320GNd0tutjnnL8Ff6fVIyHLAGLvI8nmtc3ciZDp2jw239eoZbUpRcHeQydFLYHl-PT8nW5xJe4B7RNuole7sW6mKYtHg6X_P2O_dFPiNEcLtVE1yjY-Y1zNoEsJJz6Iz2w29J3QaNLmunxvXuCnl45Sy3aK6PBlOQV1ow3l-WCI4fMTIoddGw9hYjoJ7VwivxwqIZoLMRr4Z5L0aCngzOHKjNA-DCW64_lUP1N1KIZAm9vPn9sqiySAN5mpL0qOKhsfgXmfK-dAIempGm30xWF1obv1kMdOXJ4RcPrqOabfuRd48Xad99byyw7I2PZzm-Oxi3H-e48U61OWlRrIH3lfNqzeeA" rel="noopener noreferrer">https://bit.ly/2yDMfSV</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/97063738_3317795481565225_3929188794237976576_o.png?_nc_cat=110&#038;_nc_sid=8024bb&#038;_nc_ohc=5z0oiGP2__sAX-WdGK4&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=ceaa9dcf940ebb89cb7549340a43858b&#038;oe=5EDF7C17" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3317795731565200">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Why ESM fails: 7 sure-fire ways to kill your project</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-esm-fails-7-sure-fire-ways-to-kill-your-project/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 May 2020 15:00:00 +0000</pubDate>
+		<pubDate>Tue, 12 May 2020 17:15:18 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[ESM]]></category>
-		<category><![CDATA[fails]]></category>
-		<category><![CDATA[kill]]></category>
-		<category><![CDATA[Project]]></category>
-		<category><![CDATA[surefire]]></category>
-		<category><![CDATA[ways]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/why-esm-fails-7-sure-fire-ways-to-kill-your-project/</guid>
+		<category><![CDATA[Channel]]></category>
+		<category><![CDATA[CRNs]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Recognized]]></category>
+		<category><![CDATA[women]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-recognized-on-crns-2020-women-of-the-channel/</guid>
 
-					<description><![CDATA[Enterprise service management (ESM) is ideal for streamlining and optimizing customer services that multiple teams and departments jointly provide in]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>Enterprise service management (ESM) is ideal for streamlining and optimizing customer services that multiple teams and departments jointly provide in an organization. ESM initiatives in many businesses around the world are helping to increase customer satisfaction, control costs, and increase productivity.</p>
-<p>ESM <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/extend-it-service-management?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">applies IT service management (ITSM) principles, practices, and tools to non-IT parts of the business</a>, such as human resources, finance, travel, and facilities. It requires a new way of thinking and working. That&#8217;s why teams that are willing to adapt and evolve are having the greatest success with it.</p>
-<p>ESM is most effective when companies can do two things right:</p>
-<ol>
-<li><strong>Identify the true needs of their customers </strong>at the present time, not just what leaders think customers should need or what satisfied them in the past.</li>
-<li><strong>Transcend the silos</strong> and find new ways to add more customer value, no matter who contributes what to the value stream.</li>
-</ol>
-<p>Fail at either of those, and your project will be in danger of becoming irrelevant, or paralyzed by bureaucratic and political roadblocks.</p>
-<p>Here are the key issues that enterprise service management consultants and practitioners say threaten the success of ESM projects in organizations of many sizes—and tips on how to avoid or overcome them.</p>
-<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management (ESM)</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyers Guide to ESM Products</a> ]</em></p>
-<h3>1. Trying to go it alone</h3>
-<p>ESM tools can be complex to implement properly, and if your entire team is new to ESM, you can waste a lot of time, make a lot of rookie mistakes, and still end up with an implementation that is too limiting. Have the vendor help you install and configure a new ESM tool, said Doug Tedder, principal at Tedder Consulting.</p>
-<blockquote>
-<p>&#8220;[This] will keep you from the trap of making it too specific to what you’re trying to do right now.&#8221; <br />—<a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a></p>
-</blockquote>
-<p>It will also keep you from stalling out the entire project. For example, one large public-school system in the US purchased a popular ESM tool but was left on its own during a very complicated implementation with multiple workflows. The experience was extremely frustrating, wasted a lot of time, and soured many employees on the whole project, said <a target="_blank" href="https://twitter.com/VesnaSoraic" rel="nofollow noopener noreferrer">Vesna Soraic</a>, senior manager of product marketing at Micro Focus.</p>
-<p>You can avoid that. When <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">evaluating ESM tool vendors</a>, be honest about your team&#8217;s limitations, said Tedder. Implementation mistakes can plague you for years, so it&#8217;s smart to get it right from the beginning.</p>
-<blockquote>
-<p>&#8220;Make sure you ask about implementation assistance if your team lacks expertise.&#8221; <br />—Doug Tedder</p>
-</blockquote>
-<h3>2. Thinking too small</h3>
-<p>A limited vision of what ESM can do for your organization will lead to limited improvements that don&#8217;t take advantage of the full potential of ESM that executives will be expecting. Don&#8217;t think too small by focusing only on digitizing existing workloads, or automating a few parts of an existing workflow. <a target="_blank" href="https://techbeacon.com/resources/techbeacon-guide-how-roll-out-robotic-process-automation" rel="noopener noreferrer">That&#8217;s really just automation</a>.</p>
-<p>Think big, said Lou Hunnebeck, principal advisor at IT services provider DXC Technology, because that&#8217;s <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-roadmap?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">the digital transformation that executives are chasing</a> right now.</p>
-<blockquote>
-<p>&#8220;[It&#8217;s better to think about] doing something in a fundamentally different way, or doing something completely new.&#8221; <br />—<a target="_blank" href="https://twitter.com/louhunnebeck" rel="nofollow noopener noreferrer">Lou Hunnebeck</a></p>
-</blockquote>
-<p>ESM, done right, can support <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">true digital transformation</a> in both the back and front offices. It can help your organization deliver extraordinary value to customers by doing things in completely different ways (faster, cheaper, better than before), and offering new things that meet their needs better than ever (and better than the competition).</p>
-<p>Companies are digitally transforming the way they serve and delight their customers, from the kiosks at McDonald&#8217;s that let toddlers customize their own Happy Meal to self-parking cars that take the stress out of parallel parking to Disney&#8217;s MagicBands that let guests into their hotel room and into the parks with a FastPass—and can tip them off about rides with short lines and alert Disney characters to wish them a happy birthday. <a target="_blank" href="https://techbeacon.com/enterprise-it/why-esm-must-evolve-automate-end-end-value-streams" rel="noopener noreferrer">This does not happen if you think small</a>.</p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-<h3>3. Trying to tackle too much in one project</h3>
-<p>It is tempting to try to address an entire end-to-end process in one ESM project—especially if you&#8217;re thinking big in terms of impact. But unless you’re looking at a very simple process, you will almost certainly run into serious problems with that approach, said Hunnebeck.</p>
-<p>First, you may produce a process flow mapped at too high a level. This is a problem because it leaves too many gaps. It&#8217;s hard to &#8220;find the gotchas, and identify opportunities for efficiencies,&#8221; in a high-level process map, because too many important details are missing, he said.</p>
-<p>On the other hand, you may attempt to produce a highly detailed <a target="_blank" href="https://techbeacon.com/devops/whats-wrong-your-value-stream-mapping" rel="noopener noreferrer">value-stream map</a>, documenting every data point about the current state. When you are addressing a complex process that involves multiple teams and workflows, this usually takes too long, and can seldom be completed within the project timeline.</p>
-<p>This commonly happens to teams that think they can analyze and document their processes once and that&#8217;s it, said Hunnebeck.</p>
-<blockquote>
-<p>“That’s ridiculous. You don’t have to do things via waterfall; you should work iteratively.”<br />—Lou Hunnebeck</p>
-</blockquote>
-<p>When you target an improvement, choose something that you think can be done in 30 to 90 days. If you have to break up big projects into small pieces, that&#8217;s fine. But if you extend any initiative much beyond that, you lose people’s focus, and organizational support may shift to other things, Hunnebeck said.</p>
-<p>These short-term projects will help you take your organization through a staged approach to ESM adoption, where projects are able to evolve based on priorities, said Dennis Drogseth, vice president of research at consultancy Enterprise Management Associates.</p>
-<blockquote>
-<p>&#8220;[Don&#8217;t think in terms of] a single before and after, but a stepladder to where you&#8217;re trying to go.&#8221;<br />—<a target="_blank" href="https://twitter.com/dndrogseth" rel="nofollow noopener noreferrer">Dennis Drogseth</a></p>
-</blockquote>
-<p>This iterative model is critical to keeping momentum going because it gets you to the finish line over and over. Find improvements the business will value, and that you &#8220;can solve to some degree of completeness in a matter of weeks,&#8221; said Tedder. </p>
-<blockquote>
-<p>&#8220;Show small, incremental value and continue to roll on that,&#8221; with a road map of projects that eventually result in holistic transformation.&#8221;<br />—Doug Tedder</p>
-</blockquote>
-<p>This approach produces multiple benefits. Once teams put an iterative improvement in place, they are able to quickly evaluate its performance and market its success throughout the organization, said Hunnebeck. Teams can use lessons learned on their subsequent projects, and help the organization realize the benefits of ESM in real time.</p>
-<h3>4. Failing to think like a customer</h3>
-<p>If you lose your connection <a target="_blank" href="https://techbeacon.com/app-dev-testing/using-devops-app-agility-rethink-how-you-engage-customers" rel="noopener noreferrer">to your customers&#8217; current needs</a>, wants, and underlying pain points, you run the risk of expanding in the wrong directions, missing emerging opportunities, and failing to see major shifts in the market that change the game. In other words, you become more Blockbuster and less Netflix.</p>
-<p>One of the fundamental prerequisites of any ESM implementation is to have a clear understanding of who the customer is and what&#8217;s important to them. This is the case whether you are providing services to your external customers or to employees.</p>
-<p>As a service provider, you need to look at your consumers from the perspective of what they need, what is important to them, and what their desired outcomes are, said DXC&#8217;s Hunnebeck.</p>
-<p>With this approach, you become laser-focused on the needs of your customers, and this can in turn <a target="_blank" href="https://techbeacon.com/devops/how-infuse-customer-feedback-your-devops" rel="noopener noreferrer">drive customer-centric innovation</a> that delivers more value every year. This is a key component of the success of Amazon, whose mission statement begins with: &#8220;Earth’s most customer-centric company.&#8221;</p>
-<p>A deep understanding of a customer pain point or need gives you a good point of departure for ESM. You start with a clearly defined, highly relevant business problem, and then &#8220;imagine how a combination of technology and process and services all might come to bear to solve the issue,&#8221; Tedder said.</p>
-<h3>5. Leaving out important voices</h3>
-<p>You&#8217;re more likely to make poor decisions if you don&#8217;t involve all the people who know important things about the process you are trying to improve. A classic mistake is inviting only managers to participate. Managers frequently don&#8217;t know what&#8217;s happening in a process or workflow. They assume that a procedure that&#8217;s been defined and documented is being followed precisely.</p>
-<p>But if you get input from people on the factory floor, said Hunnebeck, they often say, &#8220;Oh no, we don&#8217;t really do it that way. What we really do is XYZ. And by the way, if you don&#8217;t do Z in a particular way, it falls apart.&#8221; </p>
-<p>Pulling in the right voices is also an iterative process. You start with a few people with broad knowledge of the value stream, and &#8220;then you expand and add more and more stakeholders who know things that you didn&#8217;t know,&#8221; she said.</p>
-<p>When you are trying to improve something on a detailed level, it is essential to listen to all those extra voices and resist making any assumptions. All too often, people assume too much and &#8220;it blows up in their faces,&#8221; said Hunnebeck.</p>
-<h4>How to solicit the correct input</h4>
-<p>When you are working with a cross-functional process, or a value stream with multiple sub-processes, you need to:</p>
-<ul>
-<li>Identify all the stakeholders (upstream and downstream)</li>
-<li>Identify all the contributors and their roles in the value stream</li>
-<li>Get all the right people to provide input when it&#8217;s going to do you the most good</li>
-</ul>
-<p>For example, said Hunnebeck, when you identify a proposed improvement, you need to give all the stakeholders across the value stream the chance to say, &#8220;If you change that part of the process, it will have a negative effect downstream,&#8221; or, &#8220;We need to provide you with new inputs from upstream to enable that automation.&#8221; </p>
-<p>To succeed you need a mix of executive leadership, process, and political alignment, and strong mid-level management, said Drogseth. You will also need people who can architect, DevOps people, and analytics experts. </p>
-<p>All of these perspectives will provide specific kinds of value to the project, and can challenge and correct any faulty assumptions that individual team members might make.</p>
-<p>By not working iteratively, not involving the right voices, and making too many assumptions, people will struggle to automate process. Mistakes happen when teams try to skip some of these best practices and rush toward the finish line.</p>
-<blockquote>
-<p>&#8220;It’s not rocket science, but there aren’t any shortcuts.&#8221;<br />—Lou Hunnebeck</p>
-</blockquote>
-<h3>6. Neglecting to sponsor and own the project properly</h3>
-<p>It&#8217;s a common mistake to think that your ESM project can be a part-time activity for everyone involved. Most contributors will need to participate as they continue to doing their regular jobs. But you <em>will</em> need a full-time commitment from one or two people—designated as the project owners—to shepherd it to completion, Hunnebeck said.</p>
-<p>This will be possible only if you have the right level of corporate sponsorship for your ESM initiatives. Helpiing the C-suite to get their heads around this &#8220;is critical,&#8221; said Tedder. If you have someone in the top management owning ESM for the entire organization, that person will have sufficient authority to mandate the cooperation of all departments, teams, and individuals that will need to contribute something to the project.</p>
-<p>And that includes excusing someone from their day job to own the ESM project.</p>
-<p>Realistically, you can&#8217;t run an ESM project without a full-time owner and expect to deliver results on time. The role requires tremendous amounts of coordination and communication.</p>
-<blockquote>
-<p>&#8220;It can&#8217;t be a side job if you want to keep this going.&#8221;<br />—Lou Hunnebeck</p>
-</blockquote>
-<h4>How a project manager gets it done</h4>
-<p>An ESM project owner typically proceeds like this.</p>
-<p>First, identify the high-level flow, as a point of departure for the project team. &#8220;You don’t want to start with a blank page,&#8221; said Hunnebeck. Next, identify the obvious people who should have a broad knowledge of the value stream, and invite them to participate.</p>
-<p>Third, schedule and facilitate a preliminary on-site workshop for a couple of days to:</p>
-<ul>
-<li>Scope out the end-to-end flow as far as possible (low-tech approaches can be very effective here; think sticky notes and flip charts).</li>
-<li>Share metrics from each participant that are relevant to their pieces of the value stream.</li>
-<li>Build the larger list of other people who need to provide input.</li>
-<li>Create a clear go-forward plan with specific details.</li>
-</ul>
-<p>Rarely will every person be needed at the in-person meeting, said Hunnebeck. But the in-person meeting is incredibly valuable to get everyone engaged and drive a sense of ownership.</p>
-<blockquote>
-<p>&#8220;It also sends a powerful message from the business: We are serious and we’re willing to spend money on this.&#8221;<br />—Lou Hunnebeck</p>
-</blockquote>
-<p>After the workshop, engage all the potential participants, clearly explaining what contribution you expect from people with deep knowledge about big sections of the process—including the amount of time you will need from them, the kinds of things you&#8217;ll need them to do, and their overall responsibilities.</p>
-<p>Next, invite technical resources who are experts in specific tools or other parts of the process to participate. You will need to work with their managers to get support for the time they&#8217;ll spend on this.</p>
-<p>You will also want to ensure that they will be recognized and rewarded for their participation. &#8220;If they feel like their boss doesn&#8217;t support it, or they don&#8217;t have time to contribute to it and won&#8217;t be recognized for it, you&#8217;re already dead in the water,&#8221; said Hunnebeck.</p>
-<p>After the first workshop, set up a regular cadence of meetings that makes sense for your team. </p>
-<p>Other tasks the point person will need to do include:</p>
-<ul>
-<li>Manage the overall project.</li>
-<li>At every opportunity, involve key stakeholders (including those outside the project team) to get their input, validate assumptions, and check for unknown ramifications.</li>
-<li>Train and educate all participants.</li>
-<li>Communicate progress with organization.</li>
-</ul>
-<h3>7. Failing to communicate enough</h3>
-<p>Too often, employees hear about an ESM initiative in an all-hands meeting and then never hear about it again. That is a huge mistake. ESM requires culture change across the entire organization, so people need to understand and embrace it. When ESM owners fail to communicate, they miss an opportunity to educate, engage, and involve everyone in the process of digital transformation.</p>
-<p>If you want support, be sure to communicate. Ask stakeholders for advice about issues you are grappling with; regularly let employees know what you&#8217;re up to, and why it matters. Ask for reality checks from people in the trenches who may feel marginalized.</p>
-<p>Your executive sponsor will be essential here. When you want to recognize and commend people for their contribution, have that come from the sponsor, said Hunnebeck. Have them sign all the key memos and employee updates, and show their enthusiasm for the project.</p>
-<p>All of this will reinforce the message that the company is serious about this, that &#8220;we intend to succeed, and we are making progress,&#8221; said Hunnebeck.</p>
-<h3>Create principles to keep you on track</h3>
-<p>Formulate a set of guiding values that can help guide your team when tough choices need to be made. This can be part of your agenda for the two-day workshop. For example, Hunnebeck&#8217;s clients often include things like: </p>
-<ul>
-<li><strong>Focus on value</strong>: Make improvements that will make a difference.</li>
-<li><strong>Start where you are</strong>: Don&#8217;t try to rip everything out and start over.</li>
-<li><strong>Work iteratively, with feedback loops: </strong>We changed something; did it change anything material? Was is impactful?</li>
-<li><strong>Collaborate and promote visibility:</strong> Don&#8217;t end up with two or three people doing everything themselves. Communicate news and kudos specifically, generously, and often.</li>
-<li><strong>Think and work holistically: </strong>Think end to end—what are the ramifications of every change?</li>
-</ul>
-<h3>Now get rolling</h3>
-<p>The main problems that commonly derail ESM projects are totally preventable. You can set yourself up for success by avoiding the seven deadly sins above, and by working to create an organizational culture that fosters innovative problem solving and celebrates the customer.</p>
-<p>To get rolling in the right direction, think about processes that might need improvement, then <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/how-to-get-started-w?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">select an ESM project that is suitable for your organization</a>. Then you&#8217;re ready to <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">evaluate the ESM tools and technologies </a>that might fit your needs.</p>
-<p>You have everything to gain by leaning into ESM, and by being smart, persistent, and strategic about how you implement it. Start now, don&#8217;t take any shortcuts, and before long your company might join the likes of McDonald&#8217;s, Netflix, and Disney as you transform the way you deliver customer value and change the game.</p>
-<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/why-esm-fails-7-sure-fire-ways-kill-your-project">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Chatbooks Confirms Breach After ‘Shiny Hunters’ Sell Data</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/chatbooks-confirms-breach-after-shiny-hunters-sell-data/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 May 2020 13:56:11 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Chatbooks]]></category>
-		<category><![CDATA[confirms]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Hunters]]></category>
-		<category><![CDATA[Sell]]></category>
-		<category><![CDATA[Shiny]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/chatbooks-confirms-breach-after-shiny-hunters-sell-data/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+					<description><![CDATA[Every year CRN recognizes the women who are leading the channel and their unique strengths, vision, and achievements. This prestigious,]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/chatbooks-confirms-breach-after-shiny-hunters-sell-data/155646/">Source link </a></p>
+<div class="author-block padding-bottom-xs"></div>
+<p>Every year CRN recognizes the women who are leading the channel and their unique strengths, vision, and achievements. This prestigious, annual list acknowledges channel leaders who are blazing a trail for future generations. These women are from all areas of the IT ecosystem, including technology vendors, distributors, solution providers, and other IT organizations.</p>
+<p>This year, we’re proud to recognize the six outstanding individuals who have been selected by CRN to be part of the 2020 Women of the Channel (WOTC) list. Each is recognized for her outstanding leadership, vision and unique role in driving channel growth and innovation.</p>
+<p>If that weren’t exciting enough, we’re thrilled to share that Chari Rhoades received the honor of being named to CRN’s WOTC Power 100 List. The Power 100 List is a subset of the 900+ women recognized and highlights the women who are leading their organization from a variety of backgrounds and experiences. See below to learn more about each McAfee honoree.</p>
+<h3><strong>Chari Rhoades – Director, Channel Operations and Distribution – Americas</strong></h3>
+<p><img class="wp-image-100909 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades-240x300.jpg" alt="" width="120" height="150" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades-240x300.jpg 240w, https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades-103x129.jpg 103w, https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades.jpg 300w" sizes="(max-width: 120px) 100vw, 120px"/>Chari Rhoades joined McAfee in 2013 and currently leads two teams. One team focuses on the growth and development of our distribution partners. The second team is responsible for the enablement and communications to the Americas’ partners. In 2019, Chari led her distribution team to focus on executing the plan to ensure new business growth via targeted campaigns, enablement activities and leveraging key distribution services resulting in a material contribution to bookings for the channel. Chari contributed to the development and launch of the McAfee Channel Promise that defines who the channel is to McAfee and its internal teams while articulating the value of the channel. She also led the development of an internal training to ensure McAfee’s own sellers understand the channel and how to engage the channel for mutual success.</p>
+<h3><strong><img class=" wp-image-100912 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Kristin-Carnes.png" alt="" width="115" height="137" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Kristin-Carnes.png 132w, https://www.mcafee.com/wp-content/uploads/2020/05/Kristin-Carnes-108x129.png 108w" sizes="(max-width: 115px) 100vw, 115px"/>Kristin Carnes – Director, Global Channel Programs and Operations</strong></h3>
+<p>Kristin Carnes joined McAfee through the acquisition of Skyhigh Networks. As Director of Global Channel Programs and Operations she supports a robust partner community that represents sales for more than 90% of the McAfee Enterprise business. In 2019, she accelerated McAfee’s investment in the PRM platform which gives partners a more comprehensive, simple view of their business with McAfee. In addition, she launched a new rebate program that provides predictability and greater earning potential for partners.</p>
+<h3><strong><img class="wp-image-100913 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Gabriela-Ferado-e1589303121235.jpg" alt="" width="117" height="140" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Gabriela-Ferado-e1589303121235.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Gabriela-Ferado-e1589303121235-108x129.jpg 108w" sizes="(max-width: 117px) 100vw, 117px"/>Gabriela Ferado – Manager, Channel Sales</strong></h3>
+<p>Gabriela Ferado has been with McAfee for eight years and started as a sales rep with the Latin America team before joining the Channel team where she has learned, grown, and found a passion to help partners be a multiplying force for the company. As a former teacher, sharing knowledge and enabling others is an integral part of what she does and thrives on. In 2019, as part of the Cloud Service Provider team, she extended McAfee’s channel efforts to Latin America which helped our teams understand the CSPs as another route to market</p>
+<h3><strong>Judy Kent – Director, Global Channel Programs and Communications</strong></h3>
+<p><img class="wp-image-100914 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Judy-Kent-Photo.jpg" alt="" width="118" height="147" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Judy-Kent-Photo.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Judy-Kent-Photo-103x129.jpg 103w" sizes="(max-width: 118px) 100vw, 118px"/>Judy Kent joined McAfee through the acquisition of Skyhigh Networks bringing more than 25 years of channel marketing and sales experience. In her role leading the global partner incentive programs she has driven new business revenue through the channel and has trained thousands of partners in a pre-sales technical enablement global webinar series. In addition, in January 2020, she successfully launched a new 13 language McAfee Partner Portal. She was previously recognized on CRN’s list of Women in the Channel in 2015 and 2016, and was recognized on CRN’s list of Channel Chiefs in 2016 and 2018.</p>
+<h3><strong>Sheri Leach – Senior Distribution Account Manager</strong></h3>
+<p><img class="wp-image-100915 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Sheri-Women-of-the-Channel-Picture.jpg" alt="" width="116" height="144" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Sheri-Women-of-the-Channel-Picture.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Sheri-Women-of-the-Channel-Picture-104x129.jpg 104w" sizes="(max-width: 116px) 100vw, 116px"/>Sheri Leach has more than 25 years of experience working with distribution partners and has spent the last 14 years growing Ingram Micro with their McAfee business. In 2019, Sheri played a key role in working with Ingram Micro and delivering a Business Intelligence program that helped achieve net new logos which was one of McAfee’s 2019 initiatives. In addition, she played an integral role in developing operational excellence and automation within Ingram Micro when McAfee implemented their CPQ enhancement. She was also tightly aligned with Ingram Micro’s marketing team on the creation of a “no touch” McAfee sales program via demand generation and product attachment. Finally, Sheri helped facilitate a creative finance program between Ingram Micro and McAfee to bring in deals that would not have been possible before.</p>
+<h3><strong><img class=" wp-image-100916 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot.jpg" alt="" width="126" height="126" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-129x129.jpg 129w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-24x24.jpg 24w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-48x48.jpg 48w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-96x96.jpg 96w" sizes="(max-width: 126px) 100vw, 126px"/>Natalie Tomlin – Director, Channel Sales Cloud and Service Providers</strong></h3>
+<p>Natalie Tomlin is a McAfee veteran who joined when the company was known as Network Associates more than 20 years ago. She has held roles in sales and channel sales and has been a Channel Director for the past four years. In 2019, Natalie developed strong business relationships with the top Cloud Service Providers as they helped their customers on their journey to the cloud as a de facto security provider, facilitated discussions for operational efficiencies so McAfee can transact with the CSPs in both public and gov cloud, and brought in incremental revenue from the channel.</p>
+<p>This recognition is special and underscores the work that we’ve done as an organization to hire diverse talent, implement a return to workplace initiative to assist people who have paused their careers, and achieve gender pay parity across the company.</p>
+<p>Please join me in congratulating these six outstanding women who are at the core of the McAfee Channel program. Their leadership and execution have been paramount to our success and will continue to help lead us onwards.</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/mcafee-recognized-on-crns-2020-women-of-the-channel/">Source link </a></p>
 ]]></content:encoded>
 					
 		
