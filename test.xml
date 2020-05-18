@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 15 May 2020 15:59:23 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 May 2020 20:40:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,57 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Thai Pangsakulyanont, Hackathon Winner &#124; Applitools</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thai-pangsakulyanont-hackathon-winner-applitools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 20:40:58 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[Hackathon]]></category>
+		<category><![CDATA[Pangsakulyanont]]></category>
+		<category><![CDATA[Thai]]></category>
+		<category><![CDATA[Winner]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thai-pangsakulyanont-hackathon-winner-applitools/</guid>
+
+					<description><![CDATA[Several weeks ago, we sat down with Thai Pangsakulyanont, who was one of the Applitools Visual AI Rockstar Hackathon winners,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Several weeks ago, we sat down with Thai Pangsakulyanont, who was one of the Applitools Visual AI Rockstar Hackathon winners, about his experiences in the Hackathon and what he took away from the experience.</p>
+<p>Thai Pangsakulyanont is a front-end architect working for <a target="_blank" href="https://taskworld.com/" rel="noopener noreferrer">Taskworld</a> in Bangkok, <a target="_blank" href="https://en.wikipedia.org/wiki/Thailand" rel="noopener noreferrer">Thailand</a>. He has eight years of testing experience, including six with <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a>.</p>
+<h2 id="h.bpkvgnq732wu">Starting Point</h2>
+<p>At Taskworld, Thai said, they make and sell a productivity/project management web application.</p>
+<p>The stack is mostly JavaScript.  For their end-to-end testing, they use their own test runner, called Prescript. They use prescript in conjunction with Selenium and “expect” assertions.</p>
+<figure class="wp-block-image"></figure>
+<p>Thai said he has six years of experience with Selenium, using both Javascript and Ruby. He had no prior experience with Applitools, but he did have prior experience with other image diffing programs.  For instance, he was using Javascript image processing for comparing images as an experiment and part of his side project.</p>
+<h2 id="h.dgg4idiz3yla">Applitools Pre-Hackathon Expectations and Experience</h2>
+<p>Having used percy.io previously Thai expected something like a visual diff tool. He knows he can use percy for visual diffs and visual regression testing.</p>
+<p>What he didn’t expect in Applitools were the internal tools for communication inside the Applitools UI to help communicate his findings to teammates. He really liked the productivity aspects of Applitools.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/653686.png" alt="653686" class="wp-image-18502" srcset="https://applitools.com/wp-content/uploads/2020/05/653686.png 1277w, https://applitools.com/wp-content/uploads/2020/05/653686-300x143.png 300w, https://applitools.com/wp-content/uploads/2020/05/653686-1024x489.png 1024w, https://applitools.com/wp-content/uploads/2020/05/653686-768x367.png 768w" sizes="(max-width: 1277px) 100vw, 1277px"/></figure>
+<p>He had a little bit of trouble getting started with branching. Thai had prior experience with gitbranch, and he expected Applitools to behave similarly. It took him a while to get the behaivor the way he expected, but he figured it out.</p>
+<p>Thai realized how easy he found it to run visual regression testing with Applitools Visual AI.</p>
+<p>Working on the Hackathon, Thai realized the number of test cases that he could not cover with traditional assertions. For example, an icon disappearing can still show up in the DOM, even if it disappears for the user.  He generally wouldn’t write a test to see if a button had moved, and that kind of test comes for free when using Visual AI</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-1.jpg" alt="" class="wp-image-18501"/></figure>
+<p>Thai realized the number of cases that Visual AI could cover that his traditional assertion-based testing would miss.</p>
+<h2 id="h.g6horq3t0hu2">Ideas For Improvement</h2>
+<p>Thai’s big takeaways come from his perspective as an architect by day and running his own development projects in non-work hours. Thai likes to experiment, which explains how an architect got involved in a Visual AI hackathon. He liked the idea of learning something new.</p>
+<p>While Thai figured out the Github integration, he’d love it to be easier (something we continue to improve). He loved a lot of the other collaboration capabilities inside Applitools.  </p>
+<p>Thai works constantly to improve his productivity. As a contributor to open-source projects, Thai likes working with open-source tools. He has worked on several projects. As a coder, he discovered that the more code he wrote in a project the more likely he would write bugs. He picked up testing skills to help catch bugs in his own code.  </p>
+<p>To help improve open-source projects, Thai said he could see the use of an open-source version of Applitools as a testing solution. He would love to have an open-source solution that would allow him to share with other developers in an open-source dashboard that didn’t require a login. Such a dashboard would give coding teams visibility into bug impact from different code additions.</p>
+<h2 id="h.jwq1bjjb1zt2">Takeaways</h2>
+<p>Overall, Thai enjoyed his experience working on the Hackathon.</p>
+<p><em>Thai Pangsakulyanont won a Platinum award for his experience in the Applitools hackathon.</em></p>
+<h2 id="h.8r9qta3rrm0t">For More Information</h2>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/hackathon-winner/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>RATicate Group Hits Industrial Firms With Revolving Payloads</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/raticate-group-hits-industrial-firms-with-revolving-payloads/</link>
 		
@@ -870,37 +921,6 @@ fbq('track', "PageView");</p>
 </div>
 <p><br />
 <br /><a href="https://threatpost.com/chatbooks-confirms-breach-after-shiny-hunters-sell-data/155646/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Testing Better Together With the 2020 Continuous Testing Benchmark Report</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-better-together-with-the-2020-continuous-testing-benchmark-report/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 May 2020 08:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Benchmark]]></category>
-		<category><![CDATA[Continuous]]></category>
-		<category><![CDATA[Report]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-better-together-with-the-2020-continuous-testing-benchmark-report/</guid>
-
-					<description><![CDATA[A little more than a year ago today, aiming to address what we saw as a significant gap in the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>A little more than a year ago today, aiming to address what we saw as a significant gap in the testing market, we first launched the Sauce Labs Continuous Testing Benchmark, a new report organizations could use to see how their continuous testing efforts stacked up against both critical best practices and the testing efforts of other enterprises. In the time since, hundreds of organizations have leveraged the report to better understand and improve upon the state of their continuous testing initiatives. It has become an essential resource for the testing community.</p>
-<p>It’s only fitting then that the <a target="_blank" href="https://saucelabs.com/resources/white-papers/sauce-labs-continuous-testing-benchmark-report-2020" rel="noopener noreferrer">Sauce Labs Continuous Testing Benchmark for 2020</a> is now available on the same day we kickoff <a target="_blank" href="https://saucecon.com/" rel="noopener noreferrer">SauceCon Online</a>. The theme for this year’s conference is “Test Better, Together,” and perhaps no community resource better exemplifies the spirit of testing better together than the Sauce Labs Continuous Testing Benchmark. </p>
-<p>The report looks at real customer data from the Sauce Labs Continuous Testing Cloud, a platform on which more than 3 million tests are run each day, and on which more than 3 billion tests have been run since its inception. It articulates the four benchmark metrics critical to continuous testing excellence and measures how organizations’ collective testing efforts stack up against these defined standards. Those metrics include test quality, test run time, test platform coverage, and test efficiency, the latter of which looks closely at the extent to which organizations are leveraging available testing capacity to achieve parallelization. </p>
-<p>New for 2020, the report examines the performance of mobile tests (for mobile apps and websites) in addition to desktop tests (for desktop apps and websites). As organizations increasingly adopt a mobile-first mindset, understanding and improving the efficacy of our mobile testing efforts is paramount. Equally paramount (as is laid bare in the 2020 benchmark report) is the need for organizations to improve test quality. Test quality is, after all, the foundation on which successful continuous testing is built. Though organizations’ collective performance against the test quality benchmark did improve in comparison to 2019, we still have a long way to go.</p>
-<p>That’s why the report also looks for the first time at the potential impact of<a target="_blank" href="https://saucelabs.com/news/sauce-labs-launches-new-machine-learning-based-analytics-solution-to-improve-test-quality" rel="noopener noreferrer"> failure analysis</a>, a new method of applying machine-learning to pass/fail data in order to surface the most common underlying causes of failures within a test suite. Given the urgent need to improve test quality, failure analysis stands as one of the most promising new developments the testing industry has seen in some time.</p>
-<p>More important than what the 2020 benchmark report reveals, however, is what it represents: an opportunity for testers and developers to continue learning, growing, and ultimately, improving. Amid the day-to-day pressures of developing great software, it’s easy to forget that most organizations are just beginning their continuous testing journeys, and most will face challenges as those journeys evolve. The best way for us to collectively overcome those challenges is to continue the sense of sharing, support, and community that has come to define the testing industry. We hope this report will continue to play a role in those efforts, making it that much easier for us to test better, together.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/testing-better-together-with-the-2020-continuous-testing-benchmark-report">Source link </a></p>
 ]]></content:encoded>
 					
 		
