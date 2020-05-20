@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 15 May 2020 20:41:24 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 19 May 2020 18:25:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,372 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Contributing to RobotFramework-Zoomba</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/contributing-to-robotframework-zoomba/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 May 2020 18:25:25 +0000</pubDate>
+				<category><![CDATA[QE Announcement]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2172</guid>
+
+					<description><![CDATA[Does you team have a helper keyword that has made testing easier? Has your team created a bunch of keywords]]></description>
+										<content:encoded><![CDATA[
+<p>Does you team have a helper keyword that has made testing easier? Has your team created a bunch of keywords for testing functionality that is not well covered by existing options?&nbsp;<br><br>If so the QE team is looking for your keywords and functions to expand our open source&nbsp;<a href="https://github.com/Accruent/robotframework-zoomba" rel="noreferrer noopener" target="_blank">robotframework-zoomba</a>! &nbsp; Take a look at&nbsp;<a href="https://accruent.atlassian.net/wiki/spaces/QA/pages/1490290990/Contributing+to+RobotFramework-Zoomba" rel="noreferrer noopener" target="_blank">this confluence page for more information</a>&nbsp;on etching your work into the halls of open source history. Also I mean if a rouge AI tries to take over the world some day I would assume open source code contributions will get you a bit of an AI&#8217;s version of &#8216;pity&#8217;&#8230;just saying. &nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-cus-d8-21c6dab71d9b416c4a2c8e626023f37b/views/imgo" target="_blank" rel="noreferrer noopener"><img src="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image.jpeg" alt="" class="wp-image-2176" srcset="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image.jpeg 496w, http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image-226x300.jpeg 226w" sizes="(max-width: 496px) 100vw, 496px" /></a></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WolfRAT Android Malware Targets WhatsApp, Facebook Messenger</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wolfrat-android-malware-targets-whatsapp-facebook-messenger/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 May 2020 17:00:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Messenger]]></category>
+		<category><![CDATA[Targets]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<category><![CDATA[WolfRAT]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wolfrat-android-malware-targets-whatsapp-facebook-messenger/</guid>
+
+					<description><![CDATA[Researchers link the malware to Wolf Research operators with &#8220;high confidence&#8221; after it was spotted in campaigns targeting Thai users.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researchers link the malware to Wolf Research operators with &#8220;high confidence&#8221; after it was spotted in campaigns targeting Thai users.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/wolfrat-android-malware-whatsapp-facebook-messenger/155809/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bluetooth Bugs Allow Impersonation Attacks on Legions of Devices</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bluetooth-bugs-allow-impersonation-attacks-on-legions-of-devices/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 May 2020 15:58:48 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Bluetooth]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Devices]]></category>
+		<category><![CDATA[Impersonation]]></category>
+		<category><![CDATA[Legions]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bluetooth-bugs-allow-impersonation-attacks-on-legions-of-devices/</guid>
+
+					<description><![CDATA[A host of unpatched security bugs that allow BIAS attacks affects Bluetooth chips from Apple, Intel, Qualcomm, Samsung and others.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A host of unpatched security bugs that allow BIAS attacks affects Bluetooth chips from Apple, Intel, Qualcomm, Samsung and others.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/bluetooth-bugs-impersonation-devices/155886/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How behavioral analytics tackles advanced threats</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-behavioral-analytics-tackles-advanced-threats/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Advanced]]></category>
+		<category><![CDATA[Analytics]]></category>
+		<category><![CDATA[behavioral]]></category>
+		<category><![CDATA[Tackles]]></category>
+		<category><![CDATA[threats]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-behavioral-analytics-tackles-advanced-threats/</guid>
+
+					<description><![CDATA[As attackers become more sophisticated, your organization needs increased visibility into what&#8217;s happening on its computer networks. Advanced attacks can be carried]]></description>
+										<content:encoded><![CDATA[<p> </p>
+<div>
+<p>As attackers become more sophisticated, your organization needs increased visibility into what&#8217;s happening on its computer networks. Advanced attacks can be carried out over months or even years, so security teams need to act quickly when a foe eventually does tip his hand.</p>
+<p>One way to do that is to deploy the powerful combination of user and entity behavioral analytics with endpoint monitoring, detection, and response. Through a combination of machine learning, artificial intelligence, big data, and analytics, <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/behavioral-analytics-security?lx=3C7k5c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">behavioral analytics can identify malicious activity</a> and blunt or stop cyberattacks.</p>
+<p>Fernando Montenegro, principal analyst for information security with 451 Research, said the data is used to identify changes in behavior that are suspicious enough to be flagged for follow up.</p>
+<blockquote>
+<p>&#8220;It&#8217;s about defining a user baseline, which is difficult. It&#8217;s not an exact science.&#8221;<br />—<a target="_blank" href="https://twitter.com/fsmontenegro" rel="nofollow noopener noreferrer">Fernando Montenegro</a></p>
+</blockquote>
+<p>Here&#8217;s how your organization can use behavioral analytics to tackle advanced threats.</p>
+<p><em>[ Join this May 28 Webinar to learn <a target="_blank" href="https://www.brighttalk.com/webcast/7477/400829?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to mitigate threats with agility during the pandemic</a>. Plus: See TechBeacon&#8217;s Guide to a <a target="_blank" href="https://content.microfocus.com/l/cloud-based-security-analytics-ops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Modern Security Operations Center</a> ]</em></p>
+<h3>Behavioral analysis&#8217; key indicator</h3>
+<p>A cornerstone of behavioral analysis is that all malicious attacks have one thing in common: They all exhibit behavior that&#8217;s different from normal behavior on a network or system. By targeting this abnormal behavior, security teams can detect malicious attacks before they can get fully off the ground.</p>
+<p>If you see someone in finance running reconnaissance-type command-line arguments such as &#8220;whoami&#8221; or &#8220;ipconfig,&#8221; you pay attention. While the same activities from someone in engineering may not be as suspicious, said Greg Foss, a senior threat researcher with VMware Carbon Black, these should be investigated.</p>
+<blockquote>
+<p>&#8220;This should rightfully raise some alarms. Paying attention to small details that are specific to your infrastructure can be a game-changer.&#8221;<br />—<a target="_blank" href="http://twitter.com/Heinzarelli" rel="nofollow noopener noreferrer">Greg Foss</a></p>
+</blockquote>
+<p>In a similar vein, endpoint detection and response technology monitors an organization&#8217;s endpoints and proactively hunts for threats with advanced algorithms and behavioral analysis.</p>
+<h3>Needed: A rich source of data</h3>
+<p>Among all the sources of data scrutinized by user and entity behavioral analytics (UEBA), endpoint data is the richest, said <a target="_blank" href="https://twitter.com/eeksock" rel="nofollow noopener noreferrer">Stephan Jou</a>, CTO of Interset, a security analytics company owned by Micro Focus.</p>
+<p>There are scenarios, such as privilege escalation, that are difficult to detect without endpoint monitoring, he said. With rich endpoint data ingested to run behavioral analytics, UEBA &#8220;gains more context around individual user and entity behaviors, thus shedding light on various threat indicators.&#8221;</p>
+<p>This new user information—abnormal login frequency, date or time of work, and people using unusual machines—&#8221;adds valuable context to help identify threats that might otherwise go unseen,&#8221; he said.</p>
+<blockquote>
+<p>&#8220;With the right user context, credential abuse, adversary surveillance, lateral movement, data exfiltration, and more can be detected efficiently and effectively.&#8221;<br />—<a target="_blank" href="https://twitter.com/eeksock" rel="nofollow noopener noreferrer">Stephan Jou</a></p>
+</blockquote>
+<p>Monitoring tools also expose what&#8217;s happening on the endpoints themselves. They can reveal facts about creating new files, launching processes, and <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/identity-governance-best-practices?lx=3C7k5c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">accessing the registry</a>, &#8220;which can all be signs of malicious activity,&#8221; said Ekaterina Kilyusheva, head of information security analytics at Positive Technologies. </p>
+<p>However, endpoint monitoring alone <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/identity-management-?lx=3C7k5c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">can&#8217;t give security teams the kind of visibility they need to nip threats in the bud</a>. The raw data it produces just increases the size of the haystack in which adversaries can hide, said Amol Kulkarni, chief product officer at the security company CrowdStrike. </p>
+<blockquote>
+<p>&#8220;It needs to be coupled with behavioral analytics, to contextualize the telemetry and create actionable alerts by correlating diverse event streams across the environment.&#8221;<br />—<a target="_blank" href="https://twitter.com/amol_s_kulkarni" rel="nofollow noopener noreferrer">Amol Kulkarni</a></p>
+</blockquote>
+<p><em>[ Get up to speed on zero trust with <a target="_blank" href="https://content.microfocus.com/l/zero-trust-identity-access-management-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s Guide: Zero Trust with Identity and Access Management. </a>Plus: Join this June 2 Webinar to learn <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/conquering-the-authe?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to conquer zero trust authentication challenges</a> ]</em></p>
+<h3>Gaining critical visibility</h3>
+<p>Nevertheless, endpoint monitoring remains important to understanding the threat landscape facing an organization.</p>
+<blockquote>
+<p>&#8220;It allows security professionals to gain more visibility over important entry points which may be vulnerable to threat actors.&#8221;<br />—Stephan Jou</p>
+</blockquote>
+<p>This critical visibility over all network devices helps prevent hackers from exploiting gaps within your security architecture, he said. It also helps security professionals gain a better understanding of where they can improve their security posture—before damage is done.</p>
+<p>But visibility isn&#8217;t enough. You need to have real-time visibility to get ahead of attacker behavior.</p>
+<blockquote>
+<p>&#8220;If only a snapshot of a potential cyber incident is presented to security teams, they lose the ability to get a comprehensive view into the attack cycle, which hinders better cyber hygiene and preparedness.&#8221;<br />—Amol Kulkarni</p>
+</blockquote>
+<p>Endpoint monitoring is necessary to obtain information about activity at the end nodes of the system that cannot be detected by auditing the network infrastructure. But to get a complete picture of the threat landscape, data about the end nodes alone is not enough.</p>
+<blockquote>
+<p>&#8220;You also need to use network traffic analysis tools that complement the picture of <a target="_blank" href="https://techbeacon.com/resources/techbeacon-guide-it-operations-monitoring" rel="noopener noreferrer">what is happening in the infrastructure</a> and allow you to see those events that go beyond the scope of the monitoring tools on the end nodes.&#8221;<br />—Ekaterina Kilyusheva</p>
+</blockquote>
+<h3>Make analytics a team player</h3>
+<p>As powerful as behavioral analysis can be in thwarting sophisticated attacks, it&#8217;s most powerful when teamed with other security systems.</p>
+<blockquote>
+<p>&#8220;Behavioral analytics will not replace existing security systems.&#8221;<br />—Greg Foss</p>
+</blockquote>
+<p>Instead, it augments existing security infrastructure by providing context that can be leveraged for investigations and response.</p>
+<p>Behavioral analytics and endpoint monitoring are made more powerful when combined with tools such as SIEM (security information and event management) and SOAR (security orchestration, automation, and response), Jou said.</p>
+<blockquote>
+<p>&#8220;In today’s world, it’s extremely hard to rip and replace an existing security system, so intelligent UEBA and <a target="_blank" href="https://techbeacon.com/security/4-key-challenges-next-gen-security-operations-centers" rel="noopener noreferrer">endpoint detection and response tools</a> need to be able to simply integrate into an organization with things like cloud deployments and a seamless user experience.&#8221;<br />—Stephan Jou</p>
+</blockquote>
+<p>However, advanced analytics is an incredible augmentation to correlation, and a powerful tool for threat hunters, Jou said. &#8220;As this realization becomes more pervasive, solutions will become more tightly integrated and converged.&#8221;</p>
+<p><em>[ Learn how to <a target="_blank" href="https://www.brighttalk.com/webcast/7477/396323?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">supercharge your behavioral analytics with CrowdStrike EDR</a> in this Webinar. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-security-operations-2019-tb/2019-state-security-ops?lx=udA_0U&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">State of SecOps Report</a>. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/how-behavioral-analytics-tackles-advanced-threats">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Angie Jones Presents: Test Automation Beyond Java 8 [webinar recording]</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/angie-jones-presents-test-automation-beyond-java-8-webinar-recording/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 18 May 2020 21:07:15 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Angie]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Jones]]></category>
+		<category><![CDATA[Presents]]></category>
+		<category><![CDATA[Recording]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/angie-jones-presents-test-automation-beyond-java-8-webinar-recording/</guid>
+
+					<description><![CDATA[While most people are still using Java 8 from six years ago, new versions of the language are being released]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>While most people are still using Java 8 from six years ago, new versions of the language are being released every six months! </p>
+<p>The latest Java versions provide an abundance of new features, such as functional programming capabilities, switch expressions, local variable type inference, additions to the Stream API, new factory methods for Collections, text blocks and much more. </p>
+<p>With so much content, your Java upgrade should be more than simply the update of a jar file. Your test code no longer has to be as verbose as it once was — this means less code to write and maintain! </p>
+<p>This talk by Angie Jones introduces the new features of Java 9 – 14 and provides examples of how these features can be used for test automation. </p>
+<p>Key Takeaways: </p>
+<ul>
+<li>Introduction of new features in the latest 6 releases of Java (Java 9 – 14) </li>
+<li>Examples of how the features can be used for test automation projects </li>
+<li>Greater command of the programming language</li>
+</ul>
+<h3>Slide Deck</h3>
+<h3>Full Recording</h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p><div class="fitvids-video"><iframe title="[webinar recording] Angie Jones Presents: Test Automation Beyond Java 8" width="800" height="450" src="https://www.youtube.com/embed/3DTHJCIt5hU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+</figure>
+<h3>Additional Materials</h3>
+<h2 class="has-text-align-center">— HAPPY TESTING — </h2>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/java-test-automation/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>60 great resources for performance engineering teams</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/60-great-resources-for-performance-engineering-teams/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 18 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Engineering]]></category>
+		<category><![CDATA[great]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[resources]]></category>
+		<category><![CDATA[Teams]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/60-great-resources-for-performance-engineering-teams/</guid>
+
+					<description><![CDATA[One major roadblock that prevents teams from successfully maturing their performance efforts is a lack of training. Sometimes, just knowing]]></description>
+										<content:encoded><![CDATA[<p> </p>
+<div>
+<p>One major roadblock that prevents teams from successfully maturing their performance efforts is a lack of training. Sometimes, just knowing where to start can be a challenge.</p>
+<p>Before getting into specific training resources, however, it might be helpful to <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-critical?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">define performance engineering</a> and describe how <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-testing-to-engineering?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener noreferrer">it differs from performance testing</a>.</p>
+<p>In their book <a target="_blank" href="https://www.oreilly.com/library/view/effective-performance-engineering/9781492030164/" rel="nofollow noopener noreferrer"><i>Effective Performance Engineering</i></a>, <a target="_blank" href="https://twitter.com/appperfeng" rel="nofollow noopener noreferrer">Todd DeCapua</a> and <a target="_blank" href="https://www.linkedin.com/in/neoevans/" rel="nofollow noopener noreferrer">Shane Evans</a> describe performance engineering as a cultural shift in the way organizations view their essential processes. Performance engineering embraces practices and capabilities that build quality and performance throughout an organization.</p>
+<p>It helps your organization increase revenue, customer attraction and retention, brand value, and competitive advantage—all while meeting or exceeding the expectations of your end users.</p>
+<p>For its part, performance engineering means understanding how all the parts of the system fit together, knowing which metrics matter, and building in performance from the first design.</p>
+<p>This list of tools and resources is a good place to begin. It can help transform your organizations into <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-techniques?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">performance engineering centers of excellence</a>.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/performance-engineering-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Performance Engineering with TechBeacon&#8217;s Guide</a>. Plus: Get this report: <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-devops-gartner?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Adopt a Performance Engineering Approach for DevOps</a> ]</em></p>
+<h3>Maturity levels and how they relate to performance engineering</h3>
+<p>DeCapua describes these five main stages of maturity:</p>
+<ul>
+<li>Level 1: Randomly breaking things</li>
+<li>Level 2: Performance testing</li>
+<li>Level 3: Performance analytics</li>
+<li>Level 4: Lifecycle virtualization</li>
+<li>Level 5: &#8220;Performance&#8221; engineering</li>
+</ul>
+<p>Performance engineering is the top layer, Level 5, which all organizations should strive to reach.</p>
+<p>Once you understand what performance engineering is, you still need to convince management, and getting everyone on board with a performance engineering transformation can be a challenge.</p>
+<p>The <a target="_blank" href="https://wpostats.com" rel="nofollow noopener noreferrer">web performance optimization (WPO) stats compiled here</a> can help. Case studies and experiments demonstrate WPO&#8217;s impact on user experience and business metrics. If you&#8217;re trying to convince your organization that performance testing is important to your software development efforts, this is a great place to start. Keep in mind that WPO is just one small piece of performance engineering.</p>
+<h3>One-user and front-end performance</h3>
+<p>As companies begin to <a target="_blank" href="https://techbeacon.com/app-dev-testing/which-performance-tests-are-realistic-shift-left" rel="noopener noreferrer">shift left in their performance activities</a>, one-user performance is one area that is often overlooked.</p>
+<p><a target="_blank" href="https://twitter.com/perfpulley" rel="nofollow noopener noreferrer">James Pulley</a>, an independent consultant working with PerfBytes, said in a recent <a target="_blank" href="https://testguild.com/podcasts/performance" rel="nofollow noopener noreferrer">TestGuild performance podcast</a> that most engineers focus on how their applications perform for many concurrent users.</p>
+<p>It&#8217;s equally important, though, to know whether an app also scales for one. Client-side, one-user performance is important because testing has moved to the front end, with a focus on <a target="_blank" href="https://techbeacon.com/enterprise-it/how-it-ops-can-boost-your-user-experience" rel="noopener noreferrer">user experience (UX) performance</a>.</p>
+<p>Modern applications spend more time in the browser than on the server side, with many apps using JavaScript frameworks such as <a target="_blank" href="https://reactjs.org/" rel="nofollow noopener noreferrer">React</a> and <a target="_blank" href="https://angular.io/" rel="nofollow noopener noreferrer">Angular </a>front ends.</p>
+<p>These feature-rich front ends add a new layer that needs to be measured. So the measurement of the rendering time of an application that is under test on a client&#8217;s local machine becomes critical.</p>
+<p>This also leads to applications becoming more complex, with heavier front ends that use up more resources. Because of this, there&#8217;s a need to also include performance testing from the user&#8217;s perspective.</p>
+<p><a target="_blank" href="https://twitter.com/guyarieli" rel="nofollow noopener noreferrer">Guy Arieli</a>, CEO of Experitest, believes that <a target="_blank" href="http://testguild.com/podcast/performance/p29-guy/" rel="nofollow noopener noreferrer">mobile UX performance is even more significant</a> than the apps&#8217; performance. When you work with your browser on your desktop, you are connected via Wi-Fi. And the bandwidth that you&#8217;re using will be relatively high compared to anything you will find in 3G or even 4G, especially with changing network conditions and where the reception is not very good.</p>
+<p>A pillar of performance engineering is that performance needs to be baked into your software from the beginning, with developers creating performant code in your product from the start.</p>
+<p>Here are some resources to help you test all of the above.</p>
+<p><em>[ Learn what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">start taking advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
+<h3>Tools to capture front-end performance</h3>
+<ul>
+<li>
+<p><a target="_blank" href="https://www.webpagetest.org/" rel="nofollow noopener noreferrer">Webpagetest</a> is the standard for measuring performance from users&#8217; perspectives and for capturing visual metrics. It is a free service that provides a website speed test; it allows you to run your test from multiple locations using real browsers at real consumer connection speeds. You can also create your own instance of a web page test and run it behind the firewall to verify your intranet pages or pages that are under development. Webpagetest give you test location options that include testing from an Android or iOS device as well.</p>
+</li>
+<li>
+<p><a target="_blank" href="https://github.com/wix/DetoxInstruments" rel="nofollow noopener noreferrer">Detox Instruments</a> is a performance analysis and testing framework designed to help developers profile their mobile apps to better understand and optimize their behavior and performance. It can help your developers find issues early in the development cycle for mobile apps.</p>
+</li>
+<li>
+<p><a target="_blank" href="https://www.linkedin.com/in/cristian-marquez/" rel="nofollow noopener noreferrer">Cristian Daniel Marquez Barrios</a>, a front-end developer with over 10 years of experience, suggests that <a target="_blank" href="http://testguild.com/podcast/performance/p23-cristian/" rel="nofollow noopener noreferrer">your front-end developers should be using, at a minimum, Google Lighthouse metrics</a>. These are available in Google Chrome tools. When you open <a target="_blank" href="https://developers.google.com/web/tools/chrome-devtools" rel="nofollow noopener noreferrer">DevTools in Chrome</a> and navigate to the Audits tab, you can find the Lighthouse audit. This will measure the performance of your site, simulating mobile on a desktop version of a browser, so it&#8217;s a really good tool to start with.</p>
+</li>
+<li>
+<p><a target="_blank" href="https://www.sitespeed.io/" rel="nofollow noopener noreferrer">Sitespeed.io</a> is a set of open-source tools that make it easy to measure the performance of your website. It includes not only the software that can run performance tests, but also Grafana (see below).</p>
+</li>
+<li>
+<p><a target="_blank" href="https://grafana.com/" rel="nofollow noopener noreferrer">Grafana</a> collects and presents results from several test rounds, which means you can monitor the performance of your site. The tool also allows you to take a lot of additional actions, such as verifying the performance of all the pages of your site, or selected pages. You can also simulate different network connections, and much more.</p>
+</li>
+</ul>
+<p>Other tools Sitespeed.io gives you include:</p>
+<ul>
+<li><a target="_blank" href="https://www.sitespeed.io/documentation/coach/" rel="nofollow noopener noreferrer">Coach</a>, which can help make your web page faster. Coach acts like a modern version of YSlow, and gives you advice for how your page could be faster.</li>
+<li><a target="_blank" href="https://www.sitespeed.io/documentation/browsertime/" rel="nofollow noopener noreferrer">Browsertime</a>; this lets you automate running JavaScript in your browser to collect performance-timing metrics of your website.</li>
+<li><a target="_blank" href="https://www.sitespeed.io/documentation/compare/" rel="nofollow noopener noreferrer">Compare</a>, which matches two HAR files and finds regressions.</li>
+<li><a target="_blank" href="https://www.sitespeed.io/documentation/pagexray/" rel="nofollow noopener noreferrer">PageXray</a>; this converts a HAR file to a JSON format that is easier to read.</li>
+<li><a target="_blank" href="https://www.sitespeed.io/documentation/throttle/" rel="nofollow noopener noreferrer">Throttle</a>, which simulates slow network connections on Linux and macOS X and helps you see how the application performs when bandwidth is limited.</li>
+<li><a target="_blank" href="https://www.sitespeed.io/documentation/chrome-har/" rel="nofollow noopener noreferrer">Chrome-HAR</a>, which creates Chrome HAR files based on events from the Chrome Debugging Protocol.</li>
+</ul>
+<h3>Other client-side performance resources</h3>
+<p>If your application is very heavy on JavaScript client-side functionality, you&#8217;re going to want to measure that as well. Here are some other tools to analyze web pages, monitor performance, and find front-end code quality issues.</p>
+<ul>
+<li><a target="_blank" href="http://yslow.org" rel="nofollow noopener noreferrer">YSlow</a> analyzes web pages and determines why they&#8217;re slow, based on Yahoo&#8217;s rules for high-performance websites.</li>
+<li><a target="_blank" href="https://github.com/YellowLabTools/YellowLabTools" rel="nofollow noopener noreferrer">YellowLab Tools</a> contain an online test to help speed up heavy web pages.</li>
+<li><a target="_blank" href="https://varvy.com" rel="nofollow noopener noreferrer">Varvy</a> tests your site to determine whether it follows the Google guidelines for speed.</li>
+<li><a target="_blank" href="https://benchmarkjs.com" rel="nofollow noopener noreferrer">Benchmark.js</a> is a benchmarking library that supports high-resolution timers and returns statistically significant results.</li>
+<li><a target="_blank" href="https://github.com/zeman/perfmap" rel="nofollow noopener noreferrer">PerfMap</a> allows you to create a front-end performance heat map of resources loaded in the browser using the Resource Timing API.</li>
+<li><a target="_blank" href="https://github.com/macbre/phantomas" rel="nofollow noopener noreferrer">Phantomas</a> is a PhantomJS-based web performance metrics collection and monitoring tool.</li>
+<li><a target="_blank" href="https://webperf-heatmap.herokuapp.com" rel="nofollow noopener noreferrer">Webperf Heat Maps</a> generates performance heat maps of web pages.</li>
+<li><a target="_blank" href="http://zombie.js.org" rel="nofollow noopener noreferrer">Zombie.js</a> is a lightweight framework for testing client-side JavaScript code in a simulated environment. No browser is required.</li>
+</ul>
+<h3>Performance testing example sites</h3>
+<p>If you&#8217;re just getting started or don&#8217;t have an app to run performance tests against, it&#8217;s useful to have an example app to test against to help you as you learn. Here are a few web pages designed solely for this purpose.</p>
+<ul>
+<li>If you&#8217;re an old-time Mercury automation engineer, you&#8217;ll probably remember the sample site called <a target="_blank" href="http://newtours.demoaut.com/mercurywelcome.php" rel="nofollow noopener noreferrer">Mercury Tours</a> that shipped with WinRunner, QTP, and UFT. You can also use it as an example performance testing site.</li>
+<li>Another old-time favorite website for performance testing is a full web application called <a target="_blank" href="https://github.com/kazuki43zoo/mybatis-spring-boot-jpetstore" rel="nofollow noopener noreferrer">JpetStore</a>; it&#8217;s built on top of MyBatis 3, Spring 5, and Stripes.</li>
+<li>Blazemeter also has a popular test site; it&#8217;s called <a target="_blank" href="http://blazedemo.com/" rel="nofollow noopener noreferrer">BlazeDemo</a>.</li>
+</ul>
+<h3>Resources for performance testing newbies</h3>
+<p>In addition to <em><a target="_blank" href="https://www.oreilly.com/library/view/effective-performance-engineering/9781492030164/?intcmp=il-webops-free-product-na_new_site_what_is_effective_performance_engineering_text_cta" rel="nofollow noopener noreferrer">Effective Performance Engineering</a>,</em> the book already mentioned above, here are a few other resources:</p>
+<p><em>[ Related story: <a target="_blank" href="https://techbeacon.com/app-dev-testing/6-test-automation-tools-developers-love" rel="noopener noreferrer">6 test automation tools developers love</a> ]</em></p>
+<h3>Performance testing tools</h3>
+<p>Once you have a website to test against and a basic understanding of performance testing, you can take a look at some open-source performance testing tool options:</p>
+<ul>
+<li><a target="_blank" href="http://jmeter.apache.org/" rel="nofollow noopener noreferrer">JMeter</a> is the most popular open-source tool in the load-testing space. Apache’s JMeter describes itself as a Java application that was designed specifically for load testing with the ability to measure performance.</li>
+<li><a target="_blank" href="https://github.com/Blazemeter/taurus" rel="nofollow noopener noreferrer">Taurus</a> has the user-friendly option of allowing you to write your tests in YAML. You can describe a full-blown script in about 10 lines of text, which gives your teams the ability to describe their tests in a YAML or JSON file.</li>
+<li><a target="_blank" href="https://github.com/gatling/gatling" rel="nofollow noopener noreferrer">Gatling</a> is a stress tool built on Scala, Akka, and Netty. It allows you to test and measure your application’s end-to-end performance.</li>
+<li><a target="_blank" href="https://github.com/locustio/locust" rel="nofollow noopener noreferrer">Locust</a> is a simple-to-use, distributed, Python-based load-testing tool.</li>
+<li><a target="_blank" href="https://github.com/loadimpact/k6" rel="nofollow noopener noreferrer">k6</a> is a developer-centric, open-source load-testing tool for testing the performance of your back-end infrastructure.</li>
+<li><a target="_blank" href="http://grinder.sourceforge.net/" rel="nofollow noopener noreferrer">Grinder</a> is a load-testing Java framework that makes it easy to run a distributed test that leverages a host of load injector machines.</li>
+<li><a target="_blank" href="https://fortio.org" rel="nofollow noopener noreferrer">Fortio</a> is a load testing library, command line tool, advanced echo server, and web UI in go (golang). It allows you to specify a set query-per-second load and record latency histograms and other useful stats.</li>
+</ul>
+<h3>Performance monitoring tools</h3>
+<p>Monitoring performance is a key element to ensure that your application will perform perfectly in the wild. However, if you look at Gartner&#8217;s Magic Quadrant for Application Performance Monitoring report, all the tools listed are paid tools.</p>
+<p>For the folks who don’t have a budget for paid tools, here are some free APM solutions you should check out.</p>
+<ul>
+<li><a target="_blank" href="https://github.com/naver/pinpoint" rel="nofollow noopener noreferrer">Pinpoint</a> is currently the most popular application performance management tool on Github.</li>
+<li><a target="_blank" href="https://github.com/javamelody/javamelody" rel="nofollow noopener noreferrer">JavaMelody</a> monitors JavaEE apps.</li>
+<li><a target="_blank" href="https://github.com/apache/incubator-skywalking" rel="nofollow noopener noreferrer">Skywalking</a> monitors microservices and container-based architectures.</li>
+<li><a target="_blank" href="https://www.stagemonitor.org/" rel="nofollow noopener noreferrer">Stagemonitor</a> monitors Java server applications.</li>
+<li>Dynatrace&#8217;s <a target="_blank" href="https://community.dynatrace.com/community/display/EVAL/My+dynaTrace+Trial" rel="nofollow noopener noreferrer">Appmon</a> offers a personal license you can use free for life in your local environment.</li>
+<li>The <a target="_blank" href="https://stackify.com/prefix/" rel="nofollow noopener noreferrer">Prefix</a> web request profiler can help you validate the behavior of your code and find hidden exceptions in your code. It can also find slow SQL query issues.</li>
+</ul>
+<h3>Google performance resources</h3>
+<p>Google has a bunch of great tools to help you understand how to improve the performance of your web and other applications. Here are a few:</p>
+<ul>
+<li><a target="_blank" href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/" rel="nofollow noopener noreferrer">Google Developer Tools</a> can help you get started analyzing run time performance issues.</li>
+<li>As previously mentioned, <a target="_blank" href="https://developers.google.com/web/tools/lighthouse/" rel="nofollow noopener noreferrer">Google Lighthouse</a> is an open-source, automated tool that audits performance, accessibility, progressive web apps, and more.</li>
+<li><a target="_blank" href="https://developers.google.com/web/fundamentals/performance/get-started/" rel="nofollow noopener noreferrer">Web Fundamentals</a> contains explanations, examples, and recommendations that focus on low-effort, high-return performance wins.</li>
+<li><a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/" rel="nofollow noopener noreferrer">Google PageSpeed</a> reports on the performance of a page on both mobile and desktop devices, providing suggestions about how that page can be improved.</li>
+<li><a target="_blank" href="https://developers.google.com/web/tools/chrome-user-experience-report/#getting-started" rel="nofollow noopener noreferrer">Chrome User Experience Report</a> is a treasure trove of metrics, powered by real-user measurement data. Knowing this data can help you create more realistic tests for how your application will be used in production.</li>
+</ul>
+<h3>Test infrastructure performance resources</h3>
+<p><a target="_blank" href="https://twitter.com/paulsbruce" rel="nofollow noopener noreferrer">Paul Bruce</a>, DevOps advocate and automation and performance engineer at Neotys, says that in his experience, the traditional folks managing performance are missing the huge dangers and opportunities of the Kubernetes world.</p>
+<p>Here are some Kubernetes performance testing resources:</p>
+<ul>
+<li><a target="_blank" href="https://github.com/kubernetes/perf-tests" rel="nofollow noopener noreferrer">Kubernetes perf-tests</a> is a repository dedicated to storing various Kubernetes-related performance test-related tools. If you want to add your own load test, benchmark, framework, or other tool, contact one of the owners.</li>
+<li><a target="_blank" href="https://github.com/kubernauts/jmeter-kubernetes" rel="nofollow noopener noreferrer">JMeter Cluster</a> supports Kubernetes and OpenShift.</li>
+<li><a target="_blank" href="https://docs.openstack.org/developer/performance-docs/test_plans/container_cluster_systems/API_latency.html#measuring-of-api-performance-of-container-cluster-system" rel="nofollow noopener noreferrer">Measuring of API performance</a> describes a test plan for quantifying the API performance of container cluster systems.</li>
+<li><a target="_blank" href="https://www.youtube.com/watch?v=_l8yIqMpWT0&amp;feature=youtu.be" rel="nofollow noopener noreferrer">Load Testing Kubernetes</a> is a video from the Cloud Native Computing Foundation to help you optimize your cluster resource allocation in production.</li>
+</ul>
+<p>Let&#8217;s not forget Docker. Here are some Docker images that have performance testing tools baked into them from the beginning:</p>
+<ul>
+<li><a target="_blank" href="https://hub.docker.com/r/vmarrazzo/jmeter/" rel="nofollow noopener noreferrer">JMeter Docker</a> is a lightweight Docker image for Apache JMeter.</li>
+<li><a target="_blank" href="https://wiki.jenkins.io/display/JENKINS/Performance+Plugin" rel="nofollow noopener noreferrer">Jenkins Performance Plugin</a> allows you to capture reports from popular testing tools. Jenkins will generate graphics with a trend report of performance and robustness. It allows you to set the final build status as good, unstable, or failed, based on the reported error percentage.</li>
+<li><a target="_blank" href="https://keptn.sh/" rel="nofollow noopener noreferrer">Keptn</a> is a control-plane for DevOps automation of cloud-native applications. Keptn uses a declarative approach to build automation for delivery and operations, which can be scaled to a large number of services.</li>
+</ul>
+<h3>Site reliability</h3>
+<p>Because I&#8217;m old school, I still call many software development activities &#8220;performance testing,&#8221; but I’ve begun to see a trend that has this term falling by the wayside.</p>
+<p><a target="_blank" href="https://twitter.com/perfsherpa" rel="nofollow noopener noreferrer">Mark Tomlinson</a>, the &#8220;performance sherpa,&#8221; has an interesting theory. He says that if you listen to developers speak, they tend to use the term &#8220;webperf&#8221; rather than &#8220;performance testing.&#8221;</p>
+<p>So it&#8217;s very clear that developers and engineers are doing performance work. Web designers are doing performance work. Infrastructure teams are doing performance work. And none of them self-identify as &#8220;testers&#8221; in their organizations.</p>
+<p>So, if you’re like me and still call it performance testing, don’t ignore resources that also exist for <a target="_blank" href="https://techbeacon.com/enterprise-it/sre-practice-5-insights-googles-experience" rel="noopener noreferrer">site reliability engineers</a> or infrastructure teams. Here are some examples:</p>
+<ul>
+<li><em><a target="_blank" href="https://landing.google.com/sre/sre-book/toc/index.html" rel="nofollow noopener noreferrer">The Site Reliability Engineering Book</a>: </em>In this free e-book,<i> </i>members of Google&#8217;s SRE team explain how their engagement with the entire software lifecycle has helped Google build, deploy, monitor, and maintain some of the largest software systems in the world.</li>
+<li><em><a target="_blank" href="https://www.oreilly.com/library/view/chaos-engineering/9781491988459/" rel="nofollow noopener noreferrer">Chaos Engineering</a>: </em>In this report, members of the Netflix team that developed chaos engineering explain how to apply these principles to your own system. By introducing controlled experiments, you&#8217;ll learn how behavior from component interactions can cause your system to drift into an unsafe, chaotic state.</li>
+<li><a target="_blank" href="https://github.com/Netflix/chaosmonkey" rel="nofollow noopener noreferrer">Chaos Monkey</a> randomly terminates virtual machine instances and containers that run inside your production environment. Exposing engineers to failures more frequently gives them incentives to build resilient services.</li>
+</ul>
+<p>If you’ve tried using Chaos Monkey in the past, you may have found it difficult to use and understand. There’s another product built on top of it called Gremlin that makes it easier to get started.</p>
+<ul>
+<li><a target="_blank" href="https://www.gremlin.com/product/" rel="nofollow noopener noreferrer">Gremlin Free</a> provides the ability to run both Shutdown and CPU attacks on your hosts or containers, controlled by a simple user interface at no cost.</li>
+</ul>
+<p><em>That&#8217;s my list. What did I miss? Share your suggestions in a comment below.</em></p>
+<p><em>For more great tips and practical information on performance testing and engineering, join us for the <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="nofollow noopener noreferrer">PerfGuild online conference</a>, which runs June 1-2, 2020. </em></p>
+<p><em>[ Understand quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/60-great-resources-performance-engineering-teams">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Hoaxcalls Botnet Exploits Symantec Secure Web Gateways</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/hoaxcalls-botnet-exploits-symantec-secure-web-gateways/</link>
 		
@@ -143,8 +509,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-injecting-security-into-devops-is-a-no-brainer/</guid>
 
 					<description><![CDATA[Despite a significant uptick in awareness of DevOps security issues, many companies aren&#8217;t on top of the software development security challenges they]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>Despite a significant uptick in awareness of DevOps security issues, many companies aren&#8217;t on top of the software development security challenges they face, and must rely on outside teams to handle their software security program. </p>
 <p>Surveys show that there is significant resistance to<a target="_blank" href="https://techbeacon.com/security/primer-secure-devops-why-devsecops-matters" rel="noopener noreferrer"> company-wide DevSecOps implementations</a>, and that many managers view incorporating security standards into DevOps processes as a roadblock to agile software delivery.</p>
@@ -173,714 +538,6 @@
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/devops/why-injecting-security-devops-no-brainer">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>‘Thunderspy’ enlightening—very, very frightening &#124; TechBeacon</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thunderspy-enlightening-very-very-frightening-techbeacon/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 May 2020 18:30:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[enlighteningvery]]></category>
-		<category><![CDATA[frightening]]></category>
-		<category><![CDATA[TechBeacon]]></category>
-		<category><![CDATA[Thunderspy]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/thunderspy-enlightening-very-very-frightening-techbeacon/</guid>
-
-					<description><![CDATA[Seven flaws in Thunderbolt ports let an attacker fully access data on recent PCs and some Macs. Is this just fantasy?]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p><strong>Seven flaws in Thunderbolt</strong> ports let an attacker fully access data on recent PCs and some Macs. Is this just fantasy?</p>
-<p><strong>The bugs bypass</strong> Intel’s security controls, so malefactors can decrypt drives with ease. Didn’t mean to make you cry.</p>
-<p><strong>And the researchers threw shade</strong> on Intel for its response to their disclosure. Sends shivers down my spine.</p>
-<p><strong>However, the attack isn’t trivial to pull off.</strong> In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer">Security Blogwatch</a></i>, we see a little silhouetto <a target="_blank" href="https://techbeacon.com/security/what-your-devops-team-needs-know-4-lessons-exploited-vulnerabilities" rel="noopener noreferrer">of a vuln</a>.</p>
-<p><a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Pandemic vs. Planes.</em></p>
-<p><em>[ Join this May 28 Webinar to learn <a target="_blank" href="https://www.brighttalk.com/webcast/7477/400829?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to mitigate threats with agility during the COVID-19 pandemic</a>. Plus: See TechBeacon&#8217;s Guide to a <a target="_blank" href="https://content.microfocus.com/l/cloud-based-security-analytics-ops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Modern Security Operations Center</a> ]</em></p>
-<h3>IOMMU, Figaro!</h3>
-<p><strong>What’s the craic?</strong> Andy Greenberg reports—<i><a target="_blank" href="https://www.wired.com/story/thunderspy-thunderbolt-evil-maid-hacking/" rel="nofollow ugc noopener noreferrer" title="read the full text">Thunderbolt Flaws Expose Millions of PCs to Hands-On Hacking</a>:</i></p>
-<blockquote><p><em>Security researchers have long been wary of Intel&#8217;s Thunderbolt interface as a potential security issue. … On Thunderbolt-enabled Windows or Linux PCs manufactured before 2019, [Thunderspy] can bypass the login screen of a sleeping or locked computer—and even its hard disk encryption—to gain full access to the computer&#8217;s data.<br />…<br />It leaves no trace of intrusion and can be pulled off in just a few minutes. … There&#8217;s no easy software fix. [It’s] both unpatched and unpatchable for millions of computers.<br />…<br />The fact that Thunderbolt remains a viable attack method for evil maids isn&#8217;t entirely unexpected, says Karsten Nohl, a well-known hardware security researcher. … Still, he was surprised to see how easily Intel&#8217;s &#8220;security levels&#8221; can be bypassed.<br />…<br />Users may want to disable their Thunderbolt port altogether in their computer&#8217;s BIOS … enable hard disk encryption, and turn their computers off entirely when they leave them unattended.</em></p></blockquote>
-<p><strong>And</strong> Sergiu Gatlan adds—<i><a target="_blank" href="https://www.bleepingcomputer.com/news/security/new-thunderbolt-security-flaws-affect-systems-shipped-before-2019/" rel="nofollow ugc noopener noreferrer" title="read the full text">New Thunderbolt security flaws</a>:</i></p>
-<blockquote><p><em>The new attack, discovered by Eindhoven University of Technology researcher Björn Ruytenberg, [allows] attackers to steal information from any vulnerable Thunderbolt-enabled device. … &#8220;All systems released before 2019, and more recent systems that do not ship Kernel DMA Protection, will remain fully vulnerable to Thunderspy forever,&#8221; the researcher explains.<br />…<br />For Linux and Windows users, all systems purchased before 2019 are vulnerable … while devices bought during and after 2019 might [be]. Macs from 2011 and older, except for Retina MacBooks, are all impacted.<br />…<br />Intel confirmed that the vulnerabilities are valid but [can] not mitigate the Thunderspy vulnerabilities by issuing a patch [as it] would require a silicon redesign.</em></p></blockquote>
-<p><strong>Björn <i>who?</i></strong> Björn Ruytenberg—<i><a target="_blank" href="https://thunderspy.io/" rel="nofollow ugc noopener noreferrer" title="read the full text">When Lightning Strikes Thrice</a>:</i></p>
-<blockquote><p><em>We have found 7 vulnerabilities in Intel’s design and developed 9 realistic scenarios how these could be exploited by a malicious entity to get access to your system, past the defenses that Intel had set up for your protection. … Thunderspy enables creating arbitrary … device identities and cloning user-authorized … devices, even in the presence of Security Levels pre-boot protection and cryptographic device authentication.<br />…<br />Our research has found the following vulnerabilities:<br /> </em></p>
-<ol>
-<li><em>Inadequate firmware verification schemes </em></li>
-<li><em>Weak device authentication scheme </em></li>
-<li><em>Use of unauthenticated device metadata </em></li>
-<li><em>Downgrade attack using backwards compatibility </em></li>
-<li><em>Use of unauthenticated controller configurations </em></li>
-<li><em>SPI flash interface deficiencies </em></li>
-<li><em>No Thunderbolt security on Boot Camp</em></li>
-</ol>
-<p><em>These vulnerabilities lead to nine practical exploitation scenarios.<br />…<br />We disclosed vulnerabilities 1-5 to Intel on February 10. They wrote on March 10 … that vulnerabilities 3-5 were new to them. After further research we disclosed vulnerability 6, which Intel confirmed on March 17. … We informed Apple of vulnerability 7 on April 17.<br />…<br />In our first email we asked Intel to promptly notify affected parties, in coordination with us. However, Intel did not take any action and finally, after several email exchanges, listed only 5 parties whom they would inform. We then sent them a list of other parties we had identified as affected, including 11 OEMs/ODMs and the Linux kernel security team. Eventually they notified us that they informed some parties on 25 March about the vulnerabilities and upcoming disclosure, without giving us details of what this information consisted of and whom exactly they contacted. We reached out to several more parties after realizing that they had been skipped by Intel.</em></p></blockquote>
-<p><div class="fitvids-video"><iframe title="Thunderspy PoC demo 1: Unlocking Windows PC in 5 minutes" width="800" height="450" src="https://www.youtube.com/embed/7uvSZA1F9os?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-<p><strong>Yikes, Intel.</strong> Jerry Bryant puts on his big-boy PR pants—<i><a target="_blank" href="https://blogs.intel.com/technology/2020/05/more-information-on-thunderspy/" rel="nofollow ugc noopener noreferrer" title="read the full text">More Information on Thunderbolt<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Security</a>:</i></p>
-<blockquote><p><em>In February 2020, researchers from Eindhoven University of Technology … discussed issues related to invasive physical attacks on Thunderbolt<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> hosts and devices. While the underlying vulnerability is not new and was addressed in operating system releases last year, the researchers demonstrated new potential physical attack vectors using a customized peripheral device on systems that did not have these mitigations enabled.<br />…<br />We thank the researchers from Eindhoven University for reporting this to us.</em></p></blockquote>
-<p><strong>Wait, so “nothing to see here”?</strong> Shaun Nichols mocks—<i><a target="_blank" href="https://www.theregister.co.uk/2020/05/11/thunderspy_port_hack/" rel="nofollow ugc noopener noreferrer" title="read the full text">Incredible how you can steal data via Thunderbolt once you&#8217;ve taken the PC apart, attached a flash programmer, rewritten the firmware&#8230;</a>:</i></p>
-<blockquote><p><em>Let&#8217;s be frank: This is, for most people, more of a neat trick than infosec Armageddon. A miscreant would need to have physical access to the machine long enough to unscrew the case, attach an SPI flash programmer with an SOP8 clip to rewrite the Thunderbolt port controller&#8217;s firmware to unlock access, and then attach a device to the interface to copy data via PCIe and DMA through the port, and then, if necessary, flash back the original firmware and fit the computer back together.<br />…<br />It&#8217;s not bad news if your threat model already assumed physical access was a game-over scenario. It&#8217;s not something that can be exploited over the internet or network, or by malware running on your PC or Mac.</em></p></blockquote>
-<p><strong>Similarly,</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16354758&amp;cid=60048432" rel="nofollow ugc noopener noreferrer" title="read the full text">thereddaikon</a></i> eyerolls furiously:</p>
-<blockquote><p><em>This shouldn&#8217;t be a surprise or revelation to anyone. It&#8217;s a natural consequence of DMA. The whole point is to access system memory without having to go through the CPU and reduce overhead.<br />…<br />It&#8217;s an explicit and intentional feature. DMA support allows Thunderbolt to act as external PCIe. Without it eGPU and other accessories wouldn&#8217;t be possible.<br />…<br />[If] the attacker can physically access the machine, don&#8217;t let them do it. If they can lay hands on the device you have already lost. That&#8217;s rule #1 of security.</em></p></blockquote>
-<p><strong>Um, okay.</strong> <i><a target="_blank" href="https://forums.theregister.co.uk/forum/all/2020/05/11/thunderspy_port_hack/#c_4030306" rel="nofollow ugc noopener noreferrer" title="read the full text">doublelayer</a></i> offers a more nuanced view:</p>
-<blockquote><p><em>While it&#8217;s not useless, it only works in a relatively small number of cases. And in many of those cases, there is a more direct method of getting access.</p>
-<p>It&#8217;s a good reminder to those who are concerned about an attacker of that level of skill and determination to avoid suspending to memory, but that has been known for some time.</p>
-<p></em></p></blockquote>
-<p><strong>So just epoxy up the TB port?</strong> Careful with that ax, <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16354758&amp;cid=60047928" rel="nofollow ugc noopener noreferrer" title="read the full text">Junta</a>:</i></p>
-<blockquote><p><em>On some laptops the only charging ports are Thunderbolt ports. So you have to leave the port available or your laptop won&#8217;t be able to recharge.</em></p></blockquote>
-<p><strong>But</strong> <i><a target="_blank" href="https://forums.theregister.co.uk/forum/all/2020/05/11/thunderspy_port_hack/#c_4030967" rel="nofollow ugc noopener noreferrer" title="read the full text">HildyJ</a></i> has a better use for said glue:</p>
-<blockquote><p><em>For anyone seriously worried about this, epoxy the screws to case.</em></p></blockquote>
-<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16354758&amp;cid=60047896" rel="nofollow ugc noopener noreferrer" title="read the full text">iggymanz</a></i> cuts to the chase:</p>
-<blockquote><p><em>If you go to the bathroom and leave your laptop in a coffee shop, you&#8217;re a naive dumbass.</em></p></blockquote>
-<h3>The moral of the story?</h3>
-<p>Choose up-to-date hardware, and configure it correctly. And consider disabling suspend.</p>
-<p><em>[ Learn how to <a target="_blank" href="https://www.brighttalk.com/webcast/7477/396323?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">supercharge your behavioral analytics with CrowdStrike EDR</a> in this Webinar. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-security-operations-2019-tb/2019-state-security-ops?lx=udA_0U&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">State of SecOps Report</a>. ]</em></p>
-<h3>And finally</h3>
-<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=CPh9J2KfgRI" rel="noopener nofollow noreferrer" title="And Finally">Any way the wind blows</a></strong></p>
-<p><div class="fitvids-video"><iframe title="Pandemic vs Planes: The World&#039;s Busiest Airports Before &amp; After COVID" width="800" height="450" src="https://www.youtube.com/embed/CPh9J2KfgRI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow noreferrer">Previously in “And finally”</a></p>
-<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow noreferrer">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener noreferrer">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE.</em></p>
-<p><em>Image sauce: <a target="_blank" href="https://pixabay.com/photos/lightning-storm-arizona-monsoon-1158027/" rel="noopener nofollow noreferrer">Keli Black</a> (<a target="_blank" href="https://pixabay.com/service/license/" rel="noopener nofollow noreferrer" title="Some rights reserved">Pixabay</a>)</em></p>
-<p><em>[ Do you think cybercriminals take a break during a crisis? Think again. <a target="_blank" href="https://events.microfocus.com/en-au-breach-defense-readiness/515637?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">Join this three-part Webinar series</a> to learn best practices for a well-designed SOC. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/thunderspy-enlightening-very-very-frightening">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to Secure Your Data Everywhere? It’s Easy With Unified Cloud Edge</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-secure-your-data-everywhere-its-easy-with-unified-cloud-edge/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 May 2020 14:00:22 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Easy]]></category>
-		<category><![CDATA[Edge]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[Unified]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-secure-your-data-everywhere-its-easy-with-unified-cloud-edge/</guid>
-
-					<description><![CDATA[The need to protect sensitive data has two main drivers, privacy legislation and protection of intellectual property against external breaches]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-							
-						</div>
-<p>The need to protect sensitive data has two main drivers, privacy legislation and protection of intellectual property against external breaches and insider threat. 58% of the countries worldwide now have legislation in place; these will become more onerous over time.  Breaches and insider theft of data is a frequently reported topic in the media due to the steady stream of brand impacting, high-profile cases.  Breaches are expensive due to fines, loss of revenue and remediation costs.</p>
-<p>Historically data protection via <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/security-awareness/data-protection/dlp-best-practices.html" rel="noopener noreferrer">DLP</a> was implemented on the end point and in the business’s network.  Both approaches have strengths and weaknesses; network DLP is unable to monitor the movement of sensitive data to USB memory sticks and end point DLP doesn’t offer some of the more sophisticated DLP capabilities that require a lot of memory and compute power.  Many customers deployed both enterprise DLP solutions.</p>
-<p>Other vendors without enterprise DLP offerings have added “DLP-lite” capabilities to their products, predominantly email and web security products and some businesses have chosen those over enterprise DLP solutions.</p>
-<p>This approach was sustainable before widespread adoption of the cloud.  95% of companies have or are adopting cloud services and 79% of them admit to storing sensitive data there.  Data is now everywhere, on laptops, servers, in sanctioned apps, in unsanctioned Shadow IT apps and moving from cloud to cloud.  Protecting data within the four walls of an organization is no longer sufficient.</p>
-<p>Businesses, particularly those with a Cloud First strategy have responded to this challenge by introducing a CASB solution such as <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-cloud.html" rel="noopener noreferrer">McAfee’s MVISION Cloud</a> product.  Dependent on the product this can address some, or all, of these cloud adoption challenges – MVISION Cloud addresses them all.</p>
-<p>The problem however is that some businesses are living with gaps in their protection as they don’t deploy multiple products.  Endpoint DLP can’t solve for cloud, neither can cloud DLP solve for endpoint and web DLP can’t effectively solve for sanctioned apps allowing online collaboration, or endpoint.  When looking at common use cases along with potential DLP leak vectors you’ll appreciate why a single product isn’t a complete solution:</p>
-<p><img class="wp-image-100958 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/05/1-2.png" alt="" width="936" height="492" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/1-2.png 936w, https://www.mcafee.com/wp-content/uploads/2020/05/1-2-300x158.png 300w, https://www.mcafee.com/wp-content/uploads/2020/05/1-2-768x404.png 768w, https://www.mcafee.com/wp-content/uploads/2020/05/1-2-205x108.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>To attempt to address this, businesses deploy multiple products.  Doing so closes all the gaps but has downsides.  Multiple products are expensive to license, have higher IT management overheads and complexity due to subtly implementations.  These differences are due to different DLP policies, data classifications and content extraction engines which makes it difficult to ensure consistency of detection across products, as data classifications that have been fine-tuned over time have to be re-implemented from scratch with each additional product, leading to a reduction of efficacy.</p>
-<p>McAfee’s Unified Cloud Edge (UCE) solution solves these problems.  UCE is a combination of endpoint DLP, web SaaS proxy and CASB, covering all the potential data leak vectors: endpoint, unsanctioned shadow IT apps, sanctioned apps (including email) and cloud to cloud transfers.  UCE is managed via a single console and uses the same DLP technology everywhere, such as policy and content extraction engines to maximize efficacy through consistent results.  Businesses can retain their investment in those carefully crafted data classifications, allowing use across all vectors and easy extension to the cloud.  UCE is a cloud native, highly scalable solution with industry leading uptime and availability.</p>
-<p>Want to find out more?  Then head over to <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/unified-cloud-edge.html" rel="noopener noreferrer">https://www.mcafee.com/enterprise/en-us/solutions/unified-cloud-edge.html</a></p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/data-security/how-to-secure-your-data-everywhere-its-easy-with-unified-cloud-edge/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Five Data-Driven Reasons To Add Visual AI To Your End-To-End Tests</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/five-data-driven-reasons-to-add-visual-ai-to-your-end-to-end-tests/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 May 2020 00:04:59 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Add]]></category>
-		<category><![CDATA[DataDriven]]></category>
-		<category><![CDATA[EndToEnd]]></category>
-		<category><![CDATA[Reasons]]></category>
-		<category><![CDATA[Tests]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/five-data-driven-reasons-to-add-visual-ai-to-your-end-to-end-tests/</guid>
-
-					<description><![CDATA[Do you believe in learning from the experiences of others? If others found themselves more productive adding Visual AI to]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<p>Do you believe in learning from the experiences of others? If others found themselves more productive adding Visual AI to their functional tests, would you give it a try?</p>
-
-
-
-<p>In November 2019, over 3,000 engineers signed up to participate in the Applitools Visual AI Rockstar Hackathon. 288 completed the challenge and submitted tests – comparing their use of coded test validation versus the same tests using Visual AI. They found themselves with better coverage, faster test development, more stable test code, with easier code test code maintenance.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:paragraph -->
-<p>On April 23, <a target="_blank" href="https://www.linkedin.com/in/jameslamberti/" rel="noopener noreferrer">James Lamberti</a>, CMO at Applitools, and <a target="_blank" href="https://www.linkedin.com/in/rajaraodv/" rel="noopener noreferrer">Raja Rao</a> DV, Director of Growth Marketing at Applitools, discussed the findings from the Applitools Hackathon submissions. The 288 engineers who submitted their test code for evaluation by the Hackathon team spent an average of 11 hours per submission. That’s over 3,000 person-hours – the equivalent of  1 ½ years of engineering work.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Over 3000 participants signed up. They came from around the world.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18404} -->
-<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:paragraph --><p>They used a variety of testing tools and a range of programming languages.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18400} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM.jpg" alt="Screen Shot 2020 05 13 at 11.27.03 AM" class="wp-image-18400" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM.jpg 1379w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM-300x182.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM-1024x622.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.27.03-AM-768x467.jpg 768w" sizes="(max-width: 1379px) 100vw, 1379px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>In the end, they showed some pretty amazing results from adding Applitools Visual AI to their existing test workflow.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.pvx565295tcx">Describing the Hackathon Tests</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Raja described the tests that made up the Hackathon.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18409} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM.png" alt="Screen Shot 2020 05 13 at 11.30.42 AM" class="wp-image-18409" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM.png 1489w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM-300x161.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM-1024x550.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.30.42-AM-768x413.png 768w" sizes="(max-width: 1489px) 100vw, 1489px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Each test involved a side-by-side comparison of two versions of a web app. In one version, the baseline, the page rendered correctly. In the other version, the new candidate, the page rendered with errors. This would simulate the real-world issues of dealing with test maintenance as apps develop new functionality.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Hackathon participants had to write code that did the following:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Ensure the page rendered as expected on the baseline.</li><li>Capture all mistakes in the page rendering on the new candidate</li><li>Report on all the differences between the baseline and the new candidate</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Also, Hackathon participants needed to realize that finding a single error on a page met the necessary – but not sufficient condition for testing. A single test that captures all the problems at once has a faster resolution time than running into multiple bug capture/fix loops. Test engineers needed to write tests that captured all the test conditions, as well as properly reporting all the failures.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Hackathon participants would code their test using a conventional test runner plus assertions of results in the output DOM. Then, they used the same test runner code but replaced all their assertions with Applitools Visual AI comparisons.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>To show these test results, he used the <a target="_blank" href="https://github.com/corinazaharia/applitools_hackathon_2019/" rel="noopener noreferrer">Github repository</a> of Corina Zaharia, one of the platinum Hackathon winners.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At this point here, Raja walked through each of the test cases.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.bva7svfglxhp">CASE 1 – Missing Elements</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Raja presented two web pages. One was complete. The other had missing elements. Hackathon participants had to find those elements and report them in a single test.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18407} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM.png" alt="Screen Shot 2020 05 13 at 11.49.52 AM" class="wp-image-18407" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM.png 1503w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM-300x178.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM-1024x608.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.49.52-AM-768x456.png 768w" sizes="(max-width: 1503px) 100vw, 1503px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>To begin coding tests, Corina started with the baseline. She identified each of the HTML elements and ensured that their text identifiers existed. She wrote assertions for every element on the page.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18396} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.52.31-AM.png" alt="Screen Shot 2020 05 13 at 11.52.31 AM" class="wp-image-18396" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.52.31-AM.png 719w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.52.31-AM-266x300.png 266w" sizes="(max-width: 719px) 100vw, 719px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>In evaluating submissions, judges ensured that the following differences got captured:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><li>The title changed</li><li>The Username icon was missing</li><li>The Password icon was missing</li><li>The username placeholder changed</li><li>The wrong password label</li><li>The password placeholder changed</li><li>There was extra space next to the check box</li><li>The Twitter icon had moved</li><li>The Facebook icon had moved</li><li>The LinkedIn Icon was missing.</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>Capturing this page required identifying element locators and validating locator values.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In comparison, adding Visual AI required only three instructions:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Open a capture session</li><li>Capture the page with an eyes.checkWindow() command</li><li>Close the capture session</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>No identifiers needed – Applitools captured the visual differences.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>With much less coding, Applitools captured all the visual differences. And, test maintenance takes place in Applitools.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.70p2xt92yovu">CASE 2 – Data-Driven Testing</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>In Case 2, Hackathon participants needed to validate how a login page behaved when applying different inputs. The test table looked like this:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>No username, no password</li><li>Username, no password</li><li>Password, no username</li><li>Username and password combination invalid</li><li>Valid username and password</li></ul><!-- /wp:list --><!-- wp:image {"id":18399} --><figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM.png" alt="Screen Shot 2020 05 13 at 11.51.30 AM" class="wp-image-18399" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM.png 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-300x163.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-1024x557.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-768x418.png 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.51.30-AM-1536x835.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Each condition resulted in a different response page.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Hackathon participants found an identical page to the tests in Case 1 – but they were responsible for handling the different responses to each of the different test conditions.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Again, the coding for the conventional test required entering the test conditions via test runner asserting all the elements on the page, including asserting error messages.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Also, the question was left open for testers – what should they test when they test the valid password and username condition? The simplest answer – just make sure the app visits the correct target post-login page. But, more advanced testers wanted to make sure that the target paged rendered as expected.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>So, again, the comparison with coded assertions and adding Visual AI makes clear how much more easily Visual AI captures baselines and then compares the new candidate against the baselines.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.g2j5h7s6mojx">CASE 3 – Testing Table Sort</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The next case – testing table capabilities – fits into capabilities found on many web apps that provide multiple selections. Many consumer apps, such as retailers, reviewers, and banks, provide tables for their customers. Some business apps provide similar kinds of selectors – in retail, financial, and medical applications.  In many use cases, users expect tables with advanced capabilities, such as sorting and filtering.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18394} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM.jpg" alt="Screen Shot 2020 05 13 at 11.53.33 AM" class="wp-image-18394" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-300x153.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-1024x521.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-768x391.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-11.53.33-AM-1536x781.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Tables can provide some challenges for testers. Tables can contain lots of elements. Many table functions can require complex test coding – for example, sorting and filtering.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>To test table sorting with conventional assertion code, Hackathon participants had to write code that captured all the data in the table, performed the appropriate sort of that data, and use the internally-sorted table in the test code with the sorted table on the web page. Great test coders took pains to ensure that they had done this well and could handle various sorting options.  The winners took time to ensure that their code covered the table behavior. This complex behavior did not get caught by all participants, even with a decent amount of effort.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In contrast, all the participants understood how to test the table sort with Visual AI. Capture the page, execute the sort, capture the result, and validate inside Applitools.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.c4hfxf18ufcu">Case 4 – Non-Textual Plug-ins</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The fourth case involved using graphical rendering of a table in canvas. How do you test that?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18405} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM.jpg" alt="Screen Shot 2020 05 13 at 12.15.01 PM" class="wp-image-18405" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM.jpg 1595w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-300x166.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-1024x567.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-768x425.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.15.01-PM-1536x850.jpg 1536w" sizes="(max-width: 1595px) 100vw, 1595px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Without normal web element locators, a lot of participants got lost.  They weren’t sure how to start finding the graphing elements and to build a comparison between the baseline behavior and the new candidate.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Winning Hackathon participants dug into the rendering code to find the javascript calls for the graph and the source data for table elements. This allowed them to extract the values that should be rendered and compare them between the baseline and the new candidate. And, while the winners wrote fairly elegant code, this particular skill took time to dive into JavaScript. And, a fair amount of coding effort.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>As with the table sorting Case 3, all the participants understood how to test the graph with Visual AI. Capture the page, and then compare the new candidate with the baseline in Applitools.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.ulbqu62p9u9e">Case 5 – Dynamic Data</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The final case required the participants to test a page with floating advertisements that can change.  In fact, as long as content gets rendered in the advertising box, and the rest of the candidate remains unchanged, the test passes.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18403} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM.jpg" alt="Screen Shot 2020 05 13 at 12.16.59 PM" class="wp-image-18403" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-300x167.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-1024x569.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-768x427.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.16.59-PM-1536x853.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>The winning participants coded conditional tests to ensure that code existed in the advertising boxes, though they did not have the ability to see how that code got rendered.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>With Visual AI, participants had to use different visual comparison modes in Applitools. The standard mode – Strict Mode – searches for visual elements that have moved or rendered in unexpected ways. With dynamic data, Strict Mode comparisons fail.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>For these situations, Applitools offers Layout Mode instead. When using Layout Mode, the text and graphical elements need to share order and orientation, but their actual visual representation can be different.  In Layout Mode, the following are considered identical – image above text.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":18416,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/image4.png" alt="" class="wp-image-18416" srcset="https://applitools.com/wp-content/uploads/2020/05/image4.png 980w, https://applitools.com/wp-content/uploads/2020/05/image4-300x300.png 300w, https://applitools.com/wp-content/uploads/2020/05/image4-150x150.png 150w, https://applitools.com/wp-content/uploads/2020/05/image4-768x768.png 768w, https://applitools.com/wp-content/uploads/2020/05/image4-200x200.png 200w, https://applitools.com/wp-content/uploads/2020/05/image4-90x90.png 90w, https://applitools.com/wp-content/uploads/2020/05/image4-30x30.png 30w" sizes="(max-width: 980px) 100vw, 980px"/></figure><!-- /wp:image --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center"><strong>This Is A Dog</strong></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":18395,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg" alt="" class="wp-image-18395" srcset="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg 640w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-30x30.jpg 30w" sizes="(max-width: 640px) 100vw, 640px"/></figure><!-- /wp:image --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center"><strong>Not A Dog</strong></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-<p>However, the pair below has a different layout.  On the left, the text sits below the image, while on the right the text sits above the image</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":18416,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/image4.png" alt="" class="wp-image-18416" srcset="https://applitools.com/wp-content/uploads/2020/05/image4.png 980w, https://applitools.com/wp-content/uploads/2020/05/image4-300x300.png 300w, https://applitools.com/wp-content/uploads/2020/05/image4-150x150.png 150w, https://applitools.com/wp-content/uploads/2020/05/image4-768x768.png 768w, https://applitools.com/wp-content/uploads/2020/05/image4-200x200.png 200w, https://applitools.com/wp-content/uploads/2020/05/image4-90x90.png 90w, https://applitools.com/wp-content/uploads/2020/05/image4-30x30.png 30w" sizes="(max-width: 980px) 100vw, 980px"/></figure><!-- /wp:image --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center"><strong>This Is A Dog</strong></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><strong>Not A Dog</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18395,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg" alt="" class="wp-image-18395" srcset="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863.jpg 640w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-e1589410208863-30x30.jpg 30w" sizes="(max-width: 640px) 100vw, 640px"/></figure><!-- /wp:image --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-<p>Applitools users can hard-code their check mode for different regions into their page capture. Alternatively, they can use Strict Mode for the entire page and handle the region as a Layout Mode exception in the Applitools UI.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>All the Hackathon participants, whether coding their tests for Layout mode for the region or by using Layout mode for the selected area once the baseline had been captured in Applitools, had little difficulty coding their tests.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.u62kcuwvwt0s">Learning From Hackathon Participants</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>At this point, James began describing what we had learned from the 1.5 person-years of coding work done on the Hackathon. We learned what gave people difficulty, where common problems occurred, and how testing with Visual AI compared with conventional assertions of values in the DOM.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 id="h.x9wws3fgz5j2">Faster Test Creation</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>I alluded to it in the test description, but test authors wrote their tests much more quickly using Visual AI. On average, coders spent 7 person-hours writing coded assertion-based tests for the Hackathon test cases. In contrast, they spent a mere 1.2 hours writing tests using Visual AI for the same test cases.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":18401,"width":599,"height":459} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM.jpg" alt="Screen Shot 2020 05 13 at 12.29.50 PM" class="wp-image-18401" width="599" height="459" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM.jpg 1143w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM-300x230.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM-1024x787.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.29.50-PM-768x590.jpg 768w" sizes="(max-width: 599px) 100vw, 599px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Interestingly, the prize-winning submitters spent, on average 10.2 hours writing their winning submissions. They wrote more thorough conventional tests, which would yield accurate coverage when failures did occur. On the other hand, their coverage did not match the complete-page coverage they got from Visual  AI. And, their prize-winning Visual AI tests required, on average, six minutes more to write than the average of the whole of the test engineers.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 id="h.px218u1gaycx">More Efficient Coding</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The next takeaway came from calculating coding efficiency. For conventional tests, the average participant wrote about 350 lines of code. The prize winners, whose code had greater coverage, wrote a little more than 450 lines of code, on average. This correlates with the 7 hours and 10 hours of time spent writing tests.  It’s not a perfect measure, but participants writing conventional tests wrote about 50 lines of code per hour over 7 hours, and the top winners wrote about 45 lines of code per hour over 10 hours.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":18402} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM.jpg" alt="Screen Shot 2020 05 13 at 12.30.45 PM" class="wp-image-18402" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-300x170.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-1024x581.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-768x436.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.30.45-PM-1536x872.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>In contrast, with Visual AI, the average coder needed 60 lines of code, and the top coders only 58 lines of code. Visual AI still results in 50 lines of code per hour for the average participant, and 45 lines of code for the winning participant. But, they are much more efficient.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 id="h.ue36leewxkir">More Stable Code</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>End-to-end tests depend on element locators in the DOM to determine how to apply test conditions, such as by allowing test runners to enter data and click buttons. Conventional tests also depend on locators for asserting content in the response to the applied test conditions.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":18410,"width":600,"height":483} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM.png" alt="Screen Shot 2020 05 13 at 12.31.30 PM" class="wp-image-18410" width="600" height="483" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM.png 1148w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM-300x242.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM-1024x825.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.31.30-PM-768x619.png 768w" sizes="(max-width: 600px) 100vw, 600px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Most software engineers realize that labels and other element locators get created by software developers – who can change locators due to intentional change or unanticipated difference. And element locator using Xpath can suddenly discover the wrong relative locator due to an enhancement. The same is true for labels, which can change between releases – even when there is no visible user behavior difference.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>No one wants testing to overconstrain development. No one wants development to remain ignorant of testing needs. And yet, because mistakes sometimes happen, or changes are sometimes necessary, locators and labels change – resulting in test code that no longer works properly.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Interestingly, when evaluating conventional tests, the average Hackathon participant used 34 labels and locators, while the Hackathon prize winners used 47 labels and locators.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Meanwhile, for the Visual AI tests, the average participant used 9 labels and locators, while the winning submissions used only 8. At a conservative measure, Visual AI reduces the dependency of code on external factors – we calculate it at 3.8 x more stable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 id="h.xvx3dix29aty">Catching Bugs Early</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Visual AI can catch bugs early in coding cycles.  Because Visual AI depends on the rendered representations and not on the code to be rendered, Visual AI will catch visual differences that might be missed by the existing test code. For instance, think of an assertion for the contents of a text box. In this new release, the test passes because the box has the same text. However, the box width has been cut in half, causing the text to extend outside the box boundary and be obscured. The test passes, but in reality it fails. The test assumed a condition that is no longer true.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":18397,"width":620,"height":381} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM.jpg" alt="Screen Shot 2020 05 13 at 12.32.15 PM" class="wp-image-18397" width="620" height="381" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM.jpg 1419w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM-300x185.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM-1024x631.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.15-PM-768x473.jpg 768w" sizes="(max-width: 620px) 100vw, 620px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Visual AI catches these differences. It will catch changes that result in different functional behavior that requires new coding. It will catch changes – like the one described above, that result in visual differences that impact users. And, it will avoid flagging changes that may change the DOM but not the view or behavior from the user’s perspective.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 id="h.dd003mtbnl0">Easier to Learn than Code-Based Testing</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The last thing James shared involved the learning curve for users. In general, we assumed that test coverage and score on the Hackathon evaluation correlated with participant coding skill. The average score achieved by all testers using conventional code-based assertions was 79%. After taking a 90-minute online course on Visual AI through Test Automation University, the average score for Visual AI testers was 88%.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":18398,"width":531,"height":449} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM.png" alt="Screen Shot 2020 05 13 at 12.32.48 PM" class="wp-image-18398" width="531" height="449" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM.png 1065w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM-300x254.png 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM-1024x868.png 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.32.48-PM-768x651.png 768w" sizes="(max-width: 531px) 100vw, 531px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Because people don’t use visual capture every day, testers need to learn how to think about applying visual testing. But, once the participants had just a little training, they wrote more comprehensive and more accurate tests, and they learned how to run those test evaluations in Applitools.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.cgiwnz8k92bd">What This Means For You</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>James and Raja reiterated the benefits they outlined in their webinar: faster test creation, more coverage, code efficiency, code stability, early bug catching and ease of learning. Then they asked: what does this mean for you?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If you use text-based assertions for your end-to-end tests, you might find clear, tangible benefits from using Visual AI in your product release flow. It integrates easily into your CICD or other development processes. It can augment existing tests, not requiring any kind of rip and replace.  Real, tangible benefits come to many companies that deploy Visual AI. What is stopping you?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":18406} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM.jpg" alt="Screen Shot 2020 05 13 at 12.33.25 PM" class="wp-image-18406" srcset="https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM.jpg 1280w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM-300x197.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM-1024x673.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-12.33.25-PM-768x505.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Often, learning comes first. Fortunately, Applitools makes it really easy for you to learn Visual AI. Just take a class on <a target="_blank" href="https://testautomationu.applitools.com/" rel="noopener noreferrer">Test Automation University</a>. There is Raja’s course: <a target="_blank" href="https://testautomationu.applitools.com/modern-functional-testing/index.html" rel="noopener noreferrer">Modern Functional Test Automation through Visual AI</a>. There is Angie Jones’s course: <a target="_blank" href="https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/index.html" rel="noopener noreferrer">Automated Visual Testing: A Fast Path To Test Automation Success</a>.  And, there are others.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You can sign up for a <a target="_blank" href="http://www.applitools.com/free?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=free-account&amp;utm_campaign=&amp;utm_subgroup=" rel="noopener noreferrer">free Applitools account</a>. Using Applitools helps you understand what you can do With Applitools.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Finally, you can <a target="_blank" href="https://applitools.com/request-demo?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=request-a-demo&amp;utm_campaign=&amp;utm_subgroup=" rel="noopener noreferrer">request a demonstration</a> from a sales engineer.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At Applitools, we let users make the case for the value of our Visual AI solution. We hope you will get a lot out of trying it yourself.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.1xulvviyerh9">For More Information</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:paragraph -->
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->								
-			</div>
-<br>
-<br><a href="https://applitools.com/blog/add-visual-ai/">Source link </a>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Texas Courts Won’t Pay Up in Ransomware Attack</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/texas-courts-wont-pay-up-in-ransomware-attack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 13 May 2020 19:10:19 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Courts]]></category>
-		<category><![CDATA[Pay]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[Wont]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/texas-courts-wont-pay-up-in-ransomware-attack/</guid>
-
-					<description><![CDATA[Texas appellate courts and judicial agencies’ websites and computer servers were shut down after a ransomware attack. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Texas appellate courts and judicial agencies’ websites and computer servers were shut down after a ransomware attack.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/texas-courts-ransomware-attack/155711/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What your DevOps team needs to know: 4 lessons from exploited vulnerabilities</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-devops-team-needs-to-know-4-lessons-from-exploited-vulnerabilities/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 13 May 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[DevOps]]></category>
-		<category><![CDATA[exploited]]></category>
-		<category><![CDATA[Lessons]]></category>
-		<category><![CDATA[team]]></category>
-		<category><![CDATA[vulnerabilities]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.159.xip.io/what-your-devops-team-needs-to-know-4-lessons-from-exploited-vulnerabilities/</guid>
-
-					<description><![CDATA[In March 2019, an online intruder discovered that cloud storage used by financial giant Capital One suffered from a vulnerability]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>In March 2019, an online intruder discovered that cloud storage used by financial giant Capital One suffered from a vulnerability in the firm&#8217;s application firewall and storage servers, allowing the attacker to send commands from one to the other.</p>
-<p>The exploitation of the vulnerability—<a target="_blank" href="https://owasp.org/www-community/attacks/Server_Side_Request_Forgery" rel="nofollow noopener noreferrer">an issue known as server-side request forgery (SSRF)</a>—resulted in the leaking of sensitive personal information on more than 106 million individuals in the United States and Canada. Capital One had misconfigured its web application firewall, failing to prevent privileged access to the company&#8217;s cloud storage server hosted on Amazon Web Services.</p>
-<p>This class of vulnerability was well understood and easy to exploit. It should have been a priority to fix. But the takeaway from this incident is how easy missing an important security flaw can be, said Frank Kim, instructor and curriculum lead at the SANS Institute, a technical training organization.</p>
-<blockquote>
-<p>&#8220;Even Capital One, a leader in DevOps security, makes mistakes. There are so many vulnerabilities, and companies are trying to push out so much functionality. We need to be able to close the window of vulnerability more quickly.&#8221;<br />—<a target="_blank" href="https://twitter.com/fykim" rel="nofollow noopener noreferrer">Frank Kim</a></p>
-</blockquote>
-<p>Most companies are doing <a target="_blank" href="https://content.microfocus.com/build-appsec-dev-tb/appsec-best-practices?lx=a0uQni&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">credible jobs of finding and fixing vulnerabilities in code</a>, ensuring deployed servers are not misconfigured, and putting defenses in place to protect networks and data. The problem, however, is that a single misconfiguration can have massive repercussions. SSRF, for example, is a well-understood class of vulnerabilities, but such attacks are hard to mitigate on cloud services, and protections did not exist a year ago.</p>
-<blockquote>
-<p>&#8220;As we know about DevOps, it is not just the technology when we are talking about the vulnerabilities, it is the process and the technology. We can&#8217;t just throw all these tools at the DevOps teams, because even though we say developers should do more security, their incentives—getting functional code out as quickly as possible—have not changed.&#8221;<br />—Frank Kim</p>
-</blockquote>
-<p>In November, eight months after the breach, Amazon <a target="_blank" href="https://duo.com/decipher/aws-adds-new-protections-against-ssrf-other-web-app-attacks" rel="nofollow noopener noreferrer">implemented protections against such attacks</a>.</p>
-<p>Massive breaches are often caused by simple vulnerabilities that developers, operations, and <a target="_blank" href="https://content.microfocus.com/build-appsec-dev-tb/appsec-strategies?lx=a0uQni&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">application-security teams have missed</a>. Here are four lessons from major breaches on how to catch the next seemingly small software bug before it snowballs into a massive breach.</p>
-<p><em>[ The shift is on to secure code. Get up to speed with <a target="_blank" href="https://content.microfocus.com/l/state-of-application-security-testing-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s State of App Sec Guide</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/gartner-magic-quadrant-appsec-testing?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Gartner 2020 Magic Quadrant for Application Security Testing</a> ]</em></p>
-<h3>1. Know your assets</h3>
-<p>On March 6, 2017, the Apache Foundation released a patch for a vulnerability (<a target="_blank" href="https://nvd.nist.gov/vuln/detail/CVE-2017-5638" rel="nofollow noopener noreferrer">CVE-2017-5638</a>) in Apache Struts 2, which allows attackers to execute commands using a specially crafted header HTTP header. Four days later, attackers used the flaw to scan servers at credit-reporting agency Equifax, compromising a key server there. From May to July, attackers returned and stole sensitive financial information on <a target="_blank" href="https://www.gao.gov/assets/700/694158.pdf" rel="nofollow noopener noreferrer">more than 145 million American adults from the company</a>.</p>
-<p>The cost of the Equifax breach to date: <a target="_blank" href="https://www.bankinfosecurity.com/equifaxs-data-breach-costs-hit-14-billion-a-12473" rel="nofollow noopener noreferrer">$1.4 billion</a>.</p>
-<p>Overall, Equifax knew about the vulnerability and had taken steps to patch the flaws across its systems. However, application-security experts have come up with <a target="_blank" href="https://www.databreachtoday.com/blogs/learn-from-how-others-get-breached-equifax-edition-p-2870" rel="nofollow noopener noreferrer">a list of 29 failures</a> that led to the eventual breach. Perhaps the two most important ones: a lack of visibility into what assets and software the company had deployed, said Jim Manico, founder of Manicode Security and volunteer project leader at the Open Web Application Security Project (OWASP).</p>
-<blockquote>
-<p>&#8220;All that Equifax had to do was apply the patch across their network, but on a couple of servers, either they missed them or they applied the patch and it broke, so they rolled it back&#8221;<br />—<a target="_blank" href="https://twitter.com/manicode" rel="nofollow noopener noreferrer">Jim Manico</a></p>
-</blockquote>
-<p>Being able to determine what assets may be affected by a new vulnerability, and doing it at speed, has become increasingly important, he said. Attackers create exploits from the information they glean from patches much more quickly than they could just a decade ago. In 2006, the average time it took to exploit a known vulnerability was 45 days; in 2015, it was two weeks; and with the Apache Struts 2 flaw, it took three days, Manico said.</p>
-<blockquote>
-<p>&#8220;The responsibility for patching has changed over the last 15 years as attackers have sped up their ability to go from a software patch to an exploit. For anyone running Struts 2, they had 72 hours to patch their systems. This is the No. 1 problem for application security, and developers continue to take it lackadaisically.&#8221;<br />—Jim Manico</p>
-</blockquote>
-<h3>2. Maintain coverage of important classes of vulnerabilities</h3>
-<p>The SSRF issue that led to the Capital One breach demonstrates the importance of attaining 100% coverage across both the codebase and deployed applications. While SSRF can be hard to patch in many cases, the class is relatively easy for attackers to find, according to Evan Johnson, manager of the product security team at CloudFlare. He wrote in <a target="_blank" href="https://ejj.io/blog/capital-one" rel="nofollow noopener noreferrer">an analysis of the Capital One breach</a>:</p>
-<blockquote>
-<p>&#8220;SSRF is a bug hunter&#8217;s dream because it is an easy to perform attacks and regularly yields critical findings. &#8230; The problem is common and well-known, but hard to prevent and does not have any mitigations built in to the AWS platform.&#8221;<br />—<a target="_blank" href="https://twitter.com/ejcx_" rel="nofollow noopener noreferrer">Evan Johnson</a></p>
-</blockquote>
-<p>While the OWASP Top-10 is a good start for a list of software vulnerability classes that need coverage, every development team has a different list. What is important is for the company to make sure it has good coverage—through tools and processes—of the vulnerability classes on the developers&#8217; list, said Dan Cornell, chief technology officer of Denim Group, an application-security consultancy.</p>
-<p>While companies are trying to push more security checks into integrated development environments (IDEs), they should only &#8220;shift left&#8221; those tools that retain a high-level of coverage while not disrupting development, he said.</p>
-<blockquote>
-<p>&#8220;From a coverage standpoint, you can test for certain vulnerabilities at a certain level of quality, so there are certain types of checking that you can push left. But there are some things that take too much time to integrate into a pipeline—like full static analysis to find SQL injection issues—to move onto the developers&#8217; plates.&#8221;<br />—<a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener noreferrer">Dan Cornell</a></p>
-</blockquote>
-<p><em>[ Find out <a target="_blank" href="https://www.brighttalk.com/webcast/7477/392511/keys-to-scaling-an-appsec-program?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to scale your application security program</a> in this May 12 Webinar. </em><em>Plus: Learn <a target="_blank" href="https://content.microfocus.com/l/build-app-sec-dev-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to build application security into your software</a> with<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>TechBeacon&#8217;s<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>guide ]</em></p>
-<h3>3. Teach security continuously</h3>
-<p>Development teams usually do not have the incentive to prioritize security in their daily work. Instead, security tends to get in the way of implementing features and do so on deadline.</p>
-<p>Security is a tax on developer productivity, but if done correctly, it only has to be an incremental one. Addressing issues early helps minimize the impact on the developer and the impact on the company, which could be very substantial, said Tim Mackey, principal security strategist with vulnerability-management firm Synopsys.</p>
-<blockquote>
-<p>&#8220;When I&#8217;ve talked to organizations that had a data breach, they say they have had to spend 50% of the time following a breach, fixing the issues—we are talking about impacts of that magnitude. Developers need the continuous positive reinforcement in their IDE &#8230; where you can make them feel incremental pain and get them information in context so they do the right thing, because they may not know how.&#8221;<br />—<a target="_blank" href="https://twitter.com/timintech" rel="nofollow noopener noreferrer">Tim Mackey</a></p>
-</blockquote>
-<p>Security requirements for developers should also be explicit and actionable, said Nidhi Shah, principal security researcher at Micro Focus. Application-security teams should conduct threat modeling, work with the development team to create the architecture for the product, and then turn those considerations into part of the specification, she says.</p>
-<blockquote>
-<p>&#8220;The developer should not have to translate architecture requirements into tasks during development. Security should instead be specified as part of the feature template that the developer needs to produce.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/nidhi-shah-8046481/" rel="nofollow noopener noreferrer">Nidhi Shah</a></p>
-</blockquote>
-<h3>4. Strive to make patching painless</h3>
-<p>The lowest level of application-security maturity is not patching, which should be unacceptable for any software development team. Companies whose application-security teams track open-source components, triage patches, and include coding feedback in the integrated development environment are above average, at Level 2.</p>
-<p>Yet these scanners miss things.</p>
-<p>The highest level of maturity for OWASP&#8217;s Manico is not depending on the scanners, but lowering the disruption of patching by automation</p>
-<blockquote>
-<p>&#8220;Attaining this level of maturity makes your security posture the best, but it also makes your functionality the most fragile, because you are changing every day. If you update every day, you need two things to go fast: one, rigorous security and functionality automation, and two, the willingness to fix dependencies in the open-source world.&#8221;<br />—Jim Manico</p>
-</blockquote>
-<p>Yet getting to the point where everything can be patched quickly and relatively painlessly may be out of reach for most development organizations, said Denim Group&#8217;s Cornell.</p>
-<blockquote>
-<p>&#8220;It is easy to give the advice that you need to patch everything, but it is harder to follow at scale, and there are some systems which cannot suffer a disruption. When you patch a server and the Oracle database does not come up and you are losing thousands of dollars a minute, that will make you more hesitant to patch quickly.&#8221;<br />—Dan Cornell</p>
-</blockquote>
-<p>In the end, application-security teams need to recruit developers to their cause by making it easy to learn security and integrating security tools that do not get in the way of development.</p>
-<p>We need to provide developers help, says Micro Focus&#8217;s Shah.</p>
-<blockquote>
-<p>&#8220;If security is not part of the functional requirement, they are not going to implement it. Deciding whether we can upgrade, whether the vulnerability is applicable to our software—those are questions that often the developer is not able to determine.&#8221;<br />—Nidhi Shah</p>
-</blockquote>
-<p><em>[ Take a deep-dive with our <a target="_blank" href="https://content.microfocus.com/l/application-security-tb" rel="noopener noreferrer">Application Security Trends and Tools Guide</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/application-security-tb/buyers-guide-appsec?lx=P_znZe" rel="noopener noreferrer">App Sec Buyer&#8217;s Guide</a>. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/what-your-devops-team-needs-know-4-lessons-exploited-vulnerabilities">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>McAfee Recognized on CRN’s 2020 Women of the Channel</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-recognized-on-crns-2020-women-of-the-channel/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 May 2020 17:15:18 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Channel]]></category>
-		<category><![CDATA[CRNs]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Recognized]]></category>
-		<category><![CDATA[women]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-recognized-on-crns-2020-women-of-the-channel/</guid>
-
-					<description><![CDATA[Every year CRN recognizes the women who are leading the channel and their unique strengths, vision, and achievements. This prestigious,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs"></div>
-<p>Every year CRN recognizes the women who are leading the channel and their unique strengths, vision, and achievements. This prestigious, annual list acknowledges channel leaders who are blazing a trail for future generations. These women are from all areas of the IT ecosystem, including technology vendors, distributors, solution providers, and other IT organizations.</p>
-<p>This year, we’re proud to recognize the six outstanding individuals who have been selected by CRN to be part of the 2020 Women of the Channel (WOTC) list. Each is recognized for her outstanding leadership, vision and unique role in driving channel growth and innovation.</p>
-<p>If that weren’t exciting enough, we’re thrilled to share that Chari Rhoades received the honor of being named to CRN’s WOTC Power 100 List. The Power 100 List is a subset of the 900+ women recognized and highlights the women who are leading their organization from a variety of backgrounds and experiences. See below to learn more about each McAfee honoree.</p>
-<h3><strong>Chari Rhoades – Director, Channel Operations and Distribution – Americas</strong></h3>
-<p><img class="wp-image-100909 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades-240x300.jpg" alt="" width="120" height="150" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades-240x300.jpg 240w, https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades-103x129.jpg 103w, https://www.mcafee.com/wp-content/uploads/2020/05/Chari-Rhoades.jpg 300w" sizes="(max-width: 120px) 100vw, 120px"/>Chari Rhoades joined McAfee in 2013 and currently leads two teams. One team focuses on the growth and development of our distribution partners. The second team is responsible for the enablement and communications to the Americas’ partners. In 2019, Chari led her distribution team to focus on executing the plan to ensure new business growth via targeted campaigns, enablement activities and leveraging key distribution services resulting in a material contribution to bookings for the channel. Chari contributed to the development and launch of the McAfee Channel Promise that defines who the channel is to McAfee and its internal teams while articulating the value of the channel. She also led the development of an internal training to ensure McAfee’s own sellers understand the channel and how to engage the channel for mutual success.</p>
-<h3><strong><img class=" wp-image-100912 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Kristin-Carnes.png" alt="" width="115" height="137" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Kristin-Carnes.png 132w, https://www.mcafee.com/wp-content/uploads/2020/05/Kristin-Carnes-108x129.png 108w" sizes="(max-width: 115px) 100vw, 115px"/>Kristin Carnes – Director, Global Channel Programs and Operations</strong></h3>
-<p>Kristin Carnes joined McAfee through the acquisition of Skyhigh Networks. As Director of Global Channel Programs and Operations she supports a robust partner community that represents sales for more than 90% of the McAfee Enterprise business. In 2019, she accelerated McAfee’s investment in the PRM platform which gives partners a more comprehensive, simple view of their business with McAfee. In addition, she launched a new rebate program that provides predictability and greater earning potential for partners.</p>
-<h3><strong><img class="wp-image-100913 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Gabriela-Ferado-e1589303121235.jpg" alt="" width="117" height="140" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Gabriela-Ferado-e1589303121235.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Gabriela-Ferado-e1589303121235-108x129.jpg 108w" sizes="(max-width: 117px) 100vw, 117px"/>Gabriela Ferado – Manager, Channel Sales</strong></h3>
-<p>Gabriela Ferado has been with McAfee for eight years and started as a sales rep with the Latin America team before joining the Channel team where she has learned, grown, and found a passion to help partners be a multiplying force for the company. As a former teacher, sharing knowledge and enabling others is an integral part of what she does and thrives on. In 2019, as part of the Cloud Service Provider team, she extended McAfee’s channel efforts to Latin America which helped our teams understand the CSPs as another route to market</p>
-<h3><strong>Judy Kent – Director, Global Channel Programs and Communications</strong></h3>
-<p><img class="wp-image-100914 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Judy-Kent-Photo.jpg" alt="" width="118" height="147" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Judy-Kent-Photo.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Judy-Kent-Photo-103x129.jpg 103w" sizes="(max-width: 118px) 100vw, 118px"/>Judy Kent joined McAfee through the acquisition of Skyhigh Networks bringing more than 25 years of channel marketing and sales experience. In her role leading the global partner incentive programs she has driven new business revenue through the channel and has trained thousands of partners in a pre-sales technical enablement global webinar series. In addition, in January 2020, she successfully launched a new 13 language McAfee Partner Portal. She was previously recognized on CRN’s list of Women in the Channel in 2015 and 2016, and was recognized on CRN’s list of Channel Chiefs in 2016 and 2018.</p>
-<h3><strong>Sheri Leach – Senior Distribution Account Manager</strong></h3>
-<p><img class="wp-image-100915 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Sheri-Women-of-the-Channel-Picture.jpg" alt="" width="116" height="144" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Sheri-Women-of-the-Channel-Picture.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Sheri-Women-of-the-Channel-Picture-104x129.jpg 104w" sizes="(max-width: 116px) 100vw, 116px"/>Sheri Leach has more than 25 years of experience working with distribution partners and has spent the last 14 years growing Ingram Micro with their McAfee business. In 2019, Sheri played a key role in working with Ingram Micro and delivering a Business Intelligence program that helped achieve net new logos which was one of McAfee’s 2019 initiatives. In addition, she played an integral role in developing operational excellence and automation within Ingram Micro when McAfee implemented their CPQ enhancement. She was also tightly aligned with Ingram Micro’s marketing team on the creation of a “no touch” McAfee sales program via demand generation and product attachment. Finally, Sheri helped facilitate a creative finance program between Ingram Micro and McAfee to bring in deals that would not have been possible before.</p>
-<h3><strong><img class=" wp-image-100916 alignright" src="https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot.jpg" alt="" width="126" height="126" srcset="https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot.jpg 150w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-129x129.jpg 129w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-24x24.jpg 24w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-48x48.jpg 48w, https://www.mcafee.com/wp-content/uploads/2020/05/Ntomlinheadshot-96x96.jpg 96w" sizes="(max-width: 126px) 100vw, 126px"/>Natalie Tomlin – Director, Channel Sales Cloud and Service Providers</strong></h3>
-<p>Natalie Tomlin is a McAfee veteran who joined when the company was known as Network Associates more than 20 years ago. She has held roles in sales and channel sales and has been a Channel Director for the past four years. In 2019, Natalie developed strong business relationships with the top Cloud Service Providers as they helped their customers on their journey to the cloud as a de facto security provider, facilitated discussions for operational efficiencies so McAfee can transact with the CSPs in both public and gov cloud, and brought in incremental revenue from the channel.</p>
-<p>This recognition is special and underscores the work that we’ve done as an organization to hire diverse talent, implement a return to workplace initiative to assist people who have paused their careers, and achieve gender pay parity across the company.</p>
-<p>Please join me in congratulating these six outstanding women who are at the core of the McAfee Channel program. Their leadership and execution have been paramount to our success and will continue to help lead us onwards.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/mcafee-recognized-on-crns-2020-women-of-the-channel/">Source link </a></p>
 ]]></content:encoded>
 					
 		
