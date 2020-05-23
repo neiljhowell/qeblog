@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 20 May 2020 19:25:57 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 22 May 2020 15:39:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,309 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>‘Coronavirus Report’ Emails Spread NetSupport RAT, Microsoft Warns</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-report-emails-spread-netsupport-rat-microsoft-warns/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 22 May 2020 15:39:14 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Coronavirus]]></category>
+		<category><![CDATA[Emails]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[NetSupport]]></category>
+		<category><![CDATA[RAT]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[Spread]]></category>
+		<category><![CDATA[Warns]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-report-emails-spread-netsupport-rat-microsoft-warns/</guid>
+
+					<description><![CDATA[Attackers used malicious Excel 4.0 documents to spread the weaponized NetSupport RAT in a spear-phishing campaign. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Attackers used malicious Excel 4.0 documents to spread the weaponized NetSupport RAT in a spear-phishing campaign.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/coronavirus-emails-netsupport-rat-microsoft/156026/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>40+ great resources that will rock your release velocity</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/40-great-resources-that-will-rock-your-release-velocity/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 22 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[great]]></category>
+		<category><![CDATA[release]]></category>
+		<category><![CDATA[resources]]></category>
+		<category><![CDATA[rock]]></category>
+		<category><![CDATA[Velocity]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/40-great-resources-that-will-rock-your-release-velocity/</guid>
+
+					<description><![CDATA[It doesn&#8217;t matter how quickly you can build software if you can&#8217;t get it in front of users. What&#8217;s more,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p dir="ltr">It doesn&#8217;t matter how quickly you can build software if you can&#8217;t get it in front of users. What&#8217;s more, once it&#8217;s out there, you need to be able to tell if it&#8217;s actually doing what you&#8217;d hoped and ship adjustments fast.</p>
+<p dir="ltr">Here&#8217;s my roundup of some of the most useful resources for learning how to create <a target="_blank" href="https://content.microfocus.com/release-management-tb/devops-release-management?lx=PLf4hm&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">a reliable, repeatable route to production</a> that will help you <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">release code faster</a>.</p>
+<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
+<h3>Setting the scene</h3>
+<h3>Continuous integration</h3>
+<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
+<h3>Continuous delivery</h3>
+<h3>Techniques for less risky deployments</h3>
+<ul>
+<li>
+<p dir="ltr" role="presentation">A list of software development resources can&#8217;t really be considered complete without a couple of entries from <a target="_blank" href="https://twitter.com/martinfowler" rel="nofollow noopener noreferrer">Martin Fowler</a>. His post on <a target="_blank" href="https://martinfowler.com/bliki/BlueGreenDeployment.html" rel="nofollow noopener noreferrer">blue-green deployments</a> will help you on your way to zero-downtime releases.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><a target="_blank" href="https://twitter.com/martinfowler" rel="nofollow noopener noreferrer">Fowler</a> also has a good write-up on <a target="_blank" href="https://martinfowler.com/bliki/CanaryRelease.html" rel="nofollow noopener noreferrer">canary releases</a>, which are a way of reducing the risk of releasing features by doing so gradually.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><a target="_blank" href="https://unleash.github.io/" rel="nofollow noopener noreferrer">Unleash</a> is a fantastic, full-featured feature toggling library that I&#8217;ve been using recently.</p>
+</li>
+</ul>
+<h3>Infrastructure as code</h3>
+<h3>Increasing your confidence</h3>
+<p dir="ltr">It&#8217;s all good being able to release code quickly, but how do you know everything&#8217;s working? Unless you have high confidence that your changes will withstand the unknown—or confidence that you will find out when they don&#8217;t—you won&#8217;t be able to release more often, because you&#8217;ll be too scared.</p>
+<h3>Real stories</h3>
+<p dir="ltr">All the theory, tools, and opinions in the list thus far should give you the knowledge you need to improve your release frequency and stability. But the truth is that you&#8217;ll get stuck somewhere along the way when implementing these ideas in your own unique context. When that happens, it&#8217;s often helpful to turn to the stories of how other people navigated their journeys.</p>
+<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/40-great-resources-will-rock-your-release-velocity">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How Do You Catch More Bugs In Your End-To-End Tests?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-you-catch-more-bugs-in-your-end-to-end-tests/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 21 May 2020 01:08:41 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Catch]]></category>
+		<category><![CDATA[EndToEnd]]></category>
+		<category><![CDATA[Tests]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-you-catch-more-bugs-in-your-end-to-end-tests/</guid>
+
+					<description><![CDATA[How much is it worth to catch more bugs early in your product release process? Depending on where you are]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<p>How much is it worth to catch more bugs early in your product release process? Depending on where you are in your release process, you might be writing unit or systems tests. But, you need to run end-to-end tests to prove behavior, and quality engineers require a high degree of skill to write end-to-end tests successfully.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:paragraph -->
+<p>What would you say if a single validation engine could help you ensure data integrity, functional integrity, and graphical integrity in your web and mobile applications? And, as a result, catch more bugs earlier in your release process?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Catch Bugs or Die</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Let’s start with the dirty truth: all software has bugs. Your desire to create bug-free code conflicts with the reality that you often lack the tools to uncover all the bugs until someone finds them way late in the product delivery process. Like, say, the customer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:paragraph --><p>With all the potential failure modes you design for – and then test against – you begin to realize that not all failure modes are created equal. You might even have your own triage list:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Security &amp; penetration</li><li>Data integrity and consistency</li><li>Functional integrity and consistency</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>So, where does graphical integrity and consistency fit on your list? For many of your peers, graphical integrity might not even show up on their list. They might consider graphical integrity as managing cosmetic issues. Not a big deal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lots of us don’t have reliable tools to validate graphical integrity. We rely on our initial unit tests, systems tests, and end-to-end tests to uncover graphical issues – and we think that they’re solved once they’re caught. Realistically, though, any application evolution process introduces changes that can introduce bugs – including graphical bugs. But, who has an automation system to do visual validation with a high degree of accuracy?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Tradeoffs In End-to-End Testing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your web and mobile apps behave at several levels. The level that matters to your users, though, happens at the user interface on the browser or the device. Your server code, database code, and UI code turns into this representation of visual elements with some kind of visual cursor that moves across a plane (or keyboard equivalent) to settle on different elements. The end-to-end test exercises all the levels of your code, and you can use it to validate the integrity of your code.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/JPfwRaN6oZapcOYgO8nHFqUsNTg8Dws7qfW4SY-Dp3HdGTUQPVEGxYtPg1H0ZUmCeUuekryggv_4flUJKByHFoOAYAIw8qXHSlrXLZpT1Uz9uc5N_vgdQEb4_HQZR7SczpTMIaj9" alt="code 2434271 1280"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>So, why don’t people think to run more of these end-to-end tests? You know the answers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>First, end-to-end tests run more slowly. Page rendering takes time – your test code needs to manipulate the browser or your mobile app, execute an HTTP request, receive an HTTP response, and render the received HTML, CSS, and JavaScript. Even if you run tests in parallel, they’re slower than unit or system tests.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Second, it takes a lot of effort to write good end-to-end tests. Your tests must exercise the application properly. You develop data and logic pre-conditions for each test so it can be run independently of others. And, you build test automation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Third, you need two kinds of automation. You need a controller that allows you to control your app by entering data and clicking buttons in the user interface. And, most importantly, you need a validation engine that can capture your output conditions and match those with the ones a user would expect.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can choose among many controllers for browsers or mobile devices. Still, why do your peers still write code that effectively spot-checks the DOM? Why not use a visual validation engine that can catch more bugs?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Visual AI For Code Integrity</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>You have peers who continue to rely on coded assertions to spot-check the DOM. Then you have the 288 of your peers who did something different: they participated in the Applitools Visual AI Rockstar Hackathon. And they got to experience first-hand the value of Visual AI for building and maintaining end-to-end tests.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As I wrote previously, we gave participants five different test cases, asked them to write conventional tests for those cases, and then to write test cases using Applitools Visual AI. For each submission, we checked the conditions each test writer covered, as well as the failing output behaviors each test-writer caught.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a refresher, we chose five cases that one might encounter in any application:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><li>Comparing two web pages</li><li>Data-driven verification of a function</li><li>Sorting a table</li><li>Testing a bar chart</li><li>Handling dynamic web content</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>For these test cases, we discovered that the typical engineer writing conventional tests to spot-check the DOM spent the bulk of their time writing assertion code. Unfortunately, the typical spot-check assertions missed failure modes. The typical submission got about 65% coverage. Alternatively, the engineers who wrote the tests that provided the highest coverage spent about 50% more time writing tests.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>However, when using Visual AI for visual validation, two good things happened. First, everyone spent way less time writing test code. The typical engineer went from 7 hours of coding tests and assertions to about 1.2 hours of coding tests and Visual AI. Second, the average test coverage jumped from 65% to 95%. So, simultaneously, engineers took less time and got more coverage.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Visual AI Helps You Catch More Bugs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you find more bugs, more quickly, with less effort, that’s significant to your quality engineering efforts. You’re able to validate data, functional, and graphical by focusing on the end-to-end test cases you run. You spend less time thinking about and maintaining all the assertion code checking the result of each test case.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Using Visual AI makes you more effective? How much more effective? Based on the data we reviewed – you catch 45% of your bugs earlier in your release process (and, importantly, before they reach customers).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/S7YBQ8hw1oouassJ-3_cnqfGCAJXxU7xwGtt_Ar8wZJVsDYTEBou6iHuPyJlkt3IoG-H66MbPC0v-q5Wj7H6acmfAfeM2aniZEWZC13037d5FI_WSBrdz55bYYJfHFT1CSr0nXsb" alt="VisualAI Impact 45MoreBugs With Title"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>We have previously written about some of the other benefits that engineers get when using Visual AI, including:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>5.8x Faster Test Creation – Authoring new tests is vital especially for new features during a release cycle. Less time authoring means more time managing quality. <a target="_blank" href="https://applitools.com/blog/create-new-tests-much-faster/" rel="noopener noreferrer">Read more.</a></li><li>5.9x More Test Code Efficient – Like your team’s feature code, test code efficiency means you write less code, yet provide far more coverage. Sounds impossible, right? It’s not. <a target="_blank" href="https://applitools.com/blog/add-visual-ai/" rel="noopener noreferrer">Read More.</a></li><li>3.8x Improvement In Test Stability – Code-based frameworks rely on brittle locators and labels that break routinely. This maintenance kills your release velocity and reduces coverage. What you need is self-maintaining and self-healing code that eliminates most of the maintenance. It sounds amazing and it is! <a target="_blank" href="https://applitools.com/blog/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/" rel="noopener noreferrer">Read More.</a></li></ul><!-- /wp:list --><!-- wp:paragraph --><p>By comparing and contrasting the top participants – the prize winners – with the average engineer who participated in the Hackathon, we learned how Visual AI helped the average engineer greatly – and the top engineers become much more efficient.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/h-XgLeNe9ZR1RqtUWQJMRP6FvitDTk5vJ2_ilsZ28t9FxG2ljIrKGqqkSy-hh8jhq7_UgVzFqVHEkeoAXl2NP1MFW08QC3Be3VYvJLI7904prBbZl6tOok5gug5oIzgvtijkxjPJ" alt="VisualAI Impact VisualAI Impact 45MoreBugs GranPrize Compare With Title"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>The bottom line with Visual AI — you will catch more bugs earlier than you do today.        </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/QWmehwrg1ALsqUnNdxWnD0VbOcfW1K9KjgzL-RLzaM9AbYuDVo6IH9r9s5OGDD5if4mS3rwM2Nei5__KkX1qniS8QDrIHJJ6K0uqMfSem4HzY6JrbD4TUiSNdBGsBgjusfZ5wKp2" alt="VisualAI Impact 45MoreBugs GranPrize Quote"/></figure><!-- /wp:image --><!-- wp:heading --><h2>More About The Applitools Visual AI Rockstar Hackathon</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Applitools ran the Applitools Visual AI Rockstar Hackathon in November 2019. Any engineer could participate, and 3,000 did so from around the world. 288 people actually completed the Hackathon and submitted code. Their submissions became the basis for this article.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can read the full report we wrote: <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">The Impact of Visual AI on Test Automation</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In creating the report, we looked at three groups of quality engineers including:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li><strong>All 288 Submitters – </strong>This includes any quality engineer that successfully completed the hackathon project. While over 3,000 quality engineers signed-up to participate, this group of 288 people is the foundation for the report and amounted to 3,168 hours, or 80 weeks, or 1.5 years of quality engineering data.</li><li><strong>Top 100 Winners – </strong>To gather the data and engage the community, we created the <a target="_blank" href="https://applitools.com/hackathon/" rel="noopener noreferrer">Visual AI Rockstar Hackathon</a>. The top 100 quality engineers who secured the highest point total for their ability to provide test coverage on all use cases and successfully catch potential bugs won over $40,000 in prizes.</li><li><strong>Grand Prize Winners – </strong>This group of 10 quality engineers scored the highest representing the gold standard of test automation effort.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>By comparing and contrasting the time, effort, and effectiveness of these groups, we were able to draw some interesting conclusions about the value of Visual AI in speeding test-writing, increasing test coverage, increasing test code stability, and reducing test maintenance costs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>What’s Next?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>You now know five of the core benefits we calculate from engineers who use Visual AI.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Spend less time writing tests</li><li>Write fewer lines of test code</li><li>Maintain fewer lines of test code</li><li>Your test code remains much more stable</li><li>Catch more bugs</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>So, what’s stopping you from trying out Visual AI for your application delivery process? Applitools lets you <a target="_blank" href="https://www.applitools.com/free/" rel="noopener noreferrer">set up a free Applitools account</a> and start using Visual AI on your own.  You can <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">download the white paper</a> and read about how Visual AI improved the efficiency of your peers. And, you can <a target="_blank" href="https://applitools.com/tutorials?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=tutorial&amp;utm_campaign=&amp;utm_subgroup=" rel="noopener noreferrer">check out the Applitools tutorials</a> to see how Applitools might help your preferred test framework and work with your favorite test programming language.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>James Lamberti is CMO at Applitools.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cover Photo by <a target="_blank" href="https://unsplash.com/@jammypodger7470?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">michael podger</a> on <a target="_blank" href="https://unsplash.com/s/photos/spiderweb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></p>
+<!-- /wp:paragraph -->								
+			</div>
+<br>
+<br><a href="https://applitools.com/blog/catch-more-bugs/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Power of Digital Confidence</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-power-of-digital-confidence/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Confidence]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[Power]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-power-of-digital-confidence/</guid>
+
+					<description><![CDATA[Now more than ever, consumers and businesses alike are relying on digital experiences to deliver critical services, maintain normalcy, and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Now more than ever, consumers and businesses alike are relying on digital experiences to deliver critical services, maintain normalcy, and provide comfort in uncertain times. From food delivery to video conferencing, streaming services to online banking, the shift to digital-first solutions has been accelerated. And with that shift, it is clear that digital confidence is poised to take the spotlight as a key enabler for organizations that want to grow their business.</p>
+<p>Digital confidence is the idea that everyone in your organization, from leadership all the way down to the developers writing the code, expects that the applications they create function, look, and perform exactly as intended. Organizations that can create a culture and processes that are committed to this idea see a number of positive effects, including:</p>
+<ul>
+<li>
+<p>Improved productivity &#8211; with digital confidence, engineering teams are empowered to continually innovate and build features that customers want. They can then introduce those changes quickly without fear of breaking anything.</p>
+</li>
+<li>
+<p>Better user experience &#8211; digital confidence has the power to permeate your entire business, and that trickles down to your users. Customers who have a great experience with your application are more likely to return, creating reliable repeat business. This leads to the third benefit.</p>
+</li>
+<li>
+<p>Increased revenue &#8211; digitally confident organizations enjoy loyal customer bases, but those that take it one step further are able to create those customers across every channel. Ensuring your application covers web and mobile platforms (every browser, operating system and device combination) gives organizations the ability to reach more markets, and capture more revenue.</p>
+</li>
+</ul>
+<p>This idea isn’t just a theory. There are digital organizations today that are experiencing the above benefits, and more, as they implement practices that build digital confidence.</p>
+<h3><b>Quick Base Removes Testing Bottlenecks to Accelerate Release Velocity</b></h3>
+<p><a target="_blank" href="https://www.quickbase.com/" rel="noopener noreferrer">Quick Base</a> provides a low-code application development platform that allows non-technical developers to create secure cloud applications without compromising IT governance and control. As they adapted their development pipeline to accelerate releases, they realized that testing was a major bottleneck. With a UI regression suite that would take upwards of five hours to complete, they were prevented from creating the fast feedback loops the team needed to deliver more features and capabilities to customers quickly.</p>
+<p>By automating a large subset of tests in Selenium and WebDriver, and using Sauce Labs to run those tests at scale, Quick Base is now running that same UI regression in 15 minutes. This means that they can run these tests not just at the end of the development cycle, but every time a developer checks in code. “We find issues early in the pipeline because we can run tests in parallel,” explains Ken LaBak, a Senior Software Engineer in Test at Quick Base, “The teams get feedback much more quickly, and we can address issues before they ever get into our production environment.”</p>
+<p>This type of fast feedback creates confidence across the entire organization, as they are empowered to deliver features at speed, knowing that there are quality checks built in to ensure the user experience is flawless. Creating this level of digital confidence has helped Quick Base not just in their everyday business, but has also helped them lead the way in the era of COVID-19. To learn more about how Quick Base’s digital confidence has helped in times of need, check out this SauceCon Online talk from Karen Motyka, Director of QA at  Quick Base, “Fighting a Pandemic with Software Quality.“</p>
+<h3><b>LogMeIn Improves Productivity to Build Confidence in Quality</b></h3>
+<p><a target="_blank" href="https://www.logmein.com/" rel="noopener noreferrer">LogMeIn</a> is a leading provider of cloud-based connectivity solutions. In this highly competitive space, their teams understand the importance of speed when bringing new and innovative features to market. They also knew that the mobile market presented opportunities to win more market share. They knew that in order to be confident in the features they were delivering, increasing test coverage was going to be a key factor.</p>
+<p>Using test automation at scale in conjunction with the Sauce Labs Real Device Cloud, LogMeIn was able to provide the platform their teams needed to continuously test throughout the development lifecycle. “We have higher confidence in our software by using Sauce Labs,” says Parameshwaran Murli, Architect at LogMeIn. “Overall, our development teams feel stronger about the test results they’re getting using these two solutions.” This sense of confidence in test results means that developers are empowered to deploy more frequently, knowing that their features work exactly as intended. This allows LogMeIn to penetrate new mobile markets, and create more loyal users of their platforms.</p>
+<h3><b>N26 Creates Creates Flawless Experiences in Their Mobile Banking Application</b></h3>
+<p>Founded in Berlin in 2013, the mobile bank <a target="_blank" href="https://n26.com/" rel="noopener noreferrer">N26</a> has redesigned banking for the smartphone, making it easy, fast, transparent and contemporary. An early player in the mobile-first banking space, they had a unique opportunity to capture new users to gain market share in a competitive industry. And they knew that manual testing was going to prevent them from reaching their goals. </p>
+<p>Coupled with an initiative to automate their tests using Appium, the team at N26 relied on the Sauce Labs Real Device Cloud to provide access to the devices that they needed to ensure the best experience for all of their users. But while some teams think of testing benefits in terms of infrastructure cost or time savings, N26 understands the larger picture of creating digital confidence. According to Martyna Wojna, Quality Assurance Engineer at N26, “The main benefits to our business are continuous releases and happier customers.” Improved productivity gives teams the confidence that they are delivering the best experiences to their customers, and customers inherit that confidence. That has a long lasting effect on the health of the business, as N26 continues to build a growing base of loyal users.</p>
+<h3><b>Building Digital Confidence for Your Team</b></h3>
+<p>After reading these real world stories you might be ready to start building digital confidence for your organization. But many might wonder where exactly they can start. The road to digital confidence is long, and it takes buy-in from every level of the organization. Those teams that are successful in their journeys are the ones that are able to tie testing directly back to key business drivers, such as productivity, user experience, or revenue. If you can make those connections, and show how an improved quality strategy can accelerate gains in these categories, then you are well on your way.</p>
+<p>Sauce Labs offers a number of resources to help you build a case for digital confidence. <a target="_blank" href="https://saucelabs.com/digital-confidence?utm_source=organic&amp;utm_medium=website&amp;utm_campaign=content%20&amp;utm_term=" rel="noopener noreferrer">Visit our website</a>, where we have research demonstrating the value of better customer experiences, reports on the ROI of continuous testing, and more stories like the ones above. Using resources like these as your guide, you’ll be on the path to digital confidence in no time.</p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/the-power-of-digital-confidence">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>For the 8th week in a row, we’re live for our #NeotysPAC Meet Up, this time wit&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/for-the-8th-week-in-a-row-were-live-for-our-neotyspac-meet-up-this-time-wit/</link>
 		
@@ -45,7 +348,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/for-the-8th-week-in-a-row-were-live-for-our-neotyspac-meet-up-this-time-wit/</guid>
 
 					<description><![CDATA[🍻☕️ For the 8th week in a row, we’re live for our #NeotysPAC Meet Up, this time with Zak Cole,]]></description>
-										<content:encoded><![CDATA[
+										<content:encoded><![CDATA[<p></p>
 <p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> For the 8th week in a row, we’re live for our <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3341067362571370%3Atop_level_post_id.3341067362571370%3Atl_objid.3341067362571370%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3341067362571370%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3341067245904715%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1590002757%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3341067362571370%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3341067362571370%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A4602795987009630257&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet Up, this time with Zak Cole, David Jones, Henrik Rexed, Mark Tomlinson and Preston Van Loon about &#8220;Ensuring performance on Blockchains&#8221;. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f468-200d-1f4bb.png" alt="👨‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /> Thanks to all attendees for joining us for this <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3341067362571370%3Atop_level_post_id.3341067362571370%3Atl_objid.3341067362571370%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3341067362571370%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3341067245904715%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1590002757%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3341067362571370%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3341067362571370%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A4602795987009630257&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet-Up <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 </p>
 <p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/99118566_3341067255904714_827185433916997632_o.jpg?_nc_cat=110&#038;_nc_sid=8024bb&#038;_nc_ohc=_Zk4Mz9OB0YAX_GAE8V&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=4202ba59de58334d2ea1dc7bdf4a19d8&#038;oe=5EEBC5AB" rel="noopener noreferrer"></a><br />
@@ -127,7 +430,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/james-pulley-and-preston-van-loon-will-be-with-us-for-our-8th-neotyspac-tonigh/</guid>
 
 					<description><![CDATA[🍻☕️ James Pulley and Preston Van Loon will be with us for our 8th #NeotysPAC tonight about &#8220;Ensuring performance on]]></description>
-										<content:encoded><![CDATA[
+										<content:encoded><![CDATA[<p></p>
 <p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> James Pulley and Preston Van Loon will be with us for our 8th <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3340722562605850%3Atop_level_post_id.3340722562605850%3Atl_objid.3340722562605850%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3340722562605850%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3340721965939243%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1589991810%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3340722562605850%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3340722562605850%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A-6482896641010179908&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> tonight about &#8220;Ensuring performance on Blockchains&#8221;. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" />  They join the other speakers Zak Cole, Nikolai Grabner, David Jones, Henrik Rexed and Mark Tomlinson <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f468-200d-1f4bb.png" alt="👨‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Last chance to register <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3fOxPQN%3Ffbclid%3DIwAR1L8oKO6C9kMwaTmj8JoY52jn_WmftQoAhgTbaINqDHkZHVBa2oU-eaBKI&amp;h=AT0RumzGdncqLE3T8MAbmKUqZ0Hchs8v4PQOyXEWUcyDfxQmhqL-ReaksTXRsj1ltjCGR9zrQAQfymDmr4fDzGEzBmcBTvHIfCDfsHtXP-nwn5rdakFfCTLktveICoBfNtVxTpjnrGBP_aEI_RbLgF9N0A8R6KySyZYAQGZLZ_K-5SjOJ9qGdEMmRcB_kvroNMGQAYtqb2CTD4UI5QnwzmbgUnMHAaF1NUkT2o-qQD5wKhtkhU9Ws2SmpG_bpmQkdq3BuUwkNLfJm-W_hol7605JxlYKLW9I3Ej-wPxonjm-sx3sjRok7JbWuXZFHvxR4s8UjYQhsDflA3K4X1u0vB359kw_u_92AjwJLLpD3WjZWaqL7TuiqZRdU43QkgzhA9M6WUJ4VQ0s6oj4xPzSkzrLJ5efIhjh5r4PKUGGy-DT0g5dawGGqZNnwAxVG2S1Ea4WTg7HR2EFm1lpBY5QIsTE6e9qBd8uQX0mZb2OW4BNw8VKZQ4hC2rPZGtR--TzJM-yCsn5-D5PGnNUaRiO6ZuU8k5Vs92yqneLfksDvedSdpRh2wvpoVmQ8pmWn1vo2UpiwWnLNzpUgNnZTLI0J_4NZgFRRQOv5jaJqJZtGHWoVYeRqVWUddYYm_3Xw9EkcyHwwzdfOa1f6YzuQ2qlwWrqbpjvYfnZFctXeeqgNh_gbGvky32PJl5QePs3SyuZFGbTj2uLrjMl-muFT-gihlpwNT3loEEoGR147naaxTHfqeWfdfNhOPLx4lz3U7m4ZbmDRUBrSYcrWZYeHqCTRnTpROPRfJcvVNfAjLHy9fzGMpHg9CGvU_7whUpS_lC15KrD1aByBM0J9DtqlpaCjGWDTGZRDDHbzqNF07vxxddfRfl_nfvFckTGafkejIWEXEA0l4X7cO3VKCQMYC9VuveaJn5n7B7d7Sglmudcs4nStdmtkDYXqzGbZ1PZuo_V7VI-Id70mpGlg-qwZ4kNRYBciWl_cPYMlMGSrKjP3otAeuKWpNZo6rrM6tHSLySytyxDIiA-NLs52GK3RmjPpLQrqGIjRWNFt9x0T2lRSi628Wd-kLuwhqtphJyAbbkmJ2i8F6UoFT-jd-X7DawENmkNyscxBYbdDBUsTvi2z2_cT4pinAMeW2I3kJpPoolzlx9qhihIE5xE4Wb-343_6gTVKn5LVsiw93XI_DKcxRRWt0bs18ocymtjLFE6Hh1xtVRPCdwUIySe5qQCEHHkD31QdVFdSzhZ4jydGkjohbXlhmtg-ptEnM46qv7eJQ" rel="noopener noreferrer">https://bit.ly/3fOxPQN</a>
 </p>
 <p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/98270930_3340721969272576_7038406260802191360_o.png?_nc_cat=103&#038;_nc_sid=8024bb&#038;_nc_ohc=GGrbnpTVUd8AX-06Uk5&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=b90258ad0e0498a00486eb39bcd43a33&#038;oe=5EEBF91E" rel="noopener noreferrer"></a><br />
@@ -152,8 +455,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/4-devops-anti-patterns-that-lead-to-disaster/</guid>
 
 					<description><![CDATA[As is the case with many practices, DevOps has its fair share of destructive anti-patterns. And some of them, such]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>As is the case with many practices, DevOps has its fair share of <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-agile-leaders-should-stop-demanding-consistency-teams" rel="noopener noreferrer">destructive anti-patterns</a>. And some of them, such as the often celebrated &#8220;hero&#8221; anti-pattern, described below, can seem like a good idea at the time, but create devastation in the long run. </p>
 <p>Here&#8217;s how to recognize anti-patterns, understand how they arise, and act to prevent them before <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">they disrupt your DevOps projects</a>. </p>
@@ -229,199 +531,6 @@
 
 
 <figure class="wp-block-image size-large"><a href="https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-cus-d8-21c6dab71d9b416c4a2c8e626023f37b/views/imgo" target="_blank" rel="noreferrer noopener"><img src="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image.jpeg" alt="" class="wp-image-2176" srcset="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image.jpeg 496w, http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image-226x300.jpeg 226w" sizes="(max-width: 496px) 100vw, 496px" /></a></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What is disk cleanup and does it remove viruses?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-is-disk-cleanup-and-does-it-remove-viruses/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 May 2020 17:27:47 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[cleanup]]></category>
-		<category><![CDATA[disk]]></category>
-		<category><![CDATA[Remove]]></category>
-		<category><![CDATA[viruses]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-is-disk-cleanup-and-does-it-remove-viruses/</guid>
-
-					<description><![CDATA[What is Disk Cleanup and does it remove viruses? It happens. You’re in the middle of a computing task, and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs"></div>
-<h3>What is Disk Cleanup and does it remove viruses?</h3>
-<p>It happens. You’re in the middle of a computing task, and your screen blinks. The blue screen (Stop Error) is shown with the message that your PC ran into an error and needs to restart. These hiccups occur when your computer’s software, firmware, or drivers crash due to faulty or incompatible hardware or software.</p>
-<p>If you’re like most people, you want a computer that’s nimble enough to keep up with your life. When your computer is bogged down with outdated files, you aren’t able to work at an efficient pace.</p>
-<p>While a new computer or external drive may give you more file storage space, there’s a faster way to gain usable storage space without straining your budget. This option is called disk cleanup, and all Windows computers come with a version of it that you can use to reclaim hard disk space gratis. Here are some things that you need to know about Microsoft’s disk cleanup tool.</p>
-<h3>What is Disk Cleanup?</h3>
-<p>Disk cleanup is a maintenance utility that was developed by Microsoft for its Windows operating system. The utility scans your computer’s hard drive for files that you no longer need such as temporary files, cached webpages, and rejected items that end up in your system’s Recycle Bin. Unless you remove those files, they add up over time and begin taking a lot of space on your computer.</p>
-<p>The utility displays the identified files and the amount of storage space that each of them uses within your hard drive. You decide which items to delete by the importance that you place on the files and the amount of hard drive space that you’ll be able to recover. In Windows 10, you can reach this utility by going to your start menu and scrolling to Windows Administrative Tools to click the disk cleanup button.</p>
-<p>Windows also has the feature Quick Clean which lets you clean up the junk temporary files from your Windows desktop safely and quickly. It also cleans additional junk files, which the Disk Cleanup Utility does not.</p>
-<h3>What are System updates?</h3>
-<p>System updates such as major OS releases, monthly patches and emergency updates have become standard for today’s computers. Most operating systems are set to download the latest updates automatically. However, on Windows devices, the previous version of an operating system isn’t always deleted when the latest version replaces it. After years of updates, you’ll often have several versions of the OS on your computer.</p>
-<p>The disk cleanup utility allows you to remove backup shadow copies from your computer. Programs that you download to open or edit a document take up storage space on your computer’s hard drive long after you’ve completed your project. Disk cleanup allows you to locate those programs, see how much storage space they use, and remove them to free up hard disk space. You’ll find these features by selecting the “more options” tab within the disk cleanup menu.</p>
-<h3>What is Storage Sense?</h3>
-<p>Microsoft Windows 10 comes with an upgraded disk cleanup function that’s called Storage Sense. With Storage Sense, you can set your system to automatically clean up unwanted files by setting the tab to the “on” position. You choose to allow Storage Sense to remove temporary files that your programs no longer use, files in the Download folder that haven’t changed in 30 days, and files that have been sitting in your Recycle Bin for over 30 days. You can reach Storage Sense by going to the Settings menu, clicking on the Systems button, and selecting the Storage option.</p>
-<h3>What Are the Benefits of Disk Cleanup?</h3>
-<p>While you can search for temporary files yourself and delete them manually, you save time by using the Windows disk cleanup tool. You can search your entire hard disk for specific files within a matter of seconds with the disk cleanup utility. The tool also gives you greater control over which files to delete and those to keep. When outdated application files are removed from your system, it runs more smoothly and has fewer crashes.</p>
-<h3>Does Disk Cleanup Remove Viruses?</h3>
-<p>One of the most common ways that viruses enter computer systems is through downloads. A user lands on an untrusted website and clicks on a button to get a free download. The download contains a virus that goes undetected. If the application remains untouched for longer than 30 days, you can run the disk cleanup utility to find the offending download and remove it quickly. While you shouldn’t use disk cleanup as a replacement for a robust antivirus product, the tool can work in conjunction with a trusted antivirus solution to better safeguard your computer’s system, files, and data.</p>
-<h3>The Wrap Up</h3>
-<p>Whether you use your computer to work from home or to manage your household, you’ll want it to function as it should. This includes the flexibility to download a program for a short-term project or quickly process spreadsheets to share with coworkers on an online portal. These operations are greatly impaired when your hard disk is full of unnecessary files and bloatware. Using the Windows disk cleanup tool allows you to remove these files that could contain malware and increase the capacity and safety of your computing environment.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/what-is-disk-cleanup-and-does-it-remove-viruses/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>My email has been hacked! What should I do next?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/my-email-has-been-hacked-what-should-i-do-next/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 May 2020 17:01:21 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Email]]></category>
-		<category><![CDATA[Hacked]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/my-email-has-been-hacked-what-should-i-do-next/</guid>
-
-					<description><![CDATA[Signs Your Email Was Hacked With the advent of #Staysafe and #Shelterinplace, the increase of personal email com-munication has skyrocketed.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs"></div>
-<h2>Signs Your Email Was Hacked</h2>
-<p>With the advent of #Staysafe and #Shelterinplace, the increase of personal email com-munication has skyrocketed. This increase has allowed clever hackers to worm their way into installing viruses via attachments as well as other common techniques.</p>
-<h2>You Know You’ve Been Hacked When…</h2>
-<h3>Your Contacts are Receiving Messages Not Sent By You</h3>
-<p>Messages that seem to come from you to friends or business contacts must alert you to a severe problem on your computer. Friends may have the confidence to let you know about these emails, but business contacts or professional associates may not. Hackers can install malware on their computers through email attachments, and the intruder can find a password with an amazingly small amount of effort.</p>
-<h3>Your Online Password Stops Working</h3>
-<p>As a regular visitor to your favorite sites, you know the password that each one requires. While you may accidentally strike a wrong key and create a typo, the chances of doing it twice seem highly unlikely. Since you know that the password appears not to work, you may need to consider the possibility that someone has hacked your email.</p>
-<p>Once inside your computer, hackers have almost a free reign to look for your pass-words. Many people create a list of passwords for convenience, but the benefit to a hacker who finds such a file can reach significant proportions.</p>
-<h3>Slow and Erratic Computer Performance</h3>
-<p>Unpredictable conduct by your computer can mean that a virus may have infected it. The sluggishness that replaces the usual prompt response that you expect tells you that you have a problem. Spyware, a malicious type of software, can track your online activity, tamper with your files, and even steal your private information.</p>
-<p>When you consider the burden that spyware can place on your system, you can under-stand the reason for its lackluster speed. While you probably did not notice anything wrong when you downloaded a picture from a website or clicked on an attachment in an email, a virus could have accompanied it. Until you remove the virus, you may feel as though you have someone watching you, and you do.</p>
-<h3>Watching for Ransomware</h3>
-<p>A particularly insidious form of malicious software comes with an ability to make you pay for the privilege of controlling your computer. Ransomware can enter your system through emails, and you allow it to do so when you click on an attractive attachment from an unknown sender. Ransomware can lock your files and make them inaccessible. The troublemakers who put it there demand a fee to release its grip on your system.</p>
-<p>Maybe more dangerous than other malicious invasions of your computer, ransomware carries a penalty that can completely deny you access to your files and cost you money to get it back. As a caution that reminds you of the hazard of opening attachments that can cause damage to your computer and your finances, an email that installs ransom-ware deserves attention immediately.</p>
-<h2>What Should I Do if My Email is Hacked?</h2>
-<h3>Change your password</h3>
-<p>This is the first thing you must do to ensure that the hacker can’t get back into your ac-count. Your new password must be complex and unrelated to previous passwords. Al-ways use 8-10 characters with a mix of upper and lower case characters as well as numbers and symbols.</p>
-<h3>Reach out to your email contacts immediately</h3>
-<p>A big part of the hacker’s strategy is to ‘get their claws’ into your address book to hook others as well. Send a message to all of your email contacts as soon as possible. Let them know they should avoid opening any emails (most likely loaded with malware) that have come from you.</p>
-<h3>Change your security question</h3>
-<p>If you have security questions associated with your email account, be sure to change them too. Make them unpredictable and niche.</p>
-<h3>Enable Multi-Factor Authentication</h3>
-<p>Yes, multi-factor authentication adds another step to your login, but it also adds another layer of protection. Enabling this will mean that in addition to your password, you will need a unique one-time use code to log in. This is usually sent to your mobile phone.</p>
-<h3>Scan your computer for malware and viruses</h3>
-<p>This is an essential step. Comprehensive security software will provide you with a digital shield for your online life. <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee Total Protection</a> lets you protect all your devices – including your smartphone – from viruses and malware. It also contains a password manager to help you remember and generate unique passwords for all your accounts.</p>
-<h3>Change any other accounts with the same password</h3>
-<p>This is time-consuming but a worthwhile effort. Ensure that you change any other ac-counts that use the same username and password as your compromised email. Hackers love when we use the same logins for multiple accounts.</p>
-<h2>Stay protected</h2>
-<p>While email can pose potential security risks, <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">antivirus software</a> protects your computer system from potential damage. Programs that run efficiently in the background detect and eliminate threats. Awareness and preparedness can help you thwart attempts to hack private information and let you maintain a secure environment online.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/my-email-has-been-hacked-what-should-i-do-next/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>WolfRAT Android Malware Targets WhatsApp, Facebook Messenger</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wolfrat-android-malware-targets-whatsapp-facebook-messenger/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 May 2020 17:00:40 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Messenger]]></category>
-		<category><![CDATA[Targets]]></category>
-		<category><![CDATA[WhatsApp]]></category>
-		<category><![CDATA[WolfRAT]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wolfrat-android-malware-targets-whatsapp-facebook-messenger/</guid>
-
-					<description><![CDATA[Researchers link the malware to Wolf Research operators with &#8220;high confidence&#8221; after it was spotted in campaigns targeting Thai users.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers link the malware to Wolf Research operators with &#8220;high confidence&#8221; after it was spotted in campaigns targeting Thai users.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/wolfrat-android-malware-whatsapp-facebook-messenger/155809/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Bluetooth Bugs Allow Impersonation Attacks on Legions of Devices</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bluetooth-bugs-allow-impersonation-attacks-on-legions-of-devices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 May 2020 15:58:48 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Bluetooth]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[Impersonation]]></category>
-		<category><![CDATA[Legions]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bluetooth-bugs-allow-impersonation-attacks-on-legions-of-devices/</guid>
-
-					<description><![CDATA[A host of unpatched security bugs that allow BIAS attacks affects Bluetooth chips from Apple, Intel, Qualcomm, Samsung and others.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A host of unpatched security bugs that allow BIAS attacks affects Bluetooth chips from Apple, Intel, Qualcomm, Samsung and others.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/bluetooth-bugs-impersonation-devices/155886/">Source link </a></p>
 ]]></content:encoded>
 					
 		
