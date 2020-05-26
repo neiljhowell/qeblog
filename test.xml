@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 22 May 2020 15:39:14 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 26 May 2020 12:10:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,128 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>New iOS Jailbreak Tool Works on iPhone Models iOS 11 to iOS 13.5</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 May 2020 12:10:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Jailbreak]]></category>
+		<category><![CDATA[Models]]></category>
+		<category><![CDATA[tool]]></category>
+		<category><![CDATA[Works]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/</guid>
+
+					<description><![CDATA[Latest version of UnC0ver uses unpatched zero-day exploit to take complete control of devices, even those running iOS 13.5. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Latest version of UnC0ver uses unpatched zero-day exploit to take complete control of devices, even those running iOS 13.5.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/156045/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>RPA essentials: What it is, and why it matters</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/rpa-essentials-what-it-is-and-why-it-matters/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 25 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[essentials]]></category>
+		<category><![CDATA[matters]]></category>
+		<category><![CDATA[RPA]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/rpa-essentials-what-it-is-and-why-it-matters/</guid>
+
+					<description><![CDATA[Robotic process automation (RPA) technology helps organizations automate defined, multi-step manual tasks that are done in high volume. RPA does this]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Robotic process automation (RPA) technology helps organizations automate defined, multi-step manual tasks that are done in high volume. RPA does this by creating software robots, or RPA bots, that emulate human actions to interact with existing application interfaces.</p>
+<p>Organizations typically pair RPA bots with tasks that stretch across multiple legacy technology applications or platforms that aren&#8217;t easily linked. Sometimes referred to as &#8220;swivel chair&#8221; activities, these are processes where people essentially respond to alerts or prompts from one system, then use some of that data to take action in another system. </p>
+<p>In this way, <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/rpa-enterprise-it?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">RPA excels at helping organizations automate and eliminate error</a> from established processes, all without ripping and replacing legacy systems.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management (ESM)</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyers Guide to ESM Products</a> ]</em></p>
+<h3>Where RPA makes sense (and where it doesn&#8217;t)</h3>
+<p>RPA technologies can be used for many different applications, but <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/get-started-rpa?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">the easiest places to start</a> typically crop up in finance and human resources.</p>
+<p>One category that makes a good RPA candidate is procure-to-pay use cases. This is where low-level employees spend a lot of time processing inbound invoices, reconciling invoices, and issuing payments—running through routine, repetitive tasks each time they do them. Similarly, if finance personnel have to do a lot of cutting and pasting from one operational system into another finance system to tally up billable hours or shipped product before sending out an invoice, RPA can automate those actions.</p>
+<p>HR use cases tend to crop up in very formalized but frequent procedures, such as onboarding, that require recurring actions in many systems for each new employee. For example, RPA can help initiate new accounts, process inbound employee forms, and so on.</p>
+<p>HR can also lean heavily on RPA to help with time-consuming manual activities such as the reimbursement claims approval process. Before automation, this required employees to visually confirm scans of employee receipts and ensure that totals matched up before approving a claim.</p>
+<p>Now, RPA bots armed with optical character recognition (OCR) scans can be placed at the front end of that procedure to approve the majority of receipts, perhaps with humans on hand to do a second pass when receipts are smudged or there&#8217;s a discrepancy.</p>
+<p>These examples are just the beginning when considering possible RPA use cases. Others include using RPA bots to complete routine sales analysis based on input from many different systems, leveraging bots in IT situations for routine systems maintenance and monitoring, and using the technology to aid in supply chain planning and stock optimization.</p>
+<h3>Tips for figuring out where to start</h3>
+<p>As organizations <a target="_blank" href="https://techbeacon.com/resources/techbeacon-guide-how-roll-out-robotic-process-automation" rel="noopener noreferrer">identify use cases for RPA</a>, experts recommend that they seek out scenarios where:</p>
+<p>Organizations should be wary of trying to automate activities that require a lot of human interpretation of unstructured data.</p>
+<p>And even if a process is repetitive and defined, be careful that you&#8217;re not automating a fundamentally bad or obsolete process using RPA. In some cases, it may be worth the investment to re-engineer processes, develop better integrations or APIs to glue together systems, or even pay down technical debt and re-architect your underlying systems.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>What&#8217;s next: How RPA is evolving</h3>
+<p>When RPA first arose as a category, it evolved from macros that automated simple tasks into programmable bots based on a set of human-defined process rules. </p>
+<p>These bots helped improve efficiency in isolated situations, but organizations soon struggled on two fronts. First, discovering and defining processes for the bots to automate—at scale—has been <a target="_blank" href="https://techbeacon.com/enterprise-it/how-train-your-bots-5-rpa-fails-avoid" rel="noopener noreferrer">a challenge for RPA</a> from the start. Second, the management of the bots themselves and the process-defined rule-sets that direct their actions have become a big bugbear.</p>
+<p>This is what has led to the growth in RPA platforms, which can help on both fronts. <a target="_blank" href="https://techbeacon.com/enterprise-it/how-choose-right-rpa-tool" rel="noopener noreferrer">RPA tools</a> help automate the discovery of the processes and provide tools for line-of-business users to more easily build automations based on their process needs, often based on pre-built bot libraries. Additionally, platforms define rules that govern and orchestrate the way bots run.</p>
+<p>RPA vendors are trying to flex the limits of process definition by developing machine learning capabilities to <a target="_blank" href="https://techbeacon.com/enterprise-it/robotic-process-automation-5-key-trends-watch" rel="noopener noreferrer">automatically discover and learn processes</a>. Increasingly, vendors are building in the ability to record and analyze user actions and then use machine learning to automatically define process rules and reduce the number of manual steps.</p>
+<p>However, the heavy lifting still typically falls on business stakeholders and the automation team to get things rolling.</p>
+<p>Usually, however, RPA projects <a target="_blank" href="https://techbeacon.com/enterprise-it/13-robotic-process-automation-experts-you-should-follow" rel="noopener noreferrer">require the aid of consultants and integrators</a>, which is why<a target="_blank" href="https://www.horsesforsources.com/RPA-forecast-2016-2022_120118" rel="nofollow noopener noreferrer"> analysts project</a> a threefold increase in spending on RPA software through 2022.</p>
+<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/rpa-essentials-what-it-why-it-matters">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ThreatList: People Know Reusing Passwords Is Dumb, But Still Do It</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 25 May 2020 13:00:11 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Dumb]]></category>
+		<category><![CDATA[passwords]]></category>
+		<category><![CDATA[People]]></category>
+		<category><![CDATA[Reusing]]></category>
+		<category><![CDATA[ThreatList]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/</guid>
+
+					<description><![CDATA[Even seeing data breaches in the news, more than half of consumers are still reusing passwords. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Even seeing data breaches in the news, more than half of consumers are still reusing passwords.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/155996/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>70 Percent of Mobile, Desktop Apps Contain Open-Source Bugs</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/70-percent-of-mobile-desktop-apps-contain-open-source-bugs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 25 May 2020 13:00:09 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Desktop]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[Percent]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/70-percent-of-mobile-desktop-apps-contain-open-source-bugs/</guid>
+
+					<description><![CDATA[A lack of awareness about where and how open-source libraries are being used is problematic, researchers say. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A lack of awareness about where and how open-source libraries are being used is problematic, researchers say.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/70-of-apps-open-source-bugs/156040/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>‘Coronavirus Report’ Emails Spread NetSupport RAT, Microsoft Warns</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-report-emails-spread-netsupport-rat-microsoft-warns/</link>
 		
@@ -101,6 +223,224 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/app-dev-testing/40-great-resources-will-rock-your-release-velocity">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mercedes software leaks via Git and Google dork</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mercedes-software-leaks-via-git-and-google-dork/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 21 May 2020 18:30:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[dork]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[leaks]]></category>
+		<category><![CDATA[Mercedes]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mercedes-software-leaks-via-git-and-google-dork/</guid>
+
+					<description><![CDATA[Mercedes-Benz owner Daimler left 580 repos open on the Internet—naked and unprotected. A Swiss researcher discovered the trove with a]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><strong>Mercedes-Benz owner Daimler left 580 repos open</strong> on the Internet—naked and unprotected. A Swiss researcher discovered the trove with a simple dork—a crafted Google search term.</p>
+<p><strong>The code controls the onboard logic units (OLU)</strong> in the company’s vans. It also includes passwords and API tokens for Daimler cloud services.</p>
+<p><strong>Red faces in Stuttgart,</strong> <em>und so weiter</em>. In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer">Security Blogwatch</a></i>, we learn from others’ mistakes.</p>
+<p><a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Janet has a plan.</em></p>
+<p><em>[ The shift is on to secure code. Get up to speed with <a target="_blank" href="https://content.microfocus.com/l/state-of-application-security-testing-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s State of App Sec Guide</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/gartner-magic-quadrant-appsec-testing?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Gartner 2020 Magic Quadrant for Application Security Testing</a> ]</em></p>
+<h3>OLU OSINT OOPS</h3>
+<p><strong>What’s the craic?</strong> Catalin Cimpanu reports—<i><a target="_blank" href="https://www.zdnet.com/article/mercedes-benz-onboard-logic-unit-olu-source-code-leaks-online/" rel="nofollow ugc noopener noreferrer" title="read the full text">OLU source code leaks online</a>:</i></p>
+<blockquote><p><em>The source code for … components installed in Mercedez-Benz vans has been leaked online. … Daimler allowed anyone to register on one of its … servers.<br />…<br />Till Kottmann, a Swiss-based software engineer, discovered a … web portal belonging to Daimler AG, the German automotive company behind the Mercedes-Benz car brand. … He was able to register an account on Daimler&#8217;s code-hosting portal, and then download more than 580 Git repositories containing the source code of … OLUs installed in Mercedez vans.<br />…<br />The leak [includes] passwords and API tokens for Daimler&#8217;s internal systems. … In the wrong hands, [they] could be used to plan and mount future intrusions against Daimler&#8217;s cloud and internal network.<br />…<br />Kottmann … found Daimler&#8217;s GitLab server using something as simple as … Google search queries. … &#8220;I often just hunt for interesting GitLab instances … and I keep being amazed by how little thought seems to go into the security settings.&#8221;<br />…<br />A Daimler spokesperson did not return a formal request for comment.</em></p></blockquote>
+<p><strong>OLU?</strong> Jay Jay explains—<i><a target="_blank" href="https://www.teiss.co.uk/daimler-ag-mercedes-source-code-leak/" rel="nofollow ugc noopener noreferrer" title="read the full text">Daimler AG left OLU source code of Mercedes vans accessible to anyone</a>:</i></p>
+<blockquote><p><em>Onboard logic units or OLUs are the control unit of Mercedes vans, connecting them to the cloud and enabling third-party developers to create apps that retrieve data of the vehicle like the van&#8217;s internal status or for freezing vans in case of theft.</em></p></blockquote>
+<p><strong>Ohhh, “the cloud,” eh?</strong> <i><a target="_blank" href="https://tech.slashdot.org/comments.pl?sid=16400596&amp;cid=60080832" rel="nofollow ugc noopener noreferrer" title="read the full text">Malays2 bowman</a></i> denies they’re a cammo wearing kook:</p>
+<blockquote><p><em>Do. Not. Want. I see a rather profitable cottage industry popping up that involves removing/bypassing this ****.</p>
+<p>People laugh whenever somebody mentions &#8220;New World Order&#8221;, and they risk being labeled a cammo wearing kook who loves to play GI-Joe in the woods with a rusty AK-47. [But] there is nothing supernatural or unreal about it. It&#8217;s yet another classic power grab, but this time taken up a few notches.</p>
+<p></em></p></blockquote>
+<p><strong>Uhhh, okay.</strong> Chris de Ramus drives the story home, co-piloted by Duncan Riley—<i><a target="_blank" href="https://siliconangle.com/2020/05/18/mercedes-benz-source-code-exposed-via-misconfigured-git-registration-system/" rel="nofollow ugc noopener noreferrer" title="read the full text">Mercedes-Benz source code exposed via misconfigured Git registration system</a>:</i></p>
+<blockquote><p><em>In this GitLab instance, bad actors could register an account on Daimler’s code-hosting portal and download over 580 Git repositories containing the Mercedes source code and sell that information to the company’s competitors. … Additionally, hackers could leverage the exposed passwords and API tokens of Daimler’s systems to access and steal even more of the company’s sensitive information.<br />…<br />Without a proactive approach to security, companies open themselves up to undue risk. Most organisations rely on detecting risks and misconfigurations in the cloud at runtime … instead of preventing them during the build process, which increases security and compliance risks significantly. It also interferes with productivity, as developers have to spend their time addressing the issues.<br />…<br />Organizations should ‘shift left’ by taking preventative measures early on in their … CI/CD pipelines. … Such a proactive approach will allow organizations to prevent security issues from occurring and will enable security teams to catch misconfigurations before leaks occur.</em></p></blockquote>
+<p><strong>So what are these search queries?</strong> Chris Ueland and Courtney Couch aren’t dorks—<i><a target="_blank" href="https://securitytrails.com/blog/google-hacking-techniques" rel="nofollow ugc noopener noreferrer" title="read the full text">Exploring Google Hacking Techniques</a>:</i></p>
+<blockquote><p><em>A Google Dork … is a valuable resource for security researchers. For the average person, Google is just a search engine. … However, in the infosec world, Google is a useful hacking tool.<br />…<br />As it has tremendous web-crawling capabilities, [Google] can index almost anything within your website, including sensitive information. This means you could be exposing too much information about your web technologies, usernames, passwords, and general vulnerabilities without even knowing it.<br />…<br />Google’s search engine has its own built-in query language. … Queries can be run to find a list of files, find information about your competition, track people, get information about SEO backlinks, build email lists, and of course, discover web vulnerabilities.<br />…<br />To prevent your sensitive information from being indexed by search engines:</em></p>
+<ul>
+<li><em>Protect private areas with … authentication and … IP-based restrictions. </em></li>
+<li><em>Encrypt your sensitive information. … </em></li>
+<li><em>Run regular dork queries against your own website. … </em></li>
+<li><em>If you find sensitive content exposed, request its removal by using Google Search Console. </em></li>
+<li><em>Block sensitive content by using a robots.txt file.</em></li>
+</ul>
+</blockquote>
+<p><strong>And what does the perp have to say for themself?</strong> <i><a target="_blank" href="https://twitter.com/deletescape/with_replies" rel="nofollow ugc noopener noreferrer" title="read the full text">@deletescape</a>:</i></p>
+<blockquote><p><em>The leak is around 550 repos and very well documented. … It&#8217;s a hardware platform for a very specific usecase, but this leak should allow recreating it with low cost hardware.<br />…<br />I purely do this out of curiosity. … It&#8217;s just so interesting to look at the stuff people never thought anyone would see and figure out how it works.<br />…<br />Most of the stuff I post is public repos on gitlab instances (great threat models huh), or just the same kind of instances where I can simply sign up myself. At least under Swiss law this is somewhat of a gray zone, but I obviously know that I&#8217;m walking a very thin line here.<br />…<br />I love helping companies open source their code. … <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em></p></blockquote>
+<p><strong>However,</strong> <i><a target="_blank" href="https://tech.slashdot.org/comments.pl?sid=16400596&amp;cid=60075360" rel="nofollow ugc noopener noreferrer" title="read the full text">vtcodger</a></i> raises the other hand:</p>
+<blockquote><p><em>OTOH, you&#8217;re likely going to be annoyed when some bored teenager in Mongolia succeeds in locking you and all other owners of your vehicle model out of your cars – at least until the nearest dealer can motor out with a specialized tool and unbrick the thing. Might be bit of a service queue involved.</p>
+<p>Connectivity is not without risks. There&#8217;s probably some optimum balance between connection and local autonomy. But I can&#8217;t see much sign that car makers, and especially luxury vehicle makers are seeking that balance out.</p>
+<p></em></p></blockquote>
+<p><strong>And</strong> <i><a target="_blank" href="https://twitter.com/SchizoDuckie/status/1262467162024939523" rel="nofollow ugc noopener noreferrer" title="read the full text">@SchizoDuckie</a></i> swearily criticizes Kottmann:</p>
+<blockquote><p><em>What an *******. I hope he gets sued into oblivion.<br />…<br />Dumping it all online on various sources &#8216;for the lulz&#8217; is a dick move.</em></p></blockquote>
+<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://tech.slashdot.org/comments.pl?sid=16400596&amp;cid=60074734" rel="nofollow ugc noopener noreferrer" title="read the full text">Ken_g6</a>’s</i> offering is an older meme, sir; but it checks out:</p>
+<blockquote><p><em>So what they&#8217;re saying is that … OLU base are belong to us?</em></p></blockquote>
+<h3>The moral of the story?</h3>
+<p>DevSecOps red-team exercises need to include OSINT from dorking, etc.</p>
+<p><em>[ Find out <a target="_blank" href="https://www.brighttalk.com/webcast/7477/392511/keys-to-scaling-an-appsec-program?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to scale your application security program</a> in this May 12 Webinar. </em><em>Plus: Learn <a target="_blank" href="https://content.microfocus.com/l/build-app-sec-dev-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to build application security into your software</a> with<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>TechBeacon&#8217;s<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>guide ]</em></p>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=J7o9B5dpiPE" rel="noopener nofollow noreferrer" title="And Finally">Don’t try this at home, kids</a></strong></p>
+<p><div class="fitvids-video"><iframe title="Antivax Janet Meets COVID-19" width="800" height="600" src="https://www.youtube.com/embed/J7o9B5dpiPE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow noreferrer">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow noreferrer">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener noreferrer">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE.</em></p>
+<p><em>Image sauce: <a target="_blank" href="https://www.flickr.com/photos/140301614@N05/26674329125/" rel="noopener nofollow noreferrer">Dronsfields Mercedes</a> (<a target="_blank" href="https://creativecommons.org/licenses/by/2.0/" rel="noopener nofollow noreferrer" title="Some rights reserved">cc:by</a>)</em></p>
+<p><em>[ Take a deep-dive with our <a target="_blank" href="https://content.microfocus.com/l/application-security-tb" rel="noopener noreferrer">Application Security Trends and Tools Guide</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/application-security-tb/buyers-guide-appsec?lx=P_znZe" rel="noopener noreferrer">App Sec Buyer&#8217;s Guide</a>. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/mercedes-software-leaks-git-google-dork">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Six Top Trends for Performance in 2020 and Beyond</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/six-top-trends-for-performance-in-2020-and-beyond/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 21 May 2020 11:58:03 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Top]]></category>
+		<category><![CDATA[Trends]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/six-top-trends-for-performance-in-2020-and-beyond/</guid>
+
+					<description><![CDATA[Many of the trends I’m listing here took place earlier with other software development activities like functional automation testing, but]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div id=""><picture class="single-article__img"><source media="(max-width: 899px)" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/05/PerformanceTestingTrends-1-575x360-c-default.png"></source></picture>
+<p>Many of the trends I’m listing here took place earlier with other software development activities like functional automation testing, but only now are <strong>performance testing</strong> activities catching up.</p>
+<h2>Shift from Performance Testing to Performance Engineering</h2>
+<p>One of the most significant quality trends I&#8217;ve been seeing over the last few years is the move from doing performance testing only, to teams embracing a full, SDLC performance engineering practice.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/14504660/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>But what <i>is</i> performance engineering?</p>
+<p>Performance engineering is a cultural shift in the way organizations view their essential processes. Performance engineering embraces practices and capabilities that build quality and performance throughout an organization.</p>
+<p><a target="_blank" href="https://twitter.com/appperfeng" rel="noopener noreferrer">Todd DeCapua</a>, author of <a target="_blank" href="https://www.oreilly.com/library/view/effective-performance-engineering/9781492030164/" rel="noopener noreferrer"><i>Effective Performance Engineering</i></a>, has said that performance engineering means understanding how all the parts of the system fit together, knowing which metrics matter, and building in performance quality from the first design.</p>
+<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="attachment noopener wp-att-996320 noreferrer"><img class="alignnone size-full wp-image-996320" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Scott Moore Performance Engineering" width="1200" height="628" data-lazy-src="https://testguild.com/wp-content/uploads/2020/05/Scott_Moore_Promo.png"/><noscript><img class="alignnone size-full wp-image-996320" src="https://testguild.com/wp-content/uploads/2020/05/Scott_Moore_Promo.png" alt="Scott Moore Performance Engineering" width="1200" height="628"/></noscript></a></p>
+<p><a target="_blank" href="https://twitter.com/loadtester" rel="noopener noreferrer">Scott Moore</a>, a performance testing consultant, and speaker at the 2020 PerfGuild, expresses a similar belief when he says that the days of testing performance into a product are over. It&#8217;s too risky, causing too much technical debt to go back and do it later.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/11541953/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>This is the same type of shift that occurred with functional automation years ago. Rather than have one person responsible for automation, everyone on the sprint team becomes responsible.</p>
+<p>So how can you help your company transform into a performance engineering culture?</p>
+<p>You might think the first step is technical, but I have a tremendous piece of actionable, non-technical advice you can use right now–MIP it.</p>
+<p>One thing you can implement anytime, anywhere with performance or any other quality concern is to MIP it (Mention in Passing).</p>
+<p><a target="_blank" href="https://twitter.com/sbarber" rel="noopener noreferrer">Scott Barber</a> explained to me that there was a time when he would “MIP” to anyone he passed in his office, “How&#8217;s performance today?”</p>
+<p>That person could be anyone, whether they were directly involved in his project or not.</p>
+<p>In fact, he would MIP to anyone in the building, “How&#8217;s performance today?” And at the end of the first week, he says performance increased significantly.</p>
+<p>Be sure to check out Scott Moore’s Effective Performance Engineering session at this year’s PerfGuild. It’ll be a great introduction to folks who are new to performance engineering and want to learn about some actionable ways to get started.</p>
+<p>Of course, this is just a start – the real push is to get your agile team thinking about performance as early as possible, not after the fact.</p>
+<p><div class="fitvids-video"><iframe title="Top 6 Performance Testing Trends for 2020" width="800" height="450" src="https://www.youtube.com/embed/0XDjqVKCRt0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<h2>Shift Left Performance</h2>
+<p>Similar to trying to get developers more involved in functional automation by using the same languages and tools that they use in their day-to-day work flow, you can do the same to move performance testing to an earlier place in your SDLC.</p>
+<p>Because of this, there is a trend to create performance tests using developer-friendly tools and languages—this allows performance tasks to fit in with your developer&#8217;s current ecosystem.</p>
+<p>For example, if you have Python developers, you can introduce a tool like Locust that allows you to create Python-based, performance-testing scripts. If you use <a target="_blank" href="https://testguild.com/open-source-performance-testing-tools/" rel="noopener noreferrer">Locust</a>, everything is in Python; everything is in code.</p>
+<p>You can even use <a target="_blank" href="https://www.jetbrains.com/pycharm/" rel="noopener noreferrer">PyCharm</a> as an IDE.</p>
+<p>Another popular technology option is <a target="_blank" href="https://testguild.com/javascript-performance-testing-k6/" rel="noopener noreferrer">k6</a>, which focuses on giving your developers the best experience for load testing. K6 takes a code-like approach to developing load test scripts.</p>
+<p>These dev friendly tools in the market allow you to treat your performance testing scenarios or test cases like you would any other application code. This, in turn, enables you to shift your automated performance testing efforts to earlier in the software development lifecycles.</p>
+<p><a target="_blank" href="https://twitter.com/Thecapnews" rel="noopener noreferrer">Cristian Daniel Marquez Barrios</a>, a front-end developer with over ten years of experience, gave me an excellent recommendation to get developers involved in creating more performant software.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/13301312/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>He said that all front-end developers should be using, at a minimum, <a target="_blank" href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en" rel="noopener noreferrer">Google Lighthouse</a> metrics that are available in Google Chrome tools.</p>
+<p>When you open <a target="_blank" href="https://developers.google.com/web/tools/chrome-devtools" rel="noopener noreferrer">DevTools in Chrome</a> and navigate to the Audits tab, you can find the Lighthouse audit. This will tell what&#8217;s the performance of your site simulating mobile on the desktop version of a browser. So it&#8217;s also a perfect tool to start with.</p>
+<p>A pillar of performance engineering is that performance needs to be baked into your software from the beginning, with developers creating performant code in your product from the start.</p>
+<p>Check out Alyson Henry &amp; Matthew Andrus’ <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild session</a>, Why Good Test Scripts aren&#8217;t Enough–Shifting Left and Automation as Keys to the Future of Testing for a great example on how to achieve this.</p>
+<p>This trend can help get your whole team involved in focusing on creating performance software from the beginning.</p>
+<p>Another approach is to leverage your teams existing functional selenium test to create browser-level performance tests and performance engineering activities.</p>
+<p><a target="_blank" href="https://testguild.com/reuse-performance/browserrobotjuggle/" rel="attachment wp-att-996128 noopener noreferrer"><img class="alignnone size-full wp-image-996128" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Robot Juggling Browsers" width="1200" height="750" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg 1200w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-650x406-c-center.jpg 650w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-350x219-c-center.jpg 350w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-225x141-c-center.jpg 225w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg"/><noscript><img class="alignnone size-full wp-image-996128" src="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg" alt="Robot Juggling Browsers" width="1200" height="750" srcset="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg 1200w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-650x406-c-center.jpg 650w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-350x219-c-center.jpg 350w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-225x141-c-center.jpg 225w" sizes="(max-width: 1200px) 100vw, 1200px"/></noscript></a></p>
+<h2>Browser-Based Performance Testing</h2>
+<p>You might be wondering why they shouldn&#8217;t just use a non-UI-based protocol.</p>
+<p>Modern JavaScript front-end frameworks like Angular and React make it very difficult to create a performance script at a protocol level, which is kind of the traditional way testers have been developing performance tests since the mid-nineties.</p>
+<p>In such cases, there is no interaction between the UI and the server like you&#8217;d find in a typical, older, client-server application architecture.</p>
+<p>With protocol tools, you would have to do additional scripting and programming to capture those kinds of transactions.</p>
+<p>So, the process of setting up a script becomes increasingly tricky.</p>
+<p>By focusing on browser-based performance script creation, you&#8217;re spending less time doing any of the other manual editing, correlation, and programming that would otherwise be necessary with a protocol-based recording tool.</p>
+<p>Furthermore, because this approach uses a real browser and more people are familiar with interacting with the actual browser rather than a protocol, this helps to shift-left the performance activity that more teams probably should get involved in.</p>
+<p><a target="_blank" href="https://twitter.com/n_vanderhoeven" rel="noopener noreferrer">Nicole van der Hoeven</a>’s <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild talk</a> will be about how to combine both browser and protocol-level performance scripting to create a cool hybrid load testing solution. (Don’t miss it!)</p>
+<p>Does it replace protocol-level performance testing? No.</p>
+<p>But it&#8217;s another tool you can add to your performance toolbox to help transform your team toward performance engineering.</p>
+<p><a target="_blank" href="https://testguild.com/mabl-ai-machine-learning-test-automation/artificial-intelligence-ai-robot-action-figure-3d-illustration/" rel="attachment wp-att-3661 noopener noreferrer"><img class=" wp-image-3661" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Artificial Intelligence AI Robot" width="372" height="372" data-lazy-srcset="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg 600w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-150x150.jpg 150w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-300x300.jpg 300w" data-lazy-sizes="(max-width: 372px) 100vw, 372px" data-lazy-src="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg"/><noscript><img class=" wp-image-3661" src="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg" alt="Artificial Intelligence AI Robot" width="372" height="372" srcset="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg 600w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-150x150.jpg 150w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-300x300.jpg 300w" sizes="(max-width: 372px) 100vw, 372px"/></noscript></a></p>
+<h2>Shift-Right AI Performance Engineering</h2>
+<p>I first heard this term (AIOPS) from <a target="_blank" href="https://twitter.com/Jonathon_Wright" rel="noopener noreferrer">Jonathon Wright</a>. AiOps is about expanding artificial intelligence (AI) out of functional testing and applying it to all software development shift-right activities including performance testing.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/12825377/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Although many companies have started to make the shift-right they still tend to focus on simple analytics.</p>
+<p>Jonathon believes that digital experience analytics are incredibly important, but that we need to stop focusing on a web page or a mobile app. We need to start thinking about the entire customer journey.</p>
+<p>Jonathon will present a real-world scenario using all open-source tools for his Shift-Right Digital Experience Analytics talk at the 2020 PerfGuild.</p>
+<p>For example, it&#8217;s monitoring things in production.</p>
+<p>It&#8217;s then able to take that monitoring information and automatically create a performance test model for what&#8217;s actually happened in production.</p>
+<p>It can then use the model to auto-generate your performance tests and make use of all the information produced in your SDLC pipeline from beginning to end.</p>
+<p>It can also help inform your decisions using machine learning to bring up key insights that you might not have noticed in your pipeline.</p>
+<p><a target="_blank" href="https://twitter.com/perfpulley" rel="noopener noreferrer">James Pulley</a> also believes there are excellent uses for AI and machine learning intelligence in performance testing.</p>
+<p>If you look at what we do inside performance testing and performance engineering in general, it is pattern-based. And the conventional AI used today is less expert-system-based and more AI-based.</p>
+<p>This type of AI doesn&#8217;t ask questions and assigns weights.</p>
+<p>Instead, it behaves more like it’s looking at a pattern and observing match conditions. Is it a normal condition or an exception? And if it&#8217;s an exception, does it match other exception patterns?</p>
+<p>When you’re talking about resource utilization and things of that nature, AI can be very useful.</p>
+<p>AI is also great for looking at the behavior of systems going through the logs and saying, “Hey, here&#8217;s what 90 percent of our people are doing.”</p>
+<p>Here&#8217;s how our users normal navigate our site</p>
+<p>Here are the most common user workflows and building a model for what that should look like.</p>
+<p>AI can then generating the performance scripts for you based on how your real users actually behave in production. It can also help create test data to use.</p>
+<p>This helps to create more realistic performance scenarios and a transaction mix for your tests.</p>
+<p>Monitoring things in production is great, but how to plan for unknowns that tend to happen once your system is live?</p>
+<p><a target="_blank" href="https://testguild.com/chaos-engineering/robotchaos600x400/" rel="attachment wp-att-4522 noopener noreferrer"><img class="alignnone size-full wp-image-4522" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Robot Chaos" width="600" height="403" data-lazy-srcset="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg 600w, https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400-300x202.jpg 300w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg"/><noscript><img class="alignnone size-full wp-image-4522" src="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg" alt="Robot Chaos" width="600" height="403" srcset="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg 600w, https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400-300x202.jpg 300w" sizes="(max-width: 600px) 100vw, 600px"/></noscript></a></p>
+<h2>Chaos Engineering/Resilience Testing</h2>
+<p>If the COVID-19 pandemic has taught us anything, it’s that we need to make sure our software is more resilient.</p>
+<p>We have seen scenarios in production that most teams probably hadn’t anticipated. But how to plan for unknown behavior?</p>
+<p>Examples of companies that learned this the hard way include<a target="_blank" href="https://www.cnn.com/2020/03/04/business/robinhood-outage-explanation/index.html" rel="noopener noreferrer"> RobinHood</a>, <a target="_blank" href="https://www.nytimes.com/2020/04/27/business/sba-loan-system-crash.html" rel="noopener noreferrer">SBA</a>, and <a target="_blank" href="https://www.bbc.com/news/technology-52671266" rel="noopener noreferrer">Epic Game</a> Company—all whose systems went down due to unexpected spikes.</p>
+<p>The best approach to achieving chaos is to test how the system responds under stress proactively.</p>
+<p>You can then identify and fix failures before they impact your customers or cause damage to your reputation due to the poor publicity an outage could receive.</p>
+<p>The idea of chaos engineering is that it compares what you <i>believe </i>will happen in your distributed system against the reality of what actually happens.</p>
+<p>To learn how to build resilient business software systems, you can use a chaos test tool to break things in your environment on purpose to see if it actually fails the way you believed it would.</p>
+<p>Chaos engineering is a growing area and it&#8217;s achieved by using thoughtful, well-planned experiments that help to reveal weaknesses in your systems.</p>
+<p><a target="_blank" href="https://twitter.com/tammybutow" rel="noopener noreferrer">Tammy Butow</a> Principal Site Reliability Engineer at <a target="_blank" href="https://www.gremlin.com/" rel="noopener noreferrer">Gremlin</a> suggested we think of Chaos Engineering as being like preventative medicine in that it’s a disciplined approach to identifying failures before they become outages.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/12516998/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Another similar type of testing to help is robustness testing.</p>
+<p><a target="_blank" href="http://www.perftestplus.com/" rel="noopener noreferrer">Dawn Haynes</a> CEO &amp; Testing Yogini at <a target="_blank" href="http://www.perftestplus.com/" rel="noopener noreferrer">PerfTestPlus</a> has been a big advocate of adding more robustness testing into our test plans.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/11997335/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>The industry glossary definition of robustness is the way software responds in the face of invalid inputs or unexpected or stressful environmental conditions.</p>
+<p>Dawn likes to define it as applications delivering value to customers consistently and not disappointing them or frustrating them in any particular way.</p>
+<p>So what would be a requirement for robustness? Maybe we just look at how our apps handle invalid inputs, or how we handle stressful environmental conditions.</p>
+<p>But if we were to expand it and say it’s about the user experience, how robust are we for user interaction?</p>
+<p>Do we fall down when we get surprised by something, or do we handle surprises in a way that can do two things:</p>
+<p>Inform the user about what&#8217;s going on right now, and make some sort of suggestion to them about what to do next.</p>
+<p>If we&#8217;re surprised by something, can we do anything other than fail? Or can we expect that throughout the run of a piece of software we will be surprised by something?</p>
+<p>And if a user is surprised by something not expected, what should we do about it next? What are the options in the face of surprises?</p>
+<p>I expect variance, chaos and resilience testing to be significant growth areas of focus for teams in 2020 and beyond due to the COVID-19 scare.</p>
+<p>That’s why I’m excited to be offering two sessions about how distortion (<a target="_blank" href="https://twitter.com/tds_at" rel="noopener noreferrer">Paul McLean</a>) and variance (James Pulley) can help you to create more realistic load tests that will help plan for unknowns.</p>
+<h2>Performance in CI/CD</h2>
+<p>So, where does that performance fit into a DevOps pipeline?</p>
+<p><a target="_blank" href="https://twitter.com/prossaro" rel="noopener noreferrer">Paola Rossaro</a> Co-Founder and CTO at Nouvola believes there is a trend underway for performance tests to become part of your acceptance tests.</p>
+<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/13203521/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Automation is vital, and having a reliable reproduction of the production environment is a must, so rapid feedback also allows resolving issues before they reach the user.</p>
+<p>This is what we call continuous testing.</p>
+<p>Continuous testing is really a key component of continuous integration and continuous delivery and creating testing at speed.</p>
+<p>What good is having a streamlined, continuous delivery process if the only way to find out if the performance of your product is not working well is via a help ticket being open by a user?</p>
+<p>Testing and continuous integration actually go hand in hand; each step in the continuous delivery process has testing associated with it.</p>
+<p>So from the development environment, the integration, testing and test environment, functional testing, and then a pre-production environment with performance and acceptance testing up to production, you then have synthetic monitoring, real-user monitoring, and general monitoring to make sure the performance is working well.</p>
+<p>In all those steps, we can see continuous delivery and continuous testing with performance testing really do work together.</p>
+<p>Look for more teams to start integrating performance into their CI/CD pipeline in 2020 and beyond.</p>
+<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="attachment wp-att-996311 noopener noreferrer"><img class="alignnone size-full wp-image-996311" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="PerfGuild 2020" width="1200" height="750" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png 1200w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-650x406-c-center.png 650w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-350x219-c-center.png 350w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-225x141-c-center.png 225w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png"/><noscript><img class="alignnone size-full wp-image-996311" src="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png" alt="PerfGuild 2020" width="1200" height="750" srcset="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png 1200w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-650x406-c-center.png 650w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-350x219-c-center.png 350w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-225x141-c-center.png 225w" sizes="(max-width: 1200px) 100vw, 1200px"/></noscript></a></p>
+<h2>Performance Trends for 2020 – What did I Miss?</h2>
+<p>Those are my top six predictions for 2020. What do you think? Let me know in the comments.</p>
+<p>Also, to properly prepare for these technologies and trends, I highly recommend you register for PerfGuild 2020 and get a jump start on many of the trends we covered here.</p>
+<p>Register now for ===&gt; <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild 2020</a></p>
+<p> </p>
+<p><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid transparent;"/>
+      </div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '593311440870141');
+  fbq('track', 'PageView');
+</script><br />
+<br /><br />
+<br /><a href="https://testguild.com/performance-trend-2020/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -325,212 +665,6 @@
 </div>
 <p><br />
 <br /><a href="https://saucelabs.com/blog/the-power-of-digital-confidence">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>For the 8th week in a row, we’re live for our #NeotysPAC Meet Up, this time wit&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/for-the-8th-week-in-a-row-were-live-for-our-neotyspac-meet-up-this-time-wit/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 20 May 2020 19:25:57 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[8th]]></category>
-		<category><![CDATA[Live]]></category>
-		<category><![CDATA[Meet]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[row]]></category>
-		<category><![CDATA[Time]]></category>
-		<category><![CDATA[week]]></category>
-		<category><![CDATA[wit]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/for-the-8th-week-in-a-row-were-live-for-our-neotyspac-meet-up-this-time-wit/</guid>
-
-					<description><![CDATA[🍻☕️ For the 8th week in a row, we’re live for our #NeotysPAC Meet Up, this time with Zak Cole,]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> For the 8th week in a row, we’re live for our <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3341067362571370%3Atop_level_post_id.3341067362571370%3Atl_objid.3341067362571370%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3341067362571370%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3341067245904715%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1590002757%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3341067362571370%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3341067362571370%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A4602795987009630257&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet Up, this time with Zak Cole, David Jones, Henrik Rexed, Mark Tomlinson and Preston Van Loon about &#8220;Ensuring performance on Blockchains&#8221;. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f468-200d-1f4bb.png" alt="👨‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /> Thanks to all attendees for joining us for this <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3341067362571370%3Atop_level_post_id.3341067362571370%3Atl_objid.3341067362571370%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3341067362571370%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3341067245904715%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1590002757%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3341067362571370%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3341067362571370%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A4602795987009630257&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> Meet-Up <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" />
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/99118566_3341067255904714_827185433916997632_o.jpg?_nc_cat=110&#038;_nc_sid=8024bb&#038;_nc_ohc=_Zk4Mz9OB0YAX_GAE8V&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=4202ba59de58334d2ea1dc7bdf4a19d8&#038;oe=5EEBC5AB" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3341067362571370">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>NetWalker Ransomware Gang Hunts for Top-Notch Affiliates</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/netwalker-ransomware-gang-hunts-for-top-notch-affiliates/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 20 May 2020 17:37:48 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Affiliates]]></category>
-		<category><![CDATA[Gang]]></category>
-		<category><![CDATA[Hunts]]></category>
-		<category><![CDATA[NetWalker]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[TopNotch]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/netwalker-ransomware-gang-hunts-for-top-notch-affiliates/</guid>
-
-					<description><![CDATA[The operators behind the Toll Group attack are taking applications for technically advanced partners. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The operators behind the Toll Group attack are taking applications for technically advanced partners.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/netwalker-ransomware-gang-top-notch-affiliates/155946/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Fraudulent Unemployment, COVID-19 Relief Claims Earn BEC Gang Millions</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/fraudulent-unemployment-covid-19-relief-claims-earn-bec-gang-millions/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 20 May 2020 17:27:41 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[BEC]]></category>
-		<category><![CDATA[Claims]]></category>
-		<category><![CDATA[COVID19]]></category>
-		<category><![CDATA[Earn]]></category>
-		<category><![CDATA[Fraudulent]]></category>
-		<category><![CDATA[Gang]]></category>
-		<category><![CDATA[Millions]]></category>
-		<category><![CDATA[Relief]]></category>
-		<category><![CDATA[Unemployment]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/fraudulent-unemployment-covid-19-relief-claims-earn-bec-gang-millions/</guid>
-
-					<description><![CDATA[The business email compromise (BEC) gang Scattered Canary has filed more than 200 fraudulent claims for unemployment benefits and for]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The business email compromise (BEC) gang Scattered Canary has filed more than 200 fraudulent claims for unemployment benefits and for COVID-19 relief funds.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/fraudulent-unemployment-covid-19-relief-claims-earn-bec-gang-millions/155925/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>James Pulley and Preston Van Loon will be with us for our 8th #NeotysPAC tonigh&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/james-pulley-and-preston-van-loon-will-be-with-us-for-our-8th-neotyspac-tonigh/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 20 May 2020 16:23:30 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[8th]]></category>
-		<category><![CDATA[James]]></category>
-		<category><![CDATA[Loon]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[Preston]]></category>
-		<category><![CDATA[Pulley]]></category>
-		<category><![CDATA[tonigh]]></category>
-		<category><![CDATA[van]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/james-pulley-and-preston-van-loon-will-be-with-us-for-our-8th-neotyspac-tonigh/</guid>
-
-					<description><![CDATA[🍻☕️ James Pulley and Preston Van Loon will be with us for our 8th #NeotysPAC tonight about &#8220;Ensuring performance on]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f37b.png" alt="🍻" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2615.png" alt="☕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> James Pulley and Preston Van Loon will be with us for our 8th <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3340722562605850%3Atop_level_post_id.3340722562605850%3Atl_objid.3340722562605850%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3340722562605850%3Acall_to_action_type.MESSAGE_PAGE%3Apage_id.163354693676002%3Aphoto_id.3340721965939243%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1589991810%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3340722562605850%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3340722562605850%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1590994799%3A-6482896641010179908&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeotysPAC</a> tonight about &#8220;Ensuring performance on Blockchains&#8221;. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" />  They join the other speakers Zak Cole, Nikolai Grabner, David Jones, Henrik Rexed and Mark Tomlinson <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f468-200d-1f4bb.png" alt="👨‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Last chance to register <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3fOxPQN%3Ffbclid%3DIwAR1L8oKO6C9kMwaTmj8JoY52jn_WmftQoAhgTbaINqDHkZHVBa2oU-eaBKI&amp;h=AT0RumzGdncqLE3T8MAbmKUqZ0Hchs8v4PQOyXEWUcyDfxQmhqL-ReaksTXRsj1ltjCGR9zrQAQfymDmr4fDzGEzBmcBTvHIfCDfsHtXP-nwn5rdakFfCTLktveICoBfNtVxTpjnrGBP_aEI_RbLgF9N0A8R6KySyZYAQGZLZ_K-5SjOJ9qGdEMmRcB_kvroNMGQAYtqb2CTD4UI5QnwzmbgUnMHAaF1NUkT2o-qQD5wKhtkhU9Ws2SmpG_bpmQkdq3BuUwkNLfJm-W_hol7605JxlYKLW9I3Ej-wPxonjm-sx3sjRok7JbWuXZFHvxR4s8UjYQhsDflA3K4X1u0vB359kw_u_92AjwJLLpD3WjZWaqL7TuiqZRdU43QkgzhA9M6WUJ4VQ0s6oj4xPzSkzrLJ5efIhjh5r4PKUGGy-DT0g5dawGGqZNnwAxVG2S1Ea4WTg7HR2EFm1lpBY5QIsTE6e9qBd8uQX0mZb2OW4BNw8VKZQ4hC2rPZGtR--TzJM-yCsn5-D5PGnNUaRiO6ZuU8k5Vs92yqneLfksDvedSdpRh2wvpoVmQ8pmWn1vo2UpiwWnLNzpUgNnZTLI0J_4NZgFRRQOv5jaJqJZtGHWoVYeRqVWUddYYm_3Xw9EkcyHwwzdfOa1f6YzuQ2qlwWrqbpjvYfnZFctXeeqgNh_gbGvky32PJl5QePs3SyuZFGbTj2uLrjMl-muFT-gihlpwNT3loEEoGR147naaxTHfqeWfdfNhOPLx4lz3U7m4ZbmDRUBrSYcrWZYeHqCTRnTpROPRfJcvVNfAjLHy9fzGMpHg9CGvU_7whUpS_lC15KrD1aByBM0J9DtqlpaCjGWDTGZRDDHbzqNF07vxxddfRfl_nfvFckTGafkejIWEXEA0l4X7cO3VKCQMYC9VuveaJn5n7B7d7Sglmudcs4nStdmtkDYXqzGbZ1PZuo_V7VI-Id70mpGlg-qwZ4kNRYBciWl_cPYMlMGSrKjP3otAeuKWpNZo6rrM6tHSLySytyxDIiA-NLs52GK3RmjPpLQrqGIjRWNFt9x0T2lRSi628Wd-kLuwhqtphJyAbbkmJ2i8F6UoFT-jd-X7DawENmkNyscxBYbdDBUsTvi2z2_cT4pinAMeW2I3kJpPoolzlx9qhihIE5xE4Wb-343_6gTVKn5LVsiw93XI_DKcxRRWt0bs18ocymtjLFE6Hh1xtVRPCdwUIySe5qQCEHHkD31QdVFdSzhZ4jydGkjohbXlhmtg-ptEnM46qv7eJQ" rel="noopener noreferrer">https://bit.ly/3fOxPQN</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/98270930_3340721969272576_7038406260802191360_o.png?_nc_cat=103&#038;_nc_sid=8024bb&#038;_nc_ohc=GGrbnpTVUd8AX-06Uk5&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=b90258ad0e0498a00486eb39bcd43a33&#038;oe=5EEBF91E" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3340722562605850">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>4 DevOps anti-patterns that lead to disaster</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/4-devops-anti-patterns-that-lead-to-disaster/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 20 May 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[antipatterns]]></category>
-		<category><![CDATA[DevOps]]></category>
-		<category><![CDATA[Disaster]]></category>
-		<category><![CDATA[lead]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/4-devops-anti-patterns-that-lead-to-disaster/</guid>
-
-					<description><![CDATA[As is the case with many practices, DevOps has its fair share of destructive anti-patterns. And some of them, such]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>As is the case with many practices, DevOps has its fair share of <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-agile-leaders-should-stop-demanding-consistency-teams" rel="noopener noreferrer">destructive anti-patterns</a>. And some of them, such as the often celebrated &#8220;hero&#8221; anti-pattern, described below, can seem like a good idea at the time, but create devastation in the long run. </p>
-<p>Here&#8217;s how to recognize anti-patterns, understand how they arise, and act to prevent them before <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">they disrupt your DevOps projects</a>. </p>
-<p><em>[ Continuous delivery and release automation (CDRA) demands speed and quality. Find out how in <a target="_blank" href="https://content.microfocus.com/l/continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to CDRA</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/forrester-wave-cdra-q418?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave on CDRA</a>.  ]</em></p>
-<h3>Anti-patterns explained</h3>
-<p>In software development, a pattern is simply a description of how to solve a problem. Sometimes that pattern is evident after the software has been created, and sometimes specific problems suggest the implementation of a specific pattern.</p>
-<p>Patterns create a vocabulary for talking about software solutions in a way that most people can understand.</p>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/best-practices-anti-patterns-containerized-deployments" rel="noopener noreferrer">An anti-pattern is a pattern</a> that you use to fix a short-term problem at the expense of your long-term goals. The insidious thing about anti-patterns isn&#8217;t that they don&#8217;t work or fail outright, but that they work in the short term while causing long-term failure and pain.</p>
-<p>You got out of the frying pan for now, only to get into the fire later.</p>
-<h3>Why anti-patterns are so sneaky</h3>
-<p>People follow anti-patterns because they are useful in the short term. &#8220;In some cases, even the anti-patterns are better than not doing it at all. It is important to recognize this and not kid yourself into a false sense of security,&#8221; said my colleague <a target="_blank" href="https://www.linkedin.com/in/jrichardmills/" rel="nofollow noopener noreferrer">Rich Mills</a>, DevOps solution architect at Coveros.</p>
-<p>The problem arises when an anti-pattern becomes the new normal and the team stops there. The ability to recognize that you are using an anti-pattern and knowing how to get out of it is a key skill for continuously improving teams.</p>
-<p>If you must embrace an anti-pattern, also embrace what you&#8217;ll need to do to move out of that anti-pattern as soon as you can. </p>
-<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/optimize-devops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the secrets of successful DevOps initiatives</a> in TechBeacon’s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/optimizing-devops-EMA-report?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Optimizing DevOps Initiatives: Both Sides of the DevOps Divide</a> report ]</em></p>
-<h3>The hero anti-pattern</h3>
-<p>Consider the classic hero anti-pattern, where one person or a small group goes to extraordinary lengths to deliver a project, usually by working a lot of extra hours to complete a project by the deadline.</p>
-<p>To meet the timetable, however, the team may include substandard or dangerous code. In some parts of the industry, the hero pattern is not only in use but expected and celebrated. It has become a badge of honor to be a hero on a project. And, truth be told, there are <a target="_blank" href="https://techbeacon.com/devops/dont-be-devops-hero-youre-just-creating-devops-silo" rel="noopener noreferrer">times when teams need heroes</a>.</p>
-<p>But there are long-term consequences of the hero anti-pattern. These include burnout and the development of negative relationships between team members. The latter often stem from the resentment of the &#8220;heroes&#8221; who supposedly saved the project from the people who didn&#8217;t go to the same lengths.</p>
-<p>And when heroes burn out and leave the organization, they usually don&#8217;t leave behind the history of what they did because, when they were struggling to finish, many things, such as testing and documentation, got left out. This leads to lower-quality software with less stakeholder confidence in both the software and the team&#8217;s ability to deliver value.</p>
-<p>In many cases, the hero anti-pattern is a reaction to management failure. The work wasn’t planned with the team’s capacity to deliver in mind. The team was asked to do more than it reasonably could given the schedule. There are many reasons why this happens, including regulatory demands, unmanaged stakeholder expectations, budget constraints, and unforeseen challenges.</p>
-<h4>How to fix it</h4>
-<p>One way to avoid dependence on heroes is to better manage the work scope, your deadlines, and expectations. This can be a tall order, but it is a way to finish your goals and not burn out your team.</p>
-<p>Another way to not need heroes is to <a target="_blank" href="https://techbeacon.com/security/application-security-risk-report-2019-6-takeaways-your-app-sec-team" rel="noopener noreferrer">do risk analysis on the project</a><a target="_blank" href="https://content.microfocus.com/application-security-risk-tb/app-security-risk-takeaways?lx=qatC0j&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>to determine what could derail the work. This will allow the team to incorporate risk mitigation into the work schedule. It can also get the team to estimate the work beyond best case scenarios.</p>
-<p>You can also estimate using a range so that you don&#8217;t set the expectation that your estimates are certain and exact. Many agile teams use <a target="_blank" href="https://en.wikipedia.org/wiki/Fibonacci_number" rel="nofollow noopener noreferrer">Fibonacci numbers</a> for assessments for just this reason; they want to model the uncertainty in their estimates.</p>
-<h3>The continuous build anti-pattern</h3>
-<p><a target="_blank" href="https://techbeacon.com/devops/epic-devsecops-fails-6-ways-fail-right-way" rel="noopener noreferrer">DevOps isn&#8217;t immune to anti-patterns</a>, and continuous build (CB) is one such example. It&#8217;s what you get when you set up a continuous integration (CI) server without actually having a unit test suite or running code quality analysis on the codebase. You are building the software with each check-in. </p>
-<p>(To clarify: CB is a subset of CI where you are only doing the first part of CI, and that is building. CI incorporates build, unit tests, and code quality static analysis.)</p>
-<p>The CB anti-pattern is often <a target="_blank" href="https://techbeacon.com/devops/how-migrate-legacy-code-bases-continuous-delivery" rel="noopener noreferrer">used with legacy applications</a> or with a team as they transition to agile and DevOps. It often starts out with good intentions—you decide to put a CI server in place and start building tests. You don&#8217;t want to scare people with the large number of what you think are harmless issues by publishing code-quality metrics, so you tell yourself that you will put quality metrics in place after you&#8217;ve cleaned the code up.</p>
-<p>But then feature requirements take the team&#8217;s attention away, and it never gets back to a place where it has enough unit tests to <a target="_blank" href="https://techbeacon.com/app-dev-testing/need-testing-metric-put-points-your-test-cases" rel="noopener noreferrer">start using quality metrics</a>, and it never finds time to clean up the codebase. The team is caught in a place where all it is doing is building the software with each check-in.</p>
-<p>One thing you often hear when you talk to a team about this situation is, &#8220;It is so much better now than it was.&#8221; And this is often true; it is better to have a continuous build where you know if your software compiles and packages correctly than it was to build once a week, month, or longer and have to worry about making the software compile after an unknown number of changes.</p>
-<p>Projects used to fail because huge parts of it were written in isolation and the differences couldn&#8217;t be resolved in a reasonable timeframe. But just because things are better now doesn&#8217;t mean they can&#8217;t be even better.</p>
-<h4>How to fix it</h4>
-<p>The goal of CI is to have confidence that you can merge the code written by different team members, compile it, and have it still work as the code author intended. You can&#8217;t do that without tests, and often unit tests are the right level of tests for that specific job.</p>
-<p>The way to move continuous build into CI is to put that confidence back into the process by turning on unit testing and code quality analysis. Get your team, product owner, and stakeholders to agree to a change in your practices so that you will increase your unit test code coverage over time.</p>
-<p>Get them to also agree to pay down your code quality <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">technical debt</a> over time. These are issues that were created over time, and it will take time to resolve them, but only if you can agree on resolving them.</p>
-<h3>Creating a DevOps silo anti-pattern</h3>
-<p>Many organizations start their DevOps journey by adding a new DevOps silo that becomes the middleman between dev and ops. This becomes an anti-pattern when an organization stops moving dev and ops closer together into one team and just keeps the DevOps silo.</p>
-<p><span class="disclaimer">Creating a separate DevOps silo used long-term is an antipattern.</span> </p>
-<h4>How to fix this</h4>
-<p>When a DevOps silo is created, the goal should be to work the dev and ops teams out of a job by bringing them closer together so that they collaborate as a conscious part of the work. The DevOps silo should have a defined time to &#8220;live&#8221; as part of the transformation charter. It should be something reasonable, say one to three years, and after that time the silo should no longer be needed. </p>
-<p><span class="disclaimer">Within three years, your DevOps group should be structured like this.</span></p>
-<p>In fact, the whole organization should be incented to help make the changes required to no longer need that silo, and the organization should have overlapping dev and ops groups where the DevOps work is done in the intersection.</p>
-<h3>Selective automation</h3>
-<p>This is what happens when office politics interferes with DevOps. It occurs when specific functions are excluded from automation because the people in charge of that function don&#8217;t, for whatever reason, want to have automation in their area. Being a bottleneck isn&#8217;t their problem.</p>
-<h4>How to fix this</h4>
-<p>To get the most value out of automation you need to have specific criteria used to <a target="_blank" href="https://techbeacon.com/devops/how-automate-your-continuous-integration-collaborations" rel="noopener noreferrer">select what you automate</a>. These criteria could be based around what is most repetitive, the riskiest part of your process, where automation will create the highest ROI, or what takes the most time.</p>
-<p>Once you set that criteria you should stick with it and <a target="_blank" href="https://techbeacon.com/enterprise-it/how-get-started-rpa-5-projects-consider" rel="noopener noreferrer">automate processes </a>based on the priority generated from your selection criteria. Automating tasks that aren’t the highest priority can make your process <em>less</em> effective because it will create more backup in your critical path tasks as the automated, noncritical path tasks are completed faster.</p>
-<h3>Recognize the warning signs</h3>
-<p>I&#8217;ve discussed four particularly pernicious anti-patterns here, but there are more to be aware of. As DevOps continues into the mainstream of software development, you can learn how to recognize and avoid anti-patterns. They may seem reasonable at first, but they&#8217;re bound to be damaging to your team—and your company—in the long run.</p>
-<p><em>Want to know more? During my session, &#8220;Continuous Build and Other DevOps Anti-patterns,&#8221; at the <a target="_blank" href="https://agiledevopseast.techwell.com/" rel="nofollow noopener noreferrer">Agile + DevOps Virtual Conference</a>, I&#8217;ll explain more anti-patterns and how to combat them—including more about how to avoid the DevOps silos and selective automation issues raised above. The conference runs June 7-12, 2020.</em></p>
-<p><em>[ Get up to speed on quality-driven development with <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s new guide</a>. Plus: <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Download the World Quality Report 2019-20 </a>for lessons from leading organizations. ]</em></p>
-</p></div>
-<p><br />
-<br /><a href="https://techbeacon.com/devops/4-devops-anti-patterns-lead-disaster">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Contributing to RobotFramework-Zoomba</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/contributing-to-robotframework-zoomba/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 May 2020 18:25:25 +0000</pubDate>
-				<category><![CDATA[QE Announcement]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2172</guid>
-
-					<description><![CDATA[Does you team have a helper keyword that has made testing easier? Has your team created a bunch of keywords]]></description>
-										<content:encoded><![CDATA[
-<p>Does you team have a helper keyword that has made testing easier? Has your team created a bunch of keywords for testing functionality that is not well covered by existing options?&nbsp;<br><br>If so the QE team is looking for your keywords and functions to expand our open source&nbsp;<a href="https://github.com/Accruent/robotframework-zoomba" rel="noreferrer noopener" target="_blank">robotframework-zoomba</a>! &nbsp; Take a look at&nbsp;<a href="https://accruent.atlassian.net/wiki/spaces/QA/pages/1490290990/Contributing+to+RobotFramework-Zoomba" rel="noreferrer noopener" target="_blank">this confluence page for more information</a>&nbsp;on etching your work into the halls of open source history. Also I mean if a rouge AI tries to take over the world some day I would assume open source code contributions will get you a bit of an AI&#8217;s version of &#8216;pity&#8217;&#8230;just saying. &nbsp;</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-cus-d8-21c6dab71d9b416c4a2c8e626023f37b/views/imgo" target="_blank" rel="noreferrer noopener"><img src="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image.jpeg" alt="" class="wp-image-2176" srcset="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image.jpeg 496w, http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/05/image-226x300.jpeg 226w" sizes="(max-width: 496px) 100vw, 496px" /></a></figure>
 ]]></content:encoded>
 					
 		
