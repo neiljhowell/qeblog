@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 26 May 2020 12:10:01 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 26 May 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,107 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How to go from performance tester to performance engineer</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-go-from-performance-tester-to-performance-engineer/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[engineer]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Tester]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2240</guid>
+
+					<description><![CDATA[Companies are increasingly recognizing the value of performance engineering, which goes well beyond performance testing. These organizations now require the capability to]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p dir="ltr">Companies are increasingly recognizing <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-critical?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the value of performance engineering</a>, which goes well beyond performance testing. These organizations now require the capability to fix performance issues whenever and wherever they exist—and they&#8217;re willing to pay a premium for those skills. That’s why many performance testers are stepping up their game.</p>
+<p dir="ltr">While <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-testing-to-engineering?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the journey from performance tester to performance engineer</a> isn&#8217;t easy to complete, it <em>is</em> easy to start. You&#8217;ll just need to acquire a few skills and learn some new problem-solving techniques.</p>
+<p dir="ltr">Here&#8217;s how to start your own journey.</p>
+<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
+<h3>Performance testing is part of performance engineering</h3>
+<p dir="ltr">The first thing to understand about <a target="_blank" href="https://techbeacon.com/resources/performance-engineering-ebook-report-load-testing" rel="noopener noreferrer">performance engineering</a> is that performance testing is just one aspect of it. Performance engineering has a broader scope.</p>
+<p>Why the current emphasis on performance engineering over just testing? Because testing product performance at the end of the software development cycle produces too much <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">technical debt</a> and causes too much rework. It&#8217;s too expensive.</p>
+<p dir="ltr">Companies need to figure out how to build performance into products as early as possible in the development process, and that requires more than just performance testing. When development teams are discussing functionality, security, or any topic for that matter, performance should be part of the conversation.</p>
+<p dir="ltr">Here are seven areas where performance should play a key role.</p>
+<p dir="ltr"><em>Figure 1. Performance engineering plays a role in every phase of the software development lifecycle. Source: Scott Moore</em></p>
+<h3>Performance testing is still important </h3>
+<p dir="ltr"><a target="_blank" href="https://techbeacon.com/app-dev-testing/dont-do-performance-testing-production-environments-only" rel="noopener noreferrer">Performance testing is still a crucial part</a> of software and infrastructure validation. Doing that accurately and efficiently takes time. This is especially true during the planning phase as well as during test results analysis.</p>
+<p dir="ltr">Producing data that guides businesses to make good decisions takes experiential knowledge. Unfortunately, there aren&#8217;t many people who do all of this extremely well.</p>
+<p dir="ltr">Building a set of reusable documents and other deliverables (&#8220;templates&#8221;) to use in the initial planning phase and final reporting will speed your initial startup time. I recommend working with or learning from others with experience to build out some of these templates.</p>
+<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
+<h3>How to make the transition to performance engineer</h3>
+<p>How do you make <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-embed-performance-engineering-your-pipeline" rel="noopener noreferrer">the transition from performance tester to performance engineer</a>? Start with these three high-level changes:</p>
+<ul>
+<li>
+<p dir="ltr" role="presentation"><strong>Widen your perspective. </strong>Instead of thinking about whether a test passes or meets the requirements, think about whether the end user will be delighted. Look at the app through the user&#8217;s eyes.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Include the whole lifecycle in your scope. </strong>Think about all of the areas you might need to address performance. Do the requirements include the right performance criteria? Are units of code, all the individual pieces, and the whole thing together performant? What does the end user think? How do you know the answers to these questions? What are you looking at that tells you whether performance is good or bad, or when it changes?</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>See a need, fill a need.</strong> As you learn to apply performance to a given situation, you&#8217;ll start to notice holes, places where the team is not considering performance. Your job is to attempt to fill those holes. Because you now see the whole software development lifecycle, you aren&#8217;t limited to thinking just about the testing phase. Help wherever there is an issue, even if it isn&#8217;t in your formal job description.</p>
+</li>
+</ul>
+<h4>Tech skills to master</h4>
+<p dir="ltr">There are also a few technical skills you’ll need to pick up.</p>
+<ul>
+<li>
+<p dir="ltr" role="presentation"><strong>Gain front-end performance knowledge, specifically regarding the browser itself.</strong> JavaScript, HTML, CSS, and other client-side components contribute to the performance of web page response times. Know how each affects the metrics you see <a target="_blank" href="https://www.lifewire.com/web-browser-developer-tools-3988965" rel="nofollow noopener noreferrer">in browser developer tools</a>, such as time to first byte, idle time, and so on. Learn how the underlying protocols—such as HTTP(S), QUIC, and web sockets—work from the browser to the back-end servers.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Learn how to gather <a target="_blank" href="https://techbeacon.com/app-dev-testing/beyond-fast-understanding-performance-engineering-metrics-really-matter" rel="noopener noreferrer">the right metrics</a> needed to tell the performance story.</strong> This includes utilities for Windows and Linux, open-source products such as Prometheus to monitor containers and Kubernetes clusters, or commercial tools such as total <a target="_blank" href="https://techbeacon.com/enterprise-it/6-application-performance-management-trends-watch" rel="noopener noreferrer">application performance monitoring</a> solutions. Combine these with end-user monitoring (timings from the user&#8217;s perspective) and real-user monitoring (grabbing times from actual user activity).</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Learn how continuous integration (CI/CD) products such as Jenkins, Bamboo, and others work. </strong>Set up a strategy for building out a continuous performance engineering process so that you can report metrics with each new build and you can observe trends as early as possible.</p>
+</li>
+</ul>
+<h3>Shift performance left</h3>
+<p dir="ltr">As a performance engineer you need to shift left by doing these three very simple things:</p>
+<ol>
+<li>
+<p dir="ltr" role="presentation"><strong>Ask whether the business process workflow performs well for a single person.</strong> Baselining the application by gathering initial metrics from the browser or sites such as <a target="_blank" href="https://www.webpagetest.org/" rel="nofollow noopener noreferrer">Web Page Test</a> and <a target="_blank" href="https://gtmetrix.com/" rel="nofollow noopener noreferrer">GTMetrix</a> is an easy way to tell. Look at the recommendations from Google Lighthouse from the audits tab in Chrome&#8217;s DevTools. And find out why each suggestion in the report is being recommended.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Work with individual Scrum teams and find out who is taking responsibility for performance in their assigned features. </strong><a target="_blank" href="http://techbeacon.com/app-dev-testing/how-build-performance-requirements-your-user-stories" rel="noopener noreferrer">Review a user story</a> and determine whether it includes solid performance requirements. If possible, provide those teams with limited access to performance testing tools and teach them how to do their own browser audits (as mentioned above) as soon as a feature is working in the development environment.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation"><strong>Question whether performance metrics have been added to the continuous build cycles (the CI/CD pipeline). </strong>If so, who is looking at them? Is anyone reporting performance trends from the output? If not, help to make that possible.</p>
+</li>
+</ol>
+<h3>A real-world example</h3>
+<p dir="ltr">Not long ago I was engaged to load-test a highly customized version of a SaaS product that was replacing all of my client&#8217;s current systems. They had put more than two years of effort into their customized workflows and were just a couple of months away from starting the rollout.</p>
+<p dir="ltr">The statement of work was fairly standard. They wanted to do performance testing of their critical business processes and determine user response times and how well the infrastructure held up under the expected volume. It sounded like a typical testing process.</p>
+<p dir="ltr">After an initial orientation, I asked to see the application. I opened a browser window, went to the URL, logged in, and immediately saw that the page response was slow. So I opened up Chrome DevTools in the browser and started looking at the information in the various tabs for network, performance, and audits.</p>
+<p> </p>
+<div>
+<p dir="ltr"><em>Figure 2. An example view of the performance tab in the </em><em>DevTools feature that&#8217;s built into the Google Chrome browser.</em></p>
+<p dir="ltr">Within minutes I was telling the QA manager that his application would fail under load and that response times would not pass his service-level objective. I didn&#8217;t need to run a test because I knew what to expect, having tested many applications like this one in the past. But they were skeptical as I confidently told them—without any test results to back me up—that the application needed some fundamental architectural changes.</p>
+<p dir="ltr">I was ready to pivot away from the existing statement of work and start working with their developers and architects to tune the application before we did any testing, since that would have provided better value.</p>
+<p dir="ltr">Unfortunately, they rejected my suggestion and insisted that I stick with the original plan of conducting basic load-testing activities. This turned into a six-week exercise, at the conclusion of which I unveiled the brutal news that the application would not scale and needed fundamental architectural changes.</p>
+<p dir="ltr">The client had spent years of time, resources, and money building this application. Unfortunately, the outcome was tragic: They lost millions of dollars, and the failure to launch the application on time led to the resignation of the CIO. If that CIO had had a performance engineer acting as a trusted advisor from the beginning, all of this could have been avoided.</p>
+<p dir="ltr">Performance engineering is really about asking the right questions at the right time.</p>
+<h3>How to get started</h3>
+<p dir="ltr">Performance testing is still important and relevant, and organizations will always need people who are very good at it. <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-techniques?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener noreferrer">Performance engineering</a> has a much broader mandate: It&#8217;s about using additional skills to accomplish the same outcome as you would with performance testing—to make software perform optimally so it delights the end user.</p>
+<p dir="ltr">But with performance engineering, you do that from beginning to end, at every opportunity throughout the software development lifecycle.</p>
+<p dir="ltr">If your software is functional, that&#8217;s good. But if it doesn&#8217;t perform well, it won&#8217;t be considered great. At the end of the day, you should not still be having conversations around how slow applications are or how long web pages are taking to display. That should be a fundamental element built into all areas of the product. It should be engineered in from the start.</p>
+<p dir="ltr">The main difference between an engineer and a tester is that an engineer does not need to run a test to diagnose or assist in correcting a performance issue. (For a more in-depth discussion of the differences, listen to my <a target="_blank" href="https://youtu.be/TWnv6EzfXWM" rel="nofollow noopener noreferrer">podcast discussion </a>with Perfbytes Podcast host <a target="_blank" href="https://twitter.com/perfpulley" rel="nofollow noopener noreferrer">James Pulley</a>.) Performance engineers attack it from every angle.</p>
+<p dir="ltr">To become a performance engineer, all you need is passionate curiosity and a willingness to help. Sometimes just starting a conversation can get the wheels turning in the right direction. </p>
+<p dir="ltr">Your performance engineering journey will never be complete, because the technology changes continually and there&#8217;s always something new to learn. Get started by becoming involved wherever you can to make things faster, continuously asking performance questions, and continuously sharing what you know to educate others on why performance is important and adds value. </p>
+<p dir="ltr"><em>Don&#8217;t miss my talk on &#8220;Effective Performance Engineering&#8221; at the <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/?utm_source=techbeacon&amp;utm_medium=banner&amp;utm_campaign=sponsor" rel="nofollow noopener noreferrer">PerfGuild online conference</a>, to be held June 1-2, 2020. I&#8217;ll cover the basics and provide you with the documentation templates that I use when I do a standard performance testing project. See you there!</em></p>
+</div>
+<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/how-go-performance-tester-performance-engineer">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>New iOS Jailbreak Tool Works on iPhone Models iOS 11 to iOS 13.5</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/</link>
 		
@@ -614,58 +715,6 @@
 			</div>
 <br>
 <br><a href="https://applitools.com/blog/catch-more-bugs/">Source link </a>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The Power of Digital Confidence</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-power-of-digital-confidence/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Confidence]]></category>
-		<category><![CDATA[Digital]]></category>
-		<category><![CDATA[Power]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-power-of-digital-confidence/</guid>
-
-					<description><![CDATA[Now more than ever, consumers and businesses alike are relying on digital experiences to deliver critical services, maintain normalcy, and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Now more than ever, consumers and businesses alike are relying on digital experiences to deliver critical services, maintain normalcy, and provide comfort in uncertain times. From food delivery to video conferencing, streaming services to online banking, the shift to digital-first solutions has been accelerated. And with that shift, it is clear that digital confidence is poised to take the spotlight as a key enabler for organizations that want to grow their business.</p>
-<p>Digital confidence is the idea that everyone in your organization, from leadership all the way down to the developers writing the code, expects that the applications they create function, look, and perform exactly as intended. Organizations that can create a culture and processes that are committed to this idea see a number of positive effects, including:</p>
-<ul>
-<li>
-<p>Improved productivity &#8211; with digital confidence, engineering teams are empowered to continually innovate and build features that customers want. They can then introduce those changes quickly without fear of breaking anything.</p>
-</li>
-<li>
-<p>Better user experience &#8211; digital confidence has the power to permeate your entire business, and that trickles down to your users. Customers who have a great experience with your application are more likely to return, creating reliable repeat business. This leads to the third benefit.</p>
-</li>
-<li>
-<p>Increased revenue &#8211; digitally confident organizations enjoy loyal customer bases, but those that take it one step further are able to create those customers across every channel. Ensuring your application covers web and mobile platforms (every browser, operating system and device combination) gives organizations the ability to reach more markets, and capture more revenue.</p>
-</li>
-</ul>
-<p>This idea isn’t just a theory. There are digital organizations today that are experiencing the above benefits, and more, as they implement practices that build digital confidence.</p>
-<h3><b>Quick Base Removes Testing Bottlenecks to Accelerate Release Velocity</b></h3>
-<p><a target="_blank" href="https://www.quickbase.com/" rel="noopener noreferrer">Quick Base</a> provides a low-code application development platform that allows non-technical developers to create secure cloud applications without compromising IT governance and control. As they adapted their development pipeline to accelerate releases, they realized that testing was a major bottleneck. With a UI regression suite that would take upwards of five hours to complete, they were prevented from creating the fast feedback loops the team needed to deliver more features and capabilities to customers quickly.</p>
-<p>By automating a large subset of tests in Selenium and WebDriver, and using Sauce Labs to run those tests at scale, Quick Base is now running that same UI regression in 15 minutes. This means that they can run these tests not just at the end of the development cycle, but every time a developer checks in code. “We find issues early in the pipeline because we can run tests in parallel,” explains Ken LaBak, a Senior Software Engineer in Test at Quick Base, “The teams get feedback much more quickly, and we can address issues before they ever get into our production environment.”</p>
-<p>This type of fast feedback creates confidence across the entire organization, as they are empowered to deliver features at speed, knowing that there are quality checks built in to ensure the user experience is flawless. Creating this level of digital confidence has helped Quick Base not just in their everyday business, but has also helped them lead the way in the era of COVID-19. To learn more about how Quick Base’s digital confidence has helped in times of need, check out this SauceCon Online talk from Karen Motyka, Director of QA at  Quick Base, “Fighting a Pandemic with Software Quality.“</p>
-<h3><b>LogMeIn Improves Productivity to Build Confidence in Quality</b></h3>
-<p><a target="_blank" href="https://www.logmein.com/" rel="noopener noreferrer">LogMeIn</a> is a leading provider of cloud-based connectivity solutions. In this highly competitive space, their teams understand the importance of speed when bringing new and innovative features to market. They also knew that the mobile market presented opportunities to win more market share. They knew that in order to be confident in the features they were delivering, increasing test coverage was going to be a key factor.</p>
-<p>Using test automation at scale in conjunction with the Sauce Labs Real Device Cloud, LogMeIn was able to provide the platform their teams needed to continuously test throughout the development lifecycle. “We have higher confidence in our software by using Sauce Labs,” says Parameshwaran Murli, Architect at LogMeIn. “Overall, our development teams feel stronger about the test results they’re getting using these two solutions.” This sense of confidence in test results means that developers are empowered to deploy more frequently, knowing that their features work exactly as intended. This allows LogMeIn to penetrate new mobile markets, and create more loyal users of their platforms.</p>
-<h3><b>N26 Creates Creates Flawless Experiences in Their Mobile Banking Application</b></h3>
-<p>Founded in Berlin in 2013, the mobile bank <a target="_blank" href="https://n26.com/" rel="noopener noreferrer">N26</a> has redesigned banking for the smartphone, making it easy, fast, transparent and contemporary. An early player in the mobile-first banking space, they had a unique opportunity to capture new users to gain market share in a competitive industry. And they knew that manual testing was going to prevent them from reaching their goals. </p>
-<p>Coupled with an initiative to automate their tests using Appium, the team at N26 relied on the Sauce Labs Real Device Cloud to provide access to the devices that they needed to ensure the best experience for all of their users. But while some teams think of testing benefits in terms of infrastructure cost or time savings, N26 understands the larger picture of creating digital confidence. According to Martyna Wojna, Quality Assurance Engineer at N26, “The main benefits to our business are continuous releases and happier customers.” Improved productivity gives teams the confidence that they are delivering the best experiences to their customers, and customers inherit that confidence. That has a long lasting effect on the health of the business, as N26 continues to build a growing base of loyal users.</p>
-<h3><b>Building Digital Confidence for Your Team</b></h3>
-<p>After reading these real world stories you might be ready to start building digital confidence for your organization. But many might wonder where exactly they can start. The road to digital confidence is long, and it takes buy-in from every level of the organization. Those teams that are successful in their journeys are the ones that are able to tie testing directly back to key business drivers, such as productivity, user experience, or revenue. If you can make those connections, and show how an improved quality strategy can accelerate gains in these categories, then you are well on your way.</p>
-<p>Sauce Labs offers a number of resources to help you build a case for digital confidence. <a target="_blank" href="https://saucelabs.com/digital-confidence?utm_source=organic&amp;utm_medium=website&amp;utm_campaign=content%20&amp;utm_term=" rel="noopener noreferrer">Visit our website</a>, where we have research demonstrating the value of better customer experiences, reports on the ROI of continuous testing, and more stories like the ones above. Using resources like these as your guide, you’ll be on the path to digital confidence in no time.</p>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/the-power-of-digital-confidence">Source link </a></p>
-]]></content:encoded>
 					
 		
 		
