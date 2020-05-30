@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 26 May 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 May 2020 16:45:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,369 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>NTT Communications Data Breach Affects Customers, Threatens Supply Chain</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ntt-communications-data-breach-affects-customers-threatens-supply-chain/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 May 2020 16:45:09 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Affects]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Chain]]></category>
+		<category><![CDATA[Communications]]></category>
+		<category><![CDATA[Customers]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[NTT]]></category>
+		<category><![CDATA[Supply]]></category>
+		<category><![CDATA[Threatens]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ntt-communications-data-breach-affects-customers-threatens-supply-chain/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/ntt-data-breach-customers-supply-chain/156124/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>3 best practices of the DevSecOps elite</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/3-best-practices-of-the-devsecops-elite/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 May 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevSecOps]]></category>
+		<category><![CDATA[elite]]></category>
+		<category><![CDATA[Practices]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/3-best-practices-of-the-devsecops-elite/</guid>
+
+					<description><![CDATA[Not everyone was grumpy this spring after several weeks on lockdown. In fact, some developers were quite happy. What did]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p dir="ltr">Not everyone was grumpy this spring after several weeks on lockdown. In fact, some developers were quite happy. What did the happy ones have in common? As it turns out, many of them engage in several common best DevSecOps practices, according to this year&#8217;s DevSecOps Community Survey.</p>
+<p dir="ltr">Also, it turns out that <a target="_blank" href="https://techbeacon.com/devops/devsecops-survey-you-need-happy-developers-build-secure-software" rel="noopener noreferrer">happy developers are found in mature DevSecOps practices</a>. And this matters, a lot, said Derek Weeks, co-founder of All Day DevOps and vice president at Sonatype, the survey&#8217;s sponsor</p>
+<blockquote>
+<p dir="ltr">&#8220;Last year, the survey drew clear distinctions between elite DevSecOps practices and immature practices. This year our focus expanded into employee engagement and satisfaction, and its impact on software security.&#8221;<br />—<a target="_blank" href="https://twitter.com/weekstweets" rel="nofollow noopener noreferrer">Derek Weeks</a></p>
+</blockquote>
+<p dir="ltr">Here are three best practices from the front lines of DevSecOps.</p>
+<p><em>[ Continuous delivery and release automation (CDRA) demands speed and quality. Find out how in <a target="_blank" href="https://content.microfocus.com/l/continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to CDRA</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/forrester-wave-cdra-q418?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave on CDRA</a>.  ]</em></p>
+<h3>Engaged developers are happiest—and build more securely</h3>
+<p><a target="_blank" href="https://www.sonatype.com/2020survey" rel="nofollow noopener noreferrer">This year&#8217;s DevOps Community Survey</a>, the seventh annual, brought happiness into focus, demonstrating that happy developers are more engaged at work. Some 92% of developers in mature DevOps practices agreed with the statement &#8220;I am satisfied with my job,&#8221; a rate 1.5 times more than survey participants in less mature practices.</p>
+<p>For years, <a target="_blank" href="https://techbeacon.com/devops/2019-accelerate-state-devops-report-how-elites-drive-high-performance" rel="noopener noreferrer">DORA’s State of DevOps Report</a> has shown similar findings, where DevOps practitioners are most satisfied with their jobs and their businesses are more successful.</p>
+<p dir="ltr">Outside of DevOps transformations, it has long been known that workplaces with high numbers of happy, engaged employees are the most successful. A 2019 Gallup survey shows that companies with engaged employees are <a target="_blank" href="https://www.gallup.com/workplace/267512/development-culture-engagement-paper-2019.aspx" rel="nofollow noopener noreferrer">21% more profitable</a> than their counterparts.</p>
+<p dir="ltr">Happiness affects security, too. According to the survey, happy developers are 3.6 times more likely to <a target="_blank" href="https://techbeacon.com/security/4-steps-transforming-developers-security-people" rel="noopener noreferrer">pay attention to security</a>. Those who <a target="_blank" href="https://techbeacon.com/security/devs-are-key-app-sec-make-training-priority" rel="noopener noreferrer">receive security training</a> are 5 times more likely to enjoy their work.</p>
+<p dir="ltr">Mature practices are 3.8 times less likely to rely on a rumor when it comes to security incidents. Instead, these happy developers focus on empirical evidence from better-integrated tooling and from security teams.</p>
+<h3>Best practices of happy developers</h3>
+<p dir="ltr">The 2020 survey shares many insights into <a target="_blank" href="https://techbeacon.com/security/state-devsecops-5-best-practices-front-lines" rel="noopener noreferrer">DevSecOps practices, training, and culture</a>, but here are some specific best practices companies can take to increase developer happiness.</p>
+<h4>Build a security champions team </h4>
+<p dir="ltr" role="presentation">Happy developers work in places with more mature DevSecOps practices. So actively participate in the transformation, because ultimately it will make your day-to-day work more efficient and enjoyable. As the folks at the <em>Harvard Business Review</em> remind us, &#8220;<a target="_blank" href="http://hbr.org/2017/12/to-get-people-to-change-make-change-easy" rel="nofollow noopener noreferrer">to get people to change, make change easier</a>.&#8221;</p>
+<p>To <a target="_blank" href="https://techbeacon.com/security/you-need-security-champions-6-steps-get-program" rel="noopener noreferrer">create a champion program</a>, nominate one person from each team. Invite everyone, but have these members be the champions for learning security. Host it once a month and supplement it with security training sessions.</p>
+<p dir="ltr" role="presentation">You may find that the team produces more, and does so more effectively, if you keep the gatherings informal. Resist the urge to label roles or reinforce hierarchy, and see what happens. People are likely to surprise you, in a good way.<br /> </p>
+<h4>Invest in automated tooling</h4>
+<p dir="ltr" role="presentation"><a target="_blank" href="https://techbeacon.com/security/how-automation-can-boost-your-security-compliance" rel="noopener noreferrer">Automation helps you produce more secure software</a>, faster. The DevSecOps Community Survey showed that mature DevOps teams integrate automated security tools almost twice as often (1.8 times) as immature development teams.</p>
+<p>A simple way to introduce automation is by using browser tools that put information right where you need it.</p>
+<p dir="ltr" role="presentation">Experiment with automation tools. It may take a few tries to find the ones that work best for your particular project or style of working. Some tools may have learning curves, so be patient. When you find the right tools and come to trust them, they reduce your workload and your stress levels. <br /> </p>
+<h4>Communicate calmly and with candor</h4>
+<p dir="ltr" role="presentation">Building secure software isn&#8217;t just about finding the right coding language. It&#8217;s also about <a target="_blank" href="https://techbeacon.com/enterprise-it/how-put-chatops-work-your-devops-team" rel="noopener noreferrer">refining and improving your communication skills</a>, in all the languages you speak.</p>
+<p dir="ltr">Team dynamics are the basis of a good work culture. Be sure to consider how communication can enhance a workplace experience and improve workplace outcomes.</p>
+<p>Stick to the basics: Be prompt, be professional, and be considerate. Everyone has a lot to manage these days, so an extra dose of kindness never hurts, either. </p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/optimize-devops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the secrets of successful DevOps initiatives</a> in TechBeacon’s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/optimizing-devops-EMA-report?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Optimizing DevOps Initiatives: Both Sides of the DevOps Divide</a> report ]</em></p>
+<h3>Find out more</h3>
+<p dir="ltr"><em>The best practices of happy developers track closely with their workplace environments. To learn more, attend my session at the <a target="_blank" href="https://well.tc/5drq" rel="nofollow noopener noreferrer">Agile + DevOps Virtual </a>conference, which is being held June 8-11, 2020. And download the seventh annual <a target="_blank" href="http://www.sonatype.com/2020survey" rel="nofollow noopener noreferrer">DevSecOps Community Survey</a>, which goes into greater detail about the influence of happiness on developer behavior and business outcomes. </em></p>
+<p><em>[ Get up to speed on quality-driven development with <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s new guide</a>. Plus: <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Download the World Quality Report 2019-20 </a>for lessons from leading organizations. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/3-best-practices-devsecops-elite">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How Can 2 Hours Now Save You 1,000 Hours In The Next Year?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-can-2-hours-now-save-you-1000-hours-in-the-next-year/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 May 2020 03:50:52 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Hours]]></category>
+		<category><![CDATA[Save]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-can-2-hours-now-save-you-1000-hours-in-the-next-year/</guid>
+
+					<description><![CDATA[As a quality engineer, what do you think about when you consider the return on investing an hour of your]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>As a quality engineer, what do you think about when you consider the return on investing an hour of your time? Or two hours? What if it could save you up to half the work hours you spent over the past year?</p>
+<p>If you spend a lot of time writing or maintaining your end-to-end tests, our data shows that you’ll find lots of savings. What would you do with that time?</p>
+<p>I have written previously about our <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">Impact of Visual AI on Test Automation</a> report. And, I have written about the benefits that many of your peers discovered by using Applitools Visual AI. They <a target="_blank" href="https://applitools.com/blog/create-new-tests-much-faster/" rel="noopener noreferrer">reduced the number of lines of code they had to write</a>. Their <a target="_blank" href="https://applitools.com/blog/test-code-efficiency/" rel="noopener noreferrer">code became more stable </a>and <a target="_blank" href="https://applitools.com/blog/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/" rel="noopener noreferrer">easier to maintain</a>. They <a target="_blank" href="https://applitools.com/blog/catch-more-bugs/" rel="noopener noreferrer">caught more bugs with less code</a>. And they learned how to do all this in about one to two hours.</p>
+<p>So, what can an hour or two of your time give you?</p>
+<h2 id="h.ghopl7fhjj7e">ROI For A Quality Engineer Hour</h2>
+<p>Business people like me often talk about return on investment (ROI). If we invest this money today, what does the future payoff look like, and when does it come?</p>
+<p class="has-text-align-center"></p>
+<p>ROI offers a good model for thinking for everyone. Including a decision about how to spend your time to learn a new skill. If you spend an hour learning something now, what is the future benefit to you, and when do you get it?</p>
+<p>The ROI of a quality engineer hour might be measured by:</p>
+<ul>
+<li>Increasing the number of test cases you can run</li>
+<li>Increasing the number of bugs you can uncover</li>
+<li>Decreasing the amount of low-value code you write.</li>
+<li>Decreasing your code maintenance effort.</li>
+</ul>
+<p>So if you’re going to invest one or two hours into learning a new technology, like, say, Visual AI, you would like to see many hours worth of return on your time.</p>
+<p>Visual AI frees you from writing inspection code in your end-to-end tests. Inspection code has the highest chance to contain errors, gets written selectively to provide limited coverage, and still can require a high degree of coding skill.  </p>
+<p>You might think that your value as a software engineer comes from your coding skills, and that often devolves into the inane measure of the value of a software engineer by counting lines of code written. Truthfully, not all code has the same value. In fact, code in of itself has zero value. It’s what that code does to help you test more conditions that matters.</p>
+<h2 id="h.g4us53hqt2en">High-Value Code And Low-Value Code</h2>
+<p>Your end-to-end tests contain both high-value code and low-value code.  </p>
+<p>The high-value code exercises your application. It sets the test cases. It runs execution variations. The high-value code correlates to source code and UI test coverage.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1.jpg" alt="ilya pavlov OqtafYT5kTw unsplash 1" class="wp-image-19426" srcset="https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-300x200.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-1024x684.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-768x513.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-1536x1025.jpg 1536w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-555x370.jpg 555w" sizes="(max-width: 1600px) 100vw, 1600px"/><figcaption>Photo by <a target="_blank" rel="noreferrer noopener" href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ilya Pavlov</a> on <a target="_blank" rel="noreferrer noopener" href="https://unsplash.com/s/photos/html-code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption></figure>
+<p>The low-value code inspects your results. And, if you’re using state-of-the-art coding, you’re inspecting the DOM for output web elements. Some you find with an ID. Others you find with a CSS selector. Some you find with a relative Xpath expression. Sometimes this code can involve incredible complexity. For example, writing all the assertions for reordering a table can involve elegant coding skills. And, yet…</p>
+<p>If you review your end-to-end tests, much of your code determines whether the DOM contains the proper elements to let you conclude that the app passed. And, you have become good at triage. You cannot cover the state of every element in the DOM, so you become great at selecting code to inspect that tells you if your test passed or failed. Still, you write a lot of inspection code compared to execution code – and you only inspect a selected subset of the DOM.</p>
+<p>But, the time you take writing this low-value code detracts from some of the high-value activity you can add to your end-to-end tests. For instance – you can write the preconditions for each test to ensure that they can be run independently – and, thus, in parallel. You can review the test conditions evaluated by each test to eliminate redundancy and improve automation accuracy.</p>
+<p>What about maintenance? We didn’t even include code maintenance efforts you undertake between releases. That is yet more end-to-end coding effort you need – to validate and update existing tests, add new tests, and resolve failures – every time you modify the application. And, yes, some of that code provides new or modified test conditions. As well, some of that code needs to modify your inspection code.</p>
+<h2 id="h.ag620l9hruwl">Visual AI Replaces Low-Value Code</h2>
+<p>When we developed Visual AI, we recognized that a quality engineer makes trade offs. One engineer can only write a finite number of lines of code. An incomplete test has no value. So, every line of code needed to execute a test and validate the results makes a complete test.</p>
+<p>We also recognized the limitations of DOM inspection for test results validation. Inspected thoroughly, the DOM represents the elements of the page to be rendered by the browser. And, one can write a detailed DOM inspection – and even account for variations in the DOM structure between releases. However, that depth of inspection involves complexity that rarely pays off for the coder. So, most coders spot-check their DOM – and can miss unexpected changes between releases unless validating the application through manual testing.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/root-cause-flow.png" alt="root cause flow" class="wp-image-19424" srcset="https://applitools.com/wp-content/uploads/2020/05/root-cause-flow.png 826w, https://applitools.com/wp-content/uploads/2020/05/root-cause-flow-300x90.png 300w, https://applitools.com/wp-content/uploads/2020/05/root-cause-flow-768x232.png 768w" sizes="(max-width: 826px) 100vw, 826px"/></figure>
+<p>Visual AI uses one line of code to capture every visual element on your web page – and the state of the DOM that created the page. Once captured, Visual AI compares your captured version to your baseline. Then, Visual AI highlights for you the real user-noticeable differences between the baseline and the new capture. From there, you choose to accept the changes as expected new features or reject them as bugs. And, you can link those differences directly to the DOM code used to generate those differences.</p>
+<p>Since inspection statements make up the bulk of your end-to-end test code, by adding Visual AI, you can eliminate the bulk of your inspection statements – letting you write code faster, making your code more stable, and allowing you more time to work on high-value test automation tasks.</p>
+<h2 id="h.mw68rurcqeh5">How Long Does It Take To Learn Visual AI?</h2>
+<p>When we started the Applitools Visual AI Rockstar Hackathon, we directed participants to two courses on <a target="_blank" href="https://testautomationu.applitools.com/" rel="noopener noreferrer">Test Automation University (TAU)</a>. TAU, offered exclusively by Applitools, offers classes on a range of technologies, including:</p>
+<p>We pointed participants to one course written by <a target="_blank" href="https://www.linkedin.com/in/rajaraodv" rel="noopener noreferrer">Raja Rao</a> describing how to <a target="_blank" href="https://testautomationu.applitools.com/modern-functional-testing/index.html" rel="noopener noreferrer">modernize your functional tests with Visual AI</a>. Raja walked through the different test cases on the Hackathon in about an hour. We also pointed participants to a course by <a target="_blank" href="https://www.linkedin.com/in/angiejones" rel="noopener noreferrer">Angie Jones</a> on how to <a target="_blank" href="https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/index.html" rel="noopener noreferrer">add Visual AI to your test automation</a>.  Each course took approximately an hour.</p>
+<p>Hackathon participants got pretty amazing results. After an hour or two of classes, they applied their knowledge of Visual AI and found:</p>
+<ul>
+<li>Average test coverage jumped from 65% for coded inspection to 95% for Visual AI</li>
+<li>Test writing time, on average, dropped from a little over 7 hours to a little over 1 hour.</li>
+<li>The amount of code they wrote dropped significantly</li>
+</ul>
+<p>So, for one or two hours of learning, Hackathon participants got faster test writing, more coverage, and less code.</p>
+<h2 id="h.2byhyeltva26">Testing Visual AI Yourself</h2>
+<p>In the end, testing is a scientific activity. We run a series of tests and make observations – pass or fail.</p>
+<p>In this blog, you’re reading a bunch of claims about Visual AI. These are based on data that we shared in our report about the Hackathon results.</p>
+<p>What do these claims mean to you?</p>
+<p>I recommend that you test these claims yourself. The claim – one or two hours of learning can help you write tests:</p>
+<ul>
+<li>With comprehensive inspection</li>
+<li>Requiring less code</li>
+<li>More easily maintained</li>
+<li>Let you focus your time on high-value test activity.</li>
+</ul>
+<p>If true, would that be worth the investment?</p>
+<p>It is up to you to find out.</p>
+<h2>Learn More</h2>
+<p><em>James Lamberti is CMO at Applitools</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/two-hours-learn-visual-ai/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>VX Maintain &#124; Managing Your Contractors &#038; Invoices</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-contractors-invoices/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 27 May 2020 16:49:12 +0000</pubDate>
+				<category><![CDATA[Accruent]]></category>
+		<category><![CDATA[amp]]></category>
+		<category><![CDATA[Contractors]]></category>
+		<category><![CDATA[Invoices]]></category>
+		<category><![CDATA[Maintain]]></category>
+		<category><![CDATA[Managing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-contractors-invoices/</guid>
+
+					<description><![CDATA[Learn more about vx Maintain: https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain source]]></description>
+										<content:encoded><![CDATA[<p><iframe  width="580" height="385" src="https://www.youtube.com/embed/EnQFAy-uP6E" frameborder="0" allowfullscreen></iframe><br />
+<br />Learn more about vx Maintain: <a target="_blank" href="https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain" rel="noopener noreferrer">https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain</a><br />
+<br /><a href="https://www.youtube.com/watch?v=EnQFAy-uP6E">source</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>VX Maintain &#124; Managing Your Facilities</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-facilities/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 27 May 2020 16:46:34 +0000</pubDate>
+				<category><![CDATA[Accruent]]></category>
+		<category><![CDATA[Facilities]]></category>
+		<category><![CDATA[Maintain]]></category>
+		<category><![CDATA[Managing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-facilities/</guid>
+
+					<description><![CDATA[Learn more about vx Maintain: https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain source]]></description>
+										<content:encoded><![CDATA[<p><iframe  width="580" height="385" src="https://www.youtube.com/embed/TWQ67Cs3x6A" frameborder="0" allowfullscreen></iframe><br />
+<br />Learn more about vx Maintain: <a target="_blank" href="https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain" rel="noopener noreferrer">https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain</a><br />
+<br /><a href="https://www.youtube.com/watch?v=TWQ67Cs3x6A">source</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Next Generation of Cross Browser Testing is Ultrafast</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-next-generation-of-cross-browser-testing-is-ultrafast/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 27 May 2020 04:29:14 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Cross]]></category>
+		<category><![CDATA[Generation]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Ultrafast]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-next-generation-of-cross-browser-testing-is-ultrafast/</guid>
+
+					<description><![CDATA[Overview The intent of this post is to share with you details of the Applitools Ultrafast Grid, an evolution in]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<h2 id="h.wilel9hbgiij">Overview</h2>
+
+
+
+<p>The intent of this post is to share with you details of the <a target="_blank" href="https://applitools.com/ultrafast-grid/" rel="noopener noreferrer">Applitools Ultrafast Grid</a>, an evolution in <a target="_blank" href="https://applitools.com/blog/cross-browser-testing-ultrafast-grid/" rel="noopener noreferrer">cross-browser testing</a> designed for modern teams who test modern apps at scale.</p>
+
+
+
+<p>The Ultrafast Grid represents the first true breakthrough in cross-browser testing architecture since it’s initial inception many years ago. It’s important to understand the differences between the traditional approach to cross browser testing and the modern approach that Applitools has taken.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:heading -->
+<h2 id="h.do20x0782qub">Early Web</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Taking a look back at how the internet has evolved can certainly be nostalgic. Have you ever visited the <a target="_blank" href="https://archive.org/web/" rel="noopener noreferrer">‘Way Back Machine’</a> and looked for companies that have been around for a while? It’s amazing how far the web has evolved. In its infancy, sites were mostly static, there were few content creators, blinking text and bad gifs were drastically over-used and web applications were just not sophisticated. The internet was often accessed via all-in-services like AOL or Prodigy, and for advanced users, a dedicated browser like Netscape Navigator.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":19357,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"></figure><!-- /wp:image --><!-- wp:paragraph --><p>Fast forward to the late 90’s where usage of all-in-one providers diminished and a browser war began between IE and Netscape. At the time, web standards were poorly defined and web applications were gaining popularity. This created the need to test applications across browsers to ensure functional and visual defects were detected. Cross-browser testing was born – and quickly evolved from companies creating a local matrix to the usage of cloud-based VMs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.8fin08uoxg8">HTML 5 &amp; Responsive Web</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>As mobile became dominant, so did the use of HTML5, CSS and responsive web applications. As a result, a new generation of browser wars began with additional players entering the mix, specifically Google Chrome, Firefox (born from Netscape), Safari – and Internet Explorer, which remained widely popular. At this point in time, traditional cross browser testing began to show scalability issues – and naturally so. There are now four main browsers that are updated far more frequently combined with multiple viewports and we haven’t even discussed operating systems.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":10138,"width":304,"height":304,"sizeSlug":"large"} -->
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564.png" alt="Selenium logo" class="wp-image-10138" width="304" height="304" srcset="https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564.png 400w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-150x150.png 150w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-300x300.png 300w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-90x90.png 90w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-30x30.png 30w" sizes="(max-width: 304px) 100vw, 304px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Traditional cross browser testing executes tests built on your existing testing framework, (think  Selenium), across all browser, viewport, and OS combinations specified by the engineer. This  means a 2 minute test would need to run separately across each combination in the matrix. The issue that began to arise was the result of brittle functional tests, and the need to maintain connectivity and connection of those tests for every single browser, viewport, and OS combination.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.so8hws8q8r38">The Modern / Intelligent Web</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Today, we are in a phase referred to as the “intelligent” web. With chatbots, and more sophisticated omni-channel applications being driven by AI and ML. JavaScript, HTML, and CSS standards are strictly driven by <a target="_blank" href="https://www.w3.org/" rel="noopener noreferrer">W3C</a> and <a target="_blank" href="https://whatwg.org/" rel="noopener noreferrer">WHATWG</a> bringing deeper consistency across modern browsers. Additionally, modern JavaScript solutions like jQuery &amp; Babel have smoothed out browser support for JavaScript APIs, making the testing of browser engines themselves relatively binary. In a nutshell, the modern browser engines have been tested to near perfection.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":18013,"sizeSlug":"large"} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS.jpg" alt="" class="wp-image-18013" srcset="https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS.jpg 630w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-30x30.jpg 30w" sizes="(max-width: 630px) 100vw, 630px"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Because of standards, you might expect any combination of browser, OS, device, and viewport size to function identically. And, unless you use platform-specific or device-specific functionality, that’s a reasonable expectation. So, what should you expect from cross-browser testing?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Functional differences between modern standards-compliant browsers happen rarely. You expect the browser to receive and process the same HTML, CSS, and JavaScript from the server.  Rendering differences do occur, though, as each platform uses its own rendering engine. And those rendering differences can result in real-world functional differences from a user’s perspective.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>So, if your cross-browser tests run the same DOM across different devices, do you need to keep asking the server to serve up the same content multiple times to find defects caused by rendering?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.q52temd75in0">The Next Generation of Cross Browser Testing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>As you’ve read, traditional cross browser testing is not providing the ROI it once did, but a new modern approach is bringing new hope to quality-focused teams.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Applitools Ultrafast Grid leverages Visual AI (AI powered computer vision) to test across browsers faster and with more coverage than ever possible.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Here is how it works:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Your test suite is executed locally on a single browser. During execution, the Applitools SDKs capture the DOM &amp; CSS rules for every browser state and sends it to the Ultrafast Grid. This is a one-way connection thus does not require a reverse proxy or IPSec VPN – something any IT team with a focus on security can appreciate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Next, the Ultrafast Grid renders the DOM in parallel using containers and grabs a screenshot across each browser and viewport combination. The screenshots are then sent to Applitools Eyes for Visual AI analysis. This entire process is blazing fast – in a matter of seconds you are viewing results from the test run.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Because the tests are executed only once, connectivity and connection to the browser are only required for that single run which results in incredible stability of the run. What’s more – that single run also reduces the required set-up and tear down of data (data consumption).  Parallelization and containers result in incredible speeds and Visual AI can replace many of the brittle locators in your test code resulting in further stability.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":19354} -->
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0.png" alt="pasted image 0" class="wp-image-19354" srcset="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0.png 1247w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-300x131.png 300w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-1024x448.png 1024w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-768x336.png 768w" sizes="(max-width: 1247px) 100vw, 1247px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Above: Diagram of Applitools Ultrafast Grid</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.xwvgnn1lpgwf">Summary</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In summary, your test coverage plan should be focused on your specific needs. If older browsers are still supported – you will want to ensure that you run your regression suite on each of those browsers and versions, plus a modern browser. By combining traditional cross-browser testing with the new modern approach, you can save time with faster builds and save money by reducing dependency on expensive cloud testing providers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cover Photo by <a target="_blank" href="https://unsplash.com/@marcojodoin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Marc-Olivier Jodoin</a> on <a target="_blank" href="https://unsplash.com/s/photos/speed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Applitools Ultrafast Cross Browser Testing Hackathon</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<!-- /wp:list --><!-- wp:heading --><h2>Read More and Do More</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<!-- /wp:list --><!-- wp:paragraph -->
+<!-- /wp:paragraph -->								
+			</div>
+<br>
+<br><a href="https://applitools.com/blog/next-generation-cross-browser-testing/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How to go from performance tester to performance engineer</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-go-from-performance-tester-to-performance-engineer/</link>
 		
@@ -40,8 +403,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2240</guid>
 
 					<description><![CDATA[Companies are increasingly recognizing the value of performance engineering, which goes well beyond performance testing. These organizations now require the capability to]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p dir="ltr">Companies are increasingly recognizing <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-critical?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the value of performance engineering</a>, which goes well beyond performance testing. These organizations now require the capability to fix performance issues whenever and wherever they exist—and they&#8217;re willing to pay a premium for those skills. That’s why many performance testers are stepping up their game.</p>
 <p dir="ltr">While <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-testing-to-engineering?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the journey from performance tester to performance engineer</a> isn&#8217;t easy to complete, it <em>is</em> easy to start. You&#8217;ll just need to acquire a few skills and learn some new problem-solving techniques.</p>
@@ -166,8 +528,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/rpa-essentials-what-it-is-and-why-it-matters/</guid>
 
 					<description><![CDATA[Robotic process automation (RPA) technology helps organizations automate defined, multi-step manual tasks that are done in high volume. RPA does this]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>Robotic process automation (RPA) technology helps organizations automate defined, multi-step manual tasks that are done in high volume. RPA does this by creating software robots, or RPA bots, that emulate human actions to interact with existing application interfaces.</p>
 <p>Organizations typically pair RPA bots with tasks that stretch across multiple legacy technology applications or platforms that aren&#8217;t easily linked. Sometimes referred to as &#8220;swivel chair&#8221; activities, these are processes where people essentially respond to alerts or prompts from one system, then use some of that data to take action in another system. </p>
@@ -221,500 +582,6 @@
 <br /><br />
 <br /><a href="https://threatpost.com/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/155996/">Source link </a></p>
 ]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>70 Percent of Mobile, Desktop Apps Contain Open-Source Bugs</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/70-percent-of-mobile-desktop-apps-contain-open-source-bugs/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 May 2020 13:00:09 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Desktop]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[Percent]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/70-percent-of-mobile-desktop-apps-contain-open-source-bugs/</guid>
-
-					<description><![CDATA[A lack of awareness about where and how open-source libraries are being used is problematic, researchers say. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A lack of awareness about where and how open-source libraries are being used is problematic, researchers say.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/70-of-apps-open-source-bugs/156040/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>‘Coronavirus Report’ Emails Spread NetSupport RAT, Microsoft Warns</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-report-emails-spread-netsupport-rat-microsoft-warns/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 22 May 2020 15:39:14 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Coronavirus]]></category>
-		<category><![CDATA[Emails]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[NetSupport]]></category>
-		<category><![CDATA[RAT]]></category>
-		<category><![CDATA[Report]]></category>
-		<category><![CDATA[Spread]]></category>
-		<category><![CDATA[Warns]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-report-emails-spread-netsupport-rat-microsoft-warns/</guid>
-
-					<description><![CDATA[Attackers used malicious Excel 4.0 documents to spread the weaponized NetSupport RAT in a spear-phishing campaign. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Attackers used malicious Excel 4.0 documents to spread the weaponized NetSupport RAT in a spear-phishing campaign.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/coronavirus-emails-netsupport-rat-microsoft/156026/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>40+ great resources that will rock your release velocity</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/40-great-resources-that-will-rock-your-release-velocity/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 22 May 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[great]]></category>
-		<category><![CDATA[release]]></category>
-		<category><![CDATA[resources]]></category>
-		<category><![CDATA[rock]]></category>
-		<category><![CDATA[Velocity]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/40-great-resources-that-will-rock-your-release-velocity/</guid>
-
-					<description><![CDATA[It doesn&#8217;t matter how quickly you can build software if you can&#8217;t get it in front of users. What&#8217;s more,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p dir="ltr">It doesn&#8217;t matter how quickly you can build software if you can&#8217;t get it in front of users. What&#8217;s more, once it&#8217;s out there, you need to be able to tell if it&#8217;s actually doing what you&#8217;d hoped and ship adjustments fast.</p>
-<p dir="ltr">Here&#8217;s my roundup of some of the most useful resources for learning how to create <a target="_blank" href="https://content.microfocus.com/release-management-tb/devops-release-management?lx=PLf4hm&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">a reliable, repeatable route to production</a> that will help you <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">release code faster</a>.</p>
-<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
-<h3>Setting the scene</h3>
-<h3>Continuous integration</h3>
-<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
-<h3>Continuous delivery</h3>
-<h3>Techniques for less risky deployments</h3>
-<ul>
-<li>
-<p dir="ltr" role="presentation">A list of software development resources can&#8217;t really be considered complete without a couple of entries from <a target="_blank" href="https://twitter.com/martinfowler" rel="nofollow noopener noreferrer">Martin Fowler</a>. His post on <a target="_blank" href="https://martinfowler.com/bliki/BlueGreenDeployment.html" rel="nofollow noopener noreferrer">blue-green deployments</a> will help you on your way to zero-downtime releases.</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><a target="_blank" href="https://twitter.com/martinfowler" rel="nofollow noopener noreferrer">Fowler</a> also has a good write-up on <a target="_blank" href="https://martinfowler.com/bliki/CanaryRelease.html" rel="nofollow noopener noreferrer">canary releases</a>, which are a way of reducing the risk of releasing features by doing so gradually.</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><a target="_blank" href="https://unleash.github.io/" rel="nofollow noopener noreferrer">Unleash</a> is a fantastic, full-featured feature toggling library that I&#8217;ve been using recently.</p>
-</li>
-</ul>
-<h3>Infrastructure as code</h3>
-<h3>Increasing your confidence</h3>
-<p dir="ltr">It&#8217;s all good being able to release code quickly, but how do you know everything&#8217;s working? Unless you have high confidence that your changes will withstand the unknown—or confidence that you will find out when they don&#8217;t—you won&#8217;t be able to release more often, because you&#8217;ll be too scared.</p>
-<h3>Real stories</h3>
-<p dir="ltr">All the theory, tools, and opinions in the list thus far should give you the knowledge you need to improve your release frequency and stability. But the truth is that you&#8217;ll get stuck somewhere along the way when implementing these ideas in your own unique context. When that happens, it&#8217;s often helpful to turn to the stories of how other people navigated their journeys.</p>
-<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/40-great-resources-will-rock-your-release-velocity">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Mercedes software leaks via Git and Google dork</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mercedes-software-leaks-via-git-and-google-dork/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 21 May 2020 18:30:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[dork]]></category>
-		<category><![CDATA[Git]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[leaks]]></category>
-		<category><![CDATA[Mercedes]]></category>
-		<category><![CDATA[software]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mercedes-software-leaks-via-git-and-google-dork/</guid>
-
-					<description><![CDATA[Mercedes-Benz owner Daimler left 580 repos open on the Internet—naked and unprotected. A Swiss researcher discovered the trove with a]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p><strong>Mercedes-Benz owner Daimler left 580 repos open</strong> on the Internet—naked and unprotected. A Swiss researcher discovered the trove with a simple dork—a crafted Google search term.</p>
-<p><strong>The code controls the onboard logic units (OLU)</strong> in the company’s vans. It also includes passwords and API tokens for Daimler cloud services.</p>
-<p><strong>Red faces in Stuttgart,</strong> <em>und so weiter</em>. In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer">Security Blogwatch</a></i>, we learn from others’ mistakes.</p>
-<p><a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Janet has a plan.</em></p>
-<p><em>[ The shift is on to secure code. Get up to speed with <a target="_blank" href="https://content.microfocus.com/l/state-of-application-security-testing-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s State of App Sec Guide</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/gartner-magic-quadrant-appsec-testing?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Gartner 2020 Magic Quadrant for Application Security Testing</a> ]</em></p>
-<h3>OLU OSINT OOPS</h3>
-<p><strong>What’s the craic?</strong> Catalin Cimpanu reports—<i><a target="_blank" href="https://www.zdnet.com/article/mercedes-benz-onboard-logic-unit-olu-source-code-leaks-online/" rel="nofollow ugc noopener noreferrer" title="read the full text">OLU source code leaks online</a>:</i></p>
-<blockquote><p><em>The source code for … components installed in Mercedez-Benz vans has been leaked online. … Daimler allowed anyone to register on one of its … servers.<br />…<br />Till Kottmann, a Swiss-based software engineer, discovered a … web portal belonging to Daimler AG, the German automotive company behind the Mercedes-Benz car brand. … He was able to register an account on Daimler&#8217;s code-hosting portal, and then download more than 580 Git repositories containing the source code of … OLUs installed in Mercedez vans.<br />…<br />The leak [includes] passwords and API tokens for Daimler&#8217;s internal systems. … In the wrong hands, [they] could be used to plan and mount future intrusions against Daimler&#8217;s cloud and internal network.<br />…<br />Kottmann … found Daimler&#8217;s GitLab server using something as simple as … Google search queries. … &#8220;I often just hunt for interesting GitLab instances … and I keep being amazed by how little thought seems to go into the security settings.&#8221;<br />…<br />A Daimler spokesperson did not return a formal request for comment.</em></p></blockquote>
-<p><strong>OLU?</strong> Jay Jay explains—<i><a target="_blank" href="https://www.teiss.co.uk/daimler-ag-mercedes-source-code-leak/" rel="nofollow ugc noopener noreferrer" title="read the full text">Daimler AG left OLU source code of Mercedes vans accessible to anyone</a>:</i></p>
-<blockquote><p><em>Onboard logic units or OLUs are the control unit of Mercedes vans, connecting them to the cloud and enabling third-party developers to create apps that retrieve data of the vehicle like the van&#8217;s internal status or for freezing vans in case of theft.</em></p></blockquote>
-<p><strong>Ohhh, “the cloud,” eh?</strong> <i><a target="_blank" href="https://tech.slashdot.org/comments.pl?sid=16400596&amp;cid=60080832" rel="nofollow ugc noopener noreferrer" title="read the full text">Malays2 bowman</a></i> denies they’re a cammo wearing kook:</p>
-<blockquote><p><em>Do. Not. Want. I see a rather profitable cottage industry popping up that involves removing/bypassing this ****.</p>
-<p>People laugh whenever somebody mentions &#8220;New World Order&#8221;, and they risk being labeled a cammo wearing kook who loves to play GI-Joe in the woods with a rusty AK-47. [But] there is nothing supernatural or unreal about it. It&#8217;s yet another classic power grab, but this time taken up a few notches.</p>
-<p></em></p></blockquote>
-<p><strong>Uhhh, okay.</strong> Chris de Ramus drives the story home, co-piloted by Duncan Riley—<i><a target="_blank" href="https://siliconangle.com/2020/05/18/mercedes-benz-source-code-exposed-via-misconfigured-git-registration-system/" rel="nofollow ugc noopener noreferrer" title="read the full text">Mercedes-Benz source code exposed via misconfigured Git registration system</a>:</i></p>
-<blockquote><p><em>In this GitLab instance, bad actors could register an account on Daimler’s code-hosting portal and download over 580 Git repositories containing the Mercedes source code and sell that information to the company’s competitors. … Additionally, hackers could leverage the exposed passwords and API tokens of Daimler’s systems to access and steal even more of the company’s sensitive information.<br />…<br />Without a proactive approach to security, companies open themselves up to undue risk. Most organisations rely on detecting risks and misconfigurations in the cloud at runtime … instead of preventing them during the build process, which increases security and compliance risks significantly. It also interferes with productivity, as developers have to spend their time addressing the issues.<br />…<br />Organizations should ‘shift left’ by taking preventative measures early on in their … CI/CD pipelines. … Such a proactive approach will allow organizations to prevent security issues from occurring and will enable security teams to catch misconfigurations before leaks occur.</em></p></blockquote>
-<p><strong>So what are these search queries?</strong> Chris Ueland and Courtney Couch aren’t dorks—<i><a target="_blank" href="https://securitytrails.com/blog/google-hacking-techniques" rel="nofollow ugc noopener noreferrer" title="read the full text">Exploring Google Hacking Techniques</a>:</i></p>
-<blockquote><p><em>A Google Dork … is a valuable resource for security researchers. For the average person, Google is just a search engine. … However, in the infosec world, Google is a useful hacking tool.<br />…<br />As it has tremendous web-crawling capabilities, [Google] can index almost anything within your website, including sensitive information. This means you could be exposing too much information about your web technologies, usernames, passwords, and general vulnerabilities without even knowing it.<br />…<br />Google’s search engine has its own built-in query language. … Queries can be run to find a list of files, find information about your competition, track people, get information about SEO backlinks, build email lists, and of course, discover web vulnerabilities.<br />…<br />To prevent your sensitive information from being indexed by search engines:</em></p>
-<ul>
-<li><em>Protect private areas with … authentication and … IP-based restrictions. </em></li>
-<li><em>Encrypt your sensitive information. … </em></li>
-<li><em>Run regular dork queries against your own website. … </em></li>
-<li><em>If you find sensitive content exposed, request its removal by using Google Search Console. </em></li>
-<li><em>Block sensitive content by using a robots.txt file.</em></li>
-</ul>
-</blockquote>
-<p><strong>And what does the perp have to say for themself?</strong> <i><a target="_blank" href="https://twitter.com/deletescape/with_replies" rel="nofollow ugc noopener noreferrer" title="read the full text">@deletescape</a>:</i></p>
-<blockquote><p><em>The leak is around 550 repos and very well documented. … It&#8217;s a hardware platform for a very specific usecase, but this leak should allow recreating it with low cost hardware.<br />…<br />I purely do this out of curiosity. … It&#8217;s just so interesting to look at the stuff people never thought anyone would see and figure out how it works.<br />…<br />Most of the stuff I post is public repos on gitlab instances (great threat models huh), or just the same kind of instances where I can simply sign up myself. At least under Swiss law this is somewhat of a gray zone, but I obviously know that I&#8217;m walking a very thin line here.<br />…<br />I love helping companies open source their code. … <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em></p></blockquote>
-<p><strong>However,</strong> <i><a target="_blank" href="https://tech.slashdot.org/comments.pl?sid=16400596&amp;cid=60075360" rel="nofollow ugc noopener noreferrer" title="read the full text">vtcodger</a></i> raises the other hand:</p>
-<blockquote><p><em>OTOH, you&#8217;re likely going to be annoyed when some bored teenager in Mongolia succeeds in locking you and all other owners of your vehicle model out of your cars – at least until the nearest dealer can motor out with a specialized tool and unbrick the thing. Might be bit of a service queue involved.</p>
-<p>Connectivity is not without risks. There&#8217;s probably some optimum balance between connection and local autonomy. But I can&#8217;t see much sign that car makers, and especially luxury vehicle makers are seeking that balance out.</p>
-<p></em></p></blockquote>
-<p><strong>And</strong> <i><a target="_blank" href="https://twitter.com/SchizoDuckie/status/1262467162024939523" rel="nofollow ugc noopener noreferrer" title="read the full text">@SchizoDuckie</a></i> swearily criticizes Kottmann:</p>
-<blockquote><p><em>What an *******. I hope he gets sued into oblivion.<br />…<br />Dumping it all online on various sources &#8216;for the lulz&#8217; is a dick move.</em></p></blockquote>
-<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://tech.slashdot.org/comments.pl?sid=16400596&amp;cid=60074734" rel="nofollow ugc noopener noreferrer" title="read the full text">Ken_g6</a>’s</i> offering is an older meme, sir; but it checks out:</p>
-<blockquote><p><em>So what they&#8217;re saying is that … OLU base are belong to us?</em></p></blockquote>
-<h3>The moral of the story?</h3>
-<p>DevSecOps red-team exercises need to include OSINT from dorking, etc.</p>
-<p><em>[ Find out <a target="_blank" href="https://www.brighttalk.com/webcast/7477/392511/keys-to-scaling-an-appsec-program?utm_source=techbeacon&amp;utm_medium=website&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">how to scale your application security program</a> in this May 12 Webinar. </em><em>Plus: Learn <a target="_blank" href="https://content.microfocus.com/l/build-app-sec-dev-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to build application security into your software</a> with<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>TechBeacon&#8217;s<a target="_blank" href="https://content.microfocus.com/l/application-security-risk-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> </a>guide ]</em></p>
-<h3>And finally</h3>
-<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=J7o9B5dpiPE" rel="noopener nofollow noreferrer" title="And Finally">Don’t try this at home, kids</a></strong></p>
-<p><div class="fitvids-video"><iframe title="Antivax Janet Meets COVID-19" width="800" height="600" src="https://www.youtube.com/embed/J7o9B5dpiPE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow noreferrer">Previously in “And finally”</a></p>
-<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow noreferrer">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow noreferrer">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener noreferrer">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE.</em></p>
-<p><em>Image sauce: <a target="_blank" href="https://www.flickr.com/photos/140301614@N05/26674329125/" rel="noopener nofollow noreferrer">Dronsfields Mercedes</a> (<a target="_blank" href="https://creativecommons.org/licenses/by/2.0/" rel="noopener nofollow noreferrer" title="Some rights reserved">cc:by</a>)</em></p>
-<p><em>[ Take a deep-dive with our <a target="_blank" href="https://content.microfocus.com/l/application-security-tb" rel="noopener noreferrer">Application Security Trends and Tools Guide</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/application-security-tb/buyers-guide-appsec?lx=P_znZe" rel="noopener noreferrer">App Sec Buyer&#8217;s Guide</a>. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/mercedes-software-leaks-git-google-dork">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Six Top Trends for Performance in 2020 and Beyond</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/six-top-trends-for-performance-in-2020-and-beyond/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 21 May 2020 11:58:03 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Top]]></category>
-		<category><![CDATA[Trends]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/six-top-trends-for-performance-in-2020-and-beyond/</guid>
-
-					<description><![CDATA[Many of the trends I’m listing here took place earlier with other software development activities like functional automation testing, but]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div id=""><picture class="single-article__img"><source media="(max-width: 899px)" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/05/PerformanceTestingTrends-1-575x360-c-default.png"></source></picture>
-<p>Many of the trends I’m listing here took place earlier with other software development activities like functional automation testing, but only now are <strong>performance testing</strong> activities catching up.</p>
-<h2>Shift from Performance Testing to Performance Engineering</h2>
-<p>One of the most significant quality trends I&#8217;ve been seeing over the last few years is the move from doing performance testing only, to teams embracing a full, SDLC performance engineering practice.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/14504660/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>But what <i>is</i> performance engineering?</p>
-<p>Performance engineering is a cultural shift in the way organizations view their essential processes. Performance engineering embraces practices and capabilities that build quality and performance throughout an organization.</p>
-<p><a target="_blank" href="https://twitter.com/appperfeng" rel="noopener noreferrer">Todd DeCapua</a>, author of <a target="_blank" href="https://www.oreilly.com/library/view/effective-performance-engineering/9781492030164/" rel="noopener noreferrer"><i>Effective Performance Engineering</i></a>, has said that performance engineering means understanding how all the parts of the system fit together, knowing which metrics matter, and building in performance quality from the first design.</p>
-<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="attachment noopener wp-att-996320 noreferrer"><img class="alignnone size-full wp-image-996320" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Scott Moore Performance Engineering" width="1200" height="628" data-lazy-src="https://testguild.com/wp-content/uploads/2020/05/Scott_Moore_Promo.png"/><noscript><img class="alignnone size-full wp-image-996320" src="https://testguild.com/wp-content/uploads/2020/05/Scott_Moore_Promo.png" alt="Scott Moore Performance Engineering" width="1200" height="628"/></noscript></a></p>
-<p><a target="_blank" href="https://twitter.com/loadtester" rel="noopener noreferrer">Scott Moore</a>, a performance testing consultant, and speaker at the 2020 PerfGuild, expresses a similar belief when he says that the days of testing performance into a product are over. It&#8217;s too risky, causing too much technical debt to go back and do it later.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/11541953/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>This is the same type of shift that occurred with functional automation years ago. Rather than have one person responsible for automation, everyone on the sprint team becomes responsible.</p>
-<p>So how can you help your company transform into a performance engineering culture?</p>
-<p>You might think the first step is technical, but I have a tremendous piece of actionable, non-technical advice you can use right now–MIP it.</p>
-<p>One thing you can implement anytime, anywhere with performance or any other quality concern is to MIP it (Mention in Passing).</p>
-<p><a target="_blank" href="https://twitter.com/sbarber" rel="noopener noreferrer">Scott Barber</a> explained to me that there was a time when he would “MIP” to anyone he passed in his office, “How&#8217;s performance today?”</p>
-<p>That person could be anyone, whether they were directly involved in his project or not.</p>
-<p>In fact, he would MIP to anyone in the building, “How&#8217;s performance today?” And at the end of the first week, he says performance increased significantly.</p>
-<p>Be sure to check out Scott Moore’s Effective Performance Engineering session at this year’s PerfGuild. It’ll be a great introduction to folks who are new to performance engineering and want to learn about some actionable ways to get started.</p>
-<p>Of course, this is just a start – the real push is to get your agile team thinking about performance as early as possible, not after the fact.</p>
-<p><div class="fitvids-video"><iframe title="Top 6 Performance Testing Trends for 2020" width="800" height="450" src="https://www.youtube.com/embed/0XDjqVKCRt0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-<h2>Shift Left Performance</h2>
-<p>Similar to trying to get developers more involved in functional automation by using the same languages and tools that they use in their day-to-day work flow, you can do the same to move performance testing to an earlier place in your SDLC.</p>
-<p>Because of this, there is a trend to create performance tests using developer-friendly tools and languages—this allows performance tasks to fit in with your developer&#8217;s current ecosystem.</p>
-<p>For example, if you have Python developers, you can introduce a tool like Locust that allows you to create Python-based, performance-testing scripts. If you use <a target="_blank" href="https://testguild.com/open-source-performance-testing-tools/" rel="noopener noreferrer">Locust</a>, everything is in Python; everything is in code.</p>
-<p>You can even use <a target="_blank" href="https://www.jetbrains.com/pycharm/" rel="noopener noreferrer">PyCharm</a> as an IDE.</p>
-<p>Another popular technology option is <a target="_blank" href="https://testguild.com/javascript-performance-testing-k6/" rel="noopener noreferrer">k6</a>, which focuses on giving your developers the best experience for load testing. K6 takes a code-like approach to developing load test scripts.</p>
-<p>These dev friendly tools in the market allow you to treat your performance testing scenarios or test cases like you would any other application code. This, in turn, enables you to shift your automated performance testing efforts to earlier in the software development lifecycles.</p>
-<p><a target="_blank" href="https://twitter.com/Thecapnews" rel="noopener noreferrer">Cristian Daniel Marquez Barrios</a>, a front-end developer with over ten years of experience, gave me an excellent recommendation to get developers involved in creating more performant software.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/13301312/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>He said that all front-end developers should be using, at a minimum, <a target="_blank" href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en" rel="noopener noreferrer">Google Lighthouse</a> metrics that are available in Google Chrome tools.</p>
-<p>When you open <a target="_blank" href="https://developers.google.com/web/tools/chrome-devtools" rel="noopener noreferrer">DevTools in Chrome</a> and navigate to the Audits tab, you can find the Lighthouse audit. This will tell what&#8217;s the performance of your site simulating mobile on the desktop version of a browser. So it&#8217;s also a perfect tool to start with.</p>
-<p>A pillar of performance engineering is that performance needs to be baked into your software from the beginning, with developers creating performant code in your product from the start.</p>
-<p>Check out Alyson Henry &amp; Matthew Andrus’ <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild session</a>, Why Good Test Scripts aren&#8217;t Enough–Shifting Left and Automation as Keys to the Future of Testing for a great example on how to achieve this.</p>
-<p>This trend can help get your whole team involved in focusing on creating performance software from the beginning.</p>
-<p>Another approach is to leverage your teams existing functional selenium test to create browser-level performance tests and performance engineering activities.</p>
-<p><a target="_blank" href="https://testguild.com/reuse-performance/browserrobotjuggle/" rel="attachment wp-att-996128 noopener noreferrer"><img class="alignnone size-full wp-image-996128" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Robot Juggling Browsers" width="1200" height="750" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg 1200w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-650x406-c-center.jpg 650w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-350x219-c-center.jpg 350w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-225x141-c-center.jpg 225w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg"/><noscript><img class="alignnone size-full wp-image-996128" src="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg" alt="Robot Juggling Browsers" width="1200" height="750" srcset="https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle.jpg 1200w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-650x406-c-center.jpg 650w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-350x219-c-center.jpg 350w, https://testguild.com/wp-content/uploads/2020/02/BrowserRobotJuggle-225x141-c-center.jpg 225w" sizes="(max-width: 1200px) 100vw, 1200px"/></noscript></a></p>
-<h2>Browser-Based Performance Testing</h2>
-<p>You might be wondering why they shouldn&#8217;t just use a non-UI-based protocol.</p>
-<p>Modern JavaScript front-end frameworks like Angular and React make it very difficult to create a performance script at a protocol level, which is kind of the traditional way testers have been developing performance tests since the mid-nineties.</p>
-<p>In such cases, there is no interaction between the UI and the server like you&#8217;d find in a typical, older, client-server application architecture.</p>
-<p>With protocol tools, you would have to do additional scripting and programming to capture those kinds of transactions.</p>
-<p>So, the process of setting up a script becomes increasingly tricky.</p>
-<p>By focusing on browser-based performance script creation, you&#8217;re spending less time doing any of the other manual editing, correlation, and programming that would otherwise be necessary with a protocol-based recording tool.</p>
-<p>Furthermore, because this approach uses a real browser and more people are familiar with interacting with the actual browser rather than a protocol, this helps to shift-left the performance activity that more teams probably should get involved in.</p>
-<p><a target="_blank" href="https://twitter.com/n_vanderhoeven" rel="noopener noreferrer">Nicole van der Hoeven</a>’s <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild talk</a> will be about how to combine both browser and protocol-level performance scripting to create a cool hybrid load testing solution. (Don’t miss it!)</p>
-<p>Does it replace protocol-level performance testing? No.</p>
-<p>But it&#8217;s another tool you can add to your performance toolbox to help transform your team toward performance engineering.</p>
-<p><a target="_blank" href="https://testguild.com/mabl-ai-machine-learning-test-automation/artificial-intelligence-ai-robot-action-figure-3d-illustration/" rel="attachment wp-att-3661 noopener noreferrer"><img class=" wp-image-3661" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Artificial Intelligence AI Robot" width="372" height="372" data-lazy-srcset="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg 600w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-150x150.jpg 150w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-300x300.jpg 300w" data-lazy-sizes="(max-width: 372px) 100vw, 372px" data-lazy-src="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg"/><noscript><img class=" wp-image-3661" src="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg" alt="Artificial Intelligence AI Robot" width="372" height="372" srcset="https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting.jpg 600w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-150x150.jpg 150w, https://testguild.com/wp-content/uploads/2018/02/MablAIAutomationTesting-300x300.jpg 300w" sizes="(max-width: 372px) 100vw, 372px"/></noscript></a></p>
-<h2>Shift-Right AI Performance Engineering</h2>
-<p>I first heard this term (AIOPS) from <a target="_blank" href="https://twitter.com/Jonathon_Wright" rel="noopener noreferrer">Jonathon Wright</a>. AiOps is about expanding artificial intelligence (AI) out of functional testing and applying it to all software development shift-right activities including performance testing.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/12825377/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>Although many companies have started to make the shift-right they still tend to focus on simple analytics.</p>
-<p>Jonathon believes that digital experience analytics are incredibly important, but that we need to stop focusing on a web page or a mobile app. We need to start thinking about the entire customer journey.</p>
-<p>Jonathon will present a real-world scenario using all open-source tools for his Shift-Right Digital Experience Analytics talk at the 2020 PerfGuild.</p>
-<p>For example, it&#8217;s monitoring things in production.</p>
-<p>It&#8217;s then able to take that monitoring information and automatically create a performance test model for what&#8217;s actually happened in production.</p>
-<p>It can then use the model to auto-generate your performance tests and make use of all the information produced in your SDLC pipeline from beginning to end.</p>
-<p>It can also help inform your decisions using machine learning to bring up key insights that you might not have noticed in your pipeline.</p>
-<p><a target="_blank" href="https://twitter.com/perfpulley" rel="noopener noreferrer">James Pulley</a> also believes there are excellent uses for AI and machine learning intelligence in performance testing.</p>
-<p>If you look at what we do inside performance testing and performance engineering in general, it is pattern-based. And the conventional AI used today is less expert-system-based and more AI-based.</p>
-<p>This type of AI doesn&#8217;t ask questions and assigns weights.</p>
-<p>Instead, it behaves more like it’s looking at a pattern and observing match conditions. Is it a normal condition or an exception? And if it&#8217;s an exception, does it match other exception patterns?</p>
-<p>When you’re talking about resource utilization and things of that nature, AI can be very useful.</p>
-<p>AI is also great for looking at the behavior of systems going through the logs and saying, “Hey, here&#8217;s what 90 percent of our people are doing.”</p>
-<p>Here&#8217;s how our users normal navigate our site</p>
-<p>Here are the most common user workflows and building a model for what that should look like.</p>
-<p>AI can then generating the performance scripts for you based on how your real users actually behave in production. It can also help create test data to use.</p>
-<p>This helps to create more realistic performance scenarios and a transaction mix for your tests.</p>
-<p>Monitoring things in production is great, but how to plan for unknowns that tend to happen once your system is live?</p>
-<p><a target="_blank" href="https://testguild.com/chaos-engineering/robotchaos600x400/" rel="attachment wp-att-4522 noopener noreferrer"><img class="alignnone size-full wp-image-4522" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="Robot Chaos" width="600" height="403" data-lazy-srcset="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg 600w, https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400-300x202.jpg 300w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg"/><noscript><img class="alignnone size-full wp-image-4522" src="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg" alt="Robot Chaos" width="600" height="403" srcset="https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400.jpg 600w, https://testguild.com/wp-content/uploads/2019/04/RobotChaos600x400-300x202.jpg 300w" sizes="(max-width: 600px) 100vw, 600px"/></noscript></a></p>
-<h2>Chaos Engineering/Resilience Testing</h2>
-<p>If the COVID-19 pandemic has taught us anything, it’s that we need to make sure our software is more resilient.</p>
-<p>We have seen scenarios in production that most teams probably hadn’t anticipated. But how to plan for unknown behavior?</p>
-<p>Examples of companies that learned this the hard way include<a target="_blank" href="https://www.cnn.com/2020/03/04/business/robinhood-outage-explanation/index.html" rel="noopener noreferrer"> RobinHood</a>, <a target="_blank" href="https://www.nytimes.com/2020/04/27/business/sba-loan-system-crash.html" rel="noopener noreferrer">SBA</a>, and <a target="_blank" href="https://www.bbc.com/news/technology-52671266" rel="noopener noreferrer">Epic Game</a> Company—all whose systems went down due to unexpected spikes.</p>
-<p>The best approach to achieving chaos is to test how the system responds under stress proactively.</p>
-<p>You can then identify and fix failures before they impact your customers or cause damage to your reputation due to the poor publicity an outage could receive.</p>
-<p>The idea of chaos engineering is that it compares what you <i>believe </i>will happen in your distributed system against the reality of what actually happens.</p>
-<p>To learn how to build resilient business software systems, you can use a chaos test tool to break things in your environment on purpose to see if it actually fails the way you believed it would.</p>
-<p>Chaos engineering is a growing area and it&#8217;s achieved by using thoughtful, well-planned experiments that help to reveal weaknesses in your systems.</p>
-<p><a target="_blank" href="https://twitter.com/tammybutow" rel="noopener noreferrer">Tammy Butow</a> Principal Site Reliability Engineer at <a target="_blank" href="https://www.gremlin.com/" rel="noopener noreferrer">Gremlin</a> suggested we think of Chaos Engineering as being like preventative medicine in that it’s a disciplined approach to identifying failures before they become outages.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/12516998/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>Another similar type of testing to help is robustness testing.</p>
-<p><a target="_blank" href="http://www.perftestplus.com/" rel="noopener noreferrer">Dawn Haynes</a> CEO &amp; Testing Yogini at <a target="_blank" href="http://www.perftestplus.com/" rel="noopener noreferrer">PerfTestPlus</a> has been a big advocate of adding more robustness testing into our test plans.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/11997335/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>The industry glossary definition of robustness is the way software responds in the face of invalid inputs or unexpected or stressful environmental conditions.</p>
-<p>Dawn likes to define it as applications delivering value to customers consistently and not disappointing them or frustrating them in any particular way.</p>
-<p>So what would be a requirement for robustness? Maybe we just look at how our apps handle invalid inputs, or how we handle stressful environmental conditions.</p>
-<p>But if we were to expand it and say it’s about the user experience, how robust are we for user interaction?</p>
-<p>Do we fall down when we get surprised by something, or do we handle surprises in a way that can do two things:</p>
-<p>Inform the user about what&#8217;s going on right now, and make some sort of suggestion to them about what to do next.</p>
-<p>If we&#8217;re surprised by something, can we do anything other than fail? Or can we expect that throughout the run of a piece of software we will be surprised by something?</p>
-<p>And if a user is surprised by something not expected, what should we do about it next? What are the options in the face of surprises?</p>
-<p>I expect variance, chaos and resilience testing to be significant growth areas of focus for teams in 2020 and beyond due to the COVID-19 scare.</p>
-<p>That’s why I’m excited to be offering two sessions about how distortion (<a target="_blank" href="https://twitter.com/tds_at" rel="noopener noreferrer">Paul McLean</a>) and variance (James Pulley) can help you to create more realistic load tests that will help plan for unknowns.</p>
-<h2>Performance in CI/CD</h2>
-<p>So, where does that performance fit into a DevOps pipeline?</p>
-<p><a target="_blank" href="https://twitter.com/prossaro" rel="noopener noreferrer">Paola Rossaro</a> Co-Founder and CTO at Nouvola believes there is a trend underway for performance tests to become part of your acceptance tests.</p>
-<p><iframe style="border: none;" src="https://html5-player.libsyn.com/embed/episode/id/13203521/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" width="100%" height="90" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p>Automation is vital, and having a reliable reproduction of the production environment is a must, so rapid feedback also allows resolving issues before they reach the user.</p>
-<p>This is what we call continuous testing.</p>
-<p>Continuous testing is really a key component of continuous integration and continuous delivery and creating testing at speed.</p>
-<p>What good is having a streamlined, continuous delivery process if the only way to find out if the performance of your product is not working well is via a help ticket being open by a user?</p>
-<p>Testing and continuous integration actually go hand in hand; each step in the continuous delivery process has testing associated with it.</p>
-<p>So from the development environment, the integration, testing and test environment, functional testing, and then a pre-production environment with performance and acceptance testing up to production, you then have synthetic monitoring, real-user monitoring, and general monitoring to make sure the performance is working well.</p>
-<p>In all those steps, we can see continuous delivery and continuous testing with performance testing really do work together.</p>
-<p>Look for more teams to start integrating performance into their CI/CD pipeline in 2020 and beyond.</p>
-<p><a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="attachment wp-att-996311 noopener noreferrer"><img class="alignnone size-full wp-image-996311" src="data:image/svg+xml,%3Csvg%20xmlns=" http:="" alt="PerfGuild 2020" width="1200" height="750" data-lazy-srcset="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png 1200w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-650x406-c-center.png 650w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-350x219-c-center.png 350w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-225x141-c-center.png 225w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png"/><noscript><img class="alignnone size-full wp-image-996311" src="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png" alt="PerfGuild 2020" width="1200" height="750" srcset="https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750.png 1200w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-650x406-c-center.png 650w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-350x219-c-center.png 350w, https://testguild.com/wp-content/uploads/2020/05/PerfGuild1200x750-225x141-c-center.png 225w" sizes="(max-width: 1200px) 100vw, 1200px"/></noscript></a></p>
-<h2>Performance Trends for 2020 – What did I Miss?</h2>
-<p>Those are my top six predictions for 2020. What do you think? Let me know in the comments.</p>
-<p>Also, to properly prepare for these technologies and trends, I highly recommend you register for PerfGuild 2020 and get a jump start on many of the trends we covered here.</p>
-<p>Register now for ===&gt; <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/" rel="noopener noreferrer">PerfGuild 2020</a></p>
-<p> </p>
-<p><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid transparent;"/>
-      </div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '593311440870141');
-  fbq('track', 'PageView');
-</script><br />
-<br /><br />
-<br /><a href="https://testguild.com/performance-trend-2020/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How Do You Catch More Bugs In Your End-To-End Tests?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-you-catch-more-bugs-in-your-end-to-end-tests/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 21 May 2020 01:08:41 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Catch]]></category>
-		<category><![CDATA[EndToEnd]]></category>
-		<category><![CDATA[Tests]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-you-catch-more-bugs-in-your-end-to-end-tests/</guid>
-
-					<description><![CDATA[How much is it worth to catch more bugs early in your product release process? Depending on where you are]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<p>How much is it worth to catch more bugs early in your product release process? Depending on where you are in your release process, you might be writing unit or systems tests. But, you need to run end-to-end tests to prove behavior, and quality engineers require a high degree of skill to write end-to-end tests successfully.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:paragraph -->
-<p>What would you say if a single validation engine could help you ensure data integrity, functional integrity, and graphical integrity in your web and mobile applications? And, as a result, catch more bugs earlier in your release process?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Catch Bugs or Die</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Let’s start with the dirty truth: all software has bugs. Your desire to create bug-free code conflicts with the reality that you often lack the tools to uncover all the bugs until someone finds them way late in the product delivery process. Like, say, the customer.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:paragraph --><p>With all the potential failure modes you design for – and then test against – you begin to realize that not all failure modes are created equal. You might even have your own triage list:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Security &amp; penetration</li><li>Data integrity and consistency</li><li>Functional integrity and consistency</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>So, where does graphical integrity and consistency fit on your list? For many of your peers, graphical integrity might not even show up on their list. They might consider graphical integrity as managing cosmetic issues. Not a big deal.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Lots of us don’t have reliable tools to validate graphical integrity. We rely on our initial unit tests, systems tests, and end-to-end tests to uncover graphical issues – and we think that they’re solved once they’re caught. Realistically, though, any application evolution process introduces changes that can introduce bugs – including graphical bugs. But, who has an automation system to do visual validation with a high degree of accuracy?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Tradeoffs In End-to-End Testing</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Your web and mobile apps behave at several levels. The level that matters to your users, though, happens at the user interface on the browser or the device. Your server code, database code, and UI code turns into this representation of visual elements with some kind of visual cursor that moves across a plane (or keyboard equivalent) to settle on different elements. The end-to-end test exercises all the levels of your code, and you can use it to validate the integrity of your code.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/JPfwRaN6oZapcOYgO8nHFqUsNTg8Dws7qfW4SY-Dp3HdGTUQPVEGxYtPg1H0ZUmCeUuekryggv_4flUJKByHFoOAYAIw8qXHSlrXLZpT1Uz9uc5N_vgdQEb4_HQZR7SczpTMIaj9" alt="code 2434271 1280"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>So, why don’t people think to run more of these end-to-end tests? You know the answers.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>First, end-to-end tests run more slowly. Page rendering takes time – your test code needs to manipulate the browser or your mobile app, execute an HTTP request, receive an HTTP response, and render the received HTML, CSS, and JavaScript. Even if you run tests in parallel, they’re slower than unit or system tests.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Second, it takes a lot of effort to write good end-to-end tests. Your tests must exercise the application properly. You develop data and logic pre-conditions for each test so it can be run independently of others. And, you build test automation.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Third, you need two kinds of automation. You need a controller that allows you to control your app by entering data and clicking buttons in the user interface. And, most importantly, you need a validation engine that can capture your output conditions and match those with the ones a user would expect.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You can choose among many controllers for browsers or mobile devices. Still, why do your peers still write code that effectively spot-checks the DOM? Why not use a visual validation engine that can catch more bugs?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Visual AI For Code Integrity</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>You have peers who continue to rely on coded assertions to spot-check the DOM. Then you have the 288 of your peers who did something different: they participated in the Applitools Visual AI Rockstar Hackathon. And they got to experience first-hand the value of Visual AI for building and maintaining end-to-end tests.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>As I wrote previously, we gave participants five different test cases, asked them to write conventional tests for those cases, and then to write test cases using Applitools Visual AI. For each submission, we checked the conditions each test writer covered, as well as the failing output behaviors each test-writer caught.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>As a refresher, we chose five cases that one might encounter in any application:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><li>Comparing two web pages</li><li>Data-driven verification of a function</li><li>Sorting a table</li><li>Testing a bar chart</li><li>Handling dynamic web content</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>For these test cases, we discovered that the typical engineer writing conventional tests to spot-check the DOM spent the bulk of their time writing assertion code. Unfortunately, the typical spot-check assertions missed failure modes. The typical submission got about 65% coverage. Alternatively, the engineers who wrote the tests that provided the highest coverage spent about 50% more time writing tests.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>However, when using Visual AI for visual validation, two good things happened. First, everyone spent way less time writing test code. The typical engineer went from 7 hours of coding tests and assertions to about 1.2 hours of coding tests and Visual AI. Second, the average test coverage jumped from 65% to 95%. So, simultaneously, engineers took less time and got more coverage.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Visual AI Helps You Catch More Bugs</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>When you find more bugs, more quickly, with less effort, that’s significant to your quality engineering efforts. You’re able to validate data, functional, and graphical by focusing on the end-to-end test cases you run. You spend less time thinking about and maintaining all the assertion code checking the result of each test case.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Using Visual AI makes you more effective? How much more effective? Based on the data we reviewed – you catch 45% of your bugs earlier in your release process (and, importantly, before they reach customers).</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/S7YBQ8hw1oouassJ-3_cnqfGCAJXxU7xwGtt_Ar8wZJVsDYTEBou6iHuPyJlkt3IoG-H66MbPC0v-q5Wj7H6acmfAfeM2aniZEWZC13037d5FI_WSBrdz55bYYJfHFT1CSr0nXsb" alt="VisualAI Impact 45MoreBugs With Title"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>We have previously written about some of the other benefits that engineers get when using Visual AI, including:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>5.8x Faster Test Creation – Authoring new tests is vital especially for new features during a release cycle. Less time authoring means more time managing quality. <a target="_blank" href="https://applitools.com/blog/create-new-tests-much-faster/" rel="noopener noreferrer">Read more.</a></li><li>5.9x More Test Code Efficient – Like your team’s feature code, test code efficiency means you write less code, yet provide far more coverage. Sounds impossible, right? It’s not. <a target="_blank" href="https://applitools.com/blog/add-visual-ai/" rel="noopener noreferrer">Read More.</a></li><li>3.8x Improvement In Test Stability – Code-based frameworks rely on brittle locators and labels that break routinely. This maintenance kills your release velocity and reduces coverage. What you need is self-maintaining and self-healing code that eliminates most of the maintenance. It sounds amazing and it is! <a target="_blank" href="https://applitools.com/blog/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/" rel="noopener noreferrer">Read More.</a></li></ul><!-- /wp:list --><!-- wp:paragraph --><p>By comparing and contrasting the top participants – the prize winners – with the average engineer who participated in the Hackathon, we learned how Visual AI helped the average engineer greatly – and the top engineers become much more efficient.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/h-XgLeNe9ZR1RqtUWQJMRP6FvitDTk5vJ2_ilsZ28t9FxG2ljIrKGqqkSy-hh8jhq7_UgVzFqVHEkeoAXl2NP1MFW08QC3Be3VYvJLI7904prBbZl6tOok5gug5oIzgvtijkxjPJ" alt="VisualAI Impact VisualAI Impact 45MoreBugs GranPrize Compare With Title"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>The bottom line with Visual AI — you will catch more bugs earlier than you do today.        </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/QWmehwrg1ALsqUnNdxWnD0VbOcfW1K9KjgzL-RLzaM9AbYuDVo6IH9r9s5OGDD5if4mS3rwM2Nei5__KkX1qniS8QDrIHJJ6K0uqMfSem4HzY6JrbD4TUiSNdBGsBgjusfZ5wKp2" alt="VisualAI Impact 45MoreBugs GranPrize Quote"/></figure><!-- /wp:image --><!-- wp:heading --><h2>More About The Applitools Visual AI Rockstar Hackathon</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Applitools ran the Applitools Visual AI Rockstar Hackathon in November 2019. Any engineer could participate, and 3,000 did so from around the world. 288 people actually completed the Hackathon and submitted code. Their submissions became the basis for this article.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You can read the full report we wrote: <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">The Impact of Visual AI on Test Automation</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In creating the report, we looked at three groups of quality engineers including:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li><strong>All 288 Submitters – </strong>This includes any quality engineer that successfully completed the hackathon project. While over 3,000 quality engineers signed-up to participate, this group of 288 people is the foundation for the report and amounted to 3,168 hours, or 80 weeks, or 1.5 years of quality engineering data.</li><li><strong>Top 100 Winners – </strong>To gather the data and engage the community, we created the <a target="_blank" href="https://applitools.com/hackathon/" rel="noopener noreferrer">Visual AI Rockstar Hackathon</a>. The top 100 quality engineers who secured the highest point total for their ability to provide test coverage on all use cases and successfully catch potential bugs won over $40,000 in prizes.</li><li><strong>Grand Prize Winners – </strong>This group of 10 quality engineers scored the highest representing the gold standard of test automation effort.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>By comparing and contrasting the time, effort, and effectiveness of these groups, we were able to draw some interesting conclusions about the value of Visual AI in speeding test-writing, increasing test coverage, increasing test code stability, and reducing test maintenance costs.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>What’s Next?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>You now know five of the core benefits we calculate from engineers who use Visual AI.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Spend less time writing tests</li><li>Write fewer lines of test code</li><li>Maintain fewer lines of test code</li><li>Your test code remains much more stable</li><li>Catch more bugs</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>So, what’s stopping you from trying out Visual AI for your application delivery process? Applitools lets you <a target="_blank" href="https://www.applitools.com/free/" rel="noopener noreferrer">set up a free Applitools account</a> and start using Visual AI on your own.  You can <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">download the white paper</a> and read about how Visual AI improved the efficiency of your peers. And, you can <a target="_blank" href="https://applitools.com/tutorials?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=tutorial&amp;utm_campaign=&amp;utm_subgroup=" rel="noopener noreferrer">check out the Applitools tutorials</a> to see how Applitools might help your preferred test framework and work with your favorite test programming language.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><em>James Lamberti is CMO at Applitools.</em></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Cover Photo by <a target="_blank" href="https://unsplash.com/@jammypodger7470?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">michael podger</a> on <a target="_blank" href="https://unsplash.com/s/photos/spiderweb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></p>
-<!-- /wp:paragraph -->								
-			</div>
-<br>
-<br><a href="https://applitools.com/blog/catch-more-bugs/">Source link </a>]]></content:encoded>
 					
 		
 		
