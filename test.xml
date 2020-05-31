@@ -198,6 +198,92 @@
 		
 			</item>
 		<item>
+		<title>Cloud security and data protection: What enterprises need to know</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cloud-security-and-data-protection-what-enterprises-need-to-know/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 May 2020 18:45:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[enterprises]]></category>
+		<category><![CDATA[protection]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cloud-security-and-data-protection-what-enterprises-need-to-know/</guid>
+
+					<description><![CDATA[Data security is rarely the first consideration when choosing a public cloud service provider. That&#8217;s changing, though, because of the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Data security is rarely the first consideration when choosing a public cloud service provider. That&#8217;s changing, though, because of the rise of tougher rules, regulations, and standards aimed at protecting consumer privacy. Without data security, there can be no privacy.</p>
+<p>Laws such as the EU&#8217;s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) are making chief information security officers pay closer attention to <a target="_blank" href="https://techbeacon.com/security/data-security-cloud-3-things-your-team-needs-know" rel="noopener noreferrer">what data security means in the cloud</a>. To comply with the laws, CISOs also need to understand what must be done to more effectively protect and govern data in a complex, geographically diverse, and hybrid IT ecosystem.</p>
+<p>In <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-data-security?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">a recent report</a>, Micro Focus data security products executive <a target="_blank" href="https://www.linkedin.com/in/sid-dutta/" rel="nofollow noopener noreferrer">Sid Dutta</a> described the offerings of the &#8220;big three&#8221; public cloud service providers (CSPs)—Microsoft Azure, Google Cloud Platform (GCP), and Amazon Web Services (AWS)—serving up a framework with strategic selection criteria, and <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/bring-your-own-key-cloud?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">outlined what enterprises should be aware</a> of <a target="_blank" href="https://techbeacon.com/enterprise-it/5-tips-choosing-enterprise-cloud-services-provider" rel="noopener noreferrer">before cutting a deal with any CSP</a>. </p>
+<p>Here are six key takeaways from the report.</p>
+<p><em>[ Learn what matters in <a target="_blank" href="https://content.microfocus.com/l/cloud-security-data-privacy-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">cloud security and privacy in TechBeacon&#8217;s Guide</a>. Plus: Get this white paper on <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-data-security?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">selecting the right cloud encryption and key management tools</a>. ]</em></p>
+<h3>1. CSP key management and encryption services have limitations</h3>
+<p>These so-called HSM services have typically been added as a layer on top of the CSPs&#8217; existing stacks—an afterthought due to late recognition of their customers&#8217; increasing data security concerns, the report said.</p>
+<p>In addition, the encryption model used by the major CSPs won&#8217;t meet the scaling requirements of many enterprises. Amazon, Google, and Microsoft &#8220;create a unique key for every data element,&#8221; Dutta explained in an interview. &#8220;So if you&#8217;re processing 10 million records, every data element in each record will require a unique key.&#8221;</p>
+<p>That doesn&#8217;t scale when you&#8217;re doing a large volume of encryption, he said. &#8220;You&#8217;re going to have problems with availability, latency, and bandwidth.&#8221;</p>
+<blockquote>
+<p>&#8220;If I don&#8217;t have the ability to perform bulk encryption that doesn&#8217;t rely on the network and the availability of that system, that, for me as a customer, is a no-go. I can&#8217;t make my endpoint 100% available because I don&#8217;t control the network that connects my client application and my encryption system.&#8221;<br />—<a target="_blank" href="http://linkedin.com/in/sid-dutta" rel="nofollow noopener noreferrer">Sid Dutta</a></p>
+</blockquote>
+<p><a target="_blank" href="https://twitter.com/marknca" rel="nofollow noopener noreferrer">Mark Nunnikhoven</a>, vice president for cloud research at the security company Trend Micro, said the big three &#8220;offer a reasonable set of services around key management.&#8221; And with any cloud service, these are evolving rapidly.</p>
+<p>However, the bigger question that comes from the Micro Focus report, and which is central to your overall data protection strategy, persists: Is it safe for the CSP to own the keys?</p>
+<h3>2. Organizations cannot control encryption keys</h3>
+<p>Organizations concerned about a CSP controlling the encryption keys to their data are told they <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/bring-your-own-key-cloud?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">can &#8220;bring their own keys&#8221; (BYOK)</a>. That&#8217;s misleading, the report contends. Even if a customer provides key material, it explained, the CSP still either owns or manages the master keys, which can be subject to subpoena or some other form of disclosure or abuse.</p>
+<p>BYOK as a practice in the industry &#8220;has created a false perception that customer ownership and control of keys is established&#8221; when the fact is that, even if a customer generates and imports the keys into a CSP key-management system or cloud HSM, &#8220;it is the CSP that has direct or indirect control of the keys,&#8221; the report said. </p>
+<blockquote>
+<p>&#8220;There is no hard isolation when it comes to cloud infrastructure.&#8221;</p>
+</blockquote>
+<p>Ameesh Divatia, CEO of the data protection company Baffle, said BYOK had limitations for enterprises.</p>
+<blockquote>
+<p><span><span style="color:#999999"><span><span><span>&#8220;It&#8217;s not completely foolproof, but it&#8217;s a step forward because the keys aren&#8217;t accessible to the cloud service provider.&#8221;</span></span></span></span></span><br /><span><span style="color:#999999"><span><span><span>—</span></span></span></span></span><a target="_blank" href="https://www.linkedin.com/in/ameeshd/" rel="nofollow noopener noreferrer" style="color:#0096d6">Ameesh Divatia</a></p>
+</blockquote>
+<p><em>[ Get up to speed on new privacy laws with this Webcast: <a target="_blank" href="https://www.brighttalk.com/webcast/7477/385058?utm_source=TechBeacon" rel="nofollow noopener noreferrer">California’s own GDPR? It’s not alone</a></em><a target="_blank" href="https://www.brighttalk.com/webcast/7477/385058?utm_source=TechBeacon" rel="nofollow noopener noreferrer">.</a> <em>Plus: Go deeper with <a target="_blank" href="https://content.microfocus.com/l/gdpr-ccpa-privacy-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to GDPR and CCPA</a>. ]</em></p>
+<h3>3. No one CSP can support enterprises&#8217; hybrid and multi-cloud environments</h3>
+<p>The report explained that each CSP offers encryption services that are available and functional within the confines of their own clouds. That poses a challenge for enterprises using more than one CSP, not to mention on-premises legacy systems, to implement their workloads.</p>
+<p>&#8220;The biggest challenge and concern for enterprises&#8221; is that they cannot implement a single, CSP-agnostic enterprise solution or service that can be applied across both on-premises and multi-cloud hosted workloads, the report said.</p>
+<p>That can be especially challenging when it comes to encryption, because the CSPs don&#8217;t share keys.</p>
+<blockquote>
+<p>&#8220;I can&#8217;t take all my keys from Amazon and put them on Google. That doesn&#8217;t work.&#8221;<br />—Sid Dutta</p>
+</blockquote>
+<p>Andras Cser, vice president and principal analyst for security and risk management at Forrester Research, said this indeed can be tricky. &#8220;We&#8217;ve seen a number of questions on this,&#8221; he said.</p>
+<blockquote>
+<p>&#8220;It&#8217;s not so much just vendor lock-in, but the inability to extend AWS KMS to Azure and vice versa.&#8221;<br />—<a target="_blank" href="https://twitter.com/acser" rel="nofollow noopener noreferrer">Andras Cser</a></p>
+</blockquote>
+<h3>4. CSP crypto services are not global</h3>
+<p>The report explained that CSP crypto services are available in specific physical locations, referred to as regions. Even when these services are available, cross-region integrations and availability of keys is not guaranteed.</p>
+<p>Even though CSPs have a global footprint, &#8220;their crypto services are not global.&#8221; Not all regions have the KMS and cloud HSM services available, which forces enterprises to deploy and migrate their applications and data to specific CSP regions. The report notes:</p>
+<blockquote>
+<p>&#8220;With enterprises going global through mergers and acquisitions, they cannot afford to have regional services and silos.&#8221;</p>
+</blockquote>
+<h3>5. CSP encryption choices are limited</h3>
+<p>While all the CSPs offer crypto SDKs that support 256-bit GCM-mode AES, the report noted that other formats are largely unsupported. CSPs also don&#8217;t support the ability to partially expose some business elements without data decryption, or defined tokenization services to meet PCI-DSS requirements. </p>
+<p>By limiting the encryption choices available to organizations, CSPs discourage the use of encryption.</p>
+<blockquote>
+<p>&#8220;The reason that people shy away from encryption is there&#8217;s a perception—and in some cases a reality—that encryption breaks functionality.&#8221;<br />—Sid Dutta</p>
+</blockquote>
+<p>If, when you protect data, you remove the value from it so you can&#8217;t do your analytics and run artificial intelligence and machine learning on it to create new business insights, no one will want to encrypt the data, Dutta said.</p>
+<p>You need to strike a balance between encryption and functionality, he said. &#8220;Then people will be happy to encrypt their data.&#8221;</p>
+<blockquote>
+<p>&#8220;Everyone knows they need security, but they will take the easiest path, which will make them compliant but not secure.&#8221;<br />—Sid Dutta</p>
+</blockquote>
+<h3>6. Adopt a data-centric security attitude early</h3>
+<p>The report recommends that enterprises develop <a target="_blank" href="https://techbeacon.com/security/why-you-should-shift-your-cloud-security-strategy-stack" rel="noopener noreferrer">a cloud security strategy</a> early in the migration process. Data-centric security should be implemented before sensitive data is sent to the cloud.</p>
+<p>CSPs do a good job of infrastructure hardening and implementing security processes and policies, and they offer multiple tools to enable customers to secure their workloads, the report said. However, one key takeaway stands out:</p>
+<blockquote>
+<p>&#8220;But it is very important to understand that CSPs are not responsible or liable for the security of the data that customers ingest into their services.&#8221;</p>
+</blockquote>
+<p><em>[ Get on top of access with <a target="_blank" href="https://content.microfocus.com/l/identity-governance-admin-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to identity governance</a>. Plus: Learn how to <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/control-privilege-webinar?lx=3C7k5c?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">secure and manage cloud-based Linux resources with Active Directory</a> in this Webinar. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/cloud-security-data-protection-what-enterprises-need-know">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>VX Maintain &#124; Managing Your Contractors &#038; Invoices</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-contractors-invoices/</link>
 		
@@ -557,30 +643,6 @@
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/enterprise-it/rpa-essentials-what-it-why-it-matters">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ThreatList: People Know Reusing Passwords Is Dumb, But Still Do It</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 May 2020 13:00:11 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Dumb]]></category>
-		<category><![CDATA[passwords]]></category>
-		<category><![CDATA[People]]></category>
-		<category><![CDATA[Reusing]]></category>
-		<category><![CDATA[ThreatList]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/</guid>
-
-					<description><![CDATA[Even seeing data breaches in the news, more than half of consumers are still reusing passwords. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Even seeing data breaches in the news, more than half of consumers are still reusing passwords.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/threatlist-people-know-reusing-passwords-is-dumb-but-still-do-it/155996/">Source link </a></p>
 ]]></content:encoded>
 					
 		
