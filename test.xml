@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 29 May 2020 16:45:09 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 May 2020 19:58:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,31 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Steganography Anchors Pinpoint Attacks on Industrial Targets</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/steganography-anchors-pinpoint-attacks-on-industrial-targets/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 May 2020 19:58:35 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anchors]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Industrial]]></category>
+		<category><![CDATA[Pinpoint]]></category>
+		<category><![CDATA[Steganography]]></category>
+		<category><![CDATA[Targets]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/steganography-anchors-pinpoint-attacks-on-industrial-targets/</guid>
+
+					<description><![CDATA[Ongoing spear-phishing attacks aim at stolen Windows credentials for ICS suppliers worldwide. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Ongoing spear-phishing attacks aim at stolen Windows credentials for ICS suppliers worldwide.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/steganography-pinpoint-attacks-industrial-targets/156151/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>NTT Communications Data Breach Affects Customers, Threatens Supply Chain</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ntt-communications-data-breach-affects-customers-threatens-supply-chain/</link>
 		
@@ -596,53 +621,6 @@
 <br />Latest version of UnC0ver uses unpatched zero-day exploit to take complete control of devices, even those running iOS 13.5.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/156045/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>RPA essentials: What it is, and why it matters</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/rpa-essentials-what-it-is-and-why-it-matters/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 May 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[essentials]]></category>
-		<category><![CDATA[matters]]></category>
-		<category><![CDATA[RPA]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/rpa-essentials-what-it-is-and-why-it-matters/</guid>
-
-					<description><![CDATA[Robotic process automation (RPA) technology helps organizations automate defined, multi-step manual tasks that are done in high volume. RPA does this]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>Robotic process automation (RPA) technology helps organizations automate defined, multi-step manual tasks that are done in high volume. RPA does this by creating software robots, or RPA bots, that emulate human actions to interact with existing application interfaces.</p>
-<p>Organizations typically pair RPA bots with tasks that stretch across multiple legacy technology applications or platforms that aren&#8217;t easily linked. Sometimes referred to as &#8220;swivel chair&#8221; activities, these are processes where people essentially respond to alerts or prompts from one system, then use some of that data to take action in another system. </p>
-<p>In this way, <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/rpa-enterprise-it?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">RPA excels at helping organizations automate and eliminate error</a> from established processes, all without ripping and replacing legacy systems.</p>
-<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management (ESM)</a>. Plus: Get TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/buyers-guide-esm-products?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Buyers Guide to ESM Products</a> ]</em></p>
-<h3>Where RPA makes sense (and where it doesn&#8217;t)</h3>
-<p>RPA technologies can be used for many different applications, but <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/get-started-rpa?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">the easiest places to start</a> typically crop up in finance and human resources.</p>
-<p>One category that makes a good RPA candidate is procure-to-pay use cases. This is where low-level employees spend a lot of time processing inbound invoices, reconciling invoices, and issuing payments—running through routine, repetitive tasks each time they do them. Similarly, if finance personnel have to do a lot of cutting and pasting from one operational system into another finance system to tally up billable hours or shipped product before sending out an invoice, RPA can automate those actions.</p>
-<p>HR use cases tend to crop up in very formalized but frequent procedures, such as onboarding, that require recurring actions in many systems for each new employee. For example, RPA can help initiate new accounts, process inbound employee forms, and so on.</p>
-<p>HR can also lean heavily on RPA to help with time-consuming manual activities such as the reimbursement claims approval process. Before automation, this required employees to visually confirm scans of employee receipts and ensure that totals matched up before approving a claim.</p>
-<p>Now, RPA bots armed with optical character recognition (OCR) scans can be placed at the front end of that procedure to approve the majority of receipts, perhaps with humans on hand to do a second pass when receipts are smudged or there&#8217;s a discrepancy.</p>
-<p>These examples are just the beginning when considering possible RPA use cases. Others include using RPA bots to complete routine sales analysis based on input from many different systems, leveraging bots in IT situations for routine systems maintenance and monitoring, and using the technology to aid in supply chain planning and stock optimization.</p>
-<h3>Tips for figuring out where to start</h3>
-<p>As organizations <a target="_blank" href="https://techbeacon.com/resources/techbeacon-guide-how-roll-out-robotic-process-automation" rel="noopener noreferrer">identify use cases for RPA</a>, experts recommend that they seek out scenarios where:</p>
-<p>Organizations should be wary of trying to automate activities that require a lot of human interpretation of unstructured data.</p>
-<p>And even if a process is repetitive and defined, be careful that you&#8217;re not automating a fundamentally bad or obsolete process using RPA. In some cases, it may be worth the investment to re-engineer processes, develop better integrations or APIs to glue together systems, or even pay down technical debt and re-architect your underlying systems.</p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-<h3>What&#8217;s next: How RPA is evolving</h3>
-<p>When RPA first arose as a category, it evolved from macros that automated simple tasks into programmable bots based on a set of human-defined process rules. </p>
-<p>These bots helped improve efficiency in isolated situations, but organizations soon struggled on two fronts. First, discovering and defining processes for the bots to automate—at scale—has been <a target="_blank" href="https://techbeacon.com/enterprise-it/how-train-your-bots-5-rpa-fails-avoid" rel="noopener noreferrer">a challenge for RPA</a> from the start. Second, the management of the bots themselves and the process-defined rule-sets that direct their actions have become a big bugbear.</p>
-<p>This is what has led to the growth in RPA platforms, which can help on both fronts. <a target="_blank" href="https://techbeacon.com/enterprise-it/how-choose-right-rpa-tool" rel="noopener noreferrer">RPA tools</a> help automate the discovery of the processes and provide tools for line-of-business users to more easily build automations based on their process needs, often based on pre-built bot libraries. Additionally, platforms define rules that govern and orchestrate the way bots run.</p>
-<p>RPA vendors are trying to flex the limits of process definition by developing machine learning capabilities to <a target="_blank" href="https://techbeacon.com/enterprise-it/robotic-process-automation-5-key-trends-watch" rel="noopener noreferrer">automatically discover and learn processes</a>. Increasingly, vendors are building in the ability to record and analyze user actions and then use machine learning to automatically define process rules and reduce the number of manual steps.</p>
-<p>However, the heavy lifting still typically falls on business stakeholders and the automation team to get things rolling.</p>
-<p>Usually, however, RPA projects <a target="_blank" href="https://techbeacon.com/enterprise-it/13-robotic-process-automation-experts-you-should-follow" rel="noopener noreferrer">require the aid of consultants and integrators</a>, which is why<a target="_blank" href="https://www.horsesforsources.com/RPA-forecast-2016-2022_120118" rel="nofollow noopener noreferrer"> analysts project</a> a threefold increase in spending on RPA software through 2022.</p>
-<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
-</p></div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/rpa-essentials-what-it-why-it-matters">Source link </a></p>
 ]]></content:encoded>
 					
 		
