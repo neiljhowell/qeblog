@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 29 May 2020 19:58:35 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Jun 2020 19:37:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,393 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>What&#8217;s New In Selenium 4?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whats-new-in-selenium-4/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 19:37:40 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Whats]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whats-new-in-selenium-4/</guid>
+
+					<description><![CDATA[Selenium 4 is set to be released by the Chinese New year, but which year? A lot of developments have]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<p>Selenium 4 is set to be released by the Chinese New year, but which year? </p>
+
+
+
+<p>A lot of developments have happened since Selenium 4 was announced during the <a target="_blank" href="https://www.youtube.com/watch?v=ypmrrJmgM9U" rel="noopener noreferrer">State of the Union</a> Keynote by <a target="_blank" href="https://twitter.com/shs96c" rel="noopener noreferrer">Simon Stewart</a> and <a target="_blank" href="https://twitter.com/manoj9788" rel="noopener noreferrer">Manoj Kumar</a>. There has been a significant amount of work done and we’ve released at least <em>six</em> alpha versions of Selenium 4 for users to try out and report back with any potential bugs so that we can make it right.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:image {"id":12201,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"></figure><!-- /wp:image --><!-- wp:paragraph --><p>It is exciting times for the Selenium community as we have a lot of new features and enhancements that make Selenium WebDriver even more usable and scalable for practical use cases.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selenium is a suite of tools designed to support different user groups:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Selenium IDE supports rapid test development, and doesn’t require extensive programming knowledge</li><li>WebDriver provides a friendly and flexible API for browser automation in most major programming languages</li><li>Grid makes it possible to distribute and run your tests across more than just one machine.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Let us dive in and take a look at some of the significant features that were released in each of these tools and share some of the cool upcoming features that are in-progress and will be available in Selenium 4.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.fmxm7lpwhuma">Selenium WebDriver</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>One of the main reasons to release WebDriver as a major version (Selenium 4) is because of the complete W3C protocol adoption. The W3C protocol dialect has been available since the 3.8 version of Selenium WebDriver along with the JSON wire protocol. This change in protocol isn’t going to impact the users in any way, as all major browser drivers (such as <a target="_blank" href="https://github.com/mozilla/geckodriver" rel="noopener noreferrer">geckodriver</a> and <a target="_blank" href="https://chromedriver.chromium.org/" rel="noopener noreferrer">chromedriver</a>), and many third party projects, have already fully adopted the W3C protocol.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>However, there are some notable new APIs, as well as the removal of deprecated APIs in the WebDriver API, such as:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Elements:<ul><li>The FindsBy* interfaces (e.g. FindsByID, FindsByCss …) have been deleted. The recommended alternative is to use a `By` instance passed to `findElements` instead.</li><li>“<a target="_blank" rel="noopener noreferrer" href="https://angiejones.tech/selenium-4-relative-locators/">Relative locators</a>”: a friendly way of locating elements using terms that users use, like “near”, “left of”, “right of”, “above” and “below”. This was inspired by an automation tool called <a target="_blank" rel="noopener noreferrer" href="https://sahipro.com/">Sahi</a> by Narayan Raman, and the approach has also been adopted by tools like <a target="_blank" rel="noopener noreferrer" href="https://taiko.dev/">Taiko</a> by ThoughtWorks.</li><li>A richer set of exceptions, providing better information about why a test might have failed. These include exceptions like ElementClickInterceptedError, NoSuchCookieError &amp; more.</li></ul></li><li>Chrome Debugging Protocol (CDP):<ul><li>Although Selenium works on every browser, for those browsers that support it, Selenium 4 offers CDP integration, which allows us to take advantage of the enhanced visibility into the browser that a debugging protocol gives.</li><li>Because the CDP is, as the name suggests, designed for debuggers, it’s not the most user friendly of APIs. Fortunately, the Selenium team is working to provide comfortable cross-language APIs to cover common requirements, such as network stubbing, capturing logs, <a target="_blank" rel="noopener noreferrer" href="https://angiejones.tech/selenium-4-mocking-geolocation/">mocking geolocation</a>, and more.</li></ul></li><li>Browser Specifics:<ul><li>A new ChromiumDriver extends packages for both Chrome and Edge browsers.</li><li>A new method to allow install and uninstall add-ons for Firefox browser at runtime.</li></ul></li><li>Window Handling: <ul><li>Users can go in full-screen mode during script executions. </li><li>Better control of whether new windows open as tabs, or in their own window.</li></ul></li><li>Screenshots: <ul><li>An option to grab a screenshot at UI element level. Unlike the usual view-port level screenshot. </li><li>Full Page Screenshot support for Firefox browser.</li></ul></li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>What’s next in WebDriver beyond Selenium 4?</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It would be nice to have users extend the locator strategy like FindByImage or <a target="_blank" href="https://testautomationu.applitools.com/ai-for-element-selection-erasing-the-pain-of-fragile-test-scripts/" rel="noopener noreferrer">FindbyAI (like in Appium)</a> – right now we have a hardcoded list of element location strategies. Providing a lightweight way of extending this set, particularly when using Selenium Grid, is on the roadmap.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.1m0sk6c3h4j7">Selenium IDE</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The original Selenium IDE reached its end of life in August 2017, when Mozilla released Firefox 55, which switched its add-ons from the Mozilla-specific “XPI” format to the standardised “Web Extension” mechanism. This meant that the original Selenium IDE would no longer work in Firefox versions moving forwards.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Thanks to Applitools, <a target="_blank" href="https://applitools.com/blog/selenium-ide-with-dave-haeffner/" rel="noopener noreferrer">Selenium IDE has been revived</a>! It is one of the significant improvements in Selenium 4 and includes notable changes like:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>A new shiny UI, for better user experience.</li><li>A web-extensions based plugin that makes it possible to be available in Chrome and Firefox browsers as well as for any other browser that allows web-extension based plugins. It will soon be available in the MS Edge store.</li><li>Code export is available now for all the official language bindings such as Java, .Net, Python, Ruby &amp; JavaScript.</li><li>A new plugin system that can allow users to create new commands, code exports for new languages and frameworks. The plugins can be shipped as extensions. An example of a plugin is <a target="_blank" href="https://chrome.google.com/webstore/detail/applitools-for-selenium-i/fbnkflkahhlmhdgkddaafgnnokifobik" rel="noopener noreferrer">Applitools for Selenium IDE</a> which enables codeless visual testing.</li><li>A new CLI runner called the “Selenium-side-runner” running on NodeJs. It allows users to execute the recorded tests in parallel with multi-browser capability.</li></ul><!-- /wp:list --><!-- wp:list --><ul><li>A control flow mechanism which helps users write better tests using “while” &amp; “if” conditions.</li><li>A backup element selector that can fall back and select elements using a different locator strategy like ID, CSS &amp; XPath based on the recorded information. This helps make tests more stable and reliable.</li><li>Selenium IDE is <em>accessible</em>! We’ve gone above and beyond to make sure that it conforms to some of the latest accessibility guidelines and supports necessary controls like focus order, roles, tooltips, announcing the start of recording, color and design.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>What’s next in Selenium IDE?</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A remarkable milestone for Selenium IDE is that it’s going to be available as a standalone app, re-written to be an <em>Electron app</em><em>.</em> By binding tightly to the browser, this would allow us to listen out for events from the browser, making test recording more powerful and feature-rich.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.6n9h1ej7fb4v">Selenium Grid</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>One of the essential improvements in Selenium 4 is the ability to use <a target="_blank" href="https://github.com/SeleniumHQ/docker-selenium" rel="noopener noreferrer">Docker</a> to spin up containers instead of users setting up heavy virtual machines. Selenium Grid has been redesigned so that users can deploy it on <a target="_blank" href="https://github.com/manoj9788/kubernetes-docker-selenium" rel="noopener noreferrer">Kubernetes</a> for excellent scaling and self-healing capabilities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Let’s look at some of the significant improvements:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>We’ve enhanced Selenium Grid deployment for more scalable and traceable infrastructure.</li><li>Users can deploy Grid, either as Standalone, Hub-Node or in a distributed mode with different processes like in the below picture,</li></ul><!-- /wp:list --><!-- wp:image {"id":19462} --><figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM.png" alt="Screenshot 2020 05 20 at 3.57.26 PM" class="wp-image-19462" srcset="https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM.png 1600w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-300x188.png 300w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-1024x641.png 1024w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-768x480.png 768w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-1536x961.png 1536w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-335x211.png 335w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:list --><ul><li>Observability is a way of measuring systems’ internal state; a much-needed capability to <a target="_blank" href="https://github.com/manoj9788/tracing-selenium-grid" rel="noopener noreferrer">trace</a> what happens when an API is invoked or a new session creation is requested. This can help admins and developers when debugging, as providing insight into the root cause when strange problems arise.</li><li>Selenium Grid, by default, communicates via HTTP. This is fine for most use cases within the firewall but problematic when your server is exposed to the internet. Now users can have their Grid communicate via the HTTPS protocol with support for TLS connections.</li><li>Unlike in the old versions, where we’ve allowed only IPV4 based IP addresses,  now we support IPV6 addresses as well.</li><li>Grid has always allowed you to use configuration files when spinning up Grid instances. In Grid 4, those files can be written using <a target="_blank" href="https://github.com/toml-lang/toml" rel="noopener noreferrer">TOML</a>, which makes them easier for humans to understand..</li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>What’s next in Selenium Grid?</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As you follow, there have been exciting changes and performance improvements. There are a few more that expected to be added like:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>A revived UI for Grid console</li><li>GraphQL for querying Grid</li><li>More work on Grid stability and resilience</li></ul><!-- /wp:list --><!-- wp:heading --><h2 id="h.t5t1jy4sfi9o">More Goodies</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We’ve also refreshed our branding, documentation, and the website, so check out <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium.dev</a><u>!</u></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selenium is an Open-Source project, and we do this voluntarily so there are no definite timelines that can be promised, but we can say before Chinese New Year.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please come and give us a hand if you have the energy and time! Happy hacking!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Thanks Simon Stewart in helping review this post!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>Manoj Kumar is a Principal Consultant at ThoughtWorks. Manoj is an avid open-source enthusiast and a committer to the Selenium &amp; Appium project. And a member of the project leadership committee for Selenium. Manoj has also contributed to various libraries and frameworks in the automated testing ecosystem like ngWebDriver, Protractor and Serenity to name a few. An avid accessibility practitioner who loves to share knowledge and is a voluntary member of the W3C ACT-R group. In his free time, he contributes to Open-Source projects or research on Accessibility and enjoys spending time with his family. He blogs at<a target="_blank" rel="noopener noreferrer" href="http://assertselenium.com"> AssertSelenium</a>.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Read More</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<!-- /wp:list --><!-- wp:heading --><h2>Join our Cross-Browser Testing Hackathon</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<!-- /wp:list -->
+			</div><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<br><a href="https://applitools.com/blog/selenium-4/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Two Critical Android Bugs Open Door to RCE</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/two-critical-android-bugs-open-door-to-rce/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 17:10:58 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Door]]></category>
+		<category><![CDATA[Open]]></category>
+		<category><![CDATA[RCE]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/two-critical-android-bugs-open-door-to-rce/</guid>
+
+					<description><![CDATA[Google and Qualcomm both addressed significant vulnerabilities in their June updates. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Google and Qualcomm both addressed significant vulnerabilities in their June updates.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/two-critical-android-bugs-rce/156216/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Welcome to Yinka! – Gatling Open-Source Load Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-yinka-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 16:18:50 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Yinka]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-yinka-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[The sales team is growing today! We are very happy to welcome Yinka Aboaba. Yinka joined Gatling as a Business]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>The sales team is growing today! We are very happy to welcome <strong>Yinka Aboaba</strong>.</p>
+</p>
+<p><noscript><img class=" wp-image-7294 aligncenter" src="https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20-235x300.png" alt="" width="172" height="220" srcset="https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20-235x300.png 235w, https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20-500x637.png 500w, https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20.png 736w" sizes="(max-width: 172px) 100vw, 172px"/></noscript></p>
+<p>Yinka joined Gatling as a <strong>Business Developer</strong> as part of the Sales Team focusing on New Business.</p>
+<p>He had varied experience initially in strategy working for ENGIE within its <strong>international power business</strong> for 18 months before moving to <strong>commercial positions</strong> most recently at ManoMano in the e-commerce sector where he worked on both <strong>deal closing and account management</strong>.</p>
+<p><strong>Yinka comes from the UK and studied economics</strong>, but spent one year off in Brest to work as an <strong>English language assistant</strong>. He also studied<strong> one year in Barcelona</strong>.</p>
+<p><strong>Feel free to contact him,</strong> if you need any information, he would be glad to help you: <a target="_blank" href="https://gatling.io/mailto:yaboaba@gatling.io" rel="noopener noreferrer">yaboaba@gatling.io</a></p>
+<p>Yinka started working with us in <strong>full remote</strong> and hope to meet him very quickly!</p>
+<p>We look forward to benefiting from his expertise in sales!</p>
+<p>Welcome Yinka!</p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://gatling.io/2020/06/02/welcome-to-yinka/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Severe Cisco DoS Flaw Can Cripple Nexus Switches</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/severe-cisco-dos-flaw-can-cripple-nexus-switches/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 16:16:31 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Cripple]]></category>
+		<category><![CDATA[DoS]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[Nexus]]></category>
+		<category><![CDATA[Severe]]></category>
+		<category><![CDATA[Switches]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/severe-cisco-dos-flaw-can-cripple-nexus-switches/</guid>
+
+					<description><![CDATA[Cisco has patched a high-severity flaw that could lead to denial-of-service attacks on its Nexus switch lineup. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Cisco has patched a high-severity flaw that could lead to denial-of-service attacks on its Nexus switch lineup.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cisco-dos-flaw-nexus-switches/156203/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to get big results with a small SRE team</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-get-big-results-with-a-small-sre-team/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[big]]></category>
+		<category><![CDATA[Results]]></category>
+		<category><![CDATA[small]]></category>
+		<category><![CDATA[SRE]]></category>
+		<category><![CDATA[team]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-get-big-results-with-a-small-sre-team/</guid>
+
+					<description><![CDATA[One responsibility of every site reliability engineering team is to help other engineers deliver changes quickly and safely to customers.]]></description>
+										<content:encoded><![CDATA[<p> </p>
+<div>
+<p dir="ltr">One responsibility of every site reliability engineering team is to help other engineers <a target="_blank" href="https://content.microfocus.com/release-management-tb/devops-release-management?lx=PLf4hm&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">deliver changes quickly and safely</a> to customers. In many engineering departments, this responsibility belongs to a small number of site reliability engineers (SREs), who must juggle many different priorities, including cloud infrastructure, developer tooling, information security, and incident response. </p>
+<p dir="ltr">Luckily, <a target="_blank" href="https://techbeacon.com/enterprise-it/sre-practice-5-insights-googles-experience" rel="noopener noreferrer">SRE principles</a> were established with an eye to building lasting, scalable value, and are a <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/how-itil4-and-sre-al?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">critical part of DevOps</a>. For example, when an SRE team provides developers with tools to own their service lifecycle, they become a productivity multiplier instead of a bottleneck. </p>
+<p dir="ltr">Your SRE team members can achieve this only when they have sufficient time to solve these problems. They can&#8217;t be spending all their time reacting to alerts and tickets. Finding this time can be a struggle, especially if yours is a small team.</p>
+<p dir="ltr">Here&#8217;s tried and tested advice to help you build a strong and sustainable SRE team regardless of the team&#8217;s size.</p>
+<h3>Help others, never block them</h3>
+<p dir="ltr">A small SRE team can have major influence by providing self-service capabilities to engineering teams, thus removing itself from the critical path to production.</p>
+<p dir="ltr">This starts with <a target="_blank" href="https://techbeacon.com/app-dev-testing/running-gauntlet-setting-your-first-deployment-pipeline" rel="noopener noreferrer">deployment pipelines</a> that can be autonomously operated by development teams, allowing them to build and release code changes—including configuration, such as environment variables—without handoffs.</p>
+<p dir="ltr">This does not remove SREs&#8217; responsibility to ensure that these changes are safe, since this can be achieved through constraints built into the pipeline, such as test coverage rules, static analysis quality gates, security vulnerability checks, or conservative deployment strategies. </p>
+<p dir="ltr"><a target="_blank" href="https://techbeacon.com/enterprise-it/dos-donts-large-scale-deployments" rel="noopener noreferrer">These deployment strategies</a> can include blue/green—maintaining two separate but identical deployment environments—and canary, which involves incremental rollouts. </p>
+<p dir="ltr">Once changes are live, it&#8217;s also important for the deployment team to observe the results and react to common issues without the need to involve SRE. This means full access to metrics, logs, traces, and dashboards for every engineer, as well as the ability to take action (which includes rolling back a deployment, flipping the kill switch on a feature, and so on).</p>
+<h3>Beware of rolling your own stack and tools</h3>
+<p>The last few years have brought an overwhelming choice of infrastructure options. The initial excitement from the capabilities of some tools can unfortunately often turn into <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">a lot of technical debt</a> and maintenance headaches.</p>
+<p>Managing your own Kubernetes, building your own Kafka cluster, implementing your own monitoring stack—all of these are almost impossible to get right when you have a very small SRE team. Instead, <a target="_blank" href="https://techbeacon.com/enterprise-it/5-tips-choosing-enterprise-cloud-services-provider" rel="noopener noreferrer">turn your attention to managed cloud services</a>, which you won&#8217;t have to maintain from the ground up.</p>
+<p dir="ltr">It is also often easy for SRE pros to fall into the trap of solving problems by writing your own tools—a trap that engineers of all types tend to fall into.</p>
+<p dir="ltr">However, every line of code you own is a liability, not only because of the maintenance burden, but also because any progress on the tool will only happen if you have time to dedicate to it. Unless this homemade tool is a unique differentiator, your best choice is to turn to third-party products that fulfill the requirement.</p>
+<h3>Avoid technology spread</h3>
+<p dir="ltr">Similarly, the acquisition of an increasing number of tools, left unchecked, can turn your architecture options into a Swiss Army knife. Technology spread is not only a source of increased maintenance work for SRE, but it also adds to the mental overload of your engineering team.</p>
+<p dir="ltr">For example, if you build an application using five programming languages and four databases, any team building something new has 20 options to choose from!</p>
+<p dir="ltr">Development tooling also fits in this category. Think source control, monitoring, CI/CD pipelines, and so on. Having multiple options in any of these can become a source of confusion and poor consistency. It&#8217;s okay to migrate from one tool to another. Just make sure you don&#8217;t stop halfway.</p>
+<h3>Measure where your team is spending its time and effort</h3>
+<p dir="ltr">A core principle for a sustainable SRE team is keeping the amount of toil to a minimum. Google&#8217;s SRE e-book <a target="_blank" href="https://landing.google.com/sre/sre-book/chapters/eliminating-toil" rel="nofollow noopener noreferrer">defines &#8220;toil&#8221;</a> as manual and repetitive tasks that aren&#8217;t adding value in the long run. Without being automated away, toil work will increase proportionally to the number of engineers, the size of an application, and the usage of the product, slowly becoming the only thing a SRE team does.</p>
+<p dir="ltr">The counterbalance of toil work is engineering work, which yields long-lasting value. Examples include building a self-service deployment pipeline instead of creating SRE tickets to deploy applications, improving alerting rules to reduce the overload of interruptions from false positives, and implementing auto-scaling policies to allow systems to adapt to loads without manual intervention.</p>
+<p dir="ltr">In a small SRE team, the balance between toil and engineering can very quickly tip the wrong way. Measuring this work ratio on a regular basis is key to understanding when the situation is about to become unsustainable.</p>
+<p dir="ltr">If toil consistently accounts for more than 50%, not only does it mean that more than half of SREs&#8217; work yields no lasting value, but it can also be the source of demotivation and <a target="_blank" href="https://techbeacon.com/devops/how-avoid-devops-burnout" rel="noopener noreferrer">burnout for team members</a> stuck with manual and repetitive tasks.</p>
+<p dir="ltr">Any work-management software makes this balance very easy to report on via tags. Review the biggest components of unplanned work often, and question their actual value and whether automation work should be prioritized to reduce their ongoing operational burden on your team.</p>
+<h3>Put structure around unplanned work</h3>
+<p dir="ltr">Despite trying to get engineering teams to be as independent as possible, they still occasionally require help or guidance. These interruptions can take the form of Slack messages, Jira tickets, or even walking over to the SRE team&#8217;s offices to ask a question.</p>
+<p>Instead of having the full team jumping to answer everything, designate one member of your team, whose main responsibility is to handle this reactive work. Rotate in a different person every week. In this way, the rest of your team can remain focused on engineering work, without constantly context-switching.</p>
+<p dir="ltr">This is also a valuable learning opportunity for recent joiners on the team, since they will be exposed to more areas of the SRE sphere of work. When the SREs on &#8220;interruption duty&#8221; aren&#8217;t responding to requests, they can still participate in toil-reducing work by addressing lower-priority technical debt items, such as cleaning up noisy alerts, reviewing older incidents post mortem to ensure actions were addressed, and so forth.</p>
+<p><em>[ Join the discussion in this June 18 Webinar, <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/are-itsm-and-enterpr?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Are ITSM and ESM One and the Same</a>? </em><em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management</a> ]</em></p>
+<h2>Spread on-call responsibilities</h2>
+<p dir="ltr">The best monitoring system won&#8217;t help with incident response if engineers get alerted only during working hours. It&#8217;s typical for SRE teams to share off-hours responsibilities by having a weekly rotation. You should have two people on call: a primary (receiving alerts) and a secondary (in case primary is unable to respond in time).</p>
+<p dir="ltr">For teams with only two or three engineers, however, that&#8217;s unsustainable, since individual engineers would need to wear pagers and be on call for several consecutive weeks. This can lead to on-call fatigue and carries a high risk of burning out your engineers. In this situation consider democratizing the on-call work by including developers and test engineers in your rotation.</p>
+<p dir="ltr">Involving developers and testers in on-call rotations has several benefits. You&#8217;re forced to make SRE &#8220;tribal knowledge&#8221;—how to deal with incidents, document them, and make the responses repeatable. That means that every alert that triggers a pager must contain clear runbooks to ensure that the response will be consistent.</p>
+<p dir="ltr">On-call developers and testers also have more context about application-related issues. And as <a target="_blank" href="https://twitter.com/ChrisAnnODell" rel="nofollow noopener noreferrer">Chris Ann O&#8217;Dell</a> puts it <a target="_blank" href="https://www.youtube.com/watch?v=UNxhm89DwlY" rel="nofollow noopener noreferrer">in her talk</a>, &#8220;You build it, you run it: Why developers should be on call,&#8221; it is also a great driver for prioritizing bug fixes and better testing strategies so you can avoid waking people up at night.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h2>Your small team can yield big results</h2>
+<p dir="ltr"><a target="_blank" href="https://techbeacon.com/devops/how-accenture-retrofitted-site-reliability-engineering" rel="noopener noreferrer">The essence of SRE</a> is to help build solutions that have lasting value and that will work at scale. A well-thought-out software delivery platform will work for 10 engineers or 200, as long as you keep aiming for zero SRE intervention between the developer committing code and seeing the change have an effect in production.</p>
+<p dir="ltr">Unfortunately, such a target often feels out of reach when the most-needed improvements stay in the backlog as you keep reacting to issues that block you from making real, lasting progress.</p>
+<p dir="ltr">This is even more pronounced for small teams, which is why every decision you make about adopting new technology, building a custom tool, or &#8220;doing the quick thing and fixing it later&#8221; needs to be made while taking into account the recurring toil taken on your team.</p>
+<p dir="ltr">Unplanned work and toil remain a reality with SRE work, but it should be second nature for your team to want to reduce it. So put structure around your work, track it and understand it, and keep it from becoming everything your team does.</p>
+<p><em>Want to know more? During my <a target="_blank" href="https://agiledevopswest.techwell.com/pricing-packages" rel="nofollow noopener noreferrer">Agile + DevOps Virtual </a> conference session, I&#8217;ll offer additional practical tips on how to maximize the value that very small SRE teams can deliver. The conference runs June 8-11, 2020. </em></p>
+<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/how-get-big-results-small-sre-team">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Testing Design System Changes Across Your Application &#8212; Intuit Use Case with Sr. Engineer Tyler Krupicka [webinar recording]</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-design-system-changes-across-your-application-intuit-use-case-with-sr-engineer-tyler-krupicka-webinar-recording/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 11:24:07 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Application]]></category>
+		<category><![CDATA[Case]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[engineer]]></category>
+		<category><![CDATA[Intuit]]></category>
+		<category><![CDATA[Krupicka]]></category>
+		<category><![CDATA[Recording]]></category>
+		<category><![CDATA[System]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Tyler]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-design-system-changes-across-your-application-intuit-use-case-with-sr-engineer-tyler-krupicka-webinar-recording/</guid>
+
+					<description><![CDATA[Design systems are one of the most popular new ways to create and document the UI building blocks that make]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Design systems are one of the most popular new ways to create and document the UI building blocks that make up a product.</p>
+<p>Component-based frameworks — <em>such as React, Angular, and Vue</em> — have taught teams to break apart their application interface into reusable pieces, while projects like Storybook have allowed us to document and test these components at scale.</p>
+<p>What happens when you make design changes using a central system, instead of individual screens? How do you make changes with confidence when your update impacts every screen in the product?</p>
+<p>In this webinar, <a target="_blank" href="https://twitter.com/tylerkrupicka" rel="noreferrer noopener">Tyler Krupicka</a> — <em>Senior Software Engineer @ Intuit</em> — shared how Intuit tests design system changes for TurboTax, a product with thousands of reconfigurable screens that share a common design language.</p>
+<p>He also discussed why design systems have become so important to his team, the tools his team uses, as well as providing a deep dive on how Intuit routinely changes thousands of screens simultaneously.</p>
+<p>Watch this in-depth live session, and discover:</p>
+<ul>
+<li>What are design systems, and how they can help you build consistent experiences</li>
+<li>How Intuit uses design systems to build thousands of unique screens in TurboTax</li>
+<li>How we test and release widespread changes with confidence in:
+<ul>
+<li>Performance</li>
+<li>Accessibility</li>
+<li>Visual Consistency</li>
+</ul>
+</li>
+<li>How you can build and maintain your own design system at scale</li>
+</ul>
+<h3>Tyler’s Slide Deck </h3>
+<figure class="wp-block-embed-slideshare wp-block-embed is-type-rich is-provider-slideshare wp-embed-aspect-1-1 wp-has-aspect-ratio"/>
+<h3>Full Webinar Recording </h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p><div class="fitvids-video"><iframe title="[webinar recording] Testing Design System Changes Across Your Application -- Intuit Use Case" width="800" height="450" src="https://www.youtube.com/embed/Fghrui7Xbcw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+</figure>
+<h3>Additional Resources</h3>
+<h3 class="has-text-align-center">— HAPPY TESTING — </h3>
+<h2>Join our Cross-Browser Testing Hackathon</h2>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://applitools.com/blog/testing-design-systems/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Citrix &#8211; Neotys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/citrix-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2020 02:45:44 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/citrix-neotys/</guid>
+
+					<description><![CDATA[Performance Testing #Citrix with @Neoload gives new meaning to rapid and visual test design. Dont you want to know whether]]></description>
+										<content:encoded><![CDATA[<p></p>
+<p><span></p>
+<p>Performance Testing <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/citrix?refid=17&amp;_ft_=mf_story_key.3372167832794656%3Atop_level_post_id.3372167832794656%3Atl_objid.3372167832794656%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3372167832794656%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1591065944%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3372167832794656%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3372167832794656%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1593586799%3A4260377346859437997&amp;__tn__=%2As-R" rel="noopener noreferrer"><span class="_5aw4 _qdz">#Citrix</span></a> with @Neoload gives new meaning to rapid and visual test design.  Dont you want to know whether or not applications distributed through Citrix are behaving for users under load at any time of day?  <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3372167832794656%3Atop_level_post_id.3372167832794656%3Atl_objid.3372167832794656%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3372167832794656%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1591065944%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3372167832794656%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3372167832794656%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1593586799%3A4260377346859437997&amp;__tn__=%2As-R" rel="noopener noreferrer"><span class="_5aw4 _qdz">#perfmatters</span></a> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fwww.neotys.com%2Fsolutions%2Fcitrix%3Ffbclid%3DIwAR3DaIqv3sqE7NQacWoZqxHR43UNJ23KS7itegLb1zu_JeiFtQWU1gWETfc&amp;h=AT1vVb4WP_zwq_lwo3iCuhiXnBnQ1teMjF-4pgM8mnxQgvSDD3rlR6U6yZGCXwIaImqaCRNdCnGFuat8Pauy8qRVqf5ybRR6CYYIrImt_zZsoOUKuGohhEkjE8fUiyCucyQq1z-X5DH-U6oSse2xQKsmqw5c_HAtu1YNKvG2stCHO6jqYzR4wKTirGHJoPQZzmoei87Y25CQtTnOynOBjBX_bHoxQp-LdoVVQtNneaR8ic2wv92gcw7QXKYcDbg7kcJJaILZ40keQwrtcdxk1KHciLTnFP2fKjpgrMDz0y9XubxWHBmyAnxxNTxekuCDCx1eqGoqBF7g8U2c0fIAkbKge0DdhXbsXr3ATMZyonzrJvsaDxSpbhqsfFPlfOIdsAtzu39HBfi9k_Ic_NLHTw_ndSJp7lpzObey_cIoojivS6Rp24Bi-fvQPPb-X7SMQ7vqJjqdT1cp3bSDWjviHFcBRERxU9FiYz2M1RWOkz53O30MUvdvcN7r4-ikEX07aDvD-y7xJcybXkocZin6VS6rswGvvWq61BLBqUpwMxRCtDd9ALdVFipzXukSSs4U91b9a-0RCPZjkRelIWyTCmDspx9iN52WUHSfSlDUBZc1HoCpsYiipvVAria4UVaZ3niQb9yqWUT5_fml09UhPWvGP8AawezgNRqwq7I-UDaw_BOF8dSsb0kbG2kGBT_zgOlRj0PjxwGIz58oI_YW6JxZQ5CmNbKjAgbUz0CfQUvdSaB58gvqhwKSOXzQ6KtUZE62DXYtf88jna2bvgCA4-RCTwVbgm1-04KvK7oYZa_0XjAsQmyEr_SmVqfkJdlSr31LzORSnoOatQ1yXB7hj5wJvANPSvdE_R_NppoqMJMFi2wQ-YyLQ75w1SrogxflQi_VqzcaZR-TFoc-XTIOOyD_NFmnP-NzjdayQFy-7aJl8t-10sRoPz4Pk_xCztuh19XHen4X7CfcKJ_76XhK9-uLnLwS1MryF7Ys4qXNjEpFuRmtvU0WcSij2ijbjhosYho_ZpZNYzX3vQlQk9YCh7h1RWgRsm5QPoni10Iy-FP2XIXWurp6r5iJhi6NJWF4LkyZk0VOrrg5Vftv3ECTpKxO0OfiCI6CTqbW2pJVJXG2bKllyNT3nAACxjv1UGcGPUSmIJ13zLSHDY6fZ9RjKBcAwApTqniWaUBSevYYlkLZUA" rel="noopener noreferrer"><span>https://</span><wbr></wbr><span class="word_break"></span><span>www.neotys.com/</span><wbr></wbr><span class="word_break"></span>solutions/citrix</a></p>
+<p></span>
+</p>
+<p><a target="_blank" href="https://www.neotys.com/solutions/citrix?fbclid=IwAR3DaIqv3sqE7NQacWoZqxHR43UNJ23KS7itegLb1zu_JeiFtQWU1gWETfc" rel="noopener noreferrer"></a> </p>
+<p><a target="_blank" href="https://www.neotys.com/solutions/citrix?fbclid=IwAR3DaIqv3sqE7NQacWoZqxHR43UNJ23KS7itegLb1zu_JeiFtQWU1gWETfc" rel="noopener noreferrer">Citrix &#8211; Neotys</a></p>
+<p>Performance Test All Citrix Virtualized Applications &#038; Desktops Performance Test Citrix with NeoLoad Scale Virtual Computing Fast Whether you’re an automotive company designing the next-gen car, a furniture e-tailer supplying consumers with a 3D kitchen planning tool, or a manufacturer creating ma&#8230;<br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3372167832794656">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Steganography Anchors Pinpoint Attacks on Industrial Targets</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/steganography-anchors-pinpoint-attacks-on-industrial-targets/</link>
 		
@@ -98,8 +485,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/3-best-practices-of-the-devsecops-elite/</guid>
 
 					<description><![CDATA[Not everyone was grumpy this spring after several weeks on lockdown. In fact, some developers were quite happy. What did]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p dir="ltr">Not everyone was grumpy this spring after several weeks on lockdown. In fact, some developers were quite happy. What did the happy ones have in common? As it turns out, many of them engage in several common best DevSecOps practices, according to this year&#8217;s DevSecOps Community Survey.</p>
 <p dir="ltr">Also, it turns out that <a target="_blank" href="https://techbeacon.com/devops/devsecops-survey-you-need-happy-developers-build-secure-software" rel="noopener noreferrer">happy developers are found in mature DevSecOps practices</a>. And this matters, a lot, said Derek Weeks, co-founder of All Day DevOps and vice president at Sonatype, the survey&#8217;s sponsor</p>
@@ -136,491 +522,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/devops/3-best-practices-devsecops-elite">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How Can 2 Hours Now Save You 1,000 Hours In The Next Year?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-can-2-hours-now-save-you-1000-hours-in-the-next-year/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 May 2020 03:50:52 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Hours]]></category>
-		<category><![CDATA[Save]]></category>
-		<category><![CDATA[Year]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-can-2-hours-now-save-you-1000-hours-in-the-next-year/</guid>
-
-					<description><![CDATA[As a quality engineer, what do you think about when you consider the return on investing an hour of your]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>As a quality engineer, what do you think about when you consider the return on investing an hour of your time? Or two hours? What if it could save you up to half the work hours you spent over the past year?</p>
-<p>If you spend a lot of time writing or maintaining your end-to-end tests, our data shows that you’ll find lots of savings. What would you do with that time?</p>
-<p>I have written previously about our <a target="_blank" href="https://applitools.com/impact-of-visual-ai/" rel="noopener noreferrer">Impact of Visual AI on Test Automation</a> report. And, I have written about the benefits that many of your peers discovered by using Applitools Visual AI. They <a target="_blank" href="https://applitools.com/blog/create-new-tests-much-faster/" rel="noopener noreferrer">reduced the number of lines of code they had to write</a>. Their <a target="_blank" href="https://applitools.com/blog/test-code-efficiency/" rel="noopener noreferrer">code became more stable </a>and <a target="_blank" href="https://applitools.com/blog/exit-the-test-maintenance-road-to-nowhere-through-visual-ai/" rel="noopener noreferrer">easier to maintain</a>. They <a target="_blank" href="https://applitools.com/blog/catch-more-bugs/" rel="noopener noreferrer">caught more bugs with less code</a>. And they learned how to do all this in about one to two hours.</p>
-<p>So, what can an hour or two of your time give you?</p>
-<h2 id="h.ghopl7fhjj7e">ROI For A Quality Engineer Hour</h2>
-<p>Business people like me often talk about return on investment (ROI). If we invest this money today, what does the future payoff look like, and when does it come?</p>
-<p class="has-text-align-center"></p>
-<p>ROI offers a good model for thinking for everyone. Including a decision about how to spend your time to learn a new skill. If you spend an hour learning something now, what is the future benefit to you, and when do you get it?</p>
-<p>The ROI of a quality engineer hour might be measured by:</p>
-<ul>
-<li>Increasing the number of test cases you can run</li>
-<li>Increasing the number of bugs you can uncover</li>
-<li>Decreasing the amount of low-value code you write.</li>
-<li>Decreasing your code maintenance effort.</li>
-</ul>
-<p>So if you’re going to invest one or two hours into learning a new technology, like, say, Visual AI, you would like to see many hours worth of return on your time.</p>
-<p>Visual AI frees you from writing inspection code in your end-to-end tests. Inspection code has the highest chance to contain errors, gets written selectively to provide limited coverage, and still can require a high degree of coding skill.  </p>
-<p>You might think that your value as a software engineer comes from your coding skills, and that often devolves into the inane measure of the value of a software engineer by counting lines of code written. Truthfully, not all code has the same value. In fact, code in of itself has zero value. It’s what that code does to help you test more conditions that matters.</p>
-<h2 id="h.g4us53hqt2en">High-Value Code And Low-Value Code</h2>
-<p>Your end-to-end tests contain both high-value code and low-value code.  </p>
-<p>The high-value code exercises your application. It sets the test cases. It runs execution variations. The high-value code correlates to source code and UI test coverage.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1.jpg" alt="ilya pavlov OqtafYT5kTw unsplash 1" class="wp-image-19426" srcset="https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1.jpg 1600w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-300x200.jpg 300w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-1024x684.jpg 1024w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-768x513.jpg 768w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-1536x1025.jpg 1536w, https://applitools.com/wp-content/uploads/2020/05/ilya-pavlov-OqtafYT5kTw-unsplash-1-555x370.jpg 555w" sizes="(max-width: 1600px) 100vw, 1600px"/><figcaption>Photo by <a target="_blank" rel="noreferrer noopener" href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ilya Pavlov</a> on <a target="_blank" rel="noreferrer noopener" href="https://unsplash.com/s/photos/html-code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption></figure>
-<p>The low-value code inspects your results. And, if you’re using state-of-the-art coding, you’re inspecting the DOM for output web elements. Some you find with an ID. Others you find with a CSS selector. Some you find with a relative Xpath expression. Sometimes this code can involve incredible complexity. For example, writing all the assertions for reordering a table can involve elegant coding skills. And, yet…</p>
-<p>If you review your end-to-end tests, much of your code determines whether the DOM contains the proper elements to let you conclude that the app passed. And, you have become good at triage. You cannot cover the state of every element in the DOM, so you become great at selecting code to inspect that tells you if your test passed or failed. Still, you write a lot of inspection code compared to execution code – and you only inspect a selected subset of the DOM.</p>
-<p>But, the time you take writing this low-value code detracts from some of the high-value activity you can add to your end-to-end tests. For instance – you can write the preconditions for each test to ensure that they can be run independently – and, thus, in parallel. You can review the test conditions evaluated by each test to eliminate redundancy and improve automation accuracy.</p>
-<p>What about maintenance? We didn’t even include code maintenance efforts you undertake between releases. That is yet more end-to-end coding effort you need – to validate and update existing tests, add new tests, and resolve failures – every time you modify the application. And, yes, some of that code provides new or modified test conditions. As well, some of that code needs to modify your inspection code.</p>
-<h2 id="h.ag620l9hruwl">Visual AI Replaces Low-Value Code</h2>
-<p>When we developed Visual AI, we recognized that a quality engineer makes trade offs. One engineer can only write a finite number of lines of code. An incomplete test has no value. So, every line of code needed to execute a test and validate the results makes a complete test.</p>
-<p>We also recognized the limitations of DOM inspection for test results validation. Inspected thoroughly, the DOM represents the elements of the page to be rendered by the browser. And, one can write a detailed DOM inspection – and even account for variations in the DOM structure between releases. However, that depth of inspection involves complexity that rarely pays off for the coder. So, most coders spot-check their DOM – and can miss unexpected changes between releases unless validating the application through manual testing.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/root-cause-flow.png" alt="root cause flow" class="wp-image-19424" srcset="https://applitools.com/wp-content/uploads/2020/05/root-cause-flow.png 826w, https://applitools.com/wp-content/uploads/2020/05/root-cause-flow-300x90.png 300w, https://applitools.com/wp-content/uploads/2020/05/root-cause-flow-768x232.png 768w" sizes="(max-width: 826px) 100vw, 826px"/></figure>
-<p>Visual AI uses one line of code to capture every visual element on your web page – and the state of the DOM that created the page. Once captured, Visual AI compares your captured version to your baseline. Then, Visual AI highlights for you the real user-noticeable differences between the baseline and the new capture. From there, you choose to accept the changes as expected new features or reject them as bugs. And, you can link those differences directly to the DOM code used to generate those differences.</p>
-<p>Since inspection statements make up the bulk of your end-to-end test code, by adding Visual AI, you can eliminate the bulk of your inspection statements – letting you write code faster, making your code more stable, and allowing you more time to work on high-value test automation tasks.</p>
-<h2 id="h.mw68rurcqeh5">How Long Does It Take To Learn Visual AI?</h2>
-<p>When we started the Applitools Visual AI Rockstar Hackathon, we directed participants to two courses on <a target="_blank" href="https://testautomationu.applitools.com/" rel="noopener noreferrer">Test Automation University (TAU)</a>. TAU, offered exclusively by Applitools, offers classes on a range of technologies, including:</p>
-<p>We pointed participants to one course written by <a target="_blank" href="https://www.linkedin.com/in/rajaraodv" rel="noopener noreferrer">Raja Rao</a> describing how to <a target="_blank" href="https://testautomationu.applitools.com/modern-functional-testing/index.html" rel="noopener noreferrer">modernize your functional tests with Visual AI</a>. Raja walked through the different test cases on the Hackathon in about an hour. We also pointed participants to a course by <a target="_blank" href="https://www.linkedin.com/in/angiejones" rel="noopener noreferrer">Angie Jones</a> on how to <a target="_blank" href="https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/index.html" rel="noopener noreferrer">add Visual AI to your test automation</a>.  Each course took approximately an hour.</p>
-<p>Hackathon participants got pretty amazing results. After an hour or two of classes, they applied their knowledge of Visual AI and found:</p>
-<ul>
-<li>Average test coverage jumped from 65% for coded inspection to 95% for Visual AI</li>
-<li>Test writing time, on average, dropped from a little over 7 hours to a little over 1 hour.</li>
-<li>The amount of code they wrote dropped significantly</li>
-</ul>
-<p>So, for one or two hours of learning, Hackathon participants got faster test writing, more coverage, and less code.</p>
-<h2 id="h.2byhyeltva26">Testing Visual AI Yourself</h2>
-<p>In the end, testing is a scientific activity. We run a series of tests and make observations – pass or fail.</p>
-<p>In this blog, you’re reading a bunch of claims about Visual AI. These are based on data that we shared in our report about the Hackathon results.</p>
-<p>What do these claims mean to you?</p>
-<p>I recommend that you test these claims yourself. The claim – one or two hours of learning can help you write tests:</p>
-<ul>
-<li>With comprehensive inspection</li>
-<li>Requiring less code</li>
-<li>More easily maintained</li>
-<li>Let you focus your time on high-value test activity.</li>
-</ul>
-<p>If true, would that be worth the investment?</p>
-<p>It is up to you to find out.</p>
-<h2>Learn More</h2>
-<p><em>James Lamberti is CMO at Applitools</em></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/two-hours-learn-visual-ai/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cloud security and data protection: What enterprises need to know</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cloud-security-and-data-protection-what-enterprises-need-to-know/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 May 2020 18:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[enterprises]]></category>
-		<category><![CDATA[protection]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cloud-security-and-data-protection-what-enterprises-need-to-know/</guid>
-
-					<description><![CDATA[Data security is rarely the first consideration when choosing a public cloud service provider. That&#8217;s changing, though, because of the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Data security is rarely the first consideration when choosing a public cloud service provider. That&#8217;s changing, though, because of the rise of tougher rules, regulations, and standards aimed at protecting consumer privacy. Without data security, there can be no privacy.</p>
-<p>Laws such as the EU&#8217;s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) are making chief information security officers pay closer attention to <a target="_blank" href="https://techbeacon.com/security/data-security-cloud-3-things-your-team-needs-know" rel="noopener noreferrer">what data security means in the cloud</a>. To comply with the laws, CISOs also need to understand what must be done to more effectively protect and govern data in a complex, geographically diverse, and hybrid IT ecosystem.</p>
-<p>In <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-data-security?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">a recent report</a>, Micro Focus data security products executive <a target="_blank" href="https://www.linkedin.com/in/sid-dutta/" rel="nofollow noopener noreferrer">Sid Dutta</a> described the offerings of the &#8220;big three&#8221; public cloud service providers (CSPs)—Microsoft Azure, Google Cloud Platform (GCP), and Amazon Web Services (AWS)—serving up a framework with strategic selection criteria, and <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/bring-your-own-key-cloud?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">outlined what enterprises should be aware</a> of <a target="_blank" href="https://techbeacon.com/enterprise-it/5-tips-choosing-enterprise-cloud-services-provider" rel="noopener noreferrer">before cutting a deal with any CSP</a>. </p>
-<p>Here are six key takeaways from the report.</p>
-<p><em>[ Learn what matters in <a target="_blank" href="https://content.microfocus.com/l/cloud-security-data-privacy-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">cloud security and privacy in TechBeacon&#8217;s Guide</a>. Plus: Get this white paper on <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-data-security?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">selecting the right cloud encryption and key management tools</a>. ]</em></p>
-<h3>1. CSP key management and encryption services have limitations</h3>
-<p>These so-called HSM services have typically been added as a layer on top of the CSPs&#8217; existing stacks—an afterthought due to late recognition of their customers&#8217; increasing data security concerns, the report said.</p>
-<p>In addition, the encryption model used by the major CSPs won&#8217;t meet the scaling requirements of many enterprises. Amazon, Google, and Microsoft &#8220;create a unique key for every data element,&#8221; Dutta explained in an interview. &#8220;So if you&#8217;re processing 10 million records, every data element in each record will require a unique key.&#8221;</p>
-<p>That doesn&#8217;t scale when you&#8217;re doing a large volume of encryption, he said. &#8220;You&#8217;re going to have problems with availability, latency, and bandwidth.&#8221;</p>
-<blockquote>
-<p>&#8220;If I don&#8217;t have the ability to perform bulk encryption that doesn&#8217;t rely on the network and the availability of that system, that, for me as a customer, is a no-go. I can&#8217;t make my endpoint 100% available because I don&#8217;t control the network that connects my client application and my encryption system.&#8221;<br />—<a target="_blank" href="http://linkedin.com/in/sid-dutta" rel="nofollow noopener noreferrer">Sid Dutta</a></p>
-</blockquote>
-<p><a target="_blank" href="https://twitter.com/marknca" rel="nofollow noopener noreferrer">Mark Nunnikhoven</a>, vice president for cloud research at the security company Trend Micro, said the big three &#8220;offer a reasonable set of services around key management.&#8221; And with any cloud service, these are evolving rapidly.</p>
-<p>However, the bigger question that comes from the Micro Focus report, and which is central to your overall data protection strategy, persists: Is it safe for the CSP to own the keys?</p>
-<h3>2. Organizations cannot control encryption keys</h3>
-<p>Organizations concerned about a CSP controlling the encryption keys to their data are told they <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/bring-your-own-key-cloud?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">can &#8220;bring their own keys&#8221; (BYOK)</a>. That&#8217;s misleading, the report contends. Even if a customer provides key material, it explained, the CSP still either owns or manages the master keys, which can be subject to subpoena or some other form of disclosure or abuse.</p>
-<p>BYOK as a practice in the industry &#8220;has created a false perception that customer ownership and control of keys is established&#8221; when the fact is that, even if a customer generates and imports the keys into a CSP key-management system or cloud HSM, &#8220;it is the CSP that has direct or indirect control of the keys,&#8221; the report said. </p>
-<blockquote>
-<p>&#8220;There is no hard isolation when it comes to cloud infrastructure.&#8221;</p>
-</blockquote>
-<p>Ameesh Divatia, CEO of the data protection company Baffle, said BYOK had limitations for enterprises.</p>
-<blockquote>
-<p><span><span style="color:#999999"><span><span><span>&#8220;It&#8217;s not completely foolproof, but it&#8217;s a step forward because the keys aren&#8217;t accessible to the cloud service provider.&#8221;</span></span></span></span></span><br /><span><span style="color:#999999"><span><span><span>—</span></span></span></span></span><a target="_blank" href="https://www.linkedin.com/in/ameeshd/" rel="nofollow noopener noreferrer" style="color:#0096d6">Ameesh Divatia</a></p>
-</blockquote>
-<p><em>[ Get up to speed on new privacy laws with this Webcast: <a target="_blank" href="https://www.brighttalk.com/webcast/7477/385058?utm_source=TechBeacon" rel="nofollow noopener noreferrer">California’s own GDPR? It’s not alone</a></em><a target="_blank" href="https://www.brighttalk.com/webcast/7477/385058?utm_source=TechBeacon" rel="nofollow noopener noreferrer">.</a> <em>Plus: Go deeper with <a target="_blank" href="https://content.microfocus.com/l/gdpr-ccpa-privacy-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to GDPR and CCPA</a>. ]</em></p>
-<h3>3. No one CSP can support enterprises&#8217; hybrid and multi-cloud environments</h3>
-<p>The report explained that each CSP offers encryption services that are available and functional within the confines of their own clouds. That poses a challenge for enterprises using more than one CSP, not to mention on-premises legacy systems, to implement their workloads.</p>
-<p>&#8220;The biggest challenge and concern for enterprises&#8221; is that they cannot implement a single, CSP-agnostic enterprise solution or service that can be applied across both on-premises and multi-cloud hosted workloads, the report said.</p>
-<p>That can be especially challenging when it comes to encryption, because the CSPs don&#8217;t share keys.</p>
-<blockquote>
-<p>&#8220;I can&#8217;t take all my keys from Amazon and put them on Google. That doesn&#8217;t work.&#8221;<br />—Sid Dutta</p>
-</blockquote>
-<p>Andras Cser, vice president and principal analyst for security and risk management at Forrester Research, said this indeed can be tricky. &#8220;We&#8217;ve seen a number of questions on this,&#8221; he said.</p>
-<blockquote>
-<p>&#8220;It&#8217;s not so much just vendor lock-in, but the inability to extend AWS KMS to Azure and vice versa.&#8221;<br />—<a target="_blank" href="https://twitter.com/acser" rel="nofollow noopener noreferrer">Andras Cser</a></p>
-</blockquote>
-<h3>4. CSP crypto services are not global</h3>
-<p>The report explained that CSP crypto services are available in specific physical locations, referred to as regions. Even when these services are available, cross-region integrations and availability of keys is not guaranteed.</p>
-<p>Even though CSPs have a global footprint, &#8220;their crypto services are not global.&#8221; Not all regions have the KMS and cloud HSM services available, which forces enterprises to deploy and migrate their applications and data to specific CSP regions. The report notes:</p>
-<blockquote>
-<p>&#8220;With enterprises going global through mergers and acquisitions, they cannot afford to have regional services and silos.&#8221;</p>
-</blockquote>
-<h3>5. CSP encryption choices are limited</h3>
-<p>While all the CSPs offer crypto SDKs that support 256-bit GCM-mode AES, the report noted that other formats are largely unsupported. CSPs also don&#8217;t support the ability to partially expose some business elements without data decryption, or defined tokenization services to meet PCI-DSS requirements. </p>
-<p>By limiting the encryption choices available to organizations, CSPs discourage the use of encryption.</p>
-<blockquote>
-<p>&#8220;The reason that people shy away from encryption is there&#8217;s a perception—and in some cases a reality—that encryption breaks functionality.&#8221;<br />—Sid Dutta</p>
-</blockquote>
-<p>If, when you protect data, you remove the value from it so you can&#8217;t do your analytics and run artificial intelligence and machine learning on it to create new business insights, no one will want to encrypt the data, Dutta said.</p>
-<p>You need to strike a balance between encryption and functionality, he said. &#8220;Then people will be happy to encrypt their data.&#8221;</p>
-<blockquote>
-<p>&#8220;Everyone knows they need security, but they will take the easiest path, which will make them compliant but not secure.&#8221;<br />—Sid Dutta</p>
-</blockquote>
-<h3>6. Adopt a data-centric security attitude early</h3>
-<p>The report recommends that enterprises develop <a target="_blank" href="https://techbeacon.com/security/why-you-should-shift-your-cloud-security-strategy-stack" rel="noopener noreferrer">a cloud security strategy</a> early in the migration process. Data-centric security should be implemented before sensitive data is sent to the cloud.</p>
-<p>CSPs do a good job of infrastructure hardening and implementing security processes and policies, and they offer multiple tools to enable customers to secure their workloads, the report said. However, one key takeaway stands out:</p>
-<blockquote>
-<p>&#8220;But it is very important to understand that CSPs are not responsible or liable for the security of the data that customers ingest into their services.&#8221;</p>
-</blockquote>
-<p><em>[ Get on top of access with <a target="_blank" href="https://content.microfocus.com/l/identity-governance-admin-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to identity governance</a>. Plus: Learn how to <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/control-privilege-webinar?lx=3C7k5c?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">secure and manage cloud-based Linux resources with Active Directory</a> in this Webinar. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/cloud-security-data-protection-what-enterprises-need-know">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>VX Maintain &#124; Managing Your Contractors &#038; Invoices</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-contractors-invoices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 May 2020 16:49:12 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[amp]]></category>
-		<category><![CDATA[Contractors]]></category>
-		<category><![CDATA[Invoices]]></category>
-		<category><![CDATA[Maintain]]></category>
-		<category><![CDATA[Managing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-contractors-invoices/</guid>
-
-					<description><![CDATA[Learn more about vx Maintain: https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain source]]></description>
-										<content:encoded><![CDATA[<p><iframe  width="580" height="385" src="https://www.youtube.com/embed/EnQFAy-uP6E" frameborder="0" allowfullscreen></iframe><br />
-<br />Learn more about vx Maintain: <a target="_blank" href="https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain" rel="noopener noreferrer">https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain</a><br />
-<br /><a href="https://www.youtube.com/watch?v=EnQFAy-uP6E">source</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>VX Maintain &#124; Managing Your Facilities</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-facilities/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 May 2020 16:46:34 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[Facilities]]></category>
-		<category><![CDATA[Maintain]]></category>
-		<category><![CDATA[Managing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vx-maintain-managing-your-facilities/</guid>
-
-					<description><![CDATA[Learn more about vx Maintain: https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain source]]></description>
-										<content:encoded><![CDATA[<p><iframe  width="580" height="385" src="https://www.youtube.com/embed/TWQ67Cs3x6A" frameborder="0" allowfullscreen></iframe><br />
-<br />Learn more about vx Maintain: <a target="_blank" href="https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain" rel="noopener noreferrer">https://www.accruent.com/solutions/facility-management-software/facility-asset-management-vx-maintain</a><br />
-<br /><a href="https://www.youtube.com/watch?v=TWQ67Cs3x6A">source</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The Next Generation of Cross Browser Testing is Ultrafast</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-next-generation-of-cross-browser-testing-is-ultrafast/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 May 2020 04:29:14 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Cross]]></category>
-		<category><![CDATA[Generation]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Ultrafast]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-next-generation-of-cross-browser-testing-is-ultrafast/</guid>
-
-					<description><![CDATA[Overview The intent of this post is to share with you details of the Applitools Ultrafast Grid, an evolution in]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<h2 id="h.wilel9hbgiij">Overview</h2>
-
-
-
-<p>The intent of this post is to share with you details of the <a target="_blank" href="https://applitools.com/ultrafast-grid/" rel="noopener noreferrer">Applitools Ultrafast Grid</a>, an evolution in <a target="_blank" href="https://applitools.com/blog/cross-browser-testing-ultrafast-grid/" rel="noopener noreferrer">cross-browser testing</a> designed for modern teams who test modern apps at scale.</p>
-
-
-
-<p>The Ultrafast Grid represents the first true breakthrough in cross-browser testing architecture since it’s initial inception many years ago. It’s important to understand the differences between the traditional approach to cross browser testing and the modern approach that Applitools has taken.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:heading -->
-<h2 id="h.do20x0782qub">Early Web</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Taking a look back at how the internet has evolved can certainly be nostalgic. Have you ever visited the <a target="_blank" href="https://archive.org/web/" rel="noopener noreferrer">‘Way Back Machine’</a> and looked for companies that have been around for a while? It’s amazing how far the web has evolved. In its infancy, sites were mostly static, there were few content creators, blinking text and bad gifs were drastically over-used and web applications were just not sophisticated. The internet was often accessed via all-in-services like AOL or Prodigy, and for advanced users, a dedicated browser like Netscape Navigator.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":19357,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"></figure><!-- /wp:image --><!-- wp:paragraph --><p>Fast forward to the late 90’s where usage of all-in-one providers diminished and a browser war began between IE and Netscape. At the time, web standards were poorly defined and web applications were gaining popularity. This created the need to test applications across browsers to ensure functional and visual defects were detected. Cross-browser testing was born – and quickly evolved from companies creating a local matrix to the usage of cloud-based VMs.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.8fin08uoxg8">HTML 5 &amp; Responsive Web</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>As mobile became dominant, so did the use of HTML5, CSS and responsive web applications. As a result, a new generation of browser wars began with additional players entering the mix, specifically Google Chrome, Firefox (born from Netscape), Safari – and Internet Explorer, which remained widely popular. At this point in time, traditional cross browser testing began to show scalability issues – and naturally so. There are now four main browsers that are updated far more frequently combined with multiple viewports and we haven’t even discussed operating systems.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10138,"width":304,"height":304,"sizeSlug":"large"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564.png" alt="Selenium logo" class="wp-image-10138" width="304" height="304" srcset="https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564.png 400w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-150x150.png 150w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-300x300.png 300w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-90x90.png 90w, https://applitools.com/wp-content/uploads/2016/12/selenium_logo-e1522374511564-30x30.png 30w" sizes="(max-width: 304px) 100vw, 304px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Traditional cross browser testing executes tests built on your existing testing framework, (think  Selenium), across all browser, viewport, and OS combinations specified by the engineer. This  means a 2 minute test would need to run separately across each combination in the matrix. The issue that began to arise was the result of brittle functional tests, and the need to maintain connectivity and connection of those tests for every single browser, viewport, and OS combination.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.so8hws8q8r38">The Modern / Intelligent Web</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Today, we are in a phase referred to as the “intelligent” web. With chatbots, and more sophisticated omni-channel applications being driven by AI and ML. JavaScript, HTML, and CSS standards are strictly driven by <a target="_blank" href="https://www.w3.org/" rel="noopener noreferrer">W3C</a> and <a target="_blank" href="https://whatwg.org/" rel="noopener noreferrer">WHATWG</a> bringing deeper consistency across modern browsers. Additionally, modern JavaScript solutions like jQuery &amp; Babel have smoothed out browser support for JavaScript APIs, making the testing of browser engines themselves relatively binary. In a nutshell, the modern browser engines have been tested to near perfection.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":18013,"sizeSlug":"large"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS.jpg" alt="" class="wp-image-18013" srcset="https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS.jpg 630w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/04/HTML_CSS_JS-30x30.jpg 30w" sizes="(max-width: 630px) 100vw, 630px"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Because of standards, you might expect any combination of browser, OS, device, and viewport size to function identically. And, unless you use platform-specific or device-specific functionality, that’s a reasonable expectation. So, what should you expect from cross-browser testing?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Functional differences between modern standards-compliant browsers happen rarely. You expect the browser to receive and process the same HTML, CSS, and JavaScript from the server.  Rendering differences do occur, though, as each platform uses its own rendering engine. And those rendering differences can result in real-world functional differences from a user’s perspective.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>So, if your cross-browser tests run the same DOM across different devices, do you need to keep asking the server to serve up the same content multiple times to find defects caused by rendering?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.q52temd75in0">The Next Generation of Cross Browser Testing</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>As you’ve read, traditional cross browser testing is not providing the ROI it once did, but a new modern approach is bringing new hope to quality-focused teams.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Applitools Ultrafast Grid leverages Visual AI (AI powered computer vision) to test across browsers faster and with more coverage than ever possible.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Here is how it works:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Your test suite is executed locally on a single browser. During execution, the Applitools SDKs capture the DOM &amp; CSS rules for every browser state and sends it to the Ultrafast Grid. This is a one-way connection thus does not require a reverse proxy or IPSec VPN – something any IT team with a focus on security can appreciate.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Next, the Ultrafast Grid renders the DOM in parallel using containers and grabs a screenshot across each browser and viewport combination. The screenshots are then sent to Applitools Eyes for Visual AI analysis. This entire process is blazing fast – in a matter of seconds you are viewing results from the test run.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Because the tests are executed only once, connectivity and connection to the browser are only required for that single run which results in incredible stability of the run. What’s more – that single run also reduces the required set-up and tear down of data (data consumption).  Parallelization and containers result in incredible speeds and Visual AI can replace many of the brittle locators in your test code resulting in further stability.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":19354} -->
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0.png" alt="pasted image 0" class="wp-image-19354" srcset="https://applitools.com/wp-content/uploads/2020/05/pasted-image-0.png 1247w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-300x131.png 300w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-1024x448.png 1024w, https://applitools.com/wp-content/uploads/2020/05/pasted-image-0-768x336.png 768w" sizes="(max-width: 1247px) 100vw, 1247px"/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Above: Diagram of Applitools Ultrafast Grid</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.xwvgnn1lpgwf">Summary</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>In summary, your test coverage plan should be focused on your specific needs. If older browsers are still supported – you will want to ensure that you run your regression suite on each of those browsers and versions, plus a modern browser. By combining traditional cross-browser testing with the new modern approach, you can save time with faster builds and save money by reducing dependency on expensive cloud testing providers.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Cover Photo by <a target="_blank" href="https://unsplash.com/@marcojodoin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Marc-Olivier Jodoin</a> on <a target="_blank" href="https://unsplash.com/s/photos/speed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Applitools Ultrafast Cross Browser Testing Hackathon</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:heading --><h2>Read More and Do More</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:paragraph -->
-<!-- /wp:paragraph -->								
-			</div>
-<br>
-<br><a href="https://applitools.com/blog/next-generation-cross-browser-testing/">Source link </a>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to go from performance tester to performance engineer</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-go-from-performance-tester-to-performance-engineer/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 26 May 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[engineer]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Tester]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2240</guid>
-
-					<description><![CDATA[Companies are increasingly recognizing the value of performance engineering, which goes well beyond performance testing. These organizations now require the capability to]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p dir="ltr">Companies are increasingly recognizing <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-critical?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the value of performance engineering</a>, which goes well beyond performance testing. These organizations now require the capability to fix performance issues whenever and wherever they exist—and they&#8217;re willing to pay a premium for those skills. That’s why many performance testers are stepping up their game.</p>
-<p dir="ltr">While <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-testing-to-engineering?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">the journey from performance tester to performance engineer</a> isn&#8217;t easy to complete, it <em>is</em> easy to start. You&#8217;ll just need to acquire a few skills and learn some new problem-solving techniques.</p>
-<p dir="ltr">Here&#8217;s how to start your own journey.</p>
-<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
-<h3>Performance testing is part of performance engineering</h3>
-<p dir="ltr">The first thing to understand about <a target="_blank" href="https://techbeacon.com/resources/performance-engineering-ebook-report-load-testing" rel="noopener noreferrer">performance engineering</a> is that performance testing is just one aspect of it. Performance engineering has a broader scope.</p>
-<p>Why the current emphasis on performance engineering over just testing? Because testing product performance at the end of the software development cycle produces too much <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">technical debt</a> and causes too much rework. It&#8217;s too expensive.</p>
-<p dir="ltr">Companies need to figure out how to build performance into products as early as possible in the development process, and that requires more than just performance testing. When development teams are discussing functionality, security, or any topic for that matter, performance should be part of the conversation.</p>
-<p dir="ltr">Here are seven areas where performance should play a key role.</p>
-<p dir="ltr"><em>Figure 1. Performance engineering plays a role in every phase of the software development lifecycle. Source: Scott Moore</em></p>
-<h3>Performance testing is still important </h3>
-<p dir="ltr"><a target="_blank" href="https://techbeacon.com/app-dev-testing/dont-do-performance-testing-production-environments-only" rel="noopener noreferrer">Performance testing is still a crucial part</a> of software and infrastructure validation. Doing that accurately and efficiently takes time. This is especially true during the planning phase as well as during test results analysis.</p>
-<p dir="ltr">Producing data that guides businesses to make good decisions takes experiential knowledge. Unfortunately, there aren&#8217;t many people who do all of this extremely well.</p>
-<p dir="ltr">Building a set of reusable documents and other deliverables (&#8220;templates&#8221;) to use in the initial planning phase and final reporting will speed your initial startup time. I recommend working with or learning from others with experience to build out some of these templates.</p>
-<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
-<h3>How to make the transition to performance engineer</h3>
-<p>How do you make <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-embed-performance-engineering-your-pipeline" rel="noopener noreferrer">the transition from performance tester to performance engineer</a>? Start with these three high-level changes:</p>
-<ul>
-<li>
-<p dir="ltr" role="presentation"><strong>Widen your perspective. </strong>Instead of thinking about whether a test passes or meets the requirements, think about whether the end user will be delighted. Look at the app through the user&#8217;s eyes.</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><strong>Include the whole lifecycle in your scope. </strong>Think about all of the areas you might need to address performance. Do the requirements include the right performance criteria? Are units of code, all the individual pieces, and the whole thing together performant? What does the end user think? How do you know the answers to these questions? What are you looking at that tells you whether performance is good or bad, or when it changes?</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><strong>See a need, fill a need.</strong> As you learn to apply performance to a given situation, you&#8217;ll start to notice holes, places where the team is not considering performance. Your job is to attempt to fill those holes. Because you now see the whole software development lifecycle, you aren&#8217;t limited to thinking just about the testing phase. Help wherever there is an issue, even if it isn&#8217;t in your formal job description.</p>
-</li>
-</ul>
-<h4>Tech skills to master</h4>
-<p dir="ltr">There are also a few technical skills you’ll need to pick up.</p>
-<ul>
-<li>
-<p dir="ltr" role="presentation"><strong>Gain front-end performance knowledge, specifically regarding the browser itself.</strong> JavaScript, HTML, CSS, and other client-side components contribute to the performance of web page response times. Know how each affects the metrics you see <a target="_blank" href="https://www.lifewire.com/web-browser-developer-tools-3988965" rel="nofollow noopener noreferrer">in browser developer tools</a>, such as time to first byte, idle time, and so on. Learn how the underlying protocols—such as HTTP(S), QUIC, and web sockets—work from the browser to the back-end servers.</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><strong>Learn how to gather <a target="_blank" href="https://techbeacon.com/app-dev-testing/beyond-fast-understanding-performance-engineering-metrics-really-matter" rel="noopener noreferrer">the right metrics</a> needed to tell the performance story.</strong> This includes utilities for Windows and Linux, open-source products such as Prometheus to monitor containers and Kubernetes clusters, or commercial tools such as total <a target="_blank" href="https://techbeacon.com/enterprise-it/6-application-performance-management-trends-watch" rel="noopener noreferrer">application performance monitoring</a> solutions. Combine these with end-user monitoring (timings from the user&#8217;s perspective) and real-user monitoring (grabbing times from actual user activity).</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><strong>Learn how continuous integration (CI/CD) products such as Jenkins, Bamboo, and others work. </strong>Set up a strategy for building out a continuous performance engineering process so that you can report metrics with each new build and you can observe trends as early as possible.</p>
-</li>
-</ul>
-<h3>Shift performance left</h3>
-<p dir="ltr">As a performance engineer you need to shift left by doing these three very simple things:</p>
-<ol>
-<li>
-<p dir="ltr" role="presentation"><strong>Ask whether the business process workflow performs well for a single person.</strong> Baselining the application by gathering initial metrics from the browser or sites such as <a target="_blank" href="https://www.webpagetest.org/" rel="nofollow noopener noreferrer">Web Page Test</a> and <a target="_blank" href="https://gtmetrix.com/" rel="nofollow noopener noreferrer">GTMetrix</a> is an easy way to tell. Look at the recommendations from Google Lighthouse from the audits tab in Chrome&#8217;s DevTools. And find out why each suggestion in the report is being recommended.</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><strong>Work with individual Scrum teams and find out who is taking responsibility for performance in their assigned features. </strong><a target="_blank" href="http://techbeacon.com/app-dev-testing/how-build-performance-requirements-your-user-stories" rel="noopener noreferrer">Review a user story</a> and determine whether it includes solid performance requirements. If possible, provide those teams with limited access to performance testing tools and teach them how to do their own browser audits (as mentioned above) as soon as a feature is working in the development environment.</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><strong>Question whether performance metrics have been added to the continuous build cycles (the CI/CD pipeline). </strong>If so, who is looking at them? Is anyone reporting performance trends from the output? If not, help to make that possible.</p>
-</li>
-</ol>
-<h3>A real-world example</h3>
-<p dir="ltr">Not long ago I was engaged to load-test a highly customized version of a SaaS product that was replacing all of my client&#8217;s current systems. They had put more than two years of effort into their customized workflows and were just a couple of months away from starting the rollout.</p>
-<p dir="ltr">The statement of work was fairly standard. They wanted to do performance testing of their critical business processes and determine user response times and how well the infrastructure held up under the expected volume. It sounded like a typical testing process.</p>
-<p dir="ltr">After an initial orientation, I asked to see the application. I opened a browser window, went to the URL, logged in, and immediately saw that the page response was slow. So I opened up Chrome DevTools in the browser and started looking at the information in the various tabs for network, performance, and audits.</p>
-<p> </p>
-<div>
-<p dir="ltr"><em>Figure 2. An example view of the performance tab in the </em><em>DevTools feature that&#8217;s built into the Google Chrome browser.</em></p>
-<p dir="ltr">Within minutes I was telling the QA manager that his application would fail under load and that response times would not pass his service-level objective. I didn&#8217;t need to run a test because I knew what to expect, having tested many applications like this one in the past. But they were skeptical as I confidently told them—without any test results to back me up—that the application needed some fundamental architectural changes.</p>
-<p dir="ltr">I was ready to pivot away from the existing statement of work and start working with their developers and architects to tune the application before we did any testing, since that would have provided better value.</p>
-<p dir="ltr">Unfortunately, they rejected my suggestion and insisted that I stick with the original plan of conducting basic load-testing activities. This turned into a six-week exercise, at the conclusion of which I unveiled the brutal news that the application would not scale and needed fundamental architectural changes.</p>
-<p dir="ltr">The client had spent years of time, resources, and money building this application. Unfortunately, the outcome was tragic: They lost millions of dollars, and the failure to launch the application on time led to the resignation of the CIO. If that CIO had had a performance engineer acting as a trusted advisor from the beginning, all of this could have been avoided.</p>
-<p dir="ltr">Performance engineering is really about asking the right questions at the right time.</p>
-<h3>How to get started</h3>
-<p dir="ltr">Performance testing is still important and relevant, and organizations will always need people who are very good at it. <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-techniques?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener noreferrer">Performance engineering</a> has a much broader mandate: It&#8217;s about using additional skills to accomplish the same outcome as you would with performance testing—to make software perform optimally so it delights the end user.</p>
-<p dir="ltr">But with performance engineering, you do that from beginning to end, at every opportunity throughout the software development lifecycle.</p>
-<p dir="ltr">If your software is functional, that&#8217;s good. But if it doesn&#8217;t perform well, it won&#8217;t be considered great. At the end of the day, you should not still be having conversations around how slow applications are or how long web pages are taking to display. That should be a fundamental element built into all areas of the product. It should be engineered in from the start.</p>
-<p dir="ltr">The main difference between an engineer and a tester is that an engineer does not need to run a test to diagnose or assist in correcting a performance issue. (For a more in-depth discussion of the differences, listen to my <a target="_blank" href="https://youtu.be/TWnv6EzfXWM" rel="nofollow noopener noreferrer">podcast discussion </a>with Perfbytes Podcast host <a target="_blank" href="https://twitter.com/perfpulley" rel="nofollow noopener noreferrer">James Pulley</a>.) Performance engineers attack it from every angle.</p>
-<p dir="ltr">To become a performance engineer, all you need is passionate curiosity and a willingness to help. Sometimes just starting a conversation can get the wheels turning in the right direction. </p>
-<p dir="ltr">Your performance engineering journey will never be complete, because the technology changes continually and there&#8217;s always something new to learn. Get started by becoming involved wherever you can to make things faster, continuously asking performance questions, and continuously sharing what you know to educate others on why performance is important and adds value. </p>
-<p dir="ltr"><em>Don&#8217;t miss my talk on &#8220;Effective Performance Engineering&#8221; at the <a target="_blank" href="https://guildconferences.com/conferences/perfguild-2020/?utm_source=techbeacon&amp;utm_medium=banner&amp;utm_campaign=sponsor" rel="nofollow noopener noreferrer">PerfGuild online conference</a>, to be held June 1-2, 2020. I&#8217;ll cover the basics and provide you with the documentation templates that I use when I do a standard performance testing project. See you there!</em></p>
-</div>
-<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/how-go-performance-tester-performance-engineer">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New iOS Jailbreak Tool Works on iPhone Models iOS 11 to iOS 13.5</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 26 May 2020 12:10:01 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[iPhone]]></category>
-		<category><![CDATA[Jailbreak]]></category>
-		<category><![CDATA[Models]]></category>
-		<category><![CDATA[tool]]></category>
-		<category><![CDATA[Works]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/</guid>
-
-					<description><![CDATA[Latest version of UnC0ver uses unpatched zero-day exploit to take complete control of devices, even those running iOS 13.5. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Latest version of UnC0ver uses unpatched zero-day exploit to take complete control of devices, even those running iOS 13.5.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/new-ios-jailbreak-tool-works-on-iphone-models-ios-11-to-ios-13-5/156045/">Source link </a></p>
 ]]></content:encoded>
 					
 		
