@@ -129,6 +129,42 @@
 		
 			</item>
 		<item>
+		<title>Welcome to Nawel! – Gatling Open-Source Load Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-nawel-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 15:40:37 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[Nawel]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-nawel-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[The sales team is delighted to welcome Nawel Rahali! Nawel is currently at the emlyon business school, which she joined]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>The sales team is delighted to welcome <strong>Nawel <span class="s1">Rahali!</span></strong></p>
+<p></p>
+<p><noscript><img class="size-medium wp-image-7300 aligncenter" src="https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-283x300.jpg" alt="" width="283" height="300" srcset="https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-283x300.jpg 283w, https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-768x815.jpg 768w, https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-965x1024.jpg 965w, https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-500x530.jpg 500w" sizes="(max-width: 283px) 100vw, 283px"/></noscript></p>
+<p>Nawel is currently at the <strong>emlyon business school</strong>, which she joined after <strong>2 years in preparatory literary class (CPGE “hypokhâgne – khâgne”)</strong>. Nawel is therefore from a literary course, very focused on languages.</p>
+<p>In her current studies she was able to set up a <strong>project based on open source technology</strong> and also discover code (HTML / CSS), application prototyping, and Artificial Intelligence.</p>
+<p>Nawel joins the Gatling team for a<strong> 6-month internship</strong>. She will work within the sales team on the “<strong>sales development representative</strong>” part and on the “<strong>customer success management</strong>” part.<br />Nawel will also help our Head of Sales in the<strong> development of the commercial department.</strong></p>
+<p>We are thrilled and very excited to start working with Nawel, and we wish her every success.</p>
+<p>Welcom Nawel!</p>
+<p> </p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://gatling.io/2020/06/04/welcome-to-nawel/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Joomla Resources Directory Users Exposed in Leaky AWS Bucket</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/joomla-resources-directory-users-exposed-in-leaky-aws-bucket/</link>
 		
@@ -473,67 +509,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/enterprise-it/how-get-big-results-small-sre-team">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Testing Design System Changes Across Your Application &#8212; Intuit Use Case with Sr. Engineer Tyler Krupicka [webinar recording]</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-design-system-changes-across-your-application-intuit-use-case-with-sr-engineer-tyler-krupicka-webinar-recording/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 11:24:07 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Application]]></category>
-		<category><![CDATA[Case]]></category>
-		<category><![CDATA[design]]></category>
-		<category><![CDATA[engineer]]></category>
-		<category><![CDATA[Intuit]]></category>
-		<category><![CDATA[Krupicka]]></category>
-		<category><![CDATA[Recording]]></category>
-		<category><![CDATA[System]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Tyler]]></category>
-		<category><![CDATA[Webinar]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testing-design-system-changes-across-your-application-intuit-use-case-with-sr-engineer-tyler-krupicka-webinar-recording/</guid>
-
-					<description><![CDATA[Design systems are one of the most popular new ways to create and document the UI building blocks that make]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Design systems are one of the most popular new ways to create and document the UI building blocks that make up a product.</p>
-<p>Component-based frameworks — <em>such as React, Angular, and Vue</em> — have taught teams to break apart their application interface into reusable pieces, while projects like Storybook have allowed us to document and test these components at scale.</p>
-<p>What happens when you make design changes using a central system, instead of individual screens? How do you make changes with confidence when your update impacts every screen in the product?</p>
-<p>In this webinar, <a target="_blank" href="https://twitter.com/tylerkrupicka" rel="noreferrer noopener">Tyler Krupicka</a> — <em>Senior Software Engineer @ Intuit</em> — shared how Intuit tests design system changes for TurboTax, a product with thousands of reconfigurable screens that share a common design language.</p>
-<p>He also discussed why design systems have become so important to his team, the tools his team uses, as well as providing a deep dive on how Intuit routinely changes thousands of screens simultaneously.</p>
-<p>Watch this in-depth live session, and discover:</p>
-<ul>
-<li>What are design systems, and how they can help you build consistent experiences</li>
-<li>How Intuit uses design systems to build thousands of unique screens in TurboTax</li>
-<li>How we test and release widespread changes with confidence in:
-<ul>
-<li>Performance</li>
-<li>Accessibility</li>
-<li>Visual Consistency</li>
-</ul>
-</li>
-<li>How you can build and maintain your own design system at scale</li>
-</ul>
-<h3>Tyler’s Slide Deck </h3>
-<figure class="wp-block-embed-slideshare wp-block-embed is-type-rich is-provider-slideshare wp-embed-aspect-1-1 wp-has-aspect-ratio"/>
-<h3>Full Webinar Recording </h3>
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<p><div class="fitvids-video"><iframe title="[webinar recording] Testing Design System Changes Across Your Application -- Intuit Use Case" width="800" height="450" src="https://www.youtube.com/embed/Fghrui7Xbcw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-</figure>
-<h3>Additional Resources</h3>
-<h3 class="has-text-align-center">— HAPPY TESTING — </h3>
-<h2>Join our Cross-Browser Testing Hackathon</h2>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://applitools.com/blog/testing-design-systems/">Source link </a></p>
 ]]></content:encoded>
 					
 		
