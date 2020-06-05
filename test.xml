@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 03 Jun 2020 04:15:08 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 04 Jun 2020 20:55:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,107 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Tycoon Ransomware Banks on Unusual Image File Tactic</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tycoon-ransomware-banks-on-unusual-image-file-tactic/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 20:55:57 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Banks]]></category>
+		<category><![CDATA[File]]></category>
+		<category><![CDATA[image]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Tactic]]></category>
+		<category><![CDATA[Tycoon]]></category>
+		<category><![CDATA[Unusual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tycoon-ransomware-banks-on-unusual-image-file-tactic/</guid>
+
+					<description><![CDATA[To fly under the radar, the newly discovered ransomware is compiled into a Java image file format that&#8217;s rarely used]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />To fly under the radar, the newly discovered ransomware is compiled into a Java image file format that&#8217;s rarely used by developers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/tycoon-ransomware-unusual-image-file-tactic/156326/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Your passwordless future: Make it sooner rather than later</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/your-passwordless-future-make-it-sooner-rather-than-later/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[future]]></category>
+		<category><![CDATA[passwordless]]></category>
+		<category><![CDATA[sooner]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/your-passwordless-future-make-it-sooner-rather-than-later/</guid>
+
+					<description><![CDATA[Recent research reminds us that managing unique passwords is hard. For sure, you’re more than capable of doing it, but for]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><strong>Recent research reminds us</strong> that managing unique passwords is hard. For sure, <i>you’re</i> more than capable of doing it, but for the vast majority of “normal” users, it’s basically impossible.</p>
+<p><strong>So use a password manager?</strong> Nope; too nerdy.</p>
+<p><strong>Or 2FA?</strong> Anything other than SMS is too complicated, and <a target="_blank" href="https://techbeacon.com/security/sim-swapping-still-stupidly-simple-so-shun-sms" rel="noopener noreferrer">SMS identity is horribly insecure</a>.</p>
+<p><strong>What about biometrics?</strong> I’ll come over there and chop off your fingers for asking all these dumb questions.</p>
+<p><strong>Perhaps the future is passwordless.</strong> In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer">Security Blogwatch</a></i>, we hope against hope.</p>
+<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow noreferrer" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>^Z.</em></p>
+<h3>It’s a kind of magic</h3>
+<p><strong>What’s the craic?</strong> Catalin Cimpanu reports—<i><a target="_blank" href="https://www.zdnet.com/article/after-a-breach-users-rarely-change-their-passwords-study-finds/" rel="nofollow ugc noopener noreferrer" title="read the full text">After a breach, users rarely change their passwords, study finds</a>:</i></p>
+<blockquote><p><em>Only around a third of users usually change their passwords following a data breach announcement, according to a recent study published by academics from the Carnegie Mellon University&#8217;s Security and Privacy Institute. The study … was not based on survey data, but on actual browser traffic.<br />…<br />The study shows that users still lack the education needed in choosing better or unique passwords. Researchers argue that a lot of the blame also resides with the hacked services, which &#8220;almost never tell people to reset their similar &#8211; or identical &#8211; passwords on other accounts.&#8221;<br />…<br />The study, while small in scale [is] more accurate in representing real-world user practices when it comes to user behavior … as it&#8217;s based on actual browsing data and traffic rather than survey responses that may sometimes be inaccurate or subjective.</em></p></blockquote>
+<p><strong>And</strong> Daniel Tkacik adds <i><a target="_blank" href="https://www.cylab.cmu.edu/news/2020/05/26-password-breach.html" rel="nofollow ugc noopener noreferrer" title="read the full text">… and when they do, they’re often weaker</a>:</i></p>
+<blockquote><p><em>Have any of your username / password combinations been stolen during any of the many data breaches in recent years? Chances are, they probably have, and it&#8217;s also likely you didn&#8217;t take the proper precaution of changing your password to a more secure one.<br />…<br />Those are the findings in a recent study out of Carnegie Mellon. … To reach their findings, the authors of the study observed the security practices of 249 willing participants.<br />…<br />One of the breaches they focused on was the Yahoo breach that occurred in 2017, in which every single Yahoo account–all 3 billion of them–was hacked. [Only] one in three users affected by the breach changed their passwords. … To make things worse, users&#8217; new passwords were overall more similar to passwords they use [elsewhere].<br />…<br />The researchers recommend that companies take a more direct approach towards their customers who are affected by breaches.</em></p></blockquote>
+<p><strong>Such as?</strong> Sruti Bhagavatula, Lujo Bauer, and Apu Kapadia paper over the cracks—<i><a target="_blank" href="https://www.ieee-security.org/TC/SPW2020/ConPro/papers/bhagavatula-conpro20.pdf" rel="nofollow ugc noopener noreferrer" title="read the full text">Do People Change Their Passwords After a Breach?</a></i></p>
+<blockquote><p><em>Potential mitigating efforts could be to integrate password-reuse trackers within tools that people may already use and trust to store their passwords. … Password managers, including those built into web browsers, could go further and more actively discourage password reuse.<br />…<br />Overall, our findings suggest that password breach notifications are failing dramatically, both at causing users to take action [let alone] constructive action. … Regulators should take note of the ineffectiveness or absence of breach notifications and impose requirements on companies to implement better practices. … Regulators should also require that companies force password resets.<br />…<br />From a preventative standpoint, regulators could incentivize companies to use an authentication method other than passwords.</em></p></blockquote>
+<p><strong><i>Other</i> than passwords?</strong> <i><a target="_blank" href="https://www.schneier.com/blog/archives/2020/06/password_changi.html#c6811766" rel="nofollow ugc noopener noreferrer" title="read the full text">Nick</a> agrees:</i></p>
+<blockquote><p><em>This exemplifies the need to change to a system other than user-generated passwords. It seems to be in that category of article that essentially says, &#8220;There&#8217;s a problem with humans. We need to change human nature!&#8221;</p>
+<p>Any behavior that widespread isn&#8217;t going to be fixed by education, it requires an engineering control.</p>
+<p></em></p></blockquote>
+<p><strong>Okay, but specifically?</strong> Sean Li wants to <i><a target="_blank" href="https://medium.com/magiclabs/magic-raises-4m-to-end-the-era-of-passwords-f14dda572919" rel="nofollow ugc noopener noreferrer" title="read the full text">End the Era of Passwords</a>:</i></p>
+<blockquote><p><em>Developers can serve a magic link sign up or login experience, where users can authenticate by simply clicking on an email link. Companies like Slack, Medium, and Substack have been known for their easy user onboarding using magic links.<br />…<br />Properly managing user credentials such as passwords, requires a tremendous amount of resources. Weak passwords actually account for 81% of all security breaches, since over 59% of people reuse their passwords everywhere. … About half a million passwords are leaked per year.<br />…<br />Once hashed passwords are stolen, hackers can direct immense distributed computing resources at them to attempt hundreds of billions of password combinations per second. … In a matter of minutes, each recovered password can expose other passwords used by the same user in other applications, such as bank accounts.<br />…<br />Passwords are a significant source of onboarding and conversion funnel friction. … Removing passwords reduces the number of steps for users to sign up for an application. This has the potential to increase conversion rates by 54%.<br />…<br />The future is magic … passwordless is inevitable. … By delegating authentication to a user’s email, mobile, or hardware device, users no longer have to wrestle with remembering passwords for the ever-increasing number of services that they interact with.</em></p></blockquote>
+<p><strong>Or there’s this idea,</strong> from <i><a target="_blank" href="https://www.schneier.com/blog/archives/2020/06/password_changi.html#c6811787" rel="nofollow ugc noopener noreferrer" title="read the full text">MRX</a>:</i></p>
+<blockquote><p><em>I strongly believe that WebAuthn is the way to go for website authentication. This standard uses public-key crypto to authenticate, so the website/service provider has little responsibility over the Public Keys they get. An attacker does not benefit from them.</p>
+<p>The Private Key is saved on people&#8217;s local devices or on dedicated, more trustworthy hardware solutions. Of course people are still responsible for their stuff, but the standard avoids services specific secrets to minimise responsibility and obtrusiveness. And service providers cannot screw up with user secrets anymore.</p>
+<p></em></p></blockquote>
+<p><strong>Or get a password manager?</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16491274&amp;cid=60133008" rel="nofollow ugc noopener noreferrer" title="read the full text">eepok</a> says NO:</i></p>
+<blockquote><p><em>Are we surprised? They&#8217;re humans. Very busy humans. With 40 different password-protected systems to access on a regular basis.</p>
+<p>So you&#8217;ll say, &#8220;Get a password manager,&#8221; which sounds fine to we nerds, but actually is just another layer of complexity across all the systems for the common person.</p>
+<p></em></p></blockquote>
+<p><strong>But</strong> <i><a target="_blank" href="https://www.reddit.com/r/cybersecurity/comments/guqsn9/after_a_breach_users_rarely_change_their/fslhmyt/" rel="nofollow ugc noopener noreferrer" title="read the full text">NaderZaveri</a> wonders if we’re missing the point:</i></p>
+<blockquote><p><em>This is not on the users. It’s on the organization to force a password reset.</p>
+<p>Whenever I am performing an Incident Response … one of the first orders of business is to reset all compromised accounts, and dependent on the level of access the attacker had, then we request the organization to force a password reset on all users.</p>
+<p></em></p></blockquote>
+<p><strong>Hmmm. Interesting point.</strong> Rick Schumann asks—<i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16491274&amp;cid=60132888" rel="nofollow ugc noopener noreferrer" title="read the full text">Does it really matter that much?</a>:</i></p>
+<blockquote><p><em>You can change your passwords all you want but if the security of the systems your passwords exist on is ****** to start with, they&#8217;ll just waltz right back in at some later time and get your password again anyway. … From the literally daily reports of data breaches it seems that anything and everything on the Internet is open season to any and all hackers because apparently all security everywhere is ******.</em></p></blockquote>
+<p><strong>And</strong> <i><a target="_blank" href="https://www.reddit.com/r/cybersecurity/comments/guqsn9/after_a_breach_users_rarely_change_their/fsl0zmn/" rel="nofollow ugc noopener noreferrer" title="read the full text">Mrhiddenlotus</a> is even more cynical:</i></p>
+<blockquote><p><em>LOL, this goes deeper than 99% of users even go. Most of them never know that there was a breach—or what that even means.</em></p></blockquote>
+<p><strong>Meanwhile,</strong> count on <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=16491274&amp;cid=60132984" rel="nofollow ugc noopener noreferrer" title="read the full text">PPH</a> to make you think:</i></p>
+<blockquote><p><em>My bank has been breached a dozen times. I&#8217;m up to &#8216;password13&#8217; now.</em></p></blockquote>
+<h3>The moral of the story?</h3>
+<ul>
+<li>Test passwords against existing breaches.</li>
+<li>Make a plan of what to do if you get breached.</li>
+<li>Consider switching to magic/passwordless authentication.</li>
+</ul>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=X6NJkWbM1xk&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow noreferrer" title="And Finally">Oh noes!</a></strong></p>
+<p><div class="fitvids-video"><iframe title="The Worst Typo I Ever Made" width="800" height="450" src="https://www.youtube.com/embed/X6NJkWbM1xk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow noreferrer">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener noreferrer"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk/" rel="noopener nofollow noreferrer">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow noreferrer">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener noreferrer">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE.</em></p>
+<p><em>Source: <a target="_blank" href="https://pixabay.com/illustrations/login-password-log-sign-on-turn-on-1203603/" rel="noopener nofollow noreferrer">Thomas Breher</a> (<a target="_blank" href="https://pixabay.com/service/license/" rel="noopener nofollow noreferrer" title="Some rights reserved">Pixabay</a>)</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/your-passwordless-future-make-it-sooner-rather-later">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Joomla Resources Directory Users Exposed in Leaky AWS Bucket</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/joomla-resources-directory-users-exposed-in-leaky-aws-bucket/</link>
 		
@@ -433,59 +534,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://applitools.com/blog/testing-design-systems/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Citrix &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/citrix-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 02:45:44 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Citrix]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/citrix-neotys/</guid>
-
-					<description><![CDATA[Performance Testing #Citrix with @Neoload gives new meaning to rapid and visual test design. Dont you want to know whether]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p><span></p>
-<p>Performance Testing <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/citrix?refid=17&amp;_ft_=mf_story_key.3372167832794656%3Atop_level_post_id.3372167832794656%3Atl_objid.3372167832794656%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3372167832794656%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1591065944%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3372167832794656%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3372167832794656%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1593586799%3A4260377346859437997&amp;__tn__=%2As-R" rel="noopener noreferrer"><span class="_5aw4 _qdz">#Citrix</span></a> with @Neoload gives new meaning to rapid and visual test design.  Dont you want to know whether or not applications distributed through Citrix are behaving for users under load at any time of day?  <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3372167832794656%3Atop_level_post_id.3372167832794656%3Atl_objid.3372167832794656%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3372167832794656%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1591065944%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3372167832794656%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3372167832794656%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1593586799%3A4260377346859437997&amp;__tn__=%2As-R" rel="noopener noreferrer"><span class="_5aw4 _qdz">#perfmatters</span></a> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fwww.neotys.com%2Fsolutions%2Fcitrix%3Ffbclid%3DIwAR3DaIqv3sqE7NQacWoZqxHR43UNJ23KS7itegLb1zu_JeiFtQWU1gWETfc&amp;h=AT1vVb4WP_zwq_lwo3iCuhiXnBnQ1teMjF-4pgM8mnxQgvSDD3rlR6U6yZGCXwIaImqaCRNdCnGFuat8Pauy8qRVqf5ybRR6CYYIrImt_zZsoOUKuGohhEkjE8fUiyCucyQq1z-X5DH-U6oSse2xQKsmqw5c_HAtu1YNKvG2stCHO6jqYzR4wKTirGHJoPQZzmoei87Y25CQtTnOynOBjBX_bHoxQp-LdoVVQtNneaR8ic2wv92gcw7QXKYcDbg7kcJJaILZ40keQwrtcdxk1KHciLTnFP2fKjpgrMDz0y9XubxWHBmyAnxxNTxekuCDCx1eqGoqBF7g8U2c0fIAkbKge0DdhXbsXr3ATMZyonzrJvsaDxSpbhqsfFPlfOIdsAtzu39HBfi9k_Ic_NLHTw_ndSJp7lpzObey_cIoojivS6Rp24Bi-fvQPPb-X7SMQ7vqJjqdT1cp3bSDWjviHFcBRERxU9FiYz2M1RWOkz53O30MUvdvcN7r4-ikEX07aDvD-y7xJcybXkocZin6VS6rswGvvWq61BLBqUpwMxRCtDd9ALdVFipzXukSSs4U91b9a-0RCPZjkRelIWyTCmDspx9iN52WUHSfSlDUBZc1HoCpsYiipvVAria4UVaZ3niQb9yqWUT5_fml09UhPWvGP8AawezgNRqwq7I-UDaw_BOF8dSsb0kbG2kGBT_zgOlRj0PjxwGIz58oI_YW6JxZQ5CmNbKjAgbUz0CfQUvdSaB58gvqhwKSOXzQ6KtUZE62DXYtf88jna2bvgCA4-RCTwVbgm1-04KvK7oYZa_0XjAsQmyEr_SmVqfkJdlSr31LzORSnoOatQ1yXB7hj5wJvANPSvdE_R_NppoqMJMFi2wQ-YyLQ75w1SrogxflQi_VqzcaZR-TFoc-XTIOOyD_NFmnP-NzjdayQFy-7aJl8t-10sRoPz4Pk_xCztuh19XHen4X7CfcKJ_76XhK9-uLnLwS1MryF7Ys4qXNjEpFuRmtvU0WcSij2ijbjhosYho_ZpZNYzX3vQlQk9YCh7h1RWgRsm5QPoni10Iy-FP2XIXWurp6r5iJhi6NJWF4LkyZk0VOrrg5Vftv3ECTpKxO0OfiCI6CTqbW2pJVJXG2bKllyNT3nAACxjv1UGcGPUSmIJ13zLSHDY6fZ9RjKBcAwApTqniWaUBSevYYlkLZUA" rel="noopener noreferrer"><span>https://</span><wbr></wbr><span class="word_break"></span><span>www.neotys.com/</span><wbr></wbr><span class="word_break"></span>solutions/citrix</a></p>
-<p></span>
-</p>
-<p><a target="_blank" href="https://www.neotys.com/solutions/citrix?fbclid=IwAR3DaIqv3sqE7NQacWoZqxHR43UNJ23KS7itegLb1zu_JeiFtQWU1gWETfc" rel="noopener noreferrer"></a> </p>
-<p><a target="_blank" href="https://www.neotys.com/solutions/citrix?fbclid=IwAR3DaIqv3sqE7NQacWoZqxHR43UNJ23KS7itegLb1zu_JeiFtQWU1gWETfc" rel="noopener noreferrer">Citrix &#8211; Neotys</a></p>
-<p>Performance Test All Citrix Virtualized Applications &#038; Desktops Performance Test Citrix with NeoLoad Scale Virtual Computing Fast Whether you’re an automotive company designing the next-gen car, a furniture e-tailer supplying consumers with a 3D kitchen planning tool, or a manufacturer creating ma&#8230;<br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3372167832794656">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Steganography Anchors Pinpoint Attacks on Industrial Targets</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/steganography-anchors-pinpoint-attacks-on-industrial-targets/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 May 2020 19:58:35 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Anchors]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Industrial]]></category>
-		<category><![CDATA[Pinpoint]]></category>
-		<category><![CDATA[Steganography]]></category>
-		<category><![CDATA[Targets]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/steganography-anchors-pinpoint-attacks-on-industrial-targets/</guid>
-
-					<description><![CDATA[Ongoing spear-phishing attacks aim at stolen Windows credentials for ICS suppliers worldwide. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Ongoing spear-phishing attacks aim at stolen Windows credentials for ICS suppliers worldwide.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/steganography-pinpoint-attacks-industrial-targets/156151/">Source link </a></p>
 ]]></content:encoded>
 					
 		
