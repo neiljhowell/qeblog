@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 04 Jun 2020 20:55:57 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 05 Jun 2020 18:38:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,59 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>FTC Slams Children’s App Developer for COPPA Violations</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ftc-slams-childrens-app-developer-for-coppa-violations/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 05 Jun 2020 18:38:16 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Childrens]]></category>
+		<category><![CDATA[COPPA]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[FTC]]></category>
+		<category><![CDATA[Slams]]></category>
+		<category><![CDATA[Violations]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ftc-slams-childrens-app-developer-for-coppa-violations/</guid>
+
+					<description><![CDATA[Children&#8217;s app developer HyperBeard must pay $150,000 after the FTC claimed it violated privacy laws. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Children&#8217;s app developer HyperBeard must pay $150,000 after the FTC claimed it violated privacy laws.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/ftc-childrens-app-developer-coppa-violations/156355/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WhatsApp Phone Numbers Pop Up in Google Search Results — But is it a Bug?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whatsapp-phone-numbers-pop-up-in-google-search-results-but-is-it-a-bug/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 05 Jun 2020 16:01:19 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Numbers]]></category>
+		<category><![CDATA[Phone]]></category>
+		<category><![CDATA[Pop]]></category>
+		<category><![CDATA[Results]]></category>
+		<category><![CDATA[Search]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whatsapp-phone-numbers-pop-up-in-google-search-results-but-is-it-a-bug/</guid>
+
+					<description><![CDATA[A researcher found that phone numbers tied to WhatsApp accounts are indexed publicly on Google Search creating what he claims]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A researcher found that phone numbers tied to WhatsApp accounts are indexed publicly on Google Search creating what he claims is a “privacy issue” for users.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/whatsapp-phone-numbers-google-search-results/156141/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Tycoon Ransomware Banks on Unusual Image File Tactic</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tycoon-ransomware-banks-on-unusual-image-file-tactic/</link>
 		
@@ -54,6 +107,149 @@
 		
 			</item>
 		<item>
+		<title>Trump, Biden Campaign Staffers Targeted By APT Phishing Emails</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-biden-campaign-staffers-targeted-by-apt-phishing-emails/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 20:10:39 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[APT]]></category>
+		<category><![CDATA[Biden]]></category>
+		<category><![CDATA[Campaign]]></category>
+		<category><![CDATA[Emails]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Staffers]]></category>
+		<category><![CDATA[targeted]]></category>
+		<category><![CDATA[Trump]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-biden-campaign-staffers-targeted-by-apt-phishing-emails/</guid>
+
+					<description><![CDATA[Google TAG researchers warn that APTs are targeting campaign staffers for both Donald Trump and Joe Biden with phishing emails.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Google TAG researchers warn that APTs are targeting campaign staffers for both Donald Trump and Joe Biden with phishing emails.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/trump-biden-campaign-apt-phishing-emails/156319/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Understanding the Payload-Less Email Attacks Evading Your Security Team</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/understanding-the-payload-less-email-attacks-evading-your-security-team/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 17:24:34 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Evading]]></category>
+		<category><![CDATA[PayloadLess]]></category>
+		<category><![CDATA[team]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/understanding-the-payload-less-email-attacks-evading-your-security-team/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/understanding-payload-less-email-attacks/156299/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Black Lives Matter. Applitools is With You and We Will Impart Change.</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-applitools-is-with-you-and-we-will-impart-change/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 16:49:44 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[Black]]></category>
+		<category><![CDATA[change]]></category>
+		<category><![CDATA[Impart]]></category>
+		<category><![CDATA[Lives]]></category>
+		<category><![CDATA[Matter]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-applitools-is-with-you-and-we-will-impart-change/</guid>
+
+					<description><![CDATA[Dear Applitools Family, We are deeply saddened by the events that have taken place in the United States. As a]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<div class="wp-block-image"><figure class="alignright size-large"></figure></div>
+
+
+
+<p>Dear Applitools Family,</p>
+
+
+
+<p>We are deeply saddened by the events that have taken place in the United States. As a company, and as individuals, we must acknowledge and address them. But most importantly, we must do our part to support justice and equality for Black People.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:paragraph -->
+<p>As we endure the reality of a pandemic, we need to be our best selves. In fact, we’ve seen our best selves in medical professionals, first responders, friends, neighbors, and in each other. This is what makes the multiple acts of violence and social injustice against Black Americans impossible to ignore any longer. We now know, more than ever, how much better we can be.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For centuries, Black Americans have suffered terribly, based solely on the color of their skin. This has gone on for far too long and simply hoping things will change is not enough. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>We all must stand for the Black Community to end the violence and help bring equality, justice and healing to our country. </strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We know that lending support and standing with the Black Community is not enough. There is much more we all can do to change our culture, support the movement and continue to educate ourselves to help create a just and equal world.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is why, moving forward, Applitools will enact the following policies to support the Black Community:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Make and match donations from our team to organizations that support racial equality</li><li>Amplify the voices of Black Community members</li><li>Work to improve our team culture by taking deliberate actions to educate, train, create dialogue, and provide career opportunities for Black Community members </li><li>Support our employees in taking time to mentor and support non-profits focused on equality</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Lastly, we want to acknowledge the strength, conviction, and wisdom of the Black Women, Aleeyah Dixon and Angie Jones, who are part of our family. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Angie and Aleeyah; we respect, love, and support you through this terrible time, and as a small company are privileged to have learned from you how to be our best selves. We want you to know that Applitools is your second home. A safe place. A place to find comfort and support.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In closing, we want to share some of the resources that Aleeyah and Angie have gathered for our team to help us understand and learn. It is our duty and responsibility to continue to educate ourselves. These valuable resources are yours to share so that we all better understand how to be active participants for positive change: </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<!-- /wp:list --><!-- wp:paragraph --><p>Let’s all commit to that change right now.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Yours In Peace, Love, and Unity,</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Gil Sever,</strong> Co-Founder and CEO<br/>Applitools</p>
+<!-- /wp:paragraph -->								
+			</div>
+<br>
+<br><a href="https://applitools.com/blog/black-lives-matter/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Your passwordless future: Make it sooner rather than later</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/your-passwordless-future-make-it-sooner-rather-than-later/</link>
 		
@@ -66,8 +262,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/your-passwordless-future-make-it-sooner-rather-than-later/</guid>
 
 					<description><![CDATA[Recent research reminds us that managing unique passwords is hard. For sure, you’re more than capable of doing it, but for]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p><strong>Recent research reminds us</strong> that managing unique passwords is hard. For sure, <i>you’re</i> more than capable of doing it, but for the vast majority of “normal” users, it’s basically impossible.</p>
 <p><strong>So use a password manager?</strong> Nope; too nerdy.</p>
@@ -147,7 +342,7 @@
 </p>
 <div>
 <p>The sales team is delighted to welcome <strong>Nawel <span class="s1">Rahali!</span></strong></p>
-<p></p>
+</p>
 <p><noscript><img class="size-medium wp-image-7300 aligncenter" src="https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-283x300.jpg" alt="" width="283" height="300" srcset="https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-283x300.jpg 283w, https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-768x815.jpg 768w, https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-965x1024.jpg 965w, https://gatling.io/wp-content/uploads/2020/06/86728228_210320536823124_1378051088829120512_n-2-500x530.jpg 500w" sizes="(max-width: 283px) 100vw, 283px"/></noscript></p>
 <p>Nawel is currently at the <strong>emlyon business school</strong>, which she joined after <strong>2 years in preparatory literary class (CPGE “hypokhâgne – khâgne”)</strong>. Nawel is therefore from a literary course, very focused on languages.</p>
 <p>In her current studies she was able to set up a <strong>project based on open source technology</strong> and also discover code (HTML / CSS), application prototyping, and Artificial Intelligence.</p>
@@ -206,309 +401,11 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/accruent-stands-with-the-members-of-our-black-community-and-will-not-be-silent-o/</guid>
 
 					<description><![CDATA[Accruent stands with the members of our Black community and will not be silent on this matter. We offer our]]></description>
-										<content:encoded><![CDATA[
+										<content:encoded><![CDATA[<p></p>
 <p>Accruent stands with the members of our Black community and will not be silent on this matter. We offer our support and resources to make real change happen. We are a part of the <a target="_blank" class="profileLink" href="https://www.facebook.com/fortivecorp/?__tn__=K-R&#038;eid=ARAo89hc6gX1tySDFEQI6ba1arkMn2ByM1X3YTrpyFwAdCMeAXzWSojKW2pkON6USMlhfBzFzOD_g-IC&#038;fref=mentions&#038;__xts__%5B0%5D=68.ARDcC3F8U3JF56F8ZD9hU9iUAzkrYBZs-VoH1EZ4SaNGkvZJXu2G2uI7dbS_mLBdVYv6N-w4WS14IRsCo-TKErQZZstn2KHwL5fkhbpe-VLtfVkMWMi1bUevyI6QerjNzBCRvbmbdzv6kzHhlYzZXnNmlzpBaLfCV35bWNb3KnwFhjxo9up-Lv8JDrhR8S6qHQFnUjI00PhbDPjKwUJDaqQ88tyKS12YFt7s4dBhpAOTKnDLj94eA5KrmFpVkrzXEcWm_MoOsmbetKboyal9O0drVza1Xm4s9JXiEL9YLSSkxKP_pG2vUQQVgDdHcKmn9i-fyIbHp3HCcIwb0LIr_KKDxg" data-hovercard="/ajax/hovercard/page.php?id=1353344854678853&#038;extragetparams=%7B%22__tn__%22%3A%22%2CdK-R-R%22%2C%22eid%22%3A%22ARAo89hc6gX1tySDFEQI6ba1arkMn2ByM1X3YTrpyFwAdCMeAXzWSojKW2pkON6USMlhfBzFzOD_g-IC%22%2C%22fref%22%3A%22mentions%22%7D" data-hovercard-prefer-more-content-show="1" rel="noopener noreferrer">Fortive Corporation</a> family, and are committed to listening and learning from our teams and taking actions for change, so that we all have a voice and belong.</p>
 <p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/101813704_2928336487219426_2736190889662611456_o.png?_nc_cat=102&#038;_nc_sid=8024bb&#038;_nc_ohc=jy3wWRF8W08AX8XPkws&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=01ee3435a9944878a907efd410e9cb77&#038;oe=5EFE29F2" rel="noopener noreferrer"></a><br />
 <br />
 <br /><a href="https://www.facebook.com/227818503937918/posts/2928366087216466">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What&#8217;s New In Selenium 4?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whats-new-in-selenium-4/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 19:37:40 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[Whats]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whats-new-in-selenium-4/</guid>
-
-					<description><![CDATA[Selenium 4 is set to be released by the Chinese New year, but which year? A lot of developments have]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<p>Selenium 4 is set to be released by the Chinese New year, but which year? </p>
-
-
-
-<p>A lot of developments have happened since Selenium 4 was announced during the <a target="_blank" href="https://www.youtube.com/watch?v=ypmrrJmgM9U" rel="noopener noreferrer">State of the Union</a> Keynote by <a target="_blank" href="https://twitter.com/shs96c" rel="noopener noreferrer">Simon Stewart</a> and <a target="_blank" href="https://twitter.com/manoj9788" rel="noopener noreferrer">Manoj Kumar</a>. There has been a significant amount of work done and we’ve released at least <em>six</em> alpha versions of Selenium 4 for users to try out and report back with any potential bugs so that we can make it right.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:image {"id":12201,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"></figure><!-- /wp:image --><!-- wp:paragraph --><p>It is exciting times for the Selenium community as we have a lot of new features and enhancements that make Selenium WebDriver even more usable and scalable for practical use cases.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Selenium is a suite of tools designed to support different user groups:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Selenium IDE supports rapid test development, and doesn’t require extensive programming knowledge</li><li>WebDriver provides a friendly and flexible API for browser automation in most major programming languages</li><li>Grid makes it possible to distribute and run your tests across more than just one machine.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Let us dive in and take a look at some of the significant features that were released in each of these tools and share some of the cool upcoming features that are in-progress and will be available in Selenium 4.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.fmxm7lpwhuma">Selenium WebDriver</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>One of the main reasons to release WebDriver as a major version (Selenium 4) is because of the complete W3C protocol adoption. The W3C protocol dialect has been available since the 3.8 version of Selenium WebDriver along with the JSON wire protocol. This change in protocol isn’t going to impact the users in any way, as all major browser drivers (such as <a target="_blank" href="https://github.com/mozilla/geckodriver" rel="noopener noreferrer">geckodriver</a> and <a target="_blank" href="https://chromedriver.chromium.org/" rel="noopener noreferrer">chromedriver</a>), and many third party projects, have already fully adopted the W3C protocol.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>However, there are some notable new APIs, as well as the removal of deprecated APIs in the WebDriver API, such as:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Elements:<ul><li>The FindsBy* interfaces (e.g. FindsByID, FindsByCss …) have been deleted. The recommended alternative is to use a `By` instance passed to `findElements` instead.</li><li>“<a target="_blank" rel="noopener noreferrer" href="https://angiejones.tech/selenium-4-relative-locators/">Relative locators</a>”: a friendly way of locating elements using terms that users use, like “near”, “left of”, “right of”, “above” and “below”. This was inspired by an automation tool called <a target="_blank" rel="noopener noreferrer" href="https://sahipro.com/">Sahi</a> by Narayan Raman, and the approach has also been adopted by tools like <a target="_blank" rel="noopener noreferrer" href="https://taiko.dev/">Taiko</a> by ThoughtWorks.</li><li>A richer set of exceptions, providing better information about why a test might have failed. These include exceptions like ElementClickInterceptedError, NoSuchCookieError &amp; more.</li></ul></li><li>Chrome Debugging Protocol (CDP):<ul><li>Although Selenium works on every browser, for those browsers that support it, Selenium 4 offers CDP integration, which allows us to take advantage of the enhanced visibility into the browser that a debugging protocol gives.</li><li>Because the CDP is, as the name suggests, designed for debuggers, it’s not the most user friendly of APIs. Fortunately, the Selenium team is working to provide comfortable cross-language APIs to cover common requirements, such as network stubbing, capturing logs, <a target="_blank" rel="noopener noreferrer" href="https://angiejones.tech/selenium-4-mocking-geolocation/">mocking geolocation</a>, and more.</li></ul></li><li>Browser Specifics:<ul><li>A new ChromiumDriver extends packages for both Chrome and Edge browsers.</li><li>A new method to allow install and uninstall add-ons for Firefox browser at runtime.</li></ul></li><li>Window Handling: <ul><li>Users can go in full-screen mode during script executions. </li><li>Better control of whether new windows open as tabs, or in their own window.</li></ul></li><li>Screenshots: <ul><li>An option to grab a screenshot at UI element level. Unlike the usual view-port level screenshot. </li><li>Full Page Screenshot support for Firefox browser.</li></ul></li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>What’s next in WebDriver beyond Selenium 4?</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>It would be nice to have users extend the locator strategy like FindByImage or <a target="_blank" href="https://testautomationu.applitools.com/ai-for-element-selection-erasing-the-pain-of-fragile-test-scripts/" rel="noopener noreferrer">FindbyAI (like in Appium)</a> – right now we have a hardcoded list of element location strategies. Providing a lightweight way of extending this set, particularly when using Selenium Grid, is on the roadmap.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.1m0sk6c3h4j7">Selenium IDE</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The original Selenium IDE reached its end of life in August 2017, when Mozilla released Firefox 55, which switched its add-ons from the Mozilla-specific “XPI” format to the standardised “Web Extension” mechanism. This meant that the original Selenium IDE would no longer work in Firefox versions moving forwards.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Thanks to Applitools, <a target="_blank" href="https://applitools.com/blog/selenium-ide-with-dave-haeffner/" rel="noopener noreferrer">Selenium IDE has been revived</a>! It is one of the significant improvements in Selenium 4 and includes notable changes like:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>A new shiny UI, for better user experience.</li><li>A web-extensions based plugin that makes it possible to be available in Chrome and Firefox browsers as well as for any other browser that allows web-extension based plugins. It will soon be available in the MS Edge store.</li><li>Code export is available now for all the official language bindings such as Java, .Net, Python, Ruby &amp; JavaScript.</li><li>A new plugin system that can allow users to create new commands, code exports for new languages and frameworks. The plugins can be shipped as extensions. An example of a plugin is <a target="_blank" href="https://chrome.google.com/webstore/detail/applitools-for-selenium-i/fbnkflkahhlmhdgkddaafgnnokifobik" rel="noopener noreferrer">Applitools for Selenium IDE</a> which enables codeless visual testing.</li><li>A new CLI runner called the “Selenium-side-runner” running on NodeJs. It allows users to execute the recorded tests in parallel with multi-browser capability.</li></ul><!-- /wp:list --><!-- wp:list --><ul><li>A control flow mechanism which helps users write better tests using “while” &amp; “if” conditions.</li><li>A backup element selector that can fall back and select elements using a different locator strategy like ID, CSS &amp; XPath based on the recorded information. This helps make tests more stable and reliable.</li><li>Selenium IDE is <em>accessible</em>! We’ve gone above and beyond to make sure that it conforms to some of the latest accessibility guidelines and supports necessary controls like focus order, roles, tooltips, announcing the start of recording, color and design.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>What’s next in Selenium IDE?</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>A remarkable milestone for Selenium IDE is that it’s going to be available as a standalone app, re-written to be an <em>Electron app</em><em>.</em> By binding tightly to the browser, this would allow us to listen out for events from the browser, making test recording more powerful and feature-rich.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 id="h.6n9h1ej7fb4v">Selenium Grid</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>One of the essential improvements in Selenium 4 is the ability to use <a target="_blank" href="https://github.com/SeleniumHQ/docker-selenium" rel="noopener noreferrer">Docker</a> to spin up containers instead of users setting up heavy virtual machines. Selenium Grid has been redesigned so that users can deploy it on <a target="_blank" href="https://github.com/manoj9788/kubernetes-docker-selenium" rel="noopener noreferrer">Kubernetes</a> for excellent scaling and self-healing capabilities.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Let’s look at some of the significant improvements:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>We’ve enhanced Selenium Grid deployment for more scalable and traceable infrastructure.</li><li>Users can deploy Grid, either as Standalone, Hub-Node or in a distributed mode with different processes like in the below picture,</li></ul><!-- /wp:list --><!-- wp:image {"id":19462} --><figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM.png" alt="Screenshot 2020 05 20 at 3.57.26 PM" class="wp-image-19462" srcset="https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM.png 1600w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-300x188.png 300w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-1024x641.png 1024w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-768x480.png 768w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-1536x961.png 1536w, https://applitools.com/wp-content/uploads/2020/06/Screenshot-2020-05-20-at-3.57.26-PM-335x211.png 335w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure><!-- /wp:image --><!-- wp:list --><ul><li>Observability is a way of measuring systems’ internal state; a much-needed capability to <a target="_blank" href="https://github.com/manoj9788/tracing-selenium-grid" rel="noopener noreferrer">trace</a> what happens when an API is invoked or a new session creation is requested. This can help admins and developers when debugging, as providing insight into the root cause when strange problems arise.</li><li>Selenium Grid, by default, communicates via HTTP. This is fine for most use cases within the firewall but problematic when your server is exposed to the internet. Now users can have their Grid communicate via the HTTPS protocol with support for TLS connections.</li><li>Unlike in the old versions, where we’ve allowed only IPV4 based IP addresses,  now we support IPV6 addresses as well.</li><li>Grid has always allowed you to use configuration files when spinning up Grid instances. In Grid 4, those files can be written using <a target="_blank" href="https://github.com/toml-lang/toml" rel="noopener noreferrer">TOML</a>, which makes them easier for humans to understand..</li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>What’s next in Selenium Grid?</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>As you follow, there have been exciting changes and performance improvements. There are a few more that expected to be added like:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>A revived UI for Grid console</li><li>GraphQL for querying Grid</li><li>More work on Grid stability and resilience</li></ul><!-- /wp:list --><!-- wp:heading --><h2 id="h.t5t1jy4sfi9o">More Goodies</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>We’ve also refreshed our branding, documentation, and the website, so check out <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium.dev</a><u>!</u></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Selenium is an Open-Source project, and we do this voluntarily so there are no definite timelines that can be promised, but we can say before Chinese New Year.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Please come and give us a hand if you have the energy and time! Happy hacking!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Thanks Simon Stewart in helping review this post!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><em>Manoj Kumar is a Principal Consultant at ThoughtWorks. Manoj is an avid open-source enthusiast and a committer to the Selenium &amp; Appium project. And a member of the project leadership committee for Selenium. Manoj has also contributed to various libraries and frameworks in the automated testing ecosystem like ngWebDriver, Protractor and Serenity to name a few. An avid accessibility practitioner who loves to share knowledge and is a voluntary member of the W3C ACT-R group. In his free time, he contributes to Open-Source projects or research on Accessibility and enjoys spending time with his family. He blogs at<a target="_blank" rel="noopener noreferrer" href="http://assertselenium.com"> AssertSelenium</a>.</em></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Read More</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:heading --><h2>Join our Cross-Browser Testing Hackathon</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list -->
-			</div><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<br>
-<br><a href="https://applitools.com/blog/selenium-4/">Source link </a>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Two Critical Android Bugs Open Door to RCE</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/two-critical-android-bugs-open-door-to-rce/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 17:10:58 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Door]]></category>
-		<category><![CDATA[Open]]></category>
-		<category><![CDATA[RCE]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/two-critical-android-bugs-open-door-to-rce/</guid>
-
-					<description><![CDATA[Google and Qualcomm both addressed significant vulnerabilities in their June updates. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Google and Qualcomm both addressed significant vulnerabilities in their June updates.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/two-critical-android-bugs-rce/156216/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Welcome to Yinka! – Gatling Open-Source Load Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-yinka-gatling-open-source-load-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 16:18:50 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Gatling]]></category>
-		<category><![CDATA[Load]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Yinka]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-yinka-gatling-open-source-load-testing/</guid>
-
-					<description><![CDATA[The sales team is growing today! We are very happy to welcome Yinka Aboaba. Yinka joined Gatling as a Business]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>The sales team is growing today! We are very happy to welcome <strong>Yinka Aboaba</strong>.</p>
-</p>
-<p><noscript><img class=" wp-image-7294 aligncenter" src="https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20-235x300.png" alt="" width="172" height="220" srcset="https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20-235x300.png 235w, https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20-500x637.png 500w, https://gatling.io/wp-content/uploads/2020/06/Capture-d’écran-2020-06-02-à-17.52.20.png 736w" sizes="(max-width: 172px) 100vw, 172px"/></noscript></p>
-<p>Yinka joined Gatling as a <strong>Business Developer</strong> as part of the Sales Team focusing on New Business.</p>
-<p>He had varied experience initially in strategy working for ENGIE within its <strong>international power business</strong> for 18 months before moving to <strong>commercial positions</strong> most recently at ManoMano in the e-commerce sector where he worked on both <strong>deal closing and account management</strong>.</p>
-<p><strong>Yinka comes from the UK and studied economics</strong>, but spent one year off in Brest to work as an <strong>English language assistant</strong>. He also studied<strong> one year in Barcelona</strong>.</p>
-<p><strong>Feel free to contact him,</strong> if you need any information, he would be glad to help you: <a target="_blank" href="https://gatling.io/mailto:yaboaba@gatling.io" rel="noopener noreferrer">yaboaba@gatling.io</a></p>
-<p>Yinka started working with us in <strong>full remote</strong> and hope to meet him very quickly!</p>
-<p>We look forward to benefiting from his expertise in sales!</p>
-<p>Welcome Yinka!</p>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://gatling.io/2020/06/02/welcome-to-yinka/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Severe Cisco DoS Flaw Can Cripple Nexus Switches</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/severe-cisco-dos-flaw-can-cripple-nexus-switches/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 16:16:31 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cisco]]></category>
-		<category><![CDATA[Cripple]]></category>
-		<category><![CDATA[DoS]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[Nexus]]></category>
-		<category><![CDATA[Severe]]></category>
-		<category><![CDATA[Switches]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/severe-cisco-dos-flaw-can-cripple-nexus-switches/</guid>
-
-					<description><![CDATA[Cisco has patched a high-severity flaw that could lead to denial-of-service attacks on its Nexus switch lineup. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Cisco has patched a high-severity flaw that could lead to denial-of-service attacks on its Nexus switch lineup.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cisco-dos-flaw-nexus-switches/156203/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to get big results with a small SRE team</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-get-big-results-with-a-small-sre-team/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[big]]></category>
-		<category><![CDATA[Results]]></category>
-		<category><![CDATA[small]]></category>
-		<category><![CDATA[SRE]]></category>
-		<category><![CDATA[team]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-get-big-results-with-a-small-sre-team/</guid>
-
-					<description><![CDATA[One responsibility of every site reliability engineering team is to help other engineers deliver changes quickly and safely to customers.]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p dir="ltr">One responsibility of every site reliability engineering team is to help other engineers <a target="_blank" href="https://content.microfocus.com/release-management-tb/devops-release-management?lx=PLf4hm&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">deliver changes quickly and safely</a> to customers. In many engineering departments, this responsibility belongs to a small number of site reliability engineers (SREs), who must juggle many different priorities, including cloud infrastructure, developer tooling, information security, and incident response. </p>
-<p dir="ltr">Luckily, <a target="_blank" href="https://techbeacon.com/enterprise-it/sre-practice-5-insights-googles-experience" rel="noopener noreferrer">SRE principles</a> were established with an eye to building lasting, scalable value, and are a <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/how-itil4-and-sre-al?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">critical part of DevOps</a>. For example, when an SRE team provides developers with tools to own their service lifecycle, they become a productivity multiplier instead of a bottleneck. </p>
-<p dir="ltr">Your SRE team members can achieve this only when they have sufficient time to solve these problems. They can&#8217;t be spending all their time reacting to alerts and tickets. Finding this time can be a struggle, especially if yours is a small team.</p>
-<p dir="ltr">Here&#8217;s tried and tested advice to help you build a strong and sustainable SRE team regardless of the team&#8217;s size.</p>
-<h3>Help others, never block them</h3>
-<p dir="ltr">A small SRE team can have major influence by providing self-service capabilities to engineering teams, thus removing itself from the critical path to production.</p>
-<p dir="ltr">This starts with <a target="_blank" href="https://techbeacon.com/app-dev-testing/running-gauntlet-setting-your-first-deployment-pipeline" rel="noopener noreferrer">deployment pipelines</a> that can be autonomously operated by development teams, allowing them to build and release code changes—including configuration, such as environment variables—without handoffs.</p>
-<p dir="ltr">This does not remove SREs&#8217; responsibility to ensure that these changes are safe, since this can be achieved through constraints built into the pipeline, such as test coverage rules, static analysis quality gates, security vulnerability checks, or conservative deployment strategies. </p>
-<p dir="ltr"><a target="_blank" href="https://techbeacon.com/enterprise-it/dos-donts-large-scale-deployments" rel="noopener noreferrer">These deployment strategies</a> can include blue/green—maintaining two separate but identical deployment environments—and canary, which involves incremental rollouts. </p>
-<p dir="ltr">Once changes are live, it&#8217;s also important for the deployment team to observe the results and react to common issues without the need to involve SRE. This means full access to metrics, logs, traces, and dashboards for every engineer, as well as the ability to take action (which includes rolling back a deployment, flipping the kill switch on a feature, and so on).</p>
-<h3>Beware of rolling your own stack and tools</h3>
-<p>The last few years have brought an overwhelming choice of infrastructure options. The initial excitement from the capabilities of some tools can unfortunately often turn into <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">a lot of technical debt</a> and maintenance headaches.</p>
-<p>Managing your own Kubernetes, building your own Kafka cluster, implementing your own monitoring stack—all of these are almost impossible to get right when you have a very small SRE team. Instead, <a target="_blank" href="https://techbeacon.com/enterprise-it/5-tips-choosing-enterprise-cloud-services-provider" rel="noopener noreferrer">turn your attention to managed cloud services</a>, which you won&#8217;t have to maintain from the ground up.</p>
-<p dir="ltr">It is also often easy for SRE pros to fall into the trap of solving problems by writing your own tools—a trap that engineers of all types tend to fall into.</p>
-<p dir="ltr">However, every line of code you own is a liability, not only because of the maintenance burden, but also because any progress on the tool will only happen if you have time to dedicate to it. Unless this homemade tool is a unique differentiator, your best choice is to turn to third-party products that fulfill the requirement.</p>
-<h3>Avoid technology spread</h3>
-<p dir="ltr">Similarly, the acquisition of an increasing number of tools, left unchecked, can turn your architecture options into a Swiss Army knife. Technology spread is not only a source of increased maintenance work for SRE, but it also adds to the mental overload of your engineering team.</p>
-<p dir="ltr">For example, if you build an application using five programming languages and four databases, any team building something new has 20 options to choose from!</p>
-<p dir="ltr">Development tooling also fits in this category. Think source control, monitoring, CI/CD pipelines, and so on. Having multiple options in any of these can become a source of confusion and poor consistency. It&#8217;s okay to migrate from one tool to another. Just make sure you don&#8217;t stop halfway.</p>
-<h3>Measure where your team is spending its time and effort</h3>
-<p dir="ltr">A core principle for a sustainable SRE team is keeping the amount of toil to a minimum. Google&#8217;s SRE e-book <a target="_blank" href="https://landing.google.com/sre/sre-book/chapters/eliminating-toil" rel="nofollow noopener noreferrer">defines &#8220;toil&#8221;</a> as manual and repetitive tasks that aren&#8217;t adding value in the long run. Without being automated away, toil work will increase proportionally to the number of engineers, the size of an application, and the usage of the product, slowly becoming the only thing a SRE team does.</p>
-<p dir="ltr">The counterbalance of toil work is engineering work, which yields long-lasting value. Examples include building a self-service deployment pipeline instead of creating SRE tickets to deploy applications, improving alerting rules to reduce the overload of interruptions from false positives, and implementing auto-scaling policies to allow systems to adapt to loads without manual intervention.</p>
-<p dir="ltr">In a small SRE team, the balance between toil and engineering can very quickly tip the wrong way. Measuring this work ratio on a regular basis is key to understanding when the situation is about to become unsustainable.</p>
-<p dir="ltr">If toil consistently accounts for more than 50%, not only does it mean that more than half of SREs&#8217; work yields no lasting value, but it can also be the source of demotivation and <a target="_blank" href="https://techbeacon.com/devops/how-avoid-devops-burnout" rel="noopener noreferrer">burnout for team members</a> stuck with manual and repetitive tasks.</p>
-<p dir="ltr">Any work-management software makes this balance very easy to report on via tags. Review the biggest components of unplanned work often, and question their actual value and whether automation work should be prioritized to reduce their ongoing operational burden on your team.</p>
-<h3>Put structure around unplanned work</h3>
-<p dir="ltr">Despite trying to get engineering teams to be as independent as possible, they still occasionally require help or guidance. These interruptions can take the form of Slack messages, Jira tickets, or even walking over to the SRE team&#8217;s offices to ask a question.</p>
-<p>Instead of having the full team jumping to answer everything, designate one member of your team, whose main responsibility is to handle this reactive work. Rotate in a different person every week. In this way, the rest of your team can remain focused on engineering work, without constantly context-switching.</p>
-<p dir="ltr">This is also a valuable learning opportunity for recent joiners on the team, since they will be exposed to more areas of the SRE sphere of work. When the SREs on &#8220;interruption duty&#8221; aren&#8217;t responding to requests, they can still participate in toil-reducing work by addressing lower-priority technical debt items, such as cleaning up noisy alerts, reviewing older incidents post mortem to ensure actions were addressed, and so forth.</p>
-<p><em>[ Join the discussion in this June 18 Webinar, <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/are-itsm-and-enterpr?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Are ITSM and ESM One and the Same</a>? </em><em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management</a> ]</em></p>
-<h2>Spread on-call responsibilities</h2>
-<p dir="ltr">The best monitoring system won&#8217;t help with incident response if engineers get alerted only during working hours. It&#8217;s typical for SRE teams to share off-hours responsibilities by having a weekly rotation. You should have two people on call: a primary (receiving alerts) and a secondary (in case primary is unable to respond in time).</p>
-<p dir="ltr">For teams with only two or three engineers, however, that&#8217;s unsustainable, since individual engineers would need to wear pagers and be on call for several consecutive weeks. This can lead to on-call fatigue and carries a high risk of burning out your engineers. In this situation consider democratizing the on-call work by including developers and test engineers in your rotation.</p>
-<p dir="ltr">Involving developers and testers in on-call rotations has several benefits. You&#8217;re forced to make SRE &#8220;tribal knowledge&#8221;—how to deal with incidents, document them, and make the responses repeatable. That means that every alert that triggers a pager must contain clear runbooks to ensure that the response will be consistent.</p>
-<p dir="ltr">On-call developers and testers also have more context about application-related issues. And as <a target="_blank" href="https://twitter.com/ChrisAnnODell" rel="nofollow noopener noreferrer">Chris Ann O&#8217;Dell</a> puts it <a target="_blank" href="https://www.youtube.com/watch?v=UNxhm89DwlY" rel="nofollow noopener noreferrer">in her talk</a>, &#8220;You build it, you run it: Why developers should be on call,&#8221; it is also a great driver for prioritizing bug fixes and better testing strategies so you can avoid waking people up at night.</p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-<h2>Your small team can yield big results</h2>
-<p dir="ltr"><a target="_blank" href="https://techbeacon.com/devops/how-accenture-retrofitted-site-reliability-engineering" rel="noopener noreferrer">The essence of SRE</a> is to help build solutions that have lasting value and that will work at scale. A well-thought-out software delivery platform will work for 10 engineers or 200, as long as you keep aiming for zero SRE intervention between the developer committing code and seeing the change have an effect in production.</p>
-<p dir="ltr">Unfortunately, such a target often feels out of reach when the most-needed improvements stay in the backlog as you keep reacting to issues that block you from making real, lasting progress.</p>
-<p dir="ltr">This is even more pronounced for small teams, which is why every decision you make about adopting new technology, building a custom tool, or &#8220;doing the quick thing and fixing it later&#8221; needs to be made while taking into account the recurring toil taken on your team.</p>
-<p dir="ltr">Unplanned work and toil remain a reality with SRE work, but it should be second nature for your team to want to reduce it. So put structure around your work, track it and understand it, and keep it from becoming everything your team does.</p>
-<p><em>Want to know more? During my <a target="_blank" href="https://agiledevopswest.techwell.com/pricing-packages" rel="nofollow noopener noreferrer">Agile + DevOps Virtual </a> conference session, I&#8217;ll offer additional practical tips on how to maximize the value that very small SRE teams can deliver. The conference runs June 8-11, 2020. </em></p>
-<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/how-get-big-results-small-sre-team">Source link </a></p>
 ]]></content:encoded>
 					
 		
