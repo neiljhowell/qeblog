@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 05 Jun 2020 18:38:16 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 08 Jun 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,89 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Why you should lead your digital transformation from the bottom</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-you-should-lead-your-digital-transformation-from-the-bottom/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bottom]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[lead]]></category>
+		<category><![CDATA[transformation]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2457</guid>
+
+					<description><![CDATA[How can you ensure that your organization’​​​​​​s digital transformation succeeds? Some answers are easy—but can be dangerous. Others are harder, but are more]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>How can you ensure that <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">your organization</a>’​​​​​​<a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">s digital transformation succeeds</a>? Some answers are easy—but can be dangerous. Others are harder, but are more likely to lead to success. Which answers are right for your organization as you progress on <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-roadmap?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">your digital transformation journey</a>? </p>
+<p>Let’s start with the easy answers first.</p>
+<p><em>[ <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. Plus: Get IDC&#8217;s &#8220;<a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-idc?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Digital Transformation 2020 Top 10 Predictions</a>&#8221; ]</em></p>
+<h3>1. Focus on rituals and ceremonies</h3>
+<p>The simplest thing to do is to establish as your bible one of the hundreds of books on agile development, lean methods, or <a target="_blank" href="https://techbeacon.com/devops/devops-must-reads-practitioners-share-top-books" rel="noopener noreferrer">DevOps adoption</a>. Make it the one true source of your best practices.</p>
+<p>If you’re taking a more hands-on approach, you might anoint one person to be your coach, or &#8220;high priest,&#8221; and then do what that person tells you. There are standards for sprint length and backlog size and there are frameworks—<a target="_blank" href="https://techbeacon.com/units/scaling-agile-overview-frameworks" rel="noopener noreferrer">so many frameworks</a>: SAFe and LeSS, and dynamic systems development method (DSDM).</p>
+<p>Your teams will go to stand-ups every day, and hold grooming sessions, and invite you to sprint reviews. The problem is that, although they will look agile, there is no guarantee they will <em>be</em> agile. Far too often this focus on form gives you the same slow, unresponsive results you had before, only dressed up in agile clothing.</p>
+<h3>2. Track and trace the team</h3>
+<p>Agile methods, particularly Scrum, give you lots of <a target="_blank" href="https://techbeacon.com/app-dev-testing/9-metrics-can-make-difference-todays-software-development-teams" rel="noopener noreferrer">tools for measuring progress</a>: burnup charts, backlogs, velocity, story points completed, and so on. Software vendors are only too pleased to sell you tools that track, graph, slice, and dice these metrics, or provide similar ones for DevOps and lean approaches, and tell you how performance stacks up against last week or the industry average.</p>
+<p>These tools are great at producing management fodder and the illusion of control. Unfortunately, high scores and pretty graphs don’t mean your team is delivering agile results, and you can nail your metrics and estimates every sprint right up to the moment you deliver a disappointing pile of useless features.</p>
+<p>The central reason these approaches don’t pay off is that they focus on what is easily seen and monitored by the managers at the top, avoiding the hard work of cultural change and commitment that happen at the team level.</p>
+<p><a target="_blank" href="https://twitter.com/jamesshore" rel="nofollow noopener noreferrer">James Shore</a> calls these approaches &#8220;<a target="_blank" href="https://www.jamesshore.com/Blog/Cargo-Cult-Agile.html" rel="nofollow noopener noreferrer">Cargo Cult Agile</a>.&#8221; Like the primitive people who started superstitiously donning coconut headphones and signaling nonexistent planes in the hope they would bring them modern goods, adopters of these methods are copying agile actions and tools and hoping that will give them agile results. This hope is just as forlorn as it sounds, and the <a target="_blank" href="https://www.forbes.com/sites/brucerogers/2016/01/07/why-84-of-companies-fail-at-digital-transformation/#7ad5cf16397b" rel="nofollow noopener noreferrer">84% of digital transformations that fail</a> are witnesses to it.</p>
+<p>We wrote our book, <em><a target="_blank" href="https://itrevolution.com/agile-conversations" rel="nofollow noopener noreferrer">Agile Conversations</a>,</em> to propose and explain how to implement a harder answer, we use a method we have seen give dramatic results in team after team.</p>
+<p><em>[ Find out <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: Download <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/enterprise-rpa-requirements?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Enterprise Requirements for RPA</a> ]</em></p>
+<h3>The harder answer: Build trust and reduce fear</h3>
+<p>Hold difficult conversations with your team. Build trust by sharing your own reasoning and inquiring into the inferences and theories of your team members. Having built mutual trust and understanding, you can move to revealing and mitigating the fears that hold back your team, and come to understand the assumptions behind those fears.</p>
+<p>Only after addressing these cultural issues can you—with the help of the participants—expect to benefit from an agile framework or a DevOps approach that fits your organization well and has your team members’ commitment.</p>
+<p>If improving your conversations sounds like a challenging route to digital transformation success, good! You’ve understood why we warned you it was the hard answer. But the good news is that there are solid, concrete methods for preparing for and holding these difficult conversations, starting with <em><a target="_blank" href="https://www.communicationtheory.org/conversation-analysis/" rel="nofollow noopener noreferrer">conversational analysis</a>.</em></p>
+<p>To create a conversational analysis, think of a previous conversation that went poorly, or one you are worried about having—any conversation that raises questions of trust and fear would be a good candidate. Divide a piece of paper into two columns; on the right, put the words that you and the other person said (a sample of a few key lines is plenty), and on the left, put the thoughts and feelings that you had as the corresponding lines were spoken.</p>
+<p>Once you’ve recorded the information, it’s time to score yourself for <em>transparency</em> and <em>curiosity</em>, the two key elements of effective conversations.</p>
+<h4>Curiosity</h4>
+<p>On the right, circle all the question marks in sentences spoken by you. If there are any questions (often there won’t be, revealing a total lack of curiosity!), reflect on whether each question was genuine. Could the answer have changed your mind, or were you leading the witness and making a disguised statement (&#8220;Surely we can finish that feature by Thursday.&#8221;)?</p>
+<h4>Transparency</h4>
+<p>On the left, underline each emotion or thought that you did not share on the right-hand side. You don’t have to have used the same words, but if you&#8217;re like most people (including us!) you’ll have left out your most valuable, strongest feelings and ideas, missing the chance to show vulnerability and build trust.</p>
+<h3>Take the next steps</h3>
+<p>Finally, revise your conversation to increase your curiosity and transparency. Add a genuine question, describe a feeling, or bring up a challenging example. Ask a friend to role-play the revised conversation with you, so you can solidify your learning and find a natural way to express yourself in the more effective way you’ve now learned.</p>
+<p>If you and your team develop conversational skills in this way—and build on them with other techniques like test-driven development for people (for more on this, watch <a target="_blank" href="https://douglassquirrel.s3.amazonaws.com/Squirrel-AgilePortugal2016.mp4" rel="nofollow noopener noreferrer">Douglas</a>’<a target="_blank" href="https://douglassquirrel.s3.amazonaws.com/Squirrel-AgilePortugal2016.mp4" rel="nofollow noopener noreferrer"> presentation</a>) and <a target="_blank" href="https://blog.jeffreyfredrick.com/2016/04/08/coherence-busting-explained/" rel="nofollow noopener noreferrer">coherence busting</a> that start with conversational analysis—you will be able to approach future conversations effectively.</p>
+<p>In these ways, the harder answer, the true path to agile success, will not seem so daunting. And you’ll be able to engage in all the conversations we cover in <em>Agile Conversations</em>, not just trust and fear, but why, commitment, and accountability.</p>
+<p>With the help of these key conversations you’ll be able to create a real transformation that works for everyone, and with the buy-in you need to succeed. It’s the harder path, but it’s the only one we know that works every time.</p>
+<p><em>Want to know more? Hear Douglas Squirrel and Jeffrey Fredrick speak on leading a digital transformation from the bottom at <a target="_blank" href="https://events.itrevolution.com/virtual/?utm_medium=referral&amp;utm_source=techbeacon&amp;utm_term=techbeacon-does-virtual-email-newsletter-1&amp;utm_content=onsale&amp;utm_campaign=does20eur" rel="nofollow noopener noreferrer">DevOps Enterprise Summit London — Virtual</a>, which takes place June 23-25, 2020. </em></p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/why-you-should-lead-your-digital-transformation-bottom">Source link </a></p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://douglassquirrel.s3.amazonaws.com/Squirrel-AgilePortugal2016.mp4" length="134536463" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Can Governments Defeat Nation-State Attacks on Critical Infrastructures?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-governments-defeat-nation-state-attacks-on-critical-infrastructures/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Jun 2020 13:00:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Defeat]]></category>
+		<category><![CDATA[Governments]]></category>
+		<category><![CDATA[Infrastructures]]></category>
+		<category><![CDATA[NationState]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-governments-defeat-nation-state-attacks-on-critical-infrastructures/</guid>
+
+					<description><![CDATA[The one cyber risk that governments are much better at controlling than we are is insider threats. Governments have been]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The one cyber risk that governments are much better at controlling than we are is insider threats. Governments have been dealing with people threats for centuries and have powerful tools at their disposal for such investigations.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/can-governments-defeat-nation-state-attacks-on-critical-infrastructures/156338/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>FTC Slams Children’s App Developer for COPPA Violations</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ftc-slams-childrens-app-developer-for-coppa-violations/</link>
 		
@@ -354,58 +437,6 @@
 </div>
 <p><br />
 <br /><a href="https://gatling.io/2020/06/04/welcome-to-nawel/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Joomla Resources Directory Users Exposed in Leaky AWS Bucket</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/joomla-resources-directory-users-exposed-in-leaky-aws-bucket/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Jun 2020 04:15:08 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[AWS]]></category>
-		<category><![CDATA[Bucket]]></category>
-		<category><![CDATA[Directory]]></category>
-		<category><![CDATA[Exposed]]></category>
-		<category><![CDATA[Joomla]]></category>
-		<category><![CDATA[Leaky]]></category>
-		<category><![CDATA[resources]]></category>
-		<category><![CDATA[Users]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/joomla-resources-directory-users-exposed-in-leaky-aws-bucket/</guid>
-
-					<description><![CDATA[Full backup copies of website, including all user data, was exposed for 2,700 JRD users. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Full backup copies of website, including all user data, was exposed for 2,700 JRD users.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/joomla-resources-directory-exposed-aws-bucket/156231/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Accruent stands with the members of our Black community and will not be silent o&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/accruent-stands-with-the-members-of-our-black-community-and-will-not-be-silent-o/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2020 22:00:11 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[Black]]></category>
-		<category><![CDATA[community]]></category>
-		<category><![CDATA[members]]></category>
-		<category><![CDATA[Silent]]></category>
-		<category><![CDATA[stands]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/accruent-stands-with-the-members-of-our-black-community-and-will-not-be-silent-o/</guid>
-
-					<description><![CDATA[Accruent stands with the members of our Black community and will not be silent on this matter. We offer our]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p>Accruent stands with the members of our Black community and will not be silent on this matter. We offer our support and resources to make real change happen. We are a part of the <a target="_blank" class="profileLink" href="https://www.facebook.com/fortivecorp/?__tn__=K-R&#038;eid=ARAo89hc6gX1tySDFEQI6ba1arkMn2ByM1X3YTrpyFwAdCMeAXzWSojKW2pkON6USMlhfBzFzOD_g-IC&#038;fref=mentions&#038;__xts__%5B0%5D=68.ARDcC3F8U3JF56F8ZD9hU9iUAzkrYBZs-VoH1EZ4SaNGkvZJXu2G2uI7dbS_mLBdVYv6N-w4WS14IRsCo-TKErQZZstn2KHwL5fkhbpe-VLtfVkMWMi1bUevyI6QerjNzBCRvbmbdzv6kzHhlYzZXnNmlzpBaLfCV35bWNb3KnwFhjxo9up-Lv8JDrhR8S6qHQFnUjI00PhbDPjKwUJDaqQ88tyKS12YFt7s4dBhpAOTKnDLj94eA5KrmFpVkrzXEcWm_MoOsmbetKboyal9O0drVza1Xm4s9JXiEL9YLSSkxKP_pG2vUQQVgDdHcKmn9i-fyIbHp3HCcIwb0LIr_KKDxg" data-hovercard="/ajax/hovercard/page.php?id=1353344854678853&#038;extragetparams=%7B%22__tn__%22%3A%22%2CdK-R-R%22%2C%22eid%22%3A%22ARAo89hc6gX1tySDFEQI6ba1arkMn2ByM1X3YTrpyFwAdCMeAXzWSojKW2pkON6USMlhfBzFzOD_g-IC%22%2C%22fref%22%3A%22mentions%22%7D" data-hovercard-prefer-more-content-show="1" rel="noopener noreferrer">Fortive Corporation</a> family, and are committed to listening and learning from our teams and taking actions for change, so that we all have a voice and belong.</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/101813704_2928336487219426_2736190889662611456_o.png?_nc_cat=102&#038;_nc_sid=8024bb&#038;_nc_ohc=jy3wWRF8W08AX8XPkws&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=01ee3435a9944878a907efd410e9cb77&#038;oe=5EFE29F2" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/227818503937918/posts/2928366087216466">Source</a>  </p>
 ]]></content:encoded>
 					
 		
