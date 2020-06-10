@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 09 Jun 2020 02:48:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 09 Jun 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,77 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How remote IT teams can flip the process on incident resolution</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-remote-it-teams-can-flip-the-process-on-incident-resolution/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[flip]]></category>
+		<category><![CDATA[incident]]></category>
+		<category><![CDATA[Process]]></category>
+		<category><![CDATA[Remote]]></category>
+		<category><![CDATA[resolution]]></category>
+		<category><![CDATA[Teams]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-remote-it-teams-can-flip-the-process-on-incident-resolution/</guid>
+
+					<description><![CDATA[People working in IT support and incident management right now face unusual difficulties supporting large remote workforces and managing unpredictable workloads.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>People working in IT support and incident management right now face unusual difficulties supporting large remote workforces and managing unpredictable workloads. <a target="_blank" href="https://www.reddit.com/r/sysadmin/comments/fc4l48/coronavirus_and_supporting_remote_workforce/" rel="nofollow noopener noreferrer">On Reddit</a>, systems admins and other IT professionals are bemoaning the hiccups and hassles of working in isolation during the pandemic while trying to resolve issues and maintain high service-level agreements.</p>
+<p>Among other problems, you can&#8217;t go grab your indispensable subject-matter expert for troubleshooting, because that person is also home and inundated with messages and alerts.</p>
+<p>Networks, VPNs, and servers are <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/it-ops-monitoring?lx=O4Iukj&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">being hammered hard right now due to higher usage of SaaS apps and collaboration tools</a>. User expectations are even more grandiose than normal: IT organizations are expected to make applications and services work flawlessly—and to do so overnight.</p>
+<p>Undoubtedly, IT pros are working assiduously to keep the wheels moving for their employers during a time of crisis. Yet working longer hours isn&#8217;t the answer. You need <a target="_blank" href="https://content.microfocus.com/it-support-with-ai/ai-transform-it-service-management?lx=f4_9S2&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">new ways of working</a>—ones that may prove better than the current status quo for the long term. And that involves turning <a target="_blank" href="https://techbeacon.com/enterprise-it/want-transform-it-incident-management-shift-left" rel="noopener noreferrer">the incident management process</a> on its head.</p>
+<p>Here&#8217;s how to flip the process.</p>
+<p><em>[ Join the discussion in this June 18 Webinar, <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/are-itsm-and-enterpr?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Are ITSM and ESM One and the Same</a>? </em><em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management</a> ]</em></p>
+<h3>Problem first, metrics second</h3>
+<p>In many organizations, the process of incident management and resolution begins with people looking at screens full of metrics. You see a spike in something, such as network I/O, and immediately begin to investigate it, assuming the worst.</p>
+<p>A more adverse scenario occurs when users call out problems on Twitter, Reddit, or other popular communities, creating a noxious PR situation that IT and the business must swiftly respond to and manage. This ad hoc, reactive fire drill takes time, and resolving that particular issue may not be the most important item of the day.</p>
+<p>In software development, it&#8217;s akin to the bad practice of designing the architecture of a system first and then the user experience.</p>
+<p>Given everything that&#8217;s at stake in the foreseeable future of stay-at-home mandates, <a target="_blank" href="https://techbeacon.com/enterprise-it/sre-practice-5-insights-googles-experience" rel="noopener noreferrer">site reliability engineers (SREs) </a>and IT support technicians need to flip the incident management process.</p>
+<p>Rather than beginning with the metrics and working backwards to uncover the problem, if there even is one, start by looking for the most important problems to solve. Then discover the resources and components that support that end-user process, and, finally, analyze the most relevant metrics.</p>
+<p>Here&#8217;s an example:</p>
+<ol>
+<li>A B-to-C provider of a streaming video service experiences a 200% increase in daytime traffic that results in sluggish load times and glitches.</li>
+<li>IT has tagged the components beneath that service, so IT operators know exactly which virtual machines, databases, and load balancers come into play.</li>
+<li>Next, the operations team can identify the most relevant metrics, such as CPU idle time, to measure and take steps to correct.</li>
+</ol>
+<h3>Take this 5-step proactive approach</h3>
+<p>It sounds so simple—just flip the process—but it&#8217;s not that easy. IT operators and SREs aren&#8217;t accustomed to thinking in terms of which problems to solve or prevent. Being proactive or predictive hasn&#8217;t been the common workflow.</p>
+<p>Here is how IT operations and DevOps teams can take a proactive approach to managing the availability and health of enterprise services.</p>
+<h4>1. Coordinate across departments</h4>
+<p>Identifying the most critical problems to solve right now is the hardest step and will take the longest. Common problems these days are related to cost and scale: How do I right-size my environment to reduce costs or handle more workloads?</p>
+<p>Broaden your field of inputs to narrow down to the specific issue, such as slow page loads on the financial reporting website. Product managers, account managers, and business unit leads who are closest to the customer experience can deliver feedback on the top issues affecting customer/user satisfaction.</p>
+<p>Teams should also review recent support tickets to identify common themes of pain.</p>
+<h4>2. Fine-tune your approach to metrics</h4>
+<p>The <a target="_blank" href="http://www.brendangregg.com/usemethod.html" rel="nofollow noopener noreferrer">Utilization Saturation and Errors (USE) Method </a>is one way to approach the problem-first incident management process. As detailed by <a target="_blank" href="https://twitter.com/brendangregg/" rel="nofollow noopener noreferrer">Brendan Gregg</a>, a senior performance architect at Netflix, this methodology begins by posing questions, seeking answers, and working backwards to the metrics.</p>
+<p>For each resource you want to measure, identify three metrics: one for utilization, one for saturation, and one for errors. &#8220;The USE Method has made you aware of what you didn&#8217;t check: what were once unknown-unknowns are now known-unknowns,&#8221; Gregg explained.</p>
+<h4>3. Standardize workflows</h4>
+<p>Create a common process for incident management across all your teams. Without the advantage of having almost everyone in the same room to huddle together in an ad hoc fashion when big issues crop up, it&#8217;s imperative to institute clear steps and roles.</p>
+<p>Doing so will prevent the frustrations, confusion, and oversights that needlessly delay resolution. Since most incidents are composed of multiple contributing factors, teams need to adopt a small number of user-friendly tools to document and organize the information.</p>
+<p>At our company, we&#8217;re now using tools such as Miro, an online whiteboard application, to replace our physical whiteboarding sessions. Of course there&#8217;s also Zoom, Slack, Jira, and <a target="_blank" href="https://techbeacon.com/enterprise-it/how-use-chatops-boost-business-engagement-across-teams" rel="noopener noreferrer">a host of other cloud-based tools</a> already in place at many organizations. Mandate which tools everyone should use, and provide some guidelines on how to use them.</p>
+<h4>4. Increase automation </h4>
+<p>In some organizations, scaling requirements in response to demand have increased tenfold. <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/ai-transform-it-service-management?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Automation is playing a critical role now</a>; moving away from a web GUI, for example, is more scalable and aligns with modern tools such as Chef and Puppet.</p>
+<p>User tickets can be auto-generated, for instance, from emails, and linked to code management systems such as GitHub. Modern development and operations teams are also expanding automation in unit testing and provisioning.</p>
+<h4>5. Watch for burnout</h4>
+<p>Whether because there&#8217;s more work and/or a need to fill the hours during long quarantine days, many software engineers, testers, and architects are working longer days right now. Yet exhaustion and burnout can lead to errors and oversights along with low morale.</p>
+<p>It&#8217;s up to managers to make sure that employees are taking breaks, working reasonable days, and having the time and energy to attend to personal needs.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>Work it backwards</h3>
+<p>These days, with so many people working remotely, IT operations teams need new strategies to keep business operations running smoothly in a high-stress situation. That means flipping the incident management process by taking a problem-first approach and working backward toward <a target="_blank" href="https://techbeacon.com/enterprise-it/why-you-should-drop-it-speak-measure-success-business-terms" rel="noopener noreferrer">the metrics that relate</a> to quickly uncover the root causes. </p>
+<p>Creating airtight communications and collaboration is the foundation for all of this. Provide the best tools possible to your teams, and deliver clear and frequent education on best practices to keep everyone on the same page and productive. And IT leaders should pave the way with encouragement, guidance, and moral support.</p>
+<p><em>[ Robotic Process Automation can do everyday tasks, allowing you to get strategic. <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how in this Webinar.</a></em> <em>Plus</em><em>: Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out RPA</a> with our guide. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/how-remote-it-teams-can-flip-process-incident-resolution">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Announcing the $50,000 Ultrafast Cross Browser Hackathon</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/announcing-the-50000-ultrafast-cross-browser-hackathon/</link>
 		
@@ -507,92 +578,6 @@
 <p><br />
 <br /><a href="https://threatpost.com/understanding-payload-less-email-attacks/156299/">Source link </a></p>
 ]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Black Lives Matter. Applitools is With You and We Will Impart Change.</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-applitools-is-with-you-and-we-will-impart-change/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 04 Jun 2020 16:49:44 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Applitools]]></category>
-		<category><![CDATA[Black]]></category>
-		<category><![CDATA[change]]></category>
-		<category><![CDATA[Impart]]></category>
-		<category><![CDATA[Lives]]></category>
-		<category><![CDATA[Matter]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-applitools-is-with-you-and-we-will-impart-change/</guid>
-
-					<description><![CDATA[Dear Applitools Family, We are deeply saddened by the events that have taken place in the United States. As a]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<div class="wp-block-image"><figure class="alignright size-large"></figure></div>
-
-
-
-<p>Dear Applitools Family,</p>
-
-
-
-<p>We are deeply saddened by the events that have taken place in the United States. As a company, and as individuals, we must acknowledge and address them. But most importantly, we must do our part to support justice and equality for Black People.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:paragraph -->
-<p>As we endure the reality of a pandemic, we need to be our best selves. In fact, we’ve seen our best selves in medical professionals, first responders, friends, neighbors, and in each other. This is what makes the multiple acts of violence and social injustice against Black Americans impossible to ignore any longer. We now know, more than ever, how much better we can be.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>For centuries, Black Americans have suffered terribly, based solely on the color of their skin. This has gone on for far too long and simply hoping things will change is not enough. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>We all must stand for the Black Community to end the violence and help bring equality, justice and healing to our country. </strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We know that lending support and standing with the Black Community is not enough. There is much more we all can do to change our culture, support the movement and continue to educate ourselves to help create a just and equal world.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>This is why, moving forward, Applitools will enact the following policies to support the Black Community:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Make and match donations from our team to organizations that support racial equality</li><li>Amplify the voices of Black Community members</li><li>Work to improve our team culture by taking deliberate actions to educate, train, create dialogue, and provide career opportunities for Black Community members </li><li>Support our employees in taking time to mentor and support non-profits focused on equality</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Lastly, we want to acknowledge the strength, conviction, and wisdom of the Black Women, Aleeyah Dixon and Angie Jones, who are part of our family. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Angie and Aleeyah; we respect, love, and support you through this terrible time, and as a small company are privileged to have learned from you how to be our best selves. We want you to know that Applitools is your second home. A safe place. A place to find comfort and support.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In closing, we want to share some of the resources that Aleeyah and Angie have gathered for our team to help us understand and learn. It is our duty and responsibility to continue to educate ourselves. These valuable resources are yours to share so that we all better understand how to be active participants for positive change: </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:paragraph --><p>Let’s all commit to that change right now.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Yours In Peace, Love, and Unity,</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>Gil Sever,</strong> Co-Founder and CEO<br/>Applitools</p>
-<!-- /wp:paragraph -->								
-			</div>
-<br>
-<br><a href="https://applitools.com/blog/black-lives-matter/">Source link </a>]]></content:encoded>
 					
 		
 		
