@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 09 Jun 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 10 Jun 2020 14:02:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,33 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Encryption Utility Firm Accused of Bundling Malware Functions in Product</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/encryption-utility-firm-accused-of-bundling-malware-functions-in-product/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 10 Jun 2020 14:02:26 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Accused]]></category>
+		<category><![CDATA[Bundling]]></category>
+		<category><![CDATA[Encryption]]></category>
+		<category><![CDATA[Firm]]></category>
+		<category><![CDATA[Functions]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Product]]></category>
+		<category><![CDATA[Utility]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/encryption-utility-firm-accused-of-bundling-malware-functions-in-product/</guid>
+
+					<description><![CDATA[The increasingly prevalent GuLoader malware has been traced back to a far-reaching encryption service that attempts to pass as above-board.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The increasingly prevalent GuLoader malware has been traced back to a far-reaching encryption service that attempts to pass as above-board.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/legitimate-italian-guloader-obfuscator/156443/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How remote IT teams can flip the process on incident resolution</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-remote-it-teams-can-flip-the-process-on-incident-resolution/</link>
 		
@@ -547,36 +574,6 @@
 <br />Google TAG researchers warn that APTs are targeting campaign staffers for both Donald Trump and Joe Biden with phishing emails.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/trump-biden-campaign-apt-phishing-emails/156319/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Understanding the Payload-Less Email Attacks Evading Your Security Team</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/understanding-the-payload-less-email-attacks-evading-your-security-team/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 04 Jun 2020 17:24:34 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Email]]></category>
-		<category><![CDATA[Evading]]></category>
-		<category><![CDATA[PayloadLess]]></category>
-		<category><![CDATA[team]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/understanding-the-payload-less-email-attacks-evading-your-security-team/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/understanding-payload-less-email-attacks/156299/">Source link </a></p>
 ]]></content:encoded>
 					
 		
