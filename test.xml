@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 10 Jun 2020 14:02:26 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 10 Jun 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,93 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Zero trust and remote work: Identity and access management is key</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-and-remote-work-identity-and-access-management-is-key/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 10 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Access]]></category>
+		<category><![CDATA[Identity]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[Remote]]></category>
+		<category><![CDATA[Trust]]></category>
+		<category><![CDATA[Work]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-and-remote-work-identity-and-access-management-is-key/</guid>
+
+					<description><![CDATA[In less than a week, the world changed. At the end of March, amid the throes of the coronavirus pandemic,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>In less than a week, the world changed. At the end of March, amid the throes of the coronavirus pandemic, the vast majority of states in the US issued stay-at-home orders, resulting in the largest migration to remote working the nation has ever seen.</p>
+<p>Before this happened, just <a target="_blank" href="https://globalworkplaceanalytics.com/telecommuting-statistics" rel="nofollow noopener noreferrer">4% of workers spent the majority of their working hours outside the office</a>, and only 43% worked remotely with &#8220;some frequency.&#8221;</p>
+<p>For security teams, the move caused chaos. Sensitive business resources that had, up to that point, only been accessed by workers at the office now had to be available to employees working from home. While many security experts had talked about the decline of the perimeter for more than a decade, the mass migration to remote working has forced every business to consider <a target="_blank" href="https://techbeacon.com/security/pandemic-your-remote-workforce-9-ways-stay-secure" rel="noopener noreferrer">how to operate security with a distributed workforce</a>.</p>
+<p>Many still are struggling to adjust, said Chase Cunningham, vice president and principal analyst for security and risk at Forrester Research.</p>
+<blockquote>
+<p>&#8220;We&#8217;ve seen five years of innovation in three months. Companies are going to move toward this model, and it is up to them whether they work towards it now or continue to skate uphill by keeping everything inside the network.&#8221;<br />—<a target="_blank" href="https://twitter.com/CynjaChaseC" rel="nofollow noopener noreferrer">Chase Cunningham</a></p>
+</blockquote>
+<p>&#8220;Zero trust,&#8221; the concept of operating securely with a distributed workforce and without a perimeter, <a target="_blank" href="https://techbeacon.com/security/how-zero-trust-approach-can-protect-your-cloud-resources" rel="noopener noreferrer">has become a necessity for most companies</a>. Not long ago, it was an aspirational model instead of a requirement.</p>
+<p>Here&#8217;s <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/security-architecture-changes?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">why zero trust is so important now</a>, and how you can implement the model.</p>
+<p><em>[ <a target="_blank" href="https://content.microfocus.com/l/zero-trust-security-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Get up to speed on zero trust security</a> with TechBeacon&#8217;s guide. Plus: Learn <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/conquering-the-authe?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to conquer zero trust authentication challenges</a> in this Webinar. ]</em></p>
+<h3>Why zero trust is needed</h3>
+<p>Surveys have found that anywhere from 70% to 85% of companies with remote workers intend to encourage them to continue to work from home even after stay-at-home orders expire. For instance, business research firm Gartner <a target="_blank" href="https://www.gartner.com/en/newsroom/press-releases/2020-04-03-gartner-cfo-survey-reveals-74-percent-of-orgs-to-shift-some-employees-to-remote-work-permanently" rel="nofollow noopener noreferrer">found that 74% of companies expect at least 5%</a> of their workforce who previously worked in an office to work from home in the future.</p>
+<p>Still, the zero-trust model is not just about accommodating those workers. It is a <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">foundational move in the digital transformation of the business</a>—efforts that were already underway before the pandemic, said Robert MacDonald, director of solutions at Micro Focus.</p>
+<blockquote>
+<p>&#8220;The situation has accelerated the need to digitally transform the business to remove the traditional perimeter to be much more fluid, because people are working from everywhere, and they need access to that data regardless.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/macdonaldrobert/" rel="nofollow noopener noreferrer">Robert MacDonald</a></p>
+</blockquote>
+<p>For companies struggling with <a target="_blank" href="https://techbeacon.com/security/key-bulletproof-security-zero-trust-networks" rel="noopener noreferrer">moving to the zero-trust model</a>, here are five recommendations from experts.</p>
+<h3>1. Zero trust is no longer optional</h3>
+<p>Moving the focus of security away from the perimeter is no longer an option. Aside from the realities imposed by the coronavirus pandemic and the uncertainty of whether in-office work will be possible on a consistent basis, many companies are looking at moving employees out of the office as a way to cut costs, reduce downtime due to commuting, and improve employees&#8217; work-life balance.</p>
+<p>&#8220;I&#8217;ve been having lots of conversations about companies reducing how many people are coming to an office in a building,&#8221; Forrester&#8217;s Cunningham said. If they can cut their on-premises workforce by 25%, they can reduce costs significantly.</p>
+<blockquote>
+<p>&#8220;This is one of the few times in history where something that is really terrible can have a massive upside if we leverage carefully.&#8221;<br />—Chase Cunningham</p>
+</blockquote>
+<p><em>[ Learn about <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/evolution-of-trusted-identities?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the evolution of trusted identities</a> in this zero trust Webinar. ]</em></p>
+<h3>2. Much of the technology is new</h3>
+<p>Even just a few years ago, mature technology for implementing zero trust did not exist. While single sign-on vendors existed, the ability to manage corporate resources and access to those resources on a granular level had not advanced enough to scale to large deployments.</p>
+<p>The US Department of Defense and <a target="_blank" href="https://www.fedscoop.com/government-agency-embrace-identity-access-strengthen-cybersecurity-study/" rel="nofollow noopener noreferrer">other federal agencies have pursued zero-trust principles</a> for more than a decade, with a variety of programs aimed at limiting access to data to only authorized parties, according to <a target="_blank" href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207-draft2.pdf" rel="nofollow noopener noreferrer">a draft zero-trust architecture specification</a> from the US National Institute of Standards and Technology (NIST).</p>
+<p>When these programs were started, &#8220;they were limited by the technical capabilities of information systems,&#8221; NIST said in the draft. Security policies were largely static and, to get the largest effect for the effort, were enforced at large &#8220;choke points&#8221; that an enterprise could control.</p>
+<p>As technology matures, it is becoming possible to continually analyze and evaluate access requests, dynamically and granularly, &#8220;to mitigate data exposure due to compromised accounts, attackers monitoring a network, and other threats,&#8221; the NIST document said.</p>
+<h3>3. Don&#8217;t expect a single service or product to solve the problem</h3>
+<p>Zero trust requires a large number of components to work together in an auditable and verifiable way. The seven basic tenets, according to the NIST specification, include:</p>
+<ol>
+<li>Designating all data sources and computing services as resources</li>
+<li>Encrypting all communication end-to-end, no matter the location</li>
+<li>Authorizing access to resources on a per-session basis</li>
+<li>Allowing security and access policies to dynamically change based on context, state of the client, and current perceived risk </li>
+<li>Monitoring all assets to be in the most secure state possible</li>
+<li>Enforcing the temporary and dynamic nature of authentication and authorization</li>
+<li>Maintaining visibility into the security of the entire network and business&#8217;s resources</li>
+</ol>
+<p>The interaction among all these requirements means that a single product or service is not going to be able to deliver a zero-trust architecture to a company, said Micro Focus&#8217;s MacDonald. </p>
+<blockquote>
+<p>&#8220;If a single company is saying that they will get you to zero trust, that&#8217;s nonsense.&#8221;<br />—Robert MacDonald</p>
+</blockquote>
+<h3>4. Identity and access management are crucial starting points</h3>
+<p>The root cause of many breaches is the use of stolen credentials; it&#8217;s the second-most common threat action, <a target="_blank" href="https://enterprise.verizon.com/resources/reports/2020-data-breach-investigations-report.pdf" rel="nofollow noopener noreferrer">according to Verizon&#8217;s 2020 Data Breach Investigations Report</a>. The most common threat action is phishing, which often also leads to credential compromise.</p>
+<p>Almost every company that has suffered a breach has had antivirus software, a firewall, and maybe even an intrusion-prevention system in place, said Forrester&#8217;s Cunningham. </p>
+<blockquote>
+<p>&#8220;Where they fell down was with privilege and access control. If your identity or access store is compromised, that is when a breach can go on for days.&#8221;<br />—Chase Cunningham</p>
+</blockquote>
+<p>The lesson is that managing identity and access is possibly the most important part of security, especially in a world of distributed employees, he said. </p>
+<h3>5. Verify identity and authorization continuously</h3>
+<p>Managing the initial authentication is not enough. Companies also need to re-authenticate users every time they access a different resource. With <a target="_blank" href="https://techbeacon.com/security/state-authentication-its-time-move-passwords" rel="noopener noreferrer">technologies including adaptive authentication</a>, such checks do not have to be intrusive, but should be based on context, said Micro Focus&#8217; MacDonald.</p>
+<blockquote>
+<p>&#8220;If you only rely on the point of access, there is no check afterward. You want to constantly verify that the user assigned that identity is doing what you think they should be doing. If we just let them in and let them go, then we lose visibility into what actions they are taking on the network.&#8221;<br />—Robert MacDonald</p>
+</blockquote>
+<p>As companies adjust to &#8220;the new reality,&#8221; security remains a tough balance. However, <a target="_blank" href="https://techbeacon.com/security/toward-zero-trust-8-steps-boost-app-sec" rel="noopener noreferrer">pursuing a zero-trust architecture</a> can give companies flexibility in work arrangements, the security of continuous monitoring, and the ability to adapt to whatever the future holds.</p>
+<p><em>[ Explore TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/l/state-security-operations-2019-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">guide</a><a target="_blank" href="http://content.microfocus.com/l/state-security-operations-2019-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> to SecOps challenges and opportunities</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/state-security-operations-2019-tb/2019-state-security-ops?lx=udA_0U?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">2019 State of Security Operations report</a>. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/zero-trust-remote-workforces-identity-access-management-key">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Encryption Utility Firm Accused of Bundling Malware Functions in Product</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/encryption-utility-firm-accused-of-bundling-malware-functions-in-product/</link>
 		
@@ -547,33 +634,6 @@
 <br />To fly under the radar, the newly discovered ransomware is compiled into a Java image file format that&#8217;s rarely used by developers.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/tycoon-ransomware-unusual-image-file-tactic/156326/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Trump, Biden Campaign Staffers Targeted By APT Phishing Emails</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-biden-campaign-staffers-targeted-by-apt-phishing-emails/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 04 Jun 2020 20:10:39 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APT]]></category>
-		<category><![CDATA[Biden]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Emails]]></category>
-		<category><![CDATA[Phishing]]></category>
-		<category><![CDATA[Staffers]]></category>
-		<category><![CDATA[targeted]]></category>
-		<category><![CDATA[Trump]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-biden-campaign-staffers-targeted-by-apt-phishing-emails/</guid>
-
-					<description><![CDATA[Google TAG researchers warn that APTs are targeting campaign staffers for both Donald Trump and Joe Biden with phishing emails.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Google TAG researchers warn that APTs are targeting campaign staffers for both Donald Trump and Joe Biden with phishing emails.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/trump-biden-campaign-apt-phishing-emails/156319/">Source link </a></p>
 ]]></content:encoded>
 					
 		
