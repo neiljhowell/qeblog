@@ -12,13 +12,13 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 10 Jun 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Jun 2020 18:42:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.1</generator>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
 
 <image>
 	<url>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
@@ -28,6 +28,118 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Kubernetes Falls to Cryptomining via Machine-Learning Framework</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/kubernetes-falls-to-cryptomining-via-machine-learning-framework/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Jun 2020 18:42:04 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cryptomining]]></category>
+		<category><![CDATA[Falls]]></category>
+		<category><![CDATA[Framework]]></category>
+		<category><![CDATA[kubernetes]]></category>
+		<category><![CDATA[MachineLearning]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/kubernetes-falls-to-cryptomining-via-machine-learning-framework/</guid>
+
+					<description><![CDATA[Misconfigured dashboards are at the heart of a widespread XMRIG Monero-mining campaign. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Misconfigured dashboards are at the heart of a widespread XMRIG Monero-mining campaign.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/kubernetes-cryptomining-machine-learning-framework/156481/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Quantifying Cloud Security Effectiveness &#124; McAfee Blogs</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quantifying-cloud-security-effectiveness-mcafee-blogs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 10 Jun 2020 15:48:09 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Effectiveness]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Quantifying]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quantifying-cloud-security-effectiveness-mcafee-blogs/</guid>
+
+					<description><![CDATA[Let’s start with the good news. Agencies are adopting cloud services at an increased rate. Adoption has only increased in]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Let’s start with the good news. Agencies are adopting cloud services at an increased rate. Adoption has only increased in times of coronavirus quarantine lockdowns with most federal, state and municipal workforce working from home. What’s even better news is that we also see increased adoption of cloud security tools, like CASB, which is commensurate with the expanding cloud footprint of US Public Sector agencies.</p>
+<p>So now we have security tools in place to secure our cloud assets in SaaS, PaaS and IaaS. The next step is to determine what security controls need to be implemented. What DLP policies should the agency adopt? What capabilities of a cloud services should be enabled or disabled to maintain a robust security posture? How does an agency actually go about measuring the effectiveness of the security controls that were implemented? How do we find out how we stack up against our peer organizations?</p>
+<p>To answer these questions, McAfee developed MVISION Cloud Security Advisor (CSA). Cloud Security Advisor is a portal that is provided “out-of-the-box” with your organization’s <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-cloud.html" rel="noopener noreferrer">MVISION Cloud</a> CASB tenant. CSA provides a comprehensive set of recommendations for organizations to prioritize efforts in implementing their cloud security controls. The recommendations are broken down into Visibility and Control metrics. There is also a section that provides quarterly reports on various parameters, which we will discuss in a little bit.</p>
+<p>When you first access Cloud Security Advisor dashboard you are presented with a “magic quadrant” that shows your organization’s security posture relative to other peer organizations on the scales of <strong>Control</strong> and <strong>Visibility</strong> and provides a <strong>maturity score</strong> for both.</p>
+<p><img class="aligncenter wp-image-101805 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/06/1-1.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/1-1.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/1-1-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/1-1-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/1-1-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>There is even an option to select a vertical market to see how your organizations stacks up to organizations in other business sectors.</p>
+<p><img class="aligncenter wp-image-101806 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/06/2-1.png" alt="" width="450" height="314" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/2-1.png 450w, https://www.mcafee.com/wp-content/uploads/2020/06/2-1-300x209.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/2-1-185x129.png 185w" sizes="(max-width: 450px) 100vw, 450px"/></p>
+<p>On the right of the main dashboard are check list items that provide a short description and current progress in following Cloud Security Advisor’s recommendations. CSA scans the organization’s MISION Cloud environment once every 24 hours. Any changes to MVISION Cloud will be reflected in the next scan. In the screenshot below, for example, we see an environment that is not enforcing controls on publicly shared links in Collaboration SaaS apps.</p>
+<p><img class="wp-image-101807 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/3-1.png" alt="" width="936" height="404" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/3-1.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/3-1-300x129.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/3-1-768x331.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/3-1-205x88.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>From here, a security admin can simply click on the check list item and then on <strong>Enable Policy</strong>. This will automatically take the user to the DLP Policy Templates page to select the appropriate policy for enforcement.</p>
+<p><img class="wp-image-101808 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/4-1.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/4-1.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/4-1-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/4-1-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/4-1-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>Another powerful capability of MVISION Cloud Security Advisor is providing quarterly Cloud Security Reports. These are accessible from the main CSA dashboard by going to <strong>View Reports </strong>and then selecting a quarter for which you would like to see the report.</p>
+<p><img class="wp-image-101809 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/5.png" alt="" width="936" height="274" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/5.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/5-300x88.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/5-768x225.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/5-205x60.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>From there we can start examining our organization’s cloud footprint to identify total number of Shadow IT services discovered that quarter as well as some additional Shadow IT statistics.</p>
+<p><img class="wp-image-101810 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/6.png" alt="" width="936" height="352" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/6.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/6-300x113.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/6-768x289.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/6-205x77.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>Next we can look at IaaS resources in all our AWS, Azure and GCP environments.</p>
+<p><img class="wp-image-101811 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/7.png" alt="" width="936" height="318" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/7.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/7-300x102.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/7-768x261.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/7-205x70.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>We then proceed to look at summary statistics for DLP and access policy violations. Incidents show policy violations of each type detected across all of the organization’s cloud environments secured by MVISION Cloud CASB.</p>
+<p><img class="wp-image-101812 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/8.png" alt="" width="936" height="370" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/8.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/8-300x119.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/8-768x304.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/8-205x81.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>Next screen shows user behavioral anomalies and threats uncovered by MVISION Cloud UBA machine-learning engine.</p>
+<p><img class="wp-image-101813 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/9.png" alt="" width="936" height="322" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/9.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/9-300x103.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/9-768x264.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/9-205x71.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>The Malware section of the report provides insights into malware uncovered in SaaS and IaaS environments connected to MVISION Cloud.</p>
+<p><img class="wp-image-101814 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/10.png" alt="" width="936" height="304" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/10.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/10-300x97.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/10-768x249.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/10-205x67.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>The Data at Risk report is probably the most pertinent to gauging the effectiveness of the MVISION Cloud CASB solution. This report shows how much of the organization’s data was at risk and how it was secured using MVISION Cloud CASB. As seen from the image, there is a downward trend, indicating progress is being made to secure organization’s data. <img class="wp-image-101815 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/11.png" alt="" width="936" height="426" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/11.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/11-300x137.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/11-768x350.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/11-205x93.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>The Sensitive Data report shows how organization’s sensitive data is distributed across all cloud services in use by the organization. This report also provides insights into cloud adoption trends for your organization.</p>
+<p><img class="wp-image-101816 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/12.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/12.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/12-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/12-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/12-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>The “Users” report is a pivot table of the Sensitive Data report that organizes incidents and policy violations by individual users. Ultimately, the report shows how much of a risk an organization’s users pose to organization’s data. <img class="wp-image-101817 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/13.png" alt="" width="936" height="388" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/13.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/13-300x124.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/13-768x318.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/13-205x85.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>The Mobile Devices report shows incidents for each type of detected mobile device.</p>
+<p><img class="wp-image-101818 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/14.png" alt="" width="936" height="352" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/14.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/14-300x113.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/14-768x289.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/14-205x77.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>The next three pages of the CSA report provide a deeper dive into the data on the front page of the CSA portal we saw in the beginning of this blog. On the <strong>Scores</strong> page we see the “magic quadrant” with <strong>Control</strong> and <strong>Visibility </strong>axis, together with progress relative to previous quarters. Visibility score and Control score, both on a scale of 100, gauge your organization’s maturity in securing its cloud footprint. <img class="wp-image-101819 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/15.png" alt="" width="936" height="666" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/15.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/15-300x213.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/15-768x546.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/15-181x129.png 181w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>Next, the Visibility metrics page. Visibility metrics measure how well an organization has been doing in gaining visibility into what is out there in their cloud environment and how secure it is.</p>
+<p><img class="wp-image-101820 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/16.png" alt="" width="936" height="740" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/16.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/16-300x237.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/16-768x607.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/16-163x129.png 163w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>Finally, the Control metrics page shows how well an organization has performed in placing controls and mitigating security risks for its cloud environment.</p>
+<p><img class="aligncenter wp-image-101821 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/06/17.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/17.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/17-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/17-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/17-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
+<p>And that, in a nutshell, is it. By reviewing the screenshots from the Cloud Security Advisor dashboard you should now have a good idea of the metrics at your disposal to quantify cloud security effectiveness for your organization.</p>
+<p>To see MVISION Cloud Security Advisor in action, please check out the video below:</p>
+<p><div class="fitvids-video"><iframe title="Cloud Security Advisor Demo" width="800" height="450" src="https://www.youtube.com/embed/wMxBWcmToSA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/quantifying-cloud-security-effectiveness/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Zero trust and remote work: Identity and access management is key</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-and-remote-work-identity-and-access-management-is-key/</link>
 		
@@ -581,59 +693,6 @@
 <br />Children&#8217;s app developer HyperBeard must pay $150,000 after the FTC claimed it violated privacy laws.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/ftc-childrens-app-developer-coppa-violations/156355/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>WhatsApp Phone Numbers Pop Up in Google Search Results — But is it a Bug?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whatsapp-phone-numbers-pop-up-in-google-search-results-but-is-it-a-bug/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Jun 2020 16:01:19 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Numbers]]></category>
-		<category><![CDATA[Phone]]></category>
-		<category><![CDATA[Pop]]></category>
-		<category><![CDATA[Results]]></category>
-		<category><![CDATA[Search]]></category>
-		<category><![CDATA[WhatsApp]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/whatsapp-phone-numbers-pop-up-in-google-search-results-but-is-it-a-bug/</guid>
-
-					<description><![CDATA[A researcher found that phone numbers tied to WhatsApp accounts are indexed publicly on Google Search creating what he claims]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A researcher found that phone numbers tied to WhatsApp accounts are indexed publicly on Google Search creating what he claims is a “privacy issue” for users.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/whatsapp-phone-numbers-google-search-results/156141/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Tycoon Ransomware Banks on Unusual Image File Tactic</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tycoon-ransomware-banks-on-unusual-image-file-tactic/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 04 Jun 2020 20:55:57 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Banks]]></category>
-		<category><![CDATA[File]]></category>
-		<category><![CDATA[image]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[Tactic]]></category>
-		<category><![CDATA[Tycoon]]></category>
-		<category><![CDATA[Unusual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tycoon-ransomware-banks-on-unusual-image-file-tactic/</guid>
-
-					<description><![CDATA[To fly under the radar, the newly discovered ransomware is compiled into a Java image file format that&#8217;s rarely used]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />To fly under the radar, the newly discovered ransomware is compiled into a Java image file format that&#8217;s rarely used by developers.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/tycoon-ransomware-unusual-image-file-tactic/156326/">Source link </a></p>
 ]]></content:encoded>
 					
 		
