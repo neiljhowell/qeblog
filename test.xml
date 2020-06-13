@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 11 Jun 2020 20:59:11 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 12 Jun 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,80 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>6 proven metrics for DevOps success</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/6-proven-metrics-for-devops-success/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[6proven]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[Metrics]]></category>
+		<category><![CDATA[Success]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2504</guid>
+
+					<description><![CDATA[Many teams struggle to identify the key performance indicators that will demonstrate to management why DevOps matters and how it affects]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Many teams struggle to <a target="_blank" href="https://techbeacon.com/devops/how-use-metrics-measurement-drive-devops" rel="noopener noreferrer">identify the key performance indicators</a> that will demonstrate to management why DevOps matters and how it affects business results. Not having the right metrics is just one of the many <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&amp;custom_url=optimize-devops-tb%2Fdevops-scale-software-factory&amp;amp;utm_campaign=00172440&amp;amp;utm_medium=referral&amp;amp;utm_source=techbeacon" rel="noopener noreferrer">ways that DevOps initiatives fail</a>.</p>
+<p>Visualizing objective, automated metrics makes them easier to understand. That&#8217;s why choosing <a target="_blank" href="https://techbeacon.com/devops/devops-metrics-matter-how-prove-business-value" rel="noopener noreferrer">the right DevOps metrics</a> is key. Here are six that have worked for my team at IBM, why they were chosen, and the improvements seen as a result. </p>
+<p><em>[ Continuous delivery and release automation (CDRA) demands speed and quality. Find out how in <a target="_blank" href="https://content.microfocus.com/l/continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to CDRA</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/forrester-wave-cdra-q418?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave on CDRA</a>.  ]</em></p>
+<h3>1. Availability and uptime</h3>
+<p>In the book <em><a target="_blank" href="https://itrevolution.com/book/accelerate/?gclid=CjwKCAjwztL2BRATEiwAvnALcrykM8BLlXoJ7tKFfTJhINzzpCjLRhZueNMjJqyHh3TV56qjfqZDjRoCi9gQAvD_BwE" rel="nofollow noopener noreferrer">Accelerate</a></em>, by <a target="_blank" href="https://twitter.com/nicolefv" rel="nofollow noopener noreferrer">Nicole Forsgren</a>, <a target="_blank" href="https://twitter.com/jezhumble" rel="nofollow noopener noreferrer">Jez Humble</a>, and <a target="_blank" href="https://twitter.com/realgenekim" rel="nofollow noopener noreferrer">Gene Kim</a>, one of the four key software delivery metrics is &#8220;time to restore service.&#8221; Uptime is essentially a way to aggregate this metric over time.  </p>
+<p>My team calculates availability by taking the total time of all outages reported by our primary production monitor for each service, subtracting that from the total time, and then dividing by the total time. </p>
+<p>Our availability dashboard calculates this on demand for any date range. Most of our services have agreed to a service-level objective (SLO) of 99.95% uptime, with a few committing to 99.85% instead.</p>
+<p>Our general manager reviews the uptime numbers for each of our production services quarterly. This motivates teams to:</p>
+<ul>
+<li>Make sure their production monitors are accurately measuring the true end user experience</li>
+<li>Focus on improving the availability of services that aren&#8217;t meeting their goals</li>
+<li>Celebrate when they meet their SLO</li>
+</ul>
+<h3>2. Work in progress</h3>
+<p>The <a target="_blank" href="https://global.toyota/en/company/vision-and-philosophy/production-system/" rel="nofollow noopener noreferrer">Toyota Production System</a> of lean manufacturing taught us that limiting work in progress (batch sizes) helps teams improve overall throughput. Put another way, it&#8217;s better to finish one project today than to chip away at 10 projects and finish none of them.</p>
+<p>With our work-in-progress metric added to our dashboard, my team can simply count the number of open issues of each type (story, defect, task). When the number gets too high, it&#8217;s time to stop taking on new work and focus on what has already been started. That improves our overall velocity.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/optimize-devops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the secrets of successful DevOps initiatives</a> in TechBeacon’s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/optimizing-devops-EMA-report?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Optimizing DevOps Initiatives: Both Sides of the DevOps Divide</a> report ]</em></p>
+<h3>3. Repository speed</h3>
+<p>Pull requests represent value waiting to be delivered to production. The repository speed score is based on the time from submission to merge (i.e., review duration) of GitHub pull requests, over the last 30 days. A perfect score is given when the average time per pull request comes in at zero to two weekdays (M-F), decreasing to a score of zero at five weekdays.  </p>
+<p>Old pull requests can get lost, affecting the repository speed metric. When you&#8217;re working with more than one repository, it&#8217;s difficult to keep track of outstanding pull requests.</p>
+<p>One new feature shows where all outstanding pull requests for every repository the squad owns are shown, highlighting the ones that are old, and some squads review these in their daily stand-up. By highlighting old pull requests waiting for review, we ensure that our developers focus their code review efforts where they are needed.</p>
+<p>Some developers frequently created pull requests before they were ready to deliver to production. Some of these requests stayed open for weeks, and that drove down our repository speed scores. </p>
+<p>These long-running pull requests were used as a discussion point with other squads to clarify information that was missing in the specs. It was also a way for developers to communicate changes that would affect other squads.</p>
+<p>Finally, this issue also highlighted a tight coupling between squads that my team wanted to avoid. The goal is for our squads to be autonomous but also loosely coupled to each other. The idea is to keep our microservice architecture very flexible, using APIs between the different services/squads. But when more than one squad began working on the same pull request, it highlighted an issue that seemed like an architecture/code ownership problem to us. If your APIs are well designed, you should be able to make changes at will, without affecting other squads.</p>
+<p>After discussing best practices to improve this metric, squads were driven to experiment with pair programming, development on branches, API versioning, and contributing code across repositories.</p>
+<h3>4. Deployment frequency</h3>
+<p>Squads that deploy more than once per week can fix outages in production faster because they have the automation in place to deploy changes quickly and easily. They&#8217;re also delivering value to customers more frequently.</p>
+<p>Finally, they&#8217;re more likely to fix newly reported critical security vulnerabilities within a few days because they don&#8217;t have to wait for the next scheduled deployment window or implement an &#8220;emergency change&#8221; procedure.</p>
+<p>Our deployment frequency score is based on the number of successful deployments over the last 30 days, with color zero to one deployments red, two to three yellow, and four or more green.</p>
+<p>Initially my team received pushback from teams that deliver code to production only every couple of weeks or, in some cases, only once per month. Deployment frequency is a key metric, and we were able to use the research from <em>Accelerate</em> to back up the importance of frequent deployments.  </p>
+<h4>Promoting more frequent deployments</h4>
+<p>To further encourage frequent deployments, teams were put on a weekly sprint cadence. And early on, we also had weekly playbacks. It quickly became clear which teams were delivering value every week and which were not. </p>
+<p>Eventually, as the organization grew, my team settled into a pattern of biweekly playbacks so they could fit half of the teams each week into a one-hour session.</p>
+<p>All of this led to conversations about how these teams might <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-deliver-speed-without-losing-your-customers" rel="noopener noreferrer">adopt continuous delivery</a>. In some cases, we&#8217;ve been able to sit with a team and get its CI/CD pipeline set up within a few days.</p>
+<p>A red deployment frequency tile also shows us where the team needs to pull down the latest code and check for security vulnerabilities, and hopefully <a target="_blank" href="https://techbeacon.com/security/how-automation-can-boost-your-security-compliance" rel="noopener noreferrer">automate that process</a> as well.</p>
+<h3>5. Deployment stability</h3>
+<p>Deployment stability is the percentage of time when the most recent build for a given repository was successful. On our scale, 0% to 50% is red, 50% to 90% is yellow, and 90% or higher is green. A developer on our team invented this metric after our developers complained that they were spending too much of their time fixing builds. </p>
+<p>Broken builds can be a good thing, when <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-build-agile-friendly-test-automation-framework" rel="noopener noreferrer">excellent test automation</a> has stopped a poor-quality change from being delivered to production. Not all broken builds are due to code errors; sometimes there&#8217;s an infrastructure problem that needs to be fixed. Broken builds become a problem when they persist for a long time and start to interfere with developer productivity.</p>
+<p>By visualizing broken builds over time on the dashboard, it&#8217;s obvious where squads need to spend some time <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">cleaning up technical debt</a> and fixing the deployment process.</p>
+<h3>6. SonarQube metrics</h3>
+<p>Most of our repositories have integrated <a target="_blank" href="https://www.sonarqube.org/" rel="nofollow noopener noreferrer">SonarQube</a> reporting into their CI/CD processes, pulling the overall scores for security, code quality, and test coverage into our dashboard. They&#8217;re displayed at a repository level, squad level, and cross-platform level. </p>
+<p>Making these scores visible helps teams ask for more time to improve their scores. My team has seen, for example, that one team improved its SonarQube security score from a D to an A in two days just by implementing the small changes SonarQube recommended.</p>
+<p>My team is frequently challenged to defend our goal of 100% unit test coverage. Some teams believe they should get an &#8220;A&#8221; on the dashboard for a lower test coverage score, like 70%. My team stuck to our convictions here, and if a squad is happy with 70% coverage, then they can accept a lower grade.  </p>
+<p>Others point out that it&#8217;s possible for teams to game the system by telling the code coverage checker to ignore large swathes of code. In reality, there has not been widespread abuse of code coverage &#8220;ignore&#8221; flags. Our developers and code reviewers should have the integrity to be honest about their code coverage.</p>
+<h3>Understand your goal—and start slow</h3>
+<p>Your goal should not be to make every tile on the dashboard turn green. You want to see where your squad is performing well and where there&#8217;s room to improve. Then you can make an informed decision as to where to invest time.</p>
+<p>These six metrics are simple for people to visualize, and they have resulted in positive changes in my organization. But start out small and roll them out gradually as you explore how these metrics can help your own organization.</p>
+<p><em>[ Get up to speed on quality-driven development with <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s new guide</a>. Plus: <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Download the World Quality Report 2019-20 </a>for lessons from leading organizations. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/6-proven-metrics-devops-success">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Black Lives Matter Emails Deliver TrickBot Malware</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-emails-deliver-trickbot-malware/</link>
 		
@@ -1274,63 +1348,6 @@ fbq('track', "PageView");</p>
 					
 		
 		
-			</item>
-		<item>
-		<title>Why you should lead your digital transformation from the bottom</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-you-should-lead-your-digital-transformation-from-the-bottom/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 08 Jun 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bottom]]></category>
-		<category><![CDATA[Digital]]></category>
-		<category><![CDATA[lead]]></category>
-		<category><![CDATA[transformation]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2457</guid>
-
-					<description><![CDATA[How can you ensure that your organization’​​​​​​s digital transformation succeeds? Some answers are easy—but can be dangerous. Others are harder, but are more]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>How can you ensure that <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">your organization</a>’​​​​​​<a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">s digital transformation succeeds</a>? Some answers are easy—but can be dangerous. Others are harder, but are more likely to lead to success. Which answers are right for your organization as you progress on <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-roadmap?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">your digital transformation journey</a>? </p>
-<p>Let’s start with the easy answers first.</p>
-<p><em>[ <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. Plus: Get IDC&#8217;s &#8220;<a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-idc?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Digital Transformation 2020 Top 10 Predictions</a>&#8221; ]</em></p>
-<h3>1. Focus on rituals and ceremonies</h3>
-<p>The simplest thing to do is to establish as your bible one of the hundreds of books on agile development, lean methods, or <a target="_blank" href="https://techbeacon.com/devops/devops-must-reads-practitioners-share-top-books" rel="noopener noreferrer">DevOps adoption</a>. Make it the one true source of your best practices.</p>
-<p>If you’re taking a more hands-on approach, you might anoint one person to be your coach, or &#8220;high priest,&#8221; and then do what that person tells you. There are standards for sprint length and backlog size and there are frameworks—<a target="_blank" href="https://techbeacon.com/units/scaling-agile-overview-frameworks" rel="noopener noreferrer">so many frameworks</a>: SAFe and LeSS, and dynamic systems development method (DSDM).</p>
-<p>Your teams will go to stand-ups every day, and hold grooming sessions, and invite you to sprint reviews. The problem is that, although they will look agile, there is no guarantee they will <em>be</em> agile. Far too often this focus on form gives you the same slow, unresponsive results you had before, only dressed up in agile clothing.</p>
-<h3>2. Track and trace the team</h3>
-<p>Agile methods, particularly Scrum, give you lots of <a target="_blank" href="https://techbeacon.com/app-dev-testing/9-metrics-can-make-difference-todays-software-development-teams" rel="noopener noreferrer">tools for measuring progress</a>: burnup charts, backlogs, velocity, story points completed, and so on. Software vendors are only too pleased to sell you tools that track, graph, slice, and dice these metrics, or provide similar ones for DevOps and lean approaches, and tell you how performance stacks up against last week or the industry average.</p>
-<p>These tools are great at producing management fodder and the illusion of control. Unfortunately, high scores and pretty graphs don’t mean your team is delivering agile results, and you can nail your metrics and estimates every sprint right up to the moment you deliver a disappointing pile of useless features.</p>
-<p>The central reason these approaches don’t pay off is that they focus on what is easily seen and monitored by the managers at the top, avoiding the hard work of cultural change and commitment that happen at the team level.</p>
-<p><a target="_blank" href="https://twitter.com/jamesshore" rel="nofollow noopener noreferrer">James Shore</a> calls these approaches &#8220;<a target="_blank" href="https://www.jamesshore.com/Blog/Cargo-Cult-Agile.html" rel="nofollow noopener noreferrer">Cargo Cult Agile</a>.&#8221; Like the primitive people who started superstitiously donning coconut headphones and signaling nonexistent planes in the hope they would bring them modern goods, adopters of these methods are copying agile actions and tools and hoping that will give them agile results. This hope is just as forlorn as it sounds, and the <a target="_blank" href="https://www.forbes.com/sites/brucerogers/2016/01/07/why-84-of-companies-fail-at-digital-transformation/#7ad5cf16397b" rel="nofollow noopener noreferrer">84% of digital transformations that fail</a> are witnesses to it.</p>
-<p>We wrote our book, <em><a target="_blank" href="https://itrevolution.com/agile-conversations" rel="nofollow noopener noreferrer">Agile Conversations</a>,</em> to propose and explain how to implement a harder answer, we use a method we have seen give dramatic results in team after team.</p>
-<p><em>[ Find out <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: Download <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/enterprise-rpa-requirements?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Enterprise Requirements for RPA</a> ]</em></p>
-<h3>The harder answer: Build trust and reduce fear</h3>
-<p>Hold difficult conversations with your team. Build trust by sharing your own reasoning and inquiring into the inferences and theories of your team members. Having built mutual trust and understanding, you can move to revealing and mitigating the fears that hold back your team, and come to understand the assumptions behind those fears.</p>
-<p>Only after addressing these cultural issues can you—with the help of the participants—expect to benefit from an agile framework or a DevOps approach that fits your organization well and has your team members’ commitment.</p>
-<p>If improving your conversations sounds like a challenging route to digital transformation success, good! You’ve understood why we warned you it was the hard answer. But the good news is that there are solid, concrete methods for preparing for and holding these difficult conversations, starting with <em><a target="_blank" href="https://www.communicationtheory.org/conversation-analysis/" rel="nofollow noopener noreferrer">conversational analysis</a>.</em></p>
-<p>To create a conversational analysis, think of a previous conversation that went poorly, or one you are worried about having—any conversation that raises questions of trust and fear would be a good candidate. Divide a piece of paper into two columns; on the right, put the words that you and the other person said (a sample of a few key lines is plenty), and on the left, put the thoughts and feelings that you had as the corresponding lines were spoken.</p>
-<p>Once you’ve recorded the information, it’s time to score yourself for <em>transparency</em> and <em>curiosity</em>, the two key elements of effective conversations.</p>
-<h4>Curiosity</h4>
-<p>On the right, circle all the question marks in sentences spoken by you. If there are any questions (often there won’t be, revealing a total lack of curiosity!), reflect on whether each question was genuine. Could the answer have changed your mind, or were you leading the witness and making a disguised statement (&#8220;Surely we can finish that feature by Thursday.&#8221;)?</p>
-<h4>Transparency</h4>
-<p>On the left, underline each emotion or thought that you did not share on the right-hand side. You don’t have to have used the same words, but if you&#8217;re like most people (including us!) you’ll have left out your most valuable, strongest feelings and ideas, missing the chance to show vulnerability and build trust.</p>
-<h3>Take the next steps</h3>
-<p>Finally, revise your conversation to increase your curiosity and transparency. Add a genuine question, describe a feeling, or bring up a challenging example. Ask a friend to role-play the revised conversation with you, so you can solidify your learning and find a natural way to express yourself in the more effective way you’ve now learned.</p>
-<p>If you and your team develop conversational skills in this way—and build on them with other techniques like test-driven development for people (for more on this, watch <a target="_blank" href="https://douglassquirrel.s3.amazonaws.com/Squirrel-AgilePortugal2016.mp4" rel="nofollow noopener noreferrer">Douglas</a>’<a target="_blank" href="https://douglassquirrel.s3.amazonaws.com/Squirrel-AgilePortugal2016.mp4" rel="nofollow noopener noreferrer"> presentation</a>) and <a target="_blank" href="https://blog.jeffreyfredrick.com/2016/04/08/coherence-busting-explained/" rel="nofollow noopener noreferrer">coherence busting</a> that start with conversational analysis—you will be able to approach future conversations effectively.</p>
-<p>In these ways, the harder answer, the true path to agile success, will not seem so daunting. And you’ll be able to engage in all the conversations we cover in <em>Agile Conversations</em>, not just trust and fear, but why, commitment, and accountability.</p>
-<p>With the help of these key conversations you’ll be able to create a real transformation that works for everyone, and with the buy-in you need to succeed. It’s the harder path, but it’s the only one we know that works every time.</p>
-<p><em>Want to know more? Hear Douglas Squirrel and Jeffrey Fredrick speak on leading a digital transformation from the bottom at <a target="_blank" href="https://events.itrevolution.com/virtual/?utm_medium=referral&amp;utm_source=techbeacon&amp;utm_term=techbeacon-does-virtual-email-newsletter-1&amp;utm_content=onsale&amp;utm_campaign=does20eur" rel="nofollow noopener noreferrer">DevOps Enterprise Summit London — Virtual</a>, which takes place June 23-25, 2020. </em></p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/why-you-should-lead-your-digital-transformation-bottom">Source link </a></p>
-]]></content:encoded>
-					
-		
-		<enclosure url="https://douglassquirrel.s3.amazonaws.com/Squirrel-AgilePortugal2016.mp4" length="134536463" type="video/mp4" />
-
 			</item>
 	</channel>
 </rss>
