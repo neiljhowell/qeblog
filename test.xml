@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 15 Jun 2020 19:11:21 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Jun 2020 05:30:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,346 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Design Systems and Testability &#124; Applitools</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-systems-and-testability-applitools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 16 Jun 2020 05:30:35 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[systems]]></category>
+		<category><![CDATA[Testability]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-systems-and-testability-applitools/</guid>
+
+					<description><![CDATA[What is a design system? Who would use it, and for what benefit? In May 2020, Applitools had the pleasure]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<p>What is a design system? Who would use it, and for what benefit?</p>
+
+
+
+<p>In May 2020, Applitools had the pleasure of hosting Tyler Krupicka from Intuit for an hour-long webinar discussing design systems and testability.</p>
+
+
+
+<p>Tyler works at Intuit, a 9,400 employee company headquartered in Mountain View, California, that specializes in accounting and tax preparation software. At Intuit, Tyler works on the “Player/Design Systems” team, where he focuses on design systems.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tyler has been working on web development at Intuit since 2015. These days, he works on UI components, tools, and testing. He primarily uses TypeScript, React and Vue. He also focuses on accessibility, and he serves as a “Level 2” Accessibility Champion inside Intuit.As part of Tyler’s job, he ensures that design systems are testable. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>What Is A Design System</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tyler started asking this question. Some people think about large design systems:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Material Design (Google’s design system)</li><li>Human Interface Guidelines (Apple’s design system)</li><li>Bootstrap (set of UI interface components and CSS that are popular on the web)</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>People look at these and think, “Is this overkill?” After all, Google uses Material Design for Android. How many people design an entire operating system. So, Tyler dove in to answer his question.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><img src="https://lh3.googleusercontent.com/dOgZTdbgh04Hp8jObOMLOa0cEaH4XJdAjaUeu03wmlivx_GJagjl-5X1D0jpIGDOz5aVPl6G4O1A4MPoThtwkrZKnS5qxZlhADgPQmJO2jnC0OBUV7oQaMtOmwuULt6pgC8NbqBy" width="624" height="352"/>First, Tyler sees design systems as really “Design + Code.” One part of a design system are the “design” – the common components and patterns that get used throughout products. The other part of the design system, Code, involves chunks of functionality interacting with design developers can reuse across a product.  For example, CSS Frameworks, or React, or in some other way that lets teams reuse the same code.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><img width="624" height="344" src="https://lh5.googleusercontent.com/OkAAMVVRXwJAHQOz0OTvSkFIA_nilcBoYZMMvFHz_oJvb4pEtcRWN_UO9svkUKTkehnG6aw4lVVkscdln_iaufBbUaj-YfugF7XiQ68RY4WQMGPBXwGMMjPpyYUSU4XWJchy8oLQ"/></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Design</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>“Design” turns into a consistent voice for your product. Those are things like typography, colors, and spacing, as well as UI components (forms, charts, site navigation), Graphics and Animation standards. These help standardize the visualization – the “look” – of the application. One can imagine an application developed by a large team that lacked a standard design – it would be disorienting to customers who expect consistency from software. A design system lets  you take base pieces, document them well, and reuse them.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/rEG0fDEAb3ZCYcfgUSvVyVNht1XcmoLGMCCPV4rpaUxGko66rU8TaXNH1w9Eu6vy_Ecg9uJUM5bs0ddwlEf2IveYJKxLVq7Du7Zh5hgt7o7ulfraqE-mOcP96ofrr0bxDnEpmNJH" alt=""/></figure><!-- /wp:image --><!-- wp:heading {"level":3} --><h3>Code</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>“Code” lets you build and document components individually, test them once, and have a way to set expectations on whether or not this application will work.  For instance, you can build a component in the app for one persona and reuse that component multiple times inside the app without worrying that you must retest it. Reuse makes code standard and creates standards for interacting with design. If you ever change design elements, the standard code reduces the effort to validate the new design with existing code. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Combining design and code into a design system results in increased developer productivity and a consistent voice for the application. And using a design system simplifies the management of an application.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Design Systems at Intuit: TurboTax Example</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Next, Tyler dove into the use of design systems for the Intuit TurboTax product. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tyler explained how TurboTax works. By providing users with interview-style questions, TurboTax helps millions of people, primarily in the United States and Canada, file their income tax returns. Intuit offers both web and mobile versions of TurboTax.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/CY31no0hRZLmoX3H6gITCfmHWPb76237RMLQ87WNno3B0FIqwhlsFZgBHUqAmNhSdWOlChJp3hxnCXWuxFw7DRSeSnxjH-M8SJ10pvciPK0NIVor48wxCsS3SM034VStwe-Mxah8" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Because TurboTax uses interview questions to create conditional flows through the product, there are thousands of screens users can encounter based on their unique needs. Screens can range in complexity from a single question to a complete form. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Building the TurboTax Design System</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>To create the design, Intuit develops about 50 UI components needed to run the experience. Headers, radio buttons, tiles, multi-select, data entry, action buttons – all become part of the basic UI. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Intuit also builds a set of about 500 “mocks”, or mock-ups, of what common screens look like for testing. These help show the UI components in common layouts for testing purposes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>By using a design system, Intuit can make changes to the application and ensure consistency for all these screens. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tyler gave the example of a decision to deliver a uniform increase in contrast in TurboTax for accessibility. The contrast changes required updates to typography weight, button color, and link color. This work would impact over 90% of all the screens. How could Intuit deliver these changes to the application and ensure they occurred consistently across the application? The team did not have the staff needed to manually check every possible screen. Instead, they made the design changes to the UI components and validated the mocks.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Testing A Design System</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Next, Tyler dove into a discussion of testing a design system. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/RITYU9CY1I9PhfrkzhhzCrJz00Tb3wZqTuMHtDKeh__cUkrk4xkAgodR93ZhxGQTekIi0a5k8FwWzssQmx7Dv07m2LikokTRKoLHCXkgG4mJS6LuvrMV8BVX0L0FUVoNBgx2TCvk" alt=""/></figure><!-- /wp:image --><!-- wp:heading {"level":3} --><h3>Approach</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Since the design system represents all the functionality and visual representation of the application, Tyler recommends going broad with testing across all the elements, including:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Functionality</li><li>Visual</li><li>Performance</li><li>Accessibility</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>From a functional perspective, unit tests serve as key building blocks for code. Integration tests ensure that the code works wiht the back end. Cross-vrowser tests help ensure that the code works on a bunch of different browsers and mobile devices. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Visual testing validates the impact of UI component changes on the overall UI. If buttons change size or Intuit uses a new font size, does the page continue to render correctly? Do unexpected breaks happen on pages? Do space reductions make pages look too constrained?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Performance testing involves checking the impact of code changes on page loading times.  Specifically, do new packages or package upgrades change the amount of data transferred between the server and the browser – slowing the user experience? </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Finally, Tyler tests accessibility to make sure that any customer who wants to use the product can do so. Whether a user has a screen reader or navigates solely by keyboard, ensure that the user can get around.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Getting Organized</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>With testing goals articulated, Tyler introduced Storybook as the tool for creating documentation and initial testing. If you use projects like React, Vue and Angular that allow you to build user interfaces in small components, the Storybook project lets you build interactions for those components and document their behavior.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Effectively, you demonstrate a  use case for your components and show how they all interact together on a page.  Each use case is one story – hence Storybook is a collection of these stories. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Storybook allows for a range of tests, including accessibility tests. For instance, Tyler uses Storybook to test keyboard navigation and focus. He also tests for things like hover behaviors – where components appear while the cursor hovers over another element, which may be difficult to test with automation. Testing with Storybook lets the testing team run tests early across the range of design system dimensions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Dog Fooding</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>To deliver successful products, Tyler’s team must support the construction and use of these UI components. So, they actually write code to try out the components – just to see how they work. Putting together checkboxes or radio buttons, or drop-down lists helps show how the code interacts with components and creates mocks for testing the design system.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/vVQr-aiWAQqFhxGHk8QFW6VMGIouRje-280ED2M1HELLmfKL2d4WnQGo1aPKLwiCwHWc0VG_OvBKKGlcz8kBdTW-xTuw0pYPTRnC6TAD2dIGy6eYvvhNSMs1S1bMf3xh1PgTJ-S-" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Tyler showed the example of a page that looked like static boxes. Each box expanded when clicked to show hidden detail and slid the rest of the page down. His team dog foods this kind of behavior.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>All of these activities help create a body of testable code, so that a design change in the design system can be mocked up and validated without impacting production code.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Testing Walkthrough</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tyler then walked us through a simple change that can have a signficant implications – resizing a button. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Without a design system, you might have to make a button change like this ad-hoc across your application. As a result, you risk changing the page-to-page behavior and look-and-feel. Using a design system lets you make the change globally, and then focus on the implications.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What kinds of implications? A larger button might displace elements on a page. The button may not function as expected with existing elements on a given page. All these changes need to be tested.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Unit Tests</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>First, Tyler looked at unit tests. Does the button click? Can the button work with an icon associated with it? Will the button work with an transparent background? Does the button work with assigned <a target="_blank" href="https://www.w3.org/TR/html-aria/" rel="noopener noreferrer">ARIA</a> (Accessible Rich Internet Applications) attributes? Testing puts these Storybook components through their paces.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/wF80Frsy4tsdFngUQWuG0z0-FNgthlC65GrHxnUeO6BTSFQuR0uhkxH1-05u_LZBbDLPGQvPwoKqjKql_RyEKrCarSwJ1pOH4FXKAILSxTk-1-lWLVQPJVcX4oL0qPDnoFWsK7ww" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Intuit have a pretty standard way of running through these tests.  Tyler talked about using <a target="_blank" href="https://jestjs.io/" rel="noopener noreferrer">JEST</a> and <a target="_blank" href="https://webdriver.io/" rel="noopener noreferrer">WebdriverIO</a> and <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a> to automate this testing across multiple browsers. They have lots of users on multiple web browsers, as well as Mac users with Safari an iOS, so they pay special attention to those target platforms. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Accessibility Tests</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Next, Tyler talked about accessibility testing. His team uses <a target="_blank" href="https://www.deque.com/axe/" rel="noopener noreferrer">AXE</a> to perform static validation for ARIA standards on application pages, including contrast checking.  Tyler explained how AXE helps perform contrast checking. For instance, if a button is one color, does the background let the button stand out? AXE can do the contrast checking by comparing the two colors. Or, will the text be readable against its background – or is it too small or too thin? Again – AXE can make these calculations.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tyler also talked about HTML customizations. For example, you want to use a special radio button design that isn’t included in the existing HTML. You build this behavior as a custom implementation – and then you have to validate this behavior across the browsers your customers use. Tyler pointed out that companies make these decisions to help brand their websites for customers. And, these custom behaviors must be validated for functionality and accessible behavior across multiple platforms.  At the same time, since you are replacing functionality built into HTML, keyboard navigation still needs to behave as expected. So, you need to test those behaviors. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>At Intuit, the team tests these behaviors manually – and with tools designed to help. By using popular screenreaders like Jaws, Voiceover, and NVDA, Tyler’s team ensures that these screen readers don’t get thrown off by customizations. Also through manual testing, the team checks to ensure that keyboard navigation results in expected page responses – for example, they make sure that focus states behave as expected. And, they also ensure that the page behaves correctly when a customer has selected “reduced motion”.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Performance Tests</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>From a design perspective, the design system simplifies app delivery. By using standard libraries and building standard behaviors, the design system creates this great look-and-feel. At the same time, developers need to consider the impact on performance. For instance, a specific package might add great mobile behavior – at the cost of an additional 1-2 seconds of page load time. Users likely won’t value the behavior over slower page load time.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can choose a great library that gives you great functionality – but at what cost? How does the size of your Javascript package impact your page downloads? Often, this problem creeps up on you.  You use an early version of the library and everything works well. But, when you update your application, your library update suddenly doubles in size. This happens quite often. New versions of libraries include new features – which add to the library load times. And, you have to rethink the software you’re using.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tyler talked about how Intuit handles these kinds of challenges. If Intuit uses code from an open source project, they might contribute back to the project to make a library with reduced size. Or, they might use a different open-source package.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Visual Testing</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Each time a new component gets introduced or modified, Intuit runs tests through Applitools Ultrafast Grid. Intuit has been running Grid since its first beta tests. With Ultrafast Grid, Intuit can set checkpoints and take screenshots across a range of browsers and devices. They can set multiple screen sizes (from mobile to Full HD and  higher). Their goal – ensure that responsive pages behave as expected, and understand the impact of design changes on existing pages. Ultrafast grid gives them the capability to easily compare changes across different versions of an application.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/QIGOl8e2yVAaSzRBvMhQ2Vbju2O7LB3WHe68nfEmF9KwsRZSp8k63qlUXckw60K0PWFZbbVPpugQA2MZ0ajw9c_mH9edDjn91yaC1empUvnMCnQCwgdui363WHbFnboH5DlzcITG" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Tyler talked about using Ultrafast Grid to test against Chrome, Edge, and Safari. He talked about setting different viewport sizes to check responsive page behavior against expectations. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Component and Mock Level</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tyler explained how Intuit tests components and mocks. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In Storybook, Intuit keeps the latest components, as well as page mocks for each component in use. When a change occurs in the design system, Intuit can do two kinds of checks:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><li>They can check the components to see if the component changes have violated any specifications</li><li>They check the mocks, to determine how the component changes affect page rendering.</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>So, for instance, Intuit can see if a collection of multiple new components violate spacing guidelines or other design requirements on pages. Applitools Ultrafast Grid helps Intuit do this evaluation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Also using the mocks, Intuit can also see if a change violates accessibility guidelines using AXE.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Accessing Intuit Tools for Design Systems</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tyler discussed the two tools Intuit uses to ensure success in their design systems.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The first, the Intuit DS-CLI, makes it easy to implement Storybook for your designs. Just like Create-React-App lets you build a web app easily, DS-CLI contains all the code you need to utilize Storybook for component and mock management. This includes preconfigured Storybook, component templates with best practices, great Typescript support, and bundle size tracking.  Tyler mentioned that <a target="_blank" href="https://github.com/intuit/design-systems-cli" rel="noopener noreferrer">DS-CLI is free and open source</a>. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>One great part about DS-CLI is size tracking.  Each component can be tracked over time for package size. You can see when your bundles are growing – and why.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With the second, Intuit Proof, you can automate the development of test running in Storybook. Proof is a tapable testrunner for Storybook. Proof helps you automate tests for components and mocks by helping you know which ones have tests. In addition, Proof has built-in hooks for Applitools and Axe. So, instead of fumbling about inside Storybook to see what has been tested and what remains, you know what tests exist, which still need to be written, and helps you track their status. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a target="_blank" href="https://github.com/intuit/proof" rel="noopener noreferrer">Proof is also free and open source</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Conclusion</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tyler’s presentation made it clear that a design system can make your life much easier, but you need to invest in tools and methodology to help ensure consistency – the benefit of a design system. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You need a component evaluation system. You need mockups of your pages to test. And you need a testing environment.  Intuit does all this inside Storybook.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Next, you need a testing strategy to get components evaluated and integrated into your pages. Invest in unit testing and test runners. Especially if you care about being perceived as open to all users – invest in accessibility tools. And, finally, know that rendering matters – invest in visual evaluation solutions like Applitools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Finally, you need some pieces of infrastructure to make your design system work. Intuit shares theirs open source.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you make these investments up front, a design system can serve your development and test strategy to help you easily develop incremental improvements across your application without fear of code changes. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Read More</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<!-- /wp:list --><!-- wp:paragraph -->
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<!-- /wp:paragraph -->								
+			</div>
+<br>
+<br><a href="https://applitools.com/blog/testing-design-systems-2/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>WFH Alert: Critical Bug Found in Old D-Link Router Models</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wfh-alert-critical-bug-found-in-old-d-link-router-models/</link>
 		
@@ -72,7 +412,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/continuous-performance-engineering-for-healthcare-neotys/</guid>
 
 					<description><![CDATA[Healthcare has seen more digital transformation in the past 2 months than in the past 2 years. See how organizations]]></description>
-										<content:encoded><![CDATA[
+										<content:encoded><![CDATA[<p></p>
 <p>Healthcare has seen more digital transformation in the past 2 months than in the past 2 years. See how organizations can rapidly adapt to the “next normal.”  <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2XY2rsi%3Ffbclid%3DIwAR1_KVoCIrS26R9rGqDnboqF9oQO5WuM1ztoE7YrmjWmiUnqeJLAykfklN4&amp;h=AT047xIcbo-T4mz-605e3TS9-s3qLKV3fTrjWHLhPeH1j41MnIxIWqM3jN483867lpTdBIKDE1BK4ifpqVwy21o7L4Zd3zY0vLLK7v_FrB37B5Fb8Qq5jG1KIDX1_vynuJVveV3b2McyPRvE4yseYdQvEqQsjFT_Z7-jKu_DVszed8QeLc3JQ3SeI7oC1hb17OMq0S8JgDHxnIaIn21oiuRSCcHe0MCmtgFwHbgVGCPQjSoB523NS4ZBgXF0Ss-6B8XPrI-K9xojWXuijNd9A7Vu7-Bp7Ppc3PQcIjNvELaz9QwC8SDxXT-P-yNBXBSvHEwLcc3gllFYjjCBoHT6HTVFy4Zck__vrNy-AY-4yY-k0YIjiYPZgFwrDNtFogj295nhymg0pH5FcqHm6zJOK8NSslwyMwsksVl1A13VHJMa-XrtY0KPmuUSOG6lMq6rxcAzvhO6ydUtrDDObcarkwHphRlFk2OaV5y3obhGkwVy1IszTWpjGmaOSimXP7woEbcmJ24ECNJ50W9u8DfpzgfOVRtMwz0ZV3vhuvOQgNrcyRPleFDLVX5yAXU7O-T1dnkgTHvM4pylCQzSl9XFxlQQk3t5sDE_jW-df3LPJcQPdyuUcjj8QsPBoz9t5rtm4ws39wbuU21A6nqF7Hk8-QaZXRKlpFcNJck061bJRAXTxmQaH0SW8qpQSJazo9D3RHC0BKfvJVABi7p0N8FN7Qd6sfTXD5yjfTZK0oqXGrK-9nJ9mDykClz6DdWKDDgdYFU0-_xd2BrOpS9rNz3vT1f5oiUktuYbtG__PnRYWexxRDrWIjBxe8e-vVJDOtg0BilxTzdwjMjkq2niCddlK4m1412zWCa8MLy2iFMmaMHxpPw0fwCEePOibKEXRChJl5BcPHk9Z7D8z_kjGpz8jmhytEjDYL9w76BmJOI0pO3tIE8pXrl920YoVxhlG-AtGD8vk1w0V0udvZvkaQM549rdNh_tkrO7-jxsPTbMw96IFgyE1NrpaBLKjR4c4Ct3k6HScnrYf0Kw7N_hliHlvI4GmmmXDoyt3cn5RSF7klTrRNMBoM03PiUUMgv6zoRnzz0tU0Tjk21Wxz2i-gi4QN0HoPEPWaH95fdgDvt2rBIeAlbg_F5SaU6wChEwFgfkWRXhweL6WXYTgcL_jqtddkV5UuGC-eqSyCFPNzKwRknvoSg" rel="noopener noreferrer">https://bit.ly/2XY2rsi</a>
 </p>
 <p><a target="_blank" href="https://bit.ly/2XY2rsi?fbclid=IwAR1_KVoCIrS26R9rGqDnboqF9oQO5WuM1ztoE7YrmjWmiUnqeJLAykfklN4" rel="noopener noreferrer"></a> </p>
@@ -99,8 +439,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-5-best-web-application-frameworks-how-to-choose/</guid>
 
 					<description><![CDATA[As application development continues to evolve, the demand for teams to rapidly deliver software that can scale and evolve to meet customer]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>As application development continues to evolve, the demand for teams to <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">rapidly deliver software that can scale and evolve to meet customer needs</a> has never been higher. Front-end development frameworks are key to making that happen.</p>
 <p>These frameworks are where the work for the layout, logic, and application is executed. These browser-based systems require JavaScript, CSS, HTML, and other web-standard technologies.</p>
@@ -198,8 +537,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2504</guid>
 
 					<description><![CDATA[Many teams struggle to identify the key performance indicators that will demonstrate to management why DevOps matters and how it affects]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>Many teams struggle to <a target="_blank" href="https://techbeacon.com/devops/how-use-metrics-measurement-drive-devops" rel="noopener noreferrer">identify the key performance indicators</a> that will demonstrate to management why DevOps matters and how it affects business results. Not having the right metrics is just one of the many <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&amp;custom_url=optimize-devops-tb%2Fdevops-scale-software-factory&amp;amp;utm_campaign=00172440&amp;amp;utm_medium=referral&amp;amp;utm_source=techbeacon" rel="noopener noreferrer">ways that DevOps initiatives fail</a>.</p>
 <p>Visualizing objective, automated metrics makes them easier to understand. That&#8217;s why choosing <a target="_blank" href="https://techbeacon.com/devops/devops-metrics-matter-how-prove-business-value" rel="noopener noreferrer">the right DevOps metrics</a> is key. Here are six that have worked for my team at IBM, why they were chosen, and the improvements seen as a result. </p>
@@ -326,9 +664,7 @@
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
+<div class="author-block padding-bottom-xs"></div>
 <p>Let’s start with the good news. Agencies are adopting cloud services at an increased rate. Adoption has only increased in times of coronavirus quarantine lockdowns with most federal, state and municipal workforce working from home. What’s even better news is that we also see increased adoption of cloud security tools, like CASB, which is commensurate with the expanding cloud footprint of US Public Sector agencies.</p>
 <p>So now we have security tools in place to secure our cloud assets in SaaS, PaaS and IaaS. The next step is to determine what security controls need to be implemented. What DLP policies should the agency adopt? What capabilities of a cloud services should be enabled or disabled to maintain a robust security posture? How does an agency actually go about measuring the effectiveness of the security controls that were implemented? How do we find out how we stack up against our peer organizations?</p>
 <p>To answer these questions, McAfee developed MVISION Cloud Security Advisor (CSA). Cloud Security Advisor is a portal that is provided “out-of-the-box” with your organization’s <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-cloud.html" rel="noopener noreferrer">MVISION Cloud</a> CASB tenant. CSA provides a comprehensive set of recommendations for organizations to prioritize efforts in implementing their cloud security controls. The recommendations are broken down into Visibility and Control metrics. There is also a section that provides quarterly reports on various parameters, which we will discuss in a little bit.</p>
@@ -413,8 +749,7 @@ fbq('track', "PageView");</p>
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-and-remote-work-identity-and-access-management-is-key/</guid>
 
 					<description><![CDATA[In less than a week, the world changed. At the end of March, amid the throes of the coronavirus pandemic,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>In less than a week, the world changed. At the end of March, amid the throes of the coronavirus pandemic, the vast majority of states in the US issued stay-at-home orders, resulting in the largest migration to remote working the nation has ever seen.</p>
 <p>Before this happened, just <a target="_blank" href="https://globalworkplaceanalytics.com/telecommuting-statistics" rel="nofollow noopener noreferrer">4% of workers spent the majority of their working hours outside the office</a>, and only 43% worked remotely with &#8220;some frequency.&#8221;</p>
@@ -505,66 +840,6 @@ fbq('track', "PageView");</p>
 <br />The increasingly prevalent GuLoader malware has been traced back to a far-reaching encryption service that attempts to pass as above-board.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/legitimate-italian-guloader-obfuscator/156443/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to Test Image Upload Functionality</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-test-image-upload-functionality/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Functionality]]></category>
-		<category><![CDATA[image]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[upload]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-test-image-upload-functionality/</guid>
-
-					<description><![CDATA[In today’s online world, every digital experience is a reflection of your brand—which is why mobile application testing should be]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In today’s online world, every digital experience is a reflection of your brand—which is why mobile application testing should be at the forefront of your testing strategy. </p>
-<p>Whether it’s a picture of a check, a selfie, or a QR code, images can be uploaded to mobile apps for many reasons. Behind the scenes, the application has to do some amount of processing and storage. While creating those images might have been as simple as pointing and clicking for the user, testing image uploads themselves can be more challenging.</p>
-<p>Before we dive into how to test image upload functionality, let’s quickly look at some common scenarios that require this type of testing.</p>
-<h3><b>Common Use Cases</b></h3>
-<p></p>
-<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/7JhrCi0CYMPZtsgoEVvipz/c98ccfed3daeb607652c09360bf71f23/QR_img2.png?fm=webp" alt="Scannable QR code" title="Scannable QR code"/></p>
-<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/2MwxZplM37IR0TqHvjJYmA/b58a137fec1cb9b068ff9816175d350f/Profile_img3.png?fm=webp" alt="Sample profile picture" title="Sample profile picture"/></p>
-<ul>
-<li>
-<p><b>Taking a picture and storing it in a gallery app</b> &#8211; Whether it’s a social media app or photo sharing, this use case can span many different types. In its simplest form, it could be taking pictures from the front or back cameras.</p>
-</li>
-</ul>
-<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/6xXQBWV6M79mAPNpkYh8K4/675f2220aaeef0cc1dcf7a58f05f324b/Gallery_img4.png?fm=webp" alt="Sample image gallery" title="Sample image gallery"/></p>
-<p>Regardless of the application, in order to ensure end users have a delightful experience, development teams need to have the ability to use the device camera for taking pictures so they can complete all testing scenarios. If you’re using a cloud service for mobile app testing, the devices will need to offer some type of Camera Image Injection feature.</p>
-<h3><b>What is Camera Image Injection?</b></h3>
-<p>Camera image injection gives developers the ability to inject images in their automation testing, so that specific test cases such as apps requiring scanning of QR codes or image scanners, can run on a cloud-based testing service as if it were on an actual device. This essentially provides the application with an image that mocks the use of the device camera. </p>
-<h3><b>Testing on Sauce Labs Real Device Cloud</b></h3>
-<p>To mimic camera behavior when testing applications on the <a target="_blank" href="https://saucelabs.com/platform/real-device-cloud" rel="noopener noreferrer">Real Device Cloud</a>, you need to provide the application with an image that mocks the use of the camera. Sauce enables this with the Camera Image Injection feature. Image injection takes an image (in either .<i>jpeg</i>, or .<i>jpg</i> format) that is stored locally and presents it to the application as if it was read by the device camera. Users can easily test this functionality manually via live testing or insert into their Appium test automation.</p>
-<h4>Live Testing</h4>
-<p>In this short video, you can see the uploaded image is used in the app as if the image was taken by the device camera.</p>
-<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/6TIA8Xe7et6hCLTrmcU3eP/9fa96acb4786786022db33c25b9f85ec/image-injection-steps-3-fast.gif" alt="Short video illustrating the steps to image injection" title="Short video illustrating the steps to image injection"/></p>
-<h4>Appium Test Automation</h4>
-<p>In your automated test script, you&#8217;ll need to input the desired capabilities specific to Camera Image Injection (<a target="_blank" href="https://wiki.saucelabs.com/pages/viewpage.action?pageId=102717708" rel="noopener noreferrer">see example code snippets here</a>) and incorporate the uploading of the images and opening of the camera.</p>
-<ol>
-<li>
-<p>Start image injection by adding camera instrumentation desired capability command in your test script. Image injection is enabled by the desired capability sauceLabsImageInjectionEnabled.</p>
-</li>
-<li>
-<p>When you reach the stage in your test session where you’d like to take an image with the app camera, add the image injection method in your test script. </p>
-</li>
-<li>
-<p>After inputting this code, the application reads the image when it captures a photo. You can change the image by sending the custom command with a different image.</p>
-</li>
-</ol>
-<p>For further instructions on how to setup image injection in your account, check out our <a target="_blank" href="https://wiki.saucelabs.com/pages/viewpage.action?pageId=102717708" rel="noopener noreferrer">documentation</a>. Or if you’re new to Sauce Labs and you have an application that requires testing image upload functionality, sign up for our <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">free trial</a> today and you can begin testing in minutes.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/how-to-test-image-upload-functionality">Source link </a></p>
 ]]></content:encoded>
 					
 		
