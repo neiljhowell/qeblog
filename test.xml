@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 16 Jun 2020 05:30:35 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Jun 2020 16:28:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,339 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>365 Migration Local Environment Issue?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/365-migration-local-environment-issue/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2020 16:28:10 +0000</pubDate>
+				<category><![CDATA[QE Announcement]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2546</guid>
+
+					<description><![CDATA[This message is for those with local environment effected by the 365 Migration.If you no longer able to run robot]]></description>
+										<content:encoded><![CDATA[
+<p>This message is for those with local environment effected by the 365 Migration.<br><strong>If you no longer able to run robot test after the migration</strong>, it may be cause be the users directory path being updated.<br>ex. c:/users/tommy.hoang (old path) -> c:/users/HoangT01 (new path)    <br><br><strong>Local Automation Environment not working?</strong> To fix this, you want to point the Python interpreter in Pycharm to the new path</p>
+
+
+
+<ul><li>Settings &gt; Project &gt; Project interpreter &gt; Add Systems Interpreter Path (ex. mine is c:\users\HoangT01\AppData\Local\Programs\Python\Python38\python.exe</li><li>You may also need to update the environment path directories to match the new paths if they are not all automatically updated</li><li>After trying all the steps above and it still causing issues, please try to re-install Python, Roomba, and Pycharm or reach out to robosquad@accruent.com</li></ul>
+
+
+
+<p><strong>SourceTree not working properly?</strong><br>Your path to the ssh key could have been changed</p>
+
+
+
+<ul><li>Open sourcetree and navigate Tools &gt; Options &gt; SSH Client configuration</li><li>Fix the SSH key path</li></ul>
+
+
+
+<p>If that doesn&#8217;t work, please follow the guide below to create a new ssh key (you may need to get a clean copy of the repositories after the change in ssh key) <a rel="noreferrer noopener" href="https://accruent.atlassian.net/wiki/spaces/PLX/pages/755893664/Create+SSH+Key+Pair" target="_blank">https://accruent.atlassian.net/wiki/spaces/PLX/pages/755893664/Create+SSH+Key+Pair</a></p>
+
+
+
+<p><strong>Neoload Project not showing up any longer?</strong></p>
+
+
+
+<ul><li>Please take out some licenses and pull down a new copy of the project if you are unable to find it in your local</li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SAP S/4HANA app migration: Lessons from the trenches</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/sap-s-4hana-app-migration-lessons-from-the-trenches/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Lessons]]></category>
+		<category><![CDATA[migration]]></category>
+		<category><![CDATA[S4HANA]]></category>
+		<category><![CDATA[SAP]]></category>
+		<category><![CDATA[trenches]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2539</guid>
+
+					<description><![CDATA[One of the benefits of procrastination is that you can learn from the experiences of others. When embarking on a]]></description>
+										<content:encoded><![CDATA[<p> </p>
+<div>
+<p>One of the benefits of procrastination is that you can learn from the experiences of others. When embarking on <a target="_blank" href="https://content.microfocus.com/sap-modernization-enterprise-devops-tb/sap-hana-migration-4-steps?lx=AL8Ybs&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">a massive project such as moving to SAP&#8217;s S/4HANA</a>, that can be a good thing.</p>
+<p>SAP wants its customers to move to its next-generation ERP as soon as possible. To that end, the company set a sunset date of 2025 for support of the core applications in its SAP Business Suite 7 software, also known as the SAP ERP Central Component. That proved to be too ambitious, so in February, it extended the deadline to 2027.</p>
+<p>Conversion to S/4HANA is a complex, involved project, said Ekrem Hatip, senior solution architect with Syntax, a managed cloud provider for mission-critical applications.</p>
+<blockquote>
+<p>&#8220;Not many companies are prepared to complete that conversion by the 2025 deadline. To everyone&#8217;s delight, SAP listened to the marketplace and decided to extend its support of the previous version of its ERP.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/ekremhatip/" rel="nofollow noopener noreferrer">Ekrem Hatip</a></p>
+</blockquote>
+<p>The new deadline will give companies more time to learn from their peers who have <a target="_blank" href="https://techbeacon.com/app-dev-testing/sap-hana-migration-4-steps-your-team-should-take-now" rel="noopener noreferrer">already embarked on their S/4HANA journey</a>. Here are some of those lessons.</p>
+<p><em>[ Continuous delivery and release automation (CDRA) demands speed and quality. Find out how in <a target="_blank" href="https://content.microfocus.com/l/continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to CDRA</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/forrester-wave-cdra-q418?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave on CDRA</a>.  ]</em></p>
+<h3>Don&#8217;t treat the move to S/4HANA as an upgrade</h3>
+<p>SAP&#8217;s ERP solution has been around for decades. Throughout the various versions of the software, however, its data modeling layer remained similar. That meant that if a business wanted to move from one version to another, it could do so with minimal impact to its legacy processes. With S/4HANA, though, a number of changes were made at the technical layer.</p>
+<blockquote>
+<p>&#8220;S/4HANA is entirely different from the previous ECC product. It&#8217;s not only the look and feel of the product, but under the hood has changed. It&#8217;s like moving from a gasoline engine to an electric vehicle.&#8221;<br />—Ekrem Hatip</p>
+</blockquote>
+<p>Brad Little, executive vice president and global head of application services at Capgemini, a provider of strategy and transformation consulting services, said he&#8217;s seen too many clients treating the move to S/4HANA as a technical upgrade.</p>
+<blockquote>
+<p>&#8220;That&#8217;s missing the value of S/4HANA. If you treat it like an upgrade, you&#8217;re basically taking all your junk and putting it in a new wrapper.&#8221;<br />—<a target="_blank" href="https://twitter.com/bradlittletx" rel="nofollow noopener noreferrer">Brad Little</a></p>
+</blockquote>
+<p>Some clients are not fully embracing the broader SAP cloud platform, he said. &#8220;There&#8217;s a ton of value out there if you look at the long-term view of where you want to be.&#8221;</p>
+<p>The term &#8220;migration&#8221; can also be misleading for companies, said Ranjit Rao, principal and US finance and enterprise performance leader at accounting firm Deloitte.</p>
+<blockquote>
+<p>&#8220;You can&#8217;t just flip a switch and have S4 running. It requires the articulation of a full vision—the design of processes and data, and the subsequent deployment activities around testing and data conversion.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/ranjit-rao-b009115/" rel="nofollow noopener noreferrer">Ranjit Rao</a></p>
+</blockquote>
+<p>S4 is a &#8220;next-generation ERP,&#8221; she said. In the past, functions such as transactions, analytics, and forecasting were performed by crossing multiple systems. With S4, that&#8217;s now all sitting in one place. &#8220;There&#8217;s a significant shift in mindset required because you&#8217;re no longer jumping around datasets.&#8221;</p>
+<h3>Migrating legacy customizations can be hazardous to your S4 deployment</h3>
+<p>Many businesses have been SAP customers for years. Over that time, they&#8217;ve extensively customized their systems. &#8220;It can be challenging for customers to convert those customizations to the new features introduced in S/4HANA,&#8221; Syntax&#8217;s Hatip said.</p>
+<p>One of his customers had SAP solutions for close to 20 years. &#8220;They used SAP as a platform to build their own order fulfillment product,&#8221; he said. &#8220;They have extensive customization throughout their SAP system. For that customer, it&#8217;s going to be really challenging to convert to S/4HANA.&#8221;</p>
+<p>Deloitte&#8217;s Rao maintained that customizations have contributed to the high cost of IT in many organizations. &#8220;We&#8217;re running all these one-off customizations that are not sustainable,&#8221; she said. The mindset of an S4 implementation should be to &#8220;adapt your processes to SAP and deploy standard solutions to the greatest extent possible.&#8221;</p>
+<p>She added that customizations can create future problems for organizations. &#8220;Every time you want to upgrade or change the system, you don&#8217;t know how those customizations are going to react because they&#8217;re not standard SAP,&#8221; she said.</p>
+<blockquote>
+<p>&#8220;Companies are starting to shift their mindset. They no longer want <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">technical debt</a> and high IT costs. To minimize those costs, they&#8217;re limiting custom development.&#8221;<br />—Ranjit Rao</p>
+</blockquote>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/optimize-devops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the secrets of successful DevOps initiatives</a> in TechBeacon’s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/optimizing-devops-EMA-report?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Optimizing DevOps Initiatives: Both Sides of the DevOps Divide</a> report ]</em></p>
+<h3>Make S4 an opportunity to reduce complexity</h3>
+<p>Some organizations are removing customizations and complexity from their ERPs before moving to S/4HANA. &#8220;At the end of that, they&#8217;re left with a much more simplified and standard ERP, or digital core, that will reduce risk and increase the speed of the move to S/4HANA,&#8221; Capgemini&#8217;s Little said.</p>
+<blockquote>
+<p>&#8220;A lot of companies are finding they no longer need a lot of their customizations. They were things done 10 years ago because someone thought they had to have it. And you know what? They didn&#8217;t have to have it.&#8221; <br />—Brad Little</p>
+</blockquote>
+<p>S/4HANA is an opportunity to &#8220;clean out your closet and do it the right way,&#8221; he said.</p>
+<blockquote>
+<p>&#8220;It&#8217;s a once-in-a-generation opportunity to get your enterprise IT architecture right.&#8221;</p>
+</blockquote>
+<h3>Trim the amount of data you bring into S4</h3>
+<p>Over time, many SAP customers have created large databases in their legacy systems. &#8220;Moving those databases in a live environment to a new database is not only time-consuming, but requires a lot of compute resources on the target environment,&#8221; Syntax&#8217;s Hatip said.</p>
+<blockquote>
+<p>&#8220;Companies need to enter this with their eyes wide open. Large migrations can take two to three days. That may not be acceptable, so you need to think about the amount of data you need to bring over.&#8221;<br />—Ekrem Hatip</p>
+</blockquote>
+<p>Hatip recommends that businesses with large databases seriously consider an archiving project so they can limit the amount of data that needs to be converted to the new system.</p>
+<blockquote>
+<p>&#8220;Not only will that give them a leaner system, but it will reduce the amount of downtime needed for the conversion.&#8221;</p>
+</blockquote>
+<p>It&#8217;s like starting your ERP environment from the ground up, Hatip said. But at the same time it gives customers an opportunity to &#8220;review their existing, and possibly inefficient, business processes and make use of the innovations introduced by S/4HANA.&#8221;</p>
+<h3>Cleanse your data before bringing it into S4</h3>
+<p>Deloitte&#8217;s Rao noted that data quality is a persistent problem for companies. &#8220;If you don&#8217;t take the time and the effort to address your data cleansing activities, then you&#8217;re going to get the same garbage data that you have today,&#8221; she said.</p>
+<blockquote>
+<p>&#8220;S4 is not a magic bullet. It will not solve your data quality problems for you.&#8221;</p>
+</blockquote>
+<p>She explained that data must be cleansed so it corresponds to what S4 is expecting. &#8220;That is the root cause of a lot of challenges when companies move to S4,&#8221; she said.</p>
+<h3>Don&#8217;t ignore SAP&#8217;s cloud platform</h3>
+<p>Capgemini&#8217;s Little explained that SAP users are accustomed to developing applications inside their ERPs. &#8220;There wasn&#8217;t any other place to do customizations,&#8221; he said.</p>
+<p>But development should not be done inside the ERP anymore, he said. SAP is advocating development move outside the ERP and onto the SAP cloud platform.</p>
+<p>SAP&#8217;s cloud platform &#8220;has all the cloud-native development standards,&#8221; he said. You don&#8217;t even have to develop in SAP&#8217;s development language ABAP. You can use JavaScript or Python or Spring &#8220;to build the services and APIs and all the special things that everyone needs for their business.&#8221;</p>
+<p>There&#8217;s a lot of times he looks at customers&#8217; bill of materials for their S/4HANA move and the SAP cloud platform is not even included, Little said. &#8220;To me, that&#8217;s a real disservice.&#8221;</p>
+<h3>Address your process issues before the move</h3>
+<p>SAP&#8217;s next generation won&#8217;t resolve organizations&#8217; inefficient processes or ineffective policies and procedures. A process may call for 10 levels of approval before a payment is authorized. That kind of red tape is clearly inefficient, but S/4HANA isn&#8217;t going to automatically fix that.</p>
+<blockquote>
+<p>&#8220;A lot of companies will come to this with a mindset of, &#8216;It&#8217;s just technology.&#8217; You won&#8217;t get the benefits of S4 if you think of it that way. That&#8217;s why we highly recommend articulating your opportunities and vision early on and developing a road map.&#8221;<br />—Ranjit Rao</p>
+</blockquote>
+<h3>Be prepared for opposition</h3>
+<p>As with all big changes, some organizations&#8217; moves to S/4HANA will be met with resistance.</p>
+<blockquote>
+<p>&#8220;There will always be customers who want to stay on the existing platform because it satisfies their needs now, and they assume it will satisfy their needs in the future. But most customers will realize the benefits of S/4HANA and will use this opportunity to review their business processes and improve them, if possible.&#8221;<br />—Ekrem Hatip</p>
+</blockquote>
+<p>A wild card in SAP&#8217;s plans to move its customer base to S/4HANA will be COVID-19. It could force SAP to rethink its deadlines again, as companies struggle to recover from the abrupt global halt in economic activity caused by the pandemic.</p>
+<blockquote>
+<p>&#8220;It&#8217;s too early to say what the impact of the coronavirus might be. I haven&#8217;t seen any pullback from our customers, but a few have changed their phase-in dates.&#8221;<br />—Brad Little</p>
+</blockquote>
+<p><em>[ Get up to speed on quality-driven development with <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s new guide</a>. Plus: <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Download the World Quality Report 2019-20 </a>for lessons from leading organizations. ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/sap-s4hana-app-migration-lessons-trenches">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Coronavirus-Themed Cyberattacks Drop, Microsoft &#124; Threatpost</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-themed-cyberattacks-drop-microsoft-threatpost/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2020 13:35:11 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[CoronavirusThemed]]></category>
+		<category><![CDATA[Cyberattacks]]></category>
+		<category><![CDATA[Drop]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Threatpost]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/coronavirus-themed-cyberattacks-drop-microsoft-threatpost/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/coronavirus-themed-cyberattacks-drop-microsoft/156635/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LinkedIn ‘Job Offers’ Targeted Aerospace, Military Firms With Malware</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/linkedin-job-offers-targeted-aerospace-military-firms-with-malware/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2020 09:30:13 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Aerospace]]></category>
+		<category><![CDATA[Firms]]></category>
+		<category><![CDATA[Job]]></category>
+		<category><![CDATA[LinkedIn]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Military]]></category>
+		<category><![CDATA[Offers]]></category>
+		<category><![CDATA[targeted]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/linkedin-job-offers-targeted-aerospace-military-firms-with-malware/</guid>
+
+					<description><![CDATA[A recent malware campaign targeted victims at European and Middle East aerospace and military companies &#8211; via LinkedIn spear-phishing messages.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A recent malware campaign targeted victims at European and Middle East aerospace and military companies &#8211; via LinkedIn spear-phishing messages.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/linkedin-job-offers-targeted-aerospace-military-firms-with-malware/156614/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Selenium JavaScript Automation Testing Tutorial For Beginners</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-javascript-automation-testing-tutorial-for-beginners/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2020 08:27:05 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Beginners]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Tutorial]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-javascript-automation-testing-tutorial-for-beginners/</guid>
+
+					<description><![CDATA[Users play a vital role in the success of any product, especially when it comes to user interface – we]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Users play a vital role in the success of any product, especially when it comes to user interface – we cannot compromise. We need to introduce <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">functional automation testing</a> to our product and make sure the product’s functionality is as expected and deliver a flawless experience to our end users. There are many tools to do so, Selenium being the most popular among them for web automation (Check out all the latest updates to <a target="_blank" href="https://blog.testproject.io/2020/06/08/selenium-4-new-features/" rel="noopener noreferrer">Selenium 4</a>). In this tutorial, we will focus on JavaScript with Selenium for web automation.</p>
+<h2><strong>Table of Contents – Selenium JavaScript Automation Testing Tutorial For Beginners</strong></h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#selenium-javascript" rel="noopener noreferrer">Intro to JavaScript and Selenium</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#prerequisites" rel="noopener noreferrer">Prerequisites</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#node" rel="noopener noreferrer">Setting up Node.js</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#package-manager" rel="noopener noreferrer">Installing a Package Manager and Adding a Path Variable</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#create-tests" rel="noopener noreferrer">Create and Run Automation Testing using Selenium JavaScript</a></li>
+</ol>
+<hr/>
+<h2><strong><a target="_blank" id="selenium-javascript" rel="noopener noreferrer">Intro to JavaScript and Selenium?</strong></h2>
+<ul>
+<li><strong>JavaScript</strong> is a text-based programming language used both on the client-side and server-side, allowing you to transform static web pages into interactive ones.</li>
+<li><strong>WebDriver</strong> is a remote control interface that enables introspection and control of user agents. It provides a platform and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers – <a target="_blank" href="https://www.w3.org/TR/webdriver/" rel="noopener noreferrer">WebDriver W3C Recommendation</a>. The cross-platform behavior of web browsers is controlled by web driver. Different web browsers such as Chrome, Firefox, Edge, etc have their own implementation of WebDriver Standards. They all possess browser-specific functionalities using the standard APIs.</li>
+<li><strong>Selenium</strong> is an extra wrapper outside the WebDrivers in order to make the WebDriver implementation more smooth and easier for the supporting browsers. For example, if you have Chrome Driver installed on the machine with correct path, Selenium will automatically detect it. The same is the case with other browsers as well. It provides ease to the developers to run the same test script on multiple browser platforms.</li>
+</ul>
+<h2><strong><a target="_blank" id="prerequisites" rel="noopener noreferrer">Prerequisites</strong></h2>
+<ul>
+<li>Node.js (with npm and node installed).</li>
+<li>A package manager for handling open source JavaScript projects.</li>
+<li>Any code editor (I will choose <a target="_blank" href="https://visualstudio.microsoft.com/" rel="noopener noreferrer">Visual Studio</a>).</li>
+<li>Any internet browser (I will be using Firefox in my case).</li>
+</ul>
+<h2><strong><a target="_blank" id="node" rel="noopener noreferrer">Setting up Node.js</strong></h2>
+<p>Open the command prompt and type <strong>“node -v” </strong>(verifying Node.js is installed):</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">node -v</pre>
+<p>Then type <strong>“npm -v”</strong> (verifying npm is installed):</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">npm -v</pre>
+<p>If you are not getting these outputs, then you have to install node and npm manually. Click on the following link <a target="_blank" href="https://nodejs.org/en/download/" rel="noopener noreferrer">https://nodejs.org/en/download/</a> and it will take you to the Node.js official downloads page. Download the version according to the required system you are using. You will see the following page when you click the link given above.</p>
+</p>
+<p><noscript><img class="aligncenter wp-image-12035 size-large" title="node js installation" src="https://blog.testproject.io/wp-content/uploads/2020/05/3-1024x530.png" alt="node js installation" width="640" height="331" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/3-1024x530.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/3-512x265.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/3-768x398.png 768w, https://blog.testproject.io/wp-content/uploads/2020/05/3.png 1257w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></p>
+<h2><a target="_blank" id="package-manager" rel="noopener noreferrer"><strong>Installing a Package Manager and Adding a Path Variable</strong></h2>
+<p>Now we are going to set up the package manager for our project which will be “selenium-web driver”. Just click on the link <a target="_blank" href="https://www.npmjs.com/" rel="noopener noreferrer">https://www.npmjs.com/</a>. It will take you to the following page:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12037 size-large" title="Package Manager" alt="Package Manager" width="640" height="241" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/4-512x193.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/4-768x290.png 768w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" src="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12037 size-large" title="Package Manager" src="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png" alt="Package Manager" width="640" height="241" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/4-512x193.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/4-768x290.png 768w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></p>
+<p>In the search bar type ‘selenium-web driver’ and hit enter. You will be taken to the next page where you will find selenium web drivers for different browsers:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12038 size-full" title="selenium web drivers for different browsers" alt="selenium web drivers for different browsers" width="422" height="315" src="https://blog.testproject.io/wp-content/uploads/2020/05/5.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12038 size-full" title="selenium web drivers for different browsers" src="https://blog.testproject.io/wp-content/uploads/2020/05/5.png" alt="selenium web drivers for different browsers" width="422" height="315"/></noscript></p>
+<p>Click on Firefox (or whichever browser you would like to use). Then, you’ll see options for different kinds of operating systems you are working on. Simply select the one you are using:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12039 size-full" title="Package Manager Operating Systems" alt="Package Manager Operating Systems" width="985" height="294" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/6.png 985w, https://blog.testproject.io/wp-content/uploads/2020/05/6-512x153.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/6-768x229.png 768w" data-lazy-sizes="(max-width: 985px) 100vw, 985px" src="https://blog.testproject.io/wp-content/uploads/2020/05/6.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12039 size-full" title="Package Manager Operating Systems" src="https://blog.testproject.io/wp-content/uploads/2020/05/6.png" alt="Package Manager Operating Systems" width="985" height="294" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/6.png 985w, https://blog.testproject.io/wp-content/uploads/2020/05/6-512x153.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/6-768x229.png 768w" sizes="(max-width: 985px) 100vw, 985px"/></noscript></p>
+<p>Now we need to set up the path variable for our web driver. In order to do so, just unzip the file in your C directory inside the folder “seleniumWebdrivers” (you have to make a new folder) as seen below:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12040 size-full" title="Selenium WebDriver" alt="Selenium WebDriver" width="828" height="322" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/7.png 828w, https://blog.testproject.io/wp-content/uploads/2020/05/7-512x199.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/7-768x299.png 768w" data-lazy-sizes="(max-width: 828px) 100vw, 828px" src="https://blog.testproject.io/wp-content/uploads/2020/05/7.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12040 size-full" title="Selenium WebDriver" src="https://blog.testproject.io/wp-content/uploads/2020/05/7.png" alt="Selenium WebDriver" width="828" height="322" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/7.png 828w, https://blog.testproject.io/wp-content/uploads/2020/05/7-512x199.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/7-768x299.png 768w" sizes="(max-width: 828px) 100vw, 828px"/></noscript></p>
+<p>Copy the above path to your clipboard:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12041 size-full" title="Selenium WebDriver" alt="Selenium WebDriver" width="316" height="52" src="https://blog.testproject.io/wp-content/uploads/2020/05/8.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12041 size-full" title="Selenium WebDriver" src="https://blog.testproject.io/wp-content/uploads/2020/05/8.png" alt="Selenium WebDriver" width="316" height="52"/></noscript></p>
+<p>Then go to search and type “environmental variables”. You will see the following pop-up showing:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12042 size-full" title="environmental variables" alt="environmental variables" width="376" height="71" src="https://blog.testproject.io/wp-content/uploads/2020/05/9.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12042 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/9.png" alt="environmental variables" width="376" height="71"/></noscript></p>
+<p>Click on it and you will have the following window opened:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12043 size-full" title="environmental variables" alt="environmental variables" width="535" height="567" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/10.png 535w, https://blog.testproject.io/wp-content/uploads/2020/05/10-483x512.png 483w" data-lazy-sizes="(max-width: 535px) 100vw, 535px" src="https://blog.testproject.io/wp-content/uploads/2020/05/10.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12043 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/10.png" alt="environmental variables" width="535" height="567" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/10.png 535w, https://blog.testproject.io/wp-content/uploads/2020/05/10-483x512.png 483w" sizes="(max-width: 535px) 100vw, 535px"/></noscript></p>
+<p>Click on environmental variables and you will get to the following window:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12045 size-full" title="environmental variables" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/11.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/11-456x512.png 456w" data-lazy-sizes="(max-width: 687px) 100vw, 687px" src="https://blog.testproject.io/wp-content/uploads/2020/05/11.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12045 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/11.png" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/11.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/11-456x512.png 456w" sizes="(max-width: 687px) 100vw, 687px"/></noscript></p>
+<p>Simply select the path and click on the edit button:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12046 size-full" title="environmental variables" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/12.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/12-456x512.png 456w" data-lazy-sizes="(max-width: 687px) 100vw, 687px" src="https://blog.testproject.io/wp-content/uploads/2020/05/12.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12046 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/12.png" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/12.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/12-456x512.png 456w" sizes="(max-width: 687px) 100vw, 687px"/></noscript></p>
+<p>You will see this window appearing up:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12047 size-full" title="environmental variables" alt="environmental variables" width="595" height="664" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/13.png 595w, https://blog.testproject.io/wp-content/uploads/2020/05/13-459x512.png 459w" data-lazy-sizes="(max-width: 595px) 100vw, 595px" src="https://blog.testproject.io/wp-content/uploads/2020/05/13.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12047 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/13.png" alt="environmental variables" width="595" height="664" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/13.png 595w, https://blog.testproject.io/wp-content/uploads/2020/05/13-459x512.png 459w" sizes="(max-width: 595px) 100vw, 595px"/></noscript></p>
+<p>Click on new and add the path you recently copied and click on the OK button.</p>
+<p>Now, go to the folder in the C drive where you put the geckodriver.exe file and open it. You should see this type of output confirming that your path has been set correctly:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12048 size-full" title="Setting the Path" alt="Setting the Path" width="953" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/14.png 953w, https://blog.testproject.io/wp-content/uploads/2020/05/14-512x279.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/14-768x418.png 768w" data-lazy-sizes="(max-width: 953px) 100vw, 953px" src="https://blog.testproject.io/wp-content/uploads/2020/05/14.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12048 size-full" title="Setting the Path" src="https://blog.testproject.io/wp-content/uploads/2020/05/14.png" alt="Setting the Path" width="953" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/14.png 953w, https://blog.testproject.io/wp-content/uploads/2020/05/14-512x279.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/14-768x418.png 768w" sizes="(max-width: 953px) 100vw, 953px"/></noscript></p>
+<h2><strong><a target="_blank" id="create-tests" rel="noopener noreferrer">Create and Run Automation Testing using Selenium JavaScript</strong></h2>
+<p>Now that we’ve completed the dependencies part, it’s time to create a JavaScript project and write our first testing code. Go to any directory and create a new project by typing “npm init”:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">npm init</pre>
+<p>Then, open the terminal in vs-code or in the command line and type “npm install selenium-webdriver” and hit enter. Open the package.json file, it should look like the following:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12050 size-full" title="package.json file" alt="package.json file" width="642" height="427" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/16.png 642w, https://blog.testproject.io/wp-content/uploads/2020/05/16-512x341.png 512w" data-lazy-sizes="(max-width: 642px) 100vw, 642px" src="https://blog.testproject.io/wp-content/uploads/2020/05/16.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12050 size-full" title="package.json file" src="https://blog.testproject.io/wp-content/uploads/2020/05/16.png" alt="package.json file" width="642" height="427" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/16.png 642w, https://blog.testproject.io/wp-content/uploads/2020/05/16-512x341.png 512w" sizes="(max-width: 642px) 100vw, 642px"/></noscript></p>
+<p>Now, let’s create a new file with the name “index.js”. This is our time to start writing some code! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><strong>Piece-wise code with explanation</strong>:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">const {Builder,Buy,Key,util} = require("selenum-webdriver");</pre>
+<p>In the above Code we are simply pulling out functions from the node module.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">async function example()
+
+{
+
+let driver = await new Builder.forBrowser("firefox").build();</pre>
+<p>Created the function with the name “example” and waiting for the browser to build and load properly.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">await driver.get("http://google.com");</pre>
+<p>Trying to fetch <a target="_blank" href="https://google.com" rel="noopener noreferrer">http://google.com</a> from the browser with our code.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">await driver.findElement(By.name("q").sendKeys("Selenium",Key.RETURN));</pre>
+<p>Sending a search query by the name selenium.</p>
+<p><strong>Below is the complete code</strong>:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">const {Builder,Buy,Key,util} = require("selenum-webdriver");
+
+async function example()
+
+{
+
+let driver = await new Builder.forBrowser("firefox").build();
+
+await driver.get("http://google.com");
+
+await driver.findElement(By.name("q").sendKeys("Selenium",Key.RETURN));
+
+}
+
+example();</pre>
+<p>In order to run this, go to the terminal and type node index (name of the file in which you put the above code). You should be getting the desired output as below:</p>
+<p><img loading="lazy" class="aligncenter wp-image-12052 size-full" title="Selenium JavaScript Test" alt="Selenium JavaScript Test" width="929" height="684" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/17.png 929w, https://blog.testproject.io/wp-content/uploads/2020/05/17-512x377.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/17-768x565.png 768w" data-lazy-sizes="(max-width: 929px) 100vw, 929px" src="https://blog.testproject.io/wp-content/uploads/2020/05/17.png"/></p>
+<p><noscript><img class="aligncenter wp-image-12052 size-full" title="Selenium JavaScript Test" src="https://blog.testproject.io/wp-content/uploads/2020/05/17.png" alt="Selenium JavaScript Test" width="929" height="684" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/17.png 929w, https://blog.testproject.io/wp-content/uploads/2020/05/17-512x377.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/17-768x565.png 768w" sizes="(max-width: 929px) 100vw, 929px"/></noscript></p>
+<p>We’ve got our first Selenium JavaScript test up and running! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f31f.png" alt="🌟" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />I invite you to dive even further to learn some <a target="_blank" href="https://blog.testproject.io/2018/03/08/selenium-javascript-best-practices/" rel="noopener noreferrer">Selenium with JavaScript</a> best practices, and read more content on JavaScript and automation testing in this <a target="_blank" href="https://blog.testproject.io/category/javascript/" rel="noopener noreferrer">JavaScript category</a>.</p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/06/17/selenium-javascript-automation-testing-tutorial-for-beginners/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Design Systems and Testability &#124; Applitools</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-systems-and-testability-applitools/</link>
 		
@@ -591,255 +924,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/devops/6-proven-metrics-devops-success">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Black Lives Matter Emails Deliver TrickBot Malware</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-emails-deliver-trickbot-malware/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 11 Jun 2020 20:59:11 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Black]]></category>
-		<category><![CDATA[Deliver]]></category>
-		<category><![CDATA[Emails]]></category>
-		<category><![CDATA[Lives]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Matter]]></category>
-		<category><![CDATA[TrickBot]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/black-lives-matter-emails-deliver-trickbot-malware/</guid>
-
-					<description><![CDATA[Malspam emails are claiming to deliver a survey on BLM &#8212; but in reality they deliver the infamous banking trojan.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Malspam emails are claiming to deliver a survey on BLM &#8212; but in reality they deliver the infamous banking trojan.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/black-lives-matter-emails-trickbot-malware/156497/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Kubernetes Falls to Cryptomining via Machine-Learning Framework</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/kubernetes-falls-to-cryptomining-via-machine-learning-framework/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 11 Jun 2020 18:42:04 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cryptomining]]></category>
-		<category><![CDATA[Falls]]></category>
-		<category><![CDATA[Framework]]></category>
-		<category><![CDATA[kubernetes]]></category>
-		<category><![CDATA[MachineLearning]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/kubernetes-falls-to-cryptomining-via-machine-learning-framework/</guid>
-
-					<description><![CDATA[Misconfigured dashboards are at the heart of a widespread XMRIG Monero-mining campaign. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Misconfigured dashboards are at the heart of a widespread XMRIG Monero-mining campaign.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/kubernetes-cryptomining-machine-learning-framework/156481/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Quantifying Cloud Security Effectiveness &#124; McAfee Blogs</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quantifying-cloud-security-effectiveness-mcafee-blogs/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 10 Jun 2020 15:48:09 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Effectiveness]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Quantifying]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quantifying-cloud-security-effectiveness-mcafee-blogs/</guid>
-
-					<description><![CDATA[Let’s start with the good news. Agencies are adopting cloud services at an increased rate. Adoption has only increased in]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs"></div>
-<p>Let’s start with the good news. Agencies are adopting cloud services at an increased rate. Adoption has only increased in times of coronavirus quarantine lockdowns with most federal, state and municipal workforce working from home. What’s even better news is that we also see increased adoption of cloud security tools, like CASB, which is commensurate with the expanding cloud footprint of US Public Sector agencies.</p>
-<p>So now we have security tools in place to secure our cloud assets in SaaS, PaaS and IaaS. The next step is to determine what security controls need to be implemented. What DLP policies should the agency adopt? What capabilities of a cloud services should be enabled or disabled to maintain a robust security posture? How does an agency actually go about measuring the effectiveness of the security controls that were implemented? How do we find out how we stack up against our peer organizations?</p>
-<p>To answer these questions, McAfee developed MVISION Cloud Security Advisor (CSA). Cloud Security Advisor is a portal that is provided “out-of-the-box” with your organization’s <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-cloud.html" rel="noopener noreferrer">MVISION Cloud</a> CASB tenant. CSA provides a comprehensive set of recommendations for organizations to prioritize efforts in implementing their cloud security controls. The recommendations are broken down into Visibility and Control metrics. There is also a section that provides quarterly reports on various parameters, which we will discuss in a little bit.</p>
-<p>When you first access Cloud Security Advisor dashboard you are presented with a “magic quadrant” that shows your organization’s security posture relative to other peer organizations on the scales of <strong>Control</strong> and <strong>Visibility</strong> and provides a <strong>maturity score</strong> for both.</p>
-<p><img class="aligncenter wp-image-101805 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/06/1-1.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/1-1.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/1-1-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/1-1-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/1-1-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>There is even an option to select a vertical market to see how your organizations stacks up to organizations in other business sectors.</p>
-<p><img class="aligncenter wp-image-101806 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/06/2-1.png" alt="" width="450" height="314" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/2-1.png 450w, https://www.mcafee.com/wp-content/uploads/2020/06/2-1-300x209.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/2-1-185x129.png 185w" sizes="(max-width: 450px) 100vw, 450px"/></p>
-<p>On the right of the main dashboard are check list items that provide a short description and current progress in following Cloud Security Advisor’s recommendations. CSA scans the organization’s MISION Cloud environment once every 24 hours. Any changes to MVISION Cloud will be reflected in the next scan. In the screenshot below, for example, we see an environment that is not enforcing controls on publicly shared links in Collaboration SaaS apps.</p>
-<p><img class="wp-image-101807 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/3-1.png" alt="" width="936" height="404" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/3-1.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/3-1-300x129.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/3-1-768x331.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/3-1-205x88.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>From here, a security admin can simply click on the check list item and then on <strong>Enable Policy</strong>. This will automatically take the user to the DLP Policy Templates page to select the appropriate policy for enforcement.</p>
-<p><img class="wp-image-101808 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/4-1.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/4-1.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/4-1-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/4-1-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/4-1-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>Another powerful capability of MVISION Cloud Security Advisor is providing quarterly Cloud Security Reports. These are accessible from the main CSA dashboard by going to <strong>View Reports </strong>and then selecting a quarter for which you would like to see the report.</p>
-<p><img class="wp-image-101809 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/5.png" alt="" width="936" height="274" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/5.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/5-300x88.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/5-768x225.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/5-205x60.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>From there we can start examining our organization’s cloud footprint to identify total number of Shadow IT services discovered that quarter as well as some additional Shadow IT statistics.</p>
-<p><img class="wp-image-101810 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/6.png" alt="" width="936" height="352" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/6.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/6-300x113.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/6-768x289.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/6-205x77.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>Next we can look at IaaS resources in all our AWS, Azure and GCP environments.</p>
-<p><img class="wp-image-101811 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/7.png" alt="" width="936" height="318" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/7.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/7-300x102.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/7-768x261.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/7-205x70.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>We then proceed to look at summary statistics for DLP and access policy violations. Incidents show policy violations of each type detected across all of the organization’s cloud environments secured by MVISION Cloud CASB.</p>
-<p><img class="wp-image-101812 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/8.png" alt="" width="936" height="370" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/8.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/8-300x119.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/8-768x304.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/8-205x81.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>Next screen shows user behavioral anomalies and threats uncovered by MVISION Cloud UBA machine-learning engine.</p>
-<p><img class="wp-image-101813 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/9.png" alt="" width="936" height="322" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/9.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/9-300x103.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/9-768x264.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/9-205x71.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>The Malware section of the report provides insights into malware uncovered in SaaS and IaaS environments connected to MVISION Cloud.</p>
-<p><img class="wp-image-101814 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/10.png" alt="" width="936" height="304" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/10.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/10-300x97.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/10-768x249.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/10-205x67.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>The Data at Risk report is probably the most pertinent to gauging the effectiveness of the MVISION Cloud CASB solution. This report shows how much of the organization’s data was at risk and how it was secured using MVISION Cloud CASB. As seen from the image, there is a downward trend, indicating progress is being made to secure organization’s data. <img class="wp-image-101815 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/11.png" alt="" width="936" height="426" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/11.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/11-300x137.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/11-768x350.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/11-205x93.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>The Sensitive Data report shows how organization’s sensitive data is distributed across all cloud services in use by the organization. This report also provides insights into cloud adoption trends for your organization.</p>
-<p><img class="wp-image-101816 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/12.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/12.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/12-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/12-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/12-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>The “Users” report is a pivot table of the Sensitive Data report that organizes incidents and policy violations by individual users. Ultimately, the report shows how much of a risk an organization’s users pose to organization’s data. <img class="wp-image-101817 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/13.png" alt="" width="936" height="388" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/13.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/13-300x124.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/13-768x318.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/13-205x85.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>The Mobile Devices report shows incidents for each type of detected mobile device.</p>
-<p><img class="wp-image-101818 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/14.png" alt="" width="936" height="352" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/14.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/14-300x113.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/14-768x289.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/14-205x77.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>The next three pages of the CSA report provide a deeper dive into the data on the front page of the CSA portal we saw in the beginning of this blog. On the <strong>Scores</strong> page we see the “magic quadrant” with <strong>Control</strong> and <strong>Visibility </strong>axis, together with progress relative to previous quarters. Visibility score and Control score, both on a scale of 100, gauge your organization’s maturity in securing its cloud footprint. <img class="wp-image-101819 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/15.png" alt="" width="936" height="666" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/15.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/15-300x213.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/15-768x546.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/15-181x129.png 181w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>Next, the Visibility metrics page. Visibility metrics measure how well an organization has been doing in gaining visibility into what is out there in their cloud environment and how secure it is.</p>
-<p><img class="wp-image-101820 size-full aligncenter" src="https://www.mcafee.com/wp-content/uploads/2020/06/16.png" alt="" width="936" height="740" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/16.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/16-300x237.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/16-768x607.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/16-163x129.png 163w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>Finally, the Control metrics page shows how well an organization has performed in placing controls and mitigating security risks for its cloud environment.</p>
-<p><img class="aligncenter wp-image-101821 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/06/17.png" alt="" width="936" height="472" srcset="https://www.mcafee.com/wp-content/uploads/2020/06/17.png 936w, https://www.mcafee.com/wp-content/uploads/2020/06/17-300x151.png 300w, https://www.mcafee.com/wp-content/uploads/2020/06/17-768x387.png 768w, https://www.mcafee.com/wp-content/uploads/2020/06/17-205x103.png 205w" sizes="(max-width: 936px) 100vw, 936px"/></p>
-<p>And that, in a nutshell, is it. By reviewing the screenshots from the Cloud Security Advisor dashboard you should now have a good idea of the metrics at your disposal to quantify cloud security effectiveness for your organization.</p>
-<p>To see MVISION Cloud Security Advisor in action, please check out the video below:</p>
-<p><div class="fitvids-video"><iframe title="Cloud Security Advisor Demo" width="800" height="450" src="https://www.youtube.com/embed/wMxBWcmToSA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/quantifying-cloud-security-effectiveness/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Zero trust and remote work: Identity and access management is key</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-and-remote-work-identity-and-access-management-is-key/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 10 Jun 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Access]]></category>
-		<category><![CDATA[Identity]]></category>
-		<category><![CDATA[Key]]></category>
-		<category><![CDATA[Management]]></category>
-		<category><![CDATA[Remote]]></category>
-		<category><![CDATA[Trust]]></category>
-		<category><![CDATA[Work]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-and-remote-work-identity-and-access-management-is-key/</guid>
-
-					<description><![CDATA[In less than a week, the world changed. At the end of March, amid the throes of the coronavirus pandemic,]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>In less than a week, the world changed. At the end of March, amid the throes of the coronavirus pandemic, the vast majority of states in the US issued stay-at-home orders, resulting in the largest migration to remote working the nation has ever seen.</p>
-<p>Before this happened, just <a target="_blank" href="https://globalworkplaceanalytics.com/telecommuting-statistics" rel="nofollow noopener noreferrer">4% of workers spent the majority of their working hours outside the office</a>, and only 43% worked remotely with &#8220;some frequency.&#8221;</p>
-<p>For security teams, the move caused chaos. Sensitive business resources that had, up to that point, only been accessed by workers at the office now had to be available to employees working from home. While many security experts had talked about the decline of the perimeter for more than a decade, the mass migration to remote working has forced every business to consider <a target="_blank" href="https://techbeacon.com/security/pandemic-your-remote-workforce-9-ways-stay-secure" rel="noopener noreferrer">how to operate security with a distributed workforce</a>.</p>
-<p>Many still are struggling to adjust, said Chase Cunningham, vice president and principal analyst for security and risk at Forrester Research.</p>
-<blockquote>
-<p>&#8220;We&#8217;ve seen five years of innovation in three months. Companies are going to move toward this model, and it is up to them whether they work towards it now or continue to skate uphill by keeping everything inside the network.&#8221;<br />—<a target="_blank" href="https://twitter.com/CynjaChaseC" rel="nofollow noopener noreferrer">Chase Cunningham</a></p>
-</blockquote>
-<p>&#8220;Zero trust,&#8221; the concept of operating securely with a distributed workforce and without a perimeter, <a target="_blank" href="https://techbeacon.com/security/how-zero-trust-approach-can-protect-your-cloud-resources" rel="noopener noreferrer">has become a necessity for most companies</a>. Not long ago, it was an aspirational model instead of a requirement.</p>
-<p>Here&#8217;s <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/security-architecture-changes?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">why zero trust is so important now</a>, and how you can implement the model.</p>
-<p><em>[ <a target="_blank" href="https://content.microfocus.com/l/zero-trust-security-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Get up to speed on zero trust security</a> with TechBeacon&#8217;s guide. Plus: Learn <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/conquering-the-authe?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to conquer zero trust authentication challenges</a> in this Webinar. ]</em></p>
-<h3>Why zero trust is needed</h3>
-<p>Surveys have found that anywhere from 70% to 85% of companies with remote workers intend to encourage them to continue to work from home even after stay-at-home orders expire. For instance, business research firm Gartner <a target="_blank" href="https://www.gartner.com/en/newsroom/press-releases/2020-04-03-gartner-cfo-survey-reveals-74-percent-of-orgs-to-shift-some-employees-to-remote-work-permanently" rel="nofollow noopener noreferrer">found that 74% of companies expect at least 5%</a> of their workforce who previously worked in an office to work from home in the future.</p>
-<p>Still, the zero-trust model is not just about accommodating those workers. It is a <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">foundational move in the digital transformation of the business</a>—efforts that were already underway before the pandemic, said Robert MacDonald, director of solutions at Micro Focus.</p>
-<blockquote>
-<p>&#8220;The situation has accelerated the need to digitally transform the business to remove the traditional perimeter to be much more fluid, because people are working from everywhere, and they need access to that data regardless.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/macdonaldrobert/" rel="nofollow noopener noreferrer">Robert MacDonald</a></p>
-</blockquote>
-<p>For companies struggling with <a target="_blank" href="https://techbeacon.com/security/key-bulletproof-security-zero-trust-networks" rel="noopener noreferrer">moving to the zero-trust model</a>, here are five recommendations from experts.</p>
-<h3>1. Zero trust is no longer optional</h3>
-<p>Moving the focus of security away from the perimeter is no longer an option. Aside from the realities imposed by the coronavirus pandemic and the uncertainty of whether in-office work will be possible on a consistent basis, many companies are looking at moving employees out of the office as a way to cut costs, reduce downtime due to commuting, and improve employees&#8217; work-life balance.</p>
-<p>&#8220;I&#8217;ve been having lots of conversations about companies reducing how many people are coming to an office in a building,&#8221; Forrester&#8217;s Cunningham said. If they can cut their on-premises workforce by 25%, they can reduce costs significantly.</p>
-<blockquote>
-<p>&#8220;This is one of the few times in history where something that is really terrible can have a massive upside if we leverage carefully.&#8221;<br />—Chase Cunningham</p>
-</blockquote>
-<p><em>[ Learn about <a target="_blank" href="https://content.microfocus.com/zero-trust-identity-access-management-tb/evolution-of-trusted-identities?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the evolution of trusted identities</a> in this zero trust Webinar. ]</em></p>
-<h3>2. Much of the technology is new</h3>
-<p>Even just a few years ago, mature technology for implementing zero trust did not exist. While single sign-on vendors existed, the ability to manage corporate resources and access to those resources on a granular level had not advanced enough to scale to large deployments.</p>
-<p>The US Department of Defense and <a target="_blank" href="https://www.fedscoop.com/government-agency-embrace-identity-access-strengthen-cybersecurity-study/" rel="nofollow noopener noreferrer">other federal agencies have pursued zero-trust principles</a> for more than a decade, with a variety of programs aimed at limiting access to data to only authorized parties, according to <a target="_blank" href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207-draft2.pdf" rel="nofollow noopener noreferrer">a draft zero-trust architecture specification</a> from the US National Institute of Standards and Technology (NIST).</p>
-<p>When these programs were started, &#8220;they were limited by the technical capabilities of information systems,&#8221; NIST said in the draft. Security policies were largely static and, to get the largest effect for the effort, were enforced at large &#8220;choke points&#8221; that an enterprise could control.</p>
-<p>As technology matures, it is becoming possible to continually analyze and evaluate access requests, dynamically and granularly, &#8220;to mitigate data exposure due to compromised accounts, attackers monitoring a network, and other threats,&#8221; the NIST document said.</p>
-<h3>3. Don&#8217;t expect a single service or product to solve the problem</h3>
-<p>Zero trust requires a large number of components to work together in an auditable and verifiable way. The seven basic tenets, according to the NIST specification, include:</p>
-<ol>
-<li>Designating all data sources and computing services as resources</li>
-<li>Encrypting all communication end-to-end, no matter the location</li>
-<li>Authorizing access to resources on a per-session basis</li>
-<li>Allowing security and access policies to dynamically change based on context, state of the client, and current perceived risk </li>
-<li>Monitoring all assets to be in the most secure state possible</li>
-<li>Enforcing the temporary and dynamic nature of authentication and authorization</li>
-<li>Maintaining visibility into the security of the entire network and business&#8217;s resources</li>
-</ol>
-<p>The interaction among all these requirements means that a single product or service is not going to be able to deliver a zero-trust architecture to a company, said Micro Focus&#8217;s MacDonald. </p>
-<blockquote>
-<p>&#8220;If a single company is saying that they will get you to zero trust, that&#8217;s nonsense.&#8221;<br />—Robert MacDonald</p>
-</blockquote>
-<h3>4. Identity and access management are crucial starting points</h3>
-<p>The root cause of many breaches is the use of stolen credentials; it&#8217;s the second-most common threat action, <a target="_blank" href="https://enterprise.verizon.com/resources/reports/2020-data-breach-investigations-report.pdf" rel="nofollow noopener noreferrer">according to Verizon&#8217;s 2020 Data Breach Investigations Report</a>. The most common threat action is phishing, which often also leads to credential compromise.</p>
-<p>Almost every company that has suffered a breach has had antivirus software, a firewall, and maybe even an intrusion-prevention system in place, said Forrester&#8217;s Cunningham. </p>
-<blockquote>
-<p>&#8220;Where they fell down was with privilege and access control. If your identity or access store is compromised, that is when a breach can go on for days.&#8221;<br />—Chase Cunningham</p>
-</blockquote>
-<p>The lesson is that managing identity and access is possibly the most important part of security, especially in a world of distributed employees, he said. </p>
-<h3>5. Verify identity and authorization continuously</h3>
-<p>Managing the initial authentication is not enough. Companies also need to re-authenticate users every time they access a different resource. With <a target="_blank" href="https://techbeacon.com/security/state-authentication-its-time-move-passwords" rel="noopener noreferrer">technologies including adaptive authentication</a>, such checks do not have to be intrusive, but should be based on context, said Micro Focus&#8217; MacDonald.</p>
-<blockquote>
-<p>&#8220;If you only rely on the point of access, there is no check afterward. You want to constantly verify that the user assigned that identity is doing what you think they should be doing. If we just let them in and let them go, then we lose visibility into what actions they are taking on the network.&#8221;<br />—Robert MacDonald</p>
-</blockquote>
-<p>As companies adjust to &#8220;the new reality,&#8221; security remains a tough balance. However, <a target="_blank" href="https://techbeacon.com/security/toward-zero-trust-8-steps-boost-app-sec" rel="noopener noreferrer">pursuing a zero-trust architecture</a> can give companies flexibility in work arrangements, the security of continuous monitoring, and the ability to adapt to whatever the future holds.</p>
-<p><em>[ Explore TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/l/state-security-operations-2019-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">guide</a><a target="_blank" href="http://content.microfocus.com/l/state-security-operations-2019-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer"> to SecOps challenges and opportunities</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/state-security-operations-2019-tb/2019-state-security-ops?lx=udA_0U?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">2019 State of Security Operations report</a>. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/zero-trust-remote-workforces-identity-access-management-key">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Encryption Utility Firm Accused of Bundling Malware Functions in Product</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/encryption-utility-firm-accused-of-bundling-malware-functions-in-product/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 10 Jun 2020 14:02:26 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Accused]]></category>
-		<category><![CDATA[Bundling]]></category>
-		<category><![CDATA[Encryption]]></category>
-		<category><![CDATA[Firm]]></category>
-		<category><![CDATA[Functions]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Product]]></category>
-		<category><![CDATA[Utility]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/encryption-utility-firm-accused-of-bundling-malware-functions-in-product/</guid>
-
-					<description><![CDATA[The increasingly prevalent GuLoader malware has been traced back to a far-reaching encryption service that attempts to pass as above-board.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The increasingly prevalent GuLoader malware has been traced back to a far-reaching encryption service that attempts to pass as above-board.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/legitimate-italian-guloader-obfuscator/156443/">Source link </a></p>
 ]]></content:encoded>
 					
 		
