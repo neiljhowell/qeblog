@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 17 Jun 2020 16:28:10 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Jun 2020 12:19:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,245 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Customer Success Engineer &#8211; Neotys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/customer-success-engineer-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2020 12:19:21 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Customer]]></category>
+		<category><![CDATA[engineer]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[Success]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/customer-success-engineer-neotys/</guid>
+
+					<description><![CDATA[In this context, you will be trained on the Neotys products and be taught Neotys CSM best practices to work]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">In this context, you will be trained on the Neotys products and be taught Neotys CSM best practices to work efficiently with existing and new customers in order to fulfill their requirements and expectations.</span></p>
+<p><span style="font-weight: 400;">You will be playing a key role onboarding Neotys new customers and helping them adopting our solution. You will also be the main point of contact of existing and more mature Neotys customers to help them using our product and relay any requirement they may have to Neotys Product Management.</span></p>
+<p><span style="font-weight: 400;">Neotys customer base is composed of large corporations in all main verticals. You will operate on Neotys European key geos (France, UK, DACH, Benelux) but other geos are possible.</span></p>
+<p><span style="font-weight: 400;">The most accurate support and services (training and consulting) are to be delivered. To reach this goal you will be dealing with customers either remotely or/and on-site. Mobility is a must and could take up to 50% of your work-time.</span></p>
+<p><span style="font-weight: 400;">Being a Customer Success Engineer will lead you to a transverse position within the company and will require interactions with Neotys Product Management, R&amp;D, Marketing and Pre-sales teams. Besides that, you will be actively working with Neotys Account Executives and reporting to VP </span><span style="font-weight: 400;">Customer Success.</span></p>
+<p><span style="font-weight: 400;">You should have good interpersonal skills, be organized and an excellent communicator both orally and in writing.</span></p>
+</p></div>
+<p><br />
+<br /><a href="https://www.neotys.com/uncategorized/customer-success-engineer">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Selenium Switch Methods (Chapter 5)</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-switch-methods-chapter-5/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2020 09:06:50 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Chapter]]></category>
+		<category><![CDATA[Methods]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Switch]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-switch-methods-chapter-5/</guid>
+
+					<description><![CDATA[In this 5th and final Selenium article, we will dive into the Switch Methods. Switch Methods are designed for switching]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In this 5<sup>th</sup> and final Selenium article, we will dive into the Switch Methods. Switch Methods are designed for switching to frames, alerts, and windows. Our Test Script must switch before performing an action within the frame, alert, or window.  If we omit switching then the program returns an exception. Methods for switching are accessed through switchTo(). switchTo() returns a target locator and used for sending a future command. Here’s a list of methods via switchTo:</p>
+<ul>
+<li>activeElement()</li>
+<li>alert()</li>
+<li>defaultContent()</li>
+<li>frame
+<ul>
+<li>frame(int index)</li>
+<li>frame(String nameOrId)</li>
+<li>frame(WebElement frameElement)</li>
+</ul>
+</li>
+<li>parentFrame()</li>
+<li>window(String nameOrHandle)</li>
+</ul>
+<p>By the end of this article, you will read how to switch to a <a target="_blank" href="https://blog.testproject.io/#Frame" rel="noopener noreferrer">frame</a>, <a target="_blank" href="https://blog.testproject.io/#Alert" rel="noopener noreferrer">alert</a>, and <a target="_blank" href="https://blog.testproject.io/#Window" rel="noopener noreferrer">window</a>. Code will be located on GitHub <a target="_blank" href="https://github.com/RexJonesII/TestProject-TestNG" rel="noopener noreferrer">https://github.com/RexJonesII/TestProject-TestNG</a>.<br />Also, make sure to check out my latest article on all the latest updates to <a target="_blank" href="https://blog.testproject.io/2020/06/08/selenium-4-new-features/" rel="noopener noreferrer">Selenium 4</a>!</p>
+<h2><strong>Tutorial Chapters</strong></h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/2020/01/16/selenium-browser-method-categories-browser-methods/" rel="noopener noreferrer">Browser Methods</a> (Chapter 1)</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/03/05/selenium-webelement-methods/" rel="noopener noreferrer">WebElement Methods</a> (Chapter 2)</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/03/25/selenium-navigation-methods/" rel="noopener noreferrer">Navigation Methods</a> (Chapter 3)</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Wait Methods</a> (Chapter 4)
+<ul>
+<li>pageLoadTimeOut</li>
+<li>ImplicitWait</li>
+<li>ExplicitWait</li>
+<li>FluentWait</li>
+</ul>
+</li>
+<li><strong><mark>You’re here → </mark></strong>Switch Methods (Chapter 5)</li>
+</ol>
+<hr/>
+<h2><a target="_blank" id="Frame" rel="noopener noreferrer"><strong>Switch To Frame</strong></h2>
+<p>There are 4 methods that allow us to select a frame and 1 method that changes focus to the parent context:</p>
+<ol>
+<li>frame(WebElement element) – selects a frame by WebElement.</li>
+<li>frame(String nameOrId) – selects a frame by its name or ID.</li>
+<li>frame(int index) – selects a frame by its (zero-based) index.</li>
+<li>defaultContent() – selects either the first frame or main document.</li>
+<li>parentFrame() – change focus to the parent context.</li>
+</ol>
+<p>If an application has a frame, it will either be a frame or an iframe element. Although there’s a difference, we normally say “frame” for both elements. In spite of that, most applications contain an iframe which stands for inline frame. It’s designed for helping the application remain interactive.</p>
+<p>We can tell the difference between frame and iframe by its window. A frame can be resized while an iframe cannot be resized within the application. Whether the application has a frame or iframe, we must always switch to the frame before performing an action. On <a target="_blank" href="https://testproject.io/platform/" rel="noopener noreferrer">TestProject’s Platform</a> page, there’s an Intercom icon located within an iframe. Intercom allows us to start a conversation and ask TestProject anything.</p>
+<p></p>
+<p><noscript><img class="alignnone wp-image-10574 size-full" title="TestProject Test Automation Platform" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.1-Intercom-Icon.jpg" alt="TestProject Test Automation Platform" width="624" height="423" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.1-Intercom-Icon.jpg 624w, https://blog.testproject.io/wp-content/uploads/2020/03/5.1-Intercom-Icon-512x347.jpg 512w" sizes="(max-width: 624px) 100vw, 624px"/></noscript></p>
+<p>Notice, View frame source after right clicking the icon. View frame source informs us, the WebElement is located in a frame. We select Inspect and see an iframe tag.</p>
+<p><img loading="lazy" class="alignnone wp-image-10575 size-full" title="iframe tag" alt="iframe tag" width="637" height="206" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe-512x166.jpg 512w" data-lazy-sizes="(max-width: 637px) 100vw, 637px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg"/></p>
+<p><noscript><img class="alignnone wp-image-10575 size-full" title="iframe tag" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg" alt="iframe tag" width="637" height="206" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe-512x166.jpg 512w" sizes="(max-width: 637px) 100vw, 637px"/></noscript></p>
+<p>Now, our automation Test Script begins with the following steps:</p>
+<ol>
+<li>Scroll to the bottom of <a target="_blank" href="https://testproject.io/platform/" rel="noopener noreferrer">TestProject’s Platform</a> page.</li>
+<li>Wait using an Explicit Wait statement (covered in the previous article “<a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Selenium Wait Methods</a>”).</li>
+<li>Switch to the frame.</li>
+<li>Find the element.</li>
+<li>Click the element.</li>
+</ol>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
+public void demoSwitchToFrame1 () {
+  JavascriptExecutor js = (JavascriptExecutor) driver;
+  js.executeScript("window.scrollBy(0,2000)");
+  
+  WebDriverWait wait = new WebDriverWait(driver, 5);
+  wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("intercom-launcher-frame"));
+  
+  driver.findElement(By.className("e2ujk8f2")).click();
+}</pre>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
+public void demoSwitchToFrame2 () {
+  JavascriptExecutor js = (JavascriptExecutor) driver;
+  js.executeScript("window.scrollBy(0,2000)");
+  
+  WebDriverWait wait = new WebDriverWait(driver, 5);
+  wait.until(ExpectedConditions.presenceOfElementLocated(By.name("intercom-launcher-frame")));
+  
+  driver.switchTo().frame("intercom-launcher-frame");
+  driver.findElement(By.className("e2ujk8f2")).click();
+}</pre>
+<p>Both Test Scripts work after switching to the iframe. The 1<sup>st</sup> Test Script switches to the frame within the wait statement “<em>frameToBeAvailableAndSwitchToIt</em>” then found and clicked the Intercom icon. This is the preferred way since 1 statement line waited for the frame and switched to the frame.</p>
+<p>The 2<sup>nd</sup> Test Script shows how to switch to a frame without a wait statement: driver.switchTo().frame(“intercom-launcher-frame”). A NoSuchElementException would have shown up if there was not a switch statement. Here’s a screenshot after clicking the Intercom icon:</p>
+<p><img loading="lazy" class="alignnone wp-image-10576 size-full" title="TestProject Support Chat" alt="TestProject Support Chat" width="368" height="440" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.3-Ask-Anything.jpg"/></p>
+<p><noscript><img class="alignnone wp-image-10576 size-full" title="TestProject Support Chat" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.3-Ask-Anything.jpg" alt="TestProject Support Chat" width="368" height="440"/></noscript></p>
+<h2><a target="_blank" id="Alert" rel="noopener noreferrer"><strong>Switch To Alert</strong></h2>
+<p>An alert is a pop-up box that provides information or expects an action from the user. There are 3 types of alerts and 4 actions to perform on an alert. The 3 types of alerts are:</p>
+<ol>
+<li>Information Alert – contains a message with 1 button.</li>
+<li>Confirmation Alert – contains a message with 2 buttons.</li>
+<li>Prompt Alert – contains a message with 2 buttons and a text entry field.</li>
+</ol>
+<p>Actions to perform on the alert are:</p>
+<ol>
+<li>accept() – accepts the alert.</li>
+<li>dismiss() – cancels the alert.</li>
+<li>getText() – gets text from the alert.</li>
+<li>sendKeys() – types text into the alert.</li>
+</ol>
+<p>Most of the time, an alert is shown with a gray disabled background. The web page is gray because an action cannot be carried out on the page. An action must be performed on the alert. On <a target="_blank" href="https://blog.testproject.io/" rel="noopener noreferrer">TestProject’s Blog</a> page, a pop-up image resembling an alert provides information regarding a <strong>Complete E2E Automation Solution!</strong></p>
+<p><img loading="lazy" class="alignnone wp-image-10577 size-full" title="TestProject Blog" alt="TestProject Blog" width="635" height="359" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg 635w, https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike-512x289.jpg 512w" data-lazy-sizes="(max-width: 635px) 100vw, 635px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg"/></p>
+<p><noscript><img class="alignnone wp-image-10577 size-full" title="TestProject Blog" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg" alt="TestProject Blog" width="635" height="359" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg 635w, https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike-512x289.jpg 512w" sizes="(max-width: 635px) 100vw, 635px"/></noscript></p>
+<p>Hypothetically, if the pop-up image was an alert, the following Test Script switches to the alert then accepts the alert.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
+public void demoSwitchToAlert () {
+  driver.get("https://blog.testproject.io/");
+  driver.switchTo().alert().accept();
+}</pre>
+<h2><a target="_blank" id="Window" rel="noopener noreferrer"><strong>Switch To Window</strong></h2>
+<p>Selenium assigns a unique alphanumeric id to all windows. The id is called a window handle and used to switch control between every window. There are 2 methods that get the window handle:</p>
+<ol>
+<li>getWindowHandle() – get the current window handle.</li>
+<li>getWindowHandles() – get a set of window handles.</li>
+</ol>
+<p>We use the window handle for switchTo().window to switch focus between each window. A perfect example is <a target="_blank" href="https://docs.testproject.io/" rel="noopener noreferrer">TestProject’s Documentation</a> page. The page loads in a new tab after clicking the Docs link via the <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">Home page</a>.</p>
+<p><img loading="lazy" class="alignnone wp-image-10578 size-full" title="TestProject Home Page" alt="TestProject Home Page" width="638" height="201" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg 638w, https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page-512x161.jpg 512w" data-lazy-sizes="(max-width: 638px) 100vw, 638px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg"/></p>
+<p><noscript><img class="alignnone wp-image-10578 size-full" title="TestProject Home Page" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg" alt="TestProject Home Page" width="638" height="201" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg 638w, https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page-512x161.jpg 512w" sizes="(max-width: 638px) 100vw, 638px"/></noscript></p>
+<p><img loading="lazy" class="alignnone wp-image-10579 size-full" title="TestProject Documentation" alt="TestProject Documentation" width="637" height="240" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page-512x193.jpg 512w" data-lazy-sizes="(max-width: 637px) 100vw, 637px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg"/></p>
+<p><noscript><img class="alignnone wp-image-10579 size-full" title="TestProject Documentation" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg" alt="TestProject Documentation" width="637" height="240" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page-512x193.jpg 512w" sizes="(max-width: 637px) 100vw, 637px"/></noscript></p>
+<p>Let’s create a Test Script to perform the following steps:</p>
+<ol>
+<li>Get the Home Page window handle id.</li>
+<li>Click the Docs link.</li>
+<li>Get the Docs Page window handle id:</li>
+<li>Count the number of open windows.</li>
+<li>Print information for both open windows to show unique data:
+<ol style="list-style-type: lower-alpha;">
+<li>Window Handle</li>
+<li>URL</li>
+<li>Page Title</li>
+</ol>
+</li>
+</ol>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
+public void demoSwitchToWindow () 	{
+  driver.get("https://testproject.io/");
+  driver.findElement(By.id("menu-item-1727")).click();
+  String mainHandle = driver.getWindowHandle();
+  System.out.println("Home Page Window ID: " + mainHandle + "n");
+      
+  Set &lt;String&gt; allHandles = driver.getWindowHandles();
+  System.out.println("Windows Open After Clicking The Docs Link via Home Page: " + allHandles.size() + "n");
+  
+  for (String windowHandle : allHandles) {
+    if(mainHandle.equals(windowHandle)) {
+      System.out.println("t Window ID 1: t" + windowHandle +
+                      "n t URL: t t" + driver.getCurrentUrl() +						
+                      "n t Title: t t" + driver.getTitle());				
+    }	
+    else	{
+      driver.switchTo().window(windowHandle);
+      
+      System.out.println("t Window ID 2: t" + windowHandle +
+          "n t URL: t t" + driver.getCurrentUrl() +						
+          "n t Title: t t" + driver.getTitle());					
+    }
+  }
+}</pre>
+<p>The following statement lines get the window handle and window handles:</p>
+<ul>
+<li><strong>String mainHandle = driver.getWindowHandle()</strong>: gets the Home Page window handle.</li>
+<li><strong>Set &lt;String&gt; allHandles = driver.getWindowHandles()</strong>: gets both window handles.</li>
+</ul>
+<p>Here’s the results after getting the window handles and displaying information relevant to each page.</p>
+<p><img loading="lazy" class="alignnone wp-image-10580" title="Selenium Switch Methods" alt="Selenium Switch Methods" width="702" height="366" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results.jpg 633w" data-lazy-sizes="(max-width: 702px) 100vw, 702px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg"/></p>
+<p><noscript><img class="alignnone wp-image-10580" title="Selenium Switch Methods" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg" alt="Selenium Switch Methods" width="702" height="366" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results.jpg 633w" sizes="(max-width: 702px) 100vw, 702px"/></noscript></p>
+<ul>
+<li>Home Page Window ID and Window 1 have the same window handle “<strong>CDwindow-66A01C6DAF3805A30180709668B0A400</strong>” because they are the same window.</li>
+<li>There are 2 open windows after clicking the Docs Link.</li>
+<li>Window 1 displays a unique window handle with the correct URL and Page Title:
+<ul>
+<li>ID: <strong>CDwindow-66A01C6DAF3805A30180709668B0A400</strong></li>
+<li>URL: <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">https://testproject.io/</a></li>
+<li>Title: Free Test Automation For All – TestProject</li>
+</ul>
+</li>
+<li>Window 2 displays a unique window handle with the correct URL and Page Title:</li>
+</ul>
+<p>That wraps all 5 Selenium Method Categories <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f31f.png" alt="🌟" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/2020/01/16/selenium-browser-method-categories-browser-methods/" rel="noopener noreferrer">Browser Methods</a> perform actions on a browser.</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/03/05/selenium-webelement-methods/" rel="noopener noreferrer">WebElement Methods</a> perform actions on WebElements.</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/03/25/selenium-navigation-methods/" rel="noopener noreferrer">Navigation Methods</a> loads a web page, refreshes a web page, or moves backward and forward in our browser’s history.</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Wait Methods</a> pause between execution statements.</li>
+<li>Switch Methods switch to frames, alerts, and windows.</li>
+</ol>
+<p>Happy Testing! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f60e.png" alt="😎" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/06/18/selenium-switch-methods-chapter-5/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>365 Migration Local Environment Issue?</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/365-migration-local-environment-issue/</link>
 		
@@ -759,131 +998,6 @@ example();</pre>
 </div>
 <p><br />
 <br /><a href="https://threatpost.com/word-from-home-alert-critical-d-link-bug/156573/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Continuous Performance Engineering for Healthcare &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/continuous-performance-engineering-for-healthcare-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 15 Jun 2020 16:23:49 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Continuous]]></category>
-		<category><![CDATA[Engineering]]></category>
-		<category><![CDATA[Healthcare]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/continuous-performance-engineering-for-healthcare-neotys/</guid>
-
-					<description><![CDATA[Healthcare has seen more digital transformation in the past 2 months than in the past 2 years. See how organizations]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p>Healthcare has seen more digital transformation in the past 2 months than in the past 2 years. See how organizations can rapidly adapt to the “next normal.”  <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2XY2rsi%3Ffbclid%3DIwAR1_KVoCIrS26R9rGqDnboqF9oQO5WuM1ztoE7YrmjWmiUnqeJLAykfklN4&amp;h=AT047xIcbo-T4mz-605e3TS9-s3qLKV3fTrjWHLhPeH1j41MnIxIWqM3jN483867lpTdBIKDE1BK4ifpqVwy21o7L4Zd3zY0vLLK7v_FrB37B5Fb8Qq5jG1KIDX1_vynuJVveV3b2McyPRvE4yseYdQvEqQsjFT_Z7-jKu_DVszed8QeLc3JQ3SeI7oC1hb17OMq0S8JgDHxnIaIn21oiuRSCcHe0MCmtgFwHbgVGCPQjSoB523NS4ZBgXF0Ss-6B8XPrI-K9xojWXuijNd9A7Vu7-Bp7Ppc3PQcIjNvELaz9QwC8SDxXT-P-yNBXBSvHEwLcc3gllFYjjCBoHT6HTVFy4Zck__vrNy-AY-4yY-k0YIjiYPZgFwrDNtFogj295nhymg0pH5FcqHm6zJOK8NSslwyMwsksVl1A13VHJMa-XrtY0KPmuUSOG6lMq6rxcAzvhO6ydUtrDDObcarkwHphRlFk2OaV5y3obhGkwVy1IszTWpjGmaOSimXP7woEbcmJ24ECNJ50W9u8DfpzgfOVRtMwz0ZV3vhuvOQgNrcyRPleFDLVX5yAXU7O-T1dnkgTHvM4pylCQzSl9XFxlQQk3t5sDE_jW-df3LPJcQPdyuUcjj8QsPBoz9t5rtm4ws39wbuU21A6nqF7Hk8-QaZXRKlpFcNJck061bJRAXTxmQaH0SW8qpQSJazo9D3RHC0BKfvJVABi7p0N8FN7Qd6sfTXD5yjfTZK0oqXGrK-9nJ9mDykClz6DdWKDDgdYFU0-_xd2BrOpS9rNz3vT1f5oiUktuYbtG__PnRYWexxRDrWIjBxe8e-vVJDOtg0BilxTzdwjMjkq2niCddlK4m1412zWCa8MLy2iFMmaMHxpPw0fwCEePOibKEXRChJl5BcPHk9Z7D8z_kjGpz8jmhytEjDYL9w76BmJOI0pO3tIE8pXrl920YoVxhlG-AtGD8vk1w0V0udvZvkaQM549rdNh_tkrO7-jxsPTbMw96IFgyE1NrpaBLKjR4c4Ct3k6HScnrYf0Kw7N_hliHlvI4GmmmXDoyt3cn5RSF7klTrRNMBoM03PiUUMgv6zoRnzz0tU0Tjk21Wxz2i-gi4QN0HoPEPWaH95fdgDvt2rBIeAlbg_F5SaU6wChEwFgfkWRXhweL6WXYTgcL_jqtddkV5UuGC-eqSyCFPNzKwRknvoSg" rel="noopener noreferrer">https://bit.ly/2XY2rsi</a>
-</p>
-<p><a target="_blank" href="https://bit.ly/2XY2rsi?fbclid=IwAR1_KVoCIrS26R9rGqDnboqF9oQO5WuM1ztoE7YrmjWmiUnqeJLAykfklN4" rel="noopener noreferrer"></a> </p>
-<p><a target="_blank" href="https://bit.ly/2XY2rsi?fbclid=IwAR1_KVoCIrS26R9rGqDnboqF9oQO5WuM1ztoE7YrmjWmiUnqeJLAykfklN4" rel="noopener noreferrer">Continuous Performance Engineering for Healthcare &#8211; Neotys</a></p>
-<p>Continuous Performance Testing for Healthcare Healthcare providers and payers face strong economic and operational headwinds in the aftermath of the global pandemic. Accelerating healthcare’s digital transformation lies at the heart of a successful response to the “next normal.” Digital Health&#8230;<br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3408727382472034">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The 5 best web application frameworks: How to choose</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-5-best-web-application-frameworks-how-to-choose/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 15 Jun 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Application]]></category>
-		<category><![CDATA[Choose]]></category>
-		<category><![CDATA[frameworks]]></category>
-		<category><![CDATA[web]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-5-best-web-application-frameworks-how-to-choose/</guid>
-
-					<description><![CDATA[As application development continues to evolve, the demand for teams to rapidly deliver software that can scale and evolve to meet customer]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>As application development continues to evolve, the demand for teams to <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">rapidly deliver software that can scale and evolve to meet customer needs</a> has never been higher. Front-end development frameworks are key to making that happen.</p>
-<p>These frameworks are where the work for the layout, logic, and application is executed. These browser-based systems require JavaScript, CSS, HTML, and other web-standard technologies.</p>
-<p>So how do you choose which framework is best for you? Here are the top five frameworks that development teams are using, based on my opinion and experiences, and what you need to know about them.</p>
-<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
-<h3>Top front-end frameworks</h3>
-<p>Web browsers all compete to have the best support for open standards such as HTML, CSS, and JavaScript. There is much less work needed to test if technologies work across different web browsers. The five frameworks you should consider are:</p>
-<ul>
-<li>Angular</li>
-<li>React</li>
-<li>Vue</li>
-<li>Ember</li>
-<li>Svelte</li>
-</ul>
-<p>The reviews that follow are based on my experience and that of my teams.<em> (I encourage you to leave any thoughts based on your own experiences in the comments below.)</em></p>
-<h3>1. Angular</h3>
-<p><a target="_blank" href="https://angular.io/" rel="nofollow noopener noreferrer">Angular</a> arguably has the most extended history of any on this list. Initially developed by Google in 2010, it was subsequently released as an open-source project. The framework consistently receives updates with significant releases typically delivered every six to nine months. The current major release is version 9.1. </p>
-<h4>Pros</h4>
-<p>There is strong developer support for Angular. The documentation on the site supporting Angular development is excellent and, as a developer, you will find a lot of great how-to videos on YouTube to get you started.</p>
-<p>Also, Angular continues to evolve and meet the needs of web developers. To this end, the framework supports the TypeScript language (a superset of JavaScript), a progressive web app architecture for multi-format solutions, and the M-V-C (model view controller) architecture.</p>
-<p>Angular is also a critical component of the MEAN development stack consisting of MongoDB, ExpressJS, Angular, and NodeJS.</p>
-<h4>Cons</h4>
-<p>Angular&#8217;s age can present a problem. In 2010, developers weren&#8217;t building mobile web apps, so for several years, additions were shoehorned into Angular to accommodate them. In 2016, Angular was rewritten with TypeScript and released as Angular 4. The original version, AngularJS, was renamed as Angular.</p>
-<p>Unfortunately, previous versions of Angular aren&#8217;t compatible with the new TypeScript version in Angular 4. That&#8217;s important to know if any part of your organizations has used Angular and you&#8217;re thinking of going this direction for compatibility reasons.</p>
-<h4>Bottom line</h4>
-<p>Angular has grown and adapted to modern development needs. If you go this route, use the newer Angular 4 and later versions for building Angular apps. And be sure to keep a close eye on <a target="_blank" href="https://blog.angular.io/" rel="nofollow noopener noreferrer">the Angular blog</a> to keep up with the latest improvements to the framework.</p>
-<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
-<h3>2. React</h3>
-<p>Many development groups will choose either Angular or <a target="_blank" href="https://reactjs.org/" rel="nofollow noopener noreferrer">React</a> as the base foundation for their web applications. The logic makes sense, and both are mature. Both deliver applications that can run massive web apps, and both have strong communities where developers can share information.</p>
-<p>But where Angular went with TypeScript, React leverages JavaScript extensively. Facebook, along with individual contributors and other companies, maintain React.</p>
-<h4>Pros</h4>
-<p>Some very large companies—including Facebook, Netflix, Dropbox, Airbnb, and Reddit—use React as their front-end framework. These sites receive millions of views per day. React has proved itself to be able to scale and meet the needs of the most demanding web apps.</p>
-<p>Additionally, the skills you learn for React also apply to ReactNative, a framework that developers can use to build native applications that run on the iOS and Android mobile operating systems.</p>
-<h4>Cons</h4>
-<p>React is not easy to learn. The entire architecture is built in JavaScript, so you must be an experienced developer to start with React. </p>
-<h4>Bottom line</h4>
-<p>The learning curve with React is steep, but the result is a modular architecture that can support the most demanding websites. Facebook and the open-source community continue to invest in the growth of React, which ensures that investing in React will reward you for years into the future.</p>
-<h3>3. Vue</h3>
-<p>The selling point for <a target="_blank" href="https://vuejs.org/" rel="nofollow noopener noreferrer">Vue</a> is the size of the framework. At only 20KB, this is one of the most lightweight frameworks on the list. The inspiration for Vue came from work the original developer completed on Angular. In 2014, Vue was released as a slimmed-down alternative to Angular and has maintained a cult following ever since.</p>
-<h4>Pros</h4>
-<p>Much like Angular, getting up to speed with Vue is not difficult. You can leverage your skills with HTML, CSS, and JavaScript. You can also build templates and components in Vue, much as you would with ReactJS. </p>
-<h4>Cons</h4>
-<p>Many developers rank Vue as a third-choice framework, behind Angular and React. To this end, the community supporting Vue is much smaller, and the development of the framework is not as robust as other, more popular frameworks.</p>
-<h4>Bottom line</h4>
-<p>Vue is an excellent alternative framework to learn and leverage as you need. It is a contending framework and could potentially be a smart alternative to Angular.</p>
-<h3>4. Ember</h3>
-<p><a target="_blank" href="https://emberjs.com/" rel="nofollow noopener noreferrer">Ember</a> is one of the younger frameworks on this list. Released in 2011, its focus is on helping you build complex web applications. It offers:</p>
-<ul>
-<li>More productivity right out of the box when compared to others on this list</li>
-<li>Stability without stagnation</li>
-<li>Support for HTML5</li>
-</ul>
-<p>With these principles and continuous development, Ember is now in use for many large and popular applications, such as Apple Music, LinkedIn, and Square.</p>
-<h4>Pros</h4>
-<p>The modular architecture and many hundreds of plugins make Ember a framework that gives you a lot right out of the starting gate. Also, solutions built with Ember can be converted into native applications such as Apple Music.</p>
-<h4>Cons</h4>
-<p>Ember leverages modules to extend the framework. The challenge as a developer is knowing which modules you should be using. Besides, there is a learning curve required to get started with Ember.</p>
-<h4>Bottom line</h4>
-<p>Ember is evolving quickly into a mature and stable alternative for building web apps and native apps when compared to React.Native and Angular.</p>
-<h3>Svelte</h3>
-<p><a target="_blank" href="https://svelte.dev/" rel="nofollow noopener noreferrer">Svelte</a> is the anti-framework framework. There are issues with some frameworks, such as a large codebase required to run scripts. Svelte, released in 2016, is driving the campaign to reduce the challenges of some traditional frameworks.</p>
-<p>For instance, a simple <a target="_blank" href="http://svelte-todomvc.surge.sh/" rel="nofollow noopener noreferrer">To Do MVP</a> application written with Svelte will weigh in at 3.6KB, whereas the same app written for React tops 45KB—10 times bigger. </p>
-<p>Svelte can create tiny apps because of the model it uses for building applications. Other frameworks, included the ones listed above, rely on the web browser do the bulk of the work.</p>
-<p>With Svelte, you write components with CSS, HTML, and JavaScript, and then Svelte compiles the code into JavaScript modules. The result is that the browser does not have to do as much work. Which, in turn, means you can write more complex applications.</p>
-<h4>Pros</h4>
-<p>JavaScript modules are an effective way of speeding up any JavaScript application. The approach Svelte brings is to increase the efficiency of your apps.</p>
-<h4>Cons</h4>
-<p>Many web developers have not worked with JavaScript modules. The whole approach Svelte offers is very different, and, because Svelte is the new kid on the block, the developer community is still growing.</p>
-<h4>Bottom line</h4>
-<p>Svelte offers an interesting approach to Web app development. There is merit in working with JavaScript modules, and the model Svelte offers is one that developers should experiment with. With that said, Svelte is thin on documentation. So, for the foreseeable future, treat Svelte as experimental.</p>
-<h3>Go beyond web apps</h3>
-<p>The focus of these frameworks is web apps, but that is no longer the world we live in. Back-end frameworks and accelerators also play a huge role in app development these days. (Those are topics go beyond the scope of this article, but need to be mentioned.)</p>
-<p>Important accelerators include cloud, open-source tools, DevOps methodologies and security. But in many ways, the most critical accelerator is your mindset. As a modern developer, you must adopt a mindset of constant learning to continually improve the delivery model to meet the ever-increasing demands of your customers.</p>
-<p>You must be able to effectively deliver solutions that can scale across all of the platforms your customers use. The combined power of front-end, back-end, and accelerators will give you the edge you need.</p>
-<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
-</p></div>
-<p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/five-best-web-application-frameworks-how-choose">Source link </a></p>
 ]]></content:encoded>
 					
 		
