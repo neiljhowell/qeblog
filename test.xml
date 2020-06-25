@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 19 Jun 2020 12:19:21 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 24 Jun 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,89 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Virtual software development teams: 4 challenges to overcome</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/virtual-software-development-teams-4-challenges-to-overcome/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 24 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[challenges]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[Overcome]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[Teams]]></category>
+		<category><![CDATA[Virtual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/virtual-software-development-teams-4-challenges-to-overcome/</guid>
+
+					<description><![CDATA[The current public health crisis with COVID-19 has sent millions of software developers home. Software development teams that used to]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p dir="ltr">The current public health crisis with COVID-19 has sent millions of software developers home. Software development teams that used to meet for daily standup meetings in conference rooms now find they <a target="_blank" href="https://techbeacon.com/enterprise-it/3-things-every-it-org-should-be-doing-get-ahead-pandemic" rel="noopener noreferrer">have been transformed into virtual teams</a> overnight.</p>
+<p dir="ltr">In many companies, having teams distributed globally and working virtually is business as usual. Other dev teams are facing the challenges of adapting suddenly to a new work environment.</p>
+<p dir="ltr">Research and experience have shown that <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-run-design-sprint-virtual-teams" rel="noopener noreferrer">virtual teams in software development</a> face four major hurdles. Here they are, explained—along with solutions to help overcome them.</p>
+<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
+<h3>Maintaining the company culture</h3>
+<p dir="ltr">Company culture is an immersive experience. It&#8217;s something we take for granted. Generally, experience tells us what the culture will bear in terms of relationships to family, patterns of accountability, the ratio of work to play allowed in the workspace, etc.</p>
+<p dir="ltr">Culture creates cohesion, impacts motivation, and regulates behaviors within an organization. Company culture also enables all contributors to interpret senior management dictates.</p>
+<p dir="ltr">When people work from home, these familiar signposts begin to break down. It&#8217;s sometimes difficult, in a vacuum, to interpret management communications that appear quietly in the email inbox. Absent the omnipresence of the company culture, it becomes more difficult for team members to know how to interpret communications that come from afar.</p>
+<h4>How to maintain culture</h4>
+<p dir="ltr">Periodic meetings where senior managers from outside the team communicate directly with the dev team, using tools such as Zoom, help mitigate the risks to company culture when teams go virtual. They also give managers an opportunity to update the strategy.</p>
+<p dir="ltr">Ideally these would be <a target="_blank" href="https://knowyourteam.com/blog/2019/10/03/skip-level-meetings-what-they-are-and-exactly-how-to-run-them/" rel="nofollow noopener noreferrer">skip-level meetings</a> where you, as a manager, meet one-on-one with the direct report of another manager, who in turn reports to you.</p>
+<p dir="ltr">It also helps teams to have a strategy document, stored in the cloud, that is a single version of the truth. The strategy should be periodically updated and stored where it is accessible to the team. It should be reviewed (briefly) before each road map meeting and cited during company all-hands meetings.</p>
+<p dir="ltr">The COVID-19 crisis discourages retreats or strategy workshops where everyone is invited. Although virtual retreats are difficult to pull off well, various organizations have tried them with success. They often mix in recreational activities along with sessions on culture and training on new systems.</p>
+<p dir="ltr">Make the unconscious cues in the company culture conscious. Refer to them often and reinforce them. Company culture can follow your team members home, but only if it is made explicit and constantly reinforced.</p>
+<p dir="ltr">Above all, calling out company culture at every opportunity helps enormously. Each and every corporate communication (announcements for new hires, departures, and reorganizations) provides great opportunities for reinforcing culture.</p>
+<p dir="ltr"><a target="_blank" href="https://techbeacon.com/devops/how-increase-enterprise-collaboration-speed-your-devops-pipeline" rel="noopener noreferrer">Tools for maintaining culture</a> include in-house wikis, Google Docs, and twice-yearly retreats (including virtual).</p>
+<h3>Keeping focused on the product vision</h3>
+<p dir="ltr">The problem with losing track of the <a target="_blank" href="https://www.tcgen.com/product-development-strategy#spp-tool-5" rel="nofollow noopener noreferrer">product vision</a> is that the software dev team will lose cycles as it addresses the wrong problems. The greatest danger is time wasted in nonproductive work that does not tie to the product vision.</p>
+<p dir="ltr">In the worst-case scenario, a team that <a target="_blank" href="https://techbeacon.com/app-dev-testing/projects-products-what-it-means-why-it-matters" rel="noopener noreferrer">loses sight of the product vision</a> can deliver the wrong solution at the end of a long and expensive dev cycle.</p>
+<h4>How to maintain focus </h4>
+<p>Hold monthly road map reviews, where alignment with the product vision and the app under development is discussed and updated. Look over the product road map and release trains, assess where you&#8217;ve been, where you’re planning to go, and what the next steps should be.</p>
+<p>Again, having a simple, one-page product vision—representing a single, shared version of the truth—helps.</p>
+<p dir="ltr">Another solution is to use <a target="_blank" href="https://www.tcgen.com/tools-from-book/boundary-conditions-diagram" rel="nofollow noopener noreferrer">boundary conditions</a>, a tool of exception management. In this methodology, the dev team and upper management agree on the minimum viable product (MVP). They then break it down to three to five parameters of the project—such as project cost, product cost, features, timing, and quality—and define quantitative metrics for each of these parameters.</p>
+<p dir="ltr">Then the dev team does its work without interference from upper management, as long as it looks as if it will hit its quantitative targets.</p>
+<p dir="ltr">If the project begins to go off course, then a lightweight <a target="_blank" href="https://www.tcgen.com/tools-from-book/out-of-bounds-check" rel="nofollow noopener noreferrer">escalation process</a> kicks in that helps the team get back on track. Having clear parameters to work toward helps keep the team focused, ultimately, on the original product vision.</p>
+<p dir="ltr">Another way to face the challenge of losing track of the vision is to appoint a proxy <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-agile-distinguishes-between-product-managers-product-owners" rel="noopener noreferrer">product owner/product manager</a> on your dev team. This person should work in the same time zone as the majority of the team, be empowered to answer questions as they arise, and shepherd the software project toward its goals.</p>
+<p dir="ltr">Tools for managing the product vision include wikis, Google Docs, road maps, and others.</p>
+<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
+<h3>Staying true to agile methodologies</h3>
+<p dir="ltr">How can teams maintain the integrity and power of agile methodology <a target="_blank" href="https://techbeacon.com/app-dev-testing/distributed-agile-teams-8-hacks-make-them-work" rel="noopener noreferrer">when the members are physically separate</a>? Most of the principles of agile imply a collocated team. For example, from <a target="_blank" href="http://agilemanifesto.org" rel="nofollow noopener noreferrer">the Agile Manifesto</a>: &#8220;The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.&#8221; </p>
+<p dir="ltr">This can happen over videoconferencing, of course, but the authors certainly intended &#8220;face-to-face&#8221; to mean in person. </p>
+<h4>How to maximize remote agile teams</h4>
+<p dir="ltr">Thankfully, some of the elements of the Agile Manifesto can more easily apply to virtual teams. For example, principles of agile such as &#8220;continuous attention to technical excellence and good design enhances agility&#8221; also apply to virtual software teams.</p>
+<p dir="ltr">As teams become virtual, make sure that you have defined and put in place a minimal set of <a target="_blank" href="https://www.clearlyagileinc.com/agile-blog/what-are-agile-ceremonies" rel="nofollow noopener noreferrer">required agile events</a>. One definition of an agile event: The meetings prescribed to carry out the Scrum framework, which give Scrum its regularity and structure. Choose the vital few, or risk spending all your time on process, rather than on real work.</p>
+<p dir="ltr">Remote agile is an area where technology helps. Essential agile tools include backlog, definition of &#8220;done,&#8221; burndown chart, release plan, and retrospectives. And each of these has an app that can help.</p>
+<p dir="ltr">The most important aspect of staying agile in virtual teams is to keep the roles of the Scrum master (SM) and product owner (PO). And you should have SM and PO proxies for each group of team members who share a common time zone. </p>
+<p dir="ltr">Their role is to stop and answer questions within an hour that might hang up a developer for a day. For bigger issues, the proxies can reach back to the true product owner for confirmation of the direction given locally. The proxies have a fast track to the primary PO and SM and can get a same-day (or 24-hour) response.</p>
+<h3>Managing for collaboration day in and day out</h3>
+<p dir="ltr">Working beside other people in a collocated environment has many advantages in terms of communication. For example, when one team member is on the phone, perhaps speaking to an internal or external customer, team members located nearby can hear one-half of the phone conversation and intuit the rest.</p>
+<p dir="ltr">Information conveyed in this ambient manner is important, and it is almost impossible to replicate in a virtual team environment.</p>
+<h4>How to manage collaboration</h4>
+<p dir="ltr">One commonly used countermeasure is finding a virtual replacement for real-life bonding, like sharing personal weekend plans or even a virtual happy hour. But virtual teams can take several steps to ensure that they keep collaborating effectively even on lockdown.</p>
+<p dir="ltr">First, make it clear, through a release planning document and through boundary conditions, what it is you&#8217;re collaborating on. At the beginning of a project, make sure that you have defined roles and responsibilities. Now is not the time for team members to have only a vague idea about who is the directly responsible individual for a given deliverable. The <a target="_blank" href="https://www.tcgen.com/tools-from-book/circle-dot-chart" rel="nofollow noopener noreferrer">Circle Dot Chart</a> is a tool that can help teams define and maintain roles and responsibilities as they work virtually.</p>
+<p dir="ltr">You can also create transparency for teamwork by having a shared workspace, and sharing interim work products in a cloud-based environment.</p>
+<p dir="ltr">Above all, have version control protocols and observe them. Version control for all documents and work product is especially vital where teams are not located in the same time zone.</p>
+<p dir="ltr">All team members must not only have a single version of the truth, but also know that it is the most current version, the latest and greatest version of your work. Managing the permissions in your tools is important. Make one individual responsible for the document and allow only that person to edit it.</p>
+<p dir="ltr">Tools for collaboration include <a target="_blank" href="https://almanac.io/articles/19090/spade-decision-making-framework" rel="nofollow noopener noreferrer">the SPADE decision-making framework</a> and <a target="_blank" href="https://fellow.app" rel="nofollow noopener noreferrer">Fellow.app</a>, which has both free and pro versions.</p>
+<h3>Hire and communicate for virtual team success</h3>
+<p dir="ltr">In addition to meeting these four challenges, virtual teams raise questions related to hiring and communication. Hiring remote developers is difficult given the time-zone and language challenges. Specialized hiring firms can serve as resources to help you recruit and select candidates when trying to scale rapidly. </p>
+<p dir="ltr">Don&#8217;t forget onboarding. It is one thing to bring in a new hire into headquarters, but entirely different to bring someone into the organization who will not see the company office for six months or longer. Document your onboarding process and have videos that can be watched locally.</p>
+<p dir="ltr">You also need to prepare new hires for work. There are scripts that can configure a laptop for instant productivity with tools preloaded for code repositories, development environments, and links to company resources.</p>
+<p dir="ltr">With virtual software teams, communication and decision making are often difficult challenges. For example, daily stand-up meetings are nearly impossible if conducted as if the team were located in the same building. Time-zone optimization is one tool that organizations use.</p>
+<p dir="ltr">They try to formulate teams so that at least four hours are in common between core team members. If you can&#8217;t get everyone together for a standup, some firms perform asynchronous check-ins using Slack. Other firms have used Basecamp for standups as well. </p>
+<p>Unprecedented times call for unprecedented measures. It&#8217;s imperative to the strategies of many companies that <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-agile-leadership-key-these-uncertain-times" rel="noopener noreferrer">they do not lose steam</a> due to events outside of their control.</p>
+<p>With some thought and innovation, virtual development teams can maintain the best principles of their company cultures, stay focused on their product vision, stay true to agile, and collaborate effectively. The keys are clarity, process, and the appropriate technology. With these in place, virtual teams can forge ahead, without missing a step.</p>
+<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/virtual-software-development-teams-4-challenges-overcome">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Customer Success Engineer &#8211; Neotys</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/customer-success-engineer-neotys/</link>
 		
@@ -1168,138 +1251,6 @@ public void demoSwitchToWindow () 	{
 <br />A recent malware campaign targeted victims at European and Middle East aerospace and military companies &#8211; via LinkedIn spear-phishing messages.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/linkedin-job-offers-targeted-aerospace-military-firms-with-malware/156614/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Selenium JavaScript Automation Testing Tutorial For Beginners</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-javascript-automation-testing-tutorial-for-beginners/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Jun 2020 08:27:05 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Beginners]]></category>
-		<category><![CDATA[Javascript]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Tutorial]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-javascript-automation-testing-tutorial-for-beginners/</guid>
-
-					<description><![CDATA[Users play a vital role in the success of any product, especially when it comes to user interface – we]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Users play a vital role in the success of any product, especially when it comes to user interface – we cannot compromise. We need to introduce <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">functional automation testing</a> to our product and make sure the product’s functionality is as expected and deliver a flawless experience to our end users. There are many tools to do so, Selenium being the most popular among them for web automation (Check out all the latest updates to <a target="_blank" href="https://blog.testproject.io/2020/06/08/selenium-4-new-features/" rel="noopener noreferrer">Selenium 4</a>). In this tutorial, we will focus on JavaScript with Selenium for web automation.</p>
-<h2><strong>Table of Contents – Selenium JavaScript Automation Testing Tutorial For Beginners</strong></h2>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/#selenium-javascript" rel="noopener noreferrer">Intro to JavaScript and Selenium</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#prerequisites" rel="noopener noreferrer">Prerequisites</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#node" rel="noopener noreferrer">Setting up Node.js</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#package-manager" rel="noopener noreferrer">Installing a Package Manager and Adding a Path Variable</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#create-tests" rel="noopener noreferrer">Create and Run Automation Testing using Selenium JavaScript</a></li>
-</ol>
-<hr/>
-<h2><strong><a target="_blank" id="selenium-javascript" rel="noopener noreferrer">Intro to JavaScript and Selenium?</strong></h2>
-<ul>
-<li><strong>JavaScript</strong> is a text-based programming language used both on the client-side and server-side, allowing you to transform static web pages into interactive ones.</li>
-<li><strong>WebDriver</strong> is a remote control interface that enables introspection and control of user agents. It provides a platform and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers – <a target="_blank" href="https://www.w3.org/TR/webdriver/" rel="noopener noreferrer">WebDriver W3C Recommendation</a>. The cross-platform behavior of web browsers is controlled by web driver. Different web browsers such as Chrome, Firefox, Edge, etc have their own implementation of WebDriver Standards. They all possess browser-specific functionalities using the standard APIs.</li>
-<li><strong>Selenium</strong> is an extra wrapper outside the WebDrivers in order to make the WebDriver implementation more smooth and easier for the supporting browsers. For example, if you have Chrome Driver installed on the machine with correct path, Selenium will automatically detect it. The same is the case with other browsers as well. It provides ease to the developers to run the same test script on multiple browser platforms.</li>
-</ul>
-<h2><strong><a target="_blank" id="prerequisites" rel="noopener noreferrer">Prerequisites</strong></h2>
-<ul>
-<li>Node.js (with npm and node installed).</li>
-<li>A package manager for handling open source JavaScript projects.</li>
-<li>Any code editor (I will choose <a target="_blank" href="https://visualstudio.microsoft.com/" rel="noopener noreferrer">Visual Studio</a>).</li>
-<li>Any internet browser (I will be using Firefox in my case).</li>
-</ul>
-<h2><strong><a target="_blank" id="node" rel="noopener noreferrer">Setting up Node.js</strong></h2>
-<p>Open the command prompt and type <strong>“node -v” </strong>(verifying Node.js is installed):</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">node -v</pre>
-<p>Then type <strong>“npm -v”</strong> (verifying npm is installed):</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">npm -v</pre>
-<p>If you are not getting these outputs, then you have to install node and npm manually. Click on the following link <a target="_blank" href="https://nodejs.org/en/download/" rel="noopener noreferrer">https://nodejs.org/en/download/</a> and it will take you to the Node.js official downloads page. Download the version according to the required system you are using. You will see the following page when you click the link given above.</p>
-</p>
-<p><noscript><img class="aligncenter wp-image-12035 size-large" title="node js installation" src="https://blog.testproject.io/wp-content/uploads/2020/05/3-1024x530.png" alt="node js installation" width="640" height="331" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/3-1024x530.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/3-512x265.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/3-768x398.png 768w, https://blog.testproject.io/wp-content/uploads/2020/05/3.png 1257w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></p>
-<h2><a target="_blank" id="package-manager" rel="noopener noreferrer"><strong>Installing a Package Manager and Adding a Path Variable</strong></h2>
-<p>Now we are going to set up the package manager for our project which will be “selenium-web driver”. Just click on the link <a target="_blank" href="https://www.npmjs.com/" rel="noopener noreferrer">https://www.npmjs.com/</a>. It will take you to the following page:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12037 size-large" title="Package Manager" alt="Package Manager" width="640" height="241" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/4-512x193.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/4-768x290.png 768w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" src="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12037 size-large" title="Package Manager" src="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png" alt="Package Manager" width="640" height="241" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/4-1024x386.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/4-512x193.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/4-768x290.png 768w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></p>
-<p>In the search bar type ‘selenium-web driver’ and hit enter. You will be taken to the next page where you will find selenium web drivers for different browsers:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12038 size-full" title="selenium web drivers for different browsers" alt="selenium web drivers for different browsers" width="422" height="315" src="https://blog.testproject.io/wp-content/uploads/2020/05/5.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12038 size-full" title="selenium web drivers for different browsers" src="https://blog.testproject.io/wp-content/uploads/2020/05/5.png" alt="selenium web drivers for different browsers" width="422" height="315"/></noscript></p>
-<p>Click on Firefox (or whichever browser you would like to use). Then, you’ll see options for different kinds of operating systems you are working on. Simply select the one you are using:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12039 size-full" title="Package Manager Operating Systems" alt="Package Manager Operating Systems" width="985" height="294" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/6.png 985w, https://blog.testproject.io/wp-content/uploads/2020/05/6-512x153.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/6-768x229.png 768w" data-lazy-sizes="(max-width: 985px) 100vw, 985px" src="https://blog.testproject.io/wp-content/uploads/2020/05/6.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12039 size-full" title="Package Manager Operating Systems" src="https://blog.testproject.io/wp-content/uploads/2020/05/6.png" alt="Package Manager Operating Systems" width="985" height="294" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/6.png 985w, https://blog.testproject.io/wp-content/uploads/2020/05/6-512x153.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/6-768x229.png 768w" sizes="(max-width: 985px) 100vw, 985px"/></noscript></p>
-<p>Now we need to set up the path variable for our web driver. In order to do so, just unzip the file in your C directory inside the folder “seleniumWebdrivers” (you have to make a new folder) as seen below:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12040 size-full" title="Selenium WebDriver" alt="Selenium WebDriver" width="828" height="322" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/7.png 828w, https://blog.testproject.io/wp-content/uploads/2020/05/7-512x199.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/7-768x299.png 768w" data-lazy-sizes="(max-width: 828px) 100vw, 828px" src="https://blog.testproject.io/wp-content/uploads/2020/05/7.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12040 size-full" title="Selenium WebDriver" src="https://blog.testproject.io/wp-content/uploads/2020/05/7.png" alt="Selenium WebDriver" width="828" height="322" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/7.png 828w, https://blog.testproject.io/wp-content/uploads/2020/05/7-512x199.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/7-768x299.png 768w" sizes="(max-width: 828px) 100vw, 828px"/></noscript></p>
-<p>Copy the above path to your clipboard:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12041 size-full" title="Selenium WebDriver" alt="Selenium WebDriver" width="316" height="52" src="https://blog.testproject.io/wp-content/uploads/2020/05/8.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12041 size-full" title="Selenium WebDriver" src="https://blog.testproject.io/wp-content/uploads/2020/05/8.png" alt="Selenium WebDriver" width="316" height="52"/></noscript></p>
-<p>Then go to search and type “environmental variables”. You will see the following pop-up showing:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12042 size-full" title="environmental variables" alt="environmental variables" width="376" height="71" src="https://blog.testproject.io/wp-content/uploads/2020/05/9.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12042 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/9.png" alt="environmental variables" width="376" height="71"/></noscript></p>
-<p>Click on it and you will have the following window opened:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12043 size-full" title="environmental variables" alt="environmental variables" width="535" height="567" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/10.png 535w, https://blog.testproject.io/wp-content/uploads/2020/05/10-483x512.png 483w" data-lazy-sizes="(max-width: 535px) 100vw, 535px" src="https://blog.testproject.io/wp-content/uploads/2020/05/10.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12043 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/10.png" alt="environmental variables" width="535" height="567" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/10.png 535w, https://blog.testproject.io/wp-content/uploads/2020/05/10-483x512.png 483w" sizes="(max-width: 535px) 100vw, 535px"/></noscript></p>
-<p>Click on environmental variables and you will get to the following window:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12045 size-full" title="environmental variables" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/11.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/11-456x512.png 456w" data-lazy-sizes="(max-width: 687px) 100vw, 687px" src="https://blog.testproject.io/wp-content/uploads/2020/05/11.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12045 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/11.png" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/11.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/11-456x512.png 456w" sizes="(max-width: 687px) 100vw, 687px"/></noscript></p>
-<p>Simply select the path and click on the edit button:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12046 size-full" title="environmental variables" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/12.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/12-456x512.png 456w" data-lazy-sizes="(max-width: 687px) 100vw, 687px" src="https://blog.testproject.io/wp-content/uploads/2020/05/12.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12046 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/12.png" alt="environmental variables" width="687" height="772" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/12.png 687w, https://blog.testproject.io/wp-content/uploads/2020/05/12-456x512.png 456w" sizes="(max-width: 687px) 100vw, 687px"/></noscript></p>
-<p>You will see this window appearing up:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12047 size-full" title="environmental variables" alt="environmental variables" width="595" height="664" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/13.png 595w, https://blog.testproject.io/wp-content/uploads/2020/05/13-459x512.png 459w" data-lazy-sizes="(max-width: 595px) 100vw, 595px" src="https://blog.testproject.io/wp-content/uploads/2020/05/13.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12047 size-full" title="environmental variables" src="https://blog.testproject.io/wp-content/uploads/2020/05/13.png" alt="environmental variables" width="595" height="664" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/13.png 595w, https://blog.testproject.io/wp-content/uploads/2020/05/13-459x512.png 459w" sizes="(max-width: 595px) 100vw, 595px"/></noscript></p>
-<p>Click on new and add the path you recently copied and click on the OK button.</p>
-<p>Now, go to the folder in the C drive where you put the geckodriver.exe file and open it. You should see this type of output confirming that your path has been set correctly:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12048 size-full" title="Setting the Path" alt="Setting the Path" width="953" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/14.png 953w, https://blog.testproject.io/wp-content/uploads/2020/05/14-512x279.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/14-768x418.png 768w" data-lazy-sizes="(max-width: 953px) 100vw, 953px" src="https://blog.testproject.io/wp-content/uploads/2020/05/14.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12048 size-full" title="Setting the Path" src="https://blog.testproject.io/wp-content/uploads/2020/05/14.png" alt="Setting the Path" width="953" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/14.png 953w, https://blog.testproject.io/wp-content/uploads/2020/05/14-512x279.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/14-768x418.png 768w" sizes="(max-width: 953px) 100vw, 953px"/></noscript></p>
-<h2><strong><a target="_blank" id="create-tests" rel="noopener noreferrer">Create and Run Automation Testing using Selenium JavaScript</strong></h2>
-<p>Now that we’ve completed the dependencies part, it’s time to create a JavaScript project and write our first testing code. Go to any directory and create a new project by typing “npm init”:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">npm init</pre>
-<p>Then, open the terminal in vs-code or in the command line and type “npm install selenium-webdriver” and hit enter. Open the package.json file, it should look like the following:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12050 size-full" title="package.json file" alt="package.json file" width="642" height="427" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/16.png 642w, https://blog.testproject.io/wp-content/uploads/2020/05/16-512x341.png 512w" data-lazy-sizes="(max-width: 642px) 100vw, 642px" src="https://blog.testproject.io/wp-content/uploads/2020/05/16.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12050 size-full" title="package.json file" src="https://blog.testproject.io/wp-content/uploads/2020/05/16.png" alt="package.json file" width="642" height="427" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/16.png 642w, https://blog.testproject.io/wp-content/uploads/2020/05/16-512x341.png 512w" sizes="(max-width: 642px) 100vw, 642px"/></noscript></p>
-<p>Now, let’s create a new file with the name “index.js”. This is our time to start writing some code! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p><strong>Piece-wise code with explanation</strong>:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">const {Builder,Buy,Key,util} = require("selenum-webdriver");</pre>
-<p>In the above Code we are simply pulling out functions from the node module.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">async function example()
-
-{
-
-let driver = await new Builder.forBrowser("firefox").build();</pre>
-<p>Created the function with the name “example” and waiting for the browser to build and load properly.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">await driver.get("http://google.com");</pre>
-<p>Trying to fetch <a target="_blank" href="https://google.com" rel="noopener noreferrer">http://google.com</a> from the browser with our code.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">await driver.findElement(By.name("q").sendKeys("Selenium",Key.RETURN));</pre>
-<p>Sending a search query by the name selenium.</p>
-<p><strong>Below is the complete code</strong>:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">const {Builder,Buy,Key,util} = require("selenum-webdriver");
-
-async function example()
-
-{
-
-let driver = await new Builder.forBrowser("firefox").build();
-
-await driver.get("http://google.com");
-
-await driver.findElement(By.name("q").sendKeys("Selenium",Key.RETURN));
-
-}
-
-example();</pre>
-<p>In order to run this, go to the terminal and type node index (name of the file in which you put the above code). You should be getting the desired output as below:</p>
-<p><img loading="lazy" class="aligncenter wp-image-12052 size-full" title="Selenium JavaScript Test" alt="Selenium JavaScript Test" width="929" height="684" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/17.png 929w, https://blog.testproject.io/wp-content/uploads/2020/05/17-512x377.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/17-768x565.png 768w" data-lazy-sizes="(max-width: 929px) 100vw, 929px" src="https://blog.testproject.io/wp-content/uploads/2020/05/17.png"/></p>
-<p><noscript><img class="aligncenter wp-image-12052 size-full" title="Selenium JavaScript Test" src="https://blog.testproject.io/wp-content/uploads/2020/05/17.png" alt="Selenium JavaScript Test" width="929" height="684" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/17.png 929w, https://blog.testproject.io/wp-content/uploads/2020/05/17-512x377.png 512w, https://blog.testproject.io/wp-content/uploads/2020/05/17-768x565.png 768w" sizes="(max-width: 929px) 100vw, 929px"/></noscript></p>
-<p>We’ve got our first Selenium JavaScript test up and running! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f31f.png" alt="🌟" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />I invite you to dive even further to learn some <a target="_blank" href="https://blog.testproject.io/2018/03/08/selenium-javascript-best-practices/" rel="noopener noreferrer">Selenium with JavaScript</a> best practices, and read more content on JavaScript and automation testing in this <a target="_blank" href="https://blog.testproject.io/category/javascript/" rel="noopener noreferrer">JavaScript category</a>.</p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/06/17/selenium-javascript-automation-testing-tutorial-for-beginners/">Source link </a></p>
 ]]></content:encoded>
 					
 		
