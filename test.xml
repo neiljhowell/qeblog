@@ -905,6 +905,41 @@ public void demoSwitchToWindow () 	{
 		
 			</item>
 		<item>
+		<title>Goodbye Sample Test Frameworks, Hello Sauce Training Repo</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/goodbye-sample-test-frameworks-hello-sauce-training-repo/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[frameworks]]></category>
+		<category><![CDATA[Goodbye]]></category>
+		<category><![CDATA[Repo]]></category>
+		<category><![CDATA[Sample]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[Training]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/goodbye-sample-test-frameworks-hello-sauce-training-repo/</guid>
+
+					<description><![CDATA[All good things need to come to an end. In this case, that’s true of the Sauce Sample Test Frameworks]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>All good things need to come to an end. In this case, that’s true of the Sauce Sample Test Frameworks GitHub organization. While these sample frameworks are now gone, they’re not forgotten. In fact, we’ve replaced them with something better.</p>
+<p>In the past, this organization provided barebones examples of connecting to Sauce Labs with sample frameworks in a large variety of languages and tools. These frameworks were mainly based on Selenium and testing a basic web page. The underlying philosophy of these sample test frameworks was “If it can be used with Sauce Labs, it should be in there.” This approach worked pretty well for a while; new and existing Sauce users could find snippets of what they needed, and folks within Sauce Labs could show examples of how Sauce integrates with different tools. The Sauce Labs Sample Frameworks were also a way to give back free and open source code to the community, an important value for Sauce Labs in the past and present.</p>
+<p>Over time, this approach of “something for everyone” started to show some wear and tear. Many sample frameworks were difficult to maintain as the underlying tool or language evolved. Some samples were built in languages that had little to no support in the Selenium community (such as Perl), while others were built using test tools that were deprecated and no longer maintained (Lettuce and Nose, both now dead projects in the Python community). Finally, as Sauce Labs grew its mobile platform offerings, examples of using Appium needed to be added. However, there were already existing Appium examples elsewhere outside this GitHub organization. These sample frameworks were becoming more difficult to keep up and less helpful for Sauce users of all kinds.</p>
+<p>In light of this, we’ve retired this organization. We realized we needed an overhaul—not just of the actual code in these example frameworks—but also how we organize and prioritize these examples.. Code examples should be thoughtfully created to set up Sauce users for success and give users confidence in getting started with Sauce, regardless of their test automation experience or goals. </p>
+<p>To accomplish this, we’ve created the <a target="_blank" href="https://github.com/saucelabs-training" rel="noopener noreferrer">Sauce Labs Training</a> organization. This org contains code samples of how to use Sauce Labs in the five most common languages we work with:</p>
+<p>This includes virtual and real device examples. Each of the language-specific repos in the Sauce Training organization has complete examples of using Selenium or Appium with Sauce Labs, and will contain examples of running automated tests against virtual desktop browsers, mobile emulators and simulators, and real mobile devices. The example code for automated tests in these repos have been carefully designed by Sauce’s excellent <a target="_blank" href="https://saucelabs.com/our-experts" rel="noopener noreferrer">Solutions Architects</a> to reflect commonly used test tools and frameworks in each language following idiomatic language practices. In addition to connecting to Sauce Labs to run automated tests, these repos have examples of how to use Sauce Labs’ specific features and some materials for <a target="_blank" href="https://github.com/saucelabs-training/Getting-Started-with-Selenium/releases" rel="noopener noreferrer">getting started with Selenium</a> and examples of how to use our latest and greatest<a target="_blank" href="https://saucelabs.github.io/sauce_bindings/docs/overview.html" rel="noopener noreferrer"> Sauce Bindings</a>. The Sauce Labs Training repo is meant to be a single source of code-based examples of how to connect to Sauce Labs, for everyone in the Sauce Labs community.  </p>
+<p>Thanks for the years of service, Sample Test Frameworks!</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/goodbye-sample-test-frameworks-hello-sauce-training-repo">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>365 Migration Local Environment Issue?</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/365-migration-local-environment-issue/</link>
 		
@@ -1266,346 +1301,6 @@ example();</pre>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/06/17/selenium-javascript-automation-testing-tutorial-for-beginners/">Source link </a></p>
 ]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Design Systems and Testability &#124; Applitools</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-systems-and-testability-applitools/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 16 Jun 2020 05:30:35 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Applitools]]></category>
-		<category><![CDATA[design]]></category>
-		<category><![CDATA[systems]]></category>
-		<category><![CDATA[Testability]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-systems-and-testability-applitools/</guid>
-
-					<description><![CDATA[What is a design system? Who would use it, and for what benefit? In May 2020, Applitools had the pleasure]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<p>What is a design system? Who would use it, and for what benefit?</p>
-
-
-
-<p>In May 2020, Applitools had the pleasure of hosting Tyler Krupicka from Intuit for an hour-long webinar discussing design systems and testability.</p>
-
-
-
-<p>Tyler works at Intuit, a 9,400 employee company headquartered in Mountain View, California, that specializes in accounting and tax preparation software. At Intuit, Tyler works on the “Player/Design Systems” team, where he focuses on design systems.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Tyler has been working on web development at Intuit since 2015. These days, he works on UI components, tools, and testing. He primarily uses TypeScript, React and Vue. He also focuses on accessibility, and he serves as a “Level 2” Accessibility Champion inside Intuit.As part of Tyler’s job, he ensures that design systems are testable. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>What Is A Design System</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Tyler started asking this question. Some people think about large design systems:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Material Design (Google’s design system)</li><li>Human Interface Guidelines (Apple’s design system)</li><li>Bootstrap (set of UI interface components and CSS that are popular on the web)</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>People look at these and think, “Is this overkill?” After all, Google uses Material Design for Android. How many people design an entire operating system. So, Tyler dove in to answer his question.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><img src="https://lh3.googleusercontent.com/dOgZTdbgh04Hp8jObOMLOa0cEaH4XJdAjaUeu03wmlivx_GJagjl-5X1D0jpIGDOz5aVPl6G4O1A4MPoThtwkrZKnS5qxZlhADgPQmJO2jnC0OBUV7oQaMtOmwuULt6pgC8NbqBy" width="624" height="352"/>First, Tyler sees design systems as really “Design + Code.” One part of a design system are the “design” – the common components and patterns that get used throughout products. The other part of the design system, Code, involves chunks of functionality interacting with design developers can reuse across a product.  For example, CSS Frameworks, or React, or in some other way that lets teams reuse the same code.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><img width="624" height="344" src="https://lh5.googleusercontent.com/OkAAMVVRXwJAHQOz0OTvSkFIA_nilcBoYZMMvFHz_oJvb4pEtcRWN_UO9svkUKTkehnG6aw4lVVkscdln_iaufBbUaj-YfugF7XiQ68RY4WQMGPBXwGMMjPpyYUSU4XWJchy8oLQ"/></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Design</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>“Design” turns into a consistent voice for your product. Those are things like typography, colors, and spacing, as well as UI components (forms, charts, site navigation), Graphics and Animation standards. These help standardize the visualization – the “look” – of the application. One can imagine an application developed by a large team that lacked a standard design – it would be disorienting to customers who expect consistency from software. A design system lets  you take base pieces, document them well, and reuse them.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/rEG0fDEAb3ZCYcfgUSvVyVNht1XcmoLGMCCPV4rpaUxGko66rU8TaXNH1w9Eu6vy_Ecg9uJUM5bs0ddwlEf2IveYJKxLVq7Du7Zh5hgt7o7ulfraqE-mOcP96ofrr0bxDnEpmNJH" alt=""/></figure><!-- /wp:image --><!-- wp:heading {"level":3} --><h3>Code</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>“Code” lets you build and document components individually, test them once, and have a way to set expectations on whether or not this application will work.  For instance, you can build a component in the app for one persona and reuse that component multiple times inside the app without worrying that you must retest it. Reuse makes code standard and creates standards for interacting with design. If you ever change design elements, the standard code reduces the effort to validate the new design with existing code. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Combining design and code into a design system results in increased developer productivity and a consistent voice for the application. And using a design system simplifies the management of an application.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Design Systems at Intuit: TurboTax Example</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Next, Tyler dove into the use of design systems for the Intuit TurboTax product. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Tyler explained how TurboTax works. By providing users with interview-style questions, TurboTax helps millions of people, primarily in the United States and Canada, file their income tax returns. Intuit offers both web and mobile versions of TurboTax.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/CY31no0hRZLmoX3H6gITCfmHWPb76237RMLQ87WNno3B0FIqwhlsFZgBHUqAmNhSdWOlChJp3hxnCXWuxFw7DRSeSnxjH-M8SJ10pvciPK0NIVor48wxCsS3SM034VStwe-Mxah8" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Because TurboTax uses interview questions to create conditional flows through the product, there are thousands of screens users can encounter based on their unique needs. Screens can range in complexity from a single question to a complete form. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Building the TurboTax Design System</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>To create the design, Intuit develops about 50 UI components needed to run the experience. Headers, radio buttons, tiles, multi-select, data entry, action buttons – all become part of the basic UI. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Intuit also builds a set of about 500 “mocks”, or mock-ups, of what common screens look like for testing. These help show the UI components in common layouts for testing purposes.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>By using a design system, Intuit can make changes to the application and ensure consistency for all these screens. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Tyler gave the example of a decision to deliver a uniform increase in contrast in TurboTax for accessibility. The contrast changes required updates to typography weight, button color, and link color. This work would impact over 90% of all the screens. How could Intuit deliver these changes to the application and ensure they occurred consistently across the application? The team did not have the staff needed to manually check every possible screen. Instead, they made the design changes to the UI components and validated the mocks.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Testing A Design System</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Next, Tyler dove into a discussion of testing a design system. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/RITYU9CY1I9PhfrkzhhzCrJz00Tb3wZqTuMHtDKeh__cUkrk4xkAgodR93ZhxGQTekIi0a5k8FwWzssQmx7Dv07m2LikokTRKoLHCXkgG4mJS6LuvrMV8BVX0L0FUVoNBgx2TCvk" alt=""/></figure><!-- /wp:image --><!-- wp:heading {"level":3} --><h3>Approach</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Since the design system represents all the functionality and visual representation of the application, Tyler recommends going broad with testing across all the elements, including:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Functionality</li><li>Visual</li><li>Performance</li><li>Accessibility</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>From a functional perspective, unit tests serve as key building blocks for code. Integration tests ensure that the code works wiht the back end. Cross-vrowser tests help ensure that the code works on a bunch of different browsers and mobile devices. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Visual testing validates the impact of UI component changes on the overall UI. If buttons change size or Intuit uses a new font size, does the page continue to render correctly? Do unexpected breaks happen on pages? Do space reductions make pages look too constrained?</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Performance testing involves checking the impact of code changes on page loading times.  Specifically, do new packages or package upgrades change the amount of data transferred between the server and the browser – slowing the user experience? </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Finally, Tyler tests accessibility to make sure that any customer who wants to use the product can do so. Whether a user has a screen reader or navigates solely by keyboard, ensure that the user can get around.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Getting Organized</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>With testing goals articulated, Tyler introduced Storybook as the tool for creating documentation and initial testing. If you use projects like React, Vue and Angular that allow you to build user interfaces in small components, the Storybook project lets you build interactions for those components and document their behavior.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Effectively, you demonstrate a  use case for your components and show how they all interact together on a page.  Each use case is one story – hence Storybook is a collection of these stories. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Storybook allows for a range of tests, including accessibility tests. For instance, Tyler uses Storybook to test keyboard navigation and focus. He also tests for things like hover behaviors – where components appear while the cursor hovers over another element, which may be difficult to test with automation. Testing with Storybook lets the testing team run tests early across the range of design system dimensions.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Dog Fooding</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>To deliver successful products, Tyler’s team must support the construction and use of these UI components. So, they actually write code to try out the components – just to see how they work. Putting together checkboxes or radio buttons, or drop-down lists helps show how the code interacts with components and creates mocks for testing the design system.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/vVQr-aiWAQqFhxGHk8QFW6VMGIouRje-280ED2M1HELLmfKL2d4WnQGo1aPKLwiCwHWc0VG_OvBKKGlcz8kBdTW-xTuw0pYPTRnC6TAD2dIGy6eYvvhNSMs1S1bMf3xh1PgTJ-S-" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Tyler showed the example of a page that looked like static boxes. Each box expanded when clicked to show hidden detail and slid the rest of the page down. His team dog foods this kind of behavior.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>All of these activities help create a body of testable code, so that a design change in the design system can be mocked up and validated without impacting production code.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Testing Walkthrough</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Tyler then walked us through a simple change that can have a signficant implications – resizing a button. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Without a design system, you might have to make a button change like this ad-hoc across your application. As a result, you risk changing the page-to-page behavior and look-and-feel. Using a design system lets you make the change globally, and then focus on the implications.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>What kinds of implications? A larger button might displace elements on a page. The button may not function as expected with existing elements on a given page. All these changes need to be tested.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Unit Tests</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>First, Tyler looked at unit tests. Does the button click? Can the button work with an icon associated with it? Will the button work with an transparent background? Does the button work with assigned <a target="_blank" href="https://www.w3.org/TR/html-aria/" rel="noopener noreferrer">ARIA</a> (Accessible Rich Internet Applications) attributes? Testing puts these Storybook components through their paces.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/wF80Frsy4tsdFngUQWuG0z0-FNgthlC65GrHxnUeO6BTSFQuR0uhkxH1-05u_LZBbDLPGQvPwoKqjKql_RyEKrCarSwJ1pOH4FXKAILSxTk-1-lWLVQPJVcX4oL0qPDnoFWsK7ww" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Intuit have a pretty standard way of running through these tests.  Tyler talked about using <a target="_blank" href="https://jestjs.io/" rel="noopener noreferrer">JEST</a> and <a target="_blank" href="https://webdriver.io/" rel="noopener noreferrer">WebdriverIO</a> and <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a> to automate this testing across multiple browsers. They have lots of users on multiple web browsers, as well as Mac users with Safari an iOS, so they pay special attention to those target platforms. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Accessibility Tests</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Next, Tyler talked about accessibility testing. His team uses <a target="_blank" href="https://www.deque.com/axe/" rel="noopener noreferrer">AXE</a> to perform static validation for ARIA standards on application pages, including contrast checking.  Tyler explained how AXE helps perform contrast checking. For instance, if a button is one color, does the background let the button stand out? AXE can do the contrast checking by comparing the two colors. Or, will the text be readable against its background – or is it too small or too thin? Again – AXE can make these calculations.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Tyler also talked about HTML customizations. For example, you want to use a special radio button design that isn’t included in the existing HTML. You build this behavior as a custom implementation – and then you have to validate this behavior across the browsers your customers use. Tyler pointed out that companies make these decisions to help brand their websites for customers. And, these custom behaviors must be validated for functionality and accessible behavior across multiple platforms.  At the same time, since you are replacing functionality built into HTML, keyboard navigation still needs to behave as expected. So, you need to test those behaviors. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At Intuit, the team tests these behaviors manually – and with tools designed to help. By using popular screenreaders like Jaws, Voiceover, and NVDA, Tyler’s team ensures that these screen readers don’t get thrown off by customizations. Also through manual testing, the team checks to ensure that keyboard navigation results in expected page responses – for example, they make sure that focus states behave as expected. And, they also ensure that the page behaves correctly when a customer has selected “reduced motion”.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Performance Tests</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>From a design perspective, the design system simplifies app delivery. By using standard libraries and building standard behaviors, the design system creates this great look-and-feel. At the same time, developers need to consider the impact on performance. For instance, a specific package might add great mobile behavior – at the cost of an additional 1-2 seconds of page load time. Users likely won’t value the behavior over slower page load time.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You can choose a great library that gives you great functionality – but at what cost? How does the size of your Javascript package impact your page downloads? Often, this problem creeps up on you.  You use an early version of the library and everything works well. But, when you update your application, your library update suddenly doubles in size. This happens quite often. New versions of libraries include new features – which add to the library load times. And, you have to rethink the software you’re using.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Tyler talked about how Intuit handles these kinds of challenges. If Intuit uses code from an open source project, they might contribute back to the project to make a library with reduced size. Or, they might use a different open-source package.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Visual Testing</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Each time a new component gets introduced or modified, Intuit runs tests through Applitools Ultrafast Grid. Intuit has been running Grid since its first beta tests. With Ultrafast Grid, Intuit can set checkpoints and take screenshots across a range of browsers and devices. They can set multiple screen sizes (from mobile to Full HD and  higher). Their goal – ensure that responsive pages behave as expected, and understand the impact of design changes on existing pages. Ultrafast grid gives them the capability to easily compare changes across different versions of an application.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image -->
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/QIGOl8e2yVAaSzRBvMhQ2Vbju2O7LB3WHe68nfEmF9KwsRZSp8k63qlUXckw60K0PWFZbbVPpugQA2MZ0ajw9c_mH9edDjn91yaC1empUvnMCnQCwgdui363WHbFnboH5DlzcITG" alt=""/></figure><!-- /wp:image --><!-- wp:paragraph --><p>Tyler talked about using Ultrafast Grid to test against Chrome, Edge, and Safari. He talked about setting different viewport sizes to check responsive page behavior against expectations. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Component and Mock Level</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Tyler explained how Intuit tests components and mocks. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In Storybook, Intuit keeps the latest components, as well as page mocks for each component in use. When a change occurs in the design system, Intuit can do two kinds of checks:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><li>They can check the components to see if the component changes have violated any specifications</li><li>They check the mocks, to determine how the component changes affect page rendering.</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>So, for instance, Intuit can see if a collection of multiple new components violate spacing guidelines or other design requirements on pages. Applitools Ultrafast Grid helps Intuit do this evaluation.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Also using the mocks, Intuit can also see if a change violates accessibility guidelines using AXE.  </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Accessing Intuit Tools for Design Systems</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Tyler discussed the two tools Intuit uses to ensure success in their design systems.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The first, the Intuit DS-CLI, makes it easy to implement Storybook for your designs. Just like Create-React-App lets you build a web app easily, DS-CLI contains all the code you need to utilize Storybook for component and mock management. This includes preconfigured Storybook, component templates with best practices, great Typescript support, and bundle size tracking.  Tyler mentioned that <a target="_blank" href="https://github.com/intuit/design-systems-cli" rel="noopener noreferrer">DS-CLI is free and open source</a>. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>One great part about DS-CLI is size tracking.  Each component can be tracked over time for package size. You can see when your bundles are growing – and why.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>With the second, Intuit Proof, you can automate the development of test running in Storybook. Proof is a tapable testrunner for Storybook. Proof helps you automate tests for components and mocks by helping you know which ones have tests. In addition, Proof has built-in hooks for Applitools and Axe. So, instead of fumbling about inside Storybook to see what has been tested and what remains, you know what tests exist, which still need to be written, and helps you track their status. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a target="_blank" href="https://github.com/intuit/proof" rel="noopener noreferrer">Proof is also free and open source</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Conclusion</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Tyler’s presentation made it clear that a design system can make your life much easier, but you need to invest in tools and methodology to help ensure consistency – the benefit of a design system. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You need a component evaluation system. You need mockups of your pages to test. And you need a testing environment.  Intuit does all this inside Storybook.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Next, you need a testing strategy to get components evaluated and integrated into your pages. Invest in unit testing and test runners. Especially if you care about being perceived as open to all users – invest in accessibility tools. And, finally, know that rendering matters – invest in visual evaluation solutions like Applitools.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Finally, you need some pieces of infrastructure to make your design system work. Intuit shares theirs open source.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If you make these investments up front, a design system can serve your development and test strategy to help you easily develop incremental improvements across your application without fear of code changes. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Read More</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:paragraph -->
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->								
-			</div>
-<br>
-<br><a href="https://applitools.com/blog/testing-design-systems-2/">Source link </a>]]></content:encoded>
 					
 		
 		
