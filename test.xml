@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 24 Jun 2020 21:21:53 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 29 Jun 2020 04:38:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,323 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Design Patterns in Test Automation</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-patterns-in-test-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 29 Jun 2020 04:38:22 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[Patterns]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-patterns-in-test-automation/</guid>
+
+					<description><![CDATA[This article highlights the design patterns &#38; architectural considerations to take into account when building a Selenium-based / Appium-based Test]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>This article highlights the design patterns &amp; architectural considerations to take into account when building a <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a>-based / <a target="_blank" href="http://appium.io/" rel="noopener noreferrer">Appium</a>-based Test Automation Framework. The examples are purposely shown in various programming languages to highlight that this thought process is applicable for any programming language you use for building an Automation Framework.</p>
+<h2><strong>Table of Contents – Design Patterns in Test Automation</strong></h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#selenium-webdriver" rel="noopener noreferrer">Selenium WebDriver 101</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#why-test-automation-framework" rel="noopener noreferrer">Why do we need a Test Automation Framework?</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#test-automation-criteria" rel="noopener noreferrer">Criteria for building a Test Automation Framework</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#test-automation-design-patterns" rel="noopener noreferrer">Design Patterns in Test Automation Framework</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#page-object-pattern" rel="noopener noreferrer">Characteristics of a good Page-Object Pattern implementation</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#page-object-pattern-challenges" rel="noopener noreferrer">Challenges of using Page-Object Pattern</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#business-layer-page-object" rel="noopener noreferrer">Solution: Business-Layer Page-Object Pattern</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#test-automation-architecture" rel="noopener noreferrer">Test Automation Framework Architecture</a></li>
+</ol>
+<hr/>
+<h2><strong><a target="_blank" id="selenium-webdriver" rel="noopener noreferrer">Selenium WebDriver 101</strong></h2>
+<p>Let’s start by quickly understanding what WebDriver is.</p>
+<p>Selenium is one of the most popular web-automation tools. Surprisingly, a lot of people actually get confused about what Selenium really is.</p>
+<p>Here is the official version of what Selenium is: <a target="_blank" href="https://www.selenium.dev/documentation/en/" rel="noopener noreferrer">https://www.selenium.dev/documentation/en/</a></p>
+<p><a target="_blank" href="https://www.selenium.dev/documentation/en/webdriver/" rel="noopener noreferrer">WebDriver</a><i> is the </i>core of Selenium. It is an interface that uses browser automation APIs provided by browser vendors to simulate user behaviour and interaction by controlling the browser in the form of running tests.</p>
+<p>WebDriver drives a browser either locally or on a remote machine using the Selenium server. Selenium WebDriver refers to both the language bindings and the implementations of the individual browser controlling code. This is commonly referred to as just <i>WebDriver</i>.</p>
+<p><a target="_blank" href="https://www.selenium.dev/documentation/en/" rel="noopener noreferrer">The Selenium Browser Automation Project</a> also lists a quick example of how to quickly get started with using WebDriver.</p>
+<p>Below is another example of how this code can look like:</p>
+<pre class="EnlighterJSRAW">var webdriver = require('selenium-webdriver'),
+    test = require('selenium-webdriver/testing'),
+    assert = require('assert');
+
+test.describe("Google Search", function() {
+
+    test.it("should take user input correctly", function() {
+
+        var driver = new webdriver.Builder().
+            withCapabilities(webdriver.Capabilities.chrome()).build();
+        driver.manage().timeouts().implicitlyWait(1000);
+
+        driver.get("http://localhost:8082/community-app");
+        var element = driver.findElement(webdriver.By.id("uid"));
+        element.sendKeys("mifos");
+        var value = element.getAttribute("value");
+        value.then(function(value) {
+            assert.equal(value, "mifos");
+        });
+
+    });
+
+});
+</pre>
+<hr/>
+<h2><strong><a target="_blank" id="why-test-automation-framework" rel="noopener noreferrer">Why do we need a Test Automation Framework?</strong></h2>
+<p>As seen in the above example, it is easy to get started using WebDriver to simulate user behavior.</p>
+<p>However, typically, one uses WebDriver to automate many different user scenarios / interactions in order to get quick validation if the functionality in the product-under-test is working correctly, as expected. Some of these products may have a small-life, however, most of these would be around for a long time.</p>
+<p>As a result, the team testing this product would have a lot of user scenarios that they would want to be automated. I have seen cases where the team has 1000s of tests identified and automated for their product-under-test.</p>
+<p>In such cases, continuing to implement tests in similar ways as shown in the simple, getting-started example will quickly turn into a nightmare for various reasons of code quality, maintainability, extensibility and scalability.</p>
+<p>You may set up some structure for your tests, and build some sort of a framework, but that will still be limiting as you scale.</p>
+<p></p>
+<p><noscript><img class="alignnone wp-image-12711 size-full" title="Test implementation in Ruby" src="https://blog.testproject.io/wp-content/uploads/2020/05/SomeStructure.png" alt="Test implementation in Ruby" width="379" height="88"/></noscript></p>
+<p>In the above example, of test implementation in Ruby, the home_page.rb file ended up being 1000+ line long, which made it very difficult to quickly understand what this class ended up doing, and what functionality was implemented here.</p>
+<p>The architecture of such a framework looks as simple as this, which could also be referred to as non-existent:</p>
+<p><img loading="lazy" class="alignnone wp-image-12714 size-full" alt="No Design Patterns Used" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-1024x576.jpeg 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg"/></p>
+<p><noscript><img class="alignnone wp-image-12714 size-full" src="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg" alt="No Design Patterns Used" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-1024x576.jpeg 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript></p>
+<p><strong><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </strong><em><strong>We need a better, and structured approach to implementing the test scenarios!</strong></em></p>
+<hr/>
+<h2><strong><a target="_blank" id="test-automation-criteria" rel="noopener noreferrer">Criteria for building a Test Automation Framework</strong></h2>
+<p>Writing code is easy, but writing good code is not as easy. Here are the reasons why I say this:</p>
+<ul>
+<li>“Good” is subjective.</li>
+<li>“Good” depends on the context &amp; overall objective.</li>
+</ul>
+<p>Similarly, implementing <a target="_blank" href="https://blog.testproject.io/2019/03/07/what-test-cases-should-you-automate/" rel="noopener noreferrer">automated test cases</a> is easy (as seen from the getting started example shared earlier). However, scaling this up to be able to implement and run a huge number of tests quickly and efficiently, against an evolving product is not easy!</p>
+<p>I refer to a few principles when building a Test Automation Framework. They are:</p>
+<ul>
+<li>Based on the context &amp; (current + upcoming) functionality of your product-under-test, define the overall objective of <a target="_blank" href="https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/" rel="noopener noreferrer">Automation Testing</a>.</li>
+<li>Based on the objective defined above, determine the criteria and requirements from your Test Automation Framework. Refer to my post on “<a target="_blank" href="https://www.infoq.com/articles/test-automation-ai-ml/" rel="noopener noreferrer">Test Automation in the World of AI &amp; ML</a>” for details on various aspects you need to consider to build a robust Test Automation Framework. Also, you might find these articles interesting to learn how to select the best tool for your requirements:</li>
+</ul>
+<h2><strong><a target="_blank" id="test-automation-design-patterns" rel="noopener noreferrer">Design Patterns in Test Automation Framework</strong></h2>
+<p>Test Automation (using tools like Selenium / Appium) are essentially development activities. One needs to have good programming knowledge to be able to do implement tests that are robust, stable, efficient, fast, maintainable and extensible!</p>
+<p>There are many Design Patterns available for Software Development (as seen <a target="_blank" href="https://en.wikipedia.org/wiki/Software_design_pattern" rel="noopener noreferrer">here</a>). Since Test Automation is also a Development activity – The understanding of Design Patterns is critical in Test Automation as well.</p>
+<p>Below are some commonly used Design Patterns one would use, directly or indirectly, in building a Test Automation Framework:</p>
+<h2><strong><a target="_blank" id="page-object-pattern" rel="noopener noreferrer">Characteristics of a good Page-Object Pattern Implementation</strong></h2>
+<p>A good page-object pattern implementation would have the following characteristics:</p>
+<ul>
+<li>Pages are well identified.</li>
+<li>Use <a target="_blank" href="https://en.wikipedia.org/wiki/Composite_pattern" rel="noopener noreferrer">Composite Pattern</a> to compose complex pages and also allow reuse of snippets of pages across the product.
+<ul>
+<li>Ex: If Search functionality is common across majority of the pages in your product, then:
+<ul>
+<li>Define a SearchPage object.</li>
+<li>In other pages, ex: HomePage, LoginPage, ProductPage, etc, use the Composition Pattern to include SearchPage as part of its definition.</li>
+<li>Example:</li>
+<li><img loading="lazy" class="alignnone wp-image-12715 size-full" title="Composite Pattern" alt="Composite Pattern" width="390" height="403" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodPageObjects.png"/><noscript><img class="alignnone wp-image-12715 size-full" title="Composite Pattern" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodPageObjects.png" alt="Composite Pattern" width="390" height="403"/></noscript></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Pages do not have any assertions in them.</li>
+<li>Pages do not have getters-setters in the pages (or in any class in your code). This is a bad practice and it breaks <a target="_blank" href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)" rel="noopener noreferrer">Encapsulation</a>.</li>
+<li>Pages should have logical methods that do action on the page, or gets information from the page.</li>
+<li>Pages should have no business logic in the Page-Object method implementation, except handling cases like:
+<ul>
+<li>If ex: there are Country &amp; State dropdown controls on the page, and the State values get populated based on which Country is selected, then the method selecting the Country should wait for the items in the State dropdown to get populated.</li>
+</ul>
+</li>
+<li>Each Page object should have an explicit return type, i.e. the Page object method SHOULD NOT return void.
+<ul>
+<li>Ex: On successful login, the method should return the HomePage object.</li>
+<li>On unsuccessful login, the method should return the same LoginPage object.</li>
+<li>There would be cases when you are getting information from the page itself. In such cases, the methods should return specific datatypes.
+<ul>
+<li>Ex: isLoggedIn should return boolean.</li>
+<li>Ex: getLoggedInUserName should return String.</li>
+<li>Ex: getRegisteredAddressInProfile should return a custom object Address, or any other data structure that makes sense in the context of the product-under-test.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>The architecture of such a framework evolves as below:</p>
+<p><img loading="lazy" class="alignnone wp-image-12713 size-full" title="Good Page-Object Pattern Implementation" alt="Good Page-Object Pattern Implementation" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-1024x576.jpeg 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg"/></p>
+<p><noscript><img class="alignnone wp-image-12713 size-full" title="Good Page-Object Pattern Implementation" src="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg" alt="Good Page-Object Pattern Implementation" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-1024x576.jpeg 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript></p>
+<h2><strong><a target="_blank" id="page-object-pattern-challenges" rel="noopener noreferrer">Challenges of using Page-Object Pattern</strong></h2>
+<p>Page Objects help implement tests easily, and keep the code well structured. This allows easy updates in the Page Objects based on evolving product functionality.</p>
+<p>However, there is a challenge.</p>
+<p>In the Test implementation methods, ex: if you are using <a target="_blank" href="https://blog.testproject.io/2019/02/26/junit-5/" rel="noopener noreferrer">JUnit</a> / <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/" rel="noopener noreferrer">TestNG</a> as the test runner, then in the @Test methods, you now need to orchestrate the Page object interactions and also add your assertions.</p>
+<p>Below is an example of 2 tests:</p>
+<h3><strong>Test 1:</strong></h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">@Test
+public void shouldRevertToOriginalContentAfterClickingCancel() {
+
+    PatientInformation patientInfomation = new PatientInformation(firstName, middleName, lastName, gender);
+    RegistrationPage registrationPage = new RegistrationPage();
+    PatientChartPage patientChartPage = registrationPage.registerPatientWithBasicInformation(patientInfomation);
+
+    String originalFirstName = patientChartPage.getFirstName(); 
+    assertThat(originalFirstName, is(firstName)); 
+
+    patientChartPage.updateName(newFirstName, newLastName);
+    patientChartPage.updateAddressLine(newLine1, newLine2);
+    patientChartPage.updateCity(newCity);
+    patientChartPage.updateState(newState);
+    patientChartPage.updateZip(newZip);
+    patientChartPage.cancelUpdate();
+
+    String updatedFirstName = patientChartPage.getFirstName();
+    assertThat(updatedFirstName, is(originalFirstName));
+}</pre>
+<pre/><h3><strong>Test 2:</strong></h3><pre class="EnlighterJSRAW" data-enlighter-language="null">@Test
+public void shouldUpdateExistingPatientWithNewInformationAfterClickingSave() throws InterruptedException {
+
+    PatientInformation expectedPatientInformation = new PatientInformation(firstName, middleName, lastName, gender);
+    RegistrationPage registrationPage = new RegistrationPage();
+
+    registrationPage.registerPatientWithBasicInformation(expectedPatientInformation);
+
+    String originalFirstName = patientChartPage.getFirstName(); 
+    assertThat(originalFirstName, is(firstName)); 
+    
+    patientChartPage.updateName(newFirstName, newLastName);
+    patientChartPage.updateAddressLine(newLine1, newLine2);
+    patientChartPage.updateCity(newCity);
+    patientChartPage.updateState(newState);
+    patientChartPage.updateZip(newZip);
+    patientChartPage.saveUpdate();
+
+    Driver.get().navigate().refresh();
+
+    assertThat(patientChartPage.getFirstName(), is(newFirstName));
+    assertThat(patientChartPage.getLastName()), is(newLastName));
+    assertThat(patientChartPage.getCity(), is(newCity));
+    assertThat(patientChartPage.getState(), is(newState));
+    assertThat(patientChartPage.getAddressLine1()), is(newLine1));
+    assertThat(patientChartPage.getAddressLine2()), is(newLine2));
+    assertThat(patientChartPage.getZip()), is(newZip));
+}</pre>
+<pre/><p>Here are the challenges of this implementation:</p><ul><li>The intent of the test is lost in the details of the interaction of page objects and assertions.</li><li>The @Test methods become quite unreadable.</li><li>There is a lot of duplication in both the test implementations.</li></ul><p>As you implement more variants of test scenarios, you will encounter there would be many instances of test implementations needing slight tweaks to the implemented test to verify variants of the scenarios. In such cases, you would end up copying most of the implementation from 1 test into the others – which is wasted effort, code duplication and makes it difficult to update the tests as the product functionality evolves.</p><p>In some cases, you may be able to extract common methods in the same class to reuse the implementation, but that seems like an ad-hoc way of implementation.</p><p>That is the reason I do not like to use the Page Object Pattern directly in my Test implementation for larger implementations.</p><hr/><h2><strong><a target="_blank" id="business-layer-page-object" rel="noopener noreferrer">Solution: Business-Layer Page-Object Pattern</strong></h2><p>It is very important to have the Test specification be crisp and clear. This way the intent of the test is understood very easily and the reader knows exactly what is expected from the product-under-test as a result of running that particular test.</p><p>This is the area the Business-Layer Page-Object Pattern helps. Below is how the implementation flow is using this pattern:</p><ol><li>Tests should talk business language only! No granular operations / UI interactions.</li><li>The Test implementation is an orchestration of corresponding business operations as it is simulating a deterministic, specific scenario.</li><li>Business operations are implemented in a layer between the tests &amp; page objects – called BusinessLayer. This allows for better reuse of implementation.</li><li>Implementation of an business operation is an orchestration between other business operations, and / or an orchestration of page objects.</li><li>The business operation does the assertions of expectations, NOT page-objects.</li><li>Each business operation / page object has a valid return type (never void). Each operation (in business or page object) being successful means there are a defined number of methods / operations the product can now do (as you are driving the product under test to do your bidding).</li></ol><p>Let’s look at some examples of how this can be implemented.</p><h2><strong><a target="_blank" id="test-automation-architecture" rel="noopener noreferrer">Test Automation Framework Architecture</strong></h2><p>The overall architecture of the Test Automation Framework that allows me to implement, evolve and scale in an easy fashion is shown below:</p><p><img loading="lazy" class="alignnone wp-image-12712 size-full" title="Business-Layer Page-Object Pattern" alt="Business-Layer Page-Object Pattern" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-1024x576.jpeg 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg"/></p><noscript><img class="alignnone wp-image-12712 size-full" title="Business-Layer Page-Object Pattern" src="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg" alt="Business-Layer Page-Object Pattern" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-1024x576.jpeg 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript><p>Below is my folder structure for my Test Automation Framework:</p><p><img loading="lazy" class="alignnone wp-image-12716 size-full" title="Test Automation Framework Structure" alt="Test Automation Framework Structure" width="440" height="740" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png 440w, https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure-304x512.png 304w" data-lazy-sizes="(max-width: 440px) 100vw, 440px" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png"/></p><noscript><img class="alignnone wp-image-12716 size-full" title="Test Automation Framework Structure" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png" alt="Test Automation Framework Structure" width="440" height="740" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png 440w, https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure-304x512.png 304w" sizes="(max-width: 440px) 100vw, 440px"/></noscript><p>Here is the Test method – clearly highlighting the intent of the test:</p><pre class="EnlighterJSRAW" data-enlighter-language="null">@Test(groups = {"a-addcash", "a-demo2", "a-RcRegression"})
+public void RepeatDepositAddCashTest() {
+    log.info("Running RepeatDepositAddCashTest");
+    PlayerUtil playerUtil = new PlayerUtil(getTestExecutionContext());
+    HashMap&lt;RegistrationDetails, String&gt; userData = playerUtil.getUserWithModValue(7, 4);
+    String userName = userData.get(RegistrationDetails.USERNAME);
+    String password = userData.get(RegistrationDetails.PASSWORD);
+    playerUtil.saveAddressDetailsOfUser(userName, password);
+    new LoginBL().loginUsing(userName, password)
+            .startAddcash()
+            .addCashUsingNetBanking(100, "Allahabad", "test", "test")
+            .verifyOrderID()
+            .verifyModeOfPayment("NETBANKING")
+            .verifyGamesLobbyLink()
+            .done();
+}
+</pre>
+<p>Here are some sample Business Layer methods:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">public FeedbackOverlayBL verifyLoveThisAppThankYouPage() {
+    return new FeedbackOverlayBL()
+            .verifyLoveThisAppCTA()
+            .verifyThankYouPageInLoveThisApp();
+}
+
+public LobbyBL goToFeedBackFormAndCancel() {
+    return new FeedbackOverlayBL()
+            .goToFeedbackForm().cancelFeedbackForm();
+}
+
+public AddCashLimitsBL addAmountForAddcashLimits(int amount) {
+    ChooseAmountPage.getInstance()
+            .addAmount(amount);
+    return new AddCashLimitsBL();
+}
+
+public LobbyBL goToCashGames() {
+    LobbyPage.getInstance().clickCashGamesButton();
+    return this;
+}</pre>
+<p>Here are some sample Page-Object methods:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">public PaymentModePage addAmount(int amount) {
+    WebElement addCashEnterAmountElement = driver.findElementByAccessibilityId(addCashEnterAmount);
+    waitForElementToBePresent(addCashEnterAmountElement);
+    addCashEnterAmountElement.clear();
+    addCashEnterAmountElement.sendKeys(String.valueOf(amount));
+    hideKeyBoard();
+    eyes.checkWindow("AddAmount");
+    driver.findElementByAccessibilityId(addCash).click();
+    return PaymentModePage.getInstance();
+}
+
+public boolean isPromoCodeApplySuccessful(String promoCode) {
+    log.info("Verifying promocode is successfully applied with name: " + promoCode);
+    waitForElementToBePresent(driver.findElementByAccessibilityId(appliedPromocodeNameId));
+    eyes.checkWindow("isPromoCodeApplySuccessful");
+    return driver.findElementByAccessibilityId(appliedPromocodeNameId).getText().equalsIgnoreCase(promoCode);
+}</pre>
+<hr/>
+<p><strong>References</strong>:</p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>DarkCrewFriends Returns with Botnet Strategy</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/darkcrewfriends-returns-with-botnet-strategy/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 26 Jun 2020 20:53:18 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Botnet]]></category>
+		<category><![CDATA[DarkCrewFriends]]></category>
+		<category><![CDATA[Returns]]></category>
+		<category><![CDATA[Strategy]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/darkcrewfriends-returns-with-botnet-strategy/</guid>
+
+					<description><![CDATA[The botnet can be used to mount different kinds of attacks, including code-execution and DDoS. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The botnet can be used to mount different kinds of attacks, including code-execution and DDoS.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/darkcrewfriends-returns-botnet/156963/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Gatling FrontLine is now available in AZURE Marketplace! – Gatling Open-Source Load Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-is-now-available-in-azure-marketplace-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 26 Jun 2020 08:37:15 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[AZURE]]></category>
+		<category><![CDATA[Frontline]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[Marketplace]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-is-now-available-in-azure-marketplace-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[Gatling FrontLine, Gatling’s official Enterprise Version, is now available in Azure Marketplace Try it now! Until today, Gatling FrontLine was]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;"><noscript><img class="wp-image-6903 aligncenter" src="https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-300x87.png" alt="Logo-Azure Marketplace" width="228" height="66" srcset="https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-300x87.png 300w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-768x222.png 768w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-1024x296.png 1024w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-500x145.png 500w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg.png 1280w" sizes="(max-width: 228px) 100vw, 228px"/></noscript></span></p>
+<p><span style="font-weight: 400;"><br /><strong>Gatling FrontLine</strong>, Gatling’s official Enterprise Version, is now available in <strong>Azure Marketplace</strong></span></p>
+<p style="text-align: center;"><span style="font-weight: 400;"><a target="_blank" class="btn purple" href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/gatlingcorp.gatling-frontline?tab=Overview" rel="noopener noreferrer">Try it now!</a></span></p>
+<p style="text-align: left;"><span style="font-weight: 400;"><br />Until today, Gatling FrontLine was available on-premises and on AWS Marketplace. Now, <strong>Azure customers</strong> can benefit from our <a target="_blank" href="https://gatling.io/gatling-frontline/cloud-marketplaces/" rel="noopener noreferrer">Enterprise Version</a> on an <strong>hourly basis</strong>.</span></p>
+<p><span style="font-weight: 400;">Whenever you want to benefit from advanced features, purchase Gatling FrontLine on Azure Marketplace and run your Gatling tests!</span></p>
+<p><span style="font-weight: 400;">Do you want to know more about it? Read </span><a target="_blank" href="https://gatling.io/gatling-frontline/product-sheet/" rel="noopener noreferrer"><span style="font-weight: 400;">our product sheet</span></a><span style="font-weight: 400;">!</span></p>
+<h2><b>Any question or comment?</b></h2>
+<p><span style="font-weight: 400;">Contact us and we will get back to you as fast as possible: <a target="_blank" href="https://gatling.io/mailto:contact@gatling.io" rel="noopener noreferrer">contact@gatling.io</a></span></p>
+<p style="text-align: center;"><span style="font-weight: 400;"><a target="_blank" class="btn purple" href="https://gatling.io/gatling-frontline/cloud-marketplaces/azure/" rel="noopener noreferrer">More info</a></span></p>
+<p> </p>
+<p><strong>The Gatling Team</strong></p>
+<p><img class="wp-image-6952 aligncenter" src="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg" alt="Gatling FrontLine - Azure Marketplace" width="761" height="137" srcset="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg 300w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-768x138.jpg 768w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-1024x185.jpg 1024w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-500x90.jpg 500w" data-lazy-sizes="(max-width: 761px) 100vw, 761px"/></p>
+<p><noscript><img class="wp-image-6952 aligncenter" src="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg" alt="Gatling FrontLine - Azure Marketplace" width="761" height="137" srcset="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg 300w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-768x138.jpg 768w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-1024x185.jpg 1024w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-500x90.jpg 500w" sizes="(max-width: 761px) 100vw, 761px"/></noscript></div>
+<p><br />
+<br /><a href="https://gatling.io/2020/06/26/gatling-frontline-is-now-available-on-azure-marketplace/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Emerging Ransomware Targets Photos, Videos on Android Devices</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emerging-ransomware-targets-photos-videos-on-android-devices/</link>
 		
@@ -247,6 +564,75 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/mcafee-findings-reveals-tv-shows-movies/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ripple20 Vulnerability Mitigation Best Practices</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ripple20-vulnerability-mitigation-best-practices/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Jun 2020 22:32:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Mitigation]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Ripple20]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ripple20-vulnerability-mitigation-best-practices/</guid>
+
+					<description><![CDATA[On June 16th, the Department of Homeland Security and CISA ICS-CERT issued a critical security advisory warning covering multiple newly discovered vulnerabilities affecting]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="container medium">
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>On June 16<sup>th</sup>, the Department of Homeland Security and CISA ICS-CERT <a target="_blank" href="https://www.us-cert.gov/ics/advisories/icsa-20-168-01" rel="noopener noreferrer">issued</a> a critical security <a target="_blank" href="https://www.kb.cert.org/vuls/id/257161" rel="noopener noreferrer">advisory</a> warning covering multiple newly discovered vulnerabilities affecting Internet-connected devices manufactured by multiple vendors. This set of 19 vulnerabilities in a low-level TCP/IP software library developed by Treck has been dubbed “Ripple20” by researchers from JSOF.</p>
+<p>A networking stack is a software component that provides network connectivity over the standard internet protocols. In this specific case these protocols include ARP, IP (versions 4 and 6), ICMPv4, UDP and TCP communications protocols, as well as the DNS and DHCP application protocols. The Treck networking stack is used across a broad range of industries (medical, government, academia, utilities, etc.), from a broad range of device manufacturers – a fact which enhances their impact and scope, as each manufacturer needs to push an update for their devices independently of all others. In other words, the impact ripples out across the industry due to complexities in the supply and design chains.</p>
+<p>Identifying vulnerable devices on your network is a crucial step in assessing the risk of Ripple20 to your organization. While a simple <a target="_blank" href="https://www.shodan.io/search?query=treck" rel="noopener noreferrer">Shodan search for “treck”</a> shows approximately 1000 devices, which are highly likely to be internet-facing vulnerable devices, this represents only a fraction of the impacted devices. Identification of the Treck networking stack vs. other networking stacks (such as the native Linux or Windows stacks) requires detailed analysis and fingerprinting techniques based on the results of network scans of the devices in question.</p>
+<p>The impact of these vulnerabilities ranges from denial of service to full remote code exploitation over the internet, with at least one case not requiring any authentication (<a target="_blank" href="https://nvd.nist.gov/vuln/detail/CVE-2020-11901" rel="noopener noreferrer">CVE-2020-11901</a>). JSOF researchers identified that these vulnerabilities impact a combination of traditional and IoT devices. Customers should review advisories from vendors such as <a target="_blank" href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00295.html" rel="noopener noreferrer">Intel</a> and <a target="_blank" href="https://support.hp.com/in-en/document/c06640149" rel="noopener noreferrer">HP</a> because non-IoT devices may be running firmware that makes use of the Treck networking stack.</p>
+<p>Ripple20’s most significant impact is to devices whose network stack is exposed (in general IoT devices incorporating the Treck network stack) as compared to devices that incorporate the stack that it is only exposed to the local device. We recommend that you audit all network-enabled devices to determine if they are susceptible to these vulnerabilities.</p>
+<p>There are potentially tens of millions of devices that are vulnerable to at least one of the Ripple20 flaws. Mitigating impact requires attention from both device owners and device vendors.</p>
+<h3><strong>Mitigations for users of vulnerable devices per CISA recommendations (where possible): </strong></h3>
+<ul>
+<li>Patch any device for which a vendor has released an update.</li>
+<li>Practice the principle of least privilege for all users and devices (devices and users should only have access to the set of capabilities needed to accomplish their job). In this case, minimize network exposure and <a target="_blank" href="https://www.us-cert.gov/ics/alerts/ICS-ALERT-10-301-01" rel="noopener noreferrer">internet-accessibility</a> for all control system devices.</li>
+<li>Locate control system networks and remote devices behind firewalls and isolate them from the business network.</li>
+<li>When remote access is required, use secure methods, such as Virtual Private Networks (VPNs), recognizing that VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize that a VPN is only as secure as the connected devices. VPN solutions should use multi-factor authentication.</li>
+<li>Use caching DNS servers in your organization, prohibiting direct DNS queries to the internet. Ideally, caching DNS servers should utilize DNS-over-HTTPS for lookups.</li>
+<li>Block anomalous IP traffic by utilizing a combination of firewalls and intrusion prevention systems.</li>
+</ul>
+<h3><strong>Where Can I Go to Get More Information?</strong></h3>
+<p>Please review <a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93020" rel="noopener noreferrer">KB93020</a> for more information and subscribe for updates.</p>
+</p></div>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ripple20-vulnerability-mitigation-best-practices/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -952,394 +1338,6 @@ batchInfo.setSequenceName('AWS Device Farm Batches');</pre>
 			</div>
 <br>
 <br><a href="https://applitools.com/blog/visual-testing-appium-amazon/">Source link </a>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Selenium Switch Methods (Chapter 5)</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-switch-methods-chapter-5/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Jun 2020 09:06:50 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Chapter]]></category>
-		<category><![CDATA[Methods]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[Switch]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-switch-methods-chapter-5/</guid>
-
-					<description><![CDATA[In this 5th and final Selenium article, we will dive into the Switch Methods. Switch Methods are designed for switching]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In this 5<sup>th</sup> and final Selenium article, we will dive into the Switch Methods. Switch Methods are designed for switching to frames, alerts, and windows. Our Test Script must switch before performing an action within the frame, alert, or window.  If we omit switching then the program returns an exception. Methods for switching are accessed through switchTo(). switchTo() returns a target locator and used for sending a future command. Here’s a list of methods via switchTo:</p>
-<ul>
-<li>activeElement()</li>
-<li>alert()</li>
-<li>defaultContent()</li>
-<li>frame
-<ul>
-<li>frame(int index)</li>
-<li>frame(String nameOrId)</li>
-<li>frame(WebElement frameElement)</li>
-</ul>
-</li>
-<li>parentFrame()</li>
-<li>window(String nameOrHandle)</li>
-</ul>
-<p>By the end of this article, you will read how to switch to a <a target="_blank" href="https://blog.testproject.io/#Frame" rel="noopener noreferrer">frame</a>, <a target="_blank" href="https://blog.testproject.io/#Alert" rel="noopener noreferrer">alert</a>, and <a target="_blank" href="https://blog.testproject.io/#Window" rel="noopener noreferrer">window</a>. Code will be located on GitHub <a target="_blank" href="https://github.com/RexJonesII/TestProject-TestNG" rel="noopener noreferrer">https://github.com/RexJonesII/TestProject-TestNG</a>.<br />Also, make sure to check out my latest article on all the latest updates to <a target="_blank" href="https://blog.testproject.io/2020/06/08/selenium-4-new-features/" rel="noopener noreferrer">Selenium 4</a>!</p>
-<h2><strong>Tutorial Chapters</strong></h2>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/2020/01/16/selenium-browser-method-categories-browser-methods/" rel="noopener noreferrer">Browser Methods</a> (Chapter 1)</li>
-<li><a target="_blank" href="https://blog.testproject.io/2020/03/05/selenium-webelement-methods/" rel="noopener noreferrer">WebElement Methods</a> (Chapter 2)</li>
-<li><a target="_blank" href="https://blog.testproject.io/2020/03/25/selenium-navigation-methods/" rel="noopener noreferrer">Navigation Methods</a> (Chapter 3)</li>
-<li><a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Wait Methods</a> (Chapter 4)
-<ul>
-<li>pageLoadTimeOut</li>
-<li>ImplicitWait</li>
-<li>ExplicitWait</li>
-<li>FluentWait</li>
-</ul>
-</li>
-<li><strong><mark>You’re here → </mark></strong>Switch Methods (Chapter 5)</li>
-</ol>
-<hr/>
-<h2><a target="_blank" id="Frame" rel="noopener noreferrer"><strong>Switch To Frame</strong></h2>
-<p>There are 4 methods that allow us to select a frame and 1 method that changes focus to the parent context:</p>
-<ol>
-<li>frame(WebElement element) – selects a frame by WebElement.</li>
-<li>frame(String nameOrId) – selects a frame by its name or ID.</li>
-<li>frame(int index) – selects a frame by its (zero-based) index.</li>
-<li>defaultContent() – selects either the first frame or main document.</li>
-<li>parentFrame() – change focus to the parent context.</li>
-</ol>
-<p>If an application has a frame, it will either be a frame or an iframe element. Although there’s a difference, we normally say “frame” for both elements. In spite of that, most applications contain an iframe which stands for inline frame. It’s designed for helping the application remain interactive.</p>
-<p>We can tell the difference between frame and iframe by its window. A frame can be resized while an iframe cannot be resized within the application. Whether the application has a frame or iframe, we must always switch to the frame before performing an action. On <a target="_blank" href="https://testproject.io/platform/" rel="noopener noreferrer">TestProject’s Platform</a> page, there’s an Intercom icon located within an iframe. Intercom allows us to start a conversation and ask TestProject anything.</p>
-</p>
-<p><noscript><img class="alignnone wp-image-10574 size-full" title="TestProject Test Automation Platform" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.1-Intercom-Icon.jpg" alt="TestProject Test Automation Platform" width="624" height="423" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.1-Intercom-Icon.jpg 624w, https://blog.testproject.io/wp-content/uploads/2020/03/5.1-Intercom-Icon-512x347.jpg 512w" sizes="(max-width: 624px) 100vw, 624px"/></noscript></p>
-<p>Notice, View frame source after right clicking the icon. View frame source informs us, the WebElement is located in a frame. We select Inspect and see an iframe tag.</p>
-<p><img loading="lazy" class="alignnone wp-image-10575 size-full" title="iframe tag" alt="iframe tag" width="637" height="206" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe-512x166.jpg 512w" data-lazy-sizes="(max-width: 637px) 100vw, 637px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg"/></p>
-<p><noscript><img class="alignnone wp-image-10575 size-full" title="iframe tag" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg" alt="iframe tag" width="637" height="206" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.2-iframe-512x166.jpg 512w" sizes="(max-width: 637px) 100vw, 637px"/></noscript></p>
-<p>Now, our automation Test Script begins with the following steps:</p>
-<ol>
-<li>Scroll to the bottom of <a target="_blank" href="https://testproject.io/platform/" rel="noopener noreferrer">TestProject’s Platform</a> page.</li>
-<li>Wait using an Explicit Wait statement (covered in the previous article “<a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Selenium Wait Methods</a>”).</li>
-<li>Switch to the frame.</li>
-<li>Find the element.</li>
-<li>Click the element.</li>
-</ol>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
-public void demoSwitchToFrame1 () {
-  JavascriptExecutor js = (JavascriptExecutor) driver;
-  js.executeScript("window.scrollBy(0,2000)");
-  
-  WebDriverWait wait = new WebDriverWait(driver, 5);
-  wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("intercom-launcher-frame"));
-  
-  driver.findElement(By.className("e2ujk8f2")).click();
-}</pre>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
-public void demoSwitchToFrame2 () {
-  JavascriptExecutor js = (JavascriptExecutor) driver;
-  js.executeScript("window.scrollBy(0,2000)");
-  
-  WebDriverWait wait = new WebDriverWait(driver, 5);
-  wait.until(ExpectedConditions.presenceOfElementLocated(By.name("intercom-launcher-frame")));
-  
-  driver.switchTo().frame("intercom-launcher-frame");
-  driver.findElement(By.className("e2ujk8f2")).click();
-}</pre>
-<p>Both Test Scripts work after switching to the iframe. The 1<sup>st</sup> Test Script switches to the frame within the wait statement “<em>frameToBeAvailableAndSwitchToIt</em>” then found and clicked the Intercom icon. This is the preferred way since 1 statement line waited for the frame and switched to the frame.</p>
-<p>The 2<sup>nd</sup> Test Script shows how to switch to a frame without a wait statement: driver.switchTo().frame(“intercom-launcher-frame”). A NoSuchElementException would have shown up if there was not a switch statement. Here’s a screenshot after clicking the Intercom icon:</p>
-<p><img loading="lazy" class="alignnone wp-image-10576 size-full" title="TestProject Support Chat" alt="TestProject Support Chat" width="368" height="440" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.3-Ask-Anything.jpg"/></p>
-<p><noscript><img class="alignnone wp-image-10576 size-full" title="TestProject Support Chat" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.3-Ask-Anything.jpg" alt="TestProject Support Chat" width="368" height="440"/></noscript></p>
-<h2><a target="_blank" id="Alert" rel="noopener noreferrer"><strong>Switch To Alert</strong></h2>
-<p>An alert is a pop-up box that provides information or expects an action from the user. There are 3 types of alerts and 4 actions to perform on an alert. The 3 types of alerts are:</p>
-<ol>
-<li>Information Alert – contains a message with 1 button.</li>
-<li>Confirmation Alert – contains a message with 2 buttons.</li>
-<li>Prompt Alert – contains a message with 2 buttons and a text entry field.</li>
-</ol>
-<p>Actions to perform on the alert are:</p>
-<ol>
-<li>accept() – accepts the alert.</li>
-<li>dismiss() – cancels the alert.</li>
-<li>getText() – gets text from the alert.</li>
-<li>sendKeys() – types text into the alert.</li>
-</ol>
-<p>Most of the time, an alert is shown with a gray disabled background. The web page is gray because an action cannot be carried out on the page. An action must be performed on the alert. On <a target="_blank" href="https://blog.testproject.io/" rel="noopener noreferrer">TestProject’s Blog</a> page, a pop-up image resembling an alert provides information regarding a <strong>Complete E2E Automation Solution!</strong></p>
-<p><img loading="lazy" class="alignnone wp-image-10577 size-full" title="TestProject Blog" alt="TestProject Blog" width="635" height="359" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg 635w, https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike-512x289.jpg 512w" data-lazy-sizes="(max-width: 635px) 100vw, 635px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg"/></p>
-<p><noscript><img class="alignnone wp-image-10577 size-full" title="TestProject Blog" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg" alt="TestProject Blog" width="635" height="359" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike.jpg 635w, https://blog.testproject.io/wp-content/uploads/2020/03/5.4-Alert-Lookalike-512x289.jpg 512w" sizes="(max-width: 635px) 100vw, 635px"/></noscript></p>
-<p>Hypothetically, if the pop-up image was an alert, the following Test Script switches to the alert then accepts the alert.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
-public void demoSwitchToAlert () {
-  driver.get("https://blog.testproject.io/");
-  driver.switchTo().alert().accept();
-}</pre>
-<h2><a target="_blank" id="Window" rel="noopener noreferrer"><strong>Switch To Window</strong></h2>
-<p>Selenium assigns a unique alphanumeric id to all windows. The id is called a window handle and used to switch control between every window. There are 2 methods that get the window handle:</p>
-<ol>
-<li>getWindowHandle() – get the current window handle.</li>
-<li>getWindowHandles() – get a set of window handles.</li>
-</ol>
-<p>We use the window handle for switchTo().window to switch focus between each window. A perfect example is <a target="_blank" href="https://docs.testproject.io/" rel="noopener noreferrer">TestProject’s Documentation</a> page. The page loads in a new tab after clicking the Docs link via the <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">Home page</a>.</p>
-<p><img loading="lazy" class="alignnone wp-image-10578 size-full" title="TestProject Home Page" alt="TestProject Home Page" width="638" height="201" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg 638w, https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page-512x161.jpg 512w" data-lazy-sizes="(max-width: 638px) 100vw, 638px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg"/></p>
-<p><noscript><img class="alignnone wp-image-10578 size-full" title="TestProject Home Page" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg" alt="TestProject Home Page" width="638" height="201" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page.jpg 638w, https://blog.testproject.io/wp-content/uploads/2020/03/5.5-Home-Page-512x161.jpg 512w" sizes="(max-width: 638px) 100vw, 638px"/></noscript></p>
-<p><img loading="lazy" class="alignnone wp-image-10579 size-full" title="TestProject Documentation" alt="TestProject Documentation" width="637" height="240" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page-512x193.jpg 512w" data-lazy-sizes="(max-width: 637px) 100vw, 637px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg"/></p>
-<p><noscript><img class="alignnone wp-image-10579 size-full" title="TestProject Documentation" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg" alt="TestProject Documentation" width="637" height="240" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page.jpg 637w, https://blog.testproject.io/wp-content/uploads/2020/03/5.6-Docs-Page-512x193.jpg 512w" sizes="(max-width: 637px) 100vw, 637px"/></noscript></p>
-<p>Let’s create a Test Script to perform the following steps:</p>
-<ol>
-<li>Get the Home Page window handle id.</li>
-<li>Click the Docs link.</li>
-<li>Get the Docs Page window handle id:</li>
-<li>Count the number of open windows.</li>
-<li>Print information for both open windows to show unique data:
-<ol style="list-style-type: lower-alpha;">
-<li>Window Handle</li>
-<li>URL</li>
-<li>Page Title</li>
-</ol>
-</li>
-</ol>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Test
-public void demoSwitchToWindow () 	{
-  driver.get("https://testproject.io/");
-  driver.findElement(By.id("menu-item-1727")).click();
-  String mainHandle = driver.getWindowHandle();
-  System.out.println("Home Page Window ID: " + mainHandle + "n");
-      
-  Set &lt;String&gt; allHandles = driver.getWindowHandles();
-  System.out.println("Windows Open After Clicking The Docs Link via Home Page: " + allHandles.size() + "n");
-  
-  for (String windowHandle : allHandles) {
-    if(mainHandle.equals(windowHandle)) {
-      System.out.println("t Window ID 1: t" + windowHandle +
-                      "n t URL: t t" + driver.getCurrentUrl() +						
-                      "n t Title: t t" + driver.getTitle());				
-    }	
-    else	{
-      driver.switchTo().window(windowHandle);
-      
-      System.out.println("t Window ID 2: t" + windowHandle +
-          "n t URL: t t" + driver.getCurrentUrl() +						
-          "n t Title: t t" + driver.getTitle());					
-    }
-  }
-}</pre>
-<p>The following statement lines get the window handle and window handles:</p>
-<ul>
-<li><strong>String mainHandle = driver.getWindowHandle()</strong>: gets the Home Page window handle.</li>
-<li><strong>Set &lt;String&gt; allHandles = driver.getWindowHandles()</strong>: gets both window handles.</li>
-</ul>
-<p>Here’s the results after getting the window handles and displaying information relevant to each page.</p>
-<p><img loading="lazy" class="alignnone wp-image-10580" title="Selenium Switch Methods" alt="Selenium Switch Methods" width="702" height="366" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results.jpg 633w" data-lazy-sizes="(max-width: 702px) 100vw, 702px" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg"/></p>
-<p><noscript><img class="alignnone wp-image-10580" title="Selenium Switch Methods" src="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg" alt="Selenium Switch Methods" width="702" height="366" srcset="https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results-512x267.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/03/5.7-Console-Results.jpg 633w" sizes="(max-width: 702px) 100vw, 702px"/></noscript></p>
-<ul>
-<li>Home Page Window ID and Window 1 have the same window handle “<strong>CDwindow-66A01C6DAF3805A30180709668B0A400</strong>” because they are the same window.</li>
-<li>There are 2 open windows after clicking the Docs Link.</li>
-<li>Window 1 displays a unique window handle with the correct URL and Page Title:
-<ul>
-<li>ID: <strong>CDwindow-66A01C6DAF3805A30180709668B0A400</strong></li>
-<li>URL: <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">https://testproject.io/</a></li>
-<li>Title: Free Test Automation For All – TestProject</li>
-</ul>
-</li>
-<li>Window 2 displays a unique window handle with the correct URL and Page Title:</li>
-</ul>
-<p>That wraps all 5 Selenium Method Categories <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f31f.png" alt="🌟" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/2020/01/16/selenium-browser-method-categories-browser-methods/" rel="noopener noreferrer">Browser Methods</a> perform actions on a browser.</li>
-<li><a target="_blank" href="https://blog.testproject.io/2020/03/05/selenium-webelement-methods/" rel="noopener noreferrer">WebElement Methods</a> perform actions on WebElements.</li>
-<li><a target="_blank" href="https://blog.testproject.io/2020/03/25/selenium-navigation-methods/" rel="noopener noreferrer">Navigation Methods</a> loads a web page, refreshes a web page, or moves backward and forward in our browser’s history.</li>
-<li><a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Wait Methods</a> pause between execution statements.</li>
-<li>Switch Methods switch to frames, alerts, and windows.</li>
-</ol>
-<p>Happy Testing! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f60e.png" alt="😎" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/06/18/selenium-switch-methods-chapter-5/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Goodbye Sample Test Frameworks, Hello Sauce Training Repo</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/goodbye-sample-test-frameworks-hello-sauce-training-repo/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[frameworks]]></category>
-		<category><![CDATA[Goodbye]]></category>
-		<category><![CDATA[Repo]]></category>
-		<category><![CDATA[Sample]]></category>
-		<category><![CDATA[Sauce]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[Training]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/goodbye-sample-test-frameworks-hello-sauce-training-repo/</guid>
-
-					<description><![CDATA[All good things need to come to an end. In this case, that’s true of the Sauce Sample Test Frameworks]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>All good things need to come to an end. In this case, that’s true of the Sauce Sample Test Frameworks GitHub organization. While these sample frameworks are now gone, they’re not forgotten. In fact, we’ve replaced them with something better.</p>
-<p>In the past, this organization provided barebones examples of connecting to Sauce Labs with sample frameworks in a large variety of languages and tools. These frameworks were mainly based on Selenium and testing a basic web page. The underlying philosophy of these sample test frameworks was “If it can be used with Sauce Labs, it should be in there.” This approach worked pretty well for a while; new and existing Sauce users could find snippets of what they needed, and folks within Sauce Labs could show examples of how Sauce integrates with different tools. The Sauce Labs Sample Frameworks were also a way to give back free and open source code to the community, an important value for Sauce Labs in the past and present.</p>
-<p>Over time, this approach of “something for everyone” started to show some wear and tear. Many sample frameworks were difficult to maintain as the underlying tool or language evolved. Some samples were built in languages that had little to no support in the Selenium community (such as Perl), while others were built using test tools that were deprecated and no longer maintained (Lettuce and Nose, both now dead projects in the Python community). Finally, as Sauce Labs grew its mobile platform offerings, examples of using Appium needed to be added. However, there were already existing Appium examples elsewhere outside this GitHub organization. These sample frameworks were becoming more difficult to keep up and less helpful for Sauce users of all kinds.</p>
-<p>In light of this, we’ve retired this organization. We realized we needed an overhaul—not just of the actual code in these example frameworks—but also how we organize and prioritize these examples.. Code examples should be thoughtfully created to set up Sauce users for success and give users confidence in getting started with Sauce, regardless of their test automation experience or goals. </p>
-<p>To accomplish this, we’ve created the <a target="_blank" href="https://github.com/saucelabs-training" rel="noopener noreferrer">Sauce Labs Training</a> organization. This org contains code samples of how to use Sauce Labs in the five most common languages we work with:</p>
-<p>This includes virtual and real device examples. Each of the language-specific repos in the Sauce Training organization has complete examples of using Selenium or Appium with Sauce Labs, and will contain examples of running automated tests against virtual desktop browsers, mobile emulators and simulators, and real mobile devices. The example code for automated tests in these repos have been carefully designed by Sauce’s excellent <a target="_blank" href="https://saucelabs.com/our-experts" rel="noopener noreferrer">Solutions Architects</a> to reflect commonly used test tools and frameworks in each language following idiomatic language practices. In addition to connecting to Sauce Labs to run automated tests, these repos have examples of how to use Sauce Labs’ specific features and some materials for <a target="_blank" href="https://github.com/saucelabs-training/Getting-Started-with-Selenium/releases" rel="noopener noreferrer">getting started with Selenium</a> and examples of how to use our latest and greatest<a target="_blank" href="https://saucelabs.github.io/sauce_bindings/docs/overview.html" rel="noopener noreferrer"> Sauce Bindings</a>. The Sauce Labs Training repo is meant to be a single source of code-based examples of how to connect to Sauce Labs, for everyone in the Sauce Labs community.  </p>
-<p>Thanks for the years of service, Sample Test Frameworks!</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/goodbye-sample-test-frameworks-hello-sauce-training-repo">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>365 Migration Local Environment Issue?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/365-migration-local-environment-issue/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Jun 2020 16:28:10 +0000</pubDate>
-				<category><![CDATA[QE Announcement]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2546</guid>
-
-					<description><![CDATA[This message is for those with local environment effected by the 365 Migration.If you no longer able to run robot]]></description>
-										<content:encoded><![CDATA[
-<p>This message is for those with local environment effected by the 365 Migration.<br><strong>If you no longer able to run robot test after the migration</strong>, it may be cause be the users directory path being updated.<br>ex. c:/users/tommy.hoang (old path) -> c:/users/HoangT01 (new path)    <br><br><strong>Local Automation Environment not working?</strong> To fix this, you want to point the Python interpreter in Pycharm to the new path</p>
-
-
-
-<ul><li>Settings &gt; Project &gt; Project interpreter &gt; Add Systems Interpreter Path (ex. mine is c:\users\HoangT01\AppData\Local\Programs\Python\Python38\python.exe</li><li>You may also need to update the environment path directories to match the new paths if they are not all automatically updated</li><li>After trying all the steps above and it still causing issues, please try to re-install Python, Roomba, and Pycharm or reach out to robosquad@accruent.com</li></ul>
-
-
-
-<p><strong>SourceTree not working properly?</strong><br>Your path to the ssh key could have been changed</p>
-
-
-
-<ul><li>Open sourcetree and navigate Tools &gt; Options &gt; SSH Client configuration</li><li>Fix the SSH key path</li></ul>
-
-
-
-<p>If that doesn&#8217;t work, please follow the guide below to create a new ssh key (you may need to get a clean copy of the repositories after the change in ssh key) <a rel="noreferrer noopener" href="https://accruent.atlassian.net/wiki/spaces/PLX/pages/755893664/Create+SSH+Key+Pair" target="_blank">https://accruent.atlassian.net/wiki/spaces/PLX/pages/755893664/Create+SSH+Key+Pair</a></p>
-
-
-
-<p><strong>Neoload Project not showing up any longer?</strong></p>
-
-
-
-<ul><li>Please take out some licenses and pull down a new copy of the project if you are unable to find it in your local</li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SAP S/4HANA app migration: Lessons from the trenches</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/sap-s-4hana-app-migration-lessons-from-the-trenches/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Jun 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[Lessons]]></category>
-		<category><![CDATA[migration]]></category>
-		<category><![CDATA[S4HANA]]></category>
-		<category><![CDATA[SAP]]></category>
-		<category><![CDATA[trenches]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2539</guid>
-
-					<description><![CDATA[One of the benefits of procrastination is that you can learn from the experiences of others. When embarking on a]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>One of the benefits of procrastination is that you can learn from the experiences of others. When embarking on <a target="_blank" href="https://content.microfocus.com/sap-modernization-enterprise-devops-tb/sap-hana-migration-4-steps?lx=AL8Ybs&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">a massive project such as moving to SAP&#8217;s S/4HANA</a>, that can be a good thing.</p>
-<p>SAP wants its customers to move to its next-generation ERP as soon as possible. To that end, the company set a sunset date of 2025 for support of the core applications in its SAP Business Suite 7 software, also known as the SAP ERP Central Component. That proved to be too ambitious, so in February, it extended the deadline to 2027.</p>
-<p>Conversion to S/4HANA is a complex, involved project, said Ekrem Hatip, senior solution architect with Syntax, a managed cloud provider for mission-critical applications.</p>
-<blockquote>
-<p>&#8220;Not many companies are prepared to complete that conversion by the 2025 deadline. To everyone&#8217;s delight, SAP listened to the marketplace and decided to extend its support of the previous version of its ERP.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/ekremhatip/" rel="nofollow noopener noreferrer">Ekrem Hatip</a></p>
-</blockquote>
-<p>The new deadline will give companies more time to learn from their peers who have <a target="_blank" href="https://techbeacon.com/app-dev-testing/sap-hana-migration-4-steps-your-team-should-take-now" rel="noopener noreferrer">already embarked on their S/4HANA journey</a>. Here are some of those lessons.</p>
-<p><em>[ Continuous delivery and release automation (CDRA) demands speed and quality. Find out how in <a target="_blank" href="https://content.microfocus.com/l/continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s guide to CDRA</a>. Plus: Get the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/forrester-wave-cdra-q418?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Forrester Wave on CDRA</a>.  ]</em></p>
-<h3>Don&#8217;t treat the move to S/4HANA as an upgrade</h3>
-<p>SAP&#8217;s ERP solution has been around for decades. Throughout the various versions of the software, however, its data modeling layer remained similar. That meant that if a business wanted to move from one version to another, it could do so with minimal impact to its legacy processes. With S/4HANA, though, a number of changes were made at the technical layer.</p>
-<blockquote>
-<p>&#8220;S/4HANA is entirely different from the previous ECC product. It&#8217;s not only the look and feel of the product, but under the hood has changed. It&#8217;s like moving from a gasoline engine to an electric vehicle.&#8221;<br />—Ekrem Hatip</p>
-</blockquote>
-<p>Brad Little, executive vice president and global head of application services at Capgemini, a provider of strategy and transformation consulting services, said he&#8217;s seen too many clients treating the move to S/4HANA as a technical upgrade.</p>
-<blockquote>
-<p>&#8220;That&#8217;s missing the value of S/4HANA. If you treat it like an upgrade, you&#8217;re basically taking all your junk and putting it in a new wrapper.&#8221;<br />—<a target="_blank" href="https://twitter.com/bradlittletx" rel="nofollow noopener noreferrer">Brad Little</a></p>
-</blockquote>
-<p>Some clients are not fully embracing the broader SAP cloud platform, he said. &#8220;There&#8217;s a ton of value out there if you look at the long-term view of where you want to be.&#8221;</p>
-<p>The term &#8220;migration&#8221; can also be misleading for companies, said Ranjit Rao, principal and US finance and enterprise performance leader at accounting firm Deloitte.</p>
-<blockquote>
-<p>&#8220;You can&#8217;t just flip a switch and have S4 running. It requires the articulation of a full vision—the design of processes and data, and the subsequent deployment activities around testing and data conversion.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/ranjit-rao-b009115/" rel="nofollow noopener noreferrer">Ranjit Rao</a></p>
-</blockquote>
-<p>S4 is a &#8220;next-generation ERP,&#8221; she said. In the past, functions such as transactions, analytics, and forecasting were performed by crossing multiple systems. With S4, that&#8217;s now all sitting in one place. &#8220;There&#8217;s a significant shift in mindset required because you&#8217;re no longer jumping around datasets.&#8221;</p>
-<h3>Migrating legacy customizations can be hazardous to your S4 deployment</h3>
-<p>Many businesses have been SAP customers for years. Over that time, they&#8217;ve extensively customized their systems. &#8220;It can be challenging for customers to convert those customizations to the new features introduced in S/4HANA,&#8221; Syntax&#8217;s Hatip said.</p>
-<p>One of his customers had SAP solutions for close to 20 years. &#8220;They used SAP as a platform to build their own order fulfillment product,&#8221; he said. &#8220;They have extensive customization throughout their SAP system. For that customer, it&#8217;s going to be really challenging to convert to S/4HANA.&#8221;</p>
-<p>Deloitte&#8217;s Rao maintained that customizations have contributed to the high cost of IT in many organizations. &#8220;We&#8217;re running all these one-off customizations that are not sustainable,&#8221; she said. The mindset of an S4 implementation should be to &#8220;adapt your processes to SAP and deploy standard solutions to the greatest extent possible.&#8221;</p>
-<p>She added that customizations can create future problems for organizations. &#8220;Every time you want to upgrade or change the system, you don&#8217;t know how those customizations are going to react because they&#8217;re not standard SAP,&#8221; she said.</p>
-<blockquote>
-<p>&#8220;Companies are starting to shift their mindset. They no longer want <a target="_blank" href="https://techbeacon.com/devops/drowning-technical-debt-worse-youre-trapped-ponzi-scheme" rel="noopener noreferrer">technical debt</a> and high IT costs. To minimize those costs, they&#8217;re limiting custom development.&#8221;<br />—Ranjit Rao</p>
-</blockquote>
-<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/optimize-devops-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">the secrets of successful DevOps initiatives</a> in TechBeacon’s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/optimizing-devops-EMA-report?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Optimizing DevOps Initiatives: Both Sides of the DevOps Divide</a> report ]</em></p>
-<h3>Make S4 an opportunity to reduce complexity</h3>
-<p>Some organizations are removing customizations and complexity from their ERPs before moving to S/4HANA. &#8220;At the end of that, they&#8217;re left with a much more simplified and standard ERP, or digital core, that will reduce risk and increase the speed of the move to S/4HANA,&#8221; Capgemini&#8217;s Little said.</p>
-<blockquote>
-<p>&#8220;A lot of companies are finding they no longer need a lot of their customizations. They were things done 10 years ago because someone thought they had to have it. And you know what? They didn&#8217;t have to have it.&#8221; <br />—Brad Little</p>
-</blockquote>
-<p>S/4HANA is an opportunity to &#8220;clean out your closet and do it the right way,&#8221; he said.</p>
-<blockquote>
-<p>&#8220;It&#8217;s a once-in-a-generation opportunity to get your enterprise IT architecture right.&#8221;</p>
-</blockquote>
-<h3>Trim the amount of data you bring into S4</h3>
-<p>Over time, many SAP customers have created large databases in their legacy systems. &#8220;Moving those databases in a live environment to a new database is not only time-consuming, but requires a lot of compute resources on the target environment,&#8221; Syntax&#8217;s Hatip said.</p>
-<blockquote>
-<p>&#8220;Companies need to enter this with their eyes wide open. Large migrations can take two to three days. That may not be acceptable, so you need to think about the amount of data you need to bring over.&#8221;<br />—Ekrem Hatip</p>
-</blockquote>
-<p>Hatip recommends that businesses with large databases seriously consider an archiving project so they can limit the amount of data that needs to be converted to the new system.</p>
-<blockquote>
-<p>&#8220;Not only will that give them a leaner system, but it will reduce the amount of downtime needed for the conversion.&#8221;</p>
-</blockquote>
-<p>It&#8217;s like starting your ERP environment from the ground up, Hatip said. But at the same time it gives customers an opportunity to &#8220;review their existing, and possibly inefficient, business processes and make use of the innovations introduced by S/4HANA.&#8221;</p>
-<h3>Cleanse your data before bringing it into S4</h3>
-<p>Deloitte&#8217;s Rao noted that data quality is a persistent problem for companies. &#8220;If you don&#8217;t take the time and the effort to address your data cleansing activities, then you&#8217;re going to get the same garbage data that you have today,&#8221; she said.</p>
-<blockquote>
-<p>&#8220;S4 is not a magic bullet. It will not solve your data quality problems for you.&#8221;</p>
-</blockquote>
-<p>She explained that data must be cleansed so it corresponds to what S4 is expecting. &#8220;That is the root cause of a lot of challenges when companies move to S4,&#8221; she said.</p>
-<h3>Don&#8217;t ignore SAP&#8217;s cloud platform</h3>
-<p>Capgemini&#8217;s Little explained that SAP users are accustomed to developing applications inside their ERPs. &#8220;There wasn&#8217;t any other place to do customizations,&#8221; he said.</p>
-<p>But development should not be done inside the ERP anymore, he said. SAP is advocating development move outside the ERP and onto the SAP cloud platform.</p>
-<p>SAP&#8217;s cloud platform &#8220;has all the cloud-native development standards,&#8221; he said. You don&#8217;t even have to develop in SAP&#8217;s development language ABAP. You can use JavaScript or Python or Spring &#8220;to build the services and APIs and all the special things that everyone needs for their business.&#8221;</p>
-<p>There&#8217;s a lot of times he looks at customers&#8217; bill of materials for their S/4HANA move and the SAP cloud platform is not even included, Little said. &#8220;To me, that&#8217;s a real disservice.&#8221;</p>
-<h3>Address your process issues before the move</h3>
-<p>SAP&#8217;s next generation won&#8217;t resolve organizations&#8217; inefficient processes or ineffective policies and procedures. A process may call for 10 levels of approval before a payment is authorized. That kind of red tape is clearly inefficient, but S/4HANA isn&#8217;t going to automatically fix that.</p>
-<blockquote>
-<p>&#8220;A lot of companies will come to this with a mindset of, &#8216;It&#8217;s just technology.&#8217; You won&#8217;t get the benefits of S4 if you think of it that way. That&#8217;s why we highly recommend articulating your opportunities and vision early on and developing a road map.&#8221;<br />—Ranjit Rao</p>
-</blockquote>
-<h3>Be prepared for opposition</h3>
-<p>As with all big changes, some organizations&#8217; moves to S/4HANA will be met with resistance.</p>
-<blockquote>
-<p>&#8220;There will always be customers who want to stay on the existing platform because it satisfies their needs now, and they assume it will satisfy their needs in the future. But most customers will realize the benefits of S/4HANA and will use this opportunity to review their business processes and improve them, if possible.&#8221;<br />—Ekrem Hatip</p>
-</blockquote>
-<p>A wild card in SAP&#8217;s plans to move its customer base to S/4HANA will be COVID-19. It could force SAP to rethink its deadlines again, as companies struggle to recover from the abrupt global halt in economic activity caused by the pandemic.</p>
-<blockquote>
-<p>&#8220;It&#8217;s too early to say what the impact of the coronavirus might be. I haven&#8217;t seen any pullback from our customers, but a few have changed their phase-in dates.&#8221;<br />—Brad Little</p>
-</blockquote>
-<p><em>[ Get up to speed on quality-driven development with <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">TechBeacon&#8217;s new guide</a>. Plus: <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Download the World Quality Report 2019-20 </a>for lessons from leading organizations. ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/devops/sap-s4hana-app-migration-lessons-trenches">Source link </a></p>
-]]></content:encoded>
 					
 		
 		
