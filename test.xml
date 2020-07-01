@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 29 Jun 2020 04:38:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 29 Jun 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,65 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ESM essentials: What it is, why it matters</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/esm-essentials-what-it-is-why-it-matters/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 29 Jun 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[ESM]]></category>
+		<category><![CDATA[essentials]]></category>
+		<category><![CDATA[matters]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2595</guid>
+
+					<description><![CDATA[Enterprise service management (ESM) expands on the principles and technology of IT service management (ITSM) to add discipline, formalized methodology, and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Enterprise service management (ESM) expands on the <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/how-to-get-started-w?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">principles and technology of IT service management (ITSM) </a>to add discipline, formalized methodology, and automation to how non-tech departments deliver services to internal customers.</p>
+<p>Imagine for a moment that business stakeholders could ask for help from the legal department in drafting a contract, using the same kind of self-service portal they&#8217;d use to open an IT help desk ticket. Also, imagine that in delivering those requested contracts, legal had to adhere to service-level agreements (SLAs) similar to those IT is bound by in support of its users.</p>
+<p>Enterprise service management is meant to facilitate precisely that kind of workflow and accountability. Here&#8217;s <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/16-resources-service-management?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">what your team needs to know</a> about the growing field of ESM.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management</a> in TechBeacon&#8217;s Guide. Plus: Find out in this Webinar if <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/are-itsm-and-enterpr?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">ITSM and ESM are one and the same</a>. ]</em></p>
+<h3>The evolution of ESM</h3>
+<p>With decades of experience in perfecting a customer-centric attitude toward delivering IT services, ITSM professionals have learned a thing or two about <a target="_blank" href="https://techbeacon.com/enterprise-it/it-service-management-how-it-tools-practices-are-evolving" rel="noopener noreferrer">how to efficiently field and satisfy requests</a> from their business colleagues.</p>
+<p>By leveraging ITSM frameworks <a target="_blank" href="https://techbeacon.com/enterprise-it/itil-4-good-bad-bottom-line" rel="noopener noreferrer">such as ITIL</a>, they&#8217;ve been able to formalize the processes around providing technical support, managing assets, responding to incidents, provisioning accounts, training users, and answering questions. ITSM is about helping both internal and external customers get the most out of the tech investments made by an organization.</p>
+<p>Along with that, IT pros also typically <a target="_blank" href="https://techbeacon.com/enterprise-it/how-choose-it-service-management-tool" rel="noopener noreferrer">tap into ITSM technology platforms</a> to consolidate the service catalog for an IT department and to manage and track fulfillment of requests against that catalog.</p>
+<p>As enterprises started witnessing the benefits of this approach, they began wondering if they could <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/extend-it-service-management?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">broaden the use of their ITSM platform</a> to amplify the results. For example, if HR can use the platform to request account provisioning for a new employee from IT, why can&#8217;t anyone in the business just as easily use it to request the broader onboarding process from the HR department for a new hire?</p>
+<p>These kinds of realizations sparked a wave of nontraditional usage of ITSM tools that eventually coalesced into the establishment of ESM. In fact, when Charles Betz first defined the market for Forrester Research in 2017, <a target="_blank" href="https://go.forrester.com/blogs/enterprise-service-management-the-real-system-of-engagement/" rel="nofollow noopener noreferrer">he reported</a> that he&#8217;d spoken to numerous enterprises that said over half of the work routed through their ITSM ticketing systems were non-IT based.</p>
+<p>Some hallmarks of ESM that have evolved from ITSM include:</p>
+<ul>
+<li>Service desk and ticketing</li>
+<li>Service catalogs</li>
+<li>Knowledge management</li>
+<li>Self-service capabilities</li>
+<li>Reporting and SLA tracking</li>
+</ul>
+<p>The ability to track the lifecycle of a request from initiation to fulfillment using a ticketing system has big appeal for organizations seeking to improve collaboration among departments. So does the combination of things such as knowledge management and self-service with more advanced technologies such as AI and <a target="_blank" href="https://techbeacon.com/enterprise-it/how-use-chatops-boost-business-engagement-across-teams" rel="noopener noreferrer">chatbots</a> to automate the processing of high-volume requests to free up people to do higher-value work.</p>
+<p>This is the next level that organizations that have already dipped their toes into ESM hope to achieve. In a <a target="_blank" href="https://www.microfocus.com/en-us/assets/it-operations-management/esm-closer-than-you-think" rel="noopener noreferrer">recent study</a> by Enterprise Management Associates (EMA), 61% of organizations with mature deployments said <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/ai-transform-it-service-management?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">combining AI, analytics, and automation with ESM</a> was an extremely high priority for the coming year.</p>
+<h3>ESM use cases</h3>
+<p>The use cases for ESM can vary across enterprises, but some common services include:</p>
+<ul>
+<li><strong>Legal:</strong> Contract development, legal approvals, providing counsel, and answering questions</li>
+<li><strong>Facilities management:</strong> Coordinating meeting room use, equipment provisioning, visitor registration, and approvals</li>
+<li><strong>Marketing</strong>: Launching campaigns to support distributed product teams, answering questions about brand guidelines, and distributing brand assets and branded collateral</li>
+<li><strong>HR:</strong> Doing employee onboarding, policy enforcement, and approvals and answering policy questions</li>
+</ul>
+<p>One common denominator in all these use cases is that the business function providing a service catalog gets a high volume of similar requests from across the organization. Another is that they must provide some sort of action or approval to help the requester move forward on a project.</p>
+<p>These requests are usually time-sensitive, and the long-term performance of the department providing the discrete services could be trackable with the right kind of technology.</p>
+<p>According to <a target="_blank" href="https://www.microfocus.com/en-us/assets/it-operations-management/esm-closer-than-you-think" rel="noopener noreferrer">EMA researchers</a>, &#8220;Any group that has to deal with people is a prospect for ESM. If those people are end users, employees, or customers looking for information or services, and they are used to sending their inquiries to a group email or phone message center, they are falling-off-the-tree ripe for ESM.&#8221;</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>The ultimate goal</h3>
+<p>ESM&#8217;s fundamental aim is to help organizations improve efficiency, responsiveness to colleagues, workflow, and employee satisfaction across departments. Using ESM platforms and methods, enterprises can better measure productivity across organizational silos and make targeted improvements to business processes where warranted by consulting empirical data.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how RPA can help you in this Webinar</a>.</em><em> ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/esm-essentials-what-it-why-it-matters">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Design Patterns in Test Automation</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-patterns-in-test-automation/</link>
 		
@@ -700,644 +759,6 @@ fbq('track', "PageView");</p>
 <p><br />
 <br /><a href="https://www.neotys.com/uncategorized/customer-success-engineer">Source link </a></p>
 ]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Visual Testing with Applitools, Appium, and Amazon AWS Device Farm</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/visual-testing-with-applitools-appium-and-amazon-aws-device-farm/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Jun 2020 17:28:18 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Appium]]></category>
-		<category><![CDATA[Applitools]]></category>
-		<category><![CDATA[AWS]]></category>
-		<category><![CDATA[Device]]></category>
-		<category><![CDATA[Farm]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/visual-testing-with-applitools-appium-and-amazon-aws-device-farm/</guid>
-
-					<description><![CDATA[Visual UI testing is more than just testing your app on Desktop browsers and Mobile emulators. In fact, you can]]></description>
-										<content:encoded><![CDATA[ 
-<br><div>
-													<div class="lead">
-						
-<p>Visual UI testing is more than just testing your app on Desktop browsers and Mobile emulators. In fact, you can do more with Visual UI testing to run your tests over physical mobile devices.</p>
-
-
-
-<p>Visual UI testing compares the visually-rendered output of an application against itself in older iterations. Users call this type of test version checking. Some users apply visual testing for cross-browser tests.  They run the same software version across different target devices/operating systems/browsers/viewports. For either purpose, we need a testing solution that has high accuracy, speed, and works with a range of browsers and devices. For these reasons, we chose Applitools.</p>
-
-
-
-<p>Running your Visual UI testing across physical devices means having to set up your own local environment to run the tests. Imagine the number of devices, screen resolutions, operating systems, and computers you’d need! It would be frustratingly boring, expensive, and extremely time-consuming.</p>
-
-
-
-					</div>
-					
-<!-- /wp:more -->
-
-<!-- wp:paragraph -->
-<p>This is where Amazon’s <a target="_blank" href="https://aws.amazon.com/device-farm/" rel="noopener noreferrer">AWS Device Farm</a> comes into play. This powerful service can build a testing environment. It uses physical mobile devices to run your tests! All you do is upload your tests to Amazon, specify the devices you want, and it will take it from there!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In one of my recent articles, <a target="_blank" href="https://applitools.com/blog/visual-ui-speeds-devops" rel="noopener noreferrer">How Visual UI Testing can speed up DevOps flow</a> I showed how you can configure a CD/CI service to run your Visual UI tests. The end result would be the same, whether you are running your tests locally, or via such services. Once the tests run, you can always check the results over the Applitools Test Manager Dashboard.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In this article, I will show you how you can run your Visual UI tests, whether you’ve written them for your mobile or web app, on real physical mobile devices in the cloud. For this, I will be employing <a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools</a>, <a target="_blank" href="http://appium.io/" rel="noopener noreferrer">Appium</a>, and <a target="_blank" href="https://aws.amazon.com/device-farm/" rel="noopener noreferrer">AW</a>S<a target="_blank" href="https://aws.amazon.com/device-farm/" rel="noopener noreferrer"> Device Farm</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>AWS Device Farm for mobile visual testing</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>AWS Device Farm is a mobile app testing platform that helps developers automatically test their apps on hundreds of real devices in minutes.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>When it comes to testing your app over mobile devices, the choices are numerous. Amazon helps to build a “Device Farm” on behalf of the developers and testers, hence the name.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Here are some of the major advantages and features for using this service:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><li><strong>Cross-platform</strong>. Android and iOS platforms (Native, Hybrid, and Web) are all supported. This includes native apps built with:<ul><li>Java/Kotlin for Android.</li><li>Swift for iOS. </li><li>PhoneGap.</li><li>Xamarin.</li><li>Unity.</li><li>And web apps built for mobile browsers.</li></ul></li></ol><!-- /wp:list --><!-- wp:list {"ordered":true,"start":2} --><ol start="2"><li><strong>Scale</strong>. AWS Device Farm supports hundreds of unique physical devices, categorized by make, model, and operating system. You may also choose to run your tests across multiple instances of the same device. All these devices are available for you with a few mouse clicks!</li></ol><!-- /wp:list --><!-- wp:list {"ordered":true,"start":3} --><ol start="3"><li><strong>Safety and Security</strong>. AWS Device Farm provides full hardware and software isolation. The devices are physically isolated from one another! They cannot feed each other, so there’s no way for one phone to take a photo, video, or audio recording of a device sitting next to it. In addition, the devices are not visible to each other from a wireless or network point of view. Bluetooth and Wi-Fi traffic is not shared. On the software side, the devices are dynamically tethered to a host machine. When you run your test on a host machine, it has the device plugged into it over USB. That very host machine, that executes your code, is brought up on the fly, runs your code, and is then torn down. It’s never reused between customers.</li></ol><!-- /wp:list --><!-- wp:list {"ordered":true,"start":4} --><ol start="4"><li><strong>Reporting</strong>. The test results, together with any screenshots, videos, logs and performance logs, are all logged, and saved in the cloud. The AWS Device Farm offers a rich Dashboard to allow you to browse any of these logs in order to debug your test runs.</li></ol><!-- /wp:list --><!-- wp:paragraph --><p>AWS Device Farm supports a number of test runners. This includes Appium Java JUnit, Appium Python, Appium Ruby, and Appium Java TestNG. Back in January 2019, Amazon <a target="_blank" href="https://aws.amazon.com/about-aws/whats-new/2019/01/aws-device-farm-now-supports-appium-nodejs-and-appium-ruby/" rel="noopener noreferrer">announced</a> support for the Appium Node.js test runner. This means you can build your tests with Selenium Webdriver, for instance, and have it run on top of AWS Device Farm.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Now that you have an idea about AWS Device Farm, let’s move on, and discover the Appium automation testing framework.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Selenium Webdriver for browser app automation</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p><a target="_blank" href="https://www.npmjs.com/package/selenium-webdriver" rel="noopener noreferrer">Selenium WebDriver</a> is a browser automation framework that allows a developer to write commands, and send them to the browser. It offers a set of clients with a variety of programming languages (Java, JavaScript, Ruby, Python, PHP and others). </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>Figure 1</strong> below shows the Selenium WebDriver architecture:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p><strong>Figure 1: Selenium WebDriver Architecture</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Selenium WebDriver architecture consists of:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li><strong>Selenium Language Bindings</strong>. These bindings are Selenium Client Libraries, offered in multiple programming languages, that developers use to send control commands to the browser. For instance, a developer can open a browser instance, and query for an element in DOM, among other tasks.</li></ul><!-- /wp:list --><!-- wp:list --><ul><li><strong>JSON Wire Protocol</strong>. This is a <a target="_blank" href="https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol" rel="noopener noreferrer">REST API Protocol</a> (JSONWP) that all WebDriver Server implementations adhere to and understand. Each of the queries and commands the developers write using the Selenium Client Library are converted to HTTP Requests, with the query or command, as payload in the JavaScript Object Notation (JSON) format, and is sent to the WebDriver Server.</li></ul><!-- /wp:list --><!-- wp:list --><ul><li><strong>Browser Drivers</strong>. These are WebDriver Server implementations for a variety of browsers. A WebDriver Server implementation is nothing but an HTTP Server that receives requests from the Selenium Client Library using the JSON Wire Protocol format. It then analyzes the HTTP Request and prepares a browser-specific command to execute against the browser. If the request is a GET request, the browser-driver should return a response. Otherwise, a POST request is a one-way request to execute an action only without any response.</li></ul><!-- /wp:list --><!-- wp:list --><ul><li><strong>Browsers</strong>. These are the browsers that have a corresponding WebDriver Server implementation. The WebDriver Server implementations communicate with the Browsers over HTTP via the DevTools Protocol of each browser.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p><a target="_blank" href="https://github.com/SeleniumHQ/selenium/blob/master/javascript/node/selenium-webdriver/CHANGES.md" rel="noopener noreferrer">Selenium 4</a> is obseleting the JSONWP in favor of the new W3C WebDriver standard.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Here’s a quick tutorial on using and learning <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment" rel="noopener noreferrer">Selenium WebDriver</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>With that brief overview of Selenium WebDriver, let’s move on and explore Appium.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Appium for mobile app automation</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p><a target="_blank" href="http://appium.io/docs/en/about-appium/intro/" rel="noopener noreferrer">Appium </a>is an open-source tool to automate Mobile app testing. It’s a cross-platform that supports both OS (Android and iOS) test scripts. It is tested on simulators (iOS), emulators (Android) and real devices (iOS, Android).</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>It’s an HTTP Server written in Node.js that creates and handles WebDriver sessions. When you install Appium, you are actually installing the Appium Server. It follows the same approach as the Selenium WebDriver, which receives HTTP requests from the Client Libraries in JSON format with the help of JSONWP. It then handles those HTTP Requests in different ways. That’s why you can make use of Selenium WebDriver language bindings, client libraries and infrastructure to connect to the Appium Server. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Instead of connecting a Selenium WebDriver to a specific browser WebDriver, you will be connecting it to the Appium Server. Appium uses an extension of the JSONWP called the <a target="_blank" href="https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md" rel="noopener noreferrer">Mobile JSON Wire Protocol</a> (MJSONWP) to support the automation of testing for native and hybrid mobile apps. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>It supports the same Selenium WebDriver <a target="_blank" href="http://appium.io/docs/en/about-appium/appium-clients/" rel="noopener noreferrer">clients </a>with a variety of multiple programming languages such as Java, JavaScript, Ruby, Python, PHP and others. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Being a Node.js HTTP Server, it works in a client-server architecture. <strong>Figure 2</strong> below depicts the Appium Client-Server Architecture model:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://lh4.googleusercontent.com/Y2S9AXkg30zKHz1a278fdlw5ixgyeT9KXVFV0AQqavJNMaHFZZbZBSyk3MQXBeGigzgWuWMbTrhr6KAvoQaIw4YWBcJFnXAMJ1Xiip3vk0C_KZ2Ih63yNO7U7-mAt7PpzRRRZB2Z" alt=""/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p><strong>Figure 2: Appium Server Architecture</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Appium architecture consists of:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li><strong>Appium Client</strong>. The <a target="_blank" href="http://appium.io/docs/en/about-appium/appium-clients/" rel="noopener noreferrer">Client Library</a> that communicates with the Appium Server via a session by sending the commands and queries over HTTP in JSON format. These requests are eventually executed against the specific Mobile device (emulator or real device). </li></ul><!-- /wp:list --><!-- wp:list --><ul><li><strong>Mobile JSONWP</strong>. This is the communication Protocol that both Appium Clients and Appium Server understand and use to pass along the commands and queries to be executed. The Appium Server differentiates between iOS and Android Request using the <a target="_blank" href="http://appium.io/docs/en/writing-running-appium/caps/" rel="noopener noreferrer">Desired Capabilities</a> argument. It’s a collection of keys and values encoded in a JSON object, sent by Appium clients to the server when a new automation session is requested. They contain all the information about the device to be used to run the tests against. Here’s a detailed tutorial on all possible desired capabilities to use with Appium. <a target="_blank" href="https://seleniumbycharan.com/2016/08/07/desired-capabilities-for-appium/" rel="noopener noreferrer">Desired Capabilities for Appium</a></li></ul><!-- /wp:list --><!-- wp:list --><ul><li><strong>Appium Server.</strong> It’s a Node.js HTTP server that receives requests from the client libraries, translates them into meaningful commands and passes them over to the specific UI Automator. </li></ul><!-- /wp:list --><!-- wp:list --><ul><li><strong>UI Automators</strong>. They are used to execute commands against the Mobile device/emulator/simulator. Examples are: <a target="_blank" href="http://appium.io/docs/en/drivers/android-uiautomator2/" rel="noopener noreferrer">UI Automator2</a> and <a target="_blank" href="http://appium.io/docs/en/drivers/ios-xcuitest/" rel="noopener noreferrer">XCUITest (iOS)</a></li></ul><!-- /wp:list --><!-- wp:paragraph --><p>The results of the test session are then communicated back to the Appium Server, and back to the Client in the form of logs, using the Mobile JSONWP.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Now that you are well equipped with knowledge for Selenium WebDriver and Appium, let’s go to the demo section of this article.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Demo</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>In this section, we will write a Visual UI test script to test a Web page. We will run the tests over an Android device both locally and on AWS Device Farm. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>I will be using both Selenium WebDeriver and Appium to write the test script.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Prerequisites</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Before you can start writing and running the test script, you have to make sure you have the following components installed and ready to be used on your computer:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Java installed</li><li>JAVA_HOME environment variable is set to the Java SDK path</li><li>Node.js installed</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Assuming you are working on a MacOS computer, you can verify the above installations by running the following bash commands:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">echo $JAVA_HOME // this should print the Java SDK path<br/>node -v // this should print the version of Node.js installed<br/>npm -v // this should print the version of the Node Package Manager installed</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Component Installations</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>For this demo we need to install Appium Server, Android Studio / SDK and finally make sure to have a few environment variables properly set.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Let’s start by installing Appium Server. Run the following command to install Appium Server locally on your computer.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">npm install -g appium</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>The command installs the Appium NPM package globally on your computer. To verify the installation, run the command:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">appium -v // this should print the Appium version</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>Now let’s install Android Studio / SDK so that you can run the test script on an emulator or real device. You could install the Android SDK only but then you have to do additional advanced steps to properly configure the Android environment on your computer. I highly recommend installing the Android Studio as it makes your life easier.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Download the <a target="_blank" href="https://developer.android.com/studio" rel="noopener noreferrer">Android Studio executable</a>. Follow the steps below to install locally on your computer:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":654,"height":510} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh4.googleusercontent.com/3F7b2DEqIHTVqfk2CcA12MGTUV3jg9FZgdLAX9OKky2-zXORQy-ck3JzUe-0GUZepfjUs-j_nGKxoGvGvuTKkvbUg4v9gkbAty5MfiaOw-g4SUiTEd6mANTMcNx-xStpWXtRCq_C" alt="" width="654" height="510"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","width":667,"height":520} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/PW3CzpWJ5KJRA4T8qGztTzorlY5__vTSGjh9kNYW-b2kpyeBg26ihfncFg9THQcsK5CeAB8gY_9itcINvo4wNHsKn03voJ5oz5mqK_FFVcMOQUB9mvp3zo9dRUn7xUjFPMU8tiH1" alt="" width="667" height="520"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","width":668,"height":521} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/ghedYOliI6Rnp0DSJ-3Hjd0AExGqNpthaa-f3qNbtQXUlgBbAcRdFcdK36seu9djkDA6Ef2TuWDKwG2JWUycotp2dkWU05pCDm9vx6RIFJFkn1Ar5Ix9I7pnvH3l-hDM03UBlHEh" alt="" width="668" height="521"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","width":674,"height":525} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh5.googleusercontent.com/HMqpaZFlDRFEKa_qulgp3qRj7PzTVD2RTvK03cpQqNkdaItCfyftJyOg0wyyjVZ5qN0J2tyv8wwu-zAaYigIWdo3KI_TXXIH8pZgJVSLZrknNQTeS_C0bL-8tQ-vFi0r_9hjs0wG" alt="" width="674" height="525"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Notice the location where the Android SDK was installed. It’s <strong>/Users/{User Account}/Library/Android/sdk</strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":702,"height":547} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/YFoXz2XN46IWQx85sXUHBwTaflHirBkDEw7eD8aXG2p92We9IPH41ShtujbjP7UVY9imJ3cufraIqeTfdZ3t1u6xGp6OYGhQsaRtfiB8CY6TPtbLAK0MGIlitW2Nj0yygZ_0Jhz6" alt="" width="702" height="547"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Wait until the download and installation is complete. That’s all!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Because I want to run the test script locally over an Android emulator, let’s add one.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Open the Android Studio app:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":655,"height":500} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/_M6olp6n-pIQySiyNC-RZh-GfJgLtZe8ETSWo1yGCTjSOCRCWWOK_W102HMDgLaIpK7iX3E3xLHWzzIy3_X0T9xmOOfwVQ562VsNIqsO4zDt0dj4AgKZnQfJDwDka2c-0UocZECu" alt="" width="655" height="500"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Click the <strong>Configure</strong> icon:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":390,"height":361} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh5.googleusercontent.com/vxmUcNV7rN-WieR6GLZbp9vV_Typjm4pMEVWUhEgg3vYjm1-faMPBZ0ukNPjeDbFw0ABPgRGATwqIPYg2pr7GO97JMej91k5q5yGQApX8rsIJWz_6JPBXT6A12Cudu3skp-emhOW" alt="" width="390" height="361"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Select the <strong>AVD Manager</strong> menu item.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":664,"height":507} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/hlCSN58dIa7qch8w-Wc_IEmqpeGCf1j0Wfe0oCfNAXJFJ0FyJpk9HnsMzHy5MiTHjP_VCg8yjJuePkjIQ1MCQYR9vkikdoziLv0VBxt_1hKTarhn1fCsVFWppIgzcRUUg48oP4dX" alt="" width="664" height="507"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Click the <strong>+ Create Virtual Device</strong> button.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":668,"height":471} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/u9FeCVUV_z21dvNqaqIawANDnzwzQIFYJ44vWXM8N0crTW_2ayLeDlSxe0acpCrE148aXdzUoH1bdW4X-_Q_xOGq0WWVMow4ALlaP80ghBSYZ12HFNYDiAtlJKSa6iVXJpRTehGX" alt="" width="668" height="471"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Locate and click the <strong>Pixel XL</strong> device then hit <strong>Next.</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong/>Locate the <strong>Q</strong> release and click the <strong>Download</strong> link. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":673,"height":521} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/5u8QpsVTSL3us9j6YwsUmsyNP_QSuBgzJmLKci9su-wKIv6Gin9yDbDirInKGU550NTo-HkMKmdx5Q_ttM3oBi2BzQFJvGK9-hCxJCRLAPrkbE30RRK3SOKZMAmszoGL-IFOa5tN" alt="" width="673" height="521"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Read and accept the Terms and Conditions then hit <strong>Next.</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":649,"height":503} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh4.googleusercontent.com/9SlFsxr3IJdtj6h4cUwh6CcTbIQwTRUYvJDlw64LOZ9Ujqzi4aYYxX0p1kIMgInX_ejWLVl0kUwE5IGxsFPzMkvS3hl8qIcj6cnykMhW9bpoDN4esX3X_auuaXXdRmtnVtBJnIya" alt="" width="649" height="503"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>The Android 10, also known as Q release, starts downloading.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":673,"height":474} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh5.googleusercontent.com/YzDkXGi05DWWCJ7tz7cRKGxvka3uiQ9_v5CFEk1Pk5AAcP1BSjCBMQCh7S6U3DVmJdAKhGJuhdycAAjf6P23ws3W7lJSeggQW-9kF_YTF7GnT_Alfv_9PBZPfQqr7ADwQGyYcBT2" alt="" width="673" height="474"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>Once the installation is complete, click the <strong>Next </strong>button to continue setting up an Android device emulator.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":685,"height":483} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh4.googleusercontent.com/TFvd8AUcWGtFXj5yAu-AqlszQ7PFan5fl6e8IIGH3dQFgCCEMIRzNaaLfr4QY4LphGuZDiaxQhm-ImeVSNryWIXJPvBVP7BUNOKnlwGCuqN9oxMLRjCMVkLb2aJlAekUG4mG2rUc" alt="" width="685" height="483"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>The installation is complete. Grab the <strong>AVD Name</strong> as you will use it later on in the test script, and hit <strong>Finish.</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Finally, we need to make sure the following environment variables are set on your computer. Open the <strong>~/.bash_profile</strong> file, and add the following environment variables:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">APPLITOOLS_API_KEY=<strong>{Get the Applitools API Key from Applitools Test Manager}</strong><br/>export APPLITOOLS_API_KEY<br/>ANDROID_HOME=/Users/<strong>{Use your account name here}</strong>/Library/Android/sdk<br/>export ANDROID_HOME<br/>ANDROID_HOME_TOOLS=$ANDROID_HOME/tools<br/>export ANDROID_HOME_TOOLS<br/>ANDROID_HOME_TOOLS_BIN=$ANDROID_HOME_TOOLS/bin<br/>export ANDROID_HOME_TOOLS_BIN<br/>ANDROID_HOME_PLATFORM=$ANDROID_HOME/platform-tools<br/>export ANDROID_HOME_PLATFORM<br/>APPIUM_ENV="Local"<br/>export APPIUM_ENV</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>Finally, add the above environment variables to the $PATH as follows:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">export $PATH=$PATH:$ANDROID_HOME:$ANDROID_HOME_TOOLS:$ANDROID_HOME_TOOLS_BIN:$ANDROID_HOME_PLATFORM</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>One last major component that you need to download, and have on your computer, is the ChromeDriver. Navigate to the <a target="_blank" href="http://appium.io/docs/en/writing-running-appium/web/chromedriver/" rel="noopener noreferrer">Appium ChromeDriver</a> website, and download the latest workable ChromeDriver release for Appium. Once downloaded, make sure to move the file to the location: <strong>/usr/local/bin/chromedriver</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>That’s it for the installations! Let’s move on and explore the Visual UI test script in depth.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Run the Visual UI Test Script locally</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>You can find the source code demo of this article on this GitHub <a target="_blank" href="https://github.com/bhaidar/applitools-appium-aws" rel="noopener noreferrer">repo</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Let’s explore the main test script in this repo.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:embed {"url":"https://gist.github.com/bhaidar/52eba6619c09759f59d30d29f097eeb3","align":"center"} -->
-<figure class="wp-block-embed aligncenter"/><!-- /wp:embed --><!-- wp:paragraph --><p>The test script starts by importing the <a target="_blank" href="https://www.npmjs.com/package/selenium-webdriver" rel="noopener noreferrer">selenium-webdriver</a> NPM package.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>It imports a bunch of objects from the <a target="_blank" href="https://www.npmjs.com/package/@applitools/eyes-selenium" rel="noopener noreferrer">@applitools/eyes-selenium</a> NPM package.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>It constructs a <a target="_blank" href="https://help.applitools.com/hc/en-us/articles/360006914772-Batching" rel="noopener noreferrer">BatchInfo</a> object used by Applitools API. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">const batchInfo = new BatchInfo("AWS Device Farm");
-batchInfo.id = process.env.BATCH_ID
-batchInfo.setSequenceName('AWS Device Farm Batches');</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>It then creates the <strong>Eyes</strong> object that we will use to interact with the Applitools API.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">// Initialize the eyes SDK<br/>let eyes = new Eyes();<br/>eyes.setApiKey(process.env.APPLITOOLS_API_KEY);<br/>eyes.setLogHandler(new FileLogHandler(true));<br/>eyes.setForceFullPageScreenshot(true)<br/>eyes.setStitchMode(StitchMode.CSS)<br/>eyes.setHideScrollbars(true)<br/>eyes.setBatch(batchInfo);</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>It’s so important to set the Applitools API key at this stage. Otherwise, you won’t be able to run this test. The code above also directs the Applitools API logs to a File located at the root of the project under the name of <strong>eyes.log</strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Next, we define the <strong>device capabilities </strong>that we are going to send to Appium.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">const capabilities = {<br/>        platformName: "Android",<br/>        deviceName: "Android Emulator",<br/>        automationName: "UiAutomator2",<br/>        browserName: 'Chrome',<br/>        waitforTimeout: 30000,<br/>        commandTimeout: 30000,<br/>    };<br/>    if (process.env.APPIUM_ENV === "Local") {<br/>        capabilities["avd"] = 'Pixel_XL_API_29';<br/>    }</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>We are using an Android emulator to run our test script over a Chrome browser with the help of the <strong>UIAutomator 2</strong> library.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We need to set the <strong>avd</strong> capability only when running this test script locally. For this property, grab the AVD ID of the Android Device Emulator we set above.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Now, we create and build a new <strong>WebDriver</strong> object by specifying the Appium Server local URL and the device capabilities as:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">const LOCAL_APPIUM = "http://127.0.0.1:4723/wd/hub";<br/>let driver = new webdriver<br/>        .Builder()<br/>        .usingServer(LOCAL_APPIUM)<br/>        .withCapabilities(capabilities)<br/>        .build();</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>Appium is configured to listen on <strong>Port 4723</strong> under the path of <strong>/wd/hub</strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The rest of the script is usual Applitools business. In brief, the script:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Opens a new Applitools test session</li><li>Sends a command to navigate the browser to <a target="_blank" href="https://us.vuejs.org/" rel="noopener noreferrer">https://us.vuejs.org/</a></li><li>Grabs the page title and displays it on screen.</li><li>Clicks the Burger Button to expand the menu on a Mobile device.</li><li>Finds the <strong>Location</strong> section on the page.</li><li>Finally, it prints the <strong>H2</strong> text of the Location section.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Notice that the script asserts two Eyes SDK Snapshots. The first captures the home page of the website, while the second captures the Location section.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Finally, some important cleanup is happening to close the WebDriver and Eyes SDK sessions.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Open the <strong>package.json</strong> file, and locate the two scripts there:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">"appium": "appium --chromedriver-executable /usr/local/bin/chromedriver --log ./appium.log",<br/>"test": "node appium.js"</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>The first runs and starts the Appium Server, and the second to run the test script.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Let’s first run the Appium server by issuing this command:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">npm run-script appium</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>Then, once Appium is running, let’s run the test script by issuing this command:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">npm run-script test</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Verify Test Results on Applitools Test Manager</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Login to the Applitools Test Manager located at: <a target="_blank" href="https://applitools.com/users/login" rel="noopener noreferrer">https://applitools.com/users/login</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You will see the following test results:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":773,"height":521} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh5.googleusercontent.com/-aaB0dRAPftq05axExS-YvwyJMThhloj5obfdt3PWVRAoVNi_7A-m8GfCtzkjHHBFK_8wWKjVoJ8aUt1ZqxtCDPEZC2UesUx_q-1p_3tEb7_m4H3PrGphQV0k65OKq4BbZrkA618" alt="" width="773" height="521"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>The two snapshots have been recorded!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Run the Visual UI Test Script on AWS Device Farm</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Now that the test runs locally, let’s run it on AWS Device Farm. Start by creating a new account on Amazon Web Service website.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Login to your AWS account on this page: <a target="_blank" href="https://console.aws.amazon.com/devicefarm" rel="noopener noreferrer">https://console.aws.amazon.com/devicefarm</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Create a new project by following the steps below:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://lh4.googleusercontent.com/K5ch_ROMihJ_gwUxvXouY6qH1iaI72Xs0S2DhlYRBRWzkmbfB7m-fl8-jdXxgMWyGDGdUSh-u6zV-tSLuWsVFv5mNmOjQqV_WY10P0TbvQaBPowNiVZKRYPsnB0IRU4vYLZORnhG" alt=""/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Select the <strong>Mobile Device Project</strong> and name your project <strong>Appium.</strong></li><li>Click the <strong>Create project</strong> button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center"} --><div class="wp-block-image"><figure class="aligncenter"><img src="https://lh3.googleusercontent.com/HP77sUw1BAvrBz2FxsbHlf0cTE1wVW59F3dJTWJB4IWyMNVaJK6pYBXUL105EXx0o0wajBfMZRpUwGbctqkhWrG6qf5Ihogs9MDMTRpj0Lwbj6XmXwsYcnXSO4RVxPSrT4bnzFOx" alt=""/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Locate and click the <strong>+ Create a new run</strong> button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":717,"height":483} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/WxtjESBUCALz_EA3xI9nlKQsyjJy0ecICmas2R65zoX9kkROkAeSdDMVffzf_6pGG293fHJxOEdW6U1qgy40pJh1xSzvTGi3FKL-MpzDncpG83WfcWDnZImfFYN1VWISCFceoFhu" alt="" width="717" height="483"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Select the <strong>HTML5</strong> option since we are testing a Web Page on a mobile device. </li><li>Assign your test run a name. </li><li>Click the <strong>Next step</strong> button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":754,"height":508} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/MPHgQPUxGe-nLRS5pk2uIg9s-uA0yMNv4F7kpcsvcvrXigeNmQMUhuHq7JYP1ceJAP_YiLSuzlQwhd2uXVCyz667hGJlvekaqAPJcvmDl-x2JIisvGDSpsVPJl-szn3Iwdmm6hSW" alt="" width="754" height="508"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Select the <strong>Appium Node.js</strong> test runner</li><li>Upload your tests packaged in a zip file.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>Let’s package our app in a zip file in order to upload it at this step.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Switch back to the code editor, open a command window, and run the following:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">npm install</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>This command is essential to make sure all the NPM package dependencies for this app are installed.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">npm install -g npm-bundle</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>The command above installs the <a target="_blank" href="https://www.npmjs.com/package/npm-bundle" rel="noopener noreferrer">npm-bundle NPM package</a> globally on your machine.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Then, run the command to package and bundle your app:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">npm-bundle</pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>The command bundles and packages your app files, and folders, including the <strong>node_modules</strong> folder.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The output of this step creates the file with the <strong>.tgz extension</strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The final step before uploading is to compress the file by running the command:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">zip -r appium-aws.zip *.tgz </pre>
-<!-- /wp:preformatted -->
-
-<!-- wp:paragraph -->
-<p>Name the file whatever you wish.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Now you can upload the<strong> .zip </strong>file to AWS Device Farm.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Once the file uploads, scroll down the page to edit the <strong>.yaml</strong> file of this test run like so:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","width":745,"height":502} -->
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh4.googleusercontent.com/BKBeid3y8vX-nR2bmnL3LZAc95c_sPm5qpLgLdq9WHpv3FkI7ryW_ieuzIwH31YhXg4tJ_dlRIaaSrehxaLC_Zh_7UFdNtSfBWD6vaO1PUDWoet7mTDhA4th8k5YFCvyy3eA2DRb" alt="" width="745" height="502"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Make sure you insert your Applitools API Key as shown in the diagram.</li><li>Add the <strong>node appium.js</strong> command to run your test script.</li><li>Click the <strong>Save Testspec</strong> file.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":765,"height":515} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/BLZFaFRtnQ2Cr0AdAsYIGP3Agjw2L5O0QLhVN-DI6xLvlVYJjUPwC0BggLmy8Q5GwVH0Su2wTu8V8k_W3sx2q6lwVXg1g24tP8ZlQ_fMRRIZK9OGHjA6nbd6yJVX9cTx0jTJhlzs" alt="" width="765" height="515"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>You can name it anything you want.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":724,"height":488} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh5.googleusercontent.com/Jm9EpP4RrLIQ_klZeQxJDOjDaet1w8whfvV1gHmt5ZOyC6mnSvfAb-s2CZOllA5AdZD_BMnRmFjAnf3hiOUwItWfMDUnilMyQ7rA0Af03keZUd_V2vwtzskAqweNN0DqPVBeOHBa" alt="" width="724" height="488"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>It’s time to select the devices that you want to run the test script against. I will pick up a customized list of devices. Therefore, click the <strong>Create a new device pool</strong> button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":748,"height":504} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/GVru0vbpwoDqQ_b2CgSOwMynzEHxzSaFQRDoMi34rsmZBkGW-GVqHrkhhA_GWpmNhKXaZtSOoH97AI_QhoFqGALjjBcroauUKBNifJ3A3z0A7-3pra4ymdl5WeBrna6oCyribBut" alt="" width="748" height="504"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Give this new pool a name.</li><li>Pick up the selected Android Devices. You may select others too.</li><li>Click the <strong>Save device pool</strong> button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":740,"height":499} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/7MFCVOlx9oESfn8Apksbe9odAzk-hhe-kth2BQPT1_V32qCVekR8aW8r8xLBk6OgGdHtyhgZhIPh4aZVZKA79sFMtUYk_168i1GdbbaWgaODrPbJqJqVr7Tfnfh3DvfxEzWwAahk" alt="" width="740" height="499"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Now, you can see the new device pool selected with the devices listed. </li><li>Click the <strong>Next step</strong> button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":725,"height":488} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh4.googleusercontent.com/JhgX_C2uG-DwJLrflWanNbTaGHuBBHDcSCDBRLUGZ5TYxYIKOeLkN0FMlEUCbsZBYbPPtQcVR6entcgVrKP-fJvCUDlxqhUUEPscRSLRUEtsMOdxTKPNZTLC_1PUktzY7jTJEXj_" alt="" width="725" height="488"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Locate and click the <strong>Confirm and start run </strong>button.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":715,"height":482} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh6.googleusercontent.com/oDgZc6C16rCvARzaPuQYw7dekgNbbFgPpymCX_RE6Pe7JuLDF04d0-4PT7wR3FvQqj8nP0w2t1UpGdUKYiaOpuw7efpk-46b7I12fBzEi5Jqm9CzqrbEW3VNAlDrBvHR_Jml-L_S" alt="" width="715" height="482"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>The test run starts!</li><li>Select the test run listed.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":753,"height":507} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh5.googleusercontent.com/LsEQ5J9z0KmP50G-M5ZR1hv5efT2gWsWCMZ9HYR9ayUO2u5WXsXZ2vt4Z15cxRggemNyDbxlc0cROgp2urazJXXKhJY2LjLkVcLzfGJa8kQoIQcji2X8vEYkTnN7W3gZEQ1GM9Go" alt="" width="753" height="507"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>You can watch the progress on both devices as the test is running. Usually, this step takes a bit of time to run and complete.</li></ul><!-- /wp:list --><!-- wp:image {"align":"center","width":708,"height":477} --><div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://lh3.googleusercontent.com/TH5ef3h-NFTHAP9W7zPdCqSscmqrfxwT9gRkkt-0QQtltRIT7th0R-NGCJBuYXG8h_F7h-U0S4bqek92PwfEqX9o8PNL-D_1PPOv216bK_EZYLV-KSSEMlp4InyyTcRJGQNSqGBf" alt="" width="708" height="477"/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul><li>Finally, the results are displayed clearly, and in our case, all the green indicates a pass.</li></ul><!-- /wp:list --><!-- wp:heading {"level":3} --><h3>Verify Test Results on Applitools Test Manager</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Switch back to the Applitools Test Manager, and verify the results of this second run via AWS Device Farm.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://lh3.googleusercontent.com/-wMgStRutGevL9GU-5V8hXkAQjKc8SuvA2t9vKeeTZxBqiIgR4vNX7beXRlviPRPytDpC7ZHlroJE_QA1441k2yFFVQHB9IDT7Ev_Qb5FVUu18q8qri7SGpHvDkiaBsFRLolJD2z" alt=""/></figure></div>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>As expected, we get exactly the same results as running the test script locally.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>Conclusion</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Given the massive integrations that Applitools offers with its rich SDKs, we saw how easily and quickly we can run our Visual UI tests in the cloud using the AWS Device Farm service. This service, and similar services, enrich the Visual regression testing ecosystem, and make perfect sense when performing them.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>For More Information</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<!-- /wp:list --><!-- wp:paragraph -->
-<!-- /wp:paragraph -->								
-			</div>
-<br>
-<br><a href="https://applitools.com/blog/visual-testing-appium-amazon/">Source link </a>]]></content:encoded>
 					
 		
 		
