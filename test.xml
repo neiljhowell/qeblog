@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 29 Jun 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Jul 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,130 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Top developer projects fighting on the front lines of COVID-19</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-developer-projects-fighting-on-the-front-lines-of-covid-19/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[fighting]]></category>
+		<category><![CDATA[front]]></category>
+		<category><![CDATA[lines]]></category>
+		<category><![CDATA[projects]]></category>
+		<category><![CDATA[Top]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2614</guid>
+
+					<description><![CDATA[Media attention has focused on the front-line heroes who are waging war against the pandemic, including the doctors, nurses, police officers, emergency medical]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Media attention has focused on the front-line heroes who are waging war <a target="_blank" href="https://techbeacon.com/tags/pandemic" rel="noopener noreferrer">against the pandemic</a>, including the doctors, nurses, police officers, emergency medical technicians, and grocery store cashiers. But thousands of information technology professionals are also among the front-line troops in this battle.</p>
+<p>IT pros are creating many of the applications used to gather and share critical data about the disease spread, or about financial help that individuals and organizations can tap to carry them through this unprecedented period.</p>
+<p>Here are some of the interesting development projects going on around the world right now—and how you can get involved.</p>
+<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
+<h3>The U.S. Digital Response</h3>
+<p><a target="_blank" href="https://www.usdigitalresponse.org" rel="nofollow noopener noreferrer">The U.S. Digital Response</a> (USDR) is a coalition of volunteers, mostly technologists, looking to help solve the challenges that governments and government services face in the midst of the crisis.</p>
+<p>Nearly 5,000 people have volunteered to help, and USDR is currently orchestrating over 150 projects with state, city, county, and local governments, said M. Jackson Wilkinson, the co-lead for the Real-Time Covid team at USDR. He oversees a team of 15, and among their efforts are CovidTracking, CovidActNow, PPE Coalition (personal protection equipment), and others.</p>
+<blockquote>
+<p>&#8220;We typically dive into tricky internal data challenges to assist the governments of large cities and states. We try to quickly engage, get a handle on the problem, figure out a plan to close the gap, and hustle toward a solution.&#8221;<br />—<a target="_blank" href="https://twitter.com/mjacksonw" rel="nofollow noopener noreferrer">M. Jackson Wilkinson</a></p>
+</blockquote>
+<p>Sometimes that&#8217;s building complete applications. Other times it&#8217;s getting existing processes automated. And other times it&#8217;s just a few Zoom calls to provide guidance.</p>
+<p>Virtually all of USDR projects arise from state or local government agencies reaching out for help, Wilkinson said.</p>
+<p>There are all sorts of ways that software developers can make contributions to projects such as those helped by USDR, Wilkinson said. These include writing code, doing design work, conducting rapid user research, managing projects, or just basic data entry and cleansing.</p>
+<h3>hack:now</h3>
+<p>This year&#8217;s <a target="_blank" href="https://hacknow.calhacks.io" rel="nofollow noopener noreferrer">hack:now</a> was a 36-hour global online competition for students to advance innovative and technical solutions aimed at tackling challenges caused by the coronavirus pandemic. Held April 24 and 25, 2020, the event was cosponsored by Postman, an API development platform, and Cal Hacks, a nonprofit organization consisting of students who are passionate about fostering a culture of hacking.</p>
+<p>The online hackathon was designed for the student community to work together and create solutions to trace, contain, and spread awareness about COVID-19, said Abhinav Asthana, CEO and co-founder of Postman. Toward those goals, the hackathon focused on three tracks:</p>
+<ul>
+<li><strong>Health:</strong> &#8220;While we aren&#8217;t medical professionals, we can still find additional ways to empower healthcare workers on the front lines and bring support to individuals at home,&#8221; Asthana said.</li>
+<li><strong>Community:</strong> &#8220;Digital communication is more important than ever, bringing together family, friends and neighbors, as well as saving local businesses while social distancing,&#8221; Asthana said.</li>
+<li><strong>Productivity:</strong> &#8220;Working or learning remotely is a novel experience for many of us. Millions of individuals stuck at home are looking for new ways to re-establish routines they had at work or school,&#8221; Asthana said.</li>
+</ul>
+<p>Beyond the technical skills students learned and refined, the collaboration mindset and focus on the common good &#8220;will both influence these young developers&#8217; careers and encourage continued efforts in this pandemic.&#8221;</p>
+<blockquote>
+<p>&#8220;[The hackathon work] builds a strong foundation for many projects to be used in production.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/abhinavasthana/" rel="nofollow noopener noreferrer">Abhinav Asthana</a></p>
+</blockquote>
+<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
+<h3>Coronavirus Tracker</h3>
+<p>No doubt the most desired information about COVID-19&#8217;s toll each day is the statistics on number of cases, death, recoveries and testings—nationwide, on an individual state basis, and globally.</p>
+<p>All of that information is readily available on <a target="_blank" href="https://www.domo.com/covid19/daily-pulse/" rel="nofollow noopener noreferrer">the Coronavirus Tracker</a>, maintained by Domo. It offers up-to-date information on the spread of disease, summarized by confirmed cases, geography, testing and treatment, projections, and economic impact. Domo, a cloud computing business services provider, says it maintains the Coronavirus Tracker as a public service. </p>
+<p>The highly detailed COVID-19 charts are compiled from information gathered every 10 minutes from the World Health Organization (WHO), the Centers for Disease Control (CDC), John Hopkins University, Worldometer, the Institute for Health Metrics and Evaluation (IHME), the COVID Tracking Project, Federal Reserve Economic Data (FRED), <em>The New York Times</em>, the Wikipedia compilation of world testing, SafeGraph, Foursquare, Thumbtack, and data from the Amazon Web Services (AWS) Data Exchange.</p>
+<p>Ben Schein, Domo&#8217;s vice president of data curiosity, explained how it came to be.</p>
+<blockquote>
+<p>&#8220;Our team developed this interactive COVID-19 tracker over a weekend, building on Domo&#8217;s ability to rapidly bring together disparate new data sources and new data types and make it available at scale to anyone.&#8221;<br />—<a target="_blank" href="https://twitter.com/benfromminn" rel="nofollow noopener noreferrer">Ben Schein</a></p>
+</blockquote>
+<p>One of the goals was to give a broader context to the evolving pandemic, Schein explained. This included adding data on such things as economic impact, individual mobility, foot traffic, hospitalization, and COVID-19 testing.</p>
+<h3>India&#8217;s COVID-19 online hackathon</h3>
+<p><a target="_blank" href="https://coronathon.in/?mkt_tok=eyJpIjoiTkRRek1UQTVaR0ptTW1WbSIsInQiOiJSemhVRlRrdlRSckFpclFSTW02b3B2cXBWM3NKaDVlczZvUzNVeXU2RnlUSDlWTlRXNGZNK1NmZUUyOEpxVXdcL0Z2ck1RNWJGK1JtSkY5S1M2Q052U1pjcEtwWEpybFF6OG1xVVZxbXlqYm5xb05EcktheDY1SE9Xck80OFBOMm0ifQ%3D%3D" rel="nofollow noopener noreferrer">Coronathon India</a>, held in March and April, was another online contest designed to raise awareness about COVID-19 and develop weapons to be used in the fight against it. Some 3,000 people from India&#8217;s technology, business, and healthcare communities came together to build projects to minimize the pandemic&#8217;s impact on India.</p>
+<p>Over a period of four weeks, more than 40 projects were developed to help track the spread of the disease, where hotspots of infection were developing, and how testing and tracing efforts were going. Hackathon organizers noted that COVID-19 poses an especially grave danger to India, due to the country&#8217;s high population density and the &#8220;abysmally low number of hospital beds per 100 people.&#8221;</p>
+<p>Many of the developed projects came from software professionals and involved ways to better compile and analyze data about COVID-19 cases, or apps for tracking the movements of individuals known or suspected of being positive for the disease. Other projects involved social media tools for educating people about the disease symptoms and approved precautions against it.</p>
+<h3>COVID-19 High Performance Computing Consortium</h3>
+<p>In collaboration with the White House Office of Science and Technology Policy, the US Department of Energy, and many others, IBM helped launch <a target="_blank" href="https://covid19-hpc-consortium.org" rel="nofollow noopener noreferrer">the COVID-19 High Performance Computing Consortium</a>. The consortium is throwing an unprecedented amount of computing power—6 systems with more than 330 petaflops, 775,000 CPU cores, 34,000 GPUs, and counting—to help researchers better understand the disease, its possible treatments, and potential cures.</p>
+<p>According to <a target="_blank" href="https://www.linkedin.com/in/dario-gil-58575713/" rel="nofollow noopener noreferrer">Dario Gil</a>, director of IBM research, the consortium represents a true &#8220;Who&#8217;s Who&#8221; of supercomputing. Partners include the Lawrence Livermore National Lab, the Argonne National Lab, the Oak Ridge National Laboratory, the Sandia National Laboratory, the Los Alamos National Laboratory, the National Science Foundation, NASA, the Massachusetts Institute of Technology, the Rensselaer Polytechnic Institute, and several leading technology companies.</p>
+<p>Through this program, researchers at the Oak Ridge National Laboratory and the University of Tennessee screened 8,000 compounds &#8220;to find those that are most likely to bind to the main &#8216;spike&#8217; protein of the coronavirus, rendering it unable to infect host cells,&#8221; Gil said.</p>
+<p>They then recommended the 77 most promising small-molecule drug compounds that could now be tested.</p>
+<blockquote>
+<p>&#8220;This is the power of accelerating discovery through computation.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/dario-gil-58575713/" rel="nofollow noopener noreferrer">Dario Gil</a></p>
+</blockquote>
+<h3>Graph4Good</h3>
+<p>Graph data science is an important part of the efforts to track the spread of COVID-19 and the movements of those who may have been infected. In response, database vendor Neo4j launched <a target="_blank" href="https://neo4j.com/graphs4good/" rel="nofollow noopener noreferrer">the Graphs4Good project</a>, which uses the vendor&#8217;s graph database to research COVID-19.</p>
+<p>The advantage of using graph data technology in the fight against COVID-19 is that it can connect large datasets from multiple sources, allowing analysis on a much larger level.</p>
+<p>Graphs4Good &#8220;has helped several organizations tackle pandemic-related initiatives from contact tracing, to curtailing the spread of misinformation,&#8221; said Amy E. Hodler, director of AI and analytics programs at Neo4j.</p>
+<p>Current market conditions demonstrate the blind spots of thinking about data in rows and columns, she added.</p>
+<blockquote>
+<p>&#8220;Organizations are beginning to consider the importance of the relationships between data points, which are potentially far more valuable for predictive accuracy than flat, tabular descriptors.&#8221;<br />—<a target="_blank" href="https://twitter.com/amyhodler" rel="nofollow noopener noreferrer">Amy E. Hodler</a></p>
+</blockquote>
+<h3>Call for Code</h3>
+<p>IBM is encouraging developers to join in the fight with its <a target="_blank" href="https://developer.ibm.com/callforcode/" rel="nofollow noopener noreferrer">Call for Code</a> program. It offers cash prizes, connects developers with experts and open-source resources, and helps deploy applications where they are most needed.</p>
+<p>Now in its third year, the 2020 Call for Code Global Challenge is currently asking developers worldwide to build solutions for COVID-19. A second track this year looks at issues related to climate change. Both the COVID-19 track and the Climate Change track are open for submissions though July 31.</p>
+<p>Response to the initial call was swift. &#8220;We&#8217;re already receiving overwhelming support and some exciting early ideas,&#8221; said Willie Tejada, general manager and chief developer advocate at IBM. In a single day, over 1,000 developers registered.</p>
+<blockquote>
+<p>&#8220;First responders, at-risk individuals, and coders are reaching out to us to share their experiences and brainstorm solutions.&#8221;<br />—<a target="_blank" href="https://twitter.com/wtejada223" rel="nofollow noopener noreferrer">Willie Tejada</a></p>
+</blockquote>
+<p>Together with Call for Code&#8217;s creator, David Clark Cause, and in partnership with the United Nations Human Rights Council and the Linux Foundation, &#8220;we&#8217;re asking developers, data scientists, and problem solvers to answer the call.&#8221;</p>
+<h3>The next wave of projects and volunteers</h3>
+<p>From supercomputer analysis to major data management projects to individual developer efforts, the coronavirus pandemic is inspiring an unprecedented response from IT professionals and tech companies that want to join the fight on the front lines.</p>
+<p>Technology pros who want to join the fight should look first in their own state. For example, the <a target="_blank" href="https://www.ny.gov/programs/new-york-state-covid-19-technology-swat-team" rel="nofollow noopener noreferrer">COVID-19 Technology SWAT Team</a> in New York is looking for tech volunteers. But you can also do <a target="_blank" href="https://www.michigan.gov/mdhhs/0,5885,7-339-73970_71692_71696-528652--rss,00.html" rel="nofollow noopener noreferrer">volunteer to do contact tracing</a> in Michigan; and this site <a target="_blank" href="https://www.volunteermatch.org/covid19/" rel="nofollow noopener noreferrer">matches volunteers with nationwide COVID-19 projects</a> related to healthcare, education, and small-business support needed due to the lockdown and virus&#8217;s economic fallout.</p>
+<p>The next step: Find your niche, and use your skills to make a difference.</p>
+<p> </p>
+<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/top-developer-projects-fighting-front-lines-covid-19">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>New Android Spyware Tools Emerge in Widespread Surveillance Campaign</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-android-spyware-tools-emerge-in-widespread-surveillance-campaign/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 14:55:42 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Campaign]]></category>
+		<category><![CDATA[Emerge]]></category>
+		<category><![CDATA[Spyware]]></category>
+		<category><![CDATA[Surveillance]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Widespread]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-android-spyware-tools-emerge-in-widespread-surveillance-campaign/</guid>
+
+					<description><![CDATA[Never-before-seen Android spyware tools have been used in a widespread APT campaign to spy on the Uyghur ethnic minority group]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Never-before-seen Android spyware tools have been used in a widespread APT campaign to spy on the Uyghur ethnic minority group &#8211; since 2013.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/four-android-spyware-tools-surveillance-campaign/157063/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ESM essentials: What it is, why it matters</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/esm-essentials-what-it-is-why-it-matters/</link>
 		
@@ -692,72 +816,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ripple20-vulnerability-mitigation-best-practices/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Welcome to Sébastien! – Gatling Open-Source Load Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-sebastien-gatling-open-source-load-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Jun 2020 14:26:42 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Gatling]]></category>
-		<category><![CDATA[Load]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[Sébastien]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-sebastien-gatling-open-source-load-testing/</guid>
-
-					<description><![CDATA[The tech team is growing and welcoming Sébastien Brevet! Sébastien joined Gatling as a Back-end Developer on Monday Let’s say]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span class="s1">The tech team is growing and welcoming <strong>Sébastien Brevet</strong>!</span></p>
-<p></p>
-<p><noscript><img class="size-medium wp-image-7370 aligncenter" src="https://gatling.io/wp-content/uploads/2020/06/IMG_7563-200x300.png" alt="Tech Team Gatling - Sébastien Brevet" width="200" height="300" srcset="https://gatling.io/wp-content/uploads/2020/06/IMG_7563-200x300.png 200w, https://gatling.io/wp-content/uploads/2020/06/IMG_7563.png 320w" sizes="(max-width: 200px) 100vw, 200px"/></noscript></p>
-<p>Sébastien joined Gatling as a <strong>Back-end Developer</strong> on Monday</p>
-<p>Let’s say that development is innate in Sébastien, he started at a young age and has <strong>12 years experience in his field</strong>. Sébastien has always lived in Paris, passionate about many dance styles and a lover of algorithmic competitions<span class="c-message__edited_label" dir="ltr" data-sk="tooltip_parent" aria-describedby="sk-tooltip-81421"> (Google code jam).</span></p>
-<p>We are delighted to have Sébastien in the team and wish him every success.</p>
-<p>Welcome to the Gatling family Sébastien!</p>
-<p> </p>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://gatling.io/2020/06/19/welcome-to-sebastien/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Customer Success Engineer &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/customer-success-engineer-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Jun 2020 12:19:21 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Customer]]></category>
-		<category><![CDATA[engineer]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[Success]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/customer-success-engineer-neotys/</guid>
-
-					<description><![CDATA[In this context, you will be trained on the Neotys products and be taught Neotys CSM best practices to work]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span style="font-weight: 400;">In this context, you will be trained on the Neotys products and be taught Neotys CSM best practices to work efficiently with existing and new customers in order to fulfill their requirements and expectations.</span></p>
-<p><span style="font-weight: 400;">You will be playing a key role onboarding Neotys new customers and helping them adopting our solution. You will also be the main point of contact of existing and more mature Neotys customers to help them using our product and relay any requirement they may have to Neotys Product Management.</span></p>
-<p><span style="font-weight: 400;">Neotys customer base is composed of large corporations in all main verticals. You will operate on Neotys European key geos (France, UK, DACH, Benelux) but other geos are possible.</span></p>
-<p><span style="font-weight: 400;">The most accurate support and services (training and consulting) are to be delivered. To reach this goal you will be dealing with customers either remotely or/and on-site. Mobility is a must and could take up to 50% of your work-time.</span></p>
-<p><span style="font-weight: 400;">Being a Customer Success Engineer will lead you to a transverse position within the company and will require interactions with Neotys Product Management, R&amp;D, Marketing and Pre-sales teams. Besides that, you will be actively working with Neotys Account Executives and reporting to VP </span><span style="font-weight: 400;">Customer Success.</span></p>
-<p><span style="font-weight: 400;">You should have good interpersonal skills, be organized and an excellent communicator both orally and in writing.</span></p>
-</p></div>
-<p><br />
-<br /><a href="https://www.neotys.com/uncategorized/customer-success-engineer">Source link </a></p>
 ]]></content:encoded>
 					
 		
