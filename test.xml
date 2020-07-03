@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 01 Jul 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Jul 2020 12:36:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,38 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad &#8211; Neotys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cognizant-accelerates-site-reliability-for-a-uk-retailer-with-neotys-neoload-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2020 12:36:59 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[accelerates]]></category>
+		<category><![CDATA[Cognizant]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[reliability]]></category>
+		<category><![CDATA[Retailer]]></category>
+		<category><![CDATA[site]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cognizant-accelerates-site-reliability-for-a-uk-retailer-with-neotys-neoload-neotys/</guid>
+
+					<description><![CDATA[Find out how a UK retailer saved 90% on the costs of their recurring tool license and cloud usage, developed]]></description>
+										<content:encoded><![CDATA[
+<p>Find out how a UK retailer saved 90% on the costs of their recurring tool license and cloud usage, developed performance tests 2X faster and reduced script maintenance efforts by 40% with <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeoLoad</a> and our global partner <a target="_blank" href="https://facebook.com/Cognizant/?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">Cognizant</a> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3eQoJC2%3Ffbclid%3DIwAR1KDu8CoLXKruhfbrZVNQORYjmXLD79HKf-Pz5yG2DodsVP_nDbagf0e-Q&amp;h=AT2eSnvetQLxh95l5vuETIBqkNKY9S8qZATTvQernJE6rYRNjUsSBeNXih7v3QTJZzWEFuCI212gaZHMoTVk5kxKJCxnruPQRcXr0PcRTShkWLpiEo7bf6zr5cJkLDik51UmKs_b_dbcPYPWXMB89JcrGyCRhMT1JhXw0mwY09urelaTg3NIFURY_ZIx0uwOo2JTj5bR1zEBzZ-Ew97T77TwOr-qSGfrgBkTxChfWUJ0vM55HsYGnumq9B7Xl6G0MbJkZ6xwBcx9SifESciLKuQrjbG7-TU_csfIN5FLNLAXoIlCE0JS0f3CSF54GYVvd62_lY7W6cS0zucJ5WWzCbebPOPImBROpyZMd3qysQqbDbHJESLarj3q4GpOmbOxai63F1BOAmTLPLglkVP_uBPD6ZGsSb4tMfpSCD2-RD3HpXswgGgQIlesJ2aSDi7rFJ0wsQ61hchfo2Uu_0f20PD5vZ36MkQSxkX_dYr_CZReAwNINszj3p26O36HMh2otelXBVbAftE-tR0UDgob1rVeMTFXr_w-UTL7Xavfj2dVKklsc5rAAu13OTyaSpxdD8URCscFiBGW6uQovcob-Gfl611xBBweCpSXf5IKuCsTjseg7NJ0TFTcsg5fk_hOqTZhpKoqKzi5a89ejIXcAQFmhRZ2q9wpMwiWd371FjCtAcvBiFLbQaCJGreGLhmYR7TOGkVcpifx7hYBECWPD5nWTFaewrdQSTUFP01LmcP6aZPKEDie_F7DN_KP7IvyB5HXB3SDWzqcnE7Y1K9JOE9NWYcR--OGXP8OzgYvpE7e416OmCpTsRza3fPhzvqocFkh7u2x88pFm4fqeICfjsHtT-nu6XEsFSYVM_zo96i8drLcfB8XEMtwDlza-JaNfMCfmYuxtXCjQYruOsWTKwK1HDfzNMYi61yUvtCOrIFvwZMT6WtXibbf6OOfgpNgYPf3lkobtY_xNxkFXRMSimbeC9wgY7VUtcJ-8oi6d0Z4mjrL6tNcX0g03p3-Q-l7cFYrdCShfTxErxc_J6Dnu8s9z0VtPhDeI6MLDhMQq_7SbunWNBLkX_3J4-hz6I6PvvbEfnWsnDOQLCPzrIMd-eoycuP5kMjwEwcs8T1KAm_En1hdwV0LaBELjzmU_5Bp6dTZyOzhx95r6zO2P8Y3qdPOcQrc-CuOevEJ0HmwZjH6ukwPWPOAEo7OfGQ8NmES9t7jQFIKglPQGoj-rquwdUh2J_UbfemoiJJAAETc3a3wDfaehgz8v5e0ptUHGOhT4xh-y1SiiHcY5hIDJ5pjeZ80cJI7mVbUkwyhNfMAm0G689uvy5dPwBHesKR9sOTK4qADzMRpxHVcIGQqBZaS16vpBGqaIONYxyQ5O6xgyV6hs88ilmQth0jd45hXLrYAZyDLuhbKLkQDowMmSfLSMxxBXaIVkg" rel="noopener noreferrer">https://bit.ly/3eQoJC2</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">#Perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">#PerformanceTesting</a>
+</p>
+<p><a target="_blank" href="https://bit.ly/3eQoJC2?fbclid=IwAR1KDu8CoLXKruhfbrZVNQORYjmXLD79HKf-Pz5yG2DodsVP_nDbagf0e-Q" rel="noopener noreferrer"></a> </p>
+<p><a target="_blank" href="https://bit.ly/3eQoJC2?fbclid=IwAR1KDu8CoLXKruhfbrZVNQORYjmXLD79HKf-Pz5yG2DodsVP_nDbagf0e-Q" rel="noopener noreferrer">Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad &#8211; Neotys</a></p>
+<p>Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad Background A UK-based retailer comprising health and beauty stores and pharmacies planned to replace its legacy systems with innovative solutions across all store outlets and remodel its digital platforms to improve busines&#8230;<br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3454911457853626">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Top developer projects fighting on the front lines of COVID-19</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-developer-projects-fighting-on-the-front-lines-of-covid-19/</link>
 		
@@ -747,75 +779,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/mcafee-findings-reveals-tv-shows-movies/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ripple20 Vulnerability Mitigation Best Practices</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ripple20-vulnerability-mitigation-best-practices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 22 Jun 2020 22:32:25 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Mitigation]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[Ripple20]]></category>
-		<category><![CDATA[Vulnerability]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ripple20-vulnerability-mitigation-best-practices/</guid>
-
-					<description><![CDATA[On June 16th, the Department of Homeland Security and CISA ICS-CERT issued a critical security advisory warning covering multiple newly discovered vulnerabilities affecting]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="container medium">
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>On June 16<sup>th</sup>, the Department of Homeland Security and CISA ICS-CERT <a target="_blank" href="https://www.us-cert.gov/ics/advisories/icsa-20-168-01" rel="noopener noreferrer">issued</a> a critical security <a target="_blank" href="https://www.kb.cert.org/vuls/id/257161" rel="noopener noreferrer">advisory</a> warning covering multiple newly discovered vulnerabilities affecting Internet-connected devices manufactured by multiple vendors. This set of 19 vulnerabilities in a low-level TCP/IP software library developed by Treck has been dubbed “Ripple20” by researchers from JSOF.</p>
-<p>A networking stack is a software component that provides network connectivity over the standard internet protocols. In this specific case these protocols include ARP, IP (versions 4 and 6), ICMPv4, UDP and TCP communications protocols, as well as the DNS and DHCP application protocols. The Treck networking stack is used across a broad range of industries (medical, government, academia, utilities, etc.), from a broad range of device manufacturers – a fact which enhances their impact and scope, as each manufacturer needs to push an update for their devices independently of all others. In other words, the impact ripples out across the industry due to complexities in the supply and design chains.</p>
-<p>Identifying vulnerable devices on your network is a crucial step in assessing the risk of Ripple20 to your organization. While a simple <a target="_blank" href="https://www.shodan.io/search?query=treck" rel="noopener noreferrer">Shodan search for “treck”</a> shows approximately 1000 devices, which are highly likely to be internet-facing vulnerable devices, this represents only a fraction of the impacted devices. Identification of the Treck networking stack vs. other networking stacks (such as the native Linux or Windows stacks) requires detailed analysis and fingerprinting techniques based on the results of network scans of the devices in question.</p>
-<p>The impact of these vulnerabilities ranges from denial of service to full remote code exploitation over the internet, with at least one case not requiring any authentication (<a target="_blank" href="https://nvd.nist.gov/vuln/detail/CVE-2020-11901" rel="noopener noreferrer">CVE-2020-11901</a>). JSOF researchers identified that these vulnerabilities impact a combination of traditional and IoT devices. Customers should review advisories from vendors such as <a target="_blank" href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00295.html" rel="noopener noreferrer">Intel</a> and <a target="_blank" href="https://support.hp.com/in-en/document/c06640149" rel="noopener noreferrer">HP</a> because non-IoT devices may be running firmware that makes use of the Treck networking stack.</p>
-<p>Ripple20’s most significant impact is to devices whose network stack is exposed (in general IoT devices incorporating the Treck network stack) as compared to devices that incorporate the stack that it is only exposed to the local device. We recommend that you audit all network-enabled devices to determine if they are susceptible to these vulnerabilities.</p>
-<p>There are potentially tens of millions of devices that are vulnerable to at least one of the Ripple20 flaws. Mitigating impact requires attention from both device owners and device vendors.</p>
-<h3><strong>Mitigations for users of vulnerable devices per CISA recommendations (where possible): </strong></h3>
-<ul>
-<li>Patch any device for which a vendor has released an update.</li>
-<li>Practice the principle of least privilege for all users and devices (devices and users should only have access to the set of capabilities needed to accomplish their job). In this case, minimize network exposure and <a target="_blank" href="https://www.us-cert.gov/ics/alerts/ICS-ALERT-10-301-01" rel="noopener noreferrer">internet-accessibility</a> for all control system devices.</li>
-<li>Locate control system networks and remote devices behind firewalls and isolate them from the business network.</li>
-<li>When remote access is required, use secure methods, such as Virtual Private Networks (VPNs), recognizing that VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize that a VPN is only as secure as the connected devices. VPN solutions should use multi-factor authentication.</li>
-<li>Use caching DNS servers in your organization, prohibiting direct DNS queries to the internet. Ideally, caching DNS servers should utilize DNS-over-HTTPS for lookups.</li>
-<li>Block anomalous IP traffic by utilizing a combination of firewalls and intrusion prevention systems.</li>
-</ul>
-<h3><strong>Where Can I Go to Get More Information?</strong></h3>
-<p>Please review <a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93020" rel="noopener noreferrer">KB93020</a> for more information and subscribe for updates.</p>
-</p></div>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ripple20-vulnerability-mitigation-best-practices/">Source link </a></p>
 ]]></content:encoded>
 					
 		
