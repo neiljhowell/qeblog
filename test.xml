@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 02 Jul 2020 17:48:58 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Jul 2020 21:01:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,25 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>BEC Hotshot with Opulent Social Media Presence to Face U.S. Charges</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bec-hotshot-with-opulent-social-media-presence-to-face-u-s-charges/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 07 Jul 2020 21:01:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bec-hotshot-with-opulent-social-media-presence-to-face-u-s-charges/</guid>
+
+					<description><![CDATA[The Nigerian native has been extradited from Dubai after a string of over-the-top Instagram posts. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The Nigerian native has been extradited from Dubai after a string of over-the-top Instagram posts.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/bec-hotshot-opulent-social-media-us-charges/157245/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Happy (belated) #CanadaDay to our Canadian employees! Today we celebrated with a&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/happy-belated-canadaday-to-our-canadian-employees-today-we-celebrated-with-a/</link>
 		
@@ -267,6 +286,41 @@
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/07/01/how-to-overcome-selenium-automation-testing-challenges/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Dave Haeffner’s Selenium Guidebook Now Available to Sauce Labs Free Trial Users</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dave-haeffners-selenium-guidebook-now-available-to-sauce-labs-free-trial-users/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Dave]]></category>
+		<category><![CDATA[free]]></category>
+		<category><![CDATA[Guidebook]]></category>
+		<category><![CDATA[Haeffners]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Trial]]></category>
+		<category><![CDATA[Users]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dave-haeffners-selenium-guidebook-now-available-to-sauce-labs-free-trial-users/</guid>
+
+					<description><![CDATA[Big news: Dave Haeffner’s Selenium Guidebook, a step-by-step guide on how to use Selenium successfully, is now available to anyone]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Big news: Dave Haeffner’s Selenium Guidebook, a step-by-step guide on how to use Selenium successfully, is now available to anyone who signs up for a free trial of the Sauce Labs Continuous Testing Cloud. </p>
+<p>Dave Haeffner, who authored the guidebook, is a well-known Selenium expert who created Elemental Selenium—a free, weekly Selenium tip newsletter that’s read by thousands of testing professionals. Between his guidebook, newsletter, and overall contributions to the Selenium project, Dave has personally helped numerous companies successfully implement automated testing. </p>
+<p>Since its inception, the Selenium Guidebook has helped both testers and developers learn how to automate their tests. The Selenium Guidebook is not only a resource for folks just getting started with Selenium, but also for experienced automation engineers who want to brush up on best practices and advanced concepts like parallel testing. </p>
+<p>Dave’s Selenium guidance combined with the Sauce Labs platform offers a powerful combination of comprehensive testing coverage and proven real-world advice—an unbeatable formula that will help testing newbies and veterans alike. Sign up for <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">your free Sauce Labs trial today to get started</a>. </p>
+<p>And if mobile testing is more your cup of tea, we have a guidebook for that, too! Check out Getting Started with Appium, written by Appium project lead Jonathan Lipps. We’ve got you covered with both <a target="_blank" href="https://saucelabs.com/resources/white-papers/getting-started-with-appium-java" rel="noopener noreferrer">Java</a> and <a target="_blank" href="https://saucelabs.com/resources/white-papers/getting-started-with-appium-ruby" rel="noopener noreferrer">Ruby</a> versions. </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/dave-haeffner-selenium-guidebook-now-available-to-sauce-labs-free-trial-users">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -603,72 +657,6 @@ public boolean isPromoCodeApplySuccessful(String promoCode) {
 <br />The botnet can be used to mount different kinds of attacks, including code-execution and DDoS.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/darkcrewfriends-returns-botnet/156963/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Gatling FrontLine is now available in AZURE Marketplace! – Gatling Open-Source Load Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-is-now-available-in-azure-marketplace-gatling-open-source-load-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 26 Jun 2020 08:37:15 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[AZURE]]></category>
-		<category><![CDATA[Frontline]]></category>
-		<category><![CDATA[Gatling]]></category>
-		<category><![CDATA[Load]]></category>
-		<category><![CDATA[Marketplace]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-is-now-available-in-azure-marketplace-gatling-open-source-load-testing/</guid>
-
-					<description><![CDATA[Gatling FrontLine, Gatling’s official Enterprise Version, is now available in Azure Marketplace Try it now! Until today, Gatling FrontLine was]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span style="font-weight: 400;"><noscript><img class="wp-image-6903 aligncenter" src="https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-300x87.png" alt="Logo-Azure Marketplace" width="228" height="66" srcset="https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-300x87.png 300w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-768x222.png 768w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-1024x296.png 1024w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg-500x145.png 500w, https://gatling.io/wp-content/uploads/2020/04/1280px-Microsoft_Azure_Logo.svg.png 1280w" sizes="(max-width: 228px) 100vw, 228px"/></noscript></span></p>
-<p><span style="font-weight: 400;"><br /><strong>Gatling FrontLine</strong>, Gatling’s official Enterprise Version, is now available in <strong>Azure Marketplace</strong></span></p>
-<p style="text-align: center;"><span style="font-weight: 400;"><a target="_blank" class="btn purple" href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/gatlingcorp.gatling-frontline?tab=Overview" rel="noopener noreferrer">Try it now!</a></span></p>
-<p style="text-align: left;"><span style="font-weight: 400;"><br />Until today, Gatling FrontLine was available on-premises and on AWS Marketplace. Now, <strong>Azure customers</strong> can benefit from our <a target="_blank" href="https://gatling.io/gatling-frontline/cloud-marketplaces/" rel="noopener noreferrer">Enterprise Version</a> on an <strong>hourly basis</strong>.</span></p>
-<p><span style="font-weight: 400;">Whenever you want to benefit from advanced features, purchase Gatling FrontLine on Azure Marketplace and run your Gatling tests!</span></p>
-<p><span style="font-weight: 400;">Do you want to know more about it? Read </span><a target="_blank" href="https://gatling.io/gatling-frontline/product-sheet/" rel="noopener noreferrer"><span style="font-weight: 400;">our product sheet</span></a><span style="font-weight: 400;">!</span></p>
-<h2><b>Any question or comment?</b></h2>
-<p><span style="font-weight: 400;">Contact us and we will get back to you as fast as possible: <a target="_blank" href="https://gatling.io/mailto:contact@gatling.io" rel="noopener noreferrer">contact@gatling.io</a></span></p>
-<p style="text-align: center;"><span style="font-weight: 400;"><a target="_blank" class="btn purple" href="https://gatling.io/gatling-frontline/cloud-marketplaces/azure/" rel="noopener noreferrer">More info</a></span></p>
-<p> </p>
-<p><strong>The Gatling Team</strong></p>
-<p><img class="wp-image-6952 aligncenter" src="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg" alt="Gatling FrontLine - Azure Marketplace" width="761" height="137" srcset="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg 300w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-768x138.jpg 768w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-1024x185.jpg 1024w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-500x90.jpg 500w" data-lazy-sizes="(max-width: 761px) 100vw, 761px"/></p>
-<p><noscript><img class="wp-image-6952 aligncenter" src="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg" alt="Gatling FrontLine - Azure Marketplace" width="761" height="137" srcset="https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-300x54.jpg 300w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-768x138.jpg 768w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-1024x185.jpg 1024w, https://gatling.io/wp-content/uploads/2020/04/gatling-Frontline-Azure-500x90.jpg 500w" sizes="(max-width: 761px) 100vw, 761px"/></noscript></div>
-<p><br />
-<br /><a href="https://gatling.io/2020/06/26/gatling-frontline-is-now-available-on-azure-marketplace/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Emerging Ransomware Targets Photos, Videos on Android Devices</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emerging-ransomware-targets-photos-videos-on-android-devices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 24 Jun 2020 21:21:53 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[Emerging]]></category>
-		<category><![CDATA[Photos]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[Targets]]></category>
-		<category><![CDATA[Videos]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emerging-ransomware-targets-photos-videos-on-android-devices/</guid>
-
-					<description><![CDATA[The CryCryptor malware strain is a brand-new family of threats, leveraging COVID-19 to spread. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The CryCryptor malware strain is a brand-new family of threats, leveraging COVID-19 to spread.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/emerging-ransomware-photos-videos-android/156893/">Source link </a></p>
 ]]></content:encoded>
 					
 		
