@@ -84,6 +84,75 @@
 		
 			</item>
 		<item>
+		<title>How to Protect Your Privacy From Tracking Apps</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-protect-your-privacy-from-tracking-apps/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2020 17:23:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Protect]]></category>
+		<category><![CDATA[Tracking]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-protect-your-privacy-from-tracking-apps/</guid>
+
+					<description><![CDATA[Apps – what would life be without them? Imagine opening a brand-new browser tab every time you wanted to check]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Apps – what would life be without them? Imagine opening a brand-new browser tab every time you wanted to check your email, access photos, connect with friends on social media, or even pay your bills online.</p>
+<p>Apps have greatly enhanced the way consumers interact with and complete tasks on their mobile devices. But what many consumers don’t realize is that they are tracked by many of the <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/faceapp/" rel="noopener noreferrer">apps</a> they know and use daily. Tracking can stem from a variety of platforms, however one type in particular has brought this issue even more into the forefront: <a target="_blank" href="https://www.technologyreview.com/2020/05/07/1000961/launching-mittr-covid-tracing-tracker/" rel="noopener noreferrer">contact tracing apps</a>, which can help slow the spread of COVID-19.</p>
+<h2>What Are Contact Tracing Apps?</h2>
+<p>According to <a target="_blank" href="https://www.technologyreview.com/2020/05/07/1000961/launching-mittr-covid-tracing-tracker/" rel="noopener noreferrer">MIT Technology Review</a>, technologists have been working to build contact tracing apps and systems to identify and notify those who have come in contact with a virus carrier. Tech giants and public health authorities worldwide have quickly signed up to build the application programming interfaces (APIs) and apps necessary to support this project’s scale. However, many users are skeptical that they know very little about these apps, what data is collected, and who this data is shared with.</p>
+<p>The success of these contact tracing apps rests on user participation. However, for these apps to make a real impact, developers must overcome potential privacy and security risks to assure individuals their data will only be used to fight the virus’ spread.</p>
+<h2>The Impact of Contact Tracing Technology</h2>
+<p>According to <a target="_blank" href="https://healthitsecurity.com/news/covid-19-contact-tracing-apps-spotlight-privacy-security-rights" rel="noopener noreferrer">Health IT Security</a>, the <a target="_blank" href="https://healthitsecurity.com/news/aclu-scientists-urge-privacy-focus-for-covid-19-tracing-technology" rel="noopener noreferrer">American Civil Liberties Union</a> and the <a target="_blank" href="https://healthitsecurity.com/news/eff-warns-covid-19-tracing-apps-pose-cybersecurity-privacy-risks" rel="noopener noreferrer">Electronic Frontier Foundation</a> released reports outlining potential privacy and security risks developers should consider when building APIs and drafting privacy policies. Some of these risks include geo-location tracking or tracking a device’s location in real-time.</p>
+<p>Then there’s user behavior to keep in mind. Some individuals may not understand the extent of the information they share with an app, while others are uneasy about the idea that the government – or a hacker – could easily access their whereabouts. What’s more, users are concerned that data collection will fail to end after the pandemic and authorities will use it in the future for unwarranted public surveillance.</p>
+<p>While the privacy concerns around contact tracing apps are genuine, it’s also important to consider how this technology could greatly benefit public health. Although the privacy protection instilled in some apps is still a work-in-progress, some technologies have successfully contact traced without putting users’ privacy at risk. For example, <a target="_blank" href="https://www.pri.org/stories/2020-05-27/how-do-contact-tracing-apps-around-world-compare" rel="noopener noreferrer">Singapore’s app TraceTogether</a> only collects and gathers data at the point that someone 1) is confirmed to have COVID-19 and 2) consents to the scraping of that data. From there, the data is anonymized, encrypted, and doesn’t reveal the identity of the infected user or the person that may have come in contact with them. What’s more, the data is deleted automatically after 21 days. By employing a thoughtful approach to contact tracing, positive strides can be made towards stopping the virus’s spread without risking user privacy.</p>
+<h2>How to Stay Secure</h2>
+<p>As a consumer living in a world riddled with uncertainty, you can take steps to help protect your digital life. When it comes to the rise of contact tracing technology and other apps you may use, here are some tips to consider to help safeguard your private information.</p>
+<h3>Understand and read the terms</h3>
+<p>Because this technology is relatively new, there is much to consider if you’re thinking about downloading a contact tracing app. Consumers can protect their privacy by reading the Privacy Policy and Terms of Service so they can know just what they’re dealing with.</p>
+<h3>Update your settings</h3>
+<p>If you’re concerned about an app having permission to access your location, photos, or other data, check your settings to see which apps have access to this information. Change permissions by either deleting the app or changing your settings on your device.</p>
+<h3>Consider other options</h3>
+<p>If you are not comfortable downloading a contact tracing app on your device but would like to be informed of the virus’ spread, you can visit the <a target="_blank" href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" rel="noopener noreferrer">CDC’s website for COVID-19 cases</a>, which can be narrowed down by state and county.</p>
+<h2>Stay Updated</h2>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook</a>.</p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/how-to-protect-your-privacy-from-tracking-apps/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad &#8211; Neotys</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cognizant-accelerates-site-reliability-for-a-uk-retailer-with-neotys-neoload-neotys/</link>
 		
@@ -110,6 +179,36 @@
 <p>Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad Background A UK-based retailer comprising health and beauty stores and pharmacies planned to replace its legacy systems with innovative solutions across all store outlets and remodel its digital platforms to improve busines&#8230;<br />
 <br />
 <br /><a href="https://www.facebook.com/163354693676002/posts/3454911457853626">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>AI Driven Optimization The Key to More Performance for Lower Costs &#8211; Neotys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-driven-optimization-the-key-to-more-performance-for-lower-costs-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 15:37:29 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[costs]]></category>
+		<category><![CDATA[Driven]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[Optimization]]></category>
+		<category><![CDATA[perfmetters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-driven-optimization-the-key-to-more-performance-for-lower-costs-neotys/</guid>
+
+					<description><![CDATA[How do you leverage AI to optimize app performance? Check out the recent Neotys-Akamas webinar on demand: AI-Driven Optimization: The]]></description>
+										<content:encoded><![CDATA[
+<p>How do you leverage AI to optimize app performance? Check out the recent Neotys-Akamas webinar on demand: AI-Driven Optimization: The Key to More Performance for Lower Costs <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2Vzv7WN%3Ffbclid%3DIwAR1xwdFQI2O99pwy6XbCJQHHXN-hM5zt3y-s0qhR4-h652BTFd_SMqTZ5nw&amp;h=AT1UQK8ccbb7YleQuQVsZaMwPUQLMbHnzgf0MVzSeAnxHiq3j41Et-mHnhc0Wb1_KSh_TsUXuZMNrzp5kivdjqIbQ4xbkQp1rnRHG6ELr8l2_7Q7Bmo7qrp4-RkiX1GWztNeKnvu6QASBbBXYrnXMcRzqsKNS0MvgoJaOvHri_FHcWCuo0qY8XxxJ5FuNZ7FTLMLkHZKLCy0kDe38-m2tVB2JtGMxUk593WGYs3tg5EbwTDE9pH-Ak3QAxH26FpLolZxOKVdVrsnxJevueGlE3yGW0bkWwVxu4mgGN3Q4MLsmjJcBkysZ5y9cU9it5RuRN4W_Whu-Op2fDOMfWu8Vf84W0galr8oQ7wBViuZvvz51zt0oYNfjH_-fFKs5ONxd1DY1h9JxmNavA5-lH3Ax30LH_6rvuGnTILwwj5YH6Vavv2GOz9rFHXMY_ZUcxISfecXD1Bz0EiP4OMJ9QBZYBOQix8F5sZH1OeQn1Xg1plNpWTsz6m1epcNVkdNsUtCk9p44fMcTyS6UpI5lKvlxb6_rmPf4Ao-xWHQsch2zSnjhWf98GYwav7y3CGbci1QJOeBKTki4W-ticTM94U6VcLjZHBTwwSbK8VUgwmMH3gIlgrQe1QSvrGa85C6Ut7XHI1OWTzvg9Ydjzc05pDvoGuKa76bSrwdER26ngxN-j8BqwCDvJw45YiMQ5KJnfRJhNSGObgp2ISB4D_sUKDbpT7ENdN01ASwLBqA2LUKTbT31pzTP-ocDfb1Y8gmoRWu9sAsZf1IqYQkugtFuBluIvb4Ow_V_B_5x1E6dWrkDn1kn1Y6xOv2TC_2170ChF7TqJ4Gk0zQqisEQunl1FKWGoE3XLSUviLWt5xJtNAgYL-GqGdnLa014-bH5S7eZbSB7EkF6qOMtY5bq7a3HpdchHTKsNWcB54WoV7eGiDptLhgXWaCshakpdYIR7cPhpu-PLqdCWvECqJp5siwWfAuWV3OoRHPGweuld11PuabfP9jBKjRVLeR8_qINsa6qFu9_xlWOkjuedWIMWT_Cw4qUH1Ax1za8W921V4CJaPl47sHfQRdXFPsSIJxpjRJPX4eYQPsIj1d7dN_g0N2Nd18bUywkTw0d4rQiWrnNk8vw6TNI2DFr6P6yJRMLpFI2wG2QjjH1Fxvozz_qsIvLtXnCIrABuTGcoazS7XxdWnGtCSR9g" rel="noopener noreferrer">https://bit.ly/2Vzv7WN</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3452434841434621%3Atop_level_post_id.3452434841434621%3Atl_objid.3452434841434621%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3452434841434621%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593617849%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3452434841434621%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3452434841434621%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A8209054461378660534&amp;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmetters?refid=17&amp;_ft_=mf_story_key.3452434841434621%3Atop_level_post_id.3452434841434621%3Atl_objid.3452434841434621%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3452434841434621%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593617849%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3452434841434621%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3452434841434621%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A8209054461378660534&amp;__tn__=%2As-R" rel="noopener noreferrer">#perfmetters</a>
+</p>
+<p><a target="_blank" href="https://bit.ly/2Vzv7WN?fbclid=IwAR1xwdFQI2O99pwy6XbCJQHHXN-hM5zt3y-s0qhR4-h652BTFd_SMqTZ5nw" rel="noopener noreferrer"></a> </p>
+<p><a target="_blank" href="https://bit.ly/2Vzv7WN?fbclid=IwAR1xwdFQI2O99pwy6XbCJQHHXN-hM5zt3y-s0qhR4-h652BTFd_SMqTZ5nw" rel="noopener noreferrer">AI Driven Optimization The Key to More Performance for Lower Costs &#8211; Neotys</a></p>
+<p>In the new normal, high performance and availability of digital services are vital, and so is cutting how much it costs to deliver them. But technology complexity continues to increase: a typical application sits atop of many technology layers such as language runtime, middleware, database, containe&#8230;<br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3452434841434621">Source</a>  </p>
 ]]></content:encoded>
 					
 		
@@ -388,283 +487,6 @@
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/enterprise-it/esm-essentials-what-it-why-it-matters">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Design Patterns in Test Automation</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-patterns-in-test-automation/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 29 Jun 2020 04:38:22 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[design]]></category>
-		<category><![CDATA[Patterns]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/design-patterns-in-test-automation/</guid>
-
-					<description><![CDATA[This article highlights the design patterns &#38; architectural considerations to take into account when building a Selenium-based / Appium-based Test]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>This article highlights the design patterns &amp; architectural considerations to take into account when building a <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a>-based / <a target="_blank" href="http://appium.io/" rel="noopener noreferrer">Appium</a>-based Test Automation Framework. The examples are purposely shown in various programming languages to highlight that this thought process is applicable for any programming language you use for building an Automation Framework.</p>
-<h2><strong>Table of Contents – Design Patterns in Test Automation</strong></h2>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/#selenium-webdriver" rel="noopener noreferrer">Selenium WebDriver 101</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#why-test-automation-framework" rel="noopener noreferrer">Why do we need a Test Automation Framework?</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#test-automation-criteria" rel="noopener noreferrer">Criteria for building a Test Automation Framework</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#test-automation-design-patterns" rel="noopener noreferrer">Design Patterns in Test Automation Framework</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#page-object-pattern" rel="noopener noreferrer">Characteristics of a good Page-Object Pattern implementation</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#page-object-pattern-challenges" rel="noopener noreferrer">Challenges of using Page-Object Pattern</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#business-layer-page-object" rel="noopener noreferrer">Solution: Business-Layer Page-Object Pattern</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#test-automation-architecture" rel="noopener noreferrer">Test Automation Framework Architecture</a></li>
-</ol>
-<hr/>
-<h2><strong><a target="_blank" id="selenium-webdriver" rel="noopener noreferrer">Selenium WebDriver 101</strong></h2>
-<p>Let’s start by quickly understanding what WebDriver is.</p>
-<p>Selenium is one of the most popular web-automation tools. Surprisingly, a lot of people actually get confused about what Selenium really is.</p>
-<p>Here is the official version of what Selenium is: <a target="_blank" href="https://www.selenium.dev/documentation/en/" rel="noopener noreferrer">https://www.selenium.dev/documentation/en/</a></p>
-<p><a target="_blank" href="https://www.selenium.dev/documentation/en/webdriver/" rel="noopener noreferrer">WebDriver</a><i> is the </i>core of Selenium. It is an interface that uses browser automation APIs provided by browser vendors to simulate user behaviour and interaction by controlling the browser in the form of running tests.</p>
-<p>WebDriver drives a browser either locally or on a remote machine using the Selenium server. Selenium WebDriver refers to both the language bindings and the implementations of the individual browser controlling code. This is commonly referred to as just <i>WebDriver</i>.</p>
-<p><a target="_blank" href="https://www.selenium.dev/documentation/en/" rel="noopener noreferrer">The Selenium Browser Automation Project</a> also lists a quick example of how to quickly get started with using WebDriver.</p>
-<p>Below is another example of how this code can look like:</p>
-<pre class="EnlighterJSRAW">var webdriver = require('selenium-webdriver'),
-    test = require('selenium-webdriver/testing'),
-    assert = require('assert');
-
-test.describe("Google Search", function() {
-
-    test.it("should take user input correctly", function() {
-
-        var driver = new webdriver.Builder().
-            withCapabilities(webdriver.Capabilities.chrome()).build();
-        driver.manage().timeouts().implicitlyWait(1000);
-
-        driver.get("http://localhost:8082/community-app");
-        var element = driver.findElement(webdriver.By.id("uid"));
-        element.sendKeys("mifos");
-        var value = element.getAttribute("value");
-        value.then(function(value) {
-            assert.equal(value, "mifos");
-        });
-
-    });
-
-});
-</pre>
-<hr/>
-<h2><strong><a target="_blank" id="why-test-automation-framework" rel="noopener noreferrer">Why do we need a Test Automation Framework?</strong></h2>
-<p>As seen in the above example, it is easy to get started using WebDriver to simulate user behavior.</p>
-<p>However, typically, one uses WebDriver to automate many different user scenarios / interactions in order to get quick validation if the functionality in the product-under-test is working correctly, as expected. Some of these products may have a small-life, however, most of these would be around for a long time.</p>
-<p>As a result, the team testing this product would have a lot of user scenarios that they would want to be automated. I have seen cases where the team has 1000s of tests identified and automated for their product-under-test.</p>
-<p>In such cases, continuing to implement tests in similar ways as shown in the simple, getting-started example will quickly turn into a nightmare for various reasons of code quality, maintainability, extensibility and scalability.</p>
-<p>You may set up some structure for your tests, and build some sort of a framework, but that will still be limiting as you scale.</p>
-<p></p>
-<p><noscript><img class="alignnone wp-image-12711 size-full" title="Test implementation in Ruby" src="https://blog.testproject.io/wp-content/uploads/2020/05/SomeStructure.png" alt="Test implementation in Ruby" width="379" height="88"/></noscript></p>
-<p>In the above example, of test implementation in Ruby, the home_page.rb file ended up being 1000+ line long, which made it very difficult to quickly understand what this class ended up doing, and what functionality was implemented here.</p>
-<p>The architecture of such a framework looks as simple as this, which could also be referred to as non-existent:</p>
-<p><img loading="lazy" class="alignnone wp-image-12714 size-full" alt="No Design Patterns Used" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-1024x576.jpeg 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg"/></p>
-<p><noscript><img class="alignnone wp-image-12714 size-full" src="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg" alt="No Design Patterns Used" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/NoDesignPatternsUsed-1024x576.jpeg 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript></p>
-<p><strong><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </strong><em><strong>We need a better, and structured approach to implementing the test scenarios!</strong></em></p>
-<hr/>
-<h2><strong><a target="_blank" id="test-automation-criteria" rel="noopener noreferrer">Criteria for building a Test Automation Framework</strong></h2>
-<p>Writing code is easy, but writing good code is not as easy. Here are the reasons why I say this:</p>
-<ul>
-<li>“Good” is subjective.</li>
-<li>“Good” depends on the context &amp; overall objective.</li>
-</ul>
-<p>Similarly, implementing <a target="_blank" href="https://blog.testproject.io/2019/03/07/what-test-cases-should-you-automate/" rel="noopener noreferrer">automated test cases</a> is easy (as seen from the getting started example shared earlier). However, scaling this up to be able to implement and run a huge number of tests quickly and efficiently, against an evolving product is not easy!</p>
-<p>I refer to a few principles when building a Test Automation Framework. They are:</p>
-<ul>
-<li>Based on the context &amp; (current + upcoming) functionality of your product-under-test, define the overall objective of <a target="_blank" href="https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/" rel="noopener noreferrer">Automation Testing</a>.</li>
-<li>Based on the objective defined above, determine the criteria and requirements from your Test Automation Framework. Refer to my post on “<a target="_blank" href="https://www.infoq.com/articles/test-automation-ai-ml/" rel="noopener noreferrer">Test Automation in the World of AI &amp; ML</a>” for details on various aspects you need to consider to build a robust Test Automation Framework. Also, you might find these articles interesting to learn how to select the best tool for your requirements:</li>
-</ul>
-<h2><strong><a target="_blank" id="test-automation-design-patterns" rel="noopener noreferrer">Design Patterns in Test Automation Framework</strong></h2>
-<p>Test Automation (using tools like Selenium / Appium) are essentially development activities. One needs to have good programming knowledge to be able to do implement tests that are robust, stable, efficient, fast, maintainable and extensible!</p>
-<p>There are many Design Patterns available for Software Development (as seen <a target="_blank" href="https://en.wikipedia.org/wiki/Software_design_pattern" rel="noopener noreferrer">here</a>). Since Test Automation is also a Development activity – The understanding of Design Patterns is critical in Test Automation as well.</p>
-<p>Below are some commonly used Design Patterns one would use, directly or indirectly, in building a Test Automation Framework:</p>
-<h2><strong><a target="_blank" id="page-object-pattern" rel="noopener noreferrer">Characteristics of a good Page-Object Pattern Implementation</strong></h2>
-<p>A good page-object pattern implementation would have the following characteristics:</p>
-<ul>
-<li>Pages are well identified.</li>
-<li>Use <a target="_blank" href="https://en.wikipedia.org/wiki/Composite_pattern" rel="noopener noreferrer">Composite Pattern</a> to compose complex pages and also allow reuse of snippets of pages across the product.
-<ul>
-<li>Ex: If Search functionality is common across majority of the pages in your product, then:
-<ul>
-<li>Define a SearchPage object.</li>
-<li>In other pages, ex: HomePage, LoginPage, ProductPage, etc, use the Composition Pattern to include SearchPage as part of its definition.</li>
-<li>Example:</li>
-<li><img loading="lazy" class="alignnone wp-image-12715 size-full" title="Composite Pattern" alt="Composite Pattern" width="390" height="403" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodPageObjects.png"/><noscript><img class="alignnone wp-image-12715 size-full" title="Composite Pattern" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodPageObjects.png" alt="Composite Pattern" width="390" height="403"/></noscript></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Pages do not have any assertions in them.</li>
-<li>Pages do not have getters-setters in the pages (or in any class in your code). This is a bad practice and it breaks <a target="_blank" href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)" rel="noopener noreferrer">Encapsulation</a>.</li>
-<li>Pages should have logical methods that do action on the page, or gets information from the page.</li>
-<li>Pages should have no business logic in the Page-Object method implementation, except handling cases like:
-<ul>
-<li>If ex: there are Country &amp; State dropdown controls on the page, and the State values get populated based on which Country is selected, then the method selecting the Country should wait for the items in the State dropdown to get populated.</li>
-</ul>
-</li>
-<li>Each Page object should have an explicit return type, i.e. the Page object method SHOULD NOT return void.
-<ul>
-<li>Ex: On successful login, the method should return the HomePage object.</li>
-<li>On unsuccessful login, the method should return the same LoginPage object.</li>
-<li>There would be cases when you are getting information from the page itself. In such cases, the methods should return specific datatypes.
-<ul>
-<li>Ex: isLoggedIn should return boolean.</li>
-<li>Ex: getLoggedInUserName should return String.</li>
-<li>Ex: getRegisteredAddressInProfile should return a custom object Address, or any other data structure that makes sense in the context of the product-under-test.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>The architecture of such a framework evolves as below:</p>
-<p><img loading="lazy" class="alignnone wp-image-12713 size-full" title="Good Page-Object Pattern Implementation" alt="Good Page-Object Pattern Implementation" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-1024x576.jpeg 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg"/></p>
-<p><noscript><img class="alignnone wp-image-12713 size-full" title="Good Page-Object Pattern Implementation" src="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg" alt="Good Page-Object Pattern Implementation" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/PageObjectPattern-1024x576.jpeg 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript></p>
-<h2><strong><a target="_blank" id="page-object-pattern-challenges" rel="noopener noreferrer">Challenges of using Page-Object Pattern</strong></h2>
-<p>Page Objects help implement tests easily, and keep the code well structured. This allows easy updates in the Page Objects based on evolving product functionality.</p>
-<p>However, there is a challenge.</p>
-<p>In the Test implementation methods, ex: if you are using <a target="_blank" href="https://blog.testproject.io/2019/02/26/junit-5/" rel="noopener noreferrer">JUnit</a> / <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/" rel="noopener noreferrer">TestNG</a> as the test runner, then in the @Test methods, you now need to orchestrate the Page object interactions and also add your assertions.</p>
-<p>Below is an example of 2 tests:</p>
-<h3><strong>Test 1:</strong></h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">@Test
-public void shouldRevertToOriginalContentAfterClickingCancel() {
-
-    PatientInformation patientInfomation = new PatientInformation(firstName, middleName, lastName, gender);
-    RegistrationPage registrationPage = new RegistrationPage();
-    PatientChartPage patientChartPage = registrationPage.registerPatientWithBasicInformation(patientInfomation);
-
-    String originalFirstName = patientChartPage.getFirstName(); 
-    assertThat(originalFirstName, is(firstName)); 
-
-    patientChartPage.updateName(newFirstName, newLastName);
-    patientChartPage.updateAddressLine(newLine1, newLine2);
-    patientChartPage.updateCity(newCity);
-    patientChartPage.updateState(newState);
-    patientChartPage.updateZip(newZip);
-    patientChartPage.cancelUpdate();
-
-    String updatedFirstName = patientChartPage.getFirstName();
-    assertThat(updatedFirstName, is(originalFirstName));
-}</pre>
-<pre/><h3><strong>Test 2:</strong></h3><pre class="EnlighterJSRAW" data-enlighter-language="null">@Test
-public void shouldUpdateExistingPatientWithNewInformationAfterClickingSave() throws InterruptedException {
-
-    PatientInformation expectedPatientInformation = new PatientInformation(firstName, middleName, lastName, gender);
-    RegistrationPage registrationPage = new RegistrationPage();
-
-    registrationPage.registerPatientWithBasicInformation(expectedPatientInformation);
-
-    String originalFirstName = patientChartPage.getFirstName(); 
-    assertThat(originalFirstName, is(firstName)); 
-    
-    patientChartPage.updateName(newFirstName, newLastName);
-    patientChartPage.updateAddressLine(newLine1, newLine2);
-    patientChartPage.updateCity(newCity);
-    patientChartPage.updateState(newState);
-    patientChartPage.updateZip(newZip);
-    patientChartPage.saveUpdate();
-
-    Driver.get().navigate().refresh();
-
-    assertThat(patientChartPage.getFirstName(), is(newFirstName));
-    assertThat(patientChartPage.getLastName()), is(newLastName));
-    assertThat(patientChartPage.getCity(), is(newCity));
-    assertThat(patientChartPage.getState(), is(newState));
-    assertThat(patientChartPage.getAddressLine1()), is(newLine1));
-    assertThat(patientChartPage.getAddressLine2()), is(newLine2));
-    assertThat(patientChartPage.getZip()), is(newZip));
-}</pre>
-<pre/><p>Here are the challenges of this implementation:</p><ul><li>The intent of the test is lost in the details of the interaction of page objects and assertions.</li><li>The @Test methods become quite unreadable.</li><li>There is a lot of duplication in both the test implementations.</li></ul><p>As you implement more variants of test scenarios, you will encounter there would be many instances of test implementations needing slight tweaks to the implemented test to verify variants of the scenarios. In such cases, you would end up copying most of the implementation from 1 test into the others – which is wasted effort, code duplication and makes it difficult to update the tests as the product functionality evolves.</p><p>In some cases, you may be able to extract common methods in the same class to reuse the implementation, but that seems like an ad-hoc way of implementation.</p><p>That is the reason I do not like to use the Page Object Pattern directly in my Test implementation for larger implementations.</p><hr/><h2><strong><a target="_blank" id="business-layer-page-object" rel="noopener noreferrer">Solution: Business-Layer Page-Object Pattern</strong></h2><p>It is very important to have the Test specification be crisp and clear. This way the intent of the test is understood very easily and the reader knows exactly what is expected from the product-under-test as a result of running that particular test.</p><p>This is the area the Business-Layer Page-Object Pattern helps. Below is how the implementation flow is using this pattern:</p><ol><li>Tests should talk business language only! No granular operations / UI interactions.</li><li>The Test implementation is an orchestration of corresponding business operations as it is simulating a deterministic, specific scenario.</li><li>Business operations are implemented in a layer between the tests &amp; page objects – called BusinessLayer. This allows for better reuse of implementation.</li><li>Implementation of an business operation is an orchestration between other business operations, and / or an orchestration of page objects.</li><li>The business operation does the assertions of expectations, NOT page-objects.</li><li>Each business operation / page object has a valid return type (never void). Each operation (in business or page object) being successful means there are a defined number of methods / operations the product can now do (as you are driving the product under test to do your bidding).</li></ol><p>Let’s look at some examples of how this can be implemented.</p><h2><strong><a target="_blank" id="test-automation-architecture" rel="noopener noreferrer">Test Automation Framework Architecture</strong></h2><p>The overall architecture of the Test Automation Framework that allows me to implement, evolve and scale in an easy fashion is shown below:</p><p><img loading="lazy" class="alignnone wp-image-12712 size-full" title="Business-Layer Page-Object Pattern" alt="Business-Layer Page-Object Pattern" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-1024x576.jpeg 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg"/></p><noscript><img class="alignnone wp-image-12712 size-full" title="Business-Layer Page-Object Pattern" src="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg" alt="Business-Layer Page-Object Pattern" width="1600" height="900" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern.jpeg 1600w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-512x288.jpeg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-768x432.jpeg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/BusinessLayer-PageObjectPattern-1024x576.jpeg 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript><p>Below is my folder structure for my Test Automation Framework:</p><p><img loading="lazy" class="alignnone wp-image-12716 size-full" title="Test Automation Framework Structure" alt="Test Automation Framework Structure" width="440" height="740" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png 440w, https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure-304x512.png 304w" data-lazy-sizes="(max-width: 440px) 100vw, 440px" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png"/></p><noscript><img class="alignnone wp-image-12716 size-full" title="Test Automation Framework Structure" src="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png" alt="Test Automation Framework Structure" width="440" height="740" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure.png 440w, https://blog.testproject.io/wp-content/uploads/2020/05/GoodStructure-304x512.png 304w" sizes="(max-width: 440px) 100vw, 440px"/></noscript><p>Here is the Test method – clearly highlighting the intent of the test:</p><pre class="EnlighterJSRAW" data-enlighter-language="null">@Test(groups = {"a-addcash", "a-demo2", "a-RcRegression"})
-public void RepeatDepositAddCashTest() {
-    log.info("Running RepeatDepositAddCashTest");
-    PlayerUtil playerUtil = new PlayerUtil(getTestExecutionContext());
-    HashMap&lt;RegistrationDetails, String&gt; userData = playerUtil.getUserWithModValue(7, 4);
-    String userName = userData.get(RegistrationDetails.USERNAME);
-    String password = userData.get(RegistrationDetails.PASSWORD);
-    playerUtil.saveAddressDetailsOfUser(userName, password);
-    new LoginBL().loginUsing(userName, password)
-            .startAddcash()
-            .addCashUsingNetBanking(100, "Allahabad", "test", "test")
-            .verifyOrderID()
-            .verifyModeOfPayment("NETBANKING")
-            .verifyGamesLobbyLink()
-            .done();
-}
-</pre>
-<p>Here are some sample Business Layer methods:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">public FeedbackOverlayBL verifyLoveThisAppThankYouPage() {
-    return new FeedbackOverlayBL()
-            .verifyLoveThisAppCTA()
-            .verifyThankYouPageInLoveThisApp();
-}
-
-public LobbyBL goToFeedBackFormAndCancel() {
-    return new FeedbackOverlayBL()
-            .goToFeedbackForm().cancelFeedbackForm();
-}
-
-public AddCashLimitsBL addAmountForAddcashLimits(int amount) {
-    ChooseAmountPage.getInstance()
-            .addAmount(amount);
-    return new AddCashLimitsBL();
-}
-
-public LobbyBL goToCashGames() {
-    LobbyPage.getInstance().clickCashGamesButton();
-    return this;
-}</pre>
-<p>Here are some sample Page-Object methods:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">public PaymentModePage addAmount(int amount) {
-    WebElement addCashEnterAmountElement = driver.findElementByAccessibilityId(addCashEnterAmount);
-    waitForElementToBePresent(addCashEnterAmountElement);
-    addCashEnterAmountElement.clear();
-    addCashEnterAmountElement.sendKeys(String.valueOf(amount));
-    hideKeyBoard();
-    eyes.checkWindow("AddAmount");
-    driver.findElementByAccessibilityId(addCash).click();
-    return PaymentModePage.getInstance();
-}
-
-public boolean isPromoCodeApplySuccessful(String promoCode) {
-    log.info("Verifying promocode is successfully applied with name: " + promoCode);
-    waitForElementToBePresent(driver.findElementByAccessibilityId(appliedPromocodeNameId));
-    eyes.checkWindow("isPromoCodeApplySuccessful");
-    return driver.findElementByAccessibilityId(appliedPromocodeNameId).getText().equalsIgnoreCase(promoCode);
-}</pre>
-<hr/>
-<p><strong>References</strong>:</p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>DarkCrewFriends Returns with Botnet Strategy</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/darkcrewfriends-returns-with-botnet-strategy/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 26 Jun 2020 20:53:18 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Botnet]]></category>
-		<category><![CDATA[DarkCrewFriends]]></category>
-		<category><![CDATA[Returns]]></category>
-		<category><![CDATA[Strategy]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/darkcrewfriends-returns-with-botnet-strategy/</guid>
-
-					<description><![CDATA[The botnet can be used to mount different kinds of attacks, including code-execution and DDoS. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The botnet can be used to mount different kinds of attacks, including code-execution and DDoS.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/darkcrewfriends-returns-botnet/156963/">Source link </a></p>
 ]]></content:encoded>
 					
 		
