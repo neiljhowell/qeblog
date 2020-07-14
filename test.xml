@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 07 Jul 2020 21:01:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,43 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Tech Tip: Pointing Your Automated Tests to Sauce</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tech-tip-pointing-your-automated-tests-to-sauce/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Pointing]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Tests]]></category>
+		<category><![CDATA[TIP]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tech-tip-pointing-your-automated-tests-to-sauce/</guid>
+
+					<description><![CDATA[So you’ve realized the benefits of test automation. Through your own research, or perhaps a small proof of concept, you’ve]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>So you’ve realized the benefits of test automation. Through your own research, or perhaps a small proof of concept, you’ve realized removing once-manual quality processes can accelerate release cycles and improve your user experience. You’ve built a small suite of tests, and the benefits are real. The next step in your journey, you realize, is to achieve the real value of automation, which means running it continuously and at scale. </p>
+<p>Our customers run millions of tests per day on the Sauce Labs Continuous Testing Cloud to ensure that they are delivering flawless web and mobile experiences to their customers, and all without sacrificing speed. But for teams who are considering using their existing tests to scale their automated testing strategy, they often wonder, “What about the tests I already have?” At first glance, it seems that reconfiguring your tests to run in the cloud is a long and time-intensive process. But fortunately, it’s straightforward and fairly simple!</p>
+<p>If you’re new to Sauce Labs, or are considering trying out our <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">14-day free trial</a>, we have a number of resources available to help. In our newest Tech Tip video, Sauce Labs senior solution engineer Ian Flanagan shows you how to update your current automated tests to run in the Sauce Labs Continuous Testing Cloud. </p>
+<p>In this video, Ian shows you how to quickly retrieve your Sauce Labs access key and easily point your tests to Sauce Labs using short Protractor and Java demos (although we support lots of other popular programming languages, too!). </p>
+<div class="video">
+<p><div class="fitvids-video"><iframe title="Pointing Automated Tests to Sauce Labs - Sauce Tech Tip" width="800" height="450" src="https://www.youtube.com/embed/QVE0-IJWQco?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+</div>
+<p>For further information on getting started, you can always reference our <a target="_blank" href="https://wiki.saucelabs.com/display/DOCS/Getting+Started" rel="noopener noreferrer">documentation</a>, which includes tons of code samples to get you started. </p>
+<p>Good luck, and happy testing! </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/tech-tip-pointing-your-automated-tests-to-sauce">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>BEC Hotshot with Opulent Social Media Presence to Face U.S. Charges</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/bec-hotshot-with-opulent-social-media-presence-to-face-u-s-charges/</link>
 		
@@ -433,41 +470,6 @@ fbq('track', "PageView");</p>
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/07/01/how-to-overcome-selenium-automation-testing-challenges/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Dave Haeffner’s Selenium Guidebook Now Available to Sauce Labs Free Trial Users</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dave-haeffners-selenium-guidebook-now-available-to-sauce-labs-free-trial-users/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Dave]]></category>
-		<category><![CDATA[free]]></category>
-		<category><![CDATA[Guidebook]]></category>
-		<category><![CDATA[Haeffners]]></category>
-		<category><![CDATA[Labs]]></category>
-		<category><![CDATA[Sauce]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[Trial]]></category>
-		<category><![CDATA[Users]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dave-haeffners-selenium-guidebook-now-available-to-sauce-labs-free-trial-users/</guid>
-
-					<description><![CDATA[Big news: Dave Haeffner’s Selenium Guidebook, a step-by-step guide on how to use Selenium successfully, is now available to anyone]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Big news: Dave Haeffner’s Selenium Guidebook, a step-by-step guide on how to use Selenium successfully, is now available to anyone who signs up for a free trial of the Sauce Labs Continuous Testing Cloud. </p>
-<p>Dave Haeffner, who authored the guidebook, is a well-known Selenium expert who created Elemental Selenium—a free, weekly Selenium tip newsletter that’s read by thousands of testing professionals. Between his guidebook, newsletter, and overall contributions to the Selenium project, Dave has personally helped numerous companies successfully implement automated testing. </p>
-<p>Since its inception, the Selenium Guidebook has helped both testers and developers learn how to automate their tests. The Selenium Guidebook is not only a resource for folks just getting started with Selenium, but also for experienced automation engineers who want to brush up on best practices and advanced concepts like parallel testing. </p>
-<p>Dave’s Selenium guidance combined with the Sauce Labs platform offers a powerful combination of comprehensive testing coverage and proven real-world advice—an unbeatable formula that will help testing newbies and veterans alike. Sign up for <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">your free Sauce Labs trial today to get started</a>. </p>
-<p>And if mobile testing is more your cup of tea, we have a guidebook for that, too! Check out Getting Started with Appium, written by Appium project lead Jonathan Lipps. We’ve got you covered with both <a target="_blank" href="https://saucelabs.com/resources/white-papers/getting-started-with-appium-java" rel="noopener noreferrer">Java</a> and <a target="_blank" href="https://saucelabs.com/resources/white-papers/getting-started-with-appium-ruby" rel="noopener noreferrer">Ruby</a> versions. </p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/dave-haeffner-selenium-guidebook-now-available-to-sauce-labs-free-trial-users">Source link </a></p>
 ]]></content:encoded>
 					
 		
