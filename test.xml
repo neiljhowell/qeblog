@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 Jul 2020 13:00:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,99 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Most companies are ignoring your most vulnerable endpoint…and it’s not the laptop</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/most-companies-are-ignoring-your-most-vulnerable-endpointand-its-not-the-laptop/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 14 Jul 2020 13:00:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[companies]]></category>
+		<category><![CDATA[endpointand]]></category>
+		<category><![CDATA[ignoring]]></category>
+		<category><![CDATA[laptop]]></category>
+		<category><![CDATA[vulnerable]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/most-companies-are-ignoring-your-most-vulnerable-endpointand-its-not-the-laptop/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/rubica-most-companies-are-ignoring-your-most-vulnerable-endpointand-its-not-the-laptop/157257/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Announcing TestProject’s New OpenSDK &#124; TestProject</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/announcing-testprojects-new-opensdk-testproject/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 14 Jul 2020 04:05:09 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Announcing]]></category>
+		<category><![CDATA[OpenSDK]]></category>
+		<category><![CDATA[TestProject]]></category>
+		<category><![CDATA[TestProjects]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/announcing-testprojects-new-opensdk-testproject/</guid>
+
+					<description><![CDATA[TestProject is excited to announce the official release of its new, free OpenSDK 🎉 The vision of the OpenSDK is]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><a target="_blank" href="https://testproject.io/" rel="noopener noreferrer"><span style="font-weight: 400;">TestProject</span></a><span style="font-weight: 400;"> is excited to announce the official release of its new, free <strong>OpenSDK</strong> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The vision of the OpenSDK is to provide a single, integrated interface to scripting with the most popular open source test automation frameworks. Built directly on top of <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a> and <a target="_blank" href="http://appium.io/" rel="noopener noreferrer">Appium</a>, the actions and syntax will feel familiar to experienced users of either framework. With one unified SDK available across multiple languages, developers and testers can have a go-to toolset regardless of the app being automated.</span></p>
+<p><span style="font-weight: 400;"><strong>This groundbreaking release provides a wide variety of new features to further enhance the OpenSDK</strong>:</span></p>
+<ul>
+<li><span style="font-weight: 400;"><a target="_blank" href="https://github.com/testproject-io/python-sdk" rel="noopener noreferrer">Python</a> support, in addition to existing <a target="_blank" href="https://github.com/testproject-io/java-sdk" rel="noopener noreferrer">Java</a> and <a target="_blank" href="https://github.com/testproject-io/csharp-sdk-examples" rel="noopener noreferrer">C#</a> support (with JavaScript coming soon).</span></li>
+<li>Open source and available <span style="font-weight: 400;">on major package repos like </span><a target="_blank" href="https://mvnrepository.com/artifact/io.testproject/java-sdk" rel="noopener noreferrer">Maven</a>, <a target="_blank" href="https://pypi.org/project/testproject-python-sdk/" rel="noopener noreferrer">PyPI</a>, and <a target="_blank" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer">NuGet</a>.</li>
+<li>5-mins simple Selenium and Appium setup with a single <a target="_blank" href="https://docs.testproject.io/testproject-agents/" rel="noopener noreferrer">Agent</a> deployment.</li>
+<li>Automatic test reports in HTML/PDF format (including screenshots).</li>
+<li>Collaborative reporting dashboards with execution history and RESTful API support.</li>
+<li>Always up-to-date with the latest and stable Selenium driver version.</li>
+<li>A simplified, familiar syntax for both web and mobile applications.</li>
+<li>Complete test runner capabilities for both local and remote executions, anywhere.</li>
+<li>Cross platform support for Mac, Windows, Linux and Docker.</li>
+<li>Ability to store and execute tests locally on any source control tool, such as Git.</li>
+</ul>
+<p><span style="font-weight: 400;">As with prior versions of TestProject’s SDK, the new release of the OpenSDK works closely with TestProject, providing a <strong>wealth of test automation features at no cost</strong>:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">100% compatibility with Selenium and Appium, including execution of existing scripts developed in either framework.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">One click agent install and update, downloading and configuring all dependencies automatically, including Selenium, Appium, and other required components.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Out-of-the-box reporting, dashboards, and test analytics with automatic sharing via <a target="_blank" href="https://docs.testproject.io/testproject-integrations/setting-up-email-notification" rel="noopener noreferrer">email</a> and <a target="_blank" href="https://docs.testproject.io/testproject-integrations/integration-to-slack" rel="noopener noreferrer">Slack</a>.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Centralized test framework including page object model, test data management, test storage, and more!</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Easy integration with your DevOps toolchain, including integrations to <a target="_blank" href="https://docs.testproject.io/testproject-integrations/integration-with-jenkins" rel="noopener noreferrer">Jenkins</a>, <a target="_blank" href="https://blog.testproject.io/2020/03/31/testproject-and-qtest-integration-webinar/" rel="noopener noreferrer">qTest</a>, <a target="_blank" href="https://docs.testproject.io/testproject-integrations/browserstack-integration" rel="noopener noreferrer">BrowserStack</a>, <a target="_blank" href="https://blog.testproject.io/2020/01/30/testproject-sauce-labs-integration-faqs/" rel="noopener noreferrer">Sauce Labs</a>, and a fully documented <a target="_blank" href="https://api.testproject.io/docs/v2/" rel="noopener noreferrer">REST API</a>.</span></li>
+</ul>
+<p><span style="font-weight: 400;">This release is an <strong>evolution</strong> in its existing developer SDK to add industry leading features which have been requested by early adopters. All previously developed scripts and addons will be compatible with the new OpenSDK, with a wealth of added capabilities. </span></p>
+<p><span style="font-weight: 400;">Users interested to try TestProject’s new OpenSDK can <strong>follow these steps to get started</strong>:</span></p>
+<ol>
+<li style="font-weight: 400;"><a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer"><span style="font-weight: 400;">Create a free TestProject account</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Download and install the TestProject agent</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Install the SDK from your favorite package manager:</span>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Java – </span><a target="_blank" href="https://mvnrepository.com/artifact/io.testproject/java-sdk" rel="noopener noreferrer">Maven</a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">C# – <a target="_blank" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer">NuGet</a></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Python – <a target="_blank" href="https://pypi.org/project/testproject-python-sdk/" rel="noopener noreferrer">PyPI</a></span></li>
+</ol>
+</li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Explore our SDK documentation to understand available functions:</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Create your automated tests! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f929.png" alt="🤩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></li>
+</ol>
+<p><span style="font-weight: 400;">If you have any questions, feedback, or need help getting started, please don’t hesitate to </span><a target="_blank" href="https://testproject.io/contact-us/" rel="noopener noreferrer"><span style="font-weight: 400;">contact us</span></a><span style="font-weight: 400;">, we’re always happy to assist you.</span></p>
+<p><span style="font-weight: 400;"><strong>Happy testing! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong><br /></span><span style="font-weight: 400;">TestProject Team</span></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Tech Tip: Pointing Your Automated Tests to Sauce</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tech-tip-pointing-your-automated-tests-to-sauce/</link>
 		
@@ -126,6 +219,41 @@
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/07/07/learning-test-automation-from-scratch/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Meet the Experts: Diego Molina</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-diego-molina/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Diego]]></category>
+		<category><![CDATA[Experts]]></category>
+		<category><![CDATA[Meet]]></category>
+		<category><![CDATA[Molina]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-diego-molina/</guid>
+
+					<description><![CDATA[One thing we’re particularly proud of around here is our team of automated testing experts and open source contributors. We’ve]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><i>One thing we’re particularly proud of around here is our team of automated testing experts and open source contributors. We’ve got a whole team of people who eat, sleep, and breathe testing—and love to share their knowledge with others. This is the next in a series of posts highlighting our team of experts, featuring Selenium contributor and Sauce Labs senior software engineer Diego Molina.</i></p>
+<p><i>=======</i></p>
+<p>As a Selenium core committer, Diego Molina is all in on open source software. “Open source is the gate to get to know the world,” he says. “It opens your mind and allows you to meet a lot of people and the community, and the more you learn about open source the easier it is to grow yourself as a professional and as a person.” </p>
+<p>Diego runs the <a target="_blank" href="https://www.continuoustestingmeetup.com/" rel="noopener noreferrer">Continuous Testing Meetup Berlin</a>—a group that provides an environment for local testers to share knowledge and participate in the community. One thing he loves about that is that it allows him to get input from that community and in turn feed that knowledge back into making the Sauce Labs platform better. </p>
+<p>Diego started on the live testing team at Sauce, helping users get the most out of their manual and exploratory testing. Currently, he is part of the Sauce Labs Open Source Program Office, which means he helps other Saucers get started working with open source. Diego has put in a great deal of time working on the Selenium project, especially in improving the documentation and expanding into different languages so people across cultures can use Selenium to simplify and enhance their continuous testing efforts. </p>
+<p>A proud Colombian, Diego takes a few things seriously (besides testing, of course): futbol and salsa dancing! Get to know Diego in this video. </p>
+<div class="video">
+<p><div class="fitvids-video"><iframe title="Meet the Sauce Labs Experts - Diego Molina" width="800" height="450" src="https://www.youtube.com/embed/XLTht-cCcrE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/meet-the-experts-diego-molina">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -262,214 +390,83 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
-		<title>AI Driven Optimization The Key to More Performance for Lower Costs &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-driven-optimization-the-key-to-more-performance-for-lower-costs-neotys/</link>
+		<title>How to Keep Your Celebrations Happening – Virtually &#038; Safely!</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-keep-your-celebrations-happening-virtually-safely/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 01 Jul 2020 15:37:29 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[costs]]></category>
-		<category><![CDATA[Driven]]></category>
-		<category><![CDATA[Key]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[Optimization]]></category>
-		<category><![CDATA[perfmetters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-driven-optimization-the-key-to-more-performance-for-lower-costs-neotys/</guid>
-
-					<description><![CDATA[How do you leverage AI to optimize app performance? Check out the recent Neotys-Akamas webinar on demand: AI-Driven Optimization: The]]></description>
-										<content:encoded><![CDATA[
-<p>How do you leverage AI to optimize app performance? Check out the recent Neotys-Akamas webinar on demand: AI-Driven Optimization: The Key to More Performance for Lower Costs <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2Vzv7WN%3Ffbclid%3DIwAR1xwdFQI2O99pwy6XbCJQHHXN-hM5zt3y-s0qhR4-h652BTFd_SMqTZ5nw&amp;h=AT1UQK8ccbb7YleQuQVsZaMwPUQLMbHnzgf0MVzSeAnxHiq3j41Et-mHnhc0Wb1_KSh_TsUXuZMNrzp5kivdjqIbQ4xbkQp1rnRHG6ELr8l2_7Q7Bmo7qrp4-RkiX1GWztNeKnvu6QASBbBXYrnXMcRzqsKNS0MvgoJaOvHri_FHcWCuo0qY8XxxJ5FuNZ7FTLMLkHZKLCy0kDe38-m2tVB2JtGMxUk593WGYs3tg5EbwTDE9pH-Ak3QAxH26FpLolZxOKVdVrsnxJevueGlE3yGW0bkWwVxu4mgGN3Q4MLsmjJcBkysZ5y9cU9it5RuRN4W_Whu-Op2fDOMfWu8Vf84W0galr8oQ7wBViuZvvz51zt0oYNfjH_-fFKs5ONxd1DY1h9JxmNavA5-lH3Ax30LH_6rvuGnTILwwj5YH6Vavv2GOz9rFHXMY_ZUcxISfecXD1Bz0EiP4OMJ9QBZYBOQix8F5sZH1OeQn1Xg1plNpWTsz6m1epcNVkdNsUtCk9p44fMcTyS6UpI5lKvlxb6_rmPf4Ao-xWHQsch2zSnjhWf98GYwav7y3CGbci1QJOeBKTki4W-ticTM94U6VcLjZHBTwwSbK8VUgwmMH3gIlgrQe1QSvrGa85C6Ut7XHI1OWTzvg9Ydjzc05pDvoGuKa76bSrwdER26ngxN-j8BqwCDvJw45YiMQ5KJnfRJhNSGObgp2ISB4D_sUKDbpT7ENdN01ASwLBqA2LUKTbT31pzTP-ocDfb1Y8gmoRWu9sAsZf1IqYQkugtFuBluIvb4Ow_V_B_5x1E6dWrkDn1kn1Y6xOv2TC_2170ChF7TqJ4Gk0zQqisEQunl1FKWGoE3XLSUviLWt5xJtNAgYL-GqGdnLa014-bH5S7eZbSB7EkF6qOMtY5bq7a3HpdchHTKsNWcB54WoV7eGiDptLhgXWaCshakpdYIR7cPhpu-PLqdCWvECqJp5siwWfAuWV3OoRHPGweuld11PuabfP9jBKjRVLeR8_qINsa6qFu9_xlWOkjuedWIMWT_Cw4qUH1Ax1za8W921V4CJaPl47sHfQRdXFPsSIJxpjRJPX4eYQPsIj1d7dN_g0N2Nd18bUywkTw0d4rQiWrnNk8vw6TNI2DFr6P6yJRMLpFI2wG2QjjH1Fxvozz_qsIvLtXnCIrABuTGcoazS7XxdWnGtCSR9g" rel="noopener noreferrer">https://bit.ly/2Vzv7WN</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3452434841434621%3Atop_level_post_id.3452434841434621%3Atl_objid.3452434841434621%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3452434841434621%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593617849%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3452434841434621%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3452434841434621%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A8209054461378660534&amp;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmetters?refid=17&amp;_ft_=mf_story_key.3452434841434621%3Atop_level_post_id.3452434841434621%3Atl_objid.3452434841434621%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3452434841434621%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593617849%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3452434841434621%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3452434841434621%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A8209054461378660534&amp;__tn__=%2As-R" rel="noopener noreferrer">#perfmetters</a>
-</p>
-<p><a target="_blank" href="https://bit.ly/2Vzv7WN?fbclid=IwAR1xwdFQI2O99pwy6XbCJQHHXN-hM5zt3y-s0qhR4-h652BTFd_SMqTZ5nw" rel="noopener noreferrer"></a> </p>
-<p><a target="_blank" href="https://bit.ly/2Vzv7WN?fbclid=IwAR1xwdFQI2O99pwy6XbCJQHHXN-hM5zt3y-s0qhR4-h652BTFd_SMqTZ5nw" rel="noopener noreferrer">AI Driven Optimization The Key to More Performance for Lower Costs &#8211; Neotys</a></p>
-<p>In the new normal, high performance and availability of digital services are vital, and so is cutting how much it costs to deliver them. But technology complexity continues to increase: a typical application sits atop of many technology layers such as language runtime, middleware, database, containe&#8230;<br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3452434841434621">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Top developer projects fighting on the front lines of COVID-19</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-developer-projects-fighting-on-the-front-lines-of-covid-19/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 01 Jul 2020 15:00:00 +0000</pubDate>
+		<pubDate>Thu, 02 Jul 2020 01:38:16 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[COVID19]]></category>
-		<category><![CDATA[Developer]]></category>
-		<category><![CDATA[fighting]]></category>
-		<category><![CDATA[front]]></category>
-		<category><![CDATA[lines]]></category>
-		<category><![CDATA[projects]]></category>
-		<category><![CDATA[Top]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2614</guid>
+		<category><![CDATA[Celebrations]]></category>
+		<category><![CDATA[Happening]]></category>
+		<category><![CDATA[Safely]]></category>
+		<category><![CDATA[Virtually]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-keep-your-celebrations-happening-virtually-safely/</guid>
 
-					<description><![CDATA[Media attention has focused on the front-line heroes who are waging war against the pandemic, including the doctors, nurses, police officers, emergency medical]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Media attention has focused on the front-line heroes who are waging war <a target="_blank" href="https://techbeacon.com/tags/pandemic" rel="noopener noreferrer">against the pandemic</a>, including the doctors, nurses, police officers, emergency medical technicians, and grocery store cashiers. But thousands of information technology professionals are also among the front-line troops in this battle.</p>
-<p>IT pros are creating many of the applications used to gather and share critical data about the disease spread, or about financial help that individuals and organizations can tap to carry them through this unprecedented period.</p>
-<p>Here are some of the interesting development projects going on around the world right now—and how you can get involved.</p>
-<p><em>[ Learn best practices for <a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">reducing software defects </a><a target="_blank" href="https://content.microfocus.com/l/reduce-defects-software-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">with TechBeacon&#8217;s Guide</a>. Plus: Get the report <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/business-impact-production-defects?lx=HhQqWV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">&#8220;Agile and DevOps Reduces Volume, Cost, and Impact of Production Defects&#8221;</a> ]</em></p>
-<h3>The U.S. Digital Response</h3>
-<p><a target="_blank" href="https://www.usdigitalresponse.org" rel="nofollow noopener noreferrer">The U.S. Digital Response</a> (USDR) is a coalition of volunteers, mostly technologists, looking to help solve the challenges that governments and government services face in the midst of the crisis.</p>
-<p>Nearly 5,000 people have volunteered to help, and USDR is currently orchestrating over 150 projects with state, city, county, and local governments, said M. Jackson Wilkinson, the co-lead for the Real-Time Covid team at USDR. He oversees a team of 15, and among their efforts are CovidTracking, CovidActNow, PPE Coalition (personal protection equipment), and others.</p>
-<blockquote>
-<p>&#8220;We typically dive into tricky internal data challenges to assist the governments of large cities and states. We try to quickly engage, get a handle on the problem, figure out a plan to close the gap, and hustle toward a solution.&#8221;<br />—<a target="_blank" href="https://twitter.com/mjacksonw" rel="nofollow noopener noreferrer">M. Jackson Wilkinson</a></p>
-</blockquote>
-<p>Sometimes that&#8217;s building complete applications. Other times it&#8217;s getting existing processes automated. And other times it&#8217;s just a few Zoom calls to provide guidance.</p>
-<p>Virtually all of USDR projects arise from state or local government agencies reaching out for help, Wilkinson said.</p>
-<p>There are all sorts of ways that software developers can make contributions to projects such as those helped by USDR, Wilkinson said. These include writing code, doing design work, conducting rapid user research, managing projects, or just basic data entry and cleansing.</p>
-<h3>hack:now</h3>
-<p>This year&#8217;s <a target="_blank" href="https://hacknow.calhacks.io" rel="nofollow noopener noreferrer">hack:now</a> was a 36-hour global online competition for students to advance innovative and technical solutions aimed at tackling challenges caused by the coronavirus pandemic. Held April 24 and 25, 2020, the event was cosponsored by Postman, an API development platform, and Cal Hacks, a nonprofit organization consisting of students who are passionate about fostering a culture of hacking.</p>
-<p>The online hackathon was designed for the student community to work together and create solutions to trace, contain, and spread awareness about COVID-19, said Abhinav Asthana, CEO and co-founder of Postman. Toward those goals, the hackathon focused on three tracks:</p>
-<ul>
-<li><strong>Health:</strong> &#8220;While we aren&#8217;t medical professionals, we can still find additional ways to empower healthcare workers on the front lines and bring support to individuals at home,&#8221; Asthana said.</li>
-<li><strong>Community:</strong> &#8220;Digital communication is more important than ever, bringing together family, friends and neighbors, as well as saving local businesses while social distancing,&#8221; Asthana said.</li>
-<li><strong>Productivity:</strong> &#8220;Working or learning remotely is a novel experience for many of us. Millions of individuals stuck at home are looking for new ways to re-establish routines they had at work or school,&#8221; Asthana said.</li>
-</ul>
-<p>Beyond the technical skills students learned and refined, the collaboration mindset and focus on the common good &#8220;will both influence these young developers&#8217; careers and encourage continued efforts in this pandemic.&#8221;</p>
-<blockquote>
-<p>&#8220;[The hackathon work] builds a strong foundation for many projects to be used in production.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/abhinavasthana/" rel="nofollow noopener noreferrer">Abhinav Asthana</a></p>
-</blockquote>
-<p><em>[ Understand what your team needs to know to <a target="_blank" href="https://content.microfocus.com//l/software-test-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">take advantage of test automation</a> with TechBeacon&#8217;s Guide. Plus: Get the <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/buyers-guide-software-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Buyer&#8217;s Guide For Software Test Automation Tools</a> ]</em></p>
-<h3>Coronavirus Tracker</h3>
-<p>No doubt the most desired information about COVID-19&#8217;s toll each day is the statistics on number of cases, death, recoveries and testings—nationwide, on an individual state basis, and globally.</p>
-<p>All of that information is readily available on <a target="_blank" href="https://www.domo.com/covid19/daily-pulse/" rel="nofollow noopener noreferrer">the Coronavirus Tracker</a>, maintained by Domo. It offers up-to-date information on the spread of disease, summarized by confirmed cases, geography, testing and treatment, projections, and economic impact. Domo, a cloud computing business services provider, says it maintains the Coronavirus Tracker as a public service. </p>
-<p>The highly detailed COVID-19 charts are compiled from information gathered every 10 minutes from the World Health Organization (WHO), the Centers for Disease Control (CDC), John Hopkins University, Worldometer, the Institute for Health Metrics and Evaluation (IHME), the COVID Tracking Project, Federal Reserve Economic Data (FRED), <em>The New York Times</em>, the Wikipedia compilation of world testing, SafeGraph, Foursquare, Thumbtack, and data from the Amazon Web Services (AWS) Data Exchange.</p>
-<p>Ben Schein, Domo&#8217;s vice president of data curiosity, explained how it came to be.</p>
-<blockquote>
-<p>&#8220;Our team developed this interactive COVID-19 tracker over a weekend, building on Domo&#8217;s ability to rapidly bring together disparate new data sources and new data types and make it available at scale to anyone.&#8221;<br />—<a target="_blank" href="https://twitter.com/benfromminn" rel="nofollow noopener noreferrer">Ben Schein</a></p>
-</blockquote>
-<p>One of the goals was to give a broader context to the evolving pandemic, Schein explained. This included adding data on such things as economic impact, individual mobility, foot traffic, hospitalization, and COVID-19 testing.</p>
-<h3>India&#8217;s COVID-19 online hackathon</h3>
-<p><a target="_blank" href="https://coronathon.in/?mkt_tok=eyJpIjoiTkRRek1UQTVaR0ptTW1WbSIsInQiOiJSemhVRlRrdlRSckFpclFSTW02b3B2cXBWM3NKaDVlczZvUzNVeXU2RnlUSDlWTlRXNGZNK1NmZUUyOEpxVXdcL0Z2ck1RNWJGK1JtSkY5S1M2Q052U1pjcEtwWEpybFF6OG1xVVZxbXlqYm5xb05EcktheDY1SE9Xck80OFBOMm0ifQ%3D%3D" rel="nofollow noopener noreferrer">Coronathon India</a>, held in March and April, was another online contest designed to raise awareness about COVID-19 and develop weapons to be used in the fight against it. Some 3,000 people from India&#8217;s technology, business, and healthcare communities came together to build projects to minimize the pandemic&#8217;s impact on India.</p>
-<p>Over a period of four weeks, more than 40 projects were developed to help track the spread of the disease, where hotspots of infection were developing, and how testing and tracing efforts were going. Hackathon organizers noted that COVID-19 poses an especially grave danger to India, due to the country&#8217;s high population density and the &#8220;abysmally low number of hospital beds per 100 people.&#8221;</p>
-<p>Many of the developed projects came from software professionals and involved ways to better compile and analyze data about COVID-19 cases, or apps for tracking the movements of individuals known or suspected of being positive for the disease. Other projects involved social media tools for educating people about the disease symptoms and approved precautions against it.</p>
-<h3>COVID-19 High Performance Computing Consortium</h3>
-<p>In collaboration with the White House Office of Science and Technology Policy, the US Department of Energy, and many others, IBM helped launch <a target="_blank" href="https://covid19-hpc-consortium.org" rel="nofollow noopener noreferrer">the COVID-19 High Performance Computing Consortium</a>. The consortium is throwing an unprecedented amount of computing power—6 systems with more than 330 petaflops, 775,000 CPU cores, 34,000 GPUs, and counting—to help researchers better understand the disease, its possible treatments, and potential cures.</p>
-<p>According to <a target="_blank" href="https://www.linkedin.com/in/dario-gil-58575713/" rel="nofollow noopener noreferrer">Dario Gil</a>, director of IBM research, the consortium represents a true &#8220;Who&#8217;s Who&#8221; of supercomputing. Partners include the Lawrence Livermore National Lab, the Argonne National Lab, the Oak Ridge National Laboratory, the Sandia National Laboratory, the Los Alamos National Laboratory, the National Science Foundation, NASA, the Massachusetts Institute of Technology, the Rensselaer Polytechnic Institute, and several leading technology companies.</p>
-<p>Through this program, researchers at the Oak Ridge National Laboratory and the University of Tennessee screened 8,000 compounds &#8220;to find those that are most likely to bind to the main &#8216;spike&#8217; protein of the coronavirus, rendering it unable to infect host cells,&#8221; Gil said.</p>
-<p>They then recommended the 77 most promising small-molecule drug compounds that could now be tested.</p>
-<blockquote>
-<p>&#8220;This is the power of accelerating discovery through computation.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/dario-gil-58575713/" rel="nofollow noopener noreferrer">Dario Gil</a></p>
-</blockquote>
-<h3>Graph4Good</h3>
-<p>Graph data science is an important part of the efforts to track the spread of COVID-19 and the movements of those who may have been infected. In response, database vendor Neo4j launched <a target="_blank" href="https://neo4j.com/graphs4good/" rel="nofollow noopener noreferrer">the Graphs4Good project</a>, which uses the vendor&#8217;s graph database to research COVID-19.</p>
-<p>The advantage of using graph data technology in the fight against COVID-19 is that it can connect large datasets from multiple sources, allowing analysis on a much larger level.</p>
-<p>Graphs4Good &#8220;has helped several organizations tackle pandemic-related initiatives from contact tracing, to curtailing the spread of misinformation,&#8221; said Amy E. Hodler, director of AI and analytics programs at Neo4j.</p>
-<p>Current market conditions demonstrate the blind spots of thinking about data in rows and columns, she added.</p>
-<blockquote>
-<p>&#8220;Organizations are beginning to consider the importance of the relationships between data points, which are potentially far more valuable for predictive accuracy than flat, tabular descriptors.&#8221;<br />—<a target="_blank" href="https://twitter.com/amyhodler" rel="nofollow noopener noreferrer">Amy E. Hodler</a></p>
-</blockquote>
-<h3>Call for Code</h3>
-<p>IBM is encouraging developers to join in the fight with its <a target="_blank" href="https://developer.ibm.com/callforcode/" rel="nofollow noopener noreferrer">Call for Code</a> program. It offers cash prizes, connects developers with experts and open-source resources, and helps deploy applications where they are most needed.</p>
-<p>Now in its third year, the 2020 Call for Code Global Challenge is currently asking developers worldwide to build solutions for COVID-19. A second track this year looks at issues related to climate change. Both the COVID-19 track and the Climate Change track are open for submissions though July 31.</p>
-<p>Response to the initial call was swift. &#8220;We&#8217;re already receiving overwhelming support and some exciting early ideas,&#8221; said Willie Tejada, general manager and chief developer advocate at IBM. In a single day, over 1,000 developers registered.</p>
-<blockquote>
-<p>&#8220;First responders, at-risk individuals, and coders are reaching out to us to share their experiences and brainstorm solutions.&#8221;<br />—<a target="_blank" href="https://twitter.com/wtejada223" rel="nofollow noopener noreferrer">Willie Tejada</a></p>
-</blockquote>
-<p>Together with Call for Code&#8217;s creator, David Clark Cause, and in partnership with the United Nations Human Rights Council and the Linux Foundation, &#8220;we&#8217;re asking developers, data scientists, and problem solvers to answer the call.&#8221;</p>
-<h3>The next wave of projects and volunteers</h3>
-<p>From supercomputer analysis to major data management projects to individual developer efforts, the coronavirus pandemic is inspiring an unprecedented response from IT professionals and tech companies that want to join the fight on the front lines.</p>
-<p>Technology pros who want to join the fight should look first in their own state. For example, the <a target="_blank" href="https://www.ny.gov/programs/new-york-state-covid-19-technology-swat-team" rel="nofollow noopener noreferrer">COVID-19 Technology SWAT Team</a> in New York is looking for tech volunteers. But you can also do <a target="_blank" href="https://www.michigan.gov/mdhhs/0,5885,7-339-73970_71692_71696-528652--rss,00.html" rel="nofollow noopener noreferrer">volunteer to do contact tracing</a> in Michigan; and this site <a target="_blank" href="https://www.volunteermatch.org/covid19/" rel="nofollow noopener noreferrer">matches volunteers with nationwide COVID-19 projects</a> related to healthcare, education, and small-business support needed due to the lockdown and virus&#8217;s economic fallout.</p>
-<p>The next step: Find your niche, and use your skills to make a difference.</p>
-<p> </p>
-<p><em>[ Practice quality-driven development <a target="_blank" href="https://content.microfocus.com/l/world-quality-report-quality-driven-development-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">with best practices from QA practitioners in TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/world-quality-report-quality-driven-development-tb/world-quality-report-2019-2020?lx=R6G46K&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">World Quality Report 2019-20</a> ] </em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/top-developer-projects-fighting-front-lines-covid-19">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New Android Spyware Tools Emerge in Widespread Surveillance Campaign</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-android-spyware-tools-emerge-in-widespread-surveillance-campaign/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 01 Jul 2020 14:55:42 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Emerge]]></category>
-		<category><![CDATA[Spyware]]></category>
-		<category><![CDATA[Surveillance]]></category>
-		<category><![CDATA[Tools]]></category>
-		<category><![CDATA[Widespread]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/new-android-spyware-tools-emerge-in-widespread-surveillance-campaign/</guid>
-
-					<description><![CDATA[Never-before-seen Android spyware tools have been used in a widespread APT campaign to spy on the Uyghur ethnic minority group]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Never-before-seen Android spyware tools have been used in a widespread APT campaign to spy on the Uyghur ethnic minority group &#8211; since 2013.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/four-android-spyware-tools-surveillance-campaign/157063/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Overcome 6 Selenium Automation Testing Challenges</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/overcome-6-selenium-automation-testing-challenges/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 01 Jul 2020 07:41:31 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[challenges]]></category>
-		<category><![CDATA[Overcome]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/overcome-6-selenium-automation-testing-challenges/</guid>
-
-					<description><![CDATA[Undoubtedly, Selenium has made web testing far simpler for many QA teams and enterprises worldwide, but it has a fair]]></description>
+					<description><![CDATA[2020 has certainly been the year of the ‘new normal’. Our new life in which we stay home and socially]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<p style="text-align: justify;">Undoubtedly, Selenium has made web testing far simpler for many QA teams and enterprises worldwide, but it has a fair share of challenges. That being said, most of such issues testers encounter have quite clear-cut solutions, which is why we have summarized some of the common Selenium automation testing challenges, along with their solution. Let’s get started!</p>
-<h2><strong>Selenium Automation Testing Challenges &amp; Solutions</strong></h2>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>2020 has certainly been the year of the ‘new normal’. Our new life in which we stay home and socially distance has affected the way we work and learn but just as importantly, the way we celebrate!</p>
+<p>Without a doubt, the video call saved the day while we all stayed home and socially distanced. Work meetings continued and learning at home still happened thanks to this wonderful technology. And while some people used video calls to remain in touch with family and friends, this remarkable technology also helped many people worldwide continue to celebrate life’s important milestones such as school and university graduations; weddings and, even the celebration of life at funerals.</p>
+<h4><strong>Graduating Virtually</strong></h4>
+<p>One of my oldest friends has two daughters who have just virtually graduated from their high school and university. Before each occasion, the girls were sent their cap and gown and their graduation certificates via the post. On the day of each event, the girls donned their specially purchased dresses – which were purchased long before ‘lockdown’ (along with their cap and gown) – and participated in the ceremony via video call. Dressed to the 9’s, their immediate family also watched the ceremony and witnessed their daughter (and sister) officially graduate.</p>
+<p>While there wasn’t perhaps the same sense of camaraderie as if their cohort had graduated together in person, the video call was definitely the next best thing. It allowed them to see their friends, receive the public accolades they both so deserved and, most importantly, it provided a sense of completion and closure that allowed them to start thinking about their next phase in life.</p>
+<h4><strong>Virtual Weddings</strong></h4>
+<p>Within weeks of lockdown, the virtual wedding industry was well established. Companies such as <a target="_blank" href="https://simplyeloped.com/virtual-weddings/" rel="noopener noreferrer">Simply Eloped</a> were offering virtual wedding packages that provided planning assistance, a virtual ceremony emcee, advice on acquiring a license and tech support. <a target="_blank" href="https://wedfuly.com/virtual-wedding-pricing/" rel="noopener noreferrer">Specialised tech companies</a> were also offering to coordinate weddings on video calling apps and manage guests on multiple devices.</p>
+<p>And if you are getting married, of course you need photography so virtual photographers became a thing as did customised wedding backdrops providers and virtual live musicians to entertain your guests. If there was ever an example of an industry that mastered the art of pivoting, it was definitely the wedding industry!</p>
+<h4><strong>Celebrating the End Of A Life – Virtually</strong></h4>
+<p>Probably one of the hardest milestones to miss in person during lockdown was the celebration of life – the funeral. Around the world, many countries limited attendees at funerals to as low as 10 to ensure social distancing which meant live streaming the service became the next best option.</p>
+<p>Specialised funeral live streaming companies such as <a target="_blank" href="https://oneroomstreaming.com/" rel="noopener noreferrer">OneRoom</a> sprung up allowing family and friends the opportunity for a private farewell even if they couldn’t attend in person.  While a funeral service is an important way to remember and celebrate the life of the recently deceased, it is also an important part of the grieving process. I have several friends who lost treasured family members during the lockdown period who were very comforted by having the option to have a copy of the live-streamed service which they could watch several times.</p>
+<p>If there’s ever a time to be grateful for the power of technology (and video calls) it’s now! I just can’t imagine how we have all survived the isolation without being able to stay in touch and see the faces of family and friends! But just like every aspect of online life, video calling apps are fantastic when used sensibly but they do also carry some risks. Here are my top tips to ensure that you can safely celebrate life’s milestones online:</p>
 <ol>
-<li><a target="_blank" href="https://blog.testproject.io/#mobile-application-testing" rel="noopener noreferrer">Mobile Application Testing</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#reporting" rel="noopener noreferrer">Reporting</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#alerts" rel="noopener noreferrer">Pop-up Windows and Alerts</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#page-load" rel="noopener noreferrer">Page load</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#scalability" rel="noopener noreferrer">Scalability</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#desktop-apps" rel="noopener noreferrer">Desktop Application Testing</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#conclusion" rel="noopener noreferrer">Conclusion</a></li>
+<li>
+<h5><strong>Don’t Share Links to Video Calls</strong></h5>
+</li>
 </ol>
-<h2><noscript><img class="alignnone wp-image-11882 size-large" title="Selenium Automation Testing Challenges" src="https://blog.testproject.io/wp-content/uploads/2020/05/Selenium-blog-1-1024x467.jpg" alt="Selenium Automation Testing Challenges" width="640" height="292" srcset="https://blog.testproject.io/wp-content/uploads/2020/05/Selenium-blog-1-1024x467.jpg 1024w, https://blog.testproject.io/wp-content/uploads/2020/05/Selenium-blog-1-512x233.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/05/Selenium-blog-1-768x350.jpg 768w, https://blog.testproject.io/wp-content/uploads/2020/05/Selenium-blog-1.jpg 1328w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></h2>
-<h3 style="text-align: justify;"><strong><a target="_blank" id="mobile-application-testing" rel="noopener noreferrer">1. Mobile Application Testing</strong></h3>
-<p style="text-align: justify;">When using <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener noreferrer">Selenium</a>, we can create <a target="_blank" href="https://blog.testproject.io/2019/03/07/what-test-cases-should-you-automate/" rel="noopener noreferrer">automated test cases</a> on any operating system and browser on desktop, however we cannot perform mobile tests with Selenium simultaneously.</p>
-<p style="text-align: justify;"><strong><em>Solution</em></strong><strong>: </strong>You can make use of tools like <a target="_blank" href="https://blog.testproject.io/2020/02/05/the-best-appium-tools-for-mobile-developers/" rel="noopener noreferrer">Appium mobile app automation tool</a> to handle iOS and Android applications utilizing the WebDriver protocol. As more and more users are opting for mobile devices, it’s no surprise that testers and developers are taking benefits of the Appium’s functionalities for this purpose.</p>
-<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> There are also tools such as <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>, based on both Selenium and Appium, and thus providing a great solution for such scenarios in which you need to test web as well as mobile applications. Definitely check out this speed benchmark when considering mobile automation testing tools: <a target="_blank" href="https://blog.testproject.io/2020/04/08/fastest-mobile-automation-testing-tool-appium-vs-xcuitest-vs-testproject-vs-uiautomator-vs-espresso/" rel="noopener noreferrer">Fastest Mobile Automation Testing Tool – Appium vs. XCUITest vs. TestProject vs. UiAutomator vs. Espresso</a>.</p>
-<h3><strong><a target="_blank" id="reporting" rel="noopener noreferrer">2. Reporting</strong></h3>
-<p>Reporting is considered as one of the major challenges faced during Selenium automation testing, since Selenium does not support effective reporting on its own. You can use various packages or third-party tools such as <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/" rel="noopener noreferrer">TestNG</a>, <a target="_blank" href="https://blog.testproject.io/2019/07/16/python-test-automation-project-using-pytest/" rel="noopener noreferrer">Pytest</a>, etc… However, such options require one to have advanced programming skills, and they are not always elaborate enough.</p>
-<p style="text-align: justify;"><strong><em>Solution</em></strong>: With <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> you can create detailed reports on the fly, without the need to explicitly mention any the reporting steps in your Selenium code or recordings, and without any additional tools required. It’s all taken care of for you, and you get <a target="_blank" href="https://testproject.io/beautiful-test-analytics/" rel="noopener noreferrer">in-depth reports</a> with all the necessary insights and trends needed to troubleshoot your automation testing and measure the product’s quality.</p>
-<h3><strong><a target="_blank" id="alerts" rel="noopener noreferrer">3. Pop-up Windows and Alerts </strong></h3>
-<p>We often receive prompt or confirmation pop-up alerts during test automation, yet Selenium often fails to catch such pop-ups. It can be the trickiest job to automate such alerts to either close or accept them. Selenium does not have the capability to handle windows-based alerts, since they are components of the OS instead of the browser. However, Selenium WebDriver does have the ability to handle web-based alerts.</p>
-<p style="text-align: justify;"><strong><em>Solution</em></strong><strong>:</strong> <a target="_blank" href="https://blog.testproject.io/2020/06/30/selenium-4-new-window-tab-screenshots/" rel="noopener noreferrer">Selenium WebDriver</a> can operate varied windows. Web-based alerts can commonly be handled with the <a target="_blank" href="https://blog.testproject.io/2020/06/18/selenium-switch-methods-chapter-5/" rel="noopener noreferrer">switchTo method</a> to control the pop-up while allowing the browser to run in the background.</p>
-<p style="text-align: justify;">To manage any sort of alert popup, you can also apply a getAlert function. Prior to running the script, you should import a package that can create a WebDriver script to handle alerts. The capable interface brings with it the subsequent commands: <em>void accept (), void dismiss(), getText(), void sendKeys(String stringToSend)</em>. The first two click the “OK” &amp; “Cancel” buttons on pop-up windows.</p>
-<h3 style="text-align: justify;"><strong><a target="_blank" id="page-load" rel="noopener noreferrer">4. Page load</strong></h3>
-<p style="text-align: justify;">Some pages load various elements depending on the distinct user behavior and journey. Sometimes some elements come into view based past actions the user makes. For instance, if you choose a nation from dropdown lists, then cities related that specific nation will load in the cities dropdown. While executing the Selenium test, the script may not be able to tolocate the element.</p>
-<p style="text-align: justify;"><strong><em>Solution</em></strong><strong>: </strong>To resolve this specific issue we can use explicit waits in the Selenium script to provide elements with sufficient time to upload and to locate the element. You can also check out TestProject’s <a target="_blank" href="https://blog.testproject.io/2020/05/04/testproject-adaptive-wait-capability/" rel="noopener noreferrer">adaptive wait capability</a> and make sure to avoid any test flakiness.</p>
-<h3><strong><a target="_blank" id="scalability" rel="noopener noreferrer">5. Scalability</strong></h3>
-<p>Even though Selenium gives you the capability to test on any browser or operating system, it’s still restricted in how many tests it can run at once and how rapidly it can perform them. Without a Selenium grid, you can only execute one test after the other. <a target="_blank" href="https://blog.testproject.io/2019/07/16/using-selenium-grid-and-remote-webdrivers/" rel="noopener noreferrer">Selenium Grid</a> can scale your test procedure with the use of remote WebDrivers, and enables running tests in parallel. However, you can’t test your web application across multiple combinations of browsers &amp; OS. You can only execute tests on a specific OS and browser (installed on your machine) at a time.</p>
-<p style="text-align: justify;"><strong><em>Solution</em></strong>: You can use cloud testing solutions (TestProject has built-in integrations with <a target="_blank" href="https://docs.testproject.io/testproject-integrations/sauce-labs-integration" rel="noopener noreferrer">Sauce Labs</a> or <a target="_blank" href="https://docs.testproject.io/testproject-integrations/browserstack-integration" rel="noopener noreferrer">BrowserStack</a>), to test your apps across multiple OS and browsers all at the same time. You might find this comparison article of 5 cloud solutions interesting to review: <a target="_blank" href="https://blog.testproject.io/2020/02/04/top-5-solutions-executing-test-automation-cloud-comprehensive-comparison/" rel="noopener noreferrer">Top 5 Solutions for Executing Test Automation in the Cloud (Comprehensive Comparison)</a>.</p>
-<h3 style="text-align: justify;"><strong><a target="_blank" id="desktop-apps" rel="noopener noreferrer">6. Desktop Application Testing</strong></h3>
-<p style="text-align: justify;">This is one of the major challenges faced in <a target="_blank" href="https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/" rel="noopener noreferrer">automation testing</a>.<strong> </strong>Selenium does not support windows-based <a target="_blank" href="https://blog.testproject.io/2016/12/22/9-free-desktop-test-automation-tools/" rel="noopener noreferrer">Desktop test automation</a>. It supports only web-based applications.</p>
-<p style="text-align: justify;"><strong><em>Solution</em></strong><strong>: </strong>Not exactly a solution, but we need to keep in mind that Selenium can’t automate every single thing. There are still some kinds of tasks you need to implement on a manual basis. Thus, as described already above, it is critical to have an understanding of programming languages for using a tool like Selenium.</p>
-<h2 style="text-align: justify;"><strong><a target="_blank" id="conclusion" rel="noopener noreferrer">Conclusion</strong></h2>
-<p style="text-align: justify;">Selenium automated testing can be tricky, but is without a doubt the king of web testing <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f451.png" alt="👑" class="wp-smiley" style="height: 1em; max-height: 1em;" /> While automated test cases undoubtedly allow for rapid identification and resolution of problems within an app’s codebase, the challenges are not that easy to be tackled. Thus, additional tools or methods need to be taken into consideration and implemented accordingly.</p>
-<p style="text-align: justify;"><strong>Encountered other challenges during Selenium automated testing? </strong><strong>Share in the comments below! </strong></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/07/01/how-to-overcome-selenium-automation-testing-challenges/">Source link </a></p>
+<p>Whether it’s a wedding ceremony, baby shower, meeting with a virtual photographer or a funeral service, sharing links to video calls means you are essentially extending the invitation to anyone who gets their hands on the link. Not only does this compromise the privacy of everyone involved but video call ‘bombers’ have been known use threatening and intimidating language which could be very unsettling.</p>
+<ol start="2">
+<li>
+<h5><strong>Keep Your Personal Meeting ID Tight!</strong></h5>
+</li>
+</ol>
+<p>Some video calling apps allocate each user a PMI or personal meeting ID. Your PMI is basically one continuous meeting so anyone that has access to it can enter any of your future meetings or gatherings. Always generate a random meeting ID for any events where you don’t truly know your invitees.</p>
+<ol start="3">
+<li>
+<h5><strong>Video Calls Can Be Recorded</strong></h5>
+</li>
+</ol>
+<p>Don’t forget that video calls can be recorded. Even though a video call may feel like real life – it is not! So, if you are celebrating hard at your friend’s wedding, be mindful that your ‘high-energy’ behaviour may be recorded on camera!!</p>
+<p>While ‘lockdown life’ may almost be over for some of us, many experts believe ‘social distancing’ will be a way of life for some time. So, if you have an important celebration on your radar, don’t despair – a well-planned virtual celebration can definitely be worthwhile and will be a great story to pass down to future generations!</p>
+<p>Happy Virtual Celebrating!</p>
+<p>Alex xx</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/how-to-keep-your-celebrations-happening-virtually-safely/">Source link </a></p>
 ]]></content:encoded>
 					
 		
