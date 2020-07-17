@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 14 Jul 2020 21:32:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jul 2020 04:33:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,137 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Getting Started with TestProject Python SDK</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/getting-started-with-testproject-python-sdk/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 15 Jul 2020 04:33:25 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[SDK]]></category>
+		<category><![CDATA[started]]></category>
+		<category><![CDATA[TestProject]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/getting-started-with-testproject-python-sdk/</guid>
+
+					<description><![CDATA[With the TestProject Python SDK, you can execute your Selenium and Appium tests using the power of the TestProject platform.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">With the TestProject Python SDK, </span><span style="font-weight: 400;">you can execute your Selenium and Appium tests using the power of the <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject platform</a>. This means you’ll benefit from automatic test reporting in HTML and PDF, automatic updates and configuration of your Selenium browser drivers, collaborative reporting dashboards, and much more (Learn more about the benefits of <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">TestProject OpenSDK</a>).</span></p>
+<p><span style="font-weight: 400;">In this article, we’ll take a look at how to get started with the TestProject Python SDK. We’ll first see how to create a TestProject powered Selenium test ‘from scratch’, and then you’ll how you can convert your existing test suite into one that uses the TestProject platform.</span></p>
+<h2><strong>Table of Contents</strong></h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#install-sdk" rel="noopener noreferrer">Installing the TestProject Python SDK</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#agent-config" rel="noopener noreferrer">Configuring your TestProject Agent</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#dev-token-config" rel="noopener noreferrer">Configuring your developer token</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#first-test" rel="noopener noreferrer">Creating your first test</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#run-test" rel="noopener noreferrer">Running the test</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#test-reports" rel="noopener noreferrer">Inspecting the test reports</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#unit-testing" rel="noopener noreferrer">Supported unit testing frameworks</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#summary" rel="noopener noreferrer">Summary</a></li>
+</ol>
+<hr/>
+<h2><strong><a target="_blank" id="install-sdk" rel="noopener noreferrer">Installing the TestProject Python SDK</strong></h2>
+<p><span style="font-weight: 400;">The TestProject Python SDK is <strong>100% free and open source</strong>, and is available as a PyPI package. You can install the package using pip:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">pip install testproject-python-sdk</pre>
+<p><span style="font-weight: 400;">This will install the SDK as well as its dependencies. To prevent version conflicts across projects, it is recommended to use a virtual environment for the development of your tests.</span></p>
+<h2><strong><a target="_blank" id="agent-config" rel="noopener noreferrer">Configuring your TestProject Agent</strong></h2>
+<p><span style="font-weight: 400;">Like all <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview" rel="noopener noreferrer">TestProject SDKs</a>, the Python SDK executes tests using the <a target="_blank" href="https://docs.testproject.io/testproject-agents/what-is-a-testproject-agent" rel="noopener noreferrer">TestProject Agent</a>. This Agent takes care of browser driver installation and configuration as well as reporting to the TestProject platform. You can download the Agent from <a target="_blank" href="https://app.testproject.io/#/agents" rel="noopener noreferrer">here</a>.</span></p>
+<p><span style="font-weight: 400;">By default, the SDK will communicate with the Agent on its default address, which is </span><a target="_blank" href="http://localhost:8585" rel="noopener noreferrer"><span style="font-weight: 400;">http://localhost:8585</span></a><span style="font-weight: 400;">. If you’re running the Agent on another port, or even an entirely different machine, you can configure the correct address by setting the </span><code><span style="font-weight: 400;">TP_AGENT_URL</span></code><span style="font-weight: 400;"> environment variable to the correct address.</span></p>
+<h2><strong><a target="_blank" id="dev-token-config" rel="noopener noreferrer">Configuring your developer token</strong></h2>
+<p><span style="font-weight: 400;">To communicate with the Agent, you need a developer token. You can configure the SDK to use it by obtaining a token from </span><a target="_blank" href="https://app.testproject.io/#/integrations/sdk" rel="noopener noreferrer"><span style="font-weight: 400;">https://app.testproject.io/#/integrations/sdk</span></a><span style="font-weight: 400;">, and setting an environment variable </span><code><span style="font-weight: 400;">TP_DEV_TOKEN</span></code><span style="font-weight: 400;"> with the token value.</span></p>
+<h2><strong><a target="_blank" id="first-test" rel="noopener noreferrer">Creating your first test</strong></h2>
+<p><span style="font-weight: 400;">After installing and setting up the SDK, it’s time to start writing our first test <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />Here is a fully functional example test that opens the <a target="_blank" href="https://example.testproject.io/web/" rel="noopener noreferrer">TestProject demo application</a>, logs in and checks that a greeting message is displayed:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">from src.testproject.sdk.drivers import webdriver
+
+def simple_test():
+    driver = webdriver.Chrome()
+
+    driver.get("https://example.testproject.io/web/")
+
+    driver.find_element_by_css_selector("#name").send_keys("John Smith")
+    driver.find_element_by_css_selector("#password").send_keys("12345")
+    driver.find_element_by_css_selector("#login").click()
+
+    passed = driver.find_element_by_css_selector("#logout").is_displayed()
+
+    print("Test passed") if passed else print("Test failed")
+
+    driver.quit()
+
+
+if __name__ == "__main__":
+    simple_test()</pre>
+<p><span style="font-weight: 400;">If you’re already familiar with developing Selenium-based tests in Python, this code should not be difficult to understand. Let’s run it and see what happens! But first, make sure that your TestProject Agent is running. </span></p>
+<h2><strong><a target="_blank" id="run-test" rel="noopener noreferrer">Running the test</strong></h2>
+<p><span style="font-weight: 400;">Let’s assume that the example test we just saw resides in a Python module called </span><code><span style="font-weight: 400;">web_test.py</span></code><span style="font-weight: 400;">. Since we made this module runnable using </span><code><span style="font-weight: 400;">if __name__ == “__main__”</span></code><span style="font-weight: 400;">, we can run this test simply by executing the following command:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">python web_test.py
+</pre>
+<p><span style="font-weight: 400;">This will request a Chrome driver instance from the TestProject Agent, run the tests and report results to the TestProject platform. If you configured your developer token and Agent address correctly, you’ll see the following output in your console, indicating that our test was executed successfully:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">&lt;...&gt;
+Test passed
+2020-07-13 09:30:03,884 INFO Connection to Agent at http://127.0.0.1:8585 closed successfully
+
+Process finished with exit code 0
+</pre>
+<p><span style="font-weight: 400;">Let’s take a look at the reports that were generated.</span></p>
+<h2><strong><a target="_blank" id="test-reports" rel="noopener noreferrer">Inspecting the test reports</strong></h2>
+<p><span style="font-weight: 400;">The TestProject Agent will automatically report your test results to the TestProject platform. If you head over to </span><a target="_blank" href="https://app.testproject.io/#/reports" rel="noopener noreferrer"><span style="font-weight: 400;">https://app.testproject.io/#/reports</span></a><span style="font-weight: 400;">, you’ll see a project called ‘</span><i><span style="font-weight: 400;">Unnamed Project</span></i><span style="font-weight: 400;">’:</span></p>
+<p></p>
+<p><noscript><img class="alignnone wp-image-13243 size-full" title="TestProject Python SDK - Generated Test Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/TestProject-Python-SDK-Generated-Test-Reports.png" alt="TestProject Python SDK - Generated Test Reports" width="612" height="336" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/TestProject-Python-SDK-Generated-Test-Reports.png 612w, https://blog.testproject.io/wp-content/uploads/2020/07/TestProject-Python-SDK-Generated-Test-Reports-512x281.png 512w" sizes="(max-width: 612px) 100vw, 612px"/></noscript></p>
+<p><span style="font-weight: 400;">If you click on this, you’ll see an overview of the test runs associated with this project. This will contain a job called ‘</span><i><span style="font-weight: 400;">web_test</span></i><span style="font-weight: 400;">’ (the job name is automatically derived from the Python module name) and a passed test called </span><i><span style="font-weight: 400;">‘simple_test</span></i><span style="font-weight: 400;">’ (the test name is automatically derived from the test method name):</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13246 size-full" title="TestProject Python SDK - Generated Test Reports" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="533" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/first.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/first-512x176.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/first-768x264.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/first-1024x352.png 1024w" data-lazy-sizes="(max-width: 1552px) 100vw, 1552px" src="https://blog.testproject.io/wp-content/uploads/2020/07/first.png"/></p>
+<p><noscript><img class="alignnone wp-image-13246 size-full" title="TestProject Python SDK - Generated Test Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/first.png" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="533" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/first.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/first-512x176.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/first-768x264.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/first-1024x352.png 1024w" sizes="(max-width: 1552px) 100vw, 1552px"/></noscript></p>
+<p><span style="font-weight: 400;">As you can see, the test is marked as passed, and all the individual actions that were performed by the browser driver instance are reported to the right, all out of the box, without the need for additional configuration!</span></p>
+<p><span style="font-weight: 400;">The TestProject Python SDK offers you a variety of options to <strong>customize your reporting</strong>. We will take a closer look at those in a follow-up article (coming soon!). One thing that is worthy of mentioning here, though, is that values that are entered into password fields are automatically redacted, as you can see in step 5 of the report. This feature can also be switched off if desired. You’ll see how in the article on reporting coming soon. </span></p>
+<h2><strong><a target="_blank" id="unit-testing" rel="noopener noreferrer">Supported unit testing frameworks</strong></h2>
+<p><span style="font-weight: 400;">Currently, the TestProject Python SDK supports the </span><a target="_blank" href="https://docs.python.org/3/library/unittest.html" rel="noopener noreferrer"><span style="font-weight: 400;">unittest</span></a><span style="font-weight: 400;"> and </span><a target="_blank" href="https://docs.pytest.org/en/stable/" rel="noopener noreferrer"><span style="font-weight: 400;">pytest</span></a><span style="font-weight: 400;"> unit testing frameworks. If you have existing </span><span style="font-weight: 400;">unittest</span><span style="font-weight: 400;">– or </span><span style="font-weight: 400;">pytest</span><span style="font-weight: 400;">-based Selenium tests, it is very easy to convert these to TestProject-powered tests.</span></p>
+<p><span style="font-weight: 400;">Let’s take a look at this </span><span style="font-weight: 400;">pytest</span><span style="font-weight: 400;">-based example. The process is exactly the same for </span><span style="font-weight: 400;">unittest</span><span style="font-weight: 400;">, by the way:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">from selenium import webdriver
+from tests.pageobjects.web import LoginPage, ProfilePage
+
+def test_example_using_chrome():
+    driver = webdriver.Chrome()
+    LoginPage(driver).open().login_as("John Smith", "12345")
+    assert ProfilePage(driver).greetings_are_displayed() is True
+    driver.quit()
+</pre>
+<p><span style="font-weight: 400;">Assuming that you have added the TestProject SDK as a dependency to your project, and that you have configured both the Agent and your developer token as described earlier in this article, the only thing you need to do to change this import statement:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">from selenium import webdriver
+</pre>
+<p><span style="font-weight: 400;">to this:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">from src.testproject.sdk.drivers import webdriver
+</pre>
+<p><span style="font-weight: 400;">and you’re good to go. It is that easy! Now, let’s assume that this test is part of a module </span><code><span style="font-weight: 400;">example_test</span></code><span style="font-weight: 400;"> in a package called </span><code><span style="font-weight: 400;">tests</span></code><span style="font-weight: 400;">. If you run this test using:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">pytest testsexample_test.py
+</pre>
+<p><span style="font-weight: 400;">and go to the TestProject reports page again, you’ll see a report that looks like this:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13247 size-full" title="TestProject Python SDK - Generated Test Reports" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="530" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/second.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/second-512x175.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/second-768x262.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/second-1024x350.png 1024w" data-lazy-sizes="(max-width: 1552px) 100vw, 1552px" src="https://blog.testproject.io/wp-content/uploads/2020/07/second.png"/></p>
+<p><noscript><img class="alignnone wp-image-13247 size-full" title="TestProject Python SDK - Generated Test Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/second.png" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="530" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/second.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/second-512x175.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/second-768x262.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/second-1024x350.png 1024w" sizes="(max-width: 1552px) 100vw, 1552px"/></noscript></p>
+<p><span style="font-weight: 400;">As you can see, the SDK has automatically derived the test name (‘</span><em><span style="font-weight: 400;">test_example_using_chrome’</span></em><span style="font-weight: 400;">) and the job name (‘</span><span style="font-weight: 400;"><em>example_test</em>‘</span><span style="font-weight: 400;">), from the test method name and the package name, respectively. Additionally, if you’re using </span><span style="font-weight: 400;">pytest</span><span style="font-weight: 400;"> or </span><span style="font-weight: 400;">unittest</span><span style="font-weight: 400;">, the SDK will also automatically infer a project name based on the package that the test modules are in. The project, job and test names can also be customized if you like. You will see how to do that in the reporting article coming soon – Stay tuned for that <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<h2><strong><a target="_blank" id="summary" rel="noopener noreferrer">Summary</strong></h2>
+<p>As we’ve seen in this TestProject Python SDK tutorial, with just one unified SDK (that’s also available in <a target="_blank" href="https://docs.testproject.io/testproject-sdk/java-sdk" rel="noopener noreferrer">Java</a> and <a target="_blank" href="https://docs.testproject.io/testproject-sdk/c-sdk" rel="noopener noreferrer">C#</a> by the way), developers and testers receive a go-to toolset, solving some of the greatest challenges in open source test automation. Using the TestProject SDK will save you a bunch of time, while and enjoy the following benefits out of the box:</p>
+<ul>
+<li><span data-key="512edfdee6434724958946c3027a70be">Open source and available as a </span><a target="_blank" class="link-a079aa82--primary-53a25e66--link-faf6c434" href="https://mvnrepository.com/artifact/io.testproject/java-sdk" rel="noopener noreferrer" data-key="45d7a9d6bd614468823e126ccd30ad72"><span data-key="79a0bfcd049a4d77918755cb7623c5c7">Maven</span></a><span data-key="54e38f5eaf3f4c36ad00f3bfd7cfdac6"> dependency / a </span><a target="_blank" class="link-a079aa82--primary-53a25e66--link-faf6c434" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer" data-key="aaf02ef945504b0688598a6890be1755"><span data-key="96df2f798cc442bf9a80e6fb343c8aa0">NuGet</span></a><span data-key="793d52cba51240b8b785cb8518a5eb6a"> package / a </span><a target="_blank" class="link-a079aa82--primary-53a25e66--link-faf6c434" href="https://pypi.org/project/testproject-python-sdk/" rel="noopener noreferrer" data-key="8c00d44831f7469bb734556cee053fc2"><span data-key="fb18f08e44d74213bc6378ebc7d12056">PyPI</span></a><span data-key="6e70753108c7406f98ca0699694e389d" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaXN0LXVub3JkZXJlZCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk9wZW4lMjBzb3VyY2UlMjBhbmQlMjBhdmFpbGFibGUlMjBhcyUyMGElMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmlubGluZSUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaW5rJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyaHJlZiUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGbXZucmVwb3NpdG9yeS5jb20lMkZhcnRpZmFjdCUyRmlvLnRlc3Rwcm9qZWN0JTJGamF2YS1zZGslMjIlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk1hdmVuJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjBkZXBlbmRlbmN5JTIwJTJGJTIwYSUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyaW5saW5lJTIyJTJDJTIydHlwZSUyMiUzQSUyMmxpbmslMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlMjJocmVmJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZ3d3cubnVnZXQub3JnJTJGcGFja2FnZXMlMkZUZXN0UHJvamVjdC5TREslMjIlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk51R2V0JTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjBwYWNrYWdlJTIwJTJGJTIwYSUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyaW5saW5lJTIyJTJDJTIydHlwZSUyMiUzQSUyMmxpbmslMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlMjJocmVmJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZweXBpLm9yZyUyRnByb2plY3QlMkZ0ZXN0cHJvamVjdC1weXRob24tc2RrJTJGJTIyJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJQeVBJJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjBwcm9qZWN0LiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE"> project.</span></li>
+<li>5-minute simple Selenium and Appium setup with a single <a target="_blank" href="https://docs.testproject.io/testproject-agents" rel="nofollow noopener noreferrer">Agent</a> deployment.</li>
+<li>Automatic test reports in HTML/PDF format (including screenshots and customization capabilities).</li>
+<li>Collaborative reporting dashboards with execution history and RESTful API support.</li>
+<li>Always up-to-date with the latest and stable Selenium driver version.</li>
+<li>A simplified, familiar syntax for both web and mobile applications.</li>
+<li>Complete test runner capabilities for both local and remote executions, anywhere.</li>
+<li>Cross platform support for Mac, Windows, Linux and Docker.</li>
+<li>Ability to store and execute tests locally on any source control tool, such as Git.</li>
+</ul>
+<p><strong>We can’t wait for you to start exploring the new TestProject Python SDK <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />Share your experience in the comments below. </strong><strong>Happy PyTesting!</strong> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f929.png" alt="🤩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Microsoft Tackles 123 Fixes for July Patch Tuesday</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/microsoft-tackles-123-fixes-for-july-patch-tuesday/</link>
 		
@@ -377,38 +508,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/how-to-protect-your-privacy-from-tracking-apps/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cognizant-accelerates-site-reliability-for-a-uk-retailer-with-neotys-neoload-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 02 Jul 2020 12:36:59 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[accelerates]]></category>
-		<category><![CDATA[Cognizant]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[reliability]]></category>
-		<category><![CDATA[Retailer]]></category>
-		<category><![CDATA[site]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cognizant-accelerates-site-reliability-for-a-uk-retailer-with-neotys-neoload-neotys/</guid>
-
-					<description><![CDATA[Find out how a UK retailer saved 90% on the costs of their recurring tool license and cloud usage, developed]]></description>
-										<content:encoded><![CDATA[
-<p>Find out how a UK retailer saved 90% on the costs of their recurring tool license and cloud usage, developed performance tests 2X faster and reduced script maintenance efforts by 40% with <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeoLoad</a> and our global partner <a target="_blank" href="https://facebook.com/Cognizant/?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">Cognizant</a> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3eQoJC2%3Ffbclid%3DIwAR1KDu8CoLXKruhfbrZVNQORYjmXLD79HKf-Pz5yG2DodsVP_nDbagf0e-Q&amp;h=AT2eSnvetQLxh95l5vuETIBqkNKY9S8qZATTvQernJE6rYRNjUsSBeNXih7v3QTJZzWEFuCI212gaZHMoTVk5kxKJCxnruPQRcXr0PcRTShkWLpiEo7bf6zr5cJkLDik51UmKs_b_dbcPYPWXMB89JcrGyCRhMT1JhXw0mwY09urelaTg3NIFURY_ZIx0uwOo2JTj5bR1zEBzZ-Ew97T77TwOr-qSGfrgBkTxChfWUJ0vM55HsYGnumq9B7Xl6G0MbJkZ6xwBcx9SifESciLKuQrjbG7-TU_csfIN5FLNLAXoIlCE0JS0f3CSF54GYVvd62_lY7W6cS0zucJ5WWzCbebPOPImBROpyZMd3qysQqbDbHJESLarj3q4GpOmbOxai63F1BOAmTLPLglkVP_uBPD6ZGsSb4tMfpSCD2-RD3HpXswgGgQIlesJ2aSDi7rFJ0wsQ61hchfo2Uu_0f20PD5vZ36MkQSxkX_dYr_CZReAwNINszj3p26O36HMh2otelXBVbAftE-tR0UDgob1rVeMTFXr_w-UTL7Xavfj2dVKklsc5rAAu13OTyaSpxdD8URCscFiBGW6uQovcob-Gfl611xBBweCpSXf5IKuCsTjseg7NJ0TFTcsg5fk_hOqTZhpKoqKzi5a89ejIXcAQFmhRZ2q9wpMwiWd371FjCtAcvBiFLbQaCJGreGLhmYR7TOGkVcpifx7hYBECWPD5nWTFaewrdQSTUFP01LmcP6aZPKEDie_F7DN_KP7IvyB5HXB3SDWzqcnE7Y1K9JOE9NWYcR--OGXP8OzgYvpE7e416OmCpTsRza3fPhzvqocFkh7u2x88pFm4fqeICfjsHtT-nu6XEsFSYVM_zo96i8drLcfB8XEMtwDlza-JaNfMCfmYuxtXCjQYruOsWTKwK1HDfzNMYi61yUvtCOrIFvwZMT6WtXibbf6OOfgpNgYPf3lkobtY_xNxkFXRMSimbeC9wgY7VUtcJ-8oi6d0Z4mjrL6tNcX0g03p3-Q-l7cFYrdCShfTxErxc_J6Dnu8s9z0VtPhDeI6MLDhMQq_7SbunWNBLkX_3J4-hz6I6PvvbEfnWsnDOQLCPzrIMd-eoycuP5kMjwEwcs8T1KAm_En1hdwV0LaBELjzmU_5Bp6dTZyOzhx95r6zO2P8Y3qdPOcQrc-CuOevEJ0HmwZjH6ukwPWPOAEo7OfGQ8NmES9t7jQFIKglPQGoj-rquwdUh2J_UbfemoiJJAAETc3a3wDfaehgz8v5e0ptUHGOhT4xh-y1SiiHcY5hIDJ5pjeZ80cJI7mVbUkwyhNfMAm0G689uvy5dPwBHesKR9sOTK4qADzMRpxHVcIGQqBZaS16vpBGqaIONYxyQ5O6xgyV6hs88ilmQth0jd45hXLrYAZyDLuhbKLkQDowMmSfLSMxxBXaIVkg" rel="noopener noreferrer">https://bit.ly/3eQoJC2</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">#Perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3454911457853626%3Atop_level_post_id.3454911457853626%3Atl_objid.3454911457853626%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3454911457853626%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593693419%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3454911457853626%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3454911457853626%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22134577187146%22%3A%7B%22page_id%22%3A134577187146%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A16%2C%22sl%22%3A4%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1596265199%3A7286750821491395570&amp;__tn__=%2As-R" rel="noopener noreferrer">#PerformanceTesting</a>
-</p>
-<p><a target="_blank" href="https://bit.ly/3eQoJC2?fbclid=IwAR1KDu8CoLXKruhfbrZVNQORYjmXLD79HKf-Pz5yG2DodsVP_nDbagf0e-Q" rel="noopener noreferrer"></a> </p>
-<p><a target="_blank" href="https://bit.ly/3eQoJC2?fbclid=IwAR1KDu8CoLXKruhfbrZVNQORYjmXLD79HKf-Pz5yG2DodsVP_nDbagf0e-Q" rel="noopener noreferrer">Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad &#8211; Neotys</a></p>
-<p>Cognizant accelerates site reliability for a UK Retailer with Neotys NeoLoad Background A UK-based retailer comprising health and beauty stores and pharmacies planned to replace its legacy systems with innovative solutions across all store outlets and remodel its digital platforms to improve busines&#8230;<br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3454911457853626">Source</a>  </p>
 ]]></content:encoded>
 					
 		
