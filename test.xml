@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 15 Jul 2020 04:33:25 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 19 Jul 2020 22:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,209 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Buyer&#8217;s guide to enterprise service management products: How to create your RFP</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products-how-to-create-your-rfp/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sun, 19 Jul 2020 22:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Buyers]]></category>
+		<category><![CDATA[Create]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Guide]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[products]]></category>
+		<category><![CDATA[RFP]]></category>
+		<category><![CDATA[Service]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2649</guid>
+
+					<description><![CDATA[After determining your project scope and requirements, use this guide to create a request for proposal (RFP) to send to]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>After determining your project scope and requirements, use this guide to create a request for proposal (RFP) to send to the vendors on your list.</p>
+<p>Here we&#8217;ve compiled a list of questions that you might want to include in your RFP. Use this list as a guide and trim away the pieces you don&#8217;t need. Try to limit your product-related questions to those that are critical to your organization and keep it short, but complete. </p>
+<p>The reason: When you send lengthy lists of product requirements to vendors, you&#8217;ll get back lengthy responses that are virtually impossible to compare. Focus on your top 10 requirements, and you will find it much easier to contrast vendors and make an informed decision.</p>
+<p>When evaluating the vendor responses, consider assigning weightings to the requirements to ensure that your most important requirements are ranked highest as you score the candidates.</p>
+<p><em>[ How important is DX to your org? <a target="_blank" href="https://www.surveymonkey.com/r/DX00?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="nofollow noopener noreferrer">Take our survey</a> and find out how you stand next to the competition. Plus: <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. ]</em></p>
+<h3>Introduce yourself—provide a statement of your current status</h3>
+<h4>Statement of goals, concerns, and objectives</h4>
+<ul>
+<li>Describe your service management automation goals, the problems you are trying to solve, and any relevant metrics you are hoping to improve.</li>
+<li>State the greatest concerns for company management relative to service management, customer satisfaction, digital transformation, and business efficiency, and explain how you expect this tool to contribute.</li>
+</ul>
+<h4>Describe your interoperability requirements in detail</h4>
+<ul>
+<li>List the tools you have, and note your preference for a tool with the specific APIs you need for things like configuration, infrastructure, and monitoring. Ask vendors to comment about interoperability in those three areas.</li>
+<li>Ask how much effort it will take to integrate their product with your toolset using their APIs/openAPI.</li>
+<li>Provide an inventory of the kind of data (often bi-directional) you need to support, and ask them to explain in detail what their product can do in those areas.</li>
+<li>Ask how their tools interoperate with cloud-native apps.</li>
+<li>Ask how their tools capture information from the cloud.</li>
+<li>Ask how easy it is to switch between cloud-based and on-premises services.</li>
+</ul>
+<h4>Request specific details about ease of use</h4>
+<p>Today&#8217;s ESM buyers are looking for products that are less complicated to implement, upgrade, license, and maintain, particularly in light of the many integrations needed to make enterprise services flow properly.</p>
+<ul>
+<li>Ask how much effort is required to implement and maintain their product.</li>
+<li>Ask how much effort is needed to upgrade to a new version, including all of the integrations that have been implemented.</li>
+<li>Ask them to describe their approach to licensing and license management.</li>
+<li>If you are having problems with the products you already own, describe how they are falling short—how they create too much work for your team or what capabilities they lack—and explain what you expect a new solution to provide.</li>
+<li>Be transparent about what you don&#8217;t have and why you think it will help you to have it. Vendors and service providers can be valuable partners, so be frank about the issues you face with your current tools. They may surprise you with fresh ideas and strategies.</li>
+</ul>
+<h4>Statement of resources</h4>
+<ul>
+<li>Explain the job titles and skillsets of the people who will use the tool.</li>
+</ul>
+<h4>Infrastructure requirements</h4>
+<ul>
+<li>List the main elements of your environment that are relevant to the tool usage:</li>
+<li>Operating systems</li>
+<li>Hardware</li>
+<li>Databases</li>
+<li>DevOps frameworks/pipeline</li>
+<li>Cloud strategy</li>
+</ul>
+<h3>Vendor information</h3>
+<p>Here are sample questions to ask the vendors. Our list covers a lot of ground, but you probably won&#8217;t need to ask all of them in your RFP. If you don’t have a mainframe, for example, there’s no need to ask about that. Trim this list as required to meet your needs:</p>
+<ul>
+<li>What is your company, history, and ITSM/ESM focus?</li>
+<li>Who is the primary contact for sales? Who is the primary contact for technical questions?</li>
+<li>Do you have reference customers that can be contacted?</li>
+</ul>
+<h4>Products and capabilities</h4>
+<p>This section helps you understand the product, the vendor&#8217;s approach to service management, and any innovations the vendor offers.</p>
+<ul>
+<li>List your product or products and the primary category of each.</li>
+<li>List the scope of operations the tool was designed for.</li>
+<li>What kinds of skills are required to use this tool?</li>
+<li>What browsers do you support?</li>
+<li>What devices do you support?</li>
+<li>What platforms do you support?</li>
+<li>Can your product handle services that are provided by mainframe apps?</li>
+<li>Which continuous integration/continuous delivery tools do you support?</li>
+<li>How easy is it to integrate your product with the other tools I currently use?</li>
+<li>How easy is it to extend your product?</li>
+<li>What types of reporting and analytics capabilities does the product provide? Is integration with a third-party reporting tool required for minimum reporting?</li>
+<li>What are the features or innovations that differentiate you from your competitors?</li>
+</ul>
+<h4>Deployment, updates, and support</h4>
+<ul>
+<li>Is your product or service offered on-premises, as a cloud service, or as a hybrid solution?</li>
+<li>Does deployment require a consulting engagement?</li>
+<li>Do you offer guided consulting to assist during implementation?</li>
+<li>How often do you release new versions or update the software?</li>
+<li>Do you offer support? What are the terms of your support contracts?</li>
+<li>What training options do you offer?</li>
+</ul>
+<p><em>[ Find out <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: Download <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/enterprise-rpa-requirements?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Enterprise Requirements for RPA</a> ]</em></p>
+<h3>Next steps</h3>
+<p>There has never been a better time to <a target="_blank" href="https://techbeacon.com/enterprise-it/8-steps-get-started-enterprise-service-management" rel="noopener noreferrer">get started with ESM</a>, or to expand your ESM footprint. The vendor market has solidified, the benefits are increasingly obvious, and the tools are getting easier to use. Most importantly, some of your competitors are probably already using ESM in some areas and will continue to exploit that competitive edge over you until you enter the game.</p>
+<p>Done right, ESM can become the platform for your organization’s back-office digital transformation. Back-office operations are often overlooked in the drive to achieve digital transformation. But when companies fail to address the operational side, they haven’t really transformed the business.</p>
+<p>As a 2019 World Economic Forum paper said: &#8220;Customer engagement is essential, great product and services are mandatory, and an innovative economic model may be table stakes, but without operations all of that fails.&#8221; In some cases, &#8220;Back-office actually becomes front-office, as non-IT departments expose their services to their employees and customers, which in turn, requires them to become service-centric organizations,&#8221; said Pott.</p>
+<p>Get started today. Using the information and guidance in this document, assemble a team with the right players, step with them through the fundamental considerations, and get a viable ESM project underway. With the right sponsor, team, and ESM technologies in place, you&#8217;ll embark on a journey of continuous improvement that will keep your organization competitive and add value to the entire business for many years to come.</p>
+<h3>Key takeaways</h3>
+<ul>
+<li>Try to limit your product-related questions to those that are critical to your organization and keep it short. When you send lengthy lists of product requirements to vendors, you&#8217;ll get back lengthy responses that are virtually impossible to compare.</li>
+<li>In the RFP, include your goals, concerns, and objectives.</li>
+<li>Spell out your interoperability requirements in detail; include your current tools and an inventory of the data you need to support.</li>
+<li>Get information about maintenance and support, as well as license requirements.</li>
+<li>Find out about the vendor; ask about company history, primary sales/support contacts, and customer references.</li>
+<li>Get details about the product&#8217;s features, functions, scope, platforms supported, and how easy or difficult it would be to extend or customize.</li>
+<li>Get going! Done correctly, ESM can become the platform for your organization&#8217;s back-office digital transformation.</li>
+</ul>
+<p><strong>Read next:</strong></p>
+<p><a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/forrester-wave-esm-q419?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">The Forrester WAVE: Enterprise Service Management</a></p>
+<p><em>To print the full report, or read the entire report offline, download the complete <a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/buyers-guide-esm-products?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Special Report: Buyer&#8217;s Guide to Service Management Products </a>as an ebook.</em></p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/buyers-guide-enterprise-service-management-products-how-create-your-rfp">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>test.allTheThings() with Cypress and TestCafe</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/test-allthethings-with-cypress-and-testcafe/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Cypress]]></category>
+		<category><![CDATA[testallTheThings]]></category>
+		<category><![CDATA[TestCafe]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/test-allthethings-with-cypress-and-testcafe/</guid>
+
+					<description><![CDATA[Earlier this year, Sauce Labs announced the release of our newest product to expand developer-first capabilities: Sauce Testrunner Toolkit. Currently]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Earlier this year, Sauce Labs <a target="_blank" href="https://saucelabs.com/blog/look-no-strings-puppeteer-jest-and-sauce-labs" rel="noopener noreferrer">announced the release</a> of our newest product to expand developer-first capabilities: <a target="_blank" href="https://opensource.saucelabs.com/testrunner-toolkit/" rel="noopener noreferrer">Sauce Testrunner Toolkit</a>. Currently in a free beta, it makes setting up, writing, and running web tests easier and faster for developers during early pipeline testing. This is the first in a number of updates to our platform that empower developers with the tools they need to achieve quality at scale.</p>
+<p>But to realize that goal, we understand that we must meet developers where they are from a tooling perspective. This is why we also revealed support for Puppeteer in the same announcement, and soon after added Playwright. Today our team is thrilled to announce that we have expanded support for two more “developer-focused” testing frameworks: Cypress and TestCafe!</p>
+<h3>Introducing Cypress and TestCafe</h3>
+<p></p>
+<p>Cypress and TestCafe are open source testing frameworks for development teams. They contain tools that make it easy for developers to set up, write, run and debug tests. The Sauce Labs Testrunner Toolkit will create a containerized environment, so you can easily use these frameworks for quick test setup and execution without having to rely on any servers or drivers, and you never have to leave the terminal to achieve it!</p>
+<p>For developers, using these frameworks really allows them to realize the benefits of early pipeline testing as quality shifts left, and take more ownership of the quality of the code they create. Using these frameworks in conjunction with Testrunner Toolkit provide even more value, including: </p>
+<ul>
+<li>
+<p><b>Accelerate release velocity</b> &#8211; Sauce Testrunner Toolkit allows for developers to execute tests on a preconfigured Docker container in Chrome and Firefox from their local machine. This allows for decreased testing times, instant feedback, and more productive developers, which in turn accelerates release speeds.</p>
+</li>
+<li>
+<p><b>CI Integrations</b> &#8211; with integrations via GitLab, GitHub, Travis or CircleCI, developers can also run tests in Testrunner Toolkit as part of their CI/CD pipeline. This allows them to plug tests into already-existing infrastructure, and avoids unnecessary load on their side.</p>
+</li>
+<li>
+<p><b>Debugging and Insights</b> &#8211; with access to the Sauce Labs platform, developers have the ability to pinpoint the reason for test failures with our suite of debugging tools (including video recordings, logs, and more). Combined with our Insights platform, which includes actionable data and recommendations to improve test efficiency, Sauce Labs provides a complete solution to help understand the quality of applications earlier in the software development lifecycle.</p>
+</li>
+</ul>
+<h3>Getting Started</h3>
+<p>Testrunner Toolkit is easy to install, and is completely free! Here is a quick, 3-step setup guide straight from our <a target="_blank" href="https://opensource.saucelabs.com/testrunner-toolkit/" rel="noopener noreferrer">documentation</a>:</p>
+<h4><b>Requirements</b></h4>
+<ul>
+<li>
+<p><a target="_blank" href="https://docs.docker.com/get-docker/" rel="noopener noreferrer">Docker</a> installed</p>
+</li>
+<li>
+<p>Make sure the Docker daemon is running (e.g. docker info works in your terminal)</p>
+</li>
+<li>
+<p>A <a target="_blank" href="https://saucelabs.com/" rel="noopener noreferrer">Sauce Labs</a> account; if you don&#8217;t have one, start a <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">free trial</a></p>
+</li>
+</ul>
+<h4><b> Installing Testrunner Toolkit</b></h4>
+<p>Using NPM:</p>
+<pre><code>npm i -g saucectl</code></pre>
+<p>You can also utilize our one line installer:</p>
+<pre><code>curl -L https://saucelabs.github.io/saucectl/install | bash</code></pre>
+<p>Would you like to inspect the content of our one line installer? Download it, have a look and execute it:</p>
+<pre><code>curl -fsSL -o get_saucectl.sh  https://saucelabs.github.io/saucectl/install
+chmod 700 get_saucectl.sh
+./get_saucectl.sh</code></pre>
+<h4><b>Connecting to Sauce Labs</b></h4>
+<p>A Sauce Labs user name and access key are needed to post the test results. You can get your SAUCE_ACCESS_KEY from Account &gt; User Settings in <a target="_blank" href="https://app.saucelabs.com/user-settings" rel="noopener noreferrer">Sauce Labs</a>.</p>
+<p>To authenticate yourself, the following environment variables need to be set:</p>
+<pre><code>SAUCE_USERNAME</code></pre>
+<pre><code>SAUCE_ACCESS_KEY</code></pre>
+<p>You can export them as follows:</p>
+<pre><code>export SAUCE_USERNAME=&lt;your-username&gt;</code></pre>
+<pre><code>export SAUCE_ACCESS_KEY=&lt;your-access-key&gt;</code></pre>
+<p>If you are using a cloud CI/CD tool, we strongly suggest protecting these values through secrets or context variables.</p>
+<p>After setup, you can use the new <code>saucectl</code> run command to run your tests in any of the supported frameworks, and then view the results in your Sauce Labs accounts. Here is a brief demo of how that works (using Cypress):</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/1QA3Tvr6dg7YyFv9zu2kyX/1487d89686b77afc3c7b5716c1e20d35/cypress-poc-demo.gif" alt="Cypress demo" title="Cypress demo"/></p>
+<p>To learn more about this, and how to run your first test, please reference the documentation on our <a target="_blank" href="https://opensource.saucelabs.com/testrunner-toolkit/" rel="noopener noreferrer">GitHub repo</a>, or take a look at this <a target="_blank" href="https://www.youtube.com/watch?v=jGfSOejlKD0&amp;list=PL67l1VPxOnT4chA1dFFjTCEeAmRnfo_8V&amp;index=6" rel="noopener noreferrer">demo presentation</a> from SauceCon 2020.</p>
+<h3>What’s Next</h3>
+<p>Today, developers using Sauce Labs Testrunner Toolkit can run tests on a local machine or through their CI/CD pipeline, as well as view results in the Sauce Labs UI. This means tests can be executed in only the Chrome and Firefox versions shipped with the pre-configured container provided by Sauce. In our next iteration, you will be able to configure tests from Testrunner Toolkit to execute in our virtual desktop cloud environment. This will give you access to hundreds of browser and OS combinations, as well as the ability to scale your efforts by running tests in parallel. This comprehensive coverage, along with the scalability to accelerate code velocity, will help developers truly embrace quality without sacrificing speed.</p>
+<h3>Try It For Yourself! </h3>
+<p>Cypress and TestCafe are now both supported as a part of the Sauce Testrunner Toolkit beta, which is completely free! If you’d like to try it out for yourself, head over to our <a target="_blank" href="https://opensource.saucelabs.com/testrunner-toolkit/" rel="noopener noreferrer">Github repo</a> where you can get started right away.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/test-all-the-things-with-cypress-and-testcafe">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Getting Started with TestProject Python SDK</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/getting-started-with-testproject-python-sdk/</link>
 		
@@ -410,104 +613,6 @@ def test_example_using_chrome():
 </div>
 <p><br />
 <br /><a href="https://saucelabs.com/blog/meet-the-experts-diego-molina">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Happy (belated) #CanadaDay to our Canadian employees! Today we celebrated with a&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/happy-belated-canadaday-to-our-canadian-employees-today-we-celebrated-with-a/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 02 Jul 2020 17:48:58 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[belated]]></category>
-		<category><![CDATA[CanadaDay]]></category>
-		<category><![CDATA[Canadian]]></category>
-		<category><![CDATA[celebrated]]></category>
-		<category><![CDATA[employees]]></category>
-		<category><![CDATA[Happy]]></category>
-		<category><![CDATA[HappyCanadaDay]]></category>
-		<category><![CDATA[Today]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/happy-belated-canadaday-to-our-canadian-employees-today-we-celebrated-with-a/</guid>
-
-					<description><![CDATA[Happy (belated) #CanadaDay to our Canadian employees! Today we celebrated with a company wide virtual event and trivia 🇨🇦 #HappyCanadaDay]]></description>
-										<content:encoded><![CDATA[
-<p>Happy (belated) <a target="_blank" class="gt gu" href="https://facebook.com/hashtag/canadaday?refid=17&amp;_ft_=mf_story_key.3006200646099676%3Atop_level_post_id.3006200646099676%3Atl_objid.3006200646099676%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3006200646099676%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3006197959433278%2C3006197909433283%5D%3Aphoto_id.3006197959433278%3Astory_location.4%3Astory_attachment_style.album%3Atagged_locations.114497808567786%3Atds_flgs.3%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593712138%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3006200646099676%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3006200646099676%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22114497808567786%22%3A%7B%22page_id%22%3A114497808567786%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A4%2C%22sl%22%3A4%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1596265199%3A-5542938929348145067&amp;__tn__=%2As-R" rel="noopener noreferrer">#CanadaDay</a> to our Canadian employees! Today we celebrated with a company wide virtual event and trivia <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f1e8-1f1e6.png" alt="🇨🇦" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" class="gt gu" href="https://facebook.com/hashtag/happycanadaday?refid=17&amp;_ft_=mf_story_key.3006200646099676%3Atop_level_post_id.3006200646099676%3Atl_objid.3006200646099676%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3006200646099676%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3006197959433278%2C3006197909433283%5D%3Aphoto_id.3006197959433278%3Astory_location.4%3Astory_attachment_style.album%3Atagged_locations.114497808567786%3Atds_flgs.3%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1593712138%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3006200646099676%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3006200646099676%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%2C%22114497808567786%22%3A%7B%22page_id%22%3A114497808567786%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22role%22%3A4%2C%22sl%22%3A4%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1596265199%3A-5542938929348145067&amp;__tn__=%2As-R" rel="noopener noreferrer">#HappyCanadaDay</a> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f341.png" alt="🍁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Want to work with our global team? See our open roles: <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2FAccruentJobs%3Ffbclid%3DIwAR0uhoefiWLIoWOPnxSUwnTgm1niZmIdf7ffJBORdu65szA68-vWrnCsSNg&amp;h=AT38OafcY0B5BDo4dGySoghRjd7IvyRkivFiv4OERBaDj9rk9oYhK1QSoJeQMY5QjWT35G1R2KgMEKeRSq5gmoDVFvUkFAYpvB1u0mXn5VyOA3KfK3XfddeyF4oj74FNveimcsH-7I_kR_s0tRCL0AwtzDRtbDdHLgnsR0XXdKxG7fxm7FjEosHcTLKCQD7mRbDllIPJHcqkguh5CnPRNa_4iLaumZ15-m5jFcCb6Ri-nMnu9Cat6HNWGr-NxqK-I-rvL_9e30NvZahQC8coFRyR4XbFhFt8IvGrJXRenDe2kWgjEZdIZ0TbT8B5VBuDAN11KQEEkeVqbm7HeekKpojFqjYj4u17T4dZYnndTtfU5kWDBwprJbi3I6R8U06P6tDkO37_1opsZa6-WUoamkU7ihWhRyof502yRPaW3-5-RVoZpIHXuEWiiKPruWndZWH8nGH_JFv0cZdz8Fc19M91LqEzZbB6mxal0SwKkMC-uLiavEv6sEF77Maq6lNKgHnYU56h6VM1McAEAU9UbuO_uYQ49oK3HJqWy8Ta8azEFlsqB9M6MIliXXgkhb0hWnd6bNw9M_c1RdcdNrJHFCj3sypyv4AUdx55WT9Yn6q1YqFdOMevlfVmPTAFqXO8rUvhom3FiRt4mD-n5pRewXpeU7WNa8yq3alQtg0L_4fofUqHUhD-aQNtivJ-Ka15MP4EDWkDPruWN3e0ih_Sw-SRTraTXN_WH4lBmz2BGawMET6p6v7_yDU7eFsoRYujDxmcm10m0bVIxhZ59f2jgfYDGEkLOYUSXh_quaQe7l2-npRQTS3juivhXv1Gb7QUHokIUv3t3NT4QxuWI36D-mgDifFUPQ2xUPvelvpme-Ru2a68cekze1EXX21oSjdWr4xVL_JXixLMLqQqll8cl70XNAKzi3eTZLuBibIaacksc5kE9v__kb65UHjnwV6wO1UiCcSjVuACqonTEUwdF1e-tRUyZN-ISd4biF1qeg8DPtyGuMaB6RODGRm2Lqw1i36ajt5J6Hz5jlQljZScZzn_7YyCiHogMKu1vamptL7TDYSu-IZWFRPleC1McHIjNOTKKLCbq16qia9wV_FVIok2taMKvV-L8VUXDIatTstS6y6U73ulYG_axaUZoFjDCjN8kjxfk9OU2rSQDuWVtmlX0Ng2DgPnPSVWMF6-uBS8TiuJtfIrg8nveLkBoN-sfj-8fGwZ_s0h2a6gFz1foenKthAW1j1B00Jc66-TfuZzenQdvUw9AEnJ4IclqZOapAOQwiJroye1nxKOQYwRyYrgEqlVr06Z3j2hJUUZr2wr5HMfGnVXgViQFe2lHF9Bkwfjau0bYf7B0VA2dDdT7_yzn4LxMC930N4E30qEPvBuSpgpPlQipL7j-eOd2F3sg7leGfNMbPo0VUabIA5aXfG5d_UYcTCAW-AYboD137JEh2K9Tc3EkjeMTyReoZmLXQrkjiTPxCZzYwx6CVvbzBBqGsN0OoU7fVtai6VXsqXLLWMhvwn3O9RMuuMfwn9hwCOVnQhWYeFCgivyifDEAToLrsxZbWzLPQ8uYUa_oFQbRfrbM1Xwp8z0SB3XRFQnJ5I" rel="noopener noreferrer">http://bit.ly/AccruentJobs</a>
-</p>
-<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/105313339_3006197962766611_797387321412618047_n.png?_nc_cat=106&#038;_nc_sid=8024bb&#038;_nc_ohc=34pf8HrsPs0AX89zGKG&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=5d669a61e1089c11887a5c3133a07633&#038;oe=5F29E433" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/227818503937918/posts/3006200646099676">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to Protect Your Privacy From Tracking Apps</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-protect-your-privacy-from-tracking-apps/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 02 Jul 2020 17:23:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Protect]]></category>
-		<category><![CDATA[Tracking]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-protect-your-privacy-from-tracking-apps/</guid>
-
-					<description><![CDATA[Apps – what would life be without them? Imagine opening a brand-new browser tab every time you wanted to check]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Apps – what would life be without them? Imagine opening a brand-new browser tab every time you wanted to check your email, access photos, connect with friends on social media, or even pay your bills online.</p>
-<p>Apps have greatly enhanced the way consumers interact with and complete tasks on their mobile devices. But what many consumers don’t realize is that they are tracked by many of the <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/faceapp/" rel="noopener noreferrer">apps</a> they know and use daily. Tracking can stem from a variety of platforms, however one type in particular has brought this issue even more into the forefront: <a target="_blank" href="https://www.technologyreview.com/2020/05/07/1000961/launching-mittr-covid-tracing-tracker/" rel="noopener noreferrer">contact tracing apps</a>, which can help slow the spread of COVID-19.</p>
-<h2>What Are Contact Tracing Apps?</h2>
-<p>According to <a target="_blank" href="https://www.technologyreview.com/2020/05/07/1000961/launching-mittr-covid-tracing-tracker/" rel="noopener noreferrer">MIT Technology Review</a>, technologists have been working to build contact tracing apps and systems to identify and notify those who have come in contact with a virus carrier. Tech giants and public health authorities worldwide have quickly signed up to build the application programming interfaces (APIs) and apps necessary to support this project’s scale. However, many users are skeptical that they know very little about these apps, what data is collected, and who this data is shared with.</p>
-<p>The success of these contact tracing apps rests on user participation. However, for these apps to make a real impact, developers must overcome potential privacy and security risks to assure individuals their data will only be used to fight the virus’ spread.</p>
-<h2>The Impact of Contact Tracing Technology</h2>
-<p>According to <a target="_blank" href="https://healthitsecurity.com/news/covid-19-contact-tracing-apps-spotlight-privacy-security-rights" rel="noopener noreferrer">Health IT Security</a>, the <a target="_blank" href="https://healthitsecurity.com/news/aclu-scientists-urge-privacy-focus-for-covid-19-tracing-technology" rel="noopener noreferrer">American Civil Liberties Union</a> and the <a target="_blank" href="https://healthitsecurity.com/news/eff-warns-covid-19-tracing-apps-pose-cybersecurity-privacy-risks" rel="noopener noreferrer">Electronic Frontier Foundation</a> released reports outlining potential privacy and security risks developers should consider when building APIs and drafting privacy policies. Some of these risks include geo-location tracking or tracking a device’s location in real-time.</p>
-<p>Then there’s user behavior to keep in mind. Some individuals may not understand the extent of the information they share with an app, while others are uneasy about the idea that the government – or a hacker – could easily access their whereabouts. What’s more, users are concerned that data collection will fail to end after the pandemic and authorities will use it in the future for unwarranted public surveillance.</p>
-<p>While the privacy concerns around contact tracing apps are genuine, it’s also important to consider how this technology could greatly benefit public health. Although the privacy protection instilled in some apps is still a work-in-progress, some technologies have successfully contact traced without putting users’ privacy at risk. For example, <a target="_blank" href="https://www.pri.org/stories/2020-05-27/how-do-contact-tracing-apps-around-world-compare" rel="noopener noreferrer">Singapore’s app TraceTogether</a> only collects and gathers data at the point that someone 1) is confirmed to have COVID-19 and 2) consents to the scraping of that data. From there, the data is anonymized, encrypted, and doesn’t reveal the identity of the infected user or the person that may have come in contact with them. What’s more, the data is deleted automatically after 21 days. By employing a thoughtful approach to contact tracing, positive strides can be made towards stopping the virus’s spread without risking user privacy.</p>
-<h2>How to Stay Secure</h2>
-<p>As a consumer living in a world riddled with uncertainty, you can take steps to help protect your digital life. When it comes to the rise of contact tracing technology and other apps you may use, here are some tips to consider to help safeguard your private information.</p>
-<h3>Understand and read the terms</h3>
-<p>Because this technology is relatively new, there is much to consider if you’re thinking about downloading a contact tracing app. Consumers can protect their privacy by reading the Privacy Policy and Terms of Service so they can know just what they’re dealing with.</p>
-<h3>Update your settings</h3>
-<p>If you’re concerned about an app having permission to access your location, photos, or other data, check your settings to see which apps have access to this information. Change permissions by either deleting the app or changing your settings on your device.</p>
-<h3>Consider other options</h3>
-<p>If you are not comfortable downloading a contact tracing app on your device but would like to be informed of the virus’ spread, you can visit the <a target="_blank" href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" rel="noopener noreferrer">CDC’s website for COVID-19 cases</a>, which can be narrowed down by state and county.</p>
-<h2>Stay Updated</h2>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook</a>.</p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/how-to-protect-your-privacy-from-tracking-apps/">Source link </a></p>
 ]]></content:encoded>
 					
 		
