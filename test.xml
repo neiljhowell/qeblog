@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Sun, 19 Jul 2020 22:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jul 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,101 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>What your team can learn from traffic mega-surges like Amazon Prime Day</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-team-can-learn-from-traffic-mega-surges-like-amazon-prime-day/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Day]]></category>
+		<category><![CDATA[Learn]]></category>
+		<category><![CDATA[megasurges]]></category>
+		<category><![CDATA[Prime]]></category>
+		<category><![CDATA[team]]></category>
+		<category><![CDATA[Traffic]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-team-can-learn-from-traffic-mega-surges-like-amazon-prime-day/</guid>
+
+					<description><![CDATA[This year&#8217;s Amazon Prime Day may be delayed (reportedly until August or September), but when it does arrive, it is]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>This year&#8217;s Amazon Prime Day may be delayed (<a target="_blank" href="https://www.theverge.com/2020/5/21/21266249/amazon-prime-day-2020-delayed-september-coronavirus-pandemic-shipping" rel="nofollow noopener noreferrer">reportedly until August or September</a>), but when it does arrive, it is certain to bring with it the usual flood of web traffic from hungry shoppers looking for killer deals.</p>
+<p>Now one of the biggest annual shopping bonanzas on the web—for Amazon, it&#8217;s <a target="_blank" href="https://blogs.akamai.com/2019/07/amazon-prime-day-is-now-a-major-holiday-driving-up-traffic-by-more-than-14-in-the-us.html" rel="nofollow noopener noreferrer">bigger than Black Friday and Cyber Monday combined</a>—Prime Day doesn&#8217;t just bring visitors flocking to Amazon. It also delivers an onslaught of traffic to other retailers, which wisely piggyback on Amazon with their own promotional activities. Last year, <a target="_blank" href="https://chainstoreage.com/technology/prime-day-not-just-for-amazon-250-retailers-to-offer-deals" rel="nofollow noopener noreferrer">more than 250 retailers</a> joined in, with their average revenue <a target="_blank" href="https://chainstoreage.com/technology/other-retailers-score-big-on-prime-day-but-some-department-stores-left-in-the-cold" rel="nofollow noopener noreferrer">jumping a whopping 68%</a> over the two days of the sale.</p>
+<p>The bad news is that massive traffic spikes such as this <a target="_blank" href="https://techbeacon.com/app-dev-testing/was-amazon-prime-day-intended-performance-test-production" rel="noopener noreferrer">can wreak havoc on your network</a> if you&#8217;re unprepared. The good news is that events such as Cyber Monday and Amazon Prime Day are announced well in advance, so <a target="_blank" href="https://techbeacon.com/app-dev-testing/performance-reality-check-how-keep-unexpected-surges" rel="noopener noreferrer">you can plan for them accordingly</a>.</p>
+<p>With Prime Day likely a couple of months away, you have plenty of time to get your network in order so the business can plan for the surge of visitors from a place of relative comfort. Here&#8217;s how.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management</a> in TechBeacon&#8217;s Guide. Plus: Find out in this Webinar if <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/are-itsm-and-enterpr?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">ITSM and ESM are one and the same</a>. ]</em></p>
+<h3>Cache is king</h3>
+<p>Stephan Roussan, president of ICVM Group, a web development and hosting agency, , said his company&#8217;s client base included high-profile corporate clients who experience high-visibility events and have a very low tolerance for downtime. </p>
+<blockquote>
+<p>&#8220;Whenever we are preparing for an exponential traffic or load event, we start with a basic assessment.&#8221;<br />—<a target="_blank" href="https://twitter.com/sroussan" rel="nofollow noopener noreferrer">Stephan Roussan</a></p>
+</blockquote>
+<p>That assessment asks a series of questions that are instructive to any enterprise preparing for a traffic surge, including:</p>
+<ul>
+<li>What is the baseline health of the environment, and how much ceiling is currently available in terms of available resources?</li>
+<li>Can you calculate the potential peak load and anticipate when it might occur? Will there be more than one peak? How long will the peaks last?</li>
+<li>If the environment is already load-balanced, how often is it rolling over to secondary and tertiary instances? Is there a chance it will exhaust all resources?</li>
+</ul>
+<p>The answers to these questions help set a base understanding for capacity planning for the surge event.</p>
+<p>As another safety measure, Roussan said, his firm will look to reschedule any processes that would normally be running during the event—such as backups and index builds. This will help minimize resource consumption during the spike. Disallowing spider and bot traffic during this time is another smart idea.</p>
+<p>As a final tactic, Roussan said, he can&#8217;t overemphasize the importance of a smart caching regimen.</p>
+<blockquote>
+<p>&#8220;Lengthen your cache life for the anticipated spike window. You can always dial it back afterwards.&#8221;<br />—Stephan Roussan</p>
+</blockquote>
+<p>Just make sure to be in close contact with your content publishing teams so that everyone is on the same page with regard to cache-flush protocol and any lag time relating to making content updates visible publicly, he advised.</p>
+<h3>Test extensively and often</h3>
+<p>The counterpart to planning is testing, and plenty of it. <a target="_blank" href="https://www.linkedin.com/in/spoons/" rel="nofollow noopener noreferrer">Daniel Spoonhower</a>, CTO of performance management software developer Lightstep, said that part of being ready means testing—both software systems and your staff&#8217;s readiness. </p>
+<p>Spoonhower recommends starting with a standard barrage of load testing. Use synthetic but realistic application loads to understand what services will fail first and what their breaking points are. He also suggests <a target="_blank" href="https://stackoverflow.com/questions/34603680/what-is-squeeze-testing" rel="nofollow noopener noreferrer">taking advantage of squeeze testing</a>—a newer tactic popularized by Netflix to determine the threshold at which a service &#8220;breaks&#8221; by gradually applying additional traffic in incremental steps.</p>
+<p>And remember that testing also means testing your staff.</p>
+<blockquote>
+<p>&#8220;Game-day testing provides a safe way for your staff to practice responding to events and ensure that they have the documentation, training, and processes necessary to respond quickly and confidently.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/spoons/" rel="nofollow noopener noreferrer">Daniel Spoonhower</a></p>
+</blockquote>
+<p>On a similar note, scaling your services is easier <a target="_blank" href="https://techbeacon.com/enterprise-it/3-principles-infrastructure-code-what-every-manager-should-know" rel="noopener noreferrer">if you embrace infrastructure as code</a>, said Goutham Belliappa, Capgemini&#8217;s vice president of AI engineering, so you can use simple, automated mechanisms to add capacity.</p>
+<p>You don&#8217;t want to leave 10 times your normal infrastructure idling and accruing charges when it’s not needed.</p>
+<blockquote>
+<p>&#8220;Build in auto-scaling code routines that are thoroughly tested, and don&#8217;t forget to test the throttle-down routines.&#8221; <br />—<a target="_blank" href="https://twitter.com/GBELLIAP" rel="nofollow noopener noreferrer">Goutham Belliappa</a></p>
+</blockquote>
+<p>Belliappa added that you should really double down on your worst-case scenarios when performing <a target="_blank" href="https://techbeacon.com/app-dev-testing/end-end-vs-contract-based-testing-how-choose" rel="noopener noreferrer">end-to-end testing</a>. If you think your surge will be 10 times your monthly peak volume, push your system to 100 times so you can understand and remediate points of fragility.</p>
+<blockquote>
+<p>&#8220;If you don&#8217;t thoroughly test your infrastructure and ecosystem, you are planning to fail.&#8221;</p>
+</blockquote>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+<h3>Prepare for the worst</h3>
+<p>Despite all the planning and testing, even the most robust of systems are going to fail sometime. Last year, both Costco and Nordstrom experienced online <a target="_blank" href="https://www.businessinsider.com/costco-nordstrom-rack-sites-crash-with-black-friday-sales-2019-11" rel="nofollow noopener noreferrer">outages during Black Friday</a>, sending thousands of potential shoppers to the competition. The solution to this is to have a strong contingency plan in place that ensures you can get back up and running quickly should a system fail.</p>
+<p>When experiencing a dramatic change in input such as e-commerce platforms often see on major shopping holidays, the main risk is that a set of unforeseen errors can quickly cascade across the environment, leading to systemic failure, said <a target="_blank" href="https://www.linkedin.com/in/talws/" rel="nofollow noopener noreferrer">Tal Weiss</a>, CTO of OverOps.</p>
+<blockquote>
+<p>&#8220;At that point, what began as a local surge of errors in one or more services or components can rapidly begin to generate errors in downstream or dependent services.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/talws/" rel="nofollow noopener noreferrer">Tal Weiss</a></p>
+</blockquote>
+<p>The challenge in responding to a failure event such as this, Weiss said, is to determine which of the errors that you&#8217;re experiencing are new. In a scenario where literally millions of alerts could be flooding the system at once, only a handful may be relevant to finding a solution.</p>
+<blockquote>
+<p>&#8220;Your team will need to have a process in place to proactively establish a baseline ahead of the surge, as well as the right set of tools to fingerprint and map errors to their code location and alert based on deviations.&#8221;</p>
+</blockquote>
+<h3>Consider outsourcing the problem</h3>
+<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/how-apm-tools-can-help-predict-prepare-traffic-spikes" rel="noopener noreferrer">Planning for a traffic surge</a> is an incredibly complex endeavor, and if your organization doesn&#8217;t have the necessary skills and tools, you can quickly find yourself in over your head.</p>
+<p><a target="_blank" href="https://www.linkedin.com/in/emazingbrian/" rel="nofollow noopener noreferrer">Brian Lim</a> is CEO of EmazingGroup, which sells club and festival outfits and accessories. He <a target="_blank" href="https://vimeo.com/132783196" rel="nofollow noopener noreferrer">appeared on <i>Shark Tank</i> in 2015</a> to pitch EmazingLights, lighted gloves designed for the rave scene. Well aware of the date and time when the show would air, Lim knew in advance when traffic would hit the company&#8217;s website almost down to the minute.</p>
+<p>&#8220;We knew that being featured on a highly viewed television show would attract quite a bit of website traffic,&#8221; said Lim. In the six months leading up to the episode&#8217;s air date, the company purchased 30 servers, simulated load tests, and invested over $500,000 to make sure the site could handle the massive influx of traffic that would be coming their way.</p>
+<p>But when the episode aired, the site went down anyway, he said.</p>
+<p>Lim said he considers the company&#8217;s choice of platforms, originally built on a Magento backbone, a &#8220;near fatal&#8221; error.</p>
+<blockquote>
+<p>&#8220;A lot of money was lost that day, and it made what should have been one of the happiest days one of the worst.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/emazingbrian/" rel="nofollow noopener noreferrer">Brian Lim</a></p>
+</blockquote>
+<p>To solve the problem, EmazingGroup surrendered, dropping its DIY e-commerce ambitions and moving everything to a hosted site on Shopify.</p>
+<blockquote>
+<p>&#8220;Our lives have been made immeasurably easier, and we likely would never have had this issue if we had been with Shopify from the beginning. But we didn&#8217;t let that situation sink our company. The experience was a great reminder to focus on our products and marketing above all other business functions as an e-commerce brand.&#8221;</p>
+</blockquote>
+<h3>Learn from the big fish</h3>
+<p>What can you learn from such mega-traffic events and the planning that goes into them? Follow their lead and adapt at an appropriate level for your online services, and you will be one step ahead. After all, customers consider performance to be a primary reflection on your brand.</p>
+<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how RPA can help you in this Webinar</a>.</em><em> ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/what-your-team-can-learn-traffic-mega-surges-amazon-prime-day">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Buyer&#8217;s guide to enterprise service management products: How to create your RFP</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products-how-to-create-your-rfp/</link>
 		
@@ -578,41 +673,6 @@ def test_example_using_chrome():
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/07/07/learning-test-automation-from-scratch/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Meet the Experts: Diego Molina</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-diego-molina/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Diego]]></category>
-		<category><![CDATA[Experts]]></category>
-		<category><![CDATA[Meet]]></category>
-		<category><![CDATA[Molina]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-diego-molina/</guid>
-
-					<description><![CDATA[One thing we’re particularly proud of around here is our team of automated testing experts and open source contributors. We’ve]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><i>One thing we’re particularly proud of around here is our team of automated testing experts and open source contributors. We’ve got a whole team of people who eat, sleep, and breathe testing—and love to share their knowledge with others. This is the next in a series of posts highlighting our team of experts, featuring Selenium contributor and Sauce Labs senior software engineer Diego Molina.</i></p>
-<p><i>=======</i></p>
-<p>As a Selenium core committer, Diego Molina is all in on open source software. “Open source is the gate to get to know the world,” he says. “It opens your mind and allows you to meet a lot of people and the community, and the more you learn about open source the easier it is to grow yourself as a professional and as a person.” </p>
-<p>Diego runs the <a target="_blank" href="https://www.continuoustestingmeetup.com/" rel="noopener noreferrer">Continuous Testing Meetup Berlin</a>—a group that provides an environment for local testers to share knowledge and participate in the community. One thing he loves about that is that it allows him to get input from that community and in turn feed that knowledge back into making the Sauce Labs platform better. </p>
-<p>Diego started on the live testing team at Sauce, helping users get the most out of their manual and exploratory testing. Currently, he is part of the Sauce Labs Open Source Program Office, which means he helps other Saucers get started working with open source. Diego has put in a great deal of time working on the Selenium project, especially in improving the documentation and expanding into different languages so people across cultures can use Selenium to simplify and enhance their continuous testing efforts. </p>
-<p>A proud Colombian, Diego takes a few things seriously (besides testing, of course): futbol and salsa dancing! Get to know Diego in this video. </p>
-<div class="video">
-<p><div class="fitvids-video"><iframe title="Meet the Sauce Labs Experts - Diego Molina" width="800" height="450" src="https://www.youtube.com/embed/XLTht-cCcrE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/meet-the-experts-diego-molina">Source link </a></p>
 ]]></content:encoded>
 					
 		
