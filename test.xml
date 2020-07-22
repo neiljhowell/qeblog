@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 20 Jul 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jul 2020 21:48:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,32 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Emotet Returns in Malspam Attacks Dropping TrickBot, QakBot</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2020 21:48:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Dropping]]></category>
+		<category><![CDATA[Emotet]]></category>
+		<category><![CDATA[Malspam]]></category>
+		<category><![CDATA[QakBot]]></category>
+		<category><![CDATA[Returns]]></category>
+		<category><![CDATA[TrickBot]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/</guid>
+
+					<description><![CDATA[Emotet has resurfaced after a five-month hiatus, with more than 250,000 malspam messages being sent to email recipients worldwide. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Emotet has resurfaced after a five-month hiatus, with more than 250,000 malspam messages being sent to email recipients worldwide.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/157604/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>What your team can learn from traffic mega-surges like Amazon Prime Day</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-team-can-learn-from-traffic-mega-surges-like-amazon-prime-day/</link>
 		
@@ -633,46 +659,6 @@ def test_example_using_chrome():
 <br />The Nigerian native has been extradited from Dubai after a string of over-the-top Instagram posts.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/bec-hotshot-opulent-social-media-us-charges/157245/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Learning Test Automation from Scratch: Journey of the (Automation) Hero</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learning-test-automation-from-scratch-journey-of-the-automation-hero/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 07 Jul 2020 04:20:09 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Hero]]></category>
-		<category><![CDATA[Journey]]></category>
-		<category><![CDATA[Learning]]></category>
-		<category><![CDATA[Scratch]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learning-test-automation-from-scratch-journey-of-the-automation-hero/</guid>
-
-					<description><![CDATA[Testing knowledge: the most underrated skill of an Automation Tester People often come to me asking about the best way]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<h2><strong>Testing knowledge: the most underrated skill of an Automation Tester</strong></h2>
-<p>People often come to me asking about the best way to start learning <a target="_blank" href="https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/" rel="noopener noreferrer">test automation</a>. The gargantuan amount of tools, languages, frameworks and practices is overwhelming to anyone daring to look into the Automation abyss.</p>
-<p>So, first of all, I will tell you something not-so-obvious: Automation Testing implies that you know about Testing. Yes, I know… a lot of you think of it as something more related to development than testing. I can see why: without coding you can be pretty limited on your automation journey. But there is another truth, and that’s learning to code to automate and forget about Testing because you don’t need it that much now. Big mistake!</p>
-<p>So, of course, as the first thing to start your automation journey, you need to <strong>have your testing foundations solid and thriving</strong>. Know the weak points of a system based on the technologies used, get that instinct that tells you where things will fail, learn the techniques and <strong>become an awesome <a target="_blank" href="https://blog.testproject.io/2019/07/03/the-best-manual-test-case-templates/" rel="noopener noreferrer">manual tester</a></strong>. Then… then you will be ready to take the next step of your Automation adventure.</p>
-<h2><strong>Programming skills… of course!</strong></h2>
-<p>And this next step, in my opinion, is Object Oriented Programming. You know, most people start learning <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener noreferrer">Selenium</a> or other frameworks based on this tool as the very first thing when thinking about Automation. But this often comes with the skipping of the pillars of OOP. <strong>Inheritance</strong>, <strong>Encapsulation</strong>, <strong>Abstraction</strong> and <strong>Polymorphism</strong> should be concepts you are familiar with during your initial steps. This will help you understand why your syntax is highlighted in red on your IDE. Or why you can’t call a method you have created in another class. Once you <strong>understand how programming works at a basic level</strong>, lots of doors will open in front of you <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f6aa.png" alt="🚪" class="wp-smiley" style="height: 1em; max-height: 1em;" /> You will be able to create solutions by yourself and won’t depend in copy-pasting answers from blogs until something works without truly understanding the work being done.</p>
-<p>So, now we have covered Manual Testing and Object Oriented Programming skills. That’s a killer duo! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f431.png" alt="🐱" class="wp-smiley" style="height: 1em; max-height: 1em;" />&#x200d;<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f464.png" alt="👤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> And this is because pretty much any framework, tool and library you can come across will be like following a recipe being a chef <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f468-200d-1f373.png" alt="👨‍🍳" class="wp-smiley" style="height: 1em; max-height: 1em;" />: You will know what they are talking about, understand the terms and why each tool does the stuff they do. You will have the knowledge to choose based on the needs of your application and not because “it’s all I know”.</p>
-<p>By following these steps, you will be ready to experiment with new ways to automate in no time. Is it in a different language? The conversion from one language to another is not a big deal! So don’t worry now about which one to pick, cause by knowing in depth the theory of one of them, you will be ready to tackle a new one really fast.</p>
-<h2><strong>How can I get experience if I need it to start working as Automation Tester?</strong></h2>
-<p>Well, there is a simple thing you can do right now: Start learning and start creating tests for webpages you use at home. Go ahead and download any framework of your choice, like the awesome <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> right here, and go through the <a target="_blank" href="https://docs.testproject.io/" rel="noopener noreferrer">documentation</a> while you work hands on. Once you are confident with the results you are getting from the practice, you can suggest automating some manual tests in your project. One of the advantages of starting with a tool like TestProject is that it helps you create and, when you have the knowledge to, take a peep into how the code works <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f440.png" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>The better way to learn test automation is, after all, with practice. Don’t expect completing a course online and be an expert, because that’s something that comes with<strong> time, practice, failure (lots of it!) and experience</strong>. You will find the pleasure of experimenting with new frameworks and ways of achieving the same and new goals by exploring tools and libraries. Once you feel you know a fairly good amount of a specific tool, move to another, keep exploring, keep learning, because as we know, <strong>technologies change fast, and so does the world of automation testing</strong>.</p>
-<h2><strong>Conclusion</strong></h2>
-<p>Don’t wait for an opportunity at work, you have all the means at home, on your computer! And with tools like <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> (100% free), there was never a better time to start learning test automation!</p>
-<p>You can start investing time right now on your Automation knowledge, but without forgetting your testing roots. <strong>Become an excellent tester first, then move to the code behind Automation and become the ultimate Automation tester! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f451.png" alt="👑" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/07/07/learning-test-automation-from-scratch/">Source link </a></p>
 ]]></content:encoded>
 					
 		
