@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 21 Jul 2020 21:48:23 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 29 Jul 2020 15:45:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,283 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Data analytics 101: What it means, and why it matters</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/data-analytics-101-what-it-means-and-why-it-matters/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 29 Jul 2020 15:45:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Analytics]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[matters]]></category>
+		<category><![CDATA[Means]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/data-analytics-101-what-it-means-and-why-it-matters/</guid>
+
+					<description><![CDATA[Incorporating analytics into the enterprise toolkit can be straightforward or complex, relatively inexpensive or a multimillion-dollar initiative. It all depends]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Incorporating analytics into the enterprise toolkit can be straightforward or complex, relatively inexpensive or a multimillion-dollar initiative. It all depends on what you want to accomplish.</p>
+<p>Analytics is simply a set of practices designed to aid analysis. It can be as basic as creating a paper report that shows monthly snowfall in a particular region, a spreadsheet that uses formulas to calculate entries from columns A and F and then write the results to column Y, or the results of far more complex methods of data reading, sorting, and discovery. </p>
+<p><a target="_blank" href="https://content.microfocus.com/guide-to-modern-data-warehouse-tb/share-bi-resources?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign= 00174153" rel="noopener noreferrer">Big data analytics</a>, a subset of analytics overall, is about the process of managing and investigating large datasets, typically stored in a repository such as a data warehouse or data store. These may reside on one or more public clouds or on an organization&#8217;s own on-premises hardware.</p>
+<p>The sources of that data can be nearly any kind of system. Traditionally, these sources provide structured data as <a target="_blank" href="https://techbeacon.com/node/3949" rel="noopener noreferrer">described in this story</a>, including transactional (sales-related) data such as point of sale, inventory, customer relationship management, and records from related systems. Structured data also includes information from IT operational systems and machine data from sources such as remote sensors and <a target="_blank" href="https://techbeacon.com/enterprise-it/how-tame-iot-guide-it-ops" rel="noopener noreferrer">other aspects of the Internet of Things</a>.</p>
+<p>Less traditional is the storage of unstructured data for analytical purposes. Unstructured data—photos, video, audio, etc.—has been considered viable for analysis only over the past 15 years or so.</p>
+<p>Here&#8217;s what you need to know to start to make sense of all of your data.</p>
+<p><em>[ Get up to speed fast with <a target="_blank" href="https://content.microfocus.com/l/guide-to-modern-data-warehouse-tb?lx=hLKzJ4&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=2000174153" rel="noopener noreferrer">TechBeacon&#8217;s guide to the modern data warehouse</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/guide-to-modern-data-warehouse-tb/buyers-guide-cloud-data-warehousing?lx=hLKzJ4&amp;lx=hLKzJ4&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=2000174153" rel="noopener noreferrer">Buyer&#8217;s Guide to Data Warehousing in the Cloud</a>. ]</em></p>
+<h3>The modes of data query and analysis</h3>
+<p style="margin:0in 0in 0.0001pt">Regardless of the data type, you store it to eventually learn what it may reveal. And you need an analytics process to help make sense of what&#8217;s there by asking questions that a database can interpret. This involves writing a query, done via a language that a database understands, such as SQL (Structured Query Language).</p>
+<p style="margin:0in 0in 0.0001pt"> </p>
+<p>Querying a database via SQL long predates the big data phenomenon. SQL database vendors in the early &#8217;90s made it easier than it had been before for businesses to use SQL to understand trends in their acquired data. Another piece of this was also to create stored procedures that external applications could use to automate processing of back-end data storage and end-user results.</p>
+<p>Nowadays, a big data query can certainly be an ad hoc question, because a business user might want to know how many bicycles he has sold to medium-income buyers in Illinois during the month of October.</p>
+<h4><strong>Setting up standard queries</strong></h4>
+<p>But a big data query is not always a &#8220;question&#8221; in the traditional sense of one that occurs to an analyst to ask relative to some emerging situation. Often, queries are set up to work automatically for routine reporting, or as some event triggers the need for analyzing the data on hand and producing some behavior.</p>
+<p>In other words, standard queries can be set up to produce reports on a regular basis, for inventory and supply chain correlations, or about any number of routine operating statistics.</p>
+<p>But standard queries can be set up for dynamic situations as well. Say a customer comes to your site and begins clicking on the images and high-level descriptions of bicycles you have for sale. A single click on a bike&#8217;s name and photo will take the customer to more details about the particular product.</p>
+<p>But that same click can cause a variety of related items to display in the margins of the page—helmets, toe clips, side packs, lights, and other accessories. Most of us have experienced this kind of automated behavior when interacting with a commercial web page.</p>
+<p>In this example, a user&#8217;s click on a specific bike triggers a preset query that&#8217;s designed to read a database of related items and display those items for the user to consider. Simple enough.</p>
+<p>Now, imagine this is a returning customer, George, and you have some data accumulated on him—one or more items he&#8217;s bought in the past, or items he moved to the shopping cart but didn&#8217;t purchase, or any items clicked on during past site visits. In this case, you have even more intelligence regarding what to display in your margins for George.</p>
+<p>That means your preset query not only returns items related to George&#8217;s current search, but items that specifically match his past behavior, and possibly his continued interest.</p>
+<h3>Analytics&#8217; role in tracking consumer behavior</h3>
+<p>Keeping track of consumer behavior is how video or music services make movie and song recommendations for you. Netflix, for example, uses prior data from customers to provide you with these kinds of educated guesses. It&#8217;s also how your favorite outdoor-gear retailer &#8220;knows&#8221; that you&#8217;re more likely to purchase clothing than climbing equipment, for instance, and therefore sends you targeted email when it begins a two-week sale.</p>
+<p>In all cases, some system is running in the background, making recommendations for users based on accumulated data, predicting likely patterns of behavior, and adjusting offerings based on further data that the system gathers as the user browses the website in response to an email campaign.</p>
+<p>Being able to set up this sort of cause-and-effect sequence of likely consumer paths is essential to intelligent business operations. But speed is also a major factor, since the faster a system can respond to these events—e.g., a click here, returning a new display there—the faster a business can act on that insight.</p>
+<p>When you compare that capability to what happens on a static web page, where just the details of a bike the user clicks on get displayed, you see the opportunities that a more dynamic, data-driven process can create for the site owner.</p>
+<p><em>[ How important is DX to your org? <a target="_blank" href="https://www.surveymonkey.com/r/DX00?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="nofollow noopener noreferrer">Take our survey</a> and find out how you stand next to the competition. Plus: <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. ]</em></p>
+<h3>Why more data is always better</h3>
+<p>Big data analytics can also show previously unrecognized patterns based not just on buying habits, but also on equipment failure rates, <a target="_blank" href="https://towardsdatascience.com/sentiment-analysis-concept-analysis-and-applications-6c94d6f58c17" rel="nofollow noopener noreferrer">sentiment analysis</a> of massive volumes of text messages, or health indicators such as heart rate and blood pressure. The more data, the more correlations between various factors you can verify and use to predict and achieve the desired outcome.</p>
+<p>Understanding consumer behavior and how to respond is one thing. Businesses can also please customers and help ensure repeat business by understanding their own operational needs and dependencies.</p>
+<p>Here&#8217;s a simple example: Suppose you operate a pizza delivery business that supports multiple restaurants in a given area. Depending on geography, driving times based on traffic patterns vary throughout the day, from morning to midday to evening rush hour. Ideally, you can analyze where driving complexities lie during certain times of day. Google can provide basic route data, and estimate time to delivery.</p>
+<p>But an accumulation of local data—based on knowledge of road construction work, current traffic conditions, and alternative routes—can allow you to get more specific. You might learn, say, that there are delivery times of plus or minus five minutes for some restaurants, and you can advise your customers accordingly.</p>
+<p>You can also incorporate weather data: What&#8217;s the forecast? Those adjustments can allow more accurate delivery-time predictions. Without a big data analytics tool, you can&#8217;t predict your delivery time with much accuracy.</p>
+<h3>Common modes of analytics</h3>
+<p style="margin:0in 0in 0.0001pt">The key word in the previous paragraph is &#8220;predict.&#8221; <a target="_blank" href="https://techbeacon.com/enterprise-it/3-ways-put-predictive-analytics-work-it-ops" rel="noopener noreferrer">Predictive analytics</a> is the art and science of probability-based data assessment and decision making. But it isn&#8217;t the only type of analysis that big data techniques can help with. </p>
+<p style="margin:0in 0in 0.0001pt"> </p>
+<h4><strong>Descriptive analytics</strong></h4>
+<p>This data set &#8220;describes&#8221; a state or condition that needs to be understood. One simple example: a printed report that shows how many trucks within a fleet of vehicles are available for deployment next Thursday. Electronic dashboards showing system throughput and computational workloads across a business&#8217;s IT environment is another; this uses data to help IT teams balance the loads properly and reduce bottlenecks.</p>
+<p>Returning to the bicycle website example, when George 1) clicks on a bike image, and 2) all he gets is a set of details about that particular model, such as the average customer rating, that&#8217;s another example of descriptive analytics.</p>
+<p>This sort of user experience is little more than a hierarchical display of goods for sale—a report, in a sense—with higher-level elements (bike photo, name, price) leading to lower-level elements (specifications, construction details, colors). This is certainly helpful information, but it&#8217;s not nearly the extent of what can be accomplished with data. </p>
+<p>To be clear, descriptive analytics is extremely useful in some circumstances. It can help pinpoint what is wrong in a given situation so that corrective steps might be taken. When you feel sick and visit a doctor, you expect the doctor to know what to do about your condition so you&#8217;ll feel better.</p>
+<p>As long as your condition can be described and it&#8217;s nothing out of the ordinary, it&#8217;s likely something that can be fairly easily diagnosed. For instance, your blood pressure can be compared against others in your age group, your doctor can show you the average (mean) statistics, and either assure you all is well or advise a new regimen to improve your numbers.</p>
+<h4>Predictive analytics</h4>
+<p><a target="_blank" href="https://techbeacon.com/enterprise-it/predictive-analytics-vs-ai-why-difference-matters" rel="noopener noreferrer">This type of analytics</a> is designed to predict an upcoming event, or at least understand the probability of something occurring. As such, it gives you a powerful tool for succeeding in a specific endeavor. In e-commerce, for example, the ability to predict your customers&#8217; buying habits based on known patterns is a great way to plan for your next steps.</p>
+<p>If George, your prospective bike purchaser, is a returning customer, great. You know something about his buying habits, his preferences, and his decision-making process. But even if George is a new customer, the data you&#8217;ve retained from all your other customers can keep George interested and more likely to buy from you, or at least return at some later date. How does that work?</p>
+<p>This requires you to build a predictive model<em>,</em> based on buckets of customer information acquired over months or years of interaction with bicycle customers. If George comes to the site and you have a collection of data that fits his demographics, what do customers like him typically buy? Can you assign a score to George based on his apparent interests and offer him something that has proved successful with other customers at his interest level?</p>
+<p>If you have hundreds of customers like him, you have the basis for a model to use for displaying the accessories discussed earlier, plus other bikes, plus any number of elements from your retail bag of tricks that might keep him browsing. There are no guarantees, of course. But a user experience based on predictive analytics is clearly superior to one based on simple descriptive analytics.</p>
+<h3>Use predictive models to manage the unknown </h3>
+<p>Now, here&#8217;s a great thing about big data analytics: There are patterns lurking within the data that you&#8217;re likely not even aware of but that you can possibly discover and put to work. That&#8217;s where predictive analytics based on truly big data comes into play.</p>
+<p>In the bike website example, the datasets amassed over time might not be huge, but they have helped you and your team understand some essential patterns that reveal buying behavior, including some patterns that describe a customer who is not interested. When you apply those same patterns to truly large datasets and use a system that can identify similar correlations between one activity and another, wholly new patterns that can lead to success may become evident.</p>
+<p>Simply put, patterns are maps to behavior, human or otherwise. But why does it matter?</p>
+<p>Imagine being able to sort through hundreds of thousands of details from your sales transactions to discover whether or not men in Canada between the ages of 25 and 40 tend to buy your thicker, dark socks in October. You do some correlations, and you find out—no! They tend to buy brighter colors during that month.</p>
+<p>You can now run a sale and web promotion on those items—and watch your sales increase by 30%. You can add more variables, too, and test theories about buying habits based on income range or seasonal conditions. Is this going to be a harsh winter? Will that increase the probability of my sock sales or not?</p>
+<h3>Removing some of the guesswork</h3>
+<p>You might argue this is just an example of the educated guesswork that businesses have used for years, and you might be right. But big data analytics can take guesswork out of the picture when you encounter situations such as this.</p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/data-analytics-101-what-it-means-why-it-matters">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How Do I Link GitHub Actions with Applitools?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-i-link-github-actions-with-applitools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 27 Jul 2020 23:45:33 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Actions]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Link]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-i-link-github-actions-with-applitools/</guid>
+
+					<description><![CDATA[At Applitools, we have tutorials showing you how to integrate Applitools with commonly-used CICD orchestration engines. You can already link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>At Applitools, we have tutorials showing you how to integrate Applitools with commonly-used CICD orchestration engines. You can already link Applitools with Jenkins, Travis, CircleCI. Each of these orchestration engines can automatically launch visual validation with Applitools as part of a build process.</p>
+<p>What about GitHub Actions?</p>
+<h2 id="h.jodcredoby3z">What is “GitHub Actions”?</h2>
+<p>GitHub Actions is an API for cause and effect on GitHub: orchestrate any workflow, based on any event, while GitHub manages the execution, provides rich feedback and secures every step along the way. With GitHub Actions, workflows and steps are just code in a repository, so you can create, share, reuse, and fork your software development practices.</p>
+<p>GitHub Actions makes it easier to automate how you build, test, and deploy your projects on any platform, including Linux, macOS, and Windows. This provides Fast CI/CD for any OS, any language, and any cloud!</p>
+<p>Applitools provides automated Visual AI testing. It is easy to integrate Applitools with GitHub Actions, letting developers to test their code by running visual tests using GitHub Actions workflow.</p>
+<p>For this article, I have chosen a Cypress automation project that has a single visual test with Applitools created before in my GitHub repo:</p>
+<p><a target="_blank" href="https://github.com/satishapplitools/Cypress-Applitools-GitActions.git" rel="noopener noreferrer">https://github.com/satishapplitools/Cypress-Applitools-GitActions.git</a></p>
+<h2 id="h.2byz9zbm85s6">Configuring GitHub Actions workflow on the repository</h2>
+<p>Click on Actions tab in GitHub repository</p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"></figure>
+</div>
+<p>GitHub Actions has an option to choose from several starter workflows based on programming languages, tools, technologies, and deployment options. Workflow prepares a YAML file at the end.</p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><img src="https://applitools.com/wp-content/uploads/2020/07/image16.png" alt="image16" class="wp-image-20240" width="947" height="385" srcset="https://applitools.com/wp-content/uploads/2020/07/image16.png 1347w, https://applitools.com/wp-content/uploads/2020/07/image16-300x122.png 300w, https://applitools.com/wp-content/uploads/2020/07/image16-1024x417.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image16-768x313.png 768w" sizes="(max-width: 947px) 100vw, 947px"/></figure>
+</div>
+<p>For this article, I have chosen, “<em>Skip this and set up a workflow yourself</em>” to use an existing YAML file.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image3-1.png" alt="image3 1" class="wp-image-20244" srcset="https://applitools.com/wp-content/uploads/2020/07/image3-1.png 883w, https://applitools.com/wp-content/uploads/2020/07/image3-1-300x68.png 300w, https://applitools.com/wp-content/uploads/2020/07/image3-1-768x174.png 768w" sizes="(max-width: 883px) 100vw, 883px"/></figure>
+</div>
+<p>If you want to follow along, do the same. I named my file main.yaml.  Copy the following code and paste the content into your Yaml file.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/batmi02/df7b1b1ba6cca79add3df6d6001aa73d.js</p>
+</div>
+<p>For Applitools integration, we require Applitools API Key and pass Git Commit SHA as Applitools Batch ID.  In the code example above, I have set up the Applitools API key as GitHub secrets and that can be passed as a call to an environment variable in the GitHub Actions workflow (as shown below). To know more about GitHub Actions secrets click <a target="_blank" href="https://secrethub.io/" rel="noopener noreferrer">secret hub</a>,</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image4-1.png" alt="image4 1" class="wp-image-20238" srcset="https://applitools.com/wp-content/uploads/2020/07/image4-1.png 1222w, https://applitools.com/wp-content/uploads/2020/07/image4-1-300x50.png 300w, https://applitools.com/wp-content/uploads/2020/07/image4-1-1024x170.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image4-1-768x128.png 768w" sizes="(max-width: 1222px) 100vw, 1222px"/></figure>
+</div>
+<p>To create GitHub secret in the repo, do the following: below steps:</p>
+<ul>
+<li>C<em>lick “Settings” on GitHub repository</em></li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image2-1.png" alt="image2 1" class="wp-image-20242" srcset="https://applitools.com/wp-content/uploads/2020/07/image2-1.png 898w, https://applitools.com/wp-content/uploads/2020/07/image2-1-300x19.png 300w, https://applitools.com/wp-content/uploads/2020/07/image2-1-768x50.png 768w" sizes="(max-width: 898px) 100vw, 898px"/></figure>
+</div>
+<ul>
+<li>Navigate to “Secrets” on the left menu and click “New Secret”</li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image5.png" alt="image5" class="wp-image-20245" srcset="https://applitools.com/wp-content/uploads/2020/07/image5.png 930w, https://applitools.com/wp-content/uploads/2020/07/image5-300x54.png 300w, https://applitools.com/wp-content/uploads/2020/07/image5-768x137.png 768w" sizes="(max-width: 930px) 100vw, 930px"/></figure>
+</div>
+<ul>
+<li>Enter name and value, for this article, I have used “APPLITOOLS_API_KEY” as a secret name and given my API key. To obtain “Applitools API Key” please visit <a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">https://applitools.com/</a></li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image7-1.png" alt="image7 1" class="wp-image-20243" srcset="https://applitools.com/wp-content/uploads/2020/07/image7-1.png 940w, https://applitools.com/wp-content/uploads/2020/07/image7-1-300x145.png 300w, https://applitools.com/wp-content/uploads/2020/07/image7-1-768x371.png 768w" sizes="(max-width: 940px) 100vw, 940px"/></figure>
+</div>
+<ul>
+<li>Set GitHub commit SHA as Applitools Batch ID using environment variables (as shown below)</li>
+</ul>
+<p>This is already done in the YAML file above. No changes required.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image6-2.png" alt="image6 2" class="wp-image-20246" srcset="https://applitools.com/wp-content/uploads/2020/07/image6-2.png 1080w, https://applitools.com/wp-content/uploads/2020/07/image6-2-300x71.png 300w, https://applitools.com/wp-content/uploads/2020/07/image6-2-1024x244.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image6-2-768x183.png 768w" sizes="(max-width: 1080px) 100vw, 1080px"/></figure>
+</div>
+<p>For more detailed information click <a target="_blank" href="https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets" rel="noreferrer noopener">creating-and-storing-encrypted-secrets</a>.</p>
+<p>In addition to the above, we need to amend “applitools.config.js” to include API key and BatchID as shown below,</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image17.png" alt="image17" class="wp-image-20239" srcset="https://applitools.com/wp-content/uploads/2020/07/image17.png 1248w, https://applitools.com/wp-content/uploads/2020/07/image17-300x153.png 300w, https://applitools.com/wp-content/uploads/2020/07/image17-1024x522.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image17-768x391.png 768w" sizes="(max-width: 1248px) 100vw, 1248px"/></figure>
+</div>
+<h2 id="h.xkvkips19gd8">Run Git Hub Actions workflow integrated with Applitools</h2>
+<p>Now it’s time to run the integration.  Here are the steps:</p>
+<ul>
+<li>Let us create a new branch from master and name it as “feature branch”.</li>
+</ul>
+<ul>
+<li>Make some changes in the feature branch and create a pull request to the master branch.</li>
+</ul>
+<ul>
+<li>GitHub Actions workflow understands there are changes made on the code, and it automatically kicks off the workflow and runs Cypress tests integrated with Applitools(as shown below)</li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image9.png" alt="image9" class="wp-image-20256" srcset="https://applitools.com/wp-content/uploads/2020/07/image9.png 1260w, https://applitools.com/wp-content/uploads/2020/07/image9-300x59.png 300w, https://applitools.com/wp-content/uploads/2020/07/image9-1024x202.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image9-768x152.png 768w" sizes="(max-width: 1260px) 100vw, 1260px"/></figure>
+</div>
+<ul>
+<li>Click on “Pull requests” to see the status, we should see “checks are in progress” while the workflow is running.</li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image18.png" alt="image18" class="wp-image-20241" srcset="https://applitools.com/wp-content/uploads/2020/07/image18.png 1205w, https://applitools.com/wp-content/uploads/2020/07/image18-300x181.png 300w, https://applitools.com/wp-content/uploads/2020/07/image18-1024x619.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image18-768x464.png 768w" sizes="(max-width: 1205px) 100vw, 1205px"/></figure>
+</div>
+<p>Let us wait for the workflow to complete. Workflow logs can be seen while the step in the workflow is running.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image8-2.png" alt="image8 2" class="wp-image-20251" srcset="https://applitools.com/wp-content/uploads/2020/07/image8-2.png 1428w, https://applitools.com/wp-content/uploads/2020/07/image8-2-300x82.png 300w, https://applitools.com/wp-content/uploads/2020/07/image8-2-1024x279.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image8-2-768x209.png 768w" sizes="(max-width: 1428px) 100vw, 1428px"/></figure>
+</div>
+<ul>
+<li>After the workflow is complete, click on “Pull requests” and open the pull request to look at the commit details and the status of Applitools visual tests.</li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image11.png" alt="image11" class="wp-image-20250" srcset="https://applitools.com/wp-content/uploads/2020/07/image11.png 947w, https://applitools.com/wp-content/uploads/2020/07/image11-300x115.png 300w, https://applitools.com/wp-content/uploads/2020/07/image11-768x295.png 768w" sizes="(max-width: 947px) 100vw, 947px"/></figure>
+</div>
+<ul>
+<li>Review results from GitHub Actions workflow integrated with Applitools</li>
+</ul>
+<p>Applitools SCM integration shows the results of the visual test and compares the screenshots between the source and destination branches.  In case there are visual tests have unresolved status – comparison with baseline has differences.</p>
+<ul>
+<li>Click on “test/applitools” details to check the results on Applitools Test Manager dashboard</li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image12-1.png" alt="image12 1" class="wp-image-20252" srcset="https://applitools.com/wp-content/uploads/2020/07/image12-1.png 947w, https://applitools.com/wp-content/uploads/2020/07/image12-1-300x115.png 300w, https://applitools.com/wp-content/uploads/2020/07/image12-1-768x295.png 768w" sizes="(max-width: 947px) 100vw, 947px"/></figure>
+</div>
+<ul>
+<li>If there are any unresolved steps, the status of “test/applitools” shows<em> visual tests detected diffs</em> and scm/applitools has <em>Pending</em> status.</li>
+</ul>
+<ul>
+<li>A user can review the results in Applitools Test Manager dashboard and accept/reject differences.</li>
+</ul>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image19.png" alt="image19" class="wp-image-20249" srcset="https://applitools.com/wp-content/uploads/2020/07/image19.png 1600w, https://applitools.com/wp-content/uploads/2020/07/image19-300x106.png 300w, https://applitools.com/wp-content/uploads/2020/07/image19-1024x360.png 1024w, https://applitools.com/wp-content/uploads/2020/07/image19-768x270.png 768w, https://applitools.com/wp-content/uploads/2020/07/image19-1536x540.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+</div>
+<p>Let’s assume if the user has accepted differences, then we should see the status as “passed” for “test/applitools” step at the pull request/commit screen.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image14.png" alt="image14" class="wp-image-20237" srcset="https://applitools.com/wp-content/uploads/2020/07/image14.png 915w, https://applitools.com/wp-content/uploads/2020/07/image14-300x143.png 300w, https://applitools.com/wp-content/uploads/2020/07/image14-768x366.png 768w" sizes="(max-width: 915px) 100vw, 915px"/></figure>
+</div>
+<p>Click on “scm/applitools” to compare and merge screenshots between source and destination branches.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://applitools.com/wp-content/uploads/2020/07/image13-1.png" alt="image13 1" class="wp-image-20248" srcset="https://applitools.com/wp-content/uploads/2020/07/image13-1.png 947w, https://applitools.com/wp-content/uploads/2020/07/image13-1-300x115.png 300w, https://applitools.com/wp-content/uploads/2020/07/image13-1-768x295.png 768w" sizes="(max-width: 947px) 100vw, 947px"/></figure>
+</div>
+<p>To know more about SCM integration feature of Applitools for GitHub and BitBucket Integration see below</p>
+<p>Successful build with GitHub Actions integrated with Applitools will be like below with all checks passed,</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/07/image15.png" alt="image15" class="wp-image-20247" srcset="https://applitools.com/wp-content/uploads/2020/07/image15.png 923w, https://applitools.com/wp-content/uploads/2020/07/image15-300x144.png 300w, https://applitools.com/wp-content/uploads/2020/07/image15-768x369.png 768w" sizes="(max-width: 923px) 100vw, 923px"/></figure>
+<h2>Key Benefits of this integration</h2>
+<ul>
+<li>GitHub Actions and Applitools seamless integration enable developers to test code faster, parallel, reducing the time for the feedback.</li>
+<li>Applitools visual AI – testing the UI with less code and zero flakiness, saves developer time – increases productivity.</li>
+<li>Increases code quality and confidence to merge or deploy code.</li>
+</ul>
+<h2>For More Information</h2>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/link-github-actions/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What Security Means for Web and Mobile Application Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-security-means-for-web-and-mobile-application-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Application]]></category>
+		<category><![CDATA[Means]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-security-means-for-web-and-mobile-application-testing/</guid>
+
+					<description><![CDATA[Employees today are more mobile than ever. As we saw, due to COVID-19 the majority of organizations moved their employees]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Employees today are more mobile than ever. As we saw, due to COVID-19 the majority of organizations moved their employees to a work from home model overnight. This quick change of location forced businesses to implement solutions that would provide their workforces secure remote access to an increasingly complex corporate network. Notions that used to be simpler, like Bring Your Own Device (BYOD) and the cloud stack further complicate secure access policy management as employees wander from the office. </p>
+<p>While working from home can increase productivity, improve employee performance and reduce costs for organizations, it comes with its challenges. Slow mobile networks and latency when connecting to corporate web applications can put a burden on remote employees, resulting in decreased productivity. However, speed and connectivity aren’t the only challenges when it comes to mobile networks.</p>
+<p>As cloud adoption and BYOD are on the rise, security and IT teams must face the challenge of securing the network from outside the office. If the organization is growing network security is harder to keep up with: more devices, more unique roles to account for, and unfamiliar IP addresses connecting to the network &#8211; all requiring proper security consideration. Without a deliberate approach, malicious actors can more easily compromise the organization’s network security from different points of entry.</p>
+<p>To fight off potential attacks, organizations need to rethink their network security strategy by quickly adopting authentication and testing for vulnerabilities inside the network where their applications reside. </p>
+<h3>Testing Environments and Networks Comes with Security Risks </h3>
+<p>Automating the testing of mobile and desktop apps through the cloud saves organizations time, money, and resources but it is also crucial to make sure that this testing environment is secured. When testing applications, employees’ networks and connections must be secured in order to add another layer of protection against hackers trying to breach the testing environment. While Sauce Labs offers its Sauce Connect Proxy, a built-in HTTP proxy server that opens a secure &#8220;tunnel&#8221; connection for testing between a Sauce Labs virtual machine or real device and a website or mobile app hosted behind a corporate firewall, it is not the only security step to consider when testing remotely. </p>
+<p>If an employee doesn’t have any kind of extra layer of defense when connected to his or her network, he or she is exposed to hackers trying to infiltrate their organization’s resources. One of the most common types of attacks on a network is unauthorized access. Hackers will gain entry by accessing the network by stealing employees’ weak passwords or infiltrating previously compromised users. </p>
+<p>Another common risk is access control privilege escalation. This occurs when an attacker has gained access into the network and moves horizontally inside the network infrastructure and servers. This threat allows hackers to gain access to more resources and data with the original privileged access credentials they have stolen. </p>
+<p>To avoid these types of attacks, organizations need to implement more concrete user restrictions with a privileged access model. This will allow them to limit who has access to their network and applications, and what they can access. By restricting access to a certain amount of users, you will decrease the number of authorized access risks to your network. With stricter network access rules in place, you will have a more secure testing environment as well. </p>
+<h3>Security Solution for a More Secure Network</h3>
+<p>Knowing about network risks is only half the battle. When discovering a risk to your organization, you need to clearly strategize how to address it and be proactive so it doesn’t happen again. One of the most effective ways for organizations to ensure a secure network for testing their applications is by implementing security solutions that have strong access policy controls. </p>
+<p>A key benefit that comes with implementing a network security solution is the increased ability to find and fix network vulnerabilities and monitor network activity. With the help of security solutions sitting at the edge of your corporate network, you can quickly identify an attack and fix the exploitable endpoint which would otherwise have been an entry point for a successful attack. </p>
+<p>Network security solutions offer a group of tools, policies, and data to help create a stronger comprehensive security strategy. The key motive when adopting security solutions is to increase the organization’s security from incoming attacks, meaning to make a successful attack an expensive and difficult prospect for any would-be hacker. </p>
+<p>Alongside these security solutions, the organization will need to adopt accompanying company-wide policies that mitigate any insider risks the organization will face. Some organizations might not have the resources to implement an internal security strategy and in these cases a third party security solution will provide them with the right amount of security to fight off incoming attacks.  </p>
+<h3>Moving Forward </h3>
+<p>In today’s digital world, the biggest concern for organizations is data security. Attacks on organizations’ networks are happening more often and with a bigger impact, requiring companies to implement strong cybersecurity strategies in order to ensure  their network isn’t similarly vulnerable against unauthorized access. When testing your mobile and web application in a testing environment, make sure you have secure access to your corporate network. This is all it takes to test more applications without worrying about the security of your network. </p>
+<p>=======</p>
+<p><i>This post was written by Zev Brodsky, Content Marketing Manager at </i><a target="_blank" href="http://www.perimeter81.com" rel="noopener noreferrer">Perimeter 81</a><i>. On July 29, Perimeter 81 and Sauce Labs will be doing a joint webinar about how organizations networks and connections must be secured in order to add another layer of protection against hackers trying to breach the testing environment. </i><a target="_blank" href="https://www.brighttalk.com/webcast/18039/426741" rel="noopener noreferrer">Sign up here</a><i>.</i></p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/what-security-means-for-web-and-mobile-application-testing">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Emotet Returns in Malspam Attacks Dropping TrickBot, QakBot</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/</link>
 		
@@ -604,191 +881,6 @@ chmod 700 get_saucectl.sh
 </div>
 <p><br />
 <br /><a href="https://saucelabs.com/blog/test-all-the-things-with-cypress-and-testcafe">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Getting Started with TestProject Python SDK</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/getting-started-with-testproject-python-sdk/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 15 Jul 2020 04:33:25 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Python]]></category>
-		<category><![CDATA[SDK]]></category>
-		<category><![CDATA[started]]></category>
-		<category><![CDATA[TestProject]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/getting-started-with-testproject-python-sdk/</guid>
-
-					<description><![CDATA[With the TestProject Python SDK, you can execute your Selenium and Appium tests using the power of the TestProject platform.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span style="font-weight: 400;">With the TestProject Python SDK, </span><span style="font-weight: 400;">you can execute your Selenium and Appium tests using the power of the <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject platform</a>. This means you’ll benefit from automatic test reporting in HTML and PDF, automatic updates and configuration of your Selenium browser drivers, collaborative reporting dashboards, and much more (Learn more about the benefits of <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">TestProject OpenSDK</a>).</span></p>
-<p><span style="font-weight: 400;">In this article, we’ll take a look at how to get started with the TestProject Python SDK. We’ll first see how to create a TestProject powered Selenium test ‘from scratch’, and then you’ll how you can convert your existing test suite into one that uses the TestProject platform.</span></p>
-<h2><strong>Table of Contents</strong></h2>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/#install-sdk" rel="noopener noreferrer">Installing the TestProject Python SDK</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#agent-config" rel="noopener noreferrer">Configuring your TestProject Agent</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#dev-token-config" rel="noopener noreferrer">Configuring your developer token</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#first-test" rel="noopener noreferrer">Creating your first test</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#run-test" rel="noopener noreferrer">Running the test</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#test-reports" rel="noopener noreferrer">Inspecting the test reports</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#unit-testing" rel="noopener noreferrer">Supported unit testing frameworks</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#summary" rel="noopener noreferrer">Summary</a></li>
-</ol>
-<hr/>
-<h2><strong><a target="_blank" id="install-sdk" rel="noopener noreferrer">Installing the TestProject Python SDK</strong></h2>
-<p><span style="font-weight: 400;">The TestProject Python SDK is <strong>100% free and open source</strong>, and is available as a PyPI package. You can install the package using pip:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">pip install testproject-python-sdk</pre>
-<p><span style="font-weight: 400;">This will install the SDK as well as its dependencies. To prevent version conflicts across projects, it is recommended to use a virtual environment for the development of your tests.</span></p>
-<h2><strong><a target="_blank" id="agent-config" rel="noopener noreferrer">Configuring your TestProject Agent</strong></h2>
-<p><span style="font-weight: 400;">Like all <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview" rel="noopener noreferrer">TestProject SDKs</a>, the Python SDK executes tests using the <a target="_blank" href="https://docs.testproject.io/testproject-agents/what-is-a-testproject-agent" rel="noopener noreferrer">TestProject Agent</a>. This Agent takes care of browser driver installation and configuration as well as reporting to the TestProject platform. You can download the Agent from <a target="_blank" href="https://app.testproject.io/#/agents" rel="noopener noreferrer">here</a>.</span></p>
-<p><span style="font-weight: 400;">By default, the SDK will communicate with the Agent on its default address, which is </span><a target="_blank" href="http://localhost:8585" rel="noopener noreferrer"><span style="font-weight: 400;">http://localhost:8585</span></a><span style="font-weight: 400;">. If you’re running the Agent on another port, or even an entirely different machine, you can configure the correct address by setting the </span><code><span style="font-weight: 400;">TP_AGENT_URL</span></code><span style="font-weight: 400;"> environment variable to the correct address.</span></p>
-<h2><strong><a target="_blank" id="dev-token-config" rel="noopener noreferrer">Configuring your developer token</strong></h2>
-<p><span style="font-weight: 400;">To communicate with the Agent, you need a developer token. You can configure the SDK to use it by obtaining a token from </span><a target="_blank" href="https://app.testproject.io/#/integrations/sdk" rel="noopener noreferrer"><span style="font-weight: 400;">https://app.testproject.io/#/integrations/sdk</span></a><span style="font-weight: 400;">, and setting an environment variable </span><code><span style="font-weight: 400;">TP_DEV_TOKEN</span></code><span style="font-weight: 400;"> with the token value.</span></p>
-<h2><strong><a target="_blank" id="first-test" rel="noopener noreferrer">Creating your first test</strong></h2>
-<p><span style="font-weight: 400;">After installing and setting up the SDK, it’s time to start writing our first test <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />Here is a fully functional example test that opens the <a target="_blank" href="https://example.testproject.io/web/" rel="noopener noreferrer">TestProject demo application</a>, logs in and checks that a greeting message is displayed:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">from src.testproject.sdk.drivers import webdriver
-
-def simple_test():
-    driver = webdriver.Chrome()
-
-    driver.get("https://example.testproject.io/web/")
-
-    driver.find_element_by_css_selector("#name").send_keys("John Smith")
-    driver.find_element_by_css_selector("#password").send_keys("12345")
-    driver.find_element_by_css_selector("#login").click()
-
-    passed = driver.find_element_by_css_selector("#logout").is_displayed()
-
-    print("Test passed") if passed else print("Test failed")
-
-    driver.quit()
-
-
-if __name__ == "__main__":
-    simple_test()</pre>
-<p><span style="font-weight: 400;">If you’re already familiar with developing Selenium-based tests in Python, this code should not be difficult to understand. Let’s run it and see what happens! But first, make sure that your TestProject Agent is running. </span></p>
-<h2><strong><a target="_blank" id="run-test" rel="noopener noreferrer">Running the test</strong></h2>
-<p><span style="font-weight: 400;">Let’s assume that the example test we just saw resides in a Python module called </span><code><span style="font-weight: 400;">web_test.py</span></code><span style="font-weight: 400;">. Since we made this module runnable using </span><code><span style="font-weight: 400;">if __name__ == “__main__”</span></code><span style="font-weight: 400;">, we can run this test simply by executing the following command:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">python web_test.py
-</pre>
-<p><span style="font-weight: 400;">This will request a Chrome driver instance from the TestProject Agent, run the tests and report results to the TestProject platform. If you configured your developer token and Agent address correctly, you’ll see the following output in your console, indicating that our test was executed successfully:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">&lt;...&gt;
-Test passed
-2020-07-13 09:30:03,884 INFO Connection to Agent at http://127.0.0.1:8585 closed successfully
-
-Process finished with exit code 0
-</pre>
-<p><span style="font-weight: 400;">Let’s take a look at the reports that were generated.</span></p>
-<h2><strong><a target="_blank" id="test-reports" rel="noopener noreferrer">Inspecting the test reports</strong></h2>
-<p><span style="font-weight: 400;">The TestProject Agent will automatically report your test results to the TestProject platform. If you head over to </span><a target="_blank" href="https://app.testproject.io/#/reports" rel="noopener noreferrer"><span style="font-weight: 400;">https://app.testproject.io/#/reports</span></a><span style="font-weight: 400;">, you’ll see a project called ‘</span><i><span style="font-weight: 400;">Unnamed Project</span></i><span style="font-weight: 400;">’:</span></p>
-<p></p>
-<p><noscript><img class="alignnone wp-image-13243 size-full" title="TestProject Python SDK - Generated Test Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/TestProject-Python-SDK-Generated-Test-Reports.png" alt="TestProject Python SDK - Generated Test Reports" width="612" height="336" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/TestProject-Python-SDK-Generated-Test-Reports.png 612w, https://blog.testproject.io/wp-content/uploads/2020/07/TestProject-Python-SDK-Generated-Test-Reports-512x281.png 512w" sizes="(max-width: 612px) 100vw, 612px"/></noscript></p>
-<p><span style="font-weight: 400;">If you click on this, you’ll see an overview of the test runs associated with this project. This will contain a job called ‘</span><i><span style="font-weight: 400;">web_test</span></i><span style="font-weight: 400;">’ (the job name is automatically derived from the Python module name) and a passed test called </span><i><span style="font-weight: 400;">‘simple_test</span></i><span style="font-weight: 400;">’ (the test name is automatically derived from the test method name):</span></p>
-<p><img loading="lazy" class="alignnone wp-image-13246 size-full" title="TestProject Python SDK - Generated Test Reports" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="533" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/first.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/first-512x176.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/first-768x264.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/first-1024x352.png 1024w" data-lazy-sizes="(max-width: 1552px) 100vw, 1552px" src="https://blog.testproject.io/wp-content/uploads/2020/07/first.png"/></p>
-<p><noscript><img class="alignnone wp-image-13246 size-full" title="TestProject Python SDK - Generated Test Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/first.png" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="533" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/first.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/first-512x176.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/first-768x264.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/first-1024x352.png 1024w" sizes="(max-width: 1552px) 100vw, 1552px"/></noscript></p>
-<p><span style="font-weight: 400;">As you can see, the test is marked as passed, and all the individual actions that were performed by the browser driver instance are reported to the right, all out of the box, without the need for additional configuration!</span></p>
-<p><span style="font-weight: 400;">The TestProject Python SDK offers you a variety of options to <strong>customize your reporting</strong>. We will take a closer look at those in a follow-up article (coming soon!). One thing that is worthy of mentioning here, though, is that values that are entered into password fields are automatically redacted, as you can see in step 5 of the report. This feature can also be switched off if desired. You’ll see how in the article on reporting coming soon. </span></p>
-<h2><strong><a target="_blank" id="unit-testing" rel="noopener noreferrer">Supported unit testing frameworks</strong></h2>
-<p><span style="font-weight: 400;">Currently, the TestProject Python SDK supports the </span><a target="_blank" href="https://docs.python.org/3/library/unittest.html" rel="noopener noreferrer"><span style="font-weight: 400;">unittest</span></a><span style="font-weight: 400;"> and </span><a target="_blank" href="https://docs.pytest.org/en/stable/" rel="noopener noreferrer"><span style="font-weight: 400;">pytest</span></a><span style="font-weight: 400;"> unit testing frameworks. If you have existing </span><span style="font-weight: 400;">unittest</span><span style="font-weight: 400;">– or </span><span style="font-weight: 400;">pytest</span><span style="font-weight: 400;">-based Selenium tests, it is very easy to convert these to TestProject-powered tests.</span></p>
-<p><span style="font-weight: 400;">Let’s take a look at this </span><span style="font-weight: 400;">pytest</span><span style="font-weight: 400;">-based example. The process is exactly the same for </span><span style="font-weight: 400;">unittest</span><span style="font-weight: 400;">, by the way:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">from selenium import webdriver
-from tests.pageobjects.web import LoginPage, ProfilePage
-
-def test_example_using_chrome():
-    driver = webdriver.Chrome()
-    LoginPage(driver).open().login_as("John Smith", "12345")
-    assert ProfilePage(driver).greetings_are_displayed() is True
-    driver.quit()
-</pre>
-<p><span style="font-weight: 400;">Assuming that you have added the TestProject SDK as a dependency to your project, and that you have configured both the Agent and your developer token as described earlier in this article, the only thing you need to do to change this import statement:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">from selenium import webdriver
-</pre>
-<p><span style="font-weight: 400;">to this:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">from src.testproject.sdk.drivers import webdriver
-</pre>
-<p><span style="font-weight: 400;">and you’re good to go. It is that easy! Now, let’s assume that this test is part of a module </span><code><span style="font-weight: 400;">example_test</span></code><span style="font-weight: 400;"> in a package called </span><code><span style="font-weight: 400;">tests</span></code><span style="font-weight: 400;">. If you run this test using:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">pytest testsexample_test.py
-</pre>
-<p><span style="font-weight: 400;">and go to the TestProject reports page again, you’ll see a report that looks like this:</span></p>
-<p><img loading="lazy" class="alignnone wp-image-13247 size-full" title="TestProject Python SDK - Generated Test Reports" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="530" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/second.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/second-512x175.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/second-768x262.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/second-1024x350.png 1024w" data-lazy-sizes="(max-width: 1552px) 100vw, 1552px" src="https://blog.testproject.io/wp-content/uploads/2020/07/second.png"/></p>
-<p><noscript><img class="alignnone wp-image-13247 size-full" title="TestProject Python SDK - Generated Test Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/second.png" alt="TestProject Python SDK - Generated Test Reports" width="1552" height="530" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/second.png 1552w, https://blog.testproject.io/wp-content/uploads/2020/07/second-512x175.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/second-768x262.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/second-1024x350.png 1024w" sizes="(max-width: 1552px) 100vw, 1552px"/></noscript></p>
-<p><span style="font-weight: 400;">As you can see, the SDK has automatically derived the test name (‘</span><em><span style="font-weight: 400;">test_example_using_chrome’</span></em><span style="font-weight: 400;">) and the job name (‘</span><span style="font-weight: 400;"><em>example_test</em>‘</span><span style="font-weight: 400;">), from the test method name and the package name, respectively. Additionally, if you’re using </span><span style="font-weight: 400;">pytest</span><span style="font-weight: 400;"> or </span><span style="font-weight: 400;">unittest</span><span style="font-weight: 400;">, the SDK will also automatically infer a project name based on the package that the test modules are in. The project, job and test names can also be customized if you like. You will see how to do that in the reporting article coming soon – Stay tuned for that <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
-<h2><strong><a target="_blank" id="summary" rel="noopener noreferrer">Summary</strong></h2>
-<p>As we’ve seen in this TestProject Python SDK tutorial, with just one unified SDK (that’s also available in <a target="_blank" href="https://docs.testproject.io/testproject-sdk/java-sdk" rel="noopener noreferrer">Java</a> and <a target="_blank" href="https://docs.testproject.io/testproject-sdk/c-sdk" rel="noopener noreferrer">C#</a> by the way), developers and testers receive a go-to toolset, solving some of the greatest challenges in open source test automation. Using the TestProject SDK will save you a bunch of time, while and enjoy the following benefits out of the box:</p>
-<ul>
-<li><span data-key="512edfdee6434724958946c3027a70be">Open source and available as a </span><a target="_blank" class="link-a079aa82--primary-53a25e66--link-faf6c434" href="https://mvnrepository.com/artifact/io.testproject/java-sdk" rel="noopener noreferrer" data-key="45d7a9d6bd614468823e126ccd30ad72"><span data-key="79a0bfcd049a4d77918755cb7623c5c7">Maven</span></a><span data-key="54e38f5eaf3f4c36ad00f3bfd7cfdac6"> dependency / a </span><a target="_blank" class="link-a079aa82--primary-53a25e66--link-faf6c434" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer" data-key="aaf02ef945504b0688598a6890be1755"><span data-key="96df2f798cc442bf9a80e6fb343c8aa0">NuGet</span></a><span data-key="793d52cba51240b8b785cb8518a5eb6a"> package / a </span><a target="_blank" class="link-a079aa82--primary-53a25e66--link-faf6c434" href="https://pypi.org/project/testproject-python-sdk/" rel="noopener noreferrer" data-key="8c00d44831f7469bb734556cee053fc2"><span data-key="fb18f08e44d74213bc6378ebc7d12056">PyPI</span></a><span data-key="6e70753108c7406f98ca0699694e389d" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaXN0LXVub3JkZXJlZCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk9wZW4lMjBzb3VyY2UlMjBhbmQlMjBhdmFpbGFibGUlMjBhcyUyMGElMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmlubGluZSUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaW5rJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyaHJlZiUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGbXZucmVwb3NpdG9yeS5jb20lMkZhcnRpZmFjdCUyRmlvLnRlc3Rwcm9qZWN0JTJGamF2YS1zZGslMjIlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk1hdmVuJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjBkZXBlbmRlbmN5JTIwJTJGJTIwYSUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyaW5saW5lJTIyJTJDJTIydHlwZSUyMiUzQSUyMmxpbmslMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlMjJocmVmJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZ3d3cubnVnZXQub3JnJTJGcGFja2FnZXMlMkZUZXN0UHJvamVjdC5TREslMjIlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk51R2V0JTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjBwYWNrYWdlJTIwJTJGJTIwYSUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyaW5saW5lJTIyJTJDJTIydHlwZSUyMiUzQSUyMmxpbmslMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlMjJocmVmJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZweXBpLm9yZyUyRnByb2plY3QlMkZ0ZXN0cHJvamVjdC1weXRob24tc2RrJTJGJTIyJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJQeVBJJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjBwcm9qZWN0LiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE"> project.</span></li>
-<li>5-minute simple Selenium and Appium setup with a single <a target="_blank" href="https://docs.testproject.io/testproject-agents" rel="nofollow noopener noreferrer">Agent</a> deployment.</li>
-<li>Automatic test reports in HTML/PDF format (including screenshots and customization capabilities).</li>
-<li>Collaborative reporting dashboards with execution history and RESTful API support.</li>
-<li>Always up-to-date with the latest and stable Selenium driver version.</li>
-<li>A simplified, familiar syntax for both web and mobile applications.</li>
-<li>Complete test runner capabilities for both local and remote executions, anywhere.</li>
-<li>Cross platform support for Mac, Windows, Linux and Docker.</li>
-<li>Ability to store and execute tests locally on any source control tool, such as Git.</li>
-</ul>
-<p><strong>We can’t wait for you to start exploring the new TestProject Python SDK <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />Share your experience in the comments below. </strong><strong>Happy PyTesting!</strong> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f929.png" alt="🤩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Microsoft Tackles 123 Fixes for July Patch Tuesday</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/microsoft-tackles-123-fixes-for-july-patch-tuesday/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 14 Jul 2020 21:32:06 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Fixes]]></category>
-		<category><![CDATA[July]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Patch]]></category>
-		<category><![CDATA[Tackles]]></category>
-		<category><![CDATA[Tuesday]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/microsoft-tackles-123-fixes-for-july-patch-tuesday/</guid>
-
-					<description><![CDATA[Eighteen critical bugs, impacting Windows Server, Office and Outlook, were fixed as part of the patch roundup. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Eighteen critical bugs, impacting Windows Server, Office and Outlook, were fixed as part of the patch roundup.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/microsoft-tackles-123-fixes-july-patch-tuesday/157440/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Most companies are ignoring your most vulnerable endpoint…and it’s not the laptop</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/most-companies-are-ignoring-your-most-vulnerable-endpointand-its-not-the-laptop/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 14 Jul 2020 13:00:54 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[companies]]></category>
-		<category><![CDATA[endpointand]]></category>
-		<category><![CDATA[ignoring]]></category>
-		<category><![CDATA[laptop]]></category>
-		<category><![CDATA[vulnerable]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/most-companies-are-ignoring-your-most-vulnerable-endpointand-its-not-the-laptop/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/rubica-most-companies-are-ignoring-your-most-vulnerable-endpointand-its-not-the-laptop/157257/">Source link </a></p>
 ]]></content:encoded>
 					
 		
