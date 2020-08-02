@@ -349,6 +349,169 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>HTML Test Reports for Selenium &#038; Appium Python Test Automation</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/html-test-reports-for-selenium-appium-python-test-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 27 Jul 2020 05:40:25 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Appium]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Reports]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/html-test-reports-for-selenium-appium-python-test-automation/</guid>
+
+					<description><![CDATA[As you might have read in the previous blog posts on the brand new TestProject Python SDK (Part 1 and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">As you might have read in the previous blog posts on the brand new TestProject Python SDK (<a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">Part 1</a> and <a target="_blank" href="https://blog.testproject.io/2020/07/20/creating-mobile-appium-tests-with-testproject-python-sdk/" rel="noopener noreferrer">Part 2</a>), the SDK will generate great-looking HTML test reports and automatically publish them on the <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> platform for you, out of the box, no additional configuration needed (you can also download them as a PDF file). <strong>But did you know that the reporting is also highly configurable?</strong> In this blog post, you’ll see all the options you have with regards to test reports and how to customize them according to your requirements in just a couple of short minutes.</span></p>
+<p style="text-align: center;"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f40d.png" alt="🐍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong><a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/#webinar-recording" rel="noopener noreferrer">Watch this awesome webinar recording to get started with the TestProject Python OpenSDK!</a></strong> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f40d.png" alt="🐍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2><strong>Table of Contents</strong></h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">Getting Started with TestProject Python SDK</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/07/20/creating-mobile-appium-tests-with-testproject-python-sdk/" rel="noopener noreferrer">Creating Mobile Appium Tests with TestProject Python SDK</a></li>
+<li><strong><mark>You’re here →</mark></strong>HTML Test Reports for Selenium &amp; Appium Python Test Automation</li>
+</ol>
+<hr/>
+<p>Test reports are crucial in any test automation framework, and we all know how hard even an expert needs to work in order to generate test automation reports, not to mention if we want to have customization freedom too… There are many tailored solutions available in the industry to help us overcome this, such as: <a target="_blank" href="https://pypi.org/project/junit-xml/" rel="noopener noreferrer">JUnit</a>, Jenkins plugin, ELK, <a target="_blank" href="https://blog.testproject.io/2020/05/12/make-your-selenium-test-results-live-using-grafana-and-influxdb/" rel="noopener noreferrer">Grafana</a>, or even developing customized web dashboards.</p>
+<p style="font-weight: 400;">However, none are out of the box test reporting solutions. Enter <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>, which provides users with a complete dedicated reporting environment that supports Selenium, Appium and Python, all for free. TestProject automatically creates the HTML and PDF reports for you (out of the box, no additional configuration needed).</p>
+<p style="font-weight: 400;">All you need to do is <a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer">sign up for a free TestProject account</a>, download and install the <a target="_blank" href="https://docs.testproject.io/testproject-agents/what-is-a-testproject-agent" rel="noopener noreferrer">TestProject Agent</a> (that already contains all the Selenium/Appium drivers for you), install the TestProject Python SDK using pip (<code>pip install testproject-python-sdk</code>), and configure your developer token. <strong>That’s it! </strong>(For more info, <a target="_blank" href="https://github.com/testproject-io/python-sdk" rel="noopener noreferrer">follow this Github link</a>, or read through <a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">this great getting started tutorial</a>).</p>
+<p style="font-weight: 400;">With TestProject you get free access to extensive reporting capabilities which can be fully customizable (as will be described in this article below), including: Detailed analytics dashboards in the cloud, screenshots, pass/fail criteria, custom error messages, ability to download reports to PDF, easily share reports with teammates, <a target="_blank" href="https://api.testproject.io/docs/v2/" rel="noopener noreferrer">RESTful API access</a>, and 100% Selenium and Appium compatibility (and not only with Python, but with Java and C# too!).</p>
+<h2><strong><a target="_blank" id="out-of-the-box" rel="noopener noreferrer">Out of the box HTML test reports</strong></h2>
+<p><span style="font-weight: 400;">If you leave all settings as they are, the SDK will:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Generate reports with the project, job and test names that are automatically inferred (see for more details <a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">this article</a>).</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Automatically report a new test when the </span><code><span style="font-weight: 400;">quit()</span></code><span style="font-weight: 400;"> command is called on a driver, or when the name of the test method that is executed changes.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Contain all WebDriver commands that were executed, along with their result (pass or fail).</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Redact values that are typed in sensitive (passwords) text field elements.</span></li>
+</ul>
+<p><span style="font-weight: 400;">All of these options are configurable, as you will see soon enough.</span></p>
+<h2><strong><a target="_blank" id="custom-project-job-name" rel="noopener noreferrer">Specify custom project and job names</strong></h2>
+<p><span style="font-weight: 400;">If you want to override the automatically inferred project and job names that are displayed in your TestProject reports, you can do that in two ways. The first way is by passing custom project and job names as arguments to the driver constructor:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.sdk.drivers import webdriver
+
+def test_custom_project_and_job_names():
+    driver = webdriver.Chrome(projectname="My project", jobname="Reporting job")
+    driver.get("https://example.testproject.io/web/")
+</pre>
+<p><span style="font-weight: 400;">The second way is by specifying them in the </span><span style="font-weight: 400;">@report</span><span style="font-weight: 400;"> decorator:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.decorator import report
+from src.testproject.sdk.drivers import webdriver
+
+@report(project="My project", job="Reporting job")
+def test_project_and_job_names_in_decorator():
+    driver = webdriver.Chrome()
+    driver.get("https://example.testproject.io/web/")
+</pre>
+<p><span style="font-weight: 400;">Both options will result in the specified project and job names being displayed in TestProject:</span></p>
+<p></p>
+<p><noscript><img class="alignnone wp-image-13411 size-full" title="Specify custom project and job names_TestProject Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image1.png" alt="Specify custom project and job names_TestProject Reports" width="1067" height="397" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image1.png 1067w, https://blog.testproject.io/wp-content/uploads/2020/07/image1-512x191.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image1-768x286.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image1-1024x381.png 1024w" sizes="(max-width: 1067px) 100vw, 1067px"/></noscript></p>
+<h2><strong><a target="_blank" id="custom-test-name" rel="noopener noreferrer">Specifying a custom test name</strong></h2>
+<p><span style="font-weight: 400;">If you want a custom test name in your report (i.e., not the name of the test method), you can use the @report decorator for that as well:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.decorator import report
+from src.testproject.sdk.drivers import webdriver
+
+@report(test="My custom test name")
+def test_name_in_decorator():
+    driver = webdriver.Chrome()
+    driver.get("https://example.testproject.io/web/")
+</pre>
+<p><span style="font-weight: 400;">When specified like this, the custom test name will be used instead of the automatically inferred one:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13412 size-full" title="Specifying a custom test name_TestProject Report" alt="Specifying a custom test name_TestProject Report" width="1106" height="305" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image2.png 1106w, https://blog.testproject.io/wp-content/uploads/2020/07/image2-512x141.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image2-768x212.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image2-1024x282.png 1024w" data-lazy-sizes="(max-width: 1106px) 100vw, 1106px" src="https://blog.testproject.io/wp-content/uploads/2020/07/image2.png"/></p>
+<p><noscript><img class="alignnone wp-image-13412 size-full" title="Specifying a custom test name_TestProject Report" src="https://blog.testproject.io/wp-content/uploads/2020/07/image2.png" alt="Specifying a custom test name_TestProject Report" width="1106" height="305" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image2.png 1106w, https://blog.testproject.io/wp-content/uploads/2020/07/image2-512x141.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image2-768x212.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image2-1024x282.png 1024w" sizes="(max-width: 1106px) 100vw, 1106px"/></noscript></p>
+<h2><strong><a target="_blank" id="manual" rel="noopener noreferrer">Manual test and step reporting</strong></h2>
+<p><span style="font-weight: 400;">By default, the SDK automatically reports a new test when the </span><span style="font-weight: 400;">quit()</span><span style="font-weight: 400;"> command is called on a driver, or when the name of the test method that is executed changes. This behaviour can be disabled:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.sdk.drivers import webdriver
+
+def test_disable_automatic_test_reporting():
+    driver = webdriver.Chrome()
+    driver.report().disable_auto_test_reports(disabled=True)
+    driver.get("https://example.testproject.io/web/")
+</pre>
+<p><span style="font-weight: 400;">You can instead report a test manually like this:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.sdk.drivers import webdriver
+
+def test_report_a_test_manually():
+    driver = webdriver.Chrome()
+    driver.report().disable_auto_test_reports(disabled=True)
+    driver.get("https://example.testproject.io/web/")
+    driver.report().test(name="A manually reported test", passed=True)
+</pre>
+<p><span style="font-weight: 400;">This will result in the following test being reported on the TestProject platform:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13413 size-full" title="Manual test reporting_TestProject Reports" alt="Manual test reporting_TestProject Reports" width="1104" height="227" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image3.png 1104w, https://blog.testproject.io/wp-content/uploads/2020/07/image3-512x105.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image3-768x158.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image3-1024x211.png 1024w" data-lazy-sizes="(max-width: 1104px) 100vw, 1104px" src="https://blog.testproject.io/wp-content/uploads/2020/07/image3.png"/></p>
+<p><noscript><img class="alignnone wp-image-13413 size-full" title="Manual test reporting_TestProject Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image3.png" alt="Manual test reporting_TestProject Reports" width="1104" height="227" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image3.png 1104w, https://blog.testproject.io/wp-content/uploads/2020/07/image3-512x105.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image3-768x158.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image3-1024x211.png 1024w" sizes="(max-width: 1104px) 100vw, 1104px"/></noscript></p>
+<p><span style="font-weight: 400;">Additionally, you can also report intermediate steps manually, and even add screenshots when you do so:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.sdk.drivers import webdriver
+
+def test_report_a_step_manually():
+    driver = webdriver.Chrome()
+    driver.report().disable_auto_test_reports(disabled=True)
+    driver.get("https://example.testproject.io/web/")
+    driver.report().step(description="An intermediate test step", message="An additional message", passed=False, screenshot=True)
+    driver.report().test(name="A manually reported test", passed=True)
+</pre>
+<p><span style="font-weight: 400;">which will lead to this step being included in the test report:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13414 size-full" title="Manual step reporting_TestProject Reports" alt="Manual step reporting_TestProject Reports" width="1566" height="382" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image4.png 1566w, https://blog.testproject.io/wp-content/uploads/2020/07/image4-512x125.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image4-768x187.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image4-1024x250.png 1024w" data-lazy-sizes="(max-width: 1566px) 100vw, 1566px" src="https://blog.testproject.io/wp-content/uploads/2020/07/image4.png"/></p>
+<p><noscript><img class="alignnone wp-image-13414 size-full" title="Manual step reporting_TestProject Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image4.png" alt="Manual step reporting_TestProject Reports" width="1566" height="382" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image4.png 1566w, https://blog.testproject.io/wp-content/uploads/2020/07/image4-512x125.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image4-768x187.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image4-1024x250.png 1024w" sizes="(max-width: 1566px) 100vw, 1566px"/></noscript></p>
+<p><span style="font-weight: 400;">As you can see, the step includes a screenshot (that will be enlarged when clicked). Also note that even though we set the manually reported test to passed in our code, it is marked as failed because of the failed step that is part of the test.</span></p>
+<h2><strong><a target="_blank" id="redaction" rel="noopener noreferrer">Disable redaction of text typed into secured text fields</strong></h2>
+<p><span style="font-weight: 400;">By default, the SDK redacts text that is typed into a text field that is deemed to contain sensitive data, i.e.:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Fields that have a </span><code><span style="font-weight: 400;">type</span></code><span style="font-weight: 400;"> attribute with value </span><code><span style="font-weight: 400;">password</span></code><span style="font-weight: 400;"> (all browser and OS types).</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Fields of type </span><code><span style="font-weight: 400;">XCUIElementTypeSecureTextField</span></code><span style="font-weight: 400;"> (only on iOS with XCUITest).</span></li>
+</ul>
+<p><span style="font-weight: 400;">Text typed in such a text field is replaced by asterisks in the report:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13415 size-full" title="Disable redaction of text typed into secured text fields_TestProject Reports" alt="Disable redaction of text typed into secured text fields_TestProject Reports" width="507" height="459" src="https://blog.testproject.io/wp-content/uploads/2020/07/image5.png"/></p>
+<p><noscript><img class="alignnone wp-image-13415 size-full" title="Disable redaction of text typed into secured text fields_TestProject Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image5.png" alt="Disable redaction of text typed into secured text fields_TestProject Reports" width="507" height="459"/></noscript></p>
+<p><span style="font-weight: 400;">If you wish, this can be disabled:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">def test_disable_command_redaction():
+    driver = webdriver.Chrome()
+    driver.report().disable_auto_test_reports(disabled=True)
+    driver.get("https://example.testproject.io/web/")
+    driver.report().disable_redaction(disabled=True)
+    driver.find_element_by_css_selector("#name").send_keys("John Smith")
+    driver.find_element_by_css_selector("#password").send_keys("12345")
+</pre>
+<p><span style="font-weight: 400;">which leads to password values being reported in plain text, instead:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-13416 size-full" title="Disable redaction of text typed into secured text fields_TestProject Reports" alt="Disable redaction of text typed into secured text fields_TestProject Reports" width="505" height="457" src="https://blog.testproject.io/wp-content/uploads/2020/07/image6.png"/></p>
+<p><noscript><img class="alignnone wp-image-13416 size-full" title="Disable redaction of text typed into secured text fields_TestProject Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image6.png" alt="Disable redaction of text typed into secured text fields_TestProject Reports" width="505" height="457"/></noscript></p>
+<h2><strong><a target="_blank" id="disabling-reporting" rel="noopener noreferrer">Disabling reporting</strong></h2>
+<p><span style="font-weight: 400;">Finally, you also can disable various reporting to various degrees.</span></p>
+<p><span style="font-weight: 400;">If you don’t want to report WebDriver commands automatically, you can specify that as follows:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">def test_disable_driver_command_reporting():
+    driver = webdriver.Chrome()
+    driver.report().disable_command_reports(disabled=True)
+    driver.get("https://example.testproject.io/web/")  # this command will not be reported
+    driver.report().disable_command_reports(disabled=False)
+    driver.find_element_by_css_selector("#name").send_keys("John Smith")  # this command will be reported
+</pre>
+<p><span style="font-weight: 400;">If you want to disable all reporting temporarily, you can do that, too:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">def test_disable_all_reporting_temporarily():
+    driver = webdriver.Chrome()
+    driver.report().disable_reports(disabled=True)
+    # nothing will be reported here
+    driver.report().disable_reports(disabled=False)
+</pre>
+<p><span style="font-weight: 400;">And if you want to permanently disable reporting for a specific driver session, you can do that, too:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">def test_project_and_job_names_in_decorator():
+    driver = webdriver.Chrome(disable_reports=True)
+</pre>
+<p><span style="font-weight: 400;">Please note that in the last case, you </span><i><span style="font-weight: 400;">cannot</span></i><span style="font-weight: 400;"> re-enable reporting for the duration of the driver session!</span></p>
+<p><span style="font-weight: 400;">As you can see, the TestProject Python SDK offers a variety of options to create the reporting you want very easily, solving one of the greatest challenges in open source testing. From now on, test reporting is a breeze thanks to the <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">TestProject new OpenSDK</a>.</span></p>
+<p><span style="font-weight: 400;"><strong>Happy PyTesting!</strong> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f40d.png" alt="🐍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/07/27/html-test-reports-for-selenium-and-appium-python-test-automation/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>What Security Means for Web and Mobile Application Testing</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-security-means-for-web-and-mobile-application-testing/</link>
 		
@@ -769,93 +932,6 @@ def test_example_on_native_ios_app(driver):
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/enterprise-it/buyers-guide-enterprise-service-management-products-how-create-your-rfp">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Create Strong Passwords with a Password Generator</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/create-strong-passwords-with-a-password-generator/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 17 Jul 2020 19:59:35 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Create]]></category>
-		<category><![CDATA[generator]]></category>
-		<category><![CDATA[Password]]></category>
-		<category><![CDATA[passwords]]></category>
-		<category><![CDATA[Strong]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/create-strong-passwords-with-a-password-generator/</guid>
-
-					<description><![CDATA[Create Strong Passwords with a Password Generator Whether you use the internet for several hours every day or only browse]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>Create Strong Passwords with a Password Generator</strong></h2>
-<p>Whether you use the internet for several hours every day or only browse it on occasion, you have likely created numerous accounts on streaming services, financial services, and online storefronts like Amazon. Many of these accounts contain highly sensitive information. Hackers can get into online accounts and computers by guessing passwords, which means that your personal information would be available to them if you use a weak password.</p>
-<p>To effectively protect your accounts from being hacked, it’s important that you have a strong password with each account that you create. However, it can be difficult to think of the perfect password that will keep your account safe from any hacker. To that end, there are many ways to create strong passwords, the primary of which is through a password generator. This article goes into detail about the importance of using good passwords and how to create them.</p>
-<h3><strong>Importance of Having a Strong Password</strong></h3>
-<p>Whenever you purchase an item online, you will be required to enter some financial information, which can include your bank account or credit card number. Many individuals may make the mistake of saving their financial information to the account because of how convenient it is. When you need to purchase an item in the future, you won’t need to go through the hassle of reentering your credit card information. The problem with saving your financial info to your account is that hackers who get into your account will have automatic access to the information at hand.</p>
-<h3><strong>Website Security Measures Also Benefit from Strong Passwords</strong></h3>
-<p>While website security has become increasingly strong over the past decade or so, the security measures that a site owner takes don’t matter if a hacker is able to get into your account by guessing your password, which is why it’s essential that you create a strong password that will hold up to hacking attempts.</p>
-<h3><strong>Weak Passwords can Lead to Many Problems</strong></h3>
-<p>Without a strong password, you run the risk of experiencing <a target="_blank" href="https://www.mcafee.com/en-us/identity-theft.html" rel="noopener noreferrer">identity theft</a> or financial fraud, both of which can significantly damage your finances and livelihood if the issue isn’t corrected immediately. Keep in mind that some of the more popular passwords in the country include 123456, password, 111111, qwerty, and abc123. Because of how popular these passwords are, they are some of the first that hackers will use to attempt to get into an account.</p>
-<h3><strong>Hackers Can Control Your Entire Account</strong></h3>
-<p>Once a hacker has breached your account, they can do a variety of things. The primary of which involves aquiring financial information that can be found in your account. These individuals can also choose to make purchases with this account or send in requests for new credit cards under your name. Along with stealing your own money, it’s possible for hackers to ruin your credit, which could take years to remedy.</p>
-<h3><strong>Hackers Could Breach Your Computer</strong></h3>
-<p>It’s important to understand that hackers can also get into your computer. Though more difficult, hackers can access documents and personal information on your computer if they are able to guess the password to your operating system. Many people store the passwords that they use in a document that’s stored on their computer, which is done with the belief that a hacker will never get into the computer itself. In the event that a hacker gains access to your device, they would be able to read the document where your passwords are stored. While having a strong password doesn’t eliminate the possibility of being hacked, it will make it much more difficult for someone to gain access to your computer or online accounts.</p>
-<h3><strong>Using a Password Generator</strong></h3>
-<p>If you need to store important personal or financial information online or on your computer, it’s essential that you pair your devices and accounts with strong passwords that will hold up to hacking attempts. Even though you can create lengthy and strong passwords without any assistance, keep in mind that the average U.S. citizen has around 25-30 accounts that passwords are needed for. Attempting to identify the perfect password on your own and for each account that you create can be a time-consuming and laborious process. Password generators are designed to instantly provide you with passwords that should be very difficult to guess.</p>
-<h3><strong>How Password Generators Work</strong></h3>
-<p>While every password generator is somewhat unique, the best generators are ones that provide you with options on what you would like to include in the password. The majority of password generators will automatically create passwords that are at least 15 characters long, consist of symbols and numbers, and include uppercase and lowercase letters. However, certain generators also provide users with the ability to exclude similar and ambiguous characters from the password that’s generated. Once you have generated a password, all that’s left is for you to input it into the account you’re currently creating. Password generators are simple to use and can make your life easier as you attempt to keep your personal information safe and secure.</p>
-<h3><strong>Extra Features to Look For in Password Generator</strong></h3>
-<p>Password generators can come with many extra features that could prove helpful in keeping your accounts and computer secure. For instance, some services provide users with a master password, which means that all of your passwords and secure information are kept under a single password that only you know. Some tools also allow users to set the exact length of the password, which could consist of anywhere from 8-100 characters. Additional features to be on the lookout for include unlimited password storage, 24/7 support, and custom security controls.</p>
-<h3><strong>McAfee True Key Features</strong></h3>
-<p>One potential password manager and generator you can use is <a target="_blank" href="https://www.truekey.com/" rel="noopener noreferrer">McAfee True Key</a>, which is designed to create very lengthy and strong passwords. Some of the core features of this particular tool include local data encryption, the support of numerous browsers, syncing across PC, Mac, iOS, and Android devices, and many different methods for signing in. For instance, you could pair the True Key app with the fingerprint reader on your device. You can also use the app to import any stored passwords from your browser.</p>
-<h3><strong>How to Create a Strong Password</strong></h3>
-<p>There are a myriad of things that you can do to create a strong password, the easiest of which is to use a password generator that will automatically provide you with a randomized password that will hold up well to hackers. While using a password generator is the most convenient option for creating a strong password, there are some additional tips and guidelines that you should keep in mind.</p>
-<h3><strong>Primary Guidelines for Creating a Great Password</strong></h3>
-<p>The main guidelines to keep in mind when creating a strong password include:</p>
-<ul>
-<li>Make sure that your password is at least 7-8 characters long</li>
-<li>Make sure that you never use a word or symbol for your password that can easily be found on any of your social media pages</li>
-<li>Change each password you use at an interval or 90 days or less, which should also be done for any strong passwords you use</li>
-<li>Use a combination of numbers, special characters, uppercase letters, and lowercase letters</li>
-<li>Don’t use the same password for numerous accounts, which heightens the possibility that a breach into one of your accounts could lead to several accounts being compromised</li>
-<li>Never write down your password on a piece of paper, which only serves to heighten the possibility of the password being seen by another individual and copied down</li>
-<li>Consider using numbers and letters for your password that have no identifiable patterns within</li>
-</ul>
-<h3><strong>Stay protected</strong></h3>
-<p>Passwords are essential for security and can help you keep your computer and online accounts safe from hackers. While financial fraud and cases of stolen identity may be able to be corrected without any lasting damage to your bank account or credit score, the hassle that comes with contacting banking institutions and fixing any issues pertaining to the hack is more than it’s worth. Even though the aforementioned tips should assist you in creating a strong password, it’s highly recommended that you use a password generator instead, which ensures that mistakes are avoided completely and that the passwords you use are secure.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/create-strong-passwords-with-a-password-generator/">Source link </a></p>
 ]]></content:encoded>
 					
 		
