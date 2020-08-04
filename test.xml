@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 30 Jul 2020 13:32:35 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 03 Aug 2020 22:21:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,86 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How Easy Is Cross Browser Testing?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-easy-is-cross-browser-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 03 Aug 2020 22:21:23 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Cross]]></category>
+		<category><![CDATA[Easy]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-easy-is-cross-browser-testing/</guid>
+
+					<description><![CDATA[In June Applitools invited any and all to its “Ultrafast Grid Hackathon”. Participants tried out the Applitools Ultrafast Grid for]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In June <a target="_blank" href="https://www.applitools.com/" rel="noopener noreferrer">Applitools</a> invited any and all to its “<a target="_blank" href="https://www.applitools.com/hackathon/" rel="noopener noreferrer">Ultrafast Grid Hackathon</a>”. Participants tried out the <a target="_blank" href="https://applitools.com/ultrafast-grid/" rel="noopener noreferrer">Applitools Ultrafast Grid</a> for cross-browser testing on a number of hands-on real-world testing tasks.</p>
+<p>As a software tester of more than 6 years, the majority of my time was spent on Web projects. On these projects, cross-browser compatibility is always a requirement. Since we cannot control how our customers access websites, we have to do our best to validate their potential experience.  We need to validate functionality, layout, and design across operating systems, browser engines, devices, and screen sizes.</p>
+<p>Applitools offers an easy, fast and intelligent approach to cross browser testing that requires no extra infrastructure for running client tests.</p>
+<h2 id="h.c7tp85m7u1uv">Getting Started</h2>
+<p>We needed to demonstrate proficiency with two different approaches to the task:</p>
+<ul>
+<li>What Applitools referred to as modern tests (using their Ultrafast Grid) </li>
+<li>Traditional tests, where we would set up a test framework from scratch, using our preferred tools. </li>
+</ul>
+<p>In total there were 3 tasks that needed to be automated, on different breakpoints, in all major desktop browsers, and on Mobile Safari:</p>
+<ul>
+<li>validating a product listing page’s responsiveness and layout,</li>
+<li>using the product listing page’s filters and validating that their functionality is correct</li>
+<li>validating the responsiveness and layout of a product details page</li>
+</ul>
+<p>These tasks would be executed against a V1 of the website (considered “bug-free”) and would then be used as a regression pack against a V2 / rewrite of the website.</p>
+<h2 id="h.m5inrnesihyf">Setting up Cypress for the Ultrafast Grid</h2>
+<p>I chose <a target="_blank" href="https://www.cypress.io/" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Cypress</a> as I wanted a tool where I could quickly iterate, get human-readable errors and feel <em>comfortable</em>. The required desktop browsers (Chrome, Firefox and Edge Chromium) are all compatible. The system under test was on a single domain, which meant I would not be disadvantaged choosing Cypress. None of Cypress’ more advanced features were needed (e.g. stubbing or intercepting network responses).</p>
+<p>The modern cross browser tests were extremely easy to set up. The only steps required were two npm package installs (Cypress and the Applitools SDK) and running</p>
+<pre class="wp-block-preformatted">npx eyes-setup</pre>
+<p>to import the SDK. </p>
+<p>Easy cross browser testing means easy to maintain as well.  Configuring the needed browsers, layouts and concurrency happened inside `applitools.config.js`, a mighty elegant approach to the many, many lines of capabilities that plague Selenium-based tools.</p>
+<figure class="wp-block-image"></figure>
+<p>In total, I added three <em>short</em> spec files (between 23 and 34 lines, including all typical boilerplate). We were instructed to execute these tasks against the V1 website then mark the runs as our baselines. We would then perform the needed refactors to execute the tasks against the V2 website and mark all the bugs in Applitools.</p>
+<p>Applitools’ <a target="_blank" href="https://applitools.com/features/#visual-ai" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Visual AI</a> did its job so well, all I had to do was mark the areas it detected and do a write-up!</p>
+<p>In summary, for the modern tests: </p>
+<ul>
+<li>two npm dependencies, </li>
+<li>a one-line initialisation of the Applitools SDK, </li>
+<li>6 CSS selectors, </li>
+<li>109 total lines of code, </li>
+<li>a 3 character difference to “refactor” the tests to run against a second website, </li>
+</ul>
+<p>all done in under an hour.  </p>
+<p>Performing a visual regression for all seven different configurations added no more than 20 seconds to the execution time. It all worked as advertised, on the first try. That is the proof of easy cross browser testing</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05.png" alt="Screenshot 2020 07 23 at 17.17.05" class="wp-image-20474" srcset="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05.png 1600w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-300x32.png 300w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-1024x108.png 1024w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-768x81.png 768w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-1536x162.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<h2 id="h.qj3lwzbsaw3">Setting up the traditional cross-browser tests</h2>
+<p>For the traditional tests I implemented features that most software testers are either used to or would implement themselves: a spec-file per layout, page objects, custom commands, (attempted) screenshot diff-ing, linting and custom logging.</p>
+<p>This may sound like overkill compared to the above, but I aimed for feature parity and reached this end structure iteratively.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41.png" alt="Screenshot 2020 07 23 at 17.18.41" class="wp-image-20475" srcset="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41.png 1600w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-300x175.png 300w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-1024x598.png 1024w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-768x449.png 768w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-1536x898.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Unfortunately, neither one of the plug-ins I tried for screenshot diff-ing (`cypress-image-snapshot`, `cypress-visual-regression` and `cypress-plugin-snapshots`) gave results in any way similar to Applitools. I will not blame the plug-ins, though, as I had a limited amount of time to get everything working and most likely gave up way sooner than one should have.</p>
+<p>Since screenshot diff-ing was off the table, I chose to check each individual element. In total, I ended up with 57 CSS selectors and to make future refactoring easier I implemented page objects. Additionally, I used a custom method to log test results to a text file, as this was a requirement for the hackathon.</p>
+<p>I did not count all the lines of code in the traditional approach as the comparison would have been absurd, but I did keep track of the work needed to refactor for V2 — 12 lines of code, meaning multiple CSS selectors and assertions. This work does not need to be done if Applitools is used, “selector maintenance” just isn’t a thing!</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/voboshi/a0887a4a64aee2bf24b43dd43cd98335.js</p>
+</div>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/voboshi/1caef35e421873a9087bf9702f03e269.js</p>
+</div>
+<p>Applitools will intelligently find every single visual difference between your pages, while traditionally you’d have to know what to look for, define it and define what the difference should be. Is the element missing? Is it of a different colour? A different font or font size? Does the button label differ? Is the distance between these two elements the same? All of this investigative work is done automatically.</p>
+<h2 id="h.mpn7xjs1bsf3">Conclusion</h2>
+<p>All in all, it has genuinely been an eye-opening experience, as the tasks were similar to what we’d need to do “in the real world” and the total work done exceeds the scope of usual PoCs. </p>
+<p>My thanks to everyone at Applitools for offering this opportunity, with a special shout out to Stas M.! </p>
+<h2>For More Information</h2>
+<p><em><a target="_blank" href="https://www.linkedin.com/in/voboshi/" rel="noopener noreferrer">Dan Iosif</a> serves as SDET at <a target="_blank" href="https://www.dunelm.com/" rel="noopener noreferrer">Dunelm</a> in the United Kingdom. He participated in the recently-completed <a target="_blank" href="https://applitools.com/hackathon/" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Applitools</a><a target="_blank" href="https://applitools.com/hackathon/" rel="noopener noreferrer"> Ultrafast Cross Browser Hackathon</a>.</em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/how-easy-is-cross-browser-testing/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Vermont Taxpayers Warned of Data Leak Over the Past Three Years</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vermont-taxpayers-warned-of-data-leak-over-the-past-three-years/</link>
 		
@@ -809,129 +889,6 @@ def test_example_on_native_ios_app(driver):
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/07/20/creating-mobile-appium-tests-with-testproject-python-sdk/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Buyer&#8217;s guide to enterprise service management products: How to create your RFP</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products-how-to-create-your-rfp/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sun, 19 Jul 2020 22:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Buyers]]></category>
-		<category><![CDATA[Create]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[Guide]]></category>
-		<category><![CDATA[Management]]></category>
-		<category><![CDATA[products]]></category>
-		<category><![CDATA[RFP]]></category>
-		<category><![CDATA[Service]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2649</guid>
-
-					<description><![CDATA[After determining your project scope and requirements, use this guide to create a request for proposal (RFP) to send to]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>After determining your project scope and requirements, use this guide to create a request for proposal (RFP) to send to the vendors on your list.</p>
-<p>Here we&#8217;ve compiled a list of questions that you might want to include in your RFP. Use this list as a guide and trim away the pieces you don&#8217;t need. Try to limit your product-related questions to those that are critical to your organization and keep it short, but complete. </p>
-<p>The reason: When you send lengthy lists of product requirements to vendors, you&#8217;ll get back lengthy responses that are virtually impossible to compare. Focus on your top 10 requirements, and you will find it much easier to contrast vendors and make an informed decision.</p>
-<p>When evaluating the vendor responses, consider assigning weightings to the requirements to ensure that your most important requirements are ranked highest as you score the candidates.</p>
-<p><em>[ How important is DX to your org? <a target="_blank" href="https://www.surveymonkey.com/r/DX00?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="nofollow noopener noreferrer">Take our survey</a> and find out how you stand next to the competition. Plus: <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. ]</em></p>
-<h3>Introduce yourself—provide a statement of your current status</h3>
-<h4>Statement of goals, concerns, and objectives</h4>
-<ul>
-<li>Describe your service management automation goals, the problems you are trying to solve, and any relevant metrics you are hoping to improve.</li>
-<li>State the greatest concerns for company management relative to service management, customer satisfaction, digital transformation, and business efficiency, and explain how you expect this tool to contribute.</li>
-</ul>
-<h4>Describe your interoperability requirements in detail</h4>
-<ul>
-<li>List the tools you have, and note your preference for a tool with the specific APIs you need for things like configuration, infrastructure, and monitoring. Ask vendors to comment about interoperability in those three areas.</li>
-<li>Ask how much effort it will take to integrate their product with your toolset using their APIs/openAPI.</li>
-<li>Provide an inventory of the kind of data (often bi-directional) you need to support, and ask them to explain in detail what their product can do in those areas.</li>
-<li>Ask how their tools interoperate with cloud-native apps.</li>
-<li>Ask how their tools capture information from the cloud.</li>
-<li>Ask how easy it is to switch between cloud-based and on-premises services.</li>
-</ul>
-<h4>Request specific details about ease of use</h4>
-<p>Today&#8217;s ESM buyers are looking for products that are less complicated to implement, upgrade, license, and maintain, particularly in light of the many integrations needed to make enterprise services flow properly.</p>
-<ul>
-<li>Ask how much effort is required to implement and maintain their product.</li>
-<li>Ask how much effort is needed to upgrade to a new version, including all of the integrations that have been implemented.</li>
-<li>Ask them to describe their approach to licensing and license management.</li>
-<li>If you are having problems with the products you already own, describe how they are falling short—how they create too much work for your team or what capabilities they lack—and explain what you expect a new solution to provide.</li>
-<li>Be transparent about what you don&#8217;t have and why you think it will help you to have it. Vendors and service providers can be valuable partners, so be frank about the issues you face with your current tools. They may surprise you with fresh ideas and strategies.</li>
-</ul>
-<h4>Statement of resources</h4>
-<ul>
-<li>Explain the job titles and skillsets of the people who will use the tool.</li>
-</ul>
-<h4>Infrastructure requirements</h4>
-<ul>
-<li>List the main elements of your environment that are relevant to the tool usage:</li>
-<li>Operating systems</li>
-<li>Hardware</li>
-<li>Databases</li>
-<li>DevOps frameworks/pipeline</li>
-<li>Cloud strategy</li>
-</ul>
-<h3>Vendor information</h3>
-<p>Here are sample questions to ask the vendors. Our list covers a lot of ground, but you probably won&#8217;t need to ask all of them in your RFP. If you don’t have a mainframe, for example, there’s no need to ask about that. Trim this list as required to meet your needs:</p>
-<ul>
-<li>What is your company, history, and ITSM/ESM focus?</li>
-<li>Who is the primary contact for sales? Who is the primary contact for technical questions?</li>
-<li>Do you have reference customers that can be contacted?</li>
-</ul>
-<h4>Products and capabilities</h4>
-<p>This section helps you understand the product, the vendor&#8217;s approach to service management, and any innovations the vendor offers.</p>
-<ul>
-<li>List your product or products and the primary category of each.</li>
-<li>List the scope of operations the tool was designed for.</li>
-<li>What kinds of skills are required to use this tool?</li>
-<li>What browsers do you support?</li>
-<li>What devices do you support?</li>
-<li>What platforms do you support?</li>
-<li>Can your product handle services that are provided by mainframe apps?</li>
-<li>Which continuous integration/continuous delivery tools do you support?</li>
-<li>How easy is it to integrate your product with the other tools I currently use?</li>
-<li>How easy is it to extend your product?</li>
-<li>What types of reporting and analytics capabilities does the product provide? Is integration with a third-party reporting tool required for minimum reporting?</li>
-<li>What are the features or innovations that differentiate you from your competitors?</li>
-</ul>
-<h4>Deployment, updates, and support</h4>
-<ul>
-<li>Is your product or service offered on-premises, as a cloud service, or as a hybrid solution?</li>
-<li>Does deployment require a consulting engagement?</li>
-<li>Do you offer guided consulting to assist during implementation?</li>
-<li>How often do you release new versions or update the software?</li>
-<li>Do you offer support? What are the terms of your support contracts?</li>
-<li>What training options do you offer?</li>
-</ul>
-<p><em>[ Find out <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: Download <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/enterprise-rpa-requirements?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Enterprise Requirements for RPA</a> ]</em></p>
-<h3>Next steps</h3>
-<p>There has never been a better time to <a target="_blank" href="https://techbeacon.com/enterprise-it/8-steps-get-started-enterprise-service-management" rel="noopener noreferrer">get started with ESM</a>, or to expand your ESM footprint. The vendor market has solidified, the benefits are increasingly obvious, and the tools are getting easier to use. Most importantly, some of your competitors are probably already using ESM in some areas and will continue to exploit that competitive edge over you until you enter the game.</p>
-<p>Done right, ESM can become the platform for your organization’s back-office digital transformation. Back-office operations are often overlooked in the drive to achieve digital transformation. But when companies fail to address the operational side, they haven’t really transformed the business.</p>
-<p>As a 2019 World Economic Forum paper said: &#8220;Customer engagement is essential, great product and services are mandatory, and an innovative economic model may be table stakes, but without operations all of that fails.&#8221; In some cases, &#8220;Back-office actually becomes front-office, as non-IT departments expose their services to their employees and customers, which in turn, requires them to become service-centric organizations,&#8221; said Pott.</p>
-<p>Get started today. Using the information and guidance in this document, assemble a team with the right players, step with them through the fundamental considerations, and get a viable ESM project underway. With the right sponsor, team, and ESM technologies in place, you&#8217;ll embark on a journey of continuous improvement that will keep your organization competitive and add value to the entire business for many years to come.</p>
-<h3>Key takeaways</h3>
-<ul>
-<li>Try to limit your product-related questions to those that are critical to your organization and keep it short. When you send lengthy lists of product requirements to vendors, you&#8217;ll get back lengthy responses that are virtually impossible to compare.</li>
-<li>In the RFP, include your goals, concerns, and objectives.</li>
-<li>Spell out your interoperability requirements in detail; include your current tools and an inventory of the data you need to support.</li>
-<li>Get information about maintenance and support, as well as license requirements.</li>
-<li>Find out about the vendor; ask about company history, primary sales/support contacts, and customer references.</li>
-<li>Get details about the product&#8217;s features, functions, scope, platforms supported, and how easy or difficult it would be to extend or customize.</li>
-<li>Get going! Done correctly, ESM can become the platform for your organization&#8217;s back-office digital transformation.</li>
-</ul>
-<p><strong>Read next:</strong></p>
-<p><a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/forrester-wave-esm-q419?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">The Forrester WAVE: Enterprise Service Management</a></p>
-<p><em>To print the full report, or read the entire report offline, download the complete <a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/buyers-guide-esm-products?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Special Report: Buyer&#8217;s Guide to Service Management Products </a>as an ebook.</em></p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-</p></div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/buyers-guide-enterprise-service-management-products-how-create-your-rfp">Source link </a></p>
 ]]></content:encoded>
 					
 		
