@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 03 Aug 2020 22:21:23 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 Aug 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,124 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Projects to products: How to ensure your agile team delivers real value</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[delivers]]></category>
+		<category><![CDATA[Ensure]]></category>
+		<category><![CDATA[products]]></category>
+		<category><![CDATA[projects]]></category>
+		<category><![CDATA[Real]]></category>
+		<category><![CDATA[team]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</guid>
+
+					<description><![CDATA[Many teams are decomposing their work into a hierarchy of epic, feature, user story, and task. The Scaled Agile Framework (SAFe) has]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Many teams are decomposing their work into a hierarchy of epic, feature, user story, and task. The Scaled Agile Framework (SAFe) has made this hierarchy popular, but many teams that have never looked at that model are using the same structure.</p>
+<p>The idea is great. <a target="_blank" href="https://techbeacon.com/app-dev-testing/confused-about-safe-epics-follow-real-world-example" rel="noopener noreferrer">Epics produce big valuable products or big valuable changes</a> to products. You decompose them into smaller chunks of value so you can <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">deliver solutions to your customers sooner</a> than waiting for a big-bang solution at the end.</p>
+<p>Features are decomposed into high-value stories, which, according to definition, should provide value in production as well, and again it occurs faster than building a whole feature.</p>
+<p>But there is a hidden anti-pattern in the way teams are <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-strategy-how-go-projects-products-3-steps" rel="noopener noreferrer">decomposing work into an epic-feature-story hierarchy</a>.</p>
+<p>Teams use agile tools to manage epics, features, stories, and tasks. But they too often use them to articulate a <a target="_blank" href="https://en.wikipedia.org/wiki/Work_breakdown_structure#:~:text=A%20work%2Dbreakdown%20structure%20(WBS,team%27s%20work%20into%20manageable%20sections." rel="nofollow noopener noreferrer">work breakdown structure (WBS)</a> instead of a <a target="_blank" href="http://en.wikipedia.org/wiki/Value_breakdown_structure#:~:text=A%20work%20breakdown%20structure%20(WBS,components%20of%20the%20final%20product." rel="nofollow noopener noreferrer">value breakdown structure (VBS)</a>.</p>
+<p>WBS refers to the common, age-old <a target="_blank" href="https://www.workbreakdownstructure.com" rel="nofollow noopener noreferrer">project-management practice</a> of breaking tasks into smaller chunks, allowing teams to estimate time and costs for completion. VBS, instead, focuses on <a target="_blank" href="https://techbeacon.com/node/3827" rel="noopener noreferrer">product delivery and sub-products</a>, not tasks and sub-tasks.</p>
+<p>Here&#8217;s how to make this critical switch in thinking.</p>
+<h3>WBS thinking results in poor user stories</h3>
+<p>Here&#8217;s the epic-feature-story hierarchy:</p>
+<p><em>Figure 1. The epic-feature-story hierarchy. Source: Scaled Agile, Inc.</em></p>
+<p>All too often, teams use these three types as containers for big tasks, medium tasks, and smaller tasks—just as with Microsoft Project years ago. But that leads to poorly written user stories.</p>
+<p>Badly written stories have been around basically forever. The two most common poor-stories patterns are horizontal slices and lifecycle slices. Here are two examples:</p>
+<ul>
+<li>Horizontal slice: Create a table in the database for &#8220;New API&#8221;</li>
+<li>Lifecycle slice: Design &#8220;New API&#8221;</li>
+</ul>
+<p>There are many reasons these are poor stories, but in the context of WBS and VBS, the key problem is that they are items of work, not items of value. (There are many resources for <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-leaders-guide-writing-user-stories" rel="noopener noreferrer">how to write great user stories</a>, so there&#8217;s no need to repeat that here.)</p>
+<p>WBS has been used to plan development work for a long time, so it is deeply embedded in our muscle memory. And when we were project-driven, this was a great technique.</p>
+<p>But with the movement away from project culture and toward product culture, this technique no longer works well. You need to think in terms of product delivery.</p>
+<h3>Retrain your brain</h3>
+<p>Here are two exercises to help people reframe agile development as a VBS instead of a WBS.</p>
+<h3>Exercise 1: Understand what you are building</h3>
+<p>In this exercise, you ask the team to articulate, at a high level, what it is building. Note that you&#8217;re not listing the steps to build it (that&#8217;s WBS) but instead are describing <em>what</em> it is (VBS).</p>
+<h4> </h4>
+<h4>1. Create a list of what you are building</h4>
+<p>Let&#8217;s imagine the team says you&#8217;re building four things:</p>
+<ul>
+<li>A new report on W</li>
+<li>Modifying an existing report about X</li>
+<li>A new screen with telemetry on Y</li>
+<li>Bringing function Z, which exists in one organization, to three other organizations</li>
+</ul>
+<p>The answer could be a list such as the one above, or it could be a one-sentence answer such as &#8220;an autonomous vehicle.&#8221;</p>
+<h4>2. Decide whether it&#8217;s an epic, feature, or story</h4>
+<p>In a VBS, epics, features, and stories are the same thing: value delivery. It&#8217;s just that each has different rules and syntax due to each having a different level of risk.</p>
+<p>Epics are highest risk, features are less risky, and stories the least risky. So epics require more rigor to ensure you have thought through the risks and have the best chance of success. </p>
+<p>Additionally, every epic, feature, and story creates or modifies a product. That is the link to products in the &#8220;projects to products&#8221; journey.</p>
+<p>Keep in mind that this is just a first estimate. So you need to decide based on the following guidelines:</p>
+<ul>
+<li>Epics are value that will be delivered to production or be production ready in more than three months.</li>
+<li>Features can be delivered in less than a quarter.</li>
+<li>Stories can be delivered in less time than a sprint. </li>
+</ul>
+<p>Here&#8217;s shorthand for the same thoughts:</p>
+<p>Keep that shorthand version handy for the next step.</p>
+<h4>3. Match up the types with their value</h4>
+<p>Looking at the list you created in Step 1, simply ask: How long would it take to deliver this value to production? &gt;1Q? &gt;1S? &lt;1S?</p>
+<p>Then simply assign the correct type to the piece of value! Just like that, you now have epics, features, and stories in your backlog. Notice that you did not worry about this when you made your list of value.</p>
+<p>Also, notice that your backlog has all three types in it, but so far there is <em>no</em> hierarchy. The work items are epics, features, and stories that started as those types without any upward traceability.</p>
+<h3>Stumbling blocks in exercise 1</h3>
+<p>This can make some people uncomfortable. Some feel that if a story or feature doesn&#8217;t trace to an epic, there is no container proving that the story or feature is valuable work. Some believe that all valuable work must be visible from the epic level, because the epic level (in SAFe) is also the portfolio level. And the portfolio level is where you make financial decisions about work.</p>
+<p>But this is not actually correct. All three types—stories, features, and epics—are about value. The goal is to decentralize value decision making and push it downwards, where the risks are low. Stories and features are small, and the product owners and product managers are trusted and empowered to prioritize those types of work.</p>
+<p>People can also feel as if these stories and features are &#8220;orphaned&#8221; if they don&#8217;t trace to a higher-level container. But, in fact, they <em>do </em>trace to a higher-level container: the product they are associated with.</p>
+<p>Remember that all three types either modify or create products. In Azure DevOps, all of the stories, features, and epics use the &#8220;area path&#8221; field to designate what product they are affiliated with. And by doing that, you are linking all value delivery work to the products they create or modify.</p>
+<p>In Jira, on the other hand, you can use &#8220;components&#8221; to represent the product that the work belongs to.</p>
+<p>Whatever tool you use, don’t worry about tracing upwards. Just ensure that every epic, feature, and story traces to a product. And if you are using SAFe, how those products are funded and how those funds are used is decentralized by tying all epics, features, and stories to the funded products.</p>
+<h4>Break down all features and epics</h4>
+<p>At this point, you might have a pile of epics, features, and stories that need to be built. If all of the work is small, you may have only stories. If all the work is big, you may have a list of epics. Or you may have any combination, strictly based on the size of the work.</p>
+<p>In the above example, perhaps W and Y were features due to size. X is small enough to do in one sprint, so it&#8217;s a story. And perhaps Z becomes three epics. There is no hierarchy here, just a pile of different size work to do.</p>
+<p>While all items do not trace upwards, big items such as epics and features need to be decomposed so they can be prioritized with the other lower-level work that doesn&#8217;t trace upwards.</p>
+<p>You can do this by asking, &#8220;What is a smaller piece of value we could do more quickly than this whole thing?&#8221; And as you decompose them, you do not decompose them into tasks but into value items.</p>
+<p>And once you decompose features and epics into smaller value chunks, you once again ask, &#8220;How long would this take to put into production, or to make production-ready?&#8221; And again you give them the appropriate epic/feature/story type. Repeat this until every epic and feature has been decomposed to the story level.</p>
+<p>Stories do not decompose into smaller value; you can decompose those into tasks. Note that tasks are the only element in the hierarchy that are like those found in a WBS. They are tasks, not value chunks.</p>
+<p>In other words, the epics, features, and stories are all value chunks. The tasks are tasks, and they are optional.</p>
+<p>Eventually every epic is decomposed into features. Every feature is decomposed into stories. And all of them are value chunks, not tasks. And thus you have a VBS instead of a WBS.</p>
+<p>Some things in the original list of items were small enough to become features. Others were small enough to be stories. None of those trace up to a containing epic or feature if they started life smaller than that.</p>
+<h4>The resulting story backlog</h4>
+<p>So at the story level, you will have a bunch of stories, some of which are standalone, some that trace to features, and some that trace to features that in turn trace to epics. But all stories can now be prioritized against one another.</p>
+<p>And if they do trace upward, that will be considered during sprint planning. You want to finish a whole feature if possible, so a high-priority feature would increase the priority of the stories as well.</p>
+<p>Bottom line is that epic versus feature versus story is simply a first-level guess at the size of the effort to deliver value. It is almost like story point estimation, but at a much larger, easier level.</p>
+<h2>Exercise 2: Fix an existing backlog</h2>
+<p>For teams with an existing backlog that&#8217;s more WBS than VBS, this can be quite easy to repair. </p>
+<ul>
+<li><strong>1. </strong>Grab the current list of epics, features, and stories and leave it open in the background.</li>
+<li><strong>2. </strong>Notice there is a hybrid of some items that are WBS tasks, and some that are products or value of the VBS type. It is common to have a mix of both styles.</li>
+<li>3. Extract the products or value, and create a fresh backlog with only value delivery items. </li>
+</ul>
+<p>To accomplish step 3, take a task-style backlog item and ask, &#8220;What product or sub-product does this create or improve?&#8221; The answer will be the real VBS item that should be in your backlog instead. If you can&#8217;t figure out the answer, then why would you do that task?</p>
+<p>The third step can be fun and satisfying for your teams. Their new epics, features, and stories are true value work items. Each work item needs refinement, development, test, and deployment. Each is valuable to users.</p>
+<p>Imagine that your story board columns were &#8220;refine, develop, test, deploy, done.&#8221; Notice that a WBS task-style story doesn’t work on a board such as this: &#8220;test component X&#8221; would make sense only in the test column, rather than flowing through them all.</p>
+<p>Value-type VBS stories, on the other hand, flow through all of this. &#8220;New finance report V,” for example: Refine your understanding of it. Develop it. Test it. Deploy it. Done! Value to the user is achieved. But when &#8220;test component X&#8221; moves to done, direct user value has not been achieved.</p>
+<h2>Measuring value delivery</h2>
+<p>Once you move away from a WBS to a real VBS, you can easily report on value delivery. Which epics closed? That is value delivery. Which features closed? Value delivery. Stories? Value delivery.</p>
+<p>So your value delivery reports can simply be reporting on work items closed. And it only works if the work items are real value delivery items, not work breakdown tasks.</p>
+<p>Other Kanban state changes can be educational as well. Which epics moved into MVP delivered, testing the hypothesis now? Which features were pulled from the backlog into implementing? And so on. If every item is a value delivery item, these reports are satisfying and informative.</p>
+<p>If someone wants a report of value delivery for their dollars, they can now show their recently done backlog and answer that question by just using their work management tools instead of creating PowerPoint slides. It is a beautiful thing!</p>
+<h2>Make the switch</h2>
+<p>Many people see their agile work management tools as a hierarchy of epic, feature, and story. And the muscle memory of a WBS is so strong, they overlay their WBS into the containers of epic, feature, and story.</p>
+<p>Instead, focus on products, sub-products, and value delivery. Refactor existing backlogs by separating tasks from value. Think of the epic-feature-story hierarchy as nothing more than a first estimate on time. Epics take more than a quarter. Features require more time than a sprint. Stories are done within a sprint. And all are value delivery items in a VBS.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/projects-products-how-ensure-your-agile-team-delivers-real-value">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How Easy Is Cross Browser Testing?</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-easy-is-cross-browser-testing/</link>
 		
@@ -212,6 +330,40 @@
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/enterprise-it/data-analytics-101-what-it-means-why-it-matters">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Meet The Experts: Wim Selles</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-wim-selles/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Experts]]></category>
+		<category><![CDATA[Meet]]></category>
+		<category><![CDATA[Selles]]></category>
+		<category><![CDATA[Wim]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-wim-selles/</guid>
+
+					<description><![CDATA[Solutions architect Wim Selles helps customers successfully implement and get the most value out of their investment in Sauce Labs.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Solutions architect <a target="_blank" href="https://twitter.com/wswebcreation" rel="noopener noreferrer">Wim Selles</a> helps customers successfully implement and get the most value out of their investment in Sauce Labs. He loves to answer questions and help solve puzzles for customers—and he wants to make people as enthusiastic about mobile test automation as he is. </p>
+<p>Wim conducts trainings, shares best practices, and travels the world (virtually, nowadays) to make this happen. He has two pieces of advice that he often shares with customers. First, create a solid test base that you can rely on. This will give you confidence in your automated testing efforts. Second, Wim recommends that you avoid coding for coding’s sake. Make sure what you’re doing is really adding value. </p>
+<p>In addition to his passion for test automation, Wim enjoys contributing to the open source community—WebdriverIO, specifically— and spending time with his family and two young daughters.</p>
+<p>Learn more about Wim in this short video. </p>
+<div class="video">
+<p><div class="fitvids-video"><iframe title="Meet The Sauce Labs Experts - Wim Selles" width="800" height="450" src="https://www.youtube.com/embed/7Zew7jU42Z4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+</div>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://saucelabs.com/blog/meet-the-experts-wim-selles">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -657,238 +809,6 @@ def test_report_a_step_manually():
 <br />Emotet has resurfaced after a five-month hiatus, with more than 250,000 malspam messages being sent to email recipients worldwide.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/157604/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What your team can learn from traffic mega-surges like Amazon Prime Day</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-team-can-learn-from-traffic-mega-surges-like-amazon-prime-day/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 20 Jul 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Day]]></category>
-		<category><![CDATA[Learn]]></category>
-		<category><![CDATA[megasurges]]></category>
-		<category><![CDATA[Prime]]></category>
-		<category><![CDATA[team]]></category>
-		<category><![CDATA[Traffic]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-your-team-can-learn-from-traffic-mega-surges-like-amazon-prime-day/</guid>
-
-					<description><![CDATA[This year&#8217;s Amazon Prime Day may be delayed (reportedly until August or September), but when it does arrive, it is]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>This year&#8217;s Amazon Prime Day may be delayed (<a target="_blank" href="https://www.theverge.com/2020/5/21/21266249/amazon-prime-day-2020-delayed-september-coronavirus-pandemic-shipping" rel="nofollow noopener noreferrer">reportedly until August or September</a>), but when it does arrive, it is certain to bring with it the usual flood of web traffic from hungry shoppers looking for killer deals.</p>
-<p>Now one of the biggest annual shopping bonanzas on the web—for Amazon, it&#8217;s <a target="_blank" href="https://blogs.akamai.com/2019/07/amazon-prime-day-is-now-a-major-holiday-driving-up-traffic-by-more-than-14-in-the-us.html" rel="nofollow noopener noreferrer">bigger than Black Friday and Cyber Monday combined</a>—Prime Day doesn&#8217;t just bring visitors flocking to Amazon. It also delivers an onslaught of traffic to other retailers, which wisely piggyback on Amazon with their own promotional activities. Last year, <a target="_blank" href="https://chainstoreage.com/technology/prime-day-not-just-for-amazon-250-retailers-to-offer-deals" rel="nofollow noopener noreferrer">more than 250 retailers</a> joined in, with their average revenue <a target="_blank" href="https://chainstoreage.com/technology/other-retailers-score-big-on-prime-day-but-some-department-stores-left-in-the-cold" rel="nofollow noopener noreferrer">jumping a whopping 68%</a> over the two days of the sale.</p>
-<p>The bad news is that massive traffic spikes such as this <a target="_blank" href="https://techbeacon.com/app-dev-testing/was-amazon-prime-day-intended-performance-test-production" rel="noopener noreferrer">can wreak havoc on your network</a> if you&#8217;re unprepared. The good news is that events such as Cyber Monday and Amazon Prime Day are announced well in advance, so <a target="_blank" href="https://techbeacon.com/app-dev-testing/performance-reality-check-how-keep-unexpected-surges" rel="noopener noreferrer">you can plan for them accordingly</a>.</p>
-<p>With Prime Day likely a couple of months away, you have plenty of time to get your network in order so the business can plan for the surge of visitors from a place of relative comfort. Here&#8217;s how.</p>
-<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/enterprise-service-management-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how to optimize your Enterprise Service Management</a> in TechBeacon&#8217;s Guide. Plus: Find out in this Webinar if <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/are-itsm-and-enterpr?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">ITSM and ESM are one and the same</a>. ]</em></p>
-<h3>Cache is king</h3>
-<p>Stephan Roussan, president of ICVM Group, a web development and hosting agency, , said his company&#8217;s client base included high-profile corporate clients who experience high-visibility events and have a very low tolerance for downtime. </p>
-<blockquote>
-<p>&#8220;Whenever we are preparing for an exponential traffic or load event, we start with a basic assessment.&#8221;<br />—<a target="_blank" href="https://twitter.com/sroussan" rel="nofollow noopener noreferrer">Stephan Roussan</a></p>
-</blockquote>
-<p>That assessment asks a series of questions that are instructive to any enterprise preparing for a traffic surge, including:</p>
-<ul>
-<li>What is the baseline health of the environment, and how much ceiling is currently available in terms of available resources?</li>
-<li>Can you calculate the potential peak load and anticipate when it might occur? Will there be more than one peak? How long will the peaks last?</li>
-<li>If the environment is already load-balanced, how often is it rolling over to secondary and tertiary instances? Is there a chance it will exhaust all resources?</li>
-</ul>
-<p>The answers to these questions help set a base understanding for capacity planning for the surge event.</p>
-<p>As another safety measure, Roussan said, his firm will look to reschedule any processes that would normally be running during the event—such as backups and index builds. This will help minimize resource consumption during the spike. Disallowing spider and bot traffic during this time is another smart idea.</p>
-<p>As a final tactic, Roussan said, he can&#8217;t overemphasize the importance of a smart caching regimen.</p>
-<blockquote>
-<p>&#8220;Lengthen your cache life for the anticipated spike window. You can always dial it back afterwards.&#8221;<br />—Stephan Roussan</p>
-</blockquote>
-<p>Just make sure to be in close contact with your content publishing teams so that everyone is on the same page with regard to cache-flush protocol and any lag time relating to making content updates visible publicly, he advised.</p>
-<h3>Test extensively and often</h3>
-<p>The counterpart to planning is testing, and plenty of it. <a target="_blank" href="https://www.linkedin.com/in/spoons/" rel="nofollow noopener noreferrer">Daniel Spoonhower</a>, CTO of performance management software developer Lightstep, said that part of being ready means testing—both software systems and your staff&#8217;s readiness. </p>
-<p>Spoonhower recommends starting with a standard barrage of load testing. Use synthetic but realistic application loads to understand what services will fail first and what their breaking points are. He also suggests <a target="_blank" href="https://stackoverflow.com/questions/34603680/what-is-squeeze-testing" rel="nofollow noopener noreferrer">taking advantage of squeeze testing</a>—a newer tactic popularized by Netflix to determine the threshold at which a service &#8220;breaks&#8221; by gradually applying additional traffic in incremental steps.</p>
-<p>And remember that testing also means testing your staff.</p>
-<blockquote>
-<p>&#8220;Game-day testing provides a safe way for your staff to practice responding to events and ensure that they have the documentation, training, and processes necessary to respond quickly and confidently.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/spoons/" rel="nofollow noopener noreferrer">Daniel Spoonhower</a></p>
-</blockquote>
-<p>On a similar note, scaling your services is easier <a target="_blank" href="https://techbeacon.com/enterprise-it/3-principles-infrastructure-code-what-every-manager-should-know" rel="noopener noreferrer">if you embrace infrastructure as code</a>, said Goutham Belliappa, Capgemini&#8217;s vice president of AI engineering, so you can use simple, automated mechanisms to add capacity.</p>
-<p>You don&#8217;t want to leave 10 times your normal infrastructure idling and accruing charges when it’s not needed.</p>
-<blockquote>
-<p>&#8220;Build in auto-scaling code routines that are thoroughly tested, and don&#8217;t forget to test the throttle-down routines.&#8221; <br />—<a target="_blank" href="https://twitter.com/GBELLIAP" rel="nofollow noopener noreferrer">Goutham Belliappa</a></p>
-</blockquote>
-<p>Belliappa added that you should really double down on your worst-case scenarios when performing <a target="_blank" href="https://techbeacon.com/app-dev-testing/end-end-vs-contract-based-testing-how-choose" rel="noopener noreferrer">end-to-end testing</a>. If you think your surge will be 10 times your monthly peak volume, push your system to 100 times so you can understand and remediate points of fragility.</p>
-<blockquote>
-<p>&#8220;If you don&#8217;t thoroughly test your infrastructure and ecosystem, you are planning to fail.&#8221;</p>
-</blockquote>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-<h3>Prepare for the worst</h3>
-<p>Despite all the planning and testing, even the most robust of systems are going to fail sometime. Last year, both Costco and Nordstrom experienced online <a target="_blank" href="https://www.businessinsider.com/costco-nordstrom-rack-sites-crash-with-black-friday-sales-2019-11" rel="nofollow noopener noreferrer">outages during Black Friday</a>, sending thousands of potential shoppers to the competition. The solution to this is to have a strong contingency plan in place that ensures you can get back up and running quickly should a system fail.</p>
-<p>When experiencing a dramatic change in input such as e-commerce platforms often see on major shopping holidays, the main risk is that a set of unforeseen errors can quickly cascade across the environment, leading to systemic failure, said <a target="_blank" href="https://www.linkedin.com/in/talws/" rel="nofollow noopener noreferrer">Tal Weiss</a>, CTO of OverOps.</p>
-<blockquote>
-<p>&#8220;At that point, what began as a local surge of errors in one or more services or components can rapidly begin to generate errors in downstream or dependent services.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/talws/" rel="nofollow noopener noreferrer">Tal Weiss</a></p>
-</blockquote>
-<p>The challenge in responding to a failure event such as this, Weiss said, is to determine which of the errors that you&#8217;re experiencing are new. In a scenario where literally millions of alerts could be flooding the system at once, only a handful may be relevant to finding a solution.</p>
-<blockquote>
-<p>&#8220;Your team will need to have a process in place to proactively establish a baseline ahead of the surge, as well as the right set of tools to fingerprint and map errors to their code location and alert based on deviations.&#8221;</p>
-</blockquote>
-<h3>Consider outsourcing the problem</h3>
-<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/how-apm-tools-can-help-predict-prepare-traffic-spikes" rel="noopener noreferrer">Planning for a traffic surge</a> is an incredibly complex endeavor, and if your organization doesn&#8217;t have the necessary skills and tools, you can quickly find yourself in over your head.</p>
-<p><a target="_blank" href="https://www.linkedin.com/in/emazingbrian/" rel="nofollow noopener noreferrer">Brian Lim</a> is CEO of EmazingGroup, which sells club and festival outfits and accessories. He <a target="_blank" href="https://vimeo.com/132783196" rel="nofollow noopener noreferrer">appeared on <i>Shark Tank</i> in 2015</a> to pitch EmazingLights, lighted gloves designed for the rave scene. Well aware of the date and time when the show would air, Lim knew in advance when traffic would hit the company&#8217;s website almost down to the minute.</p>
-<p>&#8220;We knew that being featured on a highly viewed television show would attract quite a bit of website traffic,&#8221; said Lim. In the six months leading up to the episode&#8217;s air date, the company purchased 30 servers, simulated load tests, and invested over $500,000 to make sure the site could handle the massive influx of traffic that would be coming their way.</p>
-<p>But when the episode aired, the site went down anyway, he said.</p>
-<p>Lim said he considers the company&#8217;s choice of platforms, originally built on a Magento backbone, a &#8220;near fatal&#8221; error.</p>
-<blockquote>
-<p>&#8220;A lot of money was lost that day, and it made what should have been one of the happiest days one of the worst.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/emazingbrian/" rel="nofollow noopener noreferrer">Brian Lim</a></p>
-</blockquote>
-<p>To solve the problem, EmazingGroup surrendered, dropping its DIY e-commerce ambitions and moving everything to a hosted site on Shopify.</p>
-<blockquote>
-<p>&#8220;Our lives have been made immeasurably easier, and we likely would never have had this issue if we had been with Shopify from the beginning. But we didn&#8217;t let that situation sink our company. The experience was a great reminder to focus on our products and marketing above all other business functions as an e-commerce brand.&#8221;</p>
-</blockquote>
-<h3>Learn from the big fish</h3>
-<p>What can you learn from such mega-traffic events and the planning that goes into them? Follow their lead and adapt at an appropriate level for your online services, and you will be one step ahead. After all, customers consider performance to be a primary reflection on your brand.</p>
-<p><em>[ Learn <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: <a target="_blank" href="https://www.brighttalk.com/webcast/8743/396776?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener noreferrer">Find out how RPA can help you in this Webinar</a>.</em><em> ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/what-your-team-can-learn-traffic-mega-surges-amazon-prime-day">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Creating Mobile Appium Tests with TestProject Python SDK</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/creating-mobile-appium-tests-with-testproject-python-sdk/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 20 Jul 2020 08:46:28 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Appium]]></category>
-		<category><![CDATA[Creating]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Python]]></category>
-		<category><![CDATA[SDK]]></category>
-		<category><![CDATA[TestProject]]></category>
-		<category><![CDATA[Tests]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/creating-mobile-appium-tests-with-testproject-python-sdk/</guid>
-
-					<description><![CDATA[In a previous blog post, you have seen how to get started with the brand new TestProject Python SDK and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span style="font-weight: 400;">In a previous <a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">blog post</a>, you have seen how to get started with the brand new <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> Python SDK and add the power of the TestProject platform to your existing Selenium-based tests.</span></p>
-<p><span style="font-weight: 400;">As of <a target="_blank" href="https://pypi.org/project/testproject-python-sdk/0.63.13/" rel="noopener noreferrer">version 0.63.13</a></span><span style="font-weight: 400;">, the Python SDK can also be used with your Appium-based tests. In this blog post, you’ll see exactly how to do that.</span></p>
-<p style="text-align: center;"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f40d.png" alt="🐍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Register for <a target="_blank" href="https://tricentis.zoom.us/webinar/register/6515948566289/WN_ro4hpAZ4SdaNBmUSPeje5A" rel="noopener noreferrer">this free webinar</a> I’m hosting all about the new Python SDK, Tuesday, July 28th </strong><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f40d.png" alt="🐍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p><span style="font-weight: 400;">The SDK supports both mobile web and native app tests, for Android as well as for iOS. We’re going to take a look at two examples:</span></p>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">A mobile web test on Android and Chrome, using an emulator</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">A native iOS app test, using a real device</span></li>
-</ul>
-<h2><strong>Running mobile web tests on Android using an emulator</strong></h2>
-<p><span style="font-weight: 400;">I’m going to assume that you have already downloaded the Python SDK, have configured your Agent and developer token, and that your Agent is running. If not, you can read how to do that in this <a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">blog post</a>. Also, I’m going to assume that you already have created and started an emulator running Android.</span></p>
-<p><span style="font-weight: 400;">Let’s take this test as an example:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python">import pytest
-
-from appium import webdriver
-from tests.pageobjects.web import LoginPage, ProfilePage
-
-
-@pytest.fixture
-def driver():
-
-    desired_capabilities = {
-        "udid": "emulator-5554",
-        "browserName": "chrome",
-        "platformName": "Android",
-    }
-
-    driver = webdriver.Remote(desired_capabilities=desired_capabilities)
-    yield driver
-    driver.quit()
-
-
-def test_example_on_chrome_on_android(driver):
-
-    LoginPage(driver).open().login_as("John Smith", "12345")
-
-    profile_page = ProfilePage(driver)
-    profile_page.update_profile(
-        "United States",
-        "Street name and number",
-        "<a target="_blank" href="https://blog.testproject.io/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5afaaadabebb6a8acb1ad85b6aaa8a0b2ada0b7a0ebb1a9a1" rel="noopener noreferrer">[email protected]</a>",
-        "+1 555 555 55",
-    )
-    assert profile_page.saved_message_is_displayed() is True
-</pre>
-<p><span style="font-weight: 400;">As you can see from the defined </span><code><span style="font-weight: 400;">desired_capabilities</span></code><span style="font-weight: 400;">, this test runs on an emulator with name </span><code><span style="font-weight: 400;">emulator-5554</span></code><span style="font-weight: 400;">,  which runs Android. Specifying a browser name, i.e., </span><code><span style="font-weight: 400;">chrome</span></code><span style="font-weight: 400;">, indicates that we’re running a mobile web test.</span></p>
-<p><span style="font-weight: 400;">To turn this Appium test into a TestProject-powered test, similar to <a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener noreferrer">Selenium-based tests</a>, all you need to do is change this import statement:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">from appium import webdriver
-</pre>
-<p><span style="font-weight: 400;">to</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">from src.testproject.sdk.drivers import webdriver
-</pre>
-<p><span style="font-weight: 400;">and you’re good to go. Plus: you don’t need to run your own Appium server anymore, as the TestProject Agent acts as an Appium server for you!</span></p>
-<p><span style="font-weight: 400;">When you run this test, it will start a Chrome browser on your Android emulator and run the test:</span></p>
-<p></p>
-<p><noscript><img class="alignnone wp-image-13353 size-full" title="TestProject Python SDK - Chrome browser on your Android emulator" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_1.png" alt="TestProject Python SDK - Chrome browser on your Android emulator" width="480" height="861" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_1.png 480w, https://blog.testproject.io/wp-content/uploads/2020/07/image_1-285x512.png 285w" sizes="(max-width: 480px) 100vw, 480px"/></noscript></p>
-<p><span style="font-weight: 400;">When the test has finished executing, the SDK sends reports to the Agent, which will, in turn, create a new test report on the TestProject platform:</span></p>
-<p><img loading="lazy" class="alignnone wp-image-13354 size-full" title="TestProject Python SDK Reports" alt="TestProject Python SDK Reports" width="1570" height="529" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_2.png 1570w, https://blog.testproject.io/wp-content/uploads/2020/07/image_2-512x173.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image_2-768x259.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image_2-1024x345.png 1024w" data-lazy-sizes="(max-width: 1570px) 100vw, 1570px" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_2.png"/></p>
-<p><noscript><img class="alignnone wp-image-13354 size-full" title="TestProject Python SDK Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_2.png" alt="TestProject Python SDK Reports" width="1570" height="529" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_2.png 1570w, https://blog.testproject.io/wp-content/uploads/2020/07/image_2-512x173.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image_2-768x259.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image_2-1024x345.png 1024w" sizes="(max-width: 1570px) 100vw, 1570px"/></noscript></p>
-<h2><strong>Running native app tests on iOS using a real device</strong></h2>
-<p><span style="font-weight: 400;">As you’ve read earlier, the TestProject Python SDK supports both Android and iOS. Let’s take a look at an example test that tests a native iOS app running on a real iPhone:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">import pytest
-
-from src.testproject.sdk.drivers import webdriver
-from tests.pageobjects.android import LoginPage, ProfilePage
-
-
-@pytest.fixture
-def driver():
-
-    desired_capabilities = {
-        "udid": "&lt;my_device_udid_here&gt;",
-        "deviceName": "iPhone van Bas",
-        "browserName": "",
-        "platformName": "iOS",
-        "bundleId": "io.testproject.Demo",
-    }
-
-    driver = webdriver.Remote(desired_capabilities=desired_capabilities)
-
-    yield driver
-
-    driver.close_app()
-    driver.quit()
-
-
-def test_example_on_native_ios_app(driver):
-
-    LoginPage(driver).login_as("John Smith", "12345")
-
-    profile_page = ProfilePage(driver)
-
-    profile_page.update_profile(
-        "United States",
-        "Street name and number",
-        "<a target="_blank" href="https://blog.testproject.io/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9df7f2f5f3b3eef0f4e9f5ddeef2f0f8eaf5f8eff8b3e9f1f9" rel="noopener noreferrer">[email protected]</a>",
-        "+1 555 555 55",
-    )
-
-    assert profile_page.saved_message_is_displayed() is True
-</pre>
-<p><span style="font-weight: 400;">There’s no browser specified in the </span><code><span style="font-weight: 400;">desired_capabilities</span></code><span style="font-weight: 400;">, which means that this test is running against a native app. Here’s a screenshot from the actual iOS device used, taken during test execution:</span></p>
-<p><img loading="lazy" class="alignnone wp-image-13363 size-medium" title="Appium Tests with Python SDK for iOS" alt="Appium Tests with Python SDK for iOS" width="512" height="287" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-512x287.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-768x431.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-1024x575.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1.png 1197w" data-lazy-sizes="(max-width: 512px) 100vw, 512px" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-512x287.png"/></p>
-<p><noscript><img class="alignnone wp-image-13363 size-medium" title="Appium Tests with Python SDK for iOS" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-512x287.png" alt="Appium Tests with Python SDK for iOS" width="512" height="287" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-512x287.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-768x431.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1-1024x575.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/07/image_3-1-1.png 1197w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
-<p><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Interesting fact</strong>: the iOS device used here was connected to a Windows machine! TestProject enables you to run tests on <a target="_blank" href="https://blog.testproject.io/2019/01/29/setup-ios-test-automation-windows-without-mac/" rel="noopener noreferrer">iOS devices without the need for running macOS or XCode</a></span><span style="font-weight: 400;">, and without having to run an Appium server yourself.</span></p>
-<p><span style="font-weight: 400;">This test, too, passes, as we can see in the reports that are sent to TestProject:</span></p>
-<p><img loading="lazy" class="alignnone wp-image-13356 size-full" title="TestProject Reports" alt="TestProject Reports" width="1567" height="526" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_4.png 1567w, https://blog.testproject.io/wp-content/uploads/2020/07/image_4-512x172.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image_4-768x258.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image_4-1024x344.png 1024w" data-lazy-sizes="(max-width: 1567px) 100vw, 1567px" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_4.png"/></p>
-<p><noscript><img class="alignnone wp-image-13356 size-full" title="TestProject Reports" src="https://blog.testproject.io/wp-content/uploads/2020/07/image_4.png" alt="TestProject Reports" width="1567" height="526" srcset="https://blog.testproject.io/wp-content/uploads/2020/07/image_4.png 1567w, https://blog.testproject.io/wp-content/uploads/2020/07/image_4-512x172.png 512w, https://blog.testproject.io/wp-content/uploads/2020/07/image_4-768x258.png 768w, https://blog.testproject.io/wp-content/uploads/2020/07/image_4-1024x344.png 1024w" sizes="(max-width: 1567px) 100vw, 1567px"/></noscript></p>
-<p><span style="font-weight: 400;">As you can see, using the TestProject Python SDK (or the  <a target="_blank" href="https://docs.testproject.io/testproject-sdk/java-sdk" rel="noopener noreferrer">Java</a> or <a target="_blank" href="https://docs.testproject.io/testproject-sdk/c-sdk" rel="noopener noreferrer">C#</a> SDK), you can easily transform your existing Appium-based tests to TestProject-powered tests, no matter if they are for Android or iOS, using an emulator or a real device, testing mobile web or a native app, on macOS, Linux and Windows.</span></p>
-<p><strong>Share your experience in the comments below. </strong><strong>Happy PyTesting!</strong> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f40d.png" alt="🐍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/07/20/creating-mobile-appium-tests-with-testproject-python-sdk/">Source link </a></p>
 ]]></content:encoded>
 					
 		
