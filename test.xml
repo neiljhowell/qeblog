@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 04 Aug 2020 15:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 06 Aug 2020 11:18:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,32 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>U.S. Offers Reward of $10M for Info Leading to Discovery of Election Meddling</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/u-s-offers-reward-of-10m-for-info-leading-to-discovery-of-election-meddling/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 06 Aug 2020 11:18:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[10M]]></category>
+		<category><![CDATA[Discovery]]></category>
+		<category><![CDATA[Election]]></category>
+		<category><![CDATA[Info]]></category>
+		<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Offers]]></category>
+		<category><![CDATA[Reward]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/u-s-offers-reward-of-10m-for-info-leading-to-discovery-of-election-meddling/</guid>
+
+					<description><![CDATA[Government hopes to avoid interference in the upcoming November presidential vote with a hefty reward. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Government hopes to avoid interference in the upcoming November presidential vote with a hefty reward.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/u-s-offers-reward-of-10m-for-info-leading-to-discovery-of-election-meddling/158110/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Projects to products: How to ensure your agile team delivers real value</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</link>
 		
@@ -783,32 +809,6 @@ def test_report_a_step_manually():
 </div>
 <p><br />
 <br /><a href="https://saucelabs.com/blog/what-security-means-for-web-and-mobile-application-testing">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Emotet Returns in Malspam Attacks Dropping TrickBot, QakBot</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 21 Jul 2020 21:48:23 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Dropping]]></category>
-		<category><![CDATA[Emotet]]></category>
-		<category><![CDATA[Malspam]]></category>
-		<category><![CDATA[QakBot]]></category>
-		<category><![CDATA[Returns]]></category>
-		<category><![CDATA[TrickBot]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/</guid>
-
-					<description><![CDATA[Emotet has resurfaced after a five-month hiatus, with more than 250,000 malspam messages being sent to email recipients worldwide. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Emotet has resurfaced after a five-month hiatus, with more than 250,000 malspam messages being sent to email recipients worldwide.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/emotet-returns-in-malspam-attacks-dropping-trickbot-qakbot/157604/">Source link </a></p>
 ]]></content:encoded>
 					
 		
