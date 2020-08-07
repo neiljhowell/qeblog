@@ -55,6 +55,70 @@
 		
 			</item>
 		<item>
+		<title>Robot Character Analysis Reveals Trust Issues</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/robot-character-analysis-reveals-trust-issues/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 06 Aug 2020 04:01:42 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Analysis]]></category>
+		<category><![CDATA[Character]]></category>
+		<category><![CDATA[Issues]]></category>
+		<category><![CDATA[reveals]]></category>
+		<category><![CDATA[Robot]]></category>
+		<category><![CDATA[Trust]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/robot-character-analysis-reveals-trust-issues/</guid>
+
+					<description><![CDATA[Retired Marine fighter pilot and Top Gun instructor Dave Berke said “Every single thing you do in your life, every]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Retired Marine fighter pilot and Top Gun instructor Dave Berke said “Every single thing you do in your life, every decision you make, is an OODA Loop.” OODA Loop? Observe–Orient–Decide–Act, the “OODA Loop” was originally developed by United States Air Force Colonel John Boyd and outlines that fundamentally all actions are first based on observations.  If you can’t first observe you are at a serious disadvantage. This can be applied at every scale from planning a large-scale military invasion, to changing lanes on a highway or even down to the split-second decision of picking up a glass of water off a table. But it all starts with observation.</p>
+<p>If observation or information about what’s around us is so important, then it’s no surprise that tools and devices that can provide us information not only increase our success but also make us feel more comfortable. The personal robot called temi, is such a device. <a target="_blank" href="https://www.calcalistech.com/ctech/articles/0,7340,L-3809114,00.html" rel="noopener noreferrer">With 1,000 new devices being created a month</a>, temi can help us see a loved one in the hospital through teleconferencing, escort us to the ballroom in the hotel we are staying at or help a doctor virtually visit with a patient. In fact, across Israel, temi was recently selected as the de facto robotics platform for hospital telepresence. Temi can allow us to observe and interact remotely; all while influencing what we decide to do next with the information we have learned.</p>
+<p>But what are the risks associated with tools that help provide greater information into our OODA Loop? How could someone with malicious intent use tools like temi to improve their OODA Loop, furthering their ability to cause harm? Could someone control temi without the owner’s permission? What if someone could turn on the camera and microphone and see the robot’s surroundings while listening to your medical diagnosis or treatment plan? What if someone could “check in on your kids” and map out your house without your permission? These are the type of questions that McAfee Advanced Threat Research (ATR) aims to answer when we see a product like temi. We look at technologies and the wealth of information they provide through the lens of an attacker; with the goal of making your experience a safer one. So, it is no surprise that our team decided to take a deeper look into temi when it was first released.</p>
+<p>On day one, like a kid during Christmas, we unboxed our shiny new temi with a sense of joy and excitement. Like your average user, we set it up following the included directions, had it follow us around dressed up as a ghost for Halloween, marked key locations, made video calls and were amazed at just how cool this robot was! Maybe a little less like your average user, we also captured all the network traffic while temi showed off and did a firmware update. We also looked at what open network ports temi exposed, decompiled the Android application, activated android debugger (adb) and installed a ssh server, just to be safe.  Basically, we treated temi like your child’s first date in high school – we did a background check and used proper intimidation techniques before we allowed temi to go on a date.</p>
+<p>Over the next several months, we really dug into what we learned from our “first date” with temi. What we discovered, not unlike some of my first high school dates, is temi had some trust issues. This is not a good report card considering some of temi’s primary functions. For the ability to make video calls and to remotely control temi securely, it’s important to keep information used to connect to a call secret and secured. Since temi had some flaws doing so, the team turned its attention to the question of whether these “character flaws” could be exploited.</p>
+<p>It turned out with only a few modifications to the original temi Android application, we could intercept phone calls intended for another user. With a few more modifications, temi began to trust us (the attacker) to navigate it around and activate the camera and microphone. Additionally, we discovered the only knowledge an attacker would need to know about the victim is their phone number. Yes, the same number you can’t figure out how tele-markers got ahold of was the information a malicious actor would need to access your temi completely remotely without your knowledge or consent.</p>
+<p>For an attacker, temi’s security flaws allows them to feed vital information into their OODA Loop. Consider a hospital that keeps a very tight and well-run information security program. From the outside they are almost impossible to steal information from. The vulnerabilities discovered in temi now provide them a way to gather information about the internal operations of the business without needing to crack the well implemented business network or physical security. With the phone number of anyone who has called a temi recently, an attacker could observe what room number and condition a hospitalized member of congress is in. Temi could watch the security guard type in the building alarm code. Temi could observe the dog pictures on the nurse’s desk labeled with its cute name and birthday, that just happens to also be part of their password. This information can be invaluable to an attacker’s OODA loop and the potentially malicious decisions they make. Temi was a challenging target to compromise, but the nature of the flaws discovered highlight the importance of this research and the value of vendors to provide fast and effective mitigations, as was the case here.</p>
+<p>For those who enjoy punishing themselves with an excessive amount of technical detail of these vulnerabilities, we have a special treat for you in our highly technical paper on this research <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/" rel="noopener noreferrer">here</a>. This dives into the vulnerability discovery and exploitation process from start to finish in intricate detail.</p>
+<p>In keeping with our <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research/disclosure.html" rel="noopener noreferrer">responsible disclosure program</a>, we reached out to temi as soon as we confirmed that the vulnerabilities we discovered were exploitable. Temi was very receptive, grateful, and had a strong desire to improve the security of temi. Over the next several weeks, we worked closely with their team to develop a more robust solution for temi. For each vulnerability, we provided temi with two mitigations strategies; a band aid and a cure. It is common for vendors to only implement the band aid or quick fix solution. To their credit, temi took on the challenge of implementing the more effective solution or the cure for all findings. Once in place, we were able to test and confirm that all the vulnerabilities reported were effectively mitigated. It is always exciting to see the positive impact security research can have when responsible disclosure is valued by vendor and researchers alike. The following demo video is a light-hearted way to show the true possible impact of the remote accessibility component of this research, had these been found by adversaries instead of responsibly disclosed by McAfee ATR and fixed by temi.</p>
+<p><div class="fitvids-video"><iframe title="McAfee ATR illustrates the impact of temi vulnerabilities" width="800" height="450" src="https://www.youtube.com/embed/7aYURVzcL2c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</p>
+<p>So, what is the larger lesson here? I would venture to guess that I wouldn’t be the first to conclude that Colonel John Boyd was a smart man and his theory of the OODA Loop is not only effective but also strengthens a process – in this case, vulnerability mitigation. For our research, this applies directly to a personal robot assistant which is currently being used worldwide, across a wide range of industries, and currently producing nearly 1,000 new units a month. McAfee’s ATR team <em>observed</em> a new impactful technology emerging into the market. Due to our previous experiences and technical expertise we were well <em>oriented</em> in a position where we <em>decided</em> to take further <em>action </em>and investigate. Temi <em>observed</em> the value in collaboration, <em>oriented</em> themselves in a position where they could <em>decide</em> to take <em>action</em> in making a tool used for <em>observation</em> a more secure product.</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/robot-character-analysis-reveals-trust-issues/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Projects to products: How to ensure your agile team delivers real value</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</link>
 		
@@ -765,51 +829,6 @@ def test_report_a_step_manually():
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2020/07/27/html-test-reports-for-selenium-and-appium-python-test-automation/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What Security Means for Web and Mobile Application Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-security-means-for-web-and-mobile-application-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Application]]></category>
-		<category><![CDATA[Means]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[web]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-security-means-for-web-and-mobile-application-testing/</guid>
-
-					<description><![CDATA[Employees today are more mobile than ever. As we saw, due to COVID-19 the majority of organizations moved their employees]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Employees today are more mobile than ever. As we saw, due to COVID-19 the majority of organizations moved their employees to a work from home model overnight. This quick change of location forced businesses to implement solutions that would provide their workforces secure remote access to an increasingly complex corporate network. Notions that used to be simpler, like Bring Your Own Device (BYOD) and the cloud stack further complicate secure access policy management as employees wander from the office. </p>
-<p>While working from home can increase productivity, improve employee performance and reduce costs for organizations, it comes with its challenges. Slow mobile networks and latency when connecting to corporate web applications can put a burden on remote employees, resulting in decreased productivity. However, speed and connectivity aren’t the only challenges when it comes to mobile networks.</p>
-<p>As cloud adoption and BYOD are on the rise, security and IT teams must face the challenge of securing the network from outside the office. If the organization is growing network security is harder to keep up with: more devices, more unique roles to account for, and unfamiliar IP addresses connecting to the network &#8211; all requiring proper security consideration. Without a deliberate approach, malicious actors can more easily compromise the organization’s network security from different points of entry.</p>
-<p>To fight off potential attacks, organizations need to rethink their network security strategy by quickly adopting authentication and testing for vulnerabilities inside the network where their applications reside. </p>
-<h3>Testing Environments and Networks Comes with Security Risks </h3>
-<p>Automating the testing of mobile and desktop apps through the cloud saves organizations time, money, and resources but it is also crucial to make sure that this testing environment is secured. When testing applications, employees’ networks and connections must be secured in order to add another layer of protection against hackers trying to breach the testing environment. While Sauce Labs offers its Sauce Connect Proxy, a built-in HTTP proxy server that opens a secure &#8220;tunnel&#8221; connection for testing between a Sauce Labs virtual machine or real device and a website or mobile app hosted behind a corporate firewall, it is not the only security step to consider when testing remotely. </p>
-<p>If an employee doesn’t have any kind of extra layer of defense when connected to his or her network, he or she is exposed to hackers trying to infiltrate their organization’s resources. One of the most common types of attacks on a network is unauthorized access. Hackers will gain entry by accessing the network by stealing employees’ weak passwords or infiltrating previously compromised users. </p>
-<p>Another common risk is access control privilege escalation. This occurs when an attacker has gained access into the network and moves horizontally inside the network infrastructure and servers. This threat allows hackers to gain access to more resources and data with the original privileged access credentials they have stolen. </p>
-<p>To avoid these types of attacks, organizations need to implement more concrete user restrictions with a privileged access model. This will allow them to limit who has access to their network and applications, and what they can access. By restricting access to a certain amount of users, you will decrease the number of authorized access risks to your network. With stricter network access rules in place, you will have a more secure testing environment as well. </p>
-<h3>Security Solution for a More Secure Network</h3>
-<p>Knowing about network risks is only half the battle. When discovering a risk to your organization, you need to clearly strategize how to address it and be proactive so it doesn’t happen again. One of the most effective ways for organizations to ensure a secure network for testing their applications is by implementing security solutions that have strong access policy controls. </p>
-<p>A key benefit that comes with implementing a network security solution is the increased ability to find and fix network vulnerabilities and monitor network activity. With the help of security solutions sitting at the edge of your corporate network, you can quickly identify an attack and fix the exploitable endpoint which would otherwise have been an entry point for a successful attack. </p>
-<p>Network security solutions offer a group of tools, policies, and data to help create a stronger comprehensive security strategy. The key motive when adopting security solutions is to increase the organization’s security from incoming attacks, meaning to make a successful attack an expensive and difficult prospect for any would-be hacker. </p>
-<p>Alongside these security solutions, the organization will need to adopt accompanying company-wide policies that mitigate any insider risks the organization will face. Some organizations might not have the resources to implement an internal security strategy and in these cases a third party security solution will provide them with the right amount of security to fight off incoming attacks.  </p>
-<h3>Moving Forward </h3>
-<p>In today’s digital world, the biggest concern for organizations is data security. Attacks on organizations’ networks are happening more often and with a bigger impact, requiring companies to implement strong cybersecurity strategies in order to ensure  their network isn’t similarly vulnerable against unauthorized access. When testing your mobile and web application in a testing environment, make sure you have secure access to your corporate network. This is all it takes to test more applications without worrying about the security of your network. </p>
-<p>=======</p>
-<p><i>This post was written by Zev Brodsky, Content Marketing Manager at </i><a target="_blank" href="http://www.perimeter81.com" rel="noopener noreferrer">Perimeter 81</a><i>. On July 29, Perimeter 81 and Sauce Labs will be doing a joint webinar about how organizations networks and connections must be secured in order to add another layer of protection against hackers trying to breach the testing environment. </i><a target="_blank" href="https://www.brighttalk.com/webcast/18039/426741" rel="noopener noreferrer">Sign up here</a><i>.</i></p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/what-security-means-for-web-and-mobile-application-testing">Source link </a></p>
 ]]></content:encoded>
 					
 		
