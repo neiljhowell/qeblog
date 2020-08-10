@@ -148,6 +148,47 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>Neotys Announces NeoLoad 7.5 &#8211; Neotys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neotys-announces-neoload-7-5-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2020 13:32:32 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Announces]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neotys-announces-neoload-7-5-neotys/</guid>
+
+					<description><![CDATA[NeoLoad 7.5 unveils new Workspace feature set and enhanced integrations with Dynatrace and Tricentis Tosca.  NeoLoad’s collaboration and integration capabilities]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div id="post-101861"> <!-- .et_post_meta_wrapper --></p>
+<div class="entry-content">
+<p><a target="_blank" href="https://www.neotys.com/neoload/whats-new" rel="noopener noreferrer"><span style="font-weight: 400;">NeoLoad 7.5</span></a><span style="font-weight: 400;"> unveils new Workspace feature set and enhanced integrations with Dynatrace and Tricentis Tosca. </span></p>
+<p><span style="font-weight: 400;">NeoLoad’s collaboration and integration capabilities are now even more powerful. NeoLoad introduces a new way for teams to collaborate and organize their performance testing: Workspaces. Integration with Dynatrace is now native in NeoLoad, one click to access bi-directional data in either UI and speed up analysis.</span></p>
+<p></p>
+<p> </p>
+<h2><b>What’s New in This Release?</b></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Workspaces</strong> Workspaces enable administrators to assign users into teams who can then separate assets such as tests, test results and webhooks in one or multiple Workspaces. Workspaces allow teams to better collaborate on performance testing and organize their work. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Dynatrace Integration</strong> NeoLoad’s integration with Dynatrace is now native to NeoLoad. The two products share test result data which is viewable from either the NeoLoad or the Dynatrace user interface. Having the data in one view speeds test analysis and root cause analysis. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Tosca Integration</strong> NeoLoad’s integration with Tosca now includes support to convert Tosca API functional tests into NeoLoad performance tests. NeoLoad previously released support for the conversion of Tosca web, GUI and SAP functional tests to NeoLoad performance tests. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Feature enhancements – feature enhancements are also included in this release.   </span></li>
+</ul>
+<h2><strong><br />Learn More About NeoLoad 7.5</strong></h2>
+<p>Discover all of NeoLoad 7.5’s enhancements on our <a target="_blank" href="https://www.neotys.com/neoload/whats-new" rel="noopener noreferrer">What’s New page</a> or <a target="_blank" href="https://www.neotys.com/trial" rel="noopener noreferrer">download </a>the latest version and start testing today.</p>
+</p></div>
+<p> <!-- .entry-content --><br />
+					 <!-- .et_post_meta_wrapper -->
+				</div>
+<p><br />
+<br /><a href="https://www.neotys.com/news/neotys-announces-neoload-7-5">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Projects to products: How to ensure your agile team delivers real value</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</link>
 		
@@ -636,65 +677,6 @@ fbq('track', "PageView");</p>
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/link-github-actions/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Six Hundred Million Reasons to Celebrate: No More Ransom Turns FOUR!!</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/six-hundred-million-reasons-to-celebrate-no-more-ransom-turns-four/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 27 Jul 2020 17:05:17 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Celebrate]]></category>
-		<category><![CDATA[million]]></category>
-		<category><![CDATA[Ransom]]></category>
-		<category><![CDATA[Reasons]]></category>
-		<category><![CDATA[Turns]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/six-hundred-million-reasons-to-celebrate-no-more-ransom-turns-four/</guid>
-
-					<description><![CDATA[Happy Birthday! Today we mark the fourth anniversary of the NoMoreRansom initiative with over 4.2 million visitors, from 188 countries,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="container medium">
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Happy Birthday! Today we mark the fourth anniversary of the <a target="_blank" href="https://www.nomoreransom.org/" rel="noopener noreferrer">NoMoreRansom</a> initiative with over 4.2 million visitors, from 188 countries, stopping an estimated $632 million in ransom demands from ending up in criminals’ pockets. It would be fair to say that the initiative, which started in a small meeting room in the Hague, has been integral for so many in the perpetual fight against cybercriminals.</p>
-<p>Powered by the contributions of its 163 partners the portal, which is available in 36 languages, has added 28 tools in the past year and can now decrypt 140 different types of ransomware infection. To think, just four years ago we started with only a handful of decryptors and partners. That speaks volumes to the commitment by all members to collaborate and work together to give victims a third option; #DontPay.</p>
-<p>All this hard work took place in an ever-changing cybercriminal landscape; during those four years ransomware criminals shifted their tactics from “spray and pay”, mostly aimed at consumers, to highly organized crime groups actively seeking to paralyze complete organizations and extort them for astronomical amounts of money.</p>
-<p>These challenges have not discouraged NoMoreRansom and its partners; on the contrary, having a strong public private partnership between Law Enforcement and the Private sector has proven essential in several (ongoing) investigations. Without a doubt, we will be the first to admit that fighting ransomware has not been easy but that should not stop us from doing things that are hard.</p>
-<p>We are delighted to continue supporting this initiative and play our part in fighting this global problem. However, we have to stress that the fight against ransomware is far from over, in fact we need more collaborative initiatives to combat the rise in malicious activity.  Also, there are still many individuals and organizations that do not even know about NoMoreRansom. Even within the information security industry there are those who have not heard about the availability of free decryption tools.</p>
-<p>Please share the message: #DontPay #NoMoreRansom</p>
-</p></div>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/six-hundred-million-reasons-to-celebrate-no-more-ransom-turns-four/">Source link </a></p>
 ]]></content:encoded>
 					
 		
