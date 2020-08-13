@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 07 Aug 2020 16:57:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Aug 2020 06:07:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,76 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How Should I Organize My Automation Team?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-should-i-organize-my-automation-team/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 11 Aug 2020 06:07:18 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[organize]]></category>
+		<category><![CDATA[team]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-should-i-organize-my-automation-team/</guid>
+
+					<description><![CDATA[Joan Rivers once wrote, “I don’t want to order dinner by yelling into a plastic clown’s mouth”. We’ll get back]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Joan Rivers once wrote, “I don’t want to order dinner by yelling into a plastic clown’s mouth”. We’ll get back to that shortly.</p>
+<p>There is a compelling discussion to have about creating a dedicated team to “do all the automation”. Why not have all the automation developers or SDETs be on one team? After all, automation creation is a special skill like database administration and CI/CD/CT pipeline management, so shouldn’t we treat automators for testing in the same way? We can just hand them the requirements or acceptance criteria and they can bang out those automation scripts for us.</p>
+<p>Some call the above situation the <em>automation drive-thru</em>; it’s an apt analogy. Like a fast-food drive-thru, you simply decide what you want to order, yell your order into a clown’s mouth, pay some fee, then get your food from the window. No muss, no fuss. Can’t automation development be similar?  Instead of a greasy burger, some chicken nuggets, or some delicious tacos, out comes an automated test script; again, no muss, no fuss, right? Sadly, it doesn’t always work out with no muss or fuss.</p>
+<p>The drive-thru is but one way to organize teams for automation; there are, however, three ways: the dedicated automation team, the distributed automation team, and the hybrid approach.</p>
+<p>Let’s explore!</p>
+<h2 id="h.xpvxmlms6ppg"><strong>What Does A Dedicated Automation Team Look Like?</strong></h2>
+<p>I know of an organization in a Fortune 500 company that had (and perhaps still has) a dedicated team that creates their automation for at least one organization. Putting snark aside, the dedicated automation team was the working, professional, effective version of the automation drive-thru. This team would take in requests to create automation scripts based on test cases and then create automated scripts that would (give or take) do what was prescribed based on the test cases. In general, I would dismiss this as folly; no sufficiently experienced testing professional could think this was a good working model. But, they did, and it was. This organization was producing quality automation with actual value. The organization was succeeding. I know this because I was well acquainted with their former leader and with several of their automation engineers.</p>
+<h3 id="h.4tb3yqvyj1om"><strong>Dedicated Team Advantages</strong></h3>
+<p>The main advantages of the dedicated team are the <a target="_blank" href="https://www.merriam-webster.com/dictionary/critical%20mass" rel="noopener noreferrer">critical mass</a> of automation expertise and the <a target="_blank" href="https://www.merriam-webster.com/dictionary/economy%20of%20scale" rel="noopener noreferrer">economy of scale</a>.</p>
+<p>Regarding <em>critical mass</em>, if you have all the automation expertise in one place, the automation endeavor has less friction when it comes to helping one another conquer automation challenges and deliver new automation capabilities. New automation engineers can be brought up to speed quickly because they have the rest of the automation team “at arm’s reach”. The walls between who automates what don’t need to exist (except when funding comes into play, but, to quote <a target="_blank" href="https://altonbrown.com/" rel="noopener noreferrer">Alton Brown</a>, that’s another show).</p>
+<p>Following from, and dependent on, critical mass is the ability to gain an economy of scale. The <em>Economy of scale</em>, for our purposes, is being more productive, efficient, effective, and therefore economical in the delivery of automation. Speaking practically, this means that there is a consistency that can be attained by having a dedicated automation team and that consistency can scale because of the critical mass and consistency. The dedicated team can be indoctrinated with the organization standards and the organization can preside over the guidelines; automation, regardless of framework or library, can be implemented based on a consistent ideology. When implemented judiciously, this approach can deliver economic gains to the organization and the company.</p>
+<h3 id="h.dvwkrai2iojn"><strong>Dedicated Team Limitations</strong></h3>
+<p>As is said, into every life some rain must fall. The main downside to a dedicated automation team is that the team, while experts in automation, likely lacks detailed domain knowledge. Of course, the automation team knows the basic operation of the system under test, but most current applications are large, distributed, multiple-serviced entities. It’s not realistic for a relatively small team of automation developers to be “sufficiently versed” in the esoterica of how each subsystem works; the details eventually get too small for this team to keep up. The limitation is further strained when the dedicated team is expected to provide automation across heterogeneous application environments. Having worked in an organization that was responsible for producing automation across disparate applications, I can attest that a lack of domain knowledge was a challenge to the value proposition.</p>
+<h2 id="h.r7h2am996zom"><strong>What Does A Distributed Team Look Like?</strong></h2>
+<p>Spinning 180 degrees from a dedicated automation team, we have the distributed automation team. Generally, a <em>distributed automation team</em> falls into one of three categories: in-team automation specialists, testers/QAs do the automation, developers do the automation.</p>
+<p>In the case of <em>automation specialists</em>, often called software development engineers in test (SDETS) or quality engineers (QE), the name describes the role. The automation specialists only do that: automation. In the microcosm, we have that economy of scale and specialization, but it’s a relatively small economy in the scope of the overall company because it’s exclusive to the team on which the automation specialists work; this is especially true if the company has many, similar delivery teams. In this team implementation, the automation specialists are not testers/QAs; they work with the testers/QAs as well as the developers to develop the automation that helps the team be more effective or more efficient at testing.</p>
+<p>It’s a great story to say that the <em>testers/QAs do the automation</em>. They automate instead of “doing it manually” and the team “goes faster”. To accomplish this approach, the testers/QAs need to have time to gain the skills necessary for automation; they also need the time to create and maintain the automation. Often, the <em>whole team does automation</em> variant can be more effective. In this model, the automation work, like other work, is not assigned to one role; anyone on the team with the appropriate skill set is empowered to perform or help with any task. Developers know how to program so they can be a natural fit to create automation or pair with a tester to create automation.</p>
+<p>A third, and recently hot, approach is “we don’t need testers” because we can have the <em>developers do the automation</em>. This has a direct correlation to the testers/QAs do the automation approach, namely that automation is something you “just do” without training or special skills; since automation is programming and developers know how to program, it’s a natural fit for them. Like testers, however, developers need time to gain the appropriate skills to appropriately implement automation.</p>
+<h3 id="h.6nbsm161v46e"><strong>Advantages</strong></h3>
+<p>Since the automators, whoever they happen to be, can focus their implementations on the app or app area on which their team works, they can have deep domain knowledge of the software. This allows the automators, and therefore the automation, to be very specific and specialized in the automation they create. Since the automation software doesn’t have to be generalized across all application teams, there can be some cost savings in some cases; the automaton software, the frameworks and reusable libraries, in particular, don’t have to be all things to everyone so the automation can be created faster and likely at a lower cost.</p>
+<p>Additionally, the deep domain knowledge enables the automators to discover hence unthought-of paths in the code that merit testing. This is difficult-to-impossible without the deep domain knowledge this approach permits.</p>
+<p>Distributed automation teams are especially appropriate when the teams are working disparate products where there is little-to-no overlap between the application or system technologies.</p>
+<h3 id="h.3ur7mf8q0tt1"><strong>Limitations</strong></h3>
+<p>If <em>automation specialists</em> are creating the automation, these automators are often over-burdened or under-utilized. If there’s too much automation to create, not all of it gets created. This is not necessarily a bad thing, but it can be sub-optimal if critical or high-value automation can’t be implemented simply because the team “doesn’t have time”. Conversely, if there’s “not enough” automation work to fully occupy the automators, they may be idle and the team loses potential value.</p>
+<p>That’s OK, let’s “just” have the <em>testers/QAs do automation</em>. Bzzt, play again. There is an unfortunate perception that automation is something that you “just do”. I just brush my teeth, I just eat lunch, I just run some test cases, and I just create some automation. As much as it would be great if this were true, it’s just not. What typically happens is that the testers/QAs are “tasked” with automation with little-to-no guidance or training and this effort is heaped on top of their existing work, which continues to grow; when was the last time a team released a new version of their software with fewer features? Unless the organization is tolerant of a “let’s slow down now to go faster later” strategy, this approach is fraught with peril and the likely outcome will be “automation can’t work here”.</p>
+<p><em>Developers do the automation</em> has a similar issue. Leadership wants this to happen with negligible impact to effort estimates even in the short term. For teams that can’t embrace the “let’s slow down now to go faster later” strategy, one of two outcomes is usually the result. One outcome is that the created automation is largely confirmatory; the automation shows that the software can work under very specific conditions and other conditions are not accounted for; the developers are often required to perform heroic efforts to accomplish even this due to needing to attain an on-time delivery. The other outcome is that automation takes “too long” so it doesn’t work here, and the automation endeavor is abandoned.</p>
+<p>If the automation creation is truly distributed, it is difficult or impossible for the teams to leverage each other’s work. Even the most well-meaning teams that try to develop cooperatively will have trouble doing so in a consistent manner. The incentive for the individual teams is to achieve the goals set for those teams. This work is not purposely completed to the detriment of the other team, but there is usually little-to-no incentive for teams to cooperate at that level. Senior leadership is usually not thrilled to pin their organization’s success on the “goodwill” of another team; similarly, those same leaders are not likely to jeopardize their organization’s success by spending some of their team’s cycles to help another team’s automation implementation if the need comes at a critical time.</p>
+<p>If code sharing is still desired, some of the hard dependencies can be mitigated by having a shared codebase, something like an “internal open source” repository. The primary challenge there is when conflicting changes are made to the shared code. How is that conflict resolved? Often, even in the best-intentioned companies, organizational incentives and directives reign so the teams agree to fork the shared automation repository with the well-intended agreement to merge after the next business milestone. Sadly, that seldom happens; there’s always another business milestone.</p>
+<h2 id="h.n0ijeftvftn7"><strong>The Hybrid Approach – An Oft-Appropriate Middle Ground</strong></h2>
+<p>So, let’s split the difference, shall we?</p>
+<p>As noted above, there are advantages and disadvantages to each of the preceding approaches. What if we meld the two? Let’s take the strengths of each team layout and attempt to mitigate the disadvantages. The goal is to let each of the disciplines focus on its strengths.</p>
+<p>In this approach, the automation development is divided into two competencies: the base team and the distributed teams.</p>
+<h3 id="h.7t0zz298japi"><strong>The Base Team</strong></h3>
+<p>The base team is responsible for all the shared infrastructure. Need a wrapper around Selenium’s WebElement? The base team handles that. Need an encapsulation around Microsoft’s API library? The base team handles that, too. Need some helper functions to reduce the effort required to create or maintain automation? That’s right, the base team handles that.</p>
+<p>The base team comprises experienced automation developers who are in the best position to provide a general framework, platform, and infrastructure for automation creation. The base team is also tasked with the training, coaching, and guidance of the teams implementing the actual automation.</p>
+<p>It’s also responsible for coaching on the appropriate practices for the company. This team is trained in automation strategy, implementation, and theory. They provide the base infrastructure implementation and many, if not all, of the shared components used across the distributed teams but they understand and can coach on the theory behind the strategy and implementation.</p>
+<h3 id="h.ybgh72o25dkm"><strong>The Distributed Teams</strong></h3>
+<p>The distributed teams consume and exploit the value provided by the base team. They are domain experts who have intimate knowledge of the software being tested and of how to use the shared automation created by the base team. This is the team that writes the automation that helps the testers.</p>
+<h3 id="h.u4kftvqyn41a"><strong>Risks</strong></h3>
+<p>This is not a panacea.</p>
+<p>If the base team isn’t staffed with enough appropriate people to service all of the distributed teams, the base team will become a bottleneck, actually impeding progress instead of facilitating it. If getting enough appropriate base team staff members is a challenge, the previously mentioned internal open-source model can be valuable. This model has a higher chance of success with a base team than with a purely distributed model because the base team is the steward of the shared code. Care must be taken, however, to avoid the next risk.</p>
+<p>A dedicated base team runs the risk of becoming or at least being viewed as an <em><a target="_blank" href="https://en.wikipedia.org/wiki/Ivory_tower" rel="noopener noreferrer">ivory tower</a></em>, i.e., delivering intellectual solutions and directives as opposed to practical and workable ones. One way to mitigate this risk is to give the base team a directive to be collaborative as opposed to dictatorial, conversations as opposed to edicts. Another way is to include members of the distributed team as stakeholders, which they indeed are, in any prioritization and feature creation discussions.</p>
+<p>Sadly, as in many other corporate aspects, politics often play a role when organizing a base team. The base team is seen as strategic: whoever controls the base team owns their own automation destiny. When one application team or organization controls the base team, the non-controlling teams and organizations are at a disadvantage when conflicts arise or when the controlling team must make difficult business decisions. One way to mitigate this situation is to organize the base team in a “shared services” organization, such as the organization that houses IT and security.</p>
+<h2 id="h.hjr12jrszzq7"><strong>Recommendations?</strong></h2>
+<p>There’s not really a wrong way to organize an automation team. The key is to be appropriate; let the context of what the company and organizations need and will tolerate. The hybrid team can be very powerful and has most of the advantages of both the dedicated team and the distributed team approaches. That said, the hybrid approach is not appropriate for every company or organization. There is a large amount of trust and some organizational overhead with this approach; there’s also a funding facet. Choose an appropriate approach then be prepared to evolve if the initial choice becomes inappropriate.</p>
+<p>[Editor’s Note: We are grateful to Paul Grizzaffi for contributing his blog post. If you are looking for some real-world examples that echo Paul’s hypotheses and conclusions, check out Marie Drake’s <a target="_blank" href="https://applitools.com/blog/roadmap-testing-design-system/" rel="noopener noreferrer">webinar on testing a design system at News UK</a> and Priyanka Halder’s <a target="_blank" href="https://applitools.com/blog/high-performance-testing/" rel="noopener noreferrer">webinar on high performance testing at GoodRX</a>.]</p>
+<h2 id="h.subofs6j3bm2"><strong>For More Information</strong></h2>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/organize-my-automation-team/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>NeoLoad introduces a new way for teams to collaborate and organize their perfor&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neoload-introduces-a-new-way-for-teams-to-collaborate-and-organize-their-perfor/</link>
 		
@@ -524,40 +594,6 @@ fbq('track', "PageView");</p>
 </p></div>
 <p><br />
 <br /><a href="https://techbeacon.com/enterprise-it/data-analytics-101-what-it-means-why-it-matters">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Meet The Experts: Wim Selles</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-wim-selles/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Experts]]></category>
-		<category><![CDATA[Meet]]></category>
-		<category><![CDATA[Selles]]></category>
-		<category><![CDATA[Wim]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/meet-the-experts-wim-selles/</guid>
-
-					<description><![CDATA[Solutions architect Wim Selles helps customers successfully implement and get the most value out of their investment in Sauce Labs.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Solutions architect <a target="_blank" href="https://twitter.com/wswebcreation" rel="noopener noreferrer">Wim Selles</a> helps customers successfully implement and get the most value out of their investment in Sauce Labs. He loves to answer questions and help solve puzzles for customers—and he wants to make people as enthusiastic about mobile test automation as he is. </p>
-<p>Wim conducts trainings, shares best practices, and travels the world (virtually, nowadays) to make this happen. He has two pieces of advice that he often shares with customers. First, create a solid test base that you can rely on. This will give you confidence in your automated testing efforts. Second, Wim recommends that you avoid coding for coding’s sake. Make sure what you’re doing is really adding value. </p>
-<p>In addition to his passion for test automation, Wim enjoys contributing to the open source community—WebdriverIO, specifically— and spending time with his family and two young daughters.</p>
-<p>Learn more about Wim in this short video. </p>
-<div class="video">
-<p><div class="fitvids-video"><iframe title="Meet The Sauce Labs Experts - Wim Selles" width="800" height="450" src="https://www.youtube.com/embed/7Zew7jU42Z4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-</div>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://saucelabs.com/blog/meet-the-experts-wim-selles">Source link </a></p>
 ]]></content:encoded>
 					
 		
