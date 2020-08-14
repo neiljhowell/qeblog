@@ -259,6 +259,67 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>Q&#038;A on Behavior-Driven Development &#124; Sauce Labs</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qa-on-behavior-driven-development-sauce-labs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[BehaviorDriven]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qa-on-behavior-driven-development-sauce-labs/</guid>
+
+					<description><![CDATA[Behavior-driven development (BDD) is an agile development process that encourages teams to share tools and a process to collaborate on]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Behavior-driven development (BDD) is an agile development process that encourages teams to share tools and a process to collaborate on software development projects across developers, QA folks, and business stakeholders. Sounds good, right? I mean, who wouldn’t want to be more collaborative and transparent with all project stakeholders? I believe there is tremendous value in this type of approach. </p>
+<p>However, people choose to use BDD tools for many different reasons—and in my experience, they’re often the wrong reasons. In certain cases, BDD tools are likely to do more harm than good. Can you be successful with BDD tools? Yes. But often, how it <i>should </i>work doesn’t reflect how it usually <i>does </i>work.</p>
+<p>The overall theme of my talks is to figure out ways to make your testing initiatives more difficult to fail. It is important to keep things simple with fewer moving parts and more and useful abstractions. BDD tools generally fail when it comes to making things easier to maintain.</p>
+<p>I recently hosted a STP webinar called “<a target="_blank" href="https://www.softwaretestpro.com/the-hidden-costs-of-bdd-tools/" rel="noopener noreferrer">The Hidden Costs of BDD Tools</a>.” I shared my views on how the allure of using Cucumber or other “Given/When/Then” code wrappers seems greater than ever, but that there is a fairly narrow path to success. In the webinar, I talked about the various reasons why people choose to use BDD tools as well as what the reality looks like for many companies. I also revealed some of the inherent underlying issues with BDD tooling, including why teams so often end up in trouble when using them, and discussed some alternatives for how to get the most out of your UI testing. If you’re interested in BDD, it’s worth your time to watch the webinar. </p>
+<p>As you can imagine, BDD can be a hot topic! We got many questions and were only able to get to a few of them during the live event, so I decided to take some of the other questions and answer them right here in this handy blog post. You can also check out some of the conversations with these questions on <a target="_blank" href="https://twitter.com/hashtag/TitusOnBDD" rel="noopener noreferrer">Twitter</a>. </p>
+<p><b>What is your suggestion for how to best get started using the BDD approach? </b></p>
+<p>If you don’t know how or why to use a BDD tool: don’t use it. If you want to practice BDD, first you need to make sure your manager, product team and developers are all on board. </p>
+<p><b>Have you found any good tools/frameworks that provide documentation outside of relying on the &#8220;Clean Code&#8221; (code is readable) perspective?</b></p>
+<p>That really depends on what you are trying to document. I’d love to have “Backward BDD” tooling that generates the information people are interested in from the code, rather than having the user do it from the other direction. </p>
+<p><b>Any suggestions on how to &#8220;undo&#8221; a BDD setup?</b></p>
+<p>First, copy/paste the actual code into methods. Next, abstract out anything imperative into Page and Data Objects. </p>
+<p><b>The BDD tool worked great because there was no deep expertise on coding and I think Cucumber provides a layer (non-business) that allows them to be more effective. </b></p>
+<p>The only problem is that these tools don’t avoid the need to write good code. That still has to happen. If your goal is to give less technical people busywork, sure; but this will not  improve your test strategy.</p>
+<p><b>What would be a non-BDD alternative to a Screenplay pattern promoted by Serenity BDD? </b></p>
+<p>I’ve never seen an example, but would be interested in seeing one. Also, I prefer Atomic/Autonomous/Short DOM to Database tests which PO pattern supports and Screenplay does not.</p>
+<p><b>I also have seen all sorts of wrong usage of BDD, but TBH&#8230; I&#8217;ve also seen that elsewhere.</b></p>
+<p>Definitely important to keep in mind that browser automation is hard! Selenium provides some specific challenges that require domain knowledge and technical prowess to address. </p>
+<p><b>What&#8217;s the difference between Cucumber and Gauge?</b></p>
+<p>The difference is I haven’t used Gauge before. My BDD tooling talk applies to any software that does some form of translating English language to code.</p>
+<p><b>What is your preferred alternative to the flexibility of Cucumber&#8217;s tags for running various subsets of tests? What&#8217;s your preferred alternative for the functionality Cucumber&#8217;s profiles provide?</b></p>
+<p>This functionality will vary based on Test Runner. RSpec definitely supports these things in Ruby; I would be surprised if most test runners in other languages did not have similar functionality. </p>
+<p><b>Can you give an example of when you&#8217;ve seen BDD tools used successfully where they  provide real value?</b></p>
+<p>Depends on what you mean by “success” and “real value.” I mentioned the scenario of a consultant providing “agile transformation” within a company/team being useful, but that’s a specific (and temporary) context.</p>
+<p><b>What is your thought for data testing in capturing these requirements?</b></p>
+<p>Data Driven Testing doesn’t belong in a DOM to Database test. Make sure the form works, then any investigation into what the data entry does in your system should be at a lower level.</p>
+<p><b>What tool do you recommend for data testing to capture requirements?</b></p>
+<p>A REST client in the language of your choice.</p>
+<p><b>How do you feel about [the Geb/Spock] implementation of BDD over Cucumber  (i.e. where the feature file is not separate, but is the outline for the test case implementation)?</b></p>
+<p>I’m definitely a fan of distinguishing between Arrange, Act and Assert statements; so long as it isn’t doing natural language translation it sounds great.</p>
+<p><b>Is it possible to develop a tool that is more like a wizard that guides you through the process?</b></p>
+<p>There are codeless solutions out there, but most of what I’ve seen only handles the easier use cases and generates its own maintenance costs. One of them might be “good enough” for what you need.</p>
+<p><b> For a tester who is trying to bridge the manual to automation gap&#8230;where to start? Many job listings mention Cucumber-Gherkin.</b></p>
+<p>Manual testers who only know how to write Gherkin statements won’t have great job security, in my opinion. There really isn’t a way to escape the need for writing good code, so your best bet is to find resources to become a good developer in the first place.</p>
+<p>###</p>
+<p>Do you have a BDD question that I didn’t answer here? Hit me up on <a target="_blank" href="https://twitter.com/titusfortner" rel="noopener noreferrer">Twitter</a> (@titusfortner), and check the hashtag #TitusOnBDD to see some of the other questions I’ve answered there. </p>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://saucelabs.com/blog/q&#038;a-on-behavior-driven-development">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>We hosted a safe &#038; socially distant virtual walk / run / bike in July, encou&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/we-hosted-a-safe-socially-distant-virtual-walk-run-bike-in-july-encou/</link>
 		
@@ -514,86 +575,6 @@ fbq('track', "PageView");</p>
 </div>
 <p><br />
 <br /><a href="https://threatpost.com/vermont-taxpayers-warned-of-data-leak-over-the-past-three-years/157856/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Data analytics 101: What it means, and why it matters</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/data-analytics-101-what-it-means-and-why-it-matters/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 29 Jul 2020 15:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Analytics]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[matters]]></category>
-		<category><![CDATA[Means]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/data-analytics-101-what-it-means-and-why-it-matters/</guid>
-
-					<description><![CDATA[Incorporating analytics into the enterprise toolkit can be straightforward or complex, relatively inexpensive or a multimillion-dollar initiative. It all depends]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Incorporating analytics into the enterprise toolkit can be straightforward or complex, relatively inexpensive or a multimillion-dollar initiative. It all depends on what you want to accomplish.</p>
-<p>Analytics is simply a set of practices designed to aid analysis. It can be as basic as creating a paper report that shows monthly snowfall in a particular region, a spreadsheet that uses formulas to calculate entries from columns A and F and then write the results to column Y, or the results of far more complex methods of data reading, sorting, and discovery. </p>
-<p><a target="_blank" href="https://content.microfocus.com/guide-to-modern-data-warehouse-tb/share-bi-resources?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign= 00174153" rel="noopener noreferrer">Big data analytics</a>, a subset of analytics overall, is about the process of managing and investigating large datasets, typically stored in a repository such as a data warehouse or data store. These may reside on one or more public clouds or on an organization&#8217;s own on-premises hardware.</p>
-<p>The sources of that data can be nearly any kind of system. Traditionally, these sources provide structured data as <a target="_blank" href="https://techbeacon.com/node/3949" rel="noopener noreferrer">described in this story</a>, including transactional (sales-related) data such as point of sale, inventory, customer relationship management, and records from related systems. Structured data also includes information from IT operational systems and machine data from sources such as remote sensors and <a target="_blank" href="https://techbeacon.com/enterprise-it/how-tame-iot-guide-it-ops" rel="noopener noreferrer">other aspects of the Internet of Things</a>.</p>
-<p>Less traditional is the storage of unstructured data for analytical purposes. Unstructured data—photos, video, audio, etc.—has been considered viable for analysis only over the past 15 years or so.</p>
-<p>Here&#8217;s what you need to know to start to make sense of all of your data.</p>
-<p><em>[ Get up to speed fast with <a target="_blank" href="https://content.microfocus.com/l/guide-to-modern-data-warehouse-tb?lx=hLKzJ4&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=2000174153" rel="noopener noreferrer">TechBeacon&#8217;s guide to the modern data warehouse</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/guide-to-modern-data-warehouse-tb/buyers-guide-cloud-data-warehousing?lx=hLKzJ4&amp;lx=hLKzJ4&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=2000174153" rel="noopener noreferrer">Buyer&#8217;s Guide to Data Warehousing in the Cloud</a>. ]</em></p>
-<h3>The modes of data query and analysis</h3>
-<p style="margin:0in 0in 0.0001pt">Regardless of the data type, you store it to eventually learn what it may reveal. And you need an analytics process to help make sense of what&#8217;s there by asking questions that a database can interpret. This involves writing a query, done via a language that a database understands, such as SQL (Structured Query Language).</p>
-<p style="margin:0in 0in 0.0001pt"> </p>
-<p>Querying a database via SQL long predates the big data phenomenon. SQL database vendors in the early &#8217;90s made it easier than it had been before for businesses to use SQL to understand trends in their acquired data. Another piece of this was also to create stored procedures that external applications could use to automate processing of back-end data storage and end-user results.</p>
-<p>Nowadays, a big data query can certainly be an ad hoc question, because a business user might want to know how many bicycles he has sold to medium-income buyers in Illinois during the month of October.</p>
-<h4><strong>Setting up standard queries</strong></h4>
-<p>But a big data query is not always a &#8220;question&#8221; in the traditional sense of one that occurs to an analyst to ask relative to some emerging situation. Often, queries are set up to work automatically for routine reporting, or as some event triggers the need for analyzing the data on hand and producing some behavior.</p>
-<p>In other words, standard queries can be set up to produce reports on a regular basis, for inventory and supply chain correlations, or about any number of routine operating statistics.</p>
-<p>But standard queries can be set up for dynamic situations as well. Say a customer comes to your site and begins clicking on the images and high-level descriptions of bicycles you have for sale. A single click on a bike&#8217;s name and photo will take the customer to more details about the particular product.</p>
-<p>But that same click can cause a variety of related items to display in the margins of the page—helmets, toe clips, side packs, lights, and other accessories. Most of us have experienced this kind of automated behavior when interacting with a commercial web page.</p>
-<p>In this example, a user&#8217;s click on a specific bike triggers a preset query that&#8217;s designed to read a database of related items and display those items for the user to consider. Simple enough.</p>
-<p>Now, imagine this is a returning customer, George, and you have some data accumulated on him—one or more items he&#8217;s bought in the past, or items he moved to the shopping cart but didn&#8217;t purchase, or any items clicked on during past site visits. In this case, you have even more intelligence regarding what to display in your margins for George.</p>
-<p>That means your preset query not only returns items related to George&#8217;s current search, but items that specifically match his past behavior, and possibly his continued interest.</p>
-<h3>Analytics&#8217; role in tracking consumer behavior</h3>
-<p>Keeping track of consumer behavior is how video or music services make movie and song recommendations for you. Netflix, for example, uses prior data from customers to provide you with these kinds of educated guesses. It&#8217;s also how your favorite outdoor-gear retailer &#8220;knows&#8221; that you&#8217;re more likely to purchase clothing than climbing equipment, for instance, and therefore sends you targeted email when it begins a two-week sale.</p>
-<p>In all cases, some system is running in the background, making recommendations for users based on accumulated data, predicting likely patterns of behavior, and adjusting offerings based on further data that the system gathers as the user browses the website in response to an email campaign.</p>
-<p>Being able to set up this sort of cause-and-effect sequence of likely consumer paths is essential to intelligent business operations. But speed is also a major factor, since the faster a system can respond to these events—e.g., a click here, returning a new display there—the faster a business can act on that insight.</p>
-<p>When you compare that capability to what happens on a static web page, where just the details of a bike the user clicks on get displayed, you see the opportunities that a more dynamic, data-driven process can create for the site owner.</p>
-<p><em>[ How important is DX to your org? <a target="_blank" href="https://www.surveymonkey.com/r/DX00?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="nofollow noopener noreferrer">Take our survey</a> and find out how you stand next to the competition. Plus: <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. ]</em></p>
-<h3>Why more data is always better</h3>
-<p>Big data analytics can also show previously unrecognized patterns based not just on buying habits, but also on equipment failure rates, <a target="_blank" href="https://towardsdatascience.com/sentiment-analysis-concept-analysis-and-applications-6c94d6f58c17" rel="nofollow noopener noreferrer">sentiment analysis</a> of massive volumes of text messages, or health indicators such as heart rate and blood pressure. The more data, the more correlations between various factors you can verify and use to predict and achieve the desired outcome.</p>
-<p>Understanding consumer behavior and how to respond is one thing. Businesses can also please customers and help ensure repeat business by understanding their own operational needs and dependencies.</p>
-<p>Here&#8217;s a simple example: Suppose you operate a pizza delivery business that supports multiple restaurants in a given area. Depending on geography, driving times based on traffic patterns vary throughout the day, from morning to midday to evening rush hour. Ideally, you can analyze where driving complexities lie during certain times of day. Google can provide basic route data, and estimate time to delivery.</p>
-<p>But an accumulation of local data—based on knowledge of road construction work, current traffic conditions, and alternative routes—can allow you to get more specific. You might learn, say, that there are delivery times of plus or minus five minutes for some restaurants, and you can advise your customers accordingly.</p>
-<p>You can also incorporate weather data: What&#8217;s the forecast? Those adjustments can allow more accurate delivery-time predictions. Without a big data analytics tool, you can&#8217;t predict your delivery time with much accuracy.</p>
-<h3>Common modes of analytics</h3>
-<p style="margin:0in 0in 0.0001pt">The key word in the previous paragraph is &#8220;predict.&#8221; <a target="_blank" href="https://techbeacon.com/enterprise-it/3-ways-put-predictive-analytics-work-it-ops" rel="noopener noreferrer">Predictive analytics</a> is the art and science of probability-based data assessment and decision making. But it isn&#8217;t the only type of analysis that big data techniques can help with. </p>
-<p style="margin:0in 0in 0.0001pt"> </p>
-<h4><strong>Descriptive analytics</strong></h4>
-<p>This data set &#8220;describes&#8221; a state or condition that needs to be understood. One simple example: a printed report that shows how many trucks within a fleet of vehicles are available for deployment next Thursday. Electronic dashboards showing system throughput and computational workloads across a business&#8217;s IT environment is another; this uses data to help IT teams balance the loads properly and reduce bottlenecks.</p>
-<p>Returning to the bicycle website example, when George 1) clicks on a bike image, and 2) all he gets is a set of details about that particular model, such as the average customer rating, that&#8217;s another example of descriptive analytics.</p>
-<p>This sort of user experience is little more than a hierarchical display of goods for sale—a report, in a sense—with higher-level elements (bike photo, name, price) leading to lower-level elements (specifications, construction details, colors). This is certainly helpful information, but it&#8217;s not nearly the extent of what can be accomplished with data. </p>
-<p>To be clear, descriptive analytics is extremely useful in some circumstances. It can help pinpoint what is wrong in a given situation so that corrective steps might be taken. When you feel sick and visit a doctor, you expect the doctor to know what to do about your condition so you&#8217;ll feel better.</p>
-<p>As long as your condition can be described and it&#8217;s nothing out of the ordinary, it&#8217;s likely something that can be fairly easily diagnosed. For instance, your blood pressure can be compared against others in your age group, your doctor can show you the average (mean) statistics, and either assure you all is well or advise a new regimen to improve your numbers.</p>
-<h4>Predictive analytics</h4>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/predictive-analytics-vs-ai-why-difference-matters" rel="noopener noreferrer">This type of analytics</a> is designed to predict an upcoming event, or at least understand the probability of something occurring. As such, it gives you a powerful tool for succeeding in a specific endeavor. In e-commerce, for example, the ability to predict your customers&#8217; buying habits based on known patterns is a great way to plan for your next steps.</p>
-<p>If George, your prospective bike purchaser, is a returning customer, great. You know something about his buying habits, his preferences, and his decision-making process. But even if George is a new customer, the data you&#8217;ve retained from all your other customers can keep George interested and more likely to buy from you, or at least return at some later date. How does that work?</p>
-<p>This requires you to build a predictive model<em>,</em> based on buckets of customer information acquired over months or years of interaction with bicycle customers. If George comes to the site and you have a collection of data that fits his demographics, what do customers like him typically buy? Can you assign a score to George based on his apparent interests and offer him something that has proved successful with other customers at his interest level?</p>
-<p>If you have hundreds of customers like him, you have the basis for a model to use for displaying the accessories discussed earlier, plus other bikes, plus any number of elements from your retail bag of tricks that might keep him browsing. There are no guarantees, of course. But a user experience based on predictive analytics is clearly superior to one based on simple descriptive analytics.</p>
-<h3>Use predictive models to manage the unknown </h3>
-<p>Now, here&#8217;s a great thing about big data analytics: There are patterns lurking within the data that you&#8217;re likely not even aware of but that you can possibly discover and put to work. That&#8217;s where predictive analytics based on truly big data comes into play.</p>
-<p>In the bike website example, the datasets amassed over time might not be huge, but they have helped you and your team understand some essential patterns that reveal buying behavior, including some patterns that describe a customer who is not interested. When you apply those same patterns to truly large datasets and use a system that can identify similar correlations between one activity and another, wholly new patterns that can lead to success may become evident.</p>
-<p>Simply put, patterns are maps to behavior, human or otherwise. But why does it matter?</p>
-<p>Imagine being able to sort through hundreds of thousands of details from your sales transactions to discover whether or not men in Canada between the ages of 25 and 40 tend to buy your thicker, dark socks in October. You do some correlations, and you find out—no! They tend to buy brighter colors during that month.</p>
-<p>You can now run a sale and web promotion on those items—and watch your sales increase by 30%. You can add more variables, too, and test theories about buying habits based on income range or seasonal conditions. Is this going to be a harsh winter? Will that increase the probability of my sock sales or not?</p>
-<h3>Removing some of the guesswork</h3>
-<p>You might argue this is just an example of the educated guesswork that businesses have used for years, and you might be right. But big data analytics can take guesswork out of the picture when you encounter situations such as this.</p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-</p></div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/data-analytics-101-what-it-means-why-it-matters">Source link </a></p>
 ]]></content:encoded>
 					
 		
