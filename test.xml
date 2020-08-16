@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 11 Aug 2020 06:07:18 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 14 Aug 2020 21:20:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,212 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>PoC Exploit Targeting Apache Struts Surfaces on GitHub</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/poc-exploit-targeting-apache-struts-surfaces-on-github/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2020 21:20:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[Exploit]]></category>
+		<category><![CDATA[PoC]]></category>
+		<category><![CDATA[Struts]]></category>
+		<category><![CDATA[Targeting]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/poc-exploit-targeting-apache-struts-surfaces-on-github/</guid>
+
+					<description><![CDATA[Researchers have discovered freely available PoC code and exploit that can be used to attack unpatched security holes in Apache]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researchers have discovered freely available PoC code and exploit that can be used to attack unpatched security holes in Apache Struts 2.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/poc-exploit-github-apache-struts/158393/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The #AppSec 50: Top application security pros to follow on Twitter</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-appsec-50-top-application-security-pros-to-follow-on-twitter/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2020 14:45:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Application]]></category>
+		<category><![CDATA[AppSec]]></category>
+		<category><![CDATA[Follow]]></category>
+		<category><![CDATA[pros]]></category>
+		<category><![CDATA[Top]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2745</guid>
+
+					<description><![CDATA[Attacks on the application layer can be the hardest to defend against. User input scenarios for your apps can be]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Attacks on the application layer can be the hardest to defend against. User input scenarios for your apps can be difficult to identify with intrusion detection signatures. On top of that, the layer is the most accessible and exposed to the Internet. It&#8217;s a recipe for trouble.</p>
+<p>That&#8217;s why <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-app-sec?lx=QKJph-" rel="noopener noreferrer">application security soldiers need to stay on top of what&#8217;s happening in their field</a>. As the threats to applications grow, so has our list of knowledgeable folks whose Twitter feeds can help anyone interested in keeping applications safe from malicious hackers.</p>
+<p>With the help of our original <a target="_blank" href="https://techbeacon.com/security/top-25-appsec-leaders-follow-twitter" rel="noopener noreferrer">25 app sec experts to follow on Twitter</a>, we&#8217;ve enlarged the list. Here are 50 savvy security practitioners who you should closely follow.</p>
+<h3>Katy Anton</h3>
+<h4><a target="_blank" href="https://twitter.com/KatyAnton" rel="nofollow noopener noreferrer">@KatyAnton</a></h4>
+<p>Anton, a self-described app sec enthusiast and an application security consultant with Veracode, works with software architects, developers, and security teams around the world, advising them on how to secure their software. She&#8217;s also co-lead of <a target="_blank" href="https://owasp.org/www-project-proactive-controls/" rel="nofollow noopener noreferrer">OWASP&#8217;s Top 10 Proactive Controls Project</a>—a list of security techniques that should be included in every software development project—and a well-known speaker at both developer and security conferences.</p>
+<h3>Kurt Baumgartner</h3>
+<h4><a target="_blank" href="https://twitter.com/k_sec" rel="nofollow noopener noreferrer">@k_sec</a></h4>
+<p>Baumgartner is a principal security researcher with Kaspersky Lab&#8217;s Global Research and Analysis Team, where he monitors malware across the Americas. His specialties include reversing and analyzing known and unknown malware, and identifying unique behaviors and static characteristics. In addition to tweeting, he blogs.</p>
+<h3>Kevin Beaumont</h3>
+<h4><a target="_blank" href="https://twitter.com/GossiTheDog" rel="nofollow noopener noreferrer">@GossiTheDog</a></h4>
+<p>Beaumont is a senior threat intelligence analyst at Microsoft. He joined the gang in Redmond after spending years running large security operations centers and writing about cybersecurity in his popular DoublePulsar blog and on Twitter. Microsoft has credited Beaumont and Marcus Hutchins—who <a target="_blank" href="https://www.newstatesman.com/spotlight/cyber/2020/05/man-who-stopped-wannacry" rel="nofollow noopener noreferrer">stopped the 2017 WannaCry ransomware cryptoworm outbreak</a> and was later arrested for his efforts—with identifying the first attempts to exploit BlueKeep. This was a Windows bug that had the potential to be as severe as WannaCry, which affected more than 200,000 computers in 150 counties.</p>
+<h3>Brute Logic</h3>
+<h4><a target="_blank" href="https://twitter.com/brutelogic" rel="nofollow noopener noreferrer">@brutelogic</a></h4>
+<p>Brute Logic is Brazilian hacker Rodolfo Assis, a self-employed information security researcher and consultant. His main interest is cross-site scripting (XSS), one of the most common vulnerabilities found in websites. Over his career, Brute Logic has helped fix more than 1,000 XSS vulnerabilities in web applications, including those of Oracle, LinkedIn, Baidu, Amazon, Groupon, and Microsoft. He is currently managing, maintaining, and developing an online XSS discovery service, called KNOXSS, to help bug hunters find vulnerabilities.</p>
+<h3>Adam Chester</h3>
+<h4><a target="_blank" href="https://twitter.com/_xpn_" rel="nofollow noopener noreferrer">@_xpn_</a></h4>
+<p>Chester is a red teamer, infosec researcher, and blogger, as well as technical director at MDSec, a provider of information security publications, tools, and training. He gained some notoriety demonstrating how <a target="_blank" href="https://blog.xpnsec.com/total-meltdown-cve-2018-1038/" rel="nofollow noopener noreferrer">the Meltdown design flaw</a> in Windows 7 and Windows Server 2008 R2 could be exploited by an ordinary user to create an administrator-level command-line shell.</p>
+<h3>Lee Christensen</h3>
+<h4><a target="_blank" href="https://twitter.com/tifkin_" rel="nofollow noopener noreferrer">@tifkin_</a></h4>
+<p>As a security consultant with SpecterOps, Christensen does red teaming, penetration testing, tool development, malware hunting, and security training. He says he enjoys studying attacker tradecraft, as well as researching and developing new offensive and defensive tactics, techniques, and procedures. Christensen is the author of several offensive tools and techniques, including <a target="_blank" href="https://www.optiv.com/explore-optiv-insights/blog/unmanaged-powershell-binaries-and-endpoint-protection" rel="nofollow noopener noreferrer">UnmanagedPowerShell</a> (incorporated into the Metasploit, Empire, and Cobalt Strike toolsets), and KeeThief. </p>
+<h3>Michael Coates</h3>
+<h4><span><span><a target="_blank" href="https://twitter.com/_mwc?lang=en" rel="nofollow noopener noreferrer">@_mwc</a></span></span></h4>
+<p>Coates is co-founder and CEO of Altitude Networks and former head of security at Mozilla and Twitter. He also founded <a target="_blank" href="http://www.appsensor.org" rel="nofollow noopener noreferrer">AppSensor</a>, an OWASP open-source project that detects and responds to attacks from with an application, and is chairman of the board of OWASP.</p>
+<h3>Joshua Corman</h3>
+<h4><a target="_blank" href="https://twitter.com/joshcorman" rel="nofollow noopener noreferrer">@joshcorman</a></h4>
+<p>Corman is a senior advisor and visiting researcher for the Cybersecurity and Infrastructure Security Agency in the US Department of Homeland Security and a co-founder of I Am the Cavalry, a global grass-roots organization focused on the intersection of digital security, public safety, and human life.</p>
+<h3>Dan Cornell</h3>
+<h4><a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener noreferrer">@danielcornell</a></h4>
+<p>Cornell is CTO of the Denim Group. With over 12 years&#8217; experience in developing and architecting secure software for the web, Cornell offers his followers insightful advice. He also gives tips about the latest app sec research coming from the Denim Group.</p>
+<h3>Daniel Cuthbert</h3>
+<h4><a target="_blank" href="https://twitter.com/dcuthbert" rel="nofollow noopener noreferrer">@dcuthbert</a></h4>
+<p>Cuthbert is the global head of security research for financial services giant Grupo Santander, also known as Santander Group, and co-author of OWASP&#8217;s Application Security Verification Standard. His job has high goals: build a best-in-class cybersecurity research capability to protect Santander&#8217;s 200,000 staffers, 125 million clients, and some 1 million global systems, devices, and applications. In addition to his security tweets, he sprinkles his Twitter feed with items about music synthesis and photography.</p>
+<h3>Dino A. Dai Zovi</h3>
+<h4><a target="_blank" href="https://twitter.com/dinodaizovi" rel="nofollow noopener noreferrer">@dinodaizovi</a></h4>
+<p>Dai Zovi is head of security at Cash App, a mobile payment service developed by Square, and co-founder and CTO of Capsule 8, a real-time, zero-day attack detection platform. He has also co-authored <i>The iOS Hacker&#8217;s Handbook</i>, <i>The Mac Hacker&#8217;s Handbook</i>, and <i>The Art of Software Security Testing</i>, and is a regular speaker at security conferences, including Black Hat and Def Con.</p>
+<h3>Mark Dowd</h3>
+<h4><a target="_blank" href="https://twitter.com/mdowd" rel="nofollow noopener noreferrer">@Mdowd</a></h4>
+<p>Dowd is a director of L3 Trenchant, which was formed by L3 Technologies after it purchased Azimuth Security—founded by Dowd—and Linchpin Labs in August 2018. Over Dowd&#8217;s 10 years in application security, he&#8217;s worked at IBM&#8217;s Internet Security Systems (ISS) X-Force, and as a principal security architect for McAfee.</p>
+<h3>Mark Goodwin</h3>
+<h4><a target="_blank" href="https://twitter.com/mr_goodwin" rel="nofollow noopener noreferrer">@mr_goodwin</a></h4>
+<p>Goodwin is a security researcher at Hardonize and a former security engineer at Mozilla. A developer-turned-information security specialist, his specialties include web application security, ethical hacking, penetration testing, and application security.</p>
+<h3>Holly Graceful</h3>
+<h4><a target="_blank" href="https://twitter.com/HollyGraceful" rel="nofollow noopener noreferrer">@HollyGraceful</a></h4>
+<p>Holly Grace Williams is managing director of Secarma, a cybersecurity consulting firm specializing in penetration testing. Over her 13-year career in information security, she has worked with a wide variety of organizations, including as a site security officer for the British military, and has appeared on UK media to talk about breaking security news. Her security tweets focus on pen testing, phishing, and other infosec topics.</p>
+<h3>Robert Graham</h3>
+<h4><a target="_blank" href="https://twitter.com/ErrataRob" rel="nofollow noopener noreferrer">@ErrataRob</a></h4>
+<p>Graham is CEO of Errata Security, a penetration testing and security consulting firm. His accomplishments include creating the first intrusion prevention system, the BlackICE series of products, sidejacking, and masscan. A frequent speaker at security conferences and a blogger, he has strong opinions—and his Twitter feed reflects that.</p>
+<h3>Jeremiah Grossman</h3>
+<h4><a target="_blank" href="https://twitter.com/jeremiahg" rel="nofollow noopener noreferrer">@jeremiahg</a></h4>
+<p>Grossman is CEO of Bit Discovery. His resume includes information security officer at Yahoo and founder, in 2001, of WhiteHat Security. As a researcher, he has demonstrated ways to surreptitiously turn on anyone&#8217;s computer video camera and microphone from anywhere across the Internet, and how to sidestep corporate firewalls, abuse online advertising networks to take any website offline, hijack the email and bank accounts of millions, and silently rip out saved passwords and surfing histories from any web browser.</p>
+<h3>Jason Haddix</h3>
+<h4><a target="_blank" href="https://twitter.com/Jhaddix" rel="nofollow noopener noreferrer">@Jhaddix</a></h4>
+<p>Haddix is director of Ubisoft&#8217;s application security engineers and technical operations and, with his team, oversees more than 300 security programs across a variety of industry verticals. His skill set includes performing security assessments, handling clients, architecting solutions, designing services, improving business processes, managing technical consultants, training, technical writing, marketing, and delivering solutions. He also writes for several information security publications and is a semi-regular player of capture the flag.</p>
+<h3>Ben Hawkes</h3>
+<h4><a target="_blank" href="https://twitter.com/benhawkes" rel="nofollow noopener noreferrer">@benhawkes</a></h4>
+<p>Hawkes is a founding member and the current technical lead of <a target="_blank" href="https://googleprojectzero.blogspot.com/" rel="nofollow noopener noreferrer">Google&#8217;s Project Zero</a>, a team created to find zero-day vulnerabilities in software. He&#8217;s discovered dozens of serious vulnerabilities in a variety of software platforms and regularly presents and publishes research focused on vulnerability analysis and software exploitation.</p>
+<h3>Ashar Javed</h3>
+<h4><a target="_blank" href="https://twitter.com/soaj1664ashar" rel="nofollow noopener noreferrer">@soaj1664ashar</a></h4>
+<p>Chosen No. 1 on Microsoft&#8217;s 2018 top security researchers list, Javed performs penetration testing, source code reviews, and mobile application vulnerability assessments for Hyundai AutoEver Europe. There, he works with developers and third-party vendors to eliminate web vulnerabilities in their applications. He&#8217;s frequently invited to speak at conferences such as Black Hat, Hack in the Box, and RSA. He also blogs at Respect XSS.</p>
+<h3>Konstantinos Karagiannis</h3>
+<h4><a target="_blank" href="https://twitter.com/KonstantHacker" rel="nofollow noopener noreferrer">@KonstantHacker</a></h4>
+<p>Karagiannis is head of the NYC Hacking Lab and senior quantum computing technologist at Protiviti, a global business consulting and internal audit firm, where he works at defending organizations against emerging threats, and getting them post-quantum ready. He&#8217;s an expert in financial application hacking and network penetration, and is often invited to speak at conferences such as RSAC.</p>
+<h3>Dave Kennedy</h3>
+<h4><a target="_blank" href="https://twitter.com/HackingDave" rel="nofollow noopener noreferrer">@HackingDave</a></h4>
+<p>Kennedy, who has more than 100,000 Twitter followers, is co-founder of Binary Defense, a monitoring and detection company, and founder of TrustedSec, an information security consultancy. He also founded DerbyCon, a well-known security conference held annually in Louisville, Kentucky, and is author of a popular pen-testing tome, <a target="_blank" href="https://www.amazon.com/Metasploit-Penetration-Testers-David-Kennedy/dp/159327288X" rel="nofollow noopener noreferrer"><i>Metasploit: The Penetration Testers Guide</i></a>. He&#8217;s a software writer, too, and has developed several open-source tools, including <a target="_blank" href="https://securedyou.com/social-engineering-toolkit-set-free-download-windows-10-8-7/" rel="nofollow noopener noreferrer">The Social-Engineer Toolkit</a>. In addition to his security tweets, Kennedy likes to comment about physical fitness and grilling.</p>
+<h3>Mohit Kumar</h3>
+<h4><a target="_blank" href="https://twitter.com/unix_root" rel="nofollow noopener noreferrer">@unix_root</a></h4>
+<p>Kumar is founder and CEO of <em>Hacker News</em>, an online publication that attracts more than 10 million readers every month. Many of his tweets are touts for HN stories, but he also mixes in retweets about application security from other sources.</p>
+<h3>David Litchfield</h3>
+<h4><a target="_blank" href="https://twitter.com/dlitchfield" rel="nofollow noopener noreferrer">@dlitchfield</a></h4>
+<p>Litchfield is director of information security assurance at Apple and one of the authors of <a target="_blank" href="https://www.abebooks.com/products/isbn/9780470080238?cm_mmc=ggl-_-COM_DSAETAFEED_Trade-_-naa-_-naa&amp;gclid=EAIaIQobChMImvWLn5-R6wIVDODICh0cAAJIEAAYAiAAEgILkvD_BwE" rel="nofollow noopener noreferrer"><i>The Shellcoder&#8217;s Handbook</i></a>, which explores the origin of security holes and how to close them. He&#8217;s also one of the world&#8217;s leading authorities on database security. In addition to application security, his tweets reveal a fascination with astronomy.</p>
+<h3>Jim Manico</h3>
+<h4><a target="_blank" href="https://twitter.com/manicode" rel="nofollow noopener noreferrer">@manicode</a></h4>
+<p>A self-proclaimed app sec enthusiast, Manico is founder of Manicode Security, where he trains software developers on secure coding and security engineering. He has more than 19 years&#8217; experience as a developer and more than 10 years of application security experience. Currently an OWASP volunteer, he is a former OWASP board member.</p>
+<h3>Gary McGraw</h3>
+<h4><a target="_blank" href="https://twitter.com/cigitalgem" rel="nofollow noopener noreferrer">@cigitalgem</a></h4>
+<p>McGraw is co-founder of the <a target="_blank" href="https://berryvilleiml.com" rel="nofollow noopener noreferrer">Berryville Institute of Machine Learning</a> and a globally recognized authority on software security. He has authored eight best-selling books on software security, including <i>Software Security</i>, <i>Exploiting Software</i>, <i>Building Secure Software</i>, and <i>Java Security</i>. His <a target="_blank" href="https://www.garymcgraw.com/technology/silver-bullet-podcast/" rel="nofollow noopener noreferrer">Silver Bullet Security podcast</a>, which features in-depth interviews with security experts, reaches 13,000 listeners every month.</p>
+<h3>Malik Mesellem</h3>
+<h4><a target="_blank" href="https://twitter.com/MME_IT?lang=en" rel="nofollow noopener noreferrer">@MME_IT</a></h4>
+<p>Mesellem is a penetration tester and ethical hacker. He&#8217;s also the creator of <a target="_blank" href="https://phpvideoacademy.com/what-is-bwapp-how-to-install-bwapp/" rel="nofollow noopener noreferrer">#bWAPP</a>, a buggy, open-source web application that was designed to be insecure as an educational tool for security enthusiasts, developers, and students who want to learn about preventing web vulnerabilities. His company, MME, specializes in security audits, user awareness, penetration testing, ethical hacking, and security training.</p>
+<h3>Alyssa Miller</h3>
+<h4><a target="_blank" href="https://twitter.com/AlyssaM_InfoSec" rel="nofollow noopener noreferrer">@AlyssaM_InfoSec</a></h4>
+<p>If you want to advance your career in application security, you&#8217;ll want to follow Alyssa Miller&#8217;s Twitter feed. A self-proclaimed hacker, Miller leads the information security solutions practice at CDW. She also works with executive and senior business leaders on developing comprehensive enterprise security programs. Additionally, she evangelizes her message about evolving the way people think about and approach security, privacy, and trust through speaking engagements at various conferences and other events, including hosting the <a target="_blank" href="https://www.itspmagazine.com/the-uncommon-journey-talk-show-podcast-phillip-wylie-chloe-messdaghi-alyssa-miller" rel="nofollow noopener noreferrer">Uncommon Journey podcast</a>, where industry personalities discuss their unique journeys into security.</p>
+<h3>Katie Moussouris</h3>
+<h4><a target="_blank" href="https://twitter.com/k8em0?lang=en" rel="nofollow noopener noreferrer">@k8em0</a></h4>
+<p>Moussouris is the founder and CEO of Luta Security, which helps businesses and governments work with hackers to defend themselves from digital attacks. She&#8217;s a well-known authority on bug bounty programs and helped Microsoft and the US Department of Defense start their first bug bounty programs. She&#8217;s also an equal-pay-for-equal-work advocate and <a target="_blank" href="https://floridamysterysnails.com/2018/05/30/how-to-make-snello-snail-jello/" rel="nofollow noopener noreferrer">snello</a> enthusiast.</p>
+<h3>Chris Nickerson</h3>
+<h4><a target="_blank" href="https://twitter.com/indi303" rel="nofollow noopener noreferrer">@indi303</a></h4>
+<p>Nickerson is CEO of Lares, a provider of penetration testing, app security, and adversarial simulation services, as well as a virtual CISO for multiple Fortune 1,000 companies and a faculty member at the Institute for Applied Network Security in Denver. He says he&#8217;s spent 20 years in information security fighting to make customers more secure and avoid infosec FUD.</p>
+<h3>Louis Nyffenegger</h3>
+<h4><a target="_blank" href="https://twitter.com/snyff" rel="nofollow noopener noreferrer">@snyff</a></h4>
+<p>Nyffenegger describes himself as a CVE connoisseur, trying to save the Internet one web at a time. He&#8217;s also a security engineer and founder of PenesterLab, a learning platform for web penetration testing. He also does code reviews and penetration testing and runs training sessions. He is a regular guest speaker at security conferences, including OWASP and Ruxcon. His most recent talks were about monitoring GitHub repositories for fun and profit and discussing test-driven security.</p>
+<h3>John Opdenakker</h3>
+<h4><a target="_blank" href="https://twitter.com/j_opdenakker" rel="nofollow noopener noreferrer">@j_opdenakker</a></h4>
+<p>Opdenakker specializes in application security, especially web application security, and security awareness. He&#8217;s also a blogger and member of <a target="_blank" href="https://twitter.com/thebeerfarmers" rel="nofollow noopener noreferrer">@TheBeerFarmers</a>, an online social group of infosec enthusiasts. His Twitter feed includes security advice aimed at lay users—&#8221;Let&#8217;s crowdsource a list of common #infosec-related terminology that we should no longer use when we approach non-tech users&#8221;—sprinkled with tech humor—&#8221;I somewhere read &#8216;infosec tool of the day&#8217; and the first thing I thought about wasn’t software or hardware.&#8221;</p>
+<h3>Tavis Ormandy</h3>
+<h4><a target="_blank" href="https://twitter.com/taviso" rel="nofollow noopener noreferrer">@taviso</a></h4>
+<p>With more than 100,000 followers, Ormandy is one of the more popular application security experts on Twitter. As a member of Google&#8217;s Project Zero team, he&#8217;s discovered major flaws in antivirus software made by Sophos, Symantec, and Trend Micro. He also uncovered Cloudbleed, a bug in Cloudflare&#8217;s infrastructure leaking user-sensitive data along with requests affecting millions of websites around the world, and a flaw in SymCrypt, the core cryptographic library for implementing asymmetric crypto algorithms in Windows 10. His opinions, which are strictly his own, can be controversial, such as why two-factor SMS authentication and reproducible builds aren&#8217;t needed.</p>
+<h3>Chris Romeo</h3>
+<h4><a target="_blank" href="https://twitter.com/edgeroute" rel="nofollow noopener noreferrer">@edgeroute</a></h4>
+<p>Romeo is CEO and founder of Security Journey, an application security training program, and co-host of the <a target="_blank" href="https://podcast.securityjourney.com" rel="nofollow noopener noreferrer">AppSec podcast</a>. He previously worked at Cisco as chief security advocate in charge of Cisco&#8217;s Secure Development Lifecycle program, where he encouraged engineers to build security into all products. Many of his tweets promote guests on his podcast.</p>
+<h3>Marcello Salvati</h3>
+<h4><a target="_blank" href="https://twitter.com/byt3bl33d3r" rel="nofollow noopener noreferrer">@byt3bl33d3r</a></h4>
+<p>Salvati is a security researcher and software writer at BlackHills Information Security. His passions include anything Active Directory, trolling people on GitHub, and writing open-source tools for the security community. <a target="_blank" href="https://github.com/byt3bl33d3r" rel="nofollow noopener noreferrer">His projects include</a> SilentTrinity, CrackMapExec, DeathStar, and RedBaron.</p>
+<h3>Sam Stepanyan</h3>
+<h4><a target="_blank" href="https://twitter.com/securestep9" rel="nofollow noopener noreferrer">@securestep9</a></h4>
+<p>Stepanyan wears multiple infosec hats. He&#8217;s the leader of the London chapter of OWASP, director and principal consultant with Step9 consulting, and on contract as an application security architect at Schroders, a multinational asset management company. His Twitter feed mixes industry news about data breaches, conferences, and training with tweets about bugs and vulnerabilities.</p>
+<h3>Maddie Stone</h3>
+<h4><a target="_blank" href="https://twitter.com/maddiestone" rel="nofollow noopener noreferrer">@maddiestone</a></h4>
+<p>Stone is a security researcher with <a target="_blank" href="https://googleprojectzero.blogspot.com" rel="nofollow noopener noreferrer">Google&#8217;s Project Zero</a>, where she focuses on zero-day vulnerabilities used in the wild. Previously, she was a reverse engineer and team lead on the Android Security team, focusing predominantly on pre-installed and off-Google Play malware. She also spent many years deep in the circuitry and firmware of embedded systems. She says she likes to speak at conferences, and she has appeared at Black Hat USA, REcon, OffensiveCon, KasperskySAS, and others.</p>
+<h3>Parisa Tabriz</h3>
+<h4><a target="_blank" href="https://twitter.com/laparisa" rel="nofollow noopener noreferrer">@laparisa</a></h4>
+<p>Tabriz is the &#8220;browser boss&#8221; at Google, where she is responsible for Chrome security and serves as &#8220;den mom&#8221; for <a target="_blank" href="https://googleprojectzero.blogspot.com" rel="nofollow noopener noreferrer">Project Zero</a>. During the Obama administration, she worked for the US Digital Service, where she advised the Executive Office of the President on best practices to enhance network and software security.</p>
+<h3>Mike Thompson</h3>
+<h4><a target="_blank" href="https://twitter.com/AppSecBloke" rel="nofollow noopener noreferrer">@AppSecBloke</a></h4>
+<p>The AppSec Bloke&#8217;s path to his current position as an information security analyst at a midsized telecom and ISP has had some twists and turns. He started with an electronic and electrical equipment distributor, started and failed an industrial automation business, became a business analyst and programmer, moved on to be a consultant with a large professional services firm, took a side road into the music industry, and finally landed a job at the telecom as a business analyst, which he eventually parlayed into security analyst. His Twitter feed is a mix of infosec and non-infosec stuff.</p>
+<h3>Thunder Son</h3>
+<h4><a target="_blank" href="https://twitter.com/7hunderSon" rel="nofollow noopener noreferrer">@7hunderSon</a></h4>
+<p>Thunder Son is the Twitter handle of Elie Saad, an application security engineer and project lead of <a target="_blank" href="https://cheatsheetseries.owasp.org" rel="nofollow noopener noreferrer">OWASP&#8217;s CheatSheetSeries</a>. The series is a concise collection of important information about a number of application security topics. He&#8217;s also the project lead of the <a target="_blank" href="https://owasp.org/www-project-web-security-testing-guide/" rel="nofollow noopener noreferrer">Web Security Testing Guide</a>, a comprehensive open-source document about testing the security of web applications and services. His day job is information security officer at the Saradar Bank in Beirut.</p>
+<h3>Tim Tomes</h3>
+<h4><a target="_blank" href="https://twitter.com/LaNMaSteR53" rel="nofollow noopener noreferrer">@LaNMaSteR53</a></h4>
+<p>With more than a decade of information security experience, Tomes is an application security professional schooled as both a technician and manager for the US military and private industry. He hones his skills by managing multiple open-source software projects and taking on consulting gigs. He says he has a strong interest in contributing to the community and does so by writing technical articles, speaking at conferences, and conducting training both as an independent instructor and for training providers. In his Twitter feed, you can find tweets about anything from TLS stripping and disclosure issues in web applications to bugs in Node.js and running Python scripts in throwaway environments.</p>
+<h3>Chris Truncer</h3>
+<h4><a target="_blank" href="https://twitter.com/christruncer" rel="nofollow noopener noreferrer">@christrunc</a></h4>
+<p>Offensive security is Truncer&#8217;s specialty, something he gets plenty of time to practice at FortyNorth Security, which he co-founded. Not only is he a veteran red teamer and penetration tester, but he&#8217;s an open source developer and teacher, too. He can also be found participating in and designing capture-the-flag events at security conferences. In addition to tweets about network, database, and cloud security, his Twitter feed includes information about FortyNorth&#8217;s latest training offerings.</p>
+<h3>Johannes Ullrich</h3>
+<h4><a target="_blank" href="https://twitter.com/johullrich" rel="nofollow noopener noreferrer">@johullrich</a></h4>
+<p>Ullrich is director of the <a target="_blank" href="https://isc.sans.edu" rel="nofollow noopener noreferrer">SANS Internet Storm Center</a>, which is used by more than 10,000 network security professionals daily, and dean of research at the SANS Technology Institute. He also teaches courses at the SANS Institute, including SEC522: Defending Web Applications Security Essentials.</p>
+<h3>Andrew van der Stock</h3>
+<h4><a target="_blank" href="https://twitter.com/vanderaj" rel="nofollow noopener noreferrer">@vanderaj</a></h4>
+<p>As executive director of the OWASP Foundation and co-lead of the <a target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/" rel="nofollow noopener noreferrer">OWASP Application Security Verification Standard project</a>, which is used by organizations to build and verify safer software, van der Stock is very knowledgeable about what it takes to make applications secure. In addition to his app sec tweets, van der Stock also keeps the security community aware of the latest OWASP events and developments.</p>
+<h3>VectorSEC</h3>
+<h4><a target="_blank" href="https://twitter.com/Real__Vector" rel="nofollow noopener noreferrer">@Real__Vector</a></h4>
+<p>The mysterious VectorSEC describes himself as a &#8220;cybersecurity enthusiast&#8221; who sometimes has a stroke of brilliance &#8220;but most of the time just the symptoms of a stroke.&#8221; His projects on GitHub can be <a target="_blank" href="https://github.com/NullArray" rel="nofollow noopener noreferrer">found under NullArray</a>. If you&#8217;re interested in hardcore hacking, VectorSEC is a Twitter account you&#8217;ll definitely want to follow.</p>
+<h3>Chris Vickery</h3>
+<h4><a target="_blank" href="https://twitter.com/VickerySec" rel="nofollow noopener noreferrer">@VickerySec</a></h4>
+<p>Vickery is director of cyber risk research at UpGuard and a data breach hunter. He&#8217;s discovered millions of records exposed to the public Internet, largely through misconfigured databases and servers, and has been cited as a cyber security expert by <em>The New York Times</em>, <em>Forbes</em>, Reuters, the BBC, <em>The Los Angeles Times</em>, <em>The Washington Post</em>, and many other publications.</p>
+<h3>Dave Waterson</h3>
+<h4><a target="_blank" href="https://twitter.com/DavidLWaterson" rel="nofollow noopener noreferrer">@DavidLWaterson</a></h4>
+<p>Waterson is founder, CEO, and chairman of the board of SentryBay, which uses secure containers to protect applications from threat actors. He&#8217;s also an award-winning blogger and has been on the top 10 tech thought leaders list released by A.T. Kearney at the World Economic Forum held in Davos, Switzerland. Many of his tweets focus on endpoint vulnerabilities, data protection, and work-from-home security.</p>
+<h3>Jeff Williams</h3>
+<h4><a target="_blank" href="https://twitter.com/planetlevel" rel="nofollow noopener noreferrer">@planetlevel</a></h4>
+<p>Over a career spanning 25 years, Williams created <a target="_blank" href="https://owasp.org" rel="nofollow noopener noreferrer">the OWASP Foundation</a>, a worldwide open-source application security organization; founded Aspect Security, a consulting firm focusing exclusively on application security; and launched Contrast Security, which concentrates on fully automating application security at the speed of DevOps. His Twitter feed is full of solid information on application security, &#8220;shifting left,&#8221; and reducing vulnerability remediation times through the use of modern app sec tools.</p>
+<h3>Robin Wood</h3>
+<h4><a target="_blank" href="https://twitter.com/digininja" rel="nofollow noopener noreferrer">@DigiNinja</a></h4>
+<p>Wood is a freelance security consultant specializing in web app testing. He has a developer background, which can be a plus when explaining security problems in apps to the people who made them. He is also co-founder of the <a target="_blank" href="https://www.steelcon.info" rel="nofollow noopener noreferrer">SteelCon conference</a>, is an associate lecturer at Sheffield Hallam University in the UK, and has been a speaker at a number of conferences, including Def Con, ShmooCon, and Wild West Hackin’ Fest. He likes to mix a little whimsy into his Twitter feed.</p>
+<h3>Chris Wysopal</h3>
+<h4><a target="_blank" href="https://twitter.com/WeldPond" rel="nofollow noopener noreferrer">@WeldPond</a></h4>
+<p>A former programmer at Lotus and later a security researcher at the hacker collective L0pht, Wysopal was part of a team that warned Congress about gaping Internet vulnerabilities as far back as 1998. Wysopal is CTO and a co-founder of Veracode, an application security vendor. A self-professed application security and security-transparency buff, Wysopal&#8217;s tweets are newsy and cover a wide range of security-related topics.</p>
+<h3>zseano</h3>
+<h4><a target="_blank" href="https://twitter.com/zseano" rel="nofollow noopener noreferrer">@zseano</a></h4>
+<p>Zseano is the handle of a well-known hacker in the bug bounty community. Over the last few years, the self-taught hacker has created a platform for exchanging bug bounty notes, organized a live hacking event, and hosted a number of online mentoring sessions. He&#8217;s a full-time bug bounty hunter who lives in the UK and has a &#8220;pay it forward&#8221; attitude toward life. As he <a target="_blank" href="https://blog.intigriti.com/2020/04/29/bug-business-3-zseanos-notes-on-hacking-mentoring/" rel="nofollow noopener noreferrer">told one interviewer</a>, &#8220;I have always had people share their knowledge and help me, so I am just passing the good will on.&#8221;</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/appsec-50-top-application-security-pros-follow-twitter">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How Should I Organize My Automation Team?</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-should-i-organize-my-automation-team/</link>
 		
@@ -465,116 +671,6 @@ fbq('track', "PageView");</p>
 </div>
 <p><br />
 <br /><a href="https://techbeacon.com/app-dev-testing/projects-products-how-ensure-your-agile-team-delivers-real-value">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How Easy Is Cross Browser Testing?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-easy-is-cross-browser-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 03 Aug 2020 22:21:23 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Cross]]></category>
-		<category><![CDATA[Easy]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-easy-is-cross-browser-testing/</guid>
-
-					<description><![CDATA[In June Applitools invited any and all to its “Ultrafast Grid Hackathon”. Participants tried out the Applitools Ultrafast Grid for]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In June <a target="_blank" href="https://www.applitools.com/" rel="noopener noreferrer">Applitools</a> invited any and all to its “<a target="_blank" href="https://www.applitools.com/hackathon/" rel="noopener noreferrer">Ultrafast Grid Hackathon</a>”. Participants tried out the <a target="_blank" href="https://applitools.com/ultrafast-grid/" rel="noopener noreferrer">Applitools Ultrafast Grid</a> for cross-browser testing on a number of hands-on real-world testing tasks.</p>
-<p>As a software tester of more than 6 years, the majority of my time was spent on Web projects. On these projects, cross-browser compatibility is always a requirement. Since we cannot control how our customers access websites, we have to do our best to validate their potential experience.  We need to validate functionality, layout, and design across operating systems, browser engines, devices, and screen sizes.</p>
-<p>Applitools offers an easy, fast and intelligent approach to cross browser testing that requires no extra infrastructure for running client tests.</p>
-<h2 id="h.c7tp85m7u1uv">Getting Started</h2>
-<p>We needed to demonstrate proficiency with two different approaches to the task:</p>
-<ul>
-<li>What Applitools referred to as modern tests (using their Ultrafast Grid) </li>
-<li>Traditional tests, where we would set up a test framework from scratch, using our preferred tools. </li>
-</ul>
-<p>In total there were 3 tasks that needed to be automated, on different breakpoints, in all major desktop browsers, and on Mobile Safari:</p>
-<ul>
-<li>validating a product listing page’s responsiveness and layout,</li>
-<li>using the product listing page’s filters and validating that their functionality is correct</li>
-<li>validating the responsiveness and layout of a product details page</li>
-</ul>
-<p>These tasks would be executed against a V1 of the website (considered “bug-free”) and would then be used as a regression pack against a V2 / rewrite of the website.</p>
-<h2 id="h.m5inrnesihyf">Setting up Cypress for the Ultrafast Grid</h2>
-<p>I chose <a target="_blank" href="https://www.cypress.io/" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Cypress</a> as I wanted a tool where I could quickly iterate, get human-readable errors and feel <em>comfortable</em>. The required desktop browsers (Chrome, Firefox and Edge Chromium) are all compatible. The system under test was on a single domain, which meant I would not be disadvantaged choosing Cypress. None of Cypress’ more advanced features were needed (e.g. stubbing or intercepting network responses).</p>
-<p>The modern cross browser tests were extremely easy to set up. The only steps required were two npm package installs (Cypress and the Applitools SDK) and running</p>
-<pre class="wp-block-preformatted">npx eyes-setup</pre>
-<p>to import the SDK. </p>
-<p>Easy cross browser testing means easy to maintain as well.  Configuring the needed browsers, layouts and concurrency happened inside `applitools.config.js`, a mighty elegant approach to the many, many lines of capabilities that plague Selenium-based tools.</p>
-<figure class="wp-block-image"></figure>
-<p>In total, I added three <em>short</em> spec files (between 23 and 34 lines, including all typical boilerplate). We were instructed to execute these tasks against the V1 website then mark the runs as our baselines. We would then perform the needed refactors to execute the tasks against the V2 website and mark all the bugs in Applitools.</p>
-<p>Applitools’ <a target="_blank" href="https://applitools.com/features/#visual-ai" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Visual AI</a> did its job so well, all I had to do was mark the areas it detected and do a write-up!</p>
-<p>In summary, for the modern tests: </p>
-<ul>
-<li>two npm dependencies, </li>
-<li>a one-line initialisation of the Applitools SDK, </li>
-<li>6 CSS selectors, </li>
-<li>109 total lines of code, </li>
-<li>a 3 character difference to “refactor” the tests to run against a second website, </li>
-</ul>
-<p>all done in under an hour.  </p>
-<p>Performing a visual regression for all seven different configurations added no more than 20 seconds to the execution time. It all worked as advertised, on the first try. That is the proof of easy cross browser testing</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05.png" alt="Screenshot 2020 07 23 at 17.17.05" class="wp-image-20474" srcset="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05.png 1600w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-300x32.png 300w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-1024x108.png 1024w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-768x81.png 768w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.17.05-1536x162.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<h2 id="h.qj3lwzbsaw3">Setting up the traditional cross-browser tests</h2>
-<p>For the traditional tests I implemented features that most software testers are either used to or would implement themselves: a spec-file per layout, page objects, custom commands, (attempted) screenshot diff-ing, linting and custom logging.</p>
-<p>This may sound like overkill compared to the above, but I aimed for feature parity and reached this end structure iteratively.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41.png" alt="Screenshot 2020 07 23 at 17.18.41" class="wp-image-20475" srcset="https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41.png 1600w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-300x175.png 300w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-1024x598.png 1024w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-768x449.png 768w, https://applitools.com/wp-content/uploads/2020/08/Screenshot-2020-07-23-at-17.18.41-1536x898.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>Unfortunately, neither one of the plug-ins I tried for screenshot diff-ing (`cypress-image-snapshot`, `cypress-visual-regression` and `cypress-plugin-snapshots`) gave results in any way similar to Applitools. I will not blame the plug-ins, though, as I had a limited amount of time to get everything working and most likely gave up way sooner than one should have.</p>
-<p>Since screenshot diff-ing was off the table, I chose to check each individual element. In total, I ended up with 57 CSS selectors and to make future refactoring easier I implemented page objects. Additionally, I used a custom method to log test results to a text file, as this was a requirement for the hackathon.</p>
-<p>I did not count all the lines of code in the traditional approach as the comparison would have been absurd, but I did keep track of the work needed to refactor for V2 — 12 lines of code, meaning multiple CSS selectors and assertions. This work does not need to be done if Applitools is used, “selector maintenance” just isn’t a thing!</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/voboshi/a0887a4a64aee2bf24b43dd43cd98335.js</p>
-</div>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/voboshi/1caef35e421873a9087bf9702f03e269.js</p>
-</div>
-<p>Applitools will intelligently find every single visual difference between your pages, while traditionally you’d have to know what to look for, define it and define what the difference should be. Is the element missing? Is it of a different colour? A different font or font size? Does the button label differ? Is the distance between these two elements the same? All of this investigative work is done automatically.</p>
-<h2 id="h.mpn7xjs1bsf3">Conclusion</h2>
-<p>All in all, it has genuinely been an eye-opening experience, as the tasks were similar to what we’d need to do “in the real world” and the total work done exceeds the scope of usual PoCs. </p>
-<p>My thanks to everyone at Applitools for offering this opportunity, with a special shout out to Stas M.! </p>
-<h2>For More Information</h2>
-<p><em><a target="_blank" href="https://www.linkedin.com/in/voboshi/" rel="noopener noreferrer">Dan Iosif</a> serves as SDET at <a target="_blank" href="https://www.dunelm.com/" rel="noopener noreferrer">Dunelm</a> in the United Kingdom. He participated in the recently-completed <a target="_blank" href="https://applitools.com/hackathon/" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Applitools</a><a target="_blank" href="https://applitools.com/hackathon/" rel="noopener noreferrer"> Ultrafast Cross Browser Hackathon</a>.</em></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/how-easy-is-cross-browser-testing/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Vermont Taxpayers Warned of Data Leak Over the Past Three Years</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vermont-taxpayers-warned-of-data-leak-over-the-past-three-years/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 30 Jul 2020 13:32:35 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Leak]]></category>
-		<category><![CDATA[Taxpayers]]></category>
-		<category><![CDATA[Vermont]]></category>
-		<category><![CDATA[Warned]]></category>
-		<category><![CDATA[Years]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/vermont-taxpayers-warned-of-data-leak-over-the-past-three-years/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/vermont-taxpayers-warned-of-data-leak-over-the-past-three-years/157856/">Source link </a></p>
 ]]></content:encoded>
 					
 		
