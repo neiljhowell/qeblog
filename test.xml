@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 14 Aug 2020 21:20:01 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 15 Aug 2020 00:14:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,81 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>444k Affected by an Online Exam Breach: Stay Secure While Distance Learning</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/444k-affected-by-an-online-exam-breach-stay-secure-while-distance-learning/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sat, 15 Aug 2020 00:14:37 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[444k]]></category>
+		<category><![CDATA[Affected]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Distance]]></category>
+		<category><![CDATA[Exam]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Online]]></category>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[Stay]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/444k-affected-by-an-online-exam-breach-stay-secure-while-distance-learning/</guid>
+
+					<description><![CDATA[Students everywhere are adjusting to new forms of education outside of the classroom. In conjunction with distance learning, it’s likely]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Students everywhere are adjusting to new forms of education outside of the classroom. In conjunction with <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/stay-secure-while-distance-learning/" rel="noopener noreferrer">distance learning</a>, it’s likely that many students will now be required to take online exams. To ensure that students don’t cheat on their online exams, educators are employing the help of online proctoring tools that help protect exam integrity. According to <a target="_blank" href="https://www.tomsguide.com/news/proctoru-data-breach" rel="noopener noreferrer">Tom’s Guide</a>, a popular proctoring platform for online exams, named ProctorU, recently disclosed that it was the victim of a major data breach, resulting in the data of 444,000 people exposed online.</p>
+<h2><strong>What You Should Know About This Breach</strong></h2>
+<p>While it’s unclear how exactly the company was breached, ProctorU’s database is now offered for free in online hacker forums. The database contains private information of mostly college students, including their names, home addresses, emails, cell phone numbers, hashed passwords, and organization details. Specifically, it contained email addresses associated with a variety of institutions, including UCLA, Harvard, Princeton, Yale, North Virginia Community College, University of Texas, Columbia, UC Davis, Syracuse University, and more.</p>
+<h2><strong>Don’t Get Schooled By Hackers</strong></h2>
+<p>In their blog responding to the incident, <a target="_blank" href="https://www.proctoru.com/security-update" rel="noopener noreferrer">ProctorU stated</a> that they disabled the server, terminated access to the environment, and are currently investigating the incident. The company also implemented additional security measures to prevent similar events from recurring and notified universities and organizations affected by the breach.</p>
+<p>However, students can take matters into their own hands as well. There are multiple proactive steps users can take to help minimize the damage caused by data breaches like this one. If you’re participating in distance education this school year, follow these security tips to help protect your data from hackers:</p>
+<p><strong>Check to see if you were affected by the breach</strong></p>
+<p>If you or someone you know has made a ProctorU account, <a target="_blank" href="https://haveibeenpwned.com/" rel="noopener noreferrer">use this tool</a> – which shows users if they’ve been compromised by a security breach – to check if you could have been potentially affected.</p>
+<p><strong>Change your credentials</strong></p>
+<p>If you’ve been compromised by the ProctorU breach or another like it, err on the side of caution and change your passwords for all of your accounts. Taking extra precautions can help you avoid future attacks.</p>
+<p><strong>Take password protection seriously</strong></p>
+<p>When updating your credentials, you should always ensure that your password is strong and unique. Many users, including students, utilize the same password or variations of it across all their accounts. Therefore, be sure to diversify your passcodes to ensure hackers cannot obtain access to all your accounts at once, should one password be compromised. You can also employ a <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">password manager</a> to keep track of your credentials.</p>
+<p><strong>Enable two-factor or multi-factor authentication</strong></p>
+<p>Two or multi-factor authentication provides an extra layer of security, as it requires multiple forms of verification. This reduces the risk of successful impersonation by hackers.</p>
+<p><strong>Stay educated on security precautions</strong></p>
+<p>As you adapt to learning from home, you’ll likely consider downloading various online tools to help make the transition easier. Before downloading the first tools you see, do your research and check for possible security vulnerabilities or known threats.</p>
+<p><strong>Use a comprehensive security solution</strong></p>
+<p>Enlist the help of a solution like <a target="_blank" href="https://home.mcafee.com/root/campaign.aspx?cid=235378" rel="noopener noreferrer">McAfee® Total Protection</a> to help safeguard your devices and data. With an extra layer of protection across your devices, you can continue learning online safely.</p>
+<h2><strong>Stay Updated</strong></h2>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/online-exam-breach-stay-secure-while-distance-learning/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>PoC Exploit Targeting Apache Struts Surfaces on GitHub</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/poc-exploit-targeting-apache-struts-surfaces-on-github/</link>
 		
@@ -555,124 +630,6 @@ fbq('track', "PageView");</p>
 <p> <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c46.0.117.118a/p118x118/116871577_3097177667001973_8078740553100291558_n.jpg?_nc_cat=101&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=7UVSgFma8m8AX-Yx_Ba&#038;_nc_ht=scontent-iad3-1.xx&#038;_nc_tp=5&#038;oh=59d63b3b6ffbdcc5dddf7a64f2365b82&#038;oe=5F5A389B" width="101" height="102" class="bs r" alt="Image may contain: mountain, cloud, sky, outdoor and nature"><img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c16.0.101.100a/p100x100/116876247_3097178087001931_3244506001878776843_o.jpg?_nc_cat=110&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=JlteSFakUJoAX_C3Ncd&#038;_nc_ht=scontent-iad3-1.xx&#038;_nc_tp=5&#038;oh=8a6204e602e7965c33041a5b277dd1a4&#038;oe=5F599BD6" width="102" height="101" class="bs r" alt="Image may contain: 2 people, bicycle, tree, outdoor and nature"><img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c0.17.100.100a/p100x100/117236238_3097178993668507_8734483006837852818_o.jpg?_nc_cat=105&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=PxTfl0FzLqYAX_2f6Gn&#038;_nc_ht=scontent-iad3-1.xx&#038;_nc_tp=5&#038;oh=370bd498565458bb2d87faf1ec31946a&#038;oe=5F589CEB" width="101" height="101" class="bs r" alt="Image may contain: dog, sky, outdoor, nature and water"><br />
 <br />
 <br /><a href="https://www.facebook.com/227818503937918/posts/3097179523668454">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Projects to products: How to ensure your agile team delivers real value</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 04 Aug 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Agile]]></category>
-		<category><![CDATA[delivers]]></category>
-		<category><![CDATA[Ensure]]></category>
-		<category><![CDATA[products]]></category>
-		<category><![CDATA[projects]]></category>
-		<category><![CDATA[Real]]></category>
-		<category><![CDATA[team]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/projects-to-products-how-to-ensure-your-agile-team-delivers-real-value/</guid>
-
-					<description><![CDATA[Many teams are decomposing their work into a hierarchy of epic, feature, user story, and task. The Scaled Agile Framework (SAFe) has]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Many teams are decomposing their work into a hierarchy of epic, feature, user story, and task. The Scaled Agile Framework (SAFe) has made this hierarchy popular, but many teams that have never looked at that model are using the same structure.</p>
-<p>The idea is great. <a target="_blank" href="https://techbeacon.com/app-dev-testing/confused-about-safe-epics-follow-real-world-example" rel="noopener noreferrer">Epics produce big valuable products or big valuable changes</a> to products. You decompose them into smaller chunks of value so you can <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">deliver solutions to your customers sooner</a> than waiting for a big-bang solution at the end.</p>
-<p>Features are decomposed into high-value stories, which, according to definition, should provide value in production as well, and again it occurs faster than building a whole feature.</p>
-<p>But there is a hidden anti-pattern in the way teams are <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-strategy-how-go-projects-products-3-steps" rel="noopener noreferrer">decomposing work into an epic-feature-story hierarchy</a>.</p>
-<p>Teams use agile tools to manage epics, features, stories, and tasks. But they too often use them to articulate a <a target="_blank" href="https://en.wikipedia.org/wiki/Work_breakdown_structure#:~:text=A%20work%2Dbreakdown%20structure%20(WBS,team%27s%20work%20into%20manageable%20sections." rel="nofollow noopener noreferrer">work breakdown structure (WBS)</a> instead of a <a target="_blank" href="http://en.wikipedia.org/wiki/Value_breakdown_structure#:~:text=A%20work%20breakdown%20structure%20(WBS,components%20of%20the%20final%20product." rel="nofollow noopener noreferrer">value breakdown structure (VBS)</a>.</p>
-<p>WBS refers to the common, age-old <a target="_blank" href="https://www.workbreakdownstructure.com" rel="nofollow noopener noreferrer">project-management practice</a> of breaking tasks into smaller chunks, allowing teams to estimate time and costs for completion. VBS, instead, focuses on <a target="_blank" href="https://techbeacon.com/node/3827" rel="noopener noreferrer">product delivery and sub-products</a>, not tasks and sub-tasks.</p>
-<p>Here&#8217;s how to make this critical switch in thinking.</p>
-<h3>WBS thinking results in poor user stories</h3>
-<p>Here&#8217;s the epic-feature-story hierarchy:</p>
-<p><em>Figure 1. The epic-feature-story hierarchy. Source: Scaled Agile, Inc.</em></p>
-<p>All too often, teams use these three types as containers for big tasks, medium tasks, and smaller tasks—just as with Microsoft Project years ago. But that leads to poorly written user stories.</p>
-<p>Badly written stories have been around basically forever. The two most common poor-stories patterns are horizontal slices and lifecycle slices. Here are two examples:</p>
-<ul>
-<li>Horizontal slice: Create a table in the database for &#8220;New API&#8221;</li>
-<li>Lifecycle slice: Design &#8220;New API&#8221;</li>
-</ul>
-<p>There are many reasons these are poor stories, but in the context of WBS and VBS, the key problem is that they are items of work, not items of value. (There are many resources for <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-leaders-guide-writing-user-stories" rel="noopener noreferrer">how to write great user stories</a>, so there&#8217;s no need to repeat that here.)</p>
-<p>WBS has been used to plan development work for a long time, so it is deeply embedded in our muscle memory. And when we were project-driven, this was a great technique.</p>
-<p>But with the movement away from project culture and toward product culture, this technique no longer works well. You need to think in terms of product delivery.</p>
-<h3>Retrain your brain</h3>
-<p>Here are two exercises to help people reframe agile development as a VBS instead of a WBS.</p>
-<h3>Exercise 1: Understand what you are building</h3>
-<p>In this exercise, you ask the team to articulate, at a high level, what it is building. Note that you&#8217;re not listing the steps to build it (that&#8217;s WBS) but instead are describing <em>what</em> it is (VBS).</p>
-<h4> </h4>
-<h4>1. Create a list of what you are building</h4>
-<p>Let&#8217;s imagine the team says you&#8217;re building four things:</p>
-<ul>
-<li>A new report on W</li>
-<li>Modifying an existing report about X</li>
-<li>A new screen with telemetry on Y</li>
-<li>Bringing function Z, which exists in one organization, to three other organizations</li>
-</ul>
-<p>The answer could be a list such as the one above, or it could be a one-sentence answer such as &#8220;an autonomous vehicle.&#8221;</p>
-<h4>2. Decide whether it&#8217;s an epic, feature, or story</h4>
-<p>In a VBS, epics, features, and stories are the same thing: value delivery. It&#8217;s just that each has different rules and syntax due to each having a different level of risk.</p>
-<p>Epics are highest risk, features are less risky, and stories the least risky. So epics require more rigor to ensure you have thought through the risks and have the best chance of success. </p>
-<p>Additionally, every epic, feature, and story creates or modifies a product. That is the link to products in the &#8220;projects to products&#8221; journey.</p>
-<p>Keep in mind that this is just a first estimate. So you need to decide based on the following guidelines:</p>
-<ul>
-<li>Epics are value that will be delivered to production or be production ready in more than three months.</li>
-<li>Features can be delivered in less than a quarter.</li>
-<li>Stories can be delivered in less time than a sprint. </li>
-</ul>
-<p>Here&#8217;s shorthand for the same thoughts:</p>
-<p>Keep that shorthand version handy for the next step.</p>
-<h4>3. Match up the types with their value</h4>
-<p>Looking at the list you created in Step 1, simply ask: How long would it take to deliver this value to production? &gt;1Q? &gt;1S? &lt;1S?</p>
-<p>Then simply assign the correct type to the piece of value! Just like that, you now have epics, features, and stories in your backlog. Notice that you did not worry about this when you made your list of value.</p>
-<p>Also, notice that your backlog has all three types in it, but so far there is <em>no</em> hierarchy. The work items are epics, features, and stories that started as those types without any upward traceability.</p>
-<h3>Stumbling blocks in exercise 1</h3>
-<p>This can make some people uncomfortable. Some feel that if a story or feature doesn&#8217;t trace to an epic, there is no container proving that the story or feature is valuable work. Some believe that all valuable work must be visible from the epic level, because the epic level (in SAFe) is also the portfolio level. And the portfolio level is where you make financial decisions about work.</p>
-<p>But this is not actually correct. All three types—stories, features, and epics—are about value. The goal is to decentralize value decision making and push it downwards, where the risks are low. Stories and features are small, and the product owners and product managers are trusted and empowered to prioritize those types of work.</p>
-<p>People can also feel as if these stories and features are &#8220;orphaned&#8221; if they don&#8217;t trace to a higher-level container. But, in fact, they <em>do </em>trace to a higher-level container: the product they are associated with.</p>
-<p>Remember that all three types either modify or create products. In Azure DevOps, all of the stories, features, and epics use the &#8220;area path&#8221; field to designate what product they are affiliated with. And by doing that, you are linking all value delivery work to the products they create or modify.</p>
-<p>In Jira, on the other hand, you can use &#8220;components&#8221; to represent the product that the work belongs to.</p>
-<p>Whatever tool you use, don’t worry about tracing upwards. Just ensure that every epic, feature, and story traces to a product. And if you are using SAFe, how those products are funded and how those funds are used is decentralized by tying all epics, features, and stories to the funded products.</p>
-<h4>Break down all features and epics</h4>
-<p>At this point, you might have a pile of epics, features, and stories that need to be built. If all of the work is small, you may have only stories. If all the work is big, you may have a list of epics. Or you may have any combination, strictly based on the size of the work.</p>
-<p>In the above example, perhaps W and Y were features due to size. X is small enough to do in one sprint, so it&#8217;s a story. And perhaps Z becomes three epics. There is no hierarchy here, just a pile of different size work to do.</p>
-<p>While all items do not trace upwards, big items such as epics and features need to be decomposed so they can be prioritized with the other lower-level work that doesn&#8217;t trace upwards.</p>
-<p>You can do this by asking, &#8220;What is a smaller piece of value we could do more quickly than this whole thing?&#8221; And as you decompose them, you do not decompose them into tasks but into value items.</p>
-<p>And once you decompose features and epics into smaller value chunks, you once again ask, &#8220;How long would this take to put into production, or to make production-ready?&#8221; And again you give them the appropriate epic/feature/story type. Repeat this until every epic and feature has been decomposed to the story level.</p>
-<p>Stories do not decompose into smaller value; you can decompose those into tasks. Note that tasks are the only element in the hierarchy that are like those found in a WBS. They are tasks, not value chunks.</p>
-<p>In other words, the epics, features, and stories are all value chunks. The tasks are tasks, and they are optional.</p>
-<p>Eventually every epic is decomposed into features. Every feature is decomposed into stories. And all of them are value chunks, not tasks. And thus you have a VBS instead of a WBS.</p>
-<p>Some things in the original list of items were small enough to become features. Others were small enough to be stories. None of those trace up to a containing epic or feature if they started life smaller than that.</p>
-<h4>The resulting story backlog</h4>
-<p>So at the story level, you will have a bunch of stories, some of which are standalone, some that trace to features, and some that trace to features that in turn trace to epics. But all stories can now be prioritized against one another.</p>
-<p>And if they do trace upward, that will be considered during sprint planning. You want to finish a whole feature if possible, so a high-priority feature would increase the priority of the stories as well.</p>
-<p>Bottom line is that epic versus feature versus story is simply a first-level guess at the size of the effort to deliver value. It is almost like story point estimation, but at a much larger, easier level.</p>
-<h2>Exercise 2: Fix an existing backlog</h2>
-<p>For teams with an existing backlog that&#8217;s more WBS than VBS, this can be quite easy to repair. </p>
-<ul>
-<li><strong>1. </strong>Grab the current list of epics, features, and stories and leave it open in the background.</li>
-<li><strong>2. </strong>Notice there is a hybrid of some items that are WBS tasks, and some that are products or value of the VBS type. It is common to have a mix of both styles.</li>
-<li>3. Extract the products or value, and create a fresh backlog with only value delivery items. </li>
-</ul>
-<p>To accomplish step 3, take a task-style backlog item and ask, &#8220;What product or sub-product does this create or improve?&#8221; The answer will be the real VBS item that should be in your backlog instead. If you can&#8217;t figure out the answer, then why would you do that task?</p>
-<p>The third step can be fun and satisfying for your teams. Their new epics, features, and stories are true value work items. Each work item needs refinement, development, test, and deployment. Each is valuable to users.</p>
-<p>Imagine that your story board columns were &#8220;refine, develop, test, deploy, done.&#8221; Notice that a WBS task-style story doesn’t work on a board such as this: &#8220;test component X&#8221; would make sense only in the test column, rather than flowing through them all.</p>
-<p>Value-type VBS stories, on the other hand, flow through all of this. &#8220;New finance report V,” for example: Refine your understanding of it. Develop it. Test it. Deploy it. Done! Value to the user is achieved. But when &#8220;test component X&#8221; moves to done, direct user value has not been achieved.</p>
-<h2>Measuring value delivery</h2>
-<p>Once you move away from a WBS to a real VBS, you can easily report on value delivery. Which epics closed? That is value delivery. Which features closed? Value delivery. Stories? Value delivery.</p>
-<p>So your value delivery reports can simply be reporting on work items closed. And it only works if the work items are real value delivery items, not work breakdown tasks.</p>
-<p>Other Kanban state changes can be educational as well. Which epics moved into MVP delivered, testing the hypothesis now? Which features were pulled from the backlog into implementing? And so on. If every item is a value delivery item, these reports are satisfying and informative.</p>
-<p>If someone wants a report of value delivery for their dollars, they can now show their recently done backlog and answer that question by just using their work management tools instead of creating PowerPoint slides. It is a beautiful thing!</p>
-<h2>Make the switch</h2>
-<p>Many people see their agile work management tools as a hierarchy of epic, feature, and story. And the muscle memory of a WBS is so strong, they overlay their WBS into the containers of epic, feature, and story.</p>
-<p>Instead, focus on products, sub-products, and value delivery. Refactor existing backlogs by separating tasks from value. Think of the epic-feature-story hierarchy as nothing more than a first estimate on time. Epics take more than a quarter. Features require more time than a sprint. Stories are done within a sprint. And all are value delivery items in a VBS.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/projects-products-how-ensure-your-agile-team-delivers-real-value">Source link </a></p>
 ]]></content:encoded>
 					
 		
