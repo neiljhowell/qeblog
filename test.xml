@@ -12,13 +12,13 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Sat, 15 Aug 2020 00:14:37 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 24 Aug 2020 21:31:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<generator>https://wordpress.org/?v=5.5</generator>
 
 <image>
 	<url>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
@@ -28,448 +28,204 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>444k Affected by an Online Exam Breach: Stay Secure While Distance Learning</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/444k-affected-by-an-online-exam-breach-stay-secure-while-distance-learning/</link>
+		<title>Google Fixes High-Severity Chrome Browser Code Execution Bug</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sat, 15 Aug 2020 00:14:37 +0000</pubDate>
+		<pubDate>Mon, 24 Aug 2020 21:31:00 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[444k]]></category>
-		<category><![CDATA[Affected]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Distance]]></category>
-		<category><![CDATA[Exam]]></category>
-		<category><![CDATA[Learning]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[Stay]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/444k-affected-by-an-online-exam-breach-stay-secure-while-distance-learning/</guid>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Execution]]></category>
+		<category><![CDATA[Fixes]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[HighSeverity]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</guid>
 
-					<description><![CDATA[Students everywhere are adjusting to new forms of education outside of the classroom. In conjunction with distance learning, it’s likely]]></description>
+					<description><![CDATA[The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Students everywhere are adjusting to new forms of education outside of the classroom. In conjunction with <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/stay-secure-while-distance-learning/" rel="noopener noreferrer">distance learning</a>, it’s likely that many students will now be required to take online exams. To ensure that students don’t cheat on their online exams, educators are employing the help of online proctoring tools that help protect exam integrity. According to <a target="_blank" href="https://www.tomsguide.com/news/proctoru-data-breach" rel="noopener noreferrer">Tom’s Guide</a>, a popular proctoring platform for online exams, named ProctorU, recently disclosed that it was the victim of a major data breach, resulting in the data of 444,000 people exposed online.</p>
-<h2><strong>What You Should Know About This Breach</strong></h2>
-<p>While it’s unclear how exactly the company was breached, ProctorU’s database is now offered for free in online hacker forums. The database contains private information of mostly college students, including their names, home addresses, emails, cell phone numbers, hashed passwords, and organization details. Specifically, it contained email addresses associated with a variety of institutions, including UCLA, Harvard, Princeton, Yale, North Virginia Community College, University of Texas, Columbia, UC Davis, Syracuse University, and more.</p>
-<h2><strong>Don’t Get Schooled By Hackers</strong></h2>
-<p>In their blog responding to the incident, <a target="_blank" href="https://www.proctoru.com/security-update" rel="noopener noreferrer">ProctorU stated</a> that they disabled the server, terminated access to the environment, and are currently investigating the incident. The company also implemented additional security measures to prevent similar events from recurring and notified universities and organizations affected by the breach.</p>
-<p>However, students can take matters into their own hands as well. There are multiple proactive steps users can take to help minimize the damage caused by data breaches like this one. If you’re participating in distance education this school year, follow these security tips to help protect your data from hackers:</p>
-<p><strong>Check to see if you were affected by the breach</strong></p>
-<p>If you or someone you know has made a ProctorU account, <a target="_blank" href="https://haveibeenpwned.com/" rel="noopener noreferrer">use this tool</a> – which shows users if they’ve been compromised by a security breach – to check if you could have been potentially affected.</p>
-<p><strong>Change your credentials</strong></p>
-<p>If you’ve been compromised by the ProctorU breach or another like it, err on the side of caution and change your passwords for all of your accounts. Taking extra precautions can help you avoid future attacks.</p>
-<p><strong>Take password protection seriously</strong></p>
-<p>When updating your credentials, you should always ensure that your password is strong and unique. Many users, including students, utilize the same password or variations of it across all their accounts. Therefore, be sure to diversify your passcodes to ensure hackers cannot obtain access to all your accounts at once, should one password be compromised. You can also employ a <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">password manager</a> to keep track of your credentials.</p>
-<p><strong>Enable two-factor or multi-factor authentication</strong></p>
-<p>Two or multi-factor authentication provides an extra layer of security, as it requires multiple forms of verification. This reduces the risk of successful impersonation by hackers.</p>
-<p><strong>Stay educated on security precautions</strong></p>
-<p>As you adapt to learning from home, you’ll likely consider downloading various online tools to help make the transition easier. Before downloading the first tools you see, do your research and check for possible security vulnerabilities or known threats.</p>
-<p><strong>Use a comprehensive security solution</strong></p>
-<p>Enlist the help of a solution like <a target="_blank" href="https://home.mcafee.com/root/campaign.aspx?cid=235378" rel="noopener noreferrer">McAfee® Total Protection</a> to help safeguard your devices and data. With an extra layer of protection across your devices, you can continue learning online safely.</p>
-<h2><strong>Stay Updated</strong></h2>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
+<br />The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution.<br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/online-exam-breach-stay-secure-while-distance-learning/">Source link </a></p>
+<br /><a href="https://threatpost.com/google-fixes-high-severity-chrome-browser-code-execution-bug/158600/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>PoC Exploit Targeting Apache Struts Surfaces on GitHub</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/poc-exploit-targeting-apache-struts-surfaces-on-github/</link>
+		<title>Zero-trust security: How to get started</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-security-how-to-get-started/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 14 Aug 2020 21:20:01 +0000</pubDate>
+		<pubDate>Mon, 24 Aug 2020 16:45:00 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apache]]></category>
-		<category><![CDATA[Exploit]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[PoC]]></category>
-		<category><![CDATA[Struts]]></category>
-		<category><![CDATA[Surfaces]]></category>
-		<category><![CDATA[Targeting]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/poc-exploit-targeting-apache-struts-surfaces-on-github/</guid>
+		<category><![CDATA[started]]></category>
+		<category><![CDATA[Zerotrust]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2763</guid>
 
-					<description><![CDATA[Researchers have discovered freely available PoC code and exploit that can be used to attack unpatched security holes in Apache]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers have discovered freely available PoC code and exploit that can be used to attack unpatched security holes in Apache Struts 2.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/poc-exploit-github-apache-struts/158393/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The #AppSec 50: Top application security pros to follow on Twitter</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-appsec-50-top-application-security-pros-to-follow-on-twitter/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 14 Aug 2020 14:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Application]]></category>
-		<category><![CDATA[AppSec]]></category>
-		<category><![CDATA[Follow]]></category>
-		<category><![CDATA[pros]]></category>
-		<category><![CDATA[Top]]></category>
-		<category><![CDATA[Twitter]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2745</guid>
-
-					<description><![CDATA[Attacks on the application layer can be the hardest to defend against. User input scenarios for your apps can be]]></description>
+					<description><![CDATA[When the pandemic caused more organizations to rely on a distributed workforce, those organizations had more pressure to move services to]]></description>
 										<content:encoded><![CDATA[<p> <br />
 <br /></p>
 <div>
-<p>Attacks on the application layer can be the hardest to defend against. User input scenarios for your apps can be difficult to identify with intrusion detection signatures. On top of that, the layer is the most accessible and exposed to the Internet. It&#8217;s a recipe for trouble.</p>
-<p>That&#8217;s why <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-app-sec?lx=QKJph-" rel="noopener noreferrer">application security soldiers need to stay on top of what&#8217;s happening in their field</a>. As the threats to applications grow, so has our list of knowledgeable folks whose Twitter feeds can help anyone interested in keeping applications safe from malicious hackers.</p>
-<p>With the help of our original <a target="_blank" href="https://techbeacon.com/security/top-25-appsec-leaders-follow-twitter" rel="noopener noreferrer">25 app sec experts to follow on Twitter</a>, we&#8217;ve enlarged the list. Here are 50 savvy security practitioners who you should closely follow.</p>
-<h3>Katy Anton</h3>
-<h4><a target="_blank" href="https://twitter.com/KatyAnton" rel="nofollow noopener noreferrer">@KatyAnton</a></h4>
-<p>Anton, a self-described app sec enthusiast and an application security consultant with Veracode, works with software architects, developers, and security teams around the world, advising them on how to secure their software. She&#8217;s also co-lead of <a target="_blank" href="https://owasp.org/www-project-proactive-controls/" rel="nofollow noopener noreferrer">OWASP&#8217;s Top 10 Proactive Controls Project</a>—a list of security techniques that should be included in every software development project—and a well-known speaker at both developer and security conferences.</p>
-<h3>Kurt Baumgartner</h3>
-<h4><a target="_blank" href="https://twitter.com/k_sec" rel="nofollow noopener noreferrer">@k_sec</a></h4>
-<p>Baumgartner is a principal security researcher with Kaspersky Lab&#8217;s Global Research and Analysis Team, where he monitors malware across the Americas. His specialties include reversing and analyzing known and unknown malware, and identifying unique behaviors and static characteristics. In addition to tweeting, he blogs.</p>
-<h3>Kevin Beaumont</h3>
-<h4><a target="_blank" href="https://twitter.com/GossiTheDog" rel="nofollow noopener noreferrer">@GossiTheDog</a></h4>
-<p>Beaumont is a senior threat intelligence analyst at Microsoft. He joined the gang in Redmond after spending years running large security operations centers and writing about cybersecurity in his popular DoublePulsar blog and on Twitter. Microsoft has credited Beaumont and Marcus Hutchins—who <a target="_blank" href="https://www.newstatesman.com/spotlight/cyber/2020/05/man-who-stopped-wannacry" rel="nofollow noopener noreferrer">stopped the 2017 WannaCry ransomware cryptoworm outbreak</a> and was later arrested for his efforts—with identifying the first attempts to exploit BlueKeep. This was a Windows bug that had the potential to be as severe as WannaCry, which affected more than 200,000 computers in 150 counties.</p>
-<h3>Brute Logic</h3>
-<h4><a target="_blank" href="https://twitter.com/brutelogic" rel="nofollow noopener noreferrer">@brutelogic</a></h4>
-<p>Brute Logic is Brazilian hacker Rodolfo Assis, a self-employed information security researcher and consultant. His main interest is cross-site scripting (XSS), one of the most common vulnerabilities found in websites. Over his career, Brute Logic has helped fix more than 1,000 XSS vulnerabilities in web applications, including those of Oracle, LinkedIn, Baidu, Amazon, Groupon, and Microsoft. He is currently managing, maintaining, and developing an online XSS discovery service, called KNOXSS, to help bug hunters find vulnerabilities.</p>
-<h3>Adam Chester</h3>
-<h4><a target="_blank" href="https://twitter.com/_xpn_" rel="nofollow noopener noreferrer">@_xpn_</a></h4>
-<p>Chester is a red teamer, infosec researcher, and blogger, as well as technical director at MDSec, a provider of information security publications, tools, and training. He gained some notoriety demonstrating how <a target="_blank" href="https://blog.xpnsec.com/total-meltdown-cve-2018-1038/" rel="nofollow noopener noreferrer">the Meltdown design flaw</a> in Windows 7 and Windows Server 2008 R2 could be exploited by an ordinary user to create an administrator-level command-line shell.</p>
-<h3>Lee Christensen</h3>
-<h4><a target="_blank" href="https://twitter.com/tifkin_" rel="nofollow noopener noreferrer">@tifkin_</a></h4>
-<p>As a security consultant with SpecterOps, Christensen does red teaming, penetration testing, tool development, malware hunting, and security training. He says he enjoys studying attacker tradecraft, as well as researching and developing new offensive and defensive tactics, techniques, and procedures. Christensen is the author of several offensive tools and techniques, including <a target="_blank" href="https://www.optiv.com/explore-optiv-insights/blog/unmanaged-powershell-binaries-and-endpoint-protection" rel="nofollow noopener noreferrer">UnmanagedPowerShell</a> (incorporated into the Metasploit, Empire, and Cobalt Strike toolsets), and KeeThief. </p>
-<h3>Michael Coates</h3>
-<h4><span><span><a target="_blank" href="https://twitter.com/_mwc?lang=en" rel="nofollow noopener noreferrer">@_mwc</a></span></span></h4>
-<p>Coates is co-founder and CEO of Altitude Networks and former head of security at Mozilla and Twitter. He also founded <a target="_blank" href="http://www.appsensor.org" rel="nofollow noopener noreferrer">AppSensor</a>, an OWASP open-source project that detects and responds to attacks from with an application, and is chairman of the board of OWASP.</p>
-<h3>Joshua Corman</h3>
-<h4><a target="_blank" href="https://twitter.com/joshcorman" rel="nofollow noopener noreferrer">@joshcorman</a></h4>
-<p>Corman is a senior advisor and visiting researcher for the Cybersecurity and Infrastructure Security Agency in the US Department of Homeland Security and a co-founder of I Am the Cavalry, a global grass-roots organization focused on the intersection of digital security, public safety, and human life.</p>
-<h3>Dan Cornell</h3>
-<h4><a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener noreferrer">@danielcornell</a></h4>
-<p>Cornell is CTO of the Denim Group. With over 12 years&#8217; experience in developing and architecting secure software for the web, Cornell offers his followers insightful advice. He also gives tips about the latest app sec research coming from the Denim Group.</p>
-<h3>Daniel Cuthbert</h3>
-<h4><a target="_blank" href="https://twitter.com/dcuthbert" rel="nofollow noopener noreferrer">@dcuthbert</a></h4>
-<p>Cuthbert is the global head of security research for financial services giant Grupo Santander, also known as Santander Group, and co-author of OWASP&#8217;s Application Security Verification Standard. His job has high goals: build a best-in-class cybersecurity research capability to protect Santander&#8217;s 200,000 staffers, 125 million clients, and some 1 million global systems, devices, and applications. In addition to his security tweets, he sprinkles his Twitter feed with items about music synthesis and photography.</p>
-<h3>Dino A. Dai Zovi</h3>
-<h4><a target="_blank" href="https://twitter.com/dinodaizovi" rel="nofollow noopener noreferrer">@dinodaizovi</a></h4>
-<p>Dai Zovi is head of security at Cash App, a mobile payment service developed by Square, and co-founder and CTO of Capsule 8, a real-time, zero-day attack detection platform. He has also co-authored <i>The iOS Hacker&#8217;s Handbook</i>, <i>The Mac Hacker&#8217;s Handbook</i>, and <i>The Art of Software Security Testing</i>, and is a regular speaker at security conferences, including Black Hat and Def Con.</p>
-<h3>Mark Dowd</h3>
-<h4><a target="_blank" href="https://twitter.com/mdowd" rel="nofollow noopener noreferrer">@Mdowd</a></h4>
-<p>Dowd is a director of L3 Trenchant, which was formed by L3 Technologies after it purchased Azimuth Security—founded by Dowd—and Linchpin Labs in August 2018. Over Dowd&#8217;s 10 years in application security, he&#8217;s worked at IBM&#8217;s Internet Security Systems (ISS) X-Force, and as a principal security architect for McAfee.</p>
-<h3>Mark Goodwin</h3>
-<h4><a target="_blank" href="https://twitter.com/mr_goodwin" rel="nofollow noopener noreferrer">@mr_goodwin</a></h4>
-<p>Goodwin is a security researcher at Hardonize and a former security engineer at Mozilla. A developer-turned-information security specialist, his specialties include web application security, ethical hacking, penetration testing, and application security.</p>
-<h3>Holly Graceful</h3>
-<h4><a target="_blank" href="https://twitter.com/HollyGraceful" rel="nofollow noopener noreferrer">@HollyGraceful</a></h4>
-<p>Holly Grace Williams is managing director of Secarma, a cybersecurity consulting firm specializing in penetration testing. Over her 13-year career in information security, she has worked with a wide variety of organizations, including as a site security officer for the British military, and has appeared on UK media to talk about breaking security news. Her security tweets focus on pen testing, phishing, and other infosec topics.</p>
-<h3>Robert Graham</h3>
-<h4><a target="_blank" href="https://twitter.com/ErrataRob" rel="nofollow noopener noreferrer">@ErrataRob</a></h4>
-<p>Graham is CEO of Errata Security, a penetration testing and security consulting firm. His accomplishments include creating the first intrusion prevention system, the BlackICE series of products, sidejacking, and masscan. A frequent speaker at security conferences and a blogger, he has strong opinions—and his Twitter feed reflects that.</p>
-<h3>Jeremiah Grossman</h3>
-<h4><a target="_blank" href="https://twitter.com/jeremiahg" rel="nofollow noopener noreferrer">@jeremiahg</a></h4>
-<p>Grossman is CEO of Bit Discovery. His resume includes information security officer at Yahoo and founder, in 2001, of WhiteHat Security. As a researcher, he has demonstrated ways to surreptitiously turn on anyone&#8217;s computer video camera and microphone from anywhere across the Internet, and how to sidestep corporate firewalls, abuse online advertising networks to take any website offline, hijack the email and bank accounts of millions, and silently rip out saved passwords and surfing histories from any web browser.</p>
-<h3>Jason Haddix</h3>
-<h4><a target="_blank" href="https://twitter.com/Jhaddix" rel="nofollow noopener noreferrer">@Jhaddix</a></h4>
-<p>Haddix is director of Ubisoft&#8217;s application security engineers and technical operations and, with his team, oversees more than 300 security programs across a variety of industry verticals. His skill set includes performing security assessments, handling clients, architecting solutions, designing services, improving business processes, managing technical consultants, training, technical writing, marketing, and delivering solutions. He also writes for several information security publications and is a semi-regular player of capture the flag.</p>
-<h3>Ben Hawkes</h3>
-<h4><a target="_blank" href="https://twitter.com/benhawkes" rel="nofollow noopener noreferrer">@benhawkes</a></h4>
-<p>Hawkes is a founding member and the current technical lead of <a target="_blank" href="https://googleprojectzero.blogspot.com/" rel="nofollow noopener noreferrer">Google&#8217;s Project Zero</a>, a team created to find zero-day vulnerabilities in software. He&#8217;s discovered dozens of serious vulnerabilities in a variety of software platforms and regularly presents and publishes research focused on vulnerability analysis and software exploitation.</p>
-<h3>Ashar Javed</h3>
-<h4><a target="_blank" href="https://twitter.com/soaj1664ashar" rel="nofollow noopener noreferrer">@soaj1664ashar</a></h4>
-<p>Chosen No. 1 on Microsoft&#8217;s 2018 top security researchers list, Javed performs penetration testing, source code reviews, and mobile application vulnerability assessments for Hyundai AutoEver Europe. There, he works with developers and third-party vendors to eliminate web vulnerabilities in their applications. He&#8217;s frequently invited to speak at conferences such as Black Hat, Hack in the Box, and RSA. He also blogs at Respect XSS.</p>
-<h3>Konstantinos Karagiannis</h3>
-<h4><a target="_blank" href="https://twitter.com/KonstantHacker" rel="nofollow noopener noreferrer">@KonstantHacker</a></h4>
-<p>Karagiannis is head of the NYC Hacking Lab and senior quantum computing technologist at Protiviti, a global business consulting and internal audit firm, where he works at defending organizations against emerging threats, and getting them post-quantum ready. He&#8217;s an expert in financial application hacking and network penetration, and is often invited to speak at conferences such as RSAC.</p>
-<h3>Dave Kennedy</h3>
-<h4><a target="_blank" href="https://twitter.com/HackingDave" rel="nofollow noopener noreferrer">@HackingDave</a></h4>
-<p>Kennedy, who has more than 100,000 Twitter followers, is co-founder of Binary Defense, a monitoring and detection company, and founder of TrustedSec, an information security consultancy. He also founded DerbyCon, a well-known security conference held annually in Louisville, Kentucky, and is author of a popular pen-testing tome, <a target="_blank" href="https://www.amazon.com/Metasploit-Penetration-Testers-David-Kennedy/dp/159327288X" rel="nofollow noopener noreferrer"><i>Metasploit: The Penetration Testers Guide</i></a>. He&#8217;s a software writer, too, and has developed several open-source tools, including <a target="_blank" href="https://securedyou.com/social-engineering-toolkit-set-free-download-windows-10-8-7/" rel="nofollow noopener noreferrer">The Social-Engineer Toolkit</a>. In addition to his security tweets, Kennedy likes to comment about physical fitness and grilling.</p>
-<h3>Mohit Kumar</h3>
-<h4><a target="_blank" href="https://twitter.com/unix_root" rel="nofollow noopener noreferrer">@unix_root</a></h4>
-<p>Kumar is founder and CEO of <em>Hacker News</em>, an online publication that attracts more than 10 million readers every month. Many of his tweets are touts for HN stories, but he also mixes in retweets about application security from other sources.</p>
-<h3>David Litchfield</h3>
-<h4><a target="_blank" href="https://twitter.com/dlitchfield" rel="nofollow noopener noreferrer">@dlitchfield</a></h4>
-<p>Litchfield is director of information security assurance at Apple and one of the authors of <a target="_blank" href="https://www.abebooks.com/products/isbn/9780470080238?cm_mmc=ggl-_-COM_DSAETAFEED_Trade-_-naa-_-naa&amp;gclid=EAIaIQobChMImvWLn5-R6wIVDODICh0cAAJIEAAYAiAAEgILkvD_BwE" rel="nofollow noopener noreferrer"><i>The Shellcoder&#8217;s Handbook</i></a>, which explores the origin of security holes and how to close them. He&#8217;s also one of the world&#8217;s leading authorities on database security. In addition to application security, his tweets reveal a fascination with astronomy.</p>
-<h3>Jim Manico</h3>
-<h4><a target="_blank" href="https://twitter.com/manicode" rel="nofollow noopener noreferrer">@manicode</a></h4>
-<p>A self-proclaimed app sec enthusiast, Manico is founder of Manicode Security, where he trains software developers on secure coding and security engineering. He has more than 19 years&#8217; experience as a developer and more than 10 years of application security experience. Currently an OWASP volunteer, he is a former OWASP board member.</p>
-<h3>Gary McGraw</h3>
-<h4><a target="_blank" href="https://twitter.com/cigitalgem" rel="nofollow noopener noreferrer">@cigitalgem</a></h4>
-<p>McGraw is co-founder of the <a target="_blank" href="https://berryvilleiml.com" rel="nofollow noopener noreferrer">Berryville Institute of Machine Learning</a> and a globally recognized authority on software security. He has authored eight best-selling books on software security, including <i>Software Security</i>, <i>Exploiting Software</i>, <i>Building Secure Software</i>, and <i>Java Security</i>. His <a target="_blank" href="https://www.garymcgraw.com/technology/silver-bullet-podcast/" rel="nofollow noopener noreferrer">Silver Bullet Security podcast</a>, which features in-depth interviews with security experts, reaches 13,000 listeners every month.</p>
-<h3>Malik Mesellem</h3>
-<h4><a target="_blank" href="https://twitter.com/MME_IT?lang=en" rel="nofollow noopener noreferrer">@MME_IT</a></h4>
-<p>Mesellem is a penetration tester and ethical hacker. He&#8217;s also the creator of <a target="_blank" href="https://phpvideoacademy.com/what-is-bwapp-how-to-install-bwapp/" rel="nofollow noopener noreferrer">#bWAPP</a>, a buggy, open-source web application that was designed to be insecure as an educational tool for security enthusiasts, developers, and students who want to learn about preventing web vulnerabilities. His company, MME, specializes in security audits, user awareness, penetration testing, ethical hacking, and security training.</p>
-<h3>Alyssa Miller</h3>
-<h4><a target="_blank" href="https://twitter.com/AlyssaM_InfoSec" rel="nofollow noopener noreferrer">@AlyssaM_InfoSec</a></h4>
-<p>If you want to advance your career in application security, you&#8217;ll want to follow Alyssa Miller&#8217;s Twitter feed. A self-proclaimed hacker, Miller leads the information security solutions practice at CDW. She also works with executive and senior business leaders on developing comprehensive enterprise security programs. Additionally, she evangelizes her message about evolving the way people think about and approach security, privacy, and trust through speaking engagements at various conferences and other events, including hosting the <a target="_blank" href="https://www.itspmagazine.com/the-uncommon-journey-talk-show-podcast-phillip-wylie-chloe-messdaghi-alyssa-miller" rel="nofollow noopener noreferrer">Uncommon Journey podcast</a>, where industry personalities discuss their unique journeys into security.</p>
-<h3>Katie Moussouris</h3>
-<h4><a target="_blank" href="https://twitter.com/k8em0?lang=en" rel="nofollow noopener noreferrer">@k8em0</a></h4>
-<p>Moussouris is the founder and CEO of Luta Security, which helps businesses and governments work with hackers to defend themselves from digital attacks. She&#8217;s a well-known authority on bug bounty programs and helped Microsoft and the US Department of Defense start their first bug bounty programs. She&#8217;s also an equal-pay-for-equal-work advocate and <a target="_blank" href="https://floridamysterysnails.com/2018/05/30/how-to-make-snello-snail-jello/" rel="nofollow noopener noreferrer">snello</a> enthusiast.</p>
-<h3>Chris Nickerson</h3>
-<h4><a target="_blank" href="https://twitter.com/indi303" rel="nofollow noopener noreferrer">@indi303</a></h4>
-<p>Nickerson is CEO of Lares, a provider of penetration testing, app security, and adversarial simulation services, as well as a virtual CISO for multiple Fortune 1,000 companies and a faculty member at the Institute for Applied Network Security in Denver. He says he&#8217;s spent 20 years in information security fighting to make customers more secure and avoid infosec FUD.</p>
-<h3>Louis Nyffenegger</h3>
-<h4><a target="_blank" href="https://twitter.com/snyff" rel="nofollow noopener noreferrer">@snyff</a></h4>
-<p>Nyffenegger describes himself as a CVE connoisseur, trying to save the Internet one web at a time. He&#8217;s also a security engineer and founder of PenesterLab, a learning platform for web penetration testing. He also does code reviews and penetration testing and runs training sessions. He is a regular guest speaker at security conferences, including OWASP and Ruxcon. His most recent talks were about monitoring GitHub repositories for fun and profit and discussing test-driven security.</p>
-<h3>John Opdenakker</h3>
-<h4><a target="_blank" href="https://twitter.com/j_opdenakker" rel="nofollow noopener noreferrer">@j_opdenakker</a></h4>
-<p>Opdenakker specializes in application security, especially web application security, and security awareness. He&#8217;s also a blogger and member of <a target="_blank" href="https://twitter.com/thebeerfarmers" rel="nofollow noopener noreferrer">@TheBeerFarmers</a>, an online social group of infosec enthusiasts. His Twitter feed includes security advice aimed at lay users—&#8221;Let&#8217;s crowdsource a list of common #infosec-related terminology that we should no longer use when we approach non-tech users&#8221;—sprinkled with tech humor—&#8221;I somewhere read &#8216;infosec tool of the day&#8217; and the first thing I thought about wasn’t software or hardware.&#8221;</p>
-<h3>Tavis Ormandy</h3>
-<h4><a target="_blank" href="https://twitter.com/taviso" rel="nofollow noopener noreferrer">@taviso</a></h4>
-<p>With more than 100,000 followers, Ormandy is one of the more popular application security experts on Twitter. As a member of Google&#8217;s Project Zero team, he&#8217;s discovered major flaws in antivirus software made by Sophos, Symantec, and Trend Micro. He also uncovered Cloudbleed, a bug in Cloudflare&#8217;s infrastructure leaking user-sensitive data along with requests affecting millions of websites around the world, and a flaw in SymCrypt, the core cryptographic library for implementing asymmetric crypto algorithms in Windows 10. His opinions, which are strictly his own, can be controversial, such as why two-factor SMS authentication and reproducible builds aren&#8217;t needed.</p>
-<h3>Chris Romeo</h3>
-<h4><a target="_blank" href="https://twitter.com/edgeroute" rel="nofollow noopener noreferrer">@edgeroute</a></h4>
-<p>Romeo is CEO and founder of Security Journey, an application security training program, and co-host of the <a target="_blank" href="https://podcast.securityjourney.com" rel="nofollow noopener noreferrer">AppSec podcast</a>. He previously worked at Cisco as chief security advocate in charge of Cisco&#8217;s Secure Development Lifecycle program, where he encouraged engineers to build security into all products. Many of his tweets promote guests on his podcast.</p>
-<h3>Marcello Salvati</h3>
-<h4><a target="_blank" href="https://twitter.com/byt3bl33d3r" rel="nofollow noopener noreferrer">@byt3bl33d3r</a></h4>
-<p>Salvati is a security researcher and software writer at BlackHills Information Security. His passions include anything Active Directory, trolling people on GitHub, and writing open-source tools for the security community. <a target="_blank" href="https://github.com/byt3bl33d3r" rel="nofollow noopener noreferrer">His projects include</a> SilentTrinity, CrackMapExec, DeathStar, and RedBaron.</p>
-<h3>Sam Stepanyan</h3>
-<h4><a target="_blank" href="https://twitter.com/securestep9" rel="nofollow noopener noreferrer">@securestep9</a></h4>
-<p>Stepanyan wears multiple infosec hats. He&#8217;s the leader of the London chapter of OWASP, director and principal consultant with Step9 consulting, and on contract as an application security architect at Schroders, a multinational asset management company. His Twitter feed mixes industry news about data breaches, conferences, and training with tweets about bugs and vulnerabilities.</p>
-<h3>Maddie Stone</h3>
-<h4><a target="_blank" href="https://twitter.com/maddiestone" rel="nofollow noopener noreferrer">@maddiestone</a></h4>
-<p>Stone is a security researcher with <a target="_blank" href="https://googleprojectzero.blogspot.com" rel="nofollow noopener noreferrer">Google&#8217;s Project Zero</a>, where she focuses on zero-day vulnerabilities used in the wild. Previously, she was a reverse engineer and team lead on the Android Security team, focusing predominantly on pre-installed and off-Google Play malware. She also spent many years deep in the circuitry and firmware of embedded systems. She says she likes to speak at conferences, and she has appeared at Black Hat USA, REcon, OffensiveCon, KasperskySAS, and others.</p>
-<h3>Parisa Tabriz</h3>
-<h4><a target="_blank" href="https://twitter.com/laparisa" rel="nofollow noopener noreferrer">@laparisa</a></h4>
-<p>Tabriz is the &#8220;browser boss&#8221; at Google, where she is responsible for Chrome security and serves as &#8220;den mom&#8221; for <a target="_blank" href="https://googleprojectzero.blogspot.com" rel="nofollow noopener noreferrer">Project Zero</a>. During the Obama administration, she worked for the US Digital Service, where she advised the Executive Office of the President on best practices to enhance network and software security.</p>
-<h3>Mike Thompson</h3>
-<h4><a target="_blank" href="https://twitter.com/AppSecBloke" rel="nofollow noopener noreferrer">@AppSecBloke</a></h4>
-<p>The AppSec Bloke&#8217;s path to his current position as an information security analyst at a midsized telecom and ISP has had some twists and turns. He started with an electronic and electrical equipment distributor, started and failed an industrial automation business, became a business analyst and programmer, moved on to be a consultant with a large professional services firm, took a side road into the music industry, and finally landed a job at the telecom as a business analyst, which he eventually parlayed into security analyst. His Twitter feed is a mix of infosec and non-infosec stuff.</p>
-<h3>Thunder Son</h3>
-<h4><a target="_blank" href="https://twitter.com/7hunderSon" rel="nofollow noopener noreferrer">@7hunderSon</a></h4>
-<p>Thunder Son is the Twitter handle of Elie Saad, an application security engineer and project lead of <a target="_blank" href="https://cheatsheetseries.owasp.org" rel="nofollow noopener noreferrer">OWASP&#8217;s CheatSheetSeries</a>. The series is a concise collection of important information about a number of application security topics. He&#8217;s also the project lead of the <a target="_blank" href="https://owasp.org/www-project-web-security-testing-guide/" rel="nofollow noopener noreferrer">Web Security Testing Guide</a>, a comprehensive open-source document about testing the security of web applications and services. His day job is information security officer at the Saradar Bank in Beirut.</p>
-<h3>Tim Tomes</h3>
-<h4><a target="_blank" href="https://twitter.com/LaNMaSteR53" rel="nofollow noopener noreferrer">@LaNMaSteR53</a></h4>
-<p>With more than a decade of information security experience, Tomes is an application security professional schooled as both a technician and manager for the US military and private industry. He hones his skills by managing multiple open-source software projects and taking on consulting gigs. He says he has a strong interest in contributing to the community and does so by writing technical articles, speaking at conferences, and conducting training both as an independent instructor and for training providers. In his Twitter feed, you can find tweets about anything from TLS stripping and disclosure issues in web applications to bugs in Node.js and running Python scripts in throwaway environments.</p>
-<h3>Chris Truncer</h3>
-<h4><a target="_blank" href="https://twitter.com/christruncer" rel="nofollow noopener noreferrer">@christrunc</a></h4>
-<p>Offensive security is Truncer&#8217;s specialty, something he gets plenty of time to practice at FortyNorth Security, which he co-founded. Not only is he a veteran red teamer and penetration tester, but he&#8217;s an open source developer and teacher, too. He can also be found participating in and designing capture-the-flag events at security conferences. In addition to tweets about network, database, and cloud security, his Twitter feed includes information about FortyNorth&#8217;s latest training offerings.</p>
-<h3>Johannes Ullrich</h3>
-<h4><a target="_blank" href="https://twitter.com/johullrich" rel="nofollow noopener noreferrer">@johullrich</a></h4>
-<p>Ullrich is director of the <a target="_blank" href="https://isc.sans.edu" rel="nofollow noopener noreferrer">SANS Internet Storm Center</a>, which is used by more than 10,000 network security professionals daily, and dean of research at the SANS Technology Institute. He also teaches courses at the SANS Institute, including SEC522: Defending Web Applications Security Essentials.</p>
-<h3>Andrew van der Stock</h3>
-<h4><a target="_blank" href="https://twitter.com/vanderaj" rel="nofollow noopener noreferrer">@vanderaj</a></h4>
-<p>As executive director of the OWASP Foundation and co-lead of the <a target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/" rel="nofollow noopener noreferrer">OWASP Application Security Verification Standard project</a>, which is used by organizations to build and verify safer software, van der Stock is very knowledgeable about what it takes to make applications secure. In addition to his app sec tweets, van der Stock also keeps the security community aware of the latest OWASP events and developments.</p>
-<h3>VectorSEC</h3>
-<h4><a target="_blank" href="https://twitter.com/Real__Vector" rel="nofollow noopener noreferrer">@Real__Vector</a></h4>
-<p>The mysterious VectorSEC describes himself as a &#8220;cybersecurity enthusiast&#8221; who sometimes has a stroke of brilliance &#8220;but most of the time just the symptoms of a stroke.&#8221; His projects on GitHub can be <a target="_blank" href="https://github.com/NullArray" rel="nofollow noopener noreferrer">found under NullArray</a>. If you&#8217;re interested in hardcore hacking, VectorSEC is a Twitter account you&#8217;ll definitely want to follow.</p>
-<h3>Chris Vickery</h3>
-<h4><a target="_blank" href="https://twitter.com/VickerySec" rel="nofollow noopener noreferrer">@VickerySec</a></h4>
-<p>Vickery is director of cyber risk research at UpGuard and a data breach hunter. He&#8217;s discovered millions of records exposed to the public Internet, largely through misconfigured databases and servers, and has been cited as a cyber security expert by <em>The New York Times</em>, <em>Forbes</em>, Reuters, the BBC, <em>The Los Angeles Times</em>, <em>The Washington Post</em>, and many other publications.</p>
-<h3>Dave Waterson</h3>
-<h4><a target="_blank" href="https://twitter.com/DavidLWaterson" rel="nofollow noopener noreferrer">@DavidLWaterson</a></h4>
-<p>Waterson is founder, CEO, and chairman of the board of SentryBay, which uses secure containers to protect applications from threat actors. He&#8217;s also an award-winning blogger and has been on the top 10 tech thought leaders list released by A.T. Kearney at the World Economic Forum held in Davos, Switzerland. Many of his tweets focus on endpoint vulnerabilities, data protection, and work-from-home security.</p>
-<h3>Jeff Williams</h3>
-<h4><a target="_blank" href="https://twitter.com/planetlevel" rel="nofollow noopener noreferrer">@planetlevel</a></h4>
-<p>Over a career spanning 25 years, Williams created <a target="_blank" href="https://owasp.org" rel="nofollow noopener noreferrer">the OWASP Foundation</a>, a worldwide open-source application security organization; founded Aspect Security, a consulting firm focusing exclusively on application security; and launched Contrast Security, which concentrates on fully automating application security at the speed of DevOps. His Twitter feed is full of solid information on application security, &#8220;shifting left,&#8221; and reducing vulnerability remediation times through the use of modern app sec tools.</p>
-<h3>Robin Wood</h3>
-<h4><a target="_blank" href="https://twitter.com/digininja" rel="nofollow noopener noreferrer">@DigiNinja</a></h4>
-<p>Wood is a freelance security consultant specializing in web app testing. He has a developer background, which can be a plus when explaining security problems in apps to the people who made them. He is also co-founder of the <a target="_blank" href="https://www.steelcon.info" rel="nofollow noopener noreferrer">SteelCon conference</a>, is an associate lecturer at Sheffield Hallam University in the UK, and has been a speaker at a number of conferences, including Def Con, ShmooCon, and Wild West Hackin’ Fest. He likes to mix a little whimsy into his Twitter feed.</p>
-<h3>Chris Wysopal</h3>
-<h4><a target="_blank" href="https://twitter.com/WeldPond" rel="nofollow noopener noreferrer">@WeldPond</a></h4>
-<p>A former programmer at Lotus and later a security researcher at the hacker collective L0pht, Wysopal was part of a team that warned Congress about gaping Internet vulnerabilities as far back as 1998. Wysopal is CTO and a co-founder of Veracode, an application security vendor. A self-professed application security and security-transparency buff, Wysopal&#8217;s tweets are newsy and cover a wide range of security-related topics.</p>
-<h3>zseano</h3>
-<h4><a target="_blank" href="https://twitter.com/zseano" rel="nofollow noopener noreferrer">@zseano</a></h4>
-<p>Zseano is the handle of a well-known hacker in the bug bounty community. Over the last few years, the self-taught hacker has created a platform for exchanging bug bounty notes, organized a live hacking event, and hosted a number of online mentoring sessions. He&#8217;s a full-time bug bounty hunter who lives in the UK and has a &#8220;pay it forward&#8221; attitude toward life. As he <a target="_blank" href="https://blog.intigriti.com/2020/04/29/bug-business-3-zseanos-notes-on-hacking-mentoring/" rel="nofollow noopener noreferrer">told one interviewer</a>, &#8220;I have always had people share their knowledge and help me, so I am just passing the good will on.&#8221;</p>
+<p>When the pandemic caused more organizations to rely on a distributed workforce, those organizations had more pressure to move services to the cloud. At the same time, attackers ramped up security threats that took advantage of the uncertainty and fear many people were experiencing. The result: <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/zero-trust-security-matters?lx=9nmHuO&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">Companies have made zero-trust projects a priority</a>.</p>
+<p>Many are wondering how to make the transformation to zero trust. Small, defined steps are best, said <a target="_blank" href="https://twitter.com/CynjaChaseC" rel="nofollow noopener noreferrer">Chase Cunningham</a>, vice president and principal analyst at Forrester Research.</p>
+<p>Cunningham noted some potential starting points: replacing a software-defined perimeter or software-defined WAN that is a bottleneck for remote workers, improving monitoring of users through <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/identity-governance-best-practices?lx=3C7k5c&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">identity and access management</a> or <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/behavioral-analytics-security?lx=3C7k5c&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">behavioral monitoring</a>, or extending endpoint detection and response (EDR) monitoring to all nodes.</p>
+<p>But it needn&#8217;t be a matter of rip and replace. Often, existing security technologies can be reconfigured to be more in line with the zero-trust model, said <a target="_blank" href="https://www.linkedin.com/in/kierannorton/" rel="nofollow noopener noreferrer">Kieran Norton</a>, infrastructure solutions leader at consultancy Deloitte.</p>
+<p>Here are key steps to take to get started with zero-trust security.</p>
+<h3>Get executives to buy in</h3>
+<p>All zero-trust initiatives need support from business leaders, but many times it&#8217;s company leaders themselves who are driving the move, said Forrester&#8217;s Cunningham, because of some compelling benefits.</p>
+<blockquote>
+<p>&#8220;At the end stages, what you get out of zero trust is remote-workforce enablement, lower risk, and more command and control of diverse assets. You have an easily translatable business strategy that is easily justifiable to the business.&#8221;<br />—<a target="_blank" href="https://twitter.com/CynjaChaseC" rel="nofollow noopener noreferrer">Chase Cunningham</a></p>
+</blockquote>
+<p>Currently, nearly 30% of companies either have zero trust in place already or have projects underway, according to Cybersecurity Insiders&#8217; <a target="_blank" href="https://www.cybersecurity-insiders.com/portfolio/2020-zero-trust-progress-report-pulse-secure/" rel="nofollow noopener noreferrer">2020 Zero Trust Progress Report</a>. Another 43% of companies are planning to tackle zero trust this year.</p>
+<h3>Assess your current situation</h3>
+<p>Every company has a different security maturity level and a different set of assets and skilled personnel. Before embarking on creating a business infrastructure for zero trust, companies must know where they stand, Cunningham said.</p>
+<blockquote>
+<p>&#8220;I think it is a very important thing for organizations to take a realistic assessment of their current posture. If they don&#8217;t do that, they don&#8217;t know where to start.&#8221;<br />—Chase Cunningham</p>
+</blockquote>
+<p>The top focus of many companies, according to the 2020 Zero Trust Progress Report, is deploying multi-factor authentication within the next 12 months. That is followed by identity management and single sign-on.</p>
+<h3>Start small and proceed with deliberation</h3>
+<p>Companies that want to deploy a zero-trust framework are often overwhelmed by the enormous scope of the project and decide to start with protecting their most critical assets.</p>
+<p>Such an approach can lead to failure, said John Kindervag, field CTO at Palo Alto Networks. The most critical assets are often the ones that have had layers of software and security built around them to keep them working, making them fragile. Instead, the <a target="_blank" href="https://blog.paloaltonetworks.com/2020/04/network-zero-trust-learning-curve/" rel="nofollow noopener noreferrer">learning curve</a> should focus on the most implementable projects first, to develop in-house expertise.</p>
+<blockquote>
+<p>&#8220;Focus on low-sensitivity data or assets and build zero trust incrementally and iteratively. You boil the ocean one teaspoon at a time.&#8221;<br />—<a target="_blank" href="https://twitter.com/kindervag?lang=en" rel="nofollow noopener noreferrer">John Kindervag</a></p>
+</blockquote>
+<h3>All-new technology is not needed</h3>
+<p>Zero trust is not necessarily a set of new technologies, but a different way of looking at security and what the boundaries are for trust. Because vendors have all labeled their products as necessary for digital transformation and zero trust, there is a lot of confusion in the market.</p>
+<p>Take it all with a grain of salt, said Forrester&#8217;s Cunningham.</p>
+<p>&#8220;The things that prevent compromises are not [new technology such as] super-mega encryption post-quantum whatever,&#8221; he said. More can be gained, he said, from taking aim at the low-hanging fruit: eliminating bad passwords, enabling MFA, limiting what users can access, and limiting lateral movement with micro-segmentation.</p>
+<blockquote>
+<p>&#8220;All the other stuff that we see being sold in the industry is lipstick on a pig. We have a lot of folks that continue to buy more stuff.&#8221;<br />—Chase Cunningham</p>
+</blockquote>
+<p>That&#8217;s not to say that the right technology will not help. But companies should first figure out what they really need, he said. &#8220;In reality, you can build a zero-trust infrastructure with any set of technologies. But although I could build the Suez Canal with a shovel, it is much better if I bring in the right equipment.&#8221;</p>
+<h3>Prepare for take-off</h3>
+<p>In the end, a deliberate and planned approach to zero trust allows companies to learn the technology, correct course, and then take on the most critical threats. Kindervag, who coined the term &#8220;zero trust,&#8221; argues that this approach gives a company enough runway to get up to speed before attempting the hardest projects.</p>
+<p>If companies do it right, then it provides operational savings, he said.</p>
+<blockquote>
+<p>&#8220;It reduces capital expenditures by eliminating unnecessary or redundant controls. Fewer people are needed to manage and maintain a zero-trust environment.&#8221;<br />—John Kindervag</p>
+</blockquote>
+<h3>When old meets new</h3>
+<p>Zero trust involves revamping trusted principles with a new approach. Remember that when sorting out the approach your team will take.</p>
+<blockquote>
+<p>&#8220;The technologies are many of the same things that we have been doing for a long time, and that is where I think clients sometimes don&#8217;t see through all the noise. You probably have a bunch of technology in your environment today that you can use to move to a zero-trust model—so you don&#8217;t have to replace everything, buy new technology, and start over.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/kierannorton/" rel="nofollow noopener noreferrer">Kieran Norton</a></p>
+</blockquote>
+<p>And as with any major technology project, keep it simple, said Cunningham.</p>
+<blockquote>
+<p>&#8220;The most important approach is to pick a pillar, solve for it, complete it, and then move on. What you shouldn&#8217;t do is try to start three or four projects at the same time, because then you wind up with three or four 70% done projects, and that&#8217;s a problem.&#8221;<br />—Chase Cunningham</p>
+</blockquote>
 <h4>Keep learning</h4>
 </div>
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
-<br /><a href="https://techbeacon.com/security/appsec-50-top-application-security-pros-follow-twitter">Source link </a></p>
+<br /><a href="https://techbeacon.com/security/zero-trust-security-how-get-started">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>How Should I Organize My Automation Team?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-should-i-organize-my-automation-team/</link>
+		<title>Iran-Linked ‘Newbie’ Hackers Spread Dharma Ransomware Via RDP Ports</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/iran-linked-newbie-hackers-spread-dharma-ransomware-via-rdp-ports/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 11 Aug 2020 06:07:18 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[organize]]></category>
-		<category><![CDATA[team]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-should-i-organize-my-automation-team/</guid>
-
-					<description><![CDATA[Joan Rivers once wrote, “I don’t want to order dinner by yelling into a plastic clown’s mouth”. We’ll get back]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Joan Rivers once wrote, “I don’t want to order dinner by yelling into a plastic clown’s mouth”. We’ll get back to that shortly.</p>
-<p>There is a compelling discussion to have about creating a dedicated team to “do all the automation”. Why not have all the automation developers or SDETs be on one team? After all, automation creation is a special skill like database administration and CI/CD/CT pipeline management, so shouldn’t we treat automators for testing in the same way? We can just hand them the requirements or acceptance criteria and they can bang out those automation scripts for us.</p>
-<p>Some call the above situation the <em>automation drive-thru</em>; it’s an apt analogy. Like a fast-food drive-thru, you simply decide what you want to order, yell your order into a clown’s mouth, pay some fee, then get your food from the window. No muss, no fuss. Can’t automation development be similar?  Instead of a greasy burger, some chicken nuggets, or some delicious tacos, out comes an automated test script; again, no muss, no fuss, right? Sadly, it doesn’t always work out with no muss or fuss.</p>
-<p>The drive-thru is but one way to organize teams for automation; there are, however, three ways: the dedicated automation team, the distributed automation team, and the hybrid approach.</p>
-<p>Let’s explore!</p>
-<h2 id="h.xpvxmlms6ppg"><strong>What Does A Dedicated Automation Team Look Like?</strong></h2>
-<p>I know of an organization in a Fortune 500 company that had (and perhaps still has) a dedicated team that creates their automation for at least one organization. Putting snark aside, the dedicated automation team was the working, professional, effective version of the automation drive-thru. This team would take in requests to create automation scripts based on test cases and then create automated scripts that would (give or take) do what was prescribed based on the test cases. In general, I would dismiss this as folly; no sufficiently experienced testing professional could think this was a good working model. But, they did, and it was. This organization was producing quality automation with actual value. The organization was succeeding. I know this because I was well acquainted with their former leader and with several of their automation engineers.</p>
-<h3 id="h.4tb3yqvyj1om"><strong>Dedicated Team Advantages</strong></h3>
-<p>The main advantages of the dedicated team are the <a target="_blank" href="https://www.merriam-webster.com/dictionary/critical%20mass" rel="noopener noreferrer">critical mass</a> of automation expertise and the <a target="_blank" href="https://www.merriam-webster.com/dictionary/economy%20of%20scale" rel="noopener noreferrer">economy of scale</a>.</p>
-<p>Regarding <em>critical mass</em>, if you have all the automation expertise in one place, the automation endeavor has less friction when it comes to helping one another conquer automation challenges and deliver new automation capabilities. New automation engineers can be brought up to speed quickly because they have the rest of the automation team “at arm’s reach”. The walls between who automates what don’t need to exist (except when funding comes into play, but, to quote <a target="_blank" href="https://altonbrown.com/" rel="noopener noreferrer">Alton Brown</a>, that’s another show).</p>
-<p>Following from, and dependent on, critical mass is the ability to gain an economy of scale. The <em>Economy of scale</em>, for our purposes, is being more productive, efficient, effective, and therefore economical in the delivery of automation. Speaking practically, this means that there is a consistency that can be attained by having a dedicated automation team and that consistency can scale because of the critical mass and consistency. The dedicated team can be indoctrinated with the organization standards and the organization can preside over the guidelines; automation, regardless of framework or library, can be implemented based on a consistent ideology. When implemented judiciously, this approach can deliver economic gains to the organization and the company.</p>
-<h3 id="h.dvwkrai2iojn"><strong>Dedicated Team Limitations</strong></h3>
-<p>As is said, into every life some rain must fall. The main downside to a dedicated automation team is that the team, while experts in automation, likely lacks detailed domain knowledge. Of course, the automation team knows the basic operation of the system under test, but most current applications are large, distributed, multiple-serviced entities. It’s not realistic for a relatively small team of automation developers to be “sufficiently versed” in the esoterica of how each subsystem works; the details eventually get too small for this team to keep up. The limitation is further strained when the dedicated team is expected to provide automation across heterogeneous application environments. Having worked in an organization that was responsible for producing automation across disparate applications, I can attest that a lack of domain knowledge was a challenge to the value proposition.</p>
-<h2 id="h.r7h2am996zom"><strong>What Does A Distributed Team Look Like?</strong></h2>
-<p>Spinning 180 degrees from a dedicated automation team, we have the distributed automation team. Generally, a <em>distributed automation team</em> falls into one of three categories: in-team automation specialists, testers/QAs do the automation, developers do the automation.</p>
-<p>In the case of <em>automation specialists</em>, often called software development engineers in test (SDETS) or quality engineers (QE), the name describes the role. The automation specialists only do that: automation. In the microcosm, we have that economy of scale and specialization, but it’s a relatively small economy in the scope of the overall company because it’s exclusive to the team on which the automation specialists work; this is especially true if the company has many, similar delivery teams. In this team implementation, the automation specialists are not testers/QAs; they work with the testers/QAs as well as the developers to develop the automation that helps the team be more effective or more efficient at testing.</p>
-<p>It’s a great story to say that the <em>testers/QAs do the automation</em>. They automate instead of “doing it manually” and the team “goes faster”. To accomplish this approach, the testers/QAs need to have time to gain the skills necessary for automation; they also need the time to create and maintain the automation. Often, the <em>whole team does automation</em> variant can be more effective. In this model, the automation work, like other work, is not assigned to one role; anyone on the team with the appropriate skill set is empowered to perform or help with any task. Developers know how to program so they can be a natural fit to create automation or pair with a tester to create automation.</p>
-<p>A third, and recently hot, approach is “we don’t need testers” because we can have the <em>developers do the automation</em>. This has a direct correlation to the testers/QAs do the automation approach, namely that automation is something you “just do” without training or special skills; since automation is programming and developers know how to program, it’s a natural fit for them. Like testers, however, developers need time to gain the appropriate skills to appropriately implement automation.</p>
-<h3 id="h.6nbsm161v46e"><strong>Advantages</strong></h3>
-<p>Since the automators, whoever they happen to be, can focus their implementations on the app or app area on which their team works, they can have deep domain knowledge of the software. This allows the automators, and therefore the automation, to be very specific and specialized in the automation they create. Since the automation software doesn’t have to be generalized across all application teams, there can be some cost savings in some cases; the automaton software, the frameworks and reusable libraries, in particular, don’t have to be all things to everyone so the automation can be created faster and likely at a lower cost.</p>
-<p>Additionally, the deep domain knowledge enables the automators to discover hence unthought-of paths in the code that merit testing. This is difficult-to-impossible without the deep domain knowledge this approach permits.</p>
-<p>Distributed automation teams are especially appropriate when the teams are working disparate products where there is little-to-no overlap between the application or system technologies.</p>
-<h3 id="h.3ur7mf8q0tt1"><strong>Limitations</strong></h3>
-<p>If <em>automation specialists</em> are creating the automation, these automators are often over-burdened or under-utilized. If there’s too much automation to create, not all of it gets created. This is not necessarily a bad thing, but it can be sub-optimal if critical or high-value automation can’t be implemented simply because the team “doesn’t have time”. Conversely, if there’s “not enough” automation work to fully occupy the automators, they may be idle and the team loses potential value.</p>
-<p>That’s OK, let’s “just” have the <em>testers/QAs do automation</em>. Bzzt, play again. There is an unfortunate perception that automation is something that you “just do”. I just brush my teeth, I just eat lunch, I just run some test cases, and I just create some automation. As much as it would be great if this were true, it’s just not. What typically happens is that the testers/QAs are “tasked” with automation with little-to-no guidance or training and this effort is heaped on top of their existing work, which continues to grow; when was the last time a team released a new version of their software with fewer features? Unless the organization is tolerant of a “let’s slow down now to go faster later” strategy, this approach is fraught with peril and the likely outcome will be “automation can’t work here”.</p>
-<p><em>Developers do the automation</em> has a similar issue. Leadership wants this to happen with negligible impact to effort estimates even in the short term. For teams that can’t embrace the “let’s slow down now to go faster later” strategy, one of two outcomes is usually the result. One outcome is that the created automation is largely confirmatory; the automation shows that the software can work under very specific conditions and other conditions are not accounted for; the developers are often required to perform heroic efforts to accomplish even this due to needing to attain an on-time delivery. The other outcome is that automation takes “too long” so it doesn’t work here, and the automation endeavor is abandoned.</p>
-<p>If the automation creation is truly distributed, it is difficult or impossible for the teams to leverage each other’s work. Even the most well-meaning teams that try to develop cooperatively will have trouble doing so in a consistent manner. The incentive for the individual teams is to achieve the goals set for those teams. This work is not purposely completed to the detriment of the other team, but there is usually little-to-no incentive for teams to cooperate at that level. Senior leadership is usually not thrilled to pin their organization’s success on the “goodwill” of another team; similarly, those same leaders are not likely to jeopardize their organization’s success by spending some of their team’s cycles to help another team’s automation implementation if the need comes at a critical time.</p>
-<p>If code sharing is still desired, some of the hard dependencies can be mitigated by having a shared codebase, something like an “internal open source” repository. The primary challenge there is when conflicting changes are made to the shared code. How is that conflict resolved? Often, even in the best-intentioned companies, organizational incentives and directives reign so the teams agree to fork the shared automation repository with the well-intended agreement to merge after the next business milestone. Sadly, that seldom happens; there’s always another business milestone.</p>
-<h2 id="h.n0ijeftvftn7"><strong>The Hybrid Approach – An Oft-Appropriate Middle Ground</strong></h2>
-<p>So, let’s split the difference, shall we?</p>
-<p>As noted above, there are advantages and disadvantages to each of the preceding approaches. What if we meld the two? Let’s take the strengths of each team layout and attempt to mitigate the disadvantages. The goal is to let each of the disciplines focus on its strengths.</p>
-<p>In this approach, the automation development is divided into two competencies: the base team and the distributed teams.</p>
-<h3 id="h.7t0zz298japi"><strong>The Base Team</strong></h3>
-<p>The base team is responsible for all the shared infrastructure. Need a wrapper around Selenium’s WebElement? The base team handles that. Need an encapsulation around Microsoft’s API library? The base team handles that, too. Need some helper functions to reduce the effort required to create or maintain automation? That’s right, the base team handles that.</p>
-<p>The base team comprises experienced automation developers who are in the best position to provide a general framework, platform, and infrastructure for automation creation. The base team is also tasked with the training, coaching, and guidance of the teams implementing the actual automation.</p>
-<p>It’s also responsible for coaching on the appropriate practices for the company. This team is trained in automation strategy, implementation, and theory. They provide the base infrastructure implementation and many, if not all, of the shared components used across the distributed teams but they understand and can coach on the theory behind the strategy and implementation.</p>
-<h3 id="h.ybgh72o25dkm"><strong>The Distributed Teams</strong></h3>
-<p>The distributed teams consume and exploit the value provided by the base team. They are domain experts who have intimate knowledge of the software being tested and of how to use the shared automation created by the base team. This is the team that writes the automation that helps the testers.</p>
-<h3 id="h.u4kftvqyn41a"><strong>Risks</strong></h3>
-<p>This is not a panacea.</p>
-<p>If the base team isn’t staffed with enough appropriate people to service all of the distributed teams, the base team will become a bottleneck, actually impeding progress instead of facilitating it. If getting enough appropriate base team staff members is a challenge, the previously mentioned internal open-source model can be valuable. This model has a higher chance of success with a base team than with a purely distributed model because the base team is the steward of the shared code. Care must be taken, however, to avoid the next risk.</p>
-<p>A dedicated base team runs the risk of becoming or at least being viewed as an <em><a target="_blank" href="https://en.wikipedia.org/wiki/Ivory_tower" rel="noopener noreferrer">ivory tower</a></em>, i.e., delivering intellectual solutions and directives as opposed to practical and workable ones. One way to mitigate this risk is to give the base team a directive to be collaborative as opposed to dictatorial, conversations as opposed to edicts. Another way is to include members of the distributed team as stakeholders, which they indeed are, in any prioritization and feature creation discussions.</p>
-<p>Sadly, as in many other corporate aspects, politics often play a role when organizing a base team. The base team is seen as strategic: whoever controls the base team owns their own automation destiny. When one application team or organization controls the base team, the non-controlling teams and organizations are at a disadvantage when conflicts arise or when the controlling team must make difficult business decisions. One way to mitigate this situation is to organize the base team in a “shared services” organization, such as the organization that houses IT and security.</p>
-<h2 id="h.hjr12jrszzq7"><strong>Recommendations?</strong></h2>
-<p>There’s not really a wrong way to organize an automation team. The key is to be appropriate; let the context of what the company and organizations need and will tolerate. The hybrid team can be very powerful and has most of the advantages of both the dedicated team and the distributed team approaches. That said, the hybrid approach is not appropriate for every company or organization. There is a large amount of trust and some organizational overhead with this approach; there’s also a funding facet. Choose an appropriate approach then be prepared to evolve if the initial choice becomes inappropriate.</p>
-<p>[Editor’s Note: We are grateful to Paul Grizzaffi for contributing his blog post. If you are looking for some real-world examples that echo Paul’s hypotheses and conclusions, check out Marie Drake’s <a target="_blank" href="https://applitools.com/blog/roadmap-testing-design-system/" rel="noopener noreferrer">webinar on testing a design system at News UK</a> and Priyanka Halder’s <a target="_blank" href="https://applitools.com/blog/high-performance-testing/" rel="noopener noreferrer">webinar on high performance testing at GoodRX</a>.]</p>
-<h2 id="h.subofs6j3bm2"><strong>For More Information</strong></h2>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/organize-my-automation-team/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>NeoLoad introduces a new way for teams to collaborate and organize their perfor&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neoload-introduces-a-new-way-for-teams-to-collaborate-and-organize-their-perfor/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 07 Aug 2020 16:57:22 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Collaborate]]></category>
-		<category><![CDATA[Introduces]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[organize]]></category>
-		<category><![CDATA[perfor]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Permatters]]></category>
-		<category><![CDATA[Teams]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neoload-introduces-a-new-way-for-teams-to-collaborate-and-organize-their-perfor/</guid>
-
-					<description><![CDATA[🚀 NeoLoad introduces a new way for teams to collaborate and organize their performance testing: Workspaces. Integration with Dynatrace is]]></description>
-										<content:encoded><![CDATA[
-<p><img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> NeoLoad introduces a new way for teams to collaborate and organize their performance testing: Workspaces. Integration with Dynatrace is now native in <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3558576404153797%3Atop_level_post_id.3558576404153797%3Atl_objid.3558576404153797%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3558576404153797%3Apage_id.163354693676002%3Aphoto_id.3558576234153814%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1596819442%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3558576404153797%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3558576404153797%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-7322889860069294088&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeoLoad</a>, one-click to access bi-directional data in either UI and speed up analysis <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fwww.neotys.com%2Fneoload%2Fwhats-new%3Ffbclid%3DIwAR0QZyKxrGdna8BNLs6lLABwG1oEcch6tX55tYC1ceNUsp0K5ZLn7KcNdUM&amp;h=AT2hWvo0VT4oRV8ja-3a1YbMvz1OXt6D39N0cAJHwVq05DMAZ4zsrIXGbRuipBmg-9lTrIFzpYDVHooTrFgd-M5zLHs2zFYmppxOu4LWw7F19CkYtGpWm3TL_rZbUBni9_YllrkXEcL2wP9QDZEvAwfd_qrGpneTeh_LbbTPSDIQe4eJKVZ-8LtNzlcj67KBBaUzf0ZnDAWkjm1yDs00MmkMaW9dC6d7YeilBNtEiHTTQcvR5vWBahVK8xlObzOD0nKFTDi_v8IIRtDQ_YUaOvcWzXWxbdU3PnzvVmLhD9rwvbSBic2tAIP8vHpPLijJdXO4rEmJkAsnZFppkF9yW16JiIZx4RrpxVrnDBG5GnmSAh4jdmxsdwv7lUg7Q2ObWsUjMlyUty0RNWqjU41EM76FoIoV3Iy3m-rNCzyA4k_G7CSHHbOQTFvxHZdBYrXh0H7QsGZnZj-Fd87BdlsP9zgRHC6jFii6AOEzcM14t65McNqZVGofCCF2f4gSF-mfKreOhEm7sw2_5Yezc7n3MM3-HUB1ZPfavm9UZaKsZCbYv6ZMEGMkVXiRDuK_m2rSdPv9VWiBtGHxxqBt85E0FE467_2HR7AXsmlIERxJXaoc3h1LjvDqm3h5whUF19w7eUfTSAmmxM76rh6g3g0SxAoBfgFQUFinfmMbjmAJsIJ1WKyt2GRs3jsVWl9Pz0PiT7yKZfcVLO7UuSnLKLjJwCn-u6BAPjyTUaA3up43EG4rLGdJ_mmoK-ZRkF6iPwAcsDtbUKnqGPEwxu7dxZPKZdPaRzbC6OQqXIfY4A45nxjkV2egqwoOBlen-fvDHdNwwTFqV6Jb7yFlqcHLsVC1L0h1ZMl4llwJY91kMTisGd8v-RXjsX_aw2RE-cbn8axfDQNA8CQL3J3ya99kyxxMA8jbyXU4bYn3Dla0AYFpTGf-AczeRD6e9LR0AHoFnELb6GGaw96rGxk6FUG-e-JOBx7UXeX2BduD5MbPtmrOC8pP87t_EUgJ_Nsy9lqBqgEpJ3TBQtdNfRfbYSYus1WrfP7C0DU54ppMhSJ322iWSo1MVvQbRRF-T8LrEP8BJ9eqarUBpIJgP-D5GjbQq9vrdjgW546Q4g9b80q7RrKhWcuVNNVRCwUl3L-yp2QLka1TwMWWFZXD7oaPQ5e63vm-5ED_4kvNtjttvLCZKlWmBeC3_ns4eobdKkCcEImTFDfv9oBhPal2-9EmXtxwFw" rel="noopener noreferrer">https://www.neotys.com/neoload/whats-new</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3558576404153797%3Atop_level_post_id.3558576404153797%3Atl_objid.3558576404153797%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3558576404153797%3Apage_id.163354693676002%3Aphoto_id.3558576234153814%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1596819442%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3558576404153797%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3558576404153797%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-7322889860069294088&amp;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/permatters?refid=17&amp;_ft_=mf_story_key.3558576404153797%3Atop_level_post_id.3558576404153797%3Atl_objid.3558576404153797%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3558576404153797%3Apage_id.163354693676002%3Aphoto_id.3558576234153814%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1596819442%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3558576404153797%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3558576404153797%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-7322889860069294088&amp;__tn__=%2As-R" rel="noopener noreferrer">#Permatters</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/117425351_3558576244153813_7220222229325977678_o.png?_nc_cat=105&#038;_nc_sid=8024bb&#038;_nc_ohc=u72k5Zk4od4AX8QaPD1&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=460734f07c588d9a3d85a7d4eebf60f4&#038;oe=5F53C63E" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3558576404153797">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>U.S. Offers Reward of $10M for Info Leading to Discovery of Election Meddling</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/u-s-offers-reward-of-10m-for-info-leading-to-discovery-of-election-meddling/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 06 Aug 2020 11:18:38 +0000</pubDate>
+		<pubDate>Mon, 24 Aug 2020 15:23:37 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[10M]]></category>
-		<category><![CDATA[Discovery]]></category>
-		<category><![CDATA[Election]]></category>
-		<category><![CDATA[Info]]></category>
-		<category><![CDATA[Leading]]></category>
-		<category><![CDATA[Meddling]]></category>
-		<category><![CDATA[Offers]]></category>
-		<category><![CDATA[Reward]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/u-s-offers-reward-of-10m-for-info-leading-to-discovery-of-election-meddling/</guid>
+		<category><![CDATA[Dharma]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[IranLinked]]></category>
+		<category><![CDATA[Newbie]]></category>
+		<category><![CDATA[Ports]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[RDP]]></category>
+		<category><![CDATA[Spread]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/iran-linked-newbie-hackers-spread-dharma-ransomware-via-rdp-ports/</guid>
 
-					<description><![CDATA[Government hopes to avoid interference in the upcoming November presidential vote with a hefty reward. Source link]]></description>
+					<description><![CDATA[The recent Dharma campaign by Iran-linked script kiddies shows that the ransomware is being spread not just by sophisticated, state-sponsored actors]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Government hopes to avoid interference in the upcoming November presidential vote with a hefty reward.<br />
+<br />The recent Dharma campaign by Iran-linked script kiddies shows that the ransomware is being spread not just by sophisticated, state-sponsored actors anymore.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/u-s-offers-reward-of-10m-for-info-leading-to-discovery-of-election-meddling/158110/">Source link </a></p>
+<br /><a href="https://threatpost.com/iran-linked-newbie-hackers-spread-dharma-ransomware-via-rdp-ports/158580/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Robot Character Analysis Reveals Trust Issues</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/robot-character-analysis-reveals-trust-issues/</link>
+		<title>APIs Are the Next Frontier in Cybercrime</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/apis-are-the-next-frontier-in-cybercrime/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 06 Aug 2020 04:01:42 +0000</pubDate>
+		<pubDate>Mon, 24 Aug 2020 12:00:02 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Analysis]]></category>
-		<category><![CDATA[Character]]></category>
-		<category><![CDATA[Issues]]></category>
-		<category><![CDATA[reveals]]></category>
-		<category><![CDATA[Robot]]></category>
-		<category><![CDATA[Trust]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/robot-character-analysis-reveals-trust-issues/</guid>
+		<category><![CDATA[APIs]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Frontier]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/apis-are-the-next-frontier-in-cybercrime/</guid>
 
-					<description><![CDATA[Retired Marine fighter pilot and Top Gun instructor Dave Berke said “Every single thing you do in your life, every]]></description>
+					<description><![CDATA[APIs make your systems easier to run &#8212; and make it easier for hackers, too. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />APIs make your systems easier to run &#8212; and make it easier for hackers, too.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/apis-next-frontier-cybercrime/158536/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Transform your Architecture for the Cloud with MVISION UCE and SD-WAN</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/transform-your-architecture-for-the-cloud-with-mvision-uce-and-sd-wan/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 24 Aug 2020 04:01:22 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Architecture]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[MVISION]]></category>
+		<category><![CDATA[SDWAN]]></category>
+		<category><![CDATA[Transform]]></category>
+		<category><![CDATA[UCE]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/transform-your-architecture-for-the-cloud-with-mvision-uce-and-sd-wan/</guid>
+
+					<description><![CDATA[“Features are a nice to have, but at the end of the day, all we care about when it comes]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
 <div class="author-block padding-bottom-xs">
                 
             </div>
-<p>Retired Marine fighter pilot and Top Gun instructor Dave Berke said “Every single thing you do in your life, every decision you make, is an OODA Loop.” OODA Loop? Observe–Orient–Decide–Act, the “OODA Loop” was originally developed by United States Air Force Colonel John Boyd and outlines that fundamentally all actions are first based on observations.  If you can’t first observe you are at a serious disadvantage. This can be applied at every scale from planning a large-scale military invasion, to changing lanes on a highway or even down to the split-second decision of picking up a glass of water off a table. But it all starts with observation.</p>
-<p>If observation or information about what’s around us is so important, then it’s no surprise that tools and devices that can provide us information not only increase our success but also make us feel more comfortable. The personal robot called temi, is such a device. <a target="_blank" href="https://www.calcalistech.com/ctech/articles/0,7340,L-3809114,00.html" rel="noopener noreferrer">With 1,000 new devices being created a month</a>, temi can help us see a loved one in the hospital through teleconferencing, escort us to the ballroom in the hotel we are staying at or help a doctor virtually visit with a patient. In fact, across Israel, temi was recently selected as the de facto robotics platform for hospital telepresence. Temi can allow us to observe and interact remotely; all while influencing what we decide to do next with the information we have learned.</p>
-<p>But what are the risks associated with tools that help provide greater information into our OODA Loop? How could someone with malicious intent use tools like temi to improve their OODA Loop, furthering their ability to cause harm? Could someone control temi without the owner’s permission? What if someone could turn on the camera and microphone and see the robot’s surroundings while listening to your medical diagnosis or treatment plan? What if someone could “check in on your kids” and map out your house without your permission? These are the type of questions that McAfee Advanced Threat Research (ATR) aims to answer when we see a product like temi. We look at technologies and the wealth of information they provide through the lens of an attacker; with the goal of making your experience a safer one. So, it is no surprise that our team decided to take a deeper look into temi when it was first released.</p>
-<p>On day one, like a kid during Christmas, we unboxed our shiny new temi with a sense of joy and excitement. Like your average user, we set it up following the included directions, had it follow us around dressed up as a ghost for Halloween, marked key locations, made video calls and were amazed at just how cool this robot was! Maybe a little less like your average user, we also captured all the network traffic while temi showed off and did a firmware update. We also looked at what open network ports temi exposed, decompiled the Android application, activated android debugger (adb) and installed a ssh server, just to be safe.  Basically, we treated temi like your child’s first date in high school – we did a background check and used proper intimidation techniques before we allowed temi to go on a date.</p>
-<p>Over the next several months, we really dug into what we learned from our “first date” with temi. What we discovered, not unlike some of my first high school dates, is temi had some trust issues. This is not a good report card considering some of temi’s primary functions. For the ability to make video calls and to remotely control temi securely, it’s important to keep information used to connect to a call secret and secured. Since temi had some flaws doing so, the team turned its attention to the question of whether these “character flaws” could be exploited.</p>
-<p>It turned out with only a few modifications to the original temi Android application, we could intercept phone calls intended for another user. With a few more modifications, temi began to trust us (the attacker) to navigate it around and activate the camera and microphone. Additionally, we discovered the only knowledge an attacker would need to know about the victim is their phone number. Yes, the same number you can’t figure out how tele-markers got ahold of was the information a malicious actor would need to access your temi completely remotely without your knowledge or consent.</p>
-<p>For an attacker, temi’s security flaws allows them to feed vital information into their OODA Loop. Consider a hospital that keeps a very tight and well-run information security program. From the outside they are almost impossible to steal information from. The vulnerabilities discovered in temi now provide them a way to gather information about the internal operations of the business without needing to crack the well implemented business network or physical security. With the phone number of anyone who has called a temi recently, an attacker could observe what room number and condition a hospitalized member of congress is in. Temi could watch the security guard type in the building alarm code. Temi could observe the dog pictures on the nurse’s desk labeled with its cute name and birthday, that just happens to also be part of their password. This information can be invaluable to an attacker’s OODA loop and the potentially malicious decisions they make. Temi was a challenging target to compromise, but the nature of the flaws discovered highlight the importance of this research and the value of vendors to provide fast and effective mitigations, as was the case here.</p>
-<p>For those who enjoy punishing themselves with an excessive amount of technical detail of these vulnerabilities, we have a special treat for you in our highly technical paper on this research <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/" rel="noopener noreferrer">here</a>. This dives into the vulnerability discovery and exploitation process from start to finish in intricate detail.</p>
-<p>In keeping with our <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research/disclosure.html" rel="noopener noreferrer">responsible disclosure program</a>, we reached out to temi as soon as we confirmed that the vulnerabilities we discovered were exploitable. Temi was very receptive, grateful, and had a strong desire to improve the security of temi. Over the next several weeks, we worked closely with their team to develop a more robust solution for temi. For each vulnerability, we provided temi with two mitigations strategies; a band aid and a cure. It is common for vendors to only implement the band aid or quick fix solution. To their credit, temi took on the challenge of implementing the more effective solution or the cure for all findings. Once in place, we were able to test and confirm that all the vulnerabilities reported were effectively mitigated. It is always exciting to see the positive impact security research can have when responsible disclosure is valued by vendor and researchers alike. The following demo video is a light-hearted way to show the true possible impact of the remote accessibility component of this research, had these been found by adversaries instead of responsibly disclosed by McAfee ATR and fixed by temi.</p>
-<p><div class="fitvids-video"><iframe title="McAfee ATR illustrates the impact of temi vulnerabilities" width="800" height="450" src="https://www.youtube.com/embed/7aYURVzcL2c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</p>
-<p>So, what is the larger lesson here? I would venture to guess that I wouldn’t be the first to conclude that Colonel John Boyd was a smart man and his theory of the OODA Loop is not only effective but also strengthens a process – in this case, vulnerability mitigation. For our research, this applies directly to a personal robot assistant which is currently being used worldwide, across a wide range of industries, and currently producing nearly 1,000 new units a month. McAfee’s ATR team <em>observed</em> a new impactful technology emerging into the market. Due to our previous experiences and technical expertise we were well <em>oriented</em> in a position where we <em>decided</em> to take further <em>action </em>and investigate. Temi <em>observed</em> the value in collaboration, <em>oriented</em> themselves in a position where they could <em>decide</em> to take <em>action</em> in making a tool used for <em>observation</em> a more secure product.</p>
+<p><em>“Features are a nice to have, but at the end of the day, all we care about when it comes to our web and cloud security is architecture.” – said no customer ever. </em></p>
+<p>The fact is that nobody likes to talk about architecture when shopping for the latest and greatest cyber security technology, and most organizations have been content to continue fitting new security tools and capabilities into their existing traditional architectures. However, digital transformation projects including cloud migration and ubiquitous mobile access have revealed architectural cracks, and many companies have seen the dam burst with the explosion in remote access demand in recent months. As a result, organizations are coming around to the realization that digital transformation demands a corresponding network and security architectural transformation.</p>
+<p>The <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/next-gen-swg.html" rel="noopener noreferrer">Secure Access Service Edge (SASE)</a> framework provides organizations for a model to achieve this transformation, by bringing network and security technology together into a single, cloud-delivered service that ensures fast, secure, reliable, and cost-effective access to web and cloud resources. In this blog we are going to focus in on remote offices and how the combination of SD-WAN and Next-Generation Secure Web Gateway capabilities offered by MVISION UCE can enable SASE and deliver on the promise of digital transformation.<strong> </strong></p>
+<h2><strong>The Cloud and the Architectural Dilemma</strong></h2>
+<p>In the past organizations were largely concentrated in a limited number of locations. Applications and data were hosted on servers at a central data center location on the local area network – typically at or near the headquarters. Users typically worked in the office, so they would also be located at the office and access corporate resources on the same network. Surrounding this network was a perimeter of security controls that could inspect all traffic going in or out of the organization, keeping trusted resources safe while keeping the bad guys out. Remote users and branch offices were logically connected to this central network via technologies like VPN, MPLS, and leased lines, so the secure network perimeter could be maintained<strong>.</strong></p>
+<p>While this approach sufficed for years, digital transformation has created major challenges. Applications and data storage have migrated to the cloud, so they no longer reside on the corporate network. Logic would dictate that the optimal approach would be for remote users and offices to have direct access to cloud resources without having to route back through the corporate network. But this would result in the organization’s IT security perimeter being completely circumvented, meaning lost security visibility and control, leading to unacceptable security and compliance risks.</p>
+<p>So network and security architects everywhere are facing the same dilemma: <em>What is the best way to enable digital transformation without any major compromises? </em>Organizations have generally followed one of the four following architectural approaches based on their willingness to embrace new technologies and bring them together:</p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-105500" src="https://www.mcafee.com/wp-content/uploads/2020/08/9.png" alt="" width="656" height="576" srcset="https://www.mcafee.com/wp-content/uploads/2020/08/9.png 656w, https://www.mcafee.com/wp-content/uploads/2020/08/9-300x263.png 300w, https://www.mcafee.com/wp-content/uploads/2020/08/9-147x129.png 147w" sizes="(max-width: 656px) 100vw, 656px"/></p>
+<p>We’re going to discuss these four options here, and evaluate them based on four factors: security, speed, latency, and cost. The results will show that there’s only one way to achieve fast, secure, and cost-effective access to web and cloud resources.</p>
+<h2><strong>Approach 1: STATUS QUO</strong></h2>
+<p>Due to risk of losing security visibility and control, many organizations have refused to allow “direct-to-cloud” re-architecting. So even when high-speed internet links could connect users directly to cloud and web resources, this approach necessitates that all traffic still be pushed through slower MPLS links back to the corporate network, and then go back out through a single aggregated internet pipe to access web and cloud resources<strong>. </strong>While this theoretically maintains security visibility and control, it comes at great cost.</p>
+<p>For starters, the user experience is greatly hampered by poor performance. Bandwidth suffers from the slow MPLS link back to the corporate office, as well as through the congested company internet connection. In addition, the extra network hops and increased network contention leads to high latency – this has been drastically amplified in recent months as the amount of remote traffic backhauling through the corporate network has exploded well beyond original design expectations. These factors don’t even take into account the potential impact of service disruptions brought about by introducing a single point of failure into the network architecture.</p>
+<p>In addition to poor performance, there is a tangibly higher financial cost associated with this approach. Multiple MPLS lines connecting branch offices to the corporate data center are considerably more expensive than public internet connectivity. Additionally, in order to accommodate the routing of ALL user traffic, organizations need to dramatically increase investment in their central network and security perimeter infrastructure capacity, as well as the bandwidth of the shared internet pipe.</p>
+<p>So we’re left needing to find a long-term answer to the challenges of speed, latency, and cost. These considerations are what have led many network architects to proceed to deploy SD-WAN.</p>
+<h2><strong>Approach 2a: GOING DIRECT-TO-CLOUD WITH SD-WAN</strong></h2>
+<p>The first step in delivering a cloud-ready architecture is removing the bottleneck incurred by forcing all traffic to be routed through slow MPLS lines to the central network and then back out to the cloud. SD-WAN technology can help in this regard. By deploying SD-WAN equipment at the edge of the branch network, optimized traffic policies can be created that route traffic directly to web and cloud resources using fast, affordable internet connections, while using the same internet connection to send only data center-bound traffic directly back to the corporate network over a dynamic set of VPN tunnels. WAN optimization and QoS, as well as various other edge network and security functions like firewall filtering that are better suited to being performed at the network edge, deliver the fastest and most reliable user experience, while minimizing the traffic burden on the central network<strong>.</strong></p>
+<p>By employing SD-WAN, network architects can achieve substantial cost savings by eliminating expensive MPLS links back to the corporate data center. Additionally, users aren’t constrained by the much slower bandwidth of those MPLS lines.</p>
+<p>However, there are major drawbacks to this model. While SD-WAN solutions feature a number of strong flow control capabilities that can be distributed to each remote site – including firewalling, DNS protection, and data obfuscation – they don’t have the same robust data and threat protection capabilities that organizations have built into their network perimeter security. Therefore, architects <em><u>still</u></em> need to backhaul all traffic over the internet back to the data center, even if that traffic is ultimately destined to go right back out to the internet! So while the speed and cost-effectiveness of this connection is greatly improved in comparison to the old model, the need to continue backhauling traffic presents the same latency and congestion challenges.</p>
+<h2><strong>Approach 2b: MCAFEE MVISION UNIFIED CLOUD EDGE</strong></h2>
+<p>So if traffic paths need to run back to the corporate data center for organizations to maintain security visibility and control, but the majority of resources users are accessing are in the cloud, wouldn’t it make sense to situate the security controls in the cloud a more direct and secure traffic path? Enter McAfee MVISION Unified Cloud Edge.</p>
+<p>MVISION UCE’s Next-Gen Secure Web Gateway provides a cloud-native, lightning-fast, 99.999% reliable, hyper-scale secure edge. By converging SWG, CASB, and DLP, and Remote Browser Isolation technologies, MVISION UCE ensures that remote users and offices enjoy the most sophisticated levels of threat, data, and cloud application protection, as well as unique proactive risk management capabilities  that even exceed what is possible in a traditional on-premises security framework.</p>
+<p>Just as important as the advanced security capabilities is the fact that MVISION UCE is built on a fast, reliable, scalable foundation. Thanks to a global Point of Presence (POP) network and unique peering relationships, MVISION UCE can extend a hyper-scale secure edge wherever users need it. Despite a 240% surge in traffic during the spring of 2020, McAfee was able to maintain 99.999% availability and met all of the latency requirements stipulated in our SLAs. Organizations could count on our infrastructure in the toughest of times, and can continue to do so going forward.</p>
+<p>By subscribing to an affordable public internet connection at the branch site and connecting to MVISION UCE, customers can achieve many of the desired benefits. MVISION UCE’s comprehensive data, threat, and cloud application protection capabilities more than satisfy security requirements. And for the majority of user traffic that is destined for the web or cloud, the direct internet connection ensures fast, low-latency access.</p>
+<p>However, without deploying SD-WAN in conjunction with UCE, organizations still need to have those slow, expensive MPLS links to maintain connectivity to their legacy data center applications and resources. Therefore, customers won’t be able to realize cost savings, and those connections to data center resources will suffer the same speed and latency challenges. And that is where we finally arrive at the ideal cloud security architecture, bringing MVISION UCE together with SD-WAN.</p>
+<h2><strong>Approach 3: MVISION UCE + SD-WAN = SASE</strong></h2>
+<p>By bringing together MVISION UCE with SD-WAN in a seamlessly integrated solution, organizations can deliver SASE and build a network security architecture fit for the cloud era. McAfee makes it possible for customers to easily converge MVISON UCE with virtually any SD-WAN solution via robust native support for SD-WAN connectivity, leveraging industry standard Dynamic IPSec and GRE protocols. Through this integration, customers benefit from the complete range of essential SASE capabilities, with SD-WAN providing the integrated networking functionality and MVISION UCE delivering the security capabilities. McAfee has supported our channel partners in successfully delivering joint SD-WAN-cloud SWG projects with many of the major SD-WAN vendors in the market, and we have forged tight alliances with the industry leaders through our Security Innovation Alliance (SIA).</p>
+<p>So how does a combined UCE-SD-WAN solution satisfy the four architectural requirements? Security is clearly addressed by UCE’s threat, data, and cloud application protection capabilities, as well as the distributed firewall capabilities delivered by SD-WAN. By using a single fast internet connection, SD-WAN is able to intelligently and efficiently route traffic directly to cloud resources or back to the corporate data center. With MVISION UCE providing security directly in the cloud, SD-WAN can forward web- and cloud-bound traffic directly, without any excessive latency. Cost savings come from removing the expensive MPLS lines, and since the majority of traffic no longer needs to backhaul through the corporate data center, additional savings can be achieved by reducing central network bandwidth and infrastructure capacity.</p>
+<h2><strong>Build a Cloud-Ready Network Security Architecture Today</strong></h2>
+<p>Digital Transformation represents the next great technological revolution, and organizations’ ability to move to the cloud and empower their distributed workforces with fast, secure, simple, and reliable access will likely determine how successful they are in the new era. SASE represents the best way to achieve a direct-to-cloud architecture that doesn’t compromise on security visibility &#038; control, performance, complexity, or cost. By seamlessly integrating our MVISION UCE solution with SD-WAN, it’s never been easier for organizations to deliver SASE to remote offices. As a result, users will benefit from greater productivity, IT personnel will enjoy greater operational efficiency, and companies will enjoy exceptional cost savings as a result of consolidated infrastructure and optimized network traffic.</p>
+<p>To learn more about how MVISION UCE and SD-WAN can work together, attend a webinar hosted by McAfee and one of our key SD-WAN technology partners, Silver Peak Systems. Click here to <a target="_blank" href="https://event.on24.com/wcc/r/2529440/FD8590D368E567CB12C0D8750D930C0F/1197411?partnerref=blog" rel="noopener noreferrer">register</a>.</p>
 </p></div>
 <p><script>
   !function(f,b,e,v,n,t,s)
@@ -494,138 +250,163 @@ fbq('track', "PageView");</p>
 <p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
 </script><br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/robot-character-analysis-reveals-trust-issues/">Source link </a></p>
+<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/transform-your-architecture-for-the-cloud-with-mvision-uce-and-sd-wan/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Why does the world’s 8th largest bank find NeoLoad #performancetesting “technolo&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-does-the-worlds-8th-largest-bank-find-neoload-performancetesting-technolo/</link>
+		<title>University of Utah Pays $457K After Ransomware Attack</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/university-of-utah-pays-457k-after-ransomware-attack/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 05 Aug 2020 16:26:29 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[8th]]></category>
-		<category><![CDATA[bank]]></category>
-		<category><![CDATA[Find]]></category>
-		<category><![CDATA[largest]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[technolo]]></category>
-		<category><![CDATA[Worlds]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-does-the-worlds-8th-largest-bank-find-neoload-performancetesting-technolo/</guid>
+		<pubDate>Fri, 21 Aug 2020 16:02:27 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[457K]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Pays]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[University]]></category>
+		<category><![CDATA[Utah]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/university-of-utah-pays-457k-after-ransomware-attack/</guid>
 
-					<description><![CDATA[Why does the world’s 8th largest bank find NeoLoad #performancetesting “technologically superior” and “particularly easy to integrate into Agile/DevOps”? Discover]]></description>
-										<content:encoded><![CDATA[
-<p>Why does the world’s 8th largest bank find NeoLoad <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/performancetesting?refid=17&#038;_ft_=mf_story_key.3552604431417661%3Atop_level_post_id.3552604431417661%3Atl_objid.3552604431417661%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3552604431417661%3Apage_id.163354693676002%3Aphoto_id.3552604044751033%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1596644789%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3552604431417661%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3552604431417661%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A4806738702359485650&#038;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a> “technologically superior” and “particularly easy to integrate into Agile/DevOps”? Discover 5 top reasons <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2VvrT6Q%3Ffbclid%3DIwAR0zP2AGGMz6NDU_my4qcsFRDY9_wPUKrCwnZ3o53jltB3gU4qvP93qUC8c&#038;h=AT0KPKFnJLFtAe9vriS0GZflsaTtu4NWQkwn4ZrHxcUZp5p_crGWwSkaom5d3u60B1t0O00zO5-xf3V8ryCjYjQz_gfe-gN0MdN2KdFbPa-ysatJLxh4HCEgq0brvm4QmFpVkLXTQ_Fr4pKqfuZ1IN9EOP7td2LcKltCNnxXvJ9TeBxwJAoWF1uw2kOkXq_dFwlx1qUvJNMhuWJxk6aqRafoES5GonnIxWUO7Zf7zGPUvlsCtQ3jkaBBmJYpSzlULZSIsrLAbn8Lxj60fKIRECdtxdYuALAO-rNwIJ6LQjryI0BjIXwFtdYG7VCMDZn7hfxWn9KdSJRExWvBJSMZP1s0vfedMe5BSxDCwh3s-Aa0nmOAmogqmIjHulWfZSyQaPM65Y-1mjAFwYF7NgY74camUBamuYfCHCFoXtfjBILP96j7oAC5JPGhOAgdooL0JIh2J7XE8osE80YUe3Cpnc_hdep3yHKtu4YQr7vabKC2Qwj-afVcrM4Cs7OqvXj3XLzqIZNAdON-ncrrFBTEk27YpinWB8Nbw69Sy1U4mtmM2NJBTu4XInFnUlDsaTbzpRxGTmML5h2ZWeIIx22aB87WZeOHO8V8uGC1GZodGuIOCLXrhEKd4kTROMz4smZCxh8p4ZSHZHL7RtK1gp0GfpJNtomakPHUnI_5r54c-ZiRKoFlw8-pU_dFY0prAcQghnNjDCf1avj6Q8kUvyoHAMm4PV8-Sm6PDKEbJlLQVostx1TK3CQCuoNtV_4M9X3w0GBOnq3a-wQ2y5Z1-KWjr4C3GcREbnk3tzWbOa0Ysdvq9P1L9UuYw888g1vXozfRs3fwccUuHzuKrMT2FGYRA_S_wVzPzYkc-YvsXgnrgd5IewkvqijjDaGgt0FwjuZhJE2f6-DuRpCXZfLfUF8TO2H4J4nXmlj68k4hCdzjQaEAVI07eyNkAqpDxL2DZGTEgvo9eZ0drH9QZ5A3BiUzzZEKaX2sfWOwF7hwlXFXgQMG6BQBKPg9EYZiUCnk9_XABh1CJRkELEs-Xa4MfbMsxAUIlonSNPqqRtFpB1P3y0gxuoY_53qNavh7wUClroMkLk9R5Z8MV3AioVwRtUBypdbMly3To8MFU5IJH_oE2stDK4f-xV1m7TbAgZ0mB1_fgukV6MNpqgK-OWHEZsoNP15bhXpCfutMIULmfnL41ZMYNn41BCRgbANW_X8BU_7fgg3SqX6Jl-4cf1WM" rel="noopener noreferrer">https://bit.ly/2VvrT6Q</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/117340348_3552604048084366_8345926052855547589_o.jpg?_nc_cat=111&#038;_nc_sid=8024bb&#038;_nc_ohc=IASFXKMacvkAX9AB3c7&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=ead88079f9e297d1a6d403b49d308c62&#038;oe=5F618204" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3552604431417661">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Neotys Announces NeoLoad 7.5 &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neotys-announces-neoload-7-5-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 05 Aug 2020 13:32:32 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Announces]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neotys-announces-neoload-7-5-neotys/</guid>
-
-					<description><![CDATA[NeoLoad 7.5 unveils new Workspace feature set and enhanced integrations with Dynatrace and Tricentis Tosca.  NeoLoad’s collaboration and integration capabilities]]></description>
+					<description><![CDATA[The university said that it paid $457,000 to retrieve a decryption key after a ransomware attack encrypted student and faculty]]></description>
 										<content:encoded><![CDATA[<p> <br />
-</p>
-<div id="post-101861"> <!-- .et_post_meta_wrapper --></p>
-<div class="entry-content">
-<p><a target="_blank" href="https://www.neotys.com/neoload/whats-new" rel="noopener noreferrer"><span style="font-weight: 400;">NeoLoad 7.5</span></a><span style="font-weight: 400;"> unveils new Workspace feature set and enhanced integrations with Dynatrace and Tricentis Tosca. </span></p>
-<p><span style="font-weight: 400;">NeoLoad’s collaboration and integration capabilities are now even more powerful. NeoLoad introduces a new way for teams to collaborate and organize their performance testing: Workspaces. Integration with Dynatrace is now native in NeoLoad, one click to access bi-directional data in either UI and speed up analysis.</span></p>
-<p></p>
-<p> </p>
-<h2><b>What’s New in This Release?</b></h2>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Workspaces</strong> Workspaces enable administrators to assign users into teams who can then separate assets such as tests, test results and webhooks in one or multiple Workspaces. Workspaces allow teams to better collaborate on performance testing and organize their work. </span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Dynatrace Integration</strong> NeoLoad’s integration with Dynatrace is now native to NeoLoad. The two products share test result data which is viewable from either the NeoLoad or the Dynatrace user interface. Having the data in one view speeds test analysis and root cause analysis. </span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Tosca Integration</strong> NeoLoad’s integration with Tosca now includes support to convert Tosca API functional tests into NeoLoad performance tests. NeoLoad previously released support for the conversion of Tosca web, GUI and SAP functional tests to NeoLoad performance tests. </span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Feature enhancements – feature enhancements are also included in this release.   </span></li>
-</ul>
-<h2><strong><br />Learn More About NeoLoad 7.5</strong></h2>
-<p>Discover all of NeoLoad 7.5’s enhancements on our <a target="_blank" href="https://www.neotys.com/neoload/whats-new" rel="noopener noreferrer">What’s New page</a> or <a target="_blank" href="https://www.neotys.com/trial" rel="noopener noreferrer">download </a>the latest version and start testing today.</p>
-</p></div>
-<p> <!-- .entry-content --><br />
-					 <!-- .et_post_meta_wrapper -->
-				</div>
-<p><br />
-<br /><a href="https://www.neotys.com/news/neotys-announces-neoload-7-5">Source link </a></p>
+<br />The university said that it paid $457,000 to retrieve a decryption key after a ransomware attack encrypted student and faculty data on its servers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/university-of-utah-pays-457k-after-ransomware-attack/158564/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Q&#038;A on Behavior-Driven Development &#124; Sauce Labs</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qa-on-behavior-driven-development-sauce-labs/</link>
+		<title>Researchers Sound Alarm Over Malicious AWS Community AMIs</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/researchers-sound-alarm-over-malicious-aws-community-amis/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[BehaviorDriven]]></category>
-		<category><![CDATA[development]]></category>
-		<category><![CDATA[Labs]]></category>
-		<category><![CDATA[Sauce]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qa-on-behavior-driven-development-sauce-labs/</guid>
+		<pubDate>Fri, 21 Aug 2020 14:11:37 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Alarm]]></category>
+		<category><![CDATA[AMIs]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[community]]></category>
+		<category><![CDATA[Malicious]]></category>
+		<category><![CDATA[Researchers]]></category>
+		<category><![CDATA[Sound]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/researchers-sound-alarm-over-malicious-aws-community-amis/</guid>
 
-					<description><![CDATA[Behavior-driven development (BDD) is an agile development process that encourages teams to share tools and a process to collaborate on]]></description>
+					<description><![CDATA[Malicious Community Amazon Machine Images are a ripe target for hackers, say researchers. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Malicious Community Amazon Machine Images are a ripe target for hackers, say researchers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/malicious-aws-community-amis/158555/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>News Wrap: AWS Cryptojacking Worm, IBM Privacy Lawsuit and More</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/news-wrap-aws-cryptojacking-worm-ibm-privacy-lawsuit-and-more/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 21 Aug 2020 14:04:13 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Cryptojacking]]></category>
+		<category><![CDATA[IBM]]></category>
+		<category><![CDATA[Lawsuit]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Worm]]></category>
+		<category><![CDATA[Wrap]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/news-wrap-aws-cryptojacking-worm-ibm-privacy-lawsuit-and-more/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<p>Behavior-driven development (BDD) is an agile development process that encourages teams to share tools and a process to collaborate on software development projects across developers, QA folks, and business stakeholders. Sounds good, right? I mean, who wouldn’t want to be more collaborative and transparent with all project stakeholders? I believe there is tremendous value in this type of approach. </p>
-<p>However, people choose to use BDD tools for many different reasons—and in my experience, they’re often the wrong reasons. In certain cases, BDD tools are likely to do more harm than good. Can you be successful with BDD tools? Yes. But often, how it <i>should </i>work doesn’t reflect how it usually <i>does </i>work.</p>
-<p>The overall theme of my talks is to figure out ways to make your testing initiatives more difficult to fail. It is important to keep things simple with fewer moving parts and more and useful abstractions. BDD tools generally fail when it comes to making things easier to maintain.</p>
-<p>I recently hosted a STP webinar called “<a target="_blank" href="https://www.softwaretestpro.com/the-hidden-costs-of-bdd-tools/" rel="noopener noreferrer">The Hidden Costs of BDD Tools</a>.” I shared my views on how the allure of using Cucumber or other “Given/When/Then” code wrappers seems greater than ever, but that there is a fairly narrow path to success. In the webinar, I talked about the various reasons why people choose to use BDD tools as well as what the reality looks like for many companies. I also revealed some of the inherent underlying issues with BDD tooling, including why teams so often end up in trouble when using them, and discussed some alternatives for how to get the most out of your UI testing. If you’re interested in BDD, it’s worth your time to watch the webinar. </p>
-<p>As you can imagine, BDD can be a hot topic! We got many questions and were only able to get to a few of them during the live event, so I decided to take some of the other questions and answer them right here in this handy blog post. You can also check out some of the conversations with these questions on <a target="_blank" href="https://twitter.com/hashtag/TitusOnBDD" rel="noopener noreferrer">Twitter</a>. </p>
-<p><b>What is your suggestion for how to best get started using the BDD approach? </b></p>
-<p>If you don’t know how or why to use a BDD tool: don’t use it. If you want to practice BDD, first you need to make sure your manager, product team and developers are all on board. </p>
-<p><b>Have you found any good tools/frameworks that provide documentation outside of relying on the &#8220;Clean Code&#8221; (code is readable) perspective?</b></p>
-<p>That really depends on what you are trying to document. I’d love to have “Backward BDD” tooling that generates the information people are interested in from the code, rather than having the user do it from the other direction. </p>
-<p><b>Any suggestions on how to &#8220;undo&#8221; a BDD setup?</b></p>
-<p>First, copy/paste the actual code into methods. Next, abstract out anything imperative into Page and Data Objects. </p>
-<p><b>The BDD tool worked great because there was no deep expertise on coding and I think Cucumber provides a layer (non-business) that allows them to be more effective. </b></p>
-<p>The only problem is that these tools don’t avoid the need to write good code. That still has to happen. If your goal is to give less technical people busywork, sure; but this will not  improve your test strategy.</p>
-<p><b>What would be a non-BDD alternative to a Screenplay pattern promoted by Serenity BDD? </b></p>
-<p>I’ve never seen an example, but would be interested in seeing one. Also, I prefer Atomic/Autonomous/Short DOM to Database tests which PO pattern supports and Screenplay does not.</p>
-<p><b>I also have seen all sorts of wrong usage of BDD, but TBH&#8230; I&#8217;ve also seen that elsewhere.</b></p>
-<p>Definitely important to keep in mind that browser automation is hard! Selenium provides some specific challenges that require domain knowledge and technical prowess to address. </p>
-<p><b>What&#8217;s the difference between Cucumber and Gauge?</b></p>
-<p>The difference is I haven’t used Gauge before. My BDD tooling talk applies to any software that does some form of translating English language to code.</p>
-<p><b>What is your preferred alternative to the flexibility of Cucumber&#8217;s tags for running various subsets of tests? What&#8217;s your preferred alternative for the functionality Cucumber&#8217;s profiles provide?</b></p>
-<p>This functionality will vary based on Test Runner. RSpec definitely supports these things in Ruby; I would be surprised if most test runners in other languages did not have similar functionality. </p>
-<p><b>Can you give an example of when you&#8217;ve seen BDD tools used successfully where they  provide real value?</b></p>
-<p>Depends on what you mean by “success” and “real value.” I mentioned the scenario of a consultant providing “agile transformation” within a company/team being useful, but that’s a specific (and temporary) context.</p>
-<p><b>What is your thought for data testing in capturing these requirements?</b></p>
-<p>Data Driven Testing doesn’t belong in a DOM to Database test. Make sure the form works, then any investigation into what the data entry does in your system should be at a lower level.</p>
-<p><b>What tool do you recommend for data testing to capture requirements?</b></p>
-<p>A REST client in the language of your choice.</p>
-<p><b>How do you feel about [the Geb/Spock] implementation of BDD over Cucumber  (i.e. where the feature file is not separate, but is the outline for the test case implementation)?</b></p>
-<p>I’m definitely a fan of distinguishing between Arrange, Act and Assert statements; so long as it isn’t doing natural language translation it sounds great.</p>
-<p><b>Is it possible to develop a tool that is more like a wizard that guides you through the process?</b></p>
-<p>There are codeless solutions out there, but most of what I’ve seen only handles the easier use cases and generates its own maintenance costs. One of them might be “good enough” for what you need.</p>
-<p><b> For a tester who is trying to bridge the manual to automation gap&#8230;where to start? Many job listings mention Cucumber-Gherkin.</b></p>
-<p>Manual testers who only know how to write Gherkin statements won’t have great job security, in my opinion. There really isn’t a way to escape the need for writing good code, so your best bet is to find resources to become a good developer in the first place.</p>
-<p>###</p>
-<p>Do you have a BDD question that I didn’t answer here? Hit me up on <a target="_blank" href="https://twitter.com/titusfortner" rel="noopener noreferrer">Twitter</a> (@titusfortner), and check the hashtag #TitusOnBDD to see some of the other questions I’ve answered there. </p>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
 </div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/news-wrap-aws-cryptojacking-worm-ibm-privacy-lawsuit-and-more/158550/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Former Uber CSO Charged With Paying ‘Hush Money’ in 2016 Breach Cover-Up</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 21 Aug 2020 12:43:57 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Charged]]></category>
+		<category><![CDATA[CoverUp]]></category>
+		<category><![CDATA[CSO]]></category>
+		<category><![CDATA[Hush]]></category>
+		<category><![CDATA[Money]]></category>
+		<category><![CDATA[Paying]]></category>
+		<category><![CDATA[Uber]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/</guid>
+
+					<description><![CDATA[Joseph Sullivan allegedly paid off $100K to the hackers responsible for a 2016 data breach, which exposed PII of 57]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Joseph Sullivan allegedly paid off $100K to the hackers responsible for a 2016 data breach, which exposed PII of 57 million passengers and drivers.<br />
 <br /><br />
-<br /><a href="https://saucelabs.com/blog/q&#038;a-on-behavior-driven-development">Source link </a></p>
+<br /><a href="https://threatpost.com/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/158540/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Introducing The Open Source Program Office</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/introducing-the-open-source-program-office/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Introducing]]></category>
+		<category><![CDATA[Office]]></category>
+		<category><![CDATA[Open]]></category>
+		<category><![CDATA[Program]]></category>
+		<category><![CDATA[source]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/introducing-the-open-source-program-office/</guid>
+
+					<description><![CDATA[Recently, we created the Sauce Labs Open Program Office to focus our attention internally on how we support and contribute]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Recently, we created the Sauce Labs Open Program Office to focus our attention internally on how we support and contribute to the open source community. Last week, we proudly launched a new web site with comprehensive information about the office, including best practices, contribution guidelines for the Sauce team, and a new blog where Diego Molina and Christian Bromann will write regularly about all things open source. This article is cross-posted from the new blog. Check out the <a target="_blank" href="https://opensource.saucelabs.com/" rel="noopener noreferrer">site</a> and subscribe so you don’t miss any of the open source goodness!</p>
+<p>=========</p>
+<p>Not long ago, we announced that we created our <a target="_blank" href="https://saucelabs.com/news/sauce-labs-deepens-investment-in-oss-community-establishes-new-open-source-program-office#:~:text=SAN%20FRANCISCO%20%E2%80%93%20February%2027%2C%202020,the%20broader%20open%20source%20community." rel="noopener noreferrer">Open Source Program Office</a> to deepen our investment in the broader open source community. Open source is part of our DNA here at Sauce, and this was a key part of our strategy to truly leverage sustainable and active support for open source software (OSS) within the company. </p>
+<p>Now, let’s take a closer look at the why, the what, and the how of the Open Source Program Office. </p>
+<p>First up, what’s our mission? The open source team at Sauce intends to actively contribute to, develop, and lead open source projects that are critical to the community and to the mission of Sauce Labs. Secondly, this team will adopt policies that will enable Sauce employees to easily contribute to OSS projects by helping them understand best practices of open source development. </p>
+<p>And why do we believe so strongly in the value of open source? Simply put, we have seen for ourselves that it allows us to harness the collective power of the global testing and developer communities to develop and maintain the best, most useful software. This benefits everyone—not just the developers, but also the users. </p>
+<p>As a team, here’s what our Open Source Program Office is committed to doing:</p>
+<ul>
+<li>
+<p><b>Participate</b>: We invest and participate in projects and communities that share our common goal to create a world of digital confidence.</p>
+</li>
+<li>
+<p><b>Share</b>: We are eager to share our knowledge, code, and practices around automated testing to benefit as many people as possible. </p>
+</li>
+<li>
+<p><b>Promote</b>: We encourage and celebrate our engineering teams and the work they put out for the common good. </p>
+</li>
+</ul>
+<p>Christian Bromann and I helped establish the Open Source Program Office at Sauce Labs because we personally believe so strongly in OSS. We are both software engineers with years of experience leading and contributing to open source projects, including Webdriver.io, Appium and Selenium. We are both committed to spreading the open source love within Sauce Labs and the broader community. </p>
+<p>Be sure to watch this space and stay tuned—in the coming months, we’ll be posting about open source projects we work on, what we’re seeing across the community, and how you can get involved. </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/introducing-the-open-source-program-office">Source link </a></p>
 ]]></content:encoded>
 					
 		
