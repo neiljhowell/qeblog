@@ -282,6 +282,70 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>How to build in app sec with strategic automation</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-build-in-app-sec-with-strategic-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 21 Aug 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[build]]></category>
+		<category><![CDATA[sec]]></category>
+		<category><![CDATA[strategic]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-build-in-app-sec-with-strategic-automation/</guid>
+
+					<description><![CDATA[When users encounter software bugs, the consequences can range from annoying to brand-damaging to life-threatening. To quickly remediate the issue—no matter how]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p dir="ltr">When users encounter software bugs, the consequences can range from annoying to brand-damaging to life-threatening. To quickly remediate the issue—no matter how big or small—it&#8217;s important to know how, where, and when the bug was introduced. But it&#8217;s even better to prevent the bug from ever reaching production.</p>
+<p dir="ltr">To accomplish this, security must be built in from the very beginning of the software development lifecycle. To do that <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/shift-security-left-continuous-testing?lx=QKJph-&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">you need to adopt sophisticated testing</a>, scanning, and continuous integration. These, in turn, require container image scanning, container layers, and linting. </p>
+<p dir="ltr">Security has been <a target="_blank" href="https://techbeacon.com/devops/how-bridge-security-development-divide" rel="noopener noreferrer">developers&#8217; top challenge</a> since software was first, well, developed. But back in the day, software was released and updated at what now seems like a glacial pace. Developers had more time to code and more time to fix problems with code. Today, organizations live and die by their ability to quickly and iteratively get new apps out the door—security (at times) be damned!</p>
+<p dir="ltr">Of course, security can&#8217;t be damned, but it also can&#8217;t be allowed to be a bottleneck to providing customers a steady stream of new and newly updated apps and services.</p>
+<p dir="ltr">Here&#8217;s how to <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-app-sec?lx=QKJph-&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">build in application security from the start</a> while avoiding bottlenecks in your software development pipeline.</p>
+<h3>Complicating factors: Containers and everything else</h3>
+<p dir="ltr">Adding to the opportunity and the challenge is the ever-expanding growth in the use of <a target="_blank" href="https://content.microfocus.com/cloud-native-computing-tb/kubernetes-essential-cloud-native-computing?lx=R4i7m5&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">the container model</a>: Containers make it easy to build, package, and promote an application or service—and all its dependencies—throughout the entire lifecycle and across different environments and deployment targets.</p>
+<p dir="ltr">But that also means that a security gap anywhere along the way can have a damaging, widespread ripple effect.</p>
+<p dir="ltr">It&#8217;s for this reason that the old saw &#8220;Security should be built in, not bolted on&#8221; is truer than ever. This is especially the case as developers build apps and services within increasingly complex environments, including, but not limited to, containers, legacy and cloud-native software on Windows and Linux operating systems, function-as-a-service (sometimes <a target="_blank" href="https://techbeacon.com/enterprise-it/essential-guide-serverless-computing-enterprise" rel="noopener noreferrer">called serverless</a>), virtualized infrastructure, public and private cloud infrastructures, and edge computing.</p>
+<p dir="ltr">Manual security in the middle of all this? Good luck. Here&#8217;s what you need to do instead.</p>
+<h3>Solution: Automate, test, scan</h3>
+<p dir="ltr">Adopting sophisticated testing, scanning, and continuous integration/continuous development (CI/CD) makes the process of securing code earlier in the process much easier. <a target="_blank" href="https://www.youtube.com/watch?v=zVpSnlTyrPc" rel="nofollow noopener noreferrer">With automated CI/CD</a>, developers and operations teams work together in an agile way to, among other things, ensure the active testing and verification of code as it&#8217;s being developed.</p>
+<p dir="ltr">The entire process of releasing code is developed, maintained, and improved as code.</p>
+<p>In fact, this combination of testing, scanning, and CI/CD helps ensure that an app reaches production in an efficient and secure way. And because most modern software projects include code from hundreds of contributors and repositories from all over the world, it would be pretty much impossible to securely develop, test, and deploy new features without a CI/CD system.</p>
+<p dir="ltr">But CI/CD alone is not enough to identify the one bad apple that spoils the whole bunch of code.</p>
+<h3>Going beyond CI/CD</h3>
+<p dir="ltr">Here are other tools and practices that your organization should be using to ensure that tainted code never reaches production.</p>
+<h4>Security testing </h4>
+<p dir="ltr" role="presentation">Just because an application runs on a developer&#8217;s box or passes CI/CD functional and integration testing does not mean that the app won&#8217;t get hacked the second it&#8217;s put in production. <a target="_blank" href="https://techbeacon.com/sast-dast-iast-rasp-pros-cons-how-choose" rel="noopener noreferrer">Different types of tests</a> can help determine where your holes are.</p>
+<p dir="ltr" role="presentation">Static application security testing (SAST) is great for developers with code that doesn&#8217;t even function yet. These tools look for problems such as buffer overflows, cross-site scripting mistakes, and SQL queries that are vulnerable to attack</p>
+<p dir="ltr" role="presentation">Dynamic application security testing (DAST) is also useful, because not all vulnerabilities can be discovered with code alone. Many vulnerabilities don&#8217;t manifest themselves until the code is running.</p>
+<p dir="ltr" role="presentation">This could be because of infrastructure (load balancers, web servers, DNS, etc.), or just the way the code runs. DAST tries to attack the running application to determine if the application is vulnerable.</p>
+<h4>Container image scanning</h4>
+<p dir="ltr" role="presentation">Libraries and drivers (SQL, etc.) from the operating system bits in a container can be just as vulnerable to security issues as the code that developers write.</p>
+<p dir="ltr" role="presentation">Static container image scanners provide developers with a way to catch known vulnerabilities using policies that flag issues at build time. This method uses lists of known vulnerabilities as they are discovered by the community—for example, the <a target="_blank" href="https://cve.mitre.org/" rel="nofollow noopener noreferrer">Common Vulnerabilities and Exposures</a> (CVEs) list.</p>
+<p dir="ltr" role="presentation">Real-time container image scanners recognize that trust is temporal. Just because you trust that an image is secure when you launch it doesn’t mean you can trust it three months or a year later.</p>
+<p dir="ltr" role="presentation">Once you put an application in production, it may not be updated for months, which means that a container image rebuild might not happen, thereby introducing vulnerabilities to the application over time. Real-time image scanners can check the running images against known vulnerabilities.</p>
+<h4>Container layers</h4>
+<p dir="ltr" role="presentation">These can be used to separate concerns among subject-matter experts. Java experts know best how to configure a JVM for security and performance. PHP experts know best how to configure PHP-FPM for security and performance. The same is true with database experts, caching software experts, web server experts, and any programming language expert that relies on interpreters or virtual machines (Java).</p>
+<p dir="ltr" role="presentation">Separation of concerns allows each team to provide its expertise at the layer that it knows best. After all, no one person can be an expert in everything—especially when security people are typically vastly outnumbered by developers, site reliability engineers, and system administrators.</p>
+<h4>Linting</h4>
+<p dir="ltr" role="presentation">Linting can be leveraged to analyze source code for bad syntax, readability errors (yes, this can slow security researchers down), and suspicious constructs.</p>
+<h3>Don&#8217;t stop here</h3>
+<p dir="ltr">This list is just the tip of the iceberg. There are a number of other tools and best practices that you must put into place to ensure secure applications all along your code, build, and deploy pipeline.</p>
+<p dir="ltr">As you have likely experienced, it&#8217;s difficult to effectively integrate and apply one, let alone all, of these tools. And, of course, not doing so leads to more room for error. <a target="_blank" href="https://techbeacon.com/security/how-automation-can-boost-your-security-compliance" rel="noopener noreferrer">Security must be coupled with automation</a> to ensure that nothing falls through the cracks in this increasingly complex environment.</p>
+<p dir="ltr">Companies, therefore, need to be thinking about automating anything that can be automated through the use of tools such as Podman, Buildah, Ansible, Jenkins, and platforms that leverage Kubernetes orchestration.</p>
+<p dir="ltr">Learning and leveraging strategic automation, teams can focus more on creating great code and less on finding out whether there are bad apples lurking within it.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/how-build-app-sec-strategic-automation">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Researchers Sound Alarm Over Malicious AWS Community AMIs</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/researchers-sound-alarm-over-malicious-aws-community-amis/</link>
 		
@@ -361,52 +425,6 @@ fbq('track', "PageView");</p>
 <br />Joseph Sullivan allegedly paid off $100K to the hackers responsible for a 2016 data breach, which exposed PII of 57 million passengers and drivers.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/158540/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Introducing The Open Source Program Office</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/introducing-the-open-source-program-office/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Introducing]]></category>
-		<category><![CDATA[Office]]></category>
-		<category><![CDATA[Open]]></category>
-		<category><![CDATA[Program]]></category>
-		<category><![CDATA[source]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/introducing-the-open-source-program-office/</guid>
-
-					<description><![CDATA[Recently, we created the Sauce Labs Open Program Office to focus our attention internally on how we support and contribute]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Recently, we created the Sauce Labs Open Program Office to focus our attention internally on how we support and contribute to the open source community. Last week, we proudly launched a new web site with comprehensive information about the office, including best practices, contribution guidelines for the Sauce team, and a new blog where Diego Molina and Christian Bromann will write regularly about all things open source. This article is cross-posted from the new blog. Check out the <a target="_blank" href="https://opensource.saucelabs.com/" rel="noopener noreferrer">site</a> and subscribe so you don’t miss any of the open source goodness!</p>
-<p>=========</p>
-<p>Not long ago, we announced that we created our <a target="_blank" href="https://saucelabs.com/news/sauce-labs-deepens-investment-in-oss-community-establishes-new-open-source-program-office#:~:text=SAN%20FRANCISCO%20%E2%80%93%20February%2027%2C%202020,the%20broader%20open%20source%20community." rel="noopener noreferrer">Open Source Program Office</a> to deepen our investment in the broader open source community. Open source is part of our DNA here at Sauce, and this was a key part of our strategy to truly leverage sustainable and active support for open source software (OSS) within the company. </p>
-<p>Now, let’s take a closer look at the why, the what, and the how of the Open Source Program Office. </p>
-<p>First up, what’s our mission? The open source team at Sauce intends to actively contribute to, develop, and lead open source projects that are critical to the community and to the mission of Sauce Labs. Secondly, this team will adopt policies that will enable Sauce employees to easily contribute to OSS projects by helping them understand best practices of open source development. </p>
-<p>And why do we believe so strongly in the value of open source? Simply put, we have seen for ourselves that it allows us to harness the collective power of the global testing and developer communities to develop and maintain the best, most useful software. This benefits everyone—not just the developers, but also the users. </p>
-<p>As a team, here’s what our Open Source Program Office is committed to doing:</p>
-<ul>
-<li>
-<p><b>Participate</b>: We invest and participate in projects and communities that share our common goal to create a world of digital confidence.</p>
-</li>
-<li>
-<p><b>Share</b>: We are eager to share our knowledge, code, and practices around automated testing to benefit as many people as possible. </p>
-</li>
-<li>
-<p><b>Promote</b>: We encourage and celebrate our engineering teams and the work they put out for the common good. </p>
-</li>
-</ul>
-<p>Christian Bromann and I helped establish the Open Source Program Office at Sauce Labs because we personally believe so strongly in OSS. We are both software engineers with years of experience leading and contributing to open source projects, including Webdriver.io, Appium and Selenium. We are both committed to spreading the open source love within Sauce Labs and the broader community. </p>
-<p>Be sure to watch this space and stay tuned—in the coming months, we’ll be posting about open source projects we work on, what we’re seeing across the community, and how you can get involved. </p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/introducing-the-open-source-program-office">Source link </a></p>
 ]]></content:encoded>
 					
 		
