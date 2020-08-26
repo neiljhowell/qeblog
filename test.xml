@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 24 Aug 2020 21:31:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 26 Aug 2020 00:28:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,204 +28,151 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Google Fixes High-Severity Chrome Browser Code Execution Bug</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</link>
+		<title>Ransomware Could Be the New Data Breach: 5 Tips to Stay Secure </title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ransomware-could-be-the-new-data-breach-5-tips-to-stay-secure/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2020 21:31:00 +0000</pubDate>
+		<pubDate>Wed, 26 Aug 2020 00:28:08 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Code]]></category>
-		<category><![CDATA[Execution]]></category>
-		<category><![CDATA[Fixes]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[HighSeverity]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</guid>
-
-					<description><![CDATA[The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-fixes-high-severity-chrome-browser-code-execution-bug/158600/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Zero-trust security: How to get started</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/zero-trust-security-how-to-get-started/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2020 16:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[started]]></category>
-		<category><![CDATA[Zerotrust]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2763</guid>
-
-					<description><![CDATA[When the pandemic caused more organizations to rely on a distributed workforce, those organizations had more pressure to move services to]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>When the pandemic caused more organizations to rely on a distributed workforce, those organizations had more pressure to move services to the cloud. At the same time, attackers ramped up security threats that took advantage of the uncertainty and fear many people were experiencing. The result: <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/zero-trust-security-matters?lx=9nmHuO&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">Companies have made zero-trust projects a priority</a>.</p>
-<p>Many are wondering how to make the transformation to zero trust. Small, defined steps are best, said <a target="_blank" href="https://twitter.com/CynjaChaseC" rel="nofollow noopener noreferrer">Chase Cunningham</a>, vice president and principal analyst at Forrester Research.</p>
-<p>Cunningham noted some potential starting points: replacing a software-defined perimeter or software-defined WAN that is a bottleneck for remote workers, improving monitoring of users through <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/identity-governance-best-practices?lx=3C7k5c&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">identity and access management</a> or <a target="_blank" href="https://content.microfocus.com/identity-governance-admin-tb/behavioral-analytics-security?lx=3C7k5c&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">behavioral monitoring</a>, or extending endpoint detection and response (EDR) monitoring to all nodes.</p>
-<p>But it needn&#8217;t be a matter of rip and replace. Often, existing security technologies can be reconfigured to be more in line with the zero-trust model, said <a target="_blank" href="https://www.linkedin.com/in/kierannorton/" rel="nofollow noopener noreferrer">Kieran Norton</a>, infrastructure solutions leader at consultancy Deloitte.</p>
-<p>Here are key steps to take to get started with zero-trust security.</p>
-<h3>Get executives to buy in</h3>
-<p>All zero-trust initiatives need support from business leaders, but many times it&#8217;s company leaders themselves who are driving the move, said Forrester&#8217;s Cunningham, because of some compelling benefits.</p>
-<blockquote>
-<p>&#8220;At the end stages, what you get out of zero trust is remote-workforce enablement, lower risk, and more command and control of diverse assets. You have an easily translatable business strategy that is easily justifiable to the business.&#8221;<br />—<a target="_blank" href="https://twitter.com/CynjaChaseC" rel="nofollow noopener noreferrer">Chase Cunningham</a></p>
-</blockquote>
-<p>Currently, nearly 30% of companies either have zero trust in place already or have projects underway, according to Cybersecurity Insiders&#8217; <a target="_blank" href="https://www.cybersecurity-insiders.com/portfolio/2020-zero-trust-progress-report-pulse-secure/" rel="nofollow noopener noreferrer">2020 Zero Trust Progress Report</a>. Another 43% of companies are planning to tackle zero trust this year.</p>
-<h3>Assess your current situation</h3>
-<p>Every company has a different security maturity level and a different set of assets and skilled personnel. Before embarking on creating a business infrastructure for zero trust, companies must know where they stand, Cunningham said.</p>
-<blockquote>
-<p>&#8220;I think it is a very important thing for organizations to take a realistic assessment of their current posture. If they don&#8217;t do that, they don&#8217;t know where to start.&#8221;<br />—Chase Cunningham</p>
-</blockquote>
-<p>The top focus of many companies, according to the 2020 Zero Trust Progress Report, is deploying multi-factor authentication within the next 12 months. That is followed by identity management and single sign-on.</p>
-<h3>Start small and proceed with deliberation</h3>
-<p>Companies that want to deploy a zero-trust framework are often overwhelmed by the enormous scope of the project and decide to start with protecting their most critical assets.</p>
-<p>Such an approach can lead to failure, said John Kindervag, field CTO at Palo Alto Networks. The most critical assets are often the ones that have had layers of software and security built around them to keep them working, making them fragile. Instead, the <a target="_blank" href="https://blog.paloaltonetworks.com/2020/04/network-zero-trust-learning-curve/" rel="nofollow noopener noreferrer">learning curve</a> should focus on the most implementable projects first, to develop in-house expertise.</p>
-<blockquote>
-<p>&#8220;Focus on low-sensitivity data or assets and build zero trust incrementally and iteratively. You boil the ocean one teaspoon at a time.&#8221;<br />—<a target="_blank" href="https://twitter.com/kindervag?lang=en" rel="nofollow noopener noreferrer">John Kindervag</a></p>
-</blockquote>
-<h3>All-new technology is not needed</h3>
-<p>Zero trust is not necessarily a set of new technologies, but a different way of looking at security and what the boundaries are for trust. Because vendors have all labeled their products as necessary for digital transformation and zero trust, there is a lot of confusion in the market.</p>
-<p>Take it all with a grain of salt, said Forrester&#8217;s Cunningham.</p>
-<p>&#8220;The things that prevent compromises are not [new technology such as] super-mega encryption post-quantum whatever,&#8221; he said. More can be gained, he said, from taking aim at the low-hanging fruit: eliminating bad passwords, enabling MFA, limiting what users can access, and limiting lateral movement with micro-segmentation.</p>
-<blockquote>
-<p>&#8220;All the other stuff that we see being sold in the industry is lipstick on a pig. We have a lot of folks that continue to buy more stuff.&#8221;<br />—Chase Cunningham</p>
-</blockquote>
-<p>That&#8217;s not to say that the right technology will not help. But companies should first figure out what they really need, he said. &#8220;In reality, you can build a zero-trust infrastructure with any set of technologies. But although I could build the Suez Canal with a shovel, it is much better if I bring in the right equipment.&#8221;</p>
-<h3>Prepare for take-off</h3>
-<p>In the end, a deliberate and planned approach to zero trust allows companies to learn the technology, correct course, and then take on the most critical threats. Kindervag, who coined the term &#8220;zero trust,&#8221; argues that this approach gives a company enough runway to get up to speed before attempting the hardest projects.</p>
-<p>If companies do it right, then it provides operational savings, he said.</p>
-<blockquote>
-<p>&#8220;It reduces capital expenditures by eliminating unnecessary or redundant controls. Fewer people are needed to manage and maintain a zero-trust environment.&#8221;<br />—John Kindervag</p>
-</blockquote>
-<h3>When old meets new</h3>
-<p>Zero trust involves revamping trusted principles with a new approach. Remember that when sorting out the approach your team will take.</p>
-<blockquote>
-<p>&#8220;The technologies are many of the same things that we have been doing for a long time, and that is where I think clients sometimes don&#8217;t see through all the noise. You probably have a bunch of technology in your environment today that you can use to move to a zero-trust model—so you don&#8217;t have to replace everything, buy new technology, and start over.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/kierannorton/" rel="nofollow noopener noreferrer">Kieran Norton</a></p>
-</blockquote>
-<p>And as with any major technology project, keep it simple, said Cunningham.</p>
-<blockquote>
-<p>&#8220;The most important approach is to pick a pillar, solve for it, complete it, and then move on. What you shouldn&#8217;t do is try to start three or four projects at the same time, because then you wind up with three or four 70% done projects, and that&#8217;s a problem.&#8221;<br />—Chase Cunningham</p>
-</blockquote>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/zero-trust-security-how-get-started">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Iran-Linked ‘Newbie’ Hackers Spread Dharma Ransomware Via RDP Ports</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/iran-linked-newbie-hackers-spread-dharma-ransomware-via-rdp-ports/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2020 15:23:37 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Dharma]]></category>
-		<category><![CDATA[hackers]]></category>
-		<category><![CDATA[IranLinked]]></category>
-		<category><![CDATA[Newbie]]></category>
-		<category><![CDATA[Ports]]></category>
+		<category><![CDATA[Breach5]]></category>
+		<category><![CDATA[Data]]></category>
 		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[RDP]]></category>
-		<category><![CDATA[Spread]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/iran-linked-newbie-hackers-spread-dharma-ransomware-via-rdp-ports/</guid>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[Stay]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ransomware-could-be-the-new-data-breach-5-tips-to-stay-secure/</guid>
 
-					<description><![CDATA[The recent Dharma campaign by Iran-linked script kiddies shows that the ransomware is being spread not just by sophisticated, state-sponsored actors]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The recent Dharma campaign by Iran-linked script kiddies shows that the ransomware is being spread not just by sophisticated, state-sponsored actors anymore.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/iran-linked-newbie-hackers-spread-dharma-ransomware-via-rdp-ports/158580/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>APIs Are the Next Frontier in Cybercrime</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/apis-are-the-next-frontier-in-cybercrime/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2020 12:00:02 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APIs]]></category>
-		<category><![CDATA[Cybercrime]]></category>
-		<category><![CDATA[Frontier]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/apis-are-the-next-frontier-in-cybercrime/</guid>
-
-					<description><![CDATA[APIs make your systems easier to run &#8212; and make it easier for hackers, too. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />APIs make your systems easier to run &#8212; and make it easier for hackers, too.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/apis-next-frontier-cybercrime/158536/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Transform your Architecture for the Cloud with MVISION UCE and SD-WAN</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/transform-your-architecture-for-the-cloud-with-mvision-uce-and-sd-wan/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2020 04:01:22 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Architecture]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[MVISION]]></category>
-		<category><![CDATA[SDWAN]]></category>
-		<category><![CDATA[Transform]]></category>
-		<category><![CDATA[UCE]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/transform-your-architecture-for-the-cloud-with-mvision-uce-and-sd-wan/</guid>
-
-					<description><![CDATA[“Features are a nice to have, but at the end of the day, all we care about when it comes]]></description>
+					<description><![CDATA[Cybercriminals tend to keep with the times, as they often leverage current events as a way to harvest user data or spread malicious content. McAfee]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
 <div class="author-block padding-bottom-xs">
                 
             </div>
-<p><em>“Features are a nice to have, but at the end of the day, all we care about when it comes to our web and cloud security is architecture.” – said no customer ever. </em></p>
-<p>The fact is that nobody likes to talk about architecture when shopping for the latest and greatest cyber security technology, and most organizations have been content to continue fitting new security tools and capabilities into their existing traditional architectures. However, digital transformation projects including cloud migration and ubiquitous mobile access have revealed architectural cracks, and many companies have seen the dam burst with the explosion in remote access demand in recent months. As a result, organizations are coming around to the realization that digital transformation demands a corresponding network and security architectural transformation.</p>
-<p>The <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/next-gen-swg.html" rel="noopener noreferrer">Secure Access Service Edge (SASE)</a> framework provides organizations for a model to achieve this transformation, by bringing network and security technology together into a single, cloud-delivered service that ensures fast, secure, reliable, and cost-effective access to web and cloud resources. In this blog we are going to focus in on remote offices and how the combination of SD-WAN and Next-Generation Secure Web Gateway capabilities offered by MVISION UCE can enable SASE and deliver on the promise of digital transformation.<strong> </strong></p>
-<h2><strong>The Cloud and the Architectural Dilemma</strong></h2>
-<p>In the past organizations were largely concentrated in a limited number of locations. Applications and data were hosted on servers at a central data center location on the local area network – typically at or near the headquarters. Users typically worked in the office, so they would also be located at the office and access corporate resources on the same network. Surrounding this network was a perimeter of security controls that could inspect all traffic going in or out of the organization, keeping trusted resources safe while keeping the bad guys out. Remote users and branch offices were logically connected to this central network via technologies like VPN, MPLS, and leased lines, so the secure network perimeter could be maintained<strong>.</strong></p>
-<p>While this approach sufficed for years, digital transformation has created major challenges. Applications and data storage have migrated to the cloud, so they no longer reside on the corporate network. Logic would dictate that the optimal approach would be for remote users and offices to have direct access to cloud resources without having to route back through the corporate network. But this would result in the organization’s IT security perimeter being completely circumvented, meaning lost security visibility and control, leading to unacceptable security and compliance risks.</p>
-<p>So network and security architects everywhere are facing the same dilemma: <em>What is the best way to enable digital transformation without any major compromises? </em>Organizations have generally followed one of the four following architectural approaches based on their willingness to embrace new technologies and bring them together:</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-105500" src="https://www.mcafee.com/wp-content/uploads/2020/08/9.png" alt="" width="656" height="576" srcset="https://www.mcafee.com/wp-content/uploads/2020/08/9.png 656w, https://www.mcafee.com/wp-content/uploads/2020/08/9-300x263.png 300w, https://www.mcafee.com/wp-content/uploads/2020/08/9-147x129.png 147w" sizes="(max-width: 656px) 100vw, 656px"/></p>
-<p>We’re going to discuss these four options here, and evaluate them based on four factors: security, speed, latency, and cost. The results will show that there’s only one way to achieve fast, secure, and cost-effective access to web and cloud resources.</p>
-<h2><strong>Approach 1: STATUS QUO</strong></h2>
-<p>Due to risk of losing security visibility and control, many organizations have refused to allow “direct-to-cloud” re-architecting. So even when high-speed internet links could connect users directly to cloud and web resources, this approach necessitates that all traffic still be pushed through slower MPLS links back to the corporate network, and then go back out through a single aggregated internet pipe to access web and cloud resources<strong>. </strong>While this theoretically maintains security visibility and control, it comes at great cost.</p>
-<p>For starters, the user experience is greatly hampered by poor performance. Bandwidth suffers from the slow MPLS link back to the corporate office, as well as through the congested company internet connection. In addition, the extra network hops and increased network contention leads to high latency – this has been drastically amplified in recent months as the amount of remote traffic backhauling through the corporate network has exploded well beyond original design expectations. These factors don’t even take into account the potential impact of service disruptions brought about by introducing a single point of failure into the network architecture.</p>
-<p>In addition to poor performance, there is a tangibly higher financial cost associated with this approach. Multiple MPLS lines connecting branch offices to the corporate data center are considerably more expensive than public internet connectivity. Additionally, in order to accommodate the routing of ALL user traffic, organizations need to dramatically increase investment in their central network and security perimeter infrastructure capacity, as well as the bandwidth of the shared internet pipe.</p>
-<p>So we’re left needing to find a long-term answer to the challenges of speed, latency, and cost. These considerations are what have led many network architects to proceed to deploy SD-WAN.</p>
-<h2><strong>Approach 2a: GOING DIRECT-TO-CLOUD WITH SD-WAN</strong></h2>
-<p>The first step in delivering a cloud-ready architecture is removing the bottleneck incurred by forcing all traffic to be routed through slow MPLS lines to the central network and then back out to the cloud. SD-WAN technology can help in this regard. By deploying SD-WAN equipment at the edge of the branch network, optimized traffic policies can be created that route traffic directly to web and cloud resources using fast, affordable internet connections, while using the same internet connection to send only data center-bound traffic directly back to the corporate network over a dynamic set of VPN tunnels. WAN optimization and QoS, as well as various other edge network and security functions like firewall filtering that are better suited to being performed at the network edge, deliver the fastest and most reliable user experience, while minimizing the traffic burden on the central network<strong>.</strong></p>
-<p>By employing SD-WAN, network architects can achieve substantial cost savings by eliminating expensive MPLS links back to the corporate data center. Additionally, users aren’t constrained by the much slower bandwidth of those MPLS lines.</p>
-<p>However, there are major drawbacks to this model. While SD-WAN solutions feature a number of strong flow control capabilities that can be distributed to each remote site – including firewalling, DNS protection, and data obfuscation – they don’t have the same robust data and threat protection capabilities that organizations have built into their network perimeter security. Therefore, architects <em><u>still</u></em> need to backhaul all traffic over the internet back to the data center, even if that traffic is ultimately destined to go right back out to the internet! So while the speed and cost-effectiveness of this connection is greatly improved in comparison to the old model, the need to continue backhauling traffic presents the same latency and congestion challenges.</p>
-<h2><strong>Approach 2b: MCAFEE MVISION UNIFIED CLOUD EDGE</strong></h2>
-<p>So if traffic paths need to run back to the corporate data center for organizations to maintain security visibility and control, but the majority of resources users are accessing are in the cloud, wouldn’t it make sense to situate the security controls in the cloud a more direct and secure traffic path? Enter McAfee MVISION Unified Cloud Edge.</p>
-<p>MVISION UCE’s Next-Gen Secure Web Gateway provides a cloud-native, lightning-fast, 99.999% reliable, hyper-scale secure edge. By converging SWG, CASB, and DLP, and Remote Browser Isolation technologies, MVISION UCE ensures that remote users and offices enjoy the most sophisticated levels of threat, data, and cloud application protection, as well as unique proactive risk management capabilities  that even exceed what is possible in a traditional on-premises security framework.</p>
-<p>Just as important as the advanced security capabilities is the fact that MVISION UCE is built on a fast, reliable, scalable foundation. Thanks to a global Point of Presence (POP) network and unique peering relationships, MVISION UCE can extend a hyper-scale secure edge wherever users need it. Despite a 240% surge in traffic during the spring of 2020, McAfee was able to maintain 99.999% availability and met all of the latency requirements stipulated in our SLAs. Organizations could count on our infrastructure in the toughest of times, and can continue to do so going forward.</p>
-<p>By subscribing to an affordable public internet connection at the branch site and connecting to MVISION UCE, customers can achieve many of the desired benefits. MVISION UCE’s comprehensive data, threat, and cloud application protection capabilities more than satisfy security requirements. And for the majority of user traffic that is destined for the web or cloud, the direct internet connection ensures fast, low-latency access.</p>
-<p>However, without deploying SD-WAN in conjunction with UCE, organizations still need to have those slow, expensive MPLS links to maintain connectivity to their legacy data center applications and resources. Therefore, customers won’t be able to realize cost savings, and those connections to data center resources will suffer the same speed and latency challenges. And that is where we finally arrive at the ideal cloud security architecture, bringing MVISION UCE together with SD-WAN.</p>
-<h2><strong>Approach 3: MVISION UCE + SD-WAN = SASE</strong></h2>
-<p>By bringing together MVISION UCE with SD-WAN in a seamlessly integrated solution, organizations can deliver SASE and build a network security architecture fit for the cloud era. McAfee makes it possible for customers to easily converge MVISON UCE with virtually any SD-WAN solution via robust native support for SD-WAN connectivity, leveraging industry standard Dynamic IPSec and GRE protocols. Through this integration, customers benefit from the complete range of essential SASE capabilities, with SD-WAN providing the integrated networking functionality and MVISION UCE delivering the security capabilities. McAfee has supported our channel partners in successfully delivering joint SD-WAN-cloud SWG projects with many of the major SD-WAN vendors in the market, and we have forged tight alliances with the industry leaders through our Security Innovation Alliance (SIA).</p>
-<p>So how does a combined UCE-SD-WAN solution satisfy the four architectural requirements? Security is clearly addressed by UCE’s threat, data, and cloud application protection capabilities, as well as the distributed firewall capabilities delivered by SD-WAN. By using a single fast internet connection, SD-WAN is able to intelligently and efficiently route traffic directly to cloud resources or back to the corporate data center. With MVISION UCE providing security directly in the cloud, SD-WAN can forward web- and cloud-bound traffic directly, without any excessive latency. Cost savings come from removing the expensive MPLS lines, and since the majority of traffic no longer needs to backhaul through the corporate data center, additional savings can be achieved by reducing central network bandwidth and infrastructure capacity.</p>
-<h2><strong>Build a Cloud-Ready Network Security Architecture Today</strong></h2>
-<p>Digital Transformation represents the next great technological revolution, and organizations’ ability to move to the cloud and empower their distributed workforces with fast, secure, simple, and reliable access will likely determine how successful they are in the new era. SASE represents the best way to achieve a direct-to-cloud architecture that doesn’t compromise on security visibility &#038; control, performance, complexity, or cost. By seamlessly integrating our MVISION UCE solution with SD-WAN, it’s never been easier for organizations to deliver SASE to remote offices. As a result, users will benefit from greater productivity, IT personnel will enjoy greater operational efficiency, and companies will enjoy exceptional cost savings as a result of consolidated infrastructure and optimized network traffic.</p>
-<p>To learn more about how MVISION UCE and SD-WAN can work together, attend a webinar hosted by McAfee and one of our key SD-WAN technology partners, Silver Peak Systems. Click here to <a target="_blank" href="https://event.on24.com/wcc/r/2529440/FD8590D368E567CB12C0D8750D930C0F/1197411?partnerref=blog" rel="noopener noreferrer">register</a>.</p>
+<p><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">C</span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">ybercriminals</span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0"> tend to keep with the times, as they </span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">often</span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0"> </span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">leverage current events a</span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">s a way</span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0"> to harvest user data or spread malicious content. </span></span><a target="_blank" class="Hyperlink SCXW51608435 BCX0" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-july-2020.pdf" rel="noreferrer noopener"><span class="TextRun Underlined SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW51608435 BCX0" data-ccp-charstyle="Hyperlink">McAfee COVID-19 Threat Report July 2020</span></span></a><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0"> points to a rather significant surge in attacks exploiting the </span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">current </span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">pandemic with COVID-19 themed malicious apps, phishing campaigns, malware, and ransomware. </span></span><span class="TextRun SCXW51608435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW51608435 BCX0">However, what many users don’t realize is that ransomware attacks are a lot more than meets the eye. </span></span><span class="EOP SCXW51608435 BCX0" data-ccp-props="{}"> </span></p>
+<h2>COVID-19 Themed Ransomware</h2>
+<p><span data-contrast="auto">During the </span><span data-contrast="auto">first few months of </span><span data-contrast="auto">2020, the McAfee Advanced Threat Research (ATR) team </span><span data-contrast="auto">saw that </span><span data-contrast="auto">cyber</span><span data-contrast="auto">criminals </span><span data-contrast="auto">were </span><span data-contrast="auto">targeting </span><span data-contrast="auto">manufacturing, law, and construction</span><span data-contrast="auto"> businesses</span><span data-contrast="auto">. </span><span data-contrast="auto">After </span><span data-contrast="auto">pinpointing</span><span data-contrast="auto"> their targets, h</span><span data-contrast="auto">ackers spread </span><span data-contrast="auto">COVID-19 themed</span><span data-contrast="auto"> ransomware campaigns to these</span><span data-contrast="auto"> </span><span data-contrast="auto">companies</span><span data-contrast="auto"> </span><span data-contrast="auto">in an effort t</span><span data-contrast="auto">o</span><span data-contrast="auto"> </span><span data-contrast="auto">capitalize on their relevancy during this time</span><span data-contrast="auto">. </span><span data-ccp-props="{}"> </span></p>
+<p><span data-contrast="auto">An example of one of these </span><span data-contrast="auto">attacks</span><span data-contrast="auto"> </span><span data-contrast="auto">in action is </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-july-2020.pdf" rel="noopener noreferrer"><span data-contrast="none">Ransomware-GVZ</span></a><span data-contrast="auto">. Ransomware-GVZ displays a ransom note demanding payment in return for decrypting the firm’s compromised systems and the personal and corporate data they contain. The ransomware then encrypts the organization’s files and </span><span data-contrast="auto">displays</span><span data-contrast="auto"> a lock screen if </span><span data-contrast="auto">a</span><span data-contrast="auto"> user attempts to reboot their device. As a result, the company is left with a severely crippled network while the criminals behind the attack gain a treasure trove of data</span><span data-contrast="auto"> – </span><span data-contrast="auto">information </span><span data-contrast="auto">belonging to consumers that have previously interacted with the </span><span data-contrast="auto">business</span><span data-contrast="auto">.</span><span data-contrast="auto"> </span><span data-ccp-props="{}"> </span><span data-ccp-props="{}"> </span></p>
+<p><span data-ccp-props="{}"><img loading="lazy" class="aligncenter wp-image-105506 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-20-at-12.15.20-PM.png" alt="" width="352" height="119" srcset="https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-20-at-12.15.20-PM.png 352w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-20-at-12.15.20-PM-300x101.png 300w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-20-at-12.15.20-PM-205x69.png 205w" sizes="(max-width: 352px) 100vw, 352px"/></span><span data-ccp-props="{}"> </span></p>
+<h2>Ransomware Could Be the New Data Breach</h2>
+<p><span data-contrast="auto">As ransomware attacks </span><span data-contrast="auto">continue to </span><span data-contrast="auto">evolve</span><span data-contrast="auto">, it’s not just file encryption that users need </span><span data-contrast="auto">to be aware of</span><span data-contrast="auto"> – they also need to </span><span data-contrast="auto">be aware of</span><span data-contrast="auto"> </span><span data-contrast="auto">the impact the attack has on compromised </span><span data-contrast="auto">data. Senior Principal Engineer and Lead Scientist </span><a target="_blank" href="https://www.businesswire.com/news/home/20200721005195/en/McAfee-Report-Shows-Threat-Actor-Evolution-Pandemic" rel="noopener noreferrer"><span data-contrast="none">Christiaan </span><span data-contrast="none">Beek</span><span data-contrast="none"> stated</span></a><span data-contrast="auto">, “</span><span data-contrast="auto">No longer can we call these attacks just ransomware incidents. When actors have access to the network and steal the data prior to encrypting it, threatening to leak if you don’t pay, that is a data </span><span data-contrast="auto">[infraction]</span><span data-contrast="auto">.</span><span data-contrast="auto">” </span><span data-contrast="auto">If a ransomware attack exploits an organization and their network is compromised, so is the data on that network. Hackers can </span><span data-contrast="auto">steal this data before encrypting it and </span><span data-contrast="auto">use this </span><span data-contrast="auto">stolen </span><span data-contrast="auto">information to conduct identity theft or </span><span data-contrast="auto">spread </span><span data-contrast="auto">other misfortune that can affect both the organization’s employees and their customers. </span><span data-ccp-props="{}"> </span></p>
+<p><span data-contrast="auto">This surge in ransomware is only compounded by traditional</span><span data-contrast="auto"> data </span><span data-contrast="auto">infringements</span><span data-contrast="auto"> </span><span data-contrast="none">–</span><span data-contrast="auto"> which </span><span data-contrast="auto">have </span><span data-contrast="auto">also </span><span data-contrast="auto">spiked in conjunction with the global pandemic. According to the McAfee COVID-19 Threat Report July 2020, </span><span data-contrast="auto">the number of reported </span><span data-contrast="auto">incidents</span><span data-contrast="auto"> targeting the public sector, individuals, education, and manufacturing dramatically increased</span><span data-contrast="auto">.</span><span data-contrast="auto"> </span><span data-contrast="auto">In fact, McAfee Labs counted 458 publicly disclosed security incidents </span><span data-contrast="auto">in the </span><span data-contrast="auto">few months of</span><span data-contrast="auto"> 2020, with a 60% increase in attacks from Q4 2019 to Q1 2020</span><span data-contrast="auto"> in the United States</span><span data-contrast="auto"> alone</span><span data-contrast="auto">.</span><span data-contrast="auto"> </span><span data-contrast="auto">Coincidentally, the</span><span data-contrast="auto"> attacks targeting </span><span data-contrast="auto">organizations also impact the consumers who </span><span data-contrast="auto">buy from them, as the company’s data consists of their customer’s personal and financial information. </span><span data-ccp-props="{}"> </span></p>
+<h2>Don’t Let Your Data Be Taken for Ransom</h2>
+<p><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">Because of the high volume </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">of</span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0"> </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">data that’s compromised</span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0"> by ransomware attacks, it’s crucial for consumers to </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">shift </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">how they approach these threats and respond in a similar way that they would a data </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">incident</span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">. </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">Luckily</span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">, there are actionable steps you can take as a </span></span><span class="TextRun SCXW143159553 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW143159553 BCX0">consumer to help secure your data. </span></span><span class="EOP SCXW143159553 BCX0" data-ccp-props="{}"> </span></p>
+<h3>Change your credentials</h3>
+<p><span class="TextRun SCXW26456946 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW26456946 BCX0">If you discover that a </span></span><span class="TextRun SCXW26456946 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW26456946 BCX0">data leak</span></span><span class="TextRun SCXW26456946 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW26456946 BCX0"> or a ransomware attack has compromised a company you</span></span><span class="TextRun SCXW26456946 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW26456946 BCX0">’ve interacted with</span></span><span class="TextRun SCXW26456946 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW26456946 BCX0">, err on the side of caution and change your passwords for </span><span class="NormalTextRun AdvancedProofingIssueV2 SCXW26456946 BCX0">all of</span><span class="NormalTextRun SCXW26456946 BCX0"> your accounts. Taking extra precautions can help you avoid future attacks.</span></span><span class="EOP SCXW26456946 BCX0" data-ccp-props="{}"> </span></p>
+<h3>Take password protection seriously</h3>
+<p><span class="TextRun SCXW165529006 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW165529006 BCX0">When updating your credentials, you should always ensure that your passwor</span></span><span class="TextRun SCXW165529006 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW165529006 BCX0">d is strong and unique. Many users utilize the same password or variations of it across all their accounts. Therefore, be sure to diversify your passcodes to ensure hackers cannot obtain access to all your accounts at once, should one password be compromis</span></span><span class="TextRun SCXW165529006 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW165529006 BCX0">ed. You can also employ a </span></span><a target="_blank" class="Hyperlink SCXW165529006 BCX0" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noreferrer noopener"><span class="TextRun Underlined SCXW165529006 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW165529006 BCX0" data-ccp-charstyle="Hyperlink">password manager</span></span></a><span class="TextRun SCXW165529006 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW165529006 BCX0"> to keep track of your credentials.</span></span><span class="EOP SCXW165529006 BCX0" data-ccp-props="{}"> </span></p>
+<h3>Enable two-factor or multi-factor authentication</h3>
+<p><span class="TextRun SCXW15724478 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW15724478 BCX0">Two or multi-factor authent</span></span><span class="TextRun SCXW15724478 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW15724478 BCX0">ication provides an extra layer of security, as it requires multiple forms of verification. This reduces the risk of successful impersonation by hackers.</span></span><span class="EOP SCXW15724478 BCX0" data-ccp-props="{}"> </span></p>
+<h3>If you are targeted, never pay the ransom</h3>
+<p><span class="TextRun SCXW66568216 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW66568216 BCX0">It’s possible that you could be targeted individually </span></span><span class="TextRun SCXW66568216 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW66568216 BCX0">by a ransomware campaign. If this happens, don’t pay the ransom. </span></span><span class="TextRun SCXW66568216 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW66568216 BCX0">Although you may feel that this is the only way to get your encrypted files back, there is no guarantee that the ransomware developers will send a decryption tool </span></span><span class="TextRun SCXW66568216 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW66568216 BCX0">once they receive the paymen</span></span><span class="TextRun SCXW66568216 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW66568216 BCX0">t. Paying the ransom also contributes to the development of more ransomware families, so it’s best to hold off on making any payments.</span></span><span class="EOP SCXW66568216 BCX0" data-ccp-props="{}"> </span></p>
+<h3>Use a comprehensive security solution</h3>
+<p><span data-contrast="auto">Adding an extra layer of security with a solution such as </span><a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer"><span data-contrast="none">McAfee® Total Protection</span></a><span data-contrast="auto">, which includes </span><span data-contrast="auto">Ransom Guard</span><span data-contrast="auto">, can help protect your devices from these cyberthreats.</span><span data-ccp-props="{}"> </span><span data-ccp-props="{}"> </span></p>
+<h2>Stay Updated</h2>
+<p><span data-contrast="auto">To stay updated on all things </span><a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer"><span data-contrast="none">McAfee</span></a> <span data-contrast="auto">and for more resources on staying secure from home, follow </span><a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer"><span data-contrast="none">@McAfee_Home </span></a> <span data-contrast="auto">on Twitter, listen to our podcast </span><a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&#038;at=1010lbVy&#038;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer"><i><span data-contrast="none">Hackable?</span></i></a><span data-contrast="auto">,  and ‘Like’ us on </span> <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer"><span data-contrast="none">Facebook.</span></a><span data-ccp-props="{}"> </span></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/ransomware-data-breach-5-tips-to-stay-secure/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Four More Bugs Patched in Microsoft’s Azure Sphere IoT Platform</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/four-more-bugs-patched-in-microsofts-azure-sphere-iot-platform/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2020 23:27:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[AZURE]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[IoT]]></category>
+		<category><![CDATA[Microsofts]]></category>
+		<category><![CDATA[Patched]]></category>
+		<category><![CDATA[Platform]]></category>
+		<category><![CDATA[Sphere]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/four-more-bugs-patched-in-microsofts-azure-sphere-iot-platform/</guid>
+
+					<description><![CDATA[Researchers have unearthed more vulnerabilities in Microsoft’s IoT security solution. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researchers have unearthed more vulnerabilities in Microsoft’s IoT security solution.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/four-more-bugs-patched-in-microsofts-azure-sphere-iot-platform/158643/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What is GPS spoofing? &#124; McAfee Blogs</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-is-gps-spoofing-mcafee-blogs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2020 21:32:51 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[GPS]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Spoofing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-is-gps-spoofing-mcafee-blogs/</guid>
+
+					<description><![CDATA[ What is GPS spoofing? Global positioning system (GPS) technology is now the standard way for travelers to efficiently get from]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h3> What is GPS spoofing?</h3>
+<p>Global positioning system (GPS) technology is now the standard way for travelers to efficiently get from point A to point B. While GPS delivers unparalleled opportunities to businesses and individuals, there are some drawbacks to using this technology. GPS devices can be vulnerable to cyber attacks through GPS spoofing.</p>
+<h3>GPS Spoofing 101</h3>
+<p>Global navigation satellite systems (GNSS) have been around for years in many industrialized countries, and GPS is just one of those systems.   GPS spoofing happens when someone uses a radio transmitter to send a counterfeit GPS signal to a receiver antenna to counter a legitimate GPS satellite signal. Most navigation systems are designed to use the strongest GPS signal, and the fake signal overrides the weaker but legitimate satellite signal.</p>
+<h3>Commercial Hazards of GPS Spoofing</h3>
+<p>GPS spoofing isn’t to be confused with GPS jamming. GPS jamming happens when a cyber criminal blocks GPS signals altogether. Selling or using GPS jamming equipment that can block communications is illegal in the United States. While GPS jamming appears to be the greater threat, GPS spoofing delivers a sucker punch to a variety of businesses.</p>
+<p>GPS spoofing allows hackers to interfere with navigation systems without operators realizing it. The fake GPS feeds cause drivers, ship captains, and other operators to go off course without any coercion. Businesses that are particularly vulnerable to GPS spoofing are shipping companies, taxi services, and construction companies.</p>
+<h3>Shipping Companies</h3>
+<p>Shipping companies that haul freight via land, air, and sea all use GPS-based navigation systems to get cargo safely to destinations all over the world. GPS spoofing leaves these shipments vulnerable to hijacking and theft. A practical example of this is where hijackers use GPS spoofing to misdirect a vehicle to a location where its cargo can be robbed—and hid the truck’s location while it’s happening. Additionally, many shippers use GPS-enabled locks to secure their cargo, allowing them to open only when the truck arrives at its set destination. GPS spoofing undoes those locks as well. In all, this puts drivers in danger, and trucking companies lose millions of dollars of cargo each year due to hijacking incidents such as these.</p>
+<h3>Taxi and Ride Sharing Services</h3>
+<p>Gone are the days when taxi drivers relied solely on their knowledge of a city’s streets to transport passengers. Today’s taxi drivers can go into any city that their license allows and do their jobs efficiently with the use of GPS technology. This flexibility comes with some drawbacks, however. GPS spoofing allows drivers to fake their location and commit criminal acts while still on the clock. Drivers from <a target="_blank" href="https://www.mcafee.com/blogs/consumer/uber-data-breach-consumers-need-know/?hilite=%27uber%27" rel="noopener noreferrer">ride services</a> can also use the technique to fraudulently place themselves in surge areas to get more money for their services. Projecting a false location is a financial risk to companies and is potentially dangerous for passengers.</p>
+<h3>Construction Companies</h3>
+<p>While skilled construction workers are certainly valued, specialized tools, equipment, and machinery are the assets that many construction companies seek to track. These expensive assets commonly go missing on worksites, which eats into company profits. In recent years, GPS asset tracking systems have been installed to make sure construction equipment, tools, and machinery remain at authorized worksites. By using GPS spoofing, a thief could move an asset to a new location without anyone knowing about it until it was too late.</p>
+<h3>Dangers of GPS Spoofing for Everyone Else</h3>
+<p>GPS spoofing isn’t just a threat to businesses and government agencies; it also can be the catalyst for significant harm to individuals who rely on GPS. Cruising waterways along the coasts is a favorite hobby for those who enjoy boating.. Modern boats are equipped with GPS-based navigation systems. A cyber criminal can use GPS spoofing to get a skipper to steer his boat off course and into the path of danger from modern-day pirates.</p>
+<p>The makers of location-based dating apps tout them as a safe way to meet a potential mate. These apps use GPS technology to help users identify dates by their location. When a bad actor uses GPS spoofing, he can fake his location or guide his date to a dangerous location.</p>
+<p>The future of driving is now. Some electric cars are already equipped with an autopilot feature that offers unparalleled convenience to travel-weary drivers. However, independent research findings have uncovered a critical vulnerability in the cars’ navigation systems.  What will happen when fully autonomous, self-driving cars are made without steering devices that would allow a person to take control of their car during a GPS spoofing incident?</p>
+<h3>Tips to Combat GPS Spoofing Attacks</h3>
+<p>If you own a business that relies on GPS-based navigation systems, you’ll want to know the best ways to sabotage GPS spoofing attacks. The Department of Homeland Security points out some physical and procedural techniques to fight the problem. It recommends that companies hide GPS antennas from public view. GPS spoofing works well when an attacker can get close to an antenna and override legitimate GPS signals that come from orbiting satellites.</p>
+<p>The agency suggests installing a decoy antenna that’s in plain view of would-be cyber criminals. Adding redundant antennas in different locations at your site allows you to notice if one antenna is being targeted for GPS spoofing. Companies such as Regulus Cyber are also developing GPS spoofing detection software that alerts users of spoofing incidents and keeps their devices from acting on spoofed GPS data.</p>
+<p>Additionally, organizations should consider taking GPS-enabled equipment offline whenever connectivity isn’t actively required—thus making them less susceptible to attack. Likewise, following the basics of security hygiene provide further protection, such as regular updates and changing of passwords, along with the use of two-factor authentication, network firewalls, and other cyber defenses.</p>
+<h3>GPS Spoofing for Privacy</h3>
+<p>While GPS spoofing can cause big problems for people, businesses, and governments, there is a legitimate use for the practice. GPS tracking and location sharing present everyone with real privacy issues. GPS spoofing allows users to hide their actual location from those who could cause harm. <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">Security</a> companies can use GPS spoofing to guard high-profile clients or expensive merchandise. Individuals can install GPS spoofing apps for free on their Android phones to mask their locations and protect their privacy.</p>
+<p> </p>
+<p> </p>
+<p><strong>References</strong><br />• https://en.wikipedia.org/wiki/GPS_signals<br />• https://medium.com/@theappninjas/what-are-gps-spoofing-apps-actually-doing-5c9f373540c4<br />• https://nordvpn.com/blog/gps-spoofing/<br />• https://play.google.com/store/apps/details?id=com.lexa.fakegps&#038;hl=en_US<br />• https://www.csoonline.com/article/3393462/what-is-gps-spoofing-and-how-you-can-defend-against-it.html<br />• https://www.digitaltrends.com/mobile/gps-spoofing/<br />• https://www.gps.gov/spectrum/jamming/<br />• https://www.thedrive.com/the-war-zone/31092/new-type-of-gps-spoofing-attack-in-china-creates-crop-circles-of-false-location-data<br />• https://maximumridesharingprofits.com/drivers-can-get-deactivated-using-fake-gps-apps/<br />• https://www.prnewswire.com/il/news-releases/tesla-model-s-and-model-3-prove-vulnerable-to-gps-spoofing-attacks-as-autopilot-navigation-steers-car-off-road-research-from-regulus-cyber-shows-300871146.html<br />• https://www.regulus.com/blog/gps-spoofing-the-auto-cybersecurity-threat-hiding-in-plain-sight/<br />• https://www.csoonline.com/article/3393462/what-is-gps-spoofing-and-how-you-can-defend-against-it.html<br />• https://www.defense.gov/Explore/Features/story/Article/1674004/what-on-earth-is-the-global-positioning-system/</p>
 </p></div>
 <p><script>
   !function(f,b,e,v,n,t,s)
@@ -250,181 +197,316 @@ fbq('track', "PageView");</p>
 <p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
 </script><br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/transform-your-architecture-for-the-cloud-with-mvision-uce-and-sd-wan/">Source link </a></p>
+<br /><a href="https://www.mcafee.com/blogs/consumer/what-is-gps-spoofing/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>University of Utah Pays $457K After Ransomware Attack</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/university-of-utah-pays-457k-after-ransomware-attack/</link>
+		<title>McAfee ESM Named a 2020 Gartner Peer Insights Customers’ Choice for SIEM</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-esm-named-a-2020-gartner-peer-insights-customers-choice-for-siem/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2020 16:02:27 +0000</pubDate>
+		<pubDate>Tue, 25 Aug 2020 21:30:07 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[457K]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Pays]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[University]]></category>
-		<category><![CDATA[Utah]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/university-of-utah-pays-457k-after-ransomware-attack/</guid>
+		<category><![CDATA[Choice]]></category>
+		<category><![CDATA[Customers]]></category>
+		<category><![CDATA[ESM]]></category>
+		<category><![CDATA[Gartner]]></category>
+		<category><![CDATA[Insights]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Named]]></category>
+		<category><![CDATA[Peer]]></category>
+		<category><![CDATA[SIEM]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-esm-named-a-2020-gartner-peer-insights-customers-choice-for-siem/</guid>
 
-					<description><![CDATA[The university said that it paid $457,000 to retrieve a decryption key after a ransomware attack encrypted student and faculty]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The university said that it paid $457,000 to retrieve a decryption key after a ransomware attack encrypted student and faculty data on its servers.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/university-of-utah-pays-457k-after-ransomware-attack/158564/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to build in app sec with strategic automation</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-build-in-app-sec-with-strategic-automation/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[Automation]]></category>
-		<category><![CDATA[build]]></category>
-		<category><![CDATA[sec]]></category>
-		<category><![CDATA[strategic]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-build-in-app-sec-with-strategic-automation/</guid>
-
-					<description><![CDATA[When users encounter software bugs, the consequences can range from annoying to brand-damaging to life-threatening. To quickly remediate the issue—no matter how]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p dir="ltr">When users encounter software bugs, the consequences can range from annoying to brand-damaging to life-threatening. To quickly remediate the issue—no matter how big or small—it&#8217;s important to know how, where, and when the bug was introduced. But it&#8217;s even better to prevent the bug from ever reaching production.</p>
-<p dir="ltr">To accomplish this, security must be built in from the very beginning of the software development lifecycle. To do that <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/shift-security-left-continuous-testing?lx=QKJph-&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">you need to adopt sophisticated testing</a>, scanning, and continuous integration. These, in turn, require container image scanning, container layers, and linting. </p>
-<p dir="ltr">Security has been <a target="_blank" href="https://techbeacon.com/devops/how-bridge-security-development-divide" rel="noopener noreferrer">developers&#8217; top challenge</a> since software was first, well, developed. But back in the day, software was released and updated at what now seems like a glacial pace. Developers had more time to code and more time to fix problems with code. Today, organizations live and die by their ability to quickly and iteratively get new apps out the door—security (at times) be damned!</p>
-<p dir="ltr">Of course, security can&#8217;t be damned, but it also can&#8217;t be allowed to be a bottleneck to providing customers a steady stream of new and newly updated apps and services.</p>
-<p dir="ltr">Here&#8217;s how to <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-app-sec?lx=QKJph-&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00134846" rel="noopener noreferrer">build in application security from the start</a> while avoiding bottlenecks in your software development pipeline.</p>
-<h3>Complicating factors: Containers and everything else</h3>
-<p dir="ltr">Adding to the opportunity and the challenge is the ever-expanding growth in the use of <a target="_blank" href="https://content.microfocus.com/cloud-native-computing-tb/kubernetes-essential-cloud-native-computing?lx=R4i7m5&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">the container model</a>: Containers make it easy to build, package, and promote an application or service—and all its dependencies—throughout the entire lifecycle and across different environments and deployment targets.</p>
-<p dir="ltr">But that also means that a security gap anywhere along the way can have a damaging, widespread ripple effect.</p>
-<p dir="ltr">It&#8217;s for this reason that the old saw &#8220;Security should be built in, not bolted on&#8221; is truer than ever. This is especially the case as developers build apps and services within increasingly complex environments, including, but not limited to, containers, legacy and cloud-native software on Windows and Linux operating systems, function-as-a-service (sometimes <a target="_blank" href="https://techbeacon.com/enterprise-it/essential-guide-serverless-computing-enterprise" rel="noopener noreferrer">called serverless</a>), virtualized infrastructure, public and private cloud infrastructures, and edge computing.</p>
-<p dir="ltr">Manual security in the middle of all this? Good luck. Here&#8217;s what you need to do instead.</p>
-<h3>Solution: Automate, test, scan</h3>
-<p dir="ltr">Adopting sophisticated testing, scanning, and continuous integration/continuous development (CI/CD) makes the process of securing code earlier in the process much easier. <a target="_blank" href="https://www.youtube.com/watch?v=zVpSnlTyrPc" rel="nofollow noopener noreferrer">With automated CI/CD</a>, developers and operations teams work together in an agile way to, among other things, ensure the active testing and verification of code as it&#8217;s being developed.</p>
-<p dir="ltr">The entire process of releasing code is developed, maintained, and improved as code.</p>
-<p>In fact, this combination of testing, scanning, and CI/CD helps ensure that an app reaches production in an efficient and secure way. And because most modern software projects include code from hundreds of contributors and repositories from all over the world, it would be pretty much impossible to securely develop, test, and deploy new features without a CI/CD system.</p>
-<p dir="ltr">But CI/CD alone is not enough to identify the one bad apple that spoils the whole bunch of code.</p>
-<h3>Going beyond CI/CD</h3>
-<p dir="ltr">Here are other tools and practices that your organization should be using to ensure that tainted code never reaches production.</p>
-<h4>Security testing </h4>
-<p dir="ltr" role="presentation">Just because an application runs on a developer&#8217;s box or passes CI/CD functional and integration testing does not mean that the app won&#8217;t get hacked the second it&#8217;s put in production. <a target="_blank" href="https://techbeacon.com/sast-dast-iast-rasp-pros-cons-how-choose" rel="noopener noreferrer">Different types of tests</a> can help determine where your holes are.</p>
-<p dir="ltr" role="presentation">Static application security testing (SAST) is great for developers with code that doesn&#8217;t even function yet. These tools look for problems such as buffer overflows, cross-site scripting mistakes, and SQL queries that are vulnerable to attack</p>
-<p dir="ltr" role="presentation">Dynamic application security testing (DAST) is also useful, because not all vulnerabilities can be discovered with code alone. Many vulnerabilities don&#8217;t manifest themselves until the code is running.</p>
-<p dir="ltr" role="presentation">This could be because of infrastructure (load balancers, web servers, DNS, etc.), or just the way the code runs. DAST tries to attack the running application to determine if the application is vulnerable.</p>
-<h4>Container image scanning</h4>
-<p dir="ltr" role="presentation">Libraries and drivers (SQL, etc.) from the operating system bits in a container can be just as vulnerable to security issues as the code that developers write.</p>
-<p dir="ltr" role="presentation">Static container image scanners provide developers with a way to catch known vulnerabilities using policies that flag issues at build time. This method uses lists of known vulnerabilities as they are discovered by the community—for example, the <a target="_blank" href="https://cve.mitre.org/" rel="nofollow noopener noreferrer">Common Vulnerabilities and Exposures</a> (CVEs) list.</p>
-<p dir="ltr" role="presentation">Real-time container image scanners recognize that trust is temporal. Just because you trust that an image is secure when you launch it doesn’t mean you can trust it three months or a year later.</p>
-<p dir="ltr" role="presentation">Once you put an application in production, it may not be updated for months, which means that a container image rebuild might not happen, thereby introducing vulnerabilities to the application over time. Real-time image scanners can check the running images against known vulnerabilities.</p>
-<h4>Container layers</h4>
-<p dir="ltr" role="presentation">These can be used to separate concerns among subject-matter experts. Java experts know best how to configure a JVM for security and performance. PHP experts know best how to configure PHP-FPM for security and performance. The same is true with database experts, caching software experts, web server experts, and any programming language expert that relies on interpreters or virtual machines (Java).</p>
-<p dir="ltr" role="presentation">Separation of concerns allows each team to provide its expertise at the layer that it knows best. After all, no one person can be an expert in everything—especially when security people are typically vastly outnumbered by developers, site reliability engineers, and system administrators.</p>
-<h4>Linting</h4>
-<p dir="ltr" role="presentation">Linting can be leveraged to analyze source code for bad syntax, readability errors (yes, this can slow security researchers down), and suspicious constructs.</p>
-<h3>Don&#8217;t stop here</h3>
-<p dir="ltr">This list is just the tip of the iceberg. There are a number of other tools and best practices that you must put into place to ensure secure applications all along your code, build, and deploy pipeline.</p>
-<p dir="ltr">As you have likely experienced, it&#8217;s difficult to effectively integrate and apply one, let alone all, of these tools. And, of course, not doing so leads to more room for error. <a target="_blank" href="https://techbeacon.com/security/how-automation-can-boost-your-security-compliance" rel="noopener noreferrer">Security must be coupled with automation</a> to ensure that nothing falls through the cracks in this increasingly complex environment.</p>
-<p dir="ltr">Companies, therefore, need to be thinking about automating anything that can be automated through the use of tools such as Podman, Buildah, Ansible, Jenkins, and platforms that leverage Kubernetes orchestration.</p>
-<p dir="ltr">Learning and leveraging strategic automation, teams can focus more on creating great code and less on finding out whether there are bad apples lurking within it.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/how-build-app-sec-strategic-automation">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Researchers Sound Alarm Over Malicious AWS Community AMIs</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/researchers-sound-alarm-over-malicious-aws-community-amis/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2020 14:11:37 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Alarm]]></category>
-		<category><![CDATA[AMIs]]></category>
-		<category><![CDATA[AWS]]></category>
-		<category><![CDATA[community]]></category>
-		<category><![CDATA[Malicious]]></category>
-		<category><![CDATA[Researchers]]></category>
-		<category><![CDATA[Sound]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/researchers-sound-alarm-over-malicious-aws-community-amis/</guid>
-
-					<description><![CDATA[Malicious Community Amazon Machine Images are a ripe target for hackers, say researchers. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Malicious Community Amazon Machine Images are a ripe target for hackers, say researchers.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/malicious-aws-community-amis/158555/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>News Wrap: AWS Cryptojacking Worm, IBM Privacy Lawsuit and More</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/news-wrap-aws-cryptojacking-worm-ibm-privacy-lawsuit-and-more/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2020 14:04:13 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[AWS]]></category>
-		<category><![CDATA[Cryptojacking]]></category>
-		<category><![CDATA[IBM]]></category>
-		<category><![CDATA[Lawsuit]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Worm]]></category>
-		<category><![CDATA[Wrap]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/news-wrap-aws-cryptojacking-worm-ibm-privacy-lawsuit-and-more/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+					<description><![CDATA[The McAfee team is very proud to announce that once again McAfee was named a Gartner Peer Insights Customers’ Choice for]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/news-wrap-aws-cryptojacking-worm-ibm-privacy-lawsuit-and-more/158550/">Source link </a></p>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>The McAfee team is very proud to announce that once again McAfee was named a <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1314283" rel="noopener noreferrer">Gartner Peer Insights Customers’ Choice for SIEM </a>for its <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/enterprise-security-manager.html" rel="noopener noreferrer">McAfee Enterprise Security Manager (ESM) Solution</a>, a recognition of high satisfaction from a number of reviews by verified end-user professionals.</p>
+<p>We are most appreciative of our customers who support our solutions and share their opinions through forums like <strong>Gartner Peer Insights</strong>. The voice and passion of our customers is instrumental in shaping our success and motivates us each day to improve and innovate.</p>
+<p>To that end we have taken our SIEM product and made it deployable on-prem or in the cloud via ESM Cloud. By leveraging the power of cloud computing, the new <strong>McAfee ESM Cloud</strong> allows customers to accelerate time to value for security operations centers by removing operational barriers, providing automated deployment, 24/7 system health monitoring, regular software updates, and patches, thereby allowing teams to focus efforts on security tasks.</p>
+<p>Here are some quotes from customers that contributed to Gartner Peer Insights’ recognition of ESM:</p>
+<h3><em><strong>“Provides the features you need, in a simple easy to use, easy to understand display”</strong></em></h3>
+<p><em>“Integration and deployment was very easy, we integrated the McAfee Enterprise Security Manager (ESM), McAfee Event Receiver (ERC), and McAfee Enterprise Log Manager (ELM) in our lab in just a little under 4 hours… In under 4 hours we were collecting from a variety of MS Windows systems and a variety of Linux systems (RHEL, Ubuntu, and CENTOS). Other SIEM systems that we were evaluating took days to get running and then we still spent time on having to tune them.”</em></p>
+<p>Cybersecurity Architect, Government. <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1039104" rel="noopener noreferrer">Read full review here</a></p>
+<h3><em><strong>“A complete realistic security solution equipped with all major tools to secure structures.”</strong></em></h3>
+<p>“This security manager is the best choice out there… McAfee Manager is best in the ways that we can view and analyze all the major activities being performed in the company’s system and securities and how we can improve the overall security related concerns. It has all these pre-equipped features which facilitates the overall requirements for enterprises.</p>
+<p>Senior Consultant, Services Industry. <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1314283" rel="noopener noreferrer">Read full review here.</a></p>
+<p>To all our customers who submitted reviews, thank you! These reviews mold our products and our customer journey, and we look forward to building on the experience that earned us this distinction!</p>
+<ul>
+<li>Learn more about our award winning SIEM solution by visiting the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/enterprise-security-manager.html" rel="noopener noreferrer">ESM solutions page</a>.</li>
+<li>Read the SIEM reviews written by IT professionals that earned us this distinction by visiting Gartner Peer Insights’ <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1314283" rel="noopener noreferrer">SIEM page</a>.</li>
+</ul>
+<p>Gartner Peer Insights ‘Voice of the Customer’: Security Information and Event Management, 3 July 2020. Gartner Peer Insights Customers’ Choice constitute the subjective opinions of individual end-user reviews, ratings, and data applied against a documented methodology; they neither represent the views of, nor constitute an endorsement by, Gartner or its affiliates.</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/mcafee-esm-named-a-2020-gartner-peer-insights-customers-choice-for-siem/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Former Uber CSO Charged With Paying ‘Hush Money’ in 2016 Breach Cover-Up</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/</link>
+		<title>Safari Bug Revealed After Apple Takes Nearly a Year to Patch</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/safari-bug-revealed-after-apple-takes-nearly-a-year-to-patch/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2020 12:43:57 +0000</pubDate>
+		<pubDate>Tue, 25 Aug 2020 15:28:20 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Charged]]></category>
-		<category><![CDATA[CoverUp]]></category>
-		<category><![CDATA[CSO]]></category>
-		<category><![CDATA[Hush]]></category>
-		<category><![CDATA[Money]]></category>
-		<category><![CDATA[Paying]]></category>
-		<category><![CDATA[Uber]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/</guid>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Patch]]></category>
+		<category><![CDATA[Revealed]]></category>
+		<category><![CDATA[Safari]]></category>
+		<category><![CDATA[Takes]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/safari-bug-revealed-after-apple-takes-nearly-a-year-to-patch/</guid>
 
-					<description><![CDATA[Joseph Sullivan allegedly paid off $100K to the hackers responsible for a 2016 data breach, which exposed PII of 57]]></description>
+					<description><![CDATA[Polish security researcher unveiled the flaw in a cross-browser sharing API that could allow attackers to steal user files. Source]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Joseph Sullivan allegedly paid off $100K to the hackers responsible for a 2016 data breach, which exposed PII of 57 million passengers and drivers.<br />
+<br />Polish security researcher unveiled the flaw in a cross-browser sharing API that could allow attackers to steal user files.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/former-uber-cso-charged-with-paying-hush-money-in-2016-breach-cover-up/158540/">Source link </a></p>
+<br /><a href="https://threatpost.com/safari-bug-revealed-after-apple-takes-nearly-a-year-to-patch/158612/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[Webinar] Sign up for our Sep 8 webinar with Henrik Rexed from Neotys &#038; Anto&#8230;</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/webinar-sign-up-for-our-sep-8-webinar-with-henrik-rexed-from-neotys-anto/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2020 15:00:39 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[amp]]></category>
+		<category><![CDATA[Anto]]></category>
+		<category><![CDATA[Henrik]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Rexed]]></category>
+		<category><![CDATA[Sep]]></category>
+		<category><![CDATA[Sign]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/webinar-sign-up-for-our-sep-8-webinar-with-henrik-rexed-from-neotys-anto/</guid>
+
+					<description><![CDATA[[Webinar] Sign up for our Sep 8 webinar with Henrik Rexed from Neotys &#038; Antoine Aymer from Sogeti who will]]></description>
+										<content:encoded><![CDATA[
+<p>[Webinar] Sign up for our Sep 8 webinar with Henrik Rexed from Neotys &#038; Antoine Aymer from Sogeti who will present the Key Findings From The 2020 State of Performance Engineering Report <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F31s8rK9%3Ffbclid%3DIwAR3uQJsUA0XPxvXy9Nt_AUeU0ATFJfo0mvTKE7FKV5u3gOpHxAHwhBSq5nI&#038;h=AT08DEZKTDWEG-RjUu1_uAitW50rIyzVnutiJMikdfjnuKuTGJxOJOjcaNgO-opOyNMuTqSVZdqhxz-3ciHvSsqg6T480fJ5Oc4ZsIBWZpPdDtEPmGm3uOtINwAsPHjkvVAPyOUQyULkps8_fG8ZuOJoR1Facm9jmDTzIU-Iqq5lSjeZm_IDXO5mGCFmLhF1E1DaNHLT8hG24HbZzKliv_qjWa05ai_lrhPvSjB6vYWTEBy9H1Cq7NBg9BxNc2brH3HZP6NxEOckmXz4PF0BNAAccYSkhH3DfUvvYuEQPZ1aExENd9ojRkATua2d9UdRcoykN4woOe4XgarbxZxPIYoPPngT6GUoDIn_hhx0o5fsFmCrl3YLtPirdL42sa7PMbtdA8Xee_3Yaw8WN2cnlM0ZoFIQJFOaETeVGQJfyw3f67Ar18gYrZdBzE3IH7vc5bdHBFJwMbrPCdDBX5cWKyrPKFMXQ5I7Nq1s6YvxMSM16AY5xtPoa2_1nZidD6mJ0WcsUkddWrifl5rwzkDrgo6sLUF79VdlbDsuQsqMsgrzxSxM0ecIw8sLpYl5i7AeFIJYPJpxzwYfudHgNGM8Oxocg5XZuf2Gg-KGdRbsA9lRmJpPYUKfPdAhacMqS8tjI0WEaXzwlnVNOe80vGuSv8O1Qym4qQ9hnneE7kLJ_tr_gMZw1UmRUvAoA4Z3-jzXO8HNF-t4dbv-vWv2CN3wZU6YXvfRBMkM29NaC22Ps8cr6e6d__T7yixy0DCM5Tph9Rj_HEsKGpD7zZmwqSvbIrlDUFI3p-ann3s8ur2XkeV-IoMs8eBkb54CW0N2tPM8CzZ8nXM3CKyy8YbaN36Z21Lvcfs3jRLjPvTp0S4MqrOU5y5H5fU9_sTwT_PEy3MpYuF1wZ-MYf8j3cbqI7wGX6H9f_ENCfRCNnCW-QvDbqktQTLQYHEGX_WqT9xLi4xxTEtr3BuYoftrmdga9MCUtgxPg8G5oi7qIiP4HCqX0obZOebWeQEXZfIyun3YPd0TZ7COwkceWYjb295slALIYBW4T-KMSqifb59YYGcrQZ0-y8moD2CaL7cc-sfiU3xWal7mD4zYWojhqAOw0Lh1A13a6ZsC4zyZMuRXw6PWap2QCRQjV-PO3DZ7XdEnG9RpX_QUKmg4FWajwisG86f442Sj3ZrLHE4i16jCsJaL5-L5WlqjCfc6y4OIrYPf_v4dhefOgZPXJxoAbA" rel="noopener noreferrer">https://bit.ly/31s8rK9</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/perfmatters?refid=17&#038;_ft_=mf_story_key.3612537872090983%3Atop_level_post_id.3612537872090983%3Atl_objid.3612537872090983%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3612537872090983%3Apage_id.163354693676002%3Aphoto_id.3612536945424409%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598367639%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3612537872090983%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3612537872090983%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A85672831202102994&#038;__tn__=%2As-R" rel="noopener noreferrer">#perfmatters</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/performancetesting?refid=17&#038;_ft_=mf_story_key.3612537872090983%3Atop_level_post_id.3612537872090983%3Atl_objid.3612537872090983%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3612537872090983%3Apage_id.163354693676002%3Aphoto_id.3612536945424409%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598367639%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3612537872090983%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3612537872090983%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A85672831202102994&#038;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a>
+</p>
+<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/118419161_3612536948757742_4466739949487088208_o.png?_nc_cat=103&#038;_nc_sid=8024bb&#038;_nc_ohc=gxajFZgxHXgAX9U8pMI&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=300151275ce9c47ccfe619d9e7e03a0b&#038;oe=5F6B2949" rel="noopener noreferrer"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3612537872090983">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>15 AIOps resources for IT pros</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/15-aiops-resources-for-it-pros/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[AIOps]]></category>
+		<category><![CDATA[pros]]></category>
+		<category><![CDATA[resources]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/15-aiops-resources-for-it-pros/</guid>
+
+					<description><![CDATA[As IT operations professionals increasingly turn to artificial intelligence (AI) and machine learning to streamline how they maintain system reliability,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>As IT operations professionals increasingly turn to artificial intelligence (AI) and machine learning to streamline how they maintain system reliability, <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-essentials?lx=my3YKV&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">the field of AIOps</a> is starting to heat up as a skill specialization. AIOps helps to <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/ai-transform-itsm?lx=-rqtPA&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">automate the analysis of data streaming from IT monitoring tools</a> and <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/it-tools-practices?lx=-rqtPA&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">optimize the workflows in IT service management</a> (ITSM) areas such as inquiry management and self-service capabilities.</p>
+<p>For operations, ITSM, <a target="_blank" href="https://techbeacon.com/enterprise-it/5-ways-site-reliability-engineering-transforms-it-ops" rel="noopener noreferrer">site reliability engineering</a> (SRE), and AIOps engineering teams to get the most out of new <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-it-2020?lx=my3YKV&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">AIOps</a> capabilities, they are going to need to bolster their skills and processes to layer in best practices around new specializations such as data science and process design.</p>
+<p>While AIOps teams may need fewer Tier 1 incident responders on hand, they will need more data science gurus to curate data and train algorithms. They&#8217;ll need to team up with experienced troubleshooters and responders to help design workflows and runbooks, as well as to intervene with complex root-cause analysis. Additionally, teams will need thoughtful planners who can get the most out of AIOps to design resilient architectures that feature automated preventative maintenance and self-healing capabilities.</p>
+<p>To keep up, operations professionals should start now in developing the skills for an AIOps future. Because it is such a nascent field, there are no AIOps-specific professional organizations or major certifications yet. However, with a little bit of creative digging into resources geared at related subspecialties such as SRE, network automation, and application performance management, it&#8217;s possible to start looking for the contacts and learning necessary <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-tools-implementation?lx=my3YKV&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">to understand the AIOps tools and capabilities available today</a>, and build up AIOps skills and practices.</p>
+<p>Here are 15 great AIOps resources that IT Ops pros should know about.</p>
+<h3>AIOps-specific events</h3>
+<h4><a target="_blank" href="https://devopsinstitute.com/aiops-mlops-skilup-day/" rel="nofollow noopener noreferrer">SKILup Day: AIOps &#038; MLOps</a></h4>
+<p><strong>Date:</strong> October 15, 2020</p>
+<p><strong>Location:</strong> Virtual</p>
+<p><strong>Cost: </strong>Free</p>
+<p>Hosted by the DevOps Institute, this free, one-day virtual summit offers beginners in AIOps a chance to bone up on the brief history of the niche and hear about use cases and benefits of AIOps practices. The virtual event sports an online networking lounge to share ideas with fellow travelers, plus a resource library and relevant videos to come up to speed on AIOps.</p>
+<h4><a target="_blank" href="https://aiopsworkshop.github.io/index.html" rel="nofollow noopener noreferrer">AIOps 2020: International Workshop on Artificial Intelligence for IT Operations</a></h4>
+<p><strong>Date: </strong>December 14-17, 2020</p>
+<p><strong>Location:</strong> Dubai, United Arab Emirates</p>
+<p><strong>Research paper submission deadline: </strong>August 16, 2020</p>
+<p><strong>Cost: </strong>Collacated with <a target="_blank" href="http://www.icsoc.org/" rel="nofollow noopener noreferrer">ICSOC 2020</a>, which cost €150 to €850 in 2019</p>
+<p>Planned as a workshop event collocated with the International Conference on Service Oriented Computing (ISOC 2020), AIOps 2020 is an academic- and researcher-oriented event focused on the cutting-edge advances made in AIOps around areas such as self-healing, early anomaly, fault and failure (AFF) detection, and root-cause analysis techniques. </p>
+<h4><a target="_blank" href="https://www.aiops-exchange.org/2020-aiops-exchange/" rel="nofollow noopener noreferrer">AIOps Exchange</a></h4>
+<p><strong>Date: </strong>The<strong> </strong>website notes that the event was postponed due to the pandemic, but in mid-August, it still said that the hope was to convene in early summer.</p>
+<p><strong>Location: </strong>TBA</p>
+<p><strong>Cost: </strong>TBA</p>
+<p>2019 was the inaugural year for AIOps Exchange, which is a one-day forum event that features best practices advice from a handful of enterprise IT Ops professionals and heavily emphasizes the roundtable format for an intimate, interactive format for exchanging ideas on the newest techniques in refining SRE strategies using AIOPs, supporting DevSecOps, and developing the right culture within teams to effectively use AIOps technology. It is one of the few vendor-neutral AIOps-specific events currently out there, so keep checking for a solid date.</p>
+<h4><a target="_blank" href="https://www.aiopsexpo.com" rel="nofollow noopener noreferrer">AIOps Expo</a></h4>
+<p><strong>Date: </strong>February 9-12, 2021</p>
+<p><strong>Location:</strong> Miami Beach, Florida</p>
+<p><strong>Cost:</strong> $599 to $3,599</p>
+<p>AIOps Expo focuses on a range of areas relating to how AI and machine learning can be used for IT operations, including application performance, network performance, and security. The previous event featured an agenda that ran through in-depth discussions around topics such as AIOps maturity models, how to build teams for AIOps, and blending DevOps and AIOps. </p>
+<h3>Related Events</h3>
+<h4><a target="_blank" href="https://schedule.interop.com/sessions" rel="nofollow noopener noreferrer">Interop Digital</a></h4>
+<p><strong>Date: </strong>October 5-8, 2020</p>
+<p><strong>Location: </strong>Virtual</p>
+<p><strong>Cost: </strong>$499+</p>
+<p>Interop has gone to a completely virtual format for the fall, and there will be plenty of crossover into AIOps territory across the four days of its programming. Sessions and training are particularly strong in AIOps leadership content such as overcoming cultural hurdles to leverage AIOps and introductory sessions on how AI and automation will serve as the backbone of IT operations in the future.</p>
+<h4><a target="_blank" href="https://www.onug.net/onug-events/onug-fall-2020/" rel="nofollow noopener noreferrer">ONUG Fall 2020</a></h4>
+<p><strong>Date:</strong> October 14-15 2020</p>
+<p><strong>Locations: </strong>New York and online</p>
+<p><strong>Cost: </strong>Free to<strong> </strong>$199</p>
+<p>Started as the Open Networking User Group, ONUG has evolved into an enterprise leadership group focused on building out the digital enterprise through evolved practices in enterprise cloud, DevSecOps, and automation. The agenda for its fall conference fits right into the AIOps wheelhouse, with content planned around automating cloud governance, cloud-native DevOps, automating multi-cloud observability, as well as specific AIOps topics.</p>
+<h4><a target="_blank" href="https://www.usenix.org/conference/srecon20americas" rel="nofollow noopener noreferrer">SRECon20 Americas</a></h4>
+<p><strong>Cost: </strong>Free </p>
+<p><strong>Date: </strong>December 7-9, 2020</p>
+<p><strong>Location: </strong>Virtual</p>
+<p>A conference focused squarely on the site reliability engineers who are tasked with practicing AIOps, SRECon20 Americas hasn&#8217;t yet released its agenda but chances are high there will be lots of good research on the use of AI in IT. Last year the USENIX event featured many talks around automating management of cloud infrastructure, designing resilient data pipelines, using open AIOps tooling to improve observability, and many other topics of interest to AIOps professionals.</p>
+<h3>Training and Courses</h3>
+<h4><a target="_blank" href="https://www.itsmacademy.com/srefnd/" rel="nofollow noopener noreferrer">SRE Foundation</a></h4>
+<p><strong>Cost: </strong>$1,595</p>
+<p><strong>Date: </strong>The next class begins September 22, 2020.</p>
+<p><strong>Location: </strong>Online</p>
+<p>At many organizations today, site reliability engineers and AIOps engineers are one and the same, and it only follows that a certification in SRE fundamentals will offer the foundation upon which ops professionals can thrive with AIOps. With accreditation run by the DevOps Institute, the SRE Foundation class by the ITSM Academy is a four-day course that dives deep into the principles of SRE, including teaching and labs around achieving service-level objectives (SLOs), monitoring for service-level indicators (SLI), and the tools and automation techniques for maintaining system reliability.</p>
+<h4><a target="_blank" href="https://linuxacademy.com/course/ai-ops-essentials-autoscaling-kubernetes-with-prometheus-metrics/" rel="nofollow noopener noreferrer">AIOps Essentials</a></h4>
+<p><strong>Cost: </strong>Free with Linux Academy seven-day trial</p>
+<p><strong>Date: </strong>On demand</p>
+<p><strong>Location: </strong>Online</p>
+<p>Designed for IT Ops professionals charged with care and feeding of Kubernetes clusters, this class focuses squarely on bringing AIOps practices to <a target="_blank" href="https://content.microfocus.com/cloud-native-computing-tb/kubernetes-essential-cloud-native-computing?lx=R4i7m5&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">cloud-native environments</a> using the open-source Prometheus event monitoring and alerting platform. The goal is to get pros comfortable enough with the tooling to integrate Prometheus rules with Kubernetes APIServer to start scaling nodes and effectively managing a hybrid cloud through machine learning.</p>
+<h4><a target="_blank" href="https://www.deeplearning.ai/ai-for-everyone/" rel="nofollow noopener noreferrer">AI for Everyone</a></h4>
+<p><strong>Cost: </strong>$49 for 180 days of certificate eligibility</p>
+<p><strong>Date:</strong> Ongoing</p>
+<p><strong>Location: </strong>Online</p>
+<p>In order to start leveraging AI for IT, it would help to truly understand the basics on AI and how it&#8217;s being applied today. This is a relatively short (six hours) nontechnical course designed to provide executives and managers with a broad overview of AI use cases, applications, and techniques, as well as pointers on how to get started building AI projects and teams.</p>
+<h4><a target="_blank" href="https://www.coursera.org/learn/python-for-applied-data-science-ai" rel="nofollow noopener noreferrer">Python for Data Science and AI</a></h4>
+<p><strong>Cost:</strong> Free</p>
+<p><strong>Date:</strong> Ongoing</p>
+<p><strong>Location: </strong>Online</p>
+<p>IT Ops pros seeking to build out a foundation of learning for automation, data science, and AI would be well served to start brushing up on Python. This free beginner Coursera class will give students the fundamentals in Python basics, data structures, and programming fundamentals over the course of 22 hours of learning. It can be taken on its own or used as a part of a broader IBM Data Science Professional Certificate.</p>
+<h3>Books, research, and reports</h3>
+<h4><a target="_blank" href="https://www.amazon.com/Cognitive-Computing-Recipes-Artificial-Intelligence/dp/1484241053" rel="nofollow noopener noreferrer"><em>Cognitive Computing Recipes</em></a></h4>
+<p><strong>Cost:</strong> $19.24+</p>
+<p>While it isn&#8217;t specifically an AIOps book, <em>Cognitive Computing Recipes</em> offers a solid survey of the use of deep learning and machine learning for developers and IT pros and features an entire chapter on AIOps as a part of its catalog of real-world use cases. The chapter provides practical information on improving on key reliability metrics such as mean time to detect and mean time to repair through the use of AI.</p>
+<h4><a target="_blank" href="https://www.amazon.com/Practical-Network-Automation-Leverage-optimize-ebook/dp/B075CNDQ9B" rel="nofollow noopener noreferrer"><em>Practical Network Automation</em></a></h4>
+<p><strong>Cost:</strong> $19.79+</p>
+<p>A primer in the fundamentals of network automation, infrastructure as code, and analytics-driven IT ops, this tome provides practical advice in leveraging Python, Ansible, and other tooling to improve network performance, support DevOps practices, and apply continuous integration/continuous delivery principles. The book includes a chapter on the key pillars of AIOps, including information on collecting and managing data, and analyzing it using machine-learning principles.</p>
+<h4><a target="_blank" href="https://dl.acm.org/action/doSearch?AllField=aiops&#038;startPage=0&#038;target=default&#038;content=standard&#038;sortBy=" rel="nofollow noopener noreferrer">ACM Digital Library</a></h4>
+<p><strong>Cost:</strong> $5/article+</p>
+<p>The Association for Computing Machinery (ACM) has published some valuable research on AIOps and data-driven performance management in the last year. Among the highlights are broad looks at the latest research innovations in AIOps, as well as in-depth research into topics such as predicting node failures in ultra-large-scale cloud computing platforms, tools for automated log parsing, and the latest techniques in time-series anomaly detection.</p>
+<h4><a target="_blank" href="https://www.aiops-exchange.org/wp-content/uploads/2019/06/aiops-exchange-report.pdf" rel="nofollow noopener noreferrer">AIOps Exchange Report</a></h4>
+<p><strong>Cost: </strong>Free</p>
+<p>Last year&#8217;s inaugural AIOps Exchange event put together a survey and this report, which offers some interesting statistics on the drivers for AIOps adoption, the barriers to getting the most out of AI for IT and the value delivered by AIOps. It&#8217;s a quick read but provides some talking points for professionals and executives taking the first steps to exploring AIOps</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/15-aiops-resources-it-pros">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Lazarus Group Targets Cryptocurrency Firms Via LinkedIn Messages</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/lazarus-group-targets-cryptocurrency-firms-via-linkedin-messages/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2020 14:46:37 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Firms]]></category>
+		<category><![CDATA[Group]]></category>
+		<category><![CDATA[Lazarus]]></category>
+		<category><![CDATA[LinkedIn]]></category>
+		<category><![CDATA[Messages]]></category>
+		<category><![CDATA[Targets]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/lazarus-group-targets-cryptocurrency-firms-via-linkedin-messages/</guid>
+
+					<description><![CDATA[The North Korean-linked APT&#8217;s latest campaign shows that it is shifting focus to target the cryptocurrency and financial verticals. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The North Korean-linked APT&#8217;s latest campaign shows that it is shifting focus to target the cryptocurrency and financial verticals.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/lazarus-group-targets-cryptocurrency-firms-via-linkedin-messages/158614/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Shoring Up the 2020 Election: Secure Vote Tallies Aren’t the Problem</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shoring-up-the-2020-election-secure-vote-tallies-arent-the-problem/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2020 12:00:48 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Arent]]></category>
+		<category><![CDATA[Election]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[Shoring]]></category>
+		<category><![CDATA[Tallies]]></category>
+		<category><![CDATA[Vote]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shoring-up-the-2020-election-secure-vote-tallies-arent-the-problem/</guid>
+
+					<description><![CDATA[With many in the public sphere warning about a potential compromise of the integrity of the Presidential Election, security researchers]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />With many in the public sphere warning about a potential compromise of the integrity of the Presidential Election, security researchers instead flag online resources and influence campaigns as the biggest problem areas.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/2020-election-secure-vote-tallies-problem/158533/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Google Fixes High-Severity Chrome Browser Code Execution Bug</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 24 Aug 2020 21:31:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Execution]]></category>
+		<category><![CDATA[Fixes]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[HighSeverity]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</guid>
+
+					<description><![CDATA[The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/google-fixes-high-severity-chrome-browser-code-execution-bug/158600/">Source link </a></p>
 ]]></content:encoded>
 					
 		
