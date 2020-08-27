@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 26 Aug 2020 20:03:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 27 Aug 2020 11:14:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,33 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Revamped Qbot Trojan Packs New Punch: Hijacks Email Threads</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/revamped-qbot-trojan-packs-new-punch-hijacks-email-threads/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 27 Aug 2020 11:14:05 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Hijacks]]></category>
+		<category><![CDATA[Packs]]></category>
+		<category><![CDATA[Punch]]></category>
+		<category><![CDATA[Qbot]]></category>
+		<category><![CDATA[Revamped]]></category>
+		<category><![CDATA[Threads]]></category>
+		<category><![CDATA[Trojan]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/revamped-qbot-trojan-packs-new-punch-hijacks-email-threads/</guid>
+
+					<description><![CDATA[New version of trojan is spreading fast and already has claimed 100,000 victims globally, Check Point has discovered. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />New version of trojan is spreading fast and already has claimed 100,000 victims globally, Check Point has discovered.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/revamped-qbot-trojan-packs-new-punch-hijacks-email-threads/158715/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Cisco Patches ‘High-Severity’ Bugs Impacting Switches, Fibre Storage</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cisco-patches-high-severity-bugs-impacting-switches-fibre-storage/</link>
 		
@@ -387,82 +414,6 @@ fbq('track', "PageView");</p>
 <br />Researchers have unearthed more vulnerabilities in Microsoft’s IoT security solution.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/four-more-bugs-patched-in-microsofts-azure-sphere-iot-platform/158643/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What is GPS spoofing? &#124; McAfee Blogs</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-is-gps-spoofing-mcafee-blogs/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 21:32:51 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[GPS]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Spoofing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-is-gps-spoofing-mcafee-blogs/</guid>
-
-					<description><![CDATA[ What is GPS spoofing? Global positioning system (GPS) technology is now the standard way for travelers to efficiently get from]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h3> What is GPS spoofing?</h3>
-<p>Global positioning system (GPS) technology is now the standard way for travelers to efficiently get from point A to point B. While GPS delivers unparalleled opportunities to businesses and individuals, there are some drawbacks to using this technology. GPS devices can be vulnerable to cyber attacks through GPS spoofing.</p>
-<h3>GPS Spoofing 101</h3>
-<p>Global navigation satellite systems (GNSS) have been around for years in many industrialized countries, and GPS is just one of those systems.   GPS spoofing happens when someone uses a radio transmitter to send a counterfeit GPS signal to a receiver antenna to counter a legitimate GPS satellite signal. Most navigation systems are designed to use the strongest GPS signal, and the fake signal overrides the weaker but legitimate satellite signal.</p>
-<h3>Commercial Hazards of GPS Spoofing</h3>
-<p>GPS spoofing isn’t to be confused with GPS jamming. GPS jamming happens when a cyber criminal blocks GPS signals altogether. Selling or using GPS jamming equipment that can block communications is illegal in the United States. While GPS jamming appears to be the greater threat, GPS spoofing delivers a sucker punch to a variety of businesses.</p>
-<p>GPS spoofing allows hackers to interfere with navigation systems without operators realizing it. The fake GPS feeds cause drivers, ship captains, and other operators to go off course without any coercion. Businesses that are particularly vulnerable to GPS spoofing are shipping companies, taxi services, and construction companies.</p>
-<h3>Shipping Companies</h3>
-<p>Shipping companies that haul freight via land, air, and sea all use GPS-based navigation systems to get cargo safely to destinations all over the world. GPS spoofing leaves these shipments vulnerable to hijacking and theft. A practical example of this is where hijackers use GPS spoofing to misdirect a vehicle to a location where its cargo can be robbed—and hid the truck’s location while it’s happening. Additionally, many shippers use GPS-enabled locks to secure their cargo, allowing them to open only when the truck arrives at its set destination. GPS spoofing undoes those locks as well. In all, this puts drivers in danger, and trucking companies lose millions of dollars of cargo each year due to hijacking incidents such as these.</p>
-<h3>Taxi and Ride Sharing Services</h3>
-<p>Gone are the days when taxi drivers relied solely on their knowledge of a city’s streets to transport passengers. Today’s taxi drivers can go into any city that their license allows and do their jobs efficiently with the use of GPS technology. This flexibility comes with some drawbacks, however. GPS spoofing allows drivers to fake their location and commit criminal acts while still on the clock. Drivers from <a target="_blank" href="https://www.mcafee.com/blogs/consumer/uber-data-breach-consumers-need-know/?hilite=%27uber%27" rel="noopener noreferrer">ride services</a> can also use the technique to fraudulently place themselves in surge areas to get more money for their services. Projecting a false location is a financial risk to companies and is potentially dangerous for passengers.</p>
-<h3>Construction Companies</h3>
-<p>While skilled construction workers are certainly valued, specialized tools, equipment, and machinery are the assets that many construction companies seek to track. These expensive assets commonly go missing on worksites, which eats into company profits. In recent years, GPS asset tracking systems have been installed to make sure construction equipment, tools, and machinery remain at authorized worksites. By using GPS spoofing, a thief could move an asset to a new location without anyone knowing about it until it was too late.</p>
-<h3>Dangers of GPS Spoofing for Everyone Else</h3>
-<p>GPS spoofing isn’t just a threat to businesses and government agencies; it also can be the catalyst for significant harm to individuals who rely on GPS. Cruising waterways along the coasts is a favorite hobby for those who enjoy boating.. Modern boats are equipped with GPS-based navigation systems. A cyber criminal can use GPS spoofing to get a skipper to steer his boat off course and into the path of danger from modern-day pirates.</p>
-<p>The makers of location-based dating apps tout them as a safe way to meet a potential mate. These apps use GPS technology to help users identify dates by their location. When a bad actor uses GPS spoofing, he can fake his location or guide his date to a dangerous location.</p>
-<p>The future of driving is now. Some electric cars are already equipped with an autopilot feature that offers unparalleled convenience to travel-weary drivers. However, independent research findings have uncovered a critical vulnerability in the cars’ navigation systems.  What will happen when fully autonomous, self-driving cars are made without steering devices that would allow a person to take control of their car during a GPS spoofing incident?</p>
-<h3>Tips to Combat GPS Spoofing Attacks</h3>
-<p>If you own a business that relies on GPS-based navigation systems, you’ll want to know the best ways to sabotage GPS spoofing attacks. The Department of Homeland Security points out some physical and procedural techniques to fight the problem. It recommends that companies hide GPS antennas from public view. GPS spoofing works well when an attacker can get close to an antenna and override legitimate GPS signals that come from orbiting satellites.</p>
-<p>The agency suggests installing a decoy antenna that’s in plain view of would-be cyber criminals. Adding redundant antennas in different locations at your site allows you to notice if one antenna is being targeted for GPS spoofing. Companies such as Regulus Cyber are also developing GPS spoofing detection software that alerts users of spoofing incidents and keeps their devices from acting on spoofed GPS data.</p>
-<p>Additionally, organizations should consider taking GPS-enabled equipment offline whenever connectivity isn’t actively required—thus making them less susceptible to attack. Likewise, following the basics of security hygiene provide further protection, such as regular updates and changing of passwords, along with the use of two-factor authentication, network firewalls, and other cyber defenses.</p>
-<h3>GPS Spoofing for Privacy</h3>
-<p>While GPS spoofing can cause big problems for people, businesses, and governments, there is a legitimate use for the practice. GPS tracking and location sharing present everyone with real privacy issues. GPS spoofing allows users to hide their actual location from those who could cause harm. <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">Security</a> companies can use GPS spoofing to guard high-profile clients or expensive merchandise. Individuals can install GPS spoofing apps for free on their Android phones to mask their locations and protect their privacy.</p>
-<p> </p>
-<p> </p>
-<p><strong>References</strong><br />• https://en.wikipedia.org/wiki/GPS_signals<br />• https://medium.com/@theappninjas/what-are-gps-spoofing-apps-actually-doing-5c9f373540c4<br />• https://nordvpn.com/blog/gps-spoofing/<br />• https://play.google.com/store/apps/details?id=com.lexa.fakegps&#038;hl=en_US<br />• https://www.csoonline.com/article/3393462/what-is-gps-spoofing-and-how-you-can-defend-against-it.html<br />• https://www.digitaltrends.com/mobile/gps-spoofing/<br />• https://www.gps.gov/spectrum/jamming/<br />• https://www.thedrive.com/the-war-zone/31092/new-type-of-gps-spoofing-attack-in-china-creates-crop-circles-of-false-location-data<br />• https://maximumridesharingprofits.com/drivers-can-get-deactivated-using-fake-gps-apps/<br />• https://www.prnewswire.com/il/news-releases/tesla-model-s-and-model-3-prove-vulnerable-to-gps-spoofing-attacks-as-autopilot-navigation-steers-car-off-road-research-from-regulus-cyber-shows-300871146.html<br />• https://www.regulus.com/blog/gps-spoofing-the-auto-cybersecurity-threat-hiding-in-plain-sight/<br />• https://www.csoonline.com/article/3393462/what-is-gps-spoofing-and-how-you-can-defend-against-it.html<br />• https://www.defense.gov/Explore/Features/story/Article/1674004/what-on-earth-is-the-global-positioning-system/</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/what-is-gps-spoofing/">Source link </a></p>
 ]]></content:encoded>
 					
 		
