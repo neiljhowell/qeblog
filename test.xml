@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 26 Aug 2020 00:28:08 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 26 Aug 2020 20:03:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,271 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Cisco Patches ‘High-Severity’ Bugs Impacting Switches, Fibre Storage</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cisco-patches-high-severity-bugs-impacting-switches-fibre-storage/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 20:03:48 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Fibre]]></category>
+		<category><![CDATA[HighSeverity]]></category>
+		<category><![CDATA[Impacting]]></category>
+		<category><![CDATA[Patches]]></category>
+		<category><![CDATA[Storage]]></category>
+		<category><![CDATA[Switches]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cisco-patches-high-severity-bugs-impacting-switches-fibre-storage/</guid>
+
+					<description><![CDATA[Nine bugs were patched, eight of which are rated ‘high’ severity. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Nine bugs were patched, eight of which are rated ‘high’ severity.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cisco-high-severity-bugs-impact-switches-fibre-storage/158691/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Understand and Manage Pesky Persistent Threats</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/understand-and-manage-pesky-persistent-threats/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 16:35:02 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Manage]]></category>
+		<category><![CDATA[Persistent]]></category>
+		<category><![CDATA[Pesky]]></category>
+		<category><![CDATA[threats]]></category>
+		<category><![CDATA[Understand]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/understand-and-manage-pesky-persistent-threats/</guid>
+
+					<description><![CDATA[Ransomware Evolution to Most Promising Victim (MPV) Attacks Ransomware cost businesses over $11.5 B with a 500% increase in attacks]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2><strong>Ransomware Evolution to Most Promising Victim (MPV) Attacks</strong></h2>
+<p>Ransomware cost businesses over $11.5 B with a 500% increase in attacks in 2019 according to Forrester Research. It’s your persistent threat.   Ransomware is a type of malicious software that infects a computer and restricts users’ access to it and their data until a ransom is paid to unlock it. It significantly challenges CIA (confidentiality, integrity and availability) all in one swoop. To understand the current ransomware, it’s best to review its evolution of attack structures.</p>
+<p>Ransomware has been around for over 30 years, or three generations, ironically starting at a 1989 global health conference where an infected diskette was distributed to over 20,000 attendees.  As the internet evolved with access to more compute devices and online payment capabilities so did the attackers playing field.</p>
+<p>Early variants of ransomware merely locked individual computers, sometimes even without encryption, thus preventing single user access. However, this has now evolved to locking entire organizations down. Criminals got clever with social engineering by masquerading the ransomware as a law enforcement agency (perhaps the FBI) and making accusations that illegal files are on the system.</p>
+<p>With CryptoLocker in 2013, ransomware moved beyond scare tactics and became more aggressive and straightforward with demands of damaging systems by a certain timeframe. It seems 2014 is when ransomware took great strides forward. <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/advanced-threat-research/?hilite=%27ctb%27" rel="noopener noreferrer">CTB –Locker</a>, partly due to their business model, created hundreds of thousands of infections through phishing, making it the most dangerous ransomware family of 2016.</p>
+<p>But the ransomware that got the world’s attention was WannaCry.  Why?  It practically held the world hostage. It took only days to infect over a quarter million computers.  The ransomware worm targeted older versions of Windows. Once in a network on a device, it searched for more devices to exploit. Given this vast global reach, WannaCry received a massive amount of media attention. .   One could argue it was pivotal to bringing cybersecurity to the boardroom as noted by <a target="_blank" href="https://www.infosecurity-magazine.com/news/wannacry-cyber-security-boardroom/" rel="noopener noreferrer">research</a> , making cybersecurity a mainstream business concern.</p>
+<p>The most recent evolution— a business model called Ransomware-as-a-Service(RaaS)— worked for CTB locker and was taken to  another level  by <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/rapidly-evolving-ransomware-gandcrab-version-5-partners-with-crypter-service-for-obfuscation/?hilite=%27gandcrab%27" rel="noopener noreferrer">GandCrab</a>,  becoming the most prolific ransomware of 2018 and  Q1 2019.  This model lowers the bar and gives cyber criminals a platform to deliver ransomware thus commoditizing the business.</p>
+<p>Ransomware’s transformation over the years has been built on technology advances i.e.. Internet, mobile, crypto currency, etc. and a range and combination of malware tactics. Given the historical legacy of malware tactics, cybersecurity solutions should leverage this knowledge to hunt and investigate these artifacts and indicators of compromise.</p>
+<h2><strong>Today’s Ransomware</strong></h2>
+<p>So where are we today? Ransomware market has advanced with highly targeted tactics moving away from casting a wide net in the hopes some will engage. Threat actors now tailor the attack to target organizations with money, essential IP or sensitive critical data on their IT systems and organizations that are heavily depended on business continuity—as the most-promising victim (MPV).  Adversaries infiltrate first to scout the ransomware opportunity, and appear to be using the infected organizations to do reconnaissance and decide to as select the most-promising-victims for further exploitation and ransomware. In addition, they employ effective data deletion attack structures to prevent recovery.  A new threat of “pay or your data goes public” has emerged as well</p>
+<p>Could your organization be a target or MPV for sophisticated tailored ransomware? Watch <a target="_blank" href="https://www.youtube.com/watch?v=C8K8RWYY4mg" rel="noopener noreferrer">this video</a> on a recent example of MPV attack.</p>
+<h2><strong>Get Ahead of the Savvy Ransomware </strong></h2>
+<p>Ideally one does not want to be an MPV.  The best position to avoid becoming an MPV is to become proactive.  What if your cybersecurity could automatically prioritize these attacks based on industry, region and your security posture? What if you could get detailed information on how the attack works before you get hit? What if you had the ability to predict the likelihood of being an MPV? More importantly what if you were prescribed specific actions to take to counter these attacks before they hit.  Enter <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-insights.html" rel="noopener noreferrer">MVISION Insights</a> intelligently driving your endpoint security!</p>
+<h2><img loading="lazy" class="aligncenter size-large wp-image-105556" src="https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM-1024x613.png" alt="" width="1024" height="613" srcset="https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM-1024x613.png 1024w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM-300x180.png 300w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM-768x460.png 768w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM-1536x920.png 1536w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM-205x123.png 205w, https://www.mcafee.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-26-at-9.38.09-AM.png 1650w" sizes="(max-width: 1024px) 100vw, 1024px"/></h2>
+<h2><strong>Fruits of Human Interface and Artificial Intelligence </strong></h2>
+<p>The Advanced Threat Research (ATR) team is the human intelligence powered with artificial intelligence to bring these proactive insights to your attention.  As a researcher on the ATR team I am getting a wealth of ransomware and other advanced threats insights from our over one billion sensors.  McAfee’s footprint and community brings a hefty outlook on the threat landscape and real-life best practices on what to do.  A recent and worthy ransomware find is <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/take-a-netwalk-on-the-wild-side/?hilite=%27BTC%27" rel="noopener noreferrer">Netwalker and its variants</a>.  We perform a deep dive on Netwalker Ransomware.  We not only looked at the technical details of the ransomware itself but tracked a large portion of the criminal profits. Netwalker has gained some quick success by gathering more than 1900 BitCoins in one quarter! Literally picking out MPV’s one by one.</p>
+<p>MVISION Insights automates the findings to be delivered proactively to alert and advise you what threat matters to you.  Is there any other offering that brings the power of human intuition and machine learning at this grand level?  To explore what MVISION Insights offers, check out the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/lp/insights-dashboard.html" rel="noopener noreferrer">Preview of MVISION Insights</a>.  This is a web-based experience of a sampling of threats and proactive actionable intelligence that MVISION Insights automatically offers you.  Don’t miss out!</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/understand-and-manage-pesky-persistent-threats/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Hackers Exploit Autodesk Flaw in Recent Cyberespionage Attack</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/hackers-exploit-autodesk-flaw-in-recent-cyberespionage-attack/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 16:09:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Autodesk]]></category>
+		<category><![CDATA[Cyberespionage]]></category>
+		<category><![CDATA[Exploit]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[hackers]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/hackers-exploit-autodesk-flaw-in-recent-cyberespionage-attack/</guid>
+
+					<description><![CDATA[The popular Autodesk software was exploited in a recent cyberespionage campaign against an international architectural company. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The popular Autodesk software was exploited in a recent cyberespionage campaign against an international architectural company.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/hackers-exploit-autodesk-flaw-in-recent-cyberespionage-attack/158669/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Shift your DevOps into high gear: Key models to consider</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shift-your-devops-into-high-gear-key-models-to-consider/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[gear]]></category>
+		<category><![CDATA[high]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[Models]]></category>
+		<category><![CDATA[Shift]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shift-your-devops-into-high-gear-key-models-to-consider/</guid>
+
+					<description><![CDATA[Enterprise software development is a complex undertaking, and only companies that can respond to market changes by quickly delivering high-quality]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Enterprise software development is a complex undertaking, and only companies that can respond to market changes by quickly delivering high-quality software will dominate in the digital age.</p>
+<p>There is no silver bullet to achieve the level of business agility you&#8217;ll need. It <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/about-digital-transformation?lx=EGspVB&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172256" rel="noopener noreferrer">requires a transformation</a> from a traditional waterfall mindset and old ways of thinking to a lean-agile mindset, with its associated principles and practices.</p>
+<p>Scaling frameworks and DevOps approaches can provide the guidance you need to <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/transform-it-run-business?lx=EGspVB&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172256" rel="noopener noreferrer">transform your IT organization</a>—and the rest of the business. The Scaled Agile Framework (SAFe), the most popular scaling approach, spells out the seven core competencies you need to succeed in the digital age: organizational agility, lean portfolio management, enterprise solution delivery, agile product delivery, team and technical agility, continuous learning culture, and lean agile leadership. Still, success is not guaranteed, since it requires a careful implementation that’s best achieved with the help of a <a target="_blank" href="https://www.scaledagile.com/blog/what-is-an-spct-and-how-can-you-become-one" rel="nofollow noopener noreferrer">SAFe Program Consultant</a>.</p>
+<p>Leadership engagement, alignment, and systems thinking are my favorite success factors for a transformation. See my global SAFe Summit talk: <a target="_blank" href="https://vimeo.com/372961836" rel="nofollow noopener noreferrer">SAFe Transformations: We know how to do it but why do some fail? &#8230; and how can we correct the mistakes?</a></p>
+<p>Besides the common success factors mentioned above, the frameworks are continuously evolving. Practitioners are constantly feeding learnings and experiences from the field back into the frameworks.</p>
+<p>That’s what I did in my recent article, &#8220;<a target="_blank" href="https://www.scaledagileframework.com/accelerating-flow-with-devsecops-and-the-software-factory/" rel="nofollow noopener noreferrer">Accelerating Flow with DevSecOps and the Software Factory</a>,&#8221; which highlights the importance of shift-left approaches and how you can apply those to accelerate time-to-market, improve quality, and reduce costs. Large enterprises especially can benefit from <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/software-factory-devops?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">establishing a Software Factory</a>, an integrated set of tooling, services, data, and processes that helps teams to plan, develop, operate, and manage software and solutions. (SAFe defines &#8220;solutions&#8221; as <a target="_blank" href="https://www.scaledagileframework.com/solution/" rel="nofollow noopener noreferrer">products, services, or systems you deliver to your customers</a>.)</p>
+<p>Here are two helpful models, along with advice on how you can combine them with a Software Factory approach to <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">advance your DevOps implementations</a> and strengthen business agility.</p>
+<h3>The DevOps Evolution Model</h3>
+<p>As Peter Senge describes in his book <em>The Fifth Discipline</em>, teams and organizations need a shared mental model to generate a common understanding of a problem and to collaborate on finding a good solution. To that end, I created what I call the DevOps Evolution Model. That model was developed during my training classes as a way to explain how people can best progress in their DevOps journeys.</p>
+<p>This model can help you understand how to decrease lead time and reduce the length of the feedback cycle by shifting undone work to the left. (Undone work is additional work required to release a solution after the team is &#8220;done&#8221; with features and stories. Typical examples of undone work are any kind of testing, security checks and audits, documentation, open-source legal assessments, and compliance checks.)</p>
+<p>Shifting undone work left enables your team to provide faster feedback, which leads to more usable products and <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/slash-costs-software-defects?lx=HhQqWV&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00172440" rel="noopener noreferrer">faster defect fixes</a>. This in turn accelerates flow and increases quality. Reducing or eliminating undone work <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&#038;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">leads to more frequent releases </a>and improved responsiveness to requirements changes.</p>
+<p><em>Figure 1: The DevOps Evolution Model covers the four major stages in a DevOps journey and shows visually how your organization can progress from a less mature model to a more mature one (click to enlarge). Source: Peter Vollmer</em></p>
+<h3>The CI/CD pipeline model</h3>
+<p>The continuous integration/continuous delivery model evolved out of SAFe DevOps trainings and follow-up workshops I conducted. It has similarities to <a target="_blank" href="https://www.scaledagileframework.com/continuous-delivery-pipeline/" rel="nofollow noopener noreferrer">SAFe DevOps Pipeline mapping</a>, which models the end-to-end pipeline on a process level. The CI/CD pipeline modeling drills down on the detailed CI/CD pipeline and the associated build and integration process. In my experience, a lot of flow issues in complex enterprise setups are a direct result of having an immature CI/CD pipeline.</p>
+<p>To create the model, you bring all stakeholders together to draw your entire pipeline process (build, integration, deployment, etc.) as nodes and edges. Nodes represent the components, and edges describe the relationships between the components. While you might think that your teams already know their end-to-end pipeline and would find this whole effort useless, this has never been the case in my experience.</p>
+<p>The CI/CD pipeline model lets you see the big picture. In large solutions, no single person understands the end-to-end CI/CD process. By bringing the right people together, you can see the suboptimal results of local optimization and focus on highly effective end-to-end improvements.</p>
+<p>For example, teams often claim that they build and deploy several times a day when in fact they are building and deploying the same code or components over and over again.</p>
+<blockquote>
+<p>The key question for CI/CD improvements is not the number of pipeline runs but how long it takes from the time the team writes the code to when it arrives in staging or production. This is the most important question you should ask for each contributing component.</p>
+</blockquote>
+<p>Because it reduces lead time, CI/CD modeling boosts quality. Defective components can have a domino effect on the integrated final product, since the development of components that depend on defective ones get delayed. Worse yet, if your team discovers defects late in the development process, committed schedules can’t be met, or you may need to create shortcuts or workarounds to stay on schedule. That decreases quality and increases technical debt.</p>
+<p><em>Figure 2: Here is an example of CI/CD pipeline modeling for a large enterprise product with more than 100 million lines of code (click to enlarge). Each orange sticky tag represents a large component (node), while the blue arrows are the edges that describe the build, integration, and deployment steps. Pink stickies show the cycle times, lead times, and percentage complete and accurate (%C&#038;A). The green sticky is the final, deployed product on staging. Note that &#8220;LST&#8221; stands for &#8220;large solution train&#8221; and &#8220;ART&#8221; stands for &#8220;agile release train.&#8221; Source: Peter Vollmer</em></p>
+<h3>The enterprise advantage of a Software Factory approach</h3>
+<p>Large enterprises are often seen as dinosaurs that <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">don&#8217;t get DevOps</a>. They lose market share to newly emerging, small companies that have agile and DevOps in their DNA from the very beginning. But while it’s true that moving a large enterprise forward is challenging, with the help of SAFe, you can successfully transform. You’ll be able to create or change your development value streams with minimal effort because people will already share the same language and mindset, and they will be able to quickly adjust strategy in response to opportunities or threats.</p>
+<p>A Software Factory complements this ability by enabling teams to faster adjust the development setup to changing business needs and shorten ramp-up and onboarding times. In addition, it helps to reduce the cognitive load of your teams, and enables efficiency gains, fostering the shift left and shortening lead times.</p>
+<p>The complex tool chains typically required for building enterprise software often <a target="_blank" href="https://techbeacon.com/app-dev-testing/forget-monoliths-vs-microservices-cognitive-load-what-matters" rel="noopener noreferrer">result in cognitive overload</a> for the teams that use them. Think about required pipeline improvements and maintenance activities such as keeping up with latest tool and technology evolutions, as well as upgrades to build servers, operating systems, plugins, test automation tools, and so on. Add to that cognitive load release deadline pressure and the need to keep up with product and domain expertise as well as new features and bug fixes, and it’s no wonder that many CI/CD pipelines are unstable and unreliable.</p>
+<p>A “pipeline as a service” can solve these issues and boost productivity. Dedicated experts maintain and continuously improve services that multiple product teams can use, relieving development teams of that burden so that they can focus on their core responsibility of developing high quality products in short time frames.</p>
+<p>To attain a faster response to change in your development organization you need to standardize your development tools. This allows for better integrations between the tools and makes it easier for your development teams to work on other products, since they will be familiar with all of the tools and core processes other product groups are using. A standardized set of tools sets the stage for modern software development approaches such as shared code ownership and internal open source.</p>
+<p>Standardizing tools using a Software Factory approach can tremendously reduce licensing and maintenance costs, while also reducing the number of required integrations and synchronizations between tools.</p>
+<blockquote>
+<p>If you have a menagerie of tools, you probably have a lot of unreliable, half-functioning integrations and costly maintenance efforts. That means unnecessarily high total cost of ownership, busy people, and an unreliable flow of development data.</p>
+</blockquote>
+<p>But standardization requires a careful balance. My advice is to standardize as much as necessary while providing as much freedom as possible. Not all tools and processes are candidates for standardization. A Software Factory usually starts small and <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">incrementally evolves</a> based on adoption and user feedback. Figure 3 shows a proven Software Factory architecture with the core elements.</p>
+<p><em>Figure 3: This is Micro Focus’ Software Factory architecture/blueprint, which shows the major components and categories of a full-blown software factory (click to enlarge). Source: Yaniv Sayers and Peter Vollmer</em></p>
+<h3>How to get started</h3>
+<p>Mastering enterprise software and cyber-physical systems is a complex endeavor with no easy solution or silver bullet. The Scaled Agile Framework and some others can provide guidance and a strong foundation for your digital transformation journey.</p>
+<p>Advanced DevOps models, in combination with a Software Factory approach, enhance and complement these offerings so that your organization can thrive in the digital age. If you’re just starting your journey, get going in the right direction by talking to a SAFe Program Consultant Trainer (SPCT) or attend a <a target="_blank" href="https://www.scaledagile.com/certification/courses/leading-safe/" rel="nofollow noopener noreferrer">Leading SAFe class</a>.</p>
+<p><em>To learn more about this topic, I recommend these reads:</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/devops/shift-your-devops-high-gear-key-models-consider">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Disinformation Spurs a Thriving Industry as U.S. Election Looms</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/disinformation-spurs-a-thriving-industry-as-u-s-election-looms/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 14:50:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Disinformation]]></category>
+		<category><![CDATA[Election]]></category>
+		<category><![CDATA[industry]]></category>
+		<category><![CDATA[Looms]]></category>
+		<category><![CDATA[Spurs]]></category>
+		<category><![CDATA[Thriving]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/disinformation-spurs-a-thriving-industry-as-u-s-election-looms/</guid>
+
+					<description><![CDATA[Threat actors are becoming increasingly sophisticated in launching disinformation campaigns &#8211; and staying under the radar to avoid detection from]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Threat actors are becoming increasingly sophisticated in launching disinformation campaigns &#8211; and staying under the radar to avoid detection from Facebook, Twitter and other platforms.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/disinformation-spurs-a-thriving-industry-as-u-s-election-loom/158648/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Medical Data Leaked on GitHub Due to Developer Errors</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/medical-data-leaked-on-github-due-to-developer-errors/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 13:49:37 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Due]]></category>
+		<category><![CDATA[Errors]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[leaked]]></category>
+		<category><![CDATA[Medical]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/medical-data-leaked-on-github-due-to-developer-errors/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/medical-data-leaked-on-github-due-to-developer-errors/158653/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Write a Cybersecurity Playbook During a Pandemic</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-write-a-cybersecurity-playbook-during-a-pandemic/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2020 12:00:19 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Pandemic]]></category>
+		<category><![CDATA[Playbook]]></category>
+		<category><![CDATA[Write]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-write-a-cybersecurity-playbook-during-a-pandemic/</guid>
+
+					<description><![CDATA[IT teams have had to learn to be dynamic as workforces continue to shift strategies while COVID-19 drags on. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />IT teams have had to learn to be dynamic as workforces continue to shift strategies while COVID-19 drags on.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cybersecurity-playbook-during-pandemic/158538/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Ransomware Could Be the New Data Breach: 5 Tips to Stay Secure </title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ransomware-could-be-the-new-data-breach-5-tips-to-stay-secure/</link>
 		
@@ -198,315 +463,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/what-is-gps-spoofing/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>McAfee ESM Named a 2020 Gartner Peer Insights Customers’ Choice for SIEM</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-esm-named-a-2020-gartner-peer-insights-customers-choice-for-siem/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 21:30:07 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Choice]]></category>
-		<category><![CDATA[Customers]]></category>
-		<category><![CDATA[ESM]]></category>
-		<category><![CDATA[Gartner]]></category>
-		<category><![CDATA[Insights]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Named]]></category>
-		<category><![CDATA[Peer]]></category>
-		<category><![CDATA[SIEM]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-esm-named-a-2020-gartner-peer-insights-customers-choice-for-siem/</guid>
-
-					<description><![CDATA[The McAfee team is very proud to announce that once again McAfee was named a Gartner Peer Insights Customers’ Choice for]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>The McAfee team is very proud to announce that once again McAfee was named a <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1314283" rel="noopener noreferrer">Gartner Peer Insights Customers’ Choice for SIEM </a>for its <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/enterprise-security-manager.html" rel="noopener noreferrer">McAfee Enterprise Security Manager (ESM) Solution</a>, a recognition of high satisfaction from a number of reviews by verified end-user professionals.</p>
-<p>We are most appreciative of our customers who support our solutions and share their opinions through forums like <strong>Gartner Peer Insights</strong>. The voice and passion of our customers is instrumental in shaping our success and motivates us each day to improve and innovate.</p>
-<p>To that end we have taken our SIEM product and made it deployable on-prem or in the cloud via ESM Cloud. By leveraging the power of cloud computing, the new <strong>McAfee ESM Cloud</strong> allows customers to accelerate time to value for security operations centers by removing operational barriers, providing automated deployment, 24/7 system health monitoring, regular software updates, and patches, thereby allowing teams to focus efforts on security tasks.</p>
-<p>Here are some quotes from customers that contributed to Gartner Peer Insights’ recognition of ESM:</p>
-<h3><em><strong>“Provides the features you need, in a simple easy to use, easy to understand display”</strong></em></h3>
-<p><em>“Integration and deployment was very easy, we integrated the McAfee Enterprise Security Manager (ESM), McAfee Event Receiver (ERC), and McAfee Enterprise Log Manager (ELM) in our lab in just a little under 4 hours… In under 4 hours we were collecting from a variety of MS Windows systems and a variety of Linux systems (RHEL, Ubuntu, and CENTOS). Other SIEM systems that we were evaluating took days to get running and then we still spent time on having to tune them.”</em></p>
-<p>Cybersecurity Architect, Government. <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1039104" rel="noopener noreferrer">Read full review here</a></p>
-<h3><em><strong>“A complete realistic security solution equipped with all major tools to secure structures.”</strong></em></h3>
-<p>“This security manager is the best choice out there… McAfee Manager is best in the ways that we can view and analyze all the major activities being performed in the company’s system and securities and how we can improve the overall security related concerns. It has all these pre-equipped features which facilitates the overall requirements for enterprises.</p>
-<p>Senior Consultant, Services Industry. <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1314283" rel="noopener noreferrer">Read full review here.</a></p>
-<p>To all our customers who submitted reviews, thank you! These reviews mold our products and our customer journey, and we look forward to building on the experience that earned us this distinction!</p>
-<ul>
-<li>Learn more about our award winning SIEM solution by visiting the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/enterprise-security-manager.html" rel="noopener noreferrer">ESM solutions page</a>.</li>
-<li>Read the SIEM reviews written by IT professionals that earned us this distinction by visiting Gartner Peer Insights’ <a target="_blank" href="https://www.gartner.com/reviews/market/security-information-event-management/vendor/mcafee/product/mcafee-enterprise-security-manager/review/view/1314283" rel="noopener noreferrer">SIEM page</a>.</li>
-</ul>
-<p>Gartner Peer Insights ‘Voice of the Customer’: Security Information and Event Management, 3 July 2020. Gartner Peer Insights Customers’ Choice constitute the subjective opinions of individual end-user reviews, ratings, and data applied against a documented methodology; they neither represent the views of, nor constitute an endorsement by, Gartner or its affiliates.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/mcafee-esm-named-a-2020-gartner-peer-insights-customers-choice-for-siem/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Safari Bug Revealed After Apple Takes Nearly a Year to Patch</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/safari-bug-revealed-after-apple-takes-nearly-a-year-to-patch/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 15:28:20 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Patch]]></category>
-		<category><![CDATA[Revealed]]></category>
-		<category><![CDATA[Safari]]></category>
-		<category><![CDATA[Takes]]></category>
-		<category><![CDATA[Year]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/safari-bug-revealed-after-apple-takes-nearly-a-year-to-patch/</guid>
-
-					<description><![CDATA[Polish security researcher unveiled the flaw in a cross-browser sharing API that could allow attackers to steal user files. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Polish security researcher unveiled the flaw in a cross-browser sharing API that could allow attackers to steal user files.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/safari-bug-revealed-after-apple-takes-nearly-a-year-to-patch/158612/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>[Webinar] Sign up for our Sep 8 webinar with Henrik Rexed from Neotys &#038; Anto&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/webinar-sign-up-for-our-sep-8-webinar-with-henrik-rexed-from-neotys-anto/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 15:00:39 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[amp]]></category>
-		<category><![CDATA[Anto]]></category>
-		<category><![CDATA[Henrik]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Rexed]]></category>
-		<category><![CDATA[Sep]]></category>
-		<category><![CDATA[Sign]]></category>
-		<category><![CDATA[Webinar]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/webinar-sign-up-for-our-sep-8-webinar-with-henrik-rexed-from-neotys-anto/</guid>
-
-					<description><![CDATA[[Webinar] Sign up for our Sep 8 webinar with Henrik Rexed from Neotys &#038; Antoine Aymer from Sogeti who will]]></description>
-										<content:encoded><![CDATA[
-<p>[Webinar] Sign up for our Sep 8 webinar with Henrik Rexed from Neotys &#038; Antoine Aymer from Sogeti who will present the Key Findings From The 2020 State of Performance Engineering Report <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F31s8rK9%3Ffbclid%3DIwAR3uQJsUA0XPxvXy9Nt_AUeU0ATFJfo0mvTKE7FKV5u3gOpHxAHwhBSq5nI&#038;h=AT08DEZKTDWEG-RjUu1_uAitW50rIyzVnutiJMikdfjnuKuTGJxOJOjcaNgO-opOyNMuTqSVZdqhxz-3ciHvSsqg6T480fJ5Oc4ZsIBWZpPdDtEPmGm3uOtINwAsPHjkvVAPyOUQyULkps8_fG8ZuOJoR1Facm9jmDTzIU-Iqq5lSjeZm_IDXO5mGCFmLhF1E1DaNHLT8hG24HbZzKliv_qjWa05ai_lrhPvSjB6vYWTEBy9H1Cq7NBg9BxNc2brH3HZP6NxEOckmXz4PF0BNAAccYSkhH3DfUvvYuEQPZ1aExENd9ojRkATua2d9UdRcoykN4woOe4XgarbxZxPIYoPPngT6GUoDIn_hhx0o5fsFmCrl3YLtPirdL42sa7PMbtdA8Xee_3Yaw8WN2cnlM0ZoFIQJFOaETeVGQJfyw3f67Ar18gYrZdBzE3IH7vc5bdHBFJwMbrPCdDBX5cWKyrPKFMXQ5I7Nq1s6YvxMSM16AY5xtPoa2_1nZidD6mJ0WcsUkddWrifl5rwzkDrgo6sLUF79VdlbDsuQsqMsgrzxSxM0ecIw8sLpYl5i7AeFIJYPJpxzwYfudHgNGM8Oxocg5XZuf2Gg-KGdRbsA9lRmJpPYUKfPdAhacMqS8tjI0WEaXzwlnVNOe80vGuSv8O1Qym4qQ9hnneE7kLJ_tr_gMZw1UmRUvAoA4Z3-jzXO8HNF-t4dbv-vWv2CN3wZU6YXvfRBMkM29NaC22Ps8cr6e6d__T7yixy0DCM5Tph9Rj_HEsKGpD7zZmwqSvbIrlDUFI3p-ann3s8ur2XkeV-IoMs8eBkb54CW0N2tPM8CzZ8nXM3CKyy8YbaN36Z21Lvcfs3jRLjPvTp0S4MqrOU5y5H5fU9_sTwT_PEy3MpYuF1wZ-MYf8j3cbqI7wGX6H9f_ENCfRCNnCW-QvDbqktQTLQYHEGX_WqT9xLi4xxTEtr3BuYoftrmdga9MCUtgxPg8G5oi7qIiP4HCqX0obZOebWeQEXZfIyun3YPd0TZ7COwkceWYjb295slALIYBW4T-KMSqifb59YYGcrQZ0-y8moD2CaL7cc-sfiU3xWal7mD4zYWojhqAOw0Lh1A13a6ZsC4zyZMuRXw6PWap2QCRQjV-PO3DZ7XdEnG9RpX_QUKmg4FWajwisG86f442Sj3ZrLHE4i16jCsJaL5-L5WlqjCfc6y4OIrYPf_v4dhefOgZPXJxoAbA" rel="noopener noreferrer">https://bit.ly/31s8rK9</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/perfmatters?refid=17&#038;_ft_=mf_story_key.3612537872090983%3Atop_level_post_id.3612537872090983%3Atl_objid.3612537872090983%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3612537872090983%3Apage_id.163354693676002%3Aphoto_id.3612536945424409%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598367639%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3612537872090983%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3612537872090983%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A85672831202102994&#038;__tn__=%2As-R" rel="noopener noreferrer">#perfmatters</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/performancetesting?refid=17&#038;_ft_=mf_story_key.3612537872090983%3Atop_level_post_id.3612537872090983%3Atl_objid.3612537872090983%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3612537872090983%3Apage_id.163354693676002%3Aphoto_id.3612536945424409%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598367639%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3612537872090983%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3612537872090983%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A85672831202102994&#038;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/118419161_3612536948757742_4466739949487088208_o.png?_nc_cat=103&#038;_nc_sid=8024bb&#038;_nc_ohc=gxajFZgxHXgAX9U8pMI&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=300151275ce9c47ccfe619d9e7e03a0b&#038;oe=5F6B2949" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3612537872090983">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>15 AIOps resources for IT pros</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/15-aiops-resources-for-it-pros/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[AIOps]]></category>
-		<category><![CDATA[pros]]></category>
-		<category><![CDATA[resources]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/15-aiops-resources-for-it-pros/</guid>
-
-					<description><![CDATA[As IT operations professionals increasingly turn to artificial intelligence (AI) and machine learning to streamline how they maintain system reliability,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>As IT operations professionals increasingly turn to artificial intelligence (AI) and machine learning to streamline how they maintain system reliability, <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-essentials?lx=my3YKV&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">the field of AIOps</a> is starting to heat up as a skill specialization. AIOps helps to <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/ai-transform-itsm?lx=-rqtPA&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">automate the analysis of data streaming from IT monitoring tools</a> and <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/it-tools-practices?lx=-rqtPA&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">optimize the workflows in IT service management</a> (ITSM) areas such as inquiry management and self-service capabilities.</p>
-<p>For operations, ITSM, <a target="_blank" href="https://techbeacon.com/enterprise-it/5-ways-site-reliability-engineering-transforms-it-ops" rel="noopener noreferrer">site reliability engineering</a> (SRE), and AIOps engineering teams to get the most out of new <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-it-2020?lx=my3YKV&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">AIOps</a> capabilities, they are going to need to bolster their skills and processes to layer in best practices around new specializations such as data science and process design.</p>
-<p>While AIOps teams may need fewer Tier 1 incident responders on hand, they will need more data science gurus to curate data and train algorithms. They&#8217;ll need to team up with experienced troubleshooters and responders to help design workflows and runbooks, as well as to intervene with complex root-cause analysis. Additionally, teams will need thoughtful planners who can get the most out of AIOps to design resilient architectures that feature automated preventative maintenance and self-healing capabilities.</p>
-<p>To keep up, operations professionals should start now in developing the skills for an AIOps future. Because it is such a nascent field, there are no AIOps-specific professional organizations or major certifications yet. However, with a little bit of creative digging into resources geared at related subspecialties such as SRE, network automation, and application performance management, it&#8217;s possible to start looking for the contacts and learning necessary <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-tools-implementation?lx=my3YKV&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">to understand the AIOps tools and capabilities available today</a>, and build up AIOps skills and practices.</p>
-<p>Here are 15 great AIOps resources that IT Ops pros should know about.</p>
-<h3>AIOps-specific events</h3>
-<h4><a target="_blank" href="https://devopsinstitute.com/aiops-mlops-skilup-day/" rel="nofollow noopener noreferrer">SKILup Day: AIOps &#038; MLOps</a></h4>
-<p><strong>Date:</strong> October 15, 2020</p>
-<p><strong>Location:</strong> Virtual</p>
-<p><strong>Cost: </strong>Free</p>
-<p>Hosted by the DevOps Institute, this free, one-day virtual summit offers beginners in AIOps a chance to bone up on the brief history of the niche and hear about use cases and benefits of AIOps practices. The virtual event sports an online networking lounge to share ideas with fellow travelers, plus a resource library and relevant videos to come up to speed on AIOps.</p>
-<h4><a target="_blank" href="https://aiopsworkshop.github.io/index.html" rel="nofollow noopener noreferrer">AIOps 2020: International Workshop on Artificial Intelligence for IT Operations</a></h4>
-<p><strong>Date: </strong>December 14-17, 2020</p>
-<p><strong>Location:</strong> Dubai, United Arab Emirates</p>
-<p><strong>Research paper submission deadline: </strong>August 16, 2020</p>
-<p><strong>Cost: </strong>Collacated with <a target="_blank" href="http://www.icsoc.org/" rel="nofollow noopener noreferrer">ICSOC 2020</a>, which cost €150 to €850 in 2019</p>
-<p>Planned as a workshop event collocated with the International Conference on Service Oriented Computing (ISOC 2020), AIOps 2020 is an academic- and researcher-oriented event focused on the cutting-edge advances made in AIOps around areas such as self-healing, early anomaly, fault and failure (AFF) detection, and root-cause analysis techniques. </p>
-<h4><a target="_blank" href="https://www.aiops-exchange.org/2020-aiops-exchange/" rel="nofollow noopener noreferrer">AIOps Exchange</a></h4>
-<p><strong>Date: </strong>The<strong> </strong>website notes that the event was postponed due to the pandemic, but in mid-August, it still said that the hope was to convene in early summer.</p>
-<p><strong>Location: </strong>TBA</p>
-<p><strong>Cost: </strong>TBA</p>
-<p>2019 was the inaugural year for AIOps Exchange, which is a one-day forum event that features best practices advice from a handful of enterprise IT Ops professionals and heavily emphasizes the roundtable format for an intimate, interactive format for exchanging ideas on the newest techniques in refining SRE strategies using AIOPs, supporting DevSecOps, and developing the right culture within teams to effectively use AIOps technology. It is one of the few vendor-neutral AIOps-specific events currently out there, so keep checking for a solid date.</p>
-<h4><a target="_blank" href="https://www.aiopsexpo.com" rel="nofollow noopener noreferrer">AIOps Expo</a></h4>
-<p><strong>Date: </strong>February 9-12, 2021</p>
-<p><strong>Location:</strong> Miami Beach, Florida</p>
-<p><strong>Cost:</strong> $599 to $3,599</p>
-<p>AIOps Expo focuses on a range of areas relating to how AI and machine learning can be used for IT operations, including application performance, network performance, and security. The previous event featured an agenda that ran through in-depth discussions around topics such as AIOps maturity models, how to build teams for AIOps, and blending DevOps and AIOps. </p>
-<h3>Related Events</h3>
-<h4><a target="_blank" href="https://schedule.interop.com/sessions" rel="nofollow noopener noreferrer">Interop Digital</a></h4>
-<p><strong>Date: </strong>October 5-8, 2020</p>
-<p><strong>Location: </strong>Virtual</p>
-<p><strong>Cost: </strong>$499+</p>
-<p>Interop has gone to a completely virtual format for the fall, and there will be plenty of crossover into AIOps territory across the four days of its programming. Sessions and training are particularly strong in AIOps leadership content such as overcoming cultural hurdles to leverage AIOps and introductory sessions on how AI and automation will serve as the backbone of IT operations in the future.</p>
-<h4><a target="_blank" href="https://www.onug.net/onug-events/onug-fall-2020/" rel="nofollow noopener noreferrer">ONUG Fall 2020</a></h4>
-<p><strong>Date:</strong> October 14-15 2020</p>
-<p><strong>Locations: </strong>New York and online</p>
-<p><strong>Cost: </strong>Free to<strong> </strong>$199</p>
-<p>Started as the Open Networking User Group, ONUG has evolved into an enterprise leadership group focused on building out the digital enterprise through evolved practices in enterprise cloud, DevSecOps, and automation. The agenda for its fall conference fits right into the AIOps wheelhouse, with content planned around automating cloud governance, cloud-native DevOps, automating multi-cloud observability, as well as specific AIOps topics.</p>
-<h4><a target="_blank" href="https://www.usenix.org/conference/srecon20americas" rel="nofollow noopener noreferrer">SRECon20 Americas</a></h4>
-<p><strong>Cost: </strong>Free </p>
-<p><strong>Date: </strong>December 7-9, 2020</p>
-<p><strong>Location: </strong>Virtual</p>
-<p>A conference focused squarely on the site reliability engineers who are tasked with practicing AIOps, SRECon20 Americas hasn&#8217;t yet released its agenda but chances are high there will be lots of good research on the use of AI in IT. Last year the USENIX event featured many talks around automating management of cloud infrastructure, designing resilient data pipelines, using open AIOps tooling to improve observability, and many other topics of interest to AIOps professionals.</p>
-<h3>Training and Courses</h3>
-<h4><a target="_blank" href="https://www.itsmacademy.com/srefnd/" rel="nofollow noopener noreferrer">SRE Foundation</a></h4>
-<p><strong>Cost: </strong>$1,595</p>
-<p><strong>Date: </strong>The next class begins September 22, 2020.</p>
-<p><strong>Location: </strong>Online</p>
-<p>At many organizations today, site reliability engineers and AIOps engineers are one and the same, and it only follows that a certification in SRE fundamentals will offer the foundation upon which ops professionals can thrive with AIOps. With accreditation run by the DevOps Institute, the SRE Foundation class by the ITSM Academy is a four-day course that dives deep into the principles of SRE, including teaching and labs around achieving service-level objectives (SLOs), monitoring for service-level indicators (SLI), and the tools and automation techniques for maintaining system reliability.</p>
-<h4><a target="_blank" href="https://linuxacademy.com/course/ai-ops-essentials-autoscaling-kubernetes-with-prometheus-metrics/" rel="nofollow noopener noreferrer">AIOps Essentials</a></h4>
-<p><strong>Cost: </strong>Free with Linux Academy seven-day trial</p>
-<p><strong>Date: </strong>On demand</p>
-<p><strong>Location: </strong>Online</p>
-<p>Designed for IT Ops professionals charged with care and feeding of Kubernetes clusters, this class focuses squarely on bringing AIOps practices to <a target="_blank" href="https://content.microfocus.com/cloud-native-computing-tb/kubernetes-essential-cloud-native-computing?lx=R4i7m5&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">cloud-native environments</a> using the open-source Prometheus event monitoring and alerting platform. The goal is to get pros comfortable enough with the tooling to integrate Prometheus rules with Kubernetes APIServer to start scaling nodes and effectively managing a hybrid cloud through machine learning.</p>
-<h4><a target="_blank" href="https://www.deeplearning.ai/ai-for-everyone/" rel="nofollow noopener noreferrer">AI for Everyone</a></h4>
-<p><strong>Cost: </strong>$49 for 180 days of certificate eligibility</p>
-<p><strong>Date:</strong> Ongoing</p>
-<p><strong>Location: </strong>Online</p>
-<p>In order to start leveraging AI for IT, it would help to truly understand the basics on AI and how it&#8217;s being applied today. This is a relatively short (six hours) nontechnical course designed to provide executives and managers with a broad overview of AI use cases, applications, and techniques, as well as pointers on how to get started building AI projects and teams.</p>
-<h4><a target="_blank" href="https://www.coursera.org/learn/python-for-applied-data-science-ai" rel="nofollow noopener noreferrer">Python for Data Science and AI</a></h4>
-<p><strong>Cost:</strong> Free</p>
-<p><strong>Date:</strong> Ongoing</p>
-<p><strong>Location: </strong>Online</p>
-<p>IT Ops pros seeking to build out a foundation of learning for automation, data science, and AI would be well served to start brushing up on Python. This free beginner Coursera class will give students the fundamentals in Python basics, data structures, and programming fundamentals over the course of 22 hours of learning. It can be taken on its own or used as a part of a broader IBM Data Science Professional Certificate.</p>
-<h3>Books, research, and reports</h3>
-<h4><a target="_blank" href="https://www.amazon.com/Cognitive-Computing-Recipes-Artificial-Intelligence/dp/1484241053" rel="nofollow noopener noreferrer"><em>Cognitive Computing Recipes</em></a></h4>
-<p><strong>Cost:</strong> $19.24+</p>
-<p>While it isn&#8217;t specifically an AIOps book, <em>Cognitive Computing Recipes</em> offers a solid survey of the use of deep learning and machine learning for developers and IT pros and features an entire chapter on AIOps as a part of its catalog of real-world use cases. The chapter provides practical information on improving on key reliability metrics such as mean time to detect and mean time to repair through the use of AI.</p>
-<h4><a target="_blank" href="https://www.amazon.com/Practical-Network-Automation-Leverage-optimize-ebook/dp/B075CNDQ9B" rel="nofollow noopener noreferrer"><em>Practical Network Automation</em></a></h4>
-<p><strong>Cost:</strong> $19.79+</p>
-<p>A primer in the fundamentals of network automation, infrastructure as code, and analytics-driven IT ops, this tome provides practical advice in leveraging Python, Ansible, and other tooling to improve network performance, support DevOps practices, and apply continuous integration/continuous delivery principles. The book includes a chapter on the key pillars of AIOps, including information on collecting and managing data, and analyzing it using machine-learning principles.</p>
-<h4><a target="_blank" href="https://dl.acm.org/action/doSearch?AllField=aiops&#038;startPage=0&#038;target=default&#038;content=standard&#038;sortBy=" rel="nofollow noopener noreferrer">ACM Digital Library</a></h4>
-<p><strong>Cost:</strong> $5/article+</p>
-<p>The Association for Computing Machinery (ACM) has published some valuable research on AIOps and data-driven performance management in the last year. Among the highlights are broad looks at the latest research innovations in AIOps, as well as in-depth research into topics such as predicting node failures in ultra-large-scale cloud computing platforms, tools for automated log parsing, and the latest techniques in time-series anomaly detection.</p>
-<h4><a target="_blank" href="https://www.aiops-exchange.org/wp-content/uploads/2019/06/aiops-exchange-report.pdf" rel="nofollow noopener noreferrer">AIOps Exchange Report</a></h4>
-<p><strong>Cost: </strong>Free</p>
-<p>Last year&#8217;s inaugural AIOps Exchange event put together a survey and this report, which offers some interesting statistics on the drivers for AIOps adoption, the barriers to getting the most out of AI for IT and the value delivered by AIOps. It&#8217;s a quick read but provides some talking points for professionals and executives taking the first steps to exploring AIOps</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/15-aiops-resources-it-pros">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Lazarus Group Targets Cryptocurrency Firms Via LinkedIn Messages</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/lazarus-group-targets-cryptocurrency-firms-via-linkedin-messages/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 14:46:37 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Firms]]></category>
-		<category><![CDATA[Group]]></category>
-		<category><![CDATA[Lazarus]]></category>
-		<category><![CDATA[LinkedIn]]></category>
-		<category><![CDATA[Messages]]></category>
-		<category><![CDATA[Targets]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/lazarus-group-targets-cryptocurrency-firms-via-linkedin-messages/</guid>
-
-					<description><![CDATA[The North Korean-linked APT&#8217;s latest campaign shows that it is shifting focus to target the cryptocurrency and financial verticals. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The North Korean-linked APT&#8217;s latest campaign shows that it is shifting focus to target the cryptocurrency and financial verticals.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/lazarus-group-targets-cryptocurrency-firms-via-linkedin-messages/158614/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Shoring Up the 2020 Election: Secure Vote Tallies Aren’t the Problem</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shoring-up-the-2020-election-secure-vote-tallies-arent-the-problem/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 25 Aug 2020 12:00:48 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Arent]]></category>
-		<category><![CDATA[Election]]></category>
-		<category><![CDATA[problem]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[Shoring]]></category>
-		<category><![CDATA[Tallies]]></category>
-		<category><![CDATA[Vote]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shoring-up-the-2020-election-secure-vote-tallies-arent-the-problem/</guid>
-
-					<description><![CDATA[With many in the public sphere warning about a potential compromise of the integrity of the Presidential Election, security researchers]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />With many in the public sphere warning about a potential compromise of the integrity of the Presidential Election, security researchers instead flag online resources and influence campaigns as the biggest problem areas.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/2020-election-secure-vote-tallies-problem/158533/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Google Fixes High-Severity Chrome Browser Code Execution Bug</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2020 21:31:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Code]]></category>
-		<category><![CDATA[Execution]]></category>
-		<category><![CDATA[Fixes]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[HighSeverity]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-fixes-high-severity-chrome-browser-code-execution-bug/</guid>
-
-					<description><![CDATA[The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The high-severity flaw, which was patched in the latest version of Google&#8217;s Chrome browser, could allow code execution.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-fixes-high-severity-chrome-browser-code-execution-bug/158600/">Source link </a></p>
 ]]></content:encoded>
 					
 		
