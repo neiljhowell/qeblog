@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 27 Aug 2020 14:00:32 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 30 Aug 2020 20:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,174 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Buyer&#8217;s guide to enterprise service management products: Top 5 technology and market trends [GATED/Module 3]</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products-top-5-technology-and-market-trends-gated-module-3/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sun, 30 Aug 2020 20:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Buyers]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[GATEDModule]]></category>
+		<category><![CDATA[Guide]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[Market]]></category>
+		<category><![CDATA[products]]></category>
+		<category><![CDATA[Service]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Top]]></category>
+		<category><![CDATA[Trends]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2633</guid>
+
+					<description><![CDATA[When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as how it aligns with your plans. The vendor landscape has solidified, and the market is competing vigorously for your business.</p>
+<p>Here are the top five technology and market trends in Enterprise Service Management (ESM), and recommendations from experts on how to make smart buying decisions and equip your teams with the skills they&#8217;ll need in the future. </p>
+<p><em>[ <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. Plus: Get IDC&#8217;s &#8220;<a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-idc?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Digital Transformation 2020 Top 10 Predictions</a>&#8221; ]</em></p>
+<h3>1. AI, automation, and machine learning technologies are advancing rapidly</h3>
+<p>Artificial intelligence (AI) has been around for 50 years, but actual business adoption is fairly new. <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/ai-transform-it-service-management?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">ESM vendors have been adding elements of AI</a>, automation, and machine learning to their offerings. &#8220;AI plus automation is a logical equation,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/dennisdrogseth/" rel="nofollow noopener noreferrer">Dennis Drogseth</a>, vice president of Enterprise Management Associates (EMA). &#8220;AI gives you insight, and automation gives you action. Action without insight equals train wrecks. Insight without action doesn’t help you very much.&#8221;</p>
+<p>As much as people would like to embrace the benefits of AI and automation, the fierce competition and pace of development in this area can be paralyzing. While there are many different kinds of AI and automation, it will eventually come together as &#8220;a new landscape, not a single direction,&#8221; Drogseth said.</p>
+<p>It&#8217;s important to get started now, even though the landscape is still developing. &#8220;I tell my clients, the sooner you jump in the pool and start swimming, the sooner you&#8217;ll be able to take advantage of it,&#8221; said <a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a>, principal of Tedder Consulting. Your team will gain experience, your organization will start to reap benefits, and you will be ready to use the innovations when they hit the street.</p>
+<h3>2. AIOps is bringing service management under a single pane of glass</h3>
+<p><a target="_blank" href="https://techbeacon.com/enterprise-it/top-10-predictions-ai-it-operations" rel="noopener noreferrer">Artificial intelligence for IT operations</a> (AIOps) technology is changing the service management game by allowing you to control all your service management capabilities under a single pane of glass. &#8220;We&#8217;ve talked about it for years, but it&#8217;s finally here,&#8221; said Tedder. &#8220;AIOps platforms let you bring together all of your network monitoring, operations monitoring, and application portfolio monitoring, do some correlation, and visualize it together,&#8221; he said.</p>
+<p>In service management, the big advantage this gives you is faster insight, which leads to improved quality. You can focus your efforts on the most important things that are happening, &#8220;and when something goes wrong you can hit pause much quicker,&#8221; said Tedder.</p>
+<p><em>[ Find out <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: Download <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/enterprise-rpa-requirements?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Enterprise Requirements for RPA</a> ]</em></p>
+<h3>3. ESM is integrating with DevOps</h3>
+<p>The top ESM platforms are designed for maximum interoperability, including most enterprise DevOps tools. This is crucial for long-term success. &#8220;You must be able to integrate ESM with the application development lifecycle,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/michaelpott/" rel="nofollow noopener noreferrer">Michael Pott</a>, senior product marketing manager at Micro Focus. This will let you use the principles from ITSM to manage a variety of services, confident that all of the technology underpinnings—your ESM and DevOps tools— will work harmoniously together.</p>
+<p>&#8220;What you’re doing in DevOps needs to fit in with service management, at the end of the day,&#8221; said Tedder. &#8220;Service management ensures you&#8217;re delivering value. And <a target="_blank" href="https://techbeacon.com/devops/devops-how-deliver-services-not-just-products" rel="noopener noreferrer">DevOps is actually about delivering a complete value stream</a>.&#8221; </p>
+<p>Tedder finds that many people still think that DevOps is somehow separate from ESM or ITSM. “I can’t say this strongly enough: DevOps is ITSM. It’s just a different approach—but there’s no philosophical, technical, or conceptual reason why DevOps and ITSM can’t get along,” he said.</p>
+<h3>4. ESM will manage services pre-cloud and in the cloud</h3>
+<p>&#8220;The cloud will be a huge influence on the future direction of ESM development,&#8221; said <a target="_blank" href="https://twitter.com/JayneGroll" rel="nofollow noopener noreferrer">Jayne Groll</a>, CEO of the DevOps Institute. &#8220;After all, you already need to manage and deliver services pre-cloud as well as in private, public, and hybrid clouds. ESM vendors are working to make that easier.&#8221;</p>
+<p>Many ESM apps are cloud-native—built specifically for the cloud—but your organization will probably use them along with other kinds of apps already in place in your environment, including on the mainframe.</p>
+<p>All of that affects how you&#8217;ll manage services now and in the future. &#8220;You&#8217;ll need specific skills to get the proper relationship with the cloud, and you&#8217;ll need an ESM platform that enables your team to be successful,&#8221; Groll said.</p>
+<h3>5. Expect to see more vertical-specific integrations</h3>
+<p>EMA&#8217;s Drogseth expects platform evolution to include vertical-specific integrations that move beyond reporting. Vendors are moving toward intelligent ESM platforms with good analytics, service modeling, and a core platform specialized for use in specific verticals. &#8220;This movement is already underway, and is not very far off,&#8221; he said.</p>
+<h3>Key takeaways</h3>
+<p>These are the five most important trends to consider for your ESM tools:</p>
+<ul>
+<li>
+<p>AI, automation, and machine learning technologies are advancing rapidly</p>
+</li>
+<li>
+<p>AIOps is pulling service management for all your systems into one platform</p>
+</li>
+<li>
+<p>ESM is integrating with DevOps</p>
+</li>
+<li>
+<p>ESM will manage services both on-premises and in the cloud</p>
+</li>
+<li>
+<p>Expect to see more industry-specific integrations</p>
+</li>
+</ul>
+<p><em><strong>Next:</strong> Here are <a target="_blank" href="https://techbeacon.com/node/3935" rel="noopener noreferrer">7 key questions to ask </a> to help your organization identify a ESM project that both fits your service management maturity level and can deliver results quickly, along with five key selection criteria help you home in on the tools and vendors that are a good fit for your team and your project. </em></p>
+<p><em><strong>Read next:</strong> <a target="_blank" href="http://techbeacon.com/node/3935" rel="noopener noreferrer">7 key questions to ask</a> <a target="_blank" href="https://techbeacon.com/node/3935" rel="noopener noreferrer"><span>[final link needed] </span></a></em></p>
+<p> </p>
+<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/buyers-guide-enterprise-service-management-products-top-5-technology-market-trends">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Instagram ‘Help Center’ Phishing Scam Pilfers Credentials</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/instagram-help-center-phishing-scam-pilfers-credentials/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2020 19:38:27 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/instagram-help-center-phishing-scam-pilfers-credentials/</guid>
+
+					<description><![CDATA[Researchers warn that a phishing scam is targeting Instagram users via direct messages on the app. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researchers warn that a phishing scam is targeting Instagram users via direct messages on the app.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/instagram-help-center-phishing-scam-pilfers-credentials/158777/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How AI improves microservices testing automation</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-ai-improves-microservices-testing-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[improves]]></category>
+		<category><![CDATA[microservices]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-ai-improves-microservices-testing-automation/</guid>
+
+					<description><![CDATA[Organizations that adopt artificial intelligence (AI) in testing of microservices-based applications gain better accuracy, faster results, and greater operational efficiency. AI and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Organizations that adopt artificial intelligence (AI) in testing of microservices-based applications gain better accuracy, faster results, and greater operational efficiency.</p>
+<p>AI and machine-learning technologies have matured over the last few years, and today <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-ai-perfect-software-testing-assistant" rel="noopener noreferrer">their application in automated testing</a> can help in more ways than one. In fact, AI has redefined the way microservices-based applications are tested, especially when it comes to <a target="_blank" href="https://www.quora.com/What-is-canary-testing" rel="nofollow noopener noreferrer">canary testing</a>. </p>
+<p><a target="_blank" href="https://content.microfocus.com/ai-test-automation-tb/why-ai-in-testing-matters?lx=gd1AjL&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">The introduction of AI in software testing </a>helps both developers and testers alike. It improves accuracy; the same steps can be performed accurately every time they&#8217;re needed. Automated testing can increase both the depth and scope of your tests, resulting in more thorough overall test coverage. You can also leverage AI to simulate a large number of users interacting with your application.</p>
+<p>Here&#8217;s how AI-enabled automation can help you test as you <a target="_blank" href="https://techbeacon.com/app-dev-testing/challenges-scaling-microservices" rel="noopener noreferrer">scale microservices-based applications</a>, as well as the challenges you&#8217;ll face and effective strategies you can adopt to overcome them. </p>
+<h3>Why traditional testing strategies don&#8217;t work</h3>
+<p>Traditionally, when creating monolithic applications, you&#8217;d test each unit of code <a target="_blank" href="https://techbeacon.com/app-dev-testing/catch-more-bugs-how-produce-unit-tests-real-time" rel="noopener noreferrer">with unit tests</a>. As different components of the application are joined together, you typically test your application using integration testing first and, usually, system testing, regression testing, and user acceptance testing follow.</p>
+<p>If the code passes all of these tests, the release goes out.</p>
+<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/3-non-negotiable-tests-microservices-distributed-app-environments" rel="noopener noreferrer">Testing microservices-based applications</a> is not an easy task and is not the same as testing monoliths; you must be aware of not only the service you are testing but also its dependencies—the services that work with the services under test. </p>
+<p>Owing to the granular nature of microservices architecture, boundaries that were previously hidden in a traditional application are exposed. You might have several different teams spread across geographical distances working simultaneously on different services; this makes coordination extremely challenging. It can be difficult to find a particular time window to perform end-to-end testing of the application as a whole.</p>
+<p>The distributed nature of microservices-based development poses many challenges to testing your application. These include:</p>
+<ul>
+<li><strong>Availability:</strong> Because of the distributed nature of microservices architecture, it is difficult to find a time when all microservices are available.</li>
+<li><strong>Isolation:</strong> Microservices are designed to work in isolation together with other loosely coupled services. This implies that you should be able to test every component in isolation as well as testing them together.</li>
+<li><strong>Knowledge gap:</strong> You should possess a strong knowledge of each microservice; this would help you to write effective test cases.</li>
+<li><strong>Data:</strong> Each microservice can have its own copy of data. In other words, each can have its own copy of the database, which may be different from another microservice&#8217;s copy. As a result, data integrity poses a challenge.</li>
+<li><strong>Transactionality:</strong> Unlike with a monolith, where transactionality is often assured at the database level, implementing transactionality between different microservices is challenging, because a transaction can consist of various service calls spread across different servers.</li>
+</ul>
+<p>Typically, a microservices-based application consists of several services, each of which can dynamically scale up if needed. There is also a risk of failure and the cost of fixing bugs or <a target="_blank" href="https://techbeacon.com/app-dev-testing/integration-tests-dont-cut-it-microservices-heres-what-does" rel="noopener noreferrer">issues after integration</a>. Hence, you should have an effective test strategy in place for testing microservices-based applications. </p>
+<h4>How to build an effective testing strategy</h4>
+<p>To build an automated <a target="_blank" href="https://techbeacon.com/app-dev-testing/3-non-negotiable-tests-microservices-distributed-app-environments" rel="noopener noreferrer">testing process for a microservices-based application</a>, you should follow the same best practices you would for any other type of testing:</p>
+<ul>
+<li> Understand the customer&#8217;s expectations as far as test automation is concerned.</li>
+<li><a target="_blank" href="https://techbeacon.com/app-dev-testing/how-qa-teams-can-build-culture-quality-8-key-routes" rel="noopener noreferrer">Set quality goals</a>—and adhere to them.</li>
+<li>Analyze the testing types that are right for you to achieve the goals.</li>
+<li>Write tests according to the test pyramid (i.e., considering that the cost of the tests increases as you move up the pyramid).</li>
+</ul>
+<h3>AI-driven test automation: Embrace innovation</h3>
+<p>Today&#8217;s software testers can <a target="_blank" href="https://techbeacon.com/app-dev-testing/ai-revolution-software-testings-new-best-friend" rel="noopener noreferrer">take advantage of AI</a> for test creation, test execution, and data analysis by using natural-language processing and advanced modeling techniques. <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-ai-perfect-software-testing-assistant" rel="noopener noreferrer">AI-based sofware testing can help</a> by increasing efficiency, facilitating faster releases, improving test accuracy and coverage, and allowing for easier test maintenance, particularly when it comes to managing your test data. </p>
+<p>For efficient test maintenance, you need to know <a target="_blank" href="https://techbeacon.com/app-dev-testing/want-effective-test-automation-devops-manage-your-test-data" rel="noopener noreferrer">what is happening to your data</a> at the time of test creation. Inadequate data modeling is one reason why test maintenance fails, becoming a bottleneck in your deployment pipeline. AI can help with efficient data modeling and with root-cause analysis.</p>
+<p>Repeating tests manually each time the source code changes can be time-consuming and costly. Once you create automated tests, you execute them repeatedly and quickly with no additional cost.</p>
+<h3>Use AI for canary testing</h3>
+<p>Canary testing helps reduce risks by gradually rolling out the changes to a small group of users before presenting it to a larger audience—and it is particularly useful in the testing of microservices-based applications. In a typical application, the changes to microservices happen independently of one another, so those microservices need to be verified independently as well.</p>
+<p>AI can help automate canary testing of microservices-based applications. You can take advantage of AI concepts such as deep learning to identify the changes in the new code and the issues within it. AI can be used to compare the experience of the small group of users with that of the existing users, and this can be done automatically; you don&#8217;t need any human intervention in the loop.</p>
+<h3>Challenges in AI-based microservices testing</h3>
+<p>AI-based testing does have some constraints. While you can automate functional and unit tests, it is quite difficult to automate integration tests, because of complexity.</p>
+<p>Some of the other challenges in AI-based testing include the following: </p>
+<h4>Skills</h4>
+<p>Testing microservices-based applications with an AI-based approach requires extensive technical expertise from testers, and is very different from what manual or automation testers are used to. Testers should be adept at how to use AI-based tools specifically for microservices-based applications. </p>
+<h4>Use cases </h4>
+<p>Learn how to determine the best use cases for using AI in microservices test automation. One is to use AI for creating your unit tests. You can take advantage of AI to perform static code analysis and determine the portions of code that are not covered by your unit tests.</p>
+<p>You can also use AI to update unit tests as soon as the source code changes, as well as for test creation, execution, data analysis, and API testing in microservices-based applications.</p>
+<p>AI can help you understand the patterns and relationships in API calls and come up with more advanced patterns and inputs for testing the API. You can leverage an AI-powered continuous testing process to more efficiently detect the controls that have changed.</p>
+<h3>AI-based testing can&#8217;t do everything</h3>
+<p>AI-based test automation of microservices can create more reliable tests, and in so doing slash the time needed for test creation, maintenance, and analysis. Such tests can in turn be used to check the service-to-service communication, test communication paths, etc.</p>
+<p>You can also leverage deep-learning models and other AI techniques to empower your team to build tests faster and execute them at scale in the cloud.</p>
+<p>Adopting AI for microservices test automation is no panacea. It won&#8217;t magically eliminate all problems associated with software testing. But it can help you make your software testing process smarter, more efficient, and faster—and thereby deliver business value consistently.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/how-ai-improves-microservices-testing-automation">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Magecart’s Success Paves Way For Cybercriminal Credit Card ‘Sniffer’ Market</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/magecarts-success-paves-way-for-cybercriminal-credit-card-sniffer-market/</link>
 		
@@ -102,6 +270,81 @@
 <br />New version of trojan is spreading fast and already has claimed 100,000 victims globally, Check Point has discovered.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/revamped-qbot-trojan-packs-new-punch-hijacks-email-threads/158715/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ten More Commandments Of Automation</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ten-more-commandments-of-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Commandments]]></category>
+		<category><![CDATA[Ten]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ten-more-commandments-of-automation/</guid>
+
+					<description><![CDATA[Go ahead, search the interwebs. There are more posts and articles on “The Ten Commandments of Test Automation” than you]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Go ahead, search the interwebs. There are more posts and articles on “The Ten Commandments of Test Automation” than you can shake a test case at. Go ahead…I’ll wait.</p>
+<p>Welcome back!</p>
+<p>To set the stage, I have not read any of those articles. Well, more accurately, I’ve not read any of them recently; most of them I’ve not read at all. I probably read one or two of them in the “before times,” but I don’t remember any of the specific commandments. Any of the ones I didn’t already know and found appropriate, I probably absorbed into my learnings and approaches long ago. I make this point not to belittle the other posts, but to highlight them in the highly likely case that some of the following “commandments” have been stated before; I have not copied them and if I repeat them, I’m hoping to amplify them. I also want to introduce some ideas that you’ve not yet considered.</p>
+<p>As such, I will not be presenting THE Ten Commandments of Test Automation. Instead, I’ll be presenting Ten MORE Commandments of Test Automation. And away we go…</p>
+<h3>I &#8211; Thou shalt not only automate &#8220;from test cases&#8221;</h3>
+<p>There is a common misconception that automation for testing necessarily derives from test cases. The automators take an existing, or newly written, test case and turn it into an automated test script. This is called the automation drive-thru.</p>
+<p>While there can be value in this approach, other approaches can provide similar or better value. By <a target="_blank" href="https://responsibleautomation.wordpress.com/2016/12/02/automation-first-a-definition/" rel="noopener noreferrer">expanding the definition of automation</a> beyond test-case-tool-test-script to “the judicious application of technology to help humans do their jobs,” we can exploit the power of computers to do the tasks for which they are best suited, leaving the humans—the testers—to do the remaining tasks. Fortunately, much of what humans are good at, computers are bad at, and vice versa.</p>
+<h3>II &#8211; Thou shalt treat automation development as software development</h3>
+<p>Automation development <i>is</i> software development. Even if we are using a drag-and-drop or record-and-playback interface to create that automation, somewhere, in the stack, under the hood or behind the curtain, there is code sequenced by our actions. We must start treating our automation initiatives as software development initiatives, lest we end up in a quagmire of unsustainability and early project death.</p>
+<p>Treating it as software development means we must account for most, if not all, of the same activities and processes that application developers require. These include:</p>
+<ul>
+<li>
+<p>Design – we have to decide what to implement and how to implement it so that it’s maintainable and supportable.</p>
+</li>
+<li>
+<p>Implementation – we must write the code.</p>
+</li>
+<li>
+<p>Storage – the code and related artifacts need to be stored somewhere.</p>
+</li>
+<li>
+<p>Testing – Test the tests? Absolutely! We must have sufficient confidence that the automation behaves the way we want it to. If we don’t trust the automation, it’s useless.</p>
+</li>
+<li>
+<p>Bugs – All software has bugs; automation, being software, is no different. Testing will help but will not catch all bugs. Allow time in the schedule for bug fixes.</p>
+</li>
+<li>
+<p>Logs – Logs are the lifeline of automation. Without them, we can neither understand what the automation is doing nor fix automation when it’s broken. Additionally, we wouldn’t be able to tell when there’s an issue with the automation as opposed to when there is an issue with the software being tested.</p>
+</li>
+</ul>
+<h3>III &#8211; Thou shalt follow appropriate coding standards and idioms</h3>
+<p>In following with treating automation like software, we must incorporate appropriate implementation ideas in our implementations. Each tool or language has its own idioms and its own gotchas, but generally accepted approaches to design and implementation are usually appropriate. <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-stack-your-test-automations-deck" rel="noopener noreferrer">This article on encapsulation and abstraction</a> provides a sample implementation that can be fodder for other Implementations that are specific to our context.</p>
+<h3>IV &#8211; Thou shalt consider maintenance and upkeep</h3>
+<p>Software is neither perfect nor complete; this is no different for automation. There will be bugs. As the application we are testing is changing, we correspondingly need to change our automation. We can’t prevent these, but we can develop our software in ways that reduce the effort it takes to support and maintain automation software; we also must allocate time for these activities. <a target="_blank" href="https://techbeacon.com/app-dev-testing/dont-let-your-test-automation-get-rusty" rel="noopener noreferrer">This article</a> and <a target="_blank" href="https://responsibleautomation.wordpress.com/2017/11/15/maintaining-value-automations-forgotten-cost/" rel="noopener noreferrer">this blog post</a> shed some light on factors that are helpful when addressing anticipated maintenance.</p>
+<h3>V &#8211; Thou shalt not make scripts dependent upon each other</h3>
+<p>Creating a test script that is dependent upon another’s results is generally a strong anti-pattern. If scripts depend upon each other, they cannot be run singly, which makes debugging automation and app problems more time-consuming. Additionally, scripts that depend on other scripts cannot <a target="_blank" href="https://techbeacon.com/app-dev-testing/parallelizing-test-automation-read-first" rel="noopener noreferrer">run in parallel</a> with the scripts on which they depend.</p>
+<p>There is a corner case where having all other scripts depend on <b>the same, single script</b>; this single script generally performs some setup of the test environment, test data, etc. This case is increasingly rare when using the available automation and continuous deployment frameworks, but it still may be appropriate in cases where the available frameworks are not available or appropriate for a specific automation endeavor.</p>
+<h3>VI &#8211; Thou shalt emit appropriate logging and reports</h3>
+<p><a target="_blank" href="https://responsibleautomation.wordpress.com/2019/07/19/its-automation-logs-better-than-bad-theyre-good/" rel="noopener noreferrer">As described in this blog post</a>, appropriate logs, results, and error messages are critical to understanding, trusting, and maintaining automation. These logs are our detailed view into automation execution: what ran, how it ran, what failed, how it failed, how it succeeded, etc. That is, as long as we judiciously emit appropriate logs that deliver this information to us in a digestible manner.</p>
+<h3>VII &#8211; Thou shalt influence testability and automatability</h3>
+<p><i>Testability</i>, the extent to which an application or feature can be tested, and <i>automatability</i>, the extent to which testing-related activities can be performed by some automated mechanism, are not things that testers/QAs/QEs can implement, but certainly, they are things that we can influence. It’s incumbent on us to exert that influence. Developers don’t always know what we require to perform testing and to appropriately create automation. We must let them know. The blog posts <a target="_blank" href="https://responsibleautomation.wordpress.com/2020/07/09/how-am-i-going-to-test-this/" rel="noopener noreferrer">here</a> and <a target="_blank" href="https://responsibleautomation.wordpress.com/2020/07/21/searchiiiiiing-seek-and-locatebut-only-with-appropriate-attributes-for-automation/" rel="noopener noreferrer">here</a> give some insight into some aspects of testability and automatability.</p>
+<h3>VII &#8211; Thou shalt not succumb to the sunk cost fallacy</h3>
+<p>Sometimes, we make mistakes. Sometimes, they are big mistakes. We do our best with the information we have at the time, but it doesn’t always work out. When something in our plan goes awry, our instinct is to try to fix it, and to keep trying to fix it. Sometimes, however, we should just start over otherwise we run the risk of “throwing good money after bad.”</p>
+<p>This is called the <a target="_blank" href="https://en.wikipedia.org/wiki/Sunk_cost" rel="noopener noreferrer">sunk cost fallacy</a>. Simply put, this fallacy is the thinking that we’ve sunk so much money into an activity that we must spend more money to rehabilitate it and receive value for that money already spent or <i>sunk</i> into the endeavor.</p>
+<p>Perhaps we are emotionally invested in our software “baby”; we spent so much time and money on it we can’t bear to throw it away and start over. Perhaps we are afraid; our leadership probably won’t be thrilled if we want to throw away the work that’s been done and “repeat the same work.” We must work to view situations like these through our business lenses instead of strictly emotionally.</p>
+<h3>IX &#8211; Thou shalt beware of Rube Goldberg machines</h3>
+<p><a target="_blank" href="https://www.rubegoldberg.com/" rel="noopener noreferrer">Rube Goldberg</a> machines are complex machines that perform comparatively simple tasks, such as the <a target="_blank" href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine" rel="noopener noreferrer">Self-Operating Napkin</a>. In our automation world, building these kinds of machines can be a lot of fun and they can do very cool things, such as chaining unrelated tools together in order to complete a testing task. Their downsides include being hard to understand and maintain; we must take care not to create something that is more effort to maintain than it would be to do the automated task ourselves. <a target="_blank" href="https://responsibleautomation.wordpress.com/2017/06/12/mouse-trap/" rel="noopener noreferrer">This blog post</a> gives more details about automation Rube Goldberg machines; <a target="_blank" href="https://responsibleautomation.wordpress.com/2018/11/01/pop-quiz-hotshot-is-it-automated/" rel="noopener noreferrer">this post</a> gives some thoughts about the state of “being automated.”</p>
+<h3>X &#8211; Thou shalt not make test data depend on transient data</h3>
+<p>Recently, I came across a test script that, one day, just started failing. After some investigation, we determined the failure had happened because the month changed from July to August. The script had been written in a way that the oracle was checking for dates in July, which was just fine when the script was running in July; application being tested was returning dates in the current month, July. When the date changed to August, the application began return dates in August, causing the script to fail.</p>
+<p>In this case, instead of hardcoding dates in July, it would have been better to dynamically create the dates based on the current month.</p>
+<h3><b>About the Author</b></h3>
+<p>As a Principal Automation Architect at <a target="_blank" href="https://magenic.com/" rel="noopener noreferrer">Magenic</a>, Paul Grizzaffi provides technology solutions to testing and QA organizations, including automation assessments, implementations. He is also involved in activities that benefit the broader testing community. Paul is an accomplished keynote speaker and writer who has presented at local and national conferences and meetings. He is an advisor to Software Test Professionals and STPCon, as well as a member of the Industry Advisory Board of the Advanced Research Center for Software Testing and Quality Assurance (STQA) at UT Dallas, where he is a frequent guest lecturer.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/ten-more-commandments-of-automation">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -227,151 +470,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Shift your DevOps into high gear: Key models to consider</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shift-your-devops-into-high-gear-key-models-to-consider/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 26 Aug 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[DevOps]]></category>
-		<category><![CDATA[gear]]></category>
-		<category><![CDATA[high]]></category>
-		<category><![CDATA[Key]]></category>
-		<category><![CDATA[Models]]></category>
-		<category><![CDATA[Shift]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shift-your-devops-into-high-gear-key-models-to-consider/</guid>
-
-					<description><![CDATA[Enterprise software development is a complex undertaking, and only companies that can respond to market changes by quickly delivering high-quality]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Enterprise software development is a complex undertaking, and only companies that can respond to market changes by quickly delivering high-quality software will dominate in the digital age.</p>
-<p>There is no silver bullet to achieve the level of business agility you&#8217;ll need. It <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/about-digital-transformation?lx=EGspVB&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172256" rel="noopener noreferrer">requires a transformation</a> from a traditional waterfall mindset and old ways of thinking to a lean-agile mindset, with its associated principles and practices.</p>
-<p>Scaling frameworks and DevOps approaches can provide the guidance you need to <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/transform-it-run-business?lx=EGspVB&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172256" rel="noopener noreferrer">transform your IT organization</a>—and the rest of the business. The Scaled Agile Framework (SAFe), the most popular scaling approach, spells out the seven core competencies you need to succeed in the digital age: organizational agility, lean portfolio management, enterprise solution delivery, agile product delivery, team and technical agility, continuous learning culture, and lean agile leadership. Still, success is not guaranteed, since it requires a careful implementation that’s best achieved with the help of a <a target="_blank" href="https://www.scaledagile.com/blog/what-is-an-spct-and-how-can-you-become-one" rel="nofollow noopener noreferrer">SAFe Program Consultant</a>.</p>
-<p>Leadership engagement, alignment, and systems thinking are my favorite success factors for a transformation. See my global SAFe Summit talk: <a target="_blank" href="https://vimeo.com/372961836" rel="nofollow noopener noreferrer">SAFe Transformations: We know how to do it but why do some fail? &#8230; and how can we correct the mistakes?</a></p>
-<p>Besides the common success factors mentioned above, the frameworks are continuously evolving. Practitioners are constantly feeding learnings and experiences from the field back into the frameworks.</p>
-<p>That’s what I did in my recent article, &#8220;<a target="_blank" href="https://www.scaledagileframework.com/accelerating-flow-with-devsecops-and-the-software-factory/" rel="nofollow noopener noreferrer">Accelerating Flow with DevSecOps and the Software Factory</a>,&#8221; which highlights the importance of shift-left approaches and how you can apply those to accelerate time-to-market, improve quality, and reduce costs. Large enterprises especially can benefit from <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/software-factory-devops?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">establishing a Software Factory</a>, an integrated set of tooling, services, data, and processes that helps teams to plan, develop, operate, and manage software and solutions. (SAFe defines &#8220;solutions&#8221; as <a target="_blank" href="https://www.scaledagileframework.com/solution/" rel="nofollow noopener noreferrer">products, services, or systems you deliver to your customers</a>.)</p>
-<p>Here are two helpful models, along with advice on how you can combine them with a Software Factory approach to <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">advance your DevOps implementations</a> and strengthen business agility.</p>
-<h3>The DevOps Evolution Model</h3>
-<p>As Peter Senge describes in his book <em>The Fifth Discipline</em>, teams and organizations need a shared mental model to generate a common understanding of a problem and to collaborate on finding a good solution. To that end, I created what I call the DevOps Evolution Model. That model was developed during my training classes as a way to explain how people can best progress in their DevOps journeys.</p>
-<p>This model can help you understand how to decrease lead time and reduce the length of the feedback cycle by shifting undone work to the left. (Undone work is additional work required to release a solution after the team is &#8220;done&#8221; with features and stories. Typical examples of undone work are any kind of testing, security checks and audits, documentation, open-source legal assessments, and compliance checks.)</p>
-<p>Shifting undone work left enables your team to provide faster feedback, which leads to more usable products and <a target="_blank" href="https://content.microfocus.com/reduce-defects-software-tb/slash-costs-software-defects?lx=HhQqWV&#038;utm_source=techbeacon&#038;utm_medium=techbeacon&#038;utm_campaign=00172440" rel="noopener noreferrer">faster defect fixes</a>. This in turn accelerates flow and increases quality. Reducing or eliminating undone work <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&#038;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">leads to more frequent releases </a>and improved responsiveness to requirements changes.</p>
-<p><em>Figure 1: The DevOps Evolution Model covers the four major stages in a DevOps journey and shows visually how your organization can progress from a less mature model to a more mature one (click to enlarge). Source: Peter Vollmer</em></p>
-<h3>The CI/CD pipeline model</h3>
-<p>The continuous integration/continuous delivery model evolved out of SAFe DevOps trainings and follow-up workshops I conducted. It has similarities to <a target="_blank" href="https://www.scaledagileframework.com/continuous-delivery-pipeline/" rel="nofollow noopener noreferrer">SAFe DevOps Pipeline mapping</a>, which models the end-to-end pipeline on a process level. The CI/CD pipeline modeling drills down on the detailed CI/CD pipeline and the associated build and integration process. In my experience, a lot of flow issues in complex enterprise setups are a direct result of having an immature CI/CD pipeline.</p>
-<p>To create the model, you bring all stakeholders together to draw your entire pipeline process (build, integration, deployment, etc.) as nodes and edges. Nodes represent the components, and edges describe the relationships between the components. While you might think that your teams already know their end-to-end pipeline and would find this whole effort useless, this has never been the case in my experience.</p>
-<p>The CI/CD pipeline model lets you see the big picture. In large solutions, no single person understands the end-to-end CI/CD process. By bringing the right people together, you can see the suboptimal results of local optimization and focus on highly effective end-to-end improvements.</p>
-<p>For example, teams often claim that they build and deploy several times a day when in fact they are building and deploying the same code or components over and over again.</p>
-<blockquote>
-<p>The key question for CI/CD improvements is not the number of pipeline runs but how long it takes from the time the team writes the code to when it arrives in staging or production. This is the most important question you should ask for each contributing component.</p>
-</blockquote>
-<p>Because it reduces lead time, CI/CD modeling boosts quality. Defective components can have a domino effect on the integrated final product, since the development of components that depend on defective ones get delayed. Worse yet, if your team discovers defects late in the development process, committed schedules can’t be met, or you may need to create shortcuts or workarounds to stay on schedule. That decreases quality and increases technical debt.</p>
-<p><em>Figure 2: Here is an example of CI/CD pipeline modeling for a large enterprise product with more than 100 million lines of code (click to enlarge). Each orange sticky tag represents a large component (node), while the blue arrows are the edges that describe the build, integration, and deployment steps. Pink stickies show the cycle times, lead times, and percentage complete and accurate (%C&#038;A). The green sticky is the final, deployed product on staging. Note that &#8220;LST&#8221; stands for &#8220;large solution train&#8221; and &#8220;ART&#8221; stands for &#8220;agile release train.&#8221; Source: Peter Vollmer</em></p>
-<h3>The enterprise advantage of a Software Factory approach</h3>
-<p>Large enterprises are often seen as dinosaurs that <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">don&#8217;t get DevOps</a>. They lose market share to newly emerging, small companies that have agile and DevOps in their DNA from the very beginning. But while it’s true that moving a large enterprise forward is challenging, with the help of SAFe, you can successfully transform. You’ll be able to create or change your development value streams with minimal effort because people will already share the same language and mindset, and they will be able to quickly adjust strategy in response to opportunities or threats.</p>
-<p>A Software Factory complements this ability by enabling teams to faster adjust the development setup to changing business needs and shorten ramp-up and onboarding times. In addition, it helps to reduce the cognitive load of your teams, and enables efficiency gains, fostering the shift left and shortening lead times.</p>
-<p>The complex tool chains typically required for building enterprise software often <a target="_blank" href="https://techbeacon.com/app-dev-testing/forget-monoliths-vs-microservices-cognitive-load-what-matters" rel="noopener noreferrer">result in cognitive overload</a> for the teams that use them. Think about required pipeline improvements and maintenance activities such as keeping up with latest tool and technology evolutions, as well as upgrades to build servers, operating systems, plugins, test automation tools, and so on. Add to that cognitive load release deadline pressure and the need to keep up with product and domain expertise as well as new features and bug fixes, and it’s no wonder that many CI/CD pipelines are unstable and unreliable.</p>
-<p>A “pipeline as a service” can solve these issues and boost productivity. Dedicated experts maintain and continuously improve services that multiple product teams can use, relieving development teams of that burden so that they can focus on their core responsibility of developing high quality products in short time frames.</p>
-<p>To attain a faster response to change in your development organization you need to standardize your development tools. This allows for better integrations between the tools and makes it easier for your development teams to work on other products, since they will be familiar with all of the tools and core processes other product groups are using. A standardized set of tools sets the stage for modern software development approaches such as shared code ownership and internal open source.</p>
-<p>Standardizing tools using a Software Factory approach can tremendously reduce licensing and maintenance costs, while also reducing the number of required integrations and synchronizations between tools.</p>
-<blockquote>
-<p>If you have a menagerie of tools, you probably have a lot of unreliable, half-functioning integrations and costly maintenance efforts. That means unnecessarily high total cost of ownership, busy people, and an unreliable flow of development data.</p>
-</blockquote>
-<p>But standardization requires a careful balance. My advice is to standardize as much as necessary while providing as much freedom as possible. Not all tools and processes are candidates for standardization. A Software Factory usually starts small and <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">incrementally evolves</a> based on adoption and user feedback. Figure 3 shows a proven Software Factory architecture with the core elements.</p>
-<p><em>Figure 3: This is Micro Focus’ Software Factory architecture/blueprint, which shows the major components and categories of a full-blown software factory (click to enlarge). Source: Yaniv Sayers and Peter Vollmer</em></p>
-<h3>How to get started</h3>
-<p>Mastering enterprise software and cyber-physical systems is a complex endeavor with no easy solution or silver bullet. The Scaled Agile Framework and some others can provide guidance and a strong foundation for your digital transformation journey.</p>
-<p>Advanced DevOps models, in combination with a Software Factory approach, enhance and complement these offerings so that your organization can thrive in the digital age. If you’re just starting your journey, get going in the right direction by talking to a SAFe Program Consultant Trainer (SPCT) or attend a <a target="_blank" href="https://www.scaledagile.com/certification/courses/leading-safe/" rel="nofollow noopener noreferrer">Leading SAFe class</a>.</p>
-<p><em>To learn more about this topic, I recommend these reads:</em></p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/devops/shift-your-devops-high-gear-key-models-consider">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Disinformation Spurs a Thriving Industry as U.S. Election Looms</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/disinformation-spurs-a-thriving-industry-as-u-s-election-looms/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 26 Aug 2020 14:50:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Disinformation]]></category>
-		<category><![CDATA[Election]]></category>
-		<category><![CDATA[industry]]></category>
-		<category><![CDATA[Looms]]></category>
-		<category><![CDATA[Spurs]]></category>
-		<category><![CDATA[Thriving]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/disinformation-spurs-a-thriving-industry-as-u-s-election-looms/</guid>
-
-					<description><![CDATA[Threat actors are becoming increasingly sophisticated in launching disinformation campaigns &#8211; and staying under the radar to avoid detection from]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Threat actors are becoming increasingly sophisticated in launching disinformation campaigns &#8211; and staying under the radar to avoid detection from Facebook, Twitter and other platforms.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/disinformation-spurs-a-thriving-industry-as-u-s-election-loom/158648/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Medical Data Leaked on GitHub Due to Developer Errors</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/medical-data-leaked-on-github-due-to-developer-errors/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 26 Aug 2020 13:49:37 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Developer]]></category>
-		<category><![CDATA[Due]]></category>
-		<category><![CDATA[Errors]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[leaked]]></category>
-		<category><![CDATA[Medical]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/medical-data-leaked-on-github-due-to-developer-errors/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/medical-data-leaked-on-github-due-to-developer-errors/158653/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to Write a Cybersecurity Playbook During a Pandemic</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-write-a-cybersecurity-playbook-during-a-pandemic/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 26 Aug 2020 12:00:19 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cybersecurity]]></category>
-		<category><![CDATA[Pandemic]]></category>
-		<category><![CDATA[Playbook]]></category>
-		<category><![CDATA[Write]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-write-a-cybersecurity-playbook-during-a-pandemic/</guid>
-
-					<description><![CDATA[IT teams have had to learn to be dynamic as workforces continue to shift strategies while COVID-19 drags on. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />IT teams have had to learn to be dynamic as workforces continue to shift strategies while COVID-19 drags on.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cybersecurity-playbook-during-pandemic/158538/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -380,5 +478,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-08-30 21:01:11 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-08-31 05:38:11 by W3 Total Cache
 -->
