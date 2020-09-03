@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 31 Aug 2020 15:52:59 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Sep 2020 04:22:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,214 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>TestProject OpenSDK with Cucumber, TestNG and ExtentReport</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testproject-opensdk-with-cucumber-testng-and-extentreport/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 02 Sep 2020 04:22:08 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Cucumber]]></category>
+		<category><![CDATA[ExtentReport]]></category>
+		<category><![CDATA[OpenSDK]]></category>
+		<category><![CDATA[TestNG]]></category>
+		<category><![CDATA[TestProject]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testproject-opensdk-with-cucumber-testng-and-extentreport/</guid>
+
+					<description><![CDATA[In this post, we will discuss working with all new TestProject OpenSDK to write native Selenium code of an existing]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In this post, we will discuss working with all new <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">TestProject OpenSDK</a> to write native Selenium code of an existing code which is powered by the following:</p>
+<table style="height: 146px; width: 44.791%; border-collapse: collapse; border-style: dotted;">
+<tbody>
+<tr style="height: 146px;">
+<td style="width: 100%; height: 146px;">
+<h4><strong>Note</strong></h4>
+<p>The <em><strong>native Selenium</strong></em> code which we will be using in this post is available in <a target="_blank" href="https://github.com/executeautomation/SeleniumWithCucucumber" rel="noopener noreferrer">GitHub</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><strong>Native Selenium Code</strong></h2>
+<p>The native <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a> code that we have as mentioned before is written in BDD format using Cucumber and running the test via the test runner of TestNG. The structure of the code looks pretty much like a regular test code, as below:</p>
+<p></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-13692 size-full" title="Native Selenium Code Structure" src="https://blog.testproject.io/wp-content/uploads/2020/08/codestructure.jpg" alt="Native Selenium Code Structure" width="352" height="732" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/codestructure.jpg 352w, https://blog.testproject.io/wp-content/uploads/2020/08/codestructure-246x512.jpg 246w" sizes="(max-width: 352px) 100vw, 352px"/></noscript></p>
+<p>The code also uses Selenium Page Object Model, TestNG Listeners, and generates reports via Extent reporting. Well, this whole code uses Native Selenium Webdriver to perform UI testing and in fact, with this “usual” approach, we have the following things to be taken care of as a tester <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" />:</p>
+<ul>
+<li>Maintain ChromeDriver/Gheckodriver/EdgeDriver, etc with latest versions.</li>
+<li>Write your own code for reporting (like extent reporting in this case).</li>
+<li>Maintain browser drivers in CI/CD deployment machines.</li>
+</ul>
+<h2><strong>Using TestProject’s OpenSDK</strong></h2>
+<p>Using <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>‘s OpenSDK, now things are much simpler and it addresses the above pain points along with a lot of fascinating features! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<ul>
+<li>Automatic test reports in HTML/PDF format (including screenshots).</li>
+<li>Collaborative reporting dashboards with execution history and RESTful API support.</li>
+<li>Always up-to-date with the latest and stable Selenium driver version.</li>
+<li>A simplified, familiar syntax for both web and mobile applications.</li>
+<li>Complete test runner capabilities for both local and remote executions, anywhere.</li>
+<li>Cross-platform support for Mac, Windows, Linux and Docker.</li>
+<li>Ability to store and execute tests locally on any source control tool, such as Git.</li>
+</ul>
+<h2><strong>Migrating Native code to TestProject OpenSDK</strong></h2>
+<p>The first and foremost operation before beginning with our code migration is to get the OpenSDK itself. Since this is a Java Maven project, the reference we are going to set in the POM.xml file is going to look something like this:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null"><dependency>
+    <groupId>io.testproject</groupId>
+    <artifactId>java-sdk</artifactId>
+    <version>0.63.2-RELEASE</version>
+</dependency></pre>
+<p>Next, the only code change we need to make in our native selenium code to use TestProject’s OpenSDK is this:</p>
+<p><strong>Native code</strong></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">//Chrome driver - Using Native Selenium WebDriver
+System.setProperty("webdriver.chrome.driver", "/Users/ChromeDriver/chromedriver");
+WebDriver driver = new ChromeDriver();
+</pre>
+<p><strong>TestProject OpenSDK</strong></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">WebDriver driver = new DriverBuilder<ChromeDriver>(new ChromeOptions())
+        // Get Project Name from environment variable - CI/CD
+        .withProjectName(System.getenv("BuildNumber"))
+        // Get Job Name as Release Name from environment variable - CI/CD
+        .withJobName(System.getenv("ReleaseName"))
+        // Get TestProject Auth Token from environment variable - CI/CD
+        .withToken(System.getenv("token"))
+        .build(ChromeDriver.class);</pre>
+<p>As you can see from the above code, the DriverBuilder sets the following parameters to invoke TestProject agent running in the target machine:</p>
+<ul>
+<li><strong>Project Name</strong> – Which can be any name, but since TestProject’s OpenSDK is going to automatically create the reports, it’s better to set a unique name as the project name. In this case, we are using CI/CD environment variables to set the project name.</li>
+<li><strong>Job Name</strong> – Which can be any name as well, but we are setting the <em>release number</em> as job name from CI/CD environment variable.</li>
+<li><strong>Token</strong> – This is a super-secret <em>token</em> to authenticate our TestProject agent with the TestProject platform and MUST need to come from CI/CD environment variable.</li>
+</ul>
+<p>With this, we can now run our test and get the automatic test report generated in the TestProject Platform as shown below</p>
+<p><img loading="lazy" class="size-full wp-image-13751 aligncenter" alt="" width="2538" height="852" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg 2538w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-512x172.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-768x258.jpg 768w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-1024x344.jpg 1024w" data-lazy-sizes="(max-width: 2538px) 100vw, 2538px" src="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg"/></p>
+<p><noscript><img loading="lazy" class="size-full wp-image-13751 aligncenter" src="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg" alt="" width="2538" height="852" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg 2538w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-512x172.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-768x258.jpg 768w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-1024x344.jpg 1024w" sizes="(max-width: 2538px) 100vw, 2538px"/></noscript></p>
+<p>Here is the complete migrated project with TestProject’s OpenSDK <a target="_blank" href="https://github.com/executeautomation/TestProjectOpenSDK_Cucumber" rel="noopener noreferrer">in GitHub</a>.</p>
+<p><strong>This entire tutorial is also available in a video tutorial format for you to enjoy <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f447.png" alt="👇" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p style="text-align: center;"><iframe title="Introducing TestProjects unified OpenSDK for Java - Write Native Selenium and Appium code" width="800" height="450" src="https://www.youtube.com/embed/5iT1pD2n-pg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Users interested to try TestProject’s new OpenSDK can <strong>follow these steps to get started</strong>:</p>
+<ol>
+<li><a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer">Create a free TestProject account</a></li>
+<li>Download and install the TestProject agent</li>
+<li>Install the SDK from your favorite package manager:
+<ol>
+<li>Java – <a target="_blank" href="https://mvnrepository.com/artifact/io.testproject/java-sdk" rel="noopener noreferrer">Maven</a></li>
+<li>C# – <a target="_blank" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer">NuGet</a></li>
+<li>Python – <a target="_blank" href="https://pypi.org/project/testproject-python-sdk/" rel="noopener noreferrer">PyPI</a></li>
+</ol>
+</li>
+<li>Explore our SDK documentation to understand available functions:</li>
+<li>Create your automated tests! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f929.png" alt="🤩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li>
+</ol>
+<p><strong>Go ahead and share your feedback in the comments below – Have you tried TestProject’s OpenSDK yet? </strong></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/09/02/testproject-opensdk-with-cucumber-testng-and-extentreport/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How Do I Validate My Google Firebase Tests?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-i-validate-my-google-firebase-tests/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2020 23:56:57 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Firebase]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tests]]></category>
+		<category><![CDATA[Validate]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-do-i-validate-my-google-firebase-tests/</guid>
+
+					<description><![CDATA[Google Firebase Test Lab is a cloud-based app-testing infrastructure. With one operation, you can test your Android or iOS app across a wide]]></description>
+										<content:encoded><![CDATA[ 
+<br><div>
+													<div class="lead">
+						
+<p>Google <a target="_blank" href="https://firebase.google.com/" rel="noopener noreferrer">Firebase Test Lab</a> is a cloud-based app-testing infrastructure. With one operation, you can test your <a target="_blank" href="https://www.android.com/" rel="noopener noreferrer">Android</a> or <a target="_blank" href="https://www.apple.com/ios/ios-13/" rel="noopener noreferrer">iOS</a> app across a wide variety of devices and device configurations, and see the results—including logs, videos, and screenshots—in the Firebase console.</p>
+
+
+
+					</div>
+					
+<!-- /wp:more -->
+
+<!-- wp:paragraph -->
+<p>Firebase Test Lab runs <a target="_blank" href="https://developer.android.com/training/testing/espresso" rel="noopener noreferrer">Espresso</a> and <a target="_blank" href="https://developer.android.com/training/testing/ui-automator" rel="noopener noreferrer">UI Automator 2.0</a>  tests on Android apps, and <a target="_blank" href="https://developer.apple.com/documentation/xctest" rel="noopener noreferrer">XCTest</a>   tests on iOS apps. Write tests using one of those frameworks, then run them through the Firebase console or the <a target="_blank" href="https://cloud.google.com/sdk/gcloud" rel="noopener noreferrer">gcloud command line interface</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Firebase Test Lab lets you run the following types of tests:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li><strong>Instrumentation test:</strong> A test you write that allows you to drive the UI of your app with the actions you specify. An instrumentation test can also make explicit assertions about the state of your app to verify correct functionality using <strong>AndroidJUnitRunner APIs</strong>. Test Lab supports <a target="_blank" href="https://developer.android.com/training/testing/ui-testing/espresso-testing.html" rel="noopener noreferrer">Espresso</a> and <a target="_blank" href="https://developer.android.com/topic/libraries/testing-support-library/index.html#UIAutomator" rel="noopener noreferrer">UI Automator 2.0</a> instrumentation test frameworks.</li><li><strong>Robo test: </strong>A test that analyses your app’s interface and then explores it automatically by simulating user activities.</li><li><strong>Game loop test:</strong> A test that uses a “demo mode” to simulate player actions in game apps.</li></ul><!-- /wp:list --><!-- wp:heading --><h2 id="h.n6czj2tgsra2"><strong>How do I validate the Visual UI in Multiple Devices?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>As with all web and mobile applications. Applitools offers an easy, consistent way to collect visual data from multiple device types running different viewport sizes. In the rest of this article, you will run through a demonstration for using Applitools with Google Firebase Test Lab.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="h.xkc7m8z0llc1"><strong>Demo</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In this Demo I have choose a simple “Hello World” app,  and to keep you running we already have an example Espresso Instrumentation Test you can find the Complete Project here <a target="_blank" href="https://github.com/applitools/eyes-android-hello-world" rel="noopener noreferrer">https://github.com/applitools/eyes-android-hello-world</a> </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Prerequisites</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I know you have looked into the GitHub repo. Let’s just get few more prerequisites installed and make sure they are ready to use and deep dive. Make sure you have installed and/or configured the following:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Java Installed</li><li>JAVA_HOME environment variable is set to the Java SDK path</li><li>Android Studio IDE</li></ul><!-- /wp:list --><!-- wp:paragraph --><p><strong>Installing the Android Studio</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Now let’s <a target="_blank" href="https://developer.android.com/studio" rel="noopener noreferrer">install Android Studio / SDK</a> so that you can run the test script on an emulator or real device. You could install the Android SDK only but then you have to do additional advanced steps to properly configure the Android environment on your computer. I highly recommend installing the Android Studio as it makes your life easier.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Download the  <a target="_blank" href="https://developer.android.com/studio" rel="noopener noreferrer"> Android Studio executable</a>. Follow the steps below to install locally on your computer:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="h.7ptp0u1d1w1g"><strong>Run the Visual UI Test locally</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>1. Get the code:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Option 1: git clone https://github.com/applitools/eyes-android-hello-world</li><li>Option 2: Download it as a <a target="_blank" href="https://github.com/applitools/eyes-android-hello-world/archive/master.zip" rel="noopener noreferrer">Zip file</a> and unzip it.</li></ul><!-- /wp:list --><!-- wp:paragraph --><p>2. Import the project into Android Studio</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":22029} -->
+<figure class="wp-block-image"></figure><!-- /wp:image --><!-- wp:heading --><h2 id="h.kcw16s1gbnbm"><strong>The Script</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Let’s look at the Instrumented test <strong>ExampleInstrumentedTest</strong> under androidTest.    </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a target="_blank" href="https://github.com/applitools/eyes-android-hello-world/blob/master/app/src/androidTest/java/com/applitools/helloworld/android/ExampleInstrumentedTest.java" rel="noopener noreferrer">https://github.com/applitools/eyes-android-hello-world/blob/master/app/src/androidTest/java/com/applitools/helloworld/android/ExampleInstrumentedTest.java</a></p>
+<!-- /wp:paragraph -->
+
+</div>
+<br>
+<br><a href="https://applitools.com/blog/validate-google-firebase/">Source link </a>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>What will performance engineering look like in 10 years? Check out our blog abou&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-will-performance-engineering-look-like-in-10-years-check-out-our-blog-abou/</link>
 		
@@ -45,7 +253,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-will-performance-engineering-look-like-in-10-years-check-out-our-blog-abou/</guid>
 
 					<description><![CDATA[What will performance engineering look like in 10 years? Check out our blog about the TOP 3 of major changes]]></description>
-										<content:encoded><![CDATA[
+										<content:encoded><![CDATA[<p></p>
 <p>What will performance engineering look like in 10 years? Check out our blog about the TOP 3 of major changes viewed by <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performanceengineering?refid=17&#038;_ft_=mf_story_key.3632046566806780%3Atop_level_post_id.3632046566806780%3Atl_objid.3632046566806780%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3632046566806780%3Apage_id.163354693676002%3Aphoto_id.3632046426806794%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598889179%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3632046566806780%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3632046566806780%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-1580006831143578337&#038;__tn__=%2As-R" rel="noopener noreferrer">#PerformanceEngineering</a> experts  <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3ivmvd1%3Ffbclid%3DIwAR0cpajMtiBFi31G1H4C_jEcvGlXqbvXuHZ_pf3uzcowgakj1_uaMR-gi2I&#038;h=AT0KRmuerQbuyDczTVB9nu0XbmG7Z61g9hP3oMR3esxTmHVCP73TDA8p-70ePjP9eJolaNdRjFaYY62dN4DiNrCMZZCQ6fG93iLeX9vs33iDUxMHDbGV71AUVYxQ1wfnFzCd9Cf47lY-FI-Rj26a8fxgSffMe466xZ5dY85rGfjt_Ygfp1BUjwcIS61FpzELG7MfdzLuZy17O3JdLmsVqz8modJn3k1VW-cpQIYxnLM--sTNwLgG09TDE2iIeNggPWWUAxIc2VqBAOXDVE5hLtVjinmFkn021Cn1ROqnT8eTe8eoesTuB2YuyIeBUr6SgqMyDRU7QkHKKUU3XSxw4Q2TmWjC7M5nuhgPPSDnYlFIzDxxcy8ZMygZXDfSZD-j58h7a9OkBldGWK-4IWQbzhQJRGRtwIPBKtFnFSYbokyz6GExlkqbVjDzgCurWStbCBND7v3ti2Tpqu6EZeoj0bGX4jIyeqKDAG7JswLoemwEO2UBUbSmy9fVknrl7Plur1J3JT6uSKtedk0lFh4Q696HS4dM23cQ6qgzDGjYDrDtkzsg8vsGSafl2WATpJ9YCiSJYfPj4872xK1so-bsDEXgldAncVkgk9svKZARZCmWcayG99Fo2ht8YW4CnGE0YeLkKLB9XJWX1jQuJ8M4OB_cyIcHCzy-E6oxAiwIuIp6ET4Fdt5WSSYx5GybPSuPkFuzTCO3qsXt08632Y58sEwxHk2rI8h7IW9q3EIAnjZOco0yvxqN1JnPtMWfLz-jP6mjl5L8rwXvnX30YOLEUkIVTX2gHpoO6k6reXqFrb685R20fj4_ezhoMH5rrQJlNWYxRIVHyw_-JOImI9puEv68OJ540gGC9fF47P7cbV7AMROuCtKWcWgl7DwkuC11BHC39OlfaLB3tYaIjbJ627bDGzq83ucoFfPHH7j_j6nHdTcJ8wIPoyfsxNEocD7eT3j8zXWm2LbRwGF0CDeADu98HXXNuUstLOrej7S_x1zPIGoecpMO50nY8ZexMDoU6f-3JMRXVaElO3lymjOmGyq1DUI6rD5436jrwcap3gX1Oi7J7fdsOhEfmnSjw_YC134WBzo7QtGMQlfAVZwlIewed8hul0XzlT85CNh8Zrf2LxLUnx0oKHGSJOgUmFXgSst4AQmnHY1RbT1fWHpGgTdXkHCmEgw44Pl1saCjljt2LuGesltZCpgX_DI_ibeU5yNjeSqWMorwjhqULw" rel="noopener noreferrer">https://bit.ly/3ivmvd1</a><br /><a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&#038;_ft_=mf_story_key.3632046566806780%3Atop_level_post_id.3632046566806780%3Atl_objid.3632046566806780%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3632046566806780%3Apage_id.163354693676002%3Aphoto_id.3632046426806794%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598889179%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3632046566806780%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3632046566806780%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-1580006831143578337&#038;__tn__=%2As-R" rel="noopener noreferrer">#perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&#038;_ft_=mf_story_key.3632046566806780%3Atop_level_post_id.3632046566806780%3Atl_objid.3632046566806780%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3632046566806780%3Apage_id.163354693676002%3Aphoto_id.3632046426806794%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598889179%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3632046566806780%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3632046566806780%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-1580006831143578337&#038;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a>
 </p>
 <p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/118714204_3632046430140127_7177170927830988959_o.jpg?_nc_cat=101&#038;_nc_sid=8024bb&#038;_nc_ohc=GKBombLuFI0AX8Maa1Y&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=e000c93e550a188e4affbffeb6eba8ec&#038;oe=5F736E32" rel="noopener noreferrer"></a><br />
@@ -77,8 +285,7 @@
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2633</guid>
 
 					<description><![CDATA[When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as how it aligns with your plans. The vendor landscape has solidified, and the market is competing vigorously for your business.</p>
 <p>Here are the top five technology and market trends in Enterprise Service Management (ESM), and recommendations from experts on how to make smart buying decisions and equip your teams with the skills they&#8217;ll need in the future. </p>
@@ -174,9 +381,7 @@
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
+<div class="author-block padding-bottom-xs"></div>
 <h2>The First Smartphone for Free-Ranging Kids</h2>
 <p>In an earlier article, we took a look at <a target="_blank" href="https://www.mcafee.com/blogs/consumer/smartphone-alternatives-for-free-ranging-kids/" rel="noopener noreferrer">smartphone alternatives for free-ranging kids</a>. Next up is the follow-on conversation … the time you give them their first, fully functional smartphone—and how to manage having it in your lives.</p>
 <p>For children, learning to use a first smartphone is just like learning to ride a bike. And that’s just as true for you just as it is for them.<br />When a child learns to ride a bike, they take it in steps and stages. Maybe they start tooling around on little kick-bikes, a tricycle, scooter, or so on, just to get their feet under them so to speak. Next, it’s that first bike with training wheels, and then the big day that they come off (complete with a few scrapes and bruises too). They’re on two wheels, and a whole new world has opened up for them—one that you have to monitor and parent as you give them increasing freedom to roam—from the block, to the neighborhood, to your town—as they grow older and more responsible.</p>
@@ -258,8 +463,7 @@ fbq('track', "PageView");</p>
 		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-ai-improves-microservices-testing-automation/</guid>
 
 					<description><![CDATA[Organizations that adopt artificial intelligence (AI) in testing of microservices-based applications gain better accuracy, faster results, and greater operational efficiency. AI and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+										<content:encoded><![CDATA[<p> </p>
 <div>
 <p>Organizations that adopt artificial intelligence (AI) in testing of microservices-based applications gain better accuracy, faster results, and greater operational efficiency.</p>
 <p>AI and machine-learning technologies have matured over the last few years, and today <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-ai-perfect-software-testing-assistant" rel="noopener noreferrer">their application in automated testing</a> can help in more ways than one. In fact, AI has redefined the way microservices-based applications are tested, especially when it comes to <a target="_blank" href="https://www.quora.com/What-is-canary-testing" rel="nofollow noopener noreferrer">canary testing</a>. </p>
@@ -396,108 +600,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Ten More Commandments Of Automation</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ten-more-commandments-of-automation/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Commandments]]></category>
-		<category><![CDATA[Ten]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ten-more-commandments-of-automation/</guid>
-
-					<description><![CDATA[Go ahead, search the interwebs. There are more posts and articles on “The Ten Commandments of Test Automation” than you]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Go ahead, search the interwebs. There are more posts and articles on “The Ten Commandments of Test Automation” than you can shake a test case at. Go ahead…I’ll wait.</p>
-<p>Welcome back!</p>
-<p>To set the stage, I have not read any of those articles. Well, more accurately, I’ve not read any of them recently; most of them I’ve not read at all. I probably read one or two of them in the “before times,” but I don’t remember any of the specific commandments. Any of the ones I didn’t already know and found appropriate, I probably absorbed into my learnings and approaches long ago. I make this point not to belittle the other posts, but to highlight them in the highly likely case that some of the following “commandments” have been stated before; I have not copied them and if I repeat them, I’m hoping to amplify them. I also want to introduce some ideas that you’ve not yet considered.</p>
-<p>As such, I will not be presenting THE Ten Commandments of Test Automation. Instead, I’ll be presenting Ten MORE Commandments of Test Automation. And away we go…</p>
-<h3>I &#8211; Thou shalt not only automate &#8220;from test cases&#8221;</h3>
-<p>There is a common misconception that automation for testing necessarily derives from test cases. The automators take an existing, or newly written, test case and turn it into an automated test script. This is called the automation drive-thru.</p>
-<p>While there can be value in this approach, other approaches can provide similar or better value. By <a target="_blank" href="https://responsibleautomation.wordpress.com/2016/12/02/automation-first-a-definition/" rel="noopener noreferrer">expanding the definition of automation</a> beyond test-case-tool-test-script to “the judicious application of technology to help humans do their jobs,” we can exploit the power of computers to do the tasks for which they are best suited, leaving the humans—the testers—to do the remaining tasks. Fortunately, much of what humans are good at, computers are bad at, and vice versa.</p>
-<h3>II &#8211; Thou shalt treat automation development as software development</h3>
-<p>Automation development <i>is</i> software development. Even if we are using a drag-and-drop or record-and-playback interface to create that automation, somewhere, in the stack, under the hood or behind the curtain, there is code sequenced by our actions. We must start treating our automation initiatives as software development initiatives, lest we end up in a quagmire of unsustainability and early project death.</p>
-<p>Treating it as software development means we must account for most, if not all, of the same activities and processes that application developers require. These include:</p>
-<ul>
-<li>
-<p>Design – we have to decide what to implement and how to implement it so that it’s maintainable and supportable.</p>
-</li>
-<li>
-<p>Implementation – we must write the code.</p>
-</li>
-<li>
-<p>Storage – the code and related artifacts need to be stored somewhere.</p>
-</li>
-<li>
-<p>Testing – Test the tests? Absolutely! We must have sufficient confidence that the automation behaves the way we want it to. If we don’t trust the automation, it’s useless.</p>
-</li>
-<li>
-<p>Bugs – All software has bugs; automation, being software, is no different. Testing will help but will not catch all bugs. Allow time in the schedule for bug fixes.</p>
-</li>
-<li>
-<p>Logs – Logs are the lifeline of automation. Without them, we can neither understand what the automation is doing nor fix automation when it’s broken. Additionally, we wouldn’t be able to tell when there’s an issue with the automation as opposed to when there is an issue with the software being tested.</p>
-</li>
-</ul>
-<h3>III &#8211; Thou shalt follow appropriate coding standards and idioms</h3>
-<p>In following with treating automation like software, we must incorporate appropriate implementation ideas in our implementations. Each tool or language has its own idioms and its own gotchas, but generally accepted approaches to design and implementation are usually appropriate. <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-stack-your-test-automations-deck" rel="noopener noreferrer">This article on encapsulation and abstraction</a> provides a sample implementation that can be fodder for other Implementations that are specific to our context.</p>
-<h3>IV &#8211; Thou shalt consider maintenance and upkeep</h3>
-<p>Software is neither perfect nor complete; this is no different for automation. There will be bugs. As the application we are testing is changing, we correspondingly need to change our automation. We can’t prevent these, but we can develop our software in ways that reduce the effort it takes to support and maintain automation software; we also must allocate time for these activities. <a target="_blank" href="https://techbeacon.com/app-dev-testing/dont-let-your-test-automation-get-rusty" rel="noopener noreferrer">This article</a> and <a target="_blank" href="https://responsibleautomation.wordpress.com/2017/11/15/maintaining-value-automations-forgotten-cost/" rel="noopener noreferrer">this blog post</a> shed some light on factors that are helpful when addressing anticipated maintenance.</p>
-<h3>V &#8211; Thou shalt not make scripts dependent upon each other</h3>
-<p>Creating a test script that is dependent upon another’s results is generally a strong anti-pattern. If scripts depend upon each other, they cannot be run singly, which makes debugging automation and app problems more time-consuming. Additionally, scripts that depend on other scripts cannot <a target="_blank" href="https://techbeacon.com/app-dev-testing/parallelizing-test-automation-read-first" rel="noopener noreferrer">run in parallel</a> with the scripts on which they depend.</p>
-<p>There is a corner case where having all other scripts depend on <b>the same, single script</b>; this single script generally performs some setup of the test environment, test data, etc. This case is increasingly rare when using the available automation and continuous deployment frameworks, but it still may be appropriate in cases where the available frameworks are not available or appropriate for a specific automation endeavor.</p>
-<h3>VI &#8211; Thou shalt emit appropriate logging and reports</h3>
-<p><a target="_blank" href="https://responsibleautomation.wordpress.com/2019/07/19/its-automation-logs-better-than-bad-theyre-good/" rel="noopener noreferrer">As described in this blog post</a>, appropriate logs, results, and error messages are critical to understanding, trusting, and maintaining automation. These logs are our detailed view into automation execution: what ran, how it ran, what failed, how it failed, how it succeeded, etc. That is, as long as we judiciously emit appropriate logs that deliver this information to us in a digestible manner.</p>
-<h3>VII &#8211; Thou shalt influence testability and automatability</h3>
-<p><i>Testability</i>, the extent to which an application or feature can be tested, and <i>automatability</i>, the extent to which testing-related activities can be performed by some automated mechanism, are not things that testers/QAs/QEs can implement, but certainly, they are things that we can influence. It’s incumbent on us to exert that influence. Developers don’t always know what we require to perform testing and to appropriately create automation. We must let them know. The blog posts <a target="_blank" href="https://responsibleautomation.wordpress.com/2020/07/09/how-am-i-going-to-test-this/" rel="noopener noreferrer">here</a> and <a target="_blank" href="https://responsibleautomation.wordpress.com/2020/07/21/searchiiiiiing-seek-and-locatebut-only-with-appropriate-attributes-for-automation/" rel="noopener noreferrer">here</a> give some insight into some aspects of testability and automatability.</p>
-<h3>VII &#8211; Thou shalt not succumb to the sunk cost fallacy</h3>
-<p>Sometimes, we make mistakes. Sometimes, they are big mistakes. We do our best with the information we have at the time, but it doesn’t always work out. When something in our plan goes awry, our instinct is to try to fix it, and to keep trying to fix it. Sometimes, however, we should just start over otherwise we run the risk of “throwing good money after bad.”</p>
-<p>This is called the <a target="_blank" href="https://en.wikipedia.org/wiki/Sunk_cost" rel="noopener noreferrer">sunk cost fallacy</a>. Simply put, this fallacy is the thinking that we’ve sunk so much money into an activity that we must spend more money to rehabilitate it and receive value for that money already spent or <i>sunk</i> into the endeavor.</p>
-<p>Perhaps we are emotionally invested in our software “baby”; we spent so much time and money on it we can’t bear to throw it away and start over. Perhaps we are afraid; our leadership probably won’t be thrilled if we want to throw away the work that’s been done and “repeat the same work.” We must work to view situations like these through our business lenses instead of strictly emotionally.</p>
-<h3>IX &#8211; Thou shalt beware of Rube Goldberg machines</h3>
-<p><a target="_blank" href="https://www.rubegoldberg.com/" rel="noopener noreferrer">Rube Goldberg</a> machines are complex machines that perform comparatively simple tasks, such as the <a target="_blank" href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine" rel="noopener noreferrer">Self-Operating Napkin</a>. In our automation world, building these kinds of machines can be a lot of fun and they can do very cool things, such as chaining unrelated tools together in order to complete a testing task. Their downsides include being hard to understand and maintain; we must take care not to create something that is more effort to maintain than it would be to do the automated task ourselves. <a target="_blank" href="https://responsibleautomation.wordpress.com/2017/06/12/mouse-trap/" rel="noopener noreferrer">This blog post</a> gives more details about automation Rube Goldberg machines; <a target="_blank" href="https://responsibleautomation.wordpress.com/2018/11/01/pop-quiz-hotshot-is-it-automated/" rel="noopener noreferrer">this post</a> gives some thoughts about the state of “being automated.”</p>
-<h3>X &#8211; Thou shalt not make test data depend on transient data</h3>
-<p>Recently, I came across a test script that, one day, just started failing. After some investigation, we determined the failure had happened because the month changed from July to August. The script had been written in a way that the oracle was checking for dates in July, which was just fine when the script was running in July; application being tested was returning dates in the current month, July. When the date changed to August, the application began return dates in August, causing the script to fail.</p>
-<p>In this case, instead of hardcoding dates in July, it would have been better to dynamically create the dates based on the current month.</p>
-<h3><b>About the Author</b></h3>
-<p>As a Principal Automation Architect at <a target="_blank" href="https://magenic.com/" rel="noopener noreferrer">Magenic</a>, Paul Grizzaffi provides technology solutions to testing and QA organizations, including automation assessments, implementations. He is also involved in activities that benefit the broader testing community. Paul is an accomplished keynote speaker and writer who has presented at local and national conferences and meetings. He is an advisor to Software Test Professionals and STPCon, as well as a member of the Industry Advisory Board of the Advanced Research Center for Software Testing and Quality Assurance (STQA) at UT Dallas, where he is a frequent guest lecturer.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/ten-more-commandments-of-automation">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cisco Patches ‘High-Severity’ Bugs Impacting Switches, Fibre Storage</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cisco-patches-high-severity-bugs-impacting-switches-fibre-storage/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 26 Aug 2020 20:03:48 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Cisco]]></category>
-		<category><![CDATA[Fibre]]></category>
-		<category><![CDATA[HighSeverity]]></category>
-		<category><![CDATA[Impacting]]></category>
-		<category><![CDATA[Patches]]></category>
-		<category><![CDATA[Storage]]></category>
-		<category><![CDATA[Switches]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cisco-patches-high-severity-bugs-impacting-switches-fibre-storage/</guid>
-
-					<description><![CDATA[Nine bugs were patched, eight of which are rated ‘high’ severity. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Nine bugs were patched, eight of which are rated ‘high’ severity.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cisco-high-severity-bugs-impact-switches-fibre-storage/158691/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -506,5 +608,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-02 05:38:15 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-02 21:01:18 by W3 Total Cache
 -->
