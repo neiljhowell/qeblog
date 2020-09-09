@@ -437,6 +437,109 @@ WebDriver driver = new ChromeDriver();
 		
 			</item>
 		<item>
+		<title>Overcome 7 Selenium Challenges with TestProject&#8217;s Smart Recorder</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/overcome-7-selenium-challenges-with-testprojects-smart-recorder/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2020 04:17:07 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[challenges]]></category>
+		<category><![CDATA[Overcome]]></category>
+		<category><![CDATA[Recorder]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Smart]]></category>
+		<category><![CDATA[TestProjects]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/overcome-7-selenium-challenges-with-testprojects-smart-recorder/</guid>
+
+					<description><![CDATA[Selenium is by far the most popular open source automation framework for functional testing of web applications, with over 81%]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">Selenium is by far the most popular open source automation framework for functional testing of web applications, with over 81% of respondents using it, according to our </span><a target="_blank" href="https://www.tricentis.com/state-of-open-source-2020/" rel="noopener noreferrer"><span style="font-weight: 400;">State of Open Source Testing 2020 Report</span></a><span style="font-weight: 400;">. While many users find it easy to get going with Selenium, they can often get tripped up with more complex test scenarios, which cannot be handled easily. </span><span style="font-weight: 400;">In our experience working with tens of thousands of different web applications, we have found that the most common challenges in automating with <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a> on its own include the following: </span></p>
+<h2><strong>Selenium Challenges</strong></h2>
+<ol>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#dynamic-elements" rel="noopener noreferrer"><span style="font-weight: 400;">Dynamic Elements</span></a></li>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#iframes" rel="noopener noreferrer"><span style="font-weight: 400;">iFrames</span></a></li>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#hover-menus" rel="noopener noreferrer"><span style="font-weight: 400;">Hover Menus</span></a></li>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#popups" rel="noopener noreferrer"><span style="font-weight: 400;">PopUps</span></a></li>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#waits-timeouts" rel="noopener noreferrer"><span style="font-weight: 400;">Waits and Timeouts</span></a></li>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#browser-variations" rel="noopener noreferrer"><span style="font-weight: 400;">Browser Variations</span></a></li>
+<li style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/#tabs-windows" rel="noopener noreferrer"><span style="font-weight: 400;">Testing Across Tabs/Windows</span></a></li>
+</ol>
+<p><span style="font-weight: 400;">For a variety of different reasons, these obstacles can slow down <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener noreferrer">Selenium testing</a>, or even bring it to a halt in many cases. In other cases, users must invest heavily in complex coding which can be difficult to maintain in many scenarios.</span></p>
+<p><span style="font-weight: 400;">Fortunately, <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> has focused attention and effort on these scenarios, adding <a target="_blank" href="https://blog.testproject.io/2020/08/25/testprojects-smart-recorder-adds-ai-powered-self-healing-technology/" rel="noopener noreferrer">AI powered Self Healing technology in its latest release of the Smart Recorder</a>. Since TestProject is built on top of Selenium, you can get the benefits of Selenium with additional features to overcome the most common and difficult Selenium challenges, and all 100% for free.</span></p>
+<p style="text-align: center;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://tricentis.zoom.us/webinar/register/4215982050225/WN_cFZ1QDBjTeuflM2kwaOKCw" rel="noopener noreferrer"><strong>Join TestProject’s CTO Eldar Kravetsky for a LIVE demo of these new capabilities – Hurry up &#038; Register!</strong></a> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><span style="font-weight: 400;">Let’s explore the most common Selenium challenges, and understand how TestProject’s new enhancements can assist in overcoming these challenges with ease. </span></p>
+<p><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> In all the examples below, we used <a target="_blank" href="https://www.salesforce.com/" rel="noopener noreferrer">Salesforce</a> application, demonstrating how TestProject’s Smart Recorder seamlessly overcomes these common Selenium challenges, even while automating such a complex application as Salesforce!</p>
+<h2><strong><a target="_blank" id="dynamic-elements" rel="noopener noreferrer">Dynamic Elements</strong></h2>
+<p><b>What is it? </b><span style="font-weight: 400;">Elements that change locators with each page load. Oftentimes, it is the ID that changes, as it is generated dynamically on each page load. Dynamic elements are common in many of the more complex packaged applications such as Salesforce and SAP Fiori.</span></p>
+<p><b>Why is it a problem? <span style="font-weight: 400;">Changing locators means that whatever static locator was implemented in the original test case will most likely fail to execute in a later execution, since the locator will be different after a fresh page load. This means the test may be unable to complete any step where a dynamic element is present, creating many false positives in its wake. </span></b></p>
+<p><strong>How TestProject can help?</strong> <span style="font-weight: 400;"><a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> offers its AI-powered Smart Recorder, which can use Self-Healing technology to update locator strategies when dynamic elements change locators.  Better yet, TestProject will update to a more robust locator strategy, so your test will run smoothly in subsequent executions.</span></p>
+</p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13764 size-full" title="TestProject's Smart Recorder Dealing with Dynamic Elements" src="https://blog.testproject.io/wp-content/uploads/2020/08/1-4.png" alt="TestProject's Smart Recorder Dealing with Dynamic Elements" width="1920" height="1030" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/1-4.png 1920w, https://blog.testproject.io/wp-content/uploads/2020/08/1-4-512x275.png 512w, https://blog.testproject.io/wp-content/uploads/2020/08/1-4-768x412.png 768w, https://blog.testproject.io/wp-content/uploads/2020/08/1-4-1024x549.png 1024w" sizes="(max-width: 1920px) 100vw, 1920px"/></noscript></p>
+<h2><strong><a target="_blank" id="iframes" rel="noopener noreferrer">iFrames</strong></h2>
+<p><b>What is it? <span style="font-weight: 400;">An iFrame is basically a webpage within another webpage. They are commonly used in more complex packaged applications like Salesforce and SAP. Additionally, they are a popular way of embedding 3rd party content (like ads) into a webpage.</span></b></p>
+<p><strong>Why is it a problem? </strong><span style="font-weight: 400;">Working with iFrames using Selenium is not an easy task. You must build sound logic using code to select the right frame to interact with. Otherwise, Selenium will fail to find your locator, since it is looking in the wrong place to begin with.  </span></p>
+<p><b>How TestProject can help? </b><span style="font-weight: 400;"><a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>’s Smart Recorder can handle iFrames with ease. Simply click through your test scenario normally as any user would, and TestProject’s AI will handle all of the frame switching and complex logic creation for you.</span></p>
+<p><strong>See it in action <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><img loading="lazy" class="alignnone wp-image-13765 size-full" title="TestProject's Smart Recorder Dealing with iFrames" alt="TestProject's Smart Recorder Dealing with iFrames" width="1920" height="1030" src="https://blog.testproject.io/wp-content/uploads/2020/08/2.gif"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13765 size-full" title="TestProject's Smart Recorder Dealing with iFrames" src="https://blog.testproject.io/wp-content/uploads/2020/08/2.gif" alt="TestProject's Smart Recorder Dealing with iFrames" width="1920" height="1030"/></noscript></p>
+<h2><strong>Hover Menus</strong></h2>
+<p><b>What is it? <span style="font-weight: 400;">Menus that only appear when you put your cursor over them.  For example, when browsing an e-commerce site, there might be a menu where you can hover your cursor over a menu and a dropdown of options will appear.</span></b></p>
+<p><strong>Why is it a problem? </strong><span style="font-weight: 400;">Hovering over an area on the screen is nearly impossible with Selenium, and often the cursor will move too quickly to allow the menu to drop down properly and be interacted with. Because of this, the test will often fail when unable to find the element needed, causing additional false positives in your report.</span></p>
+<p><strong>How TestProject can help?</strong> <span style="font-weight: 400;">With <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>’s Self-Healing, we can learn how to interact with your elements, even if they aren’t visible to the human eye or tools like Selenium. TestProject’s AI will automatically attempt JavaScript clicks to click the element, even if it’s not visible – meaning your test can still execute and return an accurate result.</span></p>
+<p><strong>See it in action <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><img loading="lazy" class="alignnone wp-image-13774 size-full" title="TestProject's Smart Recorder Dealing with Hover Menus" alt="TestProject's Smart Recorder Dealing with Hover Menus" width="1900" height="910" src="https://blog.testproject.io/wp-content/uploads/2020/08/3-1.gif"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13774 size-full" title="TestProject's Smart Recorder Dealing with Hover Menus" src="https://blog.testproject.io/wp-content/uploads/2020/08/3-1.gif" alt="TestProject's Smart Recorder Dealing with Hover Menus" width="1900" height="910"/></noscript></p>
+<h2><strong>PopUps</strong></h2>
+<p><b>What is it? <span style="font-weight: 400;">We all know these pesky intruders that can show up at inopportune moments and frustrate you while using your app.</span></b></p>
+<p><strong>Why is it a problem?</strong> <span style="font-weight: 400;">While popups may only provide a minor annoyance to a human user, they can bring test automation tools completely to a halt. When they show up unexpectedly, popups can make the rest of the page unreachable, stopping the test in its tracks. To make matters worse, testers will often build steps to close the popup window explicitly, only to have that popup not appear – and the test fails for that reason.</span></p>
+<p><strong>How TestProject can help?</strong> <span style="font-weight: 400;">With <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>’s ClickifVisible command, you can train TestProject to use its AI to overcome popup annoyances. These flexible test arguments allow TestProject to close popups when they show up, but simply move on and keep executing the test when they don’t.</span></p>
+<p><strong>See it in action <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><img loading="lazy" class="alignnone wp-image-13768 size-full" title="TestProject's Smart Recorder Dealing with PopUps" alt="TestProject's Smart Recorder Dealing with PopUps" width="1920" height="1030" src="https://blog.testproject.io/wp-content/uploads/2020/08/4.gif"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13768 size-full" title="TestProject's Smart Recorder Dealing with PopUps" src="https://blog.testproject.io/wp-content/uploads/2020/08/4.gif" alt="TestProject's Smart Recorder Dealing with PopUps" width="1920" height="1030"/></noscript></p>
+<h2><strong><a target="_blank" id="waits-timeouts" rel="noopener noreferrer">Waits and Timeouts</strong></h2>
+<p><b>What is it? <span style="font-weight: 400;">Waits are the length of time (in seconds or milliseconds) which Selenium will wait in between executing commands against an application. Related to waits are timeouts, which are general thresholds of time after which point if something hasn’t happened, a test step will fail. </span></b></p>
+<p><strong>Why is it a problem?</strong> <span style="font-weight: 400;">One of the major drawbacks of Selenium vs. some of the newer test frameworks is the way it handles waits and timeouts. Essentially, the user needs to explicitly define the wait time. Problems arise because the application rarely has the same page load speed on each test run. Inevitably, the test will be waiting for too long (meaning testing takes longer), or not long enough (meaning the test fails and creates a false positive).</span></p>
+<p><strong>How TestProject can help?</strong> <span style="font-weight: 400;"><a target="_blank" href="https://blog.testproject.io/2020/05/04/testproject-adaptive-wait-capability/" rel="noopener noreferrer">TestProject’s Adaptive Wait</a> functionality brings AI to the table to solve challenges around waits and timeouts. With this feature, you can set a maximum time allowable to wait, which will never be exceeded.  However, TestProject’s AI will continually try to perform the action before the wait time is exceeded. If the action can be performed earlier, it will be – saving you precious time without incurring any additional false positives.</span></p>
+<p><strong>See it in action <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><img loading="lazy" class="alignnone wp-image-13769 size-full" title="TestProject's Smart Recorder Dealing with Waits and Timeouts" alt="TestProject's Smart Recorder Dealing with Waits and Timeouts" width="1920" height="1030" src="https://blog.testproject.io/wp-content/uploads/2020/08/5.gif"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13769 size-full" title="TestProject's Smart Recorder Dealing with Waits and Timeouts" src="https://blog.testproject.io/wp-content/uploads/2020/08/5.gif" alt="TestProject's Smart Recorder Dealing with Waits and Timeouts" width="1920" height="1030"/></noscript></p>
+<h2><strong><a target="_blank" id="browser-variations" rel="noopener noreferrer">Browser Variations</strong></h2>
+<p><b>What is it? <span style="font-weight: 400;">Any experienced automation engineer has run into this scenario before – where the test works perfectly in one browser, only to fail minutes later when tested against another browser version or type.</span></b></p>
+<p><strong>Why is it a problem?</strong> <span style="font-weight: 400;"> Cross browser compatibility is a must in today’s age, and is one of the major benefits of Selenium. However, maintaining a separate version of each test for every browser is impossible and would lead to endless test maintenance.</span></p>
+<p><strong>How TestProject can help?</strong> <span style="font-weight: 400;">When locators change slightly from one browser to the next, <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>’s AI will step in and choose more appropriate locator strategies to ensure your tests continue to run smoothly. Plus, TestProject’s integrations to <a target="_blank" href="https://docs.testproject.io/testproject-integrations/sauce-labs-integration" rel="noopener noreferrer">Sauce Labs</a> and <a target="_blank" href="https://docs.testproject.io/testproject-integrations/browserstack-integration" rel="noopener noreferrer">BrowserStack</a> allow you to quickly run your web tests against 1,000’s of browser variations in seconds.</span></p>
+<p><strong>See it in action <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><img loading="lazy" class="alignnone wp-image-13775 size-full" title="TestProject's Smart Recorder Dealing with Browser Variations" alt="TestProject's Smart Recorder Dealing with Browser Variations" width="1900" height="989" src="https://blog.testproject.io/wp-content/uploads/2020/08/6-2.gif"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13775 size-full" title="TestProject's Smart Recorder Dealing with Browser Variations" src="https://blog.testproject.io/wp-content/uploads/2020/08/6-2.gif" alt="TestProject's Smart Recorder Dealing with Browser Variations" width="1900" height="989"/></noscript></p>
+<h2><strong><a target="_blank" id="tabs-windows" rel="noopener noreferrer">Testing Across Tabs/Windows</strong></h2>
+<p><b>What is it? <span style="font-weight: 400;">It is common in today’s complex application landscape to need to complete a test which traverses multiple browser tabs or even windows. Oftentimes, you may need to interact with multiple sites as well, validating that information has flowed properly from one system to another. </span></b></p>
+<p><strong>Why is it a problem?</strong> <span style="font-weight: 400;">Maintaining the state of a browser and user data across multiple tabs or windows can be a monumental task. Especially when it comes to record and playback solutions, they are often confined to a single browser tab, making it impossible to capture these complex scenarios properly.</span></p>
+<p><b>How TestProject can help? </b><span style="font-weight: 400;"><a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>’s can use its AI to traverse multiple tabs and windows, while maintaining the state of the test and transferring test data. Even TestProject’s Smart Recorder can keep up in these scenarios – allowing you to leverage record and playback approaches in even the most tricky situations.</span></p>
+<p><strong>See it in action <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><img loading="lazy" class="alignnone wp-image-13770 size-full" title="TestProject's Smart Recorder Dealing with Testing Across Tabs/Windows" alt="TestProject's Smart Recorder Dealing with Testing Across Tabs/Windows" width="1920" height="1030" src="https://blog.testproject.io/wp-content/uploads/2020/08/7.gif"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13770 size-full" title="TestProject's Smart Recorder Dealing with Testing Across Tabs/Windows" src="https://blog.testproject.io/wp-content/uploads/2020/08/7.gif" alt="TestProject's Smart Recorder Dealing with Testing Across Tabs/Windows" width="1920" height="1030"/></noscript></p>
+<p><span style="font-weight: 400;">So, we can see that TestProject’s new Smart Recorder features can be a huge help to us in expanding our automation coverage and negotiating the most difficult web applications we test. We’d encourage you to try out these new features for yourself to see how you fare with this exciting new offering and overcome these common Selenium challenges with ease! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<p><span style="font-weight: 400;">Simply follow these steps to get started with TestProject’s Smart Recorder:</span></p>
+<ol>
+<li style="font-weight: 400;"><a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer"><span style="font-weight: 400;">Create a free TestProject account</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Follow the wizard to Record a Codeless Test</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Download and install the TestProject agent</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Choose to create a new test</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Record your scenario using TestProject’s Smart Recorder!</span></li>
+</ol>
+<p><span style="font-weight: 400;">If you have any questions, feedback, or need help getting started, please don’t hesitate to </span><a target="_blank" href="https://testproject.io/contact-us/" rel="noopener noreferrer"><span style="font-weight: 400;">contact us</span></a><span style="font-weight: 400;">, we’re always happy to assist you.</span></p>
+<p style="text-align: center;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://tricentis.zoom.us/webinar/register/4215982050225/WN_cFZ1QDBjTeuflM2kwaOKCw" rel="noopener noreferrer"><strong>Join TestProject’s CTO Eldar Kravetsky for a LIVE demo of these new capabilities – Hurry up &#038; Register!</strong></a> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><span style="font-weight: 400;">Happy testing! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /></span><span style="font-weight: 400;">TestProject Team</span></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/09/01/overcome-7-selenium-challenges-with-testprojects-smart-recorder/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>What will performance engineering look like in 10 years? Check out our blog abou&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-will-performance-engineering-look-like-in-10-years-check-out-our-blog-abou/</link>
 		
@@ -650,77 +753,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>How AI improves microservices testing automation</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-ai-improves-microservices-testing-automation/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 28 Aug 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Automation]]></category>
-		<category><![CDATA[improves]]></category>
-		<category><![CDATA[microservices]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-ai-improves-microservices-testing-automation/</guid>
-
-					<description><![CDATA[Organizations that adopt artificial intelligence (AI) in testing of microservices-based applications gain better accuracy, faster results, and greater operational efficiency. AI and]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>Organizations that adopt artificial intelligence (AI) in testing of microservices-based applications gain better accuracy, faster results, and greater operational efficiency.</p>
-<p>AI and machine-learning technologies have matured over the last few years, and today <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-ai-perfect-software-testing-assistant" rel="noopener noreferrer">their application in automated testing</a> can help in more ways than one. In fact, AI has redefined the way microservices-based applications are tested, especially when it comes to <a target="_blank" href="https://www.quora.com/What-is-canary-testing" rel="nofollow noopener noreferrer">canary testing</a>. </p>
-<p><a target="_blank" href="https://content.microfocus.com/ai-test-automation-tb/why-ai-in-testing-matters?lx=gd1AjL&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">The introduction of AI in software testing </a>helps both developers and testers alike. It improves accuracy; the same steps can be performed accurately every time they&#8217;re needed. Automated testing can increase both the depth and scope of your tests, resulting in more thorough overall test coverage. You can also leverage AI to simulate a large number of users interacting with your application.</p>
-<p>Here&#8217;s how AI-enabled automation can help you test as you <a target="_blank" href="https://techbeacon.com/app-dev-testing/challenges-scaling-microservices" rel="noopener noreferrer">scale microservices-based applications</a>, as well as the challenges you&#8217;ll face and effective strategies you can adopt to overcome them. </p>
-<h3>Why traditional testing strategies don&#8217;t work</h3>
-<p>Traditionally, when creating monolithic applications, you&#8217;d test each unit of code <a target="_blank" href="https://techbeacon.com/app-dev-testing/catch-more-bugs-how-produce-unit-tests-real-time" rel="noopener noreferrer">with unit tests</a>. As different components of the application are joined together, you typically test your application using integration testing first and, usually, system testing, regression testing, and user acceptance testing follow.</p>
-<p>If the code passes all of these tests, the release goes out.</p>
-<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/3-non-negotiable-tests-microservices-distributed-app-environments" rel="noopener noreferrer">Testing microservices-based applications</a> is not an easy task and is not the same as testing monoliths; you must be aware of not only the service you are testing but also its dependencies—the services that work with the services under test. </p>
-<p>Owing to the granular nature of microservices architecture, boundaries that were previously hidden in a traditional application are exposed. You might have several different teams spread across geographical distances working simultaneously on different services; this makes coordination extremely challenging. It can be difficult to find a particular time window to perform end-to-end testing of the application as a whole.</p>
-<p>The distributed nature of microservices-based development poses many challenges to testing your application. These include:</p>
-<ul>
-<li><strong>Availability:</strong> Because of the distributed nature of microservices architecture, it is difficult to find a time when all microservices are available.</li>
-<li><strong>Isolation:</strong> Microservices are designed to work in isolation together with other loosely coupled services. This implies that you should be able to test every component in isolation as well as testing them together.</li>
-<li><strong>Knowledge gap:</strong> You should possess a strong knowledge of each microservice; this would help you to write effective test cases.</li>
-<li><strong>Data:</strong> Each microservice can have its own copy of data. In other words, each can have its own copy of the database, which may be different from another microservice&#8217;s copy. As a result, data integrity poses a challenge.</li>
-<li><strong>Transactionality:</strong> Unlike with a monolith, where transactionality is often assured at the database level, implementing transactionality between different microservices is challenging, because a transaction can consist of various service calls spread across different servers.</li>
-</ul>
-<p>Typically, a microservices-based application consists of several services, each of which can dynamically scale up if needed. There is also a risk of failure and the cost of fixing bugs or <a target="_blank" href="https://techbeacon.com/app-dev-testing/integration-tests-dont-cut-it-microservices-heres-what-does" rel="noopener noreferrer">issues after integration</a>. Hence, you should have an effective test strategy in place for testing microservices-based applications. </p>
-<h4>How to build an effective testing strategy</h4>
-<p>To build an automated <a target="_blank" href="https://techbeacon.com/app-dev-testing/3-non-negotiable-tests-microservices-distributed-app-environments" rel="noopener noreferrer">testing process for a microservices-based application</a>, you should follow the same best practices you would for any other type of testing:</p>
-<ul>
-<li> Understand the customer&#8217;s expectations as far as test automation is concerned.</li>
-<li><a target="_blank" href="https://techbeacon.com/app-dev-testing/how-qa-teams-can-build-culture-quality-8-key-routes" rel="noopener noreferrer">Set quality goals</a>—and adhere to them.</li>
-<li>Analyze the testing types that are right for you to achieve the goals.</li>
-<li>Write tests according to the test pyramid (i.e., considering that the cost of the tests increases as you move up the pyramid).</li>
-</ul>
-<h3>AI-driven test automation: Embrace innovation</h3>
-<p>Today&#8217;s software testers can <a target="_blank" href="https://techbeacon.com/app-dev-testing/ai-revolution-software-testings-new-best-friend" rel="noopener noreferrer">take advantage of AI</a> for test creation, test execution, and data analysis by using natural-language processing and advanced modeling techniques. <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-ai-perfect-software-testing-assistant" rel="noopener noreferrer">AI-based sofware testing can help</a> by increasing efficiency, facilitating faster releases, improving test accuracy and coverage, and allowing for easier test maintenance, particularly when it comes to managing your test data. </p>
-<p>For efficient test maintenance, you need to know <a target="_blank" href="https://techbeacon.com/app-dev-testing/want-effective-test-automation-devops-manage-your-test-data" rel="noopener noreferrer">what is happening to your data</a> at the time of test creation. Inadequate data modeling is one reason why test maintenance fails, becoming a bottleneck in your deployment pipeline. AI can help with efficient data modeling and with root-cause analysis.</p>
-<p>Repeating tests manually each time the source code changes can be time-consuming and costly. Once you create automated tests, you execute them repeatedly and quickly with no additional cost.</p>
-<h3>Use AI for canary testing</h3>
-<p>Canary testing helps reduce risks by gradually rolling out the changes to a small group of users before presenting it to a larger audience—and it is particularly useful in the testing of microservices-based applications. In a typical application, the changes to microservices happen independently of one another, so those microservices need to be verified independently as well.</p>
-<p>AI can help automate canary testing of microservices-based applications. You can take advantage of AI concepts such as deep learning to identify the changes in the new code and the issues within it. AI can be used to compare the experience of the small group of users with that of the existing users, and this can be done automatically; you don&#8217;t need any human intervention in the loop.</p>
-<h3>Challenges in AI-based microservices testing</h3>
-<p>AI-based testing does have some constraints. While you can automate functional and unit tests, it is quite difficult to automate integration tests, because of complexity.</p>
-<p>Some of the other challenges in AI-based testing include the following: </p>
-<h4>Skills</h4>
-<p>Testing microservices-based applications with an AI-based approach requires extensive technical expertise from testers, and is very different from what manual or automation testers are used to. Testers should be adept at how to use AI-based tools specifically for microservices-based applications. </p>
-<h4>Use cases </h4>
-<p>Learn how to determine the best use cases for using AI in microservices test automation. One is to use AI for creating your unit tests. You can take advantage of AI to perform static code analysis and determine the portions of code that are not covered by your unit tests.</p>
-<p>You can also use AI to update unit tests as soon as the source code changes, as well as for test creation, execution, data analysis, and API testing in microservices-based applications.</p>
-<p>AI can help you understand the patterns and relationships in API calls and come up with more advanced patterns and inputs for testing the API. You can leverage an AI-powered continuous testing process to more efficiently detect the controls that have changed.</p>
-<h3>AI-based testing can&#8217;t do everything</h3>
-<p>AI-based test automation of microservices can create more reliable tests, and in so doing slash the time needed for test creation, maintenance, and analysis. Such tests can in turn be used to check the service-to-service communication, test communication paths, etc.</p>
-<p>You can also leverage deep-learning models and other AI techniques to empower your team to build tests faster and execute them at scale in the cloud.</p>
-<p>Adopting AI for microservices test automation is no panacea. It won&#8217;t magically eliminate all problems associated with software testing. But it can help you make your software testing process smarter, more efficient, and faster—and thereby deliver business value consistently.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/how-ai-improves-microservices-testing-automation">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -729,5 +761,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-08 21:01:27 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-09 05:38:29 by W3 Total Cache
 -->
