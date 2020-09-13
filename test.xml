@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 09 Sep 2020 16:58:53 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Sep 2020 20:22:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,129 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Migrating to Selenium 4: Here’s What Has Changed</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/migrating-to-selenium-4-heres-what-has-changed/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 10 Sep 2020 20:22:47 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Changed]]></category>
+		<category><![CDATA[Heres]]></category>
+		<category><![CDATA[Migrating]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/migrating-to-selenium-4-heres-what-has-changed/</guid>
+
+					<description><![CDATA[A guide to notable changes and deprecations for engineers looking to migrate from Selenium 3 to Selenium 4. There is]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<h2 id="h.trd73uc0493p">A guide to notable changes and deprecations for engineers looking to migrate from Selenium 3 to Selenium 4.</h2>
+<p>There is huge excitement within the testing community since Simon Stewart, the lead of the Selenium project, announced the release of Selenium 4 with major changes and W3C standardization to the Selenium suite (Selenium IDE, Selenium WebDriver and Selenium Grid) during the official <a target="_blank" href="https://www.youtube.com/watch?v=ypmrrJmgM9U" rel="noopener noreferrer">Selenium Conference</a> 2018 at Bangalore, India.</p>
+<p>As of early September 2020, the <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">alpha version of Selenium 4</a> is available and can be downloaded to explore.</p>
+<p>Manoj Kumar has already explained at a high level <a target="_blank" href="https://applitools.com/blog/selenium-4/" rel="noopener noreferrer">what’s new in Selenium 4</a>, and in this weekly blog series, we will discuss these features in detail with code snippets, benefits and possible use cases for the end users and well as the dev community who have built tools/products on top of Selenium.</p>
+<p id="h.zac1ehcvyxfv">Key takeaways</p>
+<ul>
+<li>Understand the deprecated components and their replacements</li>
+<li>Plan the migration from Selenium 3 to 4</li>
+</ul>
+<p>Selenium is a toolset for web browser automation that allows us to remotely control browser instances and emulate a user’s interaction with the browser. There are many changes in Selenium 4, the major being the W3C standardization, which implies that Selenium can be integrated with any software without any compatibility issues. Along with W3C standardization, there are few new methods added and deprecated/replaced.</p>
+<p>Let’s discuss these in detail.</p>
+<p>There are a couple of deprecations in Selenium 4. Let’s explore them.</p>
+<h2 id="h.q3klgov012qo">FindsBy</h2>
+<p>FindsBy interfaces are part of org.openqa.selenium.internal package having findElement(By) and findElements(By) methods, implemented by the RemoteWebDriver class. These are now deprecated as part of Selenium 4.</p>
+<p>This is an internal change and does not impact end users, however if you have a product or tool built on top of Selenium APIs, have a look into these changes.</p>
+<p>The By class can be used with findElement(By) and findElements(By) just like before.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/0c2e9174680b510315f3feb24c9d4366.js</p>
+</div>
+<h2 id="h.jg0o7c8ahn0b">Actions</h2>
+<p>The <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/interactions/Actions.html" rel="noopener noreferrer">Actions</a> class is a user-facing API for emulating complex user gestures like hovering, mouse movements, etc.</p>
+<p>A few new methods have been added to the Actions class as a replacement of the classes under package org.openqa.selenium.interactions:</p>
+<h3 id="h.mj2yxzjlz2t2">click</h3>
+<p>A new method click(WebElement) is added to Actions class and is a replacement of moveToElement(onElement).click() and is used to click on an element.</p>
+<h3 id="h.2mygl0gk2upp">clickAndHold</h3>
+<p>Similarly, clickAndHold(WebElement) is used to click on an element without releasing and should be used as an replacement of moveToElement(onElement).clickAndHold()</p>
+<h3 id="h.2qa0whoeiwd">contextClick</h3>
+<p>contextClick(WebElement) is a replacement of moveToElement(onElement).contextClick() which was used to right click on an element.</p>
+<h3 id="h.wmeymwc5pkoq">doubleClick</h3>
+<p>doubleClick(WebElement) is used to double click on an element and is a replacement of moveToElement(element).doubleClick().</p>
+<h3 id="h.tusoyvtzya5w">release</h3>
+<p>release() is used to release the depressed left mouse button at the current mouse location. This was earlier part of org.openqa.selenium.interactions.ButtonReleaseAction class, and is now moved to Actions class.</p>
+<h3 id="h.4s0zg88lo54k">Examples</h3>
+<p>The below example demonstrates the usage of Actions methods discussed in Selenium 3 from line 17 to 33.</p>
+<p>These methods can be replaced as shown in the below code snippet as part of Selenium 4 implementation from line 37 to 53.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/8e5a355017397ad12fd45d0819304ea5.js</p>
+</div>
+<h2 id="h.fcin1oerapqt">FluentWait</h2>
+<p>The methods withTimeout() and pollingEvery() from FluentWait class have been changed. Now both methods accept a single parameter java.time.Duration in replacement of two parameters int and TimeUnit. Lets see the usages.</p>
+<p>In the Selenium 3 example below, we see on line 6, the pollingEvery() method takes two parameters int and TimeUnit and can be imported from the package java.util.concurrent.TimeUnit. On line 7, withTimeout() also accepts int and TimeUnit as parameters.</p>
+<p>Selenium 4 has replaced the TimeUnit with Duration and here is the sample code snippet demonstrating it. On line 12, pollingEvery() method now accepts only one parameter, Duration.</p>
+<p>The Duration class can be imported from the java.time package and has methods to represent time duration in nano, millis, seconds, minutes, hours, days and so on.</p>
+<p>In our example we have used ofMillis(int) and ofSeconds(int) methods.</p>
+<p>Similarly, on line 14 withTimeout() method accepts Duration as a parameter.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/cce2da71e0eca5e4240dc88009a2018a.js</p>
+</div>
+<h2 id="h.ldz60qiklzam">Driver Constructors</h2>
+<p>A couple of driver constructors have been deprecated. Namely, the ones that accepted Capabilities objects have been replaced with ones that accept Options.</p>
+<p>This means you will need to create a specific Options object for whichever Driver class you’re using, set your requirements and pass this object to the Driver constructor.</p>
+<p>Examples for each of the drivers can are below</p>
+<h3 id="h.9xw0f7uoe1lc">ChromeDriver</h3>
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"></figure>
+</div>
+<p>ChromeDriver(Capabilities) is replaced by ChromeDriver(ChromeOptions).</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/299f79a81a4b7a2aef42057479d2abc9.js</p>
+</div>
+<h3 id="h.k40sacmlav7s">SafariDriver</h3>
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/Safari.jpg" alt="" class="wp-image-22560" width="193" height="193" srcset="https://applitools.com/wp-content/uploads/2020/09/Safari.jpg 1024w, https://applitools.com/wp-content/uploads/2020/09/Safari-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/09/Safari-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/09/Safari-768x768.jpg 768w, https://applitools.com/wp-content/uploads/2020/09/Safari-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/09/Safari-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/09/Safari-30x30.jpg 30w, https://applitools.com/wp-content/uploads/2020/09/Safari-462x462.jpg 462w, https://applitools.com/wp-content/uploads/2020/09/Safari-216x216.jpg 216w" sizes="(max-width: 193px) 100vw, 193px"/></figure>
+</div>
+<p>SafariDriver(Capabilities) is replaced by SafariDriver(SafariOptions).</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/7ef2257901d3a58414bde8f744bcafff.js</p>
+</div>
+<h3 id="h.i0cgkpmujnw0">EdgeDriver</h3>
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge.jpeg" alt="" class="wp-image-22563" width="210" height="210" srcset="https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge.jpeg 225w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-150x150.jpeg 150w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-200x200.jpeg 200w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-90x90.jpeg 90w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-30x30.jpeg 30w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-216x216.jpeg 216w" sizes="(max-width: 210px) 100vw, 210px"/></figure>
+</div>
+<p>EgdeDriver(Capabilities) is replaced by EdgeDriver(EdgeOptions).</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/a1bb74945909ad296f8932a4d3c6aefb.js</p>
+</div>
+<h3 id="h.18alrxmvceat">FirefoxDriver</h3>
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/firefox.jpg" alt="" class="wp-image-22564" width="165" height="165" srcset="https://applitools.com/wp-content/uploads/2020/09/firefox.jpg 1024w, https://applitools.com/wp-content/uploads/2020/09/firefox-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/09/firefox-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/09/firefox-768x768.jpg 768w, https://applitools.com/wp-content/uploads/2020/09/firefox-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/09/firefox-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/09/firefox-30x30.jpg 30w, https://applitools.com/wp-content/uploads/2020/09/firefox-462x462.jpg 462w, https://applitools.com/wp-content/uploads/2020/09/firefox-216x216.jpg 216w" sizes="(max-width: 165px) 100vw, 165px"/></figure>
+</div>
+<p>FirefoxDriver(Capabilities) is replaced by FirefoxDriver(FirefoxOptions).</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/fb059d0883630e83c2c599dc1c7fb1b0.js</p>
+</div>
+<h3 id="h.b7ba5weinru0">InternetExplorerDriver</h3>
+<div class="wp-block-image is-style-default">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo.jpg" alt="" class="wp-image-22567" width="132" height="130" srcset="https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo.jpg 782w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-300x295.jpg 300w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-768x754.jpg 768w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-30x30.jpg 30w" sizes="(max-width: 132px) 100vw, 132px"/></figure>
+</div>
+<p>InternetExplorerDriver(Capabilities) is replaced by InternetExplorerDriver(InternetExplorerOptions).</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/9e75f153ca343db8ece5d48707b77c20.js</p>
+</div>
+<h2 id="h.3bst29ontuje">Summary</h2>
+<p>We went through the major deprecations in Selenium 4 and have outlined the ones that are important for end users in their migration from Selenium 3 to 4.</p>
+<p>The list of all deprecations can be explored in the <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/java/deprecated-list.html" rel="noopener noreferrer">Selenium WebDriver API docs</a>. There are considerable internal interfaces, classes and ENUMs deprecated which have no impact on end users but may be of importance to vendors of tools and products built on top of Selenium.</p>
+<p>In the next post of this series, we will explore the newly added features offered in Selenium 4 and the benefits they provide.</p>
+<h2>About the Author</h2>
+<p>Shama Ugale is a quality assurance specialist at Thoughtworks. She has great knowledge about Selenium project and Selenium 4 that she is happy to share with you. You can finder on LinkedIn at <a target="_blank" aria-label="undefined (opens in a new tab)" href="https://www.linkedin.com/in/shama-ugale-7a95b549/" rel="noreferrer noopener">https://www.linkedin.com/in/shama-ugale-7a95b549/</a></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/selenium-4-migration/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>We hosted a Virtual Culinary Contest  across our offices to showcase our employe&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/we-hosted-a-virtual-culinary-contest-across-our-offices-to-showcase-our-employe/</link>
 		
@@ -674,31 +797,6 @@ WebDriver driver = new ChromeDriver();
 		
 		
 			</item>
-		<item>
-		<title>Instagram ‘Help Center’ Phishing Scam Pilfers Credentials</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/instagram-help-center-phishing-scam-pilfers-credentials/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 28 Aug 2020 19:38:27 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Center]]></category>
-		<category><![CDATA[Credentials]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[Phishing]]></category>
-		<category><![CDATA[Pilfers]]></category>
-		<category><![CDATA[scam]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/instagram-help-center-phishing-scam-pilfers-credentials/</guid>
-
-					<description><![CDATA[Researchers warn that a phishing scam is targeting Instagram users via direct messages on the app. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers warn that a phishing scam is targeting Instagram users via direct messages on the app.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/instagram-help-center-phishing-scam-pilfers-credentials/158777/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -707,5 +805,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-11 21:01:08 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-12 21:01:10 by W3 Total Cache
 -->
