@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 10 Sep 2020 20:22:47 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Sep 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,68 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The top 10 criteria for evaluating AIOps platforms</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-top-10-criteria-for-evaluating-aiops-platforms/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[AIOps]]></category>
+		<category><![CDATA[criteria]]></category>
+		<category><![CDATA[evaluating]]></category>
+		<category><![CDATA[platforms]]></category>
+		<category><![CDATA[Top]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-top-10-criteria-for-evaluating-aiops-platforms/</guid>
+
+					<description><![CDATA[While AIOps is increasingly taking center stage in industry discussions, and for good reason, there is also a great deal]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p dir="ltr">While AIOps is increasingly taking center stage in industry discussions, and for good reason, there is also a great deal of confusion about it. Part of this is because the phrase &#8220;artificial intelligence for IT operations&#8221; often leads to debates that confuse use case and value with underlying technology capabilities.</p>
+<p dir="ltr">The other reason behind the confusion is the diversity of the AIOps market in terms of capabilities, focus, deployment requirements, direction, and overarching design.</p>
+<p dir="ltr">As noted in EMA&#8217;s newly released Radar Report: <a target="_blank" href="https://www.enterprisemanagement.com/research/asset.php/3970/EMA-Radar-Report:-AIOps---A-Guide-for-Investing-in-Innovation" rel="nofollow noopener noreferrer">AIOps—A Guide for Investing in Innovation</a>: </p>
+<blockquote>
+<p dir="ltr">&#8220;Rather than [being] a market in the strictest sense, AIOps might be more accurately described as a &#8216;landscape&#8217; containing within it some rather startling surprises.&#8221;</p>
+</blockquote>
+<p dir="ltr">The report examines 17 vendors in depth, based on extensive questionnaires and 31 deployment interviews, and provides the groundwork for the top 10 criteria. Here they are.</p>
+<h3>1. Your key requirements</h3>
+<p dir="ltr">EMA examined all 17 vendors across three use cases: incident, performance, and availability management; change impact and capacity optimization; and business impact and IT-to-business alignment.</p>
+<p dir="ltr">We saw striking differences in both focus and design relevant to these and related value propositions, such as integrated support for DevOps or SecOps. So the first thing to do is to understand and document your own unique top priorities before you go looking.</p>
+<h3>2. Heuristic range</h3>
+<p dir="ltr">While this could be a data scientist&#8217;s extravaganza, EMA evaluated this in large part based on four outcome-driven capabilities: anomaly detection, predictive insights, prescriptive insights (in which recommended actions are defined), and if/then analytics (if you make this change, then what will happen?).</p>
+<p dir="ltr">By focusing on vendor strengths in each area, as they match your needs and readiness to go forward, you&#8217;ll have an excellent technical road map for AIOps selection.</p>
+<h3>3. Integrated automation</h3>
+<p dir="ltr">EMA has seen the handshake between analytics and automation as perhaps the single most transformative technology investment an IT organization can make. AIOps-related automation can be provided by the vendor, or via fully supported third-party sources, or through a mixture of both.</p>
+<p dir="ltr">This automation can range from workflow to IT process automation to configuration automation to workload automation—as just four key examples.</p>
+<h3>4. Required data and how it&#8217;s managed</h3>
+<p dir="ltr">Not surprisingly, data is key for AIOps platforms to do their job well. This can typically include event, time-series data, log files, and other data such as configuration, topology, business-impact data, and even asset- and cost-related data.</p>
+<h3>5. What&#8217;s already deployed</h3>
+<p dir="ltr">Part of understanding your requirements involves getting a firm handle on what you already have deployed—what&#8217;s working well and the biggest gaps. Most AIOps platforms are designed to assimilate third-party tool sets and bring that data together, while supplementing with data collection capabilities of their own.</p>
+<h3>6. Breadth of third-party integrations</h3>
+<p dir="ltr">Across all 17 vendors, we saw a wide range in the number of supported integrations for third-party tool sets, from fewer than 10 to more than 100. These integrations typically include monitoring tools for infrastructure and application performance, automation options, IT service management (ITSM), and configuration management (including CMDBs), among other sources. </p>
+<h3>7. Discovery and dependency mapping</h3>
+<p dir="ltr">Another capability—either directly through the AIOps platform or through integrations—is support for discovery and dependency mapping for critical contextual insights. For instance, many of the platforms also support APM (application performance management) integrations for transaction-aware insights into application-to-infrastructure interdependencies.</p>
+<h3>8. Deployment options</h3>
+<p dir="ltr">Deployment options can significantly affect pricing, time-to-deploy, and administrative overhead. EMA looked for flexibility in spanning both SaaS and on-premises choices.</p>
+<h3>9. Administrative overhead</h3>
+<p dir="ltr">EMA’s research indicated a large delta in administrative overhead for ongoing support—not including initial deployment or significant upgrades. Basic ongoing support for an enterprise-size environment (10,000 employees of 5,000 managed entities) ranged from less than 0.5 of a full-time employee to three or more.</p>
+<h3>10. Price</h3>
+<p dir="ltr">While software costs are critical, they were rarely the most dominant factor in selecting an AIOps platform, based on our interviews. But when costs do inevitably come into play, it&#8217;s important to look at the larger context of administrative costs, deployment costs, and expected time-to-value, as well as the complexity affiliated with software licensing.</p>
+<h3>Make <em>your</em> AIOps investment a success</h3>
+<p>This list above provides a useful departure point for examining different AIOps platforms, but it&#8217;s also important to take the time to assess your own unique world.</p>
+<p>What are your needs? Who are the most critical stakeholders? Where and how do they agree and disagree on their priorities? What process changes are likely to be needed? Do you have top-down executive support to help your IT organization evolve to work in new and more effective ways?</p>
+<p>All these things may be relevant to making your AIOps investment a success.</p>
+<p dir="ltr"><em>For deeper insights into what the data shows on how the AIOps market is evolving, with a fresh, in-depth look at all 17 vendors, read the EMA Radar Report: </em><a target="_blank" href="http://www.enterprisemanagement.com/research/asset.php/3970/EMA-Radar-Report:-AIOps---A-Guide-for-Investing-in-Innovation" rel="nofollow noopener noreferrer">AIOps—A Guide for Investing in Innovation</a>.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/top-10-criteria-evaluating-aiops-platforms">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Migrating to Selenium 4: Here’s What Has Changed</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/migrating-to-selenium-4-heres-what-has-changed/</link>
 		
@@ -727,35 +789,6 @@ WebDriver driver = new ChromeDriver();
 		
 		
 			</item>
-		<item>
-		<title>What will performance engineering look like in 10 years? Check out our blog abou&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-will-performance-engineering-look-like-in-10-years-check-out-our-blog-abou/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 31 Aug 2020 15:52:59 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[abou]]></category>
-		<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Check]]></category>
-		<category><![CDATA[Engineering]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[PerformanceEngineering]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Years]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-will-performance-engineering-look-like-in-10-years-check-out-our-blog-abou/</guid>
-
-					<description><![CDATA[What will performance engineering look like in 10 years? Check out our blog about the TOP 3 of major changes]]></description>
-										<content:encoded><![CDATA[<p></p>
-<p>What will performance engineering look like in 10 years? Check out our blog about the TOP 3 of major changes viewed by <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performanceengineering?refid=17&#038;_ft_=mf_story_key.3632046566806780%3Atop_level_post_id.3632046566806780%3Atl_objid.3632046566806780%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3632046566806780%3Apage_id.163354693676002%3Aphoto_id.3632046426806794%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598889179%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3632046566806780%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3632046566806780%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-1580006831143578337&#038;__tn__=%2As-R" rel="noopener noreferrer">#PerformanceEngineering</a> experts  <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3ivmvd1%3Ffbclid%3DIwAR0cpajMtiBFi31G1H4C_jEcvGlXqbvXuHZ_pf3uzcowgakj1_uaMR-gi2I&#038;h=AT0KRmuerQbuyDczTVB9nu0XbmG7Z61g9hP3oMR3esxTmHVCP73TDA8p-70ePjP9eJolaNdRjFaYY62dN4DiNrCMZZCQ6fG93iLeX9vs33iDUxMHDbGV71AUVYxQ1wfnFzCd9Cf47lY-FI-Rj26a8fxgSffMe466xZ5dY85rGfjt_Ygfp1BUjwcIS61FpzELG7MfdzLuZy17O3JdLmsVqz8modJn3k1VW-cpQIYxnLM--sTNwLgG09TDE2iIeNggPWWUAxIc2VqBAOXDVE5hLtVjinmFkn021Cn1ROqnT8eTe8eoesTuB2YuyIeBUr6SgqMyDRU7QkHKKUU3XSxw4Q2TmWjC7M5nuhgPPSDnYlFIzDxxcy8ZMygZXDfSZD-j58h7a9OkBldGWK-4IWQbzhQJRGRtwIPBKtFnFSYbokyz6GExlkqbVjDzgCurWStbCBND7v3ti2Tpqu6EZeoj0bGX4jIyeqKDAG7JswLoemwEO2UBUbSmy9fVknrl7Plur1J3JT6uSKtedk0lFh4Q696HS4dM23cQ6qgzDGjYDrDtkzsg8vsGSafl2WATpJ9YCiSJYfPj4872xK1so-bsDEXgldAncVkgk9svKZARZCmWcayG99Fo2ht8YW4CnGE0YeLkKLB9XJWX1jQuJ8M4OB_cyIcHCzy-E6oxAiwIuIp6ET4Fdt5WSSYx5GybPSuPkFuzTCO3qsXt08632Y58sEwxHk2rI8h7IW9q3EIAnjZOco0yvxqN1JnPtMWfLz-jP6mjl5L8rwXvnX30YOLEUkIVTX2gHpoO6k6reXqFrb685R20fj4_ezhoMH5rrQJlNWYxRIVHyw_-JOImI9puEv68OJ540gGC9fF47P7cbV7AMROuCtKWcWgl7DwkuC11BHC39OlfaLB3tYaIjbJ627bDGzq83ucoFfPHH7j_j6nHdTcJ8wIPoyfsxNEocD7eT3j8zXWm2LbRwGF0CDeADu98HXXNuUstLOrej7S_x1zPIGoecpMO50nY8ZexMDoU6f-3JMRXVaElO3lymjOmGyq1DUI6rD5436jrwcap3gX1Oi7J7fdsOhEfmnSjw_YC134WBzo7QtGMQlfAVZwlIewed8hul0XzlT85CNh8Zrf2LxLUnx0oKHGSJOgUmFXgSst4AQmnHY1RbT1fWHpGgTdXkHCmEgw44Pl1saCjljt2LuGesltZCpgX_DI_ibeU5yNjeSqWMorwjhqULw" rel="noopener noreferrer">https://bit.ly/3ivmvd1</a><br /><a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&#038;_ft_=mf_story_key.3632046566806780%3Atop_level_post_id.3632046566806780%3Atl_objid.3632046566806780%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3632046566806780%3Apage_id.163354693676002%3Aphoto_id.3632046426806794%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598889179%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3632046566806780%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3632046566806780%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-1580006831143578337&#038;__tn__=%2As-R" rel="noopener noreferrer">#perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&#038;_ft_=mf_story_key.3632046566806780%3Atop_level_post_id.3632046566806780%3Atl_objid.3632046566806780%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3632046566806780%3Apage_id.163354693676002%3Aphoto_id.3632046426806794%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1598889179%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3632046566806780%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A3632046566806780%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1598943599%3A-1580006831143578337&#038;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/118714204_3632046430140127_7177170927830988959_o.jpg?_nc_cat=101&#038;_nc_sid=8024bb&#038;_nc_ohc=GKBombLuFI0AX8Maa1Y&#038;_nc_ht=scontent-lga3-1.xx&#038;oh=e000c93e550a188e4affbffeb6eba8ec&#038;oe=5F736E32" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3632046566806780">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -764,5 +797,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-13 21:01:12 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-14 05:38:13 by W3 Total Cache
 -->
