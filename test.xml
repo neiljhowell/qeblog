@@ -181,6 +181,41 @@
 		
 			</item>
 		<item>
+		<title>Tech Tip: Best Practices For Using Sauce Connect</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tech-tip-best-practices-for-using-sauce-connect/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Connect]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[TIP]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/tech-tip-best-practices-for-using-sauce-connect/</guid>
+
+					<description><![CDATA[When your team moves to a cloud testing solution like Sauce Labs, creating a solid, secure connection is likely to]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>When your team moves to a cloud testing solution like Sauce Labs, creating a solid, secure connection is likely to be a top priority.  One of the solutions to this challenge is Sauce Connect proxy. This is a command line tool that your team can use to create a TLS tunnel from your environment out to Sauce. This can be used to test applications that are not publicly facing; for example, if your team needs access to a local host system or a dev or staging environment. So rather than completely change your setup, you can easily download the proxy from Sauce Labs and run your tests from those internal environments. </p>
+<p>Having this kind of structure in place gives your team confidence that the applications you&#8217;re testing are secured and easily accessible through Sauce Labs. As a best practice, you should use an identifier for the tunnel. This will assign the tunnel a name which you can use while executing tests so you’re able to tell the tunnels apart. This means you won’t have to constantly update tunnels IDs to replace the random identifier that Sauce Labs assigns. Instead, your  tunnel IDs can be passed as a capability to any test.</p>
+<p>If you’re new to setting up proxy tunnels via the cloud, please take a look at one of our Tech Tip videos below. Senior Solutions Engineer Stan Williams walks you through the process of setting up Sauce Connect, how to point it at Sauce Labs, and best practices to follow.</p>
+<div class="video">
+<p><iframe title="Setting Up Sauce Connect - Sauce Tech Tip" width="800" height="450" src="https://www.youtube.com/embed/m2u1Gy14r9Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<p><b>Best Practice Alert: Keep Sauce Connect Up To Date! </b></p>
+<p>Once you’re well established in using Sauce Connect, it’s a good idea to keep your version up to date in order to ensure a more secure and efficient testing practice. To help provide our customers with the most secure testing experience, we will be eliminating our support for Self Signed Certificates, and instead allowing for only Public Certificate Authority Signed Certificates. To achieve this, we are in the process of deprecating all versions of Sauce Connect prior to 4.6.x. If you are using an older version of Sauce Connect, we highly recommend you take a few minutes to download and <a target="_blank" href="https://slack-redir.net/link?url=https%3A%2F%2Fwiki.saucelabs.com%2Fdisplay%2FDOCS%2FDownloading%2BSauce%2BConnect%2BProxy" rel="noopener noreferrer">install this update</a>. We also have helpful documentation on <a target="_blank" href="https://slack-redir.net/link?url=https%3A%2F%2Fwiki.saucelabs.com%2Fdisplay%2FDOCS%2FBasic%2BSauce%2BConnect%2BProxy%2BSetup" rel="noopener noreferrer">how to set up Sauce Connect</a> that should make this process as smooth as possible. If applicable, please also ensure you are using the latest version of the Sauce Labs Jenkins plugin.</p>
+<p>For further information on how to easily set up Sauce Connect, check out our <a target="_blank" href="https://wiki.saucelabs.com/" rel="noopener noreferrer">documentation</a> and our <a target="_blank" href="https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy+FAQs" rel="noopener noreferrer">FAQ page</a>. Happy testing!</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/tech-tip-best-practices-for-using-sauce-connect">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How Piyush’s remarkable efforts ignited a larger impact of giving back</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-piyushs-remarkable-efforts-ignited-a-larger-impact-of-giving-back/</link>
 		
@@ -721,82 +756,6 @@ WebDriver driver = new ChromeDriver();
 		
 		
 			</item>
-		<item>
-		<title>Buyer&#8217;s guide to enterprise service management products: Top 5 technology and market trends [GATED/Module 3]</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products-top-5-technology-and-market-trends-gated-module-3/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sun, 30 Aug 2020 20:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Buyers]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[GATEDModule]]></category>
-		<category><![CDATA[Guide]]></category>
-		<category><![CDATA[Management]]></category>
-		<category><![CDATA[Market]]></category>
-		<category><![CDATA[products]]></category>
-		<category><![CDATA[Service]]></category>
-		<category><![CDATA[Technology]]></category>
-		<category><![CDATA[Top]]></category>
-		<category><![CDATA[Trends]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=2633</guid>
-
-					<description><![CDATA[When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as]]></description>
-										<content:encoded><![CDATA[<p> </p>
-<div>
-<p>When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as how it aligns with your plans. The vendor landscape has solidified, and the market is competing vigorously for your business.</p>
-<p>Here are the top five technology and market trends in Enterprise Service Management (ESM), and recommendations from experts on how to make smart buying decisions and equip your teams with the skills they&#8217;ll need in the future. </p>
-<p><em>[ <a target="_blank" href="https://content.microfocus.com/l/digital-transformation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Get up to speed on digital transformation</a> with TechBeacon&#8217;s Guide. Plus: Get IDC&#8217;s &#8220;<a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-idc?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener noreferrer">Digital Transformation 2020 Top 10 Predictions</a>&#8221; ]</em></p>
-<h3>1. AI, automation, and machine learning technologies are advancing rapidly</h3>
-<p>Artificial intelligence (AI) has been around for 50 years, but actual business adoption is fairly new. <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/ai-transform-it-service-management?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">ESM vendors have been adding elements of AI</a>, automation, and machine learning to their offerings. &#8220;AI plus automation is a logical equation,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/dennisdrogseth/" rel="nofollow noopener noreferrer">Dennis Drogseth</a>, vice president of Enterprise Management Associates (EMA). &#8220;AI gives you insight, and automation gives you action. Action without insight equals train wrecks. Insight without action doesn’t help you very much.&#8221;</p>
-<p>As much as people would like to embrace the benefits of AI and automation, the fierce competition and pace of development in this area can be paralyzing. While there are many different kinds of AI and automation, it will eventually come together as &#8220;a new landscape, not a single direction,&#8221; Drogseth said.</p>
-<p>It&#8217;s important to get started now, even though the landscape is still developing. &#8220;I tell my clients, the sooner you jump in the pool and start swimming, the sooner you&#8217;ll be able to take advantage of it,&#8221; said <a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a>, principal of Tedder Consulting. Your team will gain experience, your organization will start to reap benefits, and you will be ready to use the innovations when they hit the street.</p>
-<h3>2. AIOps is bringing service management under a single pane of glass</h3>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/top-10-predictions-ai-it-operations" rel="noopener noreferrer">Artificial intelligence for IT operations</a> (AIOps) technology is changing the service management game by allowing you to control all your service management capabilities under a single pane of glass. &#8220;We&#8217;ve talked about it for years, but it&#8217;s finally here,&#8221; said Tedder. &#8220;AIOps platforms let you bring together all of your network monitoring, operations monitoring, and application portfolio monitoring, do some correlation, and visualize it together,&#8221; he said.</p>
-<p>In service management, the big advantage this gives you is faster insight, which leads to improved quality. You can focus your efforts on the most important things that are happening, &#8220;and when something goes wrong you can hit pause much quicker,&#8221; said Tedder.</p>
-<p><em>[ Find out <a target="_blank" href="https://content.microfocus.com/l/robotic-process-automation-tb?utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">how to roll out Robotic Process Automation</a> with TechBeacon&#8217;s Guide. Plus: Download <a target="_blank" href="https://content.microfocus.com/robotic-process-automation-tb/enterprise-rpa-requirements?lx=jNs_Bd&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener noreferrer">Enterprise Requirements for RPA</a> ]</em></p>
-<h3>3. ESM is integrating with DevOps</h3>
-<p>The top ESM platforms are designed for maximum interoperability, including most enterprise DevOps tools. This is crucial for long-term success. &#8220;You must be able to integrate ESM with the application development lifecycle,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/michaelpott/" rel="nofollow noopener noreferrer">Michael Pott</a>, senior product marketing manager at Micro Focus. This will let you use the principles from ITSM to manage a variety of services, confident that all of the technology underpinnings—your ESM and DevOps tools— will work harmoniously together.</p>
-<p>&#8220;What you’re doing in DevOps needs to fit in with service management, at the end of the day,&#8221; said Tedder. &#8220;Service management ensures you&#8217;re delivering value. And <a target="_blank" href="https://techbeacon.com/devops/devops-how-deliver-services-not-just-products" rel="noopener noreferrer">DevOps is actually about delivering a complete value stream</a>.&#8221; </p>
-<p>Tedder finds that many people still think that DevOps is somehow separate from ESM or ITSM. “I can’t say this strongly enough: DevOps is ITSM. It’s just a different approach—but there’s no philosophical, technical, or conceptual reason why DevOps and ITSM can’t get along,” he said.</p>
-<h3>4. ESM will manage services pre-cloud and in the cloud</h3>
-<p>&#8220;The cloud will be a huge influence on the future direction of ESM development,&#8221; said <a target="_blank" href="https://twitter.com/JayneGroll" rel="nofollow noopener noreferrer">Jayne Groll</a>, CEO of the DevOps Institute. &#8220;After all, you already need to manage and deliver services pre-cloud as well as in private, public, and hybrid clouds. ESM vendors are working to make that easier.&#8221;</p>
-<p>Many ESM apps are cloud-native—built specifically for the cloud—but your organization will probably use them along with other kinds of apps already in place in your environment, including on the mainframe.</p>
-<p>All of that affects how you&#8217;ll manage services now and in the future. &#8220;You&#8217;ll need specific skills to get the proper relationship with the cloud, and you&#8217;ll need an ESM platform that enables your team to be successful,&#8221; Groll said.</p>
-<h3>5. Expect to see more vertical-specific integrations</h3>
-<p>EMA&#8217;s Drogseth expects platform evolution to include vertical-specific integrations that move beyond reporting. Vendors are moving toward intelligent ESM platforms with good analytics, service modeling, and a core platform specialized for use in specific verticals. &#8220;This movement is already underway, and is not very far off,&#8221; he said.</p>
-<h3>Key takeaways</h3>
-<p>These are the five most important trends to consider for your ESM tools:</p>
-<ul>
-<li>
-<p>AI, automation, and machine learning technologies are advancing rapidly</p>
-</li>
-<li>
-<p>AIOps is pulling service management for all your systems into one platform</p>
-</li>
-<li>
-<p>ESM is integrating with DevOps</p>
-</li>
-<li>
-<p>ESM will manage services both on-premises and in the cloud</p>
-</li>
-<li>
-<p>Expect to see more industry-specific integrations</p>
-</li>
-</ul>
-<p><em><strong>Next:</strong> Here are <a target="_blank" href="https://techbeacon.com/node/3935" rel="noopener noreferrer">7 key questions to ask </a> to help your organization identify a ESM project that both fits your service management maturity level and can deliver results quickly, along with five key selection criteria help you home in on the tools and vendors that are a good fit for your team and your project. </em></p>
-<p><em><strong>Read next:</strong> <a target="_blank" href="http://techbeacon.com/node/3935" rel="noopener noreferrer">7 key questions to ask</a> <a target="_blank" href="https://techbeacon.com/node/3935" rel="noopener noreferrer"><span>[final link needed] </span></a></em></p>
-<p> </p>
-<p><em>[ Get up to speed on <a target="_blank" href="https://content.microfocus.com/l/it-operations-monitoring-tb?utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">IT Operations Monitoring with TechBeacon&#8217;s Guide</a>. Plus: Download the <a target="_blank" href="https://content.microfocus.com/itops-monitoring-tb/top-performing-org-managing-it-ops?lx=O4Iukj&amp;custom_url=itops-monitoring-tb%2Ftop-performing-org-managing-it-ops&amp;utm_campaign=00134846&amp;utm_medium=techbeacon&amp;utm_source=techbeacon" rel="noopener noreferrer">Roadmap to High-Performing IT Ops Report</a> ]</em></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/buyers-guide-enterprise-service-management-products-top-5-technology-market-trends">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -805,5 +764,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-13 05:38:12 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-13 21:01:12 by W3 Total Cache
 -->
