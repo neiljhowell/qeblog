@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 15 Sep 2020 19:09:30 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Sep 2020 00:07:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,80 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Can Automated Cross Browser Testing Be Ultrafast?</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-automated-cross-browser-testing-be-ultrafast/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 16 Sep 2020 00:07:23 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Cross]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Ultrafast]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-automated-cross-browser-testing-be-ultrafast/</guid>
+
+					<description><![CDATA[Early January this year, Applitools announced the results of their Visual AI Rockstar Hackathon winners of which I am lucky to be]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Early January this year, Applitools announced the results of their<a target="_blank" href="https://applitools.com/blog/hackathon-winners/" rel="noopener noreferrer"> </a><a target="_blank" href="https://applitools.com/blog/hackathon-winners/" rel="noopener noreferrer">Visual AI Rockstar Hackathon winners</a> of which I am lucky to be included as one of their silver winners. I blogged about my experience as to how I approached the hackathon and my honest feedback as to why I think it’s modernising the way we do test automation which you can find in this post –<a target="_blank" href="https://www.mariedrake.com/post/applitools-modernising-the-way-we-do-test-automation" rel="noopener noreferrer"> </a><a target="_blank" href="https://www.mariedrake.com/post/applitools-modernising-the-way-we-do-test-automation" rel="noopener noreferrer">Applitools: Modernising the way we do test automation</a>.</p>
+<p>6 months in and they announced another hackathon but this time the focus is on cross browser testing via<a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener noreferrer"> </a><a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener noreferrer">Ultrafast Grid</a> and comparing it with traditional solutions such as running the same functional tests on different browsers and viewports locally. I participated in the hackathon again and ended up as one of their gold winners this time, which I’m extremely pleased, because not only did I win one of their amazing prizes but also, I improved my technical skill and learned a lot about the true cost of cross browser testing.</p>
+<h2 id="h.bgexigit1a13">Why Automated Cross Browser Testing?</h2>
+<p>First, let’s talk about why cross browser testing? Why another hackathon?</p>
+<p>If you’re like me and have been testing web applications for some time, you’ll know that cross browser testing is a pain and time consuming to test. There is no way you can test 100% cross browser coverage, unless you have a lot of time and want to devote all your testing efforts in cross browser testing alone plus don’t forget that you also need to check on other viewports. In time, it gets really boring and tedious. This is why it’s a great idea to automate cross browser tests as much as possible so we can focus on other areas where we are also needed such as exploratory and accessibility testing.</p>
+<p>Nowadays, there are not a lot of functional differences between different browsers. The code that gets deployed is mostly similar on any platform but the way the code is rendered visually exposes differences that we need to catch. Rather than doing cross browser functional testing where we are testing the functionality across different browsers, a better alternative is to do cross browser visual testing instead where we validate the look of our pages instead because this is what our users see.</p>
+<p>The problem is automated cross browser testing, whether it’s functional or visual, can still take a considerable amount of time to set up because you need to create an automation framework that can scale and easily be maintained. This can be quite a challenge for testers who are considerably new in test automation.</p>
+<figure class="wp-block-image"></figure>
+<p>Cross Browser Testing in a nutshell</p>
+<p>The purpose of this hackathon was to show how easy and how fast cross browser visual testing can be if you’re using modern tools such as Applitools. It’s also to highlight that existing testing tools are great for doing cross browser <em>functional</em> testing but not so great with cross browser <em>visual </em>testing which I’ll expand on later.</p>
+<h2 id="h.k31gr9jtrxn7">The Hackathon Experience: Cypress</h2>
+<p>The hackathon was split into automating three different scenarios for a sample e-commerce website called<a target="_blank" href="https://demo.applitools.com/gridHackathonV1.html" rel="noopener noreferrer"> </a><a target="_blank" href="https://demo.applitools.com/gridHackathonV1.html" rel="noopener noreferrer">AppliFashion</a>. The scenarios should be automated using any testing tool of your choice and also with the same testing tool but with using Applitools alongside. The automated tests will then be executed on two versions of the website – version 1, which is assumed to be bug free, and version 2, which has new bugs added in. On version 2, you have to update the automated tests to fix the bugs introduced and then compare the effort of doing this with the traditional testing tool that you have chosen as opposed to using Applitools.</p>
+<p>I decided to use Cypress as my testing tool and while it’s a great tool for automating the browser, I spent 5.5 hours doing cross browser visual testing with this approach and still felt that I missed a lot of visual bugs. Let’s look at this in more detail.</p>
+<ul>
+<li>Installing Cypress: <strong>5 mins</strong></li>
+<li>Writing tests for version 1: <strong>2 hours</strong></li>
+<li>Test maintenance for version 2 and finding bugs: <strong>1 hour</strong></li>
+<li>Test reporting and project refactoring: <strong>2 hours</strong></li>
+<li>Documentation: <strong>30 mins</strong></li>
+<li><strong>Total Time: 5 hrs, 35 mins</strong></li>
+</ul>
+<p>Writing the tests took quite some time. I needed to verify a lot of the elements and get their selectors so I could assert that they were visible on the page. Some of the elements were hidden if you are on different viewports so these had to be reflected on the tests. You can find an example code on how I handled this on my<a target="_blank" href="https://github.com/mdcruz/applitools-ufg-hackathon/blob/master/TraditionalTestsV1/cypress/integration/task3.spec.js" rel="noopener noreferrer"> </a><a target="_blank" href="https://github.com/mdcruz/applitools-ufg-hackathon/blob/master/TraditionalTestsV1/cypress/integration/task3.spec.js" rel="noopener noreferrer">applitools ultrafast grid github repo</a>. The test execution time was also slightly longer because I had more viewports (desktop, tablet, mobile) and browsers (Chrome and Firefox) to cover locally.</p>
+<p>When it was time to run the same test on version 2, I had to make some adjustments to my tests and log the bugs that my automated tests found. This took me an hour because I had to update the selectors to fix my tests but also, I wasn’t confident that my tests found all the visual bugs on version 2. I had to find some of the bugs manually since verifying CSS changes was difficult for me with just using Cypress alone.</p>
+<p>When it came to test reporting and project refactoring, I invested 2 hours on this task. As I knew from experience, good reporting helps everyone make sense of test data. I wanted to integrate Mochawesome reporter so I could present the test results nicely to the hackathon judges. I wrote a tutorial on how to do this which you can find in this post –<a target="_blank" href="https://www.mariedrake.com/post/test-reporting-with-cypress-and-mochawesome" rel="noopener noreferrer"> </a><a target="_blank" href="https://www.mariedrake.com/post/test-reporting-with-cypress-and-mochawesome" rel="noopener noreferrer">Test Reporting with Cypress and Mochawesome</a>. I also started noticing that my test code was getting a lot of duplication so I did some refactoring to clean up my automation framework.</p>
+<h2 id="h.xfsxfxk9x2gl">The Hackathon Experience: Cypress with Applitools</h2>
+<p>Now let’s look at how long it took me to do cross browser visual testing with Cypress and Applitools.</p>
+<ul>
+<li>Install Applitools Cypress SDK: <strong>2 mins</strong></li>
+<li>Setup project structure with Cypress and Applitools: <strong>10 mins</strong></li>
+<li>Writing tests for version 1: <strong>20 mins</strong></li>
+<li>Running tests for version 2: <strong>5 mins</strong></li>
+<li>Bug reporting with Applitools: <strong>25 mins</strong></li>
+<li>Documentation: <strong>10 mins</strong></li>
+<li><strong>Total time: 1 hr, 12 min</strong></li>
+</ul>
+<p>In total, I spent around just over one hour writing the tests for both version 1 and version 2 when using Cypress with Applitools. The time difference was massive! There were a few visual bugs that I missed that Applitools caught but even if this was the case, I didn’t have to rewrite my tests at all. All the adjustments were done on the Applitools Dashboard directly and marking the bugs through its annotation feature.</p>
+<p>Writing the tests was considerably faster. As opposed to verifying individual selectors and checking that it’s visible, I took a screenshot of the whole page which is a better approach for visual validation.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1294" height="696" src="https://applitools.com/wp-content/uploads/2020/09/carbon-8.png" alt="carbon 8" class="wp-image-22988" srcset="https://applitools.com/wp-content/uploads/2020/09/carbon-8.png 1294w, https://applitools.com/wp-content/uploads/2020/09/carbon-8-300x161.png 300w, https://applitools.com/wp-content/uploads/2020/09/carbon-8-1024x551.png 1024w, https://applitools.com/wp-content/uploads/2020/09/carbon-8-768x413.png 768w" sizes="(max-width: 1294px) 100vw, 1294px"/></figure>
+<p>Visual validation test with Cypress and Applitools</p>
+<p>The code snippet above is simpler and will catch more visual bugs with less or even no test code maintenance.</p>
+<p>So you might be wondering from the above code, how did I handle the cross browser capabilities? This was easily achieved by creating a file called <em>`applitools.config.js`  </em>on the root of your project and specifying the list of browsers that you want your tests to execute on. By utilising Ultrafast Grid and setting my concurrency to 10, I was able to run the tests quicker too.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1346" height="876" src="https://applitools.com/wp-content/uploads/2020/09/carbon-9.png" alt="carbon 9" class="wp-image-22989" srcset="https://applitools.com/wp-content/uploads/2020/09/carbon-9.png 1346w, https://applitools.com/wp-content/uploads/2020/09/carbon-9-300x195.png 300w, https://applitools.com/wp-content/uploads/2020/09/carbon-9-1024x666.png 1024w, https://applitools.com/wp-content/uploads/2020/09/carbon-9-768x500.png 768w" sizes="(max-width: 1346px) 100vw, 1346px"/></figure>
+<p>Achieving Cross Browser Visual Testing with Applitools</p>
+<h2 id="h.m35xq8vyzd1a">The Impact of Visual Cross Browser Testing for Testers</h2>
+<p>Overall, this was another excellent hackathon from Applitools and showed that cross browser testing can be easy and fast. I’ve mentioned this in the past already that one of the trends that I’m seeing is more and more testing tools are becoming user friendly and if you are new to test automation, this is great news!</p>
+<p>Also, from my experience, the production bugs that get missed most frequently are visual bugs. A test that hasn’t loaded any of its CSS files can still work functionally and your automated functional test will still pass. Rather than doing cross browser functional testing, it’s better to do cross browser visual testing to get maximum value.</p>
+<p>Finally, the massive time saving that it provides means that we, as testers, have more time to explore the areas that automated tests can’t catch and that is a big win.</p>
+<p>For More Information</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/can-automated-cross-browser-testing-be-ultrafast/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>QR Codes Serve Up a Menu of Security Concerns</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qr-codes-serve-up-a-menu-of-security-concerns/</link>
 		
@@ -582,113 +656,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>TestProject OpenSDK with Cucumber, TestNG and ExtentReport</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testproject-opensdk-with-cucumber-testng-and-extentreport/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 02 Sep 2020 04:22:08 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Cucumber]]></category>
-		<category><![CDATA[ExtentReport]]></category>
-		<category><![CDATA[OpenSDK]]></category>
-		<category><![CDATA[TestNG]]></category>
-		<category><![CDATA[TestProject]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/testproject-opensdk-with-cucumber-testng-and-extentreport/</guid>
-
-					<description><![CDATA[In this post, we will discuss working with all new TestProject OpenSDK to write native Selenium code of an existing]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In this post, we will discuss working with all new <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">TestProject OpenSDK</a> to write native Selenium code of an existing code which is powered by the following:</p>
-<table style="height: 146px; width: 44.791%; border-collapse: collapse; border-style: dotted;">
-<tbody>
-<tr style="height: 146px;">
-<td style="width: 100%; height: 146px;">
-<h4><strong>Note</strong></h4>
-<p>The <em><strong>native Selenium</strong></em> code which we will be using in this post is available in <a target="_blank" href="https://github.com/executeautomation/SeleniumWithCucucumber" rel="noopener noreferrer">GitHub</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<h2><strong>Native Selenium Code</strong></h2>
-<p>The native <a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer">Selenium</a> code that we have as mentioned before is written in BDD format using Cucumber and running the test via the test runner of TestNG. The structure of the code looks pretty much like a regular test code, as below:</p>
-<p></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-13692 size-full" title="Native Selenium Code Structure" src="https://blog.testproject.io/wp-content/uploads/2020/08/codestructure.jpg" alt="Native Selenium Code Structure" width="352" height="732" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/codestructure.jpg 352w, https://blog.testproject.io/wp-content/uploads/2020/08/codestructure-246x512.jpg 246w" sizes="(max-width: 352px) 100vw, 352px"/></noscript></p>
-<p>The code also uses Selenium Page Object Model, TestNG Listeners, and generates reports via Extent reporting. Well, this whole code uses Native Selenium Webdriver to perform UI testing and in fact, with this “usual” approach, we have the following things to be taken care of as a tester <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" />:</p>
-<ul>
-<li>Maintain ChromeDriver/Gheckodriver/EdgeDriver, etc with latest versions.</li>
-<li>Write your own code for reporting (like extent reporting in this case).</li>
-<li>Maintain browser drivers in CI/CD deployment machines.</li>
-</ul>
-<h2><strong>Using TestProject’s OpenSDK</strong></h2>
-<p>Using <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>‘s OpenSDK, now things are much simpler and it addresses the above pain points along with a lot of fascinating features! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<ul>
-<li>Automatic test reports in HTML/PDF format (including screenshots).</li>
-<li>Collaborative reporting dashboards with execution history and RESTful API support.</li>
-<li>Always up-to-date with the latest and stable Selenium driver version.</li>
-<li>A simplified, familiar syntax for both web and mobile applications.</li>
-<li>Complete test runner capabilities for both local and remote executions, anywhere.</li>
-<li>Cross-platform support for Mac, Windows, Linux and Docker.</li>
-<li>Ability to store and execute tests locally on any source control tool, such as Git.</li>
-</ul>
-<h2><strong>Migrating Native code to TestProject OpenSDK</strong></h2>
-<p>The first and foremost operation before beginning with our code migration is to get the OpenSDK itself. Since this is a Java Maven project, the reference we are going to set in the POM.xml file is going to look something like this:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null"><dependency>
-    <groupId>io.testproject</groupId>
-    <artifactId>java-sdk</artifactId>
-    <version>0.63.2-RELEASE</version>
-</dependency></pre>
-<p>Next, the only code change we need to make in our native selenium code to use TestProject’s OpenSDK is this:</p>
-<p><strong>Native code</strong></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">//Chrome driver - Using Native Selenium WebDriver
-System.setProperty("webdriver.chrome.driver", "/Users/ChromeDriver/chromedriver");
-WebDriver driver = new ChromeDriver();
-</pre>
-<p><strong>TestProject OpenSDK</strong></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">WebDriver driver = new DriverBuilder<ChromeDriver>(new ChromeOptions())
-        // Get Project Name from environment variable - CI/CD
-        .withProjectName(System.getenv("BuildNumber"))
-        // Get Job Name as Release Name from environment variable - CI/CD
-        .withJobName(System.getenv("ReleaseName"))
-        // Get TestProject Auth Token from environment variable - CI/CD
-        .withToken(System.getenv("token"))
-        .build(ChromeDriver.class);</pre>
-<p>As you can see from the above code, the DriverBuilder sets the following parameters to invoke TestProject agent running in the target machine:</p>
-<ul>
-<li><strong>Project Name</strong> – Which can be any name, but since TestProject’s OpenSDK is going to automatically create the reports, it’s better to set a unique name as the project name. In this case, we are using CI/CD environment variables to set the project name.</li>
-<li><strong>Job Name</strong> – Which can be any name as well, but we are setting the <em>release number</em> as job name from CI/CD environment variable.</li>
-<li><strong>Token</strong> – This is a super-secret <em>token</em> to authenticate our TestProject agent with the TestProject platform and MUST need to come from CI/CD environment variable.</li>
-</ul>
-<p>With this, we can now run our test and get the automatic test report generated in the TestProject Platform as shown below</p>
-<p><img loading="lazy" class="size-full wp-image-13751 aligncenter" alt="" width="2538" height="852" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg 2538w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-512x172.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-768x258.jpg 768w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-1024x344.jpg 1024w" data-lazy-sizes="(max-width: 2538px) 100vw, 2538px" src="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg"/></p>
-<p><noscript><img loading="lazy" class="size-full wp-image-13751 aligncenter" src="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg" alt="" width="2538" height="852" srcset="https://blog.testproject.io/wp-content/uploads/2020/08/report-1.jpg 2538w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-512x172.jpg 512w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-768x258.jpg 768w, https://blog.testproject.io/wp-content/uploads/2020/08/report-1-1024x344.jpg 1024w" sizes="(max-width: 2538px) 100vw, 2538px"/></noscript></p>
-<p>Here is the complete migrated project with TestProject’s OpenSDK <a target="_blank" href="https://github.com/executeautomation/TestProjectOpenSDK_Cucumber" rel="noopener noreferrer">in GitHub</a>.</p>
-<p><strong>This entire tutorial is also available in a video tutorial format for you to enjoy <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f447.png" alt="👇" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
-<p style="text-align: center;"><iframe title="Introducing TestProjects unified OpenSDK for Java - Write Native Selenium and Appium code" width="800" height="450" src="https://www.youtube.com/embed/5iT1pD2n-pg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>Users interested to try TestProject’s new OpenSDK can <strong>follow these steps to get started</strong>:</p>
-<ol>
-<li><a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer">Create a free TestProject account</a></li>
-<li>Download and install the TestProject agent</li>
-<li>Install the SDK from your favorite package manager:
-<ol>
-<li>Java – <a target="_blank" href="https://mvnrepository.com/artifact/io.testproject/java-sdk" rel="noopener noreferrer">Maven</a></li>
-<li>C# – <a target="_blank" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer">NuGet</a></li>
-<li>Python – <a target="_blank" href="https://pypi.org/project/testproject-python-sdk/" rel="noopener noreferrer">PyPI</a></li>
-</ol>
-</li>
-<li>Explore our SDK documentation to understand available functions:</li>
-<li>Create your automated tests! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f929.png" alt="🤩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li>
-</ol>
-<p><strong>Go ahead and share your feedback in the comments below – Have you tried TestProject’s OpenSDK yet? </strong></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/09/02/testproject-opensdk-with-cucumber-testng-and-extentreport/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -697,5 +664,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-20 05:38:09 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-20 21:01:11 by W3 Total Cache
 -->
