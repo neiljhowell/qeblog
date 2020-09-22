@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 16 Sep 2020 00:07:23 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Sep 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,102 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>State of the software supply chain: Machines will make software faster</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/state-of-the-software-supply-chain-machines-will-make-software-faster/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 21 Sep 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chain]]></category>
+		<category><![CDATA[Faster]]></category>
+		<category><![CDATA[Machines]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[State]]></category>
+		<category><![CDATA[Supply]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/state-of-the-software-supply-chain-machines-will-make-software-faster/</guid>
+
+					<description><![CDATA[How far away are we from machines making safer software, faster? We might be closer than you think.  Other than ensuring]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>How far away are we from machines making safer software, faster? We might be closer than you think. </p>
+<p dir="ltr">Other than ensuring that your people are happy and engaged, digital innovation is the best source of competitiveness and value creation for almost every type of business. As a result, three things are increasingly common among corporate software engineering teams and the 20 million software developers who work for them:</p>
+<ul>
+<li>
+<p dir="ltr" role="presentation">They seek faster innovation.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation">They seek improved security.</p>
+</li>
+<li>
+<p dir="ltr" role="presentation">They utilize a massive volume of open-source libraries.</p>
+</li>
+</ul>
+<p>The universal desire for faster innovation demands efficient reuse of code, which in turn has led to a growing dependence on open-source and third-party software libraries. These artifacts serve as reusable building blocks, which are fed into public repositories where they are freely borrowed by millions of developers in the pursuit of faster innovation.</p>
+<p>This is the definition of the modern technology supply chain—and more specifically, a <a target="_blank" href="https://techbeacon.com/devops/2019-state-software-supply-chain-report-5-key-takeaways" rel="noopener noreferrer">software supply chain</a>.</p>
+<p dir="ltr">Organizations that invest in securing the best parts, from the fewest and best suppliers, and keeping those components updated, are widening the gap against their competitors. The best-performing organizations are applying automation to help them manage their open-source component choices and updates.</p>
+<p dir="ltr">As these practices evolve, machines will become better at guiding developers to the best-quality and most secure component versions. And in the not-too-distant future, machines may be compiling the best components into application code based on functional requirements defined upfront.</p>
+<p dir="ltr">Here&#8217;s why automation should be a key strategy for helping you select open-source components, and other lessons from my team&#8217;s research.</p>
+<h3>Beware of the proxies</h3>
+<p><a target="_blank" href="https://techbeacon.com/devops/2019-accelerate-state-devops-report-how-elites-drive-high-performance" rel="noopener noreferrer">The 2019 State of DevOps Report</a> found that elite organizations are deploying 200 times more frequently than their peers, and their change failure rates are seven times lower. They&#8217;re also much faster in mean time to recover from failure than other organizations.</p>
+<p>But these kinds of metrics are really focused on how you&#8217;re doing internally as a development team and don&#8217;t take into account many external factors.</p>
+<p dir="ltr">This reminds me of what Jeff Bezos said in his 2017 letter to shareholders: &#8220;Beware of the proxies.&#8221; You can get so focused on a process, and doing that process well, that it becomes the thing that you&#8217;re trying to achieve.</p>
+<p dir="ltr">You might be trying to achieve faster deployments, faster mean times to recovery, or more secure code releases. They can represent your proxies for success, while not necessarily contributing to the outcome your business is attempting to achieve.</p>
+<h4>Who&#8217;s faster?</h4>
+<p dir="ltr">Consider adversaries who attack your code. If you can release new security updates in your codebase within two weeks, but your adversaries can find and exploit the new vulnerabilities in two days, your organization&#8217;s data is at risk.</p>
+<p dir="ltr">In this situation, it does not matter as much that you&#8217;ve already reduced your time to implement security updates fivefold if your adversaries are still faster.</p>
+<p dir="ltr">Consider this real-world scenario. On Wednesday, April 29, 2020, the creators and maintainers of SaltStack, an open-source application, announced that the app had a critical vulnerability. On the very same day, they released the safe version of the application. If you had automatic updates turned on from SaltStack, you got the newer version. If you didn&#8217;t, then you needed to get the newer version, update your infrastructure, and do so before the adversaries found it.</p>
+<p dir="ltr">One of the researchers at F-Secure said that &#8220;the vulnerability was so critical, this was a patch-by-Friday-or-be-breached-by-Monday kind of situation.&#8221;</p>
+<p>And that&#8217;s exactly what happened. By Saturday morning, May 2, some 18 people on GitHub reported that breaches were actively happening. They had lost control of their servers. SaltStack had been taken over, rogue code was executing on their systems, and their firewalls were being disabled. Throughout May, 27 breaches were recorded.</p>
+<h3>Accelerate development</h3>
+<p>But not all of the news is bad: We know that developers are getting faster, too, because they&#8217;re not writing all of their code themselves.<br /> </p>
+<p><em>Figure 1: Number of download requests for Java component releases, 2012 to 2020, from the Central Repository. Source: 2020 State of the Software Supply Chain Report</em></p>
+<p>We&#8217;re assembling more and more code from open-source components and packages. As one example, it&#8217;s amazing to look at download volumes for the npm package manager. There were 95 billion npm package downloads in July 2020. If you annualize that download volume, we would see over 1.1 trillion npm package downloads this year.</p>
+<p dir="ltr">In Java, similar things are happening. In 2019, Maven Central had 226 billion download requests. In 2020, download request volumes are expected to hit 376 billion.</p>
+<p dir="ltr">How do these monstrous numbers translate to your own developers and applications? After analyzing 1,500 unique applications, we can see that 90% of their code footprint is built from open-source software components.</p>
+<h3>Build the best code</h3>
+<p>As I started thinking about all of the above, I wanted to understand not just how these parts are being used, but where they are coming from and who the open-source software suppliers are. So, in a two-year-long collaboration, <a target="_blank" href="https://twitter.com/RealGeneKim" rel="nofollow noopener noreferrer">Gene Kim</a>, <a target="_blank" href="https://www.linkedin.com/in/stephen-magill-2070a096/" rel="nofollow noopener noreferrer">Stephen Magill</a>, and I examined software release patterns and <a target="_blank" href="https://techbeacon.com/security/open-source-risk-4-application-security-action-items" rel="noopener noreferrer">cybersecurity hygiene practices</a> across 30,000 commercial development teams and open-source projects.</p>
+<p dir="ltr">We set out to understand what attributes we could use to identify the best open-source project performance and practices. If development teams were going to assemble applications from these building blocks, we wanted to understand who the best suppliers were.</p>
+<p dir="ltr">We wanted to know who released most often, who were the most popular suppliers, who prioritized features over security or security over features, who enlisted automated build tools, which projects were consistently well staffed, and more. All of these variables played a role in identifying suppliers with the best track records, because they would be the ones to help developers build the best applications.</p>
+<p dir="ltr">Additionally, the more you could teach machines to identify the attributes of the best open-source software suppliers for developers, the faster development could become.</p>
+<h3>Lessons from our open-source projects</h3>
+<p>The top-performing projects released 1.5 times more frequently than the rest of the teams we studied, were 2.5 times more popular by download count, had 1.4 times larger development teams, and managed 2.9 times fewer dependencies.</p>
+<p dir="ltr">We also saw a strong correlation between open source projects that updated dependencies more frequently and <a target="_blank" href="https://techbeacon.com/security/open-source-security-4-metrics-matter-app-sec-teams" rel="noopener noreferrer">their ability to maintain more secure code</a>. High-performing projects demonstrated a median time to update (MTTU) their dependencies that was 530 times faster than other projects. By moving to the latest dependencies, they purposely or consequently remediated known vulnerabilities discovered in older dependencies.</p>
+<p><em>Figure 2: Open-source project cluster analysis of popularity and release speed. Source: 2019 State of the Software Supply Chain Report</em></p>
+<p>To better understand all this, we performed a cluster analysis of these different open-source projects based on several attributes. We were able to see what development teams should focus on when choosing components.</p>
+<p>Choosing open-source projects should be considered an important strategic decision for enterprise software development organizations. Different components demonstrate healthy or poor performance that affects the overall quality of their releases.</p>
+<p dir="ltr">Therefore, MTTU should be an important metric when deciding which components to use within your software supply chains. Rapid MTTU is associated with lower security risk, and it&#8217;s accessible from public sources.</p>
+<h3>Update your open-source components regularly</h3>
+<p dir="ltr">Just as traditional manufacturing supply chains intentionally select parts from approved suppliers and rely upon formalized procurement practices, enterprise development teams should adopt similar criteria for their selection of open-source software components.</p>
+<p dir="ltr">This practice ensures that the highest-quality parts are selected from the best and fewest suppliers. Implementing selection criteria and updated practices will not only improve code quality, but can accelerate mean time to repair when suppliers discover new defects or vulnerabilities.</p>
+<p dir="ltr">Ideally, dependencies should be updated—simply, safely, and painlessly, and as part of the routine development process. But reality shows that this ideal is rarely met.</p>
+<p dir="ltr">An astonishing story of how far an organization can stray from ideal update practices comes from <a target="_blank" href="https://twitter.com/eileencodes" rel="nofollow noopener noreferrer">Eileen M. Uchitelle</a>, staff engineer at GitHub, who said it took seven years to <a target="_blank" href="https://www.youtube.com/watch?v=vIScxVu00bs" rel="nofollow noopener noreferrer">successfully migrate GitHub</a> from a forked version of Rails 2 to Rails 5.32.</p>
+<p dir="ltr">Even with new tools available to developers that automatically create pull requests with updated dependencies, changes in APIs and potential breakage can still hold back many developers from updating. We suspect this change-induced breakage is a primary driver of poor updating practices.</p>
+<h3>A tale of three open source component releases</h3>
+<p dir="ltr">Taking a deeper dive into the vast data available to us from the Central Repository, the world&#8217;s largest collection of open-source components, you can better visualize open-source project releases and their adoption by enterprise application development teams that migrate from one version to a newer one. We believe this data shows how open-source component selection can play a major role in allowing for easier and more frequent updates.</p>
+<p><em>Figure 3: Migration patterns between component releases for the joda-time library. Source: 2020 State of the Software Supply Chain Report</em></p>
+<p>Consider the widely used joda-time library, which shows that developers using this open-source component update fairly uniformly between all pairs of versions. This suggests that updates are easy, presenting a seemingly homogeneous set of versions to migrate to and from.</p>
+<p> </p>
+<p><em>Figure 4: Migration patterns between component releases for the hibernate-validator library. Source: 2020 State of the Software Supply Chain Report</em></p>
+<p>On the opposite extreme, consider the graph for the hibernate-validator library, where there are two sets of communities using it—one favoring version 5 and another preferring version 6. The two communities very rarely intersect. This suggests either that updating to version 6 from version 5 is too difficult or that the value is not worth the effort.</p>
+<p dir="ltr"><em>Figure 5: Migration patterns between component releases for the spring-core library. Source: 2020 State of the Software Supply Chain Report</em></p>
+<p dir="ltr">Finally, we take a look at the pattern for spring-core, which suggests that updating is sufficiently difficult that the effort must be planned and some version ranges end up being avoided.</p>
+<h3>Will machines make software?</h3>
+<p>If you are a developer, don&#8217;t worry; your job is secure. No machine out there will take your place. Having said that, an increased reliance on automation to help you select better, higher-quality, and more secure components can serve you and your teams well today.</p>
+<p>You can use automation, through advanced software composition analysis and open-source-governance tools, to point to better suppliers with a better track record—for instance, they release often, update vulnerabilities quickly, are well staffed, and are popular.</p>
+<p>Using these tools to set policies around components can help you determine when to upgrade your dependencies, and they can quickly inform you of newly discovered vulnerabilities in need of remediation. Additionally, these tools can lead developers to the best versions of components, indicating which newer versions will introduce the fewest breaking changes or introduce troublesome dependencies.</p>
+<p><em>To learn more about our research into high-performance, open-souce component-based development, read the <a target="_blank" href="https://www.sonatype.com/press-release-blog/2020-sscr-new-speed-and-security-benchmarks" rel="nofollow noopener noreferrer">2020 State of the Software Supply Chain Report</a> or attend my upcoming session on this topic at the <a target="_blank" href="https://www.cloudbees.com/devops-world/register?utm_source=techbeacon&#038;utm_medium=email&#038;utm_campaign=dw2020" rel="nofollow noopener noreferrer">DevOps World virtual conference</a>, which </em><em>runs from September 22-24, 2020. </em></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/state-software-supply-chain-machines-will-make-software-faster">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Can Automated Cross Browser Testing Be Ultrafast?</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-automated-cross-browser-testing-be-ultrafast/</link>
 		
@@ -550,112 +646,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>How to close your testing talent gaps in the remote work era</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-close-your-testing-talent-gaps-in-the-remote-work-era/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 04 Sep 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[close]]></category>
-		<category><![CDATA[Era]]></category>
-		<category><![CDATA[gaps]]></category>
-		<category><![CDATA[Remote]]></category>
-		<category><![CDATA[Talent]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Work]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=3491</guid>
-
-					<description><![CDATA[Six months ago, no one anticipated that the way we work and do business would change so drastically. The COVID-19]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p dir="ltr">Six months ago, no one anticipated that the way we work and do business would change so drastically. The COVID-19 pandemic has disrupted every industry, resetting major trends in consumer behavior and forcing businesses to quickly strengthen their technical capabilities to facilitate digitization and a remote workforce.</p>
-<p dir="ltr">With these changes, technical leaders are <a target="_blank" href="http://techbeacon.com/enterprise-it/digital-transformation-fast-forward-time-adjust-accelerate" rel="noopener noreferrer">facing greater challenges in delivering digital products and services to the market</a>. One challenge that has become even more nuanced is simply finding the right talent. For CTOs and technical leaders, finding the right people to fill gaps in their teams is one of the biggest pain points in building and delivering great products.</p>
-<p dir="ltr">Here are CTOs&#8217; and other technical managers&#8217; recommendations for how to resolve your resourcing issues, now and in a post-pandemic work environment.</p>
-<h3>Finding specialized talent is still a major challenge</h3>
-<p>Tech changes fast, which means that skill demands also change quickly. Finding talent with specialized skill sets to match product and market demands remains a nagging challenge for hiring managers and CTOs.</p>
-<p>Technical talent is still hard to find, particularly for architecture, data science, DevOps, development, and technical management, said <a target="_blank" href="https://twitter.com/tonykarrer" rel="nofollow noopener noreferrer">Tony Karrer</a>, head of the Los Angeles CTO Forum and CTO of Aggregage, which creates online communities.</p>
-<p dir="ltr">This challenge is often compounded by the need to meet tight deadlines, said Mark Long, principal of independent firm Interna Consulting.</p>
-<blockquote>
-<p dir="ltr">&#8220;In many instances, you need to find people who have a very specific skill set to meet project needs, and with looming deadlines you need to find those resources now.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/markklong/" rel="nofollow noopener noreferrer">Mark Long</a></p>
-</blockquote>
-<p>You simply can&#8217;t hire fast enough through your traditional HR process, Long said. Since speed is a deciding factor, you also don&#8217;t have the time to train members of your team to fill the role, making it difficult to quickly ramp up your team to respond to changes.</p>
-<p>Furthermore, disciplines have grown quickly, and as they get deeper and deeper it becomes much harder to find the right candidate and to adequately assess candidates&#8217; knowledge and skill level.</p>
-<p><a target="_blank" href="https://www.linkedin.com/in/ejgruber/" rel="nofollow noopener noreferrer">Eric Gruber</a>, IT manager at Amazon, said cybersecurity is a prime example. The cybersecurity skills shortage is expected to result in 3.5 million unfilled positions by 2021, <a target="_blank" href="https://cybersecurityventures.com/jobs/" rel="nofollow noopener noreferrer">according to Cybersecurity Ventures</a>.</p>
-<p>As cybersecurity becomes even more critical due to the threat landscape, &#8220;managers are put in a precarious position of competing for the limited talent to meet the demands &#8230; or finding other creative ways to temporarily fill gaps until more talent becomes available,&#8221; Gruber said.</p>
-<h3>Moving beyond technical skills when vetting candidates</h3>
-<p>While recruiting specialized talent for product teams is a struggle, that is not the main concern shared by tech leaders. More and more, the emphasis is shifting from hiring for technical skills to finding talented people who have a deeper understanding of what it takes to build the high-quality apps users want, said Amit Nayar, VP of engineering at FloQast.</p>
-<blockquote>
-<p dir="ltr">While technical skill is definitely important for engineers, being able to think about what users want and use that data to drive development is an extremely valuable skill set.<br />—<a target="_blank" href="https://twitter.com/nayar_amit" rel="nofollow noopener noreferrer">Amit Nayar</a></p>
-</blockquote>
-<p>There is a need for developers and testers who focus on quality, can think like a customer, and can <a target="_blank" href="https://techbeacon.com/app-dev-testing/customer-driven-development-3-ways-make-customers-part-rd" rel="noopener noreferrer">make user-driven technical decisions</a>. Managers want team members who go beyond the code and the tools to think about overall product value to customers and to the business.</p>
-<blockquote>
-<p>Getting the right people on the bus can be a challenge. For an engineering team, you get no points for just shipping a feature; you get points for creating customer value.<br />—Mark Long</p>
-</blockquote>
-<p dir="ltr">It is not enough to have testers who just tick off boxes, said <a target="_blank" href="https://twitter.com/stevemotola" rel="nofollow noopener noreferrer">Steve Motola</a>, CTO of EntWise, a video ad-tech startup. &#8220;We need people who can understand the product and think about product quality as a whole. Skills in QA design and planning and in creating an end-to-end QA strategy are lacking.&#8221;</p>
-<p dir="ltr"><a target="_blank" href="https://www.linkedin.com/in/phalder/" rel="nofollow noopener noreferrer">Priyanka Halder</a>, senior manager of QA at GoodRx, agreed. &#8220;More and more, companies are looking for quality advocates rather than just quality engineers,&#8221; she said.</p>
-<p>The ideal candidate&#8217;s profile couples technical aptitude with soft skills such as critical thinking and communication. While these additional criteria make it even more difficult for leaders to recruit the right talent, the consensus is that team members with these attributes add significantly more value to a team.</p>
-<p>Creating a better filtering and screening process for these additional qualities is still an area that most hiring managers are trying to figure out. There is a need to go <a target="_blank" href="https://www.linkedin.com/in/shahink/" rel="nofollow noopener noreferrer">beyond the traditional coding interviews</a> to be able to discern great talent with the right mix of technical skills and soft skills, said Shahin Mohammadkhani, executive director of enterprise technology at Sony Pictures Entertainment.</p>
-<blockquote>
-<p>&#8220;I&#8217;m really looking for two skills: resourcefulness and emotional intelligence. Knowing when to use the right tools and the right tech and understanding the thought process behind it is actually more critical than being an expert in a particular skill set.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/shahink/" rel="nofollow noopener noreferrer">Shahin Mohammadkhani</a></p>
-</blockquote>
-<p dir="ltr">Now more than ever, it&#8217;s critical to <a target="_blank" href="https://techbeacon.com/devops/3-ways-qa-pros-can-lead-quality-driven-development-devsecops-world" rel="noopener noreferrer">build quality-driven teams</a> where each member is considered a champion of both quality and of the end user. </p>
-<h3>Distributed teams and remote work change the game</h3>
-<p dir="ltr">Unfortunately, there is no quick fix or one-size-fits-all solution, and the recent acceleration of the remote work culture due to COVID-19 has pushed companies to rethink how they hire and retain team members.</p>
-<p dir="ltr">More companies are considering <a target="_blank" href="https://techbeacon.com/enterprise-it/3-things-every-it-org-should-be-doing-get-ahead-pandemic" rel="noopener noreferrer">a move toward distributed teams</a> as a viable way to fill resource gaps. The effects of this change are twofold: For some, it has opened a can of worms, but for others it holds new and exciting opportunities.</p>
-<p dir="ltr">The concept of remote work isn&#8217;t new in the tech space, but it has been accelerated. Some 48% of employees will likely work remotely at least part of the time after the worst of the virus has passed, versus 30% before the pandemic, according to a recent Gartner poll on<a target="_blank" href="https://www.gartner.com/smarterwithgartner/9-future-of-work-trends-post-covid-19/" rel="nofollow noopener noreferrer"> the future of work trends</a>.</p>
-<p dir="ltr">Sony Pictures Entertainment&#8217;s Mohammadkhani sees the change to remote work as the new normal. &#8220;We&#8217;ve established the technology platforms now for everyone to be remote. By opening up their models to facilitate remote team members, many businesses have expanded opportunities and their reach to the source pool and different markets. Unlike the past, remote is now a preference and no longer an impediment.&#8221;</p>
-<p>Halder of GoodRx agreed, adding that finding top testing talent for her company has &#8220;become easier since COVID-19 because of hiring freezes and layoffs from bigger companies. We now have more resources to choose from that weren&#8217;t accessible previously.&#8221;</p>
-<p>On the other hand, this openness to remote work has unlocked a new level of competition for small and medium-sized companies trying to find great resources for their teams. Large corporations that previously would not have considered hiring remote candidates outside of their city or country for critical roles are now more open to the idea.</p>
-<p>This may place startups and small businesses in the precarious position of figuring out how to compete successfully for staff against the perks and lure of working for large Fortune 500 companies.</p>
-<h3>COVID-19 is redefining tech team structure and culture</h3>
-<p dir="ltr">Going beyond heightened concerns about finding remote tech talent to fill gaps, the COVID-19 pandemic has reset major work trends. Companies now have to rethink not only their workforce planning and employee brand but also their work culture.</p>
-<p dir="ltr">According to a survey of employees on the <a target="_blank" href="https://www.ultimatesoftware.com/Contact/the-state-of-remote-work" rel="nofollow noopener noreferrer">state of remote work by Ultimate Software</a>, 54% of respondents prefer to be remote, 90% <a target="_blank" href="http://techbeacon.com/enterprise-it/5-engineering-productivity-lessons-we-learned-during-pandemic" rel="noopener noreferrer">feel more productive</a>, and 50% are less stressed than when they are in office. </p>
-<p dir="ltr">But remote work also brings challenges for managers, including:</p>
-<ul>
-<li>
-<p dir="ltr" role="presentation">Monitoring remote workers&#8217; productivity</p>
-</li>
-<li>
-<p dir="ltr" role="presentation">Building team morale and balancing the mental pressure of COVID-19 with the pressures of meeting team deliverables</p>
-</li>
-<li>
-<p dir="ltr" role="presentation">Finding the right mix of tools and technologies to foster effective communication and seamless collaboration</p>
-</li>
-<li>
-<p dir="ltr" role="presentation"><a target="_blank" href="https://techbeacon.com/security/pandemic-your-remote-workforce-9-ways-stay-secure" rel="noopener noreferrer">Managing security</a> and access to sensitive data</p>
-</li>
-</ul>
-<p dir="ltr">Creating a productive and encouraging remote-work culture will be essential for the success of tech teams even in a post-COVID-19 environment.</p>
-<h3>Adopting new models for finding top tech talent</h3>
-<p dir="ltr">The pandemic has validated that a remote workforce can be just as productive as in-house teams, if managed well. As a result, remote insourcing and outsourcing are gaining traction, especially in markets that have been oversaturated with tech job openings. </p>
-<p dir="ltr">Essentially, remote insourcing means that roles that traditionally would have been contracted out are instead being filled internally, but with resources that work remotely.</p>
-<p dir="ltr">Access to a wider sourcing pool may help to resolve issues around finding candidates with the right balance of technical expertise and soft skills.</p>
-<p dir="ltr">According to feedback from the <a target="_blank" href="https://lactoforum.org" rel="nofollow noopener noreferrer">Los Angeles CTO forum</a>, the major transition since the pandemic is toward hiring more remote talent to build in-house teams. The CTO Forum&#8217;s Karrer said that &#8220;many CTOs have found that they can work effectively with a fully remote team. Further, other executives in the organization have seen a fully remote model working well.&#8221; </p>
-<p dir="ltr">The philosophy of requiring everyone to work in the same office has changed dramatically, Karrer said. This means that CTOs are now looking at sourcing talent that would be in the workplace only a few times per year.</p>
-<h4>Outsourcing can fill in the gaps</h4>
-<p dir="ltr">This can work with outsourcing to fill more difficult roles such as cybersecurity or product quality specialists. This combined hiring approach allows managers to quickly meet skill demands while also managing costs. Managers can hire an outsourced consultant on an as-needed basis instead of taking on a full-time employee and the associated overhead costs.</p>
-<p dir="ltr">According to <a target="_blank" href="https://www.gartner.com/smarterwithgartner/9-future-of-work-trends-post-covid-19/" rel="nofollow noopener noreferrer">research by Gartner, </a>&#8220;organizations will continue to expand their use of contingent workers to maintain more flexibility in workforce management post-COVID-19.&#8221; Some 32% of organizations are replacing full-time employees with contingent workers as a cost-saving measure, the Gartner study said.</p>
-<p dir="ltr">A<a target="_blank" href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/how-cios-can-work-with-outsourcing-providers-to-navigate-the-coronavirus" rel="nofollow noopener noreferrer"> McKinsey report</a> found that the outsourcing industry has been an integral partner in companies&#8217; crisis response across sectors, particularly for the delivery of technology services. Pre-pandemic, the IT outsourcing market was already forecast to reach approximately $413.7 billion by 2021, <a target="_blank" href="https://www.statista.com/statistics/1074741/global-market-spend-outsourcing-shared-services-segment/" rel="nofollow noopener noreferrer">according to Statista</a>.</p>
-<h3>Key outsourcing challenges</h3>
-<p dir="ltr">Finding reputable, trustworthy outsourced experts will be critical. Leaders must commit to doing due diligence in creating an effective screening process that goes beyond just budget and timeline.</p>
-<p dir="ltr">Other factors such as level of maturity of outsourced resources, thought leadership, contribution to the community, and track record of working with distributed teams are important to consider.</p>
-<p dir="ltr">But despite the new challenges that may surface, outsourcing can help resolve some of the major tech talent gaps. This may very well become the new normal for building strong product teams. Companies that are quick to adapt will lead the pack.</p>
-<h3>Facing the new normal</h3>
-<p dir="ltr">Finding great tech talent is one of the biggest challenges tech leaders face today. The acceleration of remote work culture and related workforce trends has created new opportunities for hiring and finding specialized talent, and the pandemic has proved that remote workforces can be effective.</p>
-<p>Companies are moving toward more distributed teams, and access to a greater talent pool through outsourced, distributed resources can also help fill talent gaps. However, you need to be strategic in your approach to building a remote product team.</p>
-<p>With the promising opportunities for finding talent that come with this trend, managers must focus on what matters most: Finding talent that will allow them to build a quality-driven team and culture, where delivering customer value matters above all else.</p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/how-close-your-testing-talent-gaps-remote-work-era">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -664,5 +654,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-21 05:38:11 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-21 21:01:14 by W3 Total Cache
 -->
