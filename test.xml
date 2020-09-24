@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 22 Sep 2020 18:44:57 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 23 Sep 2020 08:04:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,72 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>AI in Test Automation &#8211; Discover How it Works</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-in-test-automation-discover-how-it-works/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Sep 2020 08:04:43 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Discover]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[Works]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-in-test-automation-discover-how-it-works/</guid>
+
+					<description><![CDATA[When discussing AI in test automation, you might be thinking: “Oh well, here’s another buzzword in our testing field”… But]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>When discussing AI in test automation, you might be thinking: “Oh well, here’s another buzzword in our testing field”… But let’s face it, AI (Artificial Intelligence) “buzzword” keeps on coming up over the past couple of years and seems to be here to stay, and rapidly transforming the testing landscape. Instead of being intimidated by the change, let’s embrace it, and what better way than with a <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">solution</a> that has AI built into its technology <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>TestProject recently added <a target="_blank" href="https://blog.testproject.io/2020/08/25/testprojects-smart-recorder-adds-ai-powered-self-healing-technology/" rel="noopener noreferrer">AI powered Self Healing technology</a> to its Selenium-based Smart Test Recorder. Since TestProject is built on top of Selenium, you now can get the benefits of Selenium with additional AI features to save a bunch of time and overcome the most common and difficult testing challenges, and all 100% for free.</p>
+<p>Earlier this month, we were thrilled to host 800+ eager webinar participants to demonstrate this AI technology of TestProject. We collected dozens of questions over the 1-hour session, and have answered the most common questions for you below.</p>
+<p>The following Q&#038;As can shed light over how AI works in test automation in general, and particularly when utilizing TestProject <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2><strong>Out-of-the-box AI Self Healing Technology</strong></h2>
+<p><strong>Q: Where can I view the full webinar recording?</strong><br />A: Directly from our <a target="_blank" href="https://www.youtube.com/testproject" rel="noopener noreferrer">TestProject YouTube channel</a>, or here:</p>
+<p> <iframe title="[Webinar Recording] Introducing The TestProject New AI Powered Self Healing Technology" width="800" height="450" src="https://www.youtube.com/embed/H45aSXTPDdg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Q: How do the AI self-healing features work?</strong><br />A: <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>’s AI works for you, both during the Recording &#038; Execution of your tests!</p>
+<ul>
+<li><strong>When recording a test</strong>, you will be notified if there’s a better, more stable way, to run the test and allow you to review and confirm the proposed changes.</li>
+<li><strong>When executing a test</strong>, if a self-healing mechanism was used to recover from an error, an indication will appear in your report.</li>
+</ul>
+<p><strong>Q: Is this a native built-in option, or should I install some Addon?</strong><br />A: TestProject AI-powered Self Healing technology is built-in the Web Test Recorder. No need to install anything other than the <a target="_blank" href="https://docs.testproject.io/testproject-agents/what-is-a-testproject-agent" rel="noopener noreferrer">TestProject Agent</a>. Just make sure you are using Agent version 0.64.0 or higher.</p>
+<p><strong>Q: Is the self-healing capability available also within the Mobile Test Recorder as well as the Web Test Recorder?</strong><br />A: It will be added to the Mobile Test Recorder by Q4.</p>
+<p><strong>Q: Do I need to reinstall/upgrade the TestProject Agent to access the new AI self-healing version?</strong><br />A: You simply need to install/update your TestProject Agent to version 0.64.0 or higher.</p>
+<p><strong>Q: Do I have to use the AI features? Can I modify the AI-selected locator?</strong><br />A: TestProject’s AI features are designed to be non-intrusive. You can always override suggested locators with your own by making them primary or removing the automatically generated ones. In addition, you can always change (or remove) any alternative strategies from the elements management page.</p>
+<p><strong>Q: What are the benefits of these AI Self-Healing capabilities?</strong><br />A: This revolutionary technology provides a number of new capabilities to further enhance the Smart Test Recorder, including:</p>
+<ul>
+<li>Automatic Self-Healing capabilities, with AI to monitor your tests and select the most robust selector strategy for your elements, and can even repair tests on the fly if needed.</li>
+<li>Best-in-class support for iFrames, Popups, Dynamic Elements and more. Learn more about how we help overcome these challenges in <a target="_blank" href="https://blog.testproject.io/2020/09/01/overcome-7-selenium-challenges-with-testprojects-smart-recorder/" rel="noopener noreferrer">this tutorial</a>.</li>
+<li>Streamlined user interface, accelerating test creation and management of advanced features like <a target="_blank" href="https://addons.testproject.io/" rel="noopener noreferrer">Addons</a>, parameters, and more.</li>
+<li>Improved performance, for lightning-quick test creation, element identification, and test debugging.</li>
+<li>Full compatibility with the most complex enterprise web apps, including Salesforce, SAP Fiori, MS Sharepoint, and ServiceNow.</li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/05/04/testproject-adaptive-wait-capability/" rel="noopener noreferrer">Adaptive-Wait</a> automatically handles deviations in web application loading times.</li>
+</ul>
+<p><strong>Q: Does TestProject support objects within iFrames and enables them to switch back to normal frame objects?</strong><br />A: Yes, TestProject’s AI-powered test recorder supports iFrames out-of-the-box, you don’t need to do anything special for that.</p>
+<p><strong>Q: Do we need to perform any auto-adjust when the iFrame loads in a dynamic position or in a resized height?</strong><br />A: No, there is no need to adjust anything since the iFrames are supported automatically.</p>
+<p><strong>Q: What happens if the element locators are changed? Will the test still proceed or will it fail?</strong><br />A: For each element, TestProject’s AI will search for the most stable locator before proceeding with the test, as more than a single locator is stored for each element.</p>
+<p><strong>Q: Is there something special we need to do in order to enable this AI self-healing technology? </strong><br />A: The self-healing will work automatically and it will work on all types of locators.</p>
+<p><strong>Q: Is there an element repository? Meaning, if “name2” is broken across many tests, is there a way to update in ONE place for all tests that use the element?</strong><br />A: Yes, with TestProject’s Page Object Model, all of your elements are stored in one streamlined repository in the “Elements” section within each Project.</p>
+<p><strong>Q: Is there an indicator on the test reports of the self-healing that occurred?</strong><br />A: Each test step that was self-healed has a heart icon to represent it on the test report. See below an example of the heart icon on step 2 &#038; 3:</p>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-13953 size-full" title="Self Healing Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/09/Self-Healing-Test-Report.png" alt="Self Healing Test Report" width="1905" height="827" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Self-Healing-Test-Report.png 1905w, https://blog.testproject.io/wp-content/uploads/2020/09/Self-Healing-Test-Report-512x222.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Self-Healing-Test-Report-768x333.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Self-Healing-Test-Report-1024x445.png 1024w" sizes="(max-width: 1905px) 100vw, 1905px"/></noscript></p>
+<p><strong>Q: How is it possible to save the CSS locator when recording an element? By default, is it the XPath that is saved? Can we filter which type of locator the AI will be looking for? For instance, only CSS or only XPath?</strong><br />A: By default, we will save more than one locator for each element (both CSS/XPath). If you want to override the default locator with a custom attribute, or a combination of custom attributes, you can do it on the application level – that will force the recorder to look for a custom attribute first Here is a <a target="_blank" href="https://intercom.help/testprojectio/en/articles/4449063-setting-application-s-custom-attributes" rel="noopener noreferrer">short tutorial</a> of how to do so.</p>
+<p><strong>Q: What is the best way to identify elements on a web page? Should we use ID, XPath, or unique attributes like “data-qa”?</strong><br />A: TestProject’s Smart Test Recorder will automatically identify the best locators based on your application layout (typically more than one). You can always edit each element to learn what are the best locator strategies it picks for you. If you do the mapping manually, then ID’s, Custom CSS, and Custom attributes are preferred.</p>
+<p><strong>Q: What happens if the AI Self-healing cannot find an element?</strong><br />A: If an element cannot be located, the step will fail and probably for a good reason <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><strong>Q: Will the self-healing work at all times? Are there any challenges or scenarios in which the self-healing will fail to work?</strong><br />A: Yes, if the element completely changed its characterization in more than one way, we will prefer to fail the step where the certainty is not high and you might get false-positive results.</p>
+<p><strong>Q: Are the AI self-healing capabilities available only within the Test Recorder, or also when developing coded tests with the TestProject <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">OpenSDK</a>?</strong><br />A: At this point, these capabilities are available within the Smart Test Recorder only.</p>
+<p><strong>Q: Is TestProject really offering all of this for free? Is it Open Source?</strong><br />A: TestProject is part of Tricentis, a well-funded company that is the leader in software testing. This provides the resources to create tools to offer TestProject at no cost to our users, for the benefit of giving back to the testing community. TestProject is based on open source (Selenium and Appium) and its SDK is 100% open source. So, YES, <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> is 100% FREE forever. Just sign up and get started: <a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer">https://app.testproject.io/signup/</a>.</p>
+<h2><strong>Want to learn more about AI in Test Automation?</strong></h2>
+<p>Have any more questions you were hoping to ask about AI in test automation? Please feel free to post your question on our <a target="_blank" href="https://forum.testproject.io/" rel="noopener noreferrer">Forum</a>, In-app chat, or email us directly at <a target="_blank" href="https://blog.testproject.io/cdn-cgi/l/email-protection#cab9bfbabaa5b8be8abeafb9bebab8a5a0afa9bee4a3a5" rel="noopener noreferrer"><span class="__cf_email__" data-cfemail="176462676778656357637264636765787d727463397e78">[email protected]</span></a>, and we will answer all of your questions ASAP.</p>
+<p>Happy Testing! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f60e.png" alt="😎" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/09/23/ai-in-test-automation-discover-how-it-works/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Google Chrome Bugs Open Browsers to Attack</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-chrome-bugs-open-browsers-to-attack/</link>
 		
@@ -530,129 +596,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Migrating to Selenium 4: Here’s What Has Changed</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/migrating-to-selenium-4-heres-what-has-changed/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 10 Sep 2020 20:22:47 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Changed]]></category>
-		<category><![CDATA[Heres]]></category>
-		<category><![CDATA[Migrating]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/migrating-to-selenium-4-heres-what-has-changed/</guid>
-
-					<description><![CDATA[A guide to notable changes and deprecations for engineers looking to migrate from Selenium 3 to Selenium 4. There is]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<h2 id="h.trd73uc0493p">A guide to notable changes and deprecations for engineers looking to migrate from Selenium 3 to Selenium 4.</h2>
-<p>There is huge excitement within the testing community since Simon Stewart, the lead of the Selenium project, announced the release of Selenium 4 with major changes and W3C standardization to the Selenium suite (Selenium IDE, Selenium WebDriver and Selenium Grid) during the official <a target="_blank" href="https://www.youtube.com/watch?v=ypmrrJmgM9U" rel="noopener noreferrer">Selenium Conference</a> 2018 at Bangalore, India.</p>
-<p>As of early September 2020, the <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">alpha version of Selenium 4</a> is available and can be downloaded to explore.</p>
-<p>Manoj Kumar has already explained at a high level <a target="_blank" href="https://applitools.com/blog/selenium-4/" rel="noopener noreferrer">what’s new in Selenium 4</a>, and in this weekly blog series, we will discuss these features in detail with code snippets, benefits and possible use cases for the end users and well as the dev community who have built tools/products on top of Selenium.</p>
-<p id="h.zac1ehcvyxfv">Key takeaways</p>
-<ul>
-<li>Understand the deprecated components and their replacements</li>
-<li>Plan the migration from Selenium 3 to 4</li>
-</ul>
-<p>Selenium is a toolset for web browser automation that allows us to remotely control browser instances and emulate a user’s interaction with the browser. There are many changes in Selenium 4, the major being the W3C standardization, which implies that Selenium can be integrated with any software without any compatibility issues. Along with W3C standardization, there are few new methods added and deprecated/replaced.</p>
-<p>Let’s discuss these in detail.</p>
-<p>There are a couple of deprecations in Selenium 4. Let’s explore them.</p>
-<h2 id="h.q3klgov012qo">FindsBy</h2>
-<p>FindsBy interfaces are part of org.openqa.selenium.internal package having findElement(By) and findElements(By) methods, implemented by the RemoteWebDriver class. These are now deprecated as part of Selenium 4.</p>
-<p>This is an internal change and does not impact end users, however if you have a product or tool built on top of Selenium APIs, have a look into these changes.</p>
-<p>The By class can be used with findElement(By) and findElements(By) just like before.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/0c2e9174680b510315f3feb24c9d4366.js</p>
-</div>
-<h2 id="h.jg0o7c8ahn0b">Actions</h2>
-<p>The <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/interactions/Actions.html" rel="noopener noreferrer">Actions</a> class is a user-facing API for emulating complex user gestures like hovering, mouse movements, etc.</p>
-<p>A few new methods have been added to the Actions class as a replacement of the classes under package org.openqa.selenium.interactions:</p>
-<h3 id="h.mj2yxzjlz2t2">click</h3>
-<p>A new method click(WebElement) is added to Actions class and is a replacement of moveToElement(onElement).click() and is used to click on an element.</p>
-<h3 id="h.2mygl0gk2upp">clickAndHold</h3>
-<p>Similarly, clickAndHold(WebElement) is used to click on an element without releasing and should be used as an replacement of moveToElement(onElement).clickAndHold()</p>
-<h3 id="h.2qa0whoeiwd">contextClick</h3>
-<p>contextClick(WebElement) is a replacement of moveToElement(onElement).contextClick() which was used to right click on an element.</p>
-<h3 id="h.wmeymwc5pkoq">doubleClick</h3>
-<p>doubleClick(WebElement) is used to double click on an element and is a replacement of moveToElement(element).doubleClick().</p>
-<h3 id="h.tusoyvtzya5w">release</h3>
-<p>release() is used to release the depressed left mouse button at the current mouse location. This was earlier part of org.openqa.selenium.interactions.ButtonReleaseAction class, and is now moved to Actions class.</p>
-<h3 id="h.4s0zg88lo54k">Examples</h3>
-<p>The below example demonstrates the usage of Actions methods discussed in Selenium 3 from line 17 to 33.</p>
-<p>These methods can be replaced as shown in the below code snippet as part of Selenium 4 implementation from line 37 to 53.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/8e5a355017397ad12fd45d0819304ea5.js</p>
-</div>
-<h2 id="h.fcin1oerapqt">FluentWait</h2>
-<p>The methods withTimeout() and pollingEvery() from FluentWait class have been changed. Now both methods accept a single parameter java.time.Duration in replacement of two parameters int and TimeUnit. Lets see the usages.</p>
-<p>In the Selenium 3 example below, we see on line 6, the pollingEvery() method takes two parameters int and TimeUnit and can be imported from the package java.util.concurrent.TimeUnit. On line 7, withTimeout() also accepts int and TimeUnit as parameters.</p>
-<p>Selenium 4 has replaced the TimeUnit with Duration and here is the sample code snippet demonstrating it. On line 12, pollingEvery() method now accepts only one parameter, Duration.</p>
-<p>The Duration class can be imported from the java.time package and has methods to represent time duration in nano, millis, seconds, minutes, hours, days and so on.</p>
-<p>In our example we have used ofMillis(int) and ofSeconds(int) methods.</p>
-<p>Similarly, on line 14 withTimeout() method accepts Duration as a parameter.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/cce2da71e0eca5e4240dc88009a2018a.js</p>
-</div>
-<h2 id="h.ldz60qiklzam">Driver Constructors</h2>
-<p>A couple of driver constructors have been deprecated. Namely, the ones that accepted Capabilities objects have been replaced with ones that accept Options.</p>
-<p>This means you will need to create a specific Options object for whichever Driver class you’re using, set your requirements and pass this object to the Driver constructor.</p>
-<p>Examples for each of the drivers can are below</p>
-<h3 id="h.9xw0f7uoe1lc">ChromeDriver</h3>
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"></figure>
-</div>
-<p>ChromeDriver(Capabilities) is replaced by ChromeDriver(ChromeOptions).</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/299f79a81a4b7a2aef42057479d2abc9.js</p>
-</div>
-<h3 id="h.k40sacmlav7s">SafariDriver</h3>
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/Safari.jpg" alt="" class="wp-image-22560" width="193" height="193" srcset="https://applitools.com/wp-content/uploads/2020/09/Safari.jpg 1024w, https://applitools.com/wp-content/uploads/2020/09/Safari-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/09/Safari-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/09/Safari-768x768.jpg 768w, https://applitools.com/wp-content/uploads/2020/09/Safari-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/09/Safari-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/09/Safari-30x30.jpg 30w, https://applitools.com/wp-content/uploads/2020/09/Safari-462x462.jpg 462w, https://applitools.com/wp-content/uploads/2020/09/Safari-216x216.jpg 216w" sizes="(max-width: 193px) 100vw, 193px"/></figure>
-</div>
-<p>SafariDriver(Capabilities) is replaced by SafariDriver(SafariOptions).</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/7ef2257901d3a58414bde8f744bcafff.js</p>
-</div>
-<h3 id="h.i0cgkpmujnw0">EdgeDriver</h3>
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge.jpeg" alt="" class="wp-image-22563" width="210" height="210" srcset="https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge.jpeg 225w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-150x150.jpeg 150w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-200x200.jpeg 200w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-90x90.jpeg 90w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-30x30.jpeg 30w, https://applitools.com/wp-content/uploads/2020/09/Microsoft-Edge-216x216.jpeg 216w" sizes="(max-width: 210px) 100vw, 210px"/></figure>
-</div>
-<p>EgdeDriver(Capabilities) is replaced by EdgeDriver(EdgeOptions).</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/a1bb74945909ad296f8932a4d3c6aefb.js</p>
-</div>
-<h3 id="h.18alrxmvceat">FirefoxDriver</h3>
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/firefox.jpg" alt="" class="wp-image-22564" width="165" height="165" srcset="https://applitools.com/wp-content/uploads/2020/09/firefox.jpg 1024w, https://applitools.com/wp-content/uploads/2020/09/firefox-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2020/09/firefox-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2020/09/firefox-768x768.jpg 768w, https://applitools.com/wp-content/uploads/2020/09/firefox-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2020/09/firefox-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/09/firefox-30x30.jpg 30w, https://applitools.com/wp-content/uploads/2020/09/firefox-462x462.jpg 462w, https://applitools.com/wp-content/uploads/2020/09/firefox-216x216.jpg 216w" sizes="(max-width: 165px) 100vw, 165px"/></figure>
-</div>
-<p>FirefoxDriver(Capabilities) is replaced by FirefoxDriver(FirefoxOptions).</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/fb059d0883630e83c2c599dc1c7fb1b0.js</p>
-</div>
-<h3 id="h.b7ba5weinru0">InternetExplorerDriver</h3>
-<div class="wp-block-image is-style-default">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo.jpg" alt="" class="wp-image-22567" width="132" height="130" srcset="https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo.jpg 782w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-300x295.jpg 300w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-768x754.jpg 768w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-90x90.jpg 90w, https://applitools.com/wp-content/uploads/2020/09/782px-Internet_Explorer_1011_logo-30x30.jpg 30w" sizes="(max-width: 132px) 100vw, 132px"/></figure>
-</div>
-<p>InternetExplorerDriver(Capabilities) is replaced by InternetExplorerDriver(InternetExplorerOptions).</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/9e75f153ca343db8ece5d48707b77c20.js</p>
-</div>
-<h2 id="h.3bst29ontuje">Summary</h2>
-<p>We went through the major deprecations in Selenium 4 and have outlined the ones that are important for end users in their migration from Selenium 3 to 4.</p>
-<p>The list of all deprecations can be explored in the <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/java/deprecated-list.html" rel="noopener noreferrer">Selenium WebDriver API docs</a>. There are considerable internal interfaces, classes and ENUMs deprecated which have no impact on end users but may be of importance to vendors of tools and products built on top of Selenium.</p>
-<p>In the next post of this series, we will explore the newly added features offered in Selenium 4 and the benefits they provide.</p>
-<h2>About the Author</h2>
-<p>Shama Ugale is a quality assurance specialist at Thoughtworks. She has great knowledge about Selenium project and Selenium 4 that she is happy to share with you. You can finder on LinkedIn at <a target="_blank" aria-label="undefined (opens in a new tab)" href="https://www.linkedin.com/in/shama-ugale-7a95b549/" rel="noreferrer noopener">https://www.linkedin.com/in/shama-ugale-7a95b549/</a></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/selenium-4-migration/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -661,5 +604,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-23 21:01:16 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-24 05:38:16 by W3 Total Cache
 -->
