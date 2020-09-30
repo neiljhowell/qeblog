@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 25 Sep 2020 21:03:53 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 29 Sep 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,55 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>You built a talented QA team. Here&#8217;s how to keep them</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/you-built-a-talented-qa-team-heres-how-to-keep-them/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Sep 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[built]]></category>
+		<category><![CDATA[Heres]]></category>
+		<category><![CDATA[talented]]></category>
+		<category><![CDATA[team]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/you-built-a-talented-qa-team-heres-how-to-keep-them/</guid>
+
+					<description><![CDATA[As a New York City public school teacher, I taught general music classes to up to 50 students, each with varying]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>As a New York City public school teacher, I taught general music classes to up to 50 students, each with varying degrees of ability and readiness to learn. Fast forward 12 years: As a new people manager, I had to hire 25 QA engineers at Salesforce.org, all with <a target="_blank" href="https://content.microfocus.com/qa-testing-careers-tb/test-automation-qa-career?lx=rI_Ys9&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172440" rel="noopener noreferrer">varying degrees of technical and domain experience</a>. </p>
+<p>I knew this would be a challenge. How would I address the unique needs of my team while building everyone&#8217;s competencies? </p>
+<p>My answer: Go back to my educational roots. Reading articles about management reminded me that I had <a target="_blank" href="https://techbeacon.com/devops/10-ways-build-highly-effective-devops-teams" rel="noopener noreferrer">many effective strategies</a> in my toolbox to deal with just such a situation. Differentiated instruction is an educational method practiced for a century (formalized by <a target="_blank" href="https://www.linkedin.com/in/carol-tomlinson-19bb8716/" rel="nofollow noopener noreferrer">Carol Ann Tomlinson</a>), proposing that students do best when classroom instruction is adjusted based on their needs. </p>
+<p>To meet the diverse needs of my new team and help them grow, I drew on this work, as well as communication strategies from <a target="_blank" href="https://psychcentral.com/lib/an-overview-of-dialectical-behavior-therapy/" rel="nofollow noopener noreferrer">Dialectical Behavioral Therapy</a> (DBT, developed by <a target="_blank" href="https://twitter.com/DrLinehan" rel="nofollow noopener noreferrer">Marsha Linehan</a>), and developed a strategy I call &#8220;differentiated management.&#8221;</p>
+<p>This strategy will help you keep valued team members on board and help struggling members become better, all while continuing to manage your organization and meet deliverables. Here&#8217;s a crash course.</p>
+<h3><strong>How to practice differentiated management </strong></h3>
+<p>Differentiated management is based on the assumption that every team member comes to work with her or his own experiences, strengths, and weaknesses. The strategy works by helping managers learn how to differentiate content, process, and products by learning more about their employees. Of course, the workplace has a different dynamic than the classroom, so implementing these strategies requires a more nuanced approach. </p>
+<p>On an engineering team, content is the information and materials we provide the team to do their jobs. Process is the means by which the team accomplishes the job, whether it&#8217;s a design, bug fix, built-in testability, or wholesale process changes to make working easier for all team members.</p>
+<p>Product is the outcome of the work, and it&#8217;s the area where we as managers can be flexible. This may include more agile approaches around work planning to deliver smaller pieces more quickly; it may also include flexibility in reporting or documentation.</p>
+<p>The difficult part of practicing differentiated management is not what to change; what you can change in the content, process, or product is somewhat limited in a software delivery context. However, the difficulty lies in knowing how best to make changes for your organization and the unique team environment in which you work.</p>
+<p>Traditional people management strategies tend to focus on a one-size-fits-all approach, or tend toward stereotypes of employees: the difficult employee, the workaholic, etc.</p>
+<p>The differentiated management strategy focuses instead on complex, multiple aspects of the individual within the context of the other people on the team, in the current working environment.</p>
+<h3>Learning three elements about employees</h3>
+<p>Knowing how to make changes that will strengthen your team while getting maximum effectiveness requires knowing about three elements—employee readiness, interests, and lived experiences—to help you make the right choices for each person and for your whole team, in nearly any situation.</p>
+<p>Gauging employee readiness involves taking the time to assess your team members from the first moment you meet them, and ensuring that you know where they are with their personal and professional skills. Then, you can provide advice when they are struggling, and give appropriate stretch challenges for their growth and development.</p>
+<p>Knowing about employee interests can help you to motivate employees when they are stuck, and to work with employees on stretch assignments that will help them to strengthen their skills while remaining motivated.</p>
+<p>More now than ever, understanding and creating safe spaces for your team to share their lived experiences is critical to helping team members achieve their highest potential. Some aspects of the lived experience are very difficult to address in a work setting, and it isn&#8217;t necessary to do so in most cases.</p>
+<p>However, understanding the physical, emotional, mental, or social challenges an employee may be facing can help to resolve interpersonal difficulties or other <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-retain-diverse-software-engineering-teams" rel="noopener noreferrer">nuanced aspects of people management</a> that are frequently ignored because they are difficult. The differentiated management methodology provides strategies to address more personal aspects of the work environment with empathy and compassion.</p>
+<h3><strong>Benefits and challenges of differentiated management</strong></h3>
+<p>There are many benefits of differentiated management. With my teams, I have observed increased personal and professional growth, as well as increased resilience in the face of the health, social, and political pressures we have all faced over the past year. </p>
+<p>However, this management technique is not plug-and-play. The hardest part of differentiated management is that it requires an investment of time involving effective and intentional communication strategies. Regular communication, empathetic listening, and strategic problem-solving are all skills reinforced in <a target="_blank" href="https://www.teachcode.org/manage.html" rel="nofollow noopener noreferrer">my workshop</a>, and you must practice them regularly and consistently if you want to succeed.</p>
+<p><em>During my <a target="_blank" href="https://well.tc/5d5x" rel="nofollow noopener noreferrer">STAREAST Virtual+ conference</a> session, I&#8217;ll offer more details on how you can use differentiated management. The conference runs October 5-8, 2020. I hope to see you there.</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/you-built-talented-qa-team-heres-how-keep-them">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How to Install Selenium 4 &#8211; Automated Visual Testing</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-install-selenium-4-automated-visual-testing/</link>
 		
@@ -300,6 +349,40 @@
 		
 			</item>
 		<item>
+		<title>Speeding Up Your Tests &#124; Sauce Labs</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/speeding-up-your-tests-sauce-labs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[Speeding]]></category>
+		<category><![CDATA[Tests]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/speeding-up-your-tests-sauce-labs/</guid>
+
+					<description><![CDATA[A common complaint that I hear is: “My tests run a lot faster locally than on Sauce Labs.” Sauce Labs]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>A common complaint that I hear is: “My tests run a lot faster locally than on Sauce Labs.”</p>
+<p>Sauce Labs is in the cloud and not in your local network, so it makes sense that any given test is going to have some amount of slowdown. The advantage of Sauce Labs is that you can make up this difference by scaling up the number of tests you run at the same time. If you are seeing individual tests taking much more than twice as long to run remotely as they do locally, then there are definitely things you can do that will improve your performance.</p>
+<p>However, let’s start with an unlikely disclaimer: test speed might not be what you should be prioritizing.</p>
+<div class="video">
+<p><iframe title="Who Should Be Focusing on Faster Test Results?" width="800" height="450" src="https://www.youtube.com/embed/CvNlN6DaW0A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<p>The goal of test automation is to get accurate results back in a consistent manner. If you are not getting accurate results, then the speed at which you get those results is not the important thing. I spoke with a team last year that wanted to decrease their run times from 9 hours to 6 hours. When I sat down to work with them on that, I asked what percent of their tests were failing. They told me 70% (!!?!??). When you have more failures than you can evaluate between test runs, your tests are effectively useless. This team had no business focusing on shaving off time on their test runs when all that will do is give them useless information faster. I’m not saying performance isn’t important, and there are some things that you can do to improve performance that will also improve reliability, but in general, focus on the most important thing first. Essentially, spend your time reducing “maintenance costs” rather than focusing on “execution costs.”</p>
+<p>There are a number of improvements that might make a difference—like moving your testing servers closer to the Sauce Labs data center, and turning off video capture and screenshots—which aren’t worth the time savings. You might have errors that are entirely preventable and should never happen that are taking up time that could be spent running other tests. There are some powerful things that you might not know about that you can do with a proxy like Sauce Connect for reducing overall traffic and decreasing the amount of internet that some assets need to travel. Finally, many people don’t realize that their frameworks are likely optimized for local execution and are very inefficient when running against any remote server.</p>
+<p>Over the next few weeks, I&#8217;ll be walking you through some ways that you can speed up your tests, including parallel testing, eliminating time-wasting errors, and more! Stay tuned for future posts that will include code and video with screencasts.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/speeding-up-your-tests">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Special Delivery: Don’t Fall for the USPS SMiShing Scam</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/special-delivery-dont-fall-for-the-usps-smishing-scam/</link>
 		
@@ -502,103 +585,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Can Automated Cross Browser Testing Be Ultrafast?</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-automated-cross-browser-testing-be-ultrafast/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 16 Sep 2020 00:07:23 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Cross]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Ultrafast]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/can-automated-cross-browser-testing-be-ultrafast/</guid>
-
-					<description><![CDATA[Early January this year, Applitools announced the results of their Visual AI Rockstar Hackathon winners of which I am lucky to be]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Early January this year, Applitools announced the results of their<a target="_blank" href="https://applitools.com/blog/hackathon-winners/" rel="noopener noreferrer"> </a><a target="_blank" href="https://applitools.com/blog/hackathon-winners/" rel="noopener noreferrer">Visual AI Rockstar Hackathon winners</a> of which I am lucky to be included as one of their silver winners. I blogged about my experience as to how I approached the hackathon and my honest feedback as to why I think it’s modernising the way we do test automation which you can find in this post –<a target="_blank" href="https://www.mariedrake.com/post/applitools-modernising-the-way-we-do-test-automation" rel="noopener noreferrer"> </a><a target="_blank" href="https://www.mariedrake.com/post/applitools-modernising-the-way-we-do-test-automation" rel="noopener noreferrer">Applitools: Modernising the way we do test automation</a>.</p>
-<p>6 months in and they announced another hackathon but this time the focus is on cross browser testing via<a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener noreferrer"> </a><a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener noreferrer">Ultrafast Grid</a> and comparing it with traditional solutions such as running the same functional tests on different browsers and viewports locally. I participated in the hackathon again and ended up as one of their gold winners this time, which I’m extremely pleased, because not only did I win one of their amazing prizes but also, I improved my technical skill and learned a lot about the true cost of cross browser testing.</p>
-<h2 id="h.bgexigit1a13">Why Automated Cross Browser Testing?</h2>
-<p>First, let’s talk about why cross browser testing? Why another hackathon?</p>
-<p>If you’re like me and have been testing web applications for some time, you’ll know that cross browser testing is a pain and time consuming to test. There is no way you can test 100% cross browser coverage, unless you have a lot of time and want to devote all your testing efforts in cross browser testing alone plus don’t forget that you also need to check on other viewports. In time, it gets really boring and tedious. This is why it’s a great idea to automate cross browser tests as much as possible so we can focus on other areas where we are also needed such as exploratory and accessibility testing.</p>
-<p>Nowadays, there are not a lot of functional differences between different browsers. The code that gets deployed is mostly similar on any platform but the way the code is rendered visually exposes differences that we need to catch. Rather than doing cross browser functional testing where we are testing the functionality across different browsers, a better alternative is to do cross browser visual testing instead where we validate the look of our pages instead because this is what our users see.</p>
-<p>The problem is automated cross browser testing, whether it’s functional or visual, can still take a considerable amount of time to set up because you need to create an automation framework that can scale and easily be maintained. This can be quite a challenge for testers who are considerably new in test automation.</p>
-<figure class="wp-block-image"></figure>
-<p>Cross Browser Testing in a nutshell</p>
-<p>The purpose of this hackathon was to show how easy and how fast cross browser visual testing can be if you’re using modern tools such as Applitools. It’s also to highlight that existing testing tools are great for doing cross browser <em>functional</em> testing but not so great with cross browser <em>visual </em>testing which I’ll expand on later.</p>
-<h2 id="h.k31gr9jtrxn7">The Hackathon Experience: Cypress</h2>
-<p>The hackathon was split into automating three different scenarios for a sample e-commerce website called<a target="_blank" href="https://demo.applitools.com/gridHackathonV1.html" rel="noopener noreferrer"> </a><a target="_blank" href="https://demo.applitools.com/gridHackathonV1.html" rel="noopener noreferrer">AppliFashion</a>. The scenarios should be automated using any testing tool of your choice and also with the same testing tool but with using Applitools alongside. The automated tests will then be executed on two versions of the website – version 1, which is assumed to be bug free, and version 2, which has new bugs added in. On version 2, you have to update the automated tests to fix the bugs introduced and then compare the effort of doing this with the traditional testing tool that you have chosen as opposed to using Applitools.</p>
-<p>I decided to use Cypress as my testing tool and while it’s a great tool for automating the browser, I spent 5.5 hours doing cross browser visual testing with this approach and still felt that I missed a lot of visual bugs. Let’s look at this in more detail.</p>
-<ul>
-<li>Installing Cypress: <strong>5 mins</strong></li>
-<li>Writing tests for version 1: <strong>2 hours</strong></li>
-<li>Test maintenance for version 2 and finding bugs: <strong>1 hour</strong></li>
-<li>Test reporting and project refactoring: <strong>2 hours</strong></li>
-<li>Documentation: <strong>30 mins</strong></li>
-<li><strong>Total Time: 5 hrs, 35 mins</strong></li>
-</ul>
-<p>Writing the tests took quite some time. I needed to verify a lot of the elements and get their selectors so I could assert that they were visible on the page. Some of the elements were hidden if you are on different viewports so these had to be reflected on the tests. You can find an example code on how I handled this on my<a target="_blank" href="https://github.com/mdcruz/applitools-ufg-hackathon/blob/master/TraditionalTestsV1/cypress/integration/task3.spec.js" rel="noopener noreferrer"> </a><a target="_blank" href="https://github.com/mdcruz/applitools-ufg-hackathon/blob/master/TraditionalTestsV1/cypress/integration/task3.spec.js" rel="noopener noreferrer">applitools ultrafast grid github repo</a>. The test execution time was also slightly longer because I had more viewports (desktop, tablet, mobile) and browsers (Chrome and Firefox) to cover locally.</p>
-<p>When it was time to run the same test on version 2, I had to make some adjustments to my tests and log the bugs that my automated tests found. This took me an hour because I had to update the selectors to fix my tests but also, I wasn’t confident that my tests found all the visual bugs on version 2. I had to find some of the bugs manually since verifying CSS changes was difficult for me with just using Cypress alone.</p>
-<p>When it came to test reporting and project refactoring, I invested 2 hours on this task. As I knew from experience, good reporting helps everyone make sense of test data. I wanted to integrate Mochawesome reporter so I could present the test results nicely to the hackathon judges. I wrote a tutorial on how to do this which you can find in this post –<a target="_blank" href="https://www.mariedrake.com/post/test-reporting-with-cypress-and-mochawesome" rel="noopener noreferrer"> </a><a target="_blank" href="https://www.mariedrake.com/post/test-reporting-with-cypress-and-mochawesome" rel="noopener noreferrer">Test Reporting with Cypress and Mochawesome</a>. I also started noticing that my test code was getting a lot of duplication so I did some refactoring to clean up my automation framework.</p>
-<h2 id="h.xfsxfxk9x2gl">The Hackathon Experience: Cypress with Applitools</h2>
-<p>Now let’s look at how long it took me to do cross browser visual testing with Cypress and Applitools.</p>
-<ul>
-<li>Install Applitools Cypress SDK: <strong>2 mins</strong></li>
-<li>Setup project structure with Cypress and Applitools: <strong>10 mins</strong></li>
-<li>Writing tests for version 1: <strong>20 mins</strong></li>
-<li>Running tests for version 2: <strong>5 mins</strong></li>
-<li>Bug reporting with Applitools: <strong>25 mins</strong></li>
-<li>Documentation: <strong>10 mins</strong></li>
-<li><strong>Total time: 1 hr, 12 min</strong></li>
-</ul>
-<p>In total, I spent around just over one hour writing the tests for both version 1 and version 2 when using Cypress with Applitools. The time difference was massive! There were a few visual bugs that I missed that Applitools caught but even if this was the case, I didn’t have to rewrite my tests at all. All the adjustments were done on the Applitools Dashboard directly and marking the bugs through its annotation feature.</p>
-<p>Writing the tests was considerably faster. As opposed to verifying individual selectors and checking that it’s visible, I took a screenshot of the whole page which is a better approach for visual validation.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1294" height="696" src="https://applitools.com/wp-content/uploads/2020/09/carbon-8.png" alt="carbon 8" class="wp-image-22988" srcset="https://applitools.com/wp-content/uploads/2020/09/carbon-8.png 1294w, https://applitools.com/wp-content/uploads/2020/09/carbon-8-300x161.png 300w, https://applitools.com/wp-content/uploads/2020/09/carbon-8-1024x551.png 1024w, https://applitools.com/wp-content/uploads/2020/09/carbon-8-768x413.png 768w" sizes="(max-width: 1294px) 100vw, 1294px"/></figure>
-<p>Visual validation test with Cypress and Applitools</p>
-<p>The code snippet above is simpler and will catch more visual bugs with less or even no test code maintenance.</p>
-<p>So you might be wondering from the above code, how did I handle the cross browser capabilities? This was easily achieved by creating a file called <em>`applitools.config.js`  </em>on the root of your project and specifying the list of browsers that you want your tests to execute on. By utilising Ultrafast Grid and setting my concurrency to 10, I was able to run the tests quicker too.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1346" height="876" src="https://applitools.com/wp-content/uploads/2020/09/carbon-9.png" alt="carbon 9" class="wp-image-22989" srcset="https://applitools.com/wp-content/uploads/2020/09/carbon-9.png 1346w, https://applitools.com/wp-content/uploads/2020/09/carbon-9-300x195.png 300w, https://applitools.com/wp-content/uploads/2020/09/carbon-9-1024x666.png 1024w, https://applitools.com/wp-content/uploads/2020/09/carbon-9-768x500.png 768w" sizes="(max-width: 1346px) 100vw, 1346px"/></figure>
-<p>Achieving Cross Browser Visual Testing with Applitools</p>
-<h2 id="h.m35xq8vyzd1a">The Impact of Visual Cross Browser Testing for Testers</h2>
-<p>Overall, this was another excellent hackathon from Applitools and showed that cross browser testing can be easy and fast. I’ve mentioned this in the past already that one of the trends that I’m seeing is more and more testing tools are becoming user friendly and if you are new to test automation, this is great news!</p>
-<p>Also, from my experience, the production bugs that get missed most frequently are visual bugs. A test that hasn’t loaded any of its CSS files can still work functionally and your automated functional test will still pass. Rather than doing cross browser functional testing, it’s better to do cross browser visual testing to get maximum value.</p>
-<p>Finally, the massive time saving that it provides means that we, as testers, have more time to explore the areas that automated tests can’t catch and that is a big win.</p>
-<p>For More Information</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/can-automated-cross-browser-testing-be-ultrafast/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>QR Codes Serve Up a Menu of Security Concerns</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qr-codes-serve-up-a-menu-of-security-concerns/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 15 Sep 2020 19:09:30 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Codes]]></category>
-		<category><![CDATA[Concerns]]></category>
-		<category><![CDATA[Menu]]></category>
-		<category><![CDATA[Serve]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qr-codes-serve-up-a-menu-of-security-concerns/</guid>
-
-					<description><![CDATA[QR code usage is soaring in the pandemic &#8212; but malicious versions aren&#8217;t something that most people think about. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />QR code usage is soaring in the pandemic &#8212; but malicious versions aren&#8217;t something that most people think about.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/qr-codes-menu-security-concerns/159275/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -607,5 +593,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-29 05:38:24 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-09-29 21:01:09 by W3 Total Cache
 -->
