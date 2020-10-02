@@ -291,6 +291,71 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>Gatling Frontline 1.12.0 and Gatling 3.4.0 are out! – Gatling Open-Source Load Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-1-12-0-and-gatling-3-4-0-are-out-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Sep 2020 14:27:06 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Frontline]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-1-12-0-and-gatling-3-4-0-are-out-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[Reading Time: 2 min   We are delighted to announce that Gatling 1.12.0 and Gatling 3.4.0 are out! What’s new]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">2</span> <span class="rt-label rt-postfix">min</span></span></p>
+<p> </p>
+<p>We are delighted to announce that <strong>Gatling 1.12.0 and Gatling 3.4.0 are out</strong>!</p>
+<h2>What’s new in Gatling FrontLine 1.12.0?</h2>
+<p> </p>
+<p></p>
+<h3>New pools Features</h3>
+<p><strong>Pools of load injectors</strong> in <strong>Gatling FrontLine</strong> are preconfigured instances where the load injectors will be deployed when your run starts. It can be either on-premises instances or instances deployed via your favorite cloud provider account.</p>
+<p> </p>
+<p><img loading="lazy" class="wp-image-473 aligncenter" src="https://gatling.io/wp-content/uploads/2019/04/aws-logo@2x.png" alt="" width="80" height="48"/></p>
+<p><strong>AWS</strong></p>
+<p><a target="_blank" href="https://gatling.io/wp-content/uploads/2020/09/google-cloud.svg" rel="noopener noreferrer"><img loading="lazy" class="wp-image-7686 aligncenter" role="img" src="https://gatling.io/wp-content/uploads/2020/09/google-cloud.svg" alt="" width="196" height="30"/></a></p>
+<p><strong>Google Compute Engine</strong></p>
+<ul>
+<li>Built-in certified images</li>
+<li>Preemptible instances support</li>
+<li>Image and Instance type support</li>
+<li>Injector static IP support</li>
+<li>Service accounts support</li>
+</ul>
+<h3><strong>New OpenID Connect Integration</strong></h3>
+<p>FrontLine can now integrate with your favorite OIDC provider such as Azure Active Directory or Okta.</p>
+<p style="text-align: center;"><span style="font-weight: 400;">If you wish to evaluate <a target="_blank" href="https://gatling.io/gatling-frontline/" rel="noopener noreferrer"><strong>Gatling FrontLine</strong></a>, feel free to apply there:<br /></span><a target="_blank" class="btn purple" href="https://gatling.io/gatling-frontline/evaluation/" rel="noopener noreferrer">Evaluation request</a></p>
+<h2>What’s new in Gatling 3.4.0?</h2>
+<p><img loading="lazy" class="wp-image-4884 aligncenter" role="img" src="https://gatling.io/wp-content/uploads/2019/06/gatling-load-testing.svg" alt="" width="203" height="82"/></p>
+<p><strong>The key new features are:</strong></p>
+<ul>
+<li>official <strong>Gradle</strong> support with the new <strong>gatling-gradle-plugin</strong></li>
+<li>new sequential scenarios</li>
+<li><strong>TLSv1.3</strong> is now enabled by default</li>
+</ul>
+<p><a target="_blank" href="https://gatling.io/wp-content/uploads/2020/09/gradle-1.svg" rel="noopener noreferrer"><img loading="lazy" class="wp-image-7687 aligncenter" role="img" src="https://gatling.io/wp-content/uploads/2020/09/gradle-1.svg" alt="" width="148" height="32"/></a></p>
+<p>For many years, <strong>Gradle</strong> <strong>users</strong> had to rely on the great third party plugin created by <a target="_blank" href="https://github.com/lkishalmi" rel="noopener noreferrer">Laszlo Kishalmi</a> and maintained those last years by <a target="_blank" href="https://github.com/eshepelyuk" rel="noopener noreferrer">Ievgenii Shepeliuk</a>. They contributed their work upstream, so Gatling now officially supports Gradle!<br />For existing users, beware that the plugin is now <code class="c-mrkdwn__code" data-stringify-type="code">io.gatling.gradle</code> and that the default project layout has changed to <code class="c-mrkdwn__code" data-stringify-type="code">src/gatling/scala</code>.</p>
+<p> </p>
+<p style="text-align: center;"><span style="font-weight: 400;">If you wish to start using <a target="_blank" href="https://gatling.io/open-source/" rel="noopener noreferrer"><strong>Gatling</strong></a> in it open-source version, feel free to download it there:<br /></span></p>
+<p style="text-align: center;"><a target="_blank" class="btn orange" href="https://gatling.io/open-source/" rel="noopener noreferrer">Download</a></p>
+<p>Please check out the<strong> <a target="_blank" href="https://gatling.io/docs/frontline/FrontLine-Release-Notes.pdf" rel="noopener noreferrer">full release note</a></strong> for all the new features and bug fixes shipped in these releases.</p>
+<p style="text-align: center;"><a target="_blank" class="btn orange" href="https://gatling.io/docs/frontline/FrontLine-Release-Notes.pdf" rel="noopener noreferrer">Full release note</a></p>
+<p><span style="font-weight: 400;">We are looking forward to getting your feedback!</span></p>
+<p><strong>The Gatling team</strong></p>
+</div>
+<p><br />
+<br /><a href="https://gatling.io/2020/09/23/gatling-frontline-1-12-0-and-gatling-3-4-0-are-out/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>AI in Test Automation &#8211; Discover How it Works</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ai-in-test-automation-discover-how-it-works/</link>
 		
@@ -480,77 +545,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Special Delivery: Don’t Fall for the USPS SMiShing Scam</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/special-delivery-dont-fall-for-the-usps-smishing-scam/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 21 Sep 2020 16:41:24 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Delivery]]></category>
-		<category><![CDATA[Dont]]></category>
-		<category><![CDATA[Fall]]></category>
-		<category><![CDATA[scam]]></category>
-		<category><![CDATA[SMiShing]]></category>
-		<category><![CDATA[special]]></category>
-		<category><![CDATA[USPS]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/special-delivery-dont-fall-for-the-usps-smishing-scam/</guid>
-
-					<description><![CDATA[Special Delivery: Don’t Fall for the USPS SMiShing Scam According to Statista, 3.5 billion people worldwide are forecasted to own]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong> Special Delivery: Don’t Fall for the USPS SMiShing Scam</strong></h2>
-<p>According to Statista, 3.5 billion people worldwide are forecasted to own a smartphone by the end of 2020. These connected devices allow us to have a wealth of apps and information constantly at our fingertips – empowering us to remain in constant contact with loved ones, make quick purchases, track our fitness progress, you name it. Hackers are all too familiar with our reliance on our smartphones – and are eager to exploit them with stealthy tricks as a result.</p>
-<p>One recent example of these tricks? Suspicious text messages claiming to be from USPS. According to <a target="_blank" href="https://protect-eu.mimecast.com/s/Dkk1CzKnJIR00kmS4mijw?domain=gizmodo.com" rel="noopener noreferrer">Gizmodo</a>, a recent SMS phishing scam is using the USPS name and fraudulent tracking codes to trick users into clicking on malicious links.</p>
-<p>Let’s dive into the details of this scheme, what it means for users, and what you can do to protect yourself from SMS phishing.</p>
-<h3>Special Delivery: Suspicious Text Messages</h3>
-<p>To orchestrate this phishing scheme, hackers send out text messages from random numbers claiming that a user’s delivery from USPS, FedEx, or another delivery service is experiencing a transit issue that requires urgent attention. If the user clicks on the link in the text, the link will direct them to a form fill page asking them to fill in their personal and financial information to “verify their purchase delivery.” If the form is completed, the hacker could exploit that information for financial gain.</p>
-<p>However, scammers also use this phishing scheme to infect users’ devices with malware. For example, some users received links claiming to provide access to a supposed USPS shipment. Instead, they were led to a domain that did nothing but infect their browser or phone with malware. Regardless of what route the hacker takes, these scams leave the user in a situation that compromises their smartphone and personal data.</p>
-<p><img loading="lazy" class="alignnone size-medium wp-image-106650" src="https://www.mcafee.com/wp-content/uploads/2020/09/USPS-Phishing-Scam-183x300.png" alt="USPS Phishing Scam" width="183" height="300" srcset="https://www.mcafee.com/wp-content/uploads/2020/09/USPS-Phishing-Scam-183x300.png 183w, https://www.mcafee.com/wp-content/uploads/2020/09/USPS-Phishing-Scam-79x129.png 79w, https://www.mcafee.com/wp-content/uploads/2020/09/USPS-Phishing-Scam.png 338w" sizes="(max-width: 183px) 100vw, 183px"/></p>
-<h3>Don’t Fall for Delivery Scams</h3>
-<p>While delivery alerts are a convenient way to track packages, it’s important to familiarize yourself with the signs of phishing scams – especially as we approach the holiday shopping season. Doing so will help you safeguard your online security without sacrificing the convenience of your smartphone. To do just that, follow these actionable steps to help secure your devices and data from SMiShing schemes:</p>
-<h3>Go directly to the source</h3>
-<p>Be skeptical of text messages claiming to be from companies with peculiar asks or information that seems too good to be true. Instead of clicking on a link within the text, it’s best to go straight to the organization’s website to check on your delivery status or contact customer service.</p>
-<h3>Enable the feature on your mobile device that blocks certain texts</h3>
-<p>Many spammers send texts from an internet service in an attempt to hide their identities. Combat this by using the feature on your mobile device that blocks texts sent from the internet or unknown users. For example, you can disable all potential <a target="_blank" href="https://www.pcmag.com/how-to/how-to-block-robotexts-and-spam-messages" rel="noopener noreferrer">spam messages</a> from the Messages app on an Android device by navigating to Settings, clicking on Spam protection, and turning on the Enable spam protection switch. Learn more about how you can <a target="_blank" href="https://www.pcmag.com/how-to/how-to-block-robotexts-and-spam-messages" rel="noopener noreferrer">block robotexts and spam messages</a> on your device.</p>
-<h3>Use mobile security software</h3>
-<p>Prepare your mobile devices for any threat coming their way. To do just that, cover these devices with an extra layer of protection via a mobile security solution, such as <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/android.html" rel="noopener noreferrer">McAfee Mobile Security.</a></p>
-<h3>Stay updated</h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a>  and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&#038;at=1010lbVy&#038;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/special-delivery-dont-fall-for-the-usps-smishing-scam/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -559,5 +553,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-01 05:38:08 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-01 21:01:09 by W3 Total Cache
 -->
