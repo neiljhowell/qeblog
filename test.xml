@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 29 Sep 2020 23:34:03 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 01 Oct 2020 20:51:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,220 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Learn from Google &#8211; Use Google Cloud Build</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learn-from-google-use-google-cloud-build/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2020 20:51:44 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[build]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Learn]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learn-from-google-use-google-cloud-build/</guid>
+
+					<description><![CDATA[We all want to catch and fix problems as early as possible. In software development, this mindset helps development teams]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>We all want to catch and fix problems as early as possible. In software development, this mindset helps development teams create a culture of continuous improvement. To automate best practices, like Continuous Integration &#038; Continuous Delivery (CI/CD), teams are adopting tools that help automate continuous improvement. Google has created a great tool in Google Cloud Build.</p>
+<p>By creating Google Cloud Build, Google has created a platform that helps every software developer from every walk of life, on teams of every size. Google Cloud Build is a fully managed cloud application development environment. It includes an associated set of build and test management tools that also encompasses automation and workflow controls, along with privacy and vulnerability analysis intelligence.</p>
+<p>Regardless of the speed or scale that teams are able to build, test and deploy software. This is very much aligned with the vision of Applitools specially after the launch of the Ultrafast Visual Grid. Supporting an integration between Google Cloud Build and Applitools provides every software developer the ability to run their tests across all environments at the speed of light and get the feedback seamlessly in second as a part of the build process.</p>
+<h2>Integrate Applitools with Google Cloud Build</h2>
+<p>To get started, follow the following steps to integrate Applitools into your Google Cloud Build.<strong> </strong></p>
+<ul>
+<li>Step 1: Create an account on Google Cloud Platform.</li>
+<li>Step 2: Navigate to the Cloud build.</li>
+</ul>
+<p>Create the trigger and select your source code management tool (in this example I have chosen GitHub ) and  connect your repository.</p>
+<figure class="wp-block-image"></figure>
+<p>Allow the required access to perform the trigger runs on every commit on each branch or each pull request.</p>
+<p>Edit your trigger and select the Build Configuration as <strong>Cloudbuild.yaml</strong> or <strong>Dockerfile</strong>.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="881" src="https://applitools.com/wp-content/uploads/2020/10/image4.png" alt="image4" class="wp-image-23723" srcset="https://applitools.com/wp-content/uploads/2020/10/image4.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image4-300x165.png 300w, https://applitools.com/wp-content/uploads/2020/10/image4-1024x564.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image4-768x423.png 768w, https://applitools.com/wp-content/uploads/2020/10/image4-1536x846.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Once you make a small change in application and push it up to GitHub this will kick off the Cloud Build trigger you’ve just created.</p>
+<h2 id="h.90kjt29rb4kb">Continue With Applitools Setup</h2>
+<p>Now follow these steps to configure your Applitools setup.</p>
+<ul>
+<li>Step 1: Navigate to admin panel in the Applitools eyes dashboard</li>
+</ul>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="604" src="https://applitools.com/wp-content/uploads/2020/10/image5.png" alt="image5" class="wp-image-23721" srcset="https://applitools.com/wp-content/uploads/2020/10/image5.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image5-300x113.png 300w, https://applitools.com/wp-content/uploads/2020/10/image5-1024x387.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image5-768x290.png 768w, https://applitools.com/wp-content/uploads/2020/10/image5-1536x580.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<ul>
+<li>Step 2: Go to Teams and select your team</li>
+</ul>
+<p><img loading="lazy" width="1600" height="605" class="wp-image-23726" src="https://applitools.com/wp-content/uploads/2020/10/image2.png" alt="image2" srcset="https://applitools.com/wp-content/uploads/2020/10/image2.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image2-300x113.png 300w, https://applitools.com/wp-content/uploads/2020/10/image2-1024x387.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image2-768x290.png 768w, https://applitools.com/wp-content/uploads/2020/10/image2-1536x581.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></p>
+<ul>
+<li>Step 3: Select your team and Navigate to Integrations Section</li>
+</ul>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="605" src="https://applitools.com/wp-content/uploads/2020/10/image1.png" alt="image1" class="wp-image-23728" srcset="https://applitools.com/wp-content/uploads/2020/10/image1.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image1-300x113.png 300w, https://applitools.com/wp-content/uploads/2020/10/image1-1024x387.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image1-768x290.png 768w, https://applitools.com/wp-content/uploads/2020/10/image1-1536x581.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<ul>
+<li>Step 4: Integrate your GitHub repo with Applitools</li>
+</ul>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="769" src="https://applitools.com/wp-content/uploads/2020/10/image3.png" alt="image3" class="wp-image-23725" srcset="https://applitools.com/wp-content/uploads/2020/10/image3.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image3-300x144.png 300w, https://applitools.com/wp-content/uploads/2020/10/image3-1024x492.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image3-768x369.png 768w, https://applitools.com/wp-content/uploads/2020/10/image3-1536x738.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<h2 id="h.6f1avrsl9qnm">Run Your Cypress Tests</h2>
+<p>Now, run your Cypress tests on Google Cloud build.</p>
+<ul>
+<li>Step 1: Let us clone the demo Cypress project from Applitools Cypress </li>
+</ul>
+<p><a target="_blank" href="https://applitools.com/tutorials/cypress.html" rel="noopener noreferrer">https://applitools.com/tutorials/cypress.html</a> </p>
+<ul>
+<li>Step 2: Create a<strong> cloudbuild.yaml fi</strong>le to pass the build steps.</li>
+</ul>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/rmadhiapplitools/1033521c2be4fe0b7dc89a968ff89f86.js</p>
+</div>
+<p>To run a Cypress end-to-end test let’s use a Docker.</p>
+<p>In the Docker file we have defined the steps to copy the Docker images, files, Cypress folder, add configurations and execute the scripts.</p>
+<p>Make sure to set the APPLITOOLS_API_KEY as ENV variable or access it from secrets in the Docker file.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/rmadhiapplitools/6c343c4e25b86a91bea62dde956cfc7f.js</p>
+</div>
+<p>Applitools build status is reported based on COMMIT_SHA, hence we need to access the git commit_sha in the Docker and assign the COMMIT_SHA to Applitools BatchID as ENV variable.</p>
+<p>Once the test is completed the curl command in Docker will perform a post call to update the build status.</p>
+<p>Once you build your project. Applitools can visually validate each commit and reports the build status.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="788" src="https://applitools.com/wp-content/uploads/2020/10/image7.png" alt="image7" class="wp-image-23724" srcset="https://applitools.com/wp-content/uploads/2020/10/image7.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image7-300x148.png 300w, https://applitools.com/wp-content/uploads/2020/10/image7-1024x504.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image7-768x378.png 768w, https://applitools.com/wp-content/uploads/2020/10/image7-1536x756.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="819" src="https://applitools.com/wp-content/uploads/2020/10/image8.png" alt="image8" class="wp-image-23727" srcset="https://applitools.com/wp-content/uploads/2020/10/image8.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image8-300x154.png 300w, https://applitools.com/wp-content/uploads/2020/10/image8-1024x524.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image8-768x393.png 768w, https://applitools.com/wp-content/uploads/2020/10/image8-1536x786.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<h2>Watch the video to try out the integrations &#038; Keep Testing!</h2>
+<p><strong>Watch the video to try out the integrations &#038; Keep Testing!</strong></p>
+<div class="video-embed" data-id="https://drive.google.com/file/d/1anSqF_1WBIGfvm1nOtpqsFwI4hjYKrGV/view" data-image="https://applitools.com/wp-content/uploads/2020/10/Google-Cloud-Build-and-Applitools.jpg" id="videoEmbed">
+  <span class="visible-admin"><br />
+    <img class="visible-admin" src="https://applitools.com/wp-content/uploads/2020/10/Google-Cloud-Build-and-Applitools.jpg"/><br />
+  </span>
+</div>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/google-cloud-build/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Best Practices for Shifting Accessibility Testing Left</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-shifting-accessibility-testing-left/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Accessibility]]></category>
+		<category><![CDATA[Left]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Shifting]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-shifting-accessibility-testing-left/</guid>
+
+					<description><![CDATA[QA professionals, testers, and developers are constantly learning new tools, tech stacks, and development practices. When they’re told they have]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>QA professionals, testers, and developers are constantly learning new tools, tech stacks, and development practices. When they’re told they have to learn accessibility, it can often feel like an unwelcome and overwhelming disruption, slowing them down and forcing them to test and rewrite what they thought was perfectly good code.</p>
+<p>The good news is accessibility tools are more tester-friendly than ever. Automated accessibility tools fit seamlessly into modern development environments, and are a great way to shift accessibility left in the Software Development Lifecycle (SDLC), bringing accessibility testing closer and closer towards design. </p>
+<p>In this blog, I’ll share four best practices for shifting accessibility testing left. I’ll also cover how to integrate <a target="_blank" href="http://deque.com/axe" rel="noopener noreferrer">axe</a>, Deque’s open source accessibility tool, in NodeJs Jest with the Selenium browser automation tool and Jest.</p>
+<h2>First: Debunk the Myths About Accessibility </h2>
+<p>Traditional accessibility testing is often thought of as slow and manual and done at the end of the SDLC in user testing, after production. While manual accessibility is still a necessary part of testing, 50% of accessibility defects can be caught with automation. </p>
+<p>Nowadays, there are accessibility tools that are built to integrate into every part of the software development lifecycle, from development to testing to when your site or application is released. These tools are built by and for dev teams with modern development environments, so they won’t slow down your development velocity.</p>
+<p></p>
+<p><i>Illustration of where tools fit into each role of the software development lifecycle: accessible design for designers, axe DevTools for front-end developers, test automation engineers, senior developers and product owners, axe Auditor for QA testers and accessibility testers, and axe Monitor for central accessibility leaders.</i></p>
+<p>Shifting accessibility left in the SDLC can be done easier and faster with automated accessibility tools, <b>and </b>it also saves development time and resources. <a target="_blank" href="https://saucelabs.com/ftp://ftp.software.ibm.com/software/rational/info/do-more/RAW14109USEN.pdf" rel="noopener noreferrer">IBM studies</a> have shown that defects caught post-production are 30x more expensive than in design, coding, and testing. Small investments of time and resources in development for accessibility will ultimately save your organization money and ensure less disruption to the SDLC.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/3t2lDivBA4pgllFMM5El1M/6c260e7e638892b22438a20e6d1d81f0/accessibility_blog_2.png?fm=webp" alt="accessibility blog 2" title="accessibility blog 2"/></p>
+<p><i>Diagram showing small investments for accessibility during backlog, design, coding and testing (i.e. shifting accessibility left) vs. large investments for accessibility during release (traditional way accessibility is practiced).</i></p>
+<h2>Start Simple with Free, Open Source Tools</h2>
+<p>If developers and testers can automate something, they will. When accessibility can be automated, developers and testers are much more likely to start incorporating accessibility into their development process. </p>
+<p>Until recently, “automated accessibility testing” meant cumbersome “scan and report” tools that could only be used once your application was practically ready to be deployed (if it hadn’t been deployed already). Dev and testing teams would get long lists of accessibility issues that could require a fundamental reworking of components, causing expensive and frustrating slow-downs in the development cycle.</p>
+<p>Luckily, accessibility tools have come a long way, and developers and testers can now access automated accessibility testing tools that can run as part of their existing workflow. Issues are raised while they’re coding, making fixes much more efficient. With free tools like <a target="_blank" href="https://www.deque.com/axe/" rel="noopener noreferrer">axe</a>, you can start testing for accessibility in minutes.</p>
+<p>Axe-core is Deque’s open source accessibility rules engine, which powers a number of accessibility tools from Deque. Perhaps most notably, axe-core powers the axe browser extension available for <a target="_blank" href="https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US" rel="noopener noreferrer">Chrome</a>, <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/" rel="noopener noreferrer">FireFox</a>, and <a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/axe-web-accessibility-t/kcenlimkmjjkdfcaleembgmldmnnlfkn" rel="noopener noreferrer">Microsoft Edge</a>.</p>
+<p>It’s important to note, however, that automated accessibility testing tools can only catch 50% of your accessibility defects. Your application will still <b>need to undergo manual testing</b> with assistive technology tools, especially if your organization has any concerns about compliance with accessibility regulations or legal risk. </p>
+<p>It used to be that manual testing could only be done by an accessibility expert who is familiar with assistive technology. Now, the axe suite of tools offers Intelligent Guided Testing (IGT), to help guide developers, testers, and product owners through the testing for accessibility issues using a wizard based approach that removes the necessity to be an expert in accessibility. IGT will improve your coverage to <b>80%</b> without needing specialized knowledge or expertise.</p>
+<p>To recap, using the automation in the axe browser extension is a great way to start testing for accessibility. However, it’s important to note that manual testing or IGT is needed to move towards full accessibility.</p>
+<h2>Use Unit Tests in The Place of Manual Accessibility Regression-Testing</h2>
+<p>Some manual accessibility testing can’t be done with automated tools. For example, using a screen reader or doing keyboard only testing using the tab key to simulate the experience for users with disabilities on your site or application.</p>
+<p>Although some things around accessibility must be validated manually, such as alt text, you can still write simple unit or integration tests to validate the alt text so that future releases do not break the accessibility without being caught. Furthermore, if you have the design information, it’s easy for testers to proactively include accessibility requirements into automated tests.</p>
+<p>For example, the code below is testing the Deque logo and the alt attribute associated with it:</p>
+<p>1     <code><// Check the Deque Logo</code></p>
+<p>2     <code>ok(img.src.indexOf('logo.png' !== -1, 'image is the Deque logo image'));</code></p>
+<p>3    <code>equal(img.getAttribute('alt'), 'Deque Logo');></code></p>
+<p>Testing is ultimately about risk mitigation, so you need to figure out how often you want to retest things manually to verify that compatibility has not changed. Usually, this is only necessary when there is a major update released for screen readers, operating systems, or browsers.</p>
+<h2>Train Dev and QA Teams on Accessibility</h2>
+<p>An important part of getting started with accessibility is having the right tool. The second important key to accessibility is training. The sad truth is that testers and developers don’t learn about accessibility in professional training. Additionally, most developers or testers have never witnessed a person with a disability using an assistive technology, and having a firm understanding of accessibility is key to long term success with accessibility. </p>
+<p>Outside training creates the fundamental foundation that is critical for building a culture of accessibility. Furthermore, beyond automation and accessibility, there are nuances to accessibility that are easier to learn from experts in hands-on training. For example, there are many intricacies related to single-page applications, how to use screen readers for testing, building tests and scripts for accessibility, building a constructive and useful accessibility issue log, etc. </p>
+<h2>Selenium WebdriverJS and axe-core Integration </h2>
+<p>Now that we’ve discussed the best, easy steps to shift accessibility left in the SDLC from production to development and testing, we’ll review how to use axe-core to run web accessibility tests in NodeJS based projects with the Selenium browser automation tool and Jest. </p>
+<p><i>This example below assumes you have Node Js and Npm installed.</i></p>
+<p>The first step is to install the proper package into your project, by running </p>
+<pre><code>npm i axe-webdriverjs</code></pre>
+<p>Once installed you should see the following in your package.json:</p>
+<pre><code> “dependencies”: {</code></pre>
+<pre><code>    “axe-webdriverjs”: “^2.3.0”,</code></pre>
+<pre><code>    "selenium-webdriver": "^4.0.0-alpha.7"</code></pre>
+<pre><code>  }</code></pre>
+<p>Now your dependencies are set up, and you need to pull in the right classes and set things up.</p>
+<p>In any file that runs a UI test using Webdriver, import the classes required:</p>
+<pre><code>var WebDriver = require('selenium-webdriver');</code></pre>
+<pre><code>var chrome = require('selenium-webdriver/chrome');</code></pre>
+<pre><code>var AxeBuilder = require('axe-webdriverjs');</code></pre>
+<p>And set up your driver with specific options you want like so: </p>
+<pre><code>Var driver;</code></pre>
+<pre><code>beforeAll(async () => {</code></pre>
+<pre><code>driver = new WebDriver.Builder().forBrowser('chrome').setChromeOptions(options).build();</code></pre>
+<pre><code>});</code></pre>
+<p>Note: we have told the library to use the standard <a target="_blank" href="https://www.w3.org/TR/WCAG20/" rel="noopener noreferrer">WCAG 2.0 A and AA</a> rule sets which will report on all violations excluding best practices, experimental rules, etc.</p>
+<p>Now, wherever your tests set up the Webdriver instance and/or cause UI states to change, make calls to the library to analyze the page and generate reports:</p>
+<pre><code>test('should test for what the overlay does (add specific test scenario)', async () => {</code></pre>
+<pre><code>await driver.get('https://dequeuniversity.com/demo/mars/').then(function() {</code></pre>
+<pre><code>    AxeBuilder(driver).analyze(function(err, results) {</code></pre>
+<pre><code>      if (err) {</code></pre>
+<pre><code>        // Handle error somehow</code></pre>
+<pre><code>      }</code></pre>
+<pre><code>      console.log(results);</code></pre>
+<pre><code>      await expect(results.violations.length).toBe(0);</code></pre>
+<pre><code>    });</code></pre>
+<pre><code>  });</code></pre>
+<pre><code> });</code></pre>
+<p>There are many more features in the library that allow for customization of scans that includes turning on and off rules, excluding content to scan, and running specific rulesets only. Getting started with this integration will make accessibility a core part of your CI/CD pipeline.</p>
+<h2>Beyond the Power of axe: axe DevTools</h2>
+<p>The power of axe is a great place to get started if you’re completely new to accessibility. If your organizations need more coverage and features to help get your team up and running, <a target="_blank" href="https://www.deque.com/axe/devtools/" rel="noopener noreferrer">axe DevTools</a> is the right solution.</p>
+<p>Beyond the free axe browser extension, axe DevTools is the enterprise solution that provides:</p>
+<ul>
+<li>
+<p>Intelligent guided tests that increase accessibility coverage from 50 to 80%</p>
+</li>
+<li>
+<p>Command-Line Interface (CLI) testing tools</p>
+</li>
+<li>
+<p>A variety of axe integrations for languages such as: Ruby, CSharp, Java, NodeJs</p>
+</li>
+<li>
+<p>Each of the axe DevTools integrations are built in a plug and play fashion that can be used seamlessly with popular industry-standards continuous integration (CI) tools such as Sauce Labs, Jenkins, CircleCI.</p>
+</li>
+</ul>
+<h2>Additional Resources</h2>
+<p>Starting with free automated tooling in the axe browser extension, in unit tests, or in your CI/CD pipeline is a great way to catch 50% of accessibility issues. Training is also key in building a culture of accessibility to properly build it into your SDLC. If you want to learn more about accessibility, and how to embed it throughout your organization, check out the resources below.</p>
+<ol>
+<li>
+<p>My on-demand SauceCon Online presentation: <a target="_blank" href="http://saucecon.com/agenda-2020?agendaPath=session/251078" rel="noopener noreferrer">Automation and Accessibility: Debunking the Myths</a></p>
+</li>
+<li>
+<p><a target="_blank" href="https://accessibility.deque.com/agile-accessibility-handbook" rel="noopener noreferrer">Free eBook: Agile Accessibility Handbook</a></p>
+</li>
+<li>
+<p><a target="_blank" href="https://accessibility.deque.com/virtual-instructor-led-training" rel="noopener noreferrer">Request Deque’s Virtual, Instructor-led Role-based Training</a> or learn online at your own pace with <a target="_blank" href="https://dequeuniversity.com/" rel="noopener noreferrer">Deque University</a>.</p>
+</li>
+</ol>
+<p>Sauce Labs is also hosting an upcoming webinar on <a target="_blank" href="https://info.saucelabs.com/accessibility-testing-selenium-webinar-100820.html" rel="noopener noreferrer">Using Axe to Add Accessibility Checks to Your Existing Selenium tests</a>. Join the session and learn how to put this into practice. </p>
+<h2>In Summary</h2>
+<p>There are many ways to get started with accessibility testing in the software development process, such as using the <a target="_blank" href="https://www.deque.com/axe/" rel="noopener noreferrer">axe</a> browser extension, building unit tests for manual accessibility reminders, and investing in training. To take it one step further, you can use the axe and Selenium integration outlined above in your CI/CD pipeline. </p>
+<p>Using free, open source tools to practice automated accessibility testing early in your SDLC will help shift accessibility left — ultimately saving your development team time and resources while making the web a more inclusive place for all.</p>
+<h3>About the Author</h3>
+<p>Dylan Barrell is the Chief Product Officer at Deque. He has almost 20 years of experience in technology development, technical sales, product management, product marketing, and corporate development. Dylan founded a startup in 1989 that was acquired. He then went public with OpenText and helped grow revenues to over $400 million. He later led the effort to create a digital center within a Borders store and to begin the transition from purely physical products to digital and physical product mix delivered in a cross channel online and in-store way. In addition to his work experience, Dylan has an MBA from the University of Michigan and a BS from the University of the Witwatersrand. Dylan believes in leading through action to create value for shareholders and the community.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/best-practices-for-shifting-accessibility-testing-left">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Why Web Browser Padlocks Shouldn’t Be Trusted</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/why-web-browser-padlocks-shouldnt-be-trusted/</link>
 		
@@ -95,6 +309,175 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/app-dev-testing/you-built-talented-qa-team-heres-how-keep-them">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Rise of Shadow DOM &#8211; Core Technical Aspects</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-rise-of-shadow-dom-core-technical-aspects/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Sep 2020 04:23:50 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Aspects]]></category>
+		<category><![CDATA[Core]]></category>
+		<category><![CDATA[DOM]]></category>
+		<category><![CDATA[Rise]]></category>
+		<category><![CDATA[Shadow]]></category>
+		<category><![CDATA[technical]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-rise-of-shadow-dom-core-technical-aspects/</guid>
+
+					<description><![CDATA[Before taking control over Shadow DOM, let me brief you about the session that I presented at the virtual Selenium]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">Before taking control over Shadow DOM, let me brief you about the session that I presented at the virtual </span><a target="_blank" href="https://confengine.com/selenium-conf-2020/proposal/13709/rise-of-shadow-dom-lets-solve-it-through-webdriver" rel="noopener noreferrer"><span style="font-weight: 400;">Selenium Conference 2020</span></a><span style="font-weight: 400;">. Due to the limited number of seats at the conference, most of the QA Automation engineers missed it, but NO NEED TO WORRY about it! Here’s a blog tutorial for you to explore and very soon the conference session recording will also be shared through YouTube. It’s time to fasten your seat belts and let’s crack together the Shadow DOM <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<p><span style="font-weight: 400;">Prior to learning about Shadow DOM, we first have to understand the inner functioning of a web ‘page’ or ‘document’. Let’s understand the DOM and its inner functioning, doing so will enable us to further understand the Shadow DOM.</span></p>
+<h2><strong>What is DOM?</strong></h2>
+<p><span style="font-weight: 400;">Whenever we open up any web application through any web browser {Chrome/ Firefox/ Safari/ Edge}, it always renders a bunch of web components within the DOM, that encapsulates three things – </span><i><span style="font-weight: 400;">Markup {HTML}, Styling {CSS} and JavaScript {JS}</span></i><span style="font-weight: 400;">. </span></p>
+<p><b>DOM {Document Object Model}</b><span style="font-weight: 400;"> – </span><span style="font-weight: 400;">a structured representation of an HTML document. HTML provides us a way to add structure and content, but machines do need more than that. That is the reason we need DOM. The DOM then has an API that can be used by our applications to manipulate the document’s structure, content, and styling. You can think of the DOM as a JavaScript representation of our HTML structure</span><span style="font-weight: 400;">. </span><span style="font-weight: 400;">Let’s understand the </span><span style="font-weight: 400;">code snippet that demonstrates</span> <b>HTML to DOM structure</b><span style="font-weight: 400;">:</span><i/></p>
+<p><span style="color: #000080;"><b>Browser rendered HTML Code ></b></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html" data-enlighter-theme="beyond"><html>
+  <head>
+    <title>Rise of Shadow DOM</title>
+  </head>
+  <body>
+     <h1>Let's understand Shadow DOM</h1>
+  </body>
+</html></pre>
+<p><b><span style="color: #000080;">DOM Tree structure ></span><br /></b></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html">html
+└─ head
+│  └─ title
+│     └─ Rise of Shadow DOM
+└─ body
+   └─ h1
+      └─ Let's understand Shadow DOM</pre>
+<p><span style="font-weight: 400;">DOM elements are visible to the </span><span style="color: #000080;"><i><span style="font-weight: 400;">document interface</span></i></span><span style="font-weight: 400;"> i.e. ‘it is the entry point to DOM’ and we can find DOM elements by using </span><span style="color: #000080;"><i><span style="font-weight: 400;">document.querySelector</span></i></span><span style="font-weight: 400;"> method. </span></p>
+<h2><strong>DOM vs. Shadow Dom: How is Shadow DOM different from DOM?</strong></h2>
+<p><span style="font-weight: 400;">Shadow DOM is a kind of web standard that developers use to encapsulate their custom HTML code and style components. <span style="color: #000080;">Shadow DOM elements are NOT visible to </span></span><span style="color: #000080;"><i><span style="font-weight: 400;">document.querySelector</span></i></span><span style="font-weight: 400;"> method because it renders separately from the DOM. </span></p>
+<p><span style="font-weight: 400;">Like DOM, the Shadow DOM is also generated by the browser itself, but in a completely isolated DOM tree called the </span><span style="color: #000080;"><b>Shadow DOM Tree</b></span><span style="font-weight: 400;">. The Shadow DOM Tree encapsulates its own custom/standard elements and styling that is added to an element as a child. The element to which the tree is added is called the </span><span style="color: #000080;"><b>Shadow Host</b></span><span style="font-weight: 400;"> and the root is called </span><span style="color: #000080;"><b>Shadow Root</b></span><span style="font-weight: 400;">. And <span style="color: #000080;"><strong>Shadow DOM boundary</strong></span>: LoC is where the shadow DOM ends, and the main DOM begins. In the picture below, we can clearly understand the Shadow DOM structure in respect of <span style="color: #000080;">DOM {aka Light DOM or Main DOM}</span>:</span></p>
+<p></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-13992 size-full" title="Shadow Dom vs Main DOM" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM.png" alt="Shadow Dom vs Main DOM" width="1790" height="1146" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM.png 1790w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM-512x328.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM-768x492.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM-1024x656.png 1024w" sizes="(max-width: 1790px) 100vw, 1790px"/></noscript></p>
+<p style="text-align: center;"><b><i><span style="color: #000080;">DOM    = </span></i></b><span style="color: #000080;"> <b><i>  main DOM </i></b> <b><i>   =  </i></b> <b><i>Light DOM</i></b></span>      <span style="color: #ff0000;"><b><i>=</i></b><b><i>     <del>Shadow DOM</del></i></b></span></p>
+<p> </p>
+<p><span style="font-weight: 400;">If it renders separately then</span><span style="color: #000080;"><b><i> how can we reach out to Shadow DOM custom/standard elements?</i></b></span></p>
+<p><span style="font-weight: 400;">We can reach out to Shadow DOM elements through</span><span style="color: #000080;"><i><span style="font-weight: 400;"> shadowRoot interface</span></i></span><span style="font-weight: 400;"> i.e. by using </span><span style="color: #000080;"><i><span style="font-weight: 400;">shadowRoot.querySelector</span></i></span><span style="font-weight: 400;"> method. The Shadow Root has two different modes – </span><b>Open mode </b><span style="font-weight: 400;">allows the shadow root to be accessible from JavaScript outside the shadow root but </span><b>Closed mode</b><span style="font-weight: 400;"> does not.<br /></span></p>
+<h2><strong>Use Case: Why is Shadow DOM becoming more popular among developers?</strong></h2>
+<p><span style="font-weight: 400;">With time, Web-Component-driven architecture is becoming more popular among developers, but there is still one glitch i.e. global CSS applied could create problems across the rest of our web application code. So </span><b><i>what to do now? </i></b><span style="color: #000080;"><b><i><span style="color: #000080;">I</span> think Encapsulation {quarantine} is the only solution</i></b></span><b><i>.</i></b><span style="font-weight: 400;"> Encapsulation will surely help us prevent any unwanted side effects whilst keeping our component code clean, minimal, and easy to extend.</span></p>
+<p><span style="font-weight: 400;">Earlier days, <iFrame> was quite popular among developers for the sake of encapsulation. But there are few serious security glitches i.e. malicious plugins can be injected through <iFrame>. </span><span style="color: #000080;"><b>So</b> </span><b><span style="color: #000080;">the rise of Shadow DOM</span> <span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/270c.png" alt="✌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></b></p>
+<p><span style="font-weight: 400;">Let’s see how Shadow DOM renders on the browser and also see its Shadow tree structure:</span></p>
+<p><span style="color: #000080;"><b>Shadow DOM Code Snippet ></b></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js" data-enlighter-theme="beyond">const div = document.createElement("div"); // Shadow Host - a bridge between DOM and Shadow DOM
+const header = document.createElement("h1"); // Shadow DOM content
+header.innerHTML = 'Part of Shadow DOM content';
+  
+const shadowRoot = div.attachShadow({ mode: 'open' }); // attaching shadow root to Shadow host and setting mode as open
+
+shadowRoot.appendChild(header); // attaching to shadow DOM</pre>
+<p><span style="color: #000080;"><b>Browser rendered HTML Code {visible on dev tools} ></b></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html"><div>
+   #shadow-root (open)
+   <h1>Part of Shadow DOM content</h1>
+</div>
+</pre>
+<p><span style="color: #000080;"><b>Shadow DOM Tree structure ></b></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html">document
+└─ shadow host
+   └─ shadow root
+      └─ h1
+         └─ Part of Shadow DOM content
+</pre>
+<p><span style="font-weight: 400;">Before moving ahead, we have to understand the concept of </span><span style="color: #000080;"><b>Web Components</b></span><span style="font-weight: 400;"> and </span><span style="color: #000080;"><b>Custom HTML elements</b></span><span style="font-weight: 400;">.</span></p>
+<h2><strong>Let’s Understand Web Components</strong></h2>
+<p><span style="font-weight: 400;"><b>Web component</b></span><span style="font-weight: 400;"> is a W3C standard feature that is being incorporated in HTML5, Google’s Polymer, and Google’s LitElement libraries. Web components are a set of APIs that facilitate the creation of new custom, reusable HTML elements that can be used in web pages and web apps with their functionality and also isolates them from the rest of your application code.</span></p>
+<ul>
+<li style="font-weight: 400;"><b><i>Reusable</i></b><span style="font-weight: 400;">: Web Components are the same as other HTML tags, they can be reused n number of times without conflicting each other’s functionalities. In the picture below, we can clearly see </span><i><span style="font-weight: 400;">Header/Footer web components</span></i><span style="font-weight: 400;"> used twice.</span></li>
+<li style="font-weight: 400;"><b><i>Encapsulation</i></b><span style="font-weight: 400;">: Web Components wrap their business logic, it’s styling within the component. By attaching shadow DOM to that web component we can completely encapsulate its styling and business logic.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">All encapsulated web components can interact with each other but can not access each other’s properties. But still <span style="color: #000080;"><strong>global </strong></span></span><span style="color: #000080;"><strong><i>Inheritable properties</i></strong></span><span style="font-weight: 400;"> are easily applicable on all web components e.g. color is an inheritable global property that always impacts all of the web component elements but we can override it within the web component by writing inline HTML code {‘background-color’ is also global property but NOT inheritable to encapsulated web components}.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">One component can integrate another component e.g. Header inside Article.</span></li>
+</ul>
+<p><img loading="lazy" class="aligncenter wp-image-13993 " title="Web Components" alt="Web Components" width="374" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png 742w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-369x512.png 369w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-738x1024.png 738w" data-lazy-sizes="(max-width: 374px) 100vw, 374px" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png"/></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-13993 " title="Web Components" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png" alt="Web Components" width="374" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png 742w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-369x512.png 369w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-738x1024.png 738w" sizes="(max-width: 374px) 100vw, 374px"/></noscript></p>
+<p><span style="font-weight: 400;">Web components have </span><span style="color: #000080;"><b>FOUR Building blocks</b></span><span style="font-weight: 400;"> – </span><i><span style="font-weight: 400;">Custom HTML Elements , Shadow DOM, HTML Templates and HTML Imports. </span></i><span style="font-weight: 400;">But we will cover only two {</span><span style="font-weight: 400;"><span style="color: #000080;">Custom HTML Elements and Shadow DOM [already covered above]</span>}, which are required to understand our test automation problem. </span></p>
+<h2><strong>Let’s Understand and Create Custom HTML Elements</strong></h2>
+<p><span style="font-weight: 400;">By working on HTML5, we can create our own custom elements, those would be encapsulated by web components. Let’s understand and create custom elements:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="color: #000080;"><i><span style="font-weight: 400;">customElements</span></i></span><span style="font-weight: 400;"> – are HTML elements with custom templates, behaviors, and tag names made with a set of JavaScript APIs (e.g.</span><span style="color: #000080;"><i><span style="font-weight: 400;"> <my–element></span></i></span><span style="font-weight: 400;">).</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">To define a custom element, create a class that says ‘</span><span style="color: #000080;"><i><span style="font-weight: 400;">MyElemen</span></i></span><span style="font-weight: 400;"><span style="color: #000080;">t</span>’ that extends </span><i><span style="font-weight: 400;">HTMLElement</span></i><span style="font-weight: 400;"> class and passes the class to the </span><span style="color: #000080;"><i><span style="font-weight: 400;">customElements.define </span></i></span><span style="font-weight: 400;">method.</span></li>
+<li style="font-weight: 400;"><span style="color: #000080;"><i><span style="font-weight: 400;">HTMLElement</span></i></span><span style="font-weight: 400;"> class on HTML – is used for defining a custom element and teaching the browser about a new tag. </span></li>
+<li style="font-weight: 400;"><span style="color: #000080;"><i>customElements.define</i></span> method – to register a custom element on the page.</li>
+</ul>
+<p><span style="color: #000080;"><b>Custom Element Code Snippet ></b></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
+    	class MyElement extends HTMLElement {
+      	connectedCallback() {
+        	const button = document.createElement("button");
+        	button.onclick = () => alert("Button clicked");
+        	button.innerText = "Button in Custom Element";
+        	this.append(button);
+      		}
+    	}
+    	customElements.define("my-element", MyElement);
+</script>
+<div><my-element></my-element></div></pre>
+<p><span style="font-weight: 400;">Let’s open this code snippet in the browser and observe it under the <a target="_blank" href="https://blog.testproject.io/2019/11/26/next-generation-front-end-testing-using-webdriver-and-devtools-part-1/" rel="noopener noreferrer">dev tools</a> console, it clearly shows the custom HTML element and that element contains inside another standard web element i.e. button:</span></p>
+<p><span style="color: #000080;"><b>Dev tools console view ></b></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html"><my-element>
+   <button>Button in Custom Element</button>
+</my-element>
+</pre>
+<h2><strong>Let’s Attach the Shadow DOM to the above Custom HTML Element Code Snippet</strong></h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
+    	class MyElement extends HTMLElement {
+      	connectedCallback() {
+        	const shadow = this.attachShadow({ mode: "open" });
+        	const button = document.createElement("button");
+        	button.onclick = () => alert("Button clicked");
+        	button.innerText = "Shadow DOM Button";
+        	shadow.append(button);
+      	      }
+    	}
+    	customElements.define("my-element", MyElement);
+</script>
+<div><my-element></my-element></div>
+</pre>
+<p><span style="font-weight: 400;">Let’s open this code snippet in the browser and observe it under dev tools console, it clearly shows the custom HTML element appended with Shadow Root:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html"><my-element>
+  #shadow-root (open)
+   <button>Button in Custom Element</button>
+</my-element>
+</pre>
+<h2><strong>Shadow DOM </strong><strong>Browser Support </strong></h2>
+<p><span style="font-weight: 400;">Almost all new versions of majorly used browsers (Chrome, Firefox, Edge, Safari, and mobile browsers) support Shadow DOM V1 </span><span style="color: #000080;"><i><span style="font-weight: 400;">{fully supported browsers highlighted in green boxes – <span style="font-size: 10pt;"><a target="_blank" href="https://caniuse.com/?search=Shadow%20DOM%20(V1)" rel="noopener noreferrer">reference</a>}</span></span></i></span><span style="font-weight: 400;"><span style="font-size: 10pt;">.</span> </span></p>
+<p><img loading="lazy" class="aligncenter wp-image-13994 size-full" title="Browser Support of Shadow DOM" alt="Browser Support of Shadow DOM" width="2686" height="562" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png 2686w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-512x107.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-768x161.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-1024x214.png 1024w" data-lazy-sizes="(max-width: 2686px) 100vw, 2686px" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png"/></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-13994 size-full" title="Browser Support of Shadow DOM" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png" alt="Browser Support of Shadow DOM" width="2686" height="562" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png 2686w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-512x107.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-768x161.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-1024x214.png 1024w" sizes="(max-width: 2686px) 100vw, 2686px"/></noscript></p>
+<h2><strong>Key Takeaways</strong></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understand DOM vs Shadow DOM</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM structure and its two modes</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM use case for developers</span></li>
+<li>Understand the DOM, Web components, and Custom Elements</li>
+<li><span style="font-weight: 400;">DOM and Shadow DOM entry points</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM attachment with Custom elements</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM browser support</span></li>
+</ul>
+<p><span style="font-weight: 400;">So far we have seen developers using Shadow DOM gracefully and succeeded in the separate rendering of DOM and Shadow DOM. </span><span style="color: #000080;"><b>Now the problem has been passed on to QA Automation Engineers</b></span><span style="font-weight: 400;">. A lot of questions arise, such as:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Can a QA Automation engineer interact with custom elements WITHOUT appending Shadow DOM?</span></li>
+<li><span style="font-weight: 400;">Can a QA Automation engineer interact with custom elements AFTER appending Shadow DOM?</span></li>
+<li><span style="font-weight: 400;">What is the role of the Open/Closed mode of Shadow Root, while finding the elements?</span></li>
+<li><span style="font-weight: 400;">Do regular selectors {Xpath, CSS} work with Shadow DOM elements?</span></li>
+<li><span style="font-weight: 400;">How to interact with multi-level Shadow Root elements?</span></li>
+<li><span style="font-weight: 400;">Does TestProject <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">OpenSDK</a> support Shadow DOM elements?</span></li>
+<li><span style="font-weight: 400;">Does TestProject <a target="_blank" href="https://blog.testproject.io/2020/08/25/testprojects-smart-recorder-adds-ai-powered-self-healing-technology/" rel="noopener noreferrer">Test Recorder</a> support Shadow DOM elements?</span></li>
+</ul>
+<p><i><span style="color: #000000;">Want to learn about these open questions? <strong><span style="color: #000080;">The crucial</span></strong></span></i><b><i><span style="color: #000000;"><span style="color: #000080;"><strong> </strong>conversation has already started between Shadow DOM and QA Automation engineers</span>. </span></i></b><i><span style="color: #000000;">So stay tuned and wait for the next consecutive blogs, very soon it will be on your plate </span></i><span style="color: #000000;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f468-200d-1f4bb.png" alt="👨‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/09/29/the-rise-of-shadow-dom-core-technical-aspects/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -446,105 +829,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>It’s #HispanicHeritageMonth, and we’re celebrating with events hosted by Alianza&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/its-hispanicheritagemonth-and-were-celebrating-with-events-hosted-by-alianza/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 22 Sep 2020 17:46:28 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[Alianza]]></category>
-		<category><![CDATA[celebrating]]></category>
-		<category><![CDATA[companyculture]]></category>
-		<category><![CDATA[ERG]]></category>
-		<category><![CDATA[events]]></category>
-		<category><![CDATA[HispanicHeritageMonth]]></category>
-		<category><![CDATA[hosted]]></category>
-		<category><![CDATA[WorkatAccruent]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/its-hispanicheritagemonth-and-were-celebrating-with-events-hosted-by-alianza/</guid>
-
-					<description><![CDATA[It’s #HispanicHeritageMonth, and we’re celebrating with events hosted by Alianza, our Hispanic and Latinx Employee Resource Group. 🎉 Alianza is]]></description>
-										<content:encoded><![CDATA[
-<p>It’s <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/hispanicheritagemonth?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARC-5pChTo9a9rHgX0LUOMGW7N1GA2dikKfpX_Rbhszbp77VMgaVCOhxzFrpqpNMrDSHJSUSDu81NIlgExBoxCeisHcCyBz-QrN2uloDFbP5iHZyapQFNu2h2UAlFzP-y_1kd7DQ6pYwRz5usJhlI2QN3OA1uNvaCUjsF_dgZiJ3CSGPirlInTroGU3_NEDHwxDstlfC_WgYVvqRAIEJAFbC1k6rQUGlQa3rDFJROD0MH5N0C3gI37qqLPIdbtu0ET7_DdKAeKr-91hCZmjLkZVjq_JfLs8RZRVS2rv5lJ8mEXD3i24ErJgrAGt0Z-iqHVPDNwm3EHoa5SMpF48D4_C-3A&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#HispanicHeritageMonth</span></span></a>, and we’re celebrating with events hosted by Alianza, our Hispanic and Latinx Employee Resource Group. <span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url("https://static.xx.fbcdn.net/images/emoji.php/v9/t8c/1/16/1f389.png")"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span> Alianza is our newest ERG, and has kicked off Hispanic Heritage Month with educational and interactive group activities to help us learn more about the significance of HHM and how we can all celebrate.</p>
-<p> Alianza’s mission at <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/accruent?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARC-5pChTo9a9rHgX0LUOMGW7N1GA2dikKfpX_Rbhszbp77VMgaVCOhxzFrpqpNMrDSHJSUSDu81NIlgExBoxCeisHcCyBz-QrN2uloDFbP5iHZyapQFNu2h2UAlFzP-y_1kd7DQ6pYwRz5usJhlI2QN3OA1uNvaCUjsF_dgZiJ3CSGPirlInTroGU3_NEDHwxDstlfC_WgYVvqRAIEJAFbC1k6rQUGlQa3rDFJROD0MH5N0C3gI37qqLPIdbtu0ET7_DdKAeKr-91hCZmjLkZVjq_JfLs8RZRVS2rv5lJ8mEXD3i24ErJgrAGt0Z-iqHVPDNwm3EHoa5SMpF48D4_C-3A&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#Accruent</span></span></a> is to support the Hispanic, Mexican and Latinx (HML) employees and allies at Accruent to promote growth, education, and empowerment while cultivating a culture of diversity and inclusion. Our ERGs are the backbone of our culture, and we’re excited to have Alianza join the team. Thank you to co-chairs Laura Torres and Dania Hernandez for all their hard work in leading Alianza. Happy Hispanic Heritage Month! <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/companyculture?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARC-5pChTo9a9rHgX0LUOMGW7N1GA2dikKfpX_Rbhszbp77VMgaVCOhxzFrpqpNMrDSHJSUSDu81NIlgExBoxCeisHcCyBz-QrN2uloDFbP5iHZyapQFNu2h2UAlFzP-y_1kd7DQ6pYwRz5usJhlI2QN3OA1uNvaCUjsF_dgZiJ3CSGPirlInTroGU3_NEDHwxDstlfC_WgYVvqRAIEJAFbC1k6rQUGlQa3rDFJROD0MH5N0C3gI37qqLPIdbtu0ET7_DdKAeKr-91hCZmjLkZVjq_JfLs8RZRVS2rv5lJ8mEXD3i24ErJgrAGt0Z-iqHVPDNwm3EHoa5SMpF48D4_C-3A&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#companyculture</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/erg?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARC-5pChTo9a9rHgX0LUOMGW7N1GA2dikKfpX_Rbhszbp77VMgaVCOhxzFrpqpNMrDSHJSUSDu81NIlgExBoxCeisHcCyBz-QrN2uloDFbP5iHZyapQFNu2h2UAlFzP-y_1kd7DQ6pYwRz5usJhlI2QN3OA1uNvaCUjsF_dgZiJ3CSGPirlInTroGU3_NEDHwxDstlfC_WgYVvqRAIEJAFbC1k6rQUGlQa3rDFJROD0MH5N0C3gI37qqLPIdbtu0ET7_DdKAeKr-91hCZmjLkZVjq_JfLs8RZRVS2rv5lJ8mEXD3i24ErJgrAGt0Z-iqHVPDNwm3EHoa5SMpF48D4_C-3A&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#ERG</span></span></a></p>
-<p> See what it’s like to <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/workataccruent?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARC-5pChTo9a9rHgX0LUOMGW7N1GA2dikKfpX_Rbhszbp77VMgaVCOhxzFrpqpNMrDSHJSUSDu81NIlgExBoxCeisHcCyBz-QrN2uloDFbP5iHZyapQFNu2h2UAlFzP-y_1kd7DQ6pYwRz5usJhlI2QN3OA1uNvaCUjsF_dgZiJ3CSGPirlInTroGU3_NEDHwxDstlfC_WgYVvqRAIEJAFbC1k6rQUGlQa3rDFJROD0MH5N0C3gI37qqLPIdbtu0ET7_DdKAeKr-91hCZmjLkZVjq_JfLs8RZRVS2rv5lJ8mEXD3i24ErJgrAGt0Z-iqHVPDNwm3EHoa5SMpF48D4_C-3A&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#WorkatAccruent</span></span></a>: <a target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2FWorkatAccruent%3Ffbclid%3DIwAR24FH5sRP4EYC7TfAKiJH01Z4NvWNqhpzpJXDe9iChLwk3gMPMjPqksNdk&#038;h=AT1ghgQPWh4ucZKb57VYp8LIs8GpRpOqLDnQA8jxf7UUCErCUCD-kyG8GH8HxSn-eo3fRPzejBH-OuYpgVXpfA49DRiGe7Hbr36ZsGQtF-vr9gGpRHl8MgT0WYl4xH1i4rHfp-unmNYnsFgxSYwwpX0EBVIMQHlFrCGyd3XezWXdmaf9iyHOaDjiOOPcKg5CQLBgLNreNd6XGVCPwf0A84wjBpyC_Zzhdt3rtI7oaK5d905IjZakTgOtvoNUtB2Wwn78k9BCaUulQXEqUqP3HJDGKRTpbFjsEBJJW2LnsylAPppbvQnkcbldT4wogzdcJof1cIsBEm33tIn35y7kKlHhfOuDK5hbNfJ2r1OxNq7KbJBPMO6wgE-ckx9LXqRGPIOevsPBwkxNFLVMk281uM5Ha2RVrABiXg-tbc987zXFx6z53bRn-WmKfrYNBtVu3TvNtohXsv0IZ-HuL7yM7FOZuSS7mPaM2VFjeZiRbm9PvFFu_tkUqPI817GUAfWFeSXDGm6VavTZ1KjOA4kjd9A41j2OsLnHyBOixRsWtqP5hwhm70UvS0_b-Riq0PFiP0P1xOYfTh7vItYkH_RzTsvFxKVbJhc7B6ssJPxaDMrKlTDXjr0M5SKwpDKHvhw6kN4MKz_Iag" data-ft="{"tn":"-U"}" rel="noopener nofollow noreferrer" data-lynx-mode="async">http://bit.ly/WorkatAccruent</a></p>
-<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/119734020_3243360652383673_5111677389811031430_n.png?_nc_cat=103&#038;_nc_sid=8024bb&#038;_nc_ohc=C8u32tAjheMAX8r7elS&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=c7714faeb308b41aef0bd9a598de1336&#038;oe=5F944CF5" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/227818503937918/posts/3243360762383662">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Very happy to introduce you to the new explorer: Sofía  Palamarchuk. She will p&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/very-happy-to-introduce-you-to-the-new-explorer-sofia-palamarchuk-she-will-p/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 22 Sep 2020 15:12:39 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Event]]></category>
-		<category><![CDATA[explorer]]></category>
-		<category><![CDATA[Happy]]></category>
-		<category><![CDATA[introduce]]></category>
-		<category><![CDATA[JurassicPAC]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[Palamarchuk]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[PerformanceEngineering]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Sofía]]></category>
-		<category><![CDATA[userexperience]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/very-happy-to-introduce-you-to-the-new-explorer-sofia-palamarchuk-she-will-p/</guid>
-
-					<description><![CDATA[🌍 Very happy to introduce you to the new explorer: Sofía Palamarchuk.🦖 She will present her session about “Enhance Mobile]]></description>
-										<content:encoded><![CDATA[
-<p><span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url("https://static.xx.fbcdn.net/images/emoji.php/v9/t3f/1/16/1f30d.png")"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f30d.png" alt="🌍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span> Very happy to introduce you to the new explorer: Sofía  Palamarchuk.<span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url("https://static.xx.fbcdn.net/images/emoji.php/v9/t2e/1/16/1f996.png")"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f996.png" alt="🦖" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span> She will present her session about “Enhance Mobile User Experience through Performance Testing” for our <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/neotys?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#Neotys</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/jurassicpac?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#JurassicPAC</span></span></a> on October 8 (12:00 pm &#8211; 12h45 pm CEST &#8211; 3:00 pm &#8211; 3:45 pm PDT). Join the adventure <span class="_5mfr"><span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url("https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png")"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></span> <a target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3hTH8P5%3Ffbclid%3DIwAR1Mb8TnZ8Azah0IwnXtEZFpCWANIT_zW9ewvfO4HIP0R8QgTos79X7XXUY&#038;h=AT3-qj5GqQZLlFMmVNA8IqZg1NIr42TB-wqPqNjv65OTsR8kqxFMr33jAiesoUOm3wes5Q42mdu_0eGaoUcF6GfBV44b9h553uZWj7Xx0iUms3GO_MSR3lbLxA9JO7VmAUJqwcDArRmV0i-icLsF8ChMj9Kd9DqgFkUwwtVlrj0-GifYxq4fiJBqQ679M8hfC5CWwhyrvhvqypgUIUpFEUfNVmi-mJWwzTP_--hw9ZOJON2bwvfoxiz31gHVSuMe6r9kCiynKFyxiVRJEGYIq1zRAv5lLhlt7dozxei5riEuOSzB4AGny4DSMB8EPdeFm1chpQwp60buwvVHd3ihIXgwMvnfEYSf_vB0bSLMmTt-3MGk99N3y9rYVKx3sfho46PupUAt9xozeQHxyfrT3dM6edPP4a7UoLtxv-1EwHu0R_plQ4fGDgwQM_WGZhXzxOxGX8Ddf6VL8_BCZcVSzmAngkkFjaV0HtJQdCFiKqPqHCNKEg4b8hOqLmpJoMLREJEOSdVFASH9B217DQPM1uGjPx5NtoNRkIrQXyG6XA2UylEzu6TeF5Z1-OqSCBjMfMTFICK2eoBNQAViLd58it4FCZqyQ2l9F-FJNZJipdMvUfjhs3S0PsKuMF0s_ZKChZ_wu748MA" data-ft="{"tn":"-U"}" rel="noopener nofollow noreferrer" data-lynx-mode="async">https://bit.ly/3hTH8P5</a> </p>
-<p> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/performanceengineering?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#performanceengineering</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/performancetesting?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#performancetesting</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/mobile?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#mobile</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/userexperience?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#userexperience</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/perfmatters?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#perfmatters</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/neotyspac?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#NeotysPAC</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/performance?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#performance</span></span></a> <a target="_blank" class="_58cn" href="https://facebook.com/hashtag/event?__eep__=6&#038;source=feed_text&#038;epa=HASHTAG&#038;__xts__%5B0%5D=68.ARClLSFX7HxkDGpwxuq66fxRnoMkF6R1xtCcFq5wQDeKdaHTg1qrX-BcvX86ZFTDuCVSuuSUjUl6nDj9a9nhCWDLmZ5zFqIKRdq0owJsqzRoJqdihYB2eyl7JMdZsy-L9vWX0OCSdJH1hiBGnoUdTxH64H6jMIBoiZOxqNX6hPR2MiiiV3v2qxC22z280Ifi4c9kut4gGIDS-kev0V6RDKQ1SLvFPLfBpJmr8FlGaMIleI1_AK-Z6F5vLXy9SL5FMQnb1PhSosnq9bdFXJ7cW59q2z1TlRKS4IJOQB8WNsbIJSa2CFlwsZRXnr1KAfwnpk6SS-O0poS5C_N2Avz4O7UnFg&#038;__tn__=%2ANK-R" data-ft="{"type":104,"tn":"*N"}" rel="noopener noreferrer"><span class="_5afx"><span aria-label="hashtag" class="_58cl _5afz">#event</span></span></a></p>
-<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/120069108_3703272816350821_2917442385527505918_o.png?_nc_cat=107&#038;_nc_sid=8024bb&#038;_nc_ohc=OWbNZ-g4qmAAX_bU8XQ&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=c1a0a70de0b569d88fabd2f04d39bab7&#038;oe=5F8E4D40" rel="noopener noreferrer"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3703273536350749">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Speeding Up Your Tests &#124; Sauce Labs</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/speeding-up-your-tests-sauce-labs/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Labs]]></category>
-		<category><![CDATA[Sauce]]></category>
-		<category><![CDATA[Speeding]]></category>
-		<category><![CDATA[Tests]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/speeding-up-your-tests-sauce-labs/</guid>
-
-					<description><![CDATA[A common complaint that I hear is: “My tests run a lot faster locally than on Sauce Labs.” Sauce Labs]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>A common complaint that I hear is: “My tests run a lot faster locally than on Sauce Labs.”</p>
-<p>Sauce Labs is in the cloud and not in your local network, so it makes sense that any given test is going to have some amount of slowdown. The advantage of Sauce Labs is that you can make up this difference by scaling up the number of tests you run at the same time. If you are seeing individual tests taking much more than twice as long to run remotely as they do locally, then there are definitely things you can do that will improve your performance.</p>
-<p>However, let’s start with an unlikely disclaimer: test speed might not be what you should be prioritizing.</p>
-<div class="video">
-<p><iframe title="Who Should Be Focusing on Faster Test Results?" width="800" height="450" src="https://www.youtube.com/embed/CvNlN6DaW0A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</div>
-<p>The goal of test automation is to get accurate results back in a consistent manner. If you are not getting accurate results, then the speed at which you get those results is not the important thing. I spoke with a team last year that wanted to decrease their run times from 9 hours to 6 hours. When I sat down to work with them on that, I asked what percent of their tests were failing. They told me 70% (!!?!??). When you have more failures than you can evaluate between test runs, your tests are effectively useless. This team had no business focusing on shaving off time on their test runs when all that will do is give them useless information faster. I’m not saying performance isn’t important, and there are some things that you can do to improve performance that will also improve reliability, but in general, focus on the most important thing first. Essentially, spend your time reducing “maintenance costs” rather than focusing on “execution costs.”</p>
-<p>There are a number of improvements that might make a difference—like moving your testing servers closer to the Sauce Labs data center, and turning off video capture and screenshots—which aren’t worth the time savings. You might have errors that are entirely preventable and should never happen that are taking up time that could be spent running other tests. There are some powerful things that you might not know about that you can do with a proxy like Sauce Connect for reducing overall traffic and decreasing the amount of internet that some assets need to travel. Finally, many people don’t realize that their frameworks are likely optimized for local execution and are very inefficient when running against any remote server.</p>
-<p>Over the next few weeks, I&#8217;ll be walking you through some ways that you can speed up your tests, including parallel testing, eliminating time-wasting errors, and more! Stay tuned for future posts that will include code and video with screencasts.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/speeding-up-your-tests">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -553,5 +837,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-02 05:38:11 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-02 21:01:11 by W3 Total Cache
 -->
