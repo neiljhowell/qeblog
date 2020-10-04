@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 01 Oct 2020 20:51:44 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 02 Oct 2020 21:31:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,30 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Egregor Ransomware Threatens &#8216;Mass-Media&#8217; Release of Corporate Data</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-ransomware-threatens-mass-media-release-of-corporate-data/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2020 21:31:53 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-ransomware-threatens-mass-media-release-of-corporate-data/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/egregor-ransomware-mass-media-corporate-data/159816/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Learn from Google &#8211; Use Google Cloud Build</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learn-from-google-use-google-cloud-build/</link>
 		
@@ -804,31 +828,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Google Chrome Bugs Open Browsers to Attack</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-chrome-bugs-open-browsers-to-attack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 22 Sep 2020 18:44:57 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Browsers]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Open]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/google-chrome-bugs-open-browsers-to-attack/</guid>
-
-					<description><![CDATA[Google&#8217;s new release of Chrome 85.0.4183.121 for Windows, Mac, and Linux fixes 10 security flaws. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Google&#8217;s new release of Chrome 85.0.4183.121 for Windows, Mac, and Linux fixes 10 security flaws.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-chrome-attack/159466/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -837,5 +836,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-03 05:38:11 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-03 21:01:14 by W3 Total Cache
 -->
