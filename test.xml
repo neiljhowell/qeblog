@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 02 Oct 2020 21:31:53 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 06 Oct 2020 05:11:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,77 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>5 Common Mistakes in Test Automation</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/5-common-mistakes-in-test-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2020 05:11:47 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Common]]></category>
+		<category><![CDATA[Mistakes]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/5-common-mistakes-in-test-automation/</guid>
+
+					<description><![CDATA[Quite recently, I gave a talk at Selenium Conference 2020 Virtual on How to build an automation framework with Selenium:]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Quite recently, I gave a talk at <a target="_blank" href="https://2020.seleniumconf.in/" rel="noopener noreferrer">Selenium Conference 2020</a> Virtual on <a target="_blank" href="https://confengine.com/selenium-conf-2020/proposal/13303/how-to-build-an-automation-framework-with-selenium-patterns-and-practices" rel="noopener noreferrer"><b>How to build an automation framework with Selenium: Patterns and practices</b></a>. In this session, I talked about what are some of the basic building blocks of a good test automation framework implementation and some good <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener noreferrer">design patterns</a> to follow and anti-patterns to avoid.</p>
+<p>If interested, You can see all the slides for this on <a target="_blank" href="http://automationhacks.io/slides/docs/ui_automation_framework/index.html" rel="noopener noreferrer">my blog site</a> and the video once ConfEngine releases it on their <a target="_blank" href="https://www.youtube.com/c/ConfEngine/videos" rel="noopener noreferrer">YouTube channel</a>.</p>
+<p>After this talk, it led me to think more deeply in terms of what are the mistakes that we as testers/automation engineers make in our test automation, and could we rather avoid these in the first place and, well, not <b>do it</b> in the first place <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f914.png" alt="🤔" class="wp-smiley" style="height: 1em; max-height: 1em;" />?</p>
+<p>I’ve been personally burnt due to some of these mistakes in my career and so I wanted to take some time out and write this post, in order to shed some more light on these mistakes and how you can avoid making them in your test automation code.</p>
+<p>We will discuss these in the UI automation context but some of these are general test automation anti-patterns to avoid.</p>
+<p>Let’s get started, shall we?</p>
+<h2><strong>Writing Assertions Inside The Page Objects</strong></h2>
+<p>When we write <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">UI automation</a> using the page object pattern, initially it could be quite tempting to even put assertions inside the page object classes, I’ve personally been guilty of this. However, doing so leads to unnecessary complexity in the page objects wherein you might end up writing multiple methods to satisfy both positive and negative scenarios on a given page.</p>
+<p>However, if your assertions are kept outside the page objects and mostly in your Test files or Test helpers, then you can treat the page object as just an abstraction for a given <b>Page or Component</b> and reuse the same method to verify different outcomes.</p>
+<p>Writing assertions in tests is a very natural readable thing to do as your colleagues don’t have to dig into a long page object to figure out what the test is trying to assert. Angie Jones also alludes to this in her very insightful post on <a target="_blank" href="https://angiejones.tech/page-object-model/" rel="noopener noreferrer">Tips for healthy page objects</a>.</p>
+<p>Naturally, you can adopt the same philosophy even when writing Functional API automation. Keeping assertions in test files instead of deeply nested layers of abstraction ensures you follow the <a target="_blank" href="https://en.wikipedia.org/wiki/KISS_principle" rel="noopener noreferrer">KISS (Keep it simple, stupid)</a> principle while resulting in <a target="_blank" href="https://en.wikipedia.org/wiki/Separation_of_concerns#:~:text=In%20computer%20science%2C%20separation%20of,code%20of%20a%20computer%20program." rel="noopener noreferrer">good separation of concerns</a>.</p>
+<h2><strong>Writing WebDriver API Methods in Tests/Page Objects</strong></h2>
+<p>While creating a UI automation framework, it is quite easy to fall in the trap of writing <a target="_blank" href="https://blog.testproject.io/2020/06/30/selenium-4-new-window-tab-screenshots/" rel="noopener noreferrer">Selenium WebDriver</a>/<a target="_blank" href="https://blog.testproject.io/category/appium/" rel="noopener noreferrer">Appium</a> Driver methods (driver.sendKeys(), driver.click()) directly in your page objects, or even in tests.</p>
+<p>The main problem with such an approach is that you are mixing different responsibilities into page objects and test classes. Your test classes should be all about performing a single atomic action and verifying its outcome using meaningful well-written assertions.</p>
+<p>Having WebDriver methods in tests is a really bad idea since if there are any changes in Selenium WebDrivers API or different versions of the library, then you would have to make these changes in all your test files/page objects.</p>
+<p>It’s always a good idea to wrap third-party libraries into your own abstractions since this prevents these dependencies leaking throughout your framework and is a way to write clean code (You can read more about clean code <a target="_blank" href="https://automationhacks.io/2018/11/25/basics-of-writing-clean-code/" rel="noopener noreferrer">in my article</a> or in this great <a target="_blank" href="https://blog.testproject.io/2020/04/22/clean-code-in-tests-what-why-and-how/" rel="noopener noreferrer">Clean Code</a> article by Corina Pip).</p>
+<p>Instead, It is much better to write wrapper functions over WebDriver methods in a <b>BasePage</b> class and either inherit or compose this in all your page objects. This way, if anything changes, you have to make these changes in a single place instead of fixing these in multiple places. This very nicely adheres to the <a target="_blank" href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" rel="noopener noreferrer">DRY (Don’t repeat yourself)  principle</a> which is considered a very good programming practice:</p>
+<blockquote>
+<p>If you have WebDriver APIs in your test methods, You’re Doing It Wrong.</p>
+<p>– Simon Stewart</p>
+</blockquote>
+<h2><strong>Writing Long E2E Tests with Multiple Actions and Assertions</strong></h2>
+<p>When writing <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">test automation</a>, it is often quite convenient to model entire user journeys as long winding E2E tests with multiple intermediate assertions. You can even argue that it leads to writing less code. However, these tests in the long run turn out to be a nightmare because of multiple reasons:</p>
+<ul>
+<li>They execute very slowly since most of these are from the Web/Mobile level which inherently has multiple factors leading to slow speed.</li>
+<li>If one earlier assertion fails, none of the succeeding assertions are executed, leading to a lack of coverage.</li>
+<li>These tests are quite flaky and non-deterministic, when they fail it’s often due to multiple different reasons, leading to great difficulty in debugging and maintaining these.</li>
+</ul>
+<p>Above are some of the reasons why this is a bad idea. So what can we do?</p>
+<p>Instead, prefer to write shorter, more targeted <a target="_blank" href="https://blog.testproject.io/2020/03/12/creating-ui-automation-that-is-focused-reliable-and-fast/" rel="noopener noreferrer">atomic tests</a> that verify a single aspect of your system under test functionality.</p>
+<p>It’s quite useful to refer to the <a target="_blank" href="https://automationintesting.com/2019/08/trims-automation-in-testing-strategy.html" rel="noopener noreferrer">TRIMS</a> heuristic coined by Richard Bradshaw of <a target="_blank" href="https://www.ministryoftesting.com/" rel="noopener noreferrer">MOT (Ministry of testing</a>/<a target="_blank" href="https://automationintesting.com/" rel="noopener noreferrer">Automation In testing</a> fame).</p>
+<p>The most obvious benefit that you get by writing atomic tests is that they are very easy to parallelize and deterministic in nature. When they fail, it usually is for a single reason and hence it’s quite easy to debug and maintain them.</p>
+<h2><strong>Treating UI Automation as The One and Only Hammer for Every Nail</strong></h2>
+<p>UI automation that works is quite wonderful to watch. Quite often one common mistake made by new budding automation engineers (after learning the WebDriver API) is obviously to try and use it for every use case that they can think of.</p>
+<p>What could very well have been a medium-sized test suite to verify essential functionality (that could only be verified on the UI), turns into a gigantic suite of UI automation that tests every possible functionality from the UI <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Such a huge suite is a debugging and maintenance nightmare and very quickly turns into a <a target="_blank" href="https://en.wikipedia.org/wiki/Diminishing_returns" rel="noopener noreferrer">point of diminishing return</a> wherein you spend more time maintaining these flaky tests than spend time improving the quality of the product by the numerous other activities that you could have done.</p>
+<p>I know, it’s not easy to let go of the temptation. But trust me, this is a hard choice that should be made sooner than later.</p>
+<p>So what could we do?</p>
+<p>Be more intentional and mindful of your automation. Treat UI automation as a part of your automation stack, but <b>not the only part</b>. You could instead test more functionality via the API or push some of these tests into Component Level tests instead of E2E tests.</p>
+<h2><strong>Test Automation can Replace Exploratory Testing</strong></h2>
+<p>One common mistake that a lot of organizations make is to think that <a target="_blank" href="https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/" rel="noopener noreferrer">automated testing</a> is the only flavor of testing that’s needed to handle the scale of the organizations.</p>
+<p>You would hear crazy claims/call to actions to automate 100% of the manual test cases as if that’s going to magically get translated into a high-quality product (valuable to the customer).</p>
+<p>Test automation, while being a very powerful tool in the tool belt of a skilled tester, is not the only weapon and is quite inefficient in creatively exploring the product and thinking of its different flaws all the while exploring it. It is often inflexible in that it cannot change on the fly to different demands that your product might have, however, exploratory testing can.</p>
+<p>Thus, instead of one being the replacement of others, think of them as two amigos and two sides of the same coin: with test automation as a way to get rid of the boring repeatable steps and to take care of giving the fast feedback that the team needs, whereas exploratory testing as a way to find the different areas of the system that are not yet explored and can feed into future automation projects or find really hard to detect bugs.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>Are these the only mistakes that an automation engineer can make? Heck no, I’m sure you would have made some yourself. Why not share your experience around it with the community so that we can all learn from them and maybe not make them in the first place</p>
+<p>If you found this post useful, do share it with a friend or colleague. Until next time, Happy Testing/Coding <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/262e.png" alt="☮" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/10/06/common-mistakes-in-test-automation/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Egregor Ransomware Threatens &#8216;Mass-Media&#8217; Release of Corporate Data</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-ransomware-threatens-mass-media-release-of-corporate-data/</link>
 		
@@ -770,71 +841,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Gatling Frontline 1.12.0 and Gatling 3.4.0 are out! – Gatling Open-Source Load Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-1-12-0-and-gatling-3-4-0-are-out-gatling-open-source-load-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 23 Sep 2020 14:27:06 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Frontline]]></category>
-		<category><![CDATA[Gatling]]></category>
-		<category><![CDATA[Load]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/gatling-frontline-1-12-0-and-gatling-3-4-0-are-out-gatling-open-source-load-testing/</guid>
-
-					<description><![CDATA[Reading Time: 2 min   We are delighted to announce that Gatling 1.12.0 and Gatling 3.4.0 are out! What’s new]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">2</span> <span class="rt-label rt-postfix">min</span></span></p>
-<p> </p>
-<p>We are delighted to announce that <strong>Gatling 1.12.0 and Gatling 3.4.0 are out</strong>!</p>
-<h2>What’s new in Gatling FrontLine 1.12.0?</h2>
-<p> </p>
-<p></p>
-<h3>New pools Features</h3>
-<p><strong>Pools of load injectors</strong> in <strong>Gatling FrontLine</strong> are preconfigured instances where the load injectors will be deployed when your run starts. It can be either on-premises instances or instances deployed via your favorite cloud provider account.</p>
-<p> </p>
-<p><img loading="lazy" class="wp-image-473 aligncenter" src="https://gatling.io/wp-content/uploads/2019/04/aws-logo@2x.png" alt="" width="80" height="48"/></p>
-<p><strong>AWS</strong></p>
-<p><a target="_blank" href="https://gatling.io/wp-content/uploads/2020/09/google-cloud.svg" rel="noopener noreferrer"><img loading="lazy" class="wp-image-7686 aligncenter" role="img" src="https://gatling.io/wp-content/uploads/2020/09/google-cloud.svg" alt="" width="196" height="30"/></a></p>
-<p><strong>Google Compute Engine</strong></p>
-<ul>
-<li>Built-in certified images</li>
-<li>Preemptible instances support</li>
-<li>Image and Instance type support</li>
-<li>Injector static IP support</li>
-<li>Service accounts support</li>
-</ul>
-<h3><strong>New OpenID Connect Integration</strong></h3>
-<p>FrontLine can now integrate with your favorite OIDC provider such as Azure Active Directory or Okta.</p>
-<p style="text-align: center;"><span style="font-weight: 400;">If you wish to evaluate <a target="_blank" href="https://gatling.io/gatling-frontline/" rel="noopener noreferrer"><strong>Gatling FrontLine</strong></a>, feel free to apply there:<br /></span><a target="_blank" class="btn purple" href="https://gatling.io/gatling-frontline/evaluation/" rel="noopener noreferrer">Evaluation request</a></p>
-<h2>What’s new in Gatling 3.4.0?</h2>
-<p><img loading="lazy" class="wp-image-4884 aligncenter" role="img" src="https://gatling.io/wp-content/uploads/2019/06/gatling-load-testing.svg" alt="" width="203" height="82"/></p>
-<p><strong>The key new features are:</strong></p>
-<ul>
-<li>official <strong>Gradle</strong> support with the new <strong>gatling-gradle-plugin</strong></li>
-<li>new sequential scenarios</li>
-<li><strong>TLSv1.3</strong> is now enabled by default</li>
-</ul>
-<p><a target="_blank" href="https://gatling.io/wp-content/uploads/2020/09/gradle-1.svg" rel="noopener noreferrer"><img loading="lazy" class="wp-image-7687 aligncenter" role="img" src="https://gatling.io/wp-content/uploads/2020/09/gradle-1.svg" alt="" width="148" height="32"/></a></p>
-<p>For many years, <strong>Gradle</strong> <strong>users</strong> had to rely on the great third party plugin created by <a target="_blank" href="https://github.com/lkishalmi" rel="noopener noreferrer">Laszlo Kishalmi</a> and maintained those last years by <a target="_blank" href="https://github.com/eshepelyuk" rel="noopener noreferrer">Ievgenii Shepeliuk</a>. They contributed their work upstream, so Gatling now officially supports Gradle!<br />For existing users, beware that the plugin is now <code class="c-mrkdwn__code" data-stringify-type="code">io.gatling.gradle</code> and that the default project layout has changed to <code class="c-mrkdwn__code" data-stringify-type="code">src/gatling/scala</code>.</p>
-<p> </p>
-<p style="text-align: center;"><span style="font-weight: 400;">If you wish to start using <a target="_blank" href="https://gatling.io/open-source/" rel="noopener noreferrer"><strong>Gatling</strong></a> in it open-source version, feel free to download it there:<br /></span></p>
-<p style="text-align: center;"><a target="_blank" class="btn orange" href="https://gatling.io/open-source/" rel="noopener noreferrer">Download</a></p>
-<p>Please check out the<strong> <a target="_blank" href="https://gatling.io/docs/frontline/FrontLine-Release-Notes.pdf" rel="noopener noreferrer">full release note</a></strong> for all the new features and bug fixes shipped in these releases.</p>
-<p style="text-align: center;"><a target="_blank" class="btn orange" href="https://gatling.io/docs/frontline/FrontLine-Release-Notes.pdf" rel="noopener noreferrer">Full release note</a></p>
-<p><span style="font-weight: 400;">We are looking forward to getting your feedback!</span></p>
-<p><strong>The Gatling team</strong></p>
-</div>
-<p><br />
-<br /><a href="https://gatling.io/2020/09/23/gatling-frontline-1-12-0-and-gatling-3-4-0-are-out/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -843,5 +849,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-06 05:38:17 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-06 21:01:19 by W3 Total Cache
 -->
