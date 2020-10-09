@@ -99,6 +99,101 @@
 		
 			</item>
 		<item>
+		<title>Selenium 4 &#8211; New Features of Selenium WebDriver (Part 1) &#8211; Automated Visual Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-4-new-features-of-selenium-webdriver-part-1-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 05 Oct 2020 22:31:36 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<category><![CDATA[WebDriver]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-4-new-features-of-selenium-webdriver-part-1-automated-visual-testing/</guid>
+
+					<description><![CDATA[Manoj Kumar published a teaser on Selenium 4, listing the new features expected and important deprecations across the Selenium Suite(]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Manoj Kumar published a <a target="_blank" href="https://applitools.com/blog/selenium-4/" rel="noopener noreferrer">teaser on Selenium 4</a>, listing the new features expected and important deprecations across the Selenium Suite( Selenium IDE, Selenium WebDriver, and Grid). </p>
+<p>This has already caused a buzz in the industry for not only testers but for the Ops and Dev communities as well. And why wouldn’t it?</p>
+<p>Features such as the integration of DevTools APIs with Selenium Webdriver and Observability add a lot of value and expand Selenium’s reach.</p>
+<p>Many requests were made by the community, asking for details on each of the features. Hence we started this series of posts addressing the features of Selenium 4.</p>
+<p>In the first <a target="_blank" href="https://applitools.com/blog/selenium-4-migration/" rel="noopener noreferrer">blog post</a> of the Selenium 4 series, we discussed the deprecated components and their replacements.</p>
+<p>In this blog post, as well as the next one, we will focus on some of the new features offered in Selenium 4, including:</p>
+<ul>
+<li>Relative Locators</li>
+<li>Window and Tab Management</li>
+<li>Chrome DevTools Protocol (next post)</li>
+<li>Observability (next post)</li>
+<li>Enhanced Exceptions (next post)</li>
+</ul>
+<p>Make sure you <a target="_blank" href="https://applitools.com/blog/how-to-install-selenium-4/" rel="noopener noreferrer">install Selenium 4</a> to be able to try the features we’ll discuss.</p>
+<div class="small-cta">
+<h2 class="heading-secondary">Webinar: Test Driving Selenium 4 with Angie Jones</h2>
+<p>    <a target="_blank" href="https://go.applitools.com/201015-Angie-Jones-Selenium-4-webinar.html" class="btn arrow-right" rel="noopener noreferrer">Register Now</a>
+</div>
+<h2 id="h.eqka15d8494y">Relative Locators in Selenium 4</h2>
+<p>All the engineers working on building web-based test automation scripts spend quite a bit of time writing and maintaining locators across the builds. It can be challenging to locate a few of them, especially the grids. </p>
+<p>Tools such as Sahi and Taiko already have features to locate nearby elements by specifying the directions, however to accomplish this in Selenium requires complicated Xpath or CSS selectors to navigate to a “direction” around the hierarchical tree nodes in the DOM. This limitation often leads to inefficient locators, which make the tests brittle.</p>
+<p>Relative Locators have come to the rescue by helping us locate elements based on their position with respect to other elements.</p>
+<p><a target="_blank" href="https://angiejones.tech/selenium-4-relative-locators/" rel="noopener noreferrer">Relative locators</a> provide a newly added locator strategy to the existing eight (id, name, XPath, cssSelector, linkText, partialLinkText, className, and tagName) locator strategies. Relative locators locate the elements with respect to nearby specified elements.</p>
+<p>A new method withTagName() is added, which returns an instance of RelativeLocator.RelativeBy class, a child class of By and offers methods to specify the direction of an element to be located.</p>
+<pre id="h.hd241mdm7m8c" class="wp-block-preformatted">above()</pre>
+<p>Used to locate an element just above the specified element</p>
+<pre id="h.tzw7s8ffabyr" class="wp-block-preformatted">below()</pre>
+<p>Used to locate the an element just below the specified element</p>
+<pre id="h.tm1xnun7njcd" class="wp-block-preformatted">toLeftOf()</pre>
+<p>Used to locate the an element located on the left of a specified element</p>
+<pre id="h.ub47tke6i305" class="wp-block-preformatted">toRightOf()</pre>
+<p>Used to locate the an element located on the right of a specified element</p>
+<pre id="h.ytfqi6p52lfq" class="wp-block-preformatted">near()</pre>
+<p>By default, it is used to locate an element at 50 pixels distant from a specified element. The distance can be passed as an argument to an overloaded method.</p>
+<p>Let’s learn to use them with an example. We will use <a target="_blank" href="https://applitools.com/blog/category/advanced-topics/" rel="noopener noreferrer">Advanced Blogs on Applitools</a> webpage for this exercise.</p>
+<figure class="wp-block-image"></figure>
+<p>On the Landing page we could see 12 blogs with titles and links to the blogs listed in four rows and three columns each. Inspecting the page, we see each of the elements are listed using the ‘article’ tag and an id attribute.</p>
+<p>For instance, I need to locate the Blog ”How to Visually Test React Components Using Our Storybook SDK,” which is visually located just below the first blog, “Migrating to Selenium 4: Here’s What Has Changed”.</p>
+<p>Inspecting the DOM, I learned that all blogs have the <a target="_blank" href="https://www.javatpoint.com/html-tags" rel="noopener noreferrer">html tag</a> “article” and the blog “Migrating to Selenium 4: Here’s What Has Changed” has an attribute id as “post-22539”.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="394" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0.png" alt="pasted image 0" class="wp-image-23761" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0.png 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-300x74.png 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-1024x252.png 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-768x189.png 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-1536x378.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>I could now locate “How to Visually Test React Components Using Our Storybook SDK” specifying its html tag “article” using withTagName(“article”) method and locating the “How to Visually Test React Components Using Our Storybook SDK” element with below() method as demonstrated on line 18.</p>
+<p>First the “Migrating to Selenium 4: Here’s What Has Changed” blog is located using the id attribute and then below() method is used as direction to locate the “How to Visually Test React Components Using Our Storybook SDK” blog element.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/b5e81d28bb9e32f9b2ecec4b5b8c647b.js</p>
+</div>
+<p>Similarly, refer to the sample code for the usage for above(), toRightOf() and toLeftOf() methods.</p>
+<p>For more information on Relative Locators, <a target="_blank" href="https://angiejones.tech/selenium-4-relative-locators/" rel="noopener noreferrer">see this article by Angie Jones</a>.</p>
+<h2 id="h.rvklczo2ffy2">Multiple Windows and Tabs</h2>
+<p>Need to work with multiple windows or applications in a single test flow?  This is now possible!</p>
+<p>We can create and open a brand new or tabbed window in the same session without having to create a new driver object to manage multiple applications in the same test.</p>
+<p>This can be done with the newWindow() method.</p>
+<p>On line 23 of the following code snippet, we create a brand new window by passing WindowType.WINDOW to newWindow() method. This will create a new window with the same driver reference.</p>
+<p>On line 25 we open <a target="_blank" href="http://www.youtube.com" rel="noopener noreferrer">YouTube</a> in this window by using navigate().to() method or get() method.</p>
+<p>Similarly, we could create a new tabbed window by passing WindowType.TAB as a parameter to newWindow() as shown on line 39.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/ShamaUgale/827a77b279322dcdd6c6395605aabcb0.js</p>
+</div>
+<p>To switch between these windows, you need to fetch the window IDs just like in the above example from line no 27-36, as we have been doing it in the previous versions of Selenium WebDriver.</p>
+<h2 id="h.pl203j8ozjgb">W3C Standardization</h2>
+<p>Selenium is a <a target="_blank" href="https://applitools.com/blog/2020-front-end-automation-testing/" rel="noopener noreferrer">widely used tool</a> for end users as well as vendors. Other popular automation tools such as Appium and Protractor are built on top of Selenium APIs.</p>
+<p>With this, the tools that integrate with Selenium 4 now need to follow the W3C standard protocol.</p>
+<p>In previous versions of Selenium Webdriver, JSON wire protocol was used to communicate between the Selenium Webdriver APIs and the browser native APIs. Every request and response communicated across the protocol was encoded and decoded. With W3C compliance, the communication between WebDriver and the browsers happens directly without any encoding and decoding required.</p>
+<p>This means any software following W3C standard protocol can be integrated with Selenium with no compatibility issues. All the major browsers such as Chrome, IE and Safari are already W3C standard compliant.</p>
+<h2 id="h.3bst29ontuje">Summary</h2>
+<p>We went through a few of the new methods and features implemented in Selenium 4 and have provided ready-to-use code snippets for working with new and tabbed windows, installing and uninstalling the addons for Firefox and taking element level screenshots.</p>
+<p>We learned how to use a brand new locator strategy, the Relative Locators, introduced in Selenium 4. We also discussed the importance of W3C standardization for tool vendors and products built on top of Selenium.</p>
+<p>In the next post of this series, we will explore more brand new features in Selenium 4 such as Chrome DevTools Protocol, and Observability, and Enhanced Exceptions.</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/new-features-selenium4/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Egregor Ransomware Threatens &#8216;Mass-Media&#8217; Release of Corporate Data</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-ransomware-threatens-mass-media-release-of-corporate-data/</link>
 		
@@ -725,122 +820,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>How to Install Selenium 4 &#8211; Automated Visual Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-install-selenium-4-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 25 Sep 2020 21:03:53 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Install]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-install-selenium-4-automated-visual-testing/</guid>
-
-					<description><![CDATA[In this series on Selenium 4, we are providing use cases and code samples to explore the upcoming changes to]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In this series on Selenium 4, we are providing use cases and code samples to explore the upcoming changes to the WebDriver API.</p>
-<p>In the previous blog post, we discussed <a target="_blank" href="https://applitools.com/blog/selenium-4-migration/" rel="noopener noreferrer">Migrating to Selenium 4</a> and today we’ll detail how to install Selenium 4 so that you can check out all of the new features!</p>
-<p>While Selenium has various language bindings, Java and JavaScript are the most widely used, so this post will cover how to install these two bindings. </p>
-<h2 id="h.fk76atsed8kb">Upgrading from Selenium 3 to Selenium 4</h2>
-<p>If you are already using Selenium with Maven, you can upgrade it to Selenium 4 by changing the Selenium version to 4. Refer to line 28 in the example below:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/649056e1b9aaee89c197c8255735014d.js</p>
-</div>
-<p>If you are already using Selenium with Gradle, you can upgrade it to Selenium 4 by changing the Selenium version to 4 as shown on line 17 in the example below:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/f95716c6055ed7e0c36446e4448832fe.js</p>
-</div>
-<h2 id="h.qaztmu93jjfr">Installing Fresh Instance of Selenium 4</h2>
-<p>Before beginning, make sure <a target="_blank" href="https://www.oracle.com/java/technologies/javase-downloads.html" rel="noopener noreferrer">Java</a> is installed on your machine and the JAVA_HOME environment variable is set in your system path.</p>
-<p>The Selenium Java binding can be set up in two different ways: via build tools, or manually. I’ll outline the steps for both. However, you only need to choose one approach.</p>
-<h2 id="h.286ybc3i9fp4">Install Selenium via build tools</h2>
-<p>There are various Java build tools available to manage the build and dependencies; the most popular and widely used ones are <a target="_blank" href="https://maven.apache.org/" rel="noopener noreferrer">Maven</a> and <a target="_blank" href="https://gradle.org/" rel="noopener noreferrer">Gradle</a>.</p>
-<h3 id="h.gyatfl6dwyxt">Install and setup Maven</h3>
-<p><a target="_blank" href="https://maven.apache.org/" rel="noopener noreferrer">Maven</a> is a build and dependency management tool for Java based application development which helps with complete build lifecycle management.</p>
-<p>Maven is also available with the Java IDEs (IntelliJ, Eclipse, etc) as a plugin.</p>
-<p>However, if you are not using the plugin, you can <a target="_blank" href="https://maven.apache.org/install.html" rel="noopener noreferrer">install Maven manually</a>.</p>
-<h3 id="h.1a32hgmri4or">Download Selenium using Maven</h3>
-<p>Maven looks for a pom.xml file for information on project, configuration, dependencies and plugins etc.</p>
-<p><a target="_blank" href="https://mvnrepository.com/" rel="noopener noreferrer">Maven Central Repository</a> is the place where all the dependencies/libraries for all versions can be found. We can search for a library and copy and paste the dependency into our pom.xml file to download them.</p>
-<p>For example, <a target="_blank" href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.0.0-alpha-6" rel="noopener noreferrer">Selenium 4</a> can be downloaded using maven by adding the dependencies in pom.xml as shown in the below sample.</p>
-<h3 id="h.65zyh85i6goy">Test Setup</h3>
-<p>You are now all set to write tests and run them through the IDE or through the command line. You can test the setup, by adding the following code snippet into a new Java class under the ‘src’ directory.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/7c057b0b2f37f240d749948c1c66fd99.js</p>
-</div>
-<h3 id="h.2kbbqkai3riu">Install and setup Gradle</h3>
-<p>Gradle is another popular build tool used for java based applications these days. It’s open source and the build scripts can be written in Groovy or Kotlin DSL.</p>
-<p>Gradle can be also installed as a plugin in Java IDEs (IntelliJ, Eclipse, etc).</p>
-<p>However, if you are not using the plugin, you can <a target="_blank" href="https://gradle.org/releases/" rel="noopener noreferrer">install Gradle manually.</a></p>
-<h3 id="h.9xixdw5vjipj">Download Selenium using Gradle</h3>
-<p>Gradle looks for a build.gradle file where all the dependencies, plugins and build scripts are written.</p>
-<p><a target="_blank" href="https://mvnrepository.com/" rel="noopener noreferrer">Maven Central Repository</a> is the place where all the dependencies/libraries for all versions can be found for Gradle as well. We can search for a library and copy and paste the dependency from the Gradle tab into our build.gradle file to download them.</p>
-<p>For example, <a target="_blank" href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.0.0-alpha-6" rel="noopener noreferrer">Selenium 4</a> can be downloaded using gradle by adding the dependencies in build.gradle file as shown in the below sample.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/f95716c6055ed7e0c36446e4448832fe.js</p>
-</div>
-<h3 id="h.g8uteny7ordn">Test Setup</h3>
-<p>You are now all set to write tests and run them through the IDE or through the command line. You can test the setup, by adding the following code snippet into a new Java class under the ‘src’ directory and build.gradle file in the project root directory.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/7c057b0b2f37f240d749948c1c66fd99.js</p>
-</div>
-<h2 id="h.ubq2cxgrs28c">Install Selenium manually</h2>
-<h3 id="h.aln68tka5bu">Download Selenium</h3>
-<p>The jar files for Selenium 4 Java bindings can be downloaded from the <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">official Selenium downloads page</a>.</p>
-<p>It will be downloaded as a zip file, unzip it.</p>
-<p>Selenium scripts can be executed on various platforms, namely Firefox, Chrome, Internet Explorer, Safari, Opera and Edge. To explore and install the drivers for each refer to documentation links under the “Browsers” section on <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">Downloads</a> page.</p>
-<h3 id="h.co9wdewg63t4">Add Selenium to IntelliJ</h3>
-<p>Within IntelliJ:</p>
-<p>Go to the File Menu <strong>→ </strong> Project Structure <strong>→</strong> Modules <strong>→</strong> Dependencies <strong>→ </strong>Click on ‘+’ Sign <strong>-→</strong> Select JARs or directories → Select all the Selenium jar files and click on OK button.</p>
-<p>Also, add the downloaded browser drivers under the project directory. In our example we will add chromedriver to run our tests on Chrome browser.</p>
-<h3 id="h.f26x0ghi5inj">Test Setup</h3>
-<p>Create a new Java file under the ‘src’ directory and add this code:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/7c057b0b2f37f240d749948c1c66fd99.js</p>
-</div>
-<h2 id="h.io12x11o4py0">JavaScript</h2>
-<p>You can download and manage the Selenium JavaScript bindings using <a target="_blank" href="https://www.npmjs.com/" rel="noopener noreferrer">npm</a>.</p>
-<h3 id="h.jlit051y773w">Install NodeJs and NPM</h3>
-<p>As a prerequisite, <a target="_blank" href="https://nodejs.org/en/" rel="noopener noreferrer">NodeJs</a> needs to be <a target="_blank" href="https://nodejs.org/en/download/" rel="noopener noreferrer">downloaded</a> and installed on the machine. To verify the installation, use the below two commands</p>
-<pre class="wp-block-preformatted">node -v</pre>
-<pre class="wp-block-preformatted">npm -v</pre>
-<p>Both should give the current version installed as an output.</p>
-<h3 id="h.fzofgafoa6c">Download and install Selenium Webdriver</h3>
-<p>Using the below command we will install Selenium with npm package manager on your machine.</p>
-<pre class="wp-block-preformatted">npm install -g selenium-webdriver</pre>
-<p>Additionally, to run the tests on the browsers (Chrome, Firefox and IE etc), browser drivers need to be downloaded and set in the system path.</p>
-<p>The drivers can be downloaded from the <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">Downloads</a> page and the links can be found under the “Browsers” section on the page. Windows users may add the driver path to the PATH variable under environment variables. Mac and Linux users need to add a driver path to the $PATH variable in the shell.</p>
-<p>Once we have installed the Selenium libraries and set the path for the browsers, we need to add the package.json file to the project root directory. NPM requires this file to install the dependencies and plugins used to build the project along with running the tests.</p>
-<p>package.json can be created either manually or running the below command which adds the file to the current directory it is run from.</p>
-<pre class="wp-block-preformatted"> npm init</pre>
-<p>Below sample package.json file can be referred for installing Selenium 4 and running our tests. If you are already using Selenium Javascript bindings, to upgrade to Selenium 4, change the version as shown on line 12 in the below sample build file.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/292fdb8bea71215593ba5396e79033e8.js</p>
-</div>
-<p>Once you have updated the Selenium 4 dependencies in the package.json file, run the below command to install all dependencies defined in your package.json file under dependencies section.</p>
-<pre class="wp-block-preformatted">npm install</pre>
-<p>The test is written in “googleSearchTest.js” file. Below is the sample code, which opens a Firefox browser, navigates to google.com and searches for “Selenium 4” and hits ENTER.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/c20bdc0dc70e19737e0dfcbe29d9d826.js</p>
-</div>
-<p>To execute the test use the below command</p>
-<pre class="wp-block-preformatted">node googleSearchTest</pre>
-<h2 id="h.tinlhet1cle">Summary</h2>
-<p>We went through the setup instructions for Selenium 4 for two most popular language bindings – Java and JavaScript with ready to use sample tests and build files.</p>
-<p>Now that we are ready with the Selenium 4 setup on our machine, in the next post of this series, we will explore the newly added features offered in Selenium 4 and the benefits they provide with working code samples.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/how-to-install-selenium-4/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -849,5 +828,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-08 21:01:08 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-09 05:38:09 by W3 Total Cache
 -->
