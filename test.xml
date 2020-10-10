@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 06 Oct 2020 05:11:47 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 08 Oct 2020 08:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,71 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How to Optimize a Test and Make It 560% Faster</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-optimize-a-test-and-make-it-560-faster/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2020 08:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Faster]]></category>
+		<category><![CDATA[Optimize]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-optimize-a-test-and-make-it-560-faster/</guid>
+
+					<description><![CDATA[Before optimizations Too many Selenium commands in a test can lead to tests that are dramatically slower and less reliable.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<h2>Before optimizations</h2>
+<p>Too many Selenium commands in a test can lead to tests that are dramatically slower and less reliable. Every Selenium command carries the potential for an invalid element locator or a synchronization issue. </p>
+<p>Below we have a table that shows an automated test that was designed to click two radio buttons. V1 test is making 157 Selenium commands and takes 95 seconds to execute. After optimizations, the same exact test executes 9 Selenium commands and runs in 17 seconds (5X faster).</p>
+<p></p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/4qf88G5OmFvicYOD8342m0/67f9c3e26399b89c679678ea4090531f/Nikolay_Selenium_2.png?fm=webp" alt="Nikolay Selenium 2" title="Nikolay Selenium 2"/></p>
+<p>Total test run time V1</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/2PdwvxH2wjJbPCjMAFSU7W/8ef2197447101b4addcbc3dc46411a61/Nikolay_Selenium_3.png?fm=webp" alt="Nikolay Selenium 3" title="Nikolay Selenium 3"/></p>
+<p>Number of web requests before optimizations (V1)</p>
+<h3>What was the purpose of this test?</h3>
+<p>The purpose of this test was to simply click two radio buttons on this <a target="_blank" href="https://www.techlistic.com/p/selenium-practice-form.html" rel="noopener noreferrer">URL</a>. </p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/7Bh8BzL1b9d42fxMrbWRYY/df78d7258b02482a163040078508fbc9/Nikolay_Selenium_4.png?fm=webp" alt="Nikolay Selenium 4" title="Nikolay Selenium 4"/></p>
+<h2>Identifying the inefficiencies</h2>
+<p>The major contributor to the slow test time of such a simple test was the large number of unnecessary web requests.</p>
+<h3>Attempting to click first radio button</h3>
+<p>After loading the URL, the test takes ~60 seconds searching for random elements without taking a single action.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/2sAAdrMFkSsG0rkxBucoGH/255c39548667b5ea8cd2a6b64a60c950/Nikolay_Selenium_5.png?fm=webp" alt="Nikolay Selenium 5" title="Nikolay Selenium 5"/></p>
+<p>Unnecessary commands start at the 15-second mark and continue until 1:19, at which point the element is finally located and clicked.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/60QX6hnkDKYK8OVIcfTuCa/455edc504b820a07c1ecd498d5fb71cc/Nikolay_selenium_6.png?fm=webp" alt="Nikolay selenium 6" title="Nikolay selenium 6"/></p>
+<p><b>Potential Waste</b>: 60 seconds on 1 element</p>
+<h3>Attempting to click second radio button</h3>
+<p>At 1:23, the test starts looking for the Female radio button.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/29crys9WCabuTnlavyEyRV/e70cb38772ab429cfdc3a926a5e649c5/Nikolay_Selenium_7.png?fm=webp" alt="Nikolay Selenium 7" title="Nikolay Selenium 7"/></p>
+<p>And finally clicks it at 1:28:</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/7hcpyvYRp5SkzAwEWD926F/74d35dbb1a4d6773035a5310e76dbcfc/Nikolay_Selenium_8.png?fm=webp" alt="Nikolay Selenium 8" title="Nikolay Selenium 8"/></p>
+<p>&#8230;but not before making 16 more Selenium commands to check whether the element is displayed or selected.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/1CfqaMx9uCWgjZzInBE1BZ/001d99f1d52c948bf4efc138c0a47339/Nikolay_Selenium_9.png?fm=webp" alt="Nikolay Selenium 9" title="Nikolay Selenium 9"/></p>
+<p><b>Potential waste</b>: 3 seconds for every element.click()</p>
+<h3>Post-click() Selenium commands</h3>
+<p>Finally, there is an interesting pattern of wasted web requests that happens after every element click(). We can see that below:</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/zFlYW74bOxtCWb3hcrenK/3986d1d533461a4cf8406681c58d1288/Nikolay_Selenium_10.png?fm=webp" alt="Nikolay Selenium 10" title="Nikolay Selenium 10"/></p>
+<p>It’s understandable that these are being performed to validate that the element is in the correct state after the execution of a click(). However, these actions are wasteful because Selenium would throw an error if the action wasn’t successful. Furthermore, the next action would fail with an exception if it depended on the state of the previous element.</p>
+<p><b>Potential waste</b>: 2 seconds per element.click()</p>
+<h2>The refactor using cleaner practices</h2>
+<p>The refactoring of this test was extremely simple and required only a few minutes after understanding the root cause of the problem. Furthermore, we saw that the final outcome of the refactoring created a test that was 560% faster and drastically more stable because it had fewer Selenium commands.</p>
+<p>Here’s the code after we finished refactoring:</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/1qGim9lteXAjj7FvuX3MxF/b0f50e2458f4a1d2197a4bd6a44bcc6c/Nikolay_Selenium_11.png?fm=webp" alt="Nikolay Selenium 11" title="Nikolay Selenium 11"/></p>
+<p>This is the <a target="_blank" href="https://app.saucelabs.com/tests/d853239cec5041f3a6f6ec85342e3be5" rel="noopener noreferrer">test execution result</a> and below is the screenshot.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/3Ruv9nbEkTFYxvfaJmXVtn/2f96e47612918802ae021907d5362f8b/Nikolay_Selenium_12.png?fm=webp" alt="Nikolay Selenium 12" title="Nikolay Selenium 12"/></p>
+<h2>Lessons learned</h2>
+<p>Bloated tests in the industry are infamously common and it’s something that I tackle on a weekly basis. They typically come with a framework that we use for our automation. I’ve seen this with both OSS frameworks and especially homegrown ones. The key is to consider the impact of extra Selenium commands on the overall automation program. In this use case, the test suite execution time will be five times longer for the entire organization. This obviously decreases the feedback cycle time and also <a target="_blank" href="https://saucelabs.com/blog/using-the-continuous-testing-benchmark-to-build-digital-confidence" rel="noopener noreferrer">makes the automation less reliable</a>.</p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/how-to-optimize-a-test-and-make-it-560-percent-faster">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>5 Common Mistakes in Test Automation</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/5-common-mistakes-in-test-automation/</link>
 		
@@ -746,80 +811,6 @@ shadowRoot.appendChild(header); // attaching to shadow DOM</pre>
 		
 		
 			</item>
-		<item>
-		<title>Election 2020 – Five Tips to Secure a Mail-In Ballot That Counts</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-five-tips-to-secure-a-mail-in-ballot-that-counts/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 28 Sep 2020 21:30:29 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Ballot]]></category>
-		<category><![CDATA[Counts]]></category>
-		<category><![CDATA[Election]]></category>
-		<category><![CDATA[MailIn]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[tips]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-five-tips-to-secure-a-mail-in-ballot-that-counts/</guid>
-
-					<description><![CDATA[Election 2020 – Five Tips to Secure a Mail-In Ballot That Counts Forecasts predict that roughly 80 million votes will]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>Election 2020 – Five Tips to Secure a Mail-In Ballot That Counts</strong></h2>
-<p>Forecasts predict that roughly 80 million votes will get cast by mail-in ballots—double the number cast by mail in the 2016 election. Here are a couple tips to make sure your vote counts for the 2020 election.</p>
-<p>Smart use of the internet will help you cast a mail-in ballot that counts.</p>
-<p>Projections abound, yet forecasts predict that roughly 80 million votes will get cast by mail-in ballots—double the number cast by mail in the 2016 election. While we’ll only know the final tally of mail-in voters sometime after election day, what we know right now is that <a target="_blank" href="https://thehill.com/homenews/campaign/511472-nearly-75-percent-of-us-voters-can-vote-by-mail-in-2020-nyt" rel="noopener noreferrer">nearly 75% of U.S. voters will be able to vote by mail in the 2020 election</a></p>
-<p>If you’re one of those voters, or know someone who is, this quick five-point primer of online resources should help.</p>
-<h3><strong>Fake ballots, the pandemic and other election concerns</strong></h3>
-<p>Pew Research found that <a target="_blank" href="https://www.pewresearch.org/politics/2020/08/13/election-2020-voters-are-highly-engaged-but-nearly-half-expect-to-have-difficulties-voting/" rel="noopener noreferrer">Americans are split 50/50 as to whether voting in the 2020 election will be “easy” or “hard.”</a> Compare that to the 2018 figures where 85% said that voting would be “easy” in that election. We can chalk that up to several factors this year, most notably <a target="_blank" href="https://www.mcafee.com/blogs/consumer/u-s-election-2020-dont-let-covid-19-misinformation-suppress-your-vote/" rel="noopener noreferrer">the effect of the pandemic on voting, which I touched on in my blog last week</a>.</p>
-<p>However, there are other concerns at play. We’ve seen concerns about <a target="_blank" href="https://www.cnet.com/news/election-security-officials-find-no-evidence-of-coordinated-fraud-with-mail-in-ballots/" rel="noopener noreferrer">mail-in ballot fraud</a>, along with confusion about how to get a mail-in ballot, and yet further confusion as to who is eligible to get a mail-in ballot in the first place… just to name a few.</p>
-<p>These concerns all share a common remedy: the facts.</p>
-<p>Good information, direct from your state election officials, will point the way. Skip social media altogether. It is <strong>not</strong> a trusted resource. In all, <a target="_blank" href="https://www.cnet.com/news/fbi-director-says-its-a-mistake-to-get-election-information-on-social-media/" rel="noopener noreferrer">it’s a mistake to get any election information on social media</a>, according to F.B.I. Director, Christopher Wray. Instead, let’s point ourselves in the right direction.</p>
-<h3><strong>Cast your mail-in ballot securely with these five tips:</strong></h3>
-<ol>
-<li><a target="_blank" href="https://www.usvotefoundation.org/vote/eoddomestic.htm" rel="noopener noreferrer">Refer to your state and local officials for guidance</a>: Visiting your state’s election website and resources they offer is your best bet for clearing up any questions about your eligibility to vote by mail or to report any difficulties you may have.</li>
-<li><a target="_blank" href="https://www.businessinsider.com/mistakes-that-can-disqualify-your-mail-absentee-ballot-2020-9" rel="noopener noreferrer">Follow the directions closely</a>: Mail-in ballots, and the rules for filling them out, also vary from state to state. Get to know yours with a visit to your state’s election website. Common errors like failing to get a witness signature (or signatures), failing to slip your ballot into a second security envelope, or using the wrong colored pen are all examples of ways ballots can get disqualified in some states. And when you get your ballot, read it closely before you start—including the mailing or drop off instructions.</li>
-<li><a target="_blank" href="https://www.vote.org/absentee-ballot-deadlines/" rel="noopener noreferrer">Know your election timeline</a>: Deadlines are everything—such as when you can apply for an absentee or mail-in ballot, when they need to be returned or postmarked, and if you have other drop off options other than the mail. Again, your state or local election website will clearly call all that out.</li>
-<li><a target="_blank" href="https://about.usps.com/what/government-services/election-mail/" rel="noopener noreferrer">Give the mail extra time</a>: Don’t leave your vote to chance. Request your mail-in ballot, as needed, right away. Once you’ve filled it out, get it in the mail early. <a target="_blank" href="https://about.usps.com/what/government-services/election-mail/" rel="noopener noreferrer">The U.S. Postal Service has an entire site dedicated to election mail</a> that’s loaded with plenty of good advice for mail-in voters, whether you’re stateside, overseas, or deployed elsewhere with the military.</li>
-<li><a target="_blank" href="https://www.usvotefoundation.org/vote/eoddomestic.htm" rel="noopener noreferrer">Track your ballot</a>: The ability and means to track your ballot will of course vary from state to state. However, checking in with your state’s election website will show you what your options are.</li>
-</ol>
-<h3><strong>Stay Updated </strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&#038;at=1010lbVy&#038;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
-<p><iframe class="ceros-experience" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: 0; padding: 0; border: 0 none; height: 1px; width: 1px; min-height: 50%; min-width: 50%;" title="Election Badge 300X300" src="https://view.ceros.com/mcafee/election-badge-1" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/election-2020-five-tips-to-secure-a-mail-in-ballot-that-counts/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -828,5 +819,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-09 21:01:07 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-10 05:38:06 by W3 Total Cache
 -->
