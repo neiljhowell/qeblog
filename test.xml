@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 08 Oct 2020 08:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 09 Oct 2020 15:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,62 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How to empower elite DevSecOps performers</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-empower-elite-devsecops-performers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2020 15:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevSecOps]]></category>
+		<category><![CDATA[elite]]></category>
+		<category><![CDATA[Empower]]></category>
+		<category><![CDATA[performers]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-empower-elite-devsecops-performers/</guid>
+
+					<description><![CDATA[The most recent Accelerate: State of DevOps Report describes what elite-performing DevOps engineers look like. The key differentiator for those DevOps-focused software]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>The <a target="_blank" href="https://techbeacon.com/devops/2019-accelerate-state-devops-report-how-elites-drive-high-performance" rel="noopener noreferrer">most recent Accelerate: State of DevOps Report</a> describes what elite-performing DevOps engineers look like. The key differentiator for those DevOps-focused software engineers is velocity. They iterate fast from commit to deployment, they deploy frequently, and they recover quickly.</p>
+<p>Velocity via automation is fundamental to DevOps and CI/CD culture. Building the right pipes and process helps <a target="_blank" href="https://techbeacon.com/devops/how-descartes-labs-achieved-safe-mission-critical-continuous-delivery" rel="noopener noreferrer">create an elastic, scalable, and secured</a> infrastructure and applications.</p>
+<p>Here&#8217;s how you can use cloud and DevOps principles to leverage and automate security.</p>
+<h3>On-demand and self-service</h3>
+<p>As a DevOps engineer you can help your clients provision any resource they want, without human interaction. How? Through preparation and templates.</p>
+<p>Yes, it&#8217;s a lot of work. And yes, you can integrate security into those templates. That way, developers don&#8217;t have to worry about misconfiguring the infrastructure. (For the most part, even when they worry, they still misconfigure it. They might as well use your template.)</p>
+<h3>Provide secured, and broad, network access</h3>
+<p>Working from home has become much more prevalent in the last six months or so, and it looks as if it&#8217;s here to stay. You need to allow your organization to provide secured access to any resource your developers need, from anywhere they want. This includes laptops, mobile devices, workstations, etc.</p>
+<p>Since many of us share our at-home bandwidth with family members (and unintentionally our neighbors, too), you should <a target="_blank" href="https://techbeacon.com/security/zero-trust-security-how-get-started" rel="noopener noreferrer">incorporate a zero-trust mechanism</a> in your networks and access points.</p>
+<h3>Allow for rapid elasticity and resource pooling</h3>
+<p>Provision and assign resources dynamically and at scale, as much as needed. A growing startup, for example, should design its infrastructure while thinking about the future. Someday it might have to support a hundred times, or even a thousand times, more users than it currently does.</p>
+<p>Your design right now should support this growth automatically. There are many use cases where scaling down will also be necessary, so think about triggers for that as well.</p>
+<h3>Measure your services</h3>
+<p>One of the great powers of the cloud is that <a target="_blank" href="https://techbeacon.com/enterprise-it/why-cloud-based-apps-are-so-hard-manage" rel="noopener noreferrer">everything can be monitored</a>. The logs and metadata are there; you just have to activate them and stream them to your favorite log analysis software. It&#8217;s going to help you both for ops and security purposes.</p>
+<p>You can control, detect, respond, and optimize. If you haven&#8217;t done it by now, enable your flow logs and choose &#8220;all&#8221; actions. (The default is to log accepted traffic, even though what&#8217;s rejected has much to tell you.)</p>
+<h3>CI/CD is also all about automation</h3>
+<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/seven-key-enablers-continuous-testing" rel="noopener noreferrer">Add automated testing</a> to your CI process, so that any broken code will be detected quickly and the relevant developer will be notified and get a chance to push corrections fast as well. Code should be clean of operation bugs, but also of security bugs and issues, and there&#8217;s no reason not to test them together. This will give developers a lot of confidence in their code and in your pipe.</p>
+<p>The CD process should allow teams a lot of independence; you should minimize the dependence on other teams for support or resource approval. As stated before, <a target="_blank" href="https://techbeacon.com/devops/how-keybank-achieved-continuous-integration-delivery" rel="noopener noreferrer">build the pipeline</a> to be as self-service as possible; this will save you and your team time from repeating the same tasks, and specifically the security-related tasks that no one likes to do.</p>
+<h3>Put these principles into action</h3>
+<p>How exactly are you going to implement all of these principles and be awesome DevOps or DevSecOps engineers? With the right tools. You know a tool is right when it integrates well with your current pipe and processes.</p>
+<p>Even if setup takes a little time, it&#8217;s going to save you a lot of time down the line. Elite performers automate any process they can and free up their time to do the things they have passion for.</p>
+<p>Here are a few open-source tools that I find useful and that help me automate security along the CI/CD pipeline.</p>
+<ul>
+<li><strong>Pre-commit:</strong> <a target="_blank" href="https://github.com/thoughtworks/talisman" rel="nofollow noopener noreferrer">Talisman</a> helps make sure your developers are not committing credentials and tokens.</li>
+<li><strong>Secrets management:</strong> <a target="_blank" href="https://aws.amazon.com/secrets-manager/" rel="nofollow noopener noreferrer">AWS secrets manager</a> addresses the common bad practice of storing credentials in configuration files. Using a secrets manager can mitigate the risk of losing credentials.</li>
+<li><strong>Software dependencies check:</strong> Everyone uses open-source and third-party code and packages, which often contain vulnerabilities. <a target="_blank" href="https://www.owasp.org/index.php/OWASP_Dependency_Check" rel="nofollow noopener noreferrer">OWASP Dependency Check</a> helps check that problem on a regular basis.</li>
+<li><strong>DAST:</strong> <a target="_blank" href="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project" rel="nofollow noopener noreferrer">OWASP ZAP</a> scans your web applications.</li>
+<li><strong>SAST:</strong> Check out <a target="_blank" href="https://owasp.org/www-community/Source_Code_Analysis_Tools" rel="nofollow noopener noreferrer">OWASP</a>&#8216;s analysis on different tools for this, based on the relevant coding languages they support.</li>
+</ul>
+<p>Now you&#8217;ve got what it takes to be an elite DevSecOps performer.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/how-empower-elite-devsecops-performers">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How to Optimize a Test and Make It 560% Faster</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-optimize-a-test-and-make-it-560-faster/</link>
 		
@@ -642,175 +698,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>The Rise of Shadow DOM &#8211; Core Technical Aspects</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-rise-of-shadow-dom-core-technical-aspects/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 29 Sep 2020 04:23:50 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Aspects]]></category>
-		<category><![CDATA[Core]]></category>
-		<category><![CDATA[DOM]]></category>
-		<category><![CDATA[Rise]]></category>
-		<category><![CDATA[Shadow]]></category>
-		<category><![CDATA[technical]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-rise-of-shadow-dom-core-technical-aspects/</guid>
-
-					<description><![CDATA[Before taking control over Shadow DOM, let me brief you about the session that I presented at the virtual Selenium]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span style="font-weight: 400;">Before taking control over Shadow DOM, let me brief you about the session that I presented at the virtual </span><a target="_blank" href="https://confengine.com/selenium-conf-2020/proposal/13709/rise-of-shadow-dom-lets-solve-it-through-webdriver" rel="noopener noreferrer"><span style="font-weight: 400;">Selenium Conference 2020</span></a><span style="font-weight: 400;">. Due to the limited number of seats at the conference, most of the QA Automation engineers missed it, but NO NEED TO WORRY about it! Here’s a blog tutorial for you to explore and very soon the conference session recording will also be shared through YouTube. It’s time to fasten your seat belts and let’s crack together the Shadow DOM <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
-<p><span style="font-weight: 400;">Prior to learning about Shadow DOM, we first have to understand the inner functioning of a web ‘page’ or ‘document’. Let’s understand the DOM and its inner functioning, doing so will enable us to further understand the Shadow DOM.</span></p>
-<h2><strong>What is DOM?</strong></h2>
-<p><span style="font-weight: 400;">Whenever we open up any web application through any web browser {Chrome/ Firefox/ Safari/ Edge}, it always renders a bunch of web components within the DOM, that encapsulates three things – </span><i><span style="font-weight: 400;">Markup {HTML}, Styling {CSS} and JavaScript {JS}</span></i><span style="font-weight: 400;">. </span></p>
-<p><b>DOM {Document Object Model}</b><span style="font-weight: 400;"> – </span><span style="font-weight: 400;">a structured representation of an HTML document. HTML provides us a way to add structure and content, but machines do need more than that. That is the reason we need DOM. The DOM then has an API that can be used by our applications to manipulate the document’s structure, content, and styling. You can think of the DOM as a JavaScript representation of our HTML structure</span><span style="font-weight: 400;">. </span><span style="font-weight: 400;">Let’s understand the </span><span style="font-weight: 400;">code snippet that demonstrates</span> <b>HTML to DOM structure</b><span style="font-weight: 400;">:</span><i/></p>
-<p><span style="color: #000080;"><b>Browser rendered HTML Code ></b></span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="html" data-enlighter-theme="beyond"><html>
-  <head>
-    <title>Rise of Shadow DOM</title>
-  </head>
-  <body>
-     <h1>Let's understand Shadow DOM</h1>
-  </body>
-</html></pre>
-<p><b><span style="color: #000080;">DOM Tree structure ></span><br /></b></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="html">html
-└─ head
-│  └─ title
-│     └─ Rise of Shadow DOM
-└─ body
-   └─ h1
-      └─ Let's understand Shadow DOM</pre>
-<p><span style="font-weight: 400;">DOM elements are visible to the </span><span style="color: #000080;"><i><span style="font-weight: 400;">document interface</span></i></span><span style="font-weight: 400;"> i.e. ‘it is the entry point to DOM’ and we can find DOM elements by using </span><span style="color: #000080;"><i><span style="font-weight: 400;">document.querySelector</span></i></span><span style="font-weight: 400;"> method. </span></p>
-<h2><strong>DOM vs. Shadow Dom: How is Shadow DOM different from DOM?</strong></h2>
-<p><span style="font-weight: 400;">Shadow DOM is a kind of web standard that developers use to encapsulate their custom HTML code and style components. <span style="color: #000080;">Shadow DOM elements are NOT visible to </span></span><span style="color: #000080;"><i><span style="font-weight: 400;">document.querySelector</span></i></span><span style="font-weight: 400;"> method because it renders separately from the DOM. </span></p>
-<p><span style="font-weight: 400;">Like DOM, the Shadow DOM is also generated by the browser itself, but in a completely isolated DOM tree called the </span><span style="color: #000080;"><b>Shadow DOM Tree</b></span><span style="font-weight: 400;">. The Shadow DOM Tree encapsulates its own custom/standard elements and styling that is added to an element as a child. The element to which the tree is added is called the </span><span style="color: #000080;"><b>Shadow Host</b></span><span style="font-weight: 400;"> and the root is called </span><span style="color: #000080;"><b>Shadow Root</b></span><span style="font-weight: 400;">. And <span style="color: #000080;"><strong>Shadow DOM boundary</strong></span>: LoC is where the shadow DOM ends, and the main DOM begins. In the picture below, we can clearly understand the Shadow DOM structure in respect of <span style="color: #000080;">DOM {aka Light DOM or Main DOM}</span>:</span></p>
-<p></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-13992 size-full" title="Shadow Dom vs Main DOM" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM.png" alt="Shadow Dom vs Main DOM" width="1790" height="1146" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM.png 1790w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM-512x328.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM-768x492.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.25.06-AM-1024x656.png 1024w" sizes="(max-width: 1790px) 100vw, 1790px"/></noscript></p>
-<p style="text-align: center;"><b><i><span style="color: #000080;">DOM    = </span></i></b><span style="color: #000080;"> <b><i>  main DOM </i></b> <b><i>   =  </i></b> <b><i>Light DOM</i></b></span>      <span style="color: #ff0000;"><b><i>=</i></b><b><i>     <del>Shadow DOM</del></i></b></span></p>
-<p> </p>
-<p><span style="font-weight: 400;">If it renders separately then</span><span style="color: #000080;"><b><i> how can we reach out to Shadow DOM custom/standard elements?</i></b></span></p>
-<p><span style="font-weight: 400;">We can reach out to Shadow DOM elements through</span><span style="color: #000080;"><i><span style="font-weight: 400;"> shadowRoot interface</span></i></span><span style="font-weight: 400;"> i.e. by using </span><span style="color: #000080;"><i><span style="font-weight: 400;">shadowRoot.querySelector</span></i></span><span style="font-weight: 400;"> method. The Shadow Root has two different modes – </span><b>Open mode </b><span style="font-weight: 400;">allows the shadow root to be accessible from JavaScript outside the shadow root but </span><b>Closed mode</b><span style="font-weight: 400;"> does not.<br /></span></p>
-<h2><strong>Use Case: Why is Shadow DOM becoming more popular among developers?</strong></h2>
-<p><span style="font-weight: 400;">With time, Web-Component-driven architecture is becoming more popular among developers, but there is still one glitch i.e. global CSS applied could create problems across the rest of our web application code. So </span><b><i>what to do now? </i></b><span style="color: #000080;"><b><i><span style="color: #000080;">I</span> think Encapsulation {quarantine} is the only solution</i></b></span><b><i>.</i></b><span style="font-weight: 400;"> Encapsulation will surely help us prevent any unwanted side effects whilst keeping our component code clean, minimal, and easy to extend.</span></p>
-<p><span style="font-weight: 400;">Earlier days, <iFrame> was quite popular among developers for the sake of encapsulation. But there are few serious security glitches i.e. malicious plugins can be injected through <iFrame>. </span><span style="color: #000080;"><b>So</b> </span><b><span style="color: #000080;">the rise of Shadow DOM</span> <span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/270c.png" alt="✌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></b></p>
-<p><span style="font-weight: 400;">Let’s see how Shadow DOM renders on the browser and also see its Shadow tree structure:</span></p>
-<p><span style="color: #000080;"><b>Shadow DOM Code Snippet ></b></span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="js" data-enlighter-theme="beyond">const div = document.createElement("div"); // Shadow Host - a bridge between DOM and Shadow DOM
-const header = document.createElement("h1"); // Shadow DOM content
-header.innerHTML = 'Part of Shadow DOM content';
-  
-const shadowRoot = div.attachShadow({ mode: 'open' }); // attaching shadow root to Shadow host and setting mode as open
-
-shadowRoot.appendChild(header); // attaching to shadow DOM</pre>
-<p><span style="color: #000080;"><b>Browser rendered HTML Code {visible on dev tools} ></b></span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="html"><div>
-   #shadow-root (open)
-   <h1>Part of Shadow DOM content</h1>
-</div>
-</pre>
-<p><span style="color: #000080;"><b>Shadow DOM Tree structure ></b></span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="html">document
-└─ shadow host
-   └─ shadow root
-      └─ h1
-         └─ Part of Shadow DOM content
-</pre>
-<p><span style="font-weight: 400;">Before moving ahead, we have to understand the concept of </span><span style="color: #000080;"><b>Web Components</b></span><span style="font-weight: 400;"> and </span><span style="color: #000080;"><b>Custom HTML elements</b></span><span style="font-weight: 400;">.</span></p>
-<h2><strong>Let’s Understand Web Components</strong></h2>
-<p><span style="font-weight: 400;"><b>Web component</b></span><span style="font-weight: 400;"> is a W3C standard feature that is being incorporated in HTML5, Google’s Polymer, and Google’s LitElement libraries. Web components are a set of APIs that facilitate the creation of new custom, reusable HTML elements that can be used in web pages and web apps with their functionality and also isolates them from the rest of your application code.</span></p>
-<ul>
-<li style="font-weight: 400;"><b><i>Reusable</i></b><span style="font-weight: 400;">: Web Components are the same as other HTML tags, they can be reused n number of times without conflicting each other’s functionalities. In the picture below, we can clearly see </span><i><span style="font-weight: 400;">Header/Footer web components</span></i><span style="font-weight: 400;"> used twice.</span></li>
-<li style="font-weight: 400;"><b><i>Encapsulation</i></b><span style="font-weight: 400;">: Web Components wrap their business logic, it’s styling within the component. By attaching shadow DOM to that web component we can completely encapsulate its styling and business logic.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">All encapsulated web components can interact with each other but can not access each other’s properties. But still <span style="color: #000080;"><strong>global </strong></span></span><span style="color: #000080;"><strong><i>Inheritable properties</i></strong></span><span style="font-weight: 400;"> are easily applicable on all web components e.g. color is an inheritable global property that always impacts all of the web component elements but we can override it within the web component by writing inline HTML code {‘background-color’ is also global property but NOT inheritable to encapsulated web components}.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">One component can integrate another component e.g. Header inside Article.</span></li>
-</ul>
-<p><img loading="lazy" class="aligncenter wp-image-13993 " title="Web Components" alt="Web Components" width="374" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png 742w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-369x512.png 369w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-738x1024.png 738w" data-lazy-sizes="(max-width: 374px) 100vw, 374px" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png"/></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-13993 " title="Web Components" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png" alt="Web Components" width="374" height="519" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM.png 742w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-369x512.png 369w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.29.08-AM-738x1024.png 738w" sizes="(max-width: 374px) 100vw, 374px"/></noscript></p>
-<p><span style="font-weight: 400;">Web components have </span><span style="color: #000080;"><b>FOUR Building blocks</b></span><span style="font-weight: 400;"> – </span><i><span style="font-weight: 400;">Custom HTML Elements , Shadow DOM, HTML Templates and HTML Imports. </span></i><span style="font-weight: 400;">But we will cover only two {</span><span style="font-weight: 400;"><span style="color: #000080;">Custom HTML Elements and Shadow DOM [already covered above]</span>}, which are required to understand our test automation problem. </span></p>
-<h2><strong>Let’s Understand and Create Custom HTML Elements</strong></h2>
-<p><span style="font-weight: 400;">By working on HTML5, we can create our own custom elements, those would be encapsulated by web components. Let’s understand and create custom elements:</span></p>
-<ul>
-<li style="font-weight: 400;"><span style="color: #000080;"><i><span style="font-weight: 400;">customElements</span></i></span><span style="font-weight: 400;"> – are HTML elements with custom templates, behaviors, and tag names made with a set of JavaScript APIs (e.g.</span><span style="color: #000080;"><i><span style="font-weight: 400;"> <my–element></span></i></span><span style="font-weight: 400;">).</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">To define a custom element, create a class that says ‘</span><span style="color: #000080;"><i><span style="font-weight: 400;">MyElemen</span></i></span><span style="font-weight: 400;"><span style="color: #000080;">t</span>’ that extends </span><i><span style="font-weight: 400;">HTMLElement</span></i><span style="font-weight: 400;"> class and passes the class to the </span><span style="color: #000080;"><i><span style="font-weight: 400;">customElements.define </span></i></span><span style="font-weight: 400;">method.</span></li>
-<li style="font-weight: 400;"><span style="color: #000080;"><i><span style="font-weight: 400;">HTMLElement</span></i></span><span style="font-weight: 400;"> class on HTML – is used for defining a custom element and teaching the browser about a new tag. </span></li>
-<li style="font-weight: 400;"><span style="color: #000080;"><i>customElements.define</i></span> method – to register a custom element on the page.</li>
-</ul>
-<p><span style="color: #000080;"><b>Custom Element Code Snippet ></b></span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
-    	class MyElement extends HTMLElement {
-      	connectedCallback() {
-        	const button = document.createElement("button");
-        	button.onclick = () => alert("Button clicked");
-        	button.innerText = "Button in Custom Element";
-        	this.append(button);
-      		}
-    	}
-    	customElements.define("my-element", MyElement);
-</script>
-<div><my-element></my-element></div></pre>
-<p><span style="font-weight: 400;">Let’s open this code snippet in the browser and observe it under the <a target="_blank" href="https://blog.testproject.io/2019/11/26/next-generation-front-end-testing-using-webdriver-and-devtools-part-1/" rel="noopener noreferrer">dev tools</a> console, it clearly shows the custom HTML element and that element contains inside another standard web element i.e. button:</span></p>
-<p><span style="color: #000080;"><b>Dev tools console view ></b></span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="html"><my-element>
-   <button>Button in Custom Element</button>
-</my-element>
-</pre>
-<h2><strong>Let’s Attach the Shadow DOM to the above Custom HTML Element Code Snippet</strong></h2>
-<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
-    	class MyElement extends HTMLElement {
-      	connectedCallback() {
-        	const shadow = this.attachShadow({ mode: "open" });
-        	const button = document.createElement("button");
-        	button.onclick = () => alert("Button clicked");
-        	button.innerText = "Shadow DOM Button";
-        	shadow.append(button);
-      	      }
-    	}
-    	customElements.define("my-element", MyElement);
-</script>
-<div><my-element></my-element></div>
-</pre>
-<p><span style="font-weight: 400;">Let’s open this code snippet in the browser and observe it under dev tools console, it clearly shows the custom HTML element appended with Shadow Root:</span></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="html"><my-element>
-  #shadow-root (open)
-   <button>Button in Custom Element</button>
-</my-element>
-</pre>
-<h2><strong>Shadow DOM </strong><strong>Browser Support </strong></h2>
-<p><span style="font-weight: 400;">Almost all new versions of majorly used browsers (Chrome, Firefox, Edge, Safari, and mobile browsers) support Shadow DOM V1 </span><span style="color: #000080;"><i><span style="font-weight: 400;">{fully supported browsers highlighted in green boxes – <span style="font-size: 10pt;"><a target="_blank" href="https://caniuse.com/?search=Shadow%20DOM%20(V1)" rel="noopener noreferrer">reference</a>}</span></span></i></span><span style="font-weight: 400;"><span style="font-size: 10pt;">.</span> </span></p>
-<p><img loading="lazy" class="aligncenter wp-image-13994 size-full" title="Browser Support of Shadow DOM" alt="Browser Support of Shadow DOM" width="2686" height="562" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png 2686w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-512x107.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-768x161.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-1024x214.png 1024w" data-lazy-sizes="(max-width: 2686px) 100vw, 2686px" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png"/></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-13994 size-full" title="Browser Support of Shadow DOM" src="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png" alt="Browser Support of Shadow DOM" width="2686" height="562" srcset="https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM.png 2686w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-512x107.png 512w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-768x161.png 768w, https://blog.testproject.io/wp-content/uploads/2020/09/Screenshot-2020-09-24-at-10.36.54-AM-1024x214.png 1024w" sizes="(max-width: 2686px) 100vw, 2686px"/></noscript></p>
-<h2><strong>Key Takeaways</strong></h2>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Understand DOM vs Shadow DOM</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM structure and its two modes</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM use case for developers</span></li>
-<li>Understand the DOM, Web components, and Custom Elements</li>
-<li><span style="font-weight: 400;">DOM and Shadow DOM entry points</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM attachment with Custom elements</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Shadow DOM browser support</span></li>
-</ul>
-<p><span style="font-weight: 400;">So far we have seen developers using Shadow DOM gracefully and succeeded in the separate rendering of DOM and Shadow DOM. </span><span style="color: #000080;"><b>Now the problem has been passed on to QA Automation Engineers</b></span><span style="font-weight: 400;">. A lot of questions arise, such as:</span></p>
-<ul>
-<li><span style="font-weight: 400;">Can a QA Automation engineer interact with custom elements WITHOUT appending Shadow DOM?</span></li>
-<li><span style="font-weight: 400;">Can a QA Automation engineer interact with custom elements AFTER appending Shadow DOM?</span></li>
-<li><span style="font-weight: 400;">What is the role of the Open/Closed mode of Shadow Root, while finding the elements?</span></li>
-<li><span style="font-weight: 400;">Do regular selectors {Xpath, CSS} work with Shadow DOM elements?</span></li>
-<li><span style="font-weight: 400;">How to interact with multi-level Shadow Root elements?</span></li>
-<li><span style="font-weight: 400;">Does TestProject <a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer">OpenSDK</a> support Shadow DOM elements?</span></li>
-<li><span style="font-weight: 400;">Does TestProject <a target="_blank" href="https://blog.testproject.io/2020/08/25/testprojects-smart-recorder-adds-ai-powered-self-healing-technology/" rel="noopener noreferrer">Test Recorder</a> support Shadow DOM elements?</span></li>
-</ul>
-<p><i><span style="color: #000000;">Want to learn about these open questions? <strong><span style="color: #000080;">The crucial</span></strong></span></i><b><i><span style="color: #000000;"><span style="color: #000080;"><strong> </strong>conversation has already started between Shadow DOM and QA Automation engineers</span>. </span></i></b><i><span style="color: #000000;">So stay tuned and wait for the next consecutive blogs, very soon it will be on your plate </span></i><span style="color: #000000;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f468-200d-1f4bb.png" alt="👨‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/09/29/the-rise-of-shadow-dom-core-technical-aspects/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -819,5 +706,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-10 21:01:07 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-11 05:38:08 by W3 Total Cache
 -->
