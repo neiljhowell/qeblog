@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 09 Oct 2020 22:56:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 13 Oct 2020 05:17:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,221 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Shadow DOM Elements and Using TestProject&#8217;s OpenSDK {Part 2}</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-opensdk-part-2/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 13 Oct 2020 05:17:06 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[DOM]]></category>
+		<category><![CDATA[Elements]]></category>
+		<category><![CDATA[OpenSDK]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Shadow]]></category>
+		<category><![CDATA[TestProjects]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-opensdk-part-2/</guid>
+
+					<description><![CDATA[At the end of our 1st Part of this Shadow DOM series, we were left with so many questions in]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">At the end of our </span><a target="_blank" href="https://blog.testproject.io/2020/09/29/the-rise-of-shadow-dom-core-technical-aspects/" rel="noopener noreferrer"><span style="font-weight: 400;">1st Part of this Shadow DOM</span></a><span style="font-weight: 400;"> series, we were left with so many questions in our mind. So let’s catch-up one-by-one and solve that conundrum. I hope you will <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f497.png" alt="💗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> it!</span></p>
+<p><span style="color: #000080;"><b>Q: Can a QA Automation engineer interact with custom elements WITHOUT appending Shadow DOM?<br /></b></span><span style="font-weight: 400;">So let’s try legacy selectors {CSS &#038; XPath} as well as document.querySelector method to find the elements when Shadow DOM is NOT appended.</span></p>
+<p><span style="font-weight: 400; color: #000080;">Custom Element Code Snippet WITHOUT Shadow DOM ></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
+  	class MyElement extends HTMLElement {
+    	connectedCallback() {
+      	const button = document.createElement("button");
+      	button.onclick = () => alert("Button clicked");
+      	button.innerText = "Button in Custom Element";
+      	this.append(button);
+    		}
+  	}
+  	customElements.define("my-element", MyElement);
+</script>
+
+<div><my-element></my-element></div></pre>
+<p><span style="font-weight: 400; color: #000080;">Custom Element Code rendered on Browser ></span></p>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14257 size-full" title="Custom Element Code rendered on Browser" src="https://blog.testproject.io/wp-content/uploads/2020/10/1st.png" alt="Custom Element Code rendered on Browser" width="992" height="144" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/1st.png 992w, https://blog.testproject.io/wp-content/uploads/2020/10/1st-512x74.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/1st-768x111.png 768w" sizes="(max-width: 992px) 100vw, 992px"/></noscript></p>
+<p><span style="color: #333399;"><span style="font-weight: 400;">Let’s try to find Custom Element through </span><b><i>CSS, XPath, and document interface</i></b><span style="font-weight: 400;"> ></span></span></p>
+<p><img loading="lazy" class="alignnone wp-image-14258 size-full" title="Custom Element through CSS, XPath, and document interface" alt="Custom Element through CSS, XPath, and document interface" width="512" height="126" src="https://blog.testproject.io/wp-content/uploads/2020/10/2nd.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14258 size-full" title="Custom Element through CSS, XPath, and document interface" src="https://blog.testproject.io/wp-content/uploads/2020/10/2nd.png" alt="Custom Element through CSS, XPath, and document interface" width="512" height="126"/></noscript></p>
+<p><span style="font-weight: 400;">Aha! Custom elements are visible on the console after using all the above findElement methods one by one. Even <em>ALL LEGACY SELECTORS ARE WORKING</em>! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<p><span style="color: #333399;"><b><span style="color: #000080;">Q: </span>Can a QA Automation engineer interact with custom elements AFTER appending Shadow DOM?</b></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">In our <a target="_blank" href="https://blog.testproject.io/2020/09/29/the-rise-of-shadow-dom-core-technical-aspects/" rel="noopener noreferrer">first part</a>, we have discussed that </span><i><span style="font-weight: 400;">shadowRoot interface </span></i><span style="font-weight: 400;">is the entry point to reach out to Shadow DOM elements i.e. by using </span><i><span style="font-weight: 400;">shadowRoot.querySelector</span></i><span style="font-weight: 400;"> method. So let’s try legacy selectors {CSS &#038; XPath}, document.querySelector method and also shadowRoot.querySelector method to find the custom elements when Shadow DOM is appended with </span><i><span style="font-weight: 400;">OPEN mode</span></i><span style="font-weight: 400;">. </span></p>
+<p><span style="color: #333399;"><span style="font-weight: 400;">Custom Element Code Snippet WITH appended Shadow DOM {</span><b>OPEN Mode</b><span style="font-weight: 400;">} ></span></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
+   	class MyElement extends HTMLElement {
+     	connectedCallback() {
+       	const shadow = this.attachShadow({ mode: "open" });
+       	const button = document.createElement("button");
+       	button.onclick = () => alert("Button clicked");
+       	button.innerText = "Shadow DOM Button";
+       	shadow.append(button);
+     	      }
+   	}
+   	customElements.define("my-element", MyElement);
+</script>
+<div><my-element></my-element></div>
+</pre>
+<p><span style="font-weight: 400; color: #333399;">Custom Element Code appended with Shadow DOM rendered on Browser ></span></p>
+<p><img loading="lazy" class="alignnone wp-image-14259 size-full" title="Custom Element Code appended with Shadow DOM rendered on Browser" alt="Custom Element Code appended with Shadow DOM rendered on Browser" width="900" height="188" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/3rd.png 900w, https://blog.testproject.io/wp-content/uploads/2020/10/3rd-512x107.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/3rd-768x160.png 768w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" src="https://blog.testproject.io/wp-content/uploads/2020/10/3rd.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14259 size-full" title="Custom Element Code appended with Shadow DOM rendered on Browser" src="https://blog.testproject.io/wp-content/uploads/2020/10/3rd.png" alt="Custom Element Code appended with Shadow DOM rendered on Browser" width="900" height="188" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/3rd.png 900w, https://blog.testproject.io/wp-content/uploads/2020/10/3rd-512x107.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/3rd-768x160.png 768w" sizes="(max-width: 900px) 100vw, 900px"/></noscript></p>
+<p><span style="color: #333399;"><span style="font-weight: 400;">Let’s try to find Custom Element appended with Shadow DOM through </span><b><i>CSS, XPath,  document interface, and shadowRoot interface</i></b><span style="font-weight: 400;"> ></span></span></p>
+<p><img loading="lazy" class="alignnone wp-image-14260 size-full" title="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" alt="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" width="512" height="161" src="https://blog.testproject.io/wp-content/uploads/2020/10/4th.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14260 size-full" title="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" src="https://blog.testproject.io/wp-content/uploads/2020/10/4th.png" alt="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" width="512" height="161"/></noscript></p>
+<p><span style="font-weight: 400;">Wow! <em>EXCEPT FOR THE SHADOWROOT INTERFACE, NOTHING WORKS</em>. That’s why we call the shadowRoot interface as an entry point to the Shadow DOM tree.</span></p>
+<p><span style="color: #333399;"><span style="font-weight: 400;">Custom Element Code Snippet WITH appended Shadow DOM {</span><b>CLOSED Mode</b><span style="font-weight: 400;">} ></span></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js"><script>
+   	class MyElement extends HTMLElement {
+     	connectedCallback() {
+       	const shadow = this.attachShadow({ mode: "open" });
+       	const button = document.createElement("button");
+       	button.onclick = () => alert("Button clicked");
+       	button.innerText = "Shadow DOM Button";
+       	shadow.append(button);
+     	        }
+   	}
+   	customElements.define("my-element", MyElement);
+</script>
+<div><my-element></my-element></div>
+</pre>
+<p><span style="font-weight: 400; color: #333399;">Custom Element Code appended with Shadow DOM rendered on Browser ></span></p>
+<p><img loading="lazy" class="alignnone wp-image-14261 size-full" title="Custom Element Code appended with Shadow DOM rendered on Browser" alt="Custom Element Code appended with Shadow DOM rendered on Browser" width="512" height="108" src="https://blog.testproject.io/wp-content/uploads/2020/10/5th.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14261 size-full" title="Custom Element Code appended with Shadow DOM rendered on Browser" src="https://blog.testproject.io/wp-content/uploads/2020/10/5th.png" alt="Custom Element Code appended with Shadow DOM rendered on Browser" width="512" height="108"/></noscript></p>
+<p><span style="color: #333399;"><span style="font-weight: 400;">Let’s try to find Custom Element appended with Shadow DOM through </span><b><i>CSS, XPath,  document interface, and shadowRoot interface</i></b><span style="font-weight: 400;"> ></span></span></p>
+<p><img loading="lazy" class="alignnone wp-image-14262 size-full" title="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" alt="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" width="512" height="173" src="https://blog.testproject.io/wp-content/uploads/2020/10/6th.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14262 size-full" title="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" src="https://blog.testproject.io/wp-content/uploads/2020/10/6th.png" alt="Custom Element appended with Shadow DOM through CSS, XPath,  document interface, and shadowRoot interface" width="512" height="173"/></noscript></p>
+<p><span style="font-weight: 400;">Oops! <em>NOTHING WORKS</em> even the shadowRoot interface failed.</span></p>
+<p><span style="color: #333399;"><b><span style="color: #000080;">Q: </span>Do regular selectors {Xpath, CSS} work with Shadow DOM elements?</b></span><b><br /></b><span style="font-weight: 400;">As we have seen above, legacy selectors including document interface do not work with Shadow DOM elements.</span></p>
+<p><span style="color: #333399;"><b><span style="color: #000080;">Q: </span>What is the role of the Open/Closed mode of Shadow Root, while finding the elements?</b></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">The Shadow Root has two different modes – </span><b>Open mode </b><span style="font-weight: 400;">allows the shadow root to be accessible from JavaScript outside the shadow root but </span><b>Closed mode</b><span style="font-weight: 400;"> does not. As we have seen above, shadowRoot interface is the only entry point to the Shadow DOM tree when the mode is OPEN. In the case of CLOSED mode, we can not access any Shadow DOM tree elements. In simple terms we can say – we can not automate CLOSED mode Shadow DOM tree elements.</span></p>
+<ul>
+<li><i><span style="font-weight: 400;">If the CLOSED mode Shadow DOM tree is business-critical to automate, then we can ask our developers to keep the mode OPEN on the test environment sandbox, so that we can automate/run it. Developers still can keep CLOSED mode on the production environment.<br /></span></i><i><span style="font-weight: 400;">                                                                                  OR </span></i></li>
+<li><i><span style="font-weight: 400;">The developers can make OPEN/CLOSED mode as configurable for automation engineers. </span></i></li>
+</ul>
+<p><b><span style="color: #333399;"><span style="color: #000080;">Q: </span>How to interact with multi-level Shadow Root elements?</span></b><b><br /></b><span style="font-weight: 400;">To see the multilevel Shadow DOM tree elements on your machine, get the source code from my </span><span style="font-weight: 400;"><a target="_blank" href="https://github.com/VirenderPannu/polymer3-letsplanapp" rel="noopener noreferrer">GitHub repo</a>,</span><span style="font-weight: 400;"> and execute locally. Whenever you run the code locally, it will open up a web application {implemented with Google’s Polymer library} on the browser and then you can see a multi-level Shadow DOM tree through the browser console.  </span></p>
+<p><img loading="lazy" class="alignnone wp-image-14263 size-full" title="multi-level Shadow Root elements" alt="multi-level Shadow Root elements" width="1462" height="632" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/7th.png 1462w, https://blog.testproject.io/wp-content/uploads/2020/10/7th-512x221.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/7th-768x332.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/7th-1024x443.png 1024w" data-lazy-sizes="(max-width: 1462px) 100vw, 1462px" src="https://blog.testproject.io/wp-content/uploads/2020/10/7th.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14263 size-full" title="multi-level Shadow Root elements" src="https://blog.testproject.io/wp-content/uploads/2020/10/7th.png" alt="multi-level Shadow Root elements" width="1462" height="632" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/7th.png 1462w, https://blog.testproject.io/wp-content/uploads/2020/10/7th-512x221.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/7th-768x332.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/7th-1024x443.png 1024w" sizes="(max-width: 1462px) 100vw, 1462px"/></noscript></p>
+<p><span style="color: #333399;"><span style="font-weight: 400;">Let’s try to find multi-level Custom Elements appended with Shadow DOM through </span><b><i>shadowRoot interface</i></b><span style="font-weight: 400;"> ></span></span></p>
+<p><img loading="lazy" class="alignnone wp-image-14264 size-full" title="multi-level Custom Elements appended with Shadow DOM through shadowRoot interface" alt="multi-level Custom Elements appended with Shadow DOM through shadowRoot interface" width="1600" height="80" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/8th.png 1600w, https://blog.testproject.io/wp-content/uploads/2020/10/8th-512x26.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/8th-768x38.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/8th-1024x51.png 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/10/8th.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14264 size-full" title="multi-level Custom Elements appended with Shadow DOM through shadowRoot interface" src="https://blog.testproject.io/wp-content/uploads/2020/10/8th.png" alt="multi-level Custom Elements appended with Shadow DOM through shadowRoot interface" width="1600" height="80" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/8th.png 1600w, https://blog.testproject.io/wp-content/uploads/2020/10/8th-512x26.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/8th-768x38.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/8th-1024x51.png 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript></p>
+<p><span style="font-weight: 400;">Here we have used the shadowRoot interface twice – one inside another and finally we succeeded to find multi-level elements.</span></p>
+<p><span style="color: #000080;"><b>Q: Does TestProject</b></span> <span style="text-decoration: underline;"><a target="_blank" href="https://blog.testproject.io/2020/07/14/announcing-testproject-new-opensdk/" rel="noopener noreferrer"><b>OpenSDK</b></a></span> <span style="color: #000080;"><b>support Shadow DOM tree elements?</b></span><b><br /></b><span style="font-weight: 400;">Undoubtedly YES! To interact with Shadow DOM tree elements, you have to set up </span><a target="_blank" href="https://github.com/testproject-io/java-sdk" rel="noopener noreferrer"><span style="font-weight: 400;">TestProject’s OpenSDK</span></a><span style="font-weight: 400;"> on your local machine. Then create a Maven Java project and add the following dependency {Here, we are using the </span><span style="color: #00ccff;"><a target="_blank" style="color: #00ccff;" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/java-sdk" rel="noopener noreferrer"><span style="font-weight: 400;">Java</span></a></span><span style="font-weight: 400;"> binding}:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="xml"><dependency>
+  <groupId>io.testproject</groupId>
+  <artifactId>java-sdk</artifactId>
+  <version>0.64.0-RELEASE</version>
+</dependency></pre>
+<p><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <em>The</em> </span><i><span style="font-weight: 400;">OpenSDK also provides bindings with </span></i><a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/python-sdk" rel="noopener noreferrer"><i><span style="font-weight: 400;">Python</span></i></a><i><span style="font-weight: 400;"> and </span></i><a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/csharp-sdk" rel="noopener noreferrer"><i><span style="font-weight: 400;">C#</span></i></a><i><span style="font-weight: 400;">.</span></i><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </span><i><span style="font-weight: 400;">More on the TestProject’s SDK and OpenSDK can be found here: </span></i><a target="_blank" href="https://blog.testproject.io/2020/10/05/testproject-sdk-v1-vs-opensdk-v2/" rel="noopener noreferrer"><i><span style="font-weight: 400;">TestProject SDK vs Open SDK?</span></i></a></p>
+<p><span style="font-weight: 400;">After setting up Maven dependency, install &#038; start TestProject Agent (it’s completely free, simply <a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer">sign up here</a> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" />) on your local machine and also get a token from your TestProject’s account. Now all prerequisites are done and you are ready to run the following automation script on your maven project by using TestProject’s OpenSDK.</span></p>
+<p><span style="font-weight: 400; color: #000080;">Multi-level Shadow DOM tree automation code with TestProject’s OpenSDK ></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">import io.testproject.sdk.drivers.web.ChromeDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class ShadowElementTests {
+  static ChromeDriver driver;
+    public static void main(final String[] args) throws Exception {
+      driver = new ChromeDriver("YourTokenNumber", new ChromeOptions());        
+      driver.navigate().to("http://localhost:3000/");
+          
+      WebElement todayShadow = expandRootElement(driver.findElement(By.tagName("todo-app")));
+      WebElement todayAddItem = expandRootElement(todayShadow.findElement(By.tagName("add-item")));
+      todayAddItem.findElement(By.tagName("textarea")).sendKeys("Add OpenSDK");
+      todayAddItem.findElement(By.tagName("textarea")).sendKeys(Keys.ENTER);
+      todayAddItem.findElement(By.tagName("textarea")).clear();
+      todayAddItem.findElement(By.tagName("textarea")).sendKeys("Add TestProject SDK");
+      todayAddItem.findElement(By.tagName("textarea")).sendKeys(Keys.ENTER);
+
+      driver.quit();
+    }
+    
+    public static WebElement expandRootElement(WebElement element) {
+      WebElement ele = (WebElement) ((JavascriptExecutor) driver)
+          .executeScript("return arguments[0].shadowRoot",element);
+      return ele;
+    }
+}
+</pre>
+<p><span style="font-weight: 400;">After execution, we get automatic <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener noreferrer">test reports</a> directly on the </span><a target="_blank" href="https://app.testproject.io/#/reports" rel="noopener noreferrer"><span style="font-weight: 400;">TestProject Automation Portal</span></a><span style="font-weight: 400;">:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-14265 size-full" title="Shadow DOM with TestProject - Execution reports" alt="Shadow DOM with TestProject - Execution reports" width="1600" height="749" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/9th.png 1600w, https://blog.testproject.io/wp-content/uploads/2020/10/9th-512x240.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/9th-768x360.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/9th-1024x479.png 1024w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" src="https://blog.testproject.io/wp-content/uploads/2020/10/9th.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14265 size-full" title="Shadow DOM with TestProject - Execution reports" src="https://blog.testproject.io/wp-content/uploads/2020/10/9th.png" alt="Shadow DOM with TestProject - Execution reports" width="1600" height="749" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/9th.png 1600w, https://blog.testproject.io/wp-content/uploads/2020/10/9th-512x240.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/9th-768x360.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/9th-1024x479.png 1024w" sizes="(max-width: 1600px) 100vw, 1600px"/></noscript></p>
+<p><span style="font-weight: 400;">The above code snippet only contains ChromeDriver, but it supports all W3C webdrivers – FirefoxDriver, EdgeDriver, and SafariDriver. <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">Try yourself</a> at your end <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/270c.png" alt="✌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<p><span style="color: #000080;"><i><span style="font-weight: 400;">FirefoxDriver ></span></i></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">FirefoxDriver driver = new FirefoxDriver("YourTokenNumber", new FirefoxOptions());</pre>
+<p><span style="color: #000080;"><i><span style="font-weight: 400;">EdgeDriver ></span></i></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">EdgeDriver driver = new EdgeDriver("YourTokenNumber", new EdgeOptions());</pre>
+<p><span style="color: #000080;"><i><span style="font-weight: 400;">SafariDriver ></span></i></span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">SafariDriver driver = new EdgeDriver("YourTokenNumber", new SafariOptions());</pre>
+<p><i><span style="font-weight: 400;">And don’t forget to add your TestProject Token in your code snippet, otherwise, it will not interact with TestProject Agent and nothing will happen.</span></i></p>
+<p><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" />The application</span><i><span style="font-weight: 400;"> that we have above for automation, can be found at – </span></i><a target="_blank" href="https://github.com/VirenderPannu/polymer3-letsplanapp" rel="noopener noreferrer"><i><span style="font-weight: 400;">GitHub repo</span></i></a><i><span style="font-weight: 400;">. This application is implemented by using Google’s Polymer library with NodeJS. So install those first before running this application locally.</span></i></p>
+<h2><strong>Key Takeaways</strong></h2>
+<ul>
+<li><span style="font-weight: 400;">Understood how QA Automation folks can interact with custom elements WITH / WITHOUT appending Shadow DOM.</span></li>
+<li><span style="font-weight: 400;">We got familiar with the role of the Open/Closed mode of Shadow Root, while finding the elements.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Got to know the limitations of regular selectors {Xpath, CSS} with Shadow DOM.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understood how to interact with multi-level Shadow Root elements.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Clear thought on how TestProject’s OpenSDK supports Shadow DOM elements.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Now we are pretty familiar with the Shadow DOM tree and its interaction with TestProject’s OpenSDK. But still, we have a few open questions:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Does TestProject <a target="_blank" href="https://testproject.io/easy-test-automation/" rel="noopener noreferrer">record/playback</a> support Shadow DOM elements?</span></li>
+<li><span style="font-weight: 400;">Few more interesting aspects of the Shadow DOM tree?</span></li>
+</ul>
+<p><b><i>Stay tuned and wait for the last part, very soon it will be on your plate </i><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/10/13/shadow-dom-elements-and-using-the-testproject-opensdk-part-2/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Neotys Announces NeoLoad 7.6 &#8211; Neotys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neotys-announces-neoload-7-6-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2020 13:58:09 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Announces]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/neotys-announces-neoload-7-6-neotys/</guid>
+
+					<description><![CDATA[NeoLoad 7.6 introduces new dashboard features, advanced updates to APIs and as-code capabilities, and enhanced search functionality. Here are the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div id="post-105337"> <!-- .et_post_meta_wrapper --></p>
+<div class="entry-content">
+<p><a target="_blank" href="https://www.neotys.com/neoload/whats-new" rel="noopener noreferrer"><span style="font-weight: 400;">NeoLoad 7.6</span></a><span style="font-weight: 400;"> introduces new dashboard features, advanced updates to APIs and as-code capabilities, and enhanced search functionality.</span></p>
+<p><span style="font-weight: 400;">Here are the highlights: We’ve made NeoLoad dashboards more powerful and flexible. Our APIs are now more extensible so you can integrate chaos testing campaigns, export raw data to a third-party system, manage your workspaces more systematically and stop a test from within a virtual user path. As-code validation capabilities have been enhanced, and we’ve introduced advanced settings for as-code scenarios. We added more search functionality so you can get to test results faster. And more.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<h2>What’s New in This Release?</h2>
+<ul>
+<li style="font-weight: 400;"><b>Dashboard</b><span style="font-weight: 400;"> – New analysis and graph capabilities have been added to the dashboard. You are now able to analyze and share tables and text-editable comment fields, as well as export graphs in PNG format.</span></li>
+<li style="font-weight: 400;"><b>APIs</b><span style="font-weight: 400;"> – The NeoLoad REST and JavaScript APIs have several new capabilities.  You can now declare external events that will appear in Neoload Web test results values; extract raw data from Neoload Web; programmatically create, update and delete workspaces; and use the JavaScript API to stop a test if a virtual user experiences an issue during the test.</span></li>
+<li style="font-weight: 400;"><b>As Code</b><span style="font-weight: 400;"> – Test as code now includes additional advanced features like assertions and custom load policy, and new capabilities to guarantee that the test is running as expected.</span></li>
+<li style="font-weight: 400;"><b>Test Search</b><span style="font-weight: 400;"> – Tests can be searched by name in the advanced search window on the dashboard. Access to test results is now even faster.</span></li>
+<li style="font-weight: 400;"><b>Feature enhancements</b><span style="font-weight: 400;"> are also included in this release.</span></li>
+</ul>
+<h2>Want to learn more?</h2>
+<p><span style="font-weight: 400;">Discover all of NeoLoad 7.6’s enhancements on our</span><a target="_blank" href="https://www.neotys.com/neoload/whats-new" rel="noopener noreferrer"> <span style="font-weight: 400;">What’s New page</span></a><span style="font-weight: 400;"> or</span> <a target="_blank" href="https://www.neotys.com/support/download-center" rel="noopener noreferrer"><span style="font-weight: 400;">download the latest version</span></a><span style="font-weight: 400;"> and start testing today.</span></p>
+</p></div>
+<p> <!-- .entry-content --><br />
+					 <!-- .et_post_meta_wrapper -->
+				</div>
+<p><br />
+<br /><a href="https://www.neotys.com/news/neotys-announces-neoload-7-6">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>#BeCyberSmart: Equipping Kids to Stay Safe on New Video Apps</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/becybersmart-equipping-kids-to-stay-safe-on-new-video-apps/</link>
 		
@@ -517,130 +732,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Learn from Google &#8211; Use Google Cloud Build</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learn-from-google-use-google-cloud-build/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 01 Oct 2020 20:51:44 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[build]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Learn]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/learn-from-google-use-google-cloud-build/</guid>
-
-					<description><![CDATA[We all want to catch and fix problems as early as possible. In software development, this mindset helps development teams]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>We all want to catch and fix problems as early as possible. In software development, this mindset helps development teams create a culture of continuous improvement. To automate best practices, like Continuous Integration &#038; Continuous Delivery (CI/CD), teams are adopting tools that help automate continuous improvement. Google has created a great tool in Google Cloud Build.</p>
-<p>By creating Google Cloud Build, Google has created a platform that helps every software developer from every walk of life, on teams of every size. Google Cloud Build is a fully managed cloud application development environment. It includes an associated set of build and test management tools that also encompasses automation and workflow controls, along with privacy and vulnerability analysis intelligence.</p>
-<p>Regardless of the speed or scale that teams are able to build, test and deploy software. This is very much aligned with the vision of Applitools specially after the launch of the Ultrafast Visual Grid. Supporting an integration between Google Cloud Build and Applitools provides every software developer the ability to run their tests across all environments at the speed of light and get the feedback seamlessly in second as a part of the build process.</p>
-<h2>Integrate Applitools with Google Cloud Build</h2>
-<p>To get started, follow the following steps to integrate Applitools into your Google Cloud Build.<strong> </strong></p>
-<ul>
-<li>Step 1: Create an account on Google Cloud Platform.</li>
-<li>Step 2: Navigate to the Cloud build.</li>
-</ul>
-<p>Create the trigger and select your source code management tool (in this example I have chosen GitHub ) and  connect your repository.</p>
-<figure class="wp-block-image"></figure>
-<p>Allow the required access to perform the trigger runs on every commit on each branch or each pull request.</p>
-<p>Edit your trigger and select the Build Configuration as <strong>Cloudbuild.yaml</strong> or <strong>Dockerfile</strong>.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="881" src="https://applitools.com/wp-content/uploads/2020/10/image4.png" alt="image4" class="wp-image-23723" srcset="https://applitools.com/wp-content/uploads/2020/10/image4.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image4-300x165.png 300w, https://applitools.com/wp-content/uploads/2020/10/image4-1024x564.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image4-768x423.png 768w, https://applitools.com/wp-content/uploads/2020/10/image4-1536x846.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>Once you make a small change in application and push it up to GitHub this will kick off the Cloud Build trigger you’ve just created.</p>
-<h2 id="h.90kjt29rb4kb">Continue With Applitools Setup</h2>
-<p>Now follow these steps to configure your Applitools setup.</p>
-<ul>
-<li>Step 1: Navigate to admin panel in the Applitools eyes dashboard</li>
-</ul>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="604" src="https://applitools.com/wp-content/uploads/2020/10/image5.png" alt="image5" class="wp-image-23721" srcset="https://applitools.com/wp-content/uploads/2020/10/image5.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image5-300x113.png 300w, https://applitools.com/wp-content/uploads/2020/10/image5-1024x387.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image5-768x290.png 768w, https://applitools.com/wp-content/uploads/2020/10/image5-1536x580.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<ul>
-<li>Step 2: Go to Teams and select your team</li>
-</ul>
-<p><img loading="lazy" width="1600" height="605" class="wp-image-23726" src="https://applitools.com/wp-content/uploads/2020/10/image2.png" alt="image2" srcset="https://applitools.com/wp-content/uploads/2020/10/image2.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image2-300x113.png 300w, https://applitools.com/wp-content/uploads/2020/10/image2-1024x387.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image2-768x290.png 768w, https://applitools.com/wp-content/uploads/2020/10/image2-1536x581.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></p>
-<ul>
-<li>Step 3: Select your team and Navigate to Integrations Section</li>
-</ul>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="605" src="https://applitools.com/wp-content/uploads/2020/10/image1.png" alt="image1" class="wp-image-23728" srcset="https://applitools.com/wp-content/uploads/2020/10/image1.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image1-300x113.png 300w, https://applitools.com/wp-content/uploads/2020/10/image1-1024x387.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image1-768x290.png 768w, https://applitools.com/wp-content/uploads/2020/10/image1-1536x581.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<ul>
-<li>Step 4: Integrate your GitHub repo with Applitools</li>
-</ul>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="769" src="https://applitools.com/wp-content/uploads/2020/10/image3.png" alt="image3" class="wp-image-23725" srcset="https://applitools.com/wp-content/uploads/2020/10/image3.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image3-300x144.png 300w, https://applitools.com/wp-content/uploads/2020/10/image3-1024x492.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image3-768x369.png 768w, https://applitools.com/wp-content/uploads/2020/10/image3-1536x738.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<h2 id="h.6f1avrsl9qnm">Run Your Cypress Tests</h2>
-<p>Now, run your Cypress tests on Google Cloud build.</p>
-<ul>
-<li>Step 1: Let us clone the demo Cypress project from Applitools Cypress </li>
-</ul>
-<p><a target="_blank" href="https://applitools.com/tutorials/cypress.html" rel="noopener noreferrer">https://applitools.com/tutorials/cypress.html</a> </p>
-<ul>
-<li>Step 2: Create a<strong> cloudbuild.yaml fi</strong>le to pass the build steps.</li>
-</ul>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/rmadhiapplitools/1033521c2be4fe0b7dc89a968ff89f86.js</p>
-</div>
-<p>To run a Cypress end-to-end test let’s use a Docker.</p>
-<p>In the Docker file we have defined the steps to copy the Docker images, files, Cypress folder, add configurations and execute the scripts.</p>
-<p>Make sure to set the APPLITOOLS_API_KEY as ENV variable or access it from secrets in the Docker file.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/rmadhiapplitools/6c343c4e25b86a91bea62dde956cfc7f.js</p>
-</div>
-<p>Applitools build status is reported based on COMMIT_SHA, hence we need to access the git commit_sha in the Docker and assign the COMMIT_SHA to Applitools BatchID as ENV variable.</p>
-<p>Once the test is completed the curl command in Docker will perform a post call to update the build status.</p>
-<p>Once you build your project. Applitools can visually validate each commit and reports the build status.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="788" src="https://applitools.com/wp-content/uploads/2020/10/image7.png" alt="image7" class="wp-image-23724" srcset="https://applitools.com/wp-content/uploads/2020/10/image7.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image7-300x148.png 300w, https://applitools.com/wp-content/uploads/2020/10/image7-1024x504.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image7-768x378.png 768w, https://applitools.com/wp-content/uploads/2020/10/image7-1536x756.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="819" src="https://applitools.com/wp-content/uploads/2020/10/image8.png" alt="image8" class="wp-image-23727" srcset="https://applitools.com/wp-content/uploads/2020/10/image8.png 1600w, https://applitools.com/wp-content/uploads/2020/10/image8-300x154.png 300w, https://applitools.com/wp-content/uploads/2020/10/image8-1024x524.png 1024w, https://applitools.com/wp-content/uploads/2020/10/image8-768x393.png 768w, https://applitools.com/wp-content/uploads/2020/10/image8-1536x786.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<h2>Watch the video to try out the integrations &#038; Keep Testing!</h2>
-<p><strong>Watch the video to try out the integrations &#038; Keep Testing!</strong></p>
-<div class="video-embed" data-id="https://drive.google.com/file/d/1anSqF_1WBIGfvm1nOtpqsFwI4hjYKrGV/view" data-image="https://applitools.com/wp-content/uploads/2020/10/Google-Cloud-Build-and-Applitools.jpg" id="videoEmbed">
-  <span class="visible-admin"><br />
-    <img class="visible-admin" src="https://applitools.com/wp-content/uploads/2020/10/Google-Cloud-Build-and-Applitools.jpg"/><br />
-  </span>
-</div>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/google-cloud-build/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Opening of the Gatling Academy! – Gatling Open-Source Load Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/opening-of-the-gatling-academy-gatling-open-source-load-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 01 Oct 2020 09:17:01 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Academy]]></category>
-		<category><![CDATA[Gatling]]></category>
-		<category><![CDATA[Load]]></category>
-		<category><![CDATA[Opening]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/opening-of-the-gatling-academy-gatling-open-source-load-testing/</guid>
-
-					<description><![CDATA[Reading Time: < 1 min We are very happy to announce the opening of the Gatling Academy! Become an ace]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">< 1</span> <span class="rt-label rt-postfix">min</span></span></p>
-<p></p>
-<p><strong>We are very happy to announce the opening of the Gatling Academy!</strong></p>
-<p><strong>Become an ace on Gatling’s Load Testing tool! </strong></p>
-<p>You think using Gatling is not that easy? Jump ahead! Follow our training program and make your first tests today!<br />Gatling Academy is the best way to learn Gatling step by step and become an ace!</p>
-<p>You will train yourself with the Gatling Academy thanks to different modules including <strong>videos, PDFs and quizzes</strong>.<br />After each module and after completing the quizzes, you will have the opportunity to register soon to receive your official certification<strong> starting at 90€</strong>.</p>
-<p>To get started, register for the first module: <strong>Run your first tests with Gatling </strong>which will include 3 sections:<br /><strong>Section A</strong> – Gatling Overview and Installation<br /><strong>Section B</strong> – Gatling Script Creation<br /><strong>Section C</strong> – Gatling Test Simulation Design, Execution &#038; Reporting</p>
-<p>The objective of this module is to give you an <strong>introduction to Gatling </strong>for FREE, and to get you up and running with the tool as quickly as possible.<br />By answering the quizzes you will soon be able to have a <strong>certification</strong>!</p>
-<p>Don’t hesitate to subscribe to the <a target="_blank" href="http://academy.gatling.io" rel="noopener noreferrer"><strong>mailing list</strong></a> to be informed of all the news.</p>
-<p style="text-align: center;"><span style="font-weight: 400;"><a target="_blank" class="btn purple" href="https://gatling.io/gatling-frontline/cloud-marketplaces/azure/" rel="noopener noreferrer">Get started</a></span></p>
-</div>
-<p><br />
-<br /><a href="https://gatling.io/2020/10/01/opening-of-the-gatling-academy/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -649,5 +740,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-14 05:38:07 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-14 21:01:09 by W3 Total Cache
 -->
