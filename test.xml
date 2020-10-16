@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 13 Oct 2020 05:17:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,56 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Parallelize Your JavaScript Tests In CI/CD</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/parallelize-your-javascript-tests-in-ci-cd/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[CICD]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Parallelize]]></category>
+		<category><![CDATA[Tests]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/parallelize-your-javascript-tests-in-ci-cd/</guid>
+
+					<description><![CDATA[This spring, Sauce Labs announced the Sauce Testrunner Toolkit (beta) to expand developer-first capabilities and support for native JavaScript frameworks.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>This spring, Sauce Labs announced the <a target="_blank" href="https://saucelabs.com/platform/sauce-testrunner-toolkit" rel="noopener noreferrer">Sauce Testrunner Toolkit (beta)</a> to expand developer-first capabilities and support for native JavaScript frameworks. The Testrunner Toolkit makes setting up, writing, and running web tests easier and faster for developers during early pipeline testing. First it supported Puppeteer, followed by Cypress, TestCafe, and Playwright to provide the flexibility to test the way you want, along with Sauce Labs insights, at scale. </p>
+<p>Now, you can speed up your native JavaScript tests by running tests in parallel within your CI/CD environment. This capability is available with any Sauce Labs account, and you can get started for free! This means you can make the most of your existing infrastructure without new investments, while still getting insights within Sauce Labs. </p>
+<h3>How to Run Cypress Tests in Parallel with Sauce Labs</h3>
+<p>In this example we’ll take a look at setting up and running Cypress tests in parallel using the Sauce Testrunner Toolkit with GitHub Actions. Then we will view the test results in the Sauce Labs UI.</p>
+<p><i>Note: Find examples for using other test frameworks or CI/CD examples in the </i><a target="_blank" href="https://opensource.saucelabs.com/testrunner-toolkit/docs/overview" rel="noopener noreferrer">documentation</a><i>. </i></p>
+<p>Prerequisites: You’ll need a <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">Sauce Labs</a> and a GitHub account. You will also need existing cypress tests. In our example we have multiple tests located in the <code>./tests/e2e/cypress directory.</code></p>
+<p>1. In your root project directory, create the following directory tree: <code>.github/workflows.</code> </p>
+<p>2. And then add your Sauce Labs credentials to the GitHub Actions Secret Settings. </p>
+<p></p>
+<p>3. Add a <code>./sauce/config.yml</code>, <a target="_blank" href="https://github.com/saucelabs/saucectl/blob/master/.sauce/puppeteer_parallel.yml" rel="noopener noreferrer">similar to this example</a>, and set <code>parallel</code> to <code>true</code>. </p>
+<p><i>a. This will distribute and run the tests across as many jobs as you have defined in your CI</i></p>
+<pre><code>parallel: true</code></pre>
+<p>4. Create Github Action test.yml <code>.github/workflows/test.yml</code>. </p>
+<p>In this example, we’re adding two parallel jobs: <code>cypress-parallel-1</code> and <code>cypress-parallel-2</code></p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/2sWXRum9WKdqiB7yZ0WvFA/72c064799c975f1fbd2733040dadcd4c/Screen_Shot_2020-10-14_at_1.17.44_PM.png?fm=webp" alt="Screen Shot 2020-10-14 at 1.17.44 PM" title="Screen Shot 2020-10-14 at 1.17.44 PM"/></p>
+<p>5. Now, when you commit these files, GitHub will detect the new workflow actions and launch <code>saucectl</code> to run your tests. 	</p>
+<p>The output may look like this:</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/3LJfkeLabtwaPOuzbet5zP/1a6d5379b08e757eda42ac77e533fcf3/github-action-parallel-results.png?fm=webp" alt="github-action-parallel-results" title="github-action-parallel-results"/></p>
+<p>Congrats! The tests are now running in parallel with the help of the Sauce Testrunner Toolkit and you can view screenshots, videos and <a target="_blank" href="https://app.saucelabs.com/dashboard/tests/vdc" rel="noopener noreferrer">test results in Sauce Labs</a>.   </p>
+<p>Sauce Labs is committed to supporting our users in delivering digital confidence, and providing what they need to test better, test faster, and test at scale. </p>
+<h3>What’s Next</h3>
+<p>Developers currently using Sauce Labs Testrunner Toolkit can run tests locally, or in their CI/CD pipelines, and then view the results in the Sauce Labs UI. In our next iterations, you will be able to configure tests from Testrunner Toolkit to execute in our virtual cloud environment. This will increase scalability and reliability to help developers truly embrace quality without sacrificing speed.</p>
+<h3>Try It For Yourself! </h3>
+<p>The Sauce Testrunner Toolkit beta is completely free! If you’d like to try it out for yourself, head over to our <a target="_blank" href="https://github.com/saucelabs/testrunner-toolkit" rel="noopener noreferrer">Github repo</a> where you can get started right away.</p>
+<p>Happy Testing! </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/parallelize-your-javascript-tests-in-CI-CD">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Shadow DOM Elements and Using TestProject&#8217;s OpenSDK {Part 2}</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-opensdk-part-2/</link>
 		
@@ -666,72 +716,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Convenience vs. Online Security: Have Your Cake and Eat It Too</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/convenience-vs-online-security-have-your-cake-and-eat-it-too/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 02 Oct 2020 15:23:32 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cake]]></category>
-		<category><![CDATA[Convenience]]></category>
-		<category><![CDATA[Eat]]></category>
-		<category><![CDATA[Online]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/convenience-vs-online-security-have-your-cake-and-eat-it-too/</guid>
-
-					<description><![CDATA[Convenience vs. Online Security: Have Your Cake and Eat It Too We live in a world where convenience is king.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>Convenience vs. Online Security: Have Your Cake and Eat It Too</strong></h2>
-<p>We live in a world where convenience is king. Personally, I don’t know what I would do without my calendar alerts popping up on my smartphone, ensuring that I don’t miss any important meetings (or birthdays).  I can also use a variety of apps to make appointments with my family’s doctor and check up on my kids’ educational progress while they are at home distance learning. While this technology is great and convenient, it has led to increased connectivity which tends to cause security implications. At what point do we draw the line between convenience and online security, and is there a way to ultimately have both? Let’s take a look.</p>
-<h3><strong>Are Consumers Confident in Their Online Safety</strong><strong>? </strong></h3>
-<p>Consumers want to live their lives fast. They are constantly on the go, prioritizing speedy technology and convenience – sometimes more than safety. As a result, basic security hygiene, like updating passwords, has fallen by the wayside. In fact, a <a target="_blank" href="https://securitybrief.co.nz/story/consumers-putting-convenience-over-security-due-to-covid-19-restrictions" rel="noopener noreferrer">recent survey conducted by YouGov</a> in April of 2020 revealed that consumers are overconfident in the level of protection that their credentials provide. 77% believe that their <a target="_blank" href="https://www.mcafee.com/blogs/consumer/online-banking-simple-steps-to-protect-yourself-from-bank-fraud/" rel="noopener noreferrer">banking credentials</a> are the most secure, followed by <a target="_blank" href="https://www.mcafee.com/blogs/consumer/online-shopping-scams-7-ways-to-fight-them/" rel="noopener noreferrer">online shopping</a> (74%), and work network logins (71%). Due to consumers’ overconfidence in the strength of their credentials, over half of online shoppers admitted that they have no plans to update their login details – and even more admitted to not updating bank and work passwords. As someone who just recently wrote a blog on common <a target="_blank" href="https://www.mcafee.com/blogs/consumer/what-does-your-password-say-about-your-preferences/" rel="noopener noreferrer">password habits</a> and how they can affect our online safety,</p>
-<h3><strong>Finding a Balance Between Convenience and Security </strong></h3>
-<p>As today’s users are trying to grasp what the “new normal” means for them and how they live their lives, many are branching out from the typical ways they used to order food, take workout classes, and more. Consumers are using food delivery sites that they’ve never used before and signing up for online fitness classes on new platforms to  stay healthy while social distancing. But by using these unfamiliar websites to establish a sense of normalcy, users might forget to take basic security precautions like making sure these websites have the standard <a target="_blank" href="https://" rel="noopener noreferrer">https://</a> security clearance or using a VPN. Paying attention to these security measures while exploring new platforms will allow users to enjoy the convenience of these tools without putting their online safety at risk.</p>
-<p>According to <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/lp/covid-19-dashboard.html;" rel="noopener noreferrer">McAfee Labs</a>, more than 113,000 websites have been published that used COVID-19 to lure internet users into giving up their personal details. But despite the risks associated with poor security hygiene, consumers appear to be pretty indifferent. When asked if <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-july-2020.pdf" rel="noopener noreferrer">COVID-19 and increased fraud</a> influenced them to use alternative banking or shopping apps/websites with more secure options, <a target="_blank" href="https://securitybrief.co.nz/story/consumers-putting-convenience-over-security-due-to-covid-19-restrictions" rel="noopener noreferrer">over three-quarters of U.S. consumers</a> stated no, or that they didn’t know. At the onset of the pandemic when consumers were under pressure to buy scarce, staple items, <a target="_blank" href="https://securitybrief.co.nz/story/consumers-putting-convenience-over-security-due-to-covid-19-restrictions" rel="noopener noreferrer">26% of consumers</a> in the U.S. admitted to overlooking online security concerns by using third-party merchants to buy things like toilet paper and disinfecting products.</p>
-<p>Today’s users already have so much to worry about – I can’t blame them if their online security is falling by the wayside to allow physical health and wellness to take precedent. It’s times like these when people need to prioritize their health and basic survival above all else that consumers benefit most from intrinsic security that is constantly working in the background, so they can have peace of mind.</p>
-<h3><strong>Let Them Have Security (and Convenience!)</strong></h3>
-<p>The good news: convenience and security don’t have to be mutually exclusive. I can still use my healthcare provider’s app to schedule appointments and check in on my kids as they distance learn without risking our family’s privacy. When it comes to balancing convenience and online security, you and your family should use trusted solutions that will allow you to enjoy <a target="_blank" href="https://www.mcafee.com/blogs/consumer/securing-digital-frontiers/" rel="noopener noreferrer">all that the internet has to offer</a>  by providing security that is easy, convenient, and empowers you to enjoy a safe and private digital live.</p>
-<p>Users can enjoy a comprehensive, yet holistic approach to protection by employing the help of a security solution like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee® Total Protection</a>. Consumers are safeguarded from malware  so they can continue to use their devices and web browsing to stream live workout classes, catch up with family over video conference, and more. The software’s detection capabilities are constantly being updated and enhanced <a target="_blank" href="https://www.mcafee.com/blogs/consumer/security-software-and-device-performance/" rel="noopener noreferrer">without compromising users’ device performance</a>.</p>
-<p>McAfee Total Protection also includes <a target="_blank" href="https://www.mcafee.com/en-us/safe-browser/mcafee-webadvisor.html" rel="noopener noreferrer">McAfee® WebAdvisor</a> – web protection that enables users to sidestep attacks before they happen with clear warnings of risky websites, links, and files. McAfee WebAdvisor allows consumers to online shop or order food from their favorite restaurant while giving them the peace of mind that they’re on a safe website.</p>
-<p>McAfee Total Protection also includes our secure VPN to ensure your family is prepared for potential threats that could be lurking around the corner. By enabling a VPN on your device, you can feel confident that the next time you bank or pay bills online, your connection is secure. With solutions like McAfee Total Protection and McAfee WebAdvisor in place, consumers can strike a balance between convenience and security, without sacrificing either.</p>
-<h3><strong>Stay Updated</strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&#038;at=1010lbVy&#038;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook</a>.</p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/convenience-vs-online-security-have-your-cake-and-eat-it-too/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -740,5 +724,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-15 21:01:10 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-16 05:38:10 by W3 Total Cache
 -->
