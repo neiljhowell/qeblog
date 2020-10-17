@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 16 Oct 2020 18:45:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,190 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Essential Guide: AI and the SOC—TechBeacon Special Report</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/essential-guide-ai-and-the-soc-techbeacon-special-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2020 18:45:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Essential]]></category>
+		<category><![CDATA[Guide]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[SOCTechBeacon]]></category>
+		<category><![CDATA[special]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/essential-guide-ai-and-the-soc-techbeacon-special-report/</guid>
+
+					<description><![CDATA[Table of Contents   Overview The cybersecurity battle is being lost on almost every front. In addition to the usual]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<h4><em>Table of Contents</em></h4>
+<h3><a target="_blank" name="overview" rel="noopener noreferrer"></h3>
+<h3> </h3>
+<h3>Overview</h3>
+<p>The cybersecurity battle is being lost on almost every front. In addition to the usual battery of threats aimed at organizations, automated, multi-phased attacks are becoming more common, and organizations are on their heels.</p>
+<p>The good news is that hope is not lost. Many consider one of science fiction&#8217;s oldest tropes—artificial intelligence—to be their greatest hope for shifting the balance of power.</p>
+<p>A recent study by Capgemini Research Institute, &#8220;<a target="_blank" href="https://www.capgemini.com/research/reinventing-cybersecurity-with-artificial-intelligence/" rel="nofollow noopener noreferrer">Reinventing Cybersecurity with Artificial Intelligence: The New Frontier in Digital Security</a>,&#8221; said that before 2019, only about 20% of cybersecurity organizations used AI in their technology stacks. But the report concluded that &#8220;adoption is poised to skyrocket,&#8221; with 63% of organizations planning AI deployments by the end of 2020.</p>
+<p>That shouldn&#8217;t be surprising. Companies are seeing an unprecedented explosion in the volume and sophistication of cyber attacks, and there are no signs of the situation abating any time soon.</p>
+<p><a target="_blank" href="https://techbeacon.com/security/5-key-elements-next-gen-security-operations-center" rel="noopener noreferrer">Security operation centers</a> (SOCs) are overwhelmed by a fusillade of alerts. Threat actors are increasingly using automation to attack more quickly and effectively. At the same time, security teams are finding themselves with not enough personnel and with some staffers who are under-skilled.</p>
+<p>The tedium of investigating and responding to this parade of known and unknown threats, along with the daunting odds of effectively containing them, is putting analysts at risk of burnout.</p>
+<p>No wonder, then, that SOCs are turning to AI for relief.</p>
+<p>Empowering the SOC with AI-enabled tools is proving essential to turning the tide on cyber crime. It reduces the amount of time <a target="_blank" href="https://techbeacon.com/security/ai-changing-secops-what-security-analysts-need-know" rel="noopener noreferrer">analysts have to spend on repetitive, time-consuming tasks</a>, so they can dive deeper into threat analysis and response. AI allows attacks to be identified and resolved more quickly, minimizing their impact and cost for the organization. And it positions analysts to work smarter rather than harder, providing a much-needed boost to productivity and morale.</p>
+<p>However, it&#8217;s important to understand that AI is not one technology but many. The transformation of the SOC is being driven mainly by one AI subset: <a target="_blank" href="https://techbeacon.com/security/state-machine-learning-soc-how-leverage-data-deluge" rel="noopener noreferrer">machine learning</a>. This form of AI automatically learns from data to make predictions, draw inferences, and discover patterns. This makes it uniquely suited to leverage the colossal amounts of security data that enterprises produce.</p>
+<p>But <a target="_blank" href="https://techbeacon.com/security/ai-cybersecurity-3-things-your-team-needs-know" rel="noopener noreferrer">bringing AI into the SOC</a> is not as straightforward as procuring a tool set and waiting for the magic to happen. It requires careful consideration of your organization&#8217;s business needs, your SOC&#8217;s skill set, and the outcomes you hope to achieve.</p>
+<p>Failure to adequately prepare will likely have dire consequences. Gartner predicts that through 2022, some <a target="_blank" href="https://www.gartner.com/en/newsroom/press-releases/2018-02-13-gartner-says-nearly-half-of-cios-are-planning-to-deploy-artificial-intelligence" rel="nofollow noopener noreferrer">85% of AI projects will fail</a> due to incorrect or mismanaged implementations.</p>
+<p>In the following sections, you&#8217;ll learn how AI is transforming the SOC. First up: Why AI and advanced analytics-specific tools are critical given the changing tech landscape. Next, you&#8217;ll read about the key trends in AI and how AI is being applied to security and SOC teams. Lastly, you&#8217;ll learn about the criteria for considering AI-powered tools for your SOC.</p>
+<h3><a target="_blank" name="matters" rel="noopener noreferrer"></h3>
+<h3> </h3>
+<h3>AI in the SOC: What it is and why it matters</h3>
+<p>When we consider everything the SOC is tasked with doing, the critical role AI can play within it becomes clearer. Broadly speaking, the SOC is responsible for centralizing security information for the entire organization, monitoring events in real time, and responding to security incidents. Any of these responsibilities can benefit from using AI.</p>
+<p>But despite the hype surrounding AI in the enterprise, there is still a considerable amount of confusion about exactly what AI is and what its capabilities are. A bedrock understanding of AI is essential for determining how it can fit into your security operations and what results you can expect if you implement it.</p>
+<p>AI can be best understood as an umbrella term that describes machines that are engineered to replicate a human&#8217;s natural intelligence. Humans can speak and hear, read and write, move through our physical environment, perceive input from the world around us, convert that input into knowledge, and problem-solve.</p>
+<p>AI analogs exist for each of these human behaviors. Natural-language processing, for example, helps computers understand and interpret human languages. Computer vision helps them see and process visual information. Pattern recognition allows them to identify groups of similar objects.</p>
+<h4>Machine learning is key</h4>
+<p>Machine learning (ML) is perhaps the most popular and widely implemented field of AI. At its most basic, ML uses algorithms to autonomously process massive amounts of data, learn from it, make predictions or determinations based on what it has learned, and improve its performance over time.</p>
+<p>When used for security purposes, ML is generally classified as one of two types—supervised and unsupervised—each uniquely suited to particular use cases.</p>
+<p>In <strong>the supervised model</strong>, an algorithm is guided using a dataset that includes examples with specific outcomes for each one. The algorithm is told what variables to analyze and is given feedback on the accuracy of its predictions. In this way, the algorithm is &#8220;trained&#8221; using existing data to predict the outcome of new data.</p>
+<p>Conversely, <strong>unsupervised ML</strong> explores data without reference to known outcomes. It&#8217;s best used to identify previously unknown patterns in unstructured data and group them according to their similarities.</p>
+<h4>The tooling landscape</h4>
+<p>Security tools have become increasingly sophisticated to keep up with the rising tide of advanced cyber attacks. <a target="_blank" href="https://techbeacon.com/units/how-choose-siem-suite" rel="noopener noreferrer">Security information and event management (SIEM) tools</a> remain foundational for SOCs, providing a centralized way to identify, monitor, analyze, and record security incidents in real time. These tools aggregate, normalize, and apply analytics to security data from across the organization to discover security incidents and alert the SOC team to them.</p>
+<p>However, SIEMs’ inability to detect manually instigated attacks and their reactive, alert-based approach makes them inadequate on their own. To shore up their defenses, SOCs often integrate their SIEMs with other, more specialized tools.</p>
+<p>Security orchestration automation response (SOAR) is often a first step. Tools in this category can automate critical security processes such as investigating phishing messages, managing cloud security, and detecting compromised user accounts. Other tools address endpoint detection and response, network detection and response, vulnerability management, and threat intelligence.</p>
+<p>These tools vary from centralized investigation platforms that are used by the whole team to specific tools that an analyst may use just within his or her investigation workflow. Tools may also include tasks such as threat intelligence that can be consumed as external services, said <a target="_blank" href="https://twitter.com/fsmontenegro" rel="nofollow noopener noreferrer">Fernando Montenegro</a>, principal analyst for information security at 451 Research, now part of S&#038;P Global Market Intelligence.</p>
+<p>Successfully integrated, these tools limit blind spots and improve coverage of the organization’s attack surface.</p>
+<p>Of course, the best tools are useless if not applied correctly. Businesses must make sure they have the knowledge, resources, and strategy to combine these tools into a sophisticated SOC.</p>
+<p>The modern SOC has three phases—visibility, management, and response—said <a target="_blank" href="https://twitter.com/codycornell" rel="nofollow noopener noreferrer">Cody Cornell</a>, co-founder and CEO of SOAR provider Swimlane. To have visibility, you need to have telemetry from the on-premises and cloud system, network, and users to see what is happening in the environment. &#8220;This is generally a combination of monitoring data that is aggregated into some log management system that has a strong search capability,&#8221; he said.</p>
+<p>Once you have strong visibility into your systems, you need to be able to manage both the information from your monitoring system and external information such as intelligence and notifications from various sources—<a target="_blank" href="https://www.it-isac.org" rel="nofollow noopener noreferrer">the Information Sharing and Analysis Center</a>, government sources, partners, and vendors.</p>
+<p>&#8220;If there is no consistent and iterative management system for information you are always going to be searching for the things you need, and it causes considerable context switching, which is inefficient,&#8221; Cornell said.</p>
+<p>Finally, once you have visibility and you&#8217;re managing internal and external information well, &#8220;you need to be able to take action on it,&#8221; he said. Your response can take many paths—including remediation, recovery, mitigation, and investigation. The tools to help you take action can be the same tools that you use for visibility, &#8220;if you selected tools that have the right features and you make those features available via APIs to be better centrally instrumented,&#8221; Cornell said.</p>
+<h4>Other ways AI can help the SOC</h4>
+<p>SOC face multiple challenges. Some <a target="_blank" href="https://cdn2.hubspot.net/hubfs/2567647/2019%20ESG%20eBook%20-%20Industry%20Trends%20in%20the%20Era%20of%20Cloud%20Computing%20-%20Chronicle%20-%20October%202019.pdf" rel="nofollow noopener noreferrer">63% of organizations</a> say that conducting cybersecurity analytics and operations in general is more difficult today than it was two years ago, according to a recent Enterprise Strategy Group survey. Organizations cite as contributing factors the rapidly evolving threat landscape, the increasing volume of cybersecurity telemetry data, and the increasing volume of alerts.</p>
+<p>Most security operations try to address these problems manually, by throwing people at the tidal wave of alerts and hoping they are skilled enough to do a good job, said <a target="_blank" href="https://www.linkedin.com/in/chris-triolo-546438/" rel="nofollow noopener noreferrer">Chris Triolo</a>, vice president of customer success at security vendor Respond Software.</p>
+<p>But there are several factors that make this a less-than-ideal strategy. These include:</p>
+<p><strong>Staff shortages</strong></p>
+<p>The dearth of human capital in the SOC is a crisis. Each year, <a target="_blank" href="https://www.govtech.com/data/Boosting-the-Cyberworkforce.html" rel="nofollow noopener noreferrer">40,000 US cybersecurity jobs</a> go unfilled because the demand exceeds the pool of qualified talent, according to government data. That leaves too few people to keep up with the battery of alerts and attacks that the average SOC faces daily.</p>
+<p>&#8220;As an attacker, all I need to do is find one way in, and I&#8217;m in,&#8221; said <a target="_blank" href="https://twitter.com/mariodaigle" rel="nofollow noopener noreferrer">Mario Daigle</a>, vice president of products at Interset, a provider of security-analytics solutions now owned by Micro Focus (<em>TechBeacon</em>&#8216;s corporate parent). &#8220;As a defender, I have to block every possible point of entry—which I would argue is impossible.&#8221;</p>
+<p>As a result, the deck is &#8220;completely stacked against the good guys,&#8221; Daigle said. Without the ability to use AI, you don&#8217;t have enough humans to find these threats and exploits. &#8220;It&#8217;s guaranteed someone is going to find a way in. When they do, your only hope is having machines help your humans be more efficient; otherwise you&#8217;re not going to find them.&#8221;</p>
+<p><strong>Repetitive tasks</strong></p>
+<p>People are good at cognitive tasks, but not at repetitive, high-volume activities—&#8221;and there are a lot of the latter in the SOC,&#8221; Respond Software&#8217;s Triolo said. Machines, on the other hand, excel at these activities.</p>
+<p>Using AI and ML to analyze and triage security data provides more depth and consistency than even the best human analysis can match. Relieving SOC team members of this mundane activity, Triolo said, frees them to focus on hunting for real attacks and chasing down the attackers. It&#8217;s more engaging work that can go a long way toward preventing the burnout issues most SOC teams grapple with.</p>
+<p><strong>Lack of technological expertise</strong></p>
+<p>Like many other organizations nowadays, &#8220;there is a severe resource constraint at the same time that there is an almost <a target="_blank" href="https://www.britannica.com/science/Cambrian-explosion" rel="nofollow noopener noreferrer">Cambrian explosion</a> in the technologies that are being used&#8221; in the SOC, said 451 Research&#8217;s Montenegro.</p>
+<p>Indeed, more than half of respondents in <a target="_blank" href="https://www.csoonline.com/article/3210486/cybersecurity-skills-shortage-profound-impact-on-security-analytics-and-operations.html" rel="nofollow noopener noreferrer">another ESG study</a> said their organizations don&#8217;t have the right skills or staff size to keep up with SecOps and analytics. AI-based security solutions can operate 24/7 and automate much of the work of lower-level analysts, allowing for fewer and lower-cost SOC personnel while significantly reducing the time to detect and remediate threats.</p>
+<h3> </h3>
+<h3>Top trends in AI, and what AI means for your SecOps team</h3>
+<p>Currently, there are three main trends for AI usage in the SOC.</p>
+<h4>1. Malware detection</h4>
+<p>Malware detection is perhaps the most popular application of AI in the SOC. Historically, detection has focused on malware signatures, but this activity has become increasingly difficult as those signatures have grown more dynamic over time. Signature-based detection is also unsuited to first-of-a-kind malware such as advanced persistent threats. With no previous example to reference, a human would essentially have to notice some anomalous behavior to discover this type of malware.</p>
+<p>In many SOCs, AI has stepped in. Armed with a decade&#8217;s worth of malware examples, teams can use supervised ML to train detection algorithms to recognize malware based on behaviors rather than signatures.</p>
+<p>For example, some activity may look like malware because it has moved from this directory to that directory and then reached out to the network. Once deployed into the environment, SOCs find they can detect more malware than they could before, according to <a target="_blank" href="https://www.linkedin.com/in/stephan-jou-7b952" rel="nofollow noopener noreferrer">Stephan Jou</a>, CTO of Interset.</p>
+<p>Malware detection is the most mature and successful application of AI in the SOC, Jou said, largely because the security teams as a whole has had much experience with malware to learn from. AI does not replace signature-based malware detection, but complements it and makes detection much more effective overall.</p>
+<h4>2. User and entity behavior analytics (UEBA)</h4>
+<p>With their system-centric focus, SIEMs have a harder time detecting manually executed attacks than those implemented by malware. The anomalies that signal these insider threats—an employee logging into a server he&#8217;s never accessed before, for example—typically have to be spotted by a human analyst. That kind of serendipity is in short supply in resource-strapped SOCs.</p>
+<p>AI is filling in the gaps here, too, employing UEBA. UEBA uses a technique known as anomaly detection, which is driven by unsupervised ML.</p>
+<p>UEBA monitors the behavior for every user within the organization and learns what is &#8220;normal&#8221; so it can recognize activity that is &#8220;abnormal.&#8221; A typical example would be recognizing that John, who never logs in after work hours and always accesses machines A, B, and C, has suddenly logged in at 2 a.m. and accessed machines E and F. It can then process this information and determine whether the behavior is prelude to an attack.</p>
+<p>The benefits of behavioral analytics are clear; with them the SOC can better detect hacked insider threats, privileged accounts, and brute-force attacks. However, UEBA adoption slowed early when tooling vendors overpromised on results. As companies have realized that UEBA, and AI in general, complement existing technologies rather than replaces them, it has been more widely embraced in the SOC.</p>
+<p>&#8220;The use cases are starting to come out, and the customer stories are real now,&#8221; Interset&#8217;s Jou said. &#8220;I hear more and more companies saying they’re finding things they couldn&#8217;t have found before with traditional tools.&#8221;</p>
+<h4>3. Threat hunting</h4>
+<p>AI is also having an impact on threat hunting. That may at first seem counterintuitive when you consider how much this proactive technique relies on the human brain. Highly skilled security professionals hypothesize potential attacks in their heads, based on a vast knowledge of the threat landscape. Then, working under the assumption that attackers have already penetrated the system, they attempt to detect, isolate, and contain or eliminate sophisticated threats that slip past automated defenses.</p>
+<p>But threat hunting relies on analyzing huge volumes of security data, and virtually all of it can be automated using a combination of traditional and cutting-edge technologies, according to Interset&#8217;s Jou. Threat hunting is probably the most immature of the AI applications in the SOC, he said, but it&#8217;s the skill that&#8217;s most in demand.</p>
+<p>&#8220;Most SOCs don&#8217;t have threat hunters; they need to contract that out&#8221; or use a managed service, he said. &#8220;If you have one or two on your team, you&#8217;re very, very lucky.&#8221;</p>
+<p>There are still tools that &#8220;we need to build to completely automate the things a threat hunter would do to make them more effective,&#8221; he said. But this AI application &#8220;is the one that has the most promise.&#8221;</p>
+<h4>Future applications</h4>
+<p>ML is what &#8220;a lot of people in security think about when they think of AI,&#8221; Jou said. &#8220;But AI is actually a lot more. There are things you can do in AI that go way beyond just learning things and finding patterns that are weird.&#8221;</p>
+<p>He sees the SOC employing AI for optimization and recommendation. For example, many cellphone providers currently use AI-enabled customer service systems that look at the caller&#8217;s case history, including how many complaints they&#8217;ve made in the past and their severity. Then they recommend a course of action to the customer service rep that&#8217;s been optimized for customer retention.</p>
+<p>He sees a similar approach being applied to threat hunting, where an AI-based system could look at the worldwide history of attacks, make a determination on a threat in that context, and recommend how best to contain that threat.</p>
+<p>Jou also foresees natural-language processing playing a bigger role in threat hunting. &#8220;Remember,&#8221; he said, &#8220;the threat hunter has made a hypothesis in his head, then he&#8217;s having a dialogue with the data he has around him to try and figure out what might be happening in the organization. I would love for that dialogue to be a much more natural interface, almost like a conversation with the data as opposed to a building a query syntax.&#8221; </p>
+<p>Technically, &#8220;we can already create that conversational interface; we just haven&#8217;t done it yet,&#8221; Jou said.</p>
+<h4>AI&#8217;s eventual influence on the SOC</h4>
+<p>Given how dramatically AI is redefining cybersecurity, it&#8217;s a given that it will impact the makeup of the SOC and how it conducts its daily business. The debate is over how deep and broad that effect will eventually be. </p>
+<p>The industry agrees on one thing: AI is not meant to replace workers en masse. All the AI applications discussed here augment the efforts of the SOC team and help them to be more efficient. AI is also not meant to replace the SIEM or any other tool that&#8217;s already proving effective.</p>
+<p>But while AI won&#8217;t replace jobs or commodity tools, it can, and probably should, replace tasks. In fact, when it&#8217;s implemented wisely, AI can help the SOC reclaim and reallocate resources. For example, monitoring, prioritizing, and triaging security alerts, the basic duties of a Tier 1 analyst, can be performed just as well by automation and orchestration technologies, which also scale more easily.</p>
+<p>That allows organizations to move their Tier-1 analysts up into Tier-2 roles, such as incident analysis and response. Respond Software&#8217;s Triolo said this increases the security team&#8217;s capabilities without increasing its budget.</p>
+<p>Similarly, tools such as anomaly detection don&#8217;t replace the need for human vetting but ideally allow security engineers to focus on fewer and more targeted incidents and to waste less time digging through logs and alerts, said <a target="_blank" href="https://twitter.com/platypii" rel="nofollow noopener noreferrer">Kenny Daniel</a>, founder of ML vendor Algorithmia.</p>
+<h4>A need for more SOC data science</h4>
+<p>AI tools will shift the balance of the SOC in another way, Daniel said. Teams will need <a target="_blank" href="https://techbeacon.com/security/how-machine-learning-improves-your-security-predictions" rel="noopener noreferrer">stronger data science representation</a> to manage their new ML tools and to understand the data and signals available, as well as to help engineer defenses for their particular systems.</p>
+<p>Generally, this will mean hiring people with higher levels of training or require additional training for existing team members. But &#8220;while that may come with a higher cost in the beginning,&#8221; using these tools to help streamline your response might mean you need fewer people to do the work, said <a target="_blank" href="https://www.linkedin.com/in/ryan-schonfeld/" rel="nofollow noopener noreferrer">Ryan Schonfeld</a>, founder and CEO of RAS Watch, a security incident-management tool.</p>
+<p>Another option for this is outsourcing your SOC functions—either some of them or all—to a company that already has these tools in place to reduce cost and increase value for the company.</p>
+<p>Ultimately, AI doesn’t radically change the skill requirements for the SOC but instead maximizes the ones it already has on hand.</p>
+<p>&#8220;If AI is effective, it also frees up analysts to do higher-order thinking, applying judgment, organizational knowledge, and relationships,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/isaackohn/" rel="nofollow noopener noreferrer">Isaac Kohn</a>, a risk advisory principal at Deloitte. &#8220;So those skills are more important than ever.&#8221;</p>
+<h3> </h3>
+<h3>How to select the right tool</h3>
+<p>It&#8217;s tempting for SOCs to start their AI transformation by acquiring the trendiest tools. But you should employ a more strategic approach to ensure a successful result. Here are the essential factors for tool selection.</p>
+<h4>Start with the problem you&#8217;re trying to solve</h4>
+<p>It can&#8217;t be said enough that choosing the right AI solution should start with clarifying the issues your SOC struggles with most. Are you missing breaches? Do you have a malware problem? Did a rogue employee delete some important data? Are your analysts wasting time on repetitive tasks at the expense of more business-critical activities?</p>
+<p>AI can help with all of these issues, but they require different types of tools, and throwing the wrong one at a problem will inevitably lead to wasted time and resources. So, for example, if you&#8217;re looking for a malware-detection tool, don&#8217;t confuse that with network threat analysis or risk mitigation. </p>
+<p>Take the time to reflect on which security issues you&#8217;re most concerned about—and, specifically, what you&#8217;re being asked to report to leadership about—as a way to gain clarity around how AI can help you, Interset&#8217;s Jou recommended.</p>
+<h4>Make sure you have the data</h4>
+<p>Data is the fuel of AI. The larger the quantity and the better the quality of the data you put in, the faster and more accurate solutions AI will produce. As such, security leaders must ask the following questions about their data to maximize their AI efforts:</p>
+<ul>
+<li>
+<p><strong>Do you have the data? </strong>The goal is to have enough to represent every context that a system may encounter.</p>
+</li>
+<li>
+<p><strong>Is it &#8220;good&#8221; data? </strong>AI is only as good as the data you feed it. That means it should be accurate over a long period of time, with few inconsistencies, errors, or corruptions.</p>
+</li>
+<li>
+<p><strong>Is the data labeled? </strong>Supervised ML requires data to be labeled in order to identify the properties or characteristics that can be used to train the algorithm. </p>
+</li>
+<li>
+<p><strong>Is the data up to date? </strong>The threat landscape evolves at lightning speed, so current data is essential. A system trained using old data will struggle to detect the latest threats.</p>
+</li>
+<li>
+<p><strong>What is the source of the data? </strong>Make sure the data you intend to use is from a trusted source. Data from a suspect source may be inaccurate, corrupt, or even perverted by data sample poisoning, when a malicious user injects false training data to thwart the learning model.</p>
+</li>
+</ul>
+<p>While it&#8217;s common for organizations to find it has unclean or unlabeled data, those hurdles can be overcome with the help of third-party services. If, however you find your organization doesn&#8217;t have the required data or the skill to understand it, Interset&#8217;s Daigle said, you&#8217;re at an earlier stage of maturity and you may have to take a step back before you start buying tools.</p>
+<h4>Decide whether to build or buy your AI</h4>
+<p>Here again, 451 Research&#8217;s Montenegro said, you need a clear understanding of just what your business requirements are. Do you have specific needs related to your organization, such as compliance, complexity, risk tolerance, different threat models, specific resource constraints, or other considerations?</p>
+<p>These answers are essential for your organization to determine whether you&#8217;re going to undertake AI tool development yourself or if you&#8217;re going to work with an AI-powered tool from an external provider—or something in between, he said.</p>
+<p>Once you have your business criteria nailed down, weigh them against the relative pros and cons of building versus buying an AI solution. </p>
+<p><strong>Building AI in-house</strong></p>
+<p>A do-it-yourself approach allows you to build an AI solution tailored to your organization&#8217;s needs instead of paying for a package that likely includes features you&#8217;ll never use. It offers greater flexibility, allowing you to modify it on the fly and optimize it for future needs.</p>
+<p>The downside is the time commitment and skills required. Deploying the system, training the data, reducing false positives, and the other considerable hurdles may require years of effort and come at a great cost. And that&#8217;s assuming you have the expertise in-house, which most organizations don&#8217;t.</p>
+<p><strong>Buying packaged software</strong></p>
+<p>Many of the advantages of buying an AI solution are the same that come with working with any third-party service. The vendor shoulders the infrastructure and maintenance expenses, as well as many of the security responsibilities, and sometimes ensures compatibility with other software.</p>
+<p>This approach also provides the AI expertise most organizations lack and can leverage best practices from other clients to improve the implementation and performance of the product.</p>
+<p>However, as is the case with any emerging technology, many vendors merely bolt AI onto their existing products, and almost all use their customers for research and development.</p>
+<p>This can create a learning curve that can lead to lost time and money, especially in the short term. Feature bloat is also a potential problem for those organizations that need more customized solutions.</p>
+<p><strong>Other factors to keep in mind</strong></p>
+<p>Whichever route you decide is best for your company, it&#8217;s fundamental to have serious, realistic expectations about AI tools&#8217; capabilities and applications.</p>
+<p>&#8220;Any tool that deals in absolutes or near absolutes warrants a lot of suspicion,&#8221; 451 Research&#8217;s Montenegro said. The tooling should match the expected usage.</p>
+<p>If yours is a SOC team that prefers to experiment with building your own tools and models, for example, choosing a tool that only uses AI internally and delivers the results to you may not be what you&#8217;re looking for, he added.</p>
+<p>The reverse is also true, he said: Choosing an AI development platform that &#8220;expects you to do the heavy lifting&#8221; in terms of creating the data pipelines, the models, etc., &#8220;when all you want is results, is not going to help you either.&#8221;</p>
+<p> </p>
+<h3>Next steps</h3>
+<p>AI is transforming the SOC. As cyber attacks on organizations become more organized and efficient, augmenting your team&#8217;s analysts with AI-enabled tools gives you the best chance of gaining the upper hand.</p>
+<p>Consider these steps to put your AI plan into action:</p>
+<ul>
+<li>
+<p><strong>Start with the problem you want to solve, not with the “cool tool.” </strong>Understand that tools alone don’t solve business or security problems. Many organizations invest repeatedly in emerging tools—including AI—without fixing the operational or organizational issues that prevent them from achieving their desired outcomes.</p>
+</li>
+<li>
+<p><strong>Think realistically about how far you want to go with AI. </strong>Do you want to build your own tools and models, or do you just want to consume results? If the former, make sure you have the time and resources to commit to building and managing your own solution. If the latter, make sure you have the expertise, such as a data scientist or other tech staff, to vet vendors and evaluate their offerings.</p>
+</li>
+<li>
+<p><strong>Determine whether you have enough data</strong> within your organization to properly train the models that you&#8217;re going to use or if you would you be better served by an external provider that has access to other customers.</p>
+</li>
+<li>
+<p><strong>Make sure the basics are in place</strong>—namely an established control fabric and sensor grid. A good foundation for security operations is a log management strategy that allows you to store, search, and analyze data for investigations.</p>
+</li>
+<li>
+<p><strong>With the basics in place, you can focus on implementing security automation and workflow.</strong> This will increase the organization&#8217;s ability to isolate high-priority incidents, while maximizing the efficiency of the analyst team. Team leads should focus efforts on automating areas that are major time burdens on the staff or areas where humans don&#8217;t typically perform well.</p>
+</li>
+</ul>
+<p>Stay focused on your objectives and be thoughtful about how to measure them. <a target="_blank" href="https://techbeacon.com/security/software-security-measuring-stick-takes-it-all" rel="noopener noreferrer">Different organizations have different priorities</a>, whether it&#8217;s reducing the number of successfully executed attacks or reducing costs by being more effective with the security resources already in place.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/essential-guide-ai-soc-techbeacon-special-report">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Parallelize Your JavaScript Tests In CI/CD</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/parallelize-your-javascript-tests-in-ci-cd/</link>
 		
@@ -685,37 +869,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Egregor Ransomware Threatens &#8216;Mass-Media&#8217; Release of Corporate Data</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-ransomware-threatens-mass-media-release-of-corporate-data/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 02 Oct 2020 21:31:53 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Corporate]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Egregor]]></category>
-		<category><![CDATA[MassMedia]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[release]]></category>
-		<category><![CDATA[Threatens]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-ransomware-threatens-mass-media-release-of-corporate-data/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/egregor-ransomware-mass-media-corporate-data/159816/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -724,5 +877,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-16 21:01:13 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-17 05:38:12 by W3 Total Cache
 -->
