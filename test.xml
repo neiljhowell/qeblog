@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 16 Oct 2020 18:45:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 16 Oct 2020 21:20:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,30 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Phishers Capitalize on Headlines with Breakneck Speed</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/phishers-capitalize-on-headlines-with-breakneck-speed/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2020 21:20:59 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Breakneck]]></category>
+		<category><![CDATA[Capitalize]]></category>
+		<category><![CDATA[Headlines]]></category>
+		<category><![CDATA[Phishers]]></category>
+		<category><![CDATA[Speed]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/phishers-capitalize-on-headlines-with-breakneck-speed/</guid>
+
+					<description><![CDATA[Marking a pivot from COVID-19 scams, researchers track a single threat actor through the evolution from the pandemic to PayPal,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Marking a pivot from COVID-19 scams, researchers track a single threat actor through the evolution from the pandemic to PayPal, and on to more timely voter scams &#8212; all with the same infrastructure.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/phishers-capitalize-headlines-speed/160249/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Essential Guide: AI and the SOC—TechBeacon Special Report</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/essential-guide-ai-and-the-soc-techbeacon-special-report/</link>
 		
@@ -206,6 +230,73 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/security/essential-guide-ai-soc-techbeacon-special-report">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Deepfakes Lab: Detecting &#038; Defending Against Deepfakes with Advanced AI</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 14 Oct 2020 07:01:44 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Advanced]]></category>
+		<category><![CDATA[Deepfakes]]></category>
+		<category><![CDATA[Defending]]></category>
+		<category><![CDATA[Detecting]]></category>
+		<category><![CDATA[Lab]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/</guid>
+
+					<description><![CDATA[Detrimental lies are not new. Even misleading headlines and text can fool a reader.  However, the ability to alter reality]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Detrimental lies are not new. Even misleading headlines and text can fool a reader.  However, the ability to alter reality has taken a leap forward with “deepfake” technology which allows for the creation of images and videos of real people saying and doing things they never said or did. Deep learning techniques are escalating the technology’s finesse, producing even more realistic content that is increasingly difficult to detect.</p>
+<p>Deepfakes began to gain attention when a fake pornography video featuring a “Wonder Woman” actress was released on Reddit in late 2017 by a user with the pseudonym “deepfakes.” Several doctored videos have since been released featuring high-profile celebrities, some of which were purely for entertainment value and others which have portrayed public figures in a demeaning light. This presents a real threat. The internet already distorts the truth as information on social media is presented and consumed through the filter of our own cognitive biases.</p>
+<p>Deepfakes will intensify this problem significantly. Celebrities, politicians and even commercial brands can face unique forms of threat tactics, intimidation, and personal image sabotage. The risks to our democracy, justice, politics and national security are serious as well. Imagine a dark web economy where deepfakers produce misleading content that can be released to the world to influence which car we buy, which supermarket we frequent, and even which political candidate receives our vote. Deepfakes can touch all areas of our lives; hence, basic protection is essential.</p>
+<h2><strong>How are Deepfakes Created?</strong></h2>
+<p>Deepfakes are a cutting-edge advancement of Artificial Intelligence (AI) often leveraged by bad actors who use the technology to generate increasingly realistic and convincing fake images, videos, voice, and text. These videos are created by the superimposition of existing images, audio, and videos onto source media files by leveraging an advanced deep learning technique called “Generative Adversarial Networks” (GANs). GANs are relatively recent concepts in AI which aim to synthesize artificial images that are indistinguishable from authentic ones. The GAN approach brings two neural networks to work simultaneously: one network called the “generator” draws on a dataset to produce a sample that mimics it. The other network, known as the “discriminator”, assesses the degree to which the generator succeeded. Iteratively, the assessments of the discriminator inform the assessments of the generator. The increasing sophistication of GAN approaches has led to the production of ever more convincing and nearly impossible to expose deepfakes, and the result far exceeds the speed, scale, and nuance of what human reviewers could achieve.</p>
+<h2><strong>McAfee Deepfakes Lab Applies Data Science Expertise to Detect Bogus Videos </strong></h2>
+<p>To mitigate this threat, McAfee today announced the launch of the McAfee Deepfakes Lab to focus the company’s world-class data science expertise and tools on countering the  deepfake menace to individuals, organizations, democracy and the overall integrity of information across our society. The Deepfakes Lab combines computer vision and deep learning techniques to exploit hidden patterns and detect manipulated video elements that play a key role in authenticating original media files. <em> </em></p>
+<p>To ensure the prediction results of the deep learning framework and the origin of solutions for each prediction are understandable, we spent a significant amount of time visualizing the layers and filters of our networks then added a model-agnostic explainability framework on top of the detection framework. Having explanations for each prediction helps us make an informed decision about how much we trust the image and the model as well as provide insights that can be used to improve the latter.</p>
+<p>We also performed detailed validation and verification of the detection framework on a large dataset and tested detection capability on deepfake content found in the wild. Our detection framework was able to detect a recent deepfake video of Facebook’s Mark Zuckerberg giving a brief speech about the power of big data. The tool not only provided an accurate detection score but generated heatmaps via the model-agnostic explainability module highlighting the parts of his face contributing to the decision, thereby adding trust in our predictions.</p>
+<p>Such easily available deepfakes reiterate the challenges that social networks face when it comes to policing manipulated content. As advancements in GAN techniques produce very realistic looking fake images, advanced computer vision techniques will need to be developed to identify and detect advanced forms of deepfakes. Additionally, steps need to be taken to defend against deepfakes by making use of watermarks or authentication trails.</p>
+<h2><strong>Sounding the Alarm</strong></h2>
+<p>We realize that news media do have considerable power in shaping people’s beliefs and opinions. As a consequence, their truthfulness is often compromised to maximize impact. The dictum “a picture is worth a thousand words” accentuates the significance of the deepfake phenomenon. Credible yet fraudulent audio, video, and text will have a much larger impact that can be used to ruin celebrity and brand reputations as well as influence political opinion with terrifying implications. Computer vision and deep learning detection frameworks can authenticate and detect fake visual media and text content, but the damage to reputations and influencing opinion remains.</p>
+<p>In launching the Deepfakes Lab, McAfee will work with traditional news and social media organizations to identify malicious deepfakes videos during this crucial 2020 national election season and help combat this new wave of disinformation associated with deepfakes.</p>
+<p>In our next blog on deepfakes, we will demonstrate our detailed detection framework. With this framework, we will be helping to battle disinformation and minimize the growing challenge of deepfakes.</p>
+<p><strong>To engage the services of the McAfee Deepfakes Lab, news and social media organizations may submit suspect video for analysis by sending content links to </strong><a target="_blank" href="https://www.mcafee.com/mailto:media@mcafee.com" rel="noopener noreferrer"><strong>media@mcafee.com</strong></a><strong>. </strong></p>
+<p> </p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/security-operations/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -703,172 +794,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>5 Common Mistakes in Test Automation</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/5-common-mistakes-in-test-automation/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 06 Oct 2020 05:11:47 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Common]]></category>
-		<category><![CDATA[Mistakes]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/5-common-mistakes-in-test-automation/</guid>
-
-					<description><![CDATA[Quite recently, I gave a talk at Selenium Conference 2020 Virtual on How to build an automation framework with Selenium:]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Quite recently, I gave a talk at <a target="_blank" href="https://2020.seleniumconf.in/" rel="noopener noreferrer">Selenium Conference 2020</a> Virtual on <a target="_blank" href="https://confengine.com/selenium-conf-2020/proposal/13303/how-to-build-an-automation-framework-with-selenium-patterns-and-practices" rel="noopener noreferrer"><b>How to build an automation framework with Selenium: Patterns and practices</b></a>. In this session, I talked about what are some of the basic building blocks of a good test automation framework implementation and some good <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener noreferrer">design patterns</a> to follow and anti-patterns to avoid.</p>
-<p>If interested, You can see all the slides for this on <a target="_blank" href="http://automationhacks.io/slides/docs/ui_automation_framework/index.html" rel="noopener noreferrer">my blog site</a> and the video once ConfEngine releases it on their <a target="_blank" href="https://www.youtube.com/c/ConfEngine/videos" rel="noopener noreferrer">YouTube channel</a>.</p>
-<p>After this talk, it led me to think more deeply in terms of what are the mistakes that we as testers/automation engineers make in our test automation, and could we rather avoid these in the first place and, well, not <b>do it</b> in the first place <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f914.png" alt="🤔" class="wp-smiley" style="height: 1em; max-height: 1em;" />?</p>
-<p>I’ve been personally burnt due to some of these mistakes in my career and so I wanted to take some time out and write this post, in order to shed some more light on these mistakes and how you can avoid making them in your test automation code.</p>
-<p>We will discuss these in the UI automation context but some of these are general test automation anti-patterns to avoid.</p>
-<p>Let’s get started, shall we?</p>
-<h2><strong>Writing Assertions Inside The Page Objects</strong></h2>
-<p>When we write <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">UI automation</a> using the page object pattern, initially it could be quite tempting to even put assertions inside the page object classes, I’ve personally been guilty of this. However, doing so leads to unnecessary complexity in the page objects wherein you might end up writing multiple methods to satisfy both positive and negative scenarios on a given page.</p>
-<p>However, if your assertions are kept outside the page objects and mostly in your Test files or Test helpers, then you can treat the page object as just an abstraction for a given <b>Page or Component</b> and reuse the same method to verify different outcomes.</p>
-<p>Writing assertions in tests is a very natural readable thing to do as your colleagues don’t have to dig into a long page object to figure out what the test is trying to assert. Angie Jones also alludes to this in her very insightful post on <a target="_blank" href="https://angiejones.tech/page-object-model/" rel="noopener noreferrer">Tips for healthy page objects</a>.</p>
-<p>Naturally, you can adopt the same philosophy even when writing Functional API automation. Keeping assertions in test files instead of deeply nested layers of abstraction ensures you follow the <a target="_blank" href="https://en.wikipedia.org/wiki/KISS_principle" rel="noopener noreferrer">KISS (Keep it simple, stupid)</a> principle while resulting in <a target="_blank" href="https://en.wikipedia.org/wiki/Separation_of_concerns#:~:text=In%20computer%20science%2C%20separation%20of,code%20of%20a%20computer%20program." rel="noopener noreferrer">good separation of concerns</a>.</p>
-<h2><strong>Writing WebDriver API Methods in Tests/Page Objects</strong></h2>
-<p>While creating a UI automation framework, it is quite easy to fall in the trap of writing <a target="_blank" href="https://blog.testproject.io/2020/06/30/selenium-4-new-window-tab-screenshots/" rel="noopener noreferrer">Selenium WebDriver</a>/<a target="_blank" href="https://blog.testproject.io/category/appium/" rel="noopener noreferrer">Appium</a> Driver methods (driver.sendKeys(), driver.click()) directly in your page objects, or even in tests.</p>
-<p>The main problem with such an approach is that you are mixing different responsibilities into page objects and test classes. Your test classes should be all about performing a single atomic action and verifying its outcome using meaningful well-written assertions.</p>
-<p>Having WebDriver methods in tests is a really bad idea since if there are any changes in Selenium WebDrivers API or different versions of the library, then you would have to make these changes in all your test files/page objects.</p>
-<p>It’s always a good idea to wrap third-party libraries into your own abstractions since this prevents these dependencies leaking throughout your framework and is a way to write clean code (You can read more about clean code <a target="_blank" href="https://automationhacks.io/2018/11/25/basics-of-writing-clean-code/" rel="noopener noreferrer">in my article</a> or in this great <a target="_blank" href="https://blog.testproject.io/2020/04/22/clean-code-in-tests-what-why-and-how/" rel="noopener noreferrer">Clean Code</a> article by Corina Pip).</p>
-<p>Instead, It is much better to write wrapper functions over WebDriver methods in a <b>BasePage</b> class and either inherit or compose this in all your page objects. This way, if anything changes, you have to make these changes in a single place instead of fixing these in multiple places. This very nicely adheres to the <a target="_blank" href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" rel="noopener noreferrer">DRY (Don’t repeat yourself)  principle</a> which is considered a very good programming practice:</p>
-<blockquote>
-<p>If you have WebDriver APIs in your test methods, You’re Doing It Wrong.</p>
-<p>– Simon Stewart</p>
-</blockquote>
-<h2><strong>Writing Long E2E Tests with Multiple Actions and Assertions</strong></h2>
-<p>When writing <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">test automation</a>, it is often quite convenient to model entire user journeys as long winding E2E tests with multiple intermediate assertions. You can even argue that it leads to writing less code. However, these tests in the long run turn out to be a nightmare because of multiple reasons:</p>
-<ul>
-<li>They execute very slowly since most of these are from the Web/Mobile level which inherently has multiple factors leading to slow speed.</li>
-<li>If one earlier assertion fails, none of the succeeding assertions are executed, leading to a lack of coverage.</li>
-<li>These tests are quite flaky and non-deterministic, when they fail it’s often due to multiple different reasons, leading to great difficulty in debugging and maintaining these.</li>
-</ul>
-<p>Above are some of the reasons why this is a bad idea. So what can we do?</p>
-<p>Instead, prefer to write shorter, more targeted <a target="_blank" href="https://blog.testproject.io/2020/03/12/creating-ui-automation-that-is-focused-reliable-and-fast/" rel="noopener noreferrer">atomic tests</a> that verify a single aspect of your system under test functionality.</p>
-<p>It’s quite useful to refer to the <a target="_blank" href="https://automationintesting.com/2019/08/trims-automation-in-testing-strategy.html" rel="noopener noreferrer">TRIMS</a> heuristic coined by Richard Bradshaw of <a target="_blank" href="https://www.ministryoftesting.com/" rel="noopener noreferrer">MOT (Ministry of testing</a>/<a target="_blank" href="https://automationintesting.com/" rel="noopener noreferrer">Automation In testing</a> fame).</p>
-<p>The most obvious benefit that you get by writing atomic tests is that they are very easy to parallelize and deterministic in nature. When they fail, it usually is for a single reason and hence it’s quite easy to debug and maintain them.</p>
-<h2><strong>Treating UI Automation as The One and Only Hammer for Every Nail</strong></h2>
-<p>UI automation that works is quite wonderful to watch. Quite often one common mistake made by new budding automation engineers (after learning the WebDriver API) is obviously to try and use it for every use case that they can think of.</p>
-<p>What could very well have been a medium-sized test suite to verify essential functionality (that could only be verified on the UI), turns into a gigantic suite of UI automation that tests every possible functionality from the UI <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>Such a huge suite is a debugging and maintenance nightmare and very quickly turns into a <a target="_blank" href="https://en.wikipedia.org/wiki/Diminishing_returns" rel="noopener noreferrer">point of diminishing return</a> wherein you spend more time maintaining these flaky tests than spend time improving the quality of the product by the numerous other activities that you could have done.</p>
-<p>I know, it’s not easy to let go of the temptation. But trust me, this is a hard choice that should be made sooner than later.</p>
-<p>So what could we do?</p>
-<p>Be more intentional and mindful of your automation. Treat UI automation as a part of your automation stack, but <b>not the only part</b>. You could instead test more functionality via the API or push some of these tests into Component Level tests instead of E2E tests.</p>
-<h2><strong>Test Automation can Replace Exploratory Testing</strong></h2>
-<p>One common mistake that a lot of organizations make is to think that <a target="_blank" href="https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/" rel="noopener noreferrer">automated testing</a> is the only flavor of testing that’s needed to handle the scale of the organizations.</p>
-<p>You would hear crazy claims/call to actions to automate 100% of the manual test cases as if that’s going to magically get translated into a high-quality product (valuable to the customer).</p>
-<p>Test automation, while being a very powerful tool in the tool belt of a skilled tester, is not the only weapon and is quite inefficient in creatively exploring the product and thinking of its different flaws all the while exploring it. It is often inflexible in that it cannot change on the fly to different demands that your product might have, however, exploratory testing can.</p>
-<p>Thus, instead of one being the replacement of others, think of them as two amigos and two sides of the same coin: with test automation as a way to get rid of the boring repeatable steps and to take care of giving the fast feedback that the team needs, whereas exploratory testing as a way to find the different areas of the system that are not yet explored and can feed into future automation projects or find really hard to detect bugs.</p>
-<h2><strong>Conclusion</strong></h2>
-<p>Are these the only mistakes that an automation engineer can make? Heck no, I’m sure you would have made some yourself. Why not share your experience around it with the community so that we can all learn from them and maybe not make them in the first place</p>
-<p>If you found this post useful, do share it with a friend or colleague. Until next time, Happy Testing/Coding <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/262e.png" alt="☮" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/10/06/common-mistakes-in-test-automation/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Selenium 4 &#8211; New Features of Selenium WebDriver (Part 1) &#8211; Automated Visual Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-4-new-features-of-selenium-webdriver-part-1-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 05 Oct 2020 22:31:36 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Part]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<category><![CDATA[WebDriver]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-4-new-features-of-selenium-webdriver-part-1-automated-visual-testing/</guid>
-
-					<description><![CDATA[Manoj Kumar published a teaser on Selenium 4, listing the new features expected and important deprecations across the Selenium Suite(]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Manoj Kumar published a <a target="_blank" href="https://applitools.com/blog/selenium-4/" rel="noopener noreferrer">teaser on Selenium 4</a>, listing the new features expected and important deprecations across the Selenium Suite( Selenium IDE, Selenium WebDriver, and Grid). </p>
-<p>This has already caused a buzz in the industry for not only testers but for the Ops and Dev communities as well. And why wouldn’t it?</p>
-<p>Features such as the integration of DevTools APIs with Selenium Webdriver and Observability add a lot of value and expand Selenium’s reach.</p>
-<p>Many requests were made by the community, asking for details on each of the features. Hence we started this series of posts addressing the features of Selenium 4.</p>
-<p>In the first <a target="_blank" href="https://applitools.com/blog/selenium-4-migration/" rel="noopener noreferrer">blog post</a> of the Selenium 4 series, we discussed the deprecated components and their replacements.</p>
-<p>In this blog post, as well as the next one, we will focus on some of the new features offered in Selenium 4, including:</p>
-<ul>
-<li>Relative Locators</li>
-<li>Window and Tab Management</li>
-<li>Chrome DevTools Protocol (next post)</li>
-<li>Observability (next post)</li>
-<li>Enhanced Exceptions (next post)</li>
-</ul>
-<p>Make sure you <a target="_blank" href="https://applitools.com/blog/how-to-install-selenium-4/" rel="noopener noreferrer">install Selenium 4</a> to be able to try the features we’ll discuss.</p>
-<div class="small-cta">
-<h2 class="heading-secondary">Webinar: Test Driving Selenium 4 with Angie Jones</h2>
-<p>    <a target="_blank" href="https://go.applitools.com/201015-Angie-Jones-Selenium-4-webinar.html" class="btn arrow-right" rel="noopener noreferrer">Register Now</a>
-</div>
-<h2 id="h.eqka15d8494y">Relative Locators in Selenium 4</h2>
-<p>All the engineers working on building web-based test automation scripts spend quite a bit of time writing and maintaining locators across the builds. It can be challenging to locate a few of them, especially the grids. </p>
-<p>Tools such as Sahi and Taiko already have features to locate nearby elements by specifying the directions, however to accomplish this in Selenium requires complicated Xpath or CSS selectors to navigate to a “direction” around the hierarchical tree nodes in the DOM. This limitation often leads to inefficient locators, which make the tests brittle.</p>
-<p>Relative Locators have come to the rescue by helping us locate elements based on their position with respect to other elements.</p>
-<p><a target="_blank" href="https://angiejones.tech/selenium-4-relative-locators/" rel="noopener noreferrer">Relative locators</a> provide a newly added locator strategy to the existing eight (id, name, XPath, cssSelector, linkText, partialLinkText, className, and tagName) locator strategies. Relative locators locate the elements with respect to nearby specified elements.</p>
-<p>A new method withTagName() is added, which returns an instance of RelativeLocator.RelativeBy class, a child class of By and offers methods to specify the direction of an element to be located.</p>
-<pre id="h.hd241mdm7m8c" class="wp-block-preformatted">above()</pre>
-<p>Used to locate an element just above the specified element</p>
-<pre id="h.tzw7s8ffabyr" class="wp-block-preformatted">below()</pre>
-<p>Used to locate the an element just below the specified element</p>
-<pre id="h.tm1xnun7njcd" class="wp-block-preformatted">toLeftOf()</pre>
-<p>Used to locate the an element located on the left of a specified element</p>
-<pre id="h.ub47tke6i305" class="wp-block-preformatted">toRightOf()</pre>
-<p>Used to locate the an element located on the right of a specified element</p>
-<pre id="h.ytfqi6p52lfq" class="wp-block-preformatted">near()</pre>
-<p>By default, it is used to locate an element at 50 pixels distant from a specified element. The distance can be passed as an argument to an overloaded method.</p>
-<p>Let’s learn to use them with an example. We will use <a target="_blank" href="https://applitools.com/blog/category/advanced-topics/" rel="noopener noreferrer">Advanced Blogs on Applitools</a> webpage for this exercise.</p>
-<figure class="wp-block-image"></figure>
-<p>On the Landing page we could see 12 blogs with titles and links to the blogs listed in four rows and three columns each. Inspecting the page, we see each of the elements are listed using the ‘article’ tag and an id attribute.</p>
-<p>For instance, I need to locate the Blog ”How to Visually Test React Components Using Our Storybook SDK,” which is visually located just below the first blog, “Migrating to Selenium 4: Here’s What Has Changed”.</p>
-<p>Inspecting the DOM, I learned that all blogs have the <a target="_blank" href="https://www.javatpoint.com/html-tags" rel="noopener noreferrer">html tag</a> “article” and the blog “Migrating to Selenium 4: Here’s What Has Changed” has an attribute id as “post-22539”.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="394" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0.png" alt="pasted image 0" class="wp-image-23761" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0.png 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-300x74.png 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-1024x252.png 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-768x189.png 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-1536x378.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>I could now locate “How to Visually Test React Components Using Our Storybook SDK” specifying its html tag “article” using withTagName(“article”) method and locating the “How to Visually Test React Components Using Our Storybook SDK” element with below() method as demonstrated on line 18.</p>
-<p>First the “Migrating to Selenium 4: Here’s What Has Changed” blog is located using the id attribute and then below() method is used as direction to locate the “How to Visually Test React Components Using Our Storybook SDK” blog element.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/b5e81d28bb9e32f9b2ecec4b5b8c647b.js</p>
-</div>
-<p>Similarly, refer to the sample code for the usage for above(), toRightOf() and toLeftOf() methods.</p>
-<p>For more information on Relative Locators, <a target="_blank" href="https://angiejones.tech/selenium-4-relative-locators/" rel="noopener noreferrer">see this article by Angie Jones</a>.</p>
-<h2 id="h.rvklczo2ffy2">Multiple Windows and Tabs</h2>
-<p>Need to work with multiple windows or applications in a single test flow?  This is now possible!</p>
-<p>We can create and open a brand new or tabbed window in the same session without having to create a new driver object to manage multiple applications in the same test.</p>
-<p>This can be done with the newWindow() method.</p>
-<p>On line 23 of the following code snippet, we create a brand new window by passing WindowType.WINDOW to newWindow() method. This will create a new window with the same driver reference.</p>
-<p>On line 25 we open <a target="_blank" href="http://www.youtube.com" rel="noopener noreferrer">YouTube</a> in this window by using navigate().to() method or get() method.</p>
-<p>Similarly, we could create a new tabbed window by passing WindowType.TAB as a parameter to newWindow() as shown on line 39.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/ShamaUgale/827a77b279322dcdd6c6395605aabcb0.js</p>
-</div>
-<p>To switch between these windows, you need to fetch the window IDs just like in the above example from line no 27-36, as we have been doing it in the previous versions of Selenium WebDriver.</p>
-<h2 id="h.pl203j8ozjgb">W3C Standardization</h2>
-<p>Selenium is a <a target="_blank" href="https://applitools.com/blog/2020-front-end-automation-testing/" rel="noopener noreferrer">widely used tool</a> for end users as well as vendors. Other popular automation tools such as Appium and Protractor are built on top of Selenium APIs.</p>
-<p>With this, the tools that integrate with Selenium 4 now need to follow the W3C standard protocol.</p>
-<p>In previous versions of Selenium Webdriver, JSON wire protocol was used to communicate between the Selenium Webdriver APIs and the browser native APIs. Every request and response communicated across the protocol was encoded and decoded. With W3C compliance, the communication between WebDriver and the browsers happens directly without any encoding and decoding required.</p>
-<p>This means any software following W3C standard protocol can be integrated with Selenium with no compatibility issues. All the major browsers such as Chrome, IE and Safari are already W3C standard compliant.</p>
-<h2 id="h.3bst29ontuje">Summary</h2>
-<p>We went through a few of the new methods and features implemented in Selenium 4 and have provided ready-to-use code snippets for working with new and tabbed windows, installing and uninstalling the addons for Firefox and taking element level screenshots.</p>
-<p>We learned how to use a brand new locator strategy, the Relative Locators, introduced in Selenium 4. We also discussed the importance of W3C standardization for tool vendors and products built on top of Selenium.</p>
-<p>In the next post of this series, we will explore more brand new features in Selenium 4 such as Chrome DevTools Protocol, and Observability, and Enhanced Exceptions.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/new-features-selenium4/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -877,5 +802,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-17 05:38:12 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-17 21:01:12 by W3 Total Cache
 -->
