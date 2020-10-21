@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 19 Oct 2020 00:15:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 19 Oct 2020 11:36:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,83 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test Driving Selenium 4 &#8211; with Angie Jones [webinar recording] &#8211; Automated Visual Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/test-driving-selenium-4-with-angie-jones-webinar-recording-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2020 11:36:21 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Angie]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Driving]]></category>
+		<category><![CDATA[Jones]]></category>
+		<category><![CDATA[Recording]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/test-driving-selenium-4-with-angie-jones-webinar-recording-automated-visual-testing/</guid>
+
+					<description><![CDATA[The Selenium WebDriver maintainers have been hard at work on a brand-new version: Selenium 4! Some of the features are]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>The Selenium WebDriver maintainers have been hard at work on a brand-new version: Selenium 4! </p>
+<p>Some of the features are already available in alpha mode — which allows us the opportunity to try it out, provide feedback, and even pitch in with development. </p>
+<p>Watch this webinar, where Angie Jones explored some of the most promising new capabilities of Selenium 4. </p>
+<p>Angie also took for a test-drive some of its new features such as Relative Locators, Chrome Devtools Protocol (CDP), Window Management, and more. </p>
+<p>You know Angie – so you know code samples were provided! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h3 id="h-angie-s-slide-deck">Angie’s Slide Deck</h3>
+<p><a target="_blank" href="https://slides.com/angiejones/selenium4/fullscreen" rel="noreferrer noopener">https://slides.com/angiejones/selenium4/fullscreen</a></p>
+<h3 id="h-full-webinar-recording">Full Webinar Recording</h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Test Driving Selenium 4 - with Angie Jones [webinar recording]" width="800" height="450" src="https://www.youtube.com/embed/-5hiHWqxs8A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</figure>
+<h3 id="h-additional-selenium-4-resources">Additional Selenium 4 Resources</h3>
+<h3 class="has-text-align-center" id="h-happy-testing">— HAPPY TESTING —</h3>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/selenium-4-webinar/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Selenium Quiz for Ninjas &#8211; Scale Up Your Selenium Knowledge</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-quiz-for-ninjas-scale-up-your-selenium-knowledge/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2020 06:32:16 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[Ninjas]]></category>
+		<category><![CDATA[Quiz]]></category>
+		<category><![CDATA[Scale]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-quiz-for-ninjas-scale-up-your-selenium-knowledge/</guid>
+
+					<description><![CDATA[Feel like you know Selenium to its core? Familiar with some of the commands?Looking to increase your knowledge? Need more]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p style="text-align: center;">Feel like you know Selenium to its core? Familiar with some of the commands?<br />Looking to increase your knowledge? Need more experience?<br /><strong>This Selenium quiz is for you!</strong></p>
+<p style="text-align: center;">Discover at the end how well you scored from 1 to 10 and find out the correct answers<br />so you can scale your Selenium knowledge and become a ninja! Good Luck <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4af.png" alt="💯" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2 style="text-align: center;"><strong>↓</strong></h2>
+<h2 style="text-align: center;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f431.png" alt="🐱" class="wp-smiley" style="height: 1em; max-height: 1em;" />&#x200d;<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f464.png" alt="👤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://blog.testproject.io/quiz/selenium-quiz-for-ninjas-scale-your-knowledge/" rel="noopener noreferrer"><mark>Start Quiz</mark></a> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f431.png" alt="🐱" class="wp-smiley" style="height: 1em; max-height: 1em;" />&#x200d;<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f464.png" alt="👤" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h2>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/10/19/selenium-quiz-for-ninjas-scale-your-knowledge/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Buyer&#8217;s Guide to Enterprise Service Management Products</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products/</link>
 		
@@ -580,6 +657,36 @@
 		
 			</item>
 		<item>
+		<title>October is #LGBTQ History Month and October 11 was National Coming Out Day!  Our&#8230;</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2020 18:12:40 +0000</pubDate>
+				<category><![CDATA[Accruent]]></category>
+		<category><![CDATA[Coming]]></category>
+		<category><![CDATA[Day]]></category>
+		<category><![CDATA[ERG]]></category>
+		<category><![CDATA[History]]></category>
+		<category><![CDATA[LGBTQ]]></category>
+		<category><![CDATA[Month]]></category>
+		<category><![CDATA[National]]></category>
+		<category><![CDATA[October]]></category>
+		<category><![CDATA[PRIDE]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</guid>
+
+					<description><![CDATA[October is #LGBTQ History Month and October 11 was National Coming Out Day! 🏳️‍🌈 Our #PRIDE Employee Resource Group #ERG]]></description>
+										<content:encoded><![CDATA[
+<p>October is <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/lgbtq?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#LGBTQ</a> History Month and October 11 was National Coming Out Day! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f3f3-fe0f-200d-1f308.png" alt="🏳️‍🌈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Our <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/pride?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#PRIDE</a> Employee Resource Group <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/erg?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#ERG</a> at <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/accruent?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#Accruent</a> connects and creates a community for LGBTQ+ individuals &#038; their allies, and seeks to provide education, perspective, outreach, and resources to create a more&#8230; <a target="_blank" href="https://facebook.com/story.php?story_fbid=3316092801777124&#038;id=227818503937918&#038;refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">More</a>
+</p>
+<p> <img loading="lazy" src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c267.0.1514.1536a/s75x225/121289689_3316092145110523_2782085661071101523_o.jpg?_nc_cat=109&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=5Kbz-A8pIRcAX_qap5W&#038;_nc_ht=scontent-lga3-2.xx&#038;_nc_tp=28&#038;oh=dc112ac8eb8bd919b577a7d1f8a82390&#038;oe=5FB27476" width="67" height="68" class="bs r" alt="Image may contain: 22 people, outdoor"><img loading="lazy" src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c0.245.1536.1558a/s75x225/121637616_3316092188443852_2657372423963690071_o.jpg?_nc_cat=102&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=t49gHaJ3A94AX-gWvIb&#038;_nc_ht=scontent-lga3-2.xx&#038;_nc_tp=28&#038;oh=245b7dc8471420757a0bc64b68280c5b&#038;oe=5FB52515" width="67" height="68" class="bs r" alt="Image may contain: 2 people, people standing and outdoor"><br />
+<br />
+<br /><a href="https://www.facebook.com/227818503937918/posts/3316092801777124">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>The Deepfakes Lab: Detecting &#038; Defending Against Deepfakes with Advanced AI</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/</link>
 		
@@ -911,168 +1018,6 @@ public class ShadowElementTests {
 		
 		
 			</item>
-		<item>
-		<title>#BeCyberSmart: Equipping Kids to Stay Safe on New Video Apps</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/becybersmart-equipping-kids-to-stay-safe-on-new-video-apps/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 09 Oct 2020 22:56:20 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[BeCyberSmart]]></category>
-		<category><![CDATA[Equipping]]></category>
-		<category><![CDATA[Kids]]></category>
-		<category><![CDATA[Safe]]></category>
-		<category><![CDATA[Stay]]></category>
-		<category><![CDATA[video]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/becybersmart-equipping-kids-to-stay-safe-on-new-video-apps/</guid>
-
-					<description><![CDATA[These days, spending time with friends face-to-face still isn’t always an option for teens. So, finding a fun, new app]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>These days, spending time with friends face-to-face still isn’t always an option for teens. So, finding a fun, new app can be a little like discovering your own private beach where you can chill out, connect with friends, and be thoroughly entertained. Keeping them safe on that digital beach? That’s where parents can make a difference.</p>
-<p>With all the popular, increasingly sophisticated video apps available, it’s easy to understand why safety ends up being the <em>last</em> thing on our kids’ minds. I get it. My daughter and I recently sat for hours watching Tik Tok videos and laughing until we cried.</p>
-<p>However, October is National Cybersecurity Month and the perfect time to hit pause and talk about how to stay safe on all the apps vying for our attention.</p>
-<p><strong>Popular Apps to Monitor</strong></p>
-<p><strong>Triller.</strong> The Triller app is a video-based platform, much like Tik Tok, that has been around since 2015. Triller has a variety of filters, and music kids can use with the videos they create.</p>
-<p><em>What to monitor: </em>Triller’s content may not always be appropriate, and because viewers can leave comments on videos, there’s a risk of cyberbullying. Also, Triller has some privacy loopholes such as data collection, location tracking, and a public account default — all of which can be modified in Settings.</p>
-<p><strong>HouseParty</strong> is a group video chat platform nicknamed the “Quarantine App” since its popularity increased by an additional 10 million users during the COVID lockdown. Houseparty allows users to invite friends and “friends of friends” into group video-chat sessions — much like a party. The app displays up to eight live streams on the screen at a time, creating an instant sense of community.</p>
-<p><em>What to monitor.</em> Because the app allows “friends of friends” to livestream in a group, that unknown element opens the door to a number of safety issues. Encourage kids to deny join requests from unknown people. While some users leave rooms unlocked while live streaming their party, encourage your child to use the padlock function to limit conversations to people who know each other.</p>
-<p><strong>Yubo.</strong> The Yubo app (formerly Yellow) is also called the “Tinder for Teens.” Kids can connect and live stream with people they know — and easily connect with people they don’t. If two users swipe right, Yubo will match them, and they can share Snapchat or Instagram names. Another app very similar to Yubo is the Hoop app.</p>
-<p><em>What to monitor.</em> Content on Yubo can be explicit and cyberbullying can arise more often since fake accounts are common. Yubo’s swipe format promotes a appearance driven match standard may not be healthy for some teens.</p>
-<p><strong>Byte.</strong> Another app similar to Tik Tok, Byte, features short-form videos. Byte, created by the Founders of the now defunct Vine app, lacks the filters and music of other video apps, but that’s okay; the simplicity is a plus for Byte fans.</p>
-<p><em>What to monitor:</em> Be aware of inappropriate content, cyberbullying in comments, and unknown “friends” who may be part of your child’s Byte community. Online predators have been known to reach out to kids on this app. While unwanted followers can be blocked, surprisingly, Byte doesn’t give you the ability to make your account private.</p>
-<p><strong>App Safety Basics</strong></p>
-<p><strong>Practice personal responsibility.</strong> The theme for Cybersecurity Month 2020 is <em>Do Your Part #BeCyberSmart</em>. With this in mind, discuss the responsibility that comes with owning technology, be it a smartphone, a game system, a smartwatch, or any other connected device. The goal, says <a target="_blank" href="https://staysafeonline.org/cybersecurity-awareness-month/" rel="noopener noreferrer">The National Cyber Security Alliance</a>,</p>
-<p>“If you connect it, protect it.”</p>
-<p><strong>Privacy settings.</strong> To protect privacy and keep unknown people from connecting with minors, maximize privacy Settings on each new app.</p>
-<p><strong>Increase safeguards.</strong> Apps can be addictive and siphon family time, study time, and sleep. A <a target="_blank" href="https://www.mcafee.com/en-us/parental-controls/mcafee-safe-family.html" rel="noopener noreferrer">comprehensive security solution</a> can help parents limit device time, monitor activity, and block risky content and apps.</p>
-<p><strong>Share wisely.</strong> Even a 15-second video shared with “close friends only” can end up in the public stream. Advise your child to only share videos or photos they’d feel good sharing with the world.</p>
-<p><strong>Protect personal information.</strong> Remind your child not to share private details about themselves or their family members with anyone online. This includes emails, full names, phone numbers, pet names, school names, or location.</p>
-<p><strong>Block and report.</strong> Talk with your child about what you consider appropriate versus inappropriate content, how to block strangers, and how to report cyberbullying and scams.</p>
-<p>Finally, keep talking with your kids — about everything. Ultimately, it will be your consistency in having honest, ongoing dialogue with your child that will be your most valuable tool in keeping them safe online.</p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/becybersmart-equipping-kids-to-stay-safe-on-new-video-apps/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Fitbit Spyware Steals Personal Data via Watch Face</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/fitbit-spyware-steals-personal-data-via-watch-face/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 09 Oct 2020 18:58:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Face]]></category>
-		<category><![CDATA[Fitbit]]></category>
-		<category><![CDATA[Personal]]></category>
-		<category><![CDATA[Spyware]]></category>
-		<category><![CDATA[steals]]></category>
-		<category><![CDATA[Watch]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/fitbit-spyware-steals-personal-data-via-watch-face/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/fitbit-personal-data-watch-face/160003/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to empower elite DevSecOps performers</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-empower-elite-devsecops-performers/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 09 Oct 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[DevSecOps]]></category>
-		<category><![CDATA[elite]]></category>
-		<category><![CDATA[Empower]]></category>
-		<category><![CDATA[performers]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-empower-elite-devsecops-performers/</guid>
-
-					<description><![CDATA[The most recent Accelerate: State of DevOps Report describes what elite-performing DevOps engineers look like. The key differentiator for those DevOps-focused software]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>The <a target="_blank" href="https://techbeacon.com/devops/2019-accelerate-state-devops-report-how-elites-drive-high-performance" rel="noopener noreferrer">most recent Accelerate: State of DevOps Report</a> describes what elite-performing DevOps engineers look like. The key differentiator for those DevOps-focused software engineers is velocity. They iterate fast from commit to deployment, they deploy frequently, and they recover quickly.</p>
-<p>Velocity via automation is fundamental to DevOps and CI/CD culture. Building the right pipes and process helps <a target="_blank" href="https://techbeacon.com/devops/how-descartes-labs-achieved-safe-mission-critical-continuous-delivery" rel="noopener noreferrer">create an elastic, scalable, and secured</a> infrastructure and applications.</p>
-<p>Here&#8217;s how you can use cloud and DevOps principles to leverage and automate security.</p>
-<h3>On-demand and self-service</h3>
-<p>As a DevOps engineer you can help your clients provision any resource they want, without human interaction. How? Through preparation and templates.</p>
-<p>Yes, it&#8217;s a lot of work. And yes, you can integrate security into those templates. That way, developers don&#8217;t have to worry about misconfiguring the infrastructure. (For the most part, even when they worry, they still misconfigure it. They might as well use your template.)</p>
-<h3>Provide secured, and broad, network access</h3>
-<p>Working from home has become much more prevalent in the last six months or so, and it looks as if it&#8217;s here to stay. You need to allow your organization to provide secured access to any resource your developers need, from anywhere they want. This includes laptops, mobile devices, workstations, etc.</p>
-<p>Since many of us share our at-home bandwidth with family members (and unintentionally our neighbors, too), you should <a target="_blank" href="https://techbeacon.com/security/zero-trust-security-how-get-started" rel="noopener noreferrer">incorporate a zero-trust mechanism</a> in your networks and access points.</p>
-<h3>Allow for rapid elasticity and resource pooling</h3>
-<p>Provision and assign resources dynamically and at scale, as much as needed. A growing startup, for example, should design its infrastructure while thinking about the future. Someday it might have to support a hundred times, or even a thousand times, more users than it currently does.</p>
-<p>Your design right now should support this growth automatically. There are many use cases where scaling down will also be necessary, so think about triggers for that as well.</p>
-<h3>Measure your services</h3>
-<p>One of the great powers of the cloud is that <a target="_blank" href="https://techbeacon.com/enterprise-it/why-cloud-based-apps-are-so-hard-manage" rel="noopener noreferrer">everything can be monitored</a>. The logs and metadata are there; you just have to activate them and stream them to your favorite log analysis software. It&#8217;s going to help you both for ops and security purposes.</p>
-<p>You can control, detect, respond, and optimize. If you haven&#8217;t done it by now, enable your flow logs and choose &#8220;all&#8221; actions. (The default is to log accepted traffic, even though what&#8217;s rejected has much to tell you.)</p>
-<h3>CI/CD is also all about automation</h3>
-<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/seven-key-enablers-continuous-testing" rel="noopener noreferrer">Add automated testing</a> to your CI process, so that any broken code will be detected quickly and the relevant developer will be notified and get a chance to push corrections fast as well. Code should be clean of operation bugs, but also of security bugs and issues, and there&#8217;s no reason not to test them together. This will give developers a lot of confidence in their code and in your pipe.</p>
-<p>The CD process should allow teams a lot of independence; you should minimize the dependence on other teams for support or resource approval. As stated before, <a target="_blank" href="https://techbeacon.com/devops/how-keybank-achieved-continuous-integration-delivery" rel="noopener noreferrer">build the pipeline</a> to be as self-service as possible; this will save you and your team time from repeating the same tasks, and specifically the security-related tasks that no one likes to do.</p>
-<h3>Put these principles into action</h3>
-<p>How exactly are you going to implement all of these principles and be awesome DevOps or DevSecOps engineers? With the right tools. You know a tool is right when it integrates well with your current pipe and processes.</p>
-<p>Even if setup takes a little time, it&#8217;s going to save you a lot of time down the line. Elite performers automate any process they can and free up their time to do the things they have passion for.</p>
-<p>Here are a few open-source tools that I find useful and that help me automate security along the CI/CD pipeline.</p>
-<ul>
-<li><strong>Pre-commit:</strong> <a target="_blank" href="https://github.com/thoughtworks/talisman" rel="nofollow noopener noreferrer">Talisman</a> helps make sure your developers are not committing credentials and tokens.</li>
-<li><strong>Secrets management:</strong> <a target="_blank" href="https://aws.amazon.com/secrets-manager/" rel="nofollow noopener noreferrer">AWS secrets manager</a> addresses the common bad practice of storing credentials in configuration files. Using a secrets manager can mitigate the risk of losing credentials.</li>
-<li><strong>Software dependencies check:</strong> Everyone uses open-source and third-party code and packages, which often contain vulnerabilities. <a target="_blank" href="https://www.owasp.org/index.php/OWASP_Dependency_Check" rel="nofollow noopener noreferrer">OWASP Dependency Check</a> helps check that problem on a regular basis.</li>
-<li><strong>DAST:</strong> <a target="_blank" href="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project" rel="nofollow noopener noreferrer">OWASP ZAP</a> scans your web applications.</li>
-<li><strong>SAST:</strong> Check out <a target="_blank" href="https://owasp.org/www-community/Source_Code_Analysis_Tools" rel="nofollow noopener noreferrer">OWASP</a>&#8216;s analysis on different tools for this, based on the relevant coding languages they support.</li>
-</ul>
-<p>Now you&#8217;ve got what it takes to be an elite DevSecOps performer.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/how-empower-elite-devsecops-performers">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -1081,5 +1026,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-20 05:38:17 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-20 21:01:07 by W3 Total Cache
 -->
