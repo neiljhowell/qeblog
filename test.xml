@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 21 Oct 2020 15:30:55 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Oct 2020 19:23:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,165 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Visual Testing of AR, VR, and MR in Research Focused Product Delivery</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/visual-testing-of-ar-vr-and-mr-in-research-focused-product-delivery/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2020 19:23:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Delivery]]></category>
+		<category><![CDATA[Focused]]></category>
+		<category><![CDATA[Product]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/visual-testing-of-ar-vr-and-mr-in-research-focused-product-delivery/</guid>
+
+					<description><![CDATA[In February 2020, we were fortunate enough to have Erica Stanley present at the Applitools Days in Atlanta, GA. She]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In February 2020, we were fortunate enough to have Erica Stanley present at the Applitools Days in Atlanta, GA. She spoke about virtual reality, augmented reality, and mixed reality and gave some examples of next-generation mixed reality.</p>
+<p>When you create new technology, you think “fail fast”. Why should an R&amp;D team prioritize quality?</p>
+<p>In February 2020, we were fortunate enough to have Erica Stanley present at the Applitools Days in Atlanta, GA. Erica is a senior engineering manager on the Emerging Tech, Mixed Reality team at Mozilla. Within the Mixed Reality (MR) team, Erica’s team focuses on MR for desktop &amp; Android and has found a creative way to implement test automation with the help of Applitools, Cypress, OpenCV, and FFMPEG.</p>
+<p>Writing this in the midst of the pandemic and looking back to February, so much has changed. Watching her presentation, I could not help but think of the potential such technology might have in a world of social distancing. Imagine being able to shop from home while interacting with the product. Or, you might attend a virtual reality meeting in a shared room with your colleagues. These are just a few examples that Erica talks about in her presentation.</p>
+<p>Erica focuses on quality engineering on a team that focuses on innovation. If you think that quality engineering and innovation cannot coexist, Erica explains why they must work together, as well as how she helps her team use quality tools to aid in their innovation process.</p>
+<h2 id="h-three-realities"><strong>Three Realities</strong></h2>
+<p>Let’s begin with an overview of terminology:</p>
+<ul>
+<li>Virtual Reality (VR) – A fully immersive experience where a user leaves the real-world environment behind to enter a fully digital environment via VR headsets.</li>
+<li>Augmented Reality (AR) – An experience where virtual objects are superimposed onto the real-world environment via smartphones, tablets, heads-up displays, or AR glasses. (Think Pokemon Go game or the IKEA furniture app.)</li>
+<li>Mixed Reality (MR) – A step beyond augmented reality where the virtual objects placed in the real world can be interacted with and respond as if they were real objects.</li>
+</ul>
+<h2 id="h-four-interfaces"><strong>Four Interfaces</strong></h2>
+<p>Next, Erica described the different kinds of virtual reality interface terms. If virtual reality provides an extension of human-machine interaction, let’s start at the earliest and move up.</p>
+<ul>
+<li>CLI – Command Line Interface – not necessarily what we think of as virtual reality, but still at the core of every computing system.</li>
+<li>GUI – Graphical User Interface – graphical based, interactive, feedback. Whether using desktop monitors or virtual reality glasses, we still seem to use this interface today.</li>
+<li>NUI – Natural User Interface – you don’t need instructions – it performs naturally. Erica gave the example of being a painter. Her experience of digital painting on the iPad – brush strokes, paint color mixing, etc. – seems natural from her experience as a painter.</li>
+<li>OUI – Organic User Interface – Interface is almost seamless with your reality – the environment learns from you and changes with you.</li>
+</ul>
+<figure class="wp-block-image"></figure>
+<h2 id="h-examples-of-next-generation-mixed-reality"><strong>Examples of Next Generation Mixed Reality</strong></h2>
+<p>Erica gave some interesting examples of potential real-world applications of mixed reality. These included entertainment, collaboration, and social engagement activities, where MR might provide unique value. Such as:</p>
+<ul>
+<li>Immersive Movies – imagine walking around in a 3D environment and interacting with the movie? Would this mean being in a movie theater or being in the movie itself? What movie would you “drop” into? Or would it be more like a virtual Black Mirror: Bandersnatch – where you interact with the movie to determine the outcome?</li>
+<li>Corporate Meetings – This would bring working from home to the next level – with everyone being “together” in a meeting room. There is nothing like being in-person, but to have a way to share a virtual whiteboard and be in the same virtual room could bring a new level of focus to remote meetings – I am looking forward to this application of MR.</li>
+<li>Civic engagement – how about envisioning planning commission proposals in a real-world walk-around in your neighborhood? Or being able to share visualization of education data results during a school board meeting?</li>
+</ul>
+<h2 id="h-a-focus-on-quality-yes-even-for-research-product-delivery"><strong>A Focus on Quality: Yes – Even for Research Product Delivery</strong></h2>
+<p>Some people think of quality as a cost of doing business. Those people think of quality as a way to reduce support and rework costs. If you share that mindset, you probably wonder how quality engineering fits into an R&amp;D lab.</p>
+<p>As Erica explains, her team works with partners who are their customers. The partners expect working products just as any customer would. Her team also works with user communities who, in turn, build on top of her team’s code. Each iteration includes new features, enhancements, and bug fixes. Because of all the downstream dependencies, any bugs, misbehaviors, or unexpected behavior changes can cause those downstream teams’ huge issues. To remain a trusted supplier and partner in this R&amp;D world, Erica helped her team prioritize and deliver quality as a core component of the build process.</p>
+<h2 id="h-quality-challenges-in-mixed-reality-applications"><strong>Quality challenges in Mixed Reality Applications?</strong></h2>
+<p>Erica and her team knew to value quality for their ecosystem. The question remained: how would her team be able to deliver a quality product? What tools could help her team deploy and test a cutting-edge technology. She realized that she and her team needed to innovate with her solution. At the same time, she needed to import best-practices from across the software development practices.</p>
+<p>So, what are some of the challenges that Erica’s team faced in testing mixed reality applications?</p>
+<ul>
+<li>Lack of specialized software for virtual reality testing. Testers must build their own test approaches and test fixturing. So, few people are building AR/VR/MR yet alone running automated tests on such applications. Teams need to figure it out on their own.</li>
+<li>Teams must design their tests to account for both 2D and 3D interactions.</li>
+<li>Teams face an incredibly fragmented device market. Headsets, eyewear, and tactile interfaces have their own specifications and behavior. As in the early days of Android smartphones – everyone complies with and extends beyond the existing specification.</li>
+</ul>
+<p>With all these technical challenges, the biggest hurdle Erica and team faced was not technical. Her focus on quality ran headlong into the existing culture of ‘fail fast’. How did she convince research engineers to build in automated testing? It came down to convincing them that quality is a way to deepen and speed up the learning from the research itself.</p>
+<p>Erica went on to discuss how she fostered a learning culture including psychological safety, implementation of standards, and deep collaboration between developers and the QA team.</p>
+<h2 id="h-running-test-automation-on-mixed-reality"><strong>Running Test Automation on Mixed Reality</strong></h2>
+<p>The team at Mozilla implemented an entire test automation suite for testing their code builds. A large component of that automation involves visual testing, delivered via Applitools. Some of the benefits they received by visual testing AR, VR and MR applications include:</p>
+<ul>
+<li>Avoiding manual testing without the headset. Getting a user into the headset takes time. With visual testing, you can test in the browser.</li>
+<li>Visualization fosters collaboration between Developers and QA team. The team collaborates on what is correct in the baseline images and discuss changes as a team – a great way to speed up research learnings.</li>
+<li>Addressing device fragmentation – you can turn on / off certain snapshots depending on the device under test helping you deal with all the devices in a concise manner.</li>
+</ul>
+<p>While the variety of scenarios require a variety of tools, the one consistent was Applitools. Below are the three scenarios that the team at Mozilla has implemented:</p>
+<ul>
+<li>2D with Applitools &amp; Cypress – to test navigation, essentially, automating the testing of the chrome around the browser.</li>
+<li>3D on Android with Applitools &amp; OpenCV – This combination helps their team understand where objects are in space. If an object includes another object – you can isolate the object and focus solely on the object under test.</li>
+<li>360 Video with Applitools &amp; FFMPEG – This enables test frames in 360 video to be isolated visual validated.</li>
+</ul>
+<h2 id="h-what-s-next"><strong>What’s Next</strong></h2>
+<p>Wrapping up, Erica spoke about what happens beyond visual interactions and how this can be tested. One of the challenges up next: How do you automate the test of a controller that is supposed to vibrate with an interaction or test for voice interactions?</p>
+<p>AR, VR, and MR comprise a set of fast-evolving user experience technologies. Erica and her team sit among the lead group of quality engineers facing down the challenges that these technologies present.</p>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/Au7_Cg70YKuuODeVQwam-2alefanLogWocfvvbSjPDMcrQnlU0ZeLFbkPtLOXPvlpeicE7aMHa22qa6upXNCy0Cu-DMP_lSolmxR9K2lda1oCQB3cCwRpvTYqWC_axd4BALmOoO8" alt="AR"/></figure>
+<p>You can follow Erica on Twitter <a target="_blank" href="https://twitter.com/ericastanley" rel="noopener noreferrer">@ericastanley</a>.</p>
+<h3 id="h-watch-the-full-video"><strong>Watch the Full Video</strong></h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Applitools Day - Atlanta - Feb 13, 2020 - Erica Stanley - Mozilla - Mixed Reality Team" width="800" height="450" src="https://www.youtube.com/embed/idMTrYNsN8o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</figure>
+<p><em>This blog post was </em><a target="_blank" href="https://jaxenter.com/ar-vr-mr-visual-testing-172230.html" rel="noopener noreferrer"><em>previously posted on Jaxenter on July 1, 2020</em></a><em>.</em></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://applitools.com/blog/visual-testing-of-virtual-reality/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>1 Simple Trick To Massively Improve Automation Efficiency</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/1-simple-trick-to-massively-improve-automation-efficiency/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Efficiency]]></category>
+		<category><![CDATA[Improve]]></category>
+		<category><![CDATA[Massively]]></category>
+		<category><![CDATA[Simple]]></category>
+		<category><![CDATA[Trick]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/1-simple-trick-to-massively-improve-automation-efficiency/</guid>
+
+					<description><![CDATA[Automated UI testing is a daily struggle for efficiency and reliability. A single misconfigured line of code can cost teams]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Automated UI testing is a daily struggle for efficiency and reliability. A <a target="_blank" href="https://saucelabs.com/blog/how-to-optimize-a-test-and-make-it-560-percent-faster" rel="noopener noreferrer">single misconfigured line of code</a> can cost teams in hours of lost feedback time and test error triaging—potentially costing companies hundreds of thousands of dollars.</p>
+<p>In this case study we will see how interactions with only two web elements led to a 34% degradation in the test execution time. Afterwards, we will learn how to remove this inefficiency by simply keeping our element location timeout to a maximum of 20 seconds on mobile devices.</p>
+<h2>What Our Final Test Can Look Like</h2>
+<p></p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/6PpLnTAMAosDXpfKLR8nSd/2ca1fb98e979892116cfa2548ae01161/Nikolay_img2.png?fm=webp" alt="Nikolay img2" title="Nikolay img2"/></p>
+<p><i>Screenshot of the test metadata before optimizations</i></p>
+<h2>Trying to Find Element 1</h2>
+<p>In the screenshot below, we start looking for element 5015 at ~0:55.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/5WsOsB9y5mpDT7X1JJjqKw/51ca61331cc04b7f4e92b56cd00ba449/Nikolay_img3.png?fm=webp" alt="Nikolay img3" title="Nikolay img3"/></p>
+<p>And the test continues to look for this element until 02:12, at which point the test decides to move on.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/69nfqvAHAeHzKu0zNmGjFi/baecca036f0950f4efd73e3449589354/Nikolay_img4.png?fm=webp" alt="Nikolay img4" title="Nikolay img4"/></p>
+<h3>What Were These Commands Doing?</h3>
+<p>Looking at the locator, screenshots, and video, it’s obvious that the test was waiting for a spinner to disappear. After a closer analysis, it’s clear that the spinner is gone and the mobile app is in a ready state by 1:00.</p>
+<p>Afterwards, the test wastes 72 seconds waiting for a spinner to not reappear before proceeding with the next actions.</p>
+<h3>Inefficiency Cost</h3>
+<p><b>19%</b> = 72 / 377, trying to find a single element.</p>
+<h3>What’s The Solution?</h3>
+<p>First, simply decrease the amount of time that we wait for elements to disappear. 20 seconds per element on a mobile device is sufficient. If an app isn’t rendering in 20 seconds on a mobile device, we have a bigger problem. <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f64a.png" alt="🙊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Second, the logic to wait for a spinner to disappear is actually incorrect. The test should wait while the spinner is visible. When the spinner disappears, at that point the test can proceed. As a result, the test will only wait as long as necessary for the spinner to go away. </p>
+<h2>Trying to Find Element 2</h2>
+<p>There is another inefficient pattern in this test that’s dealing with element 5033. At 2:23 the test locates this element.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/2m7qlXoXzl8FbzgXEfA8ZT/f917e4d9766cefa0f22aa5318a1d139e/Nikolay_img5.png?fm=webp" alt="Nikolay img5" title="Nikolay img5"/></p>
+<p>After the test finds element 5033, it begins a cycle of calling the same three Selenium commands from 2:24.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/4pACCIA9d1etYxkmkMB3ll/3ca6f7a3dea6188a3bf8b231d62931a5/Nikolay_img6.png?fm=webp" alt="Nikolay img6" title="Nikolay img6"/></p>
+<p>This cycle repeats until 3:40 (76 seconds total), at which point a screenshot is captured and then the test is stopped.</p>
+<p><img src="https://images.ctfassets.net/czwjnyf8a9ri/67fyTh4RDTjNBYHexwXflm/61159695864f339c056af1685c8254b9/Nikolay_img7.png?fm=webp" alt="Nikolay img7" title="Nikolay img7"/></p>
+<h3>What Were These Commands Doing?</h3>
+<p>These commands were looking for some element that never appeared.</p>
+<h3>The Problem</h3>
+<p>The extremely common issue here is that there is no reason to waste 76 seconds looking for a single element. This is simply too long. As mentioned previously, 20 seconds on a mobile device is sufficient for 99% of cases for a page to render.</p>
+<h3>Inefficiency Cost</h3>
+<p><b>15%</b> = 56/377, wasted on looking for a single element.</p>
+<h3>What’s The Solution?</h3>
+<p>The solution is the same as above: decrease the timeout to 20 seconds maximum. What benefit does the test get if it spends 56 more seconds looking for an element?</p>
+<h2>Total Damage From Inefficiency</h2>
+<p>128 seconds out of 377 (34%) are spent on trying to locate only two elements! What’s even scarier is that this pattern is almost certainly applied throughout the entire organization as a result of the framework, likely costing teams dozens of hours every single day as a result of overexaggerated timeout values.</p>
+<p>The solution to this problem is elegantly simple. Set a 20 second timeout for all your element locators on a mobile application. For the large majority of cases this will be more than plenty. If we find that this is not sufficient and we keep seeing false positives, then we can increase the timeout.</p>
+<p>If you&#8217;re interested in more like this, check out my other post on <a target="_blank" href="https://saucelabs.com/blog/how-to-optimize-a-test-and-make-it-560-percent-faster" rel="noopener noreferrer">how to optimize a test and make it 560% faster</a>.
+</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/1-simple-trick-to-massively-improve-automation-efficiency">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Egregor Claims Responsibility for Barnes &#038; Noble Attack, Leaks Data</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-claims-responsibility-for-barnes-noble-attack-leaks-data/</link>
 		
@@ -807,103 +966,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>October is #LGBTQ History Month and October 11 was National Coming Out Day!  Our&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 16 Oct 2020 18:12:40 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[Coming]]></category>
-		<category><![CDATA[Day]]></category>
-		<category><![CDATA[ERG]]></category>
-		<category><![CDATA[History]]></category>
-		<category><![CDATA[LGBTQ]]></category>
-		<category><![CDATA[Month]]></category>
-		<category><![CDATA[National]]></category>
-		<category><![CDATA[October]]></category>
-		<category><![CDATA[PRIDE]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</guid>
-
-					<description><![CDATA[October is #LGBTQ History Month and October 11 was National Coming Out Day! 🏳️‍🌈 Our #PRIDE Employee Resource Group #ERG]]></description>
-										<content:encoded><![CDATA[
-<p>October is <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/lgbtq?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#LGBTQ</a> History Month and October 11 was National Coming Out Day! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f3f3-fe0f-200d-1f308.png" alt="🏳️‍🌈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Our <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/pride?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#PRIDE</a> Employee Resource Group <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/erg?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#ERG</a> at <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/accruent?refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">#Accruent</a> connects and creates a community for LGBTQ+ individuals &#038; their allies, and seeks to provide education, perspective, outreach, and resources to create a more&#8230; <a target="_blank" href="https://facebook.com/story.php?story_fbid=3316092801777124&#038;id=227818503937918&#038;refid=17&#038;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Apage_insights.%7B%22227818503937918%22%3A%7B%22page_id%22%3A227818503937918%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A227818503937918%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1602871960%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B3316092801777124%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A227818503937918%2C%22page_id%22%3A227818503937918%2C%22post_id%22%3A3316092801777124%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1604213999%3A7561438470450762924&#038;__tn__=%2As-R" rel="noopener noreferrer">More</a>
-</p>
-<p> <img loading="lazy" src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c267.0.1514.1536a/s75x225/121289689_3316092145110523_2782085661071101523_o.jpg?_nc_cat=109&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=5Kbz-A8pIRcAX_qap5W&#038;_nc_ht=scontent-lga3-2.xx&#038;_nc_tp=28&#038;oh=dc112ac8eb8bd919b577a7d1f8a82390&#038;oe=5FB27476" width="67" height="68" class="bs r" alt="Image may contain: 22 people, outdoor"><img loading="lazy" src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c0.245.1536.1558a/s75x225/121637616_3316092188443852_2657372423963690071_o.jpg?_nc_cat=102&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=t49gHaJ3A94AX-gWvIb&#038;_nc_ht=scontent-lga3-2.xx&#038;_nc_tp=28&#038;oh=245b7dc8471420757a0bc64b68280c5b&#038;oe=5FB52515" width="67" height="68" class="bs r" alt="Image may contain: 2 people, people standing and outdoor"><br />
-<br />
-<br /><a href="https://www.facebook.com/227818503937918/posts/3316092801777124">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The Deepfakes Lab: Detecting &#038; Defending Against Deepfakes with Advanced AI</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 14 Oct 2020 07:01:44 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Advanced]]></category>
-		<category><![CDATA[Deepfakes]]></category>
-		<category><![CDATA[Defending]]></category>
-		<category><![CDATA[Detecting]]></category>
-		<category><![CDATA[Lab]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/</guid>
-
-					<description><![CDATA[Detrimental lies are not new. Even misleading headlines and text can fool a reader.  However, the ability to alter reality]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Detrimental lies are not new. Even misleading headlines and text can fool a reader.  However, the ability to alter reality has taken a leap forward with “deepfake” technology which allows for the creation of images and videos of real people saying and doing things they never said or did. Deep learning techniques are escalating the technology’s finesse, producing even more realistic content that is increasingly difficult to detect.</p>
-<p>Deepfakes began to gain attention when a fake pornography video featuring a “Wonder Woman” actress was released on Reddit in late 2017 by a user with the pseudonym “deepfakes.” Several doctored videos have since been released featuring high-profile celebrities, some of which were purely for entertainment value and others which have portrayed public figures in a demeaning light. This presents a real threat. The internet already distorts the truth as information on social media is presented and consumed through the filter of our own cognitive biases.</p>
-<p>Deepfakes will intensify this problem significantly. Celebrities, politicians and even commercial brands can face unique forms of threat tactics, intimidation, and personal image sabotage. The risks to our democracy, justice, politics and national security are serious as well. Imagine a dark web economy where deepfakers produce misleading content that can be released to the world to influence which car we buy, which supermarket we frequent, and even which political candidate receives our vote. Deepfakes can touch all areas of our lives; hence, basic protection is essential.</p>
-<h2><strong>How are Deepfakes Created?</strong></h2>
-<p>Deepfakes are a cutting-edge advancement of Artificial Intelligence (AI) often leveraged by bad actors who use the technology to generate increasingly realistic and convincing fake images, videos, voice, and text. These videos are created by the superimposition of existing images, audio, and videos onto source media files by leveraging an advanced deep learning technique called “Generative Adversarial Networks” (GANs). GANs are relatively recent concepts in AI which aim to synthesize artificial images that are indistinguishable from authentic ones. The GAN approach brings two neural networks to work simultaneously: one network called the “generator” draws on a dataset to produce a sample that mimics it. The other network, known as the “discriminator”, assesses the degree to which the generator succeeded. Iteratively, the assessments of the discriminator inform the assessments of the generator. The increasing sophistication of GAN approaches has led to the production of ever more convincing and nearly impossible to expose deepfakes, and the result far exceeds the speed, scale, and nuance of what human reviewers could achieve.</p>
-<h2><strong>McAfee Deepfakes Lab Applies Data Science Expertise to Detect Bogus Videos </strong></h2>
-<p>To mitigate this threat, McAfee today announced the launch of the McAfee Deepfakes Lab to focus the company’s world-class data science expertise and tools on countering the  deepfake menace to individuals, organizations, democracy and the overall integrity of information across our society. The Deepfakes Lab combines computer vision and deep learning techniques to exploit hidden patterns and detect manipulated video elements that play a key role in authenticating original media files. <em> </em></p>
-<p>To ensure the prediction results of the deep learning framework and the origin of solutions for each prediction are understandable, we spent a significant amount of time visualizing the layers and filters of our networks then added a model-agnostic explainability framework on top of the detection framework. Having explanations for each prediction helps us make an informed decision about how much we trust the image and the model as well as provide insights that can be used to improve the latter.</p>
-<p>We also performed detailed validation and verification of the detection framework on a large dataset and tested detection capability on deepfake content found in the wild. Our detection framework was able to detect a recent deepfake video of Facebook’s Mark Zuckerberg giving a brief speech about the power of big data. The tool not only provided an accurate detection score but generated heatmaps via the model-agnostic explainability module highlighting the parts of his face contributing to the decision, thereby adding trust in our predictions.</p>
-<p>Such easily available deepfakes reiterate the challenges that social networks face when it comes to policing manipulated content. As advancements in GAN techniques produce very realistic looking fake images, advanced computer vision techniques will need to be developed to identify and detect advanced forms of deepfakes. Additionally, steps need to be taken to defend against deepfakes by making use of watermarks or authentication trails.</p>
-<h2><strong>Sounding the Alarm</strong></h2>
-<p>We realize that news media do have considerable power in shaping people’s beliefs and opinions. As a consequence, their truthfulness is often compromised to maximize impact. The dictum “a picture is worth a thousand words” accentuates the significance of the deepfake phenomenon. Credible yet fraudulent audio, video, and text will have a much larger impact that can be used to ruin celebrity and brand reputations as well as influence political opinion with terrifying implications. Computer vision and deep learning detection frameworks can authenticate and detect fake visual media and text content, but the damage to reputations and influencing opinion remains.</p>
-<p>In launching the Deepfakes Lab, McAfee will work with traditional news and social media organizations to identify malicious deepfakes videos during this crucial 2020 national election season and help combat this new wave of disinformation associated with deepfakes.</p>
-<p>In our next blog on deepfakes, we will demonstrate our detailed detection framework. With this framework, we will be helping to battle disinformation and minimize the growing challenge of deepfakes.</p>
-<p><strong>To engage the services of the McAfee Deepfakes Lab, news and social media organizations may submit suspect video for analysis by sending content links to </strong><a target="_blank" href="https://www.mcafee.com/mailto:media@mcafee.com" rel="noopener noreferrer"><strong>media@mcafee.com</strong></a><strong>. </strong></p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/security-operations/the-deepfakes-lab-detecting-defending-against-deepfakes-with-advanced-ai/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -912,5 +974,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-26 05:38:16 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-26 21:01:15 by W3 Total Cache
 -->
