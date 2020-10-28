@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 26 Oct 2020 22:26:57 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 27 Oct 2020 19:08:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,76 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Election 2020: Lookout for Fake News Before and After the Election &#124; McAfee Blogs Election 2020: Lookout for Fake News Before and After the Election</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-lookout-for-fake-news-before-and-after-the-election-mcafee-blogs-election-2020-lookout-for-fake-news-before-and-after-the-election/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2020 19:08:48 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Election]]></category>
+		<category><![CDATA[Fake]]></category>
+		<category><![CDATA[Lookout]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-lookout-for-fake-news-before-and-after-the-election-mcafee-blogs-election-2020-lookout-for-fake-news-before-and-after-the-election/</guid>
+
+					<description><![CDATA[  Election 2020: Keep on the Lookout for Fake News Before and After the Election As the news and conversations]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p> </p>
+<h2>Election 2020: Keep on the Lookout for Fake News Before and After the Election</h2>
+<p>As the news and conversations leading up to Election Day intensify, and with early voting already in full swing, the flood of misinformation and outright disinformation online continues—and will undoubtedly continue in the days after as the results are tabulated and announced.</p>
+<p>Perhaps you’ve seen some instances of it yourself. For instance, one recent news story reported that <a target="_blank" href="https://www.snopes.com/fact-check/ballots-california-landfill/" rel="noopener noreferrer">numerous legitimate social media accounts have shared misinformation about the vote</a>. An example: photos of old, empty election envelopes that were properly disposed of after the 2018 election, used to make the false claim that they were uncounted votes from the 2020 election. It’d be naïve for us to think that postings like this, and others, would suddenly come to a halt on Election Day.</p>
+<h3>We can expect election misinformation to continue even after Election Day</h3>
+<p>I touched upon this topic in my earlier blog about <a target="_blank" href="https://www.mcafee.com/blogs/consumer/election-2020-keep-misinformation-from-undermining-the-vote/" rel="noopener noreferrer">how misinformation online</a> can undermine our election, yet it’s worthy of underscoring once again. It’s easy for our attention to focus on the days leading up to the election, however, this election stands to be like few others as the high volume of mail-in ballots may keep us from knowing who the certified victor is for possibly weeks after Election Day.<br />How that timeline plays out in practice remains to be seen, yet we should all prepare ourselves for a glut of continued misinformation and disinformation that aims to cloud the process. Feeds will get filled with it, and it’ll be up to us to make sense of what’s true and what’s false out there.</p>
+<h3>Who is fact checking posts on social media sites?</h3>
+<p>Sadly, much of onus for fact-checking will fall on us, particularly when <a target="_blank" href="https://www.forbes.com/sites/petersuciu/2019/10/11/more-americans-are-getting-their-news-from-social-media/#5021c96c3e17" rel="noopener noreferrer">55% of Americans say</a> they “often” or “sometimes” get their news via social media. There are a few reasons why:</p>
+<p>• First, <a target="_blank" href="https://www.poynter.org/fact-checking/2020/fact-checkers-support-twitter-labels-but-more-than-that-they-want-transparency/" rel="noopener noreferrer">social media platforms are new to fact-checking</a> and their processes are still developing, particularly around the transparency of their fact-checking methodology;<br />• Secondly, <a target="_blank" href="https://www.foxnews.com/media/facebook-mark-zuckerberg-twitter-fact-checking-trump" rel="noopener noreferrer">corporate leadership of the two major social media platforms</a> have stated differing views about fact checking on their platforms;<br />• And third, the <a target="_blank" href="https://www.visualcapitalist.com/every-minute-internet-2020/" rel="noopener noreferrer">sheer volume of posts</a> that these platforms pump out in any given day (or minute!) make it difficult to fact-check posts at scale.</p>
+<p>Where does that leave us? In unprecedented times.</p>
+<p>Historically, we’ve always had to be savvy consumers of news, where a balanced diet of media consumption allowed us to develop a clearer picture of events. Yet now, in a time of unfiltered social media, news comes to us from a multitude of publishers, bloggers, and individuals. And within that mix, it’s difficult to immediately know who the editorial teams behind those stories are—what their intentions, credentials, and leanings are—and if they’re drawing their information from bona fide, verified sources. The result is that we must read and view everything today with an increased level of healthy skepticism.</p>
+<h3>Fact-checking your news</h3>
+<p>That takes work, yet my recent blog on <a target="_blank" href="https://www.mcafee.com/blogs/consumer/spot-fake-news-and-misinformation-in-your-social-media-feed/" rel="noopener noreferrer">How to Spot Fake News and Misinformation in Your Social Media Feed</a> offers you a leg up with several pointers to help you sniff out potential falsehoods.<br />In addition, here’s a short list of fact-checking resources that you can turn to when something questionable comes up in your feed. Likewise, they make for good browsing even if you don’t have a specific story that you want to check up on. You can keep these handy:</p>
+<p>• <a target="_blank" href="https://www.politifact.com/" rel="noopener noreferrer">PolitiFact</a> from the Poynter Institute<br />• <a target="_blank" href="https://www.factcheck.org/" rel="noopener noreferrer">FactCheck.org</a> from the Annenberg Public Policy Center<br />• <a target="_blank" href="https://apnews.com/hub/ap-fact-check" rel="noopener noreferrer">AP News Fact Check</a> from the Associated Press<br />• <a target="_blank" href="https://www.reuters.com/fact-check" rel="noopener noreferrer">Reuters Fact Check</a> from Reuters News<br />• <a target="_blank" href="https://www.snopes.com/" rel="noopener noreferrer">Snopes.com</a> from Snopes Media Group</p>
+<h3>Stay vigilant</h3>
+<p>With the election just days away and a result that may not be declared at the end of Election Day, we all need to scrutinize the news that presents itself to us, particularly on social media. Fact-checking what you see and read, along with cross-referencing it with multiple, reputable sources, will help you get the best information possible—which is absolutely vital when it comes time to cast your ballot.</p>
+<h3>Stay Updated</h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/election-2020-lookout-for-fake-news-before-and-after-the-election/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Microsoft IE Browser Death March Hastens</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/microsoft-ie-browser-death-march-hastens/</link>
 		
@@ -522,350 +592,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Buyer&#8217;s Guide to Enterprise Service Management Products</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/buyers-guide-to-enterprise-service-management-products/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 19 Oct 2020 00:15:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Buyers]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[Guide]]></category>
-		<category><![CDATA[Management]]></category>
-		<category><![CDATA[products]]></category>
-		<category><![CDATA[Service]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=3574</guid>
-
-					<description><![CDATA[  Overview   Enterprise Service Management (ESM) is a relatively new product category that applies IT Service Management (ITSM) principles,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p> </p>
-<h3>Overview</h3>
-<p> </p>
-<p>Enterprise Service Management (ESM) is a relatively new product category that applies IT Service Management (ITSM) principles, practices, and tools to non-IT parts of the business, such as human resources, finance, travel, and facilities. These technologies and practices were originally developed to automate the provisioning of IT services and handle large volumes of IT requests quickly and efficiently.</p>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/how-extend-it-service-management-whole-business" rel="noopener noreferrer">ESM takes ITSM a few steps further</a> and is proving to be transformational for organizations of every size. Its implementations are producing extraordinary gains in business efficiency, productivity, and customer satisfaction, and supporting the drive for <a target="_blank" href="https://www.microfocus.com/en-us/assets/it-operations-management/digital-transformation-and-esm" rel="noopener noreferrer">back-office digital transformation</a>.</p>
-<p>For most organizations, the <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/extend-it-service-management?lx=XrrwBl" rel="noopener noreferrer">benefits of ESM</a> make perfect sense. But when teams begin thinking about adoption, two issues often arise that stall their progress:</p>
-<ol>
-<li>How do you choose suitable projects that will deliver meaningful value quickly and succeed within your organizational culture?</li>
-<li>How do you find the ESM products that will work best for your projects, in your environment?</li>
-</ol>
-<p>This guide addresses those two issues. It provides an overview of ESM’s value proposition and explains the important market trends to consider as you weigh your ESM options. It steps you through seven key considerations, including executive sponsorship, organizational culture, and process readiness, that will help you find the kinds of projects and products that are most likely to help you deliver a win, given your organization’s current state of ESM maturity. Finally, it offers specific recommendations about what you should ask in your request for proposal (RFP) to ensure that the ESM tool vendors you evaluate will supply the information you need to make a smart decision.</p>
-<p> </p>
-<h3>What it is and why it matters</h3>
-<p> </p>
-<p>ESM has its origins in ITSM, but there are important differences. </p>
-<p>Most ITSM tools automate important IT service workflows, processes, and tasks—from putting new servers into operation and managing network users to patching, upgrading, and retiring hardware and software. Employees may <a target="_blank" href="https://techbeacon.com/enterprise-it/how-ku-transformed-its-health-system-lean-it-service-management" rel="noopener noreferrer">experience traditional ITSM</a> when they go to their company intranet portal to request password resets, access to secure applications, or a new laptop.</p>
-<p>Before service automation with ITSM was available, IT teams used shared email boxes and spreadsheets to receive and track such requests. The ESM approach is the same—but for different outcomes. </p>
-<h4>The ESM approach</h4>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/8-steps-get-started-enterprise-service-management" rel="noopener noreferrer">ESM applies this same approach</a> to non-IT services. An ESM tool <a target="_blank" href="https://techbeacon.com/enterprise-it/how-extend-it-service-management-whole-business" rel="noopener noreferrer">goes beyond the IT help desk</a>, allowing any department to provide its own services with similar efficiency. Employees may experience ESM when they use portals and apps to do the following:</p>
-<ul>
-<li>Book business travel</li>
-<li>Report faulty window shades</li>
-<li>Apply for open jobs</li>
-<li>Find their pay stubs</li>
-<li>Request time off</li>
-</ul>
-<p>In organizations without ESM, employees rely on email or the phone to request such things from different departments.</p>
-<h4>ESM adoption: Here and growing fast</h4>
-<p>Some degree of ESM is already showing up in most enterprises. According to a 2019 Enterprise Management Associates (EMA) study, &#8220;<a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/automation-ai-and-analytics-reinventing-itsm?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">Automation, AI, and Analytics: Reinventing ITSM,</a>&#8221; 87% of enterprises had some level of ESM deployed to enhance customer and employee satisfaction.</p>
-<p></p>
-<p>Another recent EMA study, &#8220;<a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/enterprise-service-management?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">Enterprise Service Management, It&#8217;s Closer Than You Think</a>,&#8221; found that &#8220;ESM is the natural next step for organizations looking to cut costs while improving end-user service and operational efficiencies.&#8221; The C-suite is <a target="_blank" href="https://techbeacon.com/enterprise-it/5-ways-overcome-practical-political-challenges-esm" rel="noopener noreferrer">leading the charge to adopt ESM</a>, in pursuit of the enormous business benefits it can deliver.</p>
-<h4>Which problems does ESM solve?</h4>
-<p>By automating different aspects of service delivery and support, your organization can support the needs of customers and employees more consistently, more quickly, and more adaptively. According to the 2019 HDI Trends report, &#8220;<a target="_blank" href="https://www.microfocus.com/en-us/assets/it-operations-management/how-ai-is-enabling-enterprise-service-management" rel="noopener noreferrer">How AI Is Enabling Enterprise Service Management</a>,&#8221; the primary driver for ESM adoption is to improve the customer experience. </p>
-<p>&#8220;Employee satisfaction increased in 52% of organizations that both measure employee satisfaction and have expanded service management beyond IT,&#8221; the report said.</p>
-<p>ESM addresses many of the problems that come with organizational growth and expansion:</p>
-<ul>
-<li>It allows employees to handle increasing volumes of work comfortably.</li>
-<li>It keeps customer and employee requests from falling through the cracks.</li>
-<li>It provides high-quality support at lower costs by using new AI-enabled capabilities like chatbots.</li>
-<li>It consolidates multiple manual tools into a single service management platform.</li>
-<li>It overcomes the limitations of manual operations, enhancing quality, speed, and scalability.</li>
-<li>It breaks down the barriers between siloed services, giving all employees access to the tools and information they need to be productive—particularly important after an acquisition or merger.</li>
-<li>It gives customers and employees self-service access to the support, tools, and resources they need, without requiring any human interaction.</li>
-</ul>
-<h4>Key takeaways</h4>
-<ul>
-<li>ESM is related to ITSM, but ESM automates tasks for departments outside of IT, including HR, finance, travel, and utilities.</li>
-<li>ESM helps cut costs while improving end-user service and operational efficiencies, which is why the C-suite is so interested in adopting it.</li>
-<li>After implementation, employee satisfaction and productivity usually improve by allowing employees to handle more work and by giving them self-service access to the information and tools they need to do their jobs.</li>
-</ul>
-<p> </p>
-<h3>Types of tools and capabilities</h3>
-<p> </p>
-<p>Enterprises typically start providing services with desktop productivity tools such as shared email boxes, spreadsheets, and shared folders. But the limitations of these tools soon become apparent, especially when they must support time-sensitive manual processes that require consistent, error-free execution 24/7, or when they can&#8217;t generate useful metrics for troubleshooting, monitoring, or optimizing.</p>
-<p>The resulting chaos is the root cause of many complaints about slow service, unresponsive service teams, lost requests, and delivery errors. When the business decides that&#8217;s no longer acceptable, it often looks for an ESM tool.</p>
-<p><img loading="lazy" alt="Replacing the email box" data-delta="2" data-fid="12515" data-media-element="1" height="450" src="https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/esm_buyers_guide_-_mod_2.png" title="Replacing the email box" typeof="Image" width="800"/></p>
-<p>&#8220;What the ESM tool is doing is replacing the shared email box. Nothing more complicated than that,&#8221; said <a target="_blank" href="https://twitter.com/CharlesTBetz" rel="nofollow noopener noreferrer">Charles Betz</a>, principal analyst at the research firm Forrester. Even a basic ESM tool can overcome problems like emails getting lost, overlooked, or misrouted. &#8220;All ITSM tools could potentially be used for ESM, but only a few can go beyond a standard help desk,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/michaelpott/" rel="nofollow noopener noreferrer">Michael Pott</a>, senior product marketing manager at Micro Focus.</p>
-<h4>Key tool capabilities</h4>
-<p>Tools are already available that can provide ESM augmented with:</p>
-<ul>
-<li>Integrated machine learning</li>
-<li>Advanced analytics</li>
-<li>Enhanced platform intelligence, which refers to the boost in data-informed decision making provided by the more advanced ESM platforms </li>
-<li>AI-enabled capabilities</li>
-<li>Predictive technology</li>
-</ul>
-<p>All of these enhancements can help in different ways to deliver higher levels of service to employees and customers.</p>
-<p>Vendors are also beginning to provide more non-IT modules that are designed for the services provided by departments outside of IT. You&#8217;ll find new workflows and portals for HR, finance, legal, facilities, and many other functions.</p>
-<h4>What ESM platforms offer</h4>
-<p>A few ESM platforms have emerged to support this growing diversity, and, not surprisingly, they are tightly integrated with all of the individual ESM products offered by each platform vendor. But these platforms also allow you to plug in the ESM tools you may already own, and they interoperate nicely with the ESM products offered by most other vendors.</p>
-<p>(To get acquainted with the top ESM vendors, review<a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/forrester-wave-esm-q419?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer"> Forrester Wave: Enterprise Service Management, Q4 2019</a>. Forrester analysts used 23 criteria to assess the top 15 ESM providers, and this will help you understand the kinds of offerings available to you.)</p>
-<h4>Buying strategies</h4>
-<p>When evaluating products, you need to think about how a given product fits in with the direction of the overall market, as well as how it aligns with your plans.</p>
-<p>&#8220;Look at where you are today, think about where you want to be a year from now, and start to buy forward, but not too far forward,&#8221; said <a target="_blank" href="https://twitter.com/JayneGroll" rel="nofollow noopener noreferrer">Jayne Groll</a>, CEO of the DevOps Institute. The ESM marketplace is &#8220;moving very quickly, and it&#8217;s hard to predict who will be buying who, and what that might imply for your investment,&#8221; she said.</p>
-<p>Two-year planning makes the best sense from both a cost and support perspective.</p>
-<p>It&#8217;s also smart to buy tools that will work in your current environment, not things that only support your long-range plans. &#8220;If you&#8217;re not in the cloud now and don&#8217;t have plans to move there any time soon, don&#8217;t buy something designed for the cloud just because you hope to get there in five years,&#8221; advised Groll.</p>
-<p>It&#8217;s far better to buy something that will deliver a win for you today and help you get into the cloud tomorrow.</p>
-<h4>Key takeaways</h4>
-<ul>
-<li>Tools are already available that can provide ESM augmented with integrated machine learning, advanced analytics, enhanced platform intelligence, AI-enabled capabilities, and predictive technology.</li>
-<li>Vendors are increasingly providing department-specific ESM tools, for human resources or finance, for example.</li>
-<li>Make sure any platforms you&#8217;re considering platforms allow you to plug in the ESM tools you may already own and interoperate with as many other tools as possible.</li>
-<li>Don&#8217;t get too far ahead of yourself; think in terms of a two-year planning cycle and ensure tools can handle what you already are doing, not what may happen five years from now.</li>
-</ul>
-<p> </p>
-<h3>Top 5 ESM technology and market trends</h3>
-<p> </p>
-<p>When evaluating ESM platforms, think about how a given product fits in with the direction of the overall market, as well as how it aligns with your plans. The vendor landscape has solidified, and the market is competing vigorously for your business.</p>
-<p>Here are the top five technology and market trends in Enterprise Service Management (ESM), and recommendations from experts on how to make smart buying decisions and equip your teams with the skills they&#8217;ll need in the future. </p>
-<p><strong>1. AI, automation, and machine learning technologies are advancing rapidly</strong></p>
-<p>Artificial intelligence (AI) has been around for 50 years, but actual business adoption is fairly new. <a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/automation-ai-and-analytics-reinventing-itsm?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">ESM vendors have been adding elements of AI,</a> automation, and machine learning to their offerings. &#8220;AI plus automation is a logical equation,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/dennisdrogseth/" rel="nofollow noopener noreferrer">Dennis Drogseth</a>, vice president of Enterprise Management Associates (EMA). &#8220;AI gives you insight, and automation gives you action. Action without insight equals train wrecks. Insight without action doesn’t help you very much.&#8221;</p>
-<p>As much as people would like to embrace the benefits of AI and automation, the fierce competition and pace of development in this area can be paralyzing. While there are many different kinds of AI and automation, it will eventually come together as &#8220;a new landscape, not a single direction,&#8221; Drogseth said.</p>
-<p><img loading="lazy" alt="Insight plus action" data-delta="1" data-fid="12516" data-media-element="1" height="450" src="https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/esm_buyers_guide_-_mod_3_.png" title="Insight plus action" typeof="Image" width="800"/></p>
-<p>It&#8217;s important to get started now, even though the landscape is still developing. &#8220;I tell my clients, the sooner you jump in the pool and start swimming, the sooner you&#8217;ll be able to take advantage of it,&#8221; said <a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a>, principal of Tedder Consulting. Your team will gain experience, your organization will start to reap benefits, and you will be ready to use the innovations when they hit the street.</p>
-<p><strong>2. AIOps is bringing service management under a single pane of glass</strong></p>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/top-10-predictions-ai-it-operations" rel="noopener noreferrer">Artificial intelligence for IT operations</a> (AIOps) technology is changing the service management game by allowing you to control all your service management capabilities under a single pane of glass. &#8220;We&#8217;ve talked about it for years, but it&#8217;s finally here,&#8221; said Tedder. &#8220;AIOps platforms let you bring together all of your network monitoring, operations monitoring, and application portfolio monitoring, do some correlation, and visualize it together,&#8221; he said.</p>
-<p>In service management, the big advantage this gives you is faster insight, which leads to improved quality. You can focus your efforts on the most important things that are happening, &#8220;and when something goes wrong you can hit pause much quicker,&#8221; said Tedder.</p>
-<p><strong>3. ESM is integrating with DevOps</strong></p>
-<p>The top ESM platforms are designed for maximum interoperability, including most enterprise DevOps tools. This is crucial for long-term success. &#8220;You must be able to integrate ESM with the application development lifecycle,&#8221; said Pott. This will let you use the principles from ITSM to manage a variety of services, confident that all of the technology underpinnings—your ESM and DevOps tools— will work harmoniously together.</p>
-<p>&#8220;What you’re doing in DevOps needs to fit in with service management, at the end of the day,&#8221; said Tedder. &#8220;Service management ensures you&#8217;re delivering value. And<a target="_blank" href="https://techbeacon.com/devops/devops-how-deliver-services-not-just-products" rel="noopener noreferrer"> DevOps is actually about delivering a complete value stream.</a>&#8221; </p>
-<p>Tedder finds that many people still think that DevOps is somehow separate from ESM or ITSM. “I can’t say this strongly enough: DevOps is ITSM. It’s just a different approach—but there’s no philosophical, technical, or conceptual reason why DevOps and ITSM can’t get along,” he said.</p>
-<p><strong>4. ESM will manage services pre-cloud and in the cloud</strong></p>
-<p>&#8220;The cloud will be a huge influence on the future direction of ESM development,&#8221; said Groll. &#8220;After all, you already need to manage and deliver services pre-cloud as well as in private, public, and hybrid clouds. ESM vendors are working to make that easier.&#8221;</p>
-<p>Many ESM apps are cloud-native—built specifically for the cloud—but your organization will probably use them along with other kinds of apps already in place in your environment, including on the mainframe.</p>
-<p>All of that affects how you&#8217;ll manage services now and in the future. &#8220;You&#8217;ll need specific skills to get the proper relationship with the cloud, and you&#8217;ll need an ESM platform that enables your team to be successful,&#8221; Groll said.</p>
-<p><strong>5. Expect to see more vertical-specific integrations</strong></p>
-<p>EMA&#8217;s Drogseth expects platform evolution to include vertical-specific integrations that move beyond reporting. Vendors are moving toward intelligent ESM platforms with good analytics, service modeling, and a core platform specialized for use in specific verticals. &#8220;This movement is already underway, and is not very far off,&#8221; he said.</p>
-<h4>Key takeaways</h4>
-<p>These are the five most important trends to consider for your ESM tools:</p>
-<ul>
-<li>AI, automation, and machine learning technologies are advancing rapidly</li>
-<li>AIOps is pulling service management for all your systems into one platform</li>
-<li>ESM is integrating with DevOps</li>
-<li>ESM will manage services both on-premises and in the cloud</li>
-<li>Expect to see more industry-specific integrations</li>
-</ul>
-<h3><a target="_blank" name="questions" rel="noopener noreferrer"></h3>
-<h3>7 key questions to ask</h3>
-<p>When ESM consultants first get started with a new enterprise client, they walk through several foundational considerations before they discuss products or issue a request for proposal (RFP). This helps the consultants determine the scope of the project, the readiness of the organization, and the strategy that will deliver a win.</p>
-<p>The process is also highly instructive for the client, or should be, as it often reveals serious issues they will need to address before any implementation begins.</p>
-<p>Here are seven questions you should consider before beginning your search for an ESM vendor.</p>
-<p><strong>1. What is your current state?</strong></p>
-<p>What do you already have that you will need to integrate with your new ESM system? Interoperability is the key to a successful implementation, so take an inventory of all of apps and tools that will be involved. This will become part of your RFP.</p>
-<p><strong>2. Where are you in the service management maturity curve?</strong></p>
-<p>Organizations fall into three general levels of service management maturity, according to    Drogseth. Projects that match your maturity level have the best chance for success.</p>
-<p><strong><em>Level 1: You&#8217;re just getting started</em></strong></p>
-<p>If you&#8217;re new to ESM, start with a basic non-IT workflow that will support multiple stakeholders. This will give you a measurable improvement over the manual processes currently in place, and your team gains valuable experience that will prepare them for more advanced projects.</p>
-<p><strong><em>Level 2: You have basic service management in a few areas of the organization</em></strong></p>
-<p>If you already have a few successful ESM implementations under your belt, you are ready to get more involved with process automation. Get into a &#8220;service-centric mindset, think services, and define services. Then look for a tool to support this, with service modeling integrations,&#8221; said Pott. </p>
-<p>You might be thinking about <a target="_blank" href="https://techbeacon.com/app-dev-testing/key-chatbot-success-high-quality-conversations" rel="noopener noreferrer">adding chatbots</a>—a popular first AI project. But be aware that chatbot implementations require a surprising amount of upfront preparation. &#8220;Chatbots can&#8217;t work without databases full of current knowledge and well-documented business processes,&#8221; said Pott.</p>
-<p>&#8220;This can be very discouraging to the new user, who thinks that the automation tool will do most of the work and all they have to do is install it,&#8221; said Tedder. &#8220;Many organizations simply can&#8217;t adopt AI technology because they are not already managing knowledge.&#8221; </p>
-<p>You must first define a function or process in a way that is repeatable, to make it something that AI can execute. &#8220;If you haven&#8217;t already defined services in terms of business outcomes, then how can you program predictive tech to make the right choice when faced with a set of circumstances?&#8221; he said.</p>
-<p>If your organization isn&#8217;t quite ready for chatbots, Tedder suggests starting with a smaller AI project that takes weeks, rather than months, to implement. Show a small incremental value, and continue to build on that in successive projects. In a couple of years, you will have everything in place that you wanted.</p>
-<p><strong><em>Level 3: You already have highly advanced ESM in place</em></strong></p>
-<p>If you are well underway with ESM, consider adding new capabilities and advanced technologies such as:</p>
-<p>Companies with a well-established ESM culture are prepared to use AI capabilities for quite a few things, according to <a target="_blank" href="https://twitter.com/msitsm" rel="nofollow noopener noreferrer">Phyllis Drucker</a>, senior consultant at Linium. &#8220;If you have lots of current data at hand already,&#8221; she said, &#8220;upgrading to a tool with AI, machine learning, or predictive analytics is a great next step&#8221; for projects such as:</p>
-<p><strong>3. What are your priorities and project goals?</strong></p>
-<p>What is your scope? Your intent? How do you envision service management in your organization? These are the big questions you need to answer before looking for a tool, according to Forrester&#8217;s Betz. </p>
-<p><img loading="lazy" alt="Why ESM fails" data-delta="1" data-fid="12517" data-media-element="1" height="450" src="https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/_esm_buyers_guide_-_mod_4.png" title="Why ESM fails" typeof="Image" width="800"/></p>
-<p>Unfortunately, this may be one of the hardest areas to reach agreement on. According to Linium&#8217;s Drucker, one of the most common reasons <a target="_blank" href="https://techbeacon.com/enterprise-it/why-esm-fails-7-sure-fire-ways-kill-your-project" rel="noopener noreferrer">why ESM initiatives fail </a>is an inability to come to agreement on the objectives. Here are the warning signs that your ESM initiative is headed for disaster:</p>
-<ul>
-<li>Inability to <strong>agree on the basics</strong>: how the technology is to be used and the desired outcome for the effort.</li>
-<li><strong>Analysis paralysis</strong>: people getting too deep in the weeds to see the big picture.</li>
-<li>Inability to make a <strong>final decision on requirements</strong>.</li>
-</ul>
-<p>These problems aren&#8217;t unique to ESM initiatives—they can crop up in different kinds of projects across the entire organization. But they are greatly intensified in automation projects, when people can&#8217;t even agree on what they want the automation to do or which processes should be automated.</p>
-<p>&#8220;Imagine trying to use automation to add a record to the configuration management database automatically when there&#8217;s no governance documenting how an item can and should be added,&#8221; said Drucker.</p>
-<p>The best way to solve this problem is to have the right sponsor and core team for the project. They can use their organizational authority and domain expertise to drive decision-making.</p>
-<p><strong>4. What do you really need?</strong></p>
-<p>Before you start shopping, see what tools you might already have in the organization. Teams are not always aware of the products others are using.</p>
-<p>EMA&#8217;s Drogseth advised against automatically reaching for the tools that come out on top in analyst reports. &#8220;Those reports can help you understand the different options, but you need to consider your priorities and requirements, and choose a tool that has what you actually need,&#8221; he said.</p>
-<p>Think about things like:</p>
-<ul>
-<li>Specific functionality</li>
-<li>Ease of deployment</li>
-<li>Integration readiness</li>
-<li>Integration with service-modeling capabilities</li>
-<li>Stakeholders you will need to support</li>
-</ul>
-<p><strong>5. Do you have organizational or cultural factors that could inhibit success?</strong></p>
-<p>Departments outside of IT may be resistant to ESM because they do not understand what the technology can do and how they might benefit. Betz has identified two common misperceptions about ESM in non-IT departments:</p>
-<p><strong>ESM is really just another name for ITSM.</strong> It is owned and governed by IT, so our department&#8217;s requirements will not be properly understood.</p>
-<p>To address this misperception, help stakeholders understand that ESM does not belong to IT. Instead, it is the extension of ITSM principles into more general workloads—solving business problems—rather than managing networks, servers, and password changes.</p>
-<p><strong>ESM automations and robotics will ultimately replace the teams that provide services today.</strong></p>
-<p>This fear is rooted in a generalized dread of automation, machine learning, and <a target="_blank" href="https://techbeacon.com/enterprise-it/will-ai-take-your-it-operations-job" rel="noopener noreferrer">robotics as eventual replacements for human beings</a> in the workforce.</p>
-<p>To address this fear, help stakeholders understand that an ESM tool does not provide service. It is simply a unified capture point for people&#8217;s requests, which can route those requests to the people who can take action on them. ESM won&#8217;t replace a business user&#8217;s core systems; it simply replaces the shared mailbox where those requests are sent.</p>
-<p>&#8220;The proper organizational culture is a vital component of success,&#8221; EMA&#8217;s Drogseth said. Where the people providing services are not focused solely on service desk activities, but are aligned with business outcomes and business performance, they tend to be much more progressive about ESM. They are more willing to leverage analytics, and unafraid to &#8220;let automation drive an entire process, rather than requiring six levels of approval,&#8221; he said.</p>
-<p>This kind of culture &#8220;ultimately starts in the executive suite—usually with the CIO—who defines how people will share data and work together, and determines how flexible people can be, rather than how siloed,&#8221; said Drogseth.</p>
-<p>If you have this kind of culture already, you are well-positioned for success. <a target="_blank" href="https://techbeacon.com/enterprise-it/5-ways-overcome-practical-political-challenges-esm" rel="noopener noreferrer">If you have a less progressive culture</a>, you will need the help of the right sponsor or your project will fail.</p>
-<p><strong>6. Who is your sponsor, and how actively will they support ESM?</strong></p>
-<p>The number one cause of poor experiences with ESM is a poor adoption strategy, followed by a lack of communication before and throughout the effort, and a lack of backing for the project, according to Linium&#8217;s Drucker. The project&#8217;s core team is responsible for developing a solid adoption strategy and proper communication plan. But from the outset, that core team must have the right kind of sponsor who can supply active, visionary, executive-level support for the long haul.</p>
-<p>Without the right level of sponsorship, you won’t have cooperation across the different areas of the business. Consultant Tedder said that in small- to mid-size companies, CEOs are the best ESM project sponsors. For global enterprises, the CIO and CMO often jointly sponsor such projects. &#8220;This seems to be a naturally evolving partnership that works well,&#8221; said Tedder.</p>
-<p>You need the C-Suite backing you up because they&#8217;re the ones responsible for overall business performance. The right sponsor has the power to act decisively as well as to resolve any conflicts and cultural issues. They&#8217;ll make sure that ESM becomes a long-term effort that continues to add value to the business.</p>
-<p><strong>7. Can you build the right kind of team?</strong></p>
-<p>To succeed, you need a mix of executive leadership, process and political alignment, and strong mid-level management teams—architects, <a target="_blank" href="https://techbeacon.com/enterprise-it/sre-practice-5-insights-googles-experience" rel="noopener noreferrer">site reliability engineers</a> (SREs), and DevOps and analytics specialists. &#8220;You need a truly strategic initiative, with a team defined to own that strategy,&#8221; said EMA&#8217;s Drogseth. &#8220;They will get direction, leadership, and air cover from the executive sponsor, but the day-to-day work will fall to them.&#8221; In some places, they call this the automation center of excellence.</p>
-<p><a target="_blank" href="https://twitter.com/VesnaSoraic" rel="nofollow noopener noreferrer">Vesna Soraic</a>, senior product marketing manager at Micro Focus, said that ESM presents an organizational change and management opportunity that is vital to long-term success. In her opinion, ESM must be supported by a cross-functional team that is engaged for the long haul.</p>
-<p>&#8220;Be sure IT has a seat at the table. Since IT has the most experience with automated service processes, they should participate as a trusted advisor on the team. All other departments in the enterprise need IT&#8217;s help to get more advanced in this area,&#8221; said Soraic.</p>
-<p>The team must be willing to take a staged approach to implementation that can evolve based on priorities, according to EMA&#8217;s Drogseth. And they must be prepared for a long, sustained effort that does not result in a project launch with a single before-and-after state, but rather multiple projects that create a stepladder to where you&#8217;re trying to go.</p>
-<h4>Build a list of viable options</h4>
-<p>Once you have worked through these questions, you should have a good idea what kind of project your organization is ready to tackle, and, within a few months, have found one that can deliver measurable business value.</p>
-<p>Now you are ready to look for tools that will support that project. Use these five key selection criteria to find products and vendors that fit your requirements, and build a list of products to evaluate.</p>
-<p> </p>
-<h3>5 key selection criteria</h3>
-<p> </p>
-<p>Here are five selection criteria consultants and other experts consider to be most important when evaluating ESM products.</p>
-<p><strong>1. Does it have the most important core features?</strong></p>
-<p>&#8220;To be in <a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/forrester-wave-esm-q419?lx=HU1h77&#038;?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">the Forrester Wave</a> they have to have all these things,&#8221; said Forrester&#8217;s Betz. In his opinion, you should not seriously consider options that don&#8217;t have:</p>
-<ul>
-<li>Basic workflow engine</li>
-<li>Configuration management database asset registry</li>
-<li>Incident and change management</li>
-<li>General request management</li>
-<li>Service portal</li>
-<li>Modules that fit your requirements</li>
-</ul>
-<p>For detailed recommendations about how to map ESM vendors to your priorities and requirements, check out <a target="_blank" href="https://www.forrester.com/report/Forresters+Enterprise+Service+Management+ESM+Buying+Guide+2020/-/E-RES159097" rel="nofollow noopener noreferrer">Forrester&#8217;s Enterprise Service Management (ESM) Buying Guide, 2020.</a></p>
-<p><strong>2. Was it designed to do what I need it to do?</strong></p>
-<p>The tool you purchase should be built for the types of use cases you have. A tool that wasn&#8217;t designed for your use cases isn’t a good match, no matter how well it&#8217;s rated in other areas.</p>
-<p>Forrester&#8217;s Betz said that sometimes people are disappointed with an industry-leading tool that was recommended in the <a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/forrester-wave-esm-q419?lx=HU1h77&#038;?utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">Forrester Wave</a>, and they complain to the research firm. &#8220;After a short discussion, 90% of the time the customer will admit that they tried to get the tool to do something that it wasn’t designed to do,&#8221; he said.</p>
-<p>&#8220;They say, &#8216;Well, our consultant told us not to do it, a field engineer told us not to do it, but we had to customize the tool in a certain way to fit our business process. And it just didn’t work!'&#8221;</p>
-<p>That&#8217;s the biggest mistake you can make with ESM technology, according to Betz, because non-standard processes fly in the face of the industry best practices that are built into the tools.</p>
-<p>&#8220;All of the products in the Wave are battle-hardened and have had to deliver very high-visibility workloads in production, sometimes for decades,&#8221; he said. The designers of these tools study hundreds of successful processes and design everything around processes that have business consensus.</p>
-<p>&#8220;Unless you have tons of value riding on that nonstandard process, and it&#8217;s a competitive differentiator, you should fix your business process to work the way the tool is designed,&#8221; said Betz.</p>
-<p><strong>3. Will it interoperate easily with my existing environment?</strong></p>
-<p>Interoperability is the most important selection criteria when choosing among vendor offerings that have all the basic features you need. In general, look for vendors that use web services and open APIs that make it easy for different tools to share data.</p>
-<p>You&#8217;ll want to integrate ESM with your DevOps toolchain and all your existing ITSM and ESM tools. Some vendors offer a pre-published set of APIs for the most popular platforms. At a minimum, you want an integration guide. (For specific guidance on how to ask about interoperability, see How to create your RFP.)</p>
-<p><strong>4. Which vendors fit the scope of my operations?</strong></p>
-<p>Scope of operations is one of the biggest differentiators among products, according to Forrester&#8217;s Betz. Look for tools that fit the size of your organization and that can support the scale of workloads for which you expect to use them. For guidance about how to consider requirements based on organization size, take a look at <a target="_blank" href="http://www.forrester.com/report/Forresters+Enterprise+Service+Management+ESM+Buying+Guide+2020/-/E-RES159097" rel="nofollow noopener noreferrer">Forrester&#8217;s Enterprise Service Management (ESM) Buying Guide, 2020</a>.</p>
-<p><strong>5. What else can the vendor do?</strong></p>
-<p>Think about the vendor&#8217;s offerings holistically. &#8220;This is a significant and very valid point of comparison when deciding on a vendor,&#8221; said Betz. For example, you might find a tool that is in the middle of the pack in the Forrester Wave for ESM, but it has a strong endpoint management capability. &#8220;If you need device management as well as service management, they&#8221;d be a better choice for you than others who may have scored better on pure ESM capabilities,” said Betz.</p>
-<h4>Key takeaways</h4>
-<ul>
-<li>Take the time, before you start to seriously consider specific products, to step through the seven questions above to help determine the scope of the project, the readiness of your organization, and the strategy that will deliver a win.</li>
-<li>Another important benefit of this approach: It often reveals serious issues that you will need to address before implementation begins.</li>
-<li>Make sure you have the correct sponsor and right team, and honestly assess your ESM maturity level. Cultural issues are key to success.</li>
-<li>Remember that the tools you already have will need to integrate with whatever new ones you consider. Also consider ease of deployment. </li>
-<li>Keep in mind our five important selection criteria: Core features, and make sure you understand the use cases a tool was designed to help. Force-fitting that tool into a situation it wasn&#8217;t designed for can just about guarantee a failure.</li>
-</ul>
-<p> </p>
-<h3>How to create your RFP</h3>
-<p> </p>
-<p>After determining your project scope and requirements, use this guide to create a request for proposal (RFP) to send to the vendors on your list.</p>
-<p>Here we&#8217;ve compiled a list of questions that you might want to include in your RFP. Use this list as a guide and trim away the pieces you don&#8217;t need. Try to limit your product-related questions to those that are critical to your organization and keep it short, but complete. </p>
-<p>The reason: When you send lengthy lists of product requirements to vendors, you&#8217;ll get back lengthy responses that are virtually impossible to compare. Focus on your top 10 requirements, and you will find it much easier to contrast vendors and make an informed decision.</p>
-<p>When evaluating the vendor responses, consider assigning weightings to the requirements to ensure that your most important requirements are ranked highest as you score the candidates.</p>
-<h4>Introduce yourself—provide a statement of your current status</h4>
-<p><strong>Statement of goals, concerns, and objectives</strong></p>
-<ul>
-<li>Describe your service management automation goals, the problems you are trying to solve, and any relevant metrics you are hoping to improve.</li>
-<li>State the greatest concerns for company management relative to service management, customer satisfaction, digital transformation, and business efficiency, and explain how you expect this tool to contribute.</li>
-</ul>
-<p><strong>Describe your interoperability requirements in detail</strong></p>
-<ul>
-<li>List the tools you have, and note your preference for a tool with the specific APIs you need for things like configuration, infrastructure, and monitoring. Ask vendors to comment about interoperability in those three areas.</li>
-<li>Ask how much effort it will take to integrate their product with your toolset using their APIs/openAPI.</li>
-<li>Provide an inventory of the kind of data (often bi-directional) you need to support, and ask them to explain in detail what their product can do in those areas.</li>
-<li>Ask how their tools interoperate with cloud-native apps.</li>
-<li>Ask how their tools capture information from the cloud.</li>
-<li>Ask how easy it is to switch between cloud-based and on-premises services.</li>
-</ul>
-<p><strong>Request specific details about ease of use</strong></p>
-<p>Today&#8217;s ESM buyers are looking for products that are less complicated to implement, upgrade, license, and maintain, particularly in light of the many integrations needed to make enterprise services flow properly.</p>
-<ul>
-<li>Ask how much effort is required to implement and maintain their product.</li>
-<li>Ask how much effort is needed to upgrade to a new version, including all of the integrations that have been implemented.</li>
-<li>Ask them to describe their approach to licensing and license management.</li>
-<li>If you are having problems with the products you already own, describe how they are falling short—how they create too much work for your team or what capabilities they lack—and explain what you expect a new solution to provide.</li>
-<li>Be transparent about what you don&#8217;t have and why you think it will help you to have it. Vendors and service providers can be valuable partners, so be frank about the issues you face with your current tools. They may surprise you with fresh ideas and strategies.</li>
-</ul>
-<p><strong>Statement of resources</strong></p>
-<ul>
-<li>Explain the job titles and skillsets of the people who will use the tool.</li>
-</ul>
-<p><strong>Infrastructure requirements</strong></p>
-<p>List the main elements of your environment that are relevant to the tool usage:</p>
-<ul>
-<li>Operating systems</li>
-<li>Hardware</li>
-<li>Databases</li>
-<li>DevOps frameworks/pipeline</li>
-<li>Cloud strategy</li>
-</ul>
-<h4>Vendor information</h4>
-<p>Here are sample questions to ask the vendors. Our list covers a lot of ground, but you probably won&#8217;t need to ask all of them in your RFP. If you don’t have a mainframe, for example, there’s no need to ask about that. Trim this list as required to meet your needs:</p>
-<ul>
-<li>What is your company, history, and ITSM/ESM focus?</li>
-<li>Who is the primary contact for sales? Who is the primary contact for technical questions?</li>
-<li>Do you have reference customers that can be contacted?</li>
-</ul>
-<p><strong>Products and capabilities</strong></p>
-<p>This section helps you understand the product, the vendor&#8217;s approach to service management, and any innovations the vendor offers.</p>
-<ul>
-<li>List your product or products and the primary category of each.</li>
-<li>List the scope of operations the tool was designed for.</li>
-<li>What kinds of skills are required to use this tool?</li>
-<li>What browsers do you support?</li>
-<li>What devices do you support?</li>
-<li>What platforms do you support?</li>
-<li>Can your product handle services that are provided by mainframe apps?</li>
-<li>Which continuous integration/continuous delivery tools do you support?</li>
-<li>How easy is it to integrate your product with the other tools I currently use?</li>
-<li>How easy is it to extend your product?</li>
-<li>What types of reporting and analytics capabilities does the product provide? Is integration with a third-party reporting tool required for minimum reporting?</li>
-<li>What are the features or innovations that differentiate you from your competitors?</li>
-</ul>
-<p><strong>Deployment, updates, and support</strong></p>
-<ul>
-<li>Is your product or service offered on-premises, as a cloud service, or as a hybrid solution?</li>
-<li>Does deployment require a consulting engagement?</li>
-<li>Do you offer guided consulting to assist during implementation?</li>
-<li>How often do you release new versions or update the software?</li>
-<li>Do you offer support? What are the terms of your support contracts?</li>
-<li>What training options do you offer?</li>
-</ul>
-<p> </p>
-<h4> </h4>
-<p> </p>
-<h4>Next steps</h4>
-<p>There has never been a better time to <a target="_blank" href="https://techbeacon.com/enterprise-it/8-steps-get-started-enterprise-service-management" rel="noopener noreferrer">get started with ESM</a>, or to expand your ESM footprint. The vendor market has solidified, the benefits are increasingly obvious, and the tools are getting easier to use. Most importantly, some of your competitors are probably already using ESM in some areas and will continue to exploit that competitive edge over you until you enter the game.</p>
-<p>Done right, ESM can become the platform for your organization’s back-office digital transformation. Back-office operations are often overlooked in the drive to achieve digital transformation. But when companies fail to address the operational side, they haven’t really transformed the business.</p>
-<p><img loading="lazy" alt="The importance of operations" data-delta="1" data-fid="12518" data-media-element="1" height="450" src="https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/_esm_buyers_guide_-_mod_5.png" title="The importance of operations" typeof="Image" width="800"/></p>
-<p>As a 2019 World Economic Forum paper said: &#8220;Customer engagement is essential, great product and services are mandatory, and an innovative economic model may be table stakes, but without operations all of that fails.&#8221; In some cases, &#8220;Back-office actually becomes front-office, as non-IT departments expose their services to their employees and customers, which in turn, requires them to become service-centric organizations,&#8221; said Pott.</p>
-<p>Get started today. Using the information and guidance in this document, assemble a team with the right players, step with them through the fundamental considerations, and get a viable ESM project underway. With the right sponsor, team, and ESM technologies in place, you&#8217;ll embark on a journey of continuous improvement that will keep your organization competitive and add value to the entire business for many years to come.</p>
-<h4>Key takeaways</h4>
-<ul>
-<li>Try to limit your product-related questions to those that are critical to your organization and keep it short. When you send lengthy lists of product requirements to vendors, you&#8217;ll get back lengthy responses that are virtually impossible to compare.</li>
-<li>In the RFP, include your goals, concerns, and objectives.</li>
-<li>Spell out your interoperability requirements in detail; include your current tools and an inventory of the data you need to support.</li>
-<li>Get information about maintenance and support, as well as license requirements.</li>
-<li>Find out about the vendor; ask about company history, primary sales/support contacts, and customer references.</li>
-<li>Get details about the product&#8217;s features, functions, scope, platforms supported, and how easy or difficult it would be to extend or customize.</li>
-<li>Get going! Done correctly, ESM can become the platform for your organization&#8217;s back-office digital transformation.</li>
-</ul>
-<p> </p>
-<p><em>To print the full report, or read the entire report offline, download the complete <a target="_blank" href="https://content.microfocus.com/buyers-guide-esm-tools-special-report-tb/buyers-guide-esm-products?lx=HU1h77&#038;utm_source=techbeacon&#038;utm_medium=referral&#038;utm_campaign=00172425" rel="noopener noreferrer">Special Report: Buyer&#8217;s Guide to Service Management Products as an ebook</a>.</em></p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/buyers-guide-enterprise-service-management-products">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -874,5 +600,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-27 21:01:15 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-28 05:38:19 by W3 Total Cache
 -->
