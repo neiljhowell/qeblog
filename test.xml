@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 27 Oct 2020 19:08:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 29 Oct 2020 11:39:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,36 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Dynatrace ’s Andi Grabner explains how Keptn Quality Gates automate analyzing da&#8230;</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dynatrace-s-andi-grabner-explains-how-keptn-quality-gates-automate-analyzing-da/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2020 11:39:56 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[analyzing]]></category>
+		<category><![CDATA[Andi]]></category>
+		<category><![CDATA[Automate]]></category>
+		<category><![CDATA[Dynatrace]]></category>
+		<category><![CDATA[explains]]></category>
+		<category><![CDATA[Gates]]></category>
+		<category><![CDATA[Grabner]]></category>
+		<category><![CDATA[Keptn]]></category>
+		<category><![CDATA[Quality]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dynatrace-s-andi-grabner-explains-how-keptn-quality-gates-automate-analyzing-da/</guid>
+
+					<description><![CDATA[Dynatrace ’s Andi Grabner explains how Keptn Quality Gates automate analyzing data from many sources to validate that SLOs are]]></description>
+										<content:encoded><![CDATA[
+<p><a target="_blank" href="https://facebook.com/Dynatrace/?refid=17&amp;_ft_=mf_story_key.3813338335344268%3Atop_level_post_id.3813338335344268%3Atl_objid.3813338335344268%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3813338335344268%3Apage_id.163354693676002%3Aphoto_id.3813337558677679%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX-3zWdwITpfQehO%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-1497797280322609815&amp;__tn__=%2As-R" rel="noopener noreferrer">Dynatrace</a> ’s Andi Grabner explains how Keptn Quality Gates automate analyzing data from many sources to validate that SLOs are being met. <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2J2dueL%3Ffbclid%3DIwAR3lUHWxcqgfyefKhWt1g_iZh5xjsAiNJeutkWzqSUg4gUb4-V088xg1T9k&amp;h=AT397-7nkhz_1ERLNyHxgiPoxIMs8nk0kktMVxoeLT6NZyu_wVdCCABUfYe6SgNi43xZo5pKceJtDfvphwl_863RR1uhnPFLPDhoUEfH4DPYPtviG2kA1Wq_J0UwaS7eEXAezrrYH2-bNaNg1eRaUkHwqSB33aBNBeNlhsiIVnp6QovzxuUSlnCTKMuUxNaXj6j5uPiakW21eOMWpBdnZTk7GMPae34MdBDM0-DqAV4fjx7EtHGLzJ2R_83-ZGUHutYfjfRG43jAZhxK1i4iX56eUHfjyyo8tbAaCS85QHj-DiTMYd9ikTnMUb7lVGW5YBwvUBKX8bxTYkwuLcbRE-SlHPydnJwnwojCk1l2CYNywU9O0d7OnN8aCxi1ecZcEHgLPtsYuaEJPaO-ISQ02OwrvzFSiwZGda6Az7982QFaJJONruuClSks6NKY5Tmo5M9ey2r2SbvXzWj4MsMPpPdnEdm9jouRMaBm8djNulqqyAkFioTvKTDrW9ce2BG6yJOK05zgJbKzsx5X0wKfwlS8i6Lg1lD5WGxisxjbojBVlU5dPyTF_JfWlWGtFpjWDhpaxKB4XajCJeEI-WEGtN2Ekoolw81GmcRUc8mQ1yCcGObLB2pQ84N-ZvMIsSbYVpRKpN3D8zqTWyk2MyFHTw" rel="noopener noreferrer">https://bit.ly/2J2dueL</a>
+</p>
+<p> <br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3813338335344268">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Election 2020: Lookout for Fake News Before and After the Election &#124; McAfee Blogs Election 2020: Lookout for Fake News Before and After the Election</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-lookout-for-fake-news-before-and-after-the-election-mcafee-blogs-election-2020-lookout-for-fake-news-before-and-after-the-election/</link>
 		
@@ -200,6 +230,199 @@ fbq('track', "PageView");</p>
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/enterprise-it/age-value-stream-what-your-software-team-needs-know">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Built-in HTML Reports for Selenium C# Tests</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/built-in-html-reports-for-selenium-c-tests/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sun, 25 Oct 2020 04:51:48 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Builtin]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Reports]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Tests]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/built-in-html-reports-for-selenium-c-tests/</guid>
+
+					<description><![CDATA[In this article I’ll show you how to create comprehensible and professional HTML reports for your C# Selenium WebDriver tests,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">In this article I’ll show you how to create comprehensible and professional HTML reports for your C# Selenium WebDriver tests, using <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> 100% free test automation platform.</span></p>
+<h2><strong>Why we need reports</strong></h2>
+<p><span style="font-weight: 400;">Test automation reporting is the most important activity that will make the automated testing effort more visible. The reports can be shared with the team, the manager, or even clients. </span></p>
+<p><span style="font-weight: 400;">A good report shows what scripts were executed, the steps executed, tests execution times, which tests and steps passed or failed, and screenshots of failures. It is detailed enough to help understand why the failures occurred – especially if it is a failure in the test script or a failure in the application under test. </span></p>
+<p><span style="font-weight: 400;">But using an effective reporting mechanism has other benefits, apart from seeing passed/failed results. In time, it can help increase test coverage, test quality, and in the end, improve the quality of the product being tested. </span></p>
+<h2><strong>Why Selenium WebDriver is not enough</strong></h2>
+<p><a target="_blank" href="https://www.selenium.dev/" rel="noopener noreferrer"><span style="font-weight: 400;">Selenium WebDriver</span></a><span style="font-weight: 400;"> is a collection of APIs that allow the automation of browser interaction, such as page navigation, clicking buttons, filling out forms, and other common actions a regular user might perform in a browser. </span></p>
+<p><span style="font-weight: 400;">While Selenium WebDriver is the most popular tool used for web test automation, it cannot be used as a standalone tool to perform tests.</span></p>
+<p><span style="font-weight: 400;">For a proper test automation framework, you need a test runner (think </span><a target="_blank" href="https://junit.org/junit5/" rel="noopener noreferrer"><span style="font-weight: 400;">JUnit</span></a><span style="font-weight: 400;">, </span><a target="_blank" href="https://testng.org/" rel="noopener noreferrer"><span style="font-weight: 400;">TestNG</span></a><span style="font-weight: 400;">, </span><a target="_blank" href="https://nunit.org/" rel="noopener noreferrer"><span style="font-weight: 400;">NUnit</span></a><span style="font-weight: 400;">, </span><a target="_blank" href="https://xunit.net/" rel="noopener noreferrer"><span style="font-weight: 400;">XUnit</span></a><span style="font-weight: 400;">, </span><a target="_blank" href="https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest" rel="noopener noreferrer"><span style="font-weight: 400;">MSTest</span></a><span style="font-weight: 400;">) and a good reporting tool. Selenium WebDriver alone does not provide the option to make assertions that verify that the functionality works as expected, and also does not provide reporting capabilities. You can read more about reporting solutions in this comparison article: <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener noreferrer">The 8 Leading Test Reporting Tools for Selenium</a>.</span></p>
+<p><span style="font-weight: 400;">This is where TestProject comes in – providing complete <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener noreferrer">test reports</a>, that include test results, screenshots for steps performed, trends (number of tests executed on each test run, number of tests passed/failed), and test duration.</span></p>
+<h2><strong>Setting up the environment for TestProject testing</strong></h2>
+<p><span style="font-weight: 400;">The first step is to create a new (free) </span><a target="_blank" href="https://app.testproject.io/signup/" rel="noopener noreferrer"><span style="font-weight: 400;">TestProject</span></a><span style="font-weight: 400;"> account. Once you have set up your account, download the <a target="_blank" href="https://docs.testproject.io/testproject-agents/what-is-a-testproject-agent" rel="noopener noreferrer">TestProject Agent</a> for desktop, for the operating system you are using – it is available for Windows, Mac OS X, and Linux (and even Docker!). You can do this from the Agents tab in your account. Here is where you also need to register the agent.</span></p>
+<p><span style="font-weight: 400;">Make sure to give it a meaningful name, because the agents can be shared between team members. “Jane’s Agent” is a much better name than “Test agent” or “123”. Also start the agent before running any of the tests, otherwise the tests will not start.</span></p>
+<p><span style="font-weight: 400;">TestProject allows <a target="_blank" href="https://testproject.io/easy-test-automation/" rel="noopener noreferrer">test creation from the interface</a> as well, by recording the browser/mobile actions, but in this tutorial, we will focus on writing our own tests using <a target="_blank" href="https://testproject.io/advanced-scripting-capabilities/" rel="noopener noreferrer">TestProject’s SDK</a>.</span></p>
+<h2><strong>Create your first C# test with TestProject SDK </strong></h2>
+<p><span style="font-weight: 400;">Now to the fun part.</span></p>
+<p><span style="font-weight: 400;">If you are reading this article, I’m guessing you already have </span><a target="_blank" href="https://visualstudio.microsoft.com/downloads/" rel="noopener noreferrer"><span style="font-weight: 400;">Visual Studio</span></a><span style="font-weight: 400;"> installed, if not, go ahead and install it because it’s the IDE we will use to write our tests. </span></p>
+<p><span style="font-weight: 400;">Create a new project in Visual Studio. The selected framework should be .Net Core, and you can work with any test runner you are comfortable with. For this example, we will use </span><a target="_blank" href="https://nunit.org/" rel="noopener noreferrer"><span style="font-weight: 400;">NUnit</span></a><span style="font-weight: 400;"> as our test runner, so simply select </span><b>NUnit Test Project (.Net Core)</b><span style="font-weight: 400;"> from the projects list, name the project, and save it.</span></p>
+<p><span style="font-weight: 400;">Next, add the TestProject </span><a target="_blank" href="https://www.nuget.org/packages/TestProject.SDK" rel="noopener noreferrer"><span style="font-weight: 400;">NuGet package</span></a><span style="font-weight: 400;">: right-click on the project name, </span><b>Manage NuGet packages…</b><span style="font-weight: 400;">, browse for The TestProject SDK, and install the latest version.</span></p>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14584 size-full" title="Add the TestProject NuGet package" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_1.png" alt="Add the TestProject NuGet package" width="512" height="344"/></noscript></p>
+<p><span style="font-weight: 400;">Let’s move on to writing the test. From here, there are very few differences between a Selenium WebDriver test in NUnit and a TestProject test. </span></p>
+<p><span style="font-weight: 400;">A test class using TestProject needs to implement one </span><span style="font-weight: 400;">SDK.Tests</span><span style="font-weight: 400;"> interface: </span><span style="font-weight: 400;">IWebTest</span><span style="font-weight: 400;">, </span><span style="font-weight: 400;">IAndroidTest</span><span style="font-weight: 400;">, or </span><span style="font-weight: 400;">IIOSTest</span><span style="font-weight: 400;">. Our tests will be web tests that run on Chrome, so the interface we need to use is </span><span style="font-weight: 400;">IWebTest</span><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Here is a simple example of a test that logs in </span><a target="_blank" href="https://example.testproject.io/web/" rel="noopener noreferrer"><span style="font-weight: 400;">https://example.testproject.io/web/</span></a><span style="font-weight: 400;"> with the user “John Smith” and the password “12345”, and checks that the login was successful by verifying the presence of the Logout button:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">using OpenQA.Selenium;
+using TestProject.Common.Attributes;
+using TestProject.SDK;
+using TestProject.SDK.Tests;
+using TestProject.SDK.Tests.Helpers;
+
+namespace NUnitTestProject1
+{
+public class LogInTest : IWebTest
+    {
+        ExecutionResult IWebTest.Execute(WebTestHelper helper)
+        {
+            var driver = helper.Driver;
+       //open the https://example.testproject.io/web/ webpage
+            driver.Navigate().GoToUrl("https://example.testproject.io/web/");
+  //Fill in the form with the username and password
+            driver.FindElementById("name").SendKeys("John Smith");
+            driver.FindElementById("password").SendKeys(password);
+            driver.FindElementById("login").Click();
+       //Verify that the login was successful 
+            if (driver.FindElement(By.Id("logout")).Displayed)
+            {
+                return ExecutionResult.Passed;
+            }                 
+     return ExecutionResult.Failed;
+    }
+}
+</pre>
+<p><span style="font-weight: 400;">Let’s analyze the code: </span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The test uses <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener noreferrer">Selenium</a> methods: </span><span style="font-weight: 400;">Navigate</span><span style="font-weight: 400;">() to open the webpage in browser, </span><span style="font-weight: 400;">SendKeys</span><span style="font-weight: 400;">() and </span><span style="font-weight: 400;">Click</span><span style="font-weight: 400;">() to interact with the form, </span><span style="font-weight: 400;">Displayed</span><span style="font-weight: 400;"> to check if the element is present on the page, and the elements are located by their IDs. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The </span><span style="font-weight: 400;">WebTestHelper</span><span style="font-weight: 400;"> class provides access to the driver and other web action resources. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The last part is returning the test result – whether the test passed or failed. If the login was successful, then the Logout button (with ID “logout”) is visible on the page, and the test is passed, if not, it means the test failed.  The </span><span style="font-weight: 400;">ExecutionResults</span><span style="font-weight: 400;"> are enums from the TestProject SDK, and the available values are: </span><span style="font-weight: 400;">Passed</span><span style="font-weight: 400;">, </span><span style="font-weight: 400;">Failed,</span><span style="font-weight: 400;"> and </span><span style="font-weight: 400;">Suspended</span><span style="font-weight: 400;">. The result will be shown in the generated report once the test is executed.</span></li>
+</ul>
+<p><span style="font-weight: 400;">To run tests, you need to use the Runner class. You can add it to the setup method, so the runner is started before running all the tests in the suite. As I mentioned before, this is an NUnit project, so we’ll use the </span><span style="font-weight: 400;">NUnit.Framework</span><span style="font-weight: 400;"> notations for the test setup, test teardown, and for running the tests:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">using NUnit.Framework;
+using TestProject.Common.Enums;
+using TestProject.SDK;
+using System;
+ 
+namespace NUnitTestProject1
+{
+    public class NUnitTest1
+    {
+    	Runner runner;
+    	private string DevToken = Environment.GetEnvironmentVariable("TP_DEV_TOKEN");
+    	
+    	[OneTimeSetUp]
+    	public void SetUp()
+    	{        	
+        	runner = new RunnerBuilder(DevToken).AsWeb(AutomatedBrowserType.Chrome).Build();
+    	}      
+    	[OneTimeTearDown]
+    	public void TearDown()
+    	{
+        	runner.Dispose();        	
+    	}
+    }
+}
+</pre>
+<p><span style="font-weight: 400;">You can obtain your </span><span style="font-weight: 400;">DevToken</span><span style="font-weight: 400;"> from the TestProject application, in the Integrations tab, and then add it to the code, or better than hardcoding it in the project, set it as an </span><a target="_blank" href="https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html" rel="noopener noreferrer"><span style="font-weight: 400;">environment variable</span></a><span style="font-weight: 400;"> and then use the Environment.GetEnvironmentVariable() method to get it. Then it should be passed as a parameter to the </span><span style="font-weight: 400;">RunnerBuilder.</span><span style="font-weight: 400;"> Now TestProject will recognize the account running the tests and save the reports in that account, where you can access them any time, see them in HTML format or download them as PDFs.</span></p>
+<p><span style="font-weight: 400;">Next, add the login test to this class, this time using the NUnit </span><span style="font-weight: 400;">Test</span><span style="font-weight: 400;"> annotation:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">[Test]
+       public void Login()
+       {
+           runner.Run(new LogInTest());
+       }
+</pre>
+<p><span style="font-weight: 400;">After you build the solution, you should see this test in the test Explorer panel of Visual Studio. </span></p>
+<p><img loading="lazy" class="alignnone wp-image-14585 size-full" title="NUnit TestProject Test" alt="NUnit TestProject Test" width="206" height="64" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_2.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14585 size-full" title="NUnit TestProject Test" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_2.png" alt="NUnit TestProject Test" width="206" height="64"/></noscript></p>
+<p><span style="font-weight: 400;">Next, run the test – if everything is set up well, the test should run successfully. Don’t forget to have the TestProject agent running before executing the tests! The test execution is quite fast, but if you go to the Monitor tab, you can see that you have 1 job running, while the test is executing:</span></p>
+<p><img loading="lazy" class="alignnone size-medium wp-image-14586" alt="" width="512" height="225" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3-512x225.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3-768x337.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3.png 822w" data-lazy-sizes="(max-width: 512px) 100vw, 512px" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3-512x225.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone size-medium wp-image-14586" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3-512x225.png" alt="" width="512" height="225" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3-512x225.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3-768x337.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_3.png 822w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
+<p><span style="font-weight: 400;">You can also download the demo code from </span><a target="_blank" href="https://github.com/andreea-qa/TestProjectDemo" rel="noopener noreferrer"><span style="font-weight: 400;">GitHub</span></a><span style="font-weight: 400;">.</span></p>
+<h2><strong>The HTML Reports in TestProject</strong></h2>
+<p><span style="font-weight: 400;">Now when you open the TestProject app in the browser and go to the Reports tab, you can see the results of the test that just ran.</span></p>
+<p><span style="font-weight: 400;">The test was successful, so the HTML report should display this status. Moving through the available charts in the Trends and Reports page of the HTML report, you can see other useful information about the project: the number of tests run, the number of executions, the test results, the result trends, the agent used (remember before, when you had to name the agent? This is where that name can be seen), the platform (Web, Android, iOS). The chart can also be filtered to display only the most recent test results, the default value is for the last 30 days, but other options are available, as well as the option to customize the range. </span></p>
+<p><span style="font-weight: 400;">In our particular case, we only have one test run, containing a single test, so this information is displayed in the Trends and Reports. </span></p>
+<p><img loading="lazy" class="alignnone wp-image-14587 size-full" title="TestProject HTML Report" alt="TestProject HTML Report" width="447" height="262" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_4.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14587 size-full" title="TestProject HTML Report" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_4.png" alt="TestProject HTML Report" width="447" height="262"/></noscript></p>
+<p><span style="font-weight: 400;">Next, if you click on the project name, you will be redirected to a more detailed report for the project. This report shows all available runs (the date and time the tests were run), and statistics for each selected run:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-14588 size-full" title="TestProject Test Report" alt="TestProject Test Report" width="1027" height="392" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5.png 1027w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5-512x195.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5-768x293.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5-1024x391.png 1024w" data-lazy-sizes="(max-width: 1027px) 100vw, 1027px" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14588 size-full" title="TestProject Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5.png" alt="TestProject Test Report" width="1027" height="392" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5.png 1027w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5-512x195.png 512w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5-768x293.png 768w, https://blog.testproject.io/wp-content/uploads/2020/10/Pic_5-1024x391.png 1024w" sizes="(max-width: 1027px) 100vw, 1027px"/></noscript></p>
+<p><span style="font-weight: 400;">On the right-hand side of the page, there is a detailed description of each step of the test, with its result. </span></p>
+<p><span style="font-weight: 400;">Let’s make the test fail by changing the ID of the login button into a value that will not be found on the page. Replace </span><span style="font-weight: 400;">driver.FindElementById(</span><span style="font-weight: 400;">“login”</span><span style="font-weight: 400;">).Click();</span><span style="font-weight: 400;">  with </span><span style="font-weight: 400;">driver.FindElementById(</span><span style="font-weight: 400;">“login-invalid”</span><span style="font-weight: 400;">).Click();</span></p>
+<p><span style="font-weight: 400;">Now when you rerun the test, it will show as failed and the statistics will be updated to include this test result:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-14589 size-full" title="TestProject Test Report_Failed Test" alt="TestProject Test Report_Failed Test" width="440" height="256" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_6.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14589 size-full" title="TestProject Test Report_Failed Test" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_6.png" alt="TestProject Test Report_Failed Test" width="440" height="256"/></noscript></p>
+<p><img loading="lazy" class="alignnone wp-image-14590 size-full" title="TestProject Test Report_Failed Test" alt="TestProject Test Report_Failed Test" width="384" height="329" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_7.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14590 size-full" title="TestProject Test Report_Failed Test" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_7.png" alt="TestProject Test Report_Failed Test" width="384" height="329"/></noscript></p>
+<p><span style="font-weight: 400;">As you can see, the report offers a lot of detail, and the failure message is a Selenium WebDriver exception – </span><span style="font-weight: 400;">NoSuchElementException</span><span style="font-weight: 400;">. Now, we already know why this test failed, because we changed the ID intentionally, but in a real-life scenario, this information is very useful to help us understand what is causing the test to fail, and whether we need to make changes to our tests or the test identified a bug in the application.</span></p>
+<p><span style="font-weight: 400;">Now that you know that the reports show the test output, you can change the value back to the correct one.</span></p>
+<p><span style="font-weight: 400;">If you want the report to provide more information, you can add screenshots. For this, you need to use the </span><span style="font-weight: 400;">TestReporter </span><span style="font-weight: 400;">class, and then add a reporter step that will record the screenshot. The test will now look like this:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">using OpenQA.Selenium;
+using TestProject.Common.Enums;
+using TestProject.SDK;
+using TestProject.SDK.Reporters;
+using TestProject.SDK.Tests;
+using TestProject.SDK.Tests.Helpers;
+
+namespace NUnitTestProject1
+{
+    public class LogInTest : IWebTest
+    {
+  
+        ExecutionResult IWebTest.Execute(WebTestHelper helper)
+        {
+            var driver = helper.Driver;
+            TestReporter report = helper.Reporter;
+            //open the https://example.testproject.io/web/ webpage
+            driver.Navigate().GoToUrl("https://example.testproject.io/web/");
+            //Fill in the form with the username and password
+            driver.FindElementById("name").SendKeys("John Smith");
+            driver.FindElementById("password").SendKeys("12345");
+            driver.FindElementById("login").Click();
+            helper.Reporter.Step("Logged in the app", "The login is unsuccessful", "The login is successful", driver.FindElement(By.Id("logout")).Displayed, TakeScreenshotConditionType.Failure);
+            //Verify that the login was successful 
+            if (driver.FindElement(By.Id("logout")).Displayed)
+            {
+                return ExecutionResult.Passed;
+            } 
+            return ExecutionResult.Failed;            
+                          
+        }
+    }
+}
+</pre>
+<p><span style="font-weight: 400;">The new step will:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">display the description (“Logged in the app”), </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">display a failure message (“The login is unsuccessful”) or a success message (“The login is successful”), </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">verify the condition (</span><span style="font-weight: 400;">driver.FindElement(By.Id(</span><span style="font-weight: 400;">“logout”</span><span style="font-weight: 400;">)).Displayed), </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">and take a screenshot if the condition is not met. </span></li>
+</ul>
+<p><span style="font-weight: 400;">If you run the test now, it will pass and display the success message, but no screenshot will be taken.</span></p>
+<p><img loading="lazy" class="alignnone wp-image-14591 size-medium" title="TestProject Test Report" alt="TestProject Test Report" width="512" height="210" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_8-512x210.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14591 size-medium" title="TestProject Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_8-512x210.png" alt="TestProject Test Report" width="512" height="210"/></noscript></p>
+<p><span style="font-weight: 400;">If you change the password to an invalid one, say “1234”, the report will display the screenshot for the failed step and display the failure message:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-14592 size-full" title="TestProject Test Report_Screenshot" alt="TestProject Test Report_Screenshot" width="512" height="421" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_9.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-14592 size-full" title="TestProject Test Report_Screenshot" src="https://blog.testproject.io/wp-content/uploads/2020/10/Pic_9.png" alt="TestProject Test Report_Screenshot" width="512" height="421"/></noscript></p>
+<h2><strong>Final thoughts</strong></h2>
+<p><span style="font-weight: 400;">Using the TestProject SDK you can quickly obtain HTML reports for your automated tests, complete with success versus failure trends, screenshots, available from any browser, or downloadable in PDF format.</span></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/10/25/built-in-html-reports-for-selenium-c-tests/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -515,83 +738,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Test Driving Selenium 4 &#8211; with Angie Jones [webinar recording] &#8211; Automated Visual Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/test-driving-selenium-4-with-angie-jones-webinar-recording-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 19 Oct 2020 11:36:21 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Angie]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Driving]]></category>
-		<category><![CDATA[Jones]]></category>
-		<category><![CDATA[Recording]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<category><![CDATA[Webinar]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/test-driving-selenium-4-with-angie-jones-webinar-recording-automated-visual-testing/</guid>
-
-					<description><![CDATA[The Selenium WebDriver maintainers have been hard at work on a brand-new version: Selenium 4! Some of the features are]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>The Selenium WebDriver maintainers have been hard at work on a brand-new version: Selenium 4! </p>
-<p>Some of the features are already available in alpha mode — which allows us the opportunity to try it out, provide feedback, and even pitch in with development. </p>
-<p>Watch this webinar, where Angie Jones explored some of the most promising new capabilities of Selenium 4. </p>
-<p>Angie also took for a test-drive some of its new features such as Relative Locators, Chrome Devtools Protocol (CDP), Window Management, and more. </p>
-<p>You know Angie – so you know code samples were provided! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h3 id="h-angie-s-slide-deck">Angie’s Slide Deck</h3>
-<p><a target="_blank" href="https://slides.com/angiejones/selenium4/fullscreen" rel="noreferrer noopener">https://slides.com/angiejones/selenium4/fullscreen</a></p>
-<h3 id="h-full-webinar-recording">Full Webinar Recording</h3>
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<p>
-<iframe title="Test Driving Selenium 4 - with Angie Jones [webinar recording]" width="800" height="450" src="https://www.youtube.com/embed/-5hiHWqxs8A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-</figure>
-<h3 id="h-additional-selenium-4-resources">Additional Selenium 4 Resources</h3>
-<h3 class="has-text-align-center" id="h-happy-testing">— HAPPY TESTING —</h3>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/selenium-4-webinar/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Selenium Quiz for Ninjas &#8211; Scale Up Your Selenium Knowledge</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-quiz-for-ninjas-scale-up-your-selenium-knowledge/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 19 Oct 2020 06:32:16 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Knowledge]]></category>
-		<category><![CDATA[Ninjas]]></category>
-		<category><![CDATA[Quiz]]></category>
-		<category><![CDATA[Scale]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-quiz-for-ninjas-scale-up-your-selenium-knowledge/</guid>
-
-					<description><![CDATA[Feel like you know Selenium to its core? Familiar with some of the commands?Looking to increase your knowledge? Need more]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p style="text-align: center;">Feel like you know Selenium to its core? Familiar with some of the commands?<br />Looking to increase your knowledge? Need more experience?<br /><strong>This Selenium quiz is for you!</strong></p>
-<p style="text-align: center;">Discover at the end how well you scored from 1 to 10 and find out the correct answers<br />so you can scale your Selenium knowledge and become a ninja! Good Luck <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4af.png" alt="💯" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h2 style="text-align: center;"><strong>↓</strong></h2>
-<h2 style="text-align: center;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f431.png" alt="🐱" class="wp-smiley" style="height: 1em; max-height: 1em;" />&#x200d;<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f464.png" alt="👤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://blog.testproject.io/quiz/selenium-quiz-for-ninjas-scale-your-knowledge/" rel="noopener noreferrer"><mark>Start Quiz</mark></a> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f431.png" alt="🐱" class="wp-smiley" style="height: 1em; max-height: 1em;" />&#x200d;<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f464.png" alt="👤" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h2>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/10/19/selenium-quiz-for-ninjas-scale-your-knowledge/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -600,5 +746,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-29 05:39:48 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-10-30 05:38:17 by W3 Total Cache
 -->
