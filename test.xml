@@ -151,6 +151,59 @@
 		
 			</item>
 		<item>
+		<title>Best Practices When Starting Performance Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-when-starting-performance-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Starting]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-when-starting-performance-testing/</guid>
+
+					<description><![CDATA[We just announced that Sauce Performance is now available on all Sauce accounts including free trial, self serve, and Enterprise.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>We just announced that <a target="_blank" href="https://saucelabs.com/platform/analytics-performance/sauce-performance" rel="noopener noreferrer">Sauce Performance</a> is now available on all Sauce accounts including free trial, self serve, and Enterprise. Sauce Performance is a performance testing tool that allows developers to test the front-end performance of applications in the Sauce platform at no additional cost. Rather than testing performance at the end of the testing cycle with a third party application, Sauce users can test the front-end performance of their application at the beginning of the testing cycle. </p>
+<h3>How to Get Sauce Performance Setup with Selenium Tests</h3>
+<p>Sauce Performance is set up with machine learning-derived baselines with Google Lighthouse (recently updated to version 6) and a front-end audit and history. You can begin the process of creating performance tests by leveraging existing Selenium tests as well. While this shouldn’t be your process every time, it can be a very easy way to get started.</p>
+<p>In this example below, you can see how to start capturing web application performance for existing Selenium tests: </p>
+<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/6fAgRJvLDJprYI8ZNzOhHG/89f8ccaa09241afe788e4a295b38131f/performance_selenium.png?fm=webp" type="image/webp"/></picture></div>
+<p>Sauce Performance is currently only available for tests executed on the latest three versions of Google Chrome. </p>
+<p>While many testers might want to use their current Selenium tests, there are also some other best practices to follow to ensure you are getting the best results from your performance tests.</p>
+<h3>General Best Practices for Sauce Performance </h3>
+<ul>
+<li>
+<p><b>Separate performance and functional tests: </b>As front end performance tests serve a different objective than functional tests, you want to separate them from GUI tests and make them a separate step in your CI pipeline.</p>
+</li>
+<li>
+<p><b>Run performance tests on only a single operating system: </b>Typically, users see more predictable results when running tests against Chrome on a single dedicated OS.</p>
+</li>
+<li>
+<p><b>Choose metrics that align with your application/user needs: </b>Sauce Performance allows users to validate front-end performance regressions across a wide range of metrics (Performance Score, Time to Interactive, Time to First Meaningful Paint, etc.). We recommend exploring verifications across a mix of metrics that closely align with the most important desired end-user experiences you wish to achieve. </p>
+</li>
+<li>
+<p><b>Optimize your scripts for performance: </b>While Sauce Performance is able to validate metrics/regressions around page loads, users should be aware of other actions the test script is performing (e.g., assertions for the presence of content on the page) and determine if they are necessary in gathering performance metrics. </p>
+</li>
+<li>
+<p><b>Focus on core app experiences first: </b>Performance testing and validations should focus on core application experiences as a start. Prioritize your performance validations the same as you would your frontend functional tests—test key pages more frequently. </p>
+</li>
+</ul>
+<p>By following these best practices, getting Sauce Performance up and running with your Sauce account is easy and efficient. Once Sauce Performance is integrated into your pipeline, your team will be able to have a single quality signal for your functional and performance tests getting you one step closer to feeling digitally confident.</p>
+<h3>Test Performance for Yourself!</h3>
+<p>Sauce Performance is now enabled across the entire Sauce Labs platform and you can even access it on the free trial. Go ahead and give it a try on our<a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer"> free trial</a> or <a target="_blank" href="https://saucelabs.com/sales" rel="noopener noreferrer">contact us</a> to learn more about the Sauce platform.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/best-practices-when-starting-performance-testing">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Dynatrace ’s Andi Grabner explains how Keptn Quality Gates automate analyzing da&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dynatrace-s-andi-grabner-explains-how-keptn-quality-gates-automate-analyzing-da/</link>
 		
@@ -742,76 +795,6 @@ namespace NUnitTestProject1
 		
 		
 			</item>
-		<item>
-		<title>Election 2020: Make Sure Your Voice is Heard with These Tips</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-make-sure-your-voice-is-heard-with-these-tips/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 21 Oct 2020 12:00:40 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Election]]></category>
-		<category><![CDATA[Heard]]></category>
-		<category><![CDATA[tips]]></category>
-		<category><![CDATA[Voice]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-make-sure-your-voice-is-heard-with-these-tips/</guid>
-
-					<description><![CDATA[Election 2020: Make Sure Your Voice is Heard with These Tips &#38; Best Practices Last year, India exercised one of]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p><strong>Election 2020: Make Sure Your Voice is Heard with These Tips &amp; Best Practices</strong></p>
-<p>Last year, India exercised one of the greatest feats of democracy, trying to enable over 900 million people to vote in their general election. My mom lives in India, and I remember talking with her about their ambitious plans to reach every voter, no matter how <a target="_blank" href="https://www.voanews.com/south-central-asia/poll-workers-trek-indias-most-remote-voters" rel="noopener noreferrer">remote their location</a>. They sent poll workers deep into the jungle, and across rivers, to reach just a handful of voters. The result: a record turnout at over 67%.</p>
-<p>In the United States, we too have an opportunity to fulfill our civic duties, with various options available to us to make sure our votes are heard. While many people choosing to mail in their votes for the very first time, there’s also a lot of confusion around election rules and security, not to mention a flood of misinformation online to be wary of.</p>
-<p>Here at McAfee, we want to help you vote with confidence in this critical election. That’s why we’ve put together a number of tools, resources, and best practices to empower voters. Our hope is that every voice can be heard.</p>
-<p><strong>Demystifying Mail-In Voting</strong></p>
-<p>Let’s start with some questions you may have around mail-in voting, since twice as many people plan to mail in their ballots this year, compared to 2016. Of course, with the COVID-19 pandemic still active, it’s understandable that many people, especially the vulnerable, would prefer to mail their ballot, rather than go to a polling station. I personally got my mail-in ballot and am ready to mail it this week. If you haven’t decided on how to vote, you still have time to decide.</p>
-<p>To get accurate information on mail-in voting, go directly to your state and local websites for guidance, including how to fill out your ballot, and when to turn it in. Rules vary state to state, but one thing we do know is that mail-in voting has proven to be a <a target="_blank" href="https://www.eac.gov/election-officials/election-security" rel="noopener noreferrer">reliable and secure way</a> to have your voice heard.</p>
-<p>It’s great to see long lines to vote in some states already. If you are still concerned about election security and online scams, my colleague Judith Bitterli has written a great guide for locating reliable sources and <a target="_blank" href="https://www.mcafee.com/blogs/consumer/2020-election-security/?hilite=%27elections%27" rel="noopener noreferrer">protecting your vote</a> (Key tip: always look for a .gov domain name).</p>
-<p>She also has advice for making sure that your <a target="_blank" href="https://www.mcafee.com/blogs/consumer/election-2020-five-tips-to-secure-a-mail-in-ballot-that-counts/" rel="noopener noreferrer">mail-in ballot counts</a>.</p>
-<p><strong>Safe Election Surfing</strong></p>
-<p>When looking online for election resources, be aware that scammers and cybercriminals are always trying to take advantage of trending topics to misdirect users to dangerous websites and links. In fact, the FBI <a target="_blank" href="https://www.businessinsider.com/fake-voting-websites-fbi-warning-2020-10?r=MX&amp;IR=T" rel="noopener noreferrer">recently warned</a> that bad actors have been setting up fake election websites, in an attempt to steal voters’ personal information, or get them to download dangerous files.</p>
-<p>The Bureau suggests that you visit the U.S. Election Assistance Commission <a target="_blank" href="https://www.eac.gov/" rel="noopener noreferrer">website</a> for accurate information in a variety of languages. If you are concerned about clicking on risky links during the election or year-round, one smart action you can take is to install McAfee <a target="_blank" href="https://www.mcafee.com/en-us/safe-browser/mcafee-webadvisor.html" rel="noopener noreferrer">WebAdvisor</a>, which warns you of risky sites before you click on them.</p>
-<p>Although it can be tempting to believe election information posted on social media, especially by friends and family members, know that business school <a target="_blank" href="https://mitsloan.mit.edu/ideas-made-to-matter/mit-sloan-research-about-social-media-misinformation-and-elections" rel="noopener noreferrer">MIT Sloan</a> says “fake news is at its peak” during online presidential years, and even your loved ones can be fooled.</p>
-<p>But whether information is clickbait, or legitimate, it can still be posted to risky websites designed to steal your information, or download malware. That’s why McAfee released a new social media protection tool as part of WebAdvisor. Using color codes, the tool shows you which links are safe or risky right in your social feed, and can be used across all six major social media platforms. This makes it easier to avoid dangerous links posted on social channels. Given the increase in phishing we’ve observed in the last few months across PC and mobile platforms, a comprehensive security solution like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee® Total Protection</a> can help keep your personal information and devices safe.</p>
-<p><strong>In-Person Voting</strong></p>
-<p>If you still plan to vote in person, or even better, volunteer as a poll worker, make sure that you have reliable information on voting times and locations. You’ll probably also want to look into local rules on health and safety precautions, so you are well prepared.</p>
-<p>False and misleading information about COVID 19 has been swirling since the start of the pandemic, so it’s important that you seek verified information about the virus. Here again are some great tips from Judith on how to keep <a target="_blank" href="https://www.mcafee.com/blogs/consumer/u-s-election-2020-dont-let-covid-19-misinformation-suppress-your-vote/?hilite=%27elections%27" rel="noopener noreferrer">COVID misinformation</a> from suppressing your vote.</p>
-<p><strong> </strong><strong>Exercise Your Right</strong></p>
-<p>Now that you know how to sidestep misinformation, find trusted resources, and plan your vote — either through the mail or in person— I hope that you will exercise your right, with confidence.</p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/election-2020-make-sure-your-voice-is-heard-with-these-tips/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -820,5 +803,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-01 22:01:19 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-02 07:21:47 by W3 Total Cache
 -->
