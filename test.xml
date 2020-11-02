@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 29 Oct 2020 11:39:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 30 Oct 2020 05:30:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,129 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Best practices for testing Drupal websites &#8211; Automated Visual Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-testing-drupal-websites-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 30 Oct 2020 05:30:34 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Drupal]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<category><![CDATA[Websites]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-testing-drupal-websites-automated-visual-testing/</guid>
+
+					<description><![CDATA[Drupal is an open-source content management system used to build websites and applications. Drupal has great standard features, like easy]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><a target="_blank" href="https://www.drupal.org/" rel="noopener noreferrer">Drupal </a>is an open-source content management system used to build websites and applications. Drupal has great standard features, like easy content authoring, reliable performance, and excellent security. But what sets it apart is its flexibility; modularity is one of its core principles. Its tools help you build the versatile, structured content that dynamic web experiences need. In this article, we’ll show you how to effectively test Drupal websites and applications using cutting edge vision based technology.</p>
+<h3 id="h.aid1r6pznvc2">Why do people prefer Drupal over other Open Source CMS’s?</h3>
+<ul>
+<li> Reliability and scalability </li>
+<li> Security </li>
+<li> Easing out the complexity of the site </li>
+<li>It is multilingual </li>
+<li>Flexibility of Drupal</li>
+<li>Easy for SEO</li>
+</ul>
+<p>Refer <a target="_blank" href="https://www.vardot.com/en-us/ideas/blog/why-drupal-best-cms-your-website" rel="noopener noreferrer">https://www.vardot.com/en-us/ideas/blog/why-Drupal-best-cms-your-website</a> for more information on above.</p>
+<p>The digital landscape is changing, and with it are increasing demands on content management systems (CMSes) and organisations to keep pace with consumer needs. Users are demanding more personalised <a target="_blank" href="https://www.origineight.net/o8dx?__hstc=39244668.dd7233d964b6f2f7cd114bc5000b2b0e.1599367142010.1599367142010.1599367142010.1&amp;__hssc=39244668.1.1599367142011&amp;__hsfp=2647981047" rel="noopener noreferrer">experiences</a>, more excellent connectivity between devices, and more interactive elements in their web experiences.</p>
+<p>Organisations want websites that grow with your digital technology and business needs and help you achieve your goals. Drupal is helping organisations to meet these demands.</p>
+<h2 id="h.mj1qmrxtnkw2">How do we test Drupal-powered websites?</h2>
+<p>Drupal provides enormous benefits for building customer experience and at the same times poses challenges for testing also.</p>
+<p>Drupal sites are full of content, and variations to the content can cause below issues.</p>
+<ul>
+<li>Quantity of content</li>
+<li>Length of the content</li>
+<li>Interlinking between content</li>
+<li>Different types of media</li>
+<li>Language</li>
+<li>Formatting</li>
+</ul>
+<p>If a website includes a content import component, doing this at the beginning of a project is a great way to ensure that real content is tested as the site’s functionality is built.</p>
+<p>For user-generated content, creating a suite of realistic test content that includes a variety of what users might enter is an excellent investment of time at the beginning of the project.</p>
+<p>Most organisations assume Drupal handles below areas automatically, or they will “just work”.</p>
+<ul>
+<li>Responsive web testing</li>
+<li>Compatible with dynamic content</li>
+<li>Accessibility</li>
+<li>Support multilingual</li>
+<li>Performance</li>
+</ul>
+<p>Drupal developers are performing a quick check on one browser(mostly chrome) during development and assume testing team or content management team will be able to check other browser and device combinations before releasing to customers.</p>
+<p>Organisations are increasingly writing scripted tests with tools like Selenium, and Cypress etc. can be repeated and tested frequently to cover above requirements. Areas of testing like usability, design features are challenging to test in a scripted fashion. Exploratory testing(manual) done by developers or content management teams will not be able to catch all issues.</p>
+<figure class="wp-block-pullquote">
+<blockquote>
+<p>“Areas of testing like usability, design features are challenging to test in a scripted fashion. Exploratory testing(manual) done by developers or content management teams will not be able to catch all issues.”</p>
+</blockquote>
+</figure>
+<p>The best approach is to have a solution that can help Drupal developers to quickly validate the changes and authoring team(content changed) validated across all aspects of user experience.</p>
+<h2 id="h.z7h2iiadxgkr">Testing Drupal with Visual AI</h2>
+<p>Applitools Visual AI is an option to explore that has capabilities to overcome some of the challenges. Let’s see in detail on Applitools, and it’s capabilities.</p>
+<p><a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools </a>Visual AI, the industries only AI-powered, deep learning, computer vision that replicates the human eyes and brain.</p>
+<p>Through Visual AI, comes incredible efficiency allowing tests to be created faster, tests executed in seconds on devices/browser combinations ensuring perfection across all browsers, screens and viewports combined with web accessibility compliance testing at the same time.</p>
+<p>Let’s take an example to discuss testing a website built with Drupal.</p>
+<p>I have taken <a target="_blank" href="https://www.service.nsw.gov.au/" rel="noopener noreferrer">https://www.service.nsw.gov.au/</a> website built on Drupal and using Selenium Java for testing the responsive web design, accessibility and functionality with Applitools.</p>
+<p>Refer to the <a target="_blank" href="https://applitools.com/tutorials/selenium-java.html" rel="noopener noreferrer">Applitools – Selenium –</a>Tutorial for step by step guide to writing/execute the test.</p>
+<p>Test completed in <strong>24 secs testing full-page( top to bottom) on 49 viewport and screen sizes.</strong></p>
+<div class="wp-block-image">
+<figure class="aligncenter"></figure>
+</div>
+<p>The test is executed on Desktop and device browser combinations as shown below,</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="1600" height="1001" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.png" alt="pasted image 0 4" class="wp-image-24164" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.png 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-300x188.png 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1024x641.png 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-768x480.png 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1536x961.png 1536w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-335x211.png 335w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+</div>
+<p>Regression testing on the same page is executed on all the same combinations covering desktop and mobile devices. Here full-page is compared with the previous run, and Visual AI has validated below on the page using Strict Algorithm,</p>
+<ul>
+<li>Text</li>
+<li>Images</li>
+<li>Color &amp; Contrast</li>
+<li>Position and alignment</li>
+</ul>
+<p>Applitools Visual AI has multiple <a target="_blank" href="https://applitools.com/automated-visual-testing-best-practices-guide/" rel="noopener noreferrer">algorithms </a>that can be used for validating different use cases.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="1600" height="903" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.jpg" alt="pasted image 0 4" class="wp-image-24163" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-300x169.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1024x578.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-768x433.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1536x867.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+</div>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="1600" height="918" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3.jpg" alt="pasted image 0 3" class="wp-image-24161" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-300x172.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-1024x588.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-768x441.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-1536x881.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+</div>
+<p>Visual AI comparison can be used to validate the look and feel of a particular component, element or region of a page.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="848" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.png" alt="pasted image 0 2" class="wp-image-24160" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.png 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-300x159.png 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1024x543.png 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-768x407.png 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1536x814.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Now, what if there are differences on the UI after dev changes. Wouldn’t it be great to know the reason for the difference? Applitools platform has “Root Cause Analysis” that provides the root cause as shown below,</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="1600" height="863" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.jpg" alt="pasted image 0 2" class="wp-image-24158" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-300x162.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1024x552.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-768x414.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1536x828.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+</div>
+<p>At the same time, while we are testing the UI, what if we get to know the website has met the accessibility guidelines or not without writing a line of code? See below.</p>
+<p>Applitools Visual AI validates the screen elements and provides a status of accessibility.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="1600" height="890" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1.jpg" alt="pasted image 0 2 1" class="wp-image-24159" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-300x167.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-1024x570.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-768x427.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-1536x854.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+</div>
+<p>What’s next after this, testers validate the results and accept/reject the latest screenshot with a click of a button.</p>
+<p>Here are other capabilities that the Applitools platform provides to help in End to End development of Drupal sites,</p>
+<h3 id="h.oxxy6i5crc1g">Benefits of Testing Drupal with Applitools</h3>
+<p>Based on the above, Applitools is a solution to resolve challenges and achieve below benefits,</p>
+<ul>
+<li>Increase productivity – Test faster with zero maintenance</li>
+<li>High quality – Release with utmost confidence as Visual AI tested like the human eye</li>
+<li>Ease of use – Irrespective of technical skills anyone can use the product</li>
+<li>Higher coverage at no extra cost – Browser/Device coverage without any additional infrastructure costs.</li>
+</ul>
+<p>Conclusion</p>
+<p>In the current pandemic situations, all businesses are increasing their digital presence.</p>
+<p>Drupal is a leading solution for the adoption of digital transformation. Drupal integrated with Applitools is a perfect solution for businesses to ensure their Drupal powered websites have been tested to perfection so they may reach their goals of digital transformation.</p>
+<p><em>Featured Image by <a target="_blank" href="https://unsplash.com/@tokeller?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Tobias Keller</a> on <a target="_blank" href="https://unsplash.com/s/photos/architecture-modern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/best-practices-for-testing-drupal-websites/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Dynatrace ’s Andi Grabner explains how Keptn Quality Gates automate analyzing da&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dynatrace-s-andi-grabner-explains-how-keptn-quality-gates-automate-analyzing-da/</link>
 		
@@ -689,55 +812,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Selenium Conference 2020 &#8211; A Bundle of Educational Sessions</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-conference-2020-a-bundle-of-educational-sessions/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 21 Oct 2020 05:57:16 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Bundle]]></category>
-		<category><![CDATA[Conference]]></category>
-		<category><![CDATA[Educational]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[Sessions]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/selenium-conference-2020-a-bundle-of-educational-sessions/</guid>
-
-					<description><![CDATA[This year we were proud to be a Platinum Selenium Conference 2020 sponsor, connecting and “meeting” with QA engineers, test]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>This year we were proud to be a Platinum <a target="_blank" href="https://2020.seleniumconf.in/" rel="noopener noreferrer">Selenium Conference</a> 2020 sponsor, connecting and “meeting” with QA engineers, test automation experts, developers from all across the globe, all while learning from top leaders in today’s testing industry, such as: <a target="_blank" href="https://blog.testproject.io/author/tarun-narula/" rel="noopener noreferrer">Tarun Narula</a>, <a target="_blank" href="https://blog.testproject.io/author/virender-pannugmail-com/" rel="noopener noreferrer">Virender Singh, </a><a target="_blank" href="https://blog.testproject.io/author/gaurav-singh55gmail-com/" rel="noopener noreferrer">Gaurav Singh, </a><a target="_blank" href="https://blog.testproject.io/author/singhrajni2210gmail-com/" rel="noopener noreferrer">Rajni Singh, </a><a target="_blank" href="https://blog.testproject.io/author/kouldeepgmail-com/" rel="noopener noreferrer">Deepak Koul</a>, and many more! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>As opposed to the <a target="_blank" href="https://blog.testproject.io/2019/09/30/testproject-seleniumconf-london-2019/" rel="noopener noreferrer">conference last year</a>, it was quite a different experience for everyone involved since the entire event transitioned into the virtual world, and we all know why… <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f637.png" alt="😷" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>So for those of you who might have missed it or didn’t have the budget to attend, don’t worry – we’ve got you covered by opening the stage to all the speakers to share their meaningful and effective sessions.</p>
-<p>Below you will find a bundle of educational sessions to accelerate your team’s performance and hit key targets using the personal experience of these professionals! Stay tuned for more – we will be updating this list with additional great sessions very soon <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f440.png" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p><span style="font-size: 12pt;"><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f64f.png" alt="🙏" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>A big thank you to these leaders for contributing &amp; spreading their knowledge</strong> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f64f.png" alt="🙏" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />If you too want to share your conference session with us, feel free to reach out directly to me at <a target="_blank" href="https://blog.testproject.io/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="59343c302d38357734382d2a383f30192d3c2a2d292b36333c3a2d773036" rel="noopener noreferrer">[email protected]</a> or on my <a target="_blank" href="https://www.linkedin.com/in/meital-matsafi/" rel="noopener noreferrer">LinkedIn profile</a> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f499.png" alt="💙" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
-<h2 style="text-align: center;"><strong><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f447.png" alt="👇" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Start Exploring <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f447.png" alt="👇" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></h2>
-<h2 style="text-align: center;"><span style="font-size: 24pt;"><strong>↓</strong></span></h2>
-<p><a target="_blank" href="https://blog.testproject.io/author/virender-pannugmail-com/" rel="noopener noreferrer">  </a><a target="_blank" href="https://blog.testproject.io/2020/10/13/shadow-dom-elements-and-using-the-testproject-opensdk-part-2/" rel="noopener noreferrer"><noscript><img loading="lazy" class="alignnone wp-image-14509" title="The Rise of Shadow DOM – Core Technical Aspects" src="https://blog.testproject.io/wp-content/uploads/2020/10/Virender.png" alt="The Rise of Shadow DOM – Core Technical Aspects" width="408" height="638" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Virender.png 406w, https://blog.testproject.io/wp-content/uploads/2020/10/Virender-327x512.png 327w" sizes="(max-width: 408px) 100vw, 408px"/></noscript></a><a target="_blank" href="https://blog.testproject.io/2020/10/11/what-to-do-when-tests-fail/" rel="noopener noreferrer"><img loading="lazy" class="alignnone wp-image-14515" title="What To Do When Tests Fail?" alt="What To Do When Tests Fail?" width="412" height="635" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Tarun.jpg 412w, https://blog.testproject.io/wp-content/uploads/2020/10/Tarun-333x512.jpg 333w" data-lazy-sizes="(max-width: 412px) 100vw, 412px" src="https://blog.testproject.io/wp-content/uploads/2020/10/Tarun.jpg"/><noscript><img loading="lazy" class="alignnone wp-image-14515" title="What To Do When Tests Fail?" src="https://blog.testproject.io/wp-content/uploads/2020/10/Tarun.jpg" alt="What To Do When Tests Fail?" width="412" height="635" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Tarun.jpg 412w, https://blog.testproject.io/wp-content/uploads/2020/10/Tarun-333x512.jpg 333w" sizes="(max-width: 412px) 100vw, 412px"/></noscript></a></p>
-<p><a target="_blank" href="https://blog.testproject.io/2020/09/30/testing-strategy-for-hyperconnected-world-of-iot/" rel="noopener noreferrer"><img loading="lazy" class="alignnone wp-image-14516" title="Testing Strategy for Hyperconnected World of IoT" alt="Testing Strategy for Hyperconnected World of IoT" width="414" height="619" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Rajni.jpg 407w, https://blog.testproject.io/wp-content/uploads/2020/10/Rajni-342x512.jpg 342w" data-lazy-sizes="(max-width: 414px) 100vw, 414px" src="https://blog.testproject.io/wp-content/uploads/2020/10/Rajni.jpg"/><noscript><img loading="lazy" class="alignnone wp-image-14516" title="Testing Strategy for Hyperconnected World of IoT" src="https://blog.testproject.io/wp-content/uploads/2020/10/Rajni.jpg" alt="Testing Strategy for Hyperconnected World of IoT" width="414" height="619" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Rajni.jpg 407w, https://blog.testproject.io/wp-content/uploads/2020/10/Rajni-342x512.jpg 342w" sizes="(max-width: 414px) 100vw, 414px"/></noscript></a><a target="_blank" href="https://blog.testproject.io/2020/09/22/the-quality-accountability-conundrum-is-quality-everyones-responsibility/" rel="noopener noreferrer"><img loading="lazy" class="alignnone wp-image-14532" title="The Quality Accountability Conundrum – Is Quality Everyone’s Responsibility?" alt="The Quality Accountability Conundrum – Is Quality Everyone’s Responsibility?" width="413" height="616" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Deepak.jpg 407w, https://blog.testproject.io/wp-content/uploads/2020/10/Deepak-343x512.jpg 343w" data-lazy-sizes="(max-width: 413px) 100vw, 413px" src="https://blog.testproject.io/wp-content/uploads/2020/10/Deepak.jpg"/><noscript><img loading="lazy" class="alignnone wp-image-14532" title="The Quality Accountability Conundrum – Is Quality Everyone’s Responsibility?" src="https://blog.testproject.io/wp-content/uploads/2020/10/Deepak.jpg" alt="The Quality Accountability Conundrum – Is Quality Everyone’s Responsibility?" width="413" height="616" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Deepak.jpg 407w, https://blog.testproject.io/wp-content/uploads/2020/10/Deepak-343x512.jpg 343w" sizes="(max-width: 413px) 100vw, 413px"/></noscript></a></p>
-<p><a target="_blank" href="https://blog.testproject.io/2020/09/30/testing-strategy-for-hyperconnected-world-of-iot/" rel="noopener noreferrer">  </a><a target="_blank" href="https://blog.testproject.io/2020/10/06/common-mistakes-in-test-automation/" rel="noopener noreferrer"><img loading="lazy" class="alignleft wp-image-14534" title="5 Common Mistakes in Test Automation" alt="5 Common Mistakes in Test Automation" width="416" height="646" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Gaurav.jpg 408w, https://blog.testproject.io/wp-content/uploads/2020/10/Gaurav-329x512.jpg 329w" data-lazy-sizes="(max-width: 416px) 100vw, 416px" src="https://blog.testproject.io/wp-content/uploads/2020/10/Gaurav.jpg"/><noscript><img loading="lazy" class="alignleft wp-image-14534" title="5 Common Mistakes in Test Automation" src="https://blog.testproject.io/wp-content/uploads/2020/10/Gaurav.jpg" alt="5 Common Mistakes in Test Automation" width="416" height="646" srcset="https://blog.testproject.io/wp-content/uploads/2020/10/Gaurav.jpg 408w, https://blog.testproject.io/wp-content/uploads/2020/10/Gaurav-329x512.jpg 329w" sizes="(max-width: 416px) 100vw, 416px"/></noscript></a></p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/10/21/selenium-conference-2020-educational-sessions/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -746,5 +820,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-01 06:38:17 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-01 22:01:19 by W3 Total Cache
 -->
