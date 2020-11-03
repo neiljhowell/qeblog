@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 30 Oct 2020 05:30:34 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 02 Nov 2020 16:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,49 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>INSPIRE 20 Podcast: Semra Barutchu, Infosys</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/inspire-20-podcast-semra-barutchu-infosys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Barutchu]]></category>
+		<category><![CDATA[Infosys]]></category>
+		<category><![CDATA[Inspire]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Semra]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/inspire-20-podcast-semra-barutchu-infosys/</guid>
+
+					<description><![CDATA[Building an inclusive work environment, particularly in terms of people with disabilities, is a mental and a cultural shift that has]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Building an inclusive work environment, particularly in terms of people with disabilities, is a mental and a cultural shift that has to be part of a company&#8217;s core values and what it wants to drive across the organization, according to <a target="_blank" href="https://twitter.com/sbarutch" rel="nofollow noopener noreferrer">Semra Barutchu</a>, Infosys&#8217; vice president and head of engineering services for Asia.</p>
+<p>To that end, Infosys has introduced guidelines to ensure it supports the <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-you-should-build-accessibility-start" rel="noopener noreferrer">integration of people with disabilities</a>, and it provides various internal departments with specific information on how to make it easier to integrate these individuals, Barutchu said in the latest INSPIRE 20 podcast.</p>
+<h3>The INSPIRE 20 podcast series</h3>
+<p>Barutchu is one of the executives taking part in INSPIRE 20, a new podcast series that showcases 20 executives from around the world who are making a difference in terms of inclusion and diversity in their organizations, communities, and/or industries.</p>
+<p><iframe allow="autoplay" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/889776454&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no"></iframe> </p>
+<p><em>Listen to the podcast with Semra Barutchu on <a target="_blank" href="https://podcasts.apple.com/gb/podcast/inspire-20/id1510305176?i=1000496363343" rel="nofollow noopener noreferrer">Apple Podcasts</a>,<strong> </strong><a target="_blank" href="https://soundcloud.com/user-699370465/micro-focus-inspire20-semra-barutchu" rel="nofollow noopener noreferrer">SoundCloud</a>, or <a target="_blank" href="https://open.spotify.com/episode/5JIUmSImVtwNhck5PDOoWM" rel="nofollow noopener noreferrer">Spotify</a>. Plus: Catch up with all of the <a target="_blank" href="https://content.microfocus.com/l/inspire-20-podcast-series-tb?_ga=2.169902311.652887837.1600691415-1617140538.1596457935" rel="noopener noreferrer">INSPIRE 20 series podcasts here</a>. </em></p>
+<h3>A &#8216;strategic builder&#8217;</h3>
+<p>Barutchu joined Infosys in 2013 to lead the engineering business unit across Australia and New Zealand and, subsequently, throughout Asia. She is known as a strategic business builder, specializing in all aspects of engineering services.</p>
+<p>Her extensive knowledge and experience of the Asia market allow her to provide expertise in leading regional change programs focused on improving performance, quality, service, and profitability.</p>
+<p>Barutchu enjoys promoting careers in information and communications technology to women who may become future leaders in the field. She has volunteered as a committee member for Females in Information Technology for a number of years.</p>
+<h3>Driving successful diversity programs</h3>
+<p>In the podcast, Barutchu talks about the success Infosys has had when it comes to inclusion and diversity and shares some of the diversity initiatives Infosys is driving in the broader community.</p>
+<p>Additionally, Barutchu discusses her role in creating inclusion through social outreach, including her collaboration with the NASSCOM (National Association of Software and Service Companies) Foundation to set up a National Digital Literacy Mission center to empower people with disabilities.</p>
+<p>The foundation is NASSCOM&#8217;s social arm that works with the tech industry to achieve social transformation and make an impact through technology in the developing world. The foundation works with the community to encourage and drive inclusion in the community itself, through education as well as by helping people find jobs, or just by creating a more inclusive environment.</p>
+<p>&#8220;There is so much we take for granted that is actually critical for these individuals,&#8221; Barutchu said. &#8220;Unless you&#8217;ve actually lived with people that have various disabilities or you&#8217;re associated with an organization&#8221; that works with people with disabilities, &#8220;you don&#8217;t have an awareness,&#8221; she said.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/inspire-20-podcast-semra-barutchu-infosys">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Best practices for testing Drupal websites &#8211; Automated Visual Testing</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-testing-drupal-websites-automated-visual-testing/</link>
 		
@@ -763,38 +806,6 @@ namespace NUnitTestProject1
 		
 		
 			</item>
-		<item>
-		<title>Egregor Claims Responsibility for Barnes &#038; Noble Attack, Leaks Data</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-claims-responsibility-for-barnes-noble-attack-leaks-data/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 21 Oct 2020 15:30:55 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Barnes]]></category>
-		<category><![CDATA[Claims]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Egregor]]></category>
-		<category><![CDATA[leaks]]></category>
-		<category><![CDATA[Noble]]></category>
-		<category><![CDATA[Responsibility]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/egregor-claims-responsibility-for-barnes-noble-attack-leaks-data/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/egregor-responsibility-barnes-noble/160401/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -803,5 +814,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-02 22:01:21 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-03 06:38:19 by W3 Total Cache
 -->
