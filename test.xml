@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 04 Nov 2020 04:01:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 05 Nov 2020 20:06:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,144 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>qTest Integration with Applitools &#8211; Automated Visual Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qtest-integration-with-applitools-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2020 20:06:49 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Integration]]></category>
+		<category><![CDATA[qTest]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qtest-integration-with-applitools-automated-visual-testing/</guid>
+
+					<description><![CDATA[Agile methodology should be a seamless setup where anytime, tracking of tests per requirement or story, automated or manual tests]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Agile methodology should be a seamless setup where anytime, tracking of tests per requirement or story, automated or manual tests executed and results available for monitoring or auditing by key stakeholders. And, automation execution shouldn’t be something only techies can do. Non-technical people in the team should know what is being covered in automated tests for stories.</p>
+<p>Mature organizations with agile methodologies, implement tooling to centralize, testing, requirements, defects and reporting at one place for better tracking and also to make informed decisions on the software quality management process.</p>
+<p>Recently, I have come across two tools, <strong>qTest </strong>and <strong>Applitools </strong>– integrating them in the agile process will solve above challenges and makes testing practise in an agile environment – transparent, traceable, measurable and efficient.</p>
+<div class="wp-block-group alignfull pt-sm pb-sm bg-off-white">
+<div class="wp-block-group__inner-container">
+<figure class="wp-block-pullquote">
+<blockquote>
+<p>“In this article, I’m focussing on the automated tests to explain the benefits of qTest and Applitools integration.”</p>
+<p><cite>— Satish Mallela</cite></p></blockquote>
+</figure>
+<hr class="wp-block-separator is-style-dots"/></div>
+</div>
+<h2 id="h.5jgitecfokqa"> qTest</h2>
+<p><a target="_blank" href="https://www.tricentis.com/products/agile-dev-testing-qtest/" rel="noopener noreferrer">Tricentis qTest</a> offers a suite of Agile testing tools designed to improve efficiency and ensure collaboration on your journey to release the best software.</p>
+<p>qTest has below components to support agile testing methodologies,</p>
+<ul>
+<li>qTest Manager – Powerful and Easy-to-Use Test Case Management</li>
+<li>qTest Launch – Centrally Manage Open Source Frameworks &amp; Commercial Test Automation Tools</li>
+<li>qTest Explorer – Test Execution Recorder &amp; Documentation Tools</li>
+</ul>
+<p><a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools </a>Visual AI, provides the software industry’s only AI-powered, deep learning, computer vision engine that replicates the human eyes and brain to test rendered components and pages.</p>
+<p>Applitools offers incredible efficiency. A single line of capture can replace dozens of text-based assertions per test.  With Applitools, you create tests faster, and you execute tests in seconds on multiple devices/browser combinations. Applitools helps you ensure perfection across all browsers, screens and viewports. You can even include web accessibility compliance testing at the same time.</p>
+<p>Applitools has 40+ SDKs for different programming languages and test runners, covering web apps, mobile apps, screenshot testing, PDF validations, and more.</p>
+<h2 id="h.piqab7od5109">Applitools Integration with qTest</h2>
+<p>How do we combine visual AI in Applitools with Test management capabilities in qTest to make software testing efficient in Agile methodology?</p>
+<p>Common flow of test management in any agile environment is,</p>
+<ul>
+<li>Writing tests to user stories/requirements.</li>
+<li>Execute tests manually or automatically.</li>
+<li>Raise defects</li>
+</ul>
+<p>In this article, I’m focussing on the automated tests to explain the benefits of qTest and Applitools integration.</p>
+<p>qTest supports multiple test runners like TestNG, Cucumber, JBehave, JUnit, NUnit, MSTest etc that can be used with popular tools like Selenium to run automated tests.</p>
+<p>Integrating Applitools with the automation tools and test runners is straightforward. Follow <a target="_blank" href="https://applitools.com/tutorials/" rel="noopener noreferrer">Tutorials</a>  for a step-by-step guide</p>
+<p>I have chosen, Cucumber-Java-Selenium and Applitools combination to explain integration.</p>
+<p>Cucumber is most commonly used in agile development for writing automated tests.</p>
+<p>Cucumber is a BDD(Behavior-Driven Development) software tool which helps facilitate the use of an easy-to-learn language called Gherkin. The Gherkin language is used for writing user stories in a ubiquitous language which can also be parsed by the test runner software. For details of Cucumber and Gherkin language, please refer to <a target="_blank" href="https://cucumber.io/docs" rel="noopener noreferrer">https://cucumber.io/docs</a>.</p>
+<p>Let’s take a look at a sample Cucumber scenario, as shown below to launch Tricentis website.</p>
+<pre class="wp-block-preformatted">Feature: Browser Test
+  Scenario: Search qTest Launch
+      Given I am on the Tricentis website
+      When I search for “qTest Launch”
+      Then I should see qTest Launch item on the Search page</pre>
+<p>Applitools should be added to the implementation of the Cucumber steps. If the automation framework uses a page object model then Applitools should be added to page objects.</p>
+<p>Applitools requires a Selenium webdriver object to capture a screenshot of the application under test.</p>
+<p>The following line of code should be added before capturing the DOM screenshot.</p>
+<pre class="wp-block-preformatted">eyes.open(driver, “Demo App”, “Smoke Test”, new RectangleSize(800, 800));</pre>
+<p>Next is to add the Applitools check command to take a full-page screenshot.</p>
+<pre class="wp-block-preformatted">// Visual checkpoint #1 - Check the login page.<br/>eyes.checkWindow(“Login Window”);</pre>
+<p>**Please refer to this <a target="_blank" href="https://applitools.com/tutorials/selenium-java.html" rel="noopener noreferrer">tutorial </a>for the remaining steps and completing the integration.</p>
+<p>We have successfully added Applitools code to automated tests.</p>
+<h2 id="h-running-tests">Running Tests</h2>
+<p>Let’s run the automated tests with qTest Launch or CI/CD tools like <strong>Jenkins</strong>.</p>
+<p>Please refer to <a target="_blank" href="https://documentation.tricentis.com/qtest/9910/en/content/qtest_launch/launch_user_guides/qtest_launch_quick_start_guide.htm" rel="noopener noreferrer">qTest Launch</a> for more details.</p>
+<p>During the test execution, Applitools takes DOM snapshots of the application under test (as shown below) and sends the snapshot to Applitools server for comparison with visual AI – emulating the human eye and brain.</p>
+<figure class="wp-block-image"></figure>
+<p>Please refer to <a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools</a> for more details.</p>
+<p>So far, we have prepared tests and integrated Applitools and now let’s see the results of integration.</p>
+<p>qTest automatically imports automation results to qTest Manager dashboard if tests are executed by qTest Launch. Please refer to <a target="_blank" href="https://documentation.tricentis.com/qtest/od/en/content/qtest_launch/universal_agent_user_guides/universal_agent_overview.htm" rel="noopener noreferrer">qTest Launch</a>  for more details.</p>
+<p>For execution in Jenkins refer to <a target="_blank" href="https://www.tricentis.com/academy/ondemand-training/how-to-integrate-qtest-jenkins-pipeline-projects/" rel="noopener noreferrer">qTest integrations with Jenkins</a>.</p>
+<p>Let’s dive into results imported into qTest Manager as shown below.</p>
+<p>Please refer to <a target="_blank" href="https://documentation.tricentis.com/qtest/od/en/content/qtest_manager/introduction/qtest_manager_quick_start_guides.htm" rel="noopener noreferrer">qTest Manager </a>for more details.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="845" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0.png" alt="pasted image 0" class="wp-image-24387" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-300x158.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-1024x541.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-768x406.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-1536x811.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>qTest Manager dashboard with automation run results.</p>
+<p>As shown in the above screenshot, tests are marked passed or failed.</p>
+<p>Integrating qTest with Applitools, the advantage is, <strong>qTest marks the test passed or failed depending on the status from Applitools.</strong></p>
+<p>Applitools has different status of tests, based on the comparison done by Visual AI.</p>
+<p>Please refer to this <a target="_blank" href="https://help.applitools.com/hc/en-us/articles/360007188251-Different-statuses-of-tests-and-steps#:~:text=Unresolved%2D%20A%20test%20which%20has,have%20not%20yet%20been%20reviewed." rel="noopener noreferrer">article </a>for more details.</p>
+<p>Let’s click on the test executed and see the details of the execution in both pass and failure scenarios,  </p>
+<p><strong>Passed</strong>:</p>
+<ul>
+<li>qTest marks the test as <strong>Passed </strong>as Applitools have a taken full-page screenshot of the application and no differences observed with baseline snapshot of the same screen.</li>
+<li>Applitools has tested a full-page emulating human eye.</li>
+</ul>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="574" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2.png" alt="pasted image 0 2" class="wp-image-24389" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-300x108.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-1024x367.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-768x276.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-1536x551.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p><strong>Failed</strong>:</p>
+<ul>
+<li>qTest marks the test as <strong>Failed </strong>as Applitools have taken a full-page screenshot of the application and observed differences with the baseline snapshot of the same screen.</li>
+<li>Applitools has tested a full-page <strong>emulating human eye </strong>and has found differences that a human eye would visualise by comparing text, images, colour, and contrast.</li>
+<li>To know more about Applitools algorithms comparison and human eye emulation. Follow this <a target="_blank" href="https://help.applitools.com/hc/en-us/articles/360007188591-Match-Levels" rel="noopener noreferrer">link. </a></li>
+<li>qTest also provides a link(click the log highlighted in green) to the Applitools Dashboard (sample below) to understand the differences and take action. Follow this <a target="_blank" href="https://applitools.com/docs/topics/overview/overview-reviewing-test-results.html" rel="noopener noreferrer">link</a> for more details.</li>
+</ul>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="719" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4.png" alt="pasted image 0 4" class="wp-image-24391" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-300x135.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-1024x460.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-768x345.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-1536x690.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>“com.applitools.eyes.exceptions.DiffsFoundException: Test ‘qTest Integration’ of ‘qTest’ detected differences! See details at: https://eyes.applitools.com/app/batches/00000251801305860660/00000251801305860535?accountId=&lt;accountID&gt;”</p>
+<p>The link sends you to Applitools Test Manager dashboard for users to review results and take actions.</p>
+<p>In the below screenshot, Applitools has compared the checkpoint (present application state) with the expected application state(baseline) and if differences found between these two will be highlighted in pink.</p>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="873" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3.png" alt="pasted image 0 3" class="wp-image-24390" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-300x164.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-1024x559.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-768x419.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-1536x838.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>To know more about Applitools capabilities for testing <a target="_blank" href="https://applitools.com/web-testing/" rel="noopener noreferrer">websites</a>, <a target="_blank" href="https://applitools.com/blog/adding-app-visual-management-to-mobile-test/" rel="noopener noreferrer">mobile applications</a> or <a target="_blank" href="https://applitools.com/blog/3-steps-visual-testing-pdf/" rel="noopener noreferrer">PDF </a>documents. Please follow the links.</p>
+<p>So far, we have achieved below in agile testing practise with integration,</p>
+<ul>
+<li>Tests are written for user stories</li>
+<li>Automated tests are linked to stories</li>
+<li>Results have been centralised in one place</li>
+</ul>
+<p>Now, all the stakeholders, team members should be able to,</p>
+<ul>
+<li>See the progress of given user story testing</li>
+<li>Understand what is been tested in automated testing</li>
+<li>See the current state of application</li>
+<li>Collaborate and take informed decisions</li>
+</ul>
+<p>Results are available all time in one place for future reference or auditing purposes, giving agile teams transparency and the ability to trace, measure and increase their efficiency.</p>
+<h2 id="h.qpf8blko7i92">Benefits of Integration</h2>
+<p>In broader terms, Applitools compliments teams using qTest or any other automation tools to,</p>
+<ul>
+<li>Test faster with less code or zero code – productivity gain by 70%</li>
+<li>Cross Browser testing with no infrastructure cost – coverage increase by 90%</li>
+<li>Automation results combined at one place – standardising tools</li>
+<li>Fewer defects to production – bugs caught 45% more with Visual AI</li>
+</ul>
+<p>Hope you liked this blog. Keep Testing!</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/qtest-integration/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Ramp Up &#8211; Neotys</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ramp-up-neotys/</link>
 		
@@ -498,90 +636,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>The age of the value stream: What your software team needs to know</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/the-age-of-the-value-stream-what-your-software-team-needs-to-know/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 26 Oct 2020 15:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Age]]></category>
-		<category><![CDATA[software]]></category>
-		<category><![CDATA[stream]]></category>
-		<category><![CDATA[team]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/?p=3661</guid>
-
-					<description><![CDATA[Agile and DevOps have defined the last two decades in software delivery. Value stream management (VSM) will define the next one. Even]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Agile and DevOps have defined the last two decades in software delivery. Value stream management (VSM) will define the next one.</p>
-<p>Even as recently as 2000, there was little information about agile and few jobs calling for expertise in that area. Ten years ago, the same was true for DevOps. Today a similar situation exists if you search for VSM.</p>
-<p>While many <a target="_blank" href="https://content.microfocus.com/devops-careers-tb/7-key-devops-roles?lx=vimF_R&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">careers have been built around agile and DevOps </a>over the past 20 years, it has not been enough to help enterprises truly compete in the increasingly digital world.</p>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/6-key-value-streams-drive-digital-transformation" rel="noopener noreferrer">VSM is fundamentally different</a> because it looks holistically from ideation to delivery and will deliver on the promises that agile and DevOps could never fulfill. Here&#8217;s why, and what your software team needs to know.</p>
-<h3>DevOps is part of a bigger picture</h3>
-<p>Agile sped up development to <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">accelerate value delivery</a>, while DevOps removed the bottlenecks between development and operations for further gains. Yet that&#8217;s only part of the value stream.</p>
-<p>Being good at CI/CD and code-to-cloud are necessary, but they are insufficient to remain competitive, given the breakneck speed of tech developments.</p>
-<p>You must consider the end-to-end flow of <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">all the software delivery work</a> that creates and protects business value. After all, most organizations spend half their time and half the budgeted money before a card ever gets to a development team&#8217;s backlog.</p>
-<p>That&#8217;s why VSM is vital: It doesn’t just focus on accelerating one silo; it focuses on accelerating the whole system.</p>
-<h3>What VSM helps you do</h3>
-<p><span>VSM in software delivery is a progressively maturing practice that takes a systematic approach to measure and improving end-to-end flow. It helps organizations to:</span></p>
-<ul>
-<li><span>Shorten time-to-market</span></li>
-<li><span>Increase throughput</span></li>
-<li><span>Improve product quality</span></li>
-<li><span>Optimize for business outcomes, such as increased revenue and customer retention</span></li>
-</ul>
-<p style="margin-top:12.0pt; margin-right:0in; margin-bottom:.0001pt">Accelerating value work requires an understanding of what value is. In <a target="_blank" href="https://projecttoproduct.org/the-book/" rel="nofollow noopener noreferrer"><em>Project to Product</em>,</a> <a target="_blank" href="https://twitter.com/mik_kersten" rel="nofollow noopener noreferrer">Mik Kersten</a> helps technology leaders articulate that by defining four flow items that someone is willing to exchange for an economic unit.</p>
-<p style="margin-top:12.0pt; margin-right:0in; margin-bottom:.0001pt">This data is abstracted from complex software delivery tool chains that enterprises use to manage the complex flow of work. Flow items deliver:</p>
-<p style="margin-top:12.0pt; margin-right:0in; margin-bottom:.0001pt"> </p>
-<ul>
-<li>
-<p>Features: New business value</p>
-</li>
-<li>
-<p>Fewer defects: Quality</p>
-</li>
-<li>
-<p>Risk management: Security, governance, compliance</p>
-</li>
-<li>
-<p>Technical debt reduction: Removals of impediments to future delivery</p>
-</li>
-</ul>
-<p>An organization’s focus must be on prioritizing, optimizing, and balancing the flow of these items across your software portfolio.</p>
-<p>For that, you need the right type of measurement. As <a target="_blank" href="https://twitter.com/adrianco" rel="nofollow noopener noreferrer">Adrian Cockcroft</a>, vice president of cloud architecture strategy at Amazon Web Services, puts it in <em><a target="_blank" href="https://aws.amazon.com/executive-insights/content/cloud-for-ceos/" rel="nofollow noopener noreferrer">Cloud for CEOs</a></em>: &#8220;The most critical metric is how long it takes for an innovative idea to reach a customer. If it takes your company months, how can you compete with an organization that delivers in days?&#8221;</p>
-<h3>New practices require new measures</h3>
-<p>Unlike &#8220;discipline&#8221; metrics that focus on activities in a specific area of the value stream (such as DORA and DevOps), VSM requires <a target="_blank" href="https://techbeacon.com/devops/devops-value-stream-mapping-why-you-need-metrics" rel="noopener noreferrer">end-to-end metrics</a> that rise above all practices and processes to focus on the flow of business value.</p>
-<p>These metrics need to measure the rate of business value delivery for software products through the lens of your customers (whether internal or external) to help you understand your current state.</p>
-<p>They allow you to determine where work is flowing and, more importantly, where it isn’t. They provide shared visibility into business and development metrics for everyone involved in the value stream. That includes members of the leadership team, who are often balancing resources and budgets across a portfolio. Where will those budgets produce the highest ROI in terms of improved flow?</p>
-<p>Here are a few metrics that will help you measure this:</p>
-<ul>
-<li><strong>Flow velocity</strong> gauges whether value delivery is accelerating. It is the number of flow items of each type completed over a particular period of time, allowing you to measure throughput.</li>
-<li><strong>Flow time</strong> can identify when time-to-value is getting longer. It measures the time it takes for flow items to go from &#8220;work start&#8221; to &#8220;work complete,&#8221; including both active and wait times. This allows you to measure time-to-market, to ensure your throughput is fast enough for the short feedback cycles needed when dealing with uncertainty.</li>
-<li><strong>Flow efficiency</strong> can identify when waste is increasing or decreasing in your processes. It is the ratio of active time versus wait time out of the total flow time.</li>
-<li><strong>Flow load</strong> monitors over- and under-utilization of value streams, which can lead to reduced productivity. It measures the number of flow items currently in progress (active or waiting) within a particular value stream.</li>
-</ul>
-<p>Flow time provides a customer- and business-centric measure of time-to-market, and flow velocity does the same for throughput. Flow efficiency measures how effective investment turns into value, and flow load is an early-warning indicator of overloaded value streams declining due to too much work-in-progress.</p>
-<p>Each of these is based on end-to-end flow through a value stream. For example, the flow time clock starts when work is started—for instance, via a commitment to a plan item or objective. It does not stop until running software has been delivered.</p>
-<p>As such, these measurements avoid the pitfalls associated with measuring just the cycle time of development or the time from code commit to code deploy, which can be an order of magnitude shorter than the bottlenecks upstream of development.</p>
-<p>Using these value stream metrics, we can glean insights to create a culture based on data-driven continuous improvement.</p>
-<h3>Reach the summit of data-driven continuous improvement</h3>
-<p>Many teams appear mature in their use of agile and DevOps practices but are not mature when it comes to the cultural side of implementing continuous improvement.</p>
-<p>First, how are your teams measuring maturity? Is the goal to do DevOps well? Are you measuring outcomes, or are you simply measuring activities? The goal is not to implement all of the DevOps practices; it is to accelerate the delivery and protection of business value.</p>
-<p>Maybe you don&#8217;t need to put all DevOps practices into play. Maybe different teams <a target="_blank" href="https://techbeacon.com/devops/whats-wrong-your-value-stream-mapping" rel="noopener noreferrer">need different practices</a>. It&#8217;s a mistake to simply implement this practice or that one without having a measure of what it can provide from the perspective of the business.</p>
-<p>You’ve got to <a target="_blank" href="https://techbeacon.com/enterprise-it/why-you-should-drop-it-speak-measure-success-business-terms" rel="noopener noreferrer">know what the business needs</a> first—what is the problem? What will unlock the flow of business value?</p>
-<p>The age of VSM is about measuring what matters in terms of business results. This provides the ability to look at these problems differently. You need to create a continuous feedback loop between IT and the business, to supercharge market response and adaptability to compete with the giants of the digital age.</p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/age-value-stream-what-your-software-team-needs-know">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -590,5 +644,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-08 22:01:20 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-09 06:50:59 by W3 Total Cache
 -->
