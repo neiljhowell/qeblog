@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 09 Nov 2020 20:15:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 10 Nov 2020 04:05:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,151 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>4 surprising takeaways from enterprises who migrated from #LoadRunner. Here’s wh&#8230;</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/4-surprising-takeaways-from-enterprises-who-migrated-from-loadrunner-heres-wh/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2020 04:05:47 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[enterprises]]></category>
+		<category><![CDATA[Heres]]></category>
+		<category><![CDATA[LoadRunner]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[migrated]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[PerformanceEngineering]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[ShiftLeft]]></category>
+		<category><![CDATA[surprising]]></category>
+		<category><![CDATA[takeaways]]></category>
+		<category><![CDATA[testearly]]></category>
+		<category><![CDATA[testoften]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/4-surprising-takeaways-from-enterprises-who-migrated-from-loadrunner-heres-wh/</guid>
+
+					<description><![CDATA[4 surprising takeaways from enterprises who migrated from #LoadRunner. Here’s what they told us. 👉 https://bit.ly/37CAb3l #perfmatters #performancetesting #performanceengineering #loadtesting]]></description>
+										<content:encoded><![CDATA[
+<p>4 surprising takeaways from enterprises who migrated from <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/loadrunner?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#LoadRunner</a>. Here’s what they told us. <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F37CAb3l%3Ffbclid%3DIwAR2CiIzmFk9VPRoZPeAtGQ9YRxCVNifg-8-7B8sIPvR6dO30_JCl3HRYuyM&amp;h=AT3-K4X1FMM8aewCdFSKEGe5NcsBjdnFIVoetNUakbiHohZoopaubOoyvliUKJxhcWfiK_pSKLRcomBuP6xYAeR-_27vBklEjhL564FfJgNqh7RW2-mk1sevYPxVIhhoW-_0pMSmdfnnukxKd54GHYLceVljdbhG2O5r4Zmd-JrQTQ91_YtyL_qVGpgQtufcAKcOel39P4gqm2i4QFLFJt_WYt9rmknYp2ILPGzAKe-56vM718EbJTihHbCLpu6q_TjZW5VetgmU07Y5Q22bPHA0AUcI5Wd9mGwmDrrKXmcmMgyj4vo9yRCciiba-zVcPzjD-xOZqcNbsfwG2sgG4Pk6AqbmxWa9HlsSr-Hw8Z1gjOZfaqSqyh6U9uQRf9UTHLuSkzGWK0PedCvxAQlZaKpnWoiuFQCb8GCOlEEDsfKG_NKOU8QmP4RNT6R7AUTUXJ-o2NTRvrxqeJa9qirJps8EXzQ8CK7UpP5If1YzqQxISKJmbr0rEKKKj8m-EB2UKZw-yM6VdudNJpTY8kfbg6eGqHU1o-ksH_1UU9CZS5X7-MgIKsGMnnUWbtmSKz0B7VQ-HdYwlaocPc3TYOYqX9vNBV3qaodMGuFLs5WZdLeYxkelgJjsctu20gYPLAZ1W9I9W6JzCGTOVU-ktWcL4Q" rel="noopener noreferrer">https://bit.ly/37CAb3l</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#perfmatters</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a>  <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/performanceengineering?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#performanceengineering</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#loadtesting</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/devops?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#devops</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/agile?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#agile</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/shiftleft?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#shiftleft</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/testearly?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#testearly</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/testoften?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#testoften</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3807458965932205%3Atop_level_post_id.3807458965932205%3Atl_objid.3807458965932205%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3807458965932205%3Apage_id.163354693676002%3Aphoto_id.3807458745932227%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_N6PyGr_KJD-9-%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-2032001119071312051&amp;__tn__=%2As-R" rel="noopener noreferrer">#neoload</a>
+</p>
+<p> <br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3807458965932205">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What You Need to Know About Among Us</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-you-need-to-know-about-among-us/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2020 01:28:13 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Among]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-you-need-to-know-about-among-us/</guid>
+
+					<description><![CDATA[Among Us – one of the Most Popular Online Game of 2020 (pictured credit: axel 795, Pixabay) If you have]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2>Among Us – one of the Most Popular Online Game of 2020</h2>
+<p><img loading="lazy" class="alignnone wp-image-110920" src="https://www.mcafee.com/wp-content/uploads/2020/11/Among-Us-pic-1-300x175.jpg" alt="" width="447" height="261" srcset="https://www.mcafee.com/wp-content/uploads/2020/11/Among-Us-pic-1-300x175.jpg 300w, https://www.mcafee.com/wp-content/uploads/2020/11/Among-Us-pic-1-1024x598.jpg 1024w, https://www.mcafee.com/wp-content/uploads/2020/11/Among-Us-pic-1-768x448.jpg 768w, https://www.mcafee.com/wp-content/uploads/2020/11/Among-Us-pic-1-205x120.jpg 205w, https://www.mcafee.com/wp-content/uploads/2020/11/Among-Us-pic-1.jpg 1280w" sizes="(max-width: 447px) 100vw, 447px"/></p>
+<p><span style="font-size: 8pt;">(pictured credit: axel 795, Pixabay)</span></p>
+<p>If you have teens and you haven’t yet heard of <a target="_blank" href="http://www.innersloth.com/gameAmongUs.php" rel="noopener noreferrer">‘Among Us’</a> then I guarantee it won’t be long. Among Us is an online deception and strategy game that is having a real moment worldwide. Over the last six months, it has amassed 85 million players on both PC and mobile. In September, it broke the all-time record-setting peak player ceiling on <a target="_blank" href="https://steamcharts.com/app/945360" rel="noopener noreferrer">Steam</a> when nearly 400,000 people played it simultaneously and, Google Trends reports that there were 50 times more Google searches for it at the beginning of October, as compared to the beginning of August.</p>
+<h3><strong>What’s The Game About?</strong></h3>
+<p>Among Us is an online multi-player game that is set on a failing spaceship. Suitable for up to 10 players, it has been compared to ‘Murder in the Dark’ or ‘Murder Wink’ – the old-school party game you may have played as children.</p>
+<p>At the start of the game, you’re advised whether you are a regular crew member or an imposter. Crew mates are tasked with completing small tasks that benefit the spaceship eg cleaning our air-conditioning ducts whereas imposters (between 1-3 players) create havoc on the spaceship and seek out victims to kill – without letting anyone know.</p>
+<p>Every time a dead body is found, a crewmember will call a meeting to workshop who they think the imposter is. This is one of the few times players can talk to each other. As you can imagine, this can get very heated (and entertaining) as players try to implicate others and remove themselves from focus. All players then vote on who they think the imposter is – and the player with the most votes is ejected from the spaceship’s airlock.</p>
+<p>Crewmates win by managing to repair the ship and eject all the imposters while the imposter wins by killing all the crewmates before they complete their jobs.</p>
+<h3><strong>Why Has It Become So Popular?</strong></h3>
+<p>Among Us was actually launched in 2018 but to little fanfare. But the planets have aligned for the developers at <a target="_blank" href="http://www.innersloth.com/" rel="noopener noreferrer">InnerSloth</a> and it has become one of the biggest online games ever. In fact, it’s so successful that the developers have abandoned plans for a sequel and are instead, investing their resources into perfecting the original.</p>
+<p>There’s no doubt that pandemic life has contributed to the popularity of Among Us with many touting it as the ultimate group party game. In fact, some believe it brings all the energy and pizazz of board game night – just virtually.</p>
+<p>It is extremely easy to learn. So, if you aren’t a gamer with years of experience (that’s me) you can absolutely play. This concept has been described by popular YouTube gamer <a target="_blank" href="https://youtube.fandom.com/wiki/Pegasus" rel="noopener noreferrer">Pegasus</a> as ‘ingenious’ for its simplicity, and praised for its ‘extremely social’ nature.</p>
+<p>The game is also very well priced. In fact, it’s free on mobile – but you will have to view some ads. And it’s only around $7 on a PC – so much cheaper than anything my kids have played in years!</p>
+<h3><strong>What Parents Are Asking</strong></h3>
+<h4><strong>Is it Suitable?</strong></h4>
+<p><a target="_blank" href="https://www.classification.gov.au/titles/among-us-0" rel="noopener noreferrer">The Classification Board here is Australia gives Among Us a PG rating</a> which means the content is mild in impact. But they do state that PG rated content is ‘not recommended for viewing by people under the age of 15 without guidance from parents, teachers or guardians.’</p>
+<p>In Australia, the game is rated as suitable for 9+ on the App Store. On Google Play it is nominated as suitable for ages 10+.</p>
+<p>The role of the imposter in the game to hunt and murder players is aggressive and violent. Yes, it is a cartoon-like visual which does reduce the impact but there are still bodies left lying around after the deed is done.</p>
+<p>Parents know their children the best. Absolutely take heed of the advice, but ultimately, you need to decide what’s suitable for them. If you do decide to let your younger children play – or they’ve already discovered it – please talk about violence in video games. Does watching violent images make them feel scared or more aggressive? Do they feel better if they talk about it or, in fact, choose to watch something less violent?</p>
+<h4><strong>Can They Chat With Strangers During The Game?</strong></h4>
+<p>There is opportunity to chat with strangers in the game but it is less than most online games. Players can chat in the online waiting room before a game starts and of course, there is also interaction in the meetings during which the group tries to work out who the imposter is. Enabling the censor chat mode is a good option here – this limits word and aims to block out expletives however I understand that isn’t completely fool proof.</p>
+<p>But you can choose to play the game offline, locally, which means you play only with people you know. You simply share a generated code with the players you want to join the game. I highly recommend this for younger children and teens or if you want to play the game as a family. The game can be played with as few as four players which makes an offline game far easier to get happening.</p>
+<h4><strong>Does It Share A Positive Message?</strong></h4>
+<p>Both trust and deceit are at the core of this game. Learning who to place your trust in is part of being a successful crewmember in Among Us whilst being a master of deceit will win you the game as an imposter.</p>
+<p>You could argue that these themes are no different to playing Murder in the Dark or even the old classic Cluedo. However, I would absolutely have a conversation with your kids about the difference between real life and online (or gaming) life. Why not weave it into your dinnertime conversation?</p>
+<p>My boys are really enjoying playing Among Us, in fact – we have earmarked this weekend for a family game. But please ensure you are comfortable with the game before you give your kids the green light. And if you do, be assured that one of the reasons this game is so popular is because players feel like they are part of a community – and isn’t that what we all need at the moment?</p>
+<p>‘till next time.</p>
+<p>Alex xx</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/what-you-need-to-know-about-among-us/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Trump Site Alleging AZ Election Fraud Exposes Voter Data</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-site-alleging-az-election-fraud-exposes-voter-data/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2020 20:49:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Alleging]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Election]]></category>
+		<category><![CDATA[Exposes]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[site]]></category>
+		<category><![CDATA[Trump]]></category>
+		<category><![CDATA[Voter]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-site-alleging-az-election-fraud-exposes-voter-data/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener noreferrer">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/trump-site-alleging-az-election-fraud-exposes-voter-data/161068/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Top tools and best practices to kick-start your shift to cyber resilience</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-tools-and-best-practices-to-kick-start-your-shift-to-cyber-resilience/</link>
 		
@@ -238,6 +383,44 @@
 		
 			</item>
 		<item>
+		<title>Welcome to Grégoire! – Gatling Open-Source Load Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-gregoire-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2020 16:15:53 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Grégoire]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-gregoire-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[Reading Time: &#60; 1 min   The Gatling family is growing!  We are very happy to welcome Grégoire Vallet. Grégoire joined]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">&lt; 1</span> <span class="rt-label rt-postfix">min</span></span></p>
+<p> </p>
+<p><strong>The </strong><strong>Gatling family is growing!</strong>  We are very happy to welcome <strong>Grégoire Vallet</strong>.</p>
+<div id="attachment_7943" style="width: 310px" class="wp-caption aligncenter"></p>
+<p id="caption-attachment-7943" class="wp-caption-text">Grégoire joined the Sales Team as a Sales Development Representative.</p>
+</div>
+<p>Grégoire joined the Sales Team as a <strong>Sales Development Representative</strong>.</p>
+<p>After obtaining a Master in <strong>International Business</strong> from a Parisian business school, Grégoire worked as a <strong>Business Developer</strong>, in a Tech recruiting start-up.</p>
+<p>Full of passions punctuate his life, sports, history and especially Chinese culture, he lived and worked there for 2 years.</p>
+<p><strong>Feel free to contact him,</strong> if you need any information, he would be glad to help you to <strong>discover our offers</strong> and <strong>support you in your project</strong>: <a target="_blank" href="https://gatling.io/mailto:gvallet@gatling.io" rel="noopener noreferrer">gvallet@gatling.io</a></p>
+<p>We look forward to benefiting from his expertise in sales!</p>
+<p><strong>Welcome Grégoire!</strong></p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://gatling.io/2020/11/04/welcome-to-gregoire/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Ramp Up &#8211; Neotys</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ramp-up-neotys/</link>
 		
@@ -437,283 +620,6 @@ module.exports = {
 		
 		
 			</item>
-		<item>
-		<title>McAfee Named a Leader in the 2020 Gartner Magic Quadrant for CASB</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-named-a-leader-in-the-2020-gartner-magic-quadrant-for-casb/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2020 17:05:57 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[CASB]]></category>
-		<category><![CDATA[Gartner]]></category>
-		<category><![CDATA[leader]]></category>
-		<category><![CDATA[Magic]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Named]]></category>
-		<category><![CDATA[Quadrant]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/mcafee-named-a-leader-in-the-2020-gartner-magic-quadrant-for-casb/</guid>
-
-					<description><![CDATA[McAfee MVISION Cloud was the first to market with a CASB solution to address the need to secure corporate data]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>McAfee MVISION Cloud was the first to market with a CASB solution to address the need to secure corporate data in the cloud. Since then, Gartner has published several reports dedicated to the CASB market, which is a testament to the critical role CASBs play in enabling enterprise cloud adoption. Today, Gartner named McAfee a Leader in the 2020 annual <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/lp/gartner-magic-quadrant-for-casb.html" rel="noopener noreferrer">Gartner Magic Quadrant for Cloud Access Security Brokers (CASB)</a> for the fourth time evaluating CASB vendors.</p>
-<p>Cloud access security brokers have become an essential element of any cloud security strategy, helping organizations govern the use of cloud and protect sensitive data in the cloud. Security and risk management leaders concerned about their organizations’ cloud use should investigate CASBs.</p>
-<p>In its fourth Magic Quadrant for Cloud Access Security Brokers, Gartner evaluated eight vendors that met its inclusion criteria. MVISION Cloud, as part of the MVISION family of products at McAfee, is recognized as a Leader in the report; and for the fourth year in a row. To learn more about how Gartner assessed the market and MVISION Cloud, download your copy of the report <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/lp/gartner-magic-quadrant-for-casb.html" rel="noopener noreferrer">here.</a></p>
-<p><img loading="lazy" class="aligncenter wp-image-108550 size-large" src="https://www.mcafee.com/wp-content/uploads/2020/10/figure1-941x1024.png" alt="" width="941" height="1024" srcset="https://www.mcafee.com/wp-content/uploads/2020/10/figure1-941x1024.png 941w, https://www.mcafee.com/wp-content/uploads/2020/10/figure1-276x300.png 276w, https://www.mcafee.com/wp-content/uploads/2020/10/figure1-768x835.png 768w, https://www.mcafee.com/wp-content/uploads/2020/10/figure1-1412x1536.png 1412w, https://www.mcafee.com/wp-content/uploads/2020/10/figure1-119x129.png 119w, https://www.mcafee.com/wp-content/uploads/2020/10/figure1.png 1756w" sizes="(max-width: 941px) 100vw, 941px"/></p>
-<p>This year, Gartner commissioned a highly rigorous process to compile its <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/lp/gartner-magic-quadrant-for-casb.html" rel="noopener noreferrer">Gartner Magic Quadrant for Cloud Access Security Brokers (CASB)</a> report and they relied on numerous inputs to compile the report, including these materials from vendors to understand their product offerings:</p>
-<ul>
-<li><strong>Questionnaire</strong> – A 300+ point questionnaire resulting in hundreds of pages of responses</li>
-<li><strong>Financials</strong> – Detailed company financial data covering CASB revenue</li>
-<li><strong>Documentation</strong> – Access to all product documentation</li>
-<li><strong>Customer Peer Reviews </strong>– Gartner encourages customers to submit anonymized reviews via their Peer Insights program. You can read them <a target="_blank" href="https://www.gartner.com/reviews/market/cloud-access-security-brokers?utm_expid=.xzcoH0G3Q_WoFe2jOjwApw.0&amp;utm_referrer=https%3A%2F%2Fwww.gartner.com%2Freviews%2Fcustomers-choice%2Fcloud-access-security-brokers" rel="noopener noreferrer">here.</a></li>
-<li><strong>Demo</strong> – Covering over 50 Gartner-defined use cases to validate product capabilities</li>
-</ul>
-<p>In 2020, McAfee made several updates and additions to its solutions, strengthening its position as an industry experts  including:</p>
-<p> </p>
-<p>McAfee also received <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=067f564a-2935-440e-b8e0-d695c37ca0a3" rel="noopener noreferrer">recognition</a> as the only vendor to be named the <a target="_blank" href="https://www.gartner.com/reviews/market/cloud-access-security-brokers" rel="noopener noreferrer">January 2020 Gartner Peer Insights Customers’ Choice for Cloud Access Security Brokers</a> based on customer feedback and ratings for McAfee MVISION Cloud.</p>
-<p><em><span style="font-size: 8pt;">Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</span></em></p>
-<p><em><span style="font-size: 8pt;">The Gartner Peer Insights Logo is a trademark and service mark of Gartner, Inc., and/or its affiliates, and is used herein with permission. All rights reserved</span></em></p>
-<p><em><span style="font-size: 8pt;">Gartner Peer Insights ‘Voice of the Customer’: Cloud Access Security Brokers, Peer Contributors, 13 March 2020. </span></em><em><span style="font-size: 8pt;">Gartner Peer Insights reviews constitute the subjective opinions of individual end users based on their own experiences and do not represent the views of Gartner or its affiliates. </span></em><em><span style="font-size: 8pt;">Gartner Peer Insights Customers’ Choice constitute the subjective opinions of individual end-user reviews, ratings, and data applied against a documented methodology; they neither represent the views of, nor constitute an endorsement by, Gartner or its affiliates.</span></em></p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/mcafee-named-a-leader-in-the-2020-gartner-magic-quadrant-for-casb/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Best practices for testing Drupal websites &#8211; Automated Visual Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-testing-drupal-websites-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2020 05:30:34 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Drupal]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<category><![CDATA[Websites]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-for-testing-drupal-websites-automated-visual-testing/</guid>
-
-					<description><![CDATA[Drupal is an open-source content management system used to build websites and applications. Drupal has great standard features, like easy]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><a target="_blank" href="https://www.drupal.org/" rel="noopener noreferrer">Drupal </a>is an open-source content management system used to build websites and applications. Drupal has great standard features, like easy content authoring, reliable performance, and excellent security. But what sets it apart is its flexibility; modularity is one of its core principles. Its tools help you build the versatile, structured content that dynamic web experiences need. In this article, we’ll show you how to effectively test Drupal websites and applications using cutting edge vision based technology.</p>
-<h3 id="h.aid1r6pznvc2">Why do people prefer Drupal over other Open Source CMS’s?</h3>
-<ul>
-<li> Reliability and scalability </li>
-<li> Security </li>
-<li> Easing out the complexity of the site </li>
-<li>It is multilingual </li>
-<li>Flexibility of Drupal</li>
-<li>Easy for SEO</li>
-</ul>
-<p>Refer <a target="_blank" href="https://www.vardot.com/en-us/ideas/blog/why-drupal-best-cms-your-website" rel="noopener noreferrer">https://www.vardot.com/en-us/ideas/blog/why-Drupal-best-cms-your-website</a> for more information on above.</p>
-<p>The digital landscape is changing, and with it are increasing demands on content management systems (CMSes) and organisations to keep pace with consumer needs. Users are demanding more personalised <a target="_blank" href="https://www.origineight.net/o8dx?__hstc=39244668.dd7233d964b6f2f7cd114bc5000b2b0e.1599367142010.1599367142010.1599367142010.1&amp;__hssc=39244668.1.1599367142011&amp;__hsfp=2647981047" rel="noopener noreferrer">experiences</a>, more excellent connectivity between devices, and more interactive elements in their web experiences.</p>
-<p>Organisations want websites that grow with your digital technology and business needs and help you achieve your goals. Drupal is helping organisations to meet these demands.</p>
-<h2 id="h.mj1qmrxtnkw2">How do we test Drupal-powered websites?</h2>
-<p>Drupal provides enormous benefits for building customer experience and at the same times poses challenges for testing also.</p>
-<p>Drupal sites are full of content, and variations to the content can cause below issues.</p>
-<ul>
-<li>Quantity of content</li>
-<li>Length of the content</li>
-<li>Interlinking between content</li>
-<li>Different types of media</li>
-<li>Language</li>
-<li>Formatting</li>
-</ul>
-<p>If a website includes a content import component, doing this at the beginning of a project is a great way to ensure that real content is tested as the site’s functionality is built.</p>
-<p>For user-generated content, creating a suite of realistic test content that includes a variety of what users might enter is an excellent investment of time at the beginning of the project.</p>
-<p>Most organisations assume Drupal handles below areas automatically, or they will “just work”.</p>
-<ul>
-<li>Responsive web testing</li>
-<li>Compatible with dynamic content</li>
-<li>Accessibility</li>
-<li>Support multilingual</li>
-<li>Performance</li>
-</ul>
-<p>Drupal developers are performing a quick check on one browser(mostly chrome) during development and assume testing team or content management team will be able to check other browser and device combinations before releasing to customers.</p>
-<p>Organisations are increasingly writing scripted tests with tools like Selenium, and Cypress etc. can be repeated and tested frequently to cover above requirements. Areas of testing like usability, design features are challenging to test in a scripted fashion. Exploratory testing(manual) done by developers or content management teams will not be able to catch all issues.</p>
-<figure class="wp-block-pullquote">
-<blockquote>
-<p>“Areas of testing like usability, design features are challenging to test in a scripted fashion. Exploratory testing(manual) done by developers or content management teams will not be able to catch all issues.”</p>
-</blockquote>
-</figure>
-<p>The best approach is to have a solution that can help Drupal developers to quickly validate the changes and authoring team(content changed) validated across all aspects of user experience.</p>
-<h2 id="h.z7h2iiadxgkr">Testing Drupal with Visual AI</h2>
-<p>Applitools Visual AI is an option to explore that has capabilities to overcome some of the challenges. Let’s see in detail on Applitools, and it’s capabilities.</p>
-<p><a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools </a>Visual AI, the industries only AI-powered, deep learning, computer vision that replicates the human eyes and brain.</p>
-<p>Through Visual AI, comes incredible efficiency allowing tests to be created faster, tests executed in seconds on devices/browser combinations ensuring perfection across all browsers, screens and viewports combined with web accessibility compliance testing at the same time.</p>
-<p>Let’s take an example to discuss testing a website built with Drupal.</p>
-<p>I have taken <a target="_blank" href="https://www.service.nsw.gov.au/" rel="noopener noreferrer">https://www.service.nsw.gov.au/</a> website built on Drupal and using Selenium Java for testing the responsive web design, accessibility and functionality with Applitools.</p>
-<p>Refer to the <a target="_blank" href="https://applitools.com/tutorials/selenium-java.html" rel="noopener noreferrer">Applitools – Selenium –</a>Tutorial for step by step guide to writing/execute the test.</p>
-<p>Test completed in <strong>24 secs testing full-page( top to bottom) on 49 viewport and screen sizes.</strong></p>
-<div class="wp-block-image">
-<figure class="aligncenter"></figure>
-</div>
-<p>The test is executed on Desktop and device browser combinations as shown below,</p>
-<div class="wp-block-image">
-<figure class="aligncenter"><img loading="lazy" width="1600" height="1001" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.png" alt="pasted image 0 4" class="wp-image-24164" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.png 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-300x188.png 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1024x641.png 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-768x480.png 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1536x961.png 1536w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-335x211.png 335w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-</div>
-<p>Regression testing on the same page is executed on all the same combinations covering desktop and mobile devices. Here full-page is compared with the previous run, and Visual AI has validated below on the page using Strict Algorithm,</p>
-<ul>
-<li>Text</li>
-<li>Images</li>
-<li>Color &amp; Contrast</li>
-<li>Position and alignment</li>
-</ul>
-<p>Applitools Visual AI has multiple <a target="_blank" href="https://applitools.com/automated-visual-testing-best-practices-guide/" rel="noopener noreferrer">algorithms </a>that can be used for validating different use cases.</p>
-<div class="wp-block-image">
-<figure class="aligncenter"><img loading="lazy" width="1600" height="903" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.jpg" alt="pasted image 0 4" class="wp-image-24163" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-300x169.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1024x578.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-768x433.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-4-1536x867.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-</div>
-<div class="wp-block-image">
-<figure class="aligncenter"><img loading="lazy" width="1600" height="918" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3.jpg" alt="pasted image 0 3" class="wp-image-24161" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-300x172.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-1024x588.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-768x441.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-3-1536x881.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-</div>
-<p>Visual AI comparison can be used to validate the look and feel of a particular component, element or region of a page.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="848" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.png" alt="pasted image 0 2" class="wp-image-24160" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.png 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-300x159.png 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1024x543.png 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-768x407.png 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1536x814.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>Now, what if there are differences on the UI after dev changes. Wouldn’t it be great to know the reason for the difference? Applitools platform has “Root Cause Analysis” that provides the root cause as shown below,</p>
-<div class="wp-block-image">
-<figure class="aligncenter"><img loading="lazy" width="1600" height="863" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.jpg" alt="pasted image 0 2" class="wp-image-24158" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-300x162.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1024x552.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-768x414.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1536x828.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-</div>
-<p>At the same time, while we are testing the UI, what if we get to know the website has met the accessibility guidelines or not without writing a line of code? See below.</p>
-<p>Applitools Visual AI validates the screen elements and provides a status of accessibility.</p>
-<div class="wp-block-image">
-<figure class="aligncenter"><img loading="lazy" width="1600" height="890" src="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1.jpg" alt="pasted image 0 2 1" class="wp-image-24159" srcset="https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1.jpg 1600w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-300x167.jpg 300w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-1024x570.jpg 1024w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-768x427.jpg 768w, https://applitools.com/wp-content/uploads/2020/10/pasted-image-0-2-1-1536x854.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-</div>
-<p>What’s next after this, testers validate the results and accept/reject the latest screenshot with a click of a button.</p>
-<p>Here are other capabilities that the Applitools platform provides to help in End to End development of Drupal sites,</p>
-<h3 id="h.oxxy6i5crc1g">Benefits of Testing Drupal with Applitools</h3>
-<p>Based on the above, Applitools is a solution to resolve challenges and achieve below benefits,</p>
-<ul>
-<li>Increase productivity – Test faster with zero maintenance</li>
-<li>High quality – Release with utmost confidence as Visual AI tested like the human eye</li>
-<li>Ease of use – Irrespective of technical skills anyone can use the product</li>
-<li>Higher coverage at no extra cost – Browser/Device coverage without any additional infrastructure costs.</li>
-</ul>
-<p>Conclusion</p>
-<p>In the current pandemic situations, all businesses are increasing their digital presence.</p>
-<p>Drupal is a leading solution for the adoption of digital transformation. Drupal integrated with Applitools is a perfect solution for businesses to ensure their Drupal powered websites have been tested to perfection so they may reach their goals of digital transformation.</p>
-<p><em>Featured Image by <a target="_blank" href="https://unsplash.com/@tokeller?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Tobias Keller</a> on <a target="_blank" href="https://unsplash.com/s/photos/architecture-modern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></em></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/best-practices-for-testing-drupal-websites/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Best Practices When Starting Performance Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-when-starting-performance-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[Starting]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/best-practices-when-starting-performance-testing/</guid>
-
-					<description><![CDATA[We just announced that Sauce Performance is now available on all Sauce accounts including free trial, self serve, and Enterprise.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>We just announced that <a target="_blank" href="https://saucelabs.com/platform/analytics-performance/sauce-performance" rel="noopener noreferrer">Sauce Performance</a> is now available on all Sauce accounts including free trial, self serve, and Enterprise. Sauce Performance is a performance testing tool that allows developers to test the front-end performance of applications in the Sauce platform at no additional cost. Rather than testing performance at the end of the testing cycle with a third party application, Sauce users can test the front-end performance of their application at the beginning of the testing cycle. </p>
-<h3>How to Get Sauce Performance Setup with Selenium Tests</h3>
-<p>Sauce Performance is set up with machine learning-derived baselines with Google Lighthouse (recently updated to version 6) and a front-end audit and history. You can begin the process of creating performance tests by leveraging existing Selenium tests as well. While this shouldn’t be your process every time, it can be a very easy way to get started.</p>
-<p>In this example below, you can see how to start capturing web application performance for existing Selenium tests: </p>
-<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/6fAgRJvLDJprYI8ZNzOhHG/89f8ccaa09241afe788e4a295b38131f/performance_selenium.png?fm=webp" type="image/webp"/></picture></div>
-<p>Sauce Performance is currently only available for tests executed on the latest three versions of Google Chrome. </p>
-<p>While many testers might want to use their current Selenium tests, there are also some other best practices to follow to ensure you are getting the best results from your performance tests.</p>
-<h3>General Best Practices for Sauce Performance </h3>
-<ul>
-<li>
-<p><b>Separate performance and functional tests: </b>As front end performance tests serve a different objective than functional tests, you want to separate them from GUI tests and make them a separate step in your CI pipeline.</p>
-</li>
-<li>
-<p><b>Run performance tests on only a single operating system: </b>Typically, users see more predictable results when running tests against Chrome on a single dedicated OS.</p>
-</li>
-<li>
-<p><b>Choose metrics that align with your application/user needs: </b>Sauce Performance allows users to validate front-end performance regressions across a wide range of metrics (Performance Score, Time to Interactive, Time to First Meaningful Paint, etc.). We recommend exploring verifications across a mix of metrics that closely align with the most important desired end-user experiences you wish to achieve. </p>
-</li>
-<li>
-<p><b>Optimize your scripts for performance: </b>While Sauce Performance is able to validate metrics/regressions around page loads, users should be aware of other actions the test script is performing (e.g., assertions for the presence of content on the page) and determine if they are necessary in gathering performance metrics. </p>
-</li>
-<li>
-<p><b>Focus on core app experiences first: </b>Performance testing and validations should focus on core application experiences as a start. Prioritize your performance validations the same as you would your frontend functional tests—test key pages more frequently. </p>
-</li>
-</ul>
-<p>By following these best practices, getting Sauce Performance up and running with your Sauce account is easy and efficient. Once Sauce Performance is integrated into your pipeline, your team will be able to have a single quality signal for your functional and performance tests getting you one step closer to feeling digitally confident.</p>
-<h3>Test Performance for Yourself!</h3>
-<p>Sauce Performance is now enabled across the entire Sauce Labs platform and you can even access it on the free trial. Go ahead and give it a try on our<a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer"> free trial</a> or <a target="_blank" href="https://saucelabs.com/sales" rel="noopener noreferrer">contact us</a> to learn more about the Sauce platform.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/best-practices-when-starting-performance-testing">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Dynatrace ’s Andi Grabner explains how Keptn Quality Gates automate analyzing da&#8230;</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dynatrace-s-andi-grabner-explains-how-keptn-quality-gates-automate-analyzing-da/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 29 Oct 2020 11:39:56 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[analyzing]]></category>
-		<category><![CDATA[Andi]]></category>
-		<category><![CDATA[Automate]]></category>
-		<category><![CDATA[Dynatrace]]></category>
-		<category><![CDATA[explains]]></category>
-		<category><![CDATA[Gates]]></category>
-		<category><![CDATA[Grabner]]></category>
-		<category><![CDATA[Keptn]]></category>
-		<category><![CDATA[Quality]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/dynatrace-s-andi-grabner-explains-how-keptn-quality-gates-automate-analyzing-da/</guid>
-
-					<description><![CDATA[Dynatrace ’s Andi Grabner explains how Keptn Quality Gates automate analyzing data from many sources to validate that SLOs are]]></description>
-										<content:encoded><![CDATA[
-<p><a target="_blank" href="https://facebook.com/Dynatrace/?refid=17&amp;_ft_=mf_story_key.3813338335344268%3Atop_level_post_id.3813338335344268%3Atl_objid.3813338335344268%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3813338335344268%3Apage_id.163354693676002%3Aphoto_id.3813337558677679%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX-3zWdwITpfQehO%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-1497797280322609815&amp;__tn__=%2As-R" rel="noopener noreferrer">Dynatrace</a> ’s Andi Grabner explains how Keptn Quality Gates automate analyzing data from many sources to validate that SLOs are being met. <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2J2dueL%3Ffbclid%3DIwAR3lUHWxcqgfyefKhWt1g_iZh5xjsAiNJeutkWzqSUg4gUb4-V088xg1T9k&amp;h=AT397-7nkhz_1ERLNyHxgiPoxIMs8nk0kktMVxoeLT6NZyu_wVdCCABUfYe6SgNi43xZo5pKceJtDfvphwl_863RR1uhnPFLPDhoUEfH4DPYPtviG2kA1Wq_J0UwaS7eEXAezrrYH2-bNaNg1eRaUkHwqSB33aBNBeNlhsiIVnp6QovzxuUSlnCTKMuUxNaXj6j5uPiakW21eOMWpBdnZTk7GMPae34MdBDM0-DqAV4fjx7EtHGLzJ2R_83-ZGUHutYfjfRG43jAZhxK1i4iX56eUHfjyyo8tbAaCS85QHj-DiTMYd9ikTnMUb7lVGW5YBwvUBKX8bxTYkwuLcbRE-SlHPydnJwnwojCk1l2CYNywU9O0d7OnN8aCxi1ecZcEHgLPtsYuaEJPaO-ISQ02OwrvzFSiwZGda6Az7982QFaJJONruuClSks6NKY5Tmo5M9ey2r2SbvXzWj4MsMPpPdnEdm9jouRMaBm8djNulqqyAkFioTvKTDrW9ce2BG6yJOK05zgJbKzsx5X0wKfwlS8i6Lg1lD5WGxisxjbojBVlU5dPyTF_JfWlWGtFpjWDhpaxKB4XajCJeEI-WEGtN2Ekoolw81GmcRUc8mQ1yCcGObLB2pQ84N-ZvMIsSbYVpRKpN3D8zqTWyk2MyFHTw" rel="noopener noreferrer">https://bit.ly/2J2dueL</a>
-</p>
-<p> <br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3813338335344268">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -722,5 +628,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-09 22:01:21 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-10 06:38:20 by W3 Total Cache
 -->
