@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 05 Nov 2020 20:06:49 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Nov 2020 20:15:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,78 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Top tools and best practices to kick-start your shift to cyber resilience</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-tools-and-best-practices-to-kick-start-your-shift-to-cyber-resilience/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2020 20:15:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber]]></category>
+		<category><![CDATA[kickstart]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[resilience]]></category>
+		<category><![CDATA[Shift]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Top]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-tools-and-best-practices-to-kick-start-your-shift-to-cyber-resilience/</guid>
+
+					<description><![CDATA[For organizations getting ready to move beyond Security Operations with their security approach and improve the cyber resiliency of their]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>For organizations getting ready to <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/state-secops-beyond-soc?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">move beyond Security Operations with their security approach and improve the cyber resiliency of their systems</a>, some excellent startup tools exist. And, equally important, best practices are emerging.</p>
+<p>One of the best places to start your resilience journey is with a cyber-resilience framework. They help an organization establish the goals and objectives for its resiliency strategy, as well as identify specific technologies needed to control, manage, and recover from cyber attacks.</p>
+<p>By using a framework, an organization can craft a cost-effective, flexible, prioritized, and performance-based path to cyber resilience. A framework can also help an enterprise assess its current security stance and <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-assessment?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">identify areas for needed improvement</a>. As improvements are made, the framework can also be used to assess the progress of a resilience program.</p>
+<p>There are a number of popular frameworks, but they all share some common elements. Here&#8217;s <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">what you need to know about them</a>—followed by best practices for cyber resilience.</p>
+<h2>Assess the risks</h2>
+<p>An organization-wide assessment should be performed to identify all cybersecurity risks to the systems, assets, data, people, and capabilities of the enterprise. Important items covered by the assessment should include what the organization&#8217;s risk management strategy should look like; which cyber risks operations, individuals, and assets in the organization are facing; and what assets the organization uses to accomplish its mission.</p>
+<p>When planning for risk management and resilience, organizations should be careful not to over-engineer their schemes, George Platsis, director of cybersecurity for FTI Consulting, <a target="_blank" href="http://securityintelligence.com/articles/creating-roadmap-toward-cyber-resilience/" rel="nofollow noopener noreferrer">wrote recently</a>:</p>
+<blockquote>
+<p>&#8220;It is a crude metaphor, but managing your cyber risk increasingly becomes more like managing your investment portfolio. It is tailored to you and your expectations. But if you are not on top of what’s going on, increasing complexity could lead to increasing volatility. That means your current and future outlooks could quickly be thrown into jeopardy.&#8221;<br />—<a target="_blank" href="https://twitter.com/gplatsis" rel="nofollow noopener noreferrer">George Platsis</a></p>
+</blockquote>
+<p>&#8220;More importantly,&#8221; he continued, &#8220;if you are hoping to maximize business efficiency in your operations using this new gadgetry, then you may be setting yourself up for a colossal loss on the downturn, or a massive data breach that is nearly impossible to recover from could occur.</p>
+<p>Indeed, IBM&#8217;s annual cyber-resiliency <a target="_blank" href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-45839&amp;_ga=2.1023858.255029181.1595266313-545301124.1591239208&amp;cm_mc_uid=78530529166215859305703&amp;cm_mc_sid_50200000=83358031595266312380" rel="nofollow noopener noreferrer">report</a> for 2020 noted that an excessive use of disconnected tools creates complex environments, which can have an adverse effect on an organization&#8217;s ability to detect, prevent, contain, and respond to a cybersecurity incident.</p>
+<h2>Tally up your resources</h2>
+<p>In addition to assessing risks, it&#8217;s also important to take a tally of resources—both technological and human. Such an analysis may reveal areas where automation or a managed service provider may be useful. Of course, nowadays it&#8217;s necessary to consider privacy issues when evaluating both present and future resources, especially when it comes to monitoring data or storing too much of it for too long.</p>
+<p>Another typical recommendation is to develop and implement safeguards to make sure critical services will be delivered successfully. Those safeguards usually include controls to ensure entities have access only to resources needed to do their jobs or functions. They also include security education, which has become increasingly important as more and more employees are forced to work at home, noted James McQuiggan, a security awareness advocate at KnowBe4, a security awareness training provider.</p>
+<blockquote>
+<p>&#8220;With COVID-19 and the increased number of people working from home, organizations&#8217; senior management recognize that the employees are being targeted more than before and require additional training to increase their knowledge of various cyber attacks.&#8221;<br />—<a target="_blank" href="https://twitter.com/James_McQuiggan" rel="nofollow noopener noreferrer">James McQuiggan</a></p>
+</blockquote>
+<p>Development of activities and actions to identify a risk event quickly is also a common framework recommendation. Organizations need to clearly define the roles and responsibilities in play when a suspicious event is identified. They also should be monitoring their assets and networks for potential cyber risks and anomalies.</p>
+<p>After risk events are detected, a response is in order. Frameworks typically recommend that enterprises have response procedures in place, that shareholders within the enterprise coordinate their response to the event, and that action be taken to prevent the event from continuing and spreading.</p>
+<p>IBM says that having a cybersecurity incident response plan (CSIRP) is an important component of any resiliency strategy. It cautions, however, that the plans have to be reviewed frequently. &#8220;As the volume and severity of attacks increase year after year, the lack of an updated CSIRP may increase the risk of experiencing a significant disruption to IT and business processes,&#8221; it noted in its 2020 report.</p>
+<p>Recovery is also a common characteristic among frameworks. Recommendations in that area involve restoring any damage from a cyber attack and conducting post-mortems to assess what can be learned from the incident to improve resiliency.</p>
+<h2>Best practices</h2>
+<p>In addition to following a framework, organizations can also follow these five best practices to improve the resilience of their operations.</p>
+<h4>1. Tailor your response plans to attacks specific to your industry</h4>
+<p>Not only does that save time and money that would have been spent on low-risk threats, but it allows for more detailed planning for real threats.</p>
+<h4>2. Increase visibility and reduce complexity by embracing interoperability</h4>
+<p>Using tools that are interoperable increases the effectiveness of security teams by helping them more quickly detect and block attacks.</p>
+<h4>3. Invest in technologies to accelerate incident response</h4>
+<p>Automation, artificial intelligence, machine learning, and cloud services are some of the leading ways to increase cyber resiliency. Automation can improve not only operational efficiencies, but also the morale of security teams, which will be able to focus their talents on more meaningful activity and be freed of &#8220;scut work.&#8221;</p>
+<h4>4. Bring your security and privacy teams together before serious events occur</h4>
+<p>IBM found that companies that exhibited strong cyber-resiliency characteristics recognized the important relationship between these teams. Encouraging collaboration between the teams will improve responsiveness to incidents such as data breaches much more so than if the first time groups collaborate is when they&#8217;re thrown together to face a crisis.</p>
+<h4>5. Get the company brass on board</h4>
+<p>In all organizations, something is more likely to gain traction if it gets buy-in from the executive team. One way to get the attention of C-level executives and board members is to formalize resiliency reporting to them. That way, resiliency can be kept visible to the upper ranks and receive the resources it needs to preserve the revenues and reputation of the organization.</p>
+<h3>Take your SecOps to the next level</h3>
+<p>Stan Wisseman, chief security strategist at Micro Focus, said the key is to build on the existing tools and best practices to take your security operations to the next level.</p>
+<blockquote>
+<p>&#8220;There&#8217;s some great guidance out there. There&#8217;s a lot of good work that has already been done to help organizations evolve beyond just cybersecurity.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/stanwisseman/" rel="nofollow noopener noreferrer">Stan Wisseman</a></p>
+</blockquote>
+<blockquote>
+<p> </p>
+</blockquote>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/top-tools-best-practices-kick-start-your-shift-cyber-resilience">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>qTest Integration with Applitools &#8211; Automated Visual Testing</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qtest-integration-with-applitools-automated-visual-testing/</link>
 		
@@ -217,6 +289,106 @@
 <br />Patches for both the Chrome desktop and Android browser address high-severity flaws with known exploits available in the wild.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/chrome-holes-actively-targeted/160890/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Quickstart to Automated Functional Testing with Visual Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quickstart-to-automated-functional-testing-with-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Functional]]></category>
+		<category><![CDATA[Quickstart]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quickstart-to-automated-functional-testing-with-visual-testing/</guid>
+
+					<description><![CDATA[You have decided to add the power of Selenium automated testing to your testing strategy, but are overwhelmed with how]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>You have decided to add the power of Selenium <a target="_blank" href="https://saucelabs.com/resources/white-papers/core-elements-of-continuous-testing" rel="noopener noreferrer">automated testing</a> to your testing strategy, but are overwhelmed with how much learning is involved. The Selenium automation framework can be intimidating, and getting started with little to no experience can be a massive undertaking for any organization. The good news is that there is a great way to get started with automated functional testing and it’s not what you would expect: <b>visual testing</b>! </p>
+<h3><b>Automated Functional Testing With Visual Testing </b></h3>
+<p>In this post, I&#8217;ll take you through how you can use visual testing to detect visual regressions and as a bonus, get automated functional testing out of it too. </p>
+<p><b>Prerequisites: </b><a target="_blank" href="https://saucelabs.com/platform/visual-testing" rel="noopener noreferrer">Sauce Visual</a><b>, </b><a target="_blank" href="https://github.com/screener-io/screener-runner" rel="noopener noreferrer">Screener Runner,</a><b> and Javascript</b></p>
+<p>In order to get started, you’ll need the Screener Runner Javascript package and Sauce Visual. I’ll share how using Sauce Visual, our visual testing solution for detecting and reviewing visual changes, can be used to automate visual and functional testing.</p>
+<p>We’ll use the interaction testing capabilities provided in the Screener Runner package to perform functional testing, pared-down similar to what Selenium provides.</p>
+<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/2wPHATqatrLgz1HSyW4V5h/2e669c5c8ba3421f36b521f066bbbf2f/screener_dashboard.png?fm=webp" type="image/webp"/></picture></div>
+<h3><b>Interaction Testing </b></h3>
+<p>Screener Runner Interactions can be used for clicking buttons, hovering over elements, setting values, and entering text, which are all used to ensure your components or pages are in their proper visual state for the test. Functional testing through Screener Runner’s Interaction library is useful for testing full web pages, individual components, and complete end-to-end flows.</p>
+<p>To use interactions and create your functional tests, Screener Runner provides an API  called Steps. Each Step is an instruction to interact with the website. To see all available Steps, check out the <a target="_blank" href="https://github.com/screener-io/screener-runner#testing-interactions" rel="noopener noreferrer">GitHub repo</a>. </p>
+<p><b>Example 1: Using screener-runner to capture snapshots of a website</b></p>
+<p>This simple test will use screener-runner to load a website and take a snapshot.</p>
+<pre><code>module.exports = {
+ // full repository name for your project:
+ projectRepo: 'mainconfig/stepsTest',
+ // this example assumes Environment Variables listed below exist on your system:
+ apiKey: process.env.SCREENER_API_KEY,
+  states: [
+   {
+     url: 'https://saucelabs.com/platform/visual-testing',
+     name: 'Visual Testing Page'
+   }
+ ]
+ };</code></pre>
+<p><b>Example 2: Add interaction steps</b></p>
+<p>Taking it up a notch, we’ll add interaction steps for functional flows. This test will load up a demo website, enter a username and password, click the login button, and take a snapshot. </p>
+<pre><code>var Steps = require('screener-runner/src/steps');
+module.exports = {
+ // full repository name for your project:
+ projectRepo: 'mainconfig/stepsTest',
+ // this example assumes Environment Variables listed below exist on your system:
+ apiKey: process.env.SCREENER_API_KEY,
+  states: [
+   {
+     url: 'https://www.saucedemo.com/',
+     name: 'Sauce Labs',
+     steps: new Steps()
+       .setValue('#user-name', 'standard_user') 
+       .setValue('#password', 'secret_sauce', {isPassword: true})
+       .click('.btn_action')
+       .snapshot('signed-in')
+       .end()
+   },
+ ]
+};</code></pre>
+<p>In the snapshot captured, we can deem the interactions were successful since the image will display an inventory page, which is only visible after entering credentials and clicking the .btn_action button.</p>
+<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/LNa3p39oznD1HLfbX8xaR/5686c7ac77be69bf5b08c80c6b706d1b/visualtesting_swaglabs.png?fm=webp" type="image/webp"/><img src="https://images.ctfassets.net/czwjnyf8a9ri/LNa3p39oznD1HLfbX8xaR/5686c7ac77be69bf5b08c80c6b706d1b/visualtesting_swaglabs.png" alt="visualtesting swaglabs" title="visualtesting swaglabs" loading="lazy"/></picture></div>
+<p><b>Example 3: Additional browsers/resolutions</b></p>
+<p>Finally, run visual tests across multiple browsers and mobile resolutions by adding the “browsers” and resolutions” options:</p>
+<pre><code>module.exports = {
+ ...
+ browsers: [
+  {
+    browserName: 'chrome'
+  },
+  {
+    browserName: 'firefox'
+  }
+ ],
+ resolutions: [
+   '1024x768',
+   {
+     deviceName: 'iPhone X'
+   }
+ ]
+};</code></pre>
+<p>More options can be found in our <a target="_blank" href="https://screener.io/v2/docs/test-cross-browser" rel="noopener noreferrer">docs</a> and Screener Runner GitHub <a target="_blank" href="https://github.com/screener-io/screener-runner" rel="noopener noreferrer">repo</a>.</p>
+<h3>Benefits of Visual Testing</h3>
+<p>Just like you would write a functional test to perform a click action, an interaction test is able to check for the same behavior AND take a snapshot of the page to ensure that it visually looks correct—getting a two for one deal!</p>
+<p>This means testers no longer have to write and maintain thousands of lines of code to verify if an element is there, reducing the number of assertions. Testers are able to save a lot of time and use automation to purely focus on what a user sees.</p>
+<h3>Visual Testing and Screener Runner</h3>
+<p>Sauce Visual provides organizations the ability to quickly automate the testing of their web pages across multiple browsers and screen resolutions. It automates detecting visual and functional regressions. When used with Screener Runner, an open-source test runner, users can run lightweight E2E testing with a shortlist of Selenium-like interactions to perform visual tests on components and whole pages. It can be used to test arbitrary URLs and perform simple interactions and capture visual snapshots. </p>
+<h3>Conclusion</h3>
+<p>As organizations are starting out and developing their testing strategy, they may want to consider adding visual testing to the list. With a visual testing solution, like Sauce Visual combined with Screener Runner, they’ll be able to run basic functional tests and reap the benefits of visual testing. This will allow them to quickly get up and running while having the coverage that they need.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/quickstart-to-automated-functional-testing-with-visual-testing">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -542,100 +714,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Election 2020: Lookout for Fake News Before and After the Election &#124; McAfee Blogs Election 2020: Lookout for Fake News Before and After the Election</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-lookout-for-fake-news-before-and-after-the-election-mcafee-blogs-election-2020-lookout-for-fake-news-before-and-after-the-election/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 27 Oct 2020 19:08:48 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[Election]]></category>
-		<category><![CDATA[Fake]]></category>
-		<category><![CDATA[Lookout]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[News]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/election-2020-lookout-for-fake-news-before-and-after-the-election-mcafee-blogs-election-2020-lookout-for-fake-news-before-and-after-the-election/</guid>
-
-					<description><![CDATA[  Election 2020: Keep on the Lookout for Fake News Before and After the Election As the news and conversations]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p> </p>
-<h2>Election 2020: Keep on the Lookout for Fake News Before and After the Election</h2>
-<p>As the news and conversations leading up to Election Day intensify, and with early voting already in full swing, the flood of misinformation and outright disinformation online continues—and will undoubtedly continue in the days after as the results are tabulated and announced.</p>
-<p>Perhaps you’ve seen some instances of it yourself. For instance, one recent news story reported that <a target="_blank" href="https://www.snopes.com/fact-check/ballots-california-landfill/" rel="noopener noreferrer">numerous legitimate social media accounts have shared misinformation about the vote</a>. An example: photos of old, empty election envelopes that were properly disposed of after the 2018 election, used to make the false claim that they were uncounted votes from the 2020 election. It’d be naïve for us to think that postings like this, and others, would suddenly come to a halt on Election Day.</p>
-<h3>We can expect election misinformation to continue even after Election Day</h3>
-<p>I touched upon this topic in my earlier blog about <a target="_blank" href="https://www.mcafee.com/blogs/consumer/election-2020-keep-misinformation-from-undermining-the-vote/" rel="noopener noreferrer">how misinformation online</a> can undermine our election, yet it’s worthy of underscoring once again. It’s easy for our attention to focus on the days leading up to the election, however, this election stands to be like few others as the high volume of mail-in ballots may keep us from knowing who the certified victor is for possibly weeks after Election Day.<br />How that timeline plays out in practice remains to be seen, yet we should all prepare ourselves for a glut of continued misinformation and disinformation that aims to cloud the process. Feeds will get filled with it, and it’ll be up to us to make sense of what’s true and what’s false out there.</p>
-<h3>Who is fact checking posts on social media sites?</h3>
-<p>Sadly, much of onus for fact-checking will fall on us, particularly when <a target="_blank" href="https://www.forbes.com/sites/petersuciu/2019/10/11/more-americans-are-getting-their-news-from-social-media/#5021c96c3e17" rel="noopener noreferrer">55% of Americans say</a> they “often” or “sometimes” get their news via social media. There are a few reasons why:</p>
-<p>• First, <a target="_blank" href="https://www.poynter.org/fact-checking/2020/fact-checkers-support-twitter-labels-but-more-than-that-they-want-transparency/" rel="noopener noreferrer">social media platforms are new to fact-checking</a> and their processes are still developing, particularly around the transparency of their fact-checking methodology;<br />• Secondly, <a target="_blank" href="https://www.foxnews.com/media/facebook-mark-zuckerberg-twitter-fact-checking-trump" rel="noopener noreferrer">corporate leadership of the two major social media platforms</a> have stated differing views about fact checking on their platforms;<br />• And third, the <a target="_blank" href="https://www.visualcapitalist.com/every-minute-internet-2020/" rel="noopener noreferrer">sheer volume of posts</a> that these platforms pump out in any given day (or minute!) make it difficult to fact-check posts at scale.</p>
-<p>Where does that leave us? In unprecedented times.</p>
-<p>Historically, we’ve always had to be savvy consumers of news, where a balanced diet of media consumption allowed us to develop a clearer picture of events. Yet now, in a time of unfiltered social media, news comes to us from a multitude of publishers, bloggers, and individuals. And within that mix, it’s difficult to immediately know who the editorial teams behind those stories are—what their intentions, credentials, and leanings are—and if they’re drawing their information from bona fide, verified sources. The result is that we must read and view everything today with an increased level of healthy skepticism.</p>
-<h3>Fact-checking your news</h3>
-<p>That takes work, yet my recent blog on <a target="_blank" href="https://www.mcafee.com/blogs/consumer/spot-fake-news-and-misinformation-in-your-social-media-feed/" rel="noopener noreferrer">How to Spot Fake News and Misinformation in Your Social Media Feed</a> offers you a leg up with several pointers to help you sniff out potential falsehoods.<br />In addition, here’s a short list of fact-checking resources that you can turn to when something questionable comes up in your feed. Likewise, they make for good browsing even if you don’t have a specific story that you want to check up on. You can keep these handy:</p>
-<p>• <a target="_blank" href="https://www.politifact.com/" rel="noopener noreferrer">PolitiFact</a> from the Poynter Institute<br />• <a target="_blank" href="https://www.factcheck.org/" rel="noopener noreferrer">FactCheck.org</a> from the Annenberg Public Policy Center<br />• <a target="_blank" href="https://apnews.com/hub/ap-fact-check" rel="noopener noreferrer">AP News Fact Check</a> from the Associated Press<br />• <a target="_blank" href="https://www.reuters.com/fact-check" rel="noopener noreferrer">Reuters Fact Check</a> from Reuters News<br />• <a target="_blank" href="https://www.snopes.com/" rel="noopener noreferrer">Snopes.com</a> from Snopes Media Group</p>
-<h3>Stay vigilant</h3>
-<p>With the election just days away and a result that may not be declared at the end of Election Day, we all need to scrutinize the news that presents itself to us, particularly on social media. Fact-checking what you see and read, along with cross-referencing it with multiple, reputable sources, will help you get the best information possible—which is absolutely vital when it comes time to cast your ballot.</p>
-<h3>Stay Updated</h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/election-2020-lookout-for-fake-news-before-and-after-the-election/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Microsoft IE Browser Death March Hastens</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/microsoft-ie-browser-death-march-hastens/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 26 Oct 2020 22:26:57 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[death]]></category>
-		<category><![CDATA[Hastens]]></category>
-		<category><![CDATA[March]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/microsoft-ie-browser-death-march-hastens/</guid>
-
-					<description><![CDATA[Internet Explorer redirects more traffic to Edge Chromium browser as Microsoft warns of the upcoming demise of the once dominant]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Internet Explorer redirects more traffic to Edge Chromium browser as Microsoft warns of the upcoming demise of the once dominant browser.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/ie-browser-death-march/160571/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -644,5 +722,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-09 06:50:59 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-09 22:01:21 by W3 Total Cache
 -->
