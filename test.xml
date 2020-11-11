@@ -65,6 +65,86 @@
 		
 			</item>
 		<item>
+		<title>Automating End to End API Testing Flows</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/automating-end-to-end-api-testing-flows/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2020 04:01:23 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Automating]]></category>
+		<category><![CDATA[Flows]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/automating-end-to-end-api-testing-flows/</guid>
+
+					<description><![CDATA[APIs are an important interface in the modern computing world, where an increasing amount of applications and sites are hosted]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>APIs are an important interface in the modern computing world, where an increasing amount of applications and sites are hosted on online cloud platforms. APIs allow for communication between different applications which are built on service-oriented architectures, many different companies use the public API approach to share and make their tool more accessible to various users from external sources. Of course, all these APIs must be tested to ensure their functionality and usability, despite lacking a graphical interface and requiring a more programmatical approach, which can make the API testing flows more challenging and intimidating.</p>
+<p>There is no doubt that <a target="_blank" href="https://blog.testproject.io/2020/07/15/the-ultimate-postman-tutorial-for-api-testing/" rel="noopener noreferrer">Postman</a> is the #1 tool when it comes to testing your APIs manually, but when it comes to API automation, scheduling and reporting as part of end to end API testing flows, it becomes more challenging.</p>
+<p>End-to-end API testing flows can involve multiple input sources, such as HTML, Databases, Telnet/SSH, Mobile, Shell, Data files, other RESTful APIs and more. <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a>‘s test automation platform allows not only testing your APIs manually, but also to complete end-to-end API based test automation flows, schedule and run them periodically, get execution reports and all of that without any third party tools and without a single line of code <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>This hands-on tutorial consists of step-by-step examples and real automated test flows, shared here for you to use and practice while automating your APIs.</p>
+<h2><strong>Table of Contents – Automating End to End API Testing Flows</strong></h2>
+<ol>
+<li style="font-weight: 400;"><strong>Chapter 1</strong> – <a target="_blank" href="https://blog.testproject.io/2020/11/10/basic-api-test-automation/" rel="noopener noreferrer">Basic API Test Automation</a>
+<ul>
+<li>Basic HTTP Get Example</li>
+<li>GET with Dynamic Endpoint URL Test Example</li>
+<li>HTML and RESTful API Test Example</li>
+</ul>
+</li>
+<li style="font-weight: 400;"><strong>Chapter 2</strong> – <a target="_blank" href="https://blog.testproject.io/2020/11/10/api-test-automation-flows-combined-with-mobile-functional-test/" rel="noopener noreferrer">API Test Automation Flows Combined with Mobile Functional Test</a>
+<ul>
+<li>Android Mobile Functional Test and RESTful API Test Example</li>
+<li>iOS Mobile Functional Test and RESTful API Test Example</li>
+</ul>
+</li>
+<li style="font-weight: 400;"><strong>Chapter 3</strong> – <a target="_blank" href="https://blog.testproject.io/2020/11/10/api-test-automation-flows-combined-with-database-flows/" rel="noopener noreferrer">API Test Automation Flows Combined with Databases Flows</a></li>
+<li style="font-weight: 400;"><strong>Chapter 4</strong> – <a target="_blank" href="https://blog.testproject.io/2020/11/10/api-test-automation-with-combination-of-shell-commands-and-local-files/" rel="noopener noreferrer">API Test Automation with Combination of Shell Commands and Local Files</a><u/><u/>
+<ul>
+<li>CMD Shell Commands and RESTful API Test Example</li>
+<li>SSH Connection and RESTful API Test Example</li>
+<li>CSV Operations and Restful API Test Example</li>
+<li>File Operations and RESTful API Test Example</li>
+</ul>
+</li>
+<li style="font-weight: 400;"><strong>Chapter 5</strong> – <a target="_blank" href="https://blog.testproject.io/2020/11/10/advanced-api-test-automation-and-validation-flows/" rel="noopener noreferrer">Advanced API Test Automation and Validation Flows</a>
+<ul>
+<li>RESTful API GET Call and JSON Schema Validation Test Example</li>
+<li>RESTful API GET Call with Extracting Multiple Values from JSON Response Test Example</li>
+<li>Basic Authorization Within RESTful API Call Test Example</li>
+<li>RESTful API Urlencoded Format Requests Example</li>
+<li>Executing API Tests with Dynamic Parameters and Predefined Data Set</li>
+</ul>
+</li>
+<li style="font-weight: 400;"><strong>Chapter 6</strong> – <a target="_blank" href="https://blog.testproject.io/2020/11/10/scheduling-api-automation-flows-and-ci-cd-execution/" rel="noopener noreferrer">Scheduling API Automation Flows and CI/CD Execution</a>
+<ul>
+<li>Scheduling Recurrent RESTful API Tests</li>
+<li>Running RESTful API Tests by Rest/Curl/CMD Command</li>
+<li>Executing RESTful API Tests as Part of a CI/CD Flow</li>
+<li>Executing RESTful API Tests as Part of CI/CD Flow from Docker Container</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<p>After going through these examples, you should be familiar with the <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> platform and its capabilities when it comes to API test automation. In each chapter, you will also have full access to the example tests shared with you via TestProject:</p>
+<p>If you’d like to receive even more information, you can find a couple of video tutorials here as well (<a target="_blank" href="https://www.youtube.com/watch?v=3hm5APcxbx4&amp;list=PL5qXkPB0T6VeyY1nGBf7hU8G2Zx3LrDwg&amp;index=10&amp;t=0s" rel="noopener noreferrer">Part 1</a> &amp; <a target="_blank" href="https://www.youtube.com/watch?v=kqzQWIBW1iY&amp;list=PL5qXkPB0T6VeyY1nGBf7hU8G2Zx3LrDwg&amp;index=11&amp;t=0s" rel="noopener noreferrer">Part 2</a>), or review these resources:</p>
+<ol>
+<li><a target="_blank" href="https://docs.testproject.io/testproject-addons/available-addons/restful-api-client-addon" rel="noopener noreferrer">RESTful API Client Addon Documentation</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/2020/11/03/spooky-api-testing-challenge-october-challenge/" rel="noopener noreferrer">Spooky API Testing Challenge [October Challenge]</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/2018/11/28/rest-api-testing-testproject/" rel="noopener noreferrer">How Can You Scale Your REST API Testing?</a></li>
+</ol>
+<p style="text-align: center;"><a target="_blank" href="https://blog.testproject.io/2020/11/10/basic-api-test-automation/" rel="noopener noreferrer"><strong><mark><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> TAKE ME TO CHAPTER #1 <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f448.png" alt="👈" class="wp-smiley" style="height: 1em; max-height: 1em;" /></mark></strong></a></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/11/10/automating-end-to-end-api-testing-flows/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>What You Need to Know About Among Us</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/what-you-need-to-know-about-among-us/</link>
 		
@@ -577,49 +657,6 @@ module.exports = {
 		
 		
 			</item>
-		<item>
-		<title>INSPIRE 20 Podcast: Semra Barutchu, Infosys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/inspire-20-podcast-semra-barutchu-infosys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 02 Nov 2020 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Barutchu]]></category>
-		<category><![CDATA[Infosys]]></category>
-		<category><![CDATA[Inspire]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[Semra]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/inspire-20-podcast-semra-barutchu-infosys/</guid>
-
-					<description><![CDATA[Building an inclusive work environment, particularly in terms of people with disabilities, is a mental and a cultural shift that has]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Building an inclusive work environment, particularly in terms of people with disabilities, is a mental and a cultural shift that has to be part of a company&#8217;s core values and what it wants to drive across the organization, according to <a target="_blank" href="https://twitter.com/sbarutch" rel="nofollow noopener noreferrer">Semra Barutchu</a>, Infosys&#8217; vice president and head of engineering services for Asia.</p>
-<p>To that end, Infosys has introduced guidelines to ensure it supports the <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-you-should-build-accessibility-start" rel="noopener noreferrer">integration of people with disabilities</a>, and it provides various internal departments with specific information on how to make it easier to integrate these individuals, Barutchu said in the latest INSPIRE 20 podcast.</p>
-<h3>The INSPIRE 20 podcast series</h3>
-<p>Barutchu is one of the executives taking part in INSPIRE 20, a new podcast series that showcases 20 executives from around the world who are making a difference in terms of inclusion and diversity in their organizations, communities, and/or industries.</p>
-<p><iframe allow="autoplay" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/889776454&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no"></iframe> </p>
-<p><em>Listen to the podcast with Semra Barutchu on <a target="_blank" href="https://podcasts.apple.com/gb/podcast/inspire-20/id1510305176?i=1000496363343" rel="nofollow noopener noreferrer">Apple Podcasts</a>,<strong> </strong><a target="_blank" href="https://soundcloud.com/user-699370465/micro-focus-inspire20-semra-barutchu" rel="nofollow noopener noreferrer">SoundCloud</a>, or <a target="_blank" href="https://open.spotify.com/episode/5JIUmSImVtwNhck5PDOoWM" rel="nofollow noopener noreferrer">Spotify</a>. Plus: Catch up with all of the <a target="_blank" href="https://content.microfocus.com/l/inspire-20-podcast-series-tb?_ga=2.169902311.652887837.1600691415-1617140538.1596457935" rel="noopener noreferrer">INSPIRE 20 series podcasts here</a>. </em></p>
-<h3>A &#8216;strategic builder&#8217;</h3>
-<p>Barutchu joined Infosys in 2013 to lead the engineering business unit across Australia and New Zealand and, subsequently, throughout Asia. She is known as a strategic business builder, specializing in all aspects of engineering services.</p>
-<p>Her extensive knowledge and experience of the Asia market allow her to provide expertise in leading regional change programs focused on improving performance, quality, service, and profitability.</p>
-<p>Barutchu enjoys promoting careers in information and communications technology to women who may become future leaders in the field. She has volunteered as a committee member for Females in Information Technology for a number of years.</p>
-<h3>Driving successful diversity programs</h3>
-<p>In the podcast, Barutchu talks about the success Infosys has had when it comes to inclusion and diversity and shares some of the diversity initiatives Infosys is driving in the broader community.</p>
-<p>Additionally, Barutchu discusses her role in creating inclusion through social outreach, including her collaboration with the NASSCOM (National Association of Software and Service Companies) Foundation to set up a National Digital Literacy Mission center to empower people with disabilities.</p>
-<p>The foundation is NASSCOM&#8217;s social arm that works with the tech industry to achieve social transformation and make an impact through technology in the developing world. The foundation works with the community to encourage and drive inclusion in the community itself, through education as well as by helping people find jobs, or just by creating a more inclusive environment.</p>
-<p>&#8220;There is so much we take for granted that is actually critical for these individuals,&#8221; Barutchu said. &#8220;Unless you&#8217;ve actually lived with people that have various disabilities or you&#8217;re associated with an organization&#8221; that works with people with disabilities, &#8220;you don&#8217;t have an awareness,&#8221; she said.</p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/inspire-20-podcast-semra-barutchu-infosys">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -628,5 +665,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-10 22:01:20 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-11 06:38:23 by W3 Total Cache
 -->
