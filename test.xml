@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 10 Nov 2020 04:05:47 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Nov 2020 02:21:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,165 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Comparing Cross-Browser Testing Techniques &#8211; Automated Visual Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/comparing-cross-browser-testing-techniques-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 13 Nov 2020 02:21:51 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Comparing]]></category>
+		<category><![CDATA[CrossBrowser]]></category>
+		<category><![CDATA[Techniques]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/comparing-cross-browser-testing-techniques-automated-visual-testing/</guid>
+
+					<description><![CDATA[Can you double or triple the speed of your test runs by switching out a few lines of code? That’s]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Can you double or triple the speed of your test runs by switching out a few lines of code?</p>
+<p>That’s what the team at Applitools is promising.</p>
+<p>They’ve challenged test automation teams to speed up their test suites with their new Ultra-Fast Grid (UFG), which provides “massively parallel test automation across all browsers, devices, and viewports.”</p>
+<p>To try it out myself, I took part of their Cross Browser Testing Hackathon, seeing if their new grid lived up to its claims.</p>
+<h2 id="whatsthecrossbrowsertestinghackathon">What’s the Cross Browser Testing Hackathon?</h2>
+<p>In June of this year (2020), Applitools held an online Cross Browser Testing Hackathon. The challenge was to complete three automation tasks, attempting to catch bugs between two versions of the same app, using two different techniques.</p>
+<p>While I really wanted to participate in it, I also needed to focus my efforts on my book, <a target="_blank" href="https://leanpub.com/webapp-testing-guidebook" rel="noopener noreferrer">The Web App Testing Guidebook</a>. As much as I wanted to, I just didn’t have to the time to commit to the hackathon.</p>
+<p>So it came and went and I moved on with life. A few months later, Applitools reached out and asked if I’d be interested in covering the content via a series of live streams, plus this blog post. I thought the opportunity was a great fit, since I already had an interest in the topic, plus the work on my book had mostly wrapped up.</p>
+<p>At this point, I should mention that Applitools is sponsoring all of this. I do my best to stay objective, but I want to be transparent with that.</p>
+<figure class="wp-block-pullquote">
+<blockquote>
+<p>“…with the UFG, you run your test setup scripts… once on your local machine, then the Applitools code takes a snapshot of the page HTML &amp; CSS and sends it to the grid for processing. This means that we can run our filtering steps in the desktop view, yet still be able to capture our screenshots in mobile view via Applitools.</p>
+<p><cite>–Kevin Lamping</cite></p></blockquote>
+</figure>
+<p>I should also mention what Applitools does. They are a “Next generation test automation platform powered by Visual AI”. I’m a big fan of Visual Regression Testing, seeing that I help maintain <a target="_blank" href="https://visualregressiontesting.com/" rel="noopener noreferrer">visualregressiontesting.com</a> and have covered the approach many, many times since <a target="_blank" href="https://www.youtube.com/watch?v=gE_19L0l2q0" rel="noopener noreferrer">I first came across it</a> back in 2013.</p>
+<p>Applitools takes the Visual Regression Testing approach to a new level, which I talk about in my blog post “<a target="_blank" href="https://blog.kevinlamping.com/visual-regression-testing-is-stupid/" rel="noopener noreferrer">Visual Regression Testing is Stupid</a>.”</p>
+<p>The reason that Applitools put on the hackathon was to get people to try out their new “Ultra-Fast Grid”. Rather than try and describe what that is myself, I’ll use their own words: “With Ultrafast Grid, you run your functional &amp; visual tests once locally and it instantly renders all screens across all combinations of browsers, devices, and viewports. This is all done with unprecedented security, stability, and speed, and with virtually no setup required.”</p>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Applitools Ultrafast Grid" width="800" height="450" src="https://www.youtube.com/embed/fVX71yGoBuw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</figure>
+<p>We’ll get to my thoughts on the UFG (Ultra-Fast Grid) in a bit, but let’s cover what the Hackathon entailed first. Here’s how <a target="_blank" href="https://applitools.com/cross-browser-testing-hackathon-v20-1-instructions-internal/" rel="noopener noreferrer">the project page</a> introduces the challenge:</p>
+<blockquote class="wp-block-quote">
+<p><em>Imagine you are a test automation engineer for “AppliFashion”, a high profile e-commerce company that sells fancy shoes. The AppliFashion web app is used by millions of people, using various devices and browsers to buy shoes. The 1st version of the app (V1) is already built and is “bug-free”. Your developers are now coming up with a newer version, version (V2) of the app, and assume that it’s full of bugs.</em></p>
+</blockquote>
+<blockquote class="wp-block-quote">
+<p><em>The challenge is to build the automation suite for the first version of the app and use it to find bugs in the second version (V2) of the app. You need to automate three (3) main tasks across seven (7) different combinations of browsers and screen resolutions (viewports). Further, you need to automate the tasks in both the traditional approach and the Modern approach through Visual AI, for both V1 and V2 versions of the app. By “traditional approach”, we mean without using Applitools Visual AI. You can execute the traditional tests either locally or by using other cross-browser cloud solutions that you are already familiar with.</em></p>
+</blockquote>
+<p>That’s a pretty realistic scenario in my mind. That’s one of the things I really appreciated about this entire challenge; the scenarios were very “real world”. They took the time to create a project that reflected what you may face in a work-related project. I think that’s a testament to how valuable Visual Regression Testing can be.</p>
+<h2 id="howididit">How I Did It</h2>
+<p>Over a series of three 2-hour live streams, I worked through the three tasks assigned to the project (completing one task each stream).</p>
+<p>As for tooling, I’m a huge fan of <a target="_blank" href="https://webdriver.io/" rel="noopener noreferrer">WebdriverIO</a>. I used it, plus <a target="_blank" href="https://www.npmjs.com/package/@applitools/eyes-webdriverio" rel="noopener noreferrer">the Applitools WebdriverIO SDK</a>, for my test framework. I also used Sauce Labs for my traditional cross-browser testing needs.</p>
+<p>You can find a copy of the final code here:<br /><a target="_blank" href="https://github.com/klamping/applitools-hackathon-2020" rel="noopener noreferrer">https://github.com/klamping/applitools-hackathon-2020</a></p>
+<p>Now let’s talk through each task. For the sake of brevity, I’ll be going through a high-level overview of each task, what I did, and my impressions comparing “traditional” testing vs. the Applitools “modern” approach.</p>
+<h3 id="task1crossdeviceelementstest">Task 1 – Cross-Device Elements Test</h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Comparing Cross-browser Testing Techniques (Part 1 of 3) - Live Stream" width="800" height="450" src="https://www.youtube.com/embed/kViTmxBWGjo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p><figcaption>Video Replay of Stream #1</figcaption></figure>
+<p>The challenge started off with a relatively simple set of tests. The test would compose of loading the homepage, then validating the correct elements appear (or don’t) on the page.</p>
+<p>Most of my time was spent on getting my project initialized and set up. I’m fairly familiar with WebdriverIO, so installation and configuration went pretty smoothly.</p>
+<p>One challenge of the project is to test on multiple browsers <strong>and</strong> multiple viewports. The site being tested is responsive, so we needed to handle that functionality.</p>
+<p>To handle this, I took advantage of the WebdriverIO <code>setWindowSize</code> command. Using it, plus a defined set of viewports, I was able to switch viewport size around as needed.</p>
+<p>I added a few element display checks, but didn’t go too far down that path. Element display checks are pretty routine in WebdriverIO, so I didn’t feel like spending time repeating the same code again and again. In a real test I’d definitely want to though.</p>
+<p>After writing the traditional tests, I switched to setting up Applitools and the Ultra-Fast Grid.</p>
+<p>While there is <a target="_blank" href="https://webdriver.io/docs/applitools-service.html" rel="noopener noreferrer">an Applitools service for WebdriverIO</a>, it’s not updated to support the UFG yet, so I stuck with using the SDK they provide.</p>
+<p>I had to read through <a target="_blank" href="https://applitools.com/tutorials/webdriverio5.html" rel="noopener noreferrer">the documentation</a> a bit to get it all set up, but I was able to figure it out without too much pain.</p>
+<p>After setting it up, writing my test was an absolute breeze. This is essentially the entirety of my test script:</p>
+<pre class="wp-block-code"><code>home.load();
+
+browser.call(() =&gt; {
+    return eyes.check('Cross-Device Elements Test', Target.window())
+})
+</code></pre>
+<p>All we do is load the home page, then take a screenshot of the entire window, then send it off to Applitools.</p>
+<p>Already, there’s a large difference between the traditional approach of manually writing element display checks, and just relying on the Applitools AI to handle all of that for us.</p>
+<p>This is one of the true powers of Visual Regression Testing (VRT), and it shines in this example. VRT implicity checks text content, color, display, size and much more without you having to specifically ask for it for each and every element. It really is a fantastic technique for testing the UI of sites.</p>
+<p>But, did the UFG live up to its promise of fast speeds? Well, at this point, not really.</p>
+<p>For a good reason though. The tests we’ve written so far are extremely simple. They load a page and check a couple of items. There’s no login steps or other preperation steps needed to get to where we need to be in order to test. Because of that, the UFG doesn’t really get to flex its muscles and show off. But it’ll show off soon enough.</p>
+<h3 id="task2shoppingexperiencetest">Task 2 – Shopping Experience Test</h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Comparing Cross-browser Testing Techniques (Part 2 of 3) - Live Stream" width="800" height="450" src="https://www.youtube.com/embed/FJI0AwYU_aY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p><figcaption>Video Replay of Stream #2</figcaption></figure>
+<p>Next up on task list is to try filtering the product grid. I enjoyed this task, because it gave me the chance to show off how to extend Page Objects through the use of Components. I won’t cover it here, but check out the stream if you’re interested.</p>
+<p>The traditional test was pretty straight-forward again. I did need to spend a little bit of extra time handling the filter functionality across viewports, but the way I set up the viewports made this much easier than it could have been.</p>
+<p>So how did the modern approach compare? Well, it matched more evenly with the traditional approach this time, taking about the same level of coding effort. Both approaches caught the main bug on V2 of the site, which is that the shoes aren’t properly filtered.</p>
+<p>One big difference between the two approaches is that the extra functionality I needed to write to handle the filter viewport differences isn’t needed in the modern approach. That’s because of the way the UFG works.</p>
+<p>The reason why is that with the UFG, you run your test setup scripts (e.g., clicking the filter menu and selecting the options) once on your local machine, then the Applitools code takes a snapshot of the page HTML &amp; CSS and sends it to the grid for processing. This means that we can run our filtering steps in the desktop view, yet still be able to capture our screenshots in mobile view via Applitools.</p>
+<p>We’ll dive deeper into the benefits of this approach later, but I wanted to mention this specific difference here.</p>
+<h3 id="task3productdetailstest">Task 3 – Product Details Test</h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Comparing Cross-browser Testing Techniques (Part 3 of 3) - Live Stream" width="800" height="450" src="https://www.youtube.com/embed/9WE0UT1g-ME?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p><figcaption>Video Replay of Stream #3</figcaption></figure>
+<p>For our final task, we take a look at the product detail page.</p>
+<p>Thankfully, we’re able to re-use a lot of our previously written test code, as the steps to select the product needed are almost the same as our previous task (just adding the step to click the product link).</p>
+<p>The main challenge of the test is writing the various assertions needed to check all the product details. There are several details to validate, including the name, price, SKU, description and more.</p>
+<p>This puts us in a similar situation to Task 1, where we have multiple minor details on a page that we have to write assertions for. And similar to Task 1, using VRT really helps in this regard.</p>
+<p>Not only does it help reduce the monotony of writing these assertions, in this task, it caught several bugs that my traditional tests didn’t. This is due to both me taking a shortcut by not writing all my checks, but also because my checks honestly wouldn’t have caught some of the bugs.</p>
+<p>Here are three bugs that my traditional tests didn’t catch:</p>
+<ul>
+<li>SKU Number not shown. This is due to the text color matching the background. WebdriverIO’s <code>isDisplayed</code> command absolutely won’t catch this, since it doesn’t check for text color vs. background.</li>
+<li>The text of dropdown changed. This is just too minute of a detail for me to write a test for. If I had to spend my time on things like that, not only would it take forever to write a full test suite, but keeping that suite up-to-date would be an absolute pain.</li>
+<li>In the price, it changed from $33.00 to only $33. Again, this would be a very difficult thing to test for and would take a lot of time to get that level of detail using the traditional approach. But using VRT catches it with minimal effort.</li>
+</ul>
+<p>I have a sneaking suspicion that the project was set up to highlight these sorts of bugs, and I don’t blame the creators one bit for exposing it. VRT is a very powerful technique and there’s nothing wrong about showing off specific examples of why.</p>
+<h2 id="overallfeelingsobservations">Overall Feelings/Observations</h2>
+<p>So that finishes up all three tasks. Now for some overall observations. I’ve talked about the difference between VRT and traditional testing, so I won’t cover that much here. I hope I made my point there.</p>
+<p>But there are several other observations I had over the course of the work.</p>
+<h3 id="ufgsspeed">UFG’s Speed</h3>
+<p>Let’s look at the speed improvements that UFG claims to provide.</p>
+<p>Honestly, in these tasks, UFG’s speed didn’t get to shine. There are a few of reasons why that is.</p>
+<h4 id="webdriverioisalreadyfast">WebdriverIO is Already Fast</h4>
+<p>The first is that WebdriverIO provides the ability to run tests in parallel by default, so I was able to run all three of my test files at the same time with little effort.</p>
+<p>This is important, because if each of my traditional tests take 5 seconds extra, normally that would cost me 15 total seconds. But since those 5 seconds all occur at the same time (since the tests all run at the same time), then the pain is minimized.</p>
+<p>But this parallelization only gets you so far. Due to computing limitations, you can only run so many tests at the same time. As you add more tests, you’ll quickly reach the limit of browsers you can run at once.</p>
+<p>Let’s take an example of 80 tests that need to run on 8 environments (i.e., different devices/browsers/viewports). You will need to run these 80 tests, 8 times each test, which is 640 total runs.</p>
+<p>Even if you could run 20 tests in parallel, you’d still have to go through 32 cycles of testing.</p>
+<p>With UFG, you would only need to run 80 tests in parallel once (you can run all the tests on one environment in parallel with WebdriverIO). Divide that by 20, and you have only 4 cycles to complete. That’s 8x faster, because you don’t have to run each test 8 separate times for each environment.</p>
+<p>So while it’s not too evident on small scales, once you level up your test suite, UFG’s speed really starts to show.</p>
+<h4 id="thespeedpedalwasntpushed">The Speed Pedal Wasn’t Pushed</h4>
+<p>While these example tests are useful as a demonstration, they aren’t very complex. They simply don’t do enough compared to what a more real-world example would look like.</p>
+<p>Looking back, almost all the tests I’ve written over my career have involved some sort of login flow, which we didn’t have in our examples. And, in my experience, the login flow can be painfully slow, as the tests run through their extensive authorization process.</p>
+<p>To simulate a more real-world example, what if we add an arbitrary 10 second pause in our tests? Let’s add it right after we load the page for each of our viewports/tasks. This pause is similar to what a login flow would take to run, so imagine it’s that.</p>
+<p><strong>When added up, this 10-second delay would add over 70 seconds to our overall test run using the traditional approach.</strong></p>
+<p>Why? Well, since that pause happens in our <code>beforeEach</code> hook, it occurs for each of our tests. With 7 total tests (3 each for Task 1 and 2, and once for Task 3), that’s 70 seconds.</p>
+<p>Then, we take that 70 second delay, and multiply it by the number of browsers we’re testing in, which is 3. Now we’re 210 seconds slower due to this unavoidable delay.</p>
+<p><strong>The Ultra-Fast Grid avoids most of those slow downs.</strong> Remember, our modern tests only needs to run the setup steps once per file, since the UFG handles the multi-browser aspect of everything.</p>
+<p>So at most, we’re going to see 30 seconds added to our tests (10 seconds for each file). That’s three minutes of testing time saved over just 7 tests. And, no matter how many browsers we add to our suite, UFG always only takes 30 seconds, while traditional methods grow and grow.</p>
+<h3 id="visualregressiontestingispowerful">Visual Regression Testing is Powerful</h3>
+<p>The other part to consider here is that the UFG is running a full visual regression. That’s doing a lot more work than our traditional tests were.</p>
+<p>Consider our first task. I ran about two assertions per test, getting the text of a couple elements and checking them.</p>
+<p>What did our modern approach check? Well, essentially everything on the page. It checked the display and text of all the elements. It checked their visual display, including color, spacing, font size, font style, on and on.</p>
+<p>It checked background colors, images, and overall layout. It ran hundreds, maybe thousdands, of assertions in the time it takes a traditional test to run two.</p>
+<p>Aside from the test run time, it also provided a huge amount of savings from the test writing time. I don’t think I can emphasize enough how much simpler it is to write a visual regression check. I can’t imagine having to write all those thousands of assertions myself (or even worse, have to use my own eyes to manually check everything).</p>
+<p>So, all those things considered, I really think I barely scratched the surface in the speed improvements that the UFG provides. It’s like taking a race car for a drive through a congested street, when it really deserves to be taken out to the race track.</p>
+<h3 id="reducedflakiness">Reduced Flakiness</h3>
+<p>Okay, so not only is the UFG faster than traditional testing (while also being far more powerful), it also reduces test flakiness.</p>
+<p>By minimizing the number of times we’re going through specific actions, we’re reducing the number of interactions we have with potentially finicky flows.</p>
+<p>Take the Login flow for example (which, in my experience, can be flaky on test servers). Say that, through no fault of the tests themselves, there’s an odd bug in the staging environment where every 100th login fails. This isn’t much of an issue for a manual test, since you’d just retry your login. But it’s a real pain for an automated test, since that failure can happen in the middle of a test run.</p>
+<p>Using our example of 80 tests on 8 environments from before, using the traditional approach, we’d get at least 6 test failures due to the login bug (we login 640 times, so hit that magic 100 number 6 times).</p>
+<p>But with the UFG, we’re only running our 80 tests once. We go from a sure six failures, to likely none at all. Even though we have all the same test coverage from before, we’ve minimized our interactions with the app to avoid errant failures.</p>
+<h2 id="onefinalwish">One Final Wish</h2>
+<p>I’ll end this all with a wish. I’d love to see <a target="_blank" href="https://webdriver.io/docs/applitools-service.html" rel="noopener noreferrer">the official WebdriverIO Applitools service</a> updated to include integrating the UFG features.</p>
+<p>While Applitools does provide <a target="_blank" href="https://github.com/applitools/eyes.sdk.javascript1/tree/master/packages/eyes-webdriverio-5#running-with-the-ultra-fast-grid" rel="noopener noreferrer">an SDK for WebdriverIO</a>, which includes support for UFG, it’s not quite as integrated into WebdriverIO as the <code>@wdio/applitools-service</code> is.</p>
+<p>Fore example, for the sake of time during this project, I just copied over my UFG initilization code from test to test. But in a real job, I’d definitely want to avoid that. While I could set it up myself using a custom <code>wdio.conf.js</code> configuration, an update to the <code>@wdio/applitools-service</code> could be made to handle this for me in a simple way.</p>
+<p>It would also help avoid having to wrap all my Applitools commands in <code>browser.call</code>, which can get clunky.</p>
+<p>WebdriverIO services are perfect for minimizing the set up code. Seeing as there’s already an Applitools service, I hope it gets updated soon so I can use this functionality with even less work!</p>
+<p>Overall, I really enjoyed the chance to implement this hackathon, and was impressed with what Applitools has to offer. I’m definitely going to see where I can use this in my work make the move to modern testing!</p>
+<p><em>Cover Photo by <a target="_blank" href="https://unsplash.com/@alexandria_bates_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Alexandria Bates</a> on <a target="_blank" href="https://unsplash.com/s/photos/starting-grid-auto-race?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/cross-browser-testing-techniques/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>4 surprising takeaways from enterprises who migrated from #LoadRunner. Here’s wh&#8230;</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/4-surprising-takeaways-from-enterprises-who-migrated-from-loadrunner-heres-wh/</link>
 		
@@ -557,106 +716,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Quickstart to Automated Functional Testing with Visual Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quickstart-to-automated-functional-testing-with-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Functional]]></category>
-		<category><![CDATA[Quickstart]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/quickstart-to-automated-functional-testing-with-visual-testing/</guid>
-
-					<description><![CDATA[You have decided to add the power of Selenium automated testing to your testing strategy, but are overwhelmed with how]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>You have decided to add the power of Selenium <a target="_blank" href="https://saucelabs.com/resources/white-papers/core-elements-of-continuous-testing" rel="noopener noreferrer">automated testing</a> to your testing strategy, but are overwhelmed with how much learning is involved. The Selenium automation framework can be intimidating, and getting started with little to no experience can be a massive undertaking for any organization. The good news is that there is a great way to get started with automated functional testing and it’s not what you would expect: <b>visual testing</b>! </p>
-<h3><b>Automated Functional Testing With Visual Testing </b></h3>
-<p>In this post, I&#8217;ll take you through how you can use visual testing to detect visual regressions and as a bonus, get automated functional testing out of it too. </p>
-<p><b>Prerequisites: </b><a target="_blank" href="https://saucelabs.com/platform/visual-testing" rel="noopener noreferrer">Sauce Visual</a><b>, </b><a target="_blank" href="https://github.com/screener-io/screener-runner" rel="noopener noreferrer">Screener Runner,</a><b> and Javascript</b></p>
-<p>In order to get started, you’ll need the Screener Runner Javascript package and Sauce Visual. I’ll share how using Sauce Visual, our visual testing solution for detecting and reviewing visual changes, can be used to automate visual and functional testing.</p>
-<p>We’ll use the interaction testing capabilities provided in the Screener Runner package to perform functional testing, pared-down similar to what Selenium provides.</p>
-<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/2wPHATqatrLgz1HSyW4V5h/2e669c5c8ba3421f36b521f066bbbf2f/screener_dashboard.png?fm=webp" type="image/webp"/></picture></div>
-<h3><b>Interaction Testing </b></h3>
-<p>Screener Runner Interactions can be used for clicking buttons, hovering over elements, setting values, and entering text, which are all used to ensure your components or pages are in their proper visual state for the test. Functional testing through Screener Runner’s Interaction library is useful for testing full web pages, individual components, and complete end-to-end flows.</p>
-<p>To use interactions and create your functional tests, Screener Runner provides an API  called Steps. Each Step is an instruction to interact with the website. To see all available Steps, check out the <a target="_blank" href="https://github.com/screener-io/screener-runner#testing-interactions" rel="noopener noreferrer">GitHub repo</a>. </p>
-<p><b>Example 1: Using screener-runner to capture snapshots of a website</b></p>
-<p>This simple test will use screener-runner to load a website and take a snapshot.</p>
-<pre><code>module.exports = {
- // full repository name for your project:
- projectRepo: 'mainconfig/stepsTest',
- // this example assumes Environment Variables listed below exist on your system:
- apiKey: process.env.SCREENER_API_KEY,
-  states: [
-   {
-     url: 'https://saucelabs.com/platform/visual-testing',
-     name: 'Visual Testing Page'
-   }
- ]
- };</code></pre>
-<p><b>Example 2: Add interaction steps</b></p>
-<p>Taking it up a notch, we’ll add interaction steps for functional flows. This test will load up a demo website, enter a username and password, click the login button, and take a snapshot. </p>
-<pre><code>var Steps = require('screener-runner/src/steps');
-module.exports = {
- // full repository name for your project:
- projectRepo: 'mainconfig/stepsTest',
- // this example assumes Environment Variables listed below exist on your system:
- apiKey: process.env.SCREENER_API_KEY,
-  states: [
-   {
-     url: 'https://www.saucedemo.com/',
-     name: 'Sauce Labs',
-     steps: new Steps()
-       .setValue('#user-name', 'standard_user') 
-       .setValue('#password', 'secret_sauce', {isPassword: true})
-       .click('.btn_action')
-       .snapshot('signed-in')
-       .end()
-   },
- ]
-};</code></pre>
-<p>In the snapshot captured, we can deem the interactions were successful since the image will display an inventory page, which is only visible after entering credentials and clicking the .btn_action button.</p>
-<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/LNa3p39oznD1HLfbX8xaR/5686c7ac77be69bf5b08c80c6b706d1b/visualtesting_swaglabs.png?fm=webp" type="image/webp"/><img src="https://images.ctfassets.net/czwjnyf8a9ri/LNa3p39oznD1HLfbX8xaR/5686c7ac77be69bf5b08c80c6b706d1b/visualtesting_swaglabs.png" alt="visualtesting swaglabs" title="visualtesting swaglabs" loading="lazy"/></picture></div>
-<p><b>Example 3: Additional browsers/resolutions</b></p>
-<p>Finally, run visual tests across multiple browsers and mobile resolutions by adding the “browsers” and resolutions” options:</p>
-<pre><code>module.exports = {
- ...
- browsers: [
-  {
-    browserName: 'chrome'
-  },
-  {
-    browserName: 'firefox'
-  }
- ],
- resolutions: [
-   '1024x768',
-   {
-     deviceName: 'iPhone X'
-   }
- ]
-};</code></pre>
-<p>More options can be found in our <a target="_blank" href="https://screener.io/v2/docs/test-cross-browser" rel="noopener noreferrer">docs</a> and Screener Runner GitHub <a target="_blank" href="https://github.com/screener-io/screener-runner" rel="noopener noreferrer">repo</a>.</p>
-<h3>Benefits of Visual Testing</h3>
-<p>Just like you would write a functional test to perform a click action, an interaction test is able to check for the same behavior AND take a snapshot of the page to ensure that it visually looks correct—getting a two for one deal!</p>
-<p>This means testers no longer have to write and maintain thousands of lines of code to verify if an element is there, reducing the number of assertions. Testers are able to save a lot of time and use automation to purely focus on what a user sees.</p>
-<h3>Visual Testing and Screener Runner</h3>
-<p>Sauce Visual provides organizations the ability to quickly automate the testing of their web pages across multiple browsers and screen resolutions. It automates detecting visual and functional regressions. When used with Screener Runner, an open-source test runner, users can run lightweight E2E testing with a shortlist of Selenium-like interactions to perform visual tests on components and whole pages. It can be used to test arbitrary URLs and perform simple interactions and capture visual snapshots. </p>
-<h3>Conclusion</h3>
-<p>As organizations are starting out and developing their testing strategy, they may want to consider adding visual testing to the list. With a visual testing solution, like Sauce Visual combined with Screener Runner, they’ll be able to run basic functional tests and reap the benefits of visual testing. This will allow them to quickly get up and running while having the coverage that they need.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/quickstart-to-automated-functional-testing-with-visual-testing">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -665,5 +724,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-12 22:01:23 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-13 06:38:23 by W3 Total Cache
 -->
