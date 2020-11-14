@@ -12,7 +12,7 @@
 	<atom:link href="http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 13 Nov 2020 02:21:51 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Nov 2020 14:16:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,36 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Julien Roubaud came at the Neotys office to give us the Great Place to Work® tro&#8230;</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/julien-roubaud-came-at-the-neotys-office-to-give-us-the-great-place-to-work-tro/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 13 Nov 2020 14:16:12 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[give]]></category>
+		<category><![CDATA[great]]></category>
+		<category><![CDATA[Julien]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[Office]]></category>
+		<category><![CDATA[Place]]></category>
+		<category><![CDATA[Roubaud]]></category>
+		<category><![CDATA[tro]]></category>
+		<category><![CDATA[Work]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/julien-roubaud-came-at-the-neotys-office-to-give-us-the-great-place-to-work-tro/</guid>
+
+					<description><![CDATA[Julien Roubaud came at the Neotys office to give us the Great Place to Work® trophy. 🙌 We are really]]></description>
+										<content:encoded><![CDATA[
+<p>Julien Roubaud came at the Neotys office to give us the Great Place to Work® trophy. <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f64c.png" alt="🙌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <br /> We are really proud to be ranked in 2020. What a great adventure! Thanks a lot. <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://facebook.com/GPTWFRANCE/?refid=17&amp;_ft_=mf_story_key.3798537946824307%3Atop_level_post_id.3798537946824307%3Atl_objid.3798537946824307%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3798537946824307%3Apage_id.163354693676002%3Aphoto_id.3798537726824329%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8FuTb_y771QLrZ%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A-1838274185039823374&amp;__tn__=%2As-R" rel="noopener noreferrer">Great Place to Work France</a>
+</p>
+<p> <br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3798537946824307">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Comparing Cross-Browser Testing Techniques &#8211; Automated Visual Testing</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/comparing-cross-browser-testing-techniques-automated-visual-testing/</link>
 		
@@ -181,6 +211,271 @@ browser.call(() =&gt; {
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/cross-browser-testing-techniques/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cyberattackers Serve Up Custom Backdoor for Oracle Restaurant Software</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cyberattackers-serve-up-custom-backdoor-for-oracle-restaurant-software/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2020 22:19:20 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Backdoor]]></category>
+		<category><![CDATA[Custom]]></category>
+		<category><![CDATA[Cyberattackers]]></category>
+		<category><![CDATA[Oracle]]></category>
+		<category><![CDATA[Restaurant]]></category>
+		<category><![CDATA[Serve]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/cyberattackers-serve-up-custom-backdoor-for-oracle-restaurant-software/</guid>
+
+					<description><![CDATA[The modular malware is highly sophisticated but may not be able to capture credit-card info. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The modular malware is highly sophisticated but may not be able to capture credit-card info.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cyberattackers-custom-backdoor-oracle-restaurant/161180/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SOCwise: A Security Operation Center (SOC) Resource to Bookmark</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/socwise-a-security-operation-center-soc-resource-to-bookmark/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2020 22:02:52 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bookmark]]></category>
+		<category><![CDATA[Center]]></category>
+		<category><![CDATA[Operation]]></category>
+		<category><![CDATA[Resource]]></category>
+		<category><![CDATA[SOC]]></category>
+		<category><![CDATA[SOCwise]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/socwise-a-security-operation-center-soc-resource-to-bookmark/</guid>
+
+					<description><![CDATA[Core to any organization is managing cyber risk with a security operations function whether it be in-house or outsourced. McAfee]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Core to any organization is managing cyber risk with a security operations function whether it be in-house or outsourced. McAfee has been and continues their commitment to protecting cyber assets. We are dedicated to empowering security operations and with this dedication comes expertise and passion. Introducing SOCwise a monthly series of blogs, podcasts and talks driven by two highly experienced and devoted security operations professionals.  This is an ongoing resource of helpful advice on SOC issues, distinct SOC functional lessons, best practices learned from a range of projects and customers and perspectives on the future of security operations.  In addition, we will invite guests to contribute to this series.</p>
+<h2><strong>Meet the SOCwise</strong></h2>
+<h3><em>From <a target="_blank" href="https://www.mcafee.com/blogs/author/michael-leland/" rel="noopener noreferrer">Michael Leland,</a> Technical Director of Security Operations, McAfee</em></h3>
+<p>From the perspective of a ‘legacy SIEM’ guy I can tell you that there’s nothing more important to a security analyst than intelligence. Notice I didn’t say ‘data’ or ‘information’ – I didn’t even say ‘threat intelligence’. I’m talking about ‘Situational Awareness’. I’m specifically talking about business, user and data context that adds critical understanding and guidance in support of making more timely, accurate or informed decisions related to a given security event. A typical SOC analyst might deal with dozens of incidents each shift – some requiring no more than a few minutes and even fewer clicks to quickly and accurately determine the risk and impact of potential malicious activities. Some incidents require much more effort to triage in hopes to understand intent, impact and attribution.</p>
+<p>More often we find the role of SOC analyst to be one of data wrangler – asking and answering key questions of the ‘data’ to determine if an attack is evident and if so, what is the scope and impact of the adversarial engagement. Today’s modern SOC is evolving from one of centralized data collection, information dissemination and coordination of intelligence – one where each stakeholder in security was a part of the pre-determined set of expectations throughout the evaluation and implementation process – to a fully distributed cast of owners/creators (application development, operations, analysts, transformation architects, management) where the lines of authority, expectation and accountability have blurred sometimes beyond recognition.</p>
+<p>How can a modern SOC maintain the highest levels of advanced threat detection, incident response and compliance efficacy when they may no longer have all (or sometimes even some) of the necessary context with which to turn data into intelligence? Will Security Operations Centers of the future resemble anything like the ones we built in previous years. From the massive work-from-home migration brought on by an unexpected pandemic to cloud transformation initiatives that are revolutionizing our modern enterprise, the entire premise of a SOC as we know it are being slowly eroded. These are just some of the questions we will try to answer in this blog series.</p>
+<h3><em>From <a target="_blank" href="https://www.mcafee.com/blogs/author/ismael-valenzuela/" rel="noopener noreferrer">Ismael Valenzuela</a>, Senior Principal Engineer, McAfee</em></h3>
+<p>I have worked for 20 years in this industry that we once used to call, information security. During this time, I have had the opportunity to be both on the offense and the defense side of the cyber security coin, as a practitioner and as a consultant, as an architect and as an engineer, as a student as well as a SANS author &amp; instructor. I want to believe that I have learned a few things along the way. For example, as a penetration tester and a red teamer, I have learned that there is always a way in, that prevention is ideal, and that detection is a must. As a security architect I have learned that a defensible architecture is all about the right balance between prevention, monitoring, detection and response. As an incident responder I learned that containing an adversary is all about timing, planning and strategy. As a security analyst I have learned the power of automation and of human-machine teaming, to do more analysis and less data gathering. As a threat hunter I have learned to be laser focused on adversarial behaviors, and not on vulnerabilities. And as a governance, risk and compliance consultant, that security is all about tradeoffs, about cost and benefit, about being flexible, adaptable and realizing that for most of our customers, security is not their core business, but something they do <strong>to stay in business</strong>. To summarize 20 years in a few phrases is challenging, but no one has summarized it better than Bruce Schneier in my opinion, who wrote, precisely 20 years ago: “security is a process, not a product”.</p>
+<p>And I am sure that you will agree with me that processes have changed a lot over the last 20 years. This transformation that had already started with the adoption of Cloud and DevOps technologies it is now creating an interesting and unforeseen circumstance. Just when security operations barely found its footing, and right when it was finally coming out from under the realm of IT, garnering respect and budget to achieve desired outcomes, just when we felt that we made it, we are told to pack our things, leave the physical boundaries of the SOC and have everyone work remote.</p>
+<p>If this didn’t introduce enough uncertainty, I read that Gartner predicts that 85% of data centers will be gone by 2025. So, I can’t help but wonder: is this the end of it? Is the SOC dead as we know it? What is the future of SecOps in this new paradigm? How will roles change?  Will developers own security in a ‘you code it, you own it’ fashion? Is it realistic to expect a fully automated SOC anytime soon?</p>
+<p>Please join us in this new SOCwise series as Michael and I explore answers to these and more questions on the future and the democratization of SOC and SecOps.</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/security-operations/socwise-a-security-operation-center-soc-resource-to-bookmark/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>7 Load Testing Tips to ensure a Successful Black Friday – Gatling Open-Source Load Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/7-load-testing-tips-to-ensure-a-successful-black-friday-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2020 14:26:05 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Black]]></category>
+		<category><![CDATA[Ensure]]></category>
+		<category><![CDATA[Friday]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[successful]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/7-load-testing-tips-to-ensure-a-successful-black-friday-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[Reading Time: 13 min   Black Friday is approaching fast. With the profound increase in e-commerce transactions this year caused]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">13</span> <span class="rt-label rt-postfix">min</span></span></p>
+<p> </p>
+<p><strong>Black Friday</strong> is approaching fast. With the profound increase in e-commerce transactions this year caused by the<strong> COVID-19 pandemic</strong>, record-breaking numbers of online transactions are expected in 2020.<br />Is your web application or e-commerce solution ready to <strong>handle this make-or-break period</strong> in the calendar? If it is, you can expect to gain huge amounts of increased revenue and customers from the <strong>Black Friday extravaganza</strong>…</p>
+<p></p>
+<p>But if it isn’t, then it’s your competitors that will be inheriting the extra revenue – and perhaps your once-loyal customers as they permanently switch to a more reliable option….</p>
+<p>Practically all website stakeholders can appreciate the value and importance of having high-quality and meaningful load testing. But with an annual event like Black Friday, it’s impossible to understate the importance of keeping your application online and responsive.</p>
+<p><img loading="lazy" class="wp-image-7960 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Web-Monitoring_Gatling.png" alt="" width="189" height="191"/><br />A responsive and fast-loading online store inevitably translates to higher revenue. In 2018, France saw <strong><a target="_blank" href="https://www.criteo.com/blog/black-friday-cyber-monday-2018/" rel="noopener noreferrer">online sales increase by +265%</a></strong> on Black Friday, with traffic more than doubling compared to the typical average period.</p>
+<p><span style="font-weight: 400;">Not only can you expect more visitors to your site, but <strong>users are actually prepared to spend more money</strong>. A 2019 study published by </span><strong><a target="_blank" href="https://de.statista.com/statistik/daten/studie/943680/umfrage/geplante-ausgaben-am-black-friday-in-deutschland/" rel="noopener noreferrer">Statista</a></strong><span style="font-weight: 400;"> shows that 38% of people planned to spend 101-300€ on Black Friday.</span></p>
+<p><span style="font-weight: 400;">Brits alone are planning to </span><strong><a target="_blank" href="https://www.finder.com/uk/black-friday-statistics" rel="noopener noreferrer">spend £6 billion on Black Friday and Cyber Monday</a></strong><span style="font-weight: 400;"> in 2020.</span></p>
+<p><span style="font-weight: 400;">To empathise the<strong> importance of load testing times</strong> when it comes to Black Friday, a study from </span><a target="_blank" href="https://www.bigcommerce.com/ecommerce-answers/what-page-load-time-and-why-it-important/" rel="noopener noreferrer"><span style="font-weight: 400;">BigCommerce</span></a><span style="font-weight: 400;"> found than even a one-second delay can cause conversion rates to dip by as much as 7%, as <strong>end-users are not prepared to wait</strong> when they can simply visit a competitor.</span></p>
+<p><span style="font-weight: 400;">If you are about to enter the Black Friday period with <strong>insufficient or even zero load testing in place</strong>, then read on as this article is for you.</span></p>
+<p><span style="font-weight: 400;">In this article, we will share </span><strong>7</strong><span style="font-weight: 400;"><strong> load testing tips</strong> that will help to ensure Black Friday is a success for your system and your business. Additionally, you will see how to quickly set up and configure a robust, effective and powerful load testing framework from scratch with <strong>Gatling</strong>.</span></p>
+<p><span style="font-weight: 400;">Let’s get to it!</span></p>
+<p style="text-align: left;"><strong><span style="color: #ff9902;">SPECIAL OFFER<br />New customers: Get 1 month free and get ready for Black Friday!</span></strong></p>
+<p>Find the offer at the end of this article.</p>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 1 – Start with an Open-Source Load Testing Tool</strong></span></h2>
+<p> </p>
+<p><span style="font-weight: 400;">Don’t be overly ambitious with your load testing efforts, especially when you are first starting out or are racing against time to prepare for an event like Black Friday. There is often no need to build a </span><a target="_blank" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar" rel="noopener noreferrer"><span style="font-weight: 400;">testing cathedral</span></a><span style="font-weight: 400;"> or invest massive amounts of money in a commercial-level load testing solution. A few realistic, accurate and comprehensive load testing scenarios created with an open-source tool like Gatling represents a great starting point.</span></p>
+<p><span style="font-weight: 400;">Let’s see how to get up and running in Gatling in minimal time:</span></p>
+<p><strong>Gatling Stand-alone Download</strong></p>
+<p><span style="font-weight: 400;">An easy way to get started with Gatling is by using the </span><a target="_blank" href="https://gatling.io/open-source/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling Open-Source</span></a><span style="font-weight: 400;"> bundle. Simply download the zip file from the link, and after unzipping open a command prompt or terminal. </span></p>
+<p><span style="font-weight: 400;">Whilst inside the Gatling folder that you unzipped, simply type:</span><img loading="lazy" class="alignnone wp-image-7974" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.14-300x14.png" alt="" width="471" height="22" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.14-300x14.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.14-1024x49.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.14-768x37.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.14-500x24.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.14.png 1244w" sizes="(max-width: 471px) 100vw, 471px"/></p>
+<p><span style="font-weight: 400;">Or on Windows:<br /></span><img loading="lazy" class="alignnone wp-image-7975" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.52-300x15.png" alt="" width="460" height="23" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.52-300x15.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.52-1024x50.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.52-768x37.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.52-500x24.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.11.52.png 1240w" sizes="(max-width: 460px) 100vw, 460px"/></p>
+<p><span style="font-weight: 400;">This will load Gatling, and scan for any simulations within the <img loading="lazy" class="alignnone wp-image-7979" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.14.03-300x25.png" alt="" width="168" height="14" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.14.03-300x25.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.14.03.png 356w" sizes="(max-width: 168px) 100vw, 168px"/></span><span style="font-weight: 400;"> folder. </span></p>
+<p><span style="font-weight: 400;">Gatling ships with a few sample simulations that you will see shown to you. You will then be prompted on-screen for a simulation to run:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-7981" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.06-300x63.png" alt="" width="438" height="92" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.06-300x63.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.06-1024x215.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.06-768x161.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.06-500x105.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.06.png 1238w" sizes="(max-width: 438px) 100vw, 438px"/></p>
+<p><span style="font-weight: 400;">Simply choose a simulation and Gatling will execute the load testing script.</span></p>
+<p><strong>Gatling Test Results Report</strong></p>
+<p><span style="font-weight: 400;">Upon completion of each Gatling test execution, you will notice a link printed to the console for the full test report that has automatically been rendered:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-7982" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.52-300x35.png" alt="" width="420" height="49" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.52-300x35.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.52-1024x120.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.52-768x90.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.52-500x59.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.15.52.png 1246w" sizes="(max-width: 420px) 100vw, 420px"/></p>
+<p><span style="font-weight: 400;">We can open this index.html file to view the rich graphical test report:</span></p>
+<p><span style="font-weight: 400;"><img loading="lazy" class=" wp-image-7983 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.16.33-300x258.png" alt="" width="409" height="351" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.16.33-300x258.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.16.33-1024x881.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.16.33-768x661.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.16.33-500x430.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.16.33.png 1192w" sizes="(max-width: 409px) 100vw, 409px"/></span></p>
+<p><span style="font-weight: 400;">Full details of all the graphs and metrics that are aggregated and displayed in the report can be found in the </span><a target="_blank" href="https://gatling.io/docs/current/general/reports/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling test report documentation</span></a><span style="font-weight: 400;">.</span></p>
+<p><strong>Running Gatling with a Build Tool</strong></p>
+<p>Whilst running Gatling with the stand-alone version is great for an initial evaluation, you will quickly want to migrate to using a build tool. Gatling supports <a target="_blank" href="https://maven.apache.org/" rel="noopener noreferrer">Maven</a>, <a target="_blank" href="https://gradle.org/" rel="noopener noreferrer">Gradle</a> and <a target="_blank" href="https://www.scala-sbt.org/" rel="noopener noreferrer">SBT</a></p>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom">
+<p><span style="font-weight: 400;">To get up and running in your chosen build tool as quickly as possible, the easiest way is to clone the official Gatling demo repository for your chosen tool, and then start adding your own code to that:</span></p>
+<div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://gatling.io/2020/02/18/welcome-to-nikie/" data-a2a-title="Welcome to Nikie!">
+<p><span style="font-weight: 400;">Now that we have Gatling installed on our system, let’s move on to our next tip:</span></p>
+</div>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 2 – Start with a Simple Scenario</strong></span></h2>
+<p> </p>
+<p><span style="font-weight: 400;">When starting out, it’s important to keep things as simple as possible. Let’s look at how to write the most simple of testing scenarios in Gatling, where we simply load the homepage of our site.</span></p>
+<p><span style="font-weight: 400;">Note that we will be writing some </span><a target="_blank" href="https://www.scala-lang.org/" rel="noopener noreferrer"><span style="font-weight: 400;">Scala</span></a><span style="font-weight: 400;"> code in this article,  or more specifically </span><i><span style="font-weight: 400;">Gatling</span></i><span style="font-weight: 400;"> code. If the thought of writing code is uncomfortable to you, rest assured that there is no need to feel intimidated when writing Gatling code. </span></p>
+<p><span style="font-weight: 400;">Gatling ships with a powerful DSL (Domain Specific Language) that makes it simple to construct a detailed load test by writing simple, meaningful and verbose words and phrases.</span></p>
+<p><span style="font-weight: 400;">Let’s look at one of the most simple Gatling scripts you might start out with to prepare your web application for Black Friday:</span></p>
+<p><img loading="lazy" class="wp-image-7986 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.20.18-300x177.png" alt="" width="490" height="289" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.20.18-300x177.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.20.18-1024x606.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.20.18-768x454.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.20.18-500x296.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.20.18.png 1244w" sizes="(max-width: 490px) 100vw, 490px"/></p>
+<p><span style="font-weight: 400;">That is our entire load testing script in these few lines, but let’s break it down line-by-line. We start by importing a couple of packages, which contain all the language definitions needed to make Gatling work:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-7987" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.09-300x24.png" alt="" width="438" height="35" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.09-300x24.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.09-1024x82.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.09-768x62.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.09-500x40.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.09.png 1244w" sizes="(max-width: 438px) 100vw, 438px"/></p>
+<p>Next, we define our Black Friday load test simulation class (called <img loading="lazy" class="alignnone wp-image-7988" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-300x35.png" alt="" width="121" height="14" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-300x35.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-768x89.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-500x58.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23.png 914w" sizes="(max-width: 121px) 100vw, 121px"/>) and we extend this from the special Gatling <img loading="lazy" class="alignnone wp-image-7989" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.30-300x64.png" alt="" width="65" height="14" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.30-300x64.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.30.png 480w" sizes="(max-width: 65px) 100vw, 65px"/> class:</p>
+<p><img loading="lazy" class="alignnone wp-image-7990" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.23.30-300x15.png" alt="" width="440" height="22" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.23.30-300x15.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.23.30-1024x50.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.23.30-768x37.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.23.30-500x24.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.23.30.png 1526w" sizes="(max-width: 440px) 100vw, 440px"/></p>
+<p>Inside the simulation class we just created, we now define the protocol we want to use (HTTP in this case) and supply the default parameters. For our script, we are simply supplying the base URL of our web application:</p>
+<p><img loading="lazy" class="alignnone wp-image-7991" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.24.15-300x25.png" alt="" width="432" height="36" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.24.15-300x25.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.24.15-1024x86.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.24.15-768x65.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.24.15-500x42.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.24.15.png 1524w" sizes="(max-width: 432px) 100vw, 432px"/></p>
+<p>Now we can define the steps of the scenario itself. These are the steps that the virtual user will take on our website when we execute the load test. Because we are aiming for the simplest test possible to help us prepare for Black Friday, we are simply loading the home page here:</p>
+<p><img loading="lazy" class="alignnone wp-image-7992" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.25.16-300x53.png" alt="" width="430" height="76" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.25.16-300x53.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.25.16-1024x180.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.25.16-768x135.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.25.16-500x88.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.25.16.png 1526w" sizes="(max-width: 430px) 100vw, 430px"/></p>
+<p><span style="font-weight: 400;">Although our scenario above only loads the homepage of our web application, for your Black Friday load test you will likely want to modify it to reflect the expected behaviour of your end-users. </span></p>
+<p><span style="font-weight: 400;">For example, as users will likely be searching regularly for the best deals, you can expect to see a significant increase in the number of searches being performed in your application. You should therefore modify your scenario appropriately so that users perform more searches than normal.</span></p>
+<p><img loading="lazy" class="size-medium wp-image-7995 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.28.16-300x275.png" alt="" width="300" height="275" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.28.16-300x275.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.28.16-500x459.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.28.16.png 726w" sizes="(max-width: 300px) 100vw, 300px"/></p>
+<p><span style="font-weight: 400;">Before we continue, let’s explain the differences between a </span><b>scenario</b><span style="font-weight: 400;"> and a </span><b>simulation </b><span style="font-weight: 400;">in Gatling terminology:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A </span><b>scenario</b><span style="font-weight: 400;"> describes the steps a virtual user takes through the system i.e. load the home page, click on the product, add to cart etc.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">While the </span><b>simulation </b><span style="font-weight: 400;">is the definition of the load profile that will be executed for the test, i.e. the number of users, the throughput and arrival rate of those users, the test duration etc.</span></li>
+</ul>
+<p><span style="font-weight: 400;">With this terminology in mind, we can look at the <img loading="lazy" class="alignnone wp-image-7996" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.16.png" alt="" width="39" height="17"/> block of our script, where we define the load simulation:<br /></span></p>
+<p><span style="font-weight: 400;"><img loading="lazy" class="alignnone wp-image-7997" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.25-300x34.png" alt="" width="433" height="49" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.25-300x34.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.25-1024x115.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.25-768x86.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.25-500x56.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.25.png 1466w" sizes="(max-width: 433px) 100vw, 433px"/></span></p>
+<p> </p>
+<p><span style="font-weight: 400;">The above load simulation will simply run our scenario with a single user, which is a useful default to have in place when creating and debugging your Gatling script. When you are ready to run an actual simulation based on your expected traffic for Black Friday, you will update this <img loading="lazy" class="alignnone wp-image-7996" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.29.16.png" alt="" width="39" height="17"/></span><span style="font-weight: 400;"> block appropriately as seen later on in this article.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">With this basic script in place, let’s move on to our next tip:</span></p>
+<p> </p>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 3 – Create Accurate Scenarios</strong></span></h2>
+</div>
+<p><span style="font-weight: 400;">You need to be confident that your test scenarios replicate the actions that your users will be expected to take. As discussed previously, on </span><a target="_blank" href="https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/black-friday-shopping-trends/" rel="noopener noreferrer"><span style="font-weight: 400;">Black Friday you can expect to see a significantly increased number of searches</span></a><span style="font-weight: 400;"> on your site as users hunt for the best deals.</span></p>
+<p><span style="font-weight: 400;">We need to take time to model this behaviour in the scenario definition of our Gatling script. How this scenario looks will naturally depend on your application, but we can use the built-in </span><a target="_blank" href="https://gatling.io/docs/current/http/recorder/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling Recorder </span></a><span style="font-weight: 400;">to record the steps we expect our users to take through our application during Black Friday. </span></p>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom">
+<p><span style="font-weight: 400;"><img loading="lazy" class=" wp-image-7998 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.32.41-300x255.png" alt="" width="364" height="309" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.32.41-300x255.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.32.41-1024x869.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.32.41-768x652.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.32.41-500x424.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.32.41.png 1390w" sizes="(max-width: 364px) 100vw, 364px"/></span></p>
+<p> </p>
+<p><span style="font-weight: 400;">The Gatling recorder acts as a proxy, capturing the traffic that is generated as the user performs various actions on the website, such as searching for a product or going through the checkout process. This generated code is then turned into a Gatling script, which we can use for our scenario.</span></p>
+<p><span style="font-weight: 400;">In addition to the </span><a target="_blank" href="https://gatling.io/docs/current/http/recorder/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling Recorder documentation</span></a><span style="font-weight: 400;">, be sure to check out the </span><a target="_blank" href="https://gatling.io/academy/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling Academy</span></a><span style="font-weight: 400;"> for detailed video tutorials on using the Gatling Recorder to create Gatling scripts.</span></p>
+<p><img loading="lazy" class="size-medium wp-image-7758 aligncenter" src="https://gatling.io/wp-content/uploads/2020/10/gatling_academy_OK-01-300x171.png" alt="" width="300" height="171" srcset="https://gatling.io/wp-content/uploads/2020/10/gatling_academy_OK-01-300x171.png 300w, https://gatling.io/wp-content/uploads/2020/10/gatling_academy_OK-01-768x437.png 768w, https://gatling.io/wp-content/uploads/2020/10/gatling_academy_OK-01-1024x583.png 1024w, https://gatling.io/wp-content/uploads/2020/10/gatling_academy_OK-01-500x285.png 500w" sizes="(max-width: 300px) 100vw, 300px"/><br />Now that we have a Gatling script in place with accurate scenarios, we need to think about the next point:</p>
+<p> </p>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 4 – Execute Different Types of Load Test<br /></strong></span></h2>
+<p><span style="font-weight: 400;">Think about the different scenarios and situations your system might likely find itself in during this busy Black Friday period.</span></p>
+<p><span style="font-weight: 400;">Going back to our original <img loading="lazy" class="alignnone wp-image-7988" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-300x35.png" alt="" width="129" height="15" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-300x35.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-768x89.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23-500x58.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.21.23.png 914w" sizes="(max-width: 129px) 100vw, 129px"/></span><span style="font-weight: 400;"> simulation that we created earlier, we defined the following:</span></p>
+<p><img loading="lazy" class="alignnone wp-image-8002" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.35.49-300x22.png" alt="" width="205" height="15" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.35.49-300x22.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.35.49-1024x77.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.35.49-768x57.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.35.49-500x37.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.35.49.png 1230w" sizes="(max-width: 205px) 100vw, 205px"/></p>
+<p><span style="font-weight: 400;">This load test profile is suitable for when we are creating and debugging our Gatling script. But if we want to make sure our web application is ready for a busy Black Friday, we need to define a suitable injection profile!</span></p>
+<p><span style="font-weight: 400;">Remember that the injection profile is simply a chain of rules, which will be executed in the provided order, to describe the rate at which virtual users execute their test scenario (or “user journey”) through the system.</span></p>
+<p><span style="font-weight: 400;">We need to ask ourselves how we expect users to arrive at our system during the Black Friday period. Do we expect users to arrive at specific time periods throughout the day, or is it more likely to be a steady stream of traffic? </span></p>
+<p><img loading="lazy" class=" wp-image-8003 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.37.15-300x298.png" alt="" width="243" height="241" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.37.15-300x298.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.37.15-150x150.png 150w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.37.15-500x496.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.37.15.png 558w" sizes="(max-width: 243px) 100vw, 243px"/></p>
+<p><span style="font-weight: 400;">If one of our competitor’s sites were to go offline during the Black Friday period, we could reasonably expect a sudden surge in traffic. Will our system be able to cope with that?</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">Are we launching a special offer during this promotional period, such as a Black Friday Countdown? When word spreads on social media or otherwise, will this lead to a steadily increasing amount of traffic and load through the system?</span></p>
+<p><span style="font-weight: 400;">Considering these questions and situations will help us to define our injection profile, also known as a type of test. Let’s look at three of the most common ones here:</span></p>
+<p><strong>Stress Testing</strong></p>
+<p><span style="font-weight: 400;">A stress test, also referred to as a “spike test”, represents a sudden surge in demand on the system. During this period, we can expect many new users to arrive at the system in a short amount of time. In Gatling, we could define this injection profile as follows:</span></p>
+<p><span style="font-weight: 400;"><img loading="lazy" class="alignnone wp-image-8004" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.38.17-300x32.png" alt="" width="422" height="45" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.38.17-300x32.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.38.17-1024x111.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.38.17-768x83.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.38.17-500x54.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.38.17.png 1240w" sizes="(max-width: 422px) 100vw, 422px"/></span></p>
+<p> </p>
+<p><span style="font-weight: 400;">From a Black Friday perspective, we might expect one of these surges to occur if one of our competitors suddenly went offline. Alternatively, a viral social media post or some other form of advertising that alerted customers to a potential offer could see this scenario occur.</span></p>
+<p><span style="font-weight: 400;">To achieve this level of load and throughput in our test environment would likely require multiple load injector machines and support for distributed load-testing. </span><a target="_blank" href="https://gatling.io/gatling-frontline/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling FrontLine</span></a><span style="font-weight: 400;">, the Enterprise version of Gatling, would enable us to execute such a test with just a few clicks whilst still using the script we created in the open-source version of the tool.</span></p>
+<p><strong>Soak Testing</strong></p>
+<p><span style="font-weight: 400;">Black Friday is a long event, typically running for three days across the US Thanksgiving weekend. In fact over the last few years, there is a trend with </span><a target="_blank" href="https://www.which.co.uk/reviews/black-friday/article/when-is-black-friday-a5O8o7V3rGsF" rel="noopener noreferrer"><span style="font-weight: 400;">companies running Black Friday events of longer periods</span></a><span style="font-weight: 400;">, with some even lasting a month or more.</span></p>
+<p><span style="font-weight: 400;">Soak testing allows us to ensure that our system performance remains stable and consistent for longer periods of increased load. The goal of this type of test is to identify problems in the system like memory leaks or high CPU utilisation, that only occur over a longer period.</span></p>
+<p><span style="font-weight: 400;">A simple Gatling injection profile might look like this:<br /><img loading="lazy" class="alignnone wp-image-8005" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.10-300x33.png" alt="" width="427" height="47" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.10-300x33.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.10-1024x112.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.10-768x84.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.10-500x55.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.10.png 1240w" sizes="(max-width: 427px) 100vw, 427px"/></span></p>
+<p> </p>
+<p><span style="font-weight: 400;">If we wanted to add a period of ramping-load onto the system before staying at a steady rate, we could combine two Gatling DSL methods:<br /><img loading="lazy" class="alignnone wp-image-8006" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.35-300x44.png" alt="" width="423" height="62" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.35-300x44.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.35-1024x149.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.35-768x111.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.35-500x73.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.39.35.png 1240w" sizes="(max-width: 423px) 100vw, 423px"/></span></p>
+<p><strong>Capacity Testing</strong></p>
+<p><span style="font-weight: 400;">The idea with Capacity testing is to keep increasing the load on the system until we find the “breaking point”, where transaction response times greatly increase and errors begin to occur.</span></p>
+<p><span style="font-weight: 400;">Having identified this breaking point in our system, we can be confident of handling the expected levels of traffic that Black Friday is likely to bring through our system.</span></p>
+<p><span style="font-weight: 400;">To write a capacity test in Gatling, we can run at a constant throughput for an arbitrary amount of time, then ramp the load to an increased level before continuing with another constant load. </span></p>
+<p><span style="font-weight: 400;">Our injection profile might look something like this:<br /><img loading="lazy" class="alignnone wp-image-8007" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.40.30-300x72.png" alt="" width="433" height="104" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.40.30-300x72.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.40.30-1024x246.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.40.30-768x185.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.40.30-500x120.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.40.30.png 1238w" sizes="(max-width: 433px) 100vw, 433px"/><br /></span></p>
+<p><span style="font-weight: 400;">Instead of having to write out cumbersome code to repeat this process many times, we can take advantage of the Gatling DSL to write an expressive test for us:<br /><img loading="lazy" class="alignnone wp-image-8008" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.09-300x71.png" alt="" width="431" height="102" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.09-300x71.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.09-1024x243.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.09-768x182.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.09-500x119.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.09.png 1240w" sizes="(max-width: 431px) 100vw, 431px"/></span></p>
+<p><span style="font-weight: 400;">Graphically, this scenario would look like this:<br /><img loading="lazy" class="alignnone wp-image-8009" src="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.43-300x143.png" alt="" width="539" height="257" srcset="https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.43-300x143.png 300w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.43-1024x490.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.43-768x367.png 768w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.43-500x239.png 500w, https://gatling.io/wp-content/uploads/2020/11/Capture-décran-2020-11-10-à-15.41.43.png 1292w" sizes="(max-width: 539px) 100vw, 539px"/></span></p>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 5 – Measure Response Times as Percentiles</strong></span></h2>
+<p><span style="font-weight: 400;">Beyond looking at errors and the error rate we see in our load test, the key metric to monitor is transaction response times. These can be monitored broadly in two different ways:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Response time as an </span><b>average </b><span style="font-weight: 400;">– typically measured as the mean response time</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Or as a </span><b>percentile</b></li>
+</ul>
+<p><span style="font-weight: 400;">Although using the average to measure response times can be tempting, it is an inferior approach, as it can hide the true response time of your system for the majority of your users.</span></p>
+<p><span style="font-weight: 400;">Measuring response times in </span><b>percentiles </b><span style="font-weight: 400;">is far superior when it comes to load and performance testing. These enable you to give an accurate reflection of what performance is like for the given percentage of your users. In our load testing results, if the 99nth percentile was shown as 100ms, this means that 99% of users experience a response time of 100ms or less.</span></p>
+<p><span style="font-weight: 400;"><img loading="lazy" class="size-full wp-image-8011 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Feedback-Form_Gatling.png" alt="" width="252" height="225"/></span></p>
+<p><span style="font-weight: 400;">Presenting metrics to stakeholders in this way is of far greater value. Remember that we want to make sure that the vast majority of users to our site have a great experience, with fast load times and good performance.</span></p>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 6 – Execute a Distributed Load Test</strong></span></h2>
+<p><span style="font-weight: 400;">Assuming you have an application that is internet-facing, your traffic can and will come from many sources across the globe. Although starting out your load testing from a single load injector is a good start, and can easily be achieved with Gatling Open-Source, it is not sufficient to simulate a true real-world load test.</span></p>
+<p><span style="font-weight: 400;">In order to generate the traffic for such a realistic load test, the traffic must come from multiple sources by using a distributed load testing infrastructure. This can typically be achieved by having multiple cloud-based load injectors running across a broad range of geographical availability zones.</span></p>
+<p><img loading="lazy" class="size-full wp-image-8012 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Cloud-Server_Gatling.png" alt="" width="253" height="249"/></p>
+<p><span style="font-weight: 400;">Executing a load test of this nature might sound both expensive and cumbersome, but that isn’t actually the case. Using </span><b>FrontLine</b><span style="font-weight: 400;">, Gatling’s Enterprise tool, you can take your existing Gatling test scripts that were created with the open-source version and run a distributed load test across a range of availability zones in the cloud with just a few clicks.</span></p>
+<p><span style="font-weight: 400;">Gatling FrontLine is available on demand. This means your load testing infrastructure is only deployed and active for the period of your load test executions, significantly reducing the cost of load testing when compared to other solutions.</span></p>
+<p><span style="font-weight: 400;">For more information on Gatling FrontLine, including a demo and </span><b>free trial</b><span style="font-weight: 400;">, check the </span><a target="_blank" href="https://gatling.io/gatling-frontline/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling FrontLine website</span></a><span style="font-weight: 400;">.</span></p>
+<p> </p>
+<h2 style="text-align: center;"><span style="font-weight: 500;"><strong>Tip 7 – Don’t treat Black Friday as a one-off</strong></span></h2>
+<p><span style="font-weight: 400;">Black Friday is a perfect reason to start investing in your load testing efforts, but once the event is over you shouldn’t stop there. Surges in traffic or unexpected load on your system could happen any time of the year, and your system needs to be ready to handle this.</span></p>
+<p><span style="font-weight: 400;">Developing load testing scripts with Gatling open-source is an excellent place to start, as we have seen in this article. Once you have those scripts in place and are ready to take your load testing to the next level with distributed load testing on demand coupled with detailed real-time reporting, Gatling FrontLine is the natural solution to progress to.</span></p>
+<p><img loading="lazy" class=" wp-image-8013 aligncenter" src="https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-300x157.png" alt="" width="478" height="250" srcset="https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-300x157.png 300w, https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-1024x536.png 1024w, https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-768x402.png 768w, https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-500x262.png 500w, https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-1536x804.png 1536w, https://gatling.io/wp-content/uploads/2020/11/Frontline_Demo-2048x1072.png 2048w" sizes="(max-width: 478px) 100vw, 478px"/></p>
+<p><span style="font-weight: 400;">A minimal investment in high-quality load testing with Gatling FrontLine is highly worthwhile, as although you can never know when that next spike in traffic is likely to come, you want to make sure your system and your business are ready to handle it and take advantage.</span></p>
+</div>
+<p><span style="font-weight: 400;">If you want to ensure that your web application will be ready for Black Friday, or any other peak traffic period, then high-quality and reliable load testing is essential. The open-source version of Gatling represents a fantastic place to start. </span></p>
+<p><span style="font-weight: 400;">In addition to the </span><a target="_blank" href="https://gatling.io/docs/current/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling OSS documentation</span></a><span style="font-weight: 400;">, other helpful resources include:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The </span><a target="_blank" href="https://gatling.io/docs/current/quickstart/" rel="noopener noreferrer"><span style="font-weight: 400;">Quickstart</span></a><span style="font-weight: 400;"> guide, so you can learn how to record a user journey whilst writing a minimal amount of code</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The </span><a target="_blank" href="https://gatling.io/docs/current/advanced_tutorial/" rel="noopener noreferrer"><span style="font-weight: 400;">Advanced Tutorial</span></a><span style="font-weight: 400;"> to go deeper</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The </span><a target="_blank" href="https://gatling.io/docs/current/cheat-sheet/" rel="noopener noreferrer"><span style="font-weight: 400;">Cheat-Sheet</span></a><span style="font-weight: 400;"> that lists all the Gatling language keywords and their usage</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The </span><a target="_blank" href="https://academy.gatling.io/" rel="noopener noreferrer"><span style="font-weight: 400;">Gatling Academy</span></a><span style="font-weight: 400;"> – a comprehensive Gatling video training solution that takes you through all aspects of Gatling, from setup and configuration to load test execution and results analysis</span></li>
+</ul>
+<p style="text-align: center;"><strong>Black Friday is getting closer and you expect a lot of traffic on your website ?<br />No worries, we have you covered!<br /></strong><strong><span style="color: #ff9902;">SPECIAL OFFER<br />New customers: Get 1 month free and get ready for Black Friday!</span></strong></p>
+<p style="text-align: center;"><a target="_blank" class="btn orange" href="https://gatling.io/black-friday-offer/" rel="noopener noreferrer">Get your offer</a></p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://gatling.io/2020/11/12/7-load-testing-tips-to-ensure-a-successful-black-friday/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -380,6 +675,57 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>How To Do Multi-Touch Gestures in Live Testing</title>
+		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-do-multi-touch-gestures-in-live-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Gestures]]></category>
+		<category><![CDATA[Live]]></category>
+		<category><![CDATA[MultiTouch]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/how-to-do-multi-touch-gestures-in-live-testing/</guid>
+
+					<description><![CDATA[Many organizations are working toward digital confidence by optimizing their testing practices. This may look like reconfiguring the delivery pipeline]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Many organizations are working toward digital confidence by optimizing their testing practices. This may look like reconfiguring the delivery pipeline to integrate quality more meaningfully, moving test infrastructure to the cloud, and automating an increasing number of test cases.</p>
+<p>While all of these are helpful steps on the road to achieving digital confidence, some use cases might not benefit from more automated testing. Those cases will still require manual, or live, testing to ensure that functionality works as expected. </p>
+<p>For example, one use case that may be difficult to automate is testing functionality like multi-touch gestures. This would typically require a real physical device and manual testing. </p>
+<p>Sauce Labs understands that this can be a challenge. That’s why the mobile devices in our Real Device Cloud are available for you to test multi-touch gestures while performing live testing. If you ever come across a situation where you need to pinch or zoom on your mobile device but you don’t have access to the physical device, Sauce Labs has you covered!</p>
+<p>When you start a live session on the Sauce Labs real device cloud and open a website, you can swipe and scroll by clicking on the screen and moving your mouse in the direction you wish to move. This is the same behavior as you would have on a physical device that you would hold in your hand.</p>
+<p>To show you how easy it is to ensure your customer experience is flawless, we have included step-by-step instructions of how to perform multi-touch gestures during live testing sessions on the Sauce Labs platform. Simply follow these steps, using <a target="_blank" href="http://www.netflix.com" rel="noopener noreferrer">www.netflix.com</a> as an example: </p>
+<p>1. To begin, hold down the <b>ALT</b> key (Windows) or the <b>Option</b> key (OS X). Two orange dots will appear on the screen, as you can see below:</p>
+<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/4P6VuUoatXmq9HRTa6f9CM/4fa552a522644620f9391703d8fe6195/netflix1.png?fm=webp" type="image/webp"/></picture></div>
+<p>2. For using <b>zoom </b>(also referred to as zoom in/maximize), make sure you move the dots further away from each other on the screen. This will result in the screen you are viewing to zoom in like this:</p>
+<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/9h1nfY04zMMva93TB2blp/7222bc6f2bf89f9e3e732044153a571d/netflix2.png?fm=webp" type="image/webp"/><img src="https://images.ctfassets.net/czwjnyf8a9ri/9h1nfY04zMMva93TB2blp/7222bc6f2bf89f9e3e732044153a571d/netflix2.png" alt="Netflix pinch zoom" title="Netflix pinch zoom" loading="lazy"/></picture></div>
+<p>3. For using <b>pinch </b>(also referred to as zoom out/minimize), repeat step 1 and bring the orange points closer together: </p>
+<div class="image"><picture><source srcset="https://images.ctfassets.net/czwjnyf8a9ri/5aUUEVWwXLjA1Tte2IA181/b2e46fc29e1fc4175f767b4c4b53f06d/netflix3.png?fm=webp" type="image/webp"/><img src="https://images.ctfassets.net/czwjnyf8a9ri/5aUUEVWwXLjA1Tte2IA181/b2e46fc29e1fc4175f767b4c4b53f06d/netflix3.png" alt="Netflix pinch example" title="Netflix pinch example" loading="lazy"/></picture></div>
+<h3>Best Practices for Performing Multi-Touch Gestures in Live Testing</h3>
+<ul>
+<li>
+<p>Keep in mind that the multi-touch gesture starts from the center of the screen</p>
+</li>
+<li>
+<p>For using <b>zoom</b>, it’s recommended to place your mouse at the center of the screen and hold down the <b>ALT</b> key (Windows) or the <b>Option</b> key (OS X)</p>
+</li>
+<li>
+<p>For using <b>pinch</b>, place your mouse outside of the center of the screen and hold down the <b>ALT</b> key (Windows) or the <b>Option</b> key (OS X)</p>
+</li>
+</ul>
+<p>We have also provided a video walk through of this exact process below so you are able to observe the entire process. If you&#8217;re using Sauce Labs, try out the functionality for yourself by logging into <a target="_blank" href="https://app.saucelabs.com/live/web-testing" rel="noopener noreferrer">your account</a>. If you don&#8217;t have an account, but still want to try live testing on real devices, sign up for a <a target="_blank" href="https://saucelabs.com/sign-up" rel="noopener noreferrer">free trial</a>.</p>
+<div class="image"><img src="https://images.ctfassets.net/czwjnyf8a9ri/1PTYDaNxwyNuTDDm6Wh1vW/d66c5e2a9f155344ed17a0a9da91a7a2/pinch_zoom.gif" alt="pinch zoom" title="pinch zoom" loading="lazy"/></div>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/how-to-do-multi-touch-gestures-in-live-testing">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Trump Site Alleging AZ Election Fraud Exposes Voter Data</title>
 		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/trump-site-alleging-az-election-fraud-exposes-voter-data/</link>
 		
@@ -411,311 +757,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Top tools and best practices to kick-start your shift to cyber resilience</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-tools-and-best-practices-to-kick-start-your-shift-to-cyber-resilience/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 09 Nov 2020 20:15:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cyber]]></category>
-		<category><![CDATA[kickstart]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[resilience]]></category>
-		<category><![CDATA[Shift]]></category>
-		<category><![CDATA[Tools]]></category>
-		<category><![CDATA[Top]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/top-tools-and-best-practices-to-kick-start-your-shift-to-cyber-resilience/</guid>
-
-					<description><![CDATA[For organizations getting ready to move beyond Security Operations with their security approach and improve the cyber resiliency of their]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>For organizations getting ready to <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/state-secops-beyond-soc?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">move beyond Security Operations with their security approach and improve the cyber resiliency of their systems</a>, some excellent startup tools exist. And, equally important, best practices are emerging.</p>
-<p>One of the best places to start your resilience journey is with a cyber-resilience framework. They help an organization establish the goals and objectives for its resiliency strategy, as well as identify specific technologies needed to control, manage, and recover from cyber attacks.</p>
-<p>By using a framework, an organization can craft a cost-effective, flexible, prioritized, and performance-based path to cyber resilience. A framework can also help an enterprise assess its current security stance and <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-assessment?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">identify areas for needed improvement</a>. As improvements are made, the framework can also be used to assess the progress of a resilience program.</p>
-<p>There are a number of popular frameworks, but they all share some common elements. Here&#8217;s <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">what you need to know about them</a>—followed by best practices for cyber resilience.</p>
-<h2>Assess the risks</h2>
-<p>An organization-wide assessment should be performed to identify all cybersecurity risks to the systems, assets, data, people, and capabilities of the enterprise. Important items covered by the assessment should include what the organization&#8217;s risk management strategy should look like; which cyber risks operations, individuals, and assets in the organization are facing; and what assets the organization uses to accomplish its mission.</p>
-<p>When planning for risk management and resilience, organizations should be careful not to over-engineer their schemes, George Platsis, director of cybersecurity for FTI Consulting, <a target="_blank" href="http://securityintelligence.com/articles/creating-roadmap-toward-cyber-resilience/" rel="nofollow noopener noreferrer">wrote recently</a>:</p>
-<blockquote>
-<p>&#8220;It is a crude metaphor, but managing your cyber risk increasingly becomes more like managing your investment portfolio. It is tailored to you and your expectations. But if you are not on top of what’s going on, increasing complexity could lead to increasing volatility. That means your current and future outlooks could quickly be thrown into jeopardy.&#8221;<br />—<a target="_blank" href="https://twitter.com/gplatsis" rel="nofollow noopener noreferrer">George Platsis</a></p>
-</blockquote>
-<p>&#8220;More importantly,&#8221; he continued, &#8220;if you are hoping to maximize business efficiency in your operations using this new gadgetry, then you may be setting yourself up for a colossal loss on the downturn, or a massive data breach that is nearly impossible to recover from could occur.</p>
-<p>Indeed, IBM&#8217;s annual cyber-resiliency <a target="_blank" href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-45839&amp;_ga=2.1023858.255029181.1595266313-545301124.1591239208&amp;cm_mc_uid=78530529166215859305703&amp;cm_mc_sid_50200000=83358031595266312380" rel="nofollow noopener noreferrer">report</a> for 2020 noted that an excessive use of disconnected tools creates complex environments, which can have an adverse effect on an organization&#8217;s ability to detect, prevent, contain, and respond to a cybersecurity incident.</p>
-<h2>Tally up your resources</h2>
-<p>In addition to assessing risks, it&#8217;s also important to take a tally of resources—both technological and human. Such an analysis may reveal areas where automation or a managed service provider may be useful. Of course, nowadays it&#8217;s necessary to consider privacy issues when evaluating both present and future resources, especially when it comes to monitoring data or storing too much of it for too long.</p>
-<p>Another typical recommendation is to develop and implement safeguards to make sure critical services will be delivered successfully. Those safeguards usually include controls to ensure entities have access only to resources needed to do their jobs or functions. They also include security education, which has become increasingly important as more and more employees are forced to work at home, noted James McQuiggan, a security awareness advocate at KnowBe4, a security awareness training provider.</p>
-<blockquote>
-<p>&#8220;With COVID-19 and the increased number of people working from home, organizations&#8217; senior management recognize that the employees are being targeted more than before and require additional training to increase their knowledge of various cyber attacks.&#8221;<br />—<a target="_blank" href="https://twitter.com/James_McQuiggan" rel="nofollow noopener noreferrer">James McQuiggan</a></p>
-</blockquote>
-<p>Development of activities and actions to identify a risk event quickly is also a common framework recommendation. Organizations need to clearly define the roles and responsibilities in play when a suspicious event is identified. They also should be monitoring their assets and networks for potential cyber risks and anomalies.</p>
-<p>After risk events are detected, a response is in order. Frameworks typically recommend that enterprises have response procedures in place, that shareholders within the enterprise coordinate their response to the event, and that action be taken to prevent the event from continuing and spreading.</p>
-<p>IBM says that having a cybersecurity incident response plan (CSIRP) is an important component of any resiliency strategy. It cautions, however, that the plans have to be reviewed frequently. &#8220;As the volume and severity of attacks increase year after year, the lack of an updated CSIRP may increase the risk of experiencing a significant disruption to IT and business processes,&#8221; it noted in its 2020 report.</p>
-<p>Recovery is also a common characteristic among frameworks. Recommendations in that area involve restoring any damage from a cyber attack and conducting post-mortems to assess what can be learned from the incident to improve resiliency.</p>
-<h2>Best practices</h2>
-<p>In addition to following a framework, organizations can also follow these five best practices to improve the resilience of their operations.</p>
-<h4>1. Tailor your response plans to attacks specific to your industry</h4>
-<p>Not only does that save time and money that would have been spent on low-risk threats, but it allows for more detailed planning for real threats.</p>
-<h4>2. Increase visibility and reduce complexity by embracing interoperability</h4>
-<p>Using tools that are interoperable increases the effectiveness of security teams by helping them more quickly detect and block attacks.</p>
-<h4>3. Invest in technologies to accelerate incident response</h4>
-<p>Automation, artificial intelligence, machine learning, and cloud services are some of the leading ways to increase cyber resiliency. Automation can improve not only operational efficiencies, but also the morale of security teams, which will be able to focus their talents on more meaningful activity and be freed of &#8220;scut work.&#8221;</p>
-<h4>4. Bring your security and privacy teams together before serious events occur</h4>
-<p>IBM found that companies that exhibited strong cyber-resiliency characteristics recognized the important relationship between these teams. Encouraging collaboration between the teams will improve responsiveness to incidents such as data breaches much more so than if the first time groups collaborate is when they&#8217;re thrown together to face a crisis.</p>
-<h4>5. Get the company brass on board</h4>
-<p>In all organizations, something is more likely to gain traction if it gets buy-in from the executive team. One way to get the attention of C-level executives and board members is to formalize resiliency reporting to them. That way, resiliency can be kept visible to the upper ranks and receive the resources it needs to preserve the revenues and reputation of the organization.</p>
-<h3>Take your SecOps to the next level</h3>
-<p>Stan Wisseman, chief security strategist at Micro Focus, said the key is to build on the existing tools and best practices to take your security operations to the next level.</p>
-<blockquote>
-<p>&#8220;There&#8217;s some great guidance out there. There&#8217;s a lot of good work that has already been done to help organizations evolve beyond just cybersecurity.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/stanwisseman/" rel="nofollow noopener noreferrer">Stan Wisseman</a></p>
-</blockquote>
-<blockquote>
-<p> </p>
-</blockquote>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/top-tools-best-practices-kick-start-your-shift-cyber-resilience">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>qTest Integration with Applitools &#8211; Automated Visual Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qtest-integration-with-applitools-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 05 Nov 2020 20:06:49 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Applitools]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Integration]]></category>
-		<category><![CDATA[qTest]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/qtest-integration-with-applitools-automated-visual-testing/</guid>
-
-					<description><![CDATA[Agile methodology should be a seamless setup where anytime, tracking of tests per requirement or story, automated or manual tests]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Agile methodology should be a seamless setup where anytime, tracking of tests per requirement or story, automated or manual tests executed and results available for monitoring or auditing by key stakeholders. And, automation execution shouldn’t be something only techies can do. Non-technical people in the team should know what is being covered in automated tests for stories.</p>
-<p>Mature organizations with agile methodologies, implement tooling to centralize, testing, requirements, defects and reporting at one place for better tracking and also to make informed decisions on the software quality management process.</p>
-<p>Recently, I have come across two tools, <strong>qTest </strong>and <strong>Applitools </strong>– integrating them in the agile process will solve above challenges and makes testing practise in an agile environment – transparent, traceable, measurable and efficient.</p>
-<div class="wp-block-group alignfull pt-sm pb-sm bg-off-white">
-<div class="wp-block-group__inner-container">
-<figure class="wp-block-pullquote">
-<blockquote>
-<p>“In this article, I’m focussing on the automated tests to explain the benefits of qTest and Applitools integration.”</p>
-<p><cite>— Satish Mallela</cite></p></blockquote>
-</figure>
-<hr class="wp-block-separator is-style-dots"/></div>
-</div>
-<h2 id="h.5jgitecfokqa"> qTest</h2>
-<p><a target="_blank" href="https://www.tricentis.com/products/agile-dev-testing-qtest/" rel="noopener noreferrer">Tricentis qTest</a> offers a suite of Agile testing tools designed to improve efficiency and ensure collaboration on your journey to release the best software.</p>
-<p>qTest has below components to support agile testing methodologies,</p>
-<ul>
-<li>qTest Manager – Powerful and Easy-to-Use Test Case Management</li>
-<li>qTest Launch – Centrally Manage Open Source Frameworks &amp; Commercial Test Automation Tools</li>
-<li>qTest Explorer – Test Execution Recorder &amp; Documentation Tools</li>
-</ul>
-<p><a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools </a>Visual AI, provides the software industry’s only AI-powered, deep learning, computer vision engine that replicates the human eyes and brain to test rendered components and pages.</p>
-<p>Applitools offers incredible efficiency. A single line of capture can replace dozens of text-based assertions per test.  With Applitools, you create tests faster, and you execute tests in seconds on multiple devices/browser combinations. Applitools helps you ensure perfection across all browsers, screens and viewports. You can even include web accessibility compliance testing at the same time.</p>
-<p>Applitools has 40+ SDKs for different programming languages and test runners, covering web apps, mobile apps, screenshot testing, PDF validations, and more.</p>
-<h2 id="h.piqab7od5109">Applitools Integration with qTest</h2>
-<p>How do we combine visual AI in Applitools with Test management capabilities in qTest to make software testing efficient in Agile methodology?</p>
-<p>Common flow of test management in any agile environment is,</p>
-<ul>
-<li>Writing tests to user stories/requirements.</li>
-<li>Execute tests manually or automatically.</li>
-<li>Raise defects</li>
-</ul>
-<p>In this article, I’m focussing on the automated tests to explain the benefits of qTest and Applitools integration.</p>
-<p>qTest supports multiple test runners like TestNG, Cucumber, JBehave, JUnit, NUnit, MSTest etc that can be used with popular tools like Selenium to run automated tests.</p>
-<p>Integrating Applitools with the automation tools and test runners is straightforward. Follow <a target="_blank" href="https://applitools.com/tutorials/" rel="noopener noreferrer">Tutorials</a>  for a step-by-step guide</p>
-<p>I have chosen, Cucumber-Java-Selenium and Applitools combination to explain integration.</p>
-<p>Cucumber is most commonly used in agile development for writing automated tests.</p>
-<p>Cucumber is a BDD(Behavior-Driven Development) software tool which helps facilitate the use of an easy-to-learn language called Gherkin. The Gherkin language is used for writing user stories in a ubiquitous language which can also be parsed by the test runner software. For details of Cucumber and Gherkin language, please refer to <a target="_blank" href="https://cucumber.io/docs" rel="noopener noreferrer">https://cucumber.io/docs</a>.</p>
-<p>Let’s take a look at a sample Cucumber scenario, as shown below to launch Tricentis website.</p>
-<pre class="wp-block-preformatted">Feature: Browser Test
-  Scenario: Search qTest Launch
-      Given I am on the Tricentis website
-      When I search for “qTest Launch”
-      Then I should see qTest Launch item on the Search page</pre>
-<p>Applitools should be added to the implementation of the Cucumber steps. If the automation framework uses a page object model then Applitools should be added to page objects.</p>
-<p>Applitools requires a Selenium webdriver object to capture a screenshot of the application under test.</p>
-<p>The following line of code should be added before capturing the DOM screenshot.</p>
-<pre class="wp-block-preformatted">eyes.open(driver, “Demo App”, “Smoke Test”, new RectangleSize(800, 800));</pre>
-<p>Next is to add the Applitools check command to take a full-page screenshot.</p>
-<pre class="wp-block-preformatted">// Visual checkpoint #1 - Check the login page.<br/>eyes.checkWindow(“Login Window”);</pre>
-<p>**Please refer to this <a target="_blank" href="https://applitools.com/tutorials/selenium-java.html" rel="noopener noreferrer">tutorial </a>for the remaining steps and completing the integration.</p>
-<p>We have successfully added Applitools code to automated tests.</p>
-<h2 id="h-running-tests">Running Tests</h2>
-<p>Let’s run the automated tests with qTest Launch or CI/CD tools like <strong>Jenkins</strong>.</p>
-<p>Please refer to <a target="_blank" href="https://documentation.tricentis.com/qtest/9910/en/content/qtest_launch/launch_user_guides/qtest_launch_quick_start_guide.htm" rel="noopener noreferrer">qTest Launch</a> for more details.</p>
-<p>During the test execution, Applitools takes DOM snapshots of the application under test (as shown below) and sends the snapshot to Applitools server for comparison with visual AI – emulating the human eye and brain.</p>
-<figure class="wp-block-image"></figure>
-<p>Please refer to <a target="_blank" href="https://applitools.com/" rel="noopener noreferrer">Applitools</a> for more details.</p>
-<p>So far, we have prepared tests and integrated Applitools and now let’s see the results of integration.</p>
-<p>qTest automatically imports automation results to qTest Manager dashboard if tests are executed by qTest Launch. Please refer to <a target="_blank" href="https://documentation.tricentis.com/qtest/od/en/content/qtest_launch/universal_agent_user_guides/universal_agent_overview.htm" rel="noopener noreferrer">qTest Launch</a>  for more details.</p>
-<p>For execution in Jenkins refer to <a target="_blank" href="https://www.tricentis.com/academy/ondemand-training/how-to-integrate-qtest-jenkins-pipeline-projects/" rel="noopener noreferrer">qTest integrations with Jenkins</a>.</p>
-<p>Let’s dive into results imported into qTest Manager as shown below.</p>
-<p>Please refer to <a target="_blank" href="https://documentation.tricentis.com/qtest/od/en/content/qtest_manager/introduction/qtest_manager_quick_start_guides.htm" rel="noopener noreferrer">qTest Manager </a>for more details.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="845" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0.png" alt="pasted image 0" class="wp-image-24387" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-300x158.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-1024x541.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-768x406.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-1536x811.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>qTest Manager dashboard with automation run results.</p>
-<p>As shown in the above screenshot, tests are marked passed or failed.</p>
-<p>Integrating qTest with Applitools, the advantage is, <strong>qTest marks the test passed or failed depending on the status from Applitools.</strong></p>
-<p>Applitools has different status of tests, based on the comparison done by Visual AI.</p>
-<p>Please refer to this <a target="_blank" href="https://help.applitools.com/hc/en-us/articles/360007188251-Different-statuses-of-tests-and-steps#:~:text=Unresolved%2D%20A%20test%20which%20has,have%20not%20yet%20been%20reviewed." rel="noopener noreferrer">article </a>for more details.</p>
-<p>Let’s click on the test executed and see the details of the execution in both pass and failure scenarios,  </p>
-<p><strong>Passed</strong>:</p>
-<ul>
-<li>qTest marks the test as <strong>Passed </strong>as Applitools have a taken full-page screenshot of the application and no differences observed with baseline snapshot of the same screen.</li>
-<li>Applitools has tested a full-page emulating human eye.</li>
-</ul>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="574" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2.png" alt="pasted image 0 2" class="wp-image-24389" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-300x108.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-1024x367.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-768x276.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-2-1536x551.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p><strong>Failed</strong>:</p>
-<ul>
-<li>qTest marks the test as <strong>Failed </strong>as Applitools have taken a full-page screenshot of the application and observed differences with the baseline snapshot of the same screen.</li>
-<li>Applitools has tested a full-page <strong>emulating human eye </strong>and has found differences that a human eye would visualise by comparing text, images, colour, and contrast.</li>
-<li>To know more about Applitools algorithms comparison and human eye emulation. Follow this <a target="_blank" href="https://help.applitools.com/hc/en-us/articles/360007188591-Match-Levels" rel="noopener noreferrer">link. </a></li>
-<li>qTest also provides a link(click the log highlighted in green) to the Applitools Dashboard (sample below) to understand the differences and take action. Follow this <a target="_blank" href="https://applitools.com/docs/topics/overview/overview-reviewing-test-results.html" rel="noopener noreferrer">link</a> for more details.</li>
-</ul>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="719" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4.png" alt="pasted image 0 4" class="wp-image-24391" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-300x135.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-1024x460.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-768x345.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-4-1536x690.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>“com.applitools.eyes.exceptions.DiffsFoundException: Test ‘qTest Integration’ of ‘qTest’ detected differences! See details at: https://eyes.applitools.com/app/batches/00000251801305860660/00000251801305860535?accountId=&lt;accountID&gt;”</p>
-<p>The link sends you to Applitools Test Manager dashboard for users to review results and take actions.</p>
-<p>In the below screenshot, Applitools has compared the checkpoint (present application state) with the expected application state(baseline) and if differences found between these two will be highlighted in pink.</p>
-<figure class="wp-block-image"><img loading="lazy" width="1600" height="873" src="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3.png" alt="pasted image 0 3" class="wp-image-24390" srcset="https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3.png 1600w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-300x164.png 300w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-1024x559.png 1024w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-768x419.png 768w, https://applitools.com/wp-content/uploads/2020/11/pasted-image-0-3-1536x838.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
-<p>To know more about Applitools capabilities for testing <a target="_blank" href="https://applitools.com/web-testing/" rel="noopener noreferrer">websites</a>, <a target="_blank" href="https://applitools.com/blog/adding-app-visual-management-to-mobile-test/" rel="noopener noreferrer">mobile applications</a> or <a target="_blank" href="https://applitools.com/blog/3-steps-visual-testing-pdf/" rel="noopener noreferrer">PDF </a>documents. Please follow the links.</p>
-<p>So far, we have achieved below in agile testing practise with integration,</p>
-<ul>
-<li>Tests are written for user stories</li>
-<li>Automated tests are linked to stories</li>
-<li>Results have been centralised in one place</li>
-</ul>
-<p>Now, all the stakeholders, team members should be able to,</p>
-<ul>
-<li>See the progress of given user story testing</li>
-<li>Understand what is been tested in automated testing</li>
-<li>See the current state of application</li>
-<li>Collaborate and take informed decisions</li>
-</ul>
-<p>Results are available all time in one place for future reference or auditing purposes, giving agile teams transparency and the ability to trace, measure and increase their efficiency.</p>
-<h2 id="h.qpf8blko7i92">Benefits of Integration</h2>
-<p>In broader terms, Applitools compliments teams using qTest or any other automation tools to,</p>
-<ul>
-<li>Test faster with less code or zero code – productivity gain by 70%</li>
-<li>Cross Browser testing with no infrastructure cost – coverage increase by 90%</li>
-<li>Automation results combined at one place – standardising tools</li>
-<li>Fewer defects to production – bugs caught 45% more with Visual AI</li>
-</ul>
-<p>Hope you liked this blog. Keep Testing!</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/qtest-integration/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Welcome to Grégoire! – Gatling Open-Source Load Testing</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-gregoire-gatling-open-source-load-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 04 Nov 2020 16:15:53 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Gatling]]></category>
-		<category><![CDATA[Grégoire]]></category>
-		<category><![CDATA[Load]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/welcome-to-gregoire-gatling-open-source-load-testing/</guid>
-
-					<description><![CDATA[Reading Time: &#60; 1 min   The Gatling family is growing!  We are very happy to welcome Grégoire Vallet. Grégoire joined]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">&lt; 1</span> <span class="rt-label rt-postfix">min</span></span></p>
-<p> </p>
-<p><strong>The </strong><strong>Gatling family is growing!</strong>  We are very happy to welcome <strong>Grégoire Vallet</strong>.</p>
-<div id="attachment_7943" style="width: 310px" class="wp-caption aligncenter"></p>
-<p id="caption-attachment-7943" class="wp-caption-text">Grégoire joined the Sales Team as a Sales Development Representative.</p>
-</div>
-<p>Grégoire joined the Sales Team as a <strong>Sales Development Representative</strong>.</p>
-<p>After obtaining a Master in <strong>International Business</strong> from a Parisian business school, Grégoire worked as a <strong>Business Developer</strong>, in a Tech recruiting start-up.</p>
-<p>Full of passions punctuate his life, sports, history and especially Chinese culture, he lived and worked there for 2 years.</p>
-<p><strong>Feel free to contact him,</strong> if you need any information, he would be glad to help you to <strong>discover our offers</strong> and <strong>support you in your project</strong>: <a target="_blank" href="https://gatling.io/mailto:gvallet@gatling.io" rel="noopener noreferrer">gvallet@gatling.io</a></p>
-<p>We look forward to benefiting from his expertise in sales!</p>
-<p><strong>Welcome Grégoire!</strong></p>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://gatling.io/2020/11/04/welcome-to-gregoire/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ramp Up &#8211; Neotys</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ramp-up-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 04 Nov 2020 04:01:22 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Agile]]></category>
-		<category><![CDATA[DevOps]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[PerformanceEngineering]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Ramp]]></category>
-		<category><![CDATA[rampup2020]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/ramp-up-neotys/</guid>
-
-					<description><![CDATA[📢Get all the information about the Neotys Virtual Summit: discover what&#8217;s ahead for #PerformanceEngineering and #NeoLoad👉 Join us https://bit.ly/2SH7idC#performancetesting #agile]]></description>
-										<content:encoded><![CDATA[
-<p><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4e2.png" alt="📢" class="wp-smiley" style="height: 1em; max-height: 1em;" />Get all the information about the Neotys Virtual Summit: discover what&#8217;s ahead for <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/performanceengineering?refid=17&amp;_ft_=mf_story_key.3810076949003740%3Atop_level_post_id.3810076949003740%3Atl_objid.3810076949003740%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3810076949003740%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-Mvo86i4l5-tDA%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A4102182689653072186&amp;__tn__=%2As-R" rel="noopener noreferrer">#PerformanceEngineering</a> and <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3810076949003740%3Atop_level_post_id.3810076949003740%3Atl_objid.3810076949003740%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3810076949003740%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-Mvo86i4l5-tDA%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A4102182689653072186&amp;__tn__=%2As-R" rel="noopener noreferrer">#NeoLoad</a><img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Join us <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2SH7idC%3Ffbclid%3DIwAR2GiSUoivs_HtZ_XDptD4N1qKrzCa-anWUf0RDfJxlcOYluOLCd0p6JHic&amp;h=AT23V6JwP7pLBj5dz74AmpoqrbuEA9erI5fSeXppYXOsw-xQlZHkrUiVDvGRT7ao8Yrmz4pAlVXUeCWZ5Zq2MZDv_LjHGnHBTu4SNy8IfbB9uFPCr8oWSSMc48jvAMaF1kaHv33LMAnJOC20UNgyg6QxYIXs-z5nKyyM-ZaQ47ALTz-S2zu0wU43FJ9UMeYNpz06RNZ54eLJ3q1RLjPXGj1qkomrE4i9mGWDraRg0nwK08Prj17zi2aAZz0rCkERHyc__EyvP_aHUSHWbdCcboQgtLp28jWhaLfDPdFOFcK2uDKvfrP2bvxvvNX_9ciPLpMAlRVdjPWytcuxLvX0r-E-wSTJjkXgSIqDFHwaCV61Z8WCk5Hhn5gYzkXeoaZWR1X_IRYh4HqiKZAD9YvBL9CQ3p5ewFOdCvvl80lkwAo8uRtMWgIWa32q5BRzCu5O1UL8098I3Jl93aOfUAWcrMKvqf4rDrD-vI-_gGmZro207iegDQANTQnf6ZdJzulqtfJNrcFpXG_pItdgv1eQF2irjPiA2eJw0vlgQDHSCUI8Mk8_b-l3IpEjRdYBL6B0wzX1jcVuHxKw7szWC-seyKBdhNrC2a-ncrMcvbp2fRSey8I-pQ" rel="noopener noreferrer">https://bit.ly/2SH7idC</a><br /><a target="_blank" class="gc gd" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3810076949003740%3Atop_level_post_id.3810076949003740%3Atl_objid.3810076949003740%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3810076949003740%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-Mvo86i4l5-tDA%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A4102182689653072186&amp;__tn__=%2As-R" rel="noopener noreferrer">#performancetesting</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/agile?refid=17&amp;_ft_=mf_story_key.3810076949003740%3Atop_level_post_id.3810076949003740%3Atl_objid.3810076949003740%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3810076949003740%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-Mvo86i4l5-tDA%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A4102182689653072186&amp;__tn__=%2As-R" rel="noopener noreferrer">#agile</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/devops?refid=17&amp;_ft_=mf_story_key.3810076949003740%3Atop_level_post_id.3810076949003740%3Atl_objid.3810076949003740%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3810076949003740%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-Mvo86i4l5-tDA%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A4102182689653072186&amp;__tn__=%2As-R" rel="noopener noreferrer">#devops</a> <a target="_blank" class="gc gd" href="https://facebook.com/hashtag/rampup2020?refid=17&amp;_ft_=mf_story_key.3810076949003740%3Atop_level_post_id.3810076949003740%3Atl_objid.3810076949003740%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3810076949003740%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-Mvo86i4l5-tDA%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1604213999%3A4102182689653072186&amp;__tn__=%2As-R" rel="noopener noreferrer">#rampup2020</a>
-</p>
-<p><a target="_blank" href="https://bit.ly/2SH7idC?fbclid=IwAR2GiSUoivs_HtZ_XDptD4N1qKrzCa-anWUf0RDfJxlcOYluOLCd0p6JHic" rel="noopener noreferrer"></a> </p>
-<p><a target="_blank" href="https://bit.ly/2SH7idC?fbclid=IwAR2GiSUoivs_HtZ_XDptD4N1qKrzCa-anWUf0RDfJxlcOYluOLCd0p6JHic" rel="noopener noreferrer">Ramp Up &#8211; Neotys</a></p>
-<p><br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3810076949003740">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Two Chrome Browser Updates Plug Holes Actively Targeted by Exploits</title>
-		<link>http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/two-chrome-browser-updates-plug-holes-actively-targeted-by-exploits/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 03 Nov 2020 17:23:23 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Actively]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Exploits]]></category>
-		<category><![CDATA[Holes]]></category>
-		<category><![CDATA[Plug]]></category>
-		<category><![CDATA[targeted]]></category>
-		<category><![CDATA[Updates]]></category>
-		<guid isPermaLink="false">http://qe-blog-wordpress.qe-blog.10.50.222.172.xip.io/two-chrome-browser-updates-plug-holes-actively-targeted-by-exploits/</guid>
-
-					<description><![CDATA[Patches for both the Chrome desktop and Android browser address high-severity flaws with known exploits available in the wild. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Patches for both the Chrome desktop and Android browser address high-severity flaws with known exploits available in the wild.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/chrome-holes-actively-targeted/160890/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -724,5 +765,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-13 06:38:23 by W3 Total Cache
+Served from: qe-blog-wordpress.qe-blog.10.50.222.172.xip.io @ 2020-11-13 22:01:22 by W3 Total Cache
 -->
