@@ -1,1 +1,894 @@
-default backend - 404
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>QE Blog</title>
+	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
+	<description>Where we share news, resources, and latest trends in testing</description>
+	<lastBuildDate>Fri, 04 Dec 2020 15:31:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+
+<image>
+	<url>http://wp.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
+	<title>QE Blog</title>
+	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>VMware Rolls a Fix for Formerly Critical Zero-Day Bug</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/vmware-rolls-a-fix-for-formerly-critical-zero-day-bug/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 04 Dec 2020 15:31:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Fix]]></category>
+		<category><![CDATA[Rolls]]></category>
+		<category><![CDATA[VMware]]></category>
+		<category><![CDATA[ZeroDay]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/vmware-rolls-a-fix-for-formerly-critical-zero-day-bug/</guid>
+
+					<description><![CDATA[VMware has issued a full patch and revised the severity level of the NSA-reported vulnerability to &#8220;important.&#8221; Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />VMware has issued a full patch and revised the severity level of the NSA-reported vulnerability to &#8220;important.&#8221;<br />
+<br /><br />
+<br /><a href="https://threatpost.com/vmware-fix-critical-zero-day-bug/161896/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Vancouver Metro Disrupted by Egregor Ransomware</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/vancouver-metro-disrupted-by-egregor-ransomware/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 04 Dec 2020 14:25:55 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Disrupted]]></category>
+		<category><![CDATA[Egregor]]></category>
+		<category><![CDATA[Metro]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Vancouver]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/vancouver-metro-disrupted-by-egregor-ransomware/</guid>
+
+					<description><![CDATA[The attack, which prevented Translink users from using their metro cards or buying tickets at kiosks, is the second from]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The attack, which prevented Translink users from using their metro cards or buying tickets at kiosks, is the second from the prolific threat group just this week.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/vancouver-metro-egregor-ransomware/161892/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How I ran 100 UI tests in just 20 seconds [Revisited] &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/how-i-ran-100-ui-tests-in-just-20-seconds-revisited-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 04 Dec 2020 07:13:55 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[ran]]></category>
+		<category><![CDATA[Revisited]]></category>
+		<category><![CDATA[seconds]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Tests]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/how-i-ran-100-ui-tests-in-just-20-seconds-revisited-automated-visual-testing/</guid>
+
+					<description><![CDATA[From time to time, we revisit blog posts that show the benefit of Applitools across different use cases. This post]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<figure class="wp-block-pullquote">
+<blockquote>
+<p>From time to time, we revisit blog posts that show the benefit of Applitools across different use cases. This post by Bilal Haidar from 2019 was one of the first outlining the benefits of Applitools Ultrafast Grid. </p>
+</blockquote>
+</figure>
+<p>Recently I’ve put together a bunch of tutorials: <a target="_blank" href="https://medium.com/@thisdotmedia/applitools-the-automated-visual-regression-testing-framework-18ebada47977" rel="noreferrer noopener">an overview of Applitools</a>, how to <a target="_blank" href="https://blog.angularindepth.com/mixing-storybook-with-angular-with-a-sprinkle-of-applitools-8413bb950cf8" rel="noreferrer noopener">test Storybook with Angular</a>, how to <a target="_blank" href="https://applitools.com/blog/troubleshoot-fix-react-bugs?utm_term=td&amp;utm_source=organic-social&amp;utm_medium=bing&amp;utm_content=blog&amp;utm_campaign=ELC-bilal-article&amp;utm_subgroup=bilal-new-article" rel="noopener noreferrer">quickly troubleshoot bugs in React apps</a>, and how to <a target="_blank" href="https://applitools.com/blog/test-vuejs-cypress-io-applitools?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">test Vue apps with Cypress</a>.</p>
+<p>If you’ve gone through these, you’ll notice that the visual tests complete in seconds — faster than Nic Cage can jack your ride.</p>
+<p>How so fast?</p>
+<p>The answer is simple: <a target="_blank" href="https://applitools.com/visualgrid?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Applitools Ultrafast Grid</a>. Each time you run a visual test in Applitools, Ultrafast Grid renders that page across a broad range of browsers and configurations. In parallel. In seconds.</p>
+<p>Applitools Visual AI then grabs a screenshot of each page, compares it to its baseline screenshot, and determines visual differences and the <a target="_blank" href="https://applitools.com/root-cause-analysis?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">root cause</a> unpinning them. In less than a minute, your cross-browser testing is done and your developers have what they need to fix any visual bugs.</p>
+<p>It’s our very own <a target="_blank" href="https://www.engadget.com/2017/02/07/tesla-model-s-ludicrous-acceleration-record/" rel="noreferrer noopener">ludicrous mode</a> (a.k.a. how a Tesla can go from zero to 60 mph in a little over two seconds).</p>
+<p>But more than a cool technical trick, Ultrafast Grid can help you keep your app development projects on schedule.</p>
+<p>In this article, I will demonstrate the Ultrafast Grid system with test runs and a variety of configuration settings, such as multiple browsers, viewports, and devices, to show Applitools’ efficiency in delivering results.</p>
+<p>First off, make sure you have the following installed and configured on your machine:</p>
+<p>Before we delve into writing code, let’s take a behind-the-scenes look at how Applitools Ultrafast Grid works.</p>
+<h2 id="h.oa1yj6tgce4t">Life before Ultrafast Grid</h2>
+<p>Before the arrival of the Ultrafast Grid, visual tests were run in this specific order:</p>
+<ul>
+<li>A test run checked the pages one by one.</li>
+<li>A screenshot was taken for each page.</li>
+<li>The screenshot was uploaded to the backend server, where it was analyzed (that is, compared to previous baselines).</li>
+<li>Based on the results, the test would either fail or keep running, checking other pages.</li>
+</ul>
+<p>So far, so good!</p>
+<p>But problems arise when hundreds of screenshots are uploaded to the backend server to be analyzed. Varying parameters ranging from different viewports, different browsers, and different device emulators can also slow things down.</p>
+<p>To help solve this, Applitools designed the Ultrafast Grid system to run tests quickly.</p>
+<h2 id="h.9lfxz8ckycnr">Life with Ultrafast Grid</h2>
+<p>Applitools Ultrafast Grid is split into two components: server-side and client-side. Here’s a diagram of how it works:</p>
+<figure class="wp-block-image"></figure>
+<p>The Ultrafast Grid client is a Node JS library, used internally by both Applitools Storybook and Cypress SDKs. Here’s <a target="_blank" href="https://github.com/applitools/visual-grid-client" rel="noreferrer noopener">more on the Ultrafast Grid client</a>.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/753b282427ab1a894d2d9f99f29a7adc.js</p>
+</div>
+<p>That code snippet instantiates a new Ultrafast Grid client and returns an object. In this case, we are only interested in the <strong>openEyes()</strong> method returned.</p>
+<p>When called, the <strong>openEyes()</strong> method starts a new test run and sends the Ultrafast Grid backend server details about it– including, but not limited to the application name, batch or test name, the browsers used, and different variations of browser settings to be adapted while running the tests. This method returns a Promise to an object with the following functions: <strong>checkWindow()</strong> and <strong>close()</strong>.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/37e90b0c5e58acd709268128635d1167.js</p>
+</div>
+<p>This method call instructs the Ultrafast Grid backend server to prepare a testing environment for a new test run that requires running the test over two different browsers. The first browser emulates an iPhone X, while the second specifies the desktop viewport to run the test.</p>
+<p>To start collecting snapshots, the test issues a call to <strong>checkWindow()</strong> function. The Ultrafast Grid client handles this call and collects all the needed resources to store the snapshot locally.</p>
+<p>At the end of the test, you issue a call to <strong>close() </strong>method to close and finish the test run.</p>
+<p>At this moment, all the DOM Snapshots collected locally during the test run are sent to the Ultrafast Grid backend server. Based on the test run requirements, sent previously with the <strong>openEyes()</strong> method, the Ultrafast Grid:</p>
+<ul>
+<li>Launches a number of browsers with different viewports and device emulators.</li>
+<li>Runs all of the DOM snapshots in parallel.</li>
+<li>Collects image screenshots.</li>
+<li>Sends all the screenshots to the Applitools AI server to do all the testing analysis and returns the results.</li>
+</ul>
+<p>Finally, it’s worth mentioning that Ultrafast Grid sits behind a family of Applitools SDKs including the following:</p>
+<p>Now that you understand how the Ultrafast Grid system works so efficiently, let’s throw a spanner in the works by running tests with a variety of browser configuration settings. Then, we’ll review the results on the Applitools Test Manager.</p>
+<h2 id="h.yf0udzbnle5">Source code</h2>
+<p>For this article, I’ve chosen to write a few Storybook stories and use Applitools for the custom Angular ContentEditable component. I’ve described and used this in my previous article on <a target="_blank" href="https://blog.angularindepth.com/mixing-storybook-with-angular-with-a-sprinkle-of-applitools-8413bb950cf8" rel="noreferrer noopener">Mixing Storybook with Angular with a sprinkle of Applitools</a>.</p>
+<p>There have been some changes to the <a target="_blank" href="https://www.npmjs.com/package/@applitools/eyes-storybook" rel="noreferrer noopener">Applitools Eyes SDK for Storybook</a> npm package since my previous article was published. I’d recommend removing the old package and installing the new one by following these steps:</p>
+<p><strong>Step 1</strong>: Remove the old @applitools/eyes.storybook NPM package by issuing the following command:</p>
+<pre id="code-snippet-0" class="wp-block-preformatted">npm remove @applitools/eyes.storybook</pre>
+<p>copy code to clipboard</p>
+<p><strong>Step 2</strong>: Install the new @applitools/eyes-storybook NPM package by issuing the following command:</p>
+<pre id="code-snippet-1" class="wp-block-preformatted">npm i @applitools/eyes-storybook</pre>
+<p>copy code to clipboard</p>
+<p>That’s it!</p>
+<h2 id="h.j9tyt4f74r8e">Applitools Ultrafast Grid Demo</h2>
+<p>Before writing our tests, let’s run the application and make sure it’s working fine.</p>
+<p><strong>Step 1</strong>: Clone the application <a target="_blank" href="https://github.com/thisdot/storybook-angular-applitools" rel="noreferrer noopener">repo</a>.</p>
+<pre id="code-snippet-2" class="wp-block-preformatted">git clone https://github.com/thisdot/storybook-angular-applitools.git</pre>
+<p>copy code to clipboard</p>
+<p><strong>Step 2</strong>: Install all app dependencies by issuing the following command:</p>
+<p>Go to the folder /storybook-angular-applitools then run this command:</p>
+<pre id="code-snippet-3" class="wp-block-preformatted">npm install</pre>
+<p>copy code to clipboard</p>
+<p><strong>Step 3</strong>: Run the app by issuing the following command:</p>
+<pre id="code-snippet-4" class="wp-block-preformatted">ng serve</pre>
+<p>copy code to clipboard</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/1.png" alt="1" class="wp-image-4529"/></figure>
+<p>Now that we are sure the application is up and running switch back to the Terminal and hit Ctrl+c twice. This terminates the running application.</p>
+<p><strong>Step 4</strong>: Run the Storybook stories by issuing the following command:</p>
+<pre id="code-snippet-5" class="wp-block-preformatted">npm run storybook</pre>
+<p>copy code to clipboard</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/2.png" alt="2" class="wp-image-4533"/></figure>
+<p><strong>Step 5</strong>: Run the Applitools Eyes SDK for Storybook by issuing the following command:</p>
+<pre id="code-snippet-6" class="wp-block-preformatted">npx eyes-storybook</pre>
+<p>copy code to clipboard</p>
+<p>Make sure you get an <a target="_blank" href="https://applitools.com/tutorials/storybook-angular.html#how-it-works" rel="noopener noreferrer">Applitool API Key</a> and store it on your machine.</p>
+<p>To set the APPLITOOLS_API_KEY environment variable locally on your machine you can use the <strong>export</strong> command on Mac OS or <strong>set</strong> command on Windows as follows.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/0b56806977ea420f54be071c8057bec3.js</p>
+</div>
+<p>For a complete tutorial on how to install and run Applitools Storybook SDK for Angular, check out this article: <a target="_blank" href="https://applitools.com/tutorials/storybook-angular.html?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=#how-it-works" rel="noopener noreferrer">Storybook Angular Tutorial</a>.</p>
+<p>Back to the command above, this command simply opens the Storybook stories, runs them one by one, and then sends all the DOM snapshots to Applitools Ultrafast Grid, which then renders them.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/3.png" alt="3" class="wp-image-4538"/></figure>
+<p>If you expand the first test run, you get the following results:</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/4.png" alt="4" class="wp-image-4537"/></figure>
+<p>Now that the app, Storybook stories, and Applitools are running locally, let’s start playing with our visual tests.</p>
+<h2 id="h.fw6ffceeh5us">Visual UI tests with custom viewports</h2>
+<p>Keeping in mind that Applitools with Storybook doesn’t need any kind of configuration, the important test configurations are auto-inferred by Applitools. However, if you want to play around with the test configuration, you have two options to specify:</p>
+<ul>
+<li>Environment variables</li>
+<li>The <strong>applitools.config.js</strong> file</li>
+</ul>
+<p>For this demonstration, I will make use of the applitools.config.js file. For a full list of test configuration, check the <a target="_blank" href="https://github.com/applitools/eyes-storybook#advanced-configuration" rel="noreferrer noopener">Advanced Configuration</a> section on the <a target="_blank" href="https://github.com/applitools/eyes-storybook" rel="noreferrer noopener">@applitools/eyes-storybook</a> repo on Github.</p>
+<p>When you’re using Applitools with Storybook, there’s no need to add any specific Applitools commands or set test configuration to enable visual testing.</p>
+<p>Applitools Eyes SDK runs the Storybook stories, takes a snapshot of each, and sends the DOM snapshots to the Ultrafast Grid backend server. It saves the test run with the default test configuration.</p>
+<p><strong>Step 1</strong>: Add a new JavaScript file to the root of your application. Give it a name of applitools.config.js.</p>
+<p><strong>Step 2</strong>: Add the <strong>appName</strong> and <strong>batchName</strong> configuration settings as follows:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/0de19b72bcbe662ecab76f0ff564ad6e.js</p>
+</div>
+<p><strong>Step 3</strong>: Run the test case on two different browsers with two different viewports by adding the following:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/f14a44719643ec2fb56ea99420273b4d.js</p>
+</div>
+<p>Consequently, Ultrafast Grid launches a set of instances for each of the browsers and runs the tests simultaneously. The first time these tests are run, we create baseline images to compare against during subsequent test runs.</p>
+<p><strong>Step 4</strong>: Save and run the tests again by issuing the following command:</p>
+<pre id="code-snippet-7" class="wp-block-preformatted">npx eyes-storybook</pre>
+<p>copy code to clipboard</p>
+<p><strong>Step 5</strong>: Check the test run in Applitools Test Manager.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-25-at-23.34.25.png" alt="Screenshot 2019 03 25 at 23.34.25" class="wp-image-4535"/></figure>
+<p>I’ve switched the Test Manager view to the Batch Summary View.</p>
+<p>Notice how Applitools Ultrafast Grid ran your tests twice, as per the test configuration file above. The test configuration above specified two different browsers with two different viewports. This means that the Ultrafast Grid runs every test twice– once per browser configuration set.</p>
+<p>Running this test yields an <strong>execution time of just four seconds</strong>! To be clear, this is what we spent rendering baseline images, once the DOM snapshots were uploaded. Even so, that’s really fast.</p>
+<p>It’s the duty of the Ultrafast Grid to analyze the test configuration file attached to the test and spawn, in parallel, a number of browser instances to handle the test run efficiently.</p>
+<h2 id="h.cnwn9ukphuox">Visual UI tests with device emulation</h2>
+<p>Let’s run another test. This time, instead of specifying the browser viewports, we will specify a device emulation for the browser. Device emulation uses a Chrome browser, with the <a target="_blank" href="https://www.w3schools.com/css/css_rwd_viewport.asp" rel="noreferrer noopener">viewport</a> dimensions, and <a target="_blank" href="https://en.m.wikipedia.org/wiki/User_agent" rel="noreferrer noopener">user agent string</a>, specific to that device.</p>
+<p><strong>Step 1</strong>: Replace the content of the <strong>applitools.config.js file </strong>with the following configuration:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/e0a875c7d0d808509c6a5795b20beb29.js</p>
+</div>
+<p>In this test configuration, we are specifying to the Ultrafast Grid to run this test over a <strong>Chrome</strong> browser with a device emulation of an <strong>iPhone X </strong>using a <strong>landscape</strong> screen orientation.</p>
+<p>Ultrafast Grid supports only the Chrome browser for running tests over a device emulation, so you can skip the name of the browser. I’m explicitly specifying the browser name to make it very clear that this is a browser emulation and not a real device.</p>
+<p>For a complete list of device emulators supported by the Chrome browser, take a look at this page: <a target="_blank" href="https://raw.githubusercontent.com/chromium/chromium/0aee4434a4dba42a42abaea9bfbc0cd196a63bc1/third_party/blink/renderer/devtools/front_end/emulated_devices/module.json" rel="noreferrer noopener">Chromium Device Emulators</a>.</p>
+<p><strong>Step 2</strong>: Save and run the tests by issuing the following command:</p>
+<pre id="code-snippet-8" class="wp-block-preformatted">npx eyes-storybook</pre>
+<p>copy code to clipboard</p>
+<p><strong>Step 3</strong>: Check the test run in Applitools Test Manager.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-25-at-23.24.51.png" alt="Screenshot 2019 03 25 at 23.24.51" class="wp-image-4539"/></figure>
+<p>I’ve switched the Test Manager view to the Batch Summary View.</p>
+<p>As per the new test configuration file, the Ultrafast Grid runs your tests on a <strong>Chrome</strong> browser with a <strong>device emulation</strong> for iPhone X. Hence, the browser name shown is Safari 11.0 and <strong>landscape</strong> with a viewport of 812×375.</p>
+<p>Notice that running this test yields an <strong>execution time of just two</strong><strong> seconds</strong>! Again, this is once the DOM snapshot has been uploaded. But still…</p>
+<p>Finally, in Applitools, baseline snapshots are stored as per test configuration settings. Different test configuration settings generate different baseline snapshots. You can’t compare apples to oranges, right?</p>
+<p>That’s why, if you click on the snapshot above (after switching back to Batch steps view) and show both the baseline and the current test run, you won’t get any baseline snapshot–because it’s the first time we’re running the test with these configuration settings.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/7.png" alt="7" class="wp-image-4531"/></figure>
+<h2 id="h.qmsf757a6cn1">100 Visual UI tests</h2>
+<p>Let’s go crazy and run 100 Visual/UI tests with a combination of test configurations.</p>
+<p><strong>Step 1</strong>: Replace the content of the <strong>applitools.config.js file </strong>with the following configuration:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/5d31686b2e5c7087cb20e9b1188c1d6b.js</p>
+</div>
+<p>In this test configuration, we are running 100 tests with 50 unique view ports on two major browsers: Firefox and Google Chrome.</p>
+<p><strong>Step 2</strong>: Save and run the tests by issuing the following command:</p>
+<pre id="code-snippet-9" class="wp-block-preformatted">npx eyes-storybook</pre>
+<p>copy code to clipboard</p>
+<p>During this time, the Eyes Storybook SDK will read all Storybook stories in the application, run them one by one using the Storybook engine, generate a DOM snapshot for each test, and finally upload the results to the Eyes server. At this moment, the Eyes server will run each and every DOM snapshot, render an image snapshot, and store it as a baseline snapshot.</p>
+<p>The Eyes SDK/Server <strong>took only 21 seconds</strong> to complete all the above tasks, create baselines, and report the results on Applitools Test Manager Dashboard, for the entire batch of 100 test runs for a single Storybook story.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-22.54.11.png" alt="Screenshot 2019 03 28 at 22.54.11" class="wp-image-4541"/></figure>
+<p><strong>Step 3</strong>: Check the test run in <a target="_blank" href="https://applitools.com/blog/getting-started-with-applitools-eyes-test-manager?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Applitools Test Manager</a>.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-23.02.24.png" alt="Screenshot 2019 03 28 at 23.02.24" class="wp-image-4534"/></figure>
+<p>I’ve switched the Test Manager view to the Batch Summary View.</p>
+<p>Let’s see the power of the Eyes server when running a regression testing cycle.</p>
+<p><strong>Step 4:</strong> Let’s introduce a visual change on the Storybook story and run the Eyes SDK once again.</p>
+<p>Replace the content of the /src/stories/index.stories.js file with the following:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/bhaidar/e1805b5a9e6402aca9145ca4b2bf6aed.js</p>
+</div>
+<p><a target="_blank" href="https://gist.github.com/bhaidar/e1805b5a9e6402aca9145ca4b2bf6aed/raw/5c056b2c1bac4832afb3dad15f4c3ba56829c804/regression-testing-cycle" rel="noopener noreferrer">view raw</a><a target="_blank" href="https://gist.github.com/bhaidar/e1805b5a9e6402aca9145ca4b2bf6aed#file-regression-testing-cycle" rel="noopener noreferrer">regression-testing-cycle</a> hosted with <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> by <a target="_blank" href="https://github.com/" rel="noopener noreferrer">GitHub</a></p>
+<p>Now the ContentEditableComponent should render with a Blue background.</p>
+<p><strong>Step 5</strong>: Run the tests again by issuing the following command:</p>
+<pre id="code-snippet-10" class="wp-block-preformatted">npx eyes-storybook</pre>
+<p>copy code to clipboard</p>
+<p>Once again, the Eyes SDK/Server <strong>took only 21 seconds</strong> to upload the DOM snapshot, run the entire batch of visual UI tests, and display the results on the Applitools Test Manager Dashboard.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-23.09.17.png" alt="Screenshot 2019 03 28 at 23.09.17" class="wp-image-4540"/></figure>
+<p>Notice the error message generated saying that “A total of 100 differences were found”.</p>
+<p>Because the change we introduced affected the entire batch of test runs, therefore, all the current tests failed in comparison with the baseline snapshots, due to the visual change introduced earlier.</p>
+<p><strong>Step 6</strong>: Check the test run in <a target="_blank" href="https://applitools.com/blog/getting-started-with-applitools-eyes-test-manager?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Applitools Test Manager</a>.</p>
+<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-23.13.38.png" alt="Screenshot 2019 03 28 at 23.13.38" class="wp-image-4530"/></figure>
+<p>The Test Manager highlights the differences between the baseline snapshot and the current test run and displays a mismatch icon near the snapshots.</p>
+<p>At this moment, you can either accept the new changes and make them the new baseline or reject them and keep the old baseline.</p>
+<p>Once again, it takes the power of the Ultrafast Grid to analyze the test configuration file and set up the testing environment as needed.</p>
+<h2 id="h.u0m3jav03oip">See for yourself</h2>
+<p>Here’s a step-by-step tutorial video of how I did all the steps above. You can see how it took <strong>just 20 seconds for</strong> the Applitools Storybook SDK to upload all the DOM snapshots, then use Applitools Visual AI to look for visual regressions:</p>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+<p>
+<iframe title="How I ran 100 UI tests in 20 seconds" width="800" height="600" src="https://www.youtube.com/embed/2hHzEHGpChA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</figure>
+<h2 id="h.u8090netbg15">Conclusion</h2>
+<p>By now, you have some insight into how Applitools Ultrafast Grid functions behind the scenes when running your visual tests.</p>
+<p>Want to get run your own tests ludicrously fast? Applitools Ultrafast grid is GA for <strong><a target="_blank" href="https://applitools.com/storybook?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Storybook</a></strong>, <strong><a target="_blank" href="https://applitools.com/cypress?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Cypress</a></strong>, and <strong><a target="_blank" href="https://applitools.com/selenium-ide?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Selenium IDE</a></strong>. If you use Selenium WebDriver with Java, JavaScript, C#, Python, or Ruby, request to <strong><a target="_blank" href="https://go.applitools.com/vgea.html?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">join our early access program</a></strong>.</p>
+<p>Happy Testing!</p>
+<p>Photo by <a target="_blank" href="https://unsplash.com/@snader86?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Sander Jeurissen</a> on <a target="_blank" href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/100-ui-tests-in-20-seconds-revisited/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Adversarial machine learning: 5 recommendations for app sec teams</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/adversarial-machine-learning-5-recommendations-for-app-sec-teams/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 03 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Adversarial]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Machine]]></category>
+		<category><![CDATA[recommendations]]></category>
+		<category><![CDATA[sec]]></category>
+		<category><![CDATA[Teams]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/adversarial-machine-learning-5-recommendations-for-app-sec-teams/</guid>
+
+					<description><![CDATA[In 2016, Microsoft released a prototype chatbot on Twitter. The automated program, dubbed Tay, responded to tweets and incorporated the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>In 2016, Microsoft released a prototype chatbot on Twitter. The automated program, dubbed Tay, responded to tweets and incorporated the content of those tweets into its knowledge base, riffing off the topics to carry on conversations.</p>
+<p>In less than 24 hours, Microsoft had to yank the program and issue an apology after the software started <a target="_blank" href="https://gizmodo.com/here-are-the-microsoft-twitter-bot-s-craziest-racist-ra-1766820160" rel="nofollow noopener noreferrer">spewing vile comments</a>, including &#8220;I f**king hate feminists&#8221; and tweeting that it agreed with Hitler. Online attackers had used crafted comments to pollute the machine-learning algorithm, exploited a specific vulnerability in the program, and recognized that the bot frequently would just repeat comments, a major design flaw.</p>
+<p>Microsoft apologized, and Tay has not returned. &#8220;Although we had prepared for many types of abuses of the system, we had made a critical oversight for this specific attack,&#8221; the company <a target="_blank" href="https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/" rel="nofollow noopener noreferrer">stated in its apology</a>. &#8220;As a result, Tay tweeted wildly inappropriate and reprehensible words and images.&#8221;</p>
+<p>AI is increasingly finding its way into software—including <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/ai-soc-best-practices?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">software used in security operations centers</a>. Attacks on artificial-intelligence and ML systems are often thought to be theoretical, but significant attacks have already happened. Software developers who use ML models in their programs, and data scientists who develop the models, need to take such malicious behavior into account when creating ML-powered software.</p>
+<p>Unfortunately, there is no hard-and-fast defensive playbook yet, said Jonathan Spring, a senior member of the technical staff of the CERT Division at Carnegie Mellon University&#8217;s Software Engineering Institute.</p>
+<blockquote>
+<p>&#8220;I&#8217;m not sure there is &#8216;type this on the keyboard&#8217; level advice yet. But there is operational-level advice that you can follow to make the systems more robust against failure.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/jonathan-jono-spring-586a6318/" rel="nofollow noopener noreferrer">Jonathan Spring</a></p>
+</blockquote>
+<p>Here are five recommendations experts who are focused on AI threats say should guide developers and application security professionals.</p>
+<h3>1. Build awareness of the threat with your team</h3>
+<p>While adversarial ML attacks are the focus of a great deal of academic study, they are not just theoretical or an exercise <a target="_blank" href="https://en.wikipedia.org/wiki/Spherical_cow" rel="nofollow noopener noreferrer">using &#8220;spherical cows.&#8221;</a></p>
+<p>In 2019, for example, researchers discovered a way to use targeted emails to discover the characteristics for the algorithm that messaging-security firm Proofpoint used to block malicious emails. The attack allowed two security researchers to design a system that replicated the AI model and then use that reconstituted model, <a target="_blank" href="https://github.com/moohax/Proof-Pudding" rel="nofollow noopener noreferrer">dubbed Proof Pudding</a>, to find ways to avoid spam detection.</p>
+<p>As the attacks—and others cited in this article—show, meaningful adversarial ML attacks are already here. Developers need to build awareness on their teams and find ways to make deployed models more robust, said Mikel Rodriguez, director of the decision-science research programs at MITRE, a not-for-profit government research contractor.</p>
+<blockquote>
+<p>&#8220;People sometimes see cute articles about turning a stop sign into a yield sign, and they think these attacks are not relevant to them. We first need to convince the community that this is a credible threat.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/mikel-rodriguez/" rel="nofollow noopener noreferrer">Mikel Rodriguez</a></p>
+</blockquote>
+<h3>2. Use tools to eliminate the low-hanging fruit</h3>
+<p>While practical attacks generally require a lot of research, a trio of open-source toolkits can get DevSecOps practitioners started testing their models. Three Python libraries—<a target="_blank" href="https://github.com/tensorflow/cleverhans" rel="nofollow noopener noreferrer">CleverHans</a>, <a target="_blank" href="https://github.com/bethgelab/foolbox" rel="nofollow noopener noreferrer">FoolBox</a>, and the<a target="_blank" href="https://github.com/Trusted-AI/adversarial-robustness-toolbox" rel="nofollow noopener noreferrer"> Adversarial Robustness Toolbox</a>—allow developers to create examples.</p>
+<p>Like static analysis and automated vulnerability scanning, these libraries should be considered the low-hanging fruit—tools that every developer should use against an AI model to make sure it is robust and not prone to attack or failure.</p>
+<blockquote>
+<p>&#8220;If you have an ML system, those tools have relatively simple—but still complicated—APIs that let you test your model against known common attack patterns. If you use those, and try to make the system more robust against what you find, you will be doing better than most.&#8221;<br />—Jonathan Spring</p>
+</blockquote>
+<h3>3. Model threats and attack your AI system</h3>
+<p>Companies should attack their own systems to find weaknesses and potential information leakage. Microsoft, for example, <a target="_blank" href="https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md#microsoft---edge-ai" rel="nofollow noopener noreferrer">used a red team</a> to analyze its service for running AI workloads at the edge, first gathering information on the product and then querying a public version to infer the responses of the ML model. The knowledge and responses were enough for the red team to build an automated system to modify images in a way that caused the system to misclassify the data without being noticeable to humans.</p>
+<p>In other cases, researchers have shown that you can extract data from the model using targeted attacks and inference. An ML model that is made available through an API can be used to recreate the model—essentially allowing the intellectual property to be stolen.</p>
+<blockquote>
+<p>&#8220;If you are a company with a production machine-learning system, you want to have a red team, even if it is small. So you need to look at the system level to see what you can do in order to raise the cost to the attacker.&#8221;<br />—Mikel Rodriguez</p>
+</blockquote>
+<p>MITRE has collaborated with Microsoft and other organizations to create the <a target="_blank" href="https://github.com/mitre/advmlthreatmatrix" rel="nofollow noopener noreferrer">Adversarial ML Threat Matrix</a> as a way to create common language of potential threats.</p>
+<h3>4. Use multiple models or algorithms as a check</h3>
+<p>Production anti-spam engines use aggregate scores from several algorithms to create a more robust way of classifying messages. Similarly, combining different models—or even the same model trained on different datasets, a technique known as ensemble learning—can produce more robust results.</p>
+<p>In addition, using ongoing checks of results—such as users identifying faces in a photo on Facebook—to improve classification or performance can also help.</p>
+<blockquote>
+<p>&#8220;If there is an immediate test of efficacy of the expert system—whether AI or human—that is very easily conducted and very correct, it does not matter what the system is doing. This is the case with anti-spam systems. The user gives feedback to the system by marking messages as spam or not spam.&#8221;<br />—Jonathan Spring</p>
+</blockquote>
+<h3>5. Beware of bias</h3>
+<p>No matter how good the ML model may be, if the developer trains the system on a biased dataset, it will not be robust to attack or errors. Facial-recognition models that <a target="_blank" href="https://www.washingtonpost.com/technology/2019/12/19/federal-study-confirms-racial-bias-many-facial-recognition-systems-casts-doubt-their-expanding-use/" rel="nofollow noopener noreferrer">do not perform well in identifying the faces of Black or Brown subjects</a> or the <a target="_blank" href="https://theconversation.com/misinformation-and-biases-infect-social-media-both-intentionally-and-accidentally-97148" rel="nofollow noopener noreferrer">inherent bias of social media</a> toward divisive speech or &#8220;clickbait&#8221; headlines are examples of bias, in the training datasets or in the algorithms.</p>
+<blockquote>
+<p>&#8220;There is a lot of research that needs to be done. People may want to focus on only using ML systems in applications where they can immediately check the result.&#8221;<br />—Jonathan Spring</p>
+</blockquote>
+<p>The entire field of search-engine optimization is essentially about finding ways to attack algorithms for the benefit of the attacker.</p>
+<h3>Follow the money</h3>
+<p>The flourishing of that field underscores that when there is money involved, attacks will proliferate, said MITRE&#8217;s Rodriguez:</p>
+<blockquote>
+<p>&#8220;What we are seeing is that you can game the system. And if machine-learning models are the weak point, attackers will focus on that.&#8221;</p>
+</blockquote>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/adversarial-machine-learning-5-recommendations-app-sec-teams">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>10 Portfolio Projects for Aspiring Automation Engineers</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/10-portfolio-projects-for-aspiring-automation-engineers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 03 Dec 2020 07:07:24 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Aspiring]]></category>
+		<category><![CDATA[Engineers]]></category>
+		<category><![CDATA[Portfolio]]></category>
+		<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/10-portfolio-projects-for-aspiring-automation-engineers/</guid>
+
+					<description><![CDATA[Those looking to break into the test automation field have difficulty doing so because of lack of experience. One way to]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Those looking to <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/test-automation-mistakes?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">break into the test automation field</a> have difficulty doing so because of lack of experience. One way to gain experience is, of course, to study and practice on your own. But how do you demonstrate your newfound knowledge to employers?</p>
+<p>Other professionals, such as front-end developers, create portfolios to highlight their skills, and you can do the same as automation engineers!</p>
+<p>Here are 10 projects for your <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/50-resources-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">test automation portfolio</a> that will help you stand out among the competition.</p>
+<h2 id="h.wy1ixejyhvgq"><strong>1. Web browser automation</strong></h2>
+<p>Web automation is by far the most common and sought-after form of test automation. If you’re looking to break into test automation, this is an absolute must-have for your portfolio.</p>
+<p>Be sure to go beyond a basic login flow. Instead, show full scenarios that require your code to interact with multiple pages.</p>
+<p>This project should demonstrate your ability to <a target="_blank" href="https://testautomationu.applitools.com/web-element-locator-strategies/" rel="noopener noreferrer">find element locators</a> and interact with various types of elements such as dropdown menus, checkboxes, text fields, buttons, links, alerts, file upload widgets, and frames.</p>
+<p>Also, be sure you’re writing <a target="_blank" href="https://youtu.be/e-Qya7EOz_0" rel="noopener noreferrer">clean test code</a> and utilizing design patterns such as the <a target="_blank" href="https://angiejones.tech/page-object-model/" rel="noopener noreferrer">Page Object Model</a> or the <a target="_blank" href="https://serenity-js.org/handbook/thinking-in-serenity-js/screenplay-pattern.html" rel="noopener noreferrer">Screenplay Pattern</a>.</p>
+<p><strong>Sites to practice against:</strong></p>
+<h2 id="h.43800drde83p"><strong>2. Mobile automation</strong></h2>
+<p>The demand for mobile test automation engineers has increased over the years as the popularity of mobile apps has soared. Having experience here can certainly work in your favor.</p>
+<p>Your portfolio should demonstrate automated testing against both iOS and Android apps. Using <a target="_blank" href="https://testautomationu.applitools.com/appium-javascript-tutorial/" rel="noopener noreferrer">Appium</a> to create one project that works for both iOS and Android would be great. Using tools such as Apple’s <a target="_blank" href="https://testautomationu.applitools.com/introduction-to-ios-test-automation-with-xcuitest/" rel="noopener noreferrer">XCUITest</a> or Google’s <a target="_blank" href="https://developer.android.com/training/testing/espresso" rel="noopener noreferrer">Espresso</a> is good as well. But if you go this route, I recommend doing at least two projects (one of each), since each supports only one mobile operating system.</p>
+<p>No matter which framework you use, you’ll want to demonstrate the same element interactions as you did in your web automation project, but also mobile-specific gestures such as swiping and pinching.</p>
+<p><strong>Apps to practice with; download any of these to use in your project:</strong></p>
+<h2 id="h.i3eyyxmidzv9"><strong>3. Visual automation</strong></h2>
+<p>After making your web and mobile projects, fork them and add <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-remove-blind-spots-visual-testing" rel="noopener noreferrer">visual testing</a> capabilities to them. You’ll quickly see just how much your tests are missing because they weren’t enabled to verify the appearance of your app.</p>
+<p>Visual testing is a skill being listed on a number of <a target="_blank" href="https://www.indeed.com/jobs?q=visual+testing&amp;l=" rel="noopener noreferrer">job postings</a>, and having this skill will really help you shine against the competition.</p>
+<h2 id="h.6rhvfhvdop2k"><strong>4. API automation</strong></h2>
+<p>With the rise of microservices, IoT applications, and public-facing APIs, the demand for automation engineers who know how to test APIs has become substantial. So definitely add an API testing project to your portfolio. (Here’s a free class on <a target="_blank" href="https://testautomationu.applitools.com/exploring-service-apis-through-test-automation/" rel="noopener noreferrer">how to test APIs</a> to get you started.)</p>
+<p>Within this project, be sure to demonstrate a variety of API methods, with GET and POST as a minimum. Use APIs that require parameters or request bodies, and also return complex responses with multiple objects and arrays.</p>
+<p>For bonus points, use advanced verification techniques such as <a target="_blank" href="https://angiejones.tech/deserializing-api-responses-into-java-records/" rel="noopener noreferrer">deserialization</a> or <a target="_blank" href="https://angiejones.tech/verifying-entire-api-responses/" rel="noopener noreferrer">approval testing</a>. Also, demonstrating <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-extend-java-unit-tests-components-spring-mockito" rel="noopener noreferrer">how to mock API responses</a> would be a nice bonus.</p>
+<p><strong>APIs to practice against:</strong></p>
+<h2 id="h.rea1eygc3wdw"><strong>5. BDD specification automation</strong></h2>
+<p>Many teams are practicing <a target="_blank" href="https://techbeacon.com/app-dev-testing/better-behavior-driven-development-4-rules-writing-good-gherkin" rel="noopener noreferrer">behavior-driven development</a> (BDD) and automating tests based on the specifications produced. You’ll want to demonstrate your experience with this and how you can jump in and hit the ground running.</p>
+<p>For this portfolio project, be sure to not only show the <a target="_blank" href="http://testautomationu.applitools.com/cucumber-java-tutorial/" rel="noopener noreferrer">mapping between feature files and step definitions</a>, but also demonstrate <a target="_blank" href="https://angiejones.tech/sharing-state-between-steps-in-cucumber-with-dependency-injection/" rel="noopener noreferrer">how to share state between steps via dependency injection</a>.</p>
+<p>Also, be extremely careful when writing your feature files. Long, verbose feature files will hurt your portfolio more than help. Make the effort to <a target="_blank" href="https://angiejones.tech/writing-good-gherkin-enables-good-test-automation/" rel="noopener noreferrer">write good, concise Gherkin</a>.</p>
+<h2 id="h.z4zqwp8y3ini"><strong>6. Data-driven automation</strong></h2>
+<p>Your practice projects may use only a small amount of test data, so it’s easy to store that data inside the source code. However, on production development teams, you’ll have hundreds or even thousands of automated tests. To keep up with all this data, many teams adopt a <a target="_blank" href="https://www.guru99.com/data-driven-testing.html" rel="noopener noreferrer">data-driven testing</a> approach.</p>
+<p>I recommend adding this to at least one of your projects to demonstrate your ability to <a target="_blank" href="https://angiejones.tech/using-apache-poi-to-read-excel-files/" rel="noopener noreferrer">programmatically read data from an external source</a>, such as a spreadsheet file.</p>
+<h2 id="h.8nj9oucbwgi2"><strong>7. Database usage</strong></h2>
+<p>Speaking of being able to access data from external sources, it’s a good idea to add a project that <a target="_blank" href="https://www.softwaretestinghelp.com/database-testing-using-selenium-webdriver-selenium-tutorial-28/" rel="noopener noreferrer">interacts with a database</a>. I recommend writing queries within your code to both read and write from a database, and use this within the context of a test.</p>
+<p>For example, you can read from the database to gather the expected results of a search query. Or you can write to a database to place your application in a prerequisite state before proceeding to test.</p>
+<h2 id="h.h5gsi8xlu2z"><strong>8. Multiple languages and libraries</strong></h2>
+<p>Writing all of your portfolio projects in one programming language is okay; however, automation engineers often need to dabble in multiple languages.</p>
+<p>To make yourself more marketable, try using a <a target="_blank" href="https://dzone.com/articles/which-programming-language-is-most-popular-for-ui" rel="noopener noreferrer">different language</a> for a few of your projects.</p>
+<p>Also switch it up a bit and try a few other automation libraries as well as assertion libraries. For example, maybe do a project with <a target="_blank" href="https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/" rel="noopener noreferrer">Selenium WebDriver in Java</a> and JUnit, and another project with <a target="_blank" href="https://testautomationu.applitools.com/cypress-tutorial/" rel="noopener noreferrer">Cypress</a> in JavaScript and Mocha.</p>
+<p>I know this sounds daunting, but you’ll find that some of the architecture and design patterns in test automation are universal. This exercise will really solidify your understanding of automation principles in general.</p>
+<h2 id="h.asjgb419l1o0"><strong>9. Accessibility automation</strong></h2>
+<p>Automating accessibility testing has always been needed but recently has become extremely important for companies. There have been <a target="_blank" href="https://www.cnbc.com/2019/10/07/dominos-supreme-court.html" rel="noopener noreferrer">legal battles</a> where companies have been sued because their websites were not accessible to those with disabilities.</p>
+<p>Demonstrating that you are able to do <a target="_blank" href="https://applitools.com/blog/accessibility-testing-strategy/" rel="noopener noreferrer">test automation for accessibility</a> will give you a great advantage when applying for jobs.</p>
+<p>You can use the same sites/apps you used for your web and mobile projects to demonstrate accessibility testing.</p>
+<h2 id="h.bmnrtzua7wdz"><strong>10. Performance testing</strong></h2>
+<p>Last but not least, you should consider adding a <a target="_blank" href="https://testautomationu.applitools.com/performance-and-load-testing/" rel="noopener noreferrer">performance testing</a> project to your portfolio.</p>
+<p>Nonfunctional testing such as performance is a niche skill that many automation engineers do not have. Adding this to your portfolio will help you be perceived as a unicorn who really stands out from the crowd.</p>
+<h2 id="h.8x1zjxfvivkc"><strong>Presenting the Portfolio</strong></h2>
+<p><strong>GitHub</strong></p>
+<p>Be sure to put all of your projects on GitHub so employers can easily access and review your code. However, be careful to <a target="_blank" href="https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets" rel="noopener noreferrer">hide secret keys</a>. This will give you bonus points, since it shows another level of maturity.</p>
+<p><strong>Website</strong></p>
+<p>Create a website that highlights each of your portfolio projects. You don’t have to build the website yourself; you can use common CMS systems such as WordPress to allow you to quickly get your portfolio up and visible.</p>
+<p>Each project highlight should include a paragraph or bullet points explaining what you’ve done in the project and the tools and programming language used.</p>
+<p><strong>Resume</strong></p>
+<p>Include a link to your portfolio on your resume, and feel free to list your portfolio projects under the “Experience” section of your resume.</p>
+<p>While this is not traditional work experience, it shows that you are self-driven, passionate, and competent to break into the test automation field.</p>
+<p><strong>Interview</strong></p>
+<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/how-prepare-your-next-test-automation-interview" rel="noopener noreferrer">During your interviews</a>, be sure to mention all of the projects you have worked on. Draw from your experiences with building the projects to be able to answer the questions. Also <a target="_blank" href="https://angiejones.tech/technical-interviews-for-automation-engineers/" rel="noopener noreferrer">brush up on other concepts around testing and development</a> that may come up during the interview.</p>
+<p>Good luck!</p>
+<p><em>Join Angie for her </em><em><a target="_blank" href="https://angiejones.tech/automation-cookbook-coding-recipes-for-tests/" rel="noopener noreferrer">Automation Cookbook series</a></em><em>, where she solves common automation challenges while live streaming.</em></p>
+<p>The original version of this post can be found at <a target="_blank" rel="noopener noreferrer" href="https://techbeacon.com/app-dev-testing/10-portfolio-projects-aspiring-automation-engineers">TechBeacon.com</a>.</p>
+<p><em>Header Photo by <a target="_blank" href="https://unsplash.com/@hishahadat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Shahadat Rahman</a> on <a target="_blank" href="https://unsplash.com/s/photos/monitor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/project-portfolio-for-testers/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Selenium Automation Best Practices &#038; Tips You Must Know</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/selenium-automation-best-practices-tips-you-must-know/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 03 Dec 2020 04:54:58 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/selenium-automation-best-practices-tips-you-must-know/</guid>
+
+					<description><![CDATA[In this article, we will look at the best practices for Selenium automation from End-to-End. Selenium is by far one]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In this article, we will look at the best practices for Selenium automation from End-to-End. Selenium is by far one of the leading endeavors for testing a web-based application. However, to automate from End-to-End, we need more than Selenium. As a result, I will explain the best practices along with some tips to get outstanding results from Selenium Automation <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Before starting automation, we must identify first cases that generate benefits. A couple of the cases are designing an automation test strategy &amp; analyzing which test to automate. By the end of this article, you will see why <a target="_blank" href="https://blog.testproject.io/#programming" rel="noopener noreferrer">Programming</a>, incorporating an Automation Build Tool, having a Test Framework, utilizing a <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener noreferrer">Design Pattern</a>, creating an <a target="_blank" href="https://blog.testproject.io/#AutomationFramework" rel="noopener noreferrer">Automation Framework</a>, and <a target="_blank" href="https://blog.testproject.io/#CICD" rel="noopener noreferrer">Continuous Integration/Deployment</a> are tips for Selenium Automation.</p>
+<h2><strong>Tutorial Chapters</strong></h2>
+<ul>
+<li>Selenium Automation Best Practices &amp; Tips You Must Know (Chapter 2)</li>
+</ul>
+<hr/>
+<h2><a target="_blank" id="BestPractices" rel="noopener noreferrer"><strong>Best Practices</strong></h2>
+<p>Best Practices are guidelines for producing superior results. When it comes to <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener noreferrer">Selenium</a> automation, it’s important to first design an automation test strategy. A test strategy includes some of the following fundamentals:</p>
+<ul>
+<li>Setting goals</li>
+<li>Developing standards</li>
+<li>Determining what to accomplish</li>
+<li>Preparing for a high Return On Investment (ROI)</li>
+</ul>
+<p>Prior to automating a test script, we need to decide which test to automate. It’s virtually impossible to automate every test case. A 100% test coverage is challenging due to so many test scenarios. Therefore, a risk-based plan will help limit automation to the most important business cases <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/270d.png" alt="✍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Establishing an automation test strategy and determining <a target="_blank" href="https://blog.testproject.io/2019/03/07/testing-guidelines-on-what-to-automate/" rel="noopener noreferrer">what to automate</a> are processes before automation. However, the following are 5 best practices in the course of automation using Selenium:</p>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#ConciseDescriptive" rel="noopener noreferrer">Create Concise Descriptive Names</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#TestOneScenario" rel="noopener noreferrer">Test One Scenario At A Time</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#AvoidThread" rel="noopener noreferrer">Avoid Using Thread.sleep()</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#TakeScreenshots" rel="noopener noreferrer">Take Screenshots For Every Failure</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#LogReport" rel="noopener noreferrer">Setup Detailed Logging &amp; Reporting</a></li>
+</ol>
+<h3><a target="_blank" id="ConciseDescriptive" rel="noopener noreferrer"><strong>Create Concise Descriptive Names</strong></h3>
+<p>A concise descriptive name provides a clear meaning about the test script. It helps the entire team know precisely what functionality is being tested in a few words. The objection is how can an engineer create a name that’s short and meaningful. If there’s a choice between concise and descriptive then descriptive wins <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Most engineers would agree that code readability is important. The following are examples of concise descriptive names:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">// Not Descriptive
+@Test
+public void testErrMess () {
+  
+}
+
+@Test
+public void addCustomer () {
+  
+}</pre>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">// Concise &amp; Descriptive
+@Test
+public void testErrorAfterInvalidUserName () {
+  
+}
+
+@Test
+public void addNewCustomer () {
+  
+}</pre>
+<p>The 2 not descriptive names don’t provide details regarding what’s being tested. For example, testErrMess is clear about testing an error message but not clear if the Username or Password is invalid. It can be a scenario where the Username and Password are both invalid. Similarly, with the addCustomer method. Is it the method adding a new customer, existing customer, etc.? The examples show methods but classes and variables should also have concise descriptive names.</p>
+<h3><a target="_blank" id="TestOneScenario" rel="noopener noreferrer"><strong>Test One Scenario At A Time</strong></h3>
+<p>Testing one scenario at a time is a best practice that spins off of <a target="_blank" href="https://blog.testproject.io/#Programming" rel="noopener noreferrer">programming</a>. In <a target="_blank" href="https://blog.testproject.io/#Programming" rel="noopener noreferrer">programming</a>, a method should have 1 logical task. It’s not mandatory but beneficial for several reasons. One of the reasons involves debugging our program. Debugging consists of finding and fixing a problem in our code. One test scenario in our code removes uncertainty if our test script fails during execution. It’s easier to know exactly what failed by having one rather than having a group of tests and being unsure which test failed.</p>
+<h3><a target="_blank" id="AvoidThread" rel="noopener noreferrer"><strong>Avoid Using Thread.sleep()</strong></h3>
+<p>The loading speed of an Application Under Test (AUT) depends on factors like Machine Performance, Server Performance, Server Location, and Network. As a result, we are unable to predict the time to load an application or element within an application. This leads to possible wait complications which are outside components that cause problems with our test script.</p>
+<p>We need to avoid using Thread.sleep() because it’s not a dynamic wait statement. It pauses our test script but waits for a specific amount of time. For example, if we hard-code Thread.sleep() for 5 seconds but an element loads in 2 seconds then our test script will wait for the full 5 seconds. This practice should be avoided because it’s unreliable. It’s not reliable because on a different machine the same element may take 6 seconds to load. For Selenium, the best practice is to use a <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Wait Method</a> such as an <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/#ExplicitWait" rel="noopener noreferrer">Explicit Wait</a> statement. <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/#ExplicitWait" rel="noopener noreferrer">Explicit Wait</a> is dynamic and pauses execution until time expires or an expected condition is met.</p>
+<h3><a target="_blank" id="TakeScreenshots" rel="noopener noreferrer"><strong>Take Screenshots For Every Failure</strong></h3>
+<p>At some point, our automation Test Script will face a failure. When it happens, we are not sure if it’s a bug in the AUT or a problem with our code. Capturing a screenshot on a failure is a best practice because it saves time when investigating the reason for a <a target="_blank" href="https://blog.testproject.io/2020/10/11/what-to-do-when-tests-fail/" rel="noopener noreferrer">test failure</a>. There are some projects that take screenshots of all steps whether they pass or fail. The following code snippet uses getScreenshotAs method to take a screenshot.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">@Test
+public void captureScreenshotOnFailure () throws IOException 	{
+  WebDriverManager.chromedriver().setup();
+  WebDriver driver = new ChromeDriver ();
+  driver.manage().window().maximize();
+  
+  driver.get("https://example.testproject.io/web/index.html");
+  driver.findElement(By.id("name")).sendKeys("Selenium Automation");
+  driver.findElement(By.id("password")).sendKeys("3434");
+  driver.findElement(By.id("login")).click();
+  
+
+  File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+  FileUtils.copyFile(source, new File("TestProject Screenshot.png"));
+}</pre>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-15669 size-full" title="TestProject’s Example page" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.1-TestProject-Example-Page-1.png" alt="TestProject’s Example page" width="675" height="389" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.1-TestProject-Example-Page-1.png 675w, https://blog.testproject.io/wp-content/uploads/2020/11/13.1-TestProject-Example-Page-1-512x295.png 512w" sizes="(max-width: 675px) 100vw, 675px"/></noscript></p>
+<p><u>Note</u>: TestProject’s <a target="_blank" href="https://example.testproject.io/web/index.html" rel="noopener noreferrer">Example page</a> has 12345 as a password hint but the Test Script entered 3434. Therefore, the executed test script passed due to an expected invalid password message.</p>
+<h3><a target="_blank" id="LogReport" rel="noopener noreferrer"><strong>Setup Detailed Logging &amp; Reporting</strong></h3>
+<p>Setting up detailed logs and reports enhance our test. Logs generate information that occurs within the AUT. Reports help measure and keep track of the Test Results. A popular logging API is Log4j. It has log levels that can be defined in our code. In order, the log levels are:</p>
+<ol>
+<li><strong><u>All</u></strong> – logs everything by turning all logs on</li>
+<li><strong><u>Debug</u></strong> – prints helpful debugging information events</li>
+<li><strong><u>Info</u></strong> – prints informational messages that highlight an application’s progress</li>
+<li><strong><u>Warn</u></strong> – prints potentially harmful information concerning faulty behavior</li>
+<li><strong><u>Error</u></strong> – prints error events that might allow the application to keep running</li>
+<li><strong><u>Fatal</u></strong> – prints critical information that causes the application to crash</li>
+<li><strong><u>Off</u></strong> – turns off all logs</li>
+</ol>
+<p>Extent and Allure are reports that can be integrated with <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener noreferrer">Selenium</a>. They provide a big picture representation of the test and details (pass or fail) regarding each test. The following is a screenshot of the extent report.</p>
+<p><img loading="lazy" class="alignnone wp-image-15666 size-full" title="Extent Report -Selenium Automation" alt="Extent Report -Selenium Automation" width="922" height="449" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png 922w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-512x249.png 512w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-768x374.png 768w" data-lazy-sizes="(max-width: 922px) 100vw, 922px" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-15666 size-full" title="Extent Report -Selenium Automation" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png" alt="Extent Report -Selenium Automation" width="922" height="449" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png 922w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-512x249.png 512w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-768x374.png 768w" sizes="(max-width: 922px) 100vw, 922px"/></noscript></p>
+<p>In <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener noreferrer">this</a> comparison article, you can read more about <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener noreferrer">8 leading test reporting tools for Selenium</a>, amongst them is <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> that automatically creates out of your Selenium tests detailed HTML/PDF <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener noreferrer">test reports and dashboards</a> in a cloud-based environment. You can read more about it here:</p>
+<h2><a target="_blank" id="TipsComponents" rel="noopener noreferrer"><strong>Tips/Components For Selenium</strong></h2>
+<p>In addition to the best practices, the following are components/tips to optimize Selenium Automation. They will help our project operate in a first-rate manner:</p>
+<h3><a target="_blank" id="Programming" rel="noopener noreferrer"><strong>Programming</strong></h3>
+<p><strong><u>What is Programming</u></strong>?<br />Programming is the process of creating instructions that direct a computer on how to execute a task. In alphabetical order, <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener noreferrer">Selenium</a> has <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">language bindings</a> for C#, Java, <a target="_blank" href="https://blog.testproject.io/2020/06/17/selenium-javascript-automation-testing-tutorial-for-beginners/" rel="noopener noreferrer">JavaScript</a>, <a target="_blank" href="https://blog.testproject.io/2019/07/16/web-ui-testing-python-pytest-selenium-webdriver/" rel="noopener noreferrer">Python</a>, and <a target="_blank" href="https://blog.testproject.io/2016/12/21/selenium-with-ruby/" rel="noopener noreferrer">Ruby</a>.</p>
+<p><strong><u>How is Programming a Best Practice Tip For Selenium</u></strong>?</p>
+<p>It’s a best practice tip <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <u>Programming Is The Foundation For Automation.</u> That’s why some companies attempt to let developers write automation test scripts. An engineer must understand the programming principles in order to create <a target="_blank" href="https://blog.testproject.io/2020/04/22/clean-code-in-tests-what-why-and-how/" rel="noopener noreferrer">clean</a> Selenium test scripts. The WebDriver language bindings for C#, Java, JavaScript, Python, and Ruby are designed to drive actions on a browser. Each language has its own bindings. Bindings mean the same commands written for one language is also written for the other languages. For example, Java has a command to load a browser and C#, JavaScript, Python, and Ruby also have a command to load a browser.</p>
+<p><u>Note</u>: If you are using a powerful test automation tool like <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> to record a test for web and mobile, then programming is not the foundation for automation. No coding skills are required. We can record our test then convert the test to a coded language (though if you wanted to, you could start straight from using TestProject’s open-sourced <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview/sdk-v1-vs-opensdk-v2" rel="noopener noreferrer">OpenSDK</a> for <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/java-sdk" rel="noopener noreferrer">Java</a>, <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/python-sdk" rel="noopener noreferrer">Python</a> or <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/csharp-sdk" rel="noopener noreferrer">C#</a>, using pure Selenium API commands).</p>
+<p>A question someone may ask is “How much programming should I know to get the most out of Selenium?”. An understanding of the core programming principles is enough to be effective with Selenium automation <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f64c.png" alt="🙌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h3><a target="_blank" id="AutomationBuildTool" rel="noopener noreferrer"><strong>Automation Build Tool</strong></h3>
+<p><strong><u>What is an Automation Build Tool</u></strong>?<br />An automation build tool compiles source code and machine code. It automates the whole process of converting files and a variety of assets. Some of the advantages are:</p>
+<ul>
+<li>Improving product quality</li>
+<li>Eliminating redundant tasks</li>
+<li>Containing a history of builds and releases</li>
+</ul>
+<p><strong><u>How is an Automation Build Tool a Best Practice Tip For Selenium</u></strong>?<br />An Automation Build Tool like <a target="_blank" href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java" rel="noopener noreferrer">Maven or Gradle</a> is a best practice tip because it prevents us from downloading Selenium for every update. Downloading Selenium is not a bad idea but a build tool is faster and easier to update via dependency management system. We can replace the Selenium dependency for Maven in a pom.xml file or Gradle through a build.gradle file. In addition to updating Selenium, Maven and Gradle are designed to manage our projects. It comes with a pre-defined folder structure to add our Selenium test scripts. Here’s a screenshot of Maven’s pre-defined folder structure:</p>
+<p><img loading="lazy" class="alignnone wp-image-15667 size-full" title="Maven’s pre-defined folder structure" alt="Maven’s pre-defined folder structure" width="255" height="200" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.3-Maven-Folder-Structure.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-15667 size-full" title="Maven’s pre-defined folder structure" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.3-Maven-Folder-Structure.png" alt="Maven’s pre-defined folder structure" width="255" height="200"/></noscript></p>
+<h3><a target="_blank" id="TestFramework" rel="noopener noreferrer"><strong>Test Framework</strong></h3>
+<p><strong><u>What is a Test Framework</u></strong>?<br />A Test Framework provides a collection of guidelines to test our automation Test Scripts. We can perform all sorts of testing such as regression testing, integration testing, data-driven testing, etc. The purpose is to simplify the process of testing an AUT.</p>
+<p><strong><u>How is a Test Framework a Best Practice Tip For Selenium</u></strong>?<br />A Test Framework such as <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/" rel="noopener noreferrer">TestNG</a> is a best practice tip because it comes with a set of assertion statements. There are multiple benefits but an assertion statement verifies whether our test Pass or Fail. We have the option of implementing a <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#hard-assertions" rel="noopener noreferrer">Hard Assert</a>, <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#soft-assertions" rel="noopener noreferrer">Soft Assert</a>, or a mix of Hard and Soft Asserts.</p>
+<p>An example of using a hard assert is failing to sign into an application. It’s best to use a <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#hard-assertions" rel="noopener noreferrer">Hard Assertion</a> because there is no value in attempting to executing the remaining test. However, if verifying an application is not critical then we can use a <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#soft-assertions" rel="noopener noreferrer">Soft Assertion</a>. We must use a method called assertAll to receive all AssertionErrors and fail the Test Script.</p>
+<h3><a target="_blank" id="DesignPattern" rel="noopener noreferrer"><strong>Design Pattern – Page Object Model</strong></h3>
+<p><strong><u>What is a Design Pattern</u></strong>?<br />A <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener noreferrer">design pattern</a> is a reusable solution in software development that address recurring problems. It has a relationship between classes, objects, and methods to perform the solution. To solve those recurring problems, our design pattern should incorporate Object-Oriented Programming concepts.</p>
+<p><strong><u>How is a Design Pattern a Best Practice Tip For Selenium</u></strong>?<br />The Design Pattern is a best practice tip because it has 3 benefits. It helps reduce code reusability, improve code readability, and promote code maintainability.</p>
+<ul>
+<li><u>Code reusability</u> is when we reuse code in multiple locations in our program.</li>
+<li><u>Code readability</u> means the code is easy to follow.</li>
+<li><u>Code maintainability</u> means it will take less time to make a change to our code.</li>
+</ul>
+<p>The most popular design pattern is Page Object Model. It has classes that represent each page of an application. Elements and interactions with those elements are stored separately from our Test Scripts. Here’s a screenshot that illustrates the Page Object Model.</p>
+<p><img loading="lazy" class="alignnone wp-image-15670 size-full" title="Page Object Model" alt="Page Object Model" width="764" height="529" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png 764w, https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1-512x355.png 512w" data-lazy-sizes="(max-width: 764px) 100vw, 764px" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-15670 size-full" title="Page Object Model" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png" alt="Page Object Model" width="764" height="529" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png 764w, https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1-512x355.png 512w" sizes="(max-width: 764px) 100vw, 764px"/></noscript></p>
+<h3><a target="_blank" id="AutomationFramework" rel="noopener noreferrer"><strong>Automation Framework</strong></h3>
+<p><strong><u>What is an Automation Framework</u></strong>?<br />An automation framework is a comprehensive set of tools used for building test scripts to support automation. The tools are integrated with guidelines and processes such as:</p>
+<ul>
+<li>Test Data</li>
+<li>Test Libraries</li>
+<li>Coding Standards</li>
+<li>Reusable Modules</li>
+</ul>
+<p><strong><u>How an Automation Framework a Best Practice Tip For Selenium</u></strong>?<br />An automation framework is a best practice tip because it produces desired results and processes that’s scalable. The following are some frameworks for Selenium automation:</p>
+<ul>
+<li><u>Data-Driven Framework</u> uses an external source like Excel to send data as input to our Automation Test Script.</li>
+<li><u>Keyword-Driven Framework</u> reads a set of instructions based on keywords from an external source like Excel.</li>
+<li><u>Hybrid Framework</u> combines the Data-Driven and Keyword-Driven Frameworks.</li>
+<li><u>Behavior Driven Development (BDD)</u> is a development approach that facilitate communication between technical and non-technical people. Test Scripts are written in a plain English language called Gherkin.</li>
+</ul>
+<h3><a target="_blank" id="CICD" rel="noopener noreferrer"><strong>Continuous Integration/Continuous Deployment</strong></h3>
+<p><strong><u>What is Continuous Integration/Deployment</u></strong>?<br />Continuous Integration and Continuous Deployment (CI/CD) is a process that involves frequent and reliable code changes to the main branch. A couple of benefits consist of high quality and fast delivery. Quality is high when the build has minimal errors. Delivery is fast to the customers after committing repeated code changes.</p>
+<p><strong><u>How is Continuous Integration/Deployment a Best Practice Tip For Selenium</u></strong>?<br /><a target="_blank" href="https://blog.testproject.io/2020/11/09/top-ci-cd-tools/" rel="noopener noreferrer">CI/CD</a> is a best practice tip because it empowers technical teams to focus on quality and meeting business requirements. Selenium Automation helps by responding to frequent changes by the customer. We have the option of kicking off Test Scripts within their own CI job or integrated with the development CI job. Here’s the difference between CI and CD:</p>
+<ul>
+<li><u>Continuous Integration (CI)</u> authorizes a consistent way to build, package, and test applications.</li>
+<li><u>Continuous Deployment (CD)</u> automates the delivery of applications.</li>
+</ul>
+<p>Combining CI/CD requires Selenium to continuous testing applications so they are delivered with quality and sent to customers.</p>
+<p>That wraps up <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener noreferrer">Selenium WebDriver: From A to Z</a> and the best practices for Selenium Automation. Hope you enjoyed and would love for you to share your feedback and/or additional Selenium tips and tricks in the comments below <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/12/03/selenium-automation-best-practices-tips-you-must-know/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tech Talk: How to Become an Appium Desktop Ninja, Chapter 2</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-2/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Appium]]></category>
+		<category><![CDATA[Chapter]]></category>
+		<category><![CDATA[Desktop]]></category>
+		<category><![CDATA[Ninja]]></category>
+		<category><![CDATA[talk]]></category>
+		<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-2/</guid>
+
+					<description><![CDATA[This week we kicked off a new Sauce Labs tech talk series, How to become an Appium Desktop Ninja, presented]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>This week we kicked off a new Sauce Labs tech talk series, How to become an Appium Desktop Ninja, presented by Wim Selles, Senior Solutions Architect. In <a target="_blank" href="https://saucelabs.com/blog/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-1" rel="noopener noreferrer">Chapter 1</a>, we looked at the theory and background of Appium, learned about the different types of apps you can automate with it, and dove deep into how Appium works to provide you with all the foundational knowledge you need to get started. </p>
+<p>In this second chapter, you will learn how to configure an Android emulator or an iOS simulator on your local machine. Wim will review the prerequisites to set up Android emulators and iOS simulators, walk you through the different environment variables, and demonstrate specific tips for the configuring process in an interactive live demo session.</p>
+<div class="video">
+<p><iframe title="Sauce Labs Tech Talk: How to Become an Appium Desktop Ninja- Chapter 2" width="800" height="450" src="https://www.youtube.com/embed/BL3ruGJmwwk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<p>Ready for the next steps? Stay tuned for our upcoming videos in this series!</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-2">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ACTION REQUIRED: Secure Your Testing Experience &#8211; Best Practices for Updating Sauce Connect</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/action-required-secure-your-testing-experience-best-practices-for-updating-sauce-connect/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[ACTION]]></category>
+		<category><![CDATA[Connect]]></category>
+		<category><![CDATA[Experience]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[REQUIRED]]></category>
+		<category><![CDATA[Sauce]]></category>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Updating]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/action-required-secure-your-testing-experience-best-practices-for-updating-sauce-connect/</guid>
+
+					<description><![CDATA[Sauce Labs provides a number of features that help secure your testing experience and ensure that your data and applications]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Sauce Labs provides a number of features that help secure your testing experience and ensure that your data and applications are safe while using our cloud platform. One of the most popular features is <a target="_blank" href="https://saucelabs.com/resources/white-papers/sauce-connect-proxy-security-overview" rel="noopener noreferrer">Sauce Connect Proxy</a>—a built-in HTTP proxy server that opens a secure &#8220;tunnel&#8221; connection for testing between a Sauce Labs virtual machine or real device and a website or mobile app hosted on your local computer (&#8220;localhost&#8221;) or behind a corporate firewall. It provides a means for Sauce Labs to securely access your application or website. </p>
+<p>Over last two years, our team has continually updated Sauce Connect with new features, security improvements, and critical bugs fixes related to functionality and performance, including:</p>
+<ul>
+<li>
+<p>Fixed file descriptor leaks</p>
+</li>
+<li>
+<p>Mitigated unexpected crashes</p>
+</li>
+<li>
+<p>Enabled support for Apple’s best practice for network security (App Transport Security &#8211; ATS) for sites/apps with self signed certificates</p>
+</li>
+<li>
+<p>Improved PAC file parsing</p>
+</li>
+<li>
+<p>Added validation of of command line inputs for tunnel and direct domains</p>
+</li>
+<li>
+<p>Introduced use of certificates signed by a Certificate Authority (CA) rather than self-signed certificates in Sauce Labs internal tunneling infrastructure</p>
+</li>
+<li>
+<p>Introduced OCSP certificate validation</p>
+</li>
+<li>
+<p>Implemented application Notarization on MacOS &#8211; Catalina and newer require Sauce Connect client binary to be Apple notarized</p>
+</li>
+</ul>
+<p>To take advantage of all these improvements, we have been strongly encouraging customers to upgrade to the latest stable release &#8211; <a target="_blank" href="https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy" rel="noopener noreferrer">4.6.2</a>. The latest version has been in production without any known major issues.</p>
+<p>To help improve the security posture of Sauce Labs and our users, we recently announced that we will discontinue support for older Sauce Connect versions. Our plan is to deprecate versions 4.5.0 and below on Dec 31, 2020 and versions 4.6.2.and below on March 31,  2021. These changes impact customers using old, standalone Sauce Connect binaries as well those using old the Sauce Connect binary prepackaged with our OnDemand Jenkins Plugin.</p>
+<h3>Update Process</h3>
+<p>Customers who are still using an outdated version of Sauce Connect should follow these steps to make the appropriate updates:</p>
+<ul>
+<li>
+<p>If you use an old, standalone Sauce Connect binary (version 4.5.0 or below) then please upgrade to Sauce Connect 4.6.2 or above from the <a target="_blank" href="https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy" rel="noopener noreferrer">following link</a>. Test the new version in a development or staging environment by running some manual and automated tests. If you don’t notice any issues then please upgrade your production environment to the new version.</p>
+</li>
+<li>
+<p>If you use an old Sauce Connect binary prepackaged with the <a target="_blank" href="https://plugins.jenkins.io/sauce-ondemand/" rel="noopener noreferrer">Sauce OnDemand Jenkins plugin</a> (versions 1.187 and below) then please use Jenkins system configuration to update to the latest OnDemand Jenkins plugin (or version 1.188 or higher).</p>
+</li>
+</ul>
+<h3>Best Practice and Future Releases</h3>
+<p>We regularly ship new features and improvements with Sauce Connect client releases. We recommend that customers use the latest version of Sauce Connect released in the last three months and make routine updates to the Sauce Connect client. </p>
+<p><i><b>In 2021, we are planning to make several fundamental changes in Sauce Connect backend. These changes will necessitate discontinued support for all previous versions of the Sauce Connect client. In preparation for this change we strongly encourage customers to prepare and test processes for all of their environments (dev, stage, and production) that will give them flexibility to upgrade the Sauce Connect client on short notice.</b></i></p>
+<p>Please contact support@saucelabs.com if you have any questions or need additional information.</p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/secure-your-testing-experience-best-practices-for-updating-sauce-connect">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Top Phishing Lures to Look Out for This Holiday Season</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/top-phishing-lures-to-look-out-for-this-holiday-season/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 01 Dec 2020 18:48:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Holiday]]></category>
+		<category><![CDATA[Lures]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Season]]></category>
+		<category><![CDATA[Top]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/top-phishing-lures-to-look-out-for-this-holiday-season/</guid>
+
+					<description><![CDATA[Top Phishing Lures to Look Out for This Holiday Season And just like that, the holidays are here! That means it’s]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2>Top Phishing Lures to Look Out for This Holiday Season</h2>
+<p>And just like that, the holidays are here! That means it’s time to grab your devices and credit cards for some online <a target="_blank" href="https://www.mcafee.com/blogs/consumer/holiday-shopping-season-security-tips/" rel="noopener noreferrer">holiday shopping</a>. But while you plan to share the merry and shop for gifts, criminals are preparing some not-so-festive tricks of their own. According to <a target="_blank" href="https://threatpost.com/online-holiday-shopping-phishing/161412/" rel="noopener noreferrer">Threatpost</a>, various phishing scams are currently targeting eager consumers this holiday season.</p>
+<p>Let’s unwrap the top four phishing scams that users should beware of while making online purchases this week and through the rest of the year.</p>
+<h3><strong>Email Phishing: How Cyber-Grinches Steal Your Inbox</strong></h3>
+<p>It might surprise you to see that a tactic as old as email phishing is still so widely used today. Well, that’s because many people still fall for email phishing scams, as the criminals behind these attacks up the ante every year to make these threats more sophisticated.</p>
+<p>Scammers also tend to take advantage of current events to trick unsuspecting consumers into falling for their tricks. Take earlier this year, for example, when many users received phishing emails claiming to be from a government entity regarding financial support due to the global health emergency. Cybercriminals will likely use similar, timely tactics leading up to the holidays, posing as famous retailers and promising fake discounts in the hope that a consumer will divulge their credit card details or click on a malicious link.</p>
+<h3><strong>Spear Phishing Takes Advantage of the Season of Giving</strong></h3>
+<p>Like email phishing, spear phishing has been around for quite some time. With spear phishing attacks, hackers pretend to be an organization or individual that you’re familiar with and include a piece of content—a link, an email attachment, etc.—that they know you’ll want to interact with. For example, cybercriminals might claim to be charitable organizations asking for donations, knowing that many families like to donate during the holidays. The email might even include the recipient’s personal details to make it seem more convincing. But instead of making a generous contribution, users find that they infected their own system with malware by clicking on the fraudulent link.</p>
+<h3><strong>Dasher, Dancer, Prancer, Vishing?</strong></h3>
+<p>No, that’s not the sound of Santa coming down the chimney – it’s the sound of voice phishing! “Vishing” attacks can be highly deceiving, as hackers will call a user and trick them into giving up their credentials or sharing other personal information. For example, a scammer could call an individual telling them that they won a large amount of cash as part of a holiday contest. Overjoyed with the thought of winning this so-called contest, the user may hand over their bank information to the criminal on the other end of the phone. But instead of receiving a direct deposit, all they find is that their banking credentials were used to make a fraudulent purchase.</p>
+<h3><strong>Special Delivery or SMiShing?</strong></h3>
+<p>SMS phishing, or “SMiShing,” is another threat users should watch out for this holiday season. This tactic uses misleading text messages claiming to come from a trusted person or organization to trick recipients into taking a certain action that gives the attacker exploitable information or access to their mobile device.</p>
+<p>Due to the current global health emergency and the desire to do more digitally, consumers will likely rely on online shopping this holiday season. To take advantage of this trend, scammers will probably send fraudulent text messages disguised as online retailers. These messages will likely contain fake tracking links, shipping notices, and order confirmations. But if an unsuspecting user clicks on one of these links, they will be directed to a fake website prompting them to enter their credentials for the attackers to further exploit.</p>
+<h3><strong>Avoid Unwanted Security “Presents” This Holiday Season</strong></h3>
+<p><strong> </strong>To prevent cybercriminals from messing with the festive spirit via phishing schemes, follow these tips so you can continue to make merry during the holiday shopping season:</p>
+<h3><strong>Be cautious of emails asking you to act </strong></h3>
+<p>If you receive an email, call, or text asking you to download software or pay a certain amount of money, don’t click on anything or take any direct action from the message. Instead, go straight to the organization’s website. This will prevent you from downloading malicious content from phishing links or forking over money unnecessarily.</p>
+<h3><strong>Hover over links to see and verify the URL</strong></h3>
+<p>If someone sends you a message with a link, hover over the link without actually clicking on it. This will allow you to see a link preview. If the URL looks suspicious, don’t interact with it and delete the message altogether.</p>
+<h3><strong>Go directly to the source</strong></h3>
+<p>Instead of clicking on a link in an email or text message, it’s always best to check directly with the source to verify a holiday shopping offer or track a package’s shipment.</p>
+<h3><strong>Browse with caution</strong></h3>
+<p>Use a comprehensive security solution, like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee Total Protection</a>, which can help protect devices against malware, phishing attacks, and other threats. It includes <a target="_blank" href="https://www.mcafee.com/consumer/en-us/store/m0/catalog/mwad_528/mcafee-web-advisor.html" rel="noopener noreferrer">McAfee WebAdvisor</a>, which can help identify malicious websites.</p>
+<h3><strong>Stay Updated</strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
+<p><strong> </strong></p>
+<p> </p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/top-phishing-lures-to-look-out-for-this-holiday-season/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Putting Protection to The Test &#124; McAfee Blogs Our Pledge to Protect You From Digital Threats</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/putting-protection-to-the-test-mcafee-blogs-our-pledge-to-protect-you-from-digital-threats/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 01 Dec 2020 17:41:53 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Pledge]]></category>
+		<category><![CDATA[Protect]]></category>
+		<category><![CDATA[protection]]></category>
+		<category><![CDATA[Putting]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[threats]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/putting-protection-to-the-test-mcafee-blogs-our-pledge-to-protect-you-from-digital-threats/</guid>
+
+					<description><![CDATA[Putting Protection to The Test  This year has thrown a lot of challenges at us, and our digital lives were]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2><strong>Putting Protection to The Test</strong></h2>
+<p><strong> </strong>This year has thrown a lot of challenges at us, and our digital lives were not immune. As millions of people around the world suddenly switched to working and learning online from home during the pandemic, <a target="_blank" href="https://www.mcafee.com/blogs/consumer/evolving-security-products-for-the-new-realities-of-living-life-from-home/" rel="noopener noreferrer">digital threats spiked</a>, making security and performance essential.</p>
+<p>At McAfee, we are hyperaware of what our users are going through this year, with changes to their work, school, and lifestyles. At the same time, we are keeping our eyes on the threats aimed at taking advantage of the situation.</p>
+<p>For example, we know that publicly disclosed security breaches increased by <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/threat-center/mcafee-labs/reports.html" rel="noopener noreferrer">41% in the first quarter of 2020</a> compared to the previous quarter. And, <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-nov-2020.pdf" rel="noopener noreferrer">COVID-related threats</a> are also on the rise. But with everything going on, it’s easy to see how technology users can become overwhelmed. That means that security not only has to protect against a wide range of threats, but also be seamless.</p>
+<h3><strong>Security that Stands Strong</strong></h3>
+<p>While you’ve been busy keeping up with all the changes this year has brought, we have been working on providing comprehensive security that protects you from existing and emerging threats so you can have peace of mind. In fact, Austria-based <a target="_blank" href="https://www.av-comparatives.org/tests/malware-protection-test-september-2020/" rel="noopener noreferrer">AV-Comparatives</a> recently gave <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee® Total Protection</a> their highest three-star, “Advanced +” rating for malware protection measured against 16 competitors, and the German anti-malware test lab <a target="_blank" href="https://www.av-test.org/en/antivirus/home-windows/windows-10/august-2020/mcafee-total-protection-23.0-203117/" rel="noopener noreferrer">AV-Test</a> awarded McAfee Total Protection with the TOP Product rating because of its 100% protection scores.</p>
+<p><a target="_blank" href="https://www.av-test.org/en/antivirus/mobile-devices/android/september-2020/mcafee-mobile-security-5.6-203812/" rel="noopener noreferrer">AV-Test</a> also gave <a target="_blank" href="https://play.google.com/store/apps/details?id=com.wsandroid.suite&amp;shortlink=protection&amp;pid=Web&amp;c=Blog_Protection_Android&amp;af_channel=Blog" rel="noopener noreferrer">McAfee Mobile Security</a> for Android its highest rating in terms of protection, performance, and usability against 14 competitors.</p>
+<p>These labs also test for “false positives.” False positives happen when antivirus software identifies legitimate files or processes as malware by mistake.  In recent tests, our products have also scored well when it comes to avoiding false positives. AV-Test showed that McAfee Total Protection and McAfee Mobile Security flagged zero false positives during testing.</p>
+<p>Both of these independent antivirus testing organizations specifically look for how well security products protect their users against various threats, which is critically important given today’s threat landscape.</p>
+<h3><strong>Always Improving</strong></h3>
+<p>One of the key ways we keep on top of threats is through continuous product development. We don’t stop working on our software tools just because they are released to the public. Our products are continuously updated with new features and enhancements when they become available because security isn’t static. Regardless of if you bought your product in 2019 or early 2020, we make sure that you have the latest protection installed through automatic product updates.</p>
+<p>Underscoring our dedication to continual product improvement, U.K.-based <a target="_blank" href="https://selabs.uk/reports/2020/" rel="noopener noreferrer">SE Labs</a> recently named McAfee the 2020 winner for “Best Product Development.”</p>
+<p>SE Labs’s slogan is “testing like hackers” because it evaluates a product’s effectiveness at various stages of attacks, from malicious emails and keystroke loggers, to full-on network attacks and system harm. All of these assessments are important to ensure that we can protect our users in real-world settings.</p>
+<h3><strong>Performance Still Matters</strong></h3>
+<p>I’ve written before about how security software has to be convenient, and not get in the way of our productivity. Given the climate, it’s more important than ever that we offer comprehensive security tools that are lightweight and easy to manage.</p>
+<p>For instance, I know how important these days are for my kids to meet with their teachers in online classes. If our security software was taking up so much of our computer’s resources that it kept them from being able to stream video while taking notes, it wouldn’t just be frustrating, but detrimental.</p>
+<p>McAfee has consistently received some of the best scores in <a target="_blank" href="https://www.mcafee.com/blogs/consumer/security-software-and-device-performance/" rel="noopener noreferrer">performance tests</a>, while having a minimal impact on users’ systems. Just this month, <a target="_blank" href="https://www.av-comparatives.org/tests/performance-test-october-2020/" rel="noopener noreferrer">AV-Comparatives</a> awarded McAfee Total Protection <a target="_blank" href="https://www.av-comparatives.org/tests/performance-test-october-2020/" rel="noopener noreferrer">the highest possible ADVANCED+ rating yet again, for the ninth time in a row</a>!</p>
+<p>This is great news for us, but even more important for our users since it shows that they do not have to sacrifice protection or performance, whether on their computers or mobile devices.</p>
+<h3><strong>How It Helps You</strong></h3>
+<p>Of course, we know the threat landscape is continuously evolving, and we need to evolve with it.</p>
+<p>By offering you tools that can guard against the latest risks while allowing you to be productive and connect with family and friends, we hope to be a strong ally in your digital life. It’s great to see that these three independent testing organizations recognize our accomplishments so far in protection efficacy and performance. We promise to keep it up so you can live a carefree digital life.</p>
+<h3><strong>Stay Updated</strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener noreferrer">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener noreferrer">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener noreferrer">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener noreferrer">Facebook.</a></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/putting-protection-to-the-test/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (Page is feed) 
+
+Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-04 22:01:17 by W3 Total Cache
+-->
