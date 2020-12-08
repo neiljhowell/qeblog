@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Sat, 05 Dec 2020 04:01:33 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 07 Dec 2020 16:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,144 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Next generation ESM: An essential guide—5 key takeaways</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/next-generation-esm-an-essential-guide-5-key-takeaways/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 07 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[ESM]]></category>
+		<category><![CDATA[Essential]]></category>
+		<category><![CDATA[Generation]]></category>
+		<category><![CDATA[guide5]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[takeaways]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/?p=3602</guid>
+
+					<description><![CDATA[TechBeacon&#8216;s special report, &#8220;Next-generation ESM: The evolution of service management in the enterprise,&#8221; offers the latest insights on how enterprise service management]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><em>TechBeacon</em>&#8216;s special report, &#8220;<a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/next-generation-esm-?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Next-generation ESM: The evolution of service management in the enterprise</a>,&#8221; offers the latest insights on how enterprise service management is transforming the enterprise.</p>
+<p>This essential guide looks at <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/extend-it-service-management?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">how enterprise service management (ESM) has evolved </a>over the last 30 years, how IT service management (ITSM) led to <a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/esm-essentials?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">the emergence of ESM</a>, and where the discipline goes from here. It also provides best practices for creating your own converged service management (CSM) infrastructure. Here are five important takeaways.</p>
+<h3>1. ESM evolved from ITSM</h3>
+<p>The first help desks were purely reactive services. If something broke, the affected employee filed a support request ticket, and eventually a technician was dispatched to fix the problem based on its severity—or, more commonly, based on the overall workload of an often-overworked tech support staff.</p>
+<p>With the formalization in the late 1980s of the <a target="_blank" href="https://techbeacon.com/enterprise-it/how-itil4-sre-align-devops" rel="noopener noreferrer">Information Technology Infrastructure Library</a> (ITIL)—a set of practices to align IT services with business needs—the concept of <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/automation-ai-itil-itsm" rel="noopener noreferrer">IT service management</a> was born.</p>
+<p>ITSM transformed the help desk into a service that provides real, forward-looking value to its customers—the organization&#8217;s internal users. Each of the practices in the ITIL framework can be <a target="_blank" href="https://techbeacon.com/enterprise-it/8-it-service-management-metrics-matter-most" rel="noopener noreferrer">quantified with appropriate metrics</a> to measure the performance of the IT organization in real time and over the long run. Today, ITSM is the de facto standard, streamlining support and service operations to make end users and IT itself more efficient and effective.</p>
+<p>ESM essentially takes the concept of ITSM and applies it company-wide. <a target="_blank" href="https://www.linkedin.com/in/paul-hamilton-a5455a34/" rel="nofollow noopener noreferrer">Paul Hamilton</a>, managing director of HaloITSM, an ITSM software developer, summarized ESM in the report as &#8220;a complete, end-to-end process in one all-encompassing system with slick communications between departments, an easy procurement process, and the perfect end-result on time, every time.&#8221;</p>
+<h3>2. ESM is about more than IT</h3>
+<p>From the ESM point of view, a service is a service, and it doesn&#8217;t necessarily have to be tied to IT. Whether the service needed is a fix for a broken keyboard, a request for a standing desk, or the onboarding of a new employee, the task can be managed through a centralized portal that offers triage, workflow management, and intelligent automation.</p>
+<p>This broader view of services delivers several benefits across the enterprise, including improved cost controls, increased overall efficiency, better accuracy, a simplified data structure, and, crucially, happier employees.</p>
+<h3>3. ESM is more about &#8216;single view&#8217; than &#8216;single tool&#8217;</h3>
+<p>An effective ESM environment revolves around one core tenet, said <a target="_blank" href="https://www.linkedin.com/in/marilynnelson/" rel="nofollow noopener noreferrer">Marilyn Nelson</a>, global head of delivery Success for DXC&#8217;s ServiceNow practice: &#8220;How do we look at multiple transactions through a single pane of glass?&#8221; </p>
+<p>By building a consistent data model where all of a business&#8217;s relevant information can be shared, data becomes more holistic, aligning three parties: employees, customers, and management.</p>
+<p>Facilitating this will likely require different platforms for each line of business. But Nelson said that&#8217;s okay, since the central point of ESM isn&#8217;t necessarily that a single tool must be used, but rather that all the organization&#8217;s data is migrated to a single data lake.</p>
+<h3>4. ESM is an enterprise-wide digital transformation that IT can lead</h3>
+<p>Given ESM&#8217;s roots in ITSM, it&#8217;s not unreasonable to believe that the IT organization is the most appropriate choice to lead an ESM implementation. And in modern, progressive organizations, IT has had success doing that.</p>
+<p>But the move to ESM is a transformation that touches every corner of the enterprise, often necessitating that the organizational chart be revamped. That requires the highest levels of leadership to be involved. The big challenge is who really owns ESM, said Doug Tedder, principal of Tedder Consulting. Outside of the CEO, there is no one role in the organization that has accountability for end-to-end work flowing through the organization, so this really takes a commitment from senior leadership, he said.</p>
+<blockquote>
+<p>The technology part of ESM is easy. The processes are the hard part.&#8221;<br />—<a target="_blank" href="https://twitter.com/dougtedder" rel="nofollow noopener noreferrer">Doug Tedder</a></p>
+</blockquote>
+<p>It&#8217;s worth considering whether IT can lead your ESM implementation. If so, it will need the support of your CIO and rank-and-file workers to ensure its success.</p>
+<h3>5. AI will drive the next evolution of service management</h3>
+<p>Converged service management will be the next evolution of ESM. The idea is for CSM to further centralize business services and <a target="_blank" href="https://techbeacon.com/enterprise-it/it-service-management-how-it-tools-practices-are-evolving" rel="noopener noreferrer">fulfill service requests more quickly and with less effort</a>.</p>
+<p>The discipline is still in its formative phase, but key enablers have already been identified: virtual agents and robotic process automation (RPA) to handle service requests; machine learning to identify patterns in user requests; and the holy grail, a single, user-friendly portal experience for multiple services.</p>
+<p>The transition to CSM will be even more daunting than was the ESM transformation. It will require new ways of undertaking fundamental business processes, complex new technologies, and the talent to develop, implement, and manage new tools.</p>
+<p>But the challenge of unifying all business lines is an essential part of the process, said DXC&#8217;s Nelson:</p>
+<blockquote>
+<p>&#8220;It&#8217;s the journey that makes digital transformation come to life.&#8221;</p>
+</blockquote>
+<p><em>Read the full report: &#8220;<a target="_blank" href="https://content.microfocus.com/enterprise-service-management-tb/next-generation-esm-?lx=XrrwBl&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener noreferrer">Next-generation ESM: The evolution of service management in the enterprise</a>&#8220;</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/next-generation-esm-essential-guide-5-key-takeaways">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>RansomExx Ransomware Gang Dumps Stolen Embraer Data: Report</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/ransomexx-ransomware-gang-dumps-stolen-embraer-data-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 07 Dec 2020 14:18:43 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Dumps]]></category>
+		<category><![CDATA[Embraer]]></category>
+		<category><![CDATA[Gang]]></category>
+		<category><![CDATA[RansomExx]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[Stolen]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/ransomexx-ransomware-gang-dumps-stolen-embraer-data-report/</guid>
+
+					<description><![CDATA[The group published files stolen from the Brazilian aircraft manufacturer in a ransomware attack last month. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The group published files stolen from the Brazilian aircraft manufacturer in a ransomware attack last month.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/ransomexx-ransomware-gang-dumps-stolen-embraer-data-report/161918/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>5 Creative Ways to Virtually Connect with Loved Ones This Holiday</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/5-creative-ways-to-virtually-connect-with-loved-ones-this-holiday/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sat, 05 Dec 2020 16:41:12 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Connect]]></category>
+		<category><![CDATA[Creative]]></category>
+		<category><![CDATA[Holiday]]></category>
+		<category><![CDATA[Loved]]></category>
+		<category><![CDATA[Virtually]]></category>
+		<category><![CDATA[ways]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/5-creative-ways-to-virtually-connect-with-loved-ones-this-holiday/</guid>
+
+					<description><![CDATA[Toni Birdsong Toni Birdsong is a Family Safety Evangelist for McAfee. She is an author, speaker, and cyber savvy mom]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<h3 class="red"><a target="_blank" href="https://www.mcafee.com/blogs/author/toni-birdsong/" rel="noopener noreferrer">Toni Birdsong</a></h3>
+<p>Toni Birdsong is a Family Safety Evangelist for McAfee. She is an author, speaker, and cyber savvy mom of two teenagers (much to their dismay). As a family safety evangelist for McAfee, she focuses on online safety and often speaks to educators, parents, and teens about dodging the dangers online. She is the co-owner of &#8230;</p>
+<p>                        <a target="_blank" href="https://www.mcafee.com/blogs/author/toni-birdsong/" class="caret-link" rel="noopener noreferrer">Read more posts from Toni Birdsong </a>
+                    </div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/5-creative-ways-to-virtually-connect-with-loved-ones-this-holiday/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>October is #LGBTQ History Month and October 11 was National Coming Out Day!  Our&#8230;</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</link>
 		
@@ -188,6 +326,40 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/security/do-cybersecurity-boss-35-experts-follow-twitter">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Next.js Visual Regression Testing with Applitools and Cypress</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/next-js-visual-regression-testing-with-applitools-and-cypress/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 04 Dec 2020 20:47:17 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[Cypress]]></category>
+		<category><![CDATA[Nextjs]]></category>
+		<category><![CDATA[Regression]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/next-js-visual-regression-testing-with-applitools-and-cypress/</guid>
+
+					<description><![CDATA[Visual regression testing is an effective way to make sure your app is behaving the way you want it no]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Visual regression testing is an effective way to make sure your app is behaving the way you want it no matter the technology stack. As someone who comes from the JavaScript and <a target="_blank" href="https://jamstack.org/" rel="noopener noreferrer">Jamstack</a> world, I want to be able to use modern tooling to make sure my dynamic web apps are reliable and maintaining a high level of quality.</p>
+<p>I recently joined Applitools as a Developer Advocate. With my role, it will be crucial for me to have a good understanding of not just how to install Applitools and the suite of features we provide, but I’ll need to be able to thoroughly understand how it fits into a developer’s workflow from installation to implementation.</p>
+<p>In this stream, I take my first dive into building a new React app from the ground up with <a target="_blank" href="https://nextjs.org/" rel="noopener noreferrer">Next.js</a>. I then walk through installing JavasScript testing framework <a target="_blank" href="https://www.cypress.io/" rel="noopener noreferrer">Cypress</a>, giving me the ability to run end-to-end testing for my new app. Finally, I install and set up <a target="_blank" href="https://applitools.com/products-eyes/" rel="noopener noreferrer">Applitool Eyes</a> which provides me visual regression testing capabilities baked right into my testing suite.</p>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Next.js Visual Regression Testing with Applitools and Cypress  - STREAM" width="800" height="450" src="https://www.youtube.com/embed/Bei0Cvu7D7I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</figure></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/next-js-visual-regression-testing-with-applitools-and-cypress/">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -533,365 +705,6 @@
 		
 		
 			</item>
-		<item>
-		<title>10 Portfolio Projects for Aspiring Automation Engineers</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/10-portfolio-projects-for-aspiring-automation-engineers/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 03 Dec 2020 07:07:24 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Aspiring]]></category>
-		<category><![CDATA[Engineers]]></category>
-		<category><![CDATA[Portfolio]]></category>
-		<category><![CDATA[projects]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/10-portfolio-projects-for-aspiring-automation-engineers/</guid>
-
-					<description><![CDATA[Those looking to break into the test automation field have difficulty doing so because of lack of experience. One way to]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Those looking to <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/test-automation-mistakes?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">break into the test automation field</a> have difficulty doing so because of lack of experience. One way to gain experience is, of course, to study and practice on your own. But how do you demonstrate your newfound knowledge to employers?</p>
-<p>Other professionals, such as front-end developers, create portfolios to highlight their skills, and you can do the same as automation engineers!</p>
-<p>Here are 10 projects for your <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/50-resources-test-automation?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener noreferrer">test automation portfolio</a> that will help you stand out among the competition.</p>
-<h2 id="h.wy1ixejyhvgq"><strong>1. Web browser automation</strong></h2>
-<p>Web automation is by far the most common and sought-after form of test automation. If you’re looking to break into test automation, this is an absolute must-have for your portfolio.</p>
-<p>Be sure to go beyond a basic login flow. Instead, show full scenarios that require your code to interact with multiple pages.</p>
-<p>This project should demonstrate your ability to <a target="_blank" href="https://testautomationu.applitools.com/web-element-locator-strategies/" rel="noopener noreferrer">find element locators</a> and interact with various types of elements such as dropdown menus, checkboxes, text fields, buttons, links, alerts, file upload widgets, and frames.</p>
-<p>Also, be sure you’re writing <a target="_blank" href="https://youtu.be/e-Qya7EOz_0" rel="noopener noreferrer">clean test code</a> and utilizing design patterns such as the <a target="_blank" href="https://angiejones.tech/page-object-model/" rel="noopener noreferrer">Page Object Model</a> or the <a target="_blank" href="https://serenity-js.org/handbook/thinking-in-serenity-js/screenplay-pattern.html" rel="noopener noreferrer">Screenplay Pattern</a>.</p>
-<p><strong>Sites to practice against:</strong></p>
-<h2 id="h.43800drde83p"><strong>2. Mobile automation</strong></h2>
-<p>The demand for mobile test automation engineers has increased over the years as the popularity of mobile apps has soared. Having experience here can certainly work in your favor.</p>
-<p>Your portfolio should demonstrate automated testing against both iOS and Android apps. Using <a target="_blank" href="https://testautomationu.applitools.com/appium-javascript-tutorial/" rel="noopener noreferrer">Appium</a> to create one project that works for both iOS and Android would be great. Using tools such as Apple’s <a target="_blank" href="https://testautomationu.applitools.com/introduction-to-ios-test-automation-with-xcuitest/" rel="noopener noreferrer">XCUITest</a> or Google’s <a target="_blank" href="https://developer.android.com/training/testing/espresso" rel="noopener noreferrer">Espresso</a> is good as well. But if you go this route, I recommend doing at least two projects (one of each), since each supports only one mobile operating system.</p>
-<p>No matter which framework you use, you’ll want to demonstrate the same element interactions as you did in your web automation project, but also mobile-specific gestures such as swiping and pinching.</p>
-<p><strong>Apps to practice with; download any of these to use in your project:</strong></p>
-<h2 id="h.i3eyyxmidzv9"><strong>3. Visual automation</strong></h2>
-<p>After making your web and mobile projects, fork them and add <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-remove-blind-spots-visual-testing" rel="noopener noreferrer">visual testing</a> capabilities to them. You’ll quickly see just how much your tests are missing because they weren’t enabled to verify the appearance of your app.</p>
-<p>Visual testing is a skill being listed on a number of <a target="_blank" href="https://www.indeed.com/jobs?q=visual+testing&amp;l=" rel="noopener noreferrer">job postings</a>, and having this skill will really help you shine against the competition.</p>
-<h2 id="h.6rhvfhvdop2k"><strong>4. API automation</strong></h2>
-<p>With the rise of microservices, IoT applications, and public-facing APIs, the demand for automation engineers who know how to test APIs has become substantial. So definitely add an API testing project to your portfolio. (Here’s a free class on <a target="_blank" href="https://testautomationu.applitools.com/exploring-service-apis-through-test-automation/" rel="noopener noreferrer">how to test APIs</a> to get you started.)</p>
-<p>Within this project, be sure to demonstrate a variety of API methods, with GET and POST as a minimum. Use APIs that require parameters or request bodies, and also return complex responses with multiple objects and arrays.</p>
-<p>For bonus points, use advanced verification techniques such as <a target="_blank" href="https://angiejones.tech/deserializing-api-responses-into-java-records/" rel="noopener noreferrer">deserialization</a> or <a target="_blank" href="https://angiejones.tech/verifying-entire-api-responses/" rel="noopener noreferrer">approval testing</a>. Also, demonstrating <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-extend-java-unit-tests-components-spring-mockito" rel="noopener noreferrer">how to mock API responses</a> would be a nice bonus.</p>
-<p><strong>APIs to practice against:</strong></p>
-<h2 id="h.rea1eygc3wdw"><strong>5. BDD specification automation</strong></h2>
-<p>Many teams are practicing <a target="_blank" href="https://techbeacon.com/app-dev-testing/better-behavior-driven-development-4-rules-writing-good-gherkin" rel="noopener noreferrer">behavior-driven development</a> (BDD) and automating tests based on the specifications produced. You’ll want to demonstrate your experience with this and how you can jump in and hit the ground running.</p>
-<p>For this portfolio project, be sure to not only show the <a target="_blank" href="http://testautomationu.applitools.com/cucumber-java-tutorial/" rel="noopener noreferrer">mapping between feature files and step definitions</a>, but also demonstrate <a target="_blank" href="https://angiejones.tech/sharing-state-between-steps-in-cucumber-with-dependency-injection/" rel="noopener noreferrer">how to share state between steps via dependency injection</a>.</p>
-<p>Also, be extremely careful when writing your feature files. Long, verbose feature files will hurt your portfolio more than help. Make the effort to <a target="_blank" href="https://angiejones.tech/writing-good-gherkin-enables-good-test-automation/" rel="noopener noreferrer">write good, concise Gherkin</a>.</p>
-<h2 id="h.z4zqwp8y3ini"><strong>6. Data-driven automation</strong></h2>
-<p>Your practice projects may use only a small amount of test data, so it’s easy to store that data inside the source code. However, on production development teams, you’ll have hundreds or even thousands of automated tests. To keep up with all this data, many teams adopt a <a target="_blank" href="https://www.guru99.com/data-driven-testing.html" rel="noopener noreferrer">data-driven testing</a> approach.</p>
-<p>I recommend adding this to at least one of your projects to demonstrate your ability to <a target="_blank" href="https://angiejones.tech/using-apache-poi-to-read-excel-files/" rel="noopener noreferrer">programmatically read data from an external source</a>, such as a spreadsheet file.</p>
-<h2 id="h.8nj9oucbwgi2"><strong>7. Database usage</strong></h2>
-<p>Speaking of being able to access data from external sources, it’s a good idea to add a project that <a target="_blank" href="https://www.softwaretestinghelp.com/database-testing-using-selenium-webdriver-selenium-tutorial-28/" rel="noopener noreferrer">interacts with a database</a>. I recommend writing queries within your code to both read and write from a database, and use this within the context of a test.</p>
-<p>For example, you can read from the database to gather the expected results of a search query. Or you can write to a database to place your application in a prerequisite state before proceeding to test.</p>
-<h2 id="h.h5gsi8xlu2z"><strong>8. Multiple languages and libraries</strong></h2>
-<p>Writing all of your portfolio projects in one programming language is okay; however, automation engineers often need to dabble in multiple languages.</p>
-<p>To make yourself more marketable, try using a <a target="_blank" href="https://dzone.com/articles/which-programming-language-is-most-popular-for-ui" rel="noopener noreferrer">different language</a> for a few of your projects.</p>
-<p>Also switch it up a bit and try a few other automation libraries as well as assertion libraries. For example, maybe do a project with <a target="_blank" href="https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/" rel="noopener noreferrer">Selenium WebDriver in Java</a> and JUnit, and another project with <a target="_blank" href="https://testautomationu.applitools.com/cypress-tutorial/" rel="noopener noreferrer">Cypress</a> in JavaScript and Mocha.</p>
-<p>I know this sounds daunting, but you’ll find that some of the architecture and design patterns in test automation are universal. This exercise will really solidify your understanding of automation principles in general.</p>
-<h2 id="h.asjgb419l1o0"><strong>9. Accessibility automation</strong></h2>
-<p>Automating accessibility testing has always been needed but recently has become extremely important for companies. There have been <a target="_blank" href="https://www.cnbc.com/2019/10/07/dominos-supreme-court.html" rel="noopener noreferrer">legal battles</a> where companies have been sued because their websites were not accessible to those with disabilities.</p>
-<p>Demonstrating that you are able to do <a target="_blank" href="https://applitools.com/blog/accessibility-testing-strategy/" rel="noopener noreferrer">test automation for accessibility</a> will give you a great advantage when applying for jobs.</p>
-<p>You can use the same sites/apps you used for your web and mobile projects to demonstrate accessibility testing.</p>
-<h2 id="h.bmnrtzua7wdz"><strong>10. Performance testing</strong></h2>
-<p>Last but not least, you should consider adding a <a target="_blank" href="https://testautomationu.applitools.com/performance-and-load-testing/" rel="noopener noreferrer">performance testing</a> project to your portfolio.</p>
-<p>Nonfunctional testing such as performance is a niche skill that many automation engineers do not have. Adding this to your portfolio will help you be perceived as a unicorn who really stands out from the crowd.</p>
-<h2 id="h.8x1zjxfvivkc"><strong>Presenting the Portfolio</strong></h2>
-<p><strong>GitHub</strong></p>
-<p>Be sure to put all of your projects on GitHub so employers can easily access and review your code. However, be careful to <a target="_blank" href="https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets" rel="noopener noreferrer">hide secret keys</a>. This will give you bonus points, since it shows another level of maturity.</p>
-<p><strong>Website</strong></p>
-<p>Create a website that highlights each of your portfolio projects. You don’t have to build the website yourself; you can use common CMS systems such as WordPress to allow you to quickly get your portfolio up and visible.</p>
-<p>Each project highlight should include a paragraph or bullet points explaining what you’ve done in the project and the tools and programming language used.</p>
-<p><strong>Resume</strong></p>
-<p>Include a link to your portfolio on your resume, and feel free to list your portfolio projects under the “Experience” section of your resume.</p>
-<p>While this is not traditional work experience, it shows that you are self-driven, passionate, and competent to break into the test automation field.</p>
-<p><strong>Interview</strong></p>
-<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/how-prepare-your-next-test-automation-interview" rel="noopener noreferrer">During your interviews</a>, be sure to mention all of the projects you have worked on. Draw from your experiences with building the projects to be able to answer the questions. Also <a target="_blank" href="https://angiejones.tech/technical-interviews-for-automation-engineers/" rel="noopener noreferrer">brush up on other concepts around testing and development</a> that may come up during the interview.</p>
-<p>Good luck!</p>
-<p><em>Join Angie for her </em><em><a target="_blank" href="https://angiejones.tech/automation-cookbook-coding-recipes-for-tests/" rel="noopener noreferrer">Automation Cookbook series</a></em><em>, where she solves common automation challenges while live streaming.</em></p>
-<p>The original version of this post can be found at <a target="_blank" rel="noopener noreferrer" href="https://techbeacon.com/app-dev-testing/10-portfolio-projects-aspiring-automation-engineers">TechBeacon.com</a>.</p>
-<p><em>Header Photo by <a target="_blank" href="https://unsplash.com/@hishahadat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Shahadat Rahman</a> on <a target="_blank" href="https://unsplash.com/s/photos/monitor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></em></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/project-portfolio-for-testers/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Selenium Automation Best Practices &#038; Tips You Must Know</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/selenium-automation-best-practices-tips-you-must-know/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 03 Dec 2020 04:54:58 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[tips]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/selenium-automation-best-practices-tips-you-must-know/</guid>
-
-					<description><![CDATA[In this article, we will look at the best practices for Selenium automation from End-to-End. Selenium is by far one]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>In this article, we will look at the best practices for Selenium automation from End-to-End. Selenium is by far one of the leading endeavors for testing a web-based application. However, to automate from End-to-End, we need more than Selenium. As a result, I will explain the best practices along with some tips to get outstanding results from Selenium Automation <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>Before starting automation, we must identify first cases that generate benefits. A couple of the cases are designing an automation test strategy &amp; analyzing which test to automate. By the end of this article, you will see why <a target="_blank" href="https://blog.testproject.io/#programming" rel="noopener noreferrer">Programming</a>, incorporating an Automation Build Tool, having a Test Framework, utilizing a <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener noreferrer">Design Pattern</a>, creating an <a target="_blank" href="https://blog.testproject.io/#AutomationFramework" rel="noopener noreferrer">Automation Framework</a>, and <a target="_blank" href="https://blog.testproject.io/#CICD" rel="noopener noreferrer">Continuous Integration/Deployment</a> are tips for Selenium Automation.</p>
-<h2><strong>Tutorial Chapters</strong></h2>
-<ul>
-<li>Selenium Automation Best Practices &amp; Tips You Must Know (Chapter 2)</li>
-</ul>
-<hr/>
-<h2><a target="_blank" id="BestPractices" rel="noopener noreferrer"><strong>Best Practices</strong></h2>
-<p>Best Practices are guidelines for producing superior results. When it comes to <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener noreferrer">Selenium</a> automation, it’s important to first design an automation test strategy. A test strategy includes some of the following fundamentals:</p>
-<ul>
-<li>Setting goals</li>
-<li>Developing standards</li>
-<li>Determining what to accomplish</li>
-<li>Preparing for a high Return On Investment (ROI)</li>
-</ul>
-<p>Prior to automating a test script, we need to decide which test to automate. It’s virtually impossible to automate every test case. A 100% test coverage is challenging due to so many test scenarios. Therefore, a risk-based plan will help limit automation to the most important business cases <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/270d.png" alt="✍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>Establishing an automation test strategy and determining <a target="_blank" href="https://blog.testproject.io/2019/03/07/testing-guidelines-on-what-to-automate/" rel="noopener noreferrer">what to automate</a> are processes before automation. However, the following are 5 best practices in the course of automation using Selenium:</p>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/#ConciseDescriptive" rel="noopener noreferrer">Create Concise Descriptive Names</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#TestOneScenario" rel="noopener noreferrer">Test One Scenario At A Time</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#AvoidThread" rel="noopener noreferrer">Avoid Using Thread.sleep()</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#TakeScreenshots" rel="noopener noreferrer">Take Screenshots For Every Failure</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#LogReport" rel="noopener noreferrer">Setup Detailed Logging &amp; Reporting</a></li>
-</ol>
-<h3><a target="_blank" id="ConciseDescriptive" rel="noopener noreferrer"><strong>Create Concise Descriptive Names</strong></h3>
-<p>A concise descriptive name provides a clear meaning about the test script. It helps the entire team know precisely what functionality is being tested in a few words. The objection is how can an engineer create a name that’s short and meaningful. If there’s a choice between concise and descriptive then descriptive wins <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Most engineers would agree that code readability is important. The following are examples of concise descriptive names:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">// Not Descriptive
-@Test
-public void testErrMess () {
-  
-}
-
-@Test
-public void addCustomer () {
-  
-}</pre>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">// Concise &amp; Descriptive
-@Test
-public void testErrorAfterInvalidUserName () {
-  
-}
-
-@Test
-public void addNewCustomer () {
-  
-}</pre>
-<p>The 2 not descriptive names don’t provide details regarding what’s being tested. For example, testErrMess is clear about testing an error message but not clear if the Username or Password is invalid. It can be a scenario where the Username and Password are both invalid. Similarly, with the addCustomer method. Is it the method adding a new customer, existing customer, etc.? The examples show methods but classes and variables should also have concise descriptive names.</p>
-<h3><a target="_blank" id="TestOneScenario" rel="noopener noreferrer"><strong>Test One Scenario At A Time</strong></h3>
-<p>Testing one scenario at a time is a best practice that spins off of <a target="_blank" href="https://blog.testproject.io/#Programming" rel="noopener noreferrer">programming</a>. In <a target="_blank" href="https://blog.testproject.io/#Programming" rel="noopener noreferrer">programming</a>, a method should have 1 logical task. It’s not mandatory but beneficial for several reasons. One of the reasons involves debugging our program. Debugging consists of finding and fixing a problem in our code. One test scenario in our code removes uncertainty if our test script fails during execution. It’s easier to know exactly what failed by having one rather than having a group of tests and being unsure which test failed.</p>
-<h3><a target="_blank" id="AvoidThread" rel="noopener noreferrer"><strong>Avoid Using Thread.sleep()</strong></h3>
-<p>The loading speed of an Application Under Test (AUT) depends on factors like Machine Performance, Server Performance, Server Location, and Network. As a result, we are unable to predict the time to load an application or element within an application. This leads to possible wait complications which are outside components that cause problems with our test script.</p>
-<p>We need to avoid using Thread.sleep() because it’s not a dynamic wait statement. It pauses our test script but waits for a specific amount of time. For example, if we hard-code Thread.sleep() for 5 seconds but an element loads in 2 seconds then our test script will wait for the full 5 seconds. This practice should be avoided because it’s unreliable. It’s not reliable because on a different machine the same element may take 6 seconds to load. For Selenium, the best practice is to use a <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener noreferrer">Wait Method</a> such as an <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/#ExplicitWait" rel="noopener noreferrer">Explicit Wait</a> statement. <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/#ExplicitWait" rel="noopener noreferrer">Explicit Wait</a> is dynamic and pauses execution until time expires or an expected condition is met.</p>
-<h3><a target="_blank" id="TakeScreenshots" rel="noopener noreferrer"><strong>Take Screenshots For Every Failure</strong></h3>
-<p>At some point, our automation Test Script will face a failure. When it happens, we are not sure if it’s a bug in the AUT or a problem with our code. Capturing a screenshot on a failure is a best practice because it saves time when investigating the reason for a <a target="_blank" href="https://blog.testproject.io/2020/10/11/what-to-do-when-tests-fail/" rel="noopener noreferrer">test failure</a>. There are some projects that take screenshots of all steps whether they pass or fail. The following code snippet uses getScreenshotAs method to take a screenshot.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">@Test
-public void captureScreenshotOnFailure () throws IOException 	{
-  WebDriverManager.chromedriver().setup();
-  WebDriver driver = new ChromeDriver ();
-  driver.manage().window().maximize();
-  
-  driver.get("https://example.testproject.io/web/index.html");
-  driver.findElement(By.id("name")).sendKeys("Selenium Automation");
-  driver.findElement(By.id("password")).sendKeys("3434");
-  driver.findElement(By.id("login")).click();
-  
-
-  File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-  FileUtils.copyFile(source, new File("TestProject Screenshot.png"));
-}</pre>
-<p></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-15669 size-full" title="TestProject’s Example page" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.1-TestProject-Example-Page-1.png" alt="TestProject’s Example page" width="675" height="389" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.1-TestProject-Example-Page-1.png 675w, https://blog.testproject.io/wp-content/uploads/2020/11/13.1-TestProject-Example-Page-1-512x295.png 512w" sizes="(max-width: 675px) 100vw, 675px"/></noscript></p>
-<p><u>Note</u>: TestProject’s <a target="_blank" href="https://example.testproject.io/web/index.html" rel="noopener noreferrer">Example page</a> has 12345 as a password hint but the Test Script entered 3434. Therefore, the executed test script passed due to an expected invalid password message.</p>
-<h3><a target="_blank" id="LogReport" rel="noopener noreferrer"><strong>Setup Detailed Logging &amp; Reporting</strong></h3>
-<p>Setting up detailed logs and reports enhance our test. Logs generate information that occurs within the AUT. Reports help measure and keep track of the Test Results. A popular logging API is Log4j. It has log levels that can be defined in our code. In order, the log levels are:</p>
-<ol>
-<li><strong><u>All</u></strong> – logs everything by turning all logs on</li>
-<li><strong><u>Debug</u></strong> – prints helpful debugging information events</li>
-<li><strong><u>Info</u></strong> – prints informational messages that highlight an application’s progress</li>
-<li><strong><u>Warn</u></strong> – prints potentially harmful information concerning faulty behavior</li>
-<li><strong><u>Error</u></strong> – prints error events that might allow the application to keep running</li>
-<li><strong><u>Fatal</u></strong> – prints critical information that causes the application to crash</li>
-<li><strong><u>Off</u></strong> – turns off all logs</li>
-</ol>
-<p>Extent and Allure are reports that can be integrated with <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener noreferrer">Selenium</a>. They provide a big picture representation of the test and details (pass or fail) regarding each test. The following is a screenshot of the extent report.</p>
-<p><img loading="lazy" class="alignnone wp-image-15666 size-full" title="Extent Report -Selenium Automation" alt="Extent Report -Selenium Automation" width="922" height="449" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png 922w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-512x249.png 512w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-768x374.png 768w" data-lazy-sizes="(max-width: 922px) 100vw, 922px" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png"/></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-15666 size-full" title="Extent Report -Selenium Automation" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png" alt="Extent Report -Selenium Automation" width="922" height="449" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report.png 922w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-512x249.png 512w, https://blog.testproject.io/wp-content/uploads/2020/11/13.2-Extent-Report-768x374.png 768w" sizes="(max-width: 922px) 100vw, 922px"/></noscript></p>
-<p>In <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener noreferrer">this</a> comparison article, you can read more about <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener noreferrer">8 leading test reporting tools for Selenium</a>, amongst them is <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> that automatically creates out of your Selenium tests detailed HTML/PDF <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener noreferrer">test reports and dashboards</a> in a cloud-based environment. You can read more about it here:</p>
-<h2><a target="_blank" id="TipsComponents" rel="noopener noreferrer"><strong>Tips/Components For Selenium</strong></h2>
-<p>In addition to the best practices, the following are components/tips to optimize Selenium Automation. They will help our project operate in a first-rate manner:</p>
-<h3><a target="_blank" id="Programming" rel="noopener noreferrer"><strong>Programming</strong></h3>
-<p><strong><u>What is Programming</u></strong>?<br />Programming is the process of creating instructions that direct a computer on how to execute a task. In alphabetical order, <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener noreferrer">Selenium</a> has <a target="_blank" href="https://www.selenium.dev/downloads/" rel="noopener noreferrer">language bindings</a> for C#, Java, <a target="_blank" href="https://blog.testproject.io/2020/06/17/selenium-javascript-automation-testing-tutorial-for-beginners/" rel="noopener noreferrer">JavaScript</a>, <a target="_blank" href="https://blog.testproject.io/2019/07/16/web-ui-testing-python-pytest-selenium-webdriver/" rel="noopener noreferrer">Python</a>, and <a target="_blank" href="https://blog.testproject.io/2016/12/21/selenium-with-ruby/" rel="noopener noreferrer">Ruby</a>.</p>
-<p><strong><u>How is Programming a Best Practice Tip For Selenium</u></strong>?</p>
-<p>It’s a best practice tip <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <u>Programming Is The Foundation For Automation.</u> That’s why some companies attempt to let developers write automation test scripts. An engineer must understand the programming principles in order to create <a target="_blank" href="https://blog.testproject.io/2020/04/22/clean-code-in-tests-what-why-and-how/" rel="noopener noreferrer">clean</a> Selenium test scripts. The WebDriver language bindings for C#, Java, JavaScript, Python, and Ruby are designed to drive actions on a browser. Each language has its own bindings. Bindings mean the same commands written for one language is also written for the other languages. For example, Java has a command to load a browser and C#, JavaScript, Python, and Ruby also have a command to load a browser.</p>
-<p><u>Note</u>: If you are using a powerful test automation tool like <a target="_blank" href="https://testproject.io/" rel="noopener noreferrer">TestProject</a> to record a test for web and mobile, then programming is not the foundation for automation. No coding skills are required. We can record our test then convert the test to a coded language (though if you wanted to, you could start straight from using TestProject’s open-sourced <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview/sdk-v1-vs-opensdk-v2" rel="noopener noreferrer">OpenSDK</a> for <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/java-sdk" rel="noopener noreferrer">Java</a>, <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/python-sdk" rel="noopener noreferrer">Python</a> or <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/csharp-sdk" rel="noopener noreferrer">C#</a>, using pure Selenium API commands).</p>
-<p>A question someone may ask is “How much programming should I know to get the most out of Selenium?”. An understanding of the core programming principles is enough to be effective with Selenium automation <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f64c.png" alt="🙌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h3><a target="_blank" id="AutomationBuildTool" rel="noopener noreferrer"><strong>Automation Build Tool</strong></h3>
-<p><strong><u>What is an Automation Build Tool</u></strong>?<br />An automation build tool compiles source code and machine code. It automates the whole process of converting files and a variety of assets. Some of the advantages are:</p>
-<ul>
-<li>Improving product quality</li>
-<li>Eliminating redundant tasks</li>
-<li>Containing a history of builds and releases</li>
-</ul>
-<p><strong><u>How is an Automation Build Tool a Best Practice Tip For Selenium</u></strong>?<br />An Automation Build Tool like <a target="_blank" href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java" rel="noopener noreferrer">Maven or Gradle</a> is a best practice tip because it prevents us from downloading Selenium for every update. Downloading Selenium is not a bad idea but a build tool is faster and easier to update via dependency management system. We can replace the Selenium dependency for Maven in a pom.xml file or Gradle through a build.gradle file. In addition to updating Selenium, Maven and Gradle are designed to manage our projects. It comes with a pre-defined folder structure to add our Selenium test scripts. Here’s a screenshot of Maven’s pre-defined folder structure:</p>
-<p><img loading="lazy" class="alignnone wp-image-15667 size-full" title="Maven’s pre-defined folder structure" alt="Maven’s pre-defined folder structure" width="255" height="200" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.3-Maven-Folder-Structure.png"/></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-15667 size-full" title="Maven’s pre-defined folder structure" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.3-Maven-Folder-Structure.png" alt="Maven’s pre-defined folder structure" width="255" height="200"/></noscript></p>
-<h3><a target="_blank" id="TestFramework" rel="noopener noreferrer"><strong>Test Framework</strong></h3>
-<p><strong><u>What is a Test Framework</u></strong>?<br />A Test Framework provides a collection of guidelines to test our automation Test Scripts. We can perform all sorts of testing such as regression testing, integration testing, data-driven testing, etc. The purpose is to simplify the process of testing an AUT.</p>
-<p><strong><u>How is a Test Framework a Best Practice Tip For Selenium</u></strong>?<br />A Test Framework such as <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/" rel="noopener noreferrer">TestNG</a> is a best practice tip because it comes with a set of assertion statements. There are multiple benefits but an assertion statement verifies whether our test Pass or Fail. We have the option of implementing a <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#hard-assertions" rel="noopener noreferrer">Hard Assert</a>, <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#soft-assertions" rel="noopener noreferrer">Soft Assert</a>, or a mix of Hard and Soft Asserts.</p>
-<p>An example of using a hard assert is failing to sign into an application. It’s best to use a <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#hard-assertions" rel="noopener noreferrer">Hard Assertion</a> because there is no value in attempting to executing the remaining test. However, if verifying an application is not critical then we can use a <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#soft-assertions" rel="noopener noreferrer">Soft Assertion</a>. We must use a method called assertAll to receive all AssertionErrors and fail the Test Script.</p>
-<h3><a target="_blank" id="DesignPattern" rel="noopener noreferrer"><strong>Design Pattern – Page Object Model</strong></h3>
-<p><strong><u>What is a Design Pattern</u></strong>?<br />A <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener noreferrer">design pattern</a> is a reusable solution in software development that address recurring problems. It has a relationship between classes, objects, and methods to perform the solution. To solve those recurring problems, our design pattern should incorporate Object-Oriented Programming concepts.</p>
-<p><strong><u>How is a Design Pattern a Best Practice Tip For Selenium</u></strong>?<br />The Design Pattern is a best practice tip because it has 3 benefits. It helps reduce code reusability, improve code readability, and promote code maintainability.</p>
-<ul>
-<li><u>Code reusability</u> is when we reuse code in multiple locations in our program.</li>
-<li><u>Code readability</u> means the code is easy to follow.</li>
-<li><u>Code maintainability</u> means it will take less time to make a change to our code.</li>
-</ul>
-<p>The most popular design pattern is Page Object Model. It has classes that represent each page of an application. Elements and interactions with those elements are stored separately from our Test Scripts. Here’s a screenshot that illustrates the Page Object Model.</p>
-<p><img loading="lazy" class="alignnone wp-image-15670 size-full" title="Page Object Model" alt="Page Object Model" width="764" height="529" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png 764w, https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1-512x355.png 512w" data-lazy-sizes="(max-width: 764px) 100vw, 764px" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png"/></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-15670 size-full" title="Page Object Model" src="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png" alt="Page Object Model" width="764" height="529" srcset="https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1.png 764w, https://blog.testproject.io/wp-content/uploads/2020/11/13.4-Page-Object-Model-Screenshot-1-512x355.png 512w" sizes="(max-width: 764px) 100vw, 764px"/></noscript></p>
-<h3><a target="_blank" id="AutomationFramework" rel="noopener noreferrer"><strong>Automation Framework</strong></h3>
-<p><strong><u>What is an Automation Framework</u></strong>?<br />An automation framework is a comprehensive set of tools used for building test scripts to support automation. The tools are integrated with guidelines and processes such as:</p>
-<ul>
-<li>Test Data</li>
-<li>Test Libraries</li>
-<li>Coding Standards</li>
-<li>Reusable Modules</li>
-</ul>
-<p><strong><u>How an Automation Framework a Best Practice Tip For Selenium</u></strong>?<br />An automation framework is a best practice tip because it produces desired results and processes that’s scalable. The following are some frameworks for Selenium automation:</p>
-<ul>
-<li><u>Data-Driven Framework</u> uses an external source like Excel to send data as input to our Automation Test Script.</li>
-<li><u>Keyword-Driven Framework</u> reads a set of instructions based on keywords from an external source like Excel.</li>
-<li><u>Hybrid Framework</u> combines the Data-Driven and Keyword-Driven Frameworks.</li>
-<li><u>Behavior Driven Development (BDD)</u> is a development approach that facilitate communication between technical and non-technical people. Test Scripts are written in a plain English language called Gherkin.</li>
-</ul>
-<h3><a target="_blank" id="CICD" rel="noopener noreferrer"><strong>Continuous Integration/Continuous Deployment</strong></h3>
-<p><strong><u>What is Continuous Integration/Deployment</u></strong>?<br />Continuous Integration and Continuous Deployment (CI/CD) is a process that involves frequent and reliable code changes to the main branch. A couple of benefits consist of high quality and fast delivery. Quality is high when the build has minimal errors. Delivery is fast to the customers after committing repeated code changes.</p>
-<p><strong><u>How is Continuous Integration/Deployment a Best Practice Tip For Selenium</u></strong>?<br /><a target="_blank" href="https://blog.testproject.io/2020/11/09/top-ci-cd-tools/" rel="noopener noreferrer">CI/CD</a> is a best practice tip because it empowers technical teams to focus on quality and meeting business requirements. Selenium Automation helps by responding to frequent changes by the customer. We have the option of kicking off Test Scripts within their own CI job or integrated with the development CI job. Here’s the difference between CI and CD:</p>
-<ul>
-<li><u>Continuous Integration (CI)</u> authorizes a consistent way to build, package, and test applications.</li>
-<li><u>Continuous Deployment (CD)</u> automates the delivery of applications.</li>
-</ul>
-<p>Combining CI/CD requires Selenium to continuous testing applications so they are delivered with quality and sent to customers.</p>
-<p>That wraps up <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener noreferrer">Selenium WebDriver: From A to Z</a> and the best practices for Selenium Automation. Hope you enjoyed and would love for you to share your feedback and/or additional Selenium tips and tricks in the comments below <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/12/03/selenium-automation-best-practices-tips-you-must-know/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Tech Talk: How to Become an Appium Desktop Ninja, Chapter 2</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-2/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Appium]]></category>
-		<category><![CDATA[Chapter]]></category>
-		<category><![CDATA[Desktop]]></category>
-		<category><![CDATA[Ninja]]></category>
-		<category><![CDATA[talk]]></category>
-		<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-2/</guid>
-
-					<description><![CDATA[This week we kicked off a new Sauce Labs tech talk series, How to become an Appium Desktop Ninja, presented]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>This week we kicked off a new Sauce Labs tech talk series, How to become an Appium Desktop Ninja, presented by Wim Selles, Senior Solutions Architect. In <a target="_blank" href="https://saucelabs.com/blog/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-1" rel="noopener noreferrer">Chapter 1</a>, we looked at the theory and background of Appium, learned about the different types of apps you can automate with it, and dove deep into how Appium works to provide you with all the foundational knowledge you need to get started. </p>
-<p>In this second chapter, you will learn how to configure an Android emulator or an iOS simulator on your local machine. Wim will review the prerequisites to set up Android emulators and iOS simulators, walk you through the different environment variables, and demonstrate specific tips for the configuring process in an interactive live demo session.</p>
-<div class="video">
-<p><iframe title="Sauce Labs Tech Talk: How to Become an Appium Desktop Ninja- Chapter 2" width="800" height="450" src="https://www.youtube.com/embed/BL3ruGJmwwk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</div>
-<p>Ready for the next steps? Stay tuned for our upcoming videos in this series!</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/tech-talk-how-to-become-an-appium-desktop-ninja-chapter-2">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ACTION REQUIRED: Secure Your Testing Experience &#8211; Best Practices for Updating Sauce Connect</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/action-required-secure-your-testing-experience-best-practices-for-updating-sauce-connect/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[ACTION]]></category>
-		<category><![CDATA[Connect]]></category>
-		<category><![CDATA[Experience]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[REQUIRED]]></category>
-		<category><![CDATA[Sauce]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Updating]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/action-required-secure-your-testing-experience-best-practices-for-updating-sauce-connect/</guid>
-
-					<description><![CDATA[Sauce Labs provides a number of features that help secure your testing experience and ensure that your data and applications]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Sauce Labs provides a number of features that help secure your testing experience and ensure that your data and applications are safe while using our cloud platform. One of the most popular features is <a target="_blank" href="https://saucelabs.com/resources/white-papers/sauce-connect-proxy-security-overview" rel="noopener noreferrer">Sauce Connect Proxy</a>—a built-in HTTP proxy server that opens a secure &#8220;tunnel&#8221; connection for testing between a Sauce Labs virtual machine or real device and a website or mobile app hosted on your local computer (&#8220;localhost&#8221;) or behind a corporate firewall. It provides a means for Sauce Labs to securely access your application or website. </p>
-<p>Over last two years, our team has continually updated Sauce Connect with new features, security improvements, and critical bugs fixes related to functionality and performance, including:</p>
-<ul>
-<li>
-<p>Fixed file descriptor leaks</p>
-</li>
-<li>
-<p>Mitigated unexpected crashes</p>
-</li>
-<li>
-<p>Enabled support for Apple’s best practice for network security (App Transport Security &#8211; ATS) for sites/apps with self signed certificates</p>
-</li>
-<li>
-<p>Improved PAC file parsing</p>
-</li>
-<li>
-<p>Added validation of of command line inputs for tunnel and direct domains</p>
-</li>
-<li>
-<p>Introduced use of certificates signed by a Certificate Authority (CA) rather than self-signed certificates in Sauce Labs internal tunneling infrastructure</p>
-</li>
-<li>
-<p>Introduced OCSP certificate validation</p>
-</li>
-<li>
-<p>Implemented application Notarization on MacOS &#8211; Catalina and newer require Sauce Connect client binary to be Apple notarized</p>
-</li>
-</ul>
-<p>To take advantage of all these improvements, we have been strongly encouraging customers to upgrade to the latest stable release &#8211; <a target="_blank" href="https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy" rel="noopener noreferrer">4.6.2</a>. The latest version has been in production without any known major issues.</p>
-<p>To help improve the security posture of Sauce Labs and our users, we recently announced that we will discontinue support for older Sauce Connect versions. Our plan is to deprecate versions 4.5.0 and below on Dec 31, 2020 and versions 4.6.2.and below on March 31,  2021. These changes impact customers using old, standalone Sauce Connect binaries as well those using old the Sauce Connect binary prepackaged with our OnDemand Jenkins Plugin.</p>
-<h3>Update Process</h3>
-<p>Customers who are still using an outdated version of Sauce Connect should follow these steps to make the appropriate updates:</p>
-<ul>
-<li>
-<p>If you use an old, standalone Sauce Connect binary (version 4.5.0 or below) then please upgrade to Sauce Connect 4.6.2 or above from the <a target="_blank" href="https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy" rel="noopener noreferrer">following link</a>. Test the new version in a development or staging environment by running some manual and automated tests. If you don’t notice any issues then please upgrade your production environment to the new version.</p>
-</li>
-<li>
-<p>If you use an old Sauce Connect binary prepackaged with the <a target="_blank" href="https://plugins.jenkins.io/sauce-ondemand/" rel="noopener noreferrer">Sauce OnDemand Jenkins plugin</a> (versions 1.187 and below) then please use Jenkins system configuration to update to the latest OnDemand Jenkins plugin (or version 1.188 or higher).</p>
-</li>
-</ul>
-<h3>Best Practice and Future Releases</h3>
-<p>We regularly ship new features and improvements with Sauce Connect client releases. We recommend that customers use the latest version of Sauce Connect released in the last three months and make routine updates to the Sauce Connect client. </p>
-<p><i><b>In 2021, we are planning to make several fundamental changes in Sauce Connect backend. These changes will necessitate discontinued support for all previous versions of the Sauce Connect client. In preparation for this change we strongly encourage customers to prepare and test processes for all of their environments (dev, stage, and production) that will give them flexibility to upgrade the Sauce Connect client on short notice.</b></i></p>
-<p>Please contact support@saucelabs.com if you have any questions or need additional information.</p>
-</div>
-<p><br />
-<br /><a href="https://saucelabs.com/blog/secure-your-testing-experience-best-practices-for-updating-sauce-connect">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -900,5 +713,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-07 06:38:20 by W3 Total Cache
+Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-07 22:01:22 by W3 Total Cache
 -->
