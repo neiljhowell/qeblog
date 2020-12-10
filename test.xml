@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 07 Dec 2020 16:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Dec 2020 16:40:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,320 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>COVID-19 Vaccine Cyberattacks Steal Credentials, Spread Zebrocy Malware</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/covid-19-vaccine-cyberattacks-steal-credentials-spread-zebrocy-malware/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 09 Dec 2020 16:40:43 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Credentials]]></category>
+		<category><![CDATA[Cyberattacks]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Spread]]></category>
+		<category><![CDATA[Steal]]></category>
+		<category><![CDATA[Vaccine]]></category>
+		<category><![CDATA[Zebrocy]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/covid-19-vaccine-cyberattacks-steal-credentials-spread-zebrocy-malware/</guid>
+
+					<description><![CDATA[Cybercriminals are leveraging the recent rollout of the COVID-19 vaccines globally in various cyberattacks &#8211; from stealing email passwords to]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Cybercriminals are leveraging the recent rollout of the COVID-19 vaccines globally in various cyberattacks &#8211; from stealing email passwords to distributing the Zebrocy malware.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/covid-19-vaccine-cyberattacks-credentials-zebrocy/162072/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The future of DevOps: 21 predictions for 2021</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/the-future-of-devops-21-predictions-for-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 09 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[future]]></category>
+		<category><![CDATA[predictions]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/the-future-of-devops-21-predictions-for-2021/</guid>
+
+					<description><![CDATA[Culture and leadership Business leaders will increasingly value DevOps, showing that the work of the DevOps enterprise community matters to the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div style="margin:0px">
+<h3><strong>Culture and leadership</strong></h3>
+<h4>Business leaders will increasingly value DevOps, showing that the work of the DevOps enterprise community matters to the people who matter.</h4>
+<p>One of the most amazing dynamics within the DevOps enterprise community is seeing business leaders co-presenting success stories with their technology leadership counterparts. For example, Ken Kennedy (executive vice president and president for Technology and Product at CSG) and Kimberly Johnson (chief operating officer at Fannie Mae) described the achievements of their technology leadership counterparts and why it was important to them. I expect this trend to continue, especially given how COVID-19 has accelerated the rate of digital disruption. I believe this bodes well for all of technology.<br /><em>— <a target="_blank" href="https://twitter.com/RealGeneKim" rel="nofollow noopener noreferrer">Gene Kim</a>, author and founder of IT Revolution</em></p>
+<h4><strong>Hybrid product teams will become a pillar of customer value delivery.</strong></h4>
+<p>With the rise of hybrid (remote/in-office) product teams, upskilling and online training initiatives will expand. As the pressure continues to rise to sell products and services through e-commerce sites, apps, or SaaS solutions, the lines between product and engineering teams will rapidly blur, giving rise to cross-functional, multidisciplinary teams that must learn and grow together. Each member will need to develop a wider combination of process skills, soft skills, automation skills, functional knowledge, and business knowledge, while maintaining deep competency in their focus areas. Product and engineering teams will be measured on customer value delivered, rather than just features or products created. <br /><em>—<a target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://twitter.com/JayneGroll&amp;source=gmail&amp;ust=1606243788660000&amp;usg=AFQjCNEfZETzbhas29XNzVJUFXk3Aino-Q" href="https://twitter.com/JayneGroll" rel="nofollow noopener noreferrer">Jayne Groll</a>, CEO of the DevOps Institute and author of the </em>2020 Upskilling Report</p>
+<h4><strong>Corporate culture will transform as business leaders shift their focus to systems thinking, to drive strategic investments.</strong></h4>
+<p>Business leaders faced the dilemma of knowing they need to improve time-to-market in order to remain competitive while on a limited budget. Millions of dollars have been spent on digital transformation, which (at best) has yielded local optimizations but not systemic business outcomes. This will drive a focus on applying systems thinking to first identify where and what types of investments will result in delivering desired business outcomes and then scaling these concepts across the organization.  <br /><em>—<a target="_blank" href="https://www.linkedin.com/in/carmendeardo/" rel="nofollow noopener noreferrer">Carmen DeArdo</a>, senior value stream management strategist, Tasktop Technologies</em></p>
+<h3><strong>Security</strong></h3>
+<div dir="ltr" style="margin:0px">
+<div style="margin:0px">
+<h4>CISOs will embrace DevSecOps methodologies.</h4>
+<p>Cloud-native security will rise higher on the agenda for CISOs as their organizations embrace Kubernetes, serverless, and other cloud-native technologies. It’s a significant cultural shift to embed security within DevOps practices, but it’s necessary: Businesses are moving to the cloud so they can deliver new features quickly and at high frequency, and security teams need to embrace new tools and processes to ensure that these deployments are safe as well as fast.<br /><em>—<a target="_blank" href="https://twitter.com/lizrice" rel="nofollow noopener noreferrer">Liz Rice</a>, vice president, open-source engineering, Aqua Security</em></p>
+<h4><strong>Application security will no longer be an afterthought.</strong></h4>
+<p>As more teams adopt the nimble iteration of DevOps, they won&#8217;t have time for a lengthy security testing cycle. That&#8217;s why 2021 will be the year when we officially bury the separate, after-the-fact model of software application security.</p>
+<p>As 2021 progresses, more application teams will take full responsibility for their own security, with appropriate support from the security team. As responsibility and budgets shift, application teams will increasingly adopt a DevSecOps process, in which they fully leverage automation to maximize velocity, and develop a culture of continuous improvement that allows each team to tune and optimize its processes.<br /><em>—<a target="_blank" href="http://www.linkedin.com/in/jonathan-knudsen-b728256/" rel="nofollow noopener noreferrer">Jonathan Knudsen</a>, senior security strategist, Synopsys</em></p>
+</div>
+</div>
+<h4><strong>More developers will move to application security&#8217;s front lines.</strong></h4>
+<p>As developers continue to migrate to the front lines of application security, more development teams will achieve measurably better security and productivity outcomes. By 2024, 40% of development teams will make it into the high-performer category, up from 25% today, demonstrating both high-velocity releases and strong security outcomes. The bad news is that adversaries will continue to outpace them when it comes to finding successful exploit paths to new vulnerabilities.<br /><em>—<a target="_blank" href="https://twitter.com/weekstweets" rel="nofollow noopener noreferrer">Derek Weeks</a>, vice president and DevOps advocate at Sonatype, and co-founder of the All Day DevOps conference</em></p>
+<h4><strong>DevOps teams will see the value of threat modeling through security partnerships.</strong></h4>
+<p>Application and software security professionals have known about the value proposition of threat modeling for a decade. In 2021, we&#8217;ll see developers embracing threat modeling as security continues to cement existing partnerships and teaches developers to build threat models. DevOps is all about collaboration, and 2021 is the year for the security teams in big and small organizations to break down walls and change the security culture at scale.<br /><em>—<a target="_blank" href="https://twitter.com/edgeroute" rel="nofollow noopener noreferrer">Chris Romeo</a>, CEO, principal consultant, and co-founder of Security Journey</em></p>
+<h4><strong>The acceleration of cloud adoption during the pandemic will shift the software security landscape dramatically.</strong></h4>
+<p>While DevOps represents a clear evolution in the way that software is built, delivered, and operated, the architecture, composition, and very definition of applications will continue to change rapidly, leading to a rethink of software security approaches. These dual pressures of delivery velocity and cloud transformation will have a big impact on software security.</p>
+<p>To get ahead of cloud transformation, software security will evolve into a risk-based vulnerability management service that seeks to automate and orchestrate security services as part of the software build-and-delivery pipeline. Security teams will arm developers with “point of capture” tools and coaching to eliminate vulnerabilities during development and provide policy guardrails for enabling speed. Throughout the pipeline, orchestrated security services will automatically reinforce the policy guardrails and enable risk-based vulnerability management for overburdened, under-resourced security teams that are challenged to get in front of cloud adoption. This will result in an increased demand for API security, cloud application security, application security orchestration services, and consolidated, risk-based vulnerability management approaches to software risk reduction.<br /><em>—<a target="_blank" href="https://twitter.com/raidschmitt" rel="nofollow noopener noreferrer">Jason Schmitt,</a> general manager of the Synopsys Software Integrity Group</em></p>
+<h4>Cybersecurity will move out of the dark ages as intelligent cybersecurity emerges.</h4>
+<p>For years, both DevOps and security teams have struggled to implement security across ever-changing and complex environments. Today&#8217;s reactive approach to cybersecurity, with agent-based scanning and manual orchestration tools, has led to endless vulnerabilities. But in 2021, reactive security approaches will become a distant memory, part of an era that will come to be known as the &#8220;cybersecurity dark ages.&#8221; Cybersecurity in this new era will rely on intelligent machine-generated code that builds security, compliance and infrastructure in minutes.   </p>
+<p>DevOps and security teams will use intelligence-based code solutions to automatically build secure infrastructure, replacing manual attempts to fix vulnerabilities. Teams won&#8217;t have to spend limited financial and personnel resources building secure infrastructures. Rather, the trend will use artificial intelligence and machine learning to build secure infrastructure. <br /><em>—<a target="_blank" href="https://www.linkedin.com/in/lisa-azevedo-7031274/" rel="nofollow noopener noreferrer">Lisa Azevedo</a>, founder and CEO of Containn </em></p>
+<h3><strong>Analytics and automation</strong></h3>
+<h4><strong>Predictive DevOps will be the next transformation that will deliver business value.</strong></h4>
+<p>This is about using AIOps techniques across the delivery chain to be more efficient in delivering continuous value improvements for the business. To achieve true value, DevOps teams will pivot toward monitoring the business instead of monitoring the application or infrastructure. As a consequence, many dev and ops organizations will realize that they do not have the right skill set to understand what really matters to the business—and the concept of BizDevOps will be born. Business people will become part of the team that delivers digital instead of being a consumer of digital.<br /><em>—<a target="_blank" href="https://twitter.com/larsrossen" rel="nofollow noopener noreferrer">Lars Rossen</a>, chief technology officer, Micro Focus</em></p>
+<h4><strong>Autonomous DevOps automation will become the new normal.</strong></h4>
+<p>DevOps will rely on more advanced and autonomous techniques to generate automated outputs across various stages and activities within the lifecycle. To that end, robotic process automation tools will invade the DevOps ecosystem and help with automation of manual and error-prone tasks for greater productivity. In addition, augmenting digital apps and automating end-to-end user flows and testing will become a reality in a codeless manner. This will allow teams to cut down their test automation time. Code reviews for better validation of post-code commits will also join standard unit testing and human code reviews. These will better enable the identification of more complex security, functionality, and performance issues.<br /><em>—<a target="_blank" href="http://twitter.com/ek121268" rel="nofollow noopener noreferrer">Eran Kinsbruner</a>, chief evangelist for Perfecto, Perforce Software</em></p>
+<h4><strong>Analytics techniques will be adopted at every step in the software development lifecycle to make smarter decisions.</strong> </h4>
+<p>This will enable, for example, optimal business prioritization of backlog items to maximize customer satisfaction, effective testing validation to minimize risk through change impact assessment, and shorter time to resolve application problems through anomaly detection and proactive resolution. This will be enabled through analytical systems that will ingest big data across the value stream, including human and machine data, using a variety of analytics techniques such as machine learning, deep learning, NLP, etc.<br /><em>—<a target="_blank" href="https://www.linkedin.com/in/mark-conway-668ab11/" rel="nofollow noopener noreferrer">Mark Conway</a>,<strong> </strong>director, Office of the CTO, Micro Focus</em></p>
+<h3><strong>Operations management</strong></h3>
+<h4><strong>DevOps will integrate with AIOps to provide seamless operational feedback, and automated bug fixes will remove most human involvement.   </strong></h4>
+<p>Organizations will begin to understand AIOps&#8217; true potential for DevOps. While CloudOps teams understand that AIOps provides a layer of automation to remove the humans from having to deal the rising multicloud complexity, organizations are now considering integration with DevOps tool chains and processes. The advantages of leveraging AIOps as part of the DevOps tool chain includes the ability to leverage automated operational feedback from AIOps tools, including root-cause analysis and data consolidation/aggregation, that allows organizations to summarize gigabytes of operational data and direct that back to developers for application improvement, as well as to the automated DevOps systems such as testing, integration, and deployment. The objective will be to provide automated improvement of application operations, without having to have humans figure out what’s wrong and how to fix it. <br /><em>—<a target="_blank" href="https://twitter.com/davidlinthicum" rel="nofollow noopener noreferrer">David Linthicum</a>, chief cloud strategy officer at Deloitte Consulting</em></p>
+<h4><strong>Microservice configuration management will become critical for tracking and deploying logical application versions and microservices across clusters.</strong></h4>
+<p>Tracking the versions of microservices running across all clusters will become increasingly difficult as organizations embrace Kubernetes. In the process, those organizations will lose the concept of application versions and instead will need to track microservice relationships and configurations cluster by cluster.</p>
+<p>To address the challenge, organizations will begin automating configuration management of microservices, versions, and the logical applications they create before deploying them to clusters. Those configuration insights will provide DevOps teams with the data they need to make informed decisions and the confidence to push microservices across dozens of clusters all day long. The bottom line: You will still need the ability to control what you release to your end users. Tracking the configurations and versions of services to application relationships will eliminate the risk and complexity of a microservice implementation. <br /><em>—<a target="_blank" href="https://twitter.com/@tracyragan" rel="nofollow noopener noreferrer">Tracy Ragan</a>, CEO and co-founder, DeployHub</em></p>
+<h4><strong>Organizations will strive to achieve the platform-as-a-product model for internal platforms, but adoption will be difficult.</strong></h4>
+<p>Organizations seeking to limit the cognitive load on software product teams have successfully used a platform-as-a-product model for defining, refining, and running their internal platforms. By applying to internal platforms the product management approaches normally used for B2C and B2B cloud products—such as UX, user personas, Net Promoter Score (NPS), and fine-grained cost tracking—organizations will find that their internal platforms are more responsive, less bloated, and less constraining to software product teams. But treating an internal platform as a product needs a different mindset and approach compared to the inflexible, monolithic, and cumbersome internal platforms of the past. Many organizations will adopt the surface aspects of platform as a product without the deep change needed; without true product management and a focus on UX, these approaches will flounder.<br /><em>—<a target="_blank" href="https://twitter.com/matthewpskelton" rel="nofollow noopener noreferrer">Matthew Skelton</a>, founder of Conflux and co-author of the book </em><a target="_blank" href="https://teamtopologies.com/book" rel="nofollow noopener noreferrer">Team Topologies</a></p>
+<h3><strong>Development</strong></h3>
+<div dir="ltr" style="margin:0px">
+<p><h4><strong>Developers will have more say in the technology direction and data strategy of their companies.</strong></h4>
+</p>
+</div>
+<p>Expect an aggressive “shift left” across all industries, where CIO’s will depend more on their development teams to guide the technical direction of the company. Historically, development teams have taken a top-down approach to move their data to the cloud, but, as with many things in the world, that changed with the pandemic and the subsequent reinforcement of cloud-based environments. In 2021, DevOps teams will continue to have far more say in the data strategy process, and as a result we’ll see a greater increase in the mobility of workloads, correlating with an increase in cloud data management techniques.<br /><em>—<a target="_blank" href="http://twitter.com/dannyallan5" rel="nofollow noopener noreferrer">Danny Allan</a>, chief technology officer, Veeam</em></p>
+<h4><strong>In an all-digital world, developers will have a more important seat at the table.</strong></h4>
+<p>Rapid technology advancements, sweeping changes in business priorities, and a seemingly insatiable demand for software have collided—meaning developer roles will evolve and will have a more important seat at the table. GitLab’s latest DevSecOps survey found that developers are already seeing this change and reporting new ops and security responsibilities while releasing software at a faster rate. In 2021, software will be seen as critical to business success, and developers will become embedded in business teams, rather than technology teams.<br /><em>—<a target="_blank" href="https://twitter.com/olearycrew" rel="nofollow noopener noreferrer">Brendan O&#8217;Leary</a>, senior developer evangelist, GitLab</em></p>
+<h4><strong>Organizations will finally realize that deploying to production on every code commit isn&#8217;t always appropriate.</strong></h4>
+<p>Though much is made of the big tech companies’ ability to deploy to production many times per hour and deploy to production on each code commit, organizations will begin to realize that that approach isn’t always appropriate. In order to succeed with that level of code commits, an organization’s software and associated delivery must have both a low cost of change and a low cost of failure. The big tech companies have lots of resources that they can choose to expend on establishing and maintaining these low costs. Most organizations will realize, however, that they don’t fall into that “deep pockets” category, and so they must craft continuous delivery processes that are consistent with that organization’s tolerance for change and failure. More organizations will be responsible and appropriate with their expectations and plans in 2021.<br /><em>—<a target="_blank" href="https://twitter.com/pgrizzaffi" rel="nofollow noopener noreferrer">Paul Grizzaffi</a>, principal automation architect at Magenic</em></p>
+<h4><strong>DevOps will follow the path of &#8220;BADgile,&#8221; becoming DevOps for most teams.</strong></h4>
+<p>Many teams are mistakenly “doing agile” rather than “being agile” and have ended up with &#8220;BADgile,&#8221; and this same affliction will also affect teams moving to DevOps in the coming year. Their over-focus on automation tools will result in missed requirements and more defects pushed into production.</p>
+<p>Successful DevOps teams will improve their end-to-end processes first, including robust automated and manual testing to validate quality standards and security requirements, and the segregation of duties across workflows. Because you can&#8217;t fail fast enough to make up for poor quality.<br /><em>—<a target="_blank" href="https://twitter.com/hanseckman" rel="nofollow noopener noreferrer">Hans Eckman</a>, principal research director, applications—agile development and management, Info-Tech Research Group</em></p>
+<h3>Value streams</h3>
+<h4><strong>DevOps will expand from product delivery to value delivery.</strong></h4>
+<p>DevOps will expand beyond product delivery to business value delivery and value stream delivery, enabling a broader digital transformation. This requires taking an outside-in view from the business outcomes back into the people, processes, and technologies required to power them. We will see tighter collaboration between business stakeholders and delivery teams, aligning goals and measuring the right business KPIs such as customer satisfaction, usage, and transaction rates, followed by continuous adaptations in processes and technologies to improve them.<br /><em>—<a target="_blank" href="https://www.linkedin.com/pub/yaniv-sayers/1/658/234" rel="nofollow noopener noreferrer">Yaniv Sayers</a>,<strong> </strong>senior director and chief technologist, Micro Focus</em></p>
+<h4><strong>DevOps journeys will accelerate as teams adopt value stream management practices and platforms cross-organization.</strong></h4>
+<p>DevOps debuted with <a target="_blank" href="https://itrevolution.com/the-three-ways-principles-underpinning-devops/" rel="nofollow noopener noreferrer">the Three Ways</a>, the first of which focuses on optimizing the flow of work, but teams are still struggling with understanding and improving cycle times from idea to value realization. Increasingly, organizations will be designing around value streams, and value stream mapping has long been established as a de facto practice for laying the groundwork for making improvements based on DevOps principles. Where value stream mapping failed, in driving ongoing, continuous and data-driven conversations that measure progress in a DevOps journey, value stream management will win. It connects the elements of the DevOps toolchain, allowing visibility of value, since it starts as an idea and continuing through its journey until it reaches the customer. By inspecting their value stream management platform’s data and insights, teams will be able to adapt, choose whether to pivot or persevere based on value stream performance, and receive real-time customer feedback.<br /><em>—<a target="_blank" href="https://twitter.com/BealHelen" rel="nofollow noopener noreferrer">Helen Beal</a>, chief ambassador, DevOps Institute</em></p>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/future-devops-21-predictions-2021">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>D-Link Routers at Risk for Remote Takeover from Zero-Day Flaws</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/d-link-routers-at-risk-for-remote-takeover-from-zero-day-flaws/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 09 Dec 2020 14:56:14 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DLink]]></category>
+		<category><![CDATA[Flaws]]></category>
+		<category><![CDATA[Remote]]></category>
+		<category><![CDATA[Risk]]></category>
+		<category><![CDATA[Routers]]></category>
+		<category><![CDATA[Takeover]]></category>
+		<category><![CDATA[ZeroDay]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/d-link-routers-at-risk-for-remote-takeover-from-zero-day-flaws/</guid>
+
+					<description><![CDATA[Critical vulnerabilities discovered by Digital Defense can allow attackers to gain root access and take over devices running same firmware.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Critical vulnerabilities discovered by Digital Defense can allow attackers to gain root access and take over devices running same firmware.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/d-link-routers-zero-day-flaws/162064/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>A Guide to Automated Testing with Drupal and Applitools</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/a-guide-to-automated-testing-with-drupal-and-applitools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 08 Dec 2020 18:12:11 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Drupal]]></category>
+		<category><![CDATA[Guide]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/a-guide-to-automated-testing-with-drupal-and-applitools/</guid>
+
+					<description><![CDATA[Introduction Traditionally, web applications built on Drupal are built using various entities like Content types, blocks, components using Layout Builder, and then]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<h2 id="h.fsfwbygp4ipr"><strong>Introduction</strong></h2>
+<p>Traditionally, web applications built on Drupal are built using various entities like Content types, blocks, components using Layout Builder, and then the product is made available to the end-user on the front-end using HTML, CSS and JavaScript. The team usually starts with back-end stories related to building various content types, related roles, and permissions, and then the front-end team picks it up to make the site more usable and accessible as per the design requirements.</p>
+<p>Of course, with component libraries like Storybook, Fractal, PatternLab, and with designs in place, the front-end team can start implementing them as component libraries in parallel, which are later integrated with Drupal.</p>
+<p>Let’s talk about testing the application in the next section.</p>
+<h2 id="h.ol22312lyu0p"><strong>Automated Testing in Drupal</strong></h2>
+<p><a target="_blank" href="http://behat.org/en/latest/" rel="noopener noreferrer">Behat</a>, <a target="_blank" href="https://phpunit.de" rel="noopener noreferrer">PHPUnit</a>, <a target="_blank" href="https://gitlab.com/weitzman/drupal-test-traits" rel="noopener noreferrer">Drupal Test Traits (DTT)</a>, and <a target="_blank" href="https://nightwatchjs.org" rel="noopener noreferrer">NightwatchJS</a> are the most widely used tools for automating tests with Drupal. There are several reasons why these tools are popular within the Drupal community, such as all these tools are PHP-based frameworks (apart from NightwatchJS), offer ready to use Drupal extensions/plugins and have huge community support.</p>
+<p>With these tools, one can automate unit, integration, and acceptance level tests. But what about automating the visual tests? That’s the missing tip of the pyramid which we will address through this blog post.</p>
+<p>We have used <a target="_blank" href="http://cypress.io/" rel="noopener noreferrer">Cypress</a> to automate the browser and <a target="_blank" href="https://applitools.com" rel="noopener noreferrer">Applitools</a> for AI-based visual validation. Our reasons for using Cypress over other tools are many, including the following:</p>
+<ol>
+<li>One can quickly get started with writing actual tests with Cypress as compared to Selenium.</li>
+<li>Cypress enables fast-paced test execution.</li>
+<li>Our <a target="_blank" href="https://www.axelerant.com/resources/team-blog/usecase-setup-e2e-testing-drupal-website-cypress" rel="noopener noreferrer">POC</a> with Cypress + Drupal proved that testing the Drupal side of things can also be achieved with Cypress.</li>
+<li>Cypress offers harmonious integration with Applitools. Having said that, please note that Applitools does have SDKs for <a target="_blank" href="https://applitools.com/tutorials/selenium-php.html" rel="noopener noreferrer">Selenium PHP</a> and <a target="_blank" href="https://libraries.io/npm/@applitools%2Feyes-nightwatch" rel="noopener noreferrer">NightwatchJS</a> and many <a target="_blank" href="https://applitools.com/tutorials/" rel="noopener noreferrer">more</a> just in case you have your existing automation functional suites written using any of the other testing frameworks.</li>
+<li>Since Cypress is a JS-based framework, developers can also contribute to writing automated tests.</li>
+</ol>
+<p>The site to demonstrate the concept is <a target="_blank" href="https://www.drupal.org/docs/umami-drupal-demonstration-installation-profile" rel="noopener noreferrer">Drupal Umami</a>, the major advantage being that the site is already constructed and we can directly focus on writing automated visual tests without having to worry about creating these pages.</p>
+<p>NOTE: If you are completely new to the concept of automated visual validation testing, then please refer to the course <a target="_blank" href="https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/" rel="noreferrer noopener">“Automated Visual Testing: A Fast Path To Test Automation Success”</a> on Test Automation University from Angie Jones.</p>
+<h2 id="h.mzma644tnsm2"><strong>Applitools and Drupal</strong></h2>
+<p>Applitools provides an <a target="_blank" href="https://applitools.com/tutorials/cypress.html" rel="noopener noreferrer">SDK</a> for Cypress which makes it very easy for us to integrate automated visual validation tests in the same functional test suite created using Cypress. The steps to configure Applitools with Cypress are straightforward and you can refer to their official <a target="_blank" href="https://applitools.com/tutorials/cypress.html" rel="noopener noreferrer">documentation</a> for more details. Let’s take a look at the test written for the Homepage. The gist as shown below:</p>
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler"/>
+<p>The test in the above example launches the homepage and verifies the UI using the “<em>checkWindow()</em>” command. The <em>checkWindow()</em> command takes in the following parameters:</p>
+<ol>
+<li><em>tag:</em> The name of the test.</li>
+<li><em>target:</em> Shall the window be targeted or a particular element?</li>
+<li><em>fully:</em> Identify the scope, whether it is the current viewport or the entire window.</li>
+</ol>
+<p>That’s it! And you are ready to execute the first automated visual test. So, let’s execute it using the command `npx cypress run`, assuming that the baseline image was captured correctly on the first run.</p>
+<p>Here’s a small <a target="_blank" href="https://drive.google.com/file/d/1DnKrVV4bOUtt2XzVLKPEKnKjQRTQvHHo/view?usp=sharing" rel="noopener noreferrer">screencast</a> for the same.</p>
+<h3 id="h.b8d90akgbkwh"><strong>Interpreting the automated test execution results</strong></h3>
+<p>Now that the tests have been executed, let’s look at the execution results, which brings us to the Applitools <a target="_blank" href="https://help.applitools.com/hc/en-us/sections/360001585211-Test-Results-Dashboard" rel="noopener noreferrer">dashboard</a>. Here’s the <a target="_blank" href="https://drive.google.com/file/d/1XW5od_Tegi_fO1G-EPE_ZLKY9zS1JCjc/view?usp=sharing" rel="noopener noreferrer">passed</a> test result.</p>
+<p>The tests passing is a good thing. However, that’s not the primary reason for having automated tests. You want the tests to correctly detect the discrepancies as close as the point of introduction. For the purpose of this demo, we have intentionally introduced a couple of CSS bugs on the homepage through Cypress’s invoke command. Once the script launches the homepage, CSS changes are made at run-time in the browser and then the screenshots are captured as below:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/shwetaneelsharma/86495917741c2ba54b67f7f4d5b52d23.js</p>
+</div>
+<p>      </p>
+<p>Let’s re-execute our test to see how the tool catches these bugs. The tool has correctly highlighted the three errors (in pink color) below that we introduced on purpose:</p>
+<ol>
+<li>“Search bar” in the header has shifted from its original position.</li>
+<li>The font-color for the “View recipe” button on the banner has changed.</li>
+<li>“Find out more” link in the footer.</li>
+</ol>
+<figure class="wp-block-table"/>
+<p>We confirm that these indeed are bugs, and reject the image marking the test as failed and then report bugs in Jira directly from <a target="_blank" href="https://www.google.com/url?q=https://applitools.com/docs/topics/integrations/jira-integration.html&amp;sa=D&amp;ust=1606107886944000&amp;usg=AOvVaw3VPmk75LrQx6fkwRgO_Eo-" rel="noopener noreferrer">Applitools</a>. Additionally, the <a target="_blank" href="https://applitools.com/root-cause-analysis/" rel="noopener noreferrer">root cause analysis</a> feature from Applitools helps us quickly identify the visual (UI) issues, in this case, caused by CSS changes  as shown in the images below:</p>
+<figure class="wp-block-image size-large"><figcaption>RCA RGB Bug</figcaption></figure>
+<p>Until now, it was only about one browser. However, if we really want to leverage the automated tests written for validating the UI, then the true benefit lies in having the ability to execute these tests across several browsers, Operating systems, and devices. Verifying that the UI looks correct on one browser/device doesn’t guarantee that it would look exactly the same on all other browsers/devices because the rendering of the UI might be different on other browsers/devices.</p>
+<h3 id="h.rgtifo85xuwc"><strong>Cross-browser/device/OS testing using the Ultrafast </strong>Test Cloud</h3>
+<p>Now that we have seen and understood how automated visual testing is done with one browser, let’s discuss some points that need to be accounted for to scale up your automated testing:</p>
+<ol>
+<li>Configure your suite to execute automated tests across several browsers and devices. However, not only the test authoring time increases but also creates a dependency on the technical staff as the logic for tests to run all tests across several browsers and devices need to be coded.</li>
+<li>Linear automated test execution increases execution time, thereby resulting in larger build times and delaying the feedback of the application to the entire team.</li>
+<li>Maintain an in-house grid for parallel execution or purchase additional subscriptions provided by Cloud-based solutions for parallel execution of automated tests.</li>
+</ol>
+<p>This brings us to discussing the Applitools Ultrafast Test Cloud which inherently takes care of the above points.</p>
+<p>By using Applitools Ultrafast Test Cloud, you would be able to execute the automated visual validation tests across several browsers, operating systems, and devices of your choice and at lightning speed as although the test runs once on say Chrome (assuming Chromedriver is configured in the tests), the capturing of the pages occurs in parallel, in the background for all the configured browsers and viewports.</p>
+<p>So, let’s write some more tests for Articles and Recipes landing and listing pages on the site. Let us also execute these tests in parallel on several browsers/devices as configured below using Applitools Ultrafast grid solution:</p>
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler"/>
+<p>Here are the Ultrafast Grid <a target="_blank" href="https://drive.google.com/file/d/1WCtG97PgiAZGGOdg33aTGaAdKQmCRWSB/view?usp=sharing" rel="noopener noreferrer">Test Results</a> across several browsers and devices.</p>
+<p>To be precise, here are the details:</p>
+<ol>
+<li>Number of browsers and devices = 7</li>
+<li>Total number of functional tests = 6</li>
+<li>Total number of visual tests = 7*6 = 42</li>
+<li>The time taken for complete execution on Ultrafast grid – 5 minutes 2 seconds</li>
+</ol>
+<p>Execute once and see the results on so many browsers and devices. Now, that’s what I call truly automating your visual tests.</p>
+<p>Also, notice that using the Applitools <a target="_blank" href="https://applitools.com/docs/topics/working-with-test-batches/working-with-test-batches-in-overview.html" rel="noopener noreferrer">Batch</a> feature, we have logically grouped the Test Results, to make it extremely readable.</p>
+<h2 id="h.p4jx8frv8jdz"><strong>Other tools in the market</strong></h2>
+<p>There are many other Open Source tools like <a target="_blank" href="https://garris.github.io/BackstopJS/" rel="noopener noreferrer">BackstopJS</a>, <a target="_blank" href="https://www.gizra.com/content/visual-regression-travis-shoov-ngrok/" rel="noopener noreferrer">Shoov</a>, <a target="_blank" href="https://yandex.com/dev/gemini/" rel="noopener noreferrer">Gemini</a>, <a target="_blank" href="https://webdriver.io/blog/2019/05/18/visual-regression-for-v5.html" rel="noopener noreferrer">Visual regression</a> service for WebdriverIO to name only a few, but none of the tools has the Applitools advantage and we will look at a few of many reasons in the coming section.</p>
+<h3 id="h.x88ozo2n75uv"><strong>The Applitools Advantage</strong></h3>
+<ol>
+<li>The AI-driven image comparison algorithm is incredibly accurate and avoids false positives which otherwise occurs in a pixel-to-pixel based comparison. The amount of time it would take to troubleshoot false positives, especially on full-page screenshots would be time and cost-prohibitive. Pixel-based is ok for verifying small components across a short period of time, otherwise, it breaks down.</li>
+<li>Seamless integration with your existing functional automation suite through several Web, mobile, screenshot, desktop, and codeless SDKs available for testing and automation frameworks like Cypress, Selenium, WebdriverIO, Nightwatch, Appium, and also languages like PHP, Java, Javascript, C#, Python only to name a few.</li>
+<li>With the help of Ultrafast Test Cloud, your entire web application can be tested for visual accuracy at a fast speed (as the tests run only once whereas the visual rendering validations happen in parallel on several browsers and devices in the background) with guaranteed reliability and security.</li>
+<li>Applitools also provides out of the box integration with the Storybook component library for React, Vue and Angular.</li>
+<li>Learn more about the following Applitools Eyes integrations on their <a target="_blank" href="https://applitools.com/docs/topics/integrations.html" rel="noopener noreferrer">site</a>:
+<ol>
+<li>Integration with <a target="_blank" href="https://applitools.com/docs/topics/integrations/github-integration.html" rel="noopener noreferrer">GitHub</a></li>
+<li>Integration with <a target="_blank" href="https://applitools.com/docs/topics/integrations/azure-devops-integration.html" rel="noopener noreferrer">Microsoft Azure</a></li>
+<li>Integration with <a target="_blank" href="https://applitools.com/docs/topics/integrations/gitlab-integration.html" rel="noopener noreferrer">GitLab</a></li>
+<li>Integration with <a target="_blank" href="https://applitools.com/docs/topics/integrations/bitbucket-integration.html" rel="noopener noreferrer">BitBucket</a></li>
+<li>Integration with <a target="_blank" href="https://applitools.com/docs/topics/integrations/jira-integration.html" rel="noopener noreferrer">Jira</a></li>
+<li>Integration with <a target="_blank" href="https://applitools.com/docs/features/batch-completion-notifications.html" rel="noopener noreferrer">Email and Slack</a> for notifications </li>
+</ol>
+</li>
+</ol>
+<h2 id="h.detdxf2sijym"><strong>What next?</strong></h2>
+<p><a target="_blank" href="https://auth.applitools.com/users/register" rel="noopener noreferrer">Signup</a> for a free account with Applitools and feel free to clone this <a target="_blank" href="https://github.com/axelerant/drupal-applitools" rel="noopener noreferrer">repository</a> to try it out on your own. Integrate automated visual validation tests in your project that will help you build and release visually perfect web applications or websites confidently at a faster rate.</p>
+<p><em>Featured Image by <a target="_blank" href="https://unsplash.com/@killerfvith?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Alex Wong</a> on <a target="_blank" href="https://unsplash.com/s/photos/architecture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/automated-testing-drupal-applitools/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Energy Company Fights Back with MVISION EDR as Covid-19 Increases Threat Campaigns</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/energy-company-fights-back-with-mvision-edr-as-covid-19-increases-threat-campaigns/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 08 Dec 2020 16:00:26 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Campaigns]]></category>
+		<category><![CDATA[company]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[EDR]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[Fights]]></category>
+		<category><![CDATA[Increases]]></category>
+		<category><![CDATA[MVISION]]></category>
+		<category><![CDATA[Threat]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/energy-company-fights-back-with-mvision-edr-as-covid-19-increases-threat-campaigns/</guid>
+
+					<description><![CDATA[Over the past 9 months, the world has grappled with the COVID-19 pandemic. With closing of borders, curfews and lockdowns,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Over the past 9 months, the world has grappled with the COVID-19 pandemic. With closing of borders, curfews and lockdowns, technology has become essential especially in the area of security. As we all have been spending more time at home, we are grateful for reliable energy as it provides our lights, air and heating. It is imperative during these critical times that businesses run smoothly without any interruptions from cyberthreats.</p>
+<p>A leading North American oil and gas company was already bombarded daily by cyberthreats before Covid-19, but the onset of the pandemic and the transition to thousands of employees working from home only made it a bigger target. From the onset of the remote work environment (and ever since), the company has experienced a much higher volume of campaigns by sophisticated threat actors.</p>
+<p>Don’t want your home life disrupted? To ensure that wouldn’t happen, a vaccine was needed to resolve this issue to prevent any interruption to its business. the company’s security team purchased McAfee’s MVISION EDR after a proof-of-concept bakeoff against two competing products. The McAfee solution’s integration capabilities, attractive pricing, and lack of dependency upon a complex and costly infrastructure placed it far ahead of its endpoint threat detection and response (EDR) competitors. The need to accelerate threat response increased the company’s sense of urgency to implement <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-edr.html" rel="noopener noreferrer">MVISION EDR.</a></p>
+<p>With help from McAfee technical support experts, the company’s security team completed its roll out of MVISION EDR across 16,000 endpoints within just two weeks. Now that MVISION EDR is deployed, the IT security manager and his team have much greater visibility into threats across all endpoints, including those belonging to employees working from home. This increase in visibility and understanding has helped them quickly identify patient zero and follow the trajectory of an attack to understand its potential impact. With MVISION EDR, they were able to determine every lateral movement that took place and analyze endpoints to determine if they were affected.</p>
+<p>With McAfee MVISION EDR, the company’s security team can easily prioritize alerts, quickly grasping which ones need immediate attention and which can wait. In the future they hope to leverage the solution’s artificial intelligence-guided investigations and automate tasks to keep improving threat analysis and threat hunting, all of which will shrink the time-to-response gap even more.</p>
+<p>Another benefit for the security team is the ability to use MVISION EDR for inventory tracking and can easily check registry settings to monitor system licensing as well as ensure proper configurations. When they roll out new tools in the environment, for example, they use MVISION EDR to make sure that the systems are working properly and communicating the way they should.</p>
+<p>As you find yourself spending all your time at home, remember the critical role your energy company plays to provide you comfort in a not so comfortable time.  Cybersecurity is complex but to find out how we are simplifying handling potential threats to our customers read the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/case-studies/cs-oil-gas-infrastructure.pdf" rel="noopener noreferrer">case study</a>. Get your questions answered by tweeting <a target="_blank" href="https://twitter.com/McAfee_Business" rel="noopener noreferrer">@McAfee_Business</a>.</p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/endpoint-security/energy-company-fights-back-with-mvision-edr-as-covid-19-increases-threat-campaigns/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Next generation ESM: An essential guide—5 key takeaways</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/next-generation-esm-an-essential-guide-5-key-takeaways/</link>
 		
@@ -331,380 +645,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>Next.js Visual Regression Testing with Applitools and Cypress</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/next-js-visual-regression-testing-with-applitools-and-cypress/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 04 Dec 2020 20:47:17 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Applitools]]></category>
-		<category><![CDATA[Cypress]]></category>
-		<category><![CDATA[Nextjs]]></category>
-		<category><![CDATA[Regression]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/next-js-visual-regression-testing-with-applitools-and-cypress/</guid>
-
-					<description><![CDATA[Visual regression testing is an effective way to make sure your app is behaving the way you want it no]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Visual regression testing is an effective way to make sure your app is behaving the way you want it no matter the technology stack. As someone who comes from the JavaScript and <a target="_blank" href="https://jamstack.org/" rel="noopener noreferrer">Jamstack</a> world, I want to be able to use modern tooling to make sure my dynamic web apps are reliable and maintaining a high level of quality.</p>
-<p>I recently joined Applitools as a Developer Advocate. With my role, it will be crucial for me to have a good understanding of not just how to install Applitools and the suite of features we provide, but I’ll need to be able to thoroughly understand how it fits into a developer’s workflow from installation to implementation.</p>
-<p>In this stream, I take my first dive into building a new React app from the ground up with <a target="_blank" href="https://nextjs.org/" rel="noopener noreferrer">Next.js</a>. I then walk through installing JavasScript testing framework <a target="_blank" href="https://www.cypress.io/" rel="noopener noreferrer">Cypress</a>, giving me the ability to run end-to-end testing for my new app. Finally, I install and set up <a target="_blank" href="https://applitools.com/products-eyes/" rel="noopener noreferrer">Applitool Eyes</a> which provides me visual regression testing capabilities baked right into my testing suite.</p>
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<p>
-<iframe title="Next.js Visual Regression Testing with Applitools and Cypress  - STREAM" width="800" height="450" src="https://www.youtube.com/embed/Bei0Cvu7D7I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-</figure></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/next-js-visual-regression-testing-with-applitools-and-cypress/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>VMware Rolls a Fix for Formerly Critical Zero-Day Bug</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/vmware-rolls-a-fix-for-formerly-critical-zero-day-bug/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 04 Dec 2020 15:31:15 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Fix]]></category>
-		<category><![CDATA[Rolls]]></category>
-		<category><![CDATA[VMware]]></category>
-		<category><![CDATA[ZeroDay]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/vmware-rolls-a-fix-for-formerly-critical-zero-day-bug/</guid>
-
-					<description><![CDATA[VMware has issued a full patch and revised the severity level of the NSA-reported vulnerability to &#8220;important.&#8221; Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />VMware has issued a full patch and revised the severity level of the NSA-reported vulnerability to &#8220;important.&#8221;<br />
-<br /><br />
-<br /><a href="https://threatpost.com/vmware-fix-critical-zero-day-bug/161896/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Vancouver Metro Disrupted by Egregor Ransomware</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/vancouver-metro-disrupted-by-egregor-ransomware/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 04 Dec 2020 14:25:55 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Disrupted]]></category>
-		<category><![CDATA[Egregor]]></category>
-		<category><![CDATA[Metro]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[Vancouver]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/vancouver-metro-disrupted-by-egregor-ransomware/</guid>
-
-					<description><![CDATA[The attack, which prevented Translink users from using their metro cards or buying tickets at kiosks, is the second from]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The attack, which prevented Translink users from using their metro cards or buying tickets at kiosks, is the second from the prolific threat group just this week.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/vancouver-metro-egregor-ransomware/161892/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How I ran 100 UI tests in just 20 seconds [Revisited] &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/how-i-ran-100-ui-tests-in-just-20-seconds-revisited-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 04 Dec 2020 07:13:55 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[ran]]></category>
-		<category><![CDATA[Revisited]]></category>
-		<category><![CDATA[seconds]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Tests]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/how-i-ran-100-ui-tests-in-just-20-seconds-revisited-automated-visual-testing/</guid>
-
-					<description><![CDATA[From time to time, we revisit blog posts that show the benefit of Applitools across different use cases. This post]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<figure class="wp-block-pullquote">
-<blockquote>
-<p>From time to time, we revisit blog posts that show the benefit of Applitools across different use cases. This post by Bilal Haidar from 2019 was one of the first outlining the benefits of Applitools Ultrafast Grid. </p>
-</blockquote>
-</figure>
-<p>Recently I’ve put together a bunch of tutorials: <a target="_blank" href="https://medium.com/@thisdotmedia/applitools-the-automated-visual-regression-testing-framework-18ebada47977" rel="noreferrer noopener">an overview of Applitools</a>, how to <a target="_blank" href="https://blog.angularindepth.com/mixing-storybook-with-angular-with-a-sprinkle-of-applitools-8413bb950cf8" rel="noreferrer noopener">test Storybook with Angular</a>, how to <a target="_blank" href="https://applitools.com/blog/troubleshoot-fix-react-bugs?utm_term=td&amp;utm_source=organic-social&amp;utm_medium=bing&amp;utm_content=blog&amp;utm_campaign=ELC-bilal-article&amp;utm_subgroup=bilal-new-article" rel="noopener noreferrer">quickly troubleshoot bugs in React apps</a>, and how to <a target="_blank" href="https://applitools.com/blog/test-vuejs-cypress-io-applitools?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">test Vue apps with Cypress</a>.</p>
-<p>If you’ve gone through these, you’ll notice that the visual tests complete in seconds — faster than Nic Cage can jack your ride.</p>
-<p>How so fast?</p>
-<p>The answer is simple: <a target="_blank" href="https://applitools.com/visualgrid?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Applitools Ultrafast Grid</a>. Each time you run a visual test in Applitools, Ultrafast Grid renders that page across a broad range of browsers and configurations. In parallel. In seconds.</p>
-<p>Applitools Visual AI then grabs a screenshot of each page, compares it to its baseline screenshot, and determines visual differences and the <a target="_blank" href="https://applitools.com/root-cause-analysis?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">root cause</a> unpinning them. In less than a minute, your cross-browser testing is done and your developers have what they need to fix any visual bugs.</p>
-<p>It’s our very own <a target="_blank" href="https://www.engadget.com/2017/02/07/tesla-model-s-ludicrous-acceleration-record/" rel="noreferrer noopener">ludicrous mode</a> (a.k.a. how a Tesla can go from zero to 60 mph in a little over two seconds).</p>
-<p>But more than a cool technical trick, Ultrafast Grid can help you keep your app development projects on schedule.</p>
-<p>In this article, I will demonstrate the Ultrafast Grid system with test runs and a variety of configuration settings, such as multiple browsers, viewports, and devices, to show Applitools’ efficiency in delivering results.</p>
-<p>First off, make sure you have the following installed and configured on your machine:</p>
-<p>Before we delve into writing code, let’s take a behind-the-scenes look at how Applitools Ultrafast Grid works.</p>
-<h2 id="h.oa1yj6tgce4t">Life before Ultrafast Grid</h2>
-<p>Before the arrival of the Ultrafast Grid, visual tests were run in this specific order:</p>
-<ul>
-<li>A test run checked the pages one by one.</li>
-<li>A screenshot was taken for each page.</li>
-<li>The screenshot was uploaded to the backend server, where it was analyzed (that is, compared to previous baselines).</li>
-<li>Based on the results, the test would either fail or keep running, checking other pages.</li>
-</ul>
-<p>So far, so good!</p>
-<p>But problems arise when hundreds of screenshots are uploaded to the backend server to be analyzed. Varying parameters ranging from different viewports, different browsers, and different device emulators can also slow things down.</p>
-<p>To help solve this, Applitools designed the Ultrafast Grid system to run tests quickly.</p>
-<h2 id="h.9lfxz8ckycnr">Life with Ultrafast Grid</h2>
-<p>Applitools Ultrafast Grid is split into two components: server-side and client-side. Here’s a diagram of how it works:</p>
-<figure class="wp-block-image"></figure>
-<p>The Ultrafast Grid client is a Node JS library, used internally by both Applitools Storybook and Cypress SDKs. Here’s <a target="_blank" href="https://github.com/applitools/visual-grid-client" rel="noreferrer noopener">more on the Ultrafast Grid client</a>.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/753b282427ab1a894d2d9f99f29a7adc.js</p>
-</div>
-<p>That code snippet instantiates a new Ultrafast Grid client and returns an object. In this case, we are only interested in the <strong>openEyes()</strong> method returned.</p>
-<p>When called, the <strong>openEyes()</strong> method starts a new test run and sends the Ultrafast Grid backend server details about it– including, but not limited to the application name, batch or test name, the browsers used, and different variations of browser settings to be adapted while running the tests. This method returns a Promise to an object with the following functions: <strong>checkWindow()</strong> and <strong>close()</strong>.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/37e90b0c5e58acd709268128635d1167.js</p>
-</div>
-<p>This method call instructs the Ultrafast Grid backend server to prepare a testing environment for a new test run that requires running the test over two different browsers. The first browser emulates an iPhone X, while the second specifies the desktop viewport to run the test.</p>
-<p>To start collecting snapshots, the test issues a call to <strong>checkWindow()</strong> function. The Ultrafast Grid client handles this call and collects all the needed resources to store the snapshot locally.</p>
-<p>At the end of the test, you issue a call to <strong>close() </strong>method to close and finish the test run.</p>
-<p>At this moment, all the DOM Snapshots collected locally during the test run are sent to the Ultrafast Grid backend server. Based on the test run requirements, sent previously with the <strong>openEyes()</strong> method, the Ultrafast Grid:</p>
-<ul>
-<li>Launches a number of browsers with different viewports and device emulators.</li>
-<li>Runs all of the DOM snapshots in parallel.</li>
-<li>Collects image screenshots.</li>
-<li>Sends all the screenshots to the Applitools AI server to do all the testing analysis and returns the results.</li>
-</ul>
-<p>Finally, it’s worth mentioning that Ultrafast Grid sits behind a family of Applitools SDKs including the following:</p>
-<p>Now that you understand how the Ultrafast Grid system works so efficiently, let’s throw a spanner in the works by running tests with a variety of browser configuration settings. Then, we’ll review the results on the Applitools Test Manager.</p>
-<h2 id="h.yf0udzbnle5">Source code</h2>
-<p>For this article, I’ve chosen to write a few Storybook stories and use Applitools for the custom Angular ContentEditable component. I’ve described and used this in my previous article on <a target="_blank" href="https://blog.angularindepth.com/mixing-storybook-with-angular-with-a-sprinkle-of-applitools-8413bb950cf8" rel="noreferrer noopener">Mixing Storybook with Angular with a sprinkle of Applitools</a>.</p>
-<p>There have been some changes to the <a target="_blank" href="https://www.npmjs.com/package/@applitools/eyes-storybook" rel="noreferrer noopener">Applitools Eyes SDK for Storybook</a> npm package since my previous article was published. I’d recommend removing the old package and installing the new one by following these steps:</p>
-<p><strong>Step 1</strong>: Remove the old @applitools/eyes.storybook NPM package by issuing the following command:</p>
-<pre id="code-snippet-0" class="wp-block-preformatted">npm remove @applitools/eyes.storybook</pre>
-<p>copy code to clipboard</p>
-<p><strong>Step 2</strong>: Install the new @applitools/eyes-storybook NPM package by issuing the following command:</p>
-<pre id="code-snippet-1" class="wp-block-preformatted">npm i @applitools/eyes-storybook</pre>
-<p>copy code to clipboard</p>
-<p>That’s it!</p>
-<h2 id="h.j9tyt4f74r8e">Applitools Ultrafast Grid Demo</h2>
-<p>Before writing our tests, let’s run the application and make sure it’s working fine.</p>
-<p><strong>Step 1</strong>: Clone the application <a target="_blank" href="https://github.com/thisdot/storybook-angular-applitools" rel="noreferrer noopener">repo</a>.</p>
-<pre id="code-snippet-2" class="wp-block-preformatted">git clone https://github.com/thisdot/storybook-angular-applitools.git</pre>
-<p>copy code to clipboard</p>
-<p><strong>Step 2</strong>: Install all app dependencies by issuing the following command:</p>
-<p>Go to the folder /storybook-angular-applitools then run this command:</p>
-<pre id="code-snippet-3" class="wp-block-preformatted">npm install</pre>
-<p>copy code to clipboard</p>
-<p><strong>Step 3</strong>: Run the app by issuing the following command:</p>
-<pre id="code-snippet-4" class="wp-block-preformatted">ng serve</pre>
-<p>copy code to clipboard</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/1.png" alt="1" class="wp-image-4529"/></figure>
-<p>Now that we are sure the application is up and running switch back to the Terminal and hit Ctrl+c twice. This terminates the running application.</p>
-<p><strong>Step 4</strong>: Run the Storybook stories by issuing the following command:</p>
-<pre id="code-snippet-5" class="wp-block-preformatted">npm run storybook</pre>
-<p>copy code to clipboard</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/2.png" alt="2" class="wp-image-4533"/></figure>
-<p><strong>Step 5</strong>: Run the Applitools Eyes SDK for Storybook by issuing the following command:</p>
-<pre id="code-snippet-6" class="wp-block-preformatted">npx eyes-storybook</pre>
-<p>copy code to clipboard</p>
-<p>Make sure you get an <a target="_blank" href="https://applitools.com/tutorials/storybook-angular.html#how-it-works" rel="noopener noreferrer">Applitool API Key</a> and store it on your machine.</p>
-<p>To set the APPLITOOLS_API_KEY environment variable locally on your machine you can use the <strong>export</strong> command on Mac OS or <strong>set</strong> command on Windows as follows.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/0b56806977ea420f54be071c8057bec3.js</p>
-</div>
-<p>For a complete tutorial on how to install and run Applitools Storybook SDK for Angular, check out this article: <a target="_blank" href="https://applitools.com/tutorials/storybook-angular.html?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=#how-it-works" rel="noopener noreferrer">Storybook Angular Tutorial</a>.</p>
-<p>Back to the command above, this command simply opens the Storybook stories, runs them one by one, and then sends all the DOM snapshots to Applitools Ultrafast Grid, which then renders them.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/3.png" alt="3" class="wp-image-4538"/></figure>
-<p>If you expand the first test run, you get the following results:</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/4.png" alt="4" class="wp-image-4537"/></figure>
-<p>Now that the app, Storybook stories, and Applitools are running locally, let’s start playing with our visual tests.</p>
-<h2 id="h.fw6ffceeh5us">Visual UI tests with custom viewports</h2>
-<p>Keeping in mind that Applitools with Storybook doesn’t need any kind of configuration, the important test configurations are auto-inferred by Applitools. However, if you want to play around with the test configuration, you have two options to specify:</p>
-<ul>
-<li>Environment variables</li>
-<li>The <strong>applitools.config.js</strong> file</li>
-</ul>
-<p>For this demonstration, I will make use of the applitools.config.js file. For a full list of test configuration, check the <a target="_blank" href="https://github.com/applitools/eyes-storybook#advanced-configuration" rel="noreferrer noopener">Advanced Configuration</a> section on the <a target="_blank" href="https://github.com/applitools/eyes-storybook" rel="noreferrer noopener">@applitools/eyes-storybook</a> repo on Github.</p>
-<p>When you’re using Applitools with Storybook, there’s no need to add any specific Applitools commands or set test configuration to enable visual testing.</p>
-<p>Applitools Eyes SDK runs the Storybook stories, takes a snapshot of each, and sends the DOM snapshots to the Ultrafast Grid backend server. It saves the test run with the default test configuration.</p>
-<p><strong>Step 1</strong>: Add a new JavaScript file to the root of your application. Give it a name of applitools.config.js.</p>
-<p><strong>Step 2</strong>: Add the <strong>appName</strong> and <strong>batchName</strong> configuration settings as follows:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/0de19b72bcbe662ecab76f0ff564ad6e.js</p>
-</div>
-<p><strong>Step 3</strong>: Run the test case on two different browsers with two different viewports by adding the following:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/f14a44719643ec2fb56ea99420273b4d.js</p>
-</div>
-<p>Consequently, Ultrafast Grid launches a set of instances for each of the browsers and runs the tests simultaneously. The first time these tests are run, we create baseline images to compare against during subsequent test runs.</p>
-<p><strong>Step 4</strong>: Save and run the tests again by issuing the following command:</p>
-<pre id="code-snippet-7" class="wp-block-preformatted">npx eyes-storybook</pre>
-<p>copy code to clipboard</p>
-<p><strong>Step 5</strong>: Check the test run in Applitools Test Manager.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-25-at-23.34.25.png" alt="Screenshot 2019 03 25 at 23.34.25" class="wp-image-4535"/></figure>
-<p>I’ve switched the Test Manager view to the Batch Summary View.</p>
-<p>Notice how Applitools Ultrafast Grid ran your tests twice, as per the test configuration file above. The test configuration above specified two different browsers with two different viewports. This means that the Ultrafast Grid runs every test twice– once per browser configuration set.</p>
-<p>Running this test yields an <strong>execution time of just four seconds</strong>! To be clear, this is what we spent rendering baseline images, once the DOM snapshots were uploaded. Even so, that’s really fast.</p>
-<p>It’s the duty of the Ultrafast Grid to analyze the test configuration file attached to the test and spawn, in parallel, a number of browser instances to handle the test run efficiently.</p>
-<h2 id="h.cnwn9ukphuox">Visual UI tests with device emulation</h2>
-<p>Let’s run another test. This time, instead of specifying the browser viewports, we will specify a device emulation for the browser. Device emulation uses a Chrome browser, with the <a target="_blank" href="https://www.w3schools.com/css/css_rwd_viewport.asp" rel="noreferrer noopener">viewport</a> dimensions, and <a target="_blank" href="https://en.m.wikipedia.org/wiki/User_agent" rel="noreferrer noopener">user agent string</a>, specific to that device.</p>
-<p><strong>Step 1</strong>: Replace the content of the <strong>applitools.config.js file </strong>with the following configuration:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/e0a875c7d0d808509c6a5795b20beb29.js</p>
-</div>
-<p>In this test configuration, we are specifying to the Ultrafast Grid to run this test over a <strong>Chrome</strong> browser with a device emulation of an <strong>iPhone X </strong>using a <strong>landscape</strong> screen orientation.</p>
-<p>Ultrafast Grid supports only the Chrome browser for running tests over a device emulation, so you can skip the name of the browser. I’m explicitly specifying the browser name to make it very clear that this is a browser emulation and not a real device.</p>
-<p>For a complete list of device emulators supported by the Chrome browser, take a look at this page: <a target="_blank" href="https://raw.githubusercontent.com/chromium/chromium/0aee4434a4dba42a42abaea9bfbc0cd196a63bc1/third_party/blink/renderer/devtools/front_end/emulated_devices/module.json" rel="noreferrer noopener">Chromium Device Emulators</a>.</p>
-<p><strong>Step 2</strong>: Save and run the tests by issuing the following command:</p>
-<pre id="code-snippet-8" class="wp-block-preformatted">npx eyes-storybook</pre>
-<p>copy code to clipboard</p>
-<p><strong>Step 3</strong>: Check the test run in Applitools Test Manager.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-25-at-23.24.51.png" alt="Screenshot 2019 03 25 at 23.24.51" class="wp-image-4539"/></figure>
-<p>I’ve switched the Test Manager view to the Batch Summary View.</p>
-<p>As per the new test configuration file, the Ultrafast Grid runs your tests on a <strong>Chrome</strong> browser with a <strong>device emulation</strong> for iPhone X. Hence, the browser name shown is Safari 11.0 and <strong>landscape</strong> with a viewport of 812×375.</p>
-<p>Notice that running this test yields an <strong>execution time of just two</strong><strong> seconds</strong>! Again, this is once the DOM snapshot has been uploaded. But still…</p>
-<p>Finally, in Applitools, baseline snapshots are stored as per test configuration settings. Different test configuration settings generate different baseline snapshots. You can’t compare apples to oranges, right?</p>
-<p>That’s why, if you click on the snapshot above (after switching back to Batch steps view) and show both the baseline and the current test run, you won’t get any baseline snapshot–because it’s the first time we’re running the test with these configuration settings.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/7.png" alt="7" class="wp-image-4531"/></figure>
-<h2 id="h.qmsf757a6cn1">100 Visual UI tests</h2>
-<p>Let’s go crazy and run 100 Visual/UI tests with a combination of test configurations.</p>
-<p><strong>Step 1</strong>: Replace the content of the <strong>applitools.config.js file </strong>with the following configuration:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/5d31686b2e5c7087cb20e9b1188c1d6b.js</p>
-</div>
-<p>In this test configuration, we are running 100 tests with 50 unique view ports on two major browsers: Firefox and Google Chrome.</p>
-<p><strong>Step 2</strong>: Save and run the tests by issuing the following command:</p>
-<pre id="code-snippet-9" class="wp-block-preformatted">npx eyes-storybook</pre>
-<p>copy code to clipboard</p>
-<p>During this time, the Eyes Storybook SDK will read all Storybook stories in the application, run them one by one using the Storybook engine, generate a DOM snapshot for each test, and finally upload the results to the Eyes server. At this moment, the Eyes server will run each and every DOM snapshot, render an image snapshot, and store it as a baseline snapshot.</p>
-<p>The Eyes SDK/Server <strong>took only 21 seconds</strong> to complete all the above tasks, create baselines, and report the results on Applitools Test Manager Dashboard, for the entire batch of 100 test runs for a single Storybook story.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-22.54.11.png" alt="Screenshot 2019 03 28 at 22.54.11" class="wp-image-4541"/></figure>
-<p><strong>Step 3</strong>: Check the test run in <a target="_blank" href="https://applitools.com/blog/getting-started-with-applitools-eyes-test-manager?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Applitools Test Manager</a>.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-23.02.24.png" alt="Screenshot 2019 03 28 at 23.02.24" class="wp-image-4534"/></figure>
-<p>I’ve switched the Test Manager view to the Batch Summary View.</p>
-<p>Let’s see the power of the Eyes server when running a regression testing cycle.</p>
-<p><strong>Step 4:</strong> Let’s introduce a visual change on the Storybook story and run the Eyes SDK once again.</p>
-<p>Replace the content of the /src/stories/index.stories.js file with the following:</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/bhaidar/e1805b5a9e6402aca9145ca4b2bf6aed.js</p>
-</div>
-<p><a target="_blank" href="https://gist.github.com/bhaidar/e1805b5a9e6402aca9145ca4b2bf6aed/raw/5c056b2c1bac4832afb3dad15f4c3ba56829c804/regression-testing-cycle" rel="noopener noreferrer">view raw</a><a target="_blank" href="https://gist.github.com/bhaidar/e1805b5a9e6402aca9145ca4b2bf6aed#file-regression-testing-cycle" rel="noopener noreferrer">regression-testing-cycle</a> hosted with <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> by <a target="_blank" href="https://github.com/" rel="noopener noreferrer">GitHub</a></p>
-<p>Now the ContentEditableComponent should render with a Blue background.</p>
-<p><strong>Step 5</strong>: Run the tests again by issuing the following command:</p>
-<pre id="code-snippet-10" class="wp-block-preformatted">npx eyes-storybook</pre>
-<p>copy code to clipboard</p>
-<p>Once again, the Eyes SDK/Server <strong>took only 21 seconds</strong> to upload the DOM snapshot, run the entire batch of visual UI tests, and display the results on the Applitools Test Manager Dashboard.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-23.09.17.png" alt="Screenshot 2019 03 28 at 23.09.17" class="wp-image-4540"/></figure>
-<p>Notice the error message generated saying that “A total of 100 differences were found”.</p>
-<p>Because the change we introduced affected the entire batch of test runs, therefore, all the current tests failed in comparison with the baseline snapshots, due to the visual change introduced earlier.</p>
-<p><strong>Step 6</strong>: Check the test run in <a target="_blank" href="https://applitools.com/blog/getting-started-with-applitools-eyes-test-manager?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Applitools Test Manager</a>.</p>
-<figure class="wp-block-image"><img src="https://applitools.com/wp-content/uploads/2019/04/Screenshot-2019-03-28-at-23.13.38.png" alt="Screenshot 2019 03 28 at 23.13.38" class="wp-image-4530"/></figure>
-<p>The Test Manager highlights the differences between the baseline snapshot and the current test run and displays a mismatch icon near the snapshots.</p>
-<p>At this moment, you can either accept the new changes and make them the new baseline or reject them and keep the old baseline.</p>
-<p>Once again, it takes the power of the Ultrafast Grid to analyze the test configuration file and set up the testing environment as needed.</p>
-<h2 id="h.u0m3jav03oip">See for yourself</h2>
-<p>Here’s a step-by-step tutorial video of how I did all the steps above. You can see how it took <strong>just 20 seconds for</strong> the Applitools Storybook SDK to upload all the DOM snapshots, then use Applitools Visual AI to look for visual regressions:</p>
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
-<p>
-<iframe title="How I ran 100 UI tests in 20 seconds" width="800" height="600" src="https://www.youtube.com/embed/2hHzEHGpChA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-</figure>
-<h2 id="h.u8090netbg15">Conclusion</h2>
-<p>By now, you have some insight into how Applitools Ultrafast Grid functions behind the scenes when running your visual tests.</p>
-<p>Want to get run your own tests ludicrously fast? Applitools Ultrafast grid is GA for <strong><a target="_blank" href="https://applitools.com/storybook?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Storybook</a></strong>, <strong><a target="_blank" href="https://applitools.com/cypress?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Cypress</a></strong>, and <strong><a target="_blank" href="https://applitools.com/selenium-ide?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">Selenium IDE</a></strong>. If you use Selenium WebDriver with Java, JavaScript, C#, Python, or Ruby, request to <strong><a target="_blank" href="https://go.applitools.com/vgea.html?utm_term=&amp;utm_source=web-referral&amp;utm_medium=blog&amp;utm_content=&amp;utm_campaign=blog-evergreen-campaign&amp;utm_subgroup=" rel="noopener noreferrer">join our early access program</a></strong>.</p>
-<p>Happy Testing!</p>
-<p>Photo by <a target="_blank" href="https://unsplash.com/@snader86?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Sander Jeurissen</a> on <a target="_blank" href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener noreferrer">Unsplash</a></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/100-ui-tests-in-20-seconds-revisited/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Adversarial machine learning: 5 recommendations for app sec teams</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/adversarial-machine-learning-5-recommendations-for-app-sec-teams/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 03 Dec 2020 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Adversarial]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[Learning]]></category>
-		<category><![CDATA[Machine]]></category>
-		<category><![CDATA[recommendations]]></category>
-		<category><![CDATA[sec]]></category>
-		<category><![CDATA[Teams]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/adversarial-machine-learning-5-recommendations-for-app-sec-teams/</guid>
-
-					<description><![CDATA[In 2016, Microsoft released a prototype chatbot on Twitter. The automated program, dubbed Tay, responded to tweets and incorporated the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>In 2016, Microsoft released a prototype chatbot on Twitter. The automated program, dubbed Tay, responded to tweets and incorporated the content of those tweets into its knowledge base, riffing off the topics to carry on conversations.</p>
-<p>In less than 24 hours, Microsoft had to yank the program and issue an apology after the software started <a target="_blank" href="https://gizmodo.com/here-are-the-microsoft-twitter-bot-s-craziest-racist-ra-1766820160" rel="nofollow noopener noreferrer">spewing vile comments</a>, including &#8220;I f**king hate feminists&#8221; and tweeting that it agreed with Hitler. Online attackers had used crafted comments to pollute the machine-learning algorithm, exploited a specific vulnerability in the program, and recognized that the bot frequently would just repeat comments, a major design flaw.</p>
-<p>Microsoft apologized, and Tay has not returned. &#8220;Although we had prepared for many types of abuses of the system, we had made a critical oversight for this specific attack,&#8221; the company <a target="_blank" href="https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/" rel="nofollow noopener noreferrer">stated in its apology</a>. &#8220;As a result, Tay tweeted wildly inappropriate and reprehensible words and images.&#8221;</p>
-<p>AI is increasingly finding its way into software—including <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/ai-soc-best-practices?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">software used in security operations centers</a>. Attacks on artificial-intelligence and ML systems are often thought to be theoretical, but significant attacks have already happened. Software developers who use ML models in their programs, and data scientists who develop the models, need to take such malicious behavior into account when creating ML-powered software.</p>
-<p>Unfortunately, there is no hard-and-fast defensive playbook yet, said Jonathan Spring, a senior member of the technical staff of the CERT Division at Carnegie Mellon University&#8217;s Software Engineering Institute.</p>
-<blockquote>
-<p>&#8220;I&#8217;m not sure there is &#8216;type this on the keyboard&#8217; level advice yet. But there is operational-level advice that you can follow to make the systems more robust against failure.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/jonathan-jono-spring-586a6318/" rel="nofollow noopener noreferrer">Jonathan Spring</a></p>
-</blockquote>
-<p>Here are five recommendations experts who are focused on AI threats say should guide developers and application security professionals.</p>
-<h3>1. Build awareness of the threat with your team</h3>
-<p>While adversarial ML attacks are the focus of a great deal of academic study, they are not just theoretical or an exercise <a target="_blank" href="https://en.wikipedia.org/wiki/Spherical_cow" rel="nofollow noopener noreferrer">using &#8220;spherical cows.&#8221;</a></p>
-<p>In 2019, for example, researchers discovered a way to use targeted emails to discover the characteristics for the algorithm that messaging-security firm Proofpoint used to block malicious emails. The attack allowed two security researchers to design a system that replicated the AI model and then use that reconstituted model, <a target="_blank" href="https://github.com/moohax/Proof-Pudding" rel="nofollow noopener noreferrer">dubbed Proof Pudding</a>, to find ways to avoid spam detection.</p>
-<p>As the attacks—and others cited in this article—show, meaningful adversarial ML attacks are already here. Developers need to build awareness on their teams and find ways to make deployed models more robust, said Mikel Rodriguez, director of the decision-science research programs at MITRE, a not-for-profit government research contractor.</p>
-<blockquote>
-<p>&#8220;People sometimes see cute articles about turning a stop sign into a yield sign, and they think these attacks are not relevant to them. We first need to convince the community that this is a credible threat.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/mikel-rodriguez/" rel="nofollow noopener noreferrer">Mikel Rodriguez</a></p>
-</blockquote>
-<h3>2. Use tools to eliminate the low-hanging fruit</h3>
-<p>While practical attacks generally require a lot of research, a trio of open-source toolkits can get DevSecOps practitioners started testing their models. Three Python libraries—<a target="_blank" href="https://github.com/tensorflow/cleverhans" rel="nofollow noopener noreferrer">CleverHans</a>, <a target="_blank" href="https://github.com/bethgelab/foolbox" rel="nofollow noopener noreferrer">FoolBox</a>, and the<a target="_blank" href="https://github.com/Trusted-AI/adversarial-robustness-toolbox" rel="nofollow noopener noreferrer"> Adversarial Robustness Toolbox</a>—allow developers to create examples.</p>
-<p>Like static analysis and automated vulnerability scanning, these libraries should be considered the low-hanging fruit—tools that every developer should use against an AI model to make sure it is robust and not prone to attack or failure.</p>
-<blockquote>
-<p>&#8220;If you have an ML system, those tools have relatively simple—but still complicated—APIs that let you test your model against known common attack patterns. If you use those, and try to make the system more robust against what you find, you will be doing better than most.&#8221;<br />—Jonathan Spring</p>
-</blockquote>
-<h3>3. Model threats and attack your AI system</h3>
-<p>Companies should attack their own systems to find weaknesses and potential information leakage. Microsoft, for example, <a target="_blank" href="https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md#microsoft---edge-ai" rel="nofollow noopener noreferrer">used a red team</a> to analyze its service for running AI workloads at the edge, first gathering information on the product and then querying a public version to infer the responses of the ML model. The knowledge and responses were enough for the red team to build an automated system to modify images in a way that caused the system to misclassify the data without being noticeable to humans.</p>
-<p>In other cases, researchers have shown that you can extract data from the model using targeted attacks and inference. An ML model that is made available through an API can be used to recreate the model—essentially allowing the intellectual property to be stolen.</p>
-<blockquote>
-<p>&#8220;If you are a company with a production machine-learning system, you want to have a red team, even if it is small. So you need to look at the system level to see what you can do in order to raise the cost to the attacker.&#8221;<br />—Mikel Rodriguez</p>
-</blockquote>
-<p>MITRE has collaborated with Microsoft and other organizations to create the <a target="_blank" href="https://github.com/mitre/advmlthreatmatrix" rel="nofollow noopener noreferrer">Adversarial ML Threat Matrix</a> as a way to create common language of potential threats.</p>
-<h3>4. Use multiple models or algorithms as a check</h3>
-<p>Production anti-spam engines use aggregate scores from several algorithms to create a more robust way of classifying messages. Similarly, combining different models—or even the same model trained on different datasets, a technique known as ensemble learning—can produce more robust results.</p>
-<p>In addition, using ongoing checks of results—such as users identifying faces in a photo on Facebook—to improve classification or performance can also help.</p>
-<blockquote>
-<p>&#8220;If there is an immediate test of efficacy of the expert system—whether AI or human—that is very easily conducted and very correct, it does not matter what the system is doing. This is the case with anti-spam systems. The user gives feedback to the system by marking messages as spam or not spam.&#8221;<br />—Jonathan Spring</p>
-</blockquote>
-<h3>5. Beware of bias</h3>
-<p>No matter how good the ML model may be, if the developer trains the system on a biased dataset, it will not be robust to attack or errors. Facial-recognition models that <a target="_blank" href="https://www.washingtonpost.com/technology/2019/12/19/federal-study-confirms-racial-bias-many-facial-recognition-systems-casts-doubt-their-expanding-use/" rel="nofollow noopener noreferrer">do not perform well in identifying the faces of Black or Brown subjects</a> or the <a target="_blank" href="https://theconversation.com/misinformation-and-biases-infect-social-media-both-intentionally-and-accidentally-97148" rel="nofollow noopener noreferrer">inherent bias of social media</a> toward divisive speech or &#8220;clickbait&#8221; headlines are examples of bias, in the training datasets or in the algorithms.</p>
-<blockquote>
-<p>&#8220;There is a lot of research that needs to be done. People may want to focus on only using ML systems in applications where they can immediately check the result.&#8221;<br />—Jonathan Spring</p>
-</blockquote>
-<p>The entire field of search-engine optimization is essentially about finding ways to attack algorithms for the benefit of the attacker.</p>
-<h3>Follow the money</h3>
-<p>The flourishing of that field underscores that when there is money involved, attacks will proliferate, said MITRE&#8217;s Rodriguez:</p>
-<blockquote>
-<p>&#8220;What we are seeing is that you can game the system. And if machine-learning models are the weak point, attackers will focus on that.&#8221;</p>
-</blockquote>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/adversarial-machine-learning-5-recommendations-app-sec-teams">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -713,5 +653,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-08 22:01:24 by W3 Total Cache
+Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-09 22:01:25 by W3 Total Cache
 -->
