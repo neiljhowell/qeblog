@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 10 Dec 2020 11:00:46 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Dec 2020 22:15:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,83 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>What SecOps teams can expect in 2021: 5 key trends</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/what-secops-teams-can-expect-in-2021-5-key-trends/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 10 Dec 2020 22:15:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Expect]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[SecOps]]></category>
+		<category><![CDATA[Teams]]></category>
+		<category><![CDATA[Trends]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/?p=3669</guid>
+
+					<description><![CDATA[Though 2020 is coming to an end, companies will continue to adjust to the events of the year, with ripples spreading]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Though 2020 is coming to an end, companies will continue to adjust to the events of the year, with ripples spreading out into every facet of business operations. The distribution of a vaccine will likely bring the year&#8217;s most noteworthy event, the coronavirus pandemic, to an eventual end, but one <a target="_blank" href="https://content.microfocus.com/adapting-post-pandemic-world-tb/pandemic-your-remote?lx=V3y1kl" rel="noopener noreferrer">impact of the pandemic</a>—a major increase in remote work—is likely here to stay.</p>
+<p>For cybersecurity, both the pandemic and remote work have created challenges. This past year, driven by keen interest in every development related to the pandemic, COVID-themed phishing lures have taken off, and a variety of bad actors have used information on topics such as vaccine research to get inside systems. Meanwhile, remote work has resulted in security researchers and attackers focusing on the necessary infrastructure—such as virtual private network (VPN) software—as a target of attack.</p>
+<p>Many of those trends will continue into the new year, said Michael Sentonas, chief technology officer for CrowdStrike, a cybersecurity services firm.</p>
+<blockquote>
+<p>&#8220;We see the threats going through the roof; a lot of the adversaries see this as a good opportunity. You have one dynamic which has a huge number of attacks &#8230; especially as people access applications from outside the organization far more often than they used to.&#8221;<br />—<a target="_blank" href="https://twitter.com/michaelsentonas?lang=gu" rel="nofollow noopener noreferrer">Michael Sentonas</a></p>
+</blockquote>
+<p>Cybersecurity teams and security operation center (SOC) analysts <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/state-secops-202021-takeaways?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">have had to adapt to the various threats as well as working in a remote cybersecurity team as well</a>. With more cloud infrastructure, exposed VPN appliances, and harder-to-manage user systems, cybersecurity teams will have their work cut out for them in the next year, said Deepen Desai, CISO and vice president of security research at Zscaler, a cloud security company.</p>
+<blockquote>
+<p>&#8220;Users will continue to remain prime targets [of] cleverly crafted social engineering campaigns. The goal here is to perform credential theft or system compromise, which can then be leveraged to perform further attacks.&#8221;<br />—<a target="_blank" href="https://twitter.com/ddesai_av" rel="nofollow noopener noreferrer">Deepen Desai</a></p>
+</blockquote>
+<p>Here are five trends SecOps pros need to prepare for in the new year.</p>
+<h3>1. Debate over making ransomware payments illegal will heat up</h3>
+<p><a target="_blank" href="https://techbeacon.com/security/ransomware-pandemic-getting-ridiculous" rel="noopener noreferrer">Ransomware has become the de facto standard</a> for cyber criminals to make money from compromises. In the past, desperate companies have often chosen to pay the ransom, but that may cease to be an option in the future.</p>
+<p>As a matter of public policy, the most effective way to take on ransomware is to prohibit victims from paying the ransom. The United States may be moving to take that approach, using laws to sanction criminal and terrorist organizations. In October, the US Department of the Treasury&#8217;s Office of Foreign Asset Control (OFAC) clarified that paying ransom to a sanctioned group could result in penalties against the company making the payment.</p>
+<p>Companies that facilitate ransomware payments to cyber actors on behalf of victims, including financial institutions, cyber insurance firms, and companies involved in digital forensics and incident response, not only encourage future ransomware payment demands but also may risk violating OFAC regulations.</p>
+<p>The notice highlights that companies may not have an option in the future to pay ransoms to perpetrators—the cyber criminals and nation-state hackers behind ransomware. Expect the debate to heat up, said CrowdStrike&#8217;s Sentonas.</p>
+<blockquote>
+<p>&#8220;The fastest way to kill this as a problem is to effectively mandate that no one can pay these people. But the counter-argument is that you are punishing the victim, because the risk is, if you have an organization who can&#8217;t recover, what options do they have?&#8221;<br />—Michael Sentonas</p>
+</blockquote>
+<h3>2. Shadow IT rises again due to remote work</h3>
+<p>Information technology that flies under the radar of the IT department has raised significant issues for companies. Often such technology—whether a wireless router, a development server, or a cloud application—is not well maintained by the employee who installed it, leaving a potential security issue.</p>
+<p>A decade ago, the most significant threat was likely a rogue Wi-Fi access point. A few years ago, cloud storage and cloud applications became the greatest risk for most organizations. Now, with a large portion of the office workforce working remotely, their home devices have become the latest shadow-IT attack surface, said Yassir Abousselham, chief information security officer for Splunk.</p>
+<p><a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/essential-guide-ai-soc?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">Security organizations will need to keep an eye on new technologies,</a> with a focus on shadow IT, as everyone faces new challenges during and coming out of the pandemic, Abousselham said.</p>
+<blockquote>
+<p>&#8220;Attackers will continue relying on the same tactics with preference for the easiest path to achieving compromise, [whether that is] weak passwords, open public cloud storage, [or some other technical issue.]&#8221;<br />—<a target="_blank" href="https://twitter.com/ayassir?lang=en" rel="nofollow noopener noreferrer">Yassir Abousselham</a></p>
+</blockquote>
+<p>Companies should invest in basic security hygiene, focus on automated security measures and checks, and enable stakeholders to take part in the security program, he said.</p>
+<h3>3. Less access to packet data hinders network monitoring</h3>
+<p>While preventing breaches is still Plan A for most companies, detecting a breach before the attacker can do significant damage is key to preventing some of the worst forms of cyber attack, including ransomware. Monitoring the network for anomalous activity is a key part of the approach, but the adoption of more cloud services as part of business infrastructure means that more traffic will be encrypted and difficult to monitor for threats, said Mike Hamilton, the former CISO for the city of Seattle and the co-founder and CISO of cybersecurity firm CI Security.</p>
+<blockquote>
+<p>&#8220;Attackers are looking to steal data or do damage, so they have to go deep into the network, and that is the opportunity [for defenders] to see their signal. But problematically, we are going to have less and less access to packet data because pervasive encryption is continuing to be rolled out. And the criminals, of course, are using encryption more as well, so it becomes more about the metadata.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/seattlemkh/" rel="nofollow noopener noreferrer">Mike Hamilton</a></p>
+</blockquote>
+<p>Analysts should develop more visibility and alerts based on metadata and not indicators of compromise that may no longer be visible, he said.</p>
+<h3>4. Multi-factor authentication (MFA) becomes ubiquitous</h3>
+<p>With the movement of many business processes and applications to cloud services, the single most effective countermeasure to protect corporate data and infrastructure is incorporating a second, or third or fourth, factor of authentication.</p>
+<p>With remote work expected to continue, incorporating MFA into every facet of infrastructure is increasingly important, said Mick Baccio, cybersecurity advisor at Splunk.</p>
+<blockquote>
+<p>&#8220;Many employees either don’t think about security on a day-to-day basis, or they actively make decisions that prioritize convenience over secure processes. That just can’t happen in a work-from-home world, so security leaders are now playing catch-up.&#8221;<br />—<a target="_blank" href="https://twitter.com/nohackme?lang=en" rel="nofollow noopener noreferrer">Mick Baccio</a></p>
+</blockquote>
+<h3>5. The United States unfetters its response to nation-state hacking</h3>
+<p>A bevy of new regulations for cybersecurity will continue to arrive, from requirements for more secure Internet of Things hardware to greater privacy expectations from states such as California. However, the government is also focused on finding ways to cause pain to attackers.</p>
+<p>The Cyberspace Solarium Commission report advocated for a more aggressive policy of targeting cyber-attack groups with the aim of making their efforts more difficult. The Trump Administration and the US military adopted this policy, dubbed Defend Forward, as a way to &#8220;preempt threats, defeat ongoing harm, and deter future harm&#8221; from malicious actors and nation-states in cyberspace on a daily and an ongoing basis, according to <a target="_blank" href="https://www.lawfareblog.com/due-diligence-and-us-defend-forward-cyber-strategy" rel="nofollow noopener noreferrer">a paper by the Hoover Institution</a>.</p>
+<p>Most notably used in the run-up to the presidential election to blunt foreign-sponsored disinformation, the policy doctrine could help companies by engaging cyber threats before they become more serious, said CI Security&#8217;s Hamilton.</p>
+<p>&#8220;If a country is full of threat actors engaged in crime against us, we need to hit them in the economy,&#8221; he said. &#8220;We need to drop all the legitimate business traffic to that country. The Trump Administration has just scratched the service on this.&#8221;</p>
+<p>Hamilton sees greater cooperation between government and business to fend off larger cyber threats, such as China&#8217;s industrial espionage and North Korea&#8217;s financial attacks.</p>
+<h3>Cyber resilience comes of age</h3>
+<p>Overall, cybersecurity organizations should expect more mature policies in 2021. At the same time, they may have more responsibilities, including increased requirements to protect data to fewer options in dealing with ransomware.</p>
+<p>The post-pandemic world will see bigger shifts for security teams, such as the move from a cybersecurity approach to that of broader cyber resilience. <a target="_blank" href="https://www.linkedin.com/in/mbfernandes?originalSubdomain=ca" rel="nofollow noopener noreferrer">Mark Fernandes</a>, CTO for security at Micro Focus, wrote recently that <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/state-secops-beyond-soc?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">it&#8217;s time for the traditional SOC to evolve </a>into an &#8220;integrated threat operations center,&#8221; or ITOC.</p>
+<p>He urges SecOps teams to welcome the use of technologies such as AI, ML, and automation, so that your team can focus on what matters. (See <em>TechBeacon</em>&#8216;s <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/ai-and-soc-guide-tb?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener noreferrer">Essential Guide to AI in the SOC</a>.)</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/what-secops-teams-can-expect-2021-5-key-trends">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Critical Steam Flaws Could Let Gamers to Crash Opponents’ Computers</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/critical-steam-flaws-could-let-gamers-to-crash-opponents-computers/</link>
 		
@@ -501,58 +578,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>5 Creative Ways to Virtually Connect with Loved Ones This Holiday</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/5-creative-ways-to-virtually-connect-with-loved-ones-this-holiday/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sat, 05 Dec 2020 16:41:12 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Connect]]></category>
-		<category><![CDATA[Creative]]></category>
-		<category><![CDATA[Holiday]]></category>
-		<category><![CDATA[Loved]]></category>
-		<category><![CDATA[Virtually]]></category>
-		<category><![CDATA[ways]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/5-creative-ways-to-virtually-connect-with-loved-ones-this-holiday/</guid>
-
-					<description><![CDATA[Toni Birdsong Toni Birdsong is a Family Safety Evangelist for McAfee. She is an author, speaker, and cyber savvy mom]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<h3 class="red"><a target="_blank" href="https://www.mcafee.com/blogs/author/toni-birdsong/" rel="noopener noreferrer">Toni Birdsong</a></h3>
-<p>Toni Birdsong is a Family Safety Evangelist for McAfee. She is an author, speaker, and cyber savvy mom of two teenagers (much to their dismay). As a family safety evangelist for McAfee, she focuses on online safety and often speaks to educators, parents, and teens about dodging the dangers online. She is the co-owner of &#8230;</p>
-<p>                        <a target="_blank" href="https://www.mcafee.com/blogs/author/toni-birdsong/" class="caret-link" rel="noopener noreferrer">Read more posts from Toni Birdsong </a>
-                    </div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/5-creative-ways-to-virtually-connect-with-loved-ones-this-holiday/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -561,5 +586,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-10 22:01:07 by W3 Total Cache
+Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-11 06:38:06 by W3 Total Cache
 -->
