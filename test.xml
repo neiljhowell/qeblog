@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 09 Dec 2020 16:40:43 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Dec 2020 11:00:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,80 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Critical Steam Flaws Could Let Gamers to Crash Opponents’ Computers</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/critical-steam-flaws-could-let-gamers-to-crash-opponents-computers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 10 Dec 2020 11:00:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Computers]]></category>
+		<category><![CDATA[Crash]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Flaws]]></category>
+		<category><![CDATA[Gamers]]></category>
+		<category><![CDATA[Opponents]]></category>
+		<category><![CDATA[Steam]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/critical-steam-flaws-could-let-gamers-to-crash-opponents-computers/</guid>
+
+					<description><![CDATA[Valve fixed critical bugs in its Steam gaming client, which is a platform for popular video games like Counter Strike:]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Valve fixed critical bugs in its Steam gaming client, which is a platform for popular video games like Counter Strike: Global Offensive, Dota2 and Half Life.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/critical-steam-flaws-crash-opponents-computers/162100/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Securing Containers with NIST 800-190 and MVISION CNAPP</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/securing-containers-with-nist-800-190-and-mvision-cnapp/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 09 Dec 2020 16:52:22 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[CNAPP]]></category>
+		<category><![CDATA[Containers]]></category>
+		<category><![CDATA[MVISION]]></category>
+		<category><![CDATA[NIST]]></category>
+		<category><![CDATA[Securing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/securing-containers-with-nist-800-190-and-mvision-cnapp/</guid>
+
+					<description><![CDATA[Government and Private Sector organizations are transforming their businesses by embracing DevOps principles, microservice design patterns, and container technologies across]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div></div>
+<p>Government and Private Sector organizations are transforming their businesses by embracing DevOps principles, microservice design patterns, and container technologies across on-premises, cloud, and hybrid environments. Container adoption is becoming mainstream to drive digital transformation and business growth and to accelerate product and feature velocity. Companies have moved quickly to embrace cloud native applications and infrastructure to take advantage of cloud provider systems and to align their design decisions with cloud properties of scalability, resilience, and security first architectures. The declarative nature of these systems enables numerous advantages in application development and deployment, like faster development and deployment cycles, quicker bug fixes and patches, and consistent build and monitoring workflows. These streamlined and well controlled design principles in automation pipelines lead to faster feature delivery and drive competitive differentiation.</p>
+<p>As more enterprises adapt to cloud-native architectures and embark on multi-cloud strategies, demands are changing usage patterns, processes, and organizational structures. However, the unique methods by which application containers are created, deployed, networked, and operated present unique challenges when designing, implementing, and operating security systems for these environments. They are ephemeral, often too numerous to count, talk to each other across nodes and clusters more than they communicate with the outside endpoints, and they are typically part of fast-moving continuous integration/continuous deployment (CI/CD) pipelines. Additionally, development toolchains and operations ecosystems continue to present new ways to develop and package code, secrets, and environment variables. Unfortunately, this also compounds supply chain risks and presents an ever-increasing attack surface.</p>
+<p>Lack of a comprehensive container security strategy or often not knowing where to start can be a challenge to effectively address risks presented in these unique ecosystems. While teams have recognized the need to evolve their security toolchains and processes to embrace automation, it is imperative for them to integrate specific security and compliance checks early into their respective DevOps processes. There are legitimate concerns that persist about miscon­figurations and runtime risks in cloud native applications, and still too few organizations have a robust security plan in place.</p>
+<p>These complex problem definitions have led to the development of a special publication from National Institute of Standards and Technology (NIST) – NIST SP 800-190 Application Security Container Guide. It provides guidelines for securing container applications and infrastructure components, including sectional review of the fundamentals of containers, key risks presented by core components of application container technologies, countermeasures, threat scenario examples, and actionable information for planning, implementing, operating, and maintaining container technologies.</p>
+<p><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/mvision-cnapp.html" rel="noopener noreferrer">MVISION Cloud Native Application Protection Platform (CNAPP)</a> is a comprehensive device-to-cloud security platform for visibility and control across SaaS, PaaS, &amp; IaaS platforms.  It provides deep coverage on cloud native security controls that can be implemented throughout the entire application lifecycle. By mapping all the applicable risk elements and countermeasures from Sections 3 and 4 of NIST SP 800-190 to capabilities within the platform, we want to provide an architectural point of reference to help customers and industry partners automate compliance and implement security best practices for containerized application workloads. This mapping and a detailed review of platform capabilities aligned with key countermeasures can be referenced <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/white-papers/wp-container-security-strategy-nist-sp.pdf" rel="noopener noreferrer">here</a>.</p>
+<p>As outlined in one of the supporting charts in the whitepaper, CNAPP has capabilities that effectively address all the risk elements described in the NIST special publication guidance.</p>
+<p><img loading="lazy" class="aligncenter wp-image-115099 size-full" src="/wp-content/uploads/2020/12/1.png" alt="" width="977" height="581" /></p>
+<p>While the breadth of coverage is critical, it is worth noting that the most effective way to secure containerized applications requires embedding security controls into each phase of the container lifecycle. If we leverage Department of Defense’s Enterprise DevSecOps Reference Design guidance as a point of reference, it describes the DevSecOps lifecycle in terms of nine transition stages comprising of plan, develop, build, test, release, deliver, deploy, operate, and monitor.</p>
+<figure id="attachment_115102" aria-describedby="caption-attachment-115102" style="width: 977px" class="wp-caption aligncenter"><img loading="lazy" class="wp-image-115102 size-full" src="/wp-content/uploads/2020/12/2.png" alt="" width="977" height="372" /><figcaption id="caption-attachment-115102" class="wp-caption-text">DevSecOps Software Lifecycle: Referenced in DoD Enterprise DevSecOps Reference Design v1.0 Guidance</figcaption></figure>
+<p>The foundational principle of DevSecOps implementations is that the software development lifecycle is not a monolithic linear process.  The “big bang” style delivery of the Waterfall SDLC process is replaced with small but more frequent deliveries, so that it is easier to change course as necessary. Each small delivery is accomplished through a fully automated process or semi-automated process with minimal human intervention to accelerate continuous integration and delivery. The DevSecOps lifecycle is adaptable and has many feedback loops for continuous improvement.</p>
+<p>Specific to containerized applications and workloads, a more abstract view of a container’s lifecycle spans across three high-level phases of <strong>Build</strong>, <strong>Deploy</strong>, and <strong>Run</strong>.</p>
+<h2>Build</h2>
+<p>The “<strong>Build</strong>” phase centers on what ends up inside the container images in terms of the components and layers that make up an application. Usually created by the developers, security efforts are typically focused on reducing business risk later in the container lifecycle by applying best practices and identifying and eliminating known vulnerabilities early. These assessments can be conducted in an “inner” loop iteratively as developers perform incremental builds and add security linting and automated tests or can be driven via an “outer” feedback loop that’s driven by operational security reviews and penetration testing efforts.</p>
+<h2>Deploy</h2>
+<p>In the “<strong>Deploy</strong>” phase, developers configure containerized applications for deployment into production. Context grows beyond information about images to include details about configuration options available for orchestrated services. Security efforts in this phase often center around complying with operational best practices, applying least-privilege principles, and identifying misconfigurations to reduce the likelihood and impact of potential compromises.</p>
+<h2>Runtime</h2>
+<p>“<strong>Runtime</strong>” is broadly classified as a separate phase wherein containers go into production with live data, live users, and exposure to networks that could be internal or external in nature. The primary purpose of implementing security during the runtime phase is to protect running applications as well as the underlying container infrastructure by finding and stopping malicious actors in real time.</p>
+<figure id="attachment_115105" aria-describedby="caption-attachment-115105" style="width: 1012px" class="wp-caption aligncenter"><img loading="lazy" class="wp-image-115105 size-full" src="/wp-content/uploads/2020/12/3.png" alt="" width="1012" height="489" /><figcaption id="caption-attachment-115105" class="wp-caption-text"><a target="_blank" href="https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/docker-application-lifecycle/containers-foundation-for-devops-collaboration" rel="noopener noreferrer">Docker containerized application life cycle.</a> </figcaption></figure>
+<p>By applying this understanding of container lifecycle stages to respective countermeasures that can be implemented and audited upon within MVISION Cloud, CNAPP customers can establish an optimal security posture and achieve synergies of shift left and runtime security models.   Security assessments are critically important early in planning and design, where important decisions are made about architecture approach, development tooling and technology platforms and where mistakes or misunderstandings can be dangerous and expensive. As DevOps teams move their workloads into the cloud, security teams will need to implement best practices that apply operations, monitoring and runtime security controls across public, private, and hybrid cloud consumption models.</p>
+<p>CNAPP first discovers all the cloud-native components mapped to an application, including hosts, IaaS/PaaS services, containers, and the orchestration context that a container operates within.  With the use of native tagging and network flow log analysis, customers can visualize cloud infrastructure interactions including across compute, network, and storage components. Additionally, the platform scans cloud native object and file stores to assess presence of any sensitive data or malware. Depending on the configuration compliance of the underlying resources and data sensitivity, an aggregate risk score is computed per application which provides detailed context for an application owner to understand risks and prioritize mitigation efforts.</p>
+<p>As a cloud security posture management platform, CNAPP provides a set of capabilities that ensure that assets comply with industry regulations, best practices, and security policies. This includes proactive scanning for vulnerabilities in container images and VMs and ensuring secure container runtime configurations to prevent non-compliant builds from being pushed to production.  The same principles apply to orchestrator configurations to help secure how containers get deployed using CI/CD tools. These baseline checks can be augmented with other policy types to ensure file integrity monitoring and configuration hardening of hosts (e.g., no insecure ports or unnecessary services), which help apply defense-in-depth by minimizing the overall attack surface.</p>
+<p>Finally, the platform enforces policy-based immutability on running container instances (and hosts) to help identify process-, service-, and application-level whitelists. By leveraging the declarative nature of containerized workloads, threats can be detected during the runtime phase, including any exposure created as a result of misconfigurations, application package vulnerabilities, and runtime anomalies such as execution of reverse shell or other remote access tools. While segmentation of workloads can be achieved in the build and deploy phases of a workload using posture checks for constructs like namespaces, network policies, and container runtime configurations to limit system calls, the same should also be enforced in the runtime phase to detect and respond to malicious activity in an automated and scalable way.  The platform defines baselines and behavioral models that can specially be effective to investigate attempts at network reconnaissance, remote code execution due to zero-day application library and package vulnerabilities, and malware callbacks.  Additionally, by mapping these threats and incidents to the <a target="_blank" href="https://www.mcafee.com/blogs/enterprise/cloud-security/introducing-mitre-attck-in-mvision-cloud-defend-with-precision/" rel="noopener noreferrer">MITRE ATT&amp;CK</a> tactics and techniques, it provides a common taxonomy to cloud security teams regardless of the underlying cloud application or an individual component. This helps them extend their processes and security incident runbooks to the cloud, including their ability to remediate security misconfigurations and preemptively address all the container risk categories outlined in NIST 800-190.</p>
+<p>The post <a target="_blank" rel="nofollow noopener noreferrer" href="https://www.mcafee.com/blogs/enterprise/cloud-security/securing-containers-with-nist-800-190-and-mvision-cnapp/">Securing Containers with NIST 800-190 and MVISION CNAPP</a> appeared first on <a target="_blank" rel="nofollow noopener noreferrer" href="https://www.mcafee.com/blogs">McAfee Blogs</a>.</p>
+<p><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/securing-containers-with-nist-800-190-and-mvision-cnapp/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>COVID-19 Vaccine Cyberattacks Steal Credentials, Spread Zebrocy Malware</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/covid-19-vaccine-cyberattacks-steal-credentials-spread-zebrocy-malware/</link>
 		
@@ -479,172 +553,6 @@ fbq('track', "PageView");</p>
 		
 		
 			</item>
-		<item>
-		<title>October is #LGBTQ History Month and October 11 was National Coming Out Day!  Our&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sat, 05 Dec 2020 04:01:33 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[Coming]]></category>
-		<category><![CDATA[Day]]></category>
-		<category><![CDATA[ERG]]></category>
-		<category><![CDATA[History]]></category>
-		<category><![CDATA[LGBTQ]]></category>
-		<category><![CDATA[Month]]></category>
-		<category><![CDATA[National]]></category>
-		<category><![CDATA[October]]></category>
-		<category><![CDATA[PRIDE]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</guid>
-
-					<description><![CDATA[October is #LGBTQ History Month and October 11 was National Coming Out Day! 🏳️‍🌈 Our #PRIDE Employee Resource Group #ERG]]></description>
-										<content:encoded><![CDATA[
-<p>October is <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/lgbtq?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener noreferrer">#LGBTQ</a> History Month and October 11 was National Coming Out Day! <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f3f3-fe0f-200d-1f308.png" alt="🏳️‍🌈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Our <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/pride?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener noreferrer">#PRIDE</a> Employee Resource Group <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/erg?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener noreferrer">#ERG</a> at <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/accruent?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener noreferrer">#Accruent</a> connects and creates a community for LGBTQ+ individuals &amp; their allies, and seeks to provide education, perspective, outreach, and resources to create a more&#8230; <a target="_blank" href="https://facebook.com/story.php?story_fbid=3316092801777124&amp;id=227818503937918&amp;refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener noreferrer">More</a>
-</p>
-<p> <img loading="lazy" src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c267.0.1514.1536a/s75x225/121289689_3316092145110523_2782085661071101523_o.jpg?_nc_cat=109&#038;ccb=2&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=AKHTHc9PLEgAX_UdORq&#038;tn=jpm6h0gXLGpKYT2C&#038;_nc_ht=scontent-lga3-2.xx&#038;tp=28&#038;oh=f336d4376cb95589adcd28b847370ba2&#038;oe=5FF1BC76" width="67" height="68" class="bs r" alt="Image may contain: 22 people, outdoor"><img loading="lazy" src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c0.245.1536.1558a/s75x225/121637616_3316092188443852_2657372423963690071_o.jpg?_nc_cat=102&#038;ccb=2&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=KHue28SAqZkAX-EhxRs&#038;tn=t6RcbhucArP2r5wi&#038;_nc_ht=scontent-lga3-2.xx&#038;tp=28&#038;oh=96423bc6a45266841609021d3fe4bd3d&#038;oe=5FF07895" width="67" height="68" class="bs r" alt="Image may contain: 2 people, people standing and outdoor"><br />
-<br />
-<br /><a href="https://www.facebook.com/227818503937918/posts/3316092801777124">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Do cybersecurity like a boss: 35 experts to follow on Twitter</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/do-cybersecurity-like-a-boss-35-experts-to-follow-on-twitter/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 04 Dec 2020 21:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Boss]]></category>
-		<category><![CDATA[Cybersecurity]]></category>
-		<category><![CDATA[Experts]]></category>
-		<category><![CDATA[Follow]]></category>
-		<category><![CDATA[Twitter]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/?p=3552</guid>
-
-					<description><![CDATA[Staying on top of security is a big job, and Twitter can help. Listed here, in alphabetical order, are 35]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p><span><span><span><span>Staying on top of security is a big job, and Twitter can help. Listed here, in alphabetical order, are 35 researchers, hackers, and gurus whose Twitter feeds will keep any security specialist well informed on the latest developments and thinking in the industry.</span></span></span></span></p>
-<p>Do cybersecurity like a boss. Follow these folks and you will keep one step ahead.</p>
-<h3>Dmitri Alperovitch</h3>
-<h4><a target="_blank" href="https://twitter.com/DAlperovitch" rel="nofollow noopener noreferrer">@DAlperovitch</a></h4>
-<p>Alperovitch is executive chairman of the Silverado Policy Accelerator and co-founder of CrowdStrike. He&#8217;s also on the boards of more than a half-dozen companies and has patents on more than two dozen of his cybersecurity creations. His most recent tweets are about election security and disinformation campaigns.</p>
-<h3>Robert D. Atkinson</h3>
-<h4><a target="_blank" href="https://twitter.com/RobAtkinsonITIF" rel="nofollow noopener noreferrer">@RobAtkinsonITIF</a></h4>
-<p>Atkinson is president of the Information Technology &amp; Innovation Foundation, a tech policy think tank in Washington, DC. Many of his tweets focus on the international aspects of technology, such as European digital protectionism, as well as automation, industrial policy, and big tech antitrust issues.</p>
-<h3>Paul Asadoorian</h3>
-<h4><a target="_blank" href="https://twitter.com/securityweekly" rel="nofollow noopener noreferrer">@securityweekly</a></h4>
-<p>Asadoorian is founder and CTO of <em>Security Weekly</em> and chief innovation officer at the CyberRisk Alliance. Most of this former penetration tester&#8217;s tweets promote the podcasts and webcasts of <em>Security Weekly</em>, where he produces content for an entire network of shows on information security, including &#8220;Paul&#8217;s Security Weekly,&#8221; &#8220;Enterprise Security Weekly,&#8221; and &#8220;Hack Naked News.&#8221;</p>
-<h3>Zuk Avraham</h3>
-<h4><a target="_blank" href="https://twitter.com/ihackbanme" rel="nofollow noopener noreferrer">@ihackbanme</a></h4>
-<p>Avraham is founder and CEO of ZecOps, makers of an automated crash forensics platform, and founder and chairman of Zimperium, a mobile security company. A former Israeli Defense Force security researcher, his work has been studied by academics and quoted in popular publications, such as <em>Forbes</em>, <em>MIT Technology Review</em>, and <em>Engadget</em>. Many of his tweets focus on mobile security.</p>
-<h3>Richard Bejtlich</h3>
-<h4><a target="_blank" href="https://twitter.com/taosecurity" rel="nofollow noopener noreferrer">@taosecurity</a></h4>
-<p>Bejtlich is the principal security strategist at Corelight, where he helps communicate to customers the value of network monitoring in countering cyber threats. In the past, he held a similar position with FireEye and was chief security officer at Mandiant. As author of the TaoSecurity blog, this former intelligence officer with the US Air Force combines digital security with military history. His tweets focus on thinking about security at a strategic level.</p>
-<h3>Anton Chuvakin</h3>
-<h4><a target="_blank" href="https://twitter.com/anton_chuvakin" rel="nofollow noopener noreferrer">@anton_chuvakin</a></h4>
-<p>Chuvakin is helping grow Google&#8217;s cloud as a security vendor through his position as a security strategist at Chronicle, which was acquired by Alphabet in 2019. He is also a former research vice president and distinguished analyst at Gartner. His disciplines include computer forensics, intrusion detection, security information and event management, security correlation, log management, security standards, incident response, Unix and Linux security, honeypots, honeynets, and security policy and management.</p>
-<p> </p>
-<h3>Graham Cluley</h3>
-<h4><a target="_blank" href="https://twitter.com/gcluley" rel="nofollow noopener noreferrer">@gcluley</a></h4>
-<p>A former executive at Sophos and McAfee, the UK-based Cluley is co-host of the @SmashinSecurity podcast and an independent blogger who specializes in vulnerability and data breach topics. His blog has won several awards, including one from RSA for being among the most entertaining security blogs. He&#8217;s been at the security game since the early 1990s, when he worked as a programmer on version 1 of Dr Solomon&#8217;s Antivirus Toolkit for Windows. He was inducted into the InfoSecurity Europe Hall of Fame in 2011.</p>
-<h3>Jack Daniel</h3>
-<h4><a target="_blank" href="https://twitter.com/jack_daniel" rel="nofollow noopener noreferrer">@jack_daniel</a></h4>
-<p>Daniel is a community advocate at Tenable Network Security, but his real claim to fame is his work as a technology community activist. He is a co-founder of the Security Bsides events and co-host of the Security Voices podcast. His tweets reflect much of the curmudgeonly image that has come to be associated with Daniel over the years. He is currently researching stress and burnout in information security careers and beginning an exploration of the elders of infosec.</p>
-<h3>Dan Goodin</h3>
-<h4><a target="_blank" href="https://twitter.com/dangoodin001" rel="nofollow noopener noreferrer">@dangoodin001</a></h4>
-<p>Goodin is security editor at <em>Ars Technica</em>, where he oversees coverage of malware, computer espionage, botnets, and hardware hacking. His tweets highlight his work at <em>Ars Technica</em> and cover a variety of contemporary security topics.</p>
-<h3>Matthew Green</h3>
-<h4><a target="_blank" href="https://twitter.com/matthew_d_green" rel="nofollow noopener noreferrer">@matthew_d_green</a></h4>
-<p>Green teaches cryptography at the John Hopkins Information Security Institute. His specialties include applied cryptography, privacy-enhanced storage systems, and anonymous crypto-currencies. He has also designed several cryptographic tools, including Charm, a framework for rapidly prototyping crypto-systems, and a Functional Encryption library that provides implementations of several new attribute-based encryption schemes. His tweets primarily focus on crypto, with a smattering of other security topics.</p>
-<h3>thaddeus e. grugq</h3>
-<h4><a target="_blank" href="https://twitter.com/thegrugq" rel="nofollow noopener noreferrer">@thegrugq</a></h4>
-<p>The grugq, who has an aversion to capital letters, is an independent security researcher whose takes on security and counterintelligence have garnered over 113,000 followers on Twitter. He says his work is &#8220;unbiased, unencumbered by alliances to corporate masters, irreverent and is backed by a lifetime in the trenches.&#8221; The grugq is worth following for his ability to find and share some of the most relevant, important, and interesting tweets on security and related topics.</p>
-<h3>Trevor Hughes</h3>
-<h4><a target="_blank" href="https://twitter.com/jtrevorhughes" rel="nofollow noopener noreferrer">@jtrevorhughes</a></h4>
-<p>Hughes is president and CEO of the International Association of Privacy Professionals, a global privacy organization with more than 50,000 members in 120 countries, and an adjunct professor of law at the University of Maine School of Law. Privacy and data protection have become major concerns of businesses as they scramble to comply with new regulations and laws designed to rein in commercial collection, storage, and the use of consumer data. That makes Hughes&#8217; tweets on privacy a must-read on Twitter.</p>
-<h3>Troy Hunt</h3>
-<h4><a target="_blank" href="https://twitter.com/troyhunt" rel="nofollow noopener noreferrer">@TroyHunt</a></h4>
-<p>Hunt is a Sydney, Australia-based software architect and web security specialist, as well as an Australian Microsoft regional director and Microsoft most valuable professional for developer security. While gaining some renown from his speaking engagements, developer-focused security workshops, and more than 30 Pluralsight courses on security and other technologies, he&#8217;s best known for his Have I Been Pwned website, a free service that aggregates data breaches and helps people establish whether they&#8217;ve been impacted by malicious activity on the web.</p>
-<h3>Mikko Hypponen</h3>
-<h4><a target="_blank" href="https://twitter.com/mikko" rel="nofollow noopener noreferrer">@mikko</a></h4>
-<p>Hypponen is the chief research officer at Finland&#8217;s F-Secure. With over 202,000 followers, Hypponen is among the more widely followed security researchers in the industry. His tweets on a wide range of security-related issues are newsy and personal.</p>
-<h3>Alex Ionescu</h3>
-<h4><a target="_blank" href="https://twitter.com/aionescu" rel="nofollow noopener noreferrer">@aionescu</a></h4>
-<p>Ionescu is vice president of endpoint engineering at Crowdstrike and an expert in low-level system software, kernel development, security training, and reverse engineering. Along with Mark Russinovich and David Solomon, he has co-written the last two editions of the Windows Internals series. In addition to his Windows experience, he spent five years working with the iOS team on ARM hardware architecture and kernel development. Many of his tweets focus on bugs in Microsoft software.</p>
-<h3>Dan Kaminsky</h3>
-<h4><a target="_blank" href="https://twitter.com/dakami" rel="nofollow noopener noreferrer">@dakami</a></h4>
-<p>Kaminsky is chief scientist at White Ops, a firm specializing in detecting malware activity via JavaScript. He is best known for his work involving DNS cache poisoning. He is one of just seven people with the authority to restore the DNS root keys on the Internet in the event of an emergency. He has worked for Cisco, Avaya, and IOActive, where he was the director of penetration testing. Kaminsky, who has 90,000 followers, tweets on a variety of current hot topics in addition to posting about information security.</p>
-<h3>Samy Kamkar</h3>
-<h4><a target="_blank" href="https://twitter.com/samykamkar" rel="nofollow noopener noreferrer">@samykamkar</a></h4>
-<p>Kamkar first gained fame, or notoriety, depending on your point of view, as a 19-year-old, when he exploited a security flaw in MySpace that allowed him to gain 1 million friends in a 20-hour period. Banned from using computers for three years after that caper, Kamkar these days is regarded as a brilliant security researcher whose recent exploits include breaking into keyless-entry vehicles and hacking drones. Along with his tweets about hacking, Kamkar likes to write about his hobby, making chocolate.</p>
-<h3>Eugene Kaspersky</h3>
-<h4><a target="_blank" href="https://twitter.com/e_kaspersky" rel="nofollow noopener noreferrer">@e_kaspersky</a></h4>
-<p>Kaspersky is chairman and CEO of Moscow-based Kaspersky Labs. Over 183,000 people follow his tweets, which cover a wide range of security-related topics, including cybercrime and data breaches.</p>
-<h3>Dejan Kosutic</h3>
-<h4><a target="_blank" href="https://twitter.com/Dejan_Kosutic" rel="nofollow noopener noreferrer">@Dejan_Kosutic</a></h4>
-<p>Based in Zagreb, Croatia, Kosutic is a specialist in information security standards and business continuity management. He is considered an expert resource on standards such as ISO 27001 and ISO 22301/BS 25999. Kosutic&#8217;s tweets tend to focus mostly on his specialties, though he frequently touches on other topics as well, such as risk management.</p>
-<h3>Brian Krebs</h3>
-<h4><a target="_blank" href="https://twitter.com/briankrebs" rel="nofollow noopener noreferrer">@briankrebs</a></h4>
-<p>A former security reporter at <em>The Washington Post</em>, Krebs has won industry-wide recognition for his work in exposing some of the biggest data breaches ever, including the ones at Target and Home Depot. Krebs has also written several books chronicling his extensive work investigating cyber-criminal gangs in Russia and elsewhere.</p>
-<h3>Daniel Miessler</h3>
-<h4><a target="_blank" href="https://twitter.com/DanielMiessler" rel="nofollow noopener noreferrer">@DanielMiessler</a></h4>
-<p>Miessler works at a top tech company in Silicon Valley and is project leader of OWASP&#8217;s IoT security project, but he is widely known for his weekly Unsupervised Learning podcast and newsletter, which explores the intersection of security, technology, and society—and what might be coming next. He tweets about a variety of infosec topics, including the IoT, authentication, and asset management.</p>
-<h3>Charlie Miller</h3>
-<h4><a target="_blank" href="https://twitter.com/0xcharlie" rel="nofollow noopener noreferrer">@0xcharlie</a></h4>
-<p>Miller is the principal autonomous vehicle security architect at Cruise Automation, a job he earned by gaining notoriety, along with fellow hacker Chris Valasek, for hacking connected motor vehicles. His career has included a five-year stint at the NSA and work on the security teams at Twitter and Uber ATC. He&#8217;s also well known in the OS X and iOS communities, especially for remotely compromising an iPhone by sending it a malicious text message. If hacking motor vehicles is your thing, CM is the guy to follow.</p>
-<h3>Matt Miller</h3>
-<h4><a target="_blank" href="https://twitter.com/epakskape" rel="nofollow noopener noreferrer">@epakskape</a></h4>
-<p>Miller is a security engineer working as part of the Microsoft Security Response Center. At the center, he drives strategy and engineering related to proactive vulnerability defense across Microsoft’s products and services. Prior to joining the Redmond crew, he was a core contributor to the Metasploit framework and an editor for the <em>Uninformed</em> journal. His tweets and retweets focus on vulnerabilities, exploits, and mitigations.</p>
-<h3>Rich Mogull</h3>
-<h4><a target="_blank" href="https://twitter.com/rmogull" rel="nofollow noopener noreferrer">@rmogull</a></h4>
-<p>Mogull is security editor at <em>TidBITS</em>, an analyst and CEO at Securosis, and founder and vice president of product at DisruptOPS, which makes a platform that gives teams automated and continuous control of cloud infrastructure so they can move faster into the nimbus while strengthening security controls. He also serves as a responder on a federal disaster medicine and terrorism response team, so his tweets focus on health issues as well as digital security.</p>
-<h3>Pierluigi Paganini</h3>
-<h4><a target="_blank" href="https://twitter.com/securityaffairs" rel="nofollow noopener noreferrer">@SecurityAffairs</a></h4>
-<p>Paganini is a researcher at the Center for Cyber Security &amp; International Relations Studies at the University of Florence in Italy, adjunct professor at the school of law at Luiss Guido Carli University in Rome, and member of the Threat Landscape Stakeholder Group at the European Union Agency for Network and Information Security. His Security Affairs blog was chosen best European personal security blog in 2016 by <em>Info Security</em> magazine. Most of his tweets refer to his blog writings.</p>
-<h3>Kevin Poulsen</h3>
-<h4><a target="_blank" href="https://twitter.com/kpoulsen" rel="nofollow noopener noreferrer">@kpoulsen</a></h4>
-<p>Poulsen is a data reporter at <em>The Wall Street Journal</em> and author of <em>Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground</em>. In the 1990s, though, he was known as the black-hat hacker who manipulated the phone company&#8217;s computers to win radio station contests. His most recent tweets focus on voting fraud and election disinformation.</p>
-<h3>Andy Purdy</h3>
-<h4><a target="_blank" href="https://twitter.com/andy_purdy" rel="nofollow noopener noreferrer">@andy_purdy</a></h4>
-<p>Purdy is the chief security officer at Huawei Technologies USA and the company&#8217;s lead for the East-West Institute global cyber initiative. He is also on the steering committee of the Open Group Trusted Technology Forum and a participant in the Software and Supply Chain Assurance Forum hosted by the Department of Defense, the Department of Homeland Security, the National Institute of Standards and Technology, and the General Services Administration. His tweets tend to cover topline topics, such as safe online shopping, safe work-from-home computing, economic collaboration for better data protection, the digital divide, and 5G security.</p>
-<h3>Costin Raiu</h3>
-<h4><a target="_blank" href="https://twitter.com/craiu" rel="nofollow noopener noreferrer">@craiu</a></h4>
-<p>Raiu, who has more than 24 years of experience in antivirus technologies and security research, is director of Kaspersky Lab&#8217;s global research and analysis team, which has studied malicious programs such as Stuxnet, Duqu, and Carbanak. Many of his tweets focus on ransomware and advanced persistent threats.</p>
-<h3>Oxblood Ruffin</h3>
-<h4><a target="_blank" href="http://twitter.com/OxbloodRuffin" rel="nofollow noopener noreferrer">@OxbloodRuffin</a></h4>
-<p>A Canadian hacker and the &#8220;foreign minister&#8221; of the Cult of the Dead Cow white-hat hacker group, Oxblood Ruffin is a prolific tweeter, whose sardonic, sometimes risqué takes on politics, religion, technology, and security are entertaining and informative. He is an active &#8220;hactivist&#8221; and has also participated in both technology and human rights conferences.</p>
-<h3>Bruce Schneier</h3>
-<h4><a target="_blank" href="https://twitter.com/schneierblog" rel="nofollow noopener noreferrer">@schneierblog</a></h4>
-<p>Schneier is fellow and lecturer at Harvard&#8217;s Kennedy School, a board member of the Electronic Frontier Foundation, and the chief of security architecture at Inrupt. He is one of the foremost authorities on encryption in the country and a highly regarded expert on a range of security and privacy topics. He is one of the creators of the Blowfish cipher algorithm and the author of several books on computer security and privacy. Many of his tweets tease items from his Schneier on Security blog.</p>
-<h3>Binni Shah</h3>
-<h4><a target="_blank" href="https://twitter.com/binitamshah" rel="nofollow noopener noreferrer">@binitamshah</a></h4>
-<p>With more than 87,000 followers, Shah is a prominent Linux influencer with an interest in security. Her work on rooting embedded Linux boxes and hacking network protocols with Kali Linux has helped cement her reputation as a thought leader in the Linux community. Her Twitter feed includes many technical tweets about obfuscation, reverse engineering, and penetration testing.</p>
-<h3>Kelly Shortridge</h3>
-<h4><a target="_blank" href="https://twitter.com/swagitda_" rel="nofollow noopener noreferrer">@swagitda_</a></h4>
-<p>Shortridge is vice president of product management and strategy at Capsule8, which provides high-performance attack protection for Linux production environments, and co-author of the recently released e-book <i>Security Chaos Engineering</i>, from O&#8217;Reilly Media. As a product and strategy expert, she shows leaders how to work smarter, not harder, to secure their organizations and help them find security solutions built on value, not hype. Her conference speaker credits include Black Hat, AusCERT, Hacktivity, Troopers, and ZeroNights. In among with her security tweets she sprinkles nuggets of wisdom, nerdy jokes, and fashion tips.</p>
-<h3>Brad Spengler</h3>
-<h4><a target="_blank" href="https://twitter.com/spendergrsec" rel="nofollow noopener noreferrer">@spendergrsec</a></h4>
-<p>Spengler is president of Open Source Security and developer of grsecurity, which enhances the Linux kernel to protect it from a wide range of security threats. His tweets reflect his interest in solving difficult security problems in operating systems, which he developed in over 19 years of working in Linux kernel development and 15 years in Windows kernel development.</p>
-<h3>Taylor Swift</h3>
-<h4><a target="_blank" href="https://twitter.com/SwiftOnSecurity" rel="nofollow noopener noreferrer">@SwiftOnSecurity</a></h4>
-<p>Although the real name and gender of the owner of the SwiftOnSecurity Twitter handle isn&#8217;t known, what can be gleaned is that the infosec Taylor Swift likes to make stupid jokes, talk systems security, write sci-fi, and use Oxford commas. That&#8217;s proved to be a popular combination of interests, and it has garnered the parody account more than 316,000 followers on Twitter. For those who like their security news delivered with just the right touch of snark and irreverence, this is a must-follow.</p>
-<h3>Zack Whittaker</h3>
-<h4><a target="_blank" href="https://twitter.com/zackwhittaker/" rel="nofollow noopener noreferrer">@zackwhittaker</a></h4>
-<p>Whittaker, a veteran journalist, is security editor at <em>TechCrunch</em>. His tweets mostly cover developing security news stories.</p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/do-cybersecurity-boss-35-experts-follow-twitter">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
 	</channel>
 </rss>
 
@@ -653,5 +561,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 
 Page Caching using disk: enhanced (Page is feed) 
 
-Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-10 06:38:26 by W3 Total Cache
+Served from: wp.qe-blog.10.50.222.172.xip.io @ 2020-12-10 22:01:07 by W3 Total Cache
 -->
