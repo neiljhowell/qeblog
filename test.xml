@@ -1,7 +1,472 @@
-<html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>openresty/1.15.8.1</center>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>QE Blog</title>
+	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
+	<description>Where we share news, resources, and latest trends in testing</description>
+	<lastBuildDate>Thu, 24 Dec 2020 01:24:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+
+<image>
+	<url>http://wp.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
+	<title>QE Blog</title>
+	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Neotys &#8211; Christmas PAC Meet Up &#8211; Special Edition</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/neotys-christmas-pac-meet-up-special-edition/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 01:24:45 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Christmas]]></category>
+		<category><![CDATA[Edition]]></category>
+		<category><![CDATA[Meet]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[PAC]]></category>
+		<category><![CDATA[special]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/neotys-christmas-pac-meet-up-special-edition/</guid>
+
+					<description><![CDATA[🎅What a magical night yesterday for our special Christmas Neotys PAC Meet-Up! If you missed it, you can watch the]]></description>
+										<content:encoded><![CDATA[
+<p><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f385.png" alt="🎅" class="wp-smiley" style="height: 1em; max-height: 1em;" />What a magical night yesterday for our special Christmas Neotys PAC Meet-Up! If you missed it, you can watch the recording video here<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2KzLQXw%3Ffbclid%3DIwAR1EyG71LBMfDcN3a7-ZkatiOqgrY4HOoKRLSgyMIOgVoz-vk64oyiGhHCI&amp;h=AT07SWUl3BeEdWnlbhdKmUI5wFTG0U_t4KY4sBKBG3yxTbvBsFTdwzsW0m_nBo9nJ36EyrYxhvyWtHyGNOGN4zOVOMjdMFhey2-I1rWwppx-A3_7fFgWubMQadEof3si6CSaKCfV-wNAY94HUdxKJOxo8IEVzQXl0qE5fNL-mwwq9tocD9wniMFXT20xUiPPtPp5oUpE8p0wT2sdMRgbAPhCJ-QzSLrkAho5URaqarHm7Q6F5hr9sPkakeapHvxx5TK9dCe2MBLupV99WN4FzBp44ZH3WihCe1dLnXmNsDqLd_CzQc7Psv0J8sC6yMwibJsVMUe5BerA3Gl922Z_xy2k-lK3v_OWdq9A40gtEQs2wmJ-lkLv1lgdJ1LED5BHC7KJR8Ev5oRJ2T_iB9P19lCxXQ13U9eez5xgDsnh1nGbl98ef1OtSP_lIh0v80164ukO7G2lrG0Yy4PD66RQTM4E30e-wnrfu0MZRC5FUl8WZz21rzNfw72mUxO0vnPhDs8VR1yUuNj3U9KRIzRZAoTbFYukyHBUgX7w8bNxE-zgJnDebMhkLGYU8hUrFEBs_aVvxzdYIYNcFv4h45o8sBSAsMZm24qjA09qVGywg2sah2gUWQ" rel="noopener">https://bit.ly/2KzLQXw</a> <br /> You can also listen to the entire meet-up audio broadcast on PerfBytes here<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3p5tRHa%3Ffbclid%3DIwAR0mAwA3C_qVMG0HxkA_hTFVEGfcdDWsBOc8jRwmk3SNlpOMwsLkprnjYQQ&amp;h=AT1LRcIvvTAxCENIMzv8eij3Jw7LVk8HJLBM2Ksy2IY_KhoXyr67-8xptg-hS3ln-hvlJm9ViCTFlbSvtpL3MTzEe4GZ74saeM2Q75O5E76G5ZR1O7Dw86C7UH2Ja-aswUsnrIYuzJmok5AvlFxofiEC0c27pYQLTr8hYnn_-rKo_ZFy26sZpMzbxY6imrMqGuvswYCirQoX6v8y-zrPNhrgNmUXcsnecQH3BfILmK7xNorFAGpgnnf6ZWu2F61-UyF6mCuiKbFfgQLJ4VOm4tMqYU0XPopqZVAbCiwF5LWWJn2lYK6FAjfpmMgP3wjPyjGJ9bg_Bj6t-IBzeB_TZ7OfVAbYMh0_NaoKcMk52yLjZMXLknqLTD9TQ6ESpV8K7OroWGzFSopv735tDpviA9vZlfKyN8-lgfKnITrNnr8m7viSdYfNjeh_qh1Uxoaj5tNVNSeNrT0KFe8UljJ-Hqw5zQU0eLvcECMX_uZzB5kHMUiO1u1kXt8WjRPYMmaD1gVjDO0r5NzdHiLTwayPA06TsiRNtmvNu7wJEfALFwmfduztGv4lGRoVIdnE3RlVhV5jmPCi5btOY0WAkh9gqB5irwxqd6uouFpeyhbySGrdMLQ_iQ" rel="noopener">https://bit.ly/3p5tRHa</a><br /> Merry Christmas<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f381.png" alt="🎁" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+</p>
+<p><a target="_blank" href="https://bit.ly/2KzLQXw?fbclid=IwAR1EyG71LBMfDcN3a7-ZkatiOqgrY4HOoKRLSgyMIOgVoz-vk64oyiGhHCI" rel="noopener"></a> </p>
+<p><a target="_blank" href="https://bit.ly/2KzLQXw?fbclid=IwAR1EyG71LBMfDcN3a7-ZkatiOqgrY4HOoKRLSgyMIOgVoz-vk64oyiGhHCI" rel="noopener">Neotys &#8211; Christmas PAC Meet Up &#8211; Special Edition</a></p>
+<p><br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3953167798027987">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Scaling Performance Engineering to an Organization-wide Approach &#8211; Neotys</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/scaling-performance-engineering-to-an-organization-wide-approach-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 00:22:39 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[approach]]></category>
+		<category><![CDATA[Engineering]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[Organizationwide]]></category>
+		<category><![CDATA[Scaling]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/scaling-performance-engineering-to-an-organization-wide-approach-neotys/</guid>
+
+					<description><![CDATA[Discover 7 key aspects on how to scale performance engineering from a few scarce experts to an organization-wide approach —]]></description>
+										<content:encoded><![CDATA[
+<p>Discover 7 key aspects on how to scale performance engineering from a few scarce experts to an organization-wide approach — to meet different needs of different teams.  <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3mSQ6zC%3Ffbclid%3DIwAR2F24VPVUKGR-Yyyad36UouuAc00mwsGxREflXGOLOiD83vlJjD64rGvIc&amp;h=AT1umW-6YiSffHVY9p9JOscB7NDJuL6oALQkZ_AniAteStVKqO6zJDhbekgvw0i5wYboKsa_FjMBc8LvbooSpSyFsYkx_HzITfE1tsw6aArttqEbZjiZqL9ZrOBTDs9MyCs-FYHexvz0aXr4b-YMLNRCyQcpfE6H7havjfy7V4yKYnZzi36fuoYOJcItTjiQgQ70Gh6X_04YoDQ2Meem_GFpsvxA4YxQpVfE7wIj9hrQJL6MjXDlZYrnPCJkMjYljfzavrzX3Q0mhu3G_9aS0TGybuNeb15dl7HCbJD-m_2kiIiOiyDoAbaTQ8ws2FXO8fxDCeaRsG42m3nofQ7aUEMM_5xMY4yB8DbP4k_rtyVtv-Hsv27erhELX2thPkh5dyq07F6FdGiIe_AFKlBxASq0GmDYCTiW3PRceLlnXhLkj1NzrLReq3oan_P8Eqml1NCnvnbkaMpY8Nfpp2CvKi3aGjvPK5wPTQ9MndaLAzwigZnPWYpm2GrzrorC9K7NhQRkhclriseg_HWfRI_qV1MvHArDnCj-BBwT2Al04yISYQwdJ475osFO6N21bnoe689e-Di_8KXQowrhHd2X8m64J2ybloLHzU_aIBEUC51dIHbxADg" rel="noopener">https://bit.ly/3mSQ6zC</a>
+</p>
+<p><a target="_blank" href="https://bit.ly/3mSQ6zC?fbclid=IwAR2F24VPVUKGR-Yyyad36UouuAc00mwsGxREflXGOLOiD83vlJjD64rGvIc" rel="noopener"></a> </p>
+<p><a target="_blank" href="https://bit.ly/3mSQ6zC?fbclid=IwAR2F24VPVUKGR-Yyyad36UouuAc00mwsGxREflXGOLOiD83vlJjD64rGvIc" rel="noopener">Scaling Performance Engineering to an Organization-wide Approach &#8211; Neotys</a></p>
+<p><br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3953426434668790">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why SolarWinds-SUNBURST is our Cyber Pearl Harbor</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/why-solarwinds-sunburst-is-our-cyber-pearl-harbor/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 23:45:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber]]></category>
+		<category><![CDATA[Harbor]]></category>
+		<category><![CDATA[Pearl]]></category>
+		<category><![CDATA[SolarWindsSUNBURST]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/why-solarwinds-sunburst-is-our-cyber-pearl-harbor/</guid>
+
+					<description><![CDATA[On December 13, 2020, FireEye announced that threat actors had compromised SolarWinds’s Orion IT monitoring and management software and used]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>On December 13, 2020, <a target="_blank" href="https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html" rel="noopener noreferrer">FireEye announced</a> that threat actors had compromised SolarWinds’s Orion IT monitoring and management software and used it to distribute a software backdoor to dozens of that company’s customers, including several high profile U.S. government agencies.</p>
+<p>Many are referring to the SolarWinds-SUNBURST campaign incidents as the long-prophesied “Cyber Pearl Harbor.” We agree, but it is important to be clear as to why this is the case.</p>
+<h2><strong>Game Changing Attack Vector</strong></h2>
+<p>This campaign is the first major supply chain attack of its kind at scale and represents a shift in tactics where a nation state has employed a new weapon for cyber-espionage.  Just as the use of nuclear weapons at the end of WWII changed military strategy for the next 75 years, the use of a supply chain attack will change the way we need to consider defense against cyber-attacks.</p>
+<p>This supply chain attack operated at the scale of a worm such as WannaCry in 2017, combined with the precision and lethality of the 2014 Sony Pictures or 2015 U.S. Office of Personnel Management (OPM) attacks.</p>
+<p>The impact of this attack shows how a high-volume commercial software product can impact many organizations simultaneously. In the past, cyber-attacks such as WannaCry relied on vulnerabilities, exploiting organizations that failed to install critical patches. In the case of SolarWinds-SUNBURST, any organization that simply updated its software could be vulnerable to attack, which is why we saw the impact across multiple agencies in the federal government and private sector.  Furthermore, the backdoor used stealth tactics to monitor if it was being analyzed by looking for the presence of debuggers and network monitors and suppressing communications and alerts of other malicious behavior in those scenarios.</p>
+<h2><strong>Broad Reach and Impact </strong></h2>
+<p>From a U.S. national security perspective, this attack enables the nation’s enemies to steal all manner of information, from inter-governmental communications to national secrets. Attackers can, in turn, leverage this information to influence or impact U.S. policy through malicious leaks.</p>
+<p>The attack impacted private companies as well. Unlike government networks which isolate classified information both from the internet and non-classified material, private organizations often have critical intellectual property on the same internet-facing network they store non sensitive information.  Exactly what corporate intellectual property or private data on employees has been stolen will be difficult to determine, and the full extent of theft may never be fully known.</p>
+<p>These cyber supply chain attacks are a concern for consumers as well. In today’s highly interconnected homes, a breach of consumer electronics companies can result in attackers using their access to smart appliances such as TVs, virtual assistants, and smart phones to steal their information or act as a gateway to attack businesses while users are working remotely from home.</p>
+<h2><strong>Endless Possibilities for Attackers</strong></h2>
+<p>What makes this campaign so insidious is that the attackers used trusted SolarWinds software to infiltrate victim organizations with the SUNBURST backdoor, which then enabled the attacker to take any number of secondary steps. This could involve stealing data, destroying data, holding critical systems for ransom, orchestrating system malfunctions that could result in kinetic damage, or simply implanting additional malicious content throughout the organization to stay in control and maintain access even after the initial threat appears to have passed.</p>
+<h2><strong>Encourages the Wrong Behavior</strong></h2>
+<p>Such an attack is particularly challenging in that it raises concerns around best practices cybersecurity professionals have been trying to communicate for years. For decades, we have been saying that it is critical to patch and keep software updated. In this case, however, it was patching and bringing new software into an environment that opened organizations up to attack.</p>
+<p>Organizations must not read into these SolarWinds-SUNBURST revelations that they should not prioritize keeping their environments up to date. Doing so would certainly open them up to a variety of other attacks.</p>
+<p>How do we reconcile these two conflicting security viewpoints? Organizations and cybersecurity practitioners must be vigilant in their review and understanding of the software being brought into their environments. Additionally, they must identify their most critical information and data and apply the principles of least privilege to these items, ensuring that sensitive information such as national secrets and intellectual property are protected.</p>
+<h2><strong>Daisy Chained Victims Amplify Impact</strong></h2>
+<p>One additional area of concern is when software vendors are impacted.  In this scenario, it is possible for there to be a daisy chain effect. The adversary could modify either source code or a development toolchain within a victim’s environment to plant additional backdoors that are then distributed to their customers.</p>
+<h2><strong>Conclusion and More Information</strong></h2>
+<p>The SolarWinds-SUNBURST campaign is like a “smart bomb” on a crowded landscape of “dumb bomb” cyber threats. WannaCry was a dumb bomb in that it was fully autonomous and indiscriminate in what it attacked. Whereas this SolarWinds-SUNBURST attack is a “precision guided” smart cyber weapon that is being used to target specific organizations in very specific ways. Every organization that is of interest to the attacker might be targeted slightly differently.</p>
+<p>McAfee has incorporated technical indicators gleaned from the FireEye and SolarWinds incidents into our cyber defenses and solutions portfolio to protect our environment and customers. The details of these supplemental protections can be found in McAfee’s knowledge base (KB) articles <a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93830" rel="noopener">KB89830</a> and <a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93861" rel="noopener">KB93861</a>.</p>
+<p>Please also see the following analysis blogs focused on SolarWinds-SUNBURST:</p>
+<p> </p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/executive-perspectives/why-solarwinds-sunburst-is-our-cyber-pearl-harbor/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Now available on-demand. Our webinar reveals 6 key takeaways from enterprises wh&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/now-available-on-demand-our-webinar-reveals-6-key-takeaways-from-enterprises-wh/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 23:21:47 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[enterprises]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[LoadRunner]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[ondemand]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[reveals]]></category>
+		<category><![CDATA[takeaways]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/now-available-on-demand-our-webinar-reveals-6-key-takeaways-from-enterprises-wh/</guid>
+
+					<description><![CDATA[Now available on-demand. Our webinar reveals 6 key takeaways from enterprises who switched from #LoadRunner to #NeoLoad. What they say]]></description>
+										<content:encoded><![CDATA[
+<p>Now available on-demand. Our webinar reveals 6 key takeaways from enterprises who switched from <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/loadrunner?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#LoadRunner</a> to <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#NeoLoad</a>. What they say may surprise you. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F38cy7Oo%3Ffbclid%3DIwAR0nH22A0-T4ogt7I3fGTJy2OT9G862iXiByRZoQAYSHOnIW1O284k4Cnbs&amp;h=AT38KSVBv5JGMIHCHR0_3FnsXhTjTmyNdB8f5JOpKFEvFkFNmIkxLeKA9OtBYCh5kiZonJnNkDJU3qMKJ9ak3UNxrktHLDpe2IAESCKBseX1VuqyxdzrchQi8exxwBLZOQIBdGI8M8Em_QofwWYOqsQJqMKa-zUsxd-c2g2LOleZKjkpJ5KZozJxMGJHerT86RiMPz3pT7jrIRvhsle-hKg4n2uCTZfK3UWIJKdbTHZ2YCugPQCT6fZBsG0HzepZLKVRL8JelF3Sxe5qMW7Bj3nX1BWznBWETF-u1oeyoa4k1GcN9fIhz56mYXv2SyfSV7oR5hYxCqpdt26O3wQr6DACnk2YCZhHC_iw57TkjT57UoFYSDKaEO3qVjUlLY3ezXXmAm5U9E2xm6uboOycrYLWg50SDOcvY0lfqO8zIyxetLjin7qM6le6RuO0Gd9CkS6neoh0Dwy5aJu9GftBLFfhoB6G3hajmiI_wREB-cFkpmVfqokDT5g5l-wHwnyKhxDUVd0NoSTKWsWeBsMJih1piCSWmo6bYOFHb8F24IIKrMXWfXc3Ef5AFGfNyzShWovNO9vO6UHShhG8I_HsOAGflVaaVWWKMF7JgsVNmmihvKtzwbxGNM_7x8XajzwjIOKaJPhjUtVXkadWfSqC" rel="noopener">https://bit.ly/38cy7Oo</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p> <br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3960820773929356">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Practical Guide to Performance Testing &#8211; Neotys</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/practical-guide-to-performance-testing-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 22:20:46 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Guide]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Practical]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/practical-guide-to-performance-testing-neotys/</guid>
+
+					<description><![CDATA[Our “bestselling” whitepaper delivers practical information on how to execute efficient and effective performance testing in today’s more demanding environment.]]></description>
+										<content:encoded><![CDATA[
+<p>Our “bestselling” whitepaper delivers practical information on how to execute efficient and effective performance testing in today’s more demanding environment. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F34qrLK1%3Ffbclid%3DIwAR3y_n7WTeF2UilMRgNyEQdy_aa67VJGxS3eCC2CVhWvnY7iFb7s9g8REHk&amp;h=AT3Bu4QnZmNGsO23nTrGf-F4-75Lw8f12jh0UvR6X_INjXf0aq2is5gVVKnqyHvu5z4_5xfHCnhXHrtAhKpcxvHwdADul6Rzdu6aOHT91ePjp38i9b7I_bAxDhmo1jJnygMhsxSvumXzBiCyfu51I9U3WomKs87p3pKQN_QP0PQ-sLntWkIqWQALevsAWRp7KysAyvFcF6ERLb99La7AUDnx2FzVSKYYk4GXurrjBAWBE-awBTnO5BtDK77tCvdNZJFjHGtSZydelrbsxFlh1mrzHtNmvWDSELvUh0JJSAvruGHHKlaPBRHmCxlTKygzdckuObuu1dyo7mIkrssHC0t25tmLxbFlk-kMoBqVuF7LMrAFV2PQo1ZOv9GdwKUKc0r2BKgLa9ql3AhuENmtk9zVpG3PCGc0S4YyLyBjbxmMszchunE6lU_XutyLHTEOwJIEoWc52VXx9G4_g2XaMGHqkHRYaGk5Y0e3_FHXgoZaHTzQB5bN2jcMbhcK0Sp7C6VOCALNkEeLG3d4TakYUrXprmr3-DsP4i-ZWWv5c43FfZaEtujzeEOQWAShDvSlvIFaUV43p9byswG1xXRC7Rd636zW6zbt9cOXw98DvI6nOxCTft04s5K8" rel="noopener">https://bit.ly/34qrLK1</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3965404046804362%3Atop_level_post_id.3965404046804362%3Atl_objid.3965404046804362%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965404046804362%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX8mv2fF2bEfYSBn%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6759443014380701806&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3965404046804362%3Atop_level_post_id.3965404046804362%3Atl_objid.3965404046804362%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965404046804362%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX8mv2fF2bEfYSBn%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6759443014380701806&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.3965404046804362%3Atop_level_post_id.3965404046804362%3Atl_objid.3965404046804362%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965404046804362%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX8mv2fF2bEfYSBn%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6759443014380701806&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p><a target="_blank" href="https://bit.ly/34qrLK1?fbclid=IwAR3y_n7WTeF2UilMRgNyEQdy_aa67VJGxS3eCC2CVhWvnY7iFb7s9g8REHk" rel="noopener"></a> </p>
+<p><a target="_blank" href="https://bit.ly/34qrLK1?fbclid=IwAR3y_n7WTeF2UilMRgNyEQdy_aa67VJGxS3eCC2CVhWvnY7iFb7s9g8REHk" rel="noopener">Practical Guide to Performance Testing &#8211; Neotys</a></p>
+<p><br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3965404046804362">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>#NeotysPAC &#8211; Performance — Cloning Automation from Users in the Past, by Leandro Melendez</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/neotyspac-performance-cloning-automation-from-users-in-the-past-by-leandro-melendez/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 21:19:47 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[by Leandro Melendez]]></category>
+		<category><![CDATA[Cloning]]></category>
+		<category><![CDATA[Leandro]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[Melendez]]></category>
+		<category><![CDATA[NeotysPAC]]></category>
+		<category><![CDATA[NeotysPAC - Performance — Cloning Automation from Users in the Past]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Users]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/neotyspac-performance-cloning-automation-from-users-in-the-past-by-leandro-melendez/</guid>
+
+					<description><![CDATA[#NeotysPAC expert Leandro Melendez discusses how modern techniques can evolve some of the tried-and-true best practices for performance and load]]></description>
+										<content:encoded><![CDATA[
+<p><a target="_blank" class="fm fn" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.3965833043428129%3Atop_level_post_id.3965833043428129%3Atl_objid.3965833043428129%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965833043428129%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX84dyD5xwBa-VHY%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A5725937234997310738&amp;__tn__=%2As-R" rel="noopener">#NeotysPAC</a> expert Leandro Melendez discusses how modern techniques can evolve some of the tried-and-true best practices for performance and load testing.<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F38wgYPV%3Ffbclid%3DIwAR3v0PaYXqpCKtq1Ayz2nKRxxDWEVbXqjYI6OBTCmXYyLCQb3evGUX_mMPw&amp;h=AT1B2Wgp9muiauYYKHInr80CT3LmWXeffRoJeCY__GBAHMg5PDiQnU_qmswwZEQqrR9FGZcObvBDLvFwY1w2Us1YxtMRoMz1gwD4N1SY3Pt5i1GCJKA6fz7evyH_4BjbEPifXlGi_G9AiUFm7wtZ__bjUe4y3elElc0LO3uF8VTfdkFta2znlqRKDT2_BijcOcBtVOGoG_1aro-DfOqat3NetpWDfBi0_m6WP_TfrbeuUr7g3DzlKHMAfaK2Gy2Dmvalel2acrYxZ5q8rMQsDa7t-u2x2Ipu2C9SmxClP3FW0gpTl70cQHFQEjttwB6AHgBUDoxo7lrqWdyjDRV32wT5hqkU46pnEFfIGh737VMrm-Fx9BpNI6RzXcZMxd5ducb9Rxnbw71izanRX-KfOXox9RYwmvAI7gcWBUCoe9LwGPqS3BRNz8gIIThM284WfOW_QVAjpc5-RjCm7pd7Sl4H4kDQOh04-_VB_U4AW4KZBmUVq_n9HrGI-GIV-6DKtT2bQWOueWJLhmN8mBSukZ1KjJWA0y84cABhC4mj-6DhsixpSNYPcRLsB-dJaD4JMMZWL3LZyyjUlmgdgPnWOiUgY69QrLtoIGYEbvMWobY3Aul47Q" rel="noopener">https://bit.ly/38wgYPV</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3965833043428129%3Atop_level_post_id.3965833043428129%3Atl_objid.3965833043428129%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965833043428129%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX84dyD5xwBa-VHY%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A5725937234997310738&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3965833043428129%3Atop_level_post_id.3965833043428129%3Atl_objid.3965833043428129%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965833043428129%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX84dyD5xwBa-VHY%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A5725937234997310738&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.3965833043428129%3Atop_level_post_id.3965833043428129%3Atl_objid.3965833043428129%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3965833043428129%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX84dyD5xwBa-VHY%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A5725937234997310738&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p><a target="_blank" href="https://bit.ly/38wgYPV?fbclid=IwAR3v0PaYXqpCKtq1Ayz2nKRxxDWEVbXqjYI6OBTCmXYyLCQb3evGUX_mMPw" rel="noopener">#NeotysPAC &#8211; Performance — Cloning Automation from Users in the Past, by Leandro Melendez</a></p>
+<p><br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3965833043428129">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Thriving Through Visual AI &#8211; Applitools Customer Insights 2020</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/thriving-through-visual-ai-applitools-customer-insights-2020/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 20:48:10 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[Customer]]></category>
+		<category><![CDATA[Insights]]></category>
+		<category><![CDATA[Thriving]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/thriving-through-visual-ai-applitools-customer-insights-2020/</guid>
+
+					<description><![CDATA[In this blog post, I cover the customer insights into their successes through the use of Applitools. I share what]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In this blog post, I cover the customer insights into their successes through the use of Applitools. I share what we learned about how our users speed up their application delivery by reducing test code, shortening code rework cycles, and reducing test time.</p>
+<h2 id="h.uaxbh69vd6rr">Customer Insight – Moving To Capture Visual Issues Earlier</h2>
+<p>We now know that our customers go through a maturity process when using Applitools. We see a typical maturity process:</p>
+<ol>
+<li>End-to-end test validation on one application</li>
+<li>[OPTIONAL] Increasing the end-to-end validation across other applications (where they exist)</li>
+<li>Moving validation to code check-in and</li>
+<li>Build validation</li>
+<li>Validating component and component mock development</li>
+</ol>
+<h3 id="h.unetd6ku41lc">End to End Validation</h3>
+<p>In automating application tests, our customers realize that they need a way to validate the layout and rendering of their applications through automation. They have learned the problems that can escape when even a manual check does not occur. But, manual testing is both expensive and error-prone.</p>
+<p>Every one of our customers has experience with pixel diff for visual validation.  They uniformly reject pixel diff for end-to-end testing. From their experience, pixel diff reports too many false positives to make it useful for automation.</p>
+<p>So, our customers begin by running a number of visual use cases through Applitools to understand its accuracy and consistency. They realize that Applitools will capture visual issues without reporting false positives. And, they begin adding Applitools to other production applications for end-to-end tests.</p>
+<h3 id="h.ky8cgj7qr0ov">Check-In Validation</h3>
+<p>As Applitools users become comfortable with Applitools in their end-to-end tests, they begin to see inefficiencies in their workflow. End-to-end validation occurs well-after developers finish and check-in their code. To repair any uncovered errors, developers must switch context from their current task to rework the failing code. Rework impacts developer productivity and slows product release cycles.</p>
+<p>Once users uncover this workflow inefficiency, they look to move visual validation to an earlier point in app development. Check-in makes a natural point for visual validation. At check-in, all functional and visual changes can be validated. Any uncovered errors can go immediately back to the appropriate developers for rework.</p>
+<p>So, our customers add visual validation to their check-in process. Their developers become more efficient. And, developers become attuned to the interdependencies of their code with shared resources used across the team.</p>
+<h3 id="h.o7ge6v9dkbqv">Regular Build Validation</h3>
+<p>As our customers appreciate the dependability of Applitools Visual AI, they realize that Applitools can be part of their regular build validation process. These customers use Applitools as a “visual unit test”, which should run green after every build. When Applitools fails with an unexpected error, they uncover an unexpected change. In this mode, our users generally expect passing tests.</p>
+<p>At this level of maturity, end-to-end validation tests provide a sanity check. Our customers who have reached this level tell us that they never discover visual issues late in their product release process anymore.</p>
+<h3 id="h.bi8xy4ukia5t">Component and Mock Validation</h3>
+<p>Our most mature customers have moved validation into visual component construction and validation.</p>
+<p>To ensure visual consistency, many app developers have adopted some kind of visual component library. The library defines a number of visual objects or components. Developers can assign properties to an object, or define a style sheet from which the component inherits properties.</p>
+<p>To validate the components and show them in use, developers create mock-ups. These mock-ups let developers manipulate the components independent of a back-end application. Tools like Storybook serve up these mock-ups. Developers can test components and see how they behave through CSS changes.</p>
+<p>Applitools’ most mature customers use Visual AI in their mock-up testing to uncover unexpected behavior and isolate unexpected visual dependencies. They find visual issues much earlier in the development process – leading to better app behavior and reduced app maintenance costs.</p>
+<h2 id="h.f1t912ut1cfo">Customer Insight – Common Problems</h2>
+<p>Our customers break themselves into two kinds of problems:</p>
+<ul>
+<li>Behavior Signals Trustworthiness</li>
+<li>Visual Functionality</li>
+<li>Competitive Advantage</li>
+</ul>
+<h3 id="h.o1gkej3udpxn">Behavior Signals Trustworthiness</h3>
+<p>When buyers spend money, they do so with organizations they trust. Similarly, when investors or savers deposit money, they expect their fiduciary or institution to behave properly.</p>
+<p>Take a typical bill paying application from a bank. The payees may be organized in alphabetical order, or in the amount previously paid. A user enters the amount to pay for a current bill. The app automatically calculates and reports the bill pay date. How would an online bank customer react to any of these misbehaviors:</p>
+<ul>
+<li>Missing payees</li>
+<li>Lack of information on prior payments</li>
+<li>the inability to enter a payment amount</li>
+<li>Misaligned pay date</li>
+</ul>
+<p>How do buyers or investors react to these misbehaviors? As they tell it, some ignore issues, some submit bug reports, some call customer support. And, some just disappear. Misbehavior erodes trust. In the face of egregious or consistent misbehavior, customers go elsewhere.</p>
+<p>App developers understand that app misbehavior erodes trust. So, how can engineers uncover misbehavior? Functional testing can ensure that an app functions correctly. It can even ensure that an app has delivered all elements on a page by identifier. But, functional testing can overlook color problems that render text or controls invisible, or rendering issues that result in element overlap.</p>
+<p>When they realize they uncover too many visual issues late in development, app developers look for a solution. They need accurate visual validation to add to their existing end-to-end testing.</p>
+<h3 id="h.o9ihoeel8980">Visual Functionality</h3>
+<p>Another group of users builds applications with visual functionality. With these applications, on-screen tools let users draw, type, connect and analyze content. These applications can use traditional test frameworks to apply test conditions. The hard part comes when developers want to automate application testing.</p>
+<p>Sure, engineers can use identifiers for some of the on-screen content. However, identifiers cannot capture graphical elements. To test their app, some engineers use free pixel diff tools to validate screenshots or screen regions. How do these translate to cross-browser behavior?  Or, how about responsive application designs on different viewport sizes?</p>
+<p>At some point, all these teams realize they have wasted engineering resources on home-grown visual validation systems. So, they look for a commercial visual validation solution.</p>
+<h3 id="h.b8yvotgvm1l4">Competitive Advantage</h3>
+<p>The final issue we hear from our users involves a competitive advantage. They tell us they seek an engineering advantage to overcome technical and structural limitations. For example, as teams grow and change, the newest members have the challenge to learn the dependencies that cause errors. Also, development teams build up technical debt based on pragmatic release decisions.</p>
+<p>Over time, existing code becomes a set of functionality with an unknown thread of dependencies. Developers are loath to touch existing code for fear of incurring unknown defects that will result in unexpected code delays. As you might imagine, visual defects make up a large percentage of these risks.</p>
+<p>Developers recognize the need to work through this thread of dependencies. They look for a solution to help identify unexpected behavior, and its root cause, well before code gets released to customers. They need a highly-accurate visual validation solution to uncover and address visual dependencies and defects.</p>
+<h2 id="h.wqne8apz5z2f">Hear From Our Customers</h2>
+<p>A number of Applitools customers shared their insight in our online webinars in 2020. All these webinars have been recorded for your review.</p>
+<h3 id="h.ezqruv9zd38i">Full End-To-End Testing</h3>
+<p>In a two-talk webinar, <a target="_blank" href="https://applitools.com/blog/atlassian-jira-pushpay-webinar/" rel="noopener">David Corbett of Pushpay</a> described how they are running full end-to-end testing to achieve the quality they need. He described in detail how they use their various tools – especially Applitools. Later in that same webinar, <a target="_blank" href="https://applitools.com/blog/atlassian-jira-pushpay-webinar/" rel="noopener">Alexey Shpakov of Atlassian</a> described the full model of testing for Jira. He described their use of visual validation. Both talks described the movement of quality validation to the responsibility of developers.</p>
+<p><a target="_blank" href="https://applitools.com/blog/vodafone-webinar/" rel="noopener">Alejandro Sanchez-Giraldo</a> of Vodafone spoke about his company’s focus on test innovation over time – including the range of test strategies he has tried. As a veteran, he knows that some approaches fail while others succeed, and he recognizes that learning often makes the difference between a catastrophic failure and a setback. He describes the full range of Vodafone’s testing.</p>
+<h3 id="h.qarw5zpm6s4w">Testing Design Systems</h3>
+<p><a target="_blank" href="https://applitools.com/blog/roadmap-testing-design-system/" rel="noopener">Marie Drake of News UK</a> explained how News UK had deployed a design system to make its entire news delivery system more productive. In her webinar, Marie explained how they depended on Applitools for testing, from the component level all the way to the finished project. She showed how the design system resulted in faster development. And, she showed how visual validation provided the quality needed at News UK to achieve their business goals.</p>
+<p>Similarly, <a target="_blank" href="https://applitools.com/blog/testing-design-systems/" rel="noopener">Tyler Krupicka of Intuit</a> described their design system in detail. He showed how they developed their components and testing mocks. He described the design system as giving Intuit the ability to make rapid mock-up changes in their applications. Tyler explained how Intuit used their design system to make small visual tweaks that they could evaluate in A/B testing to determine which tweak resulted in more customers and greater satisfaction.</p>
+<h3 id="h.k1pkux9osfm2">Testing PDF Reports</h3>
+<p><a target="_blank" href="https://applitools.com/blog/high-performance-testing/" rel="noopener">Priyanka Halder, head of quality at GoodRx</a>, describes her process for delegating quality across all of the engineering team as a way to accelerate the delivery of new features to market. She calls this “High-Performance Testing.” In her webinar, one of the keys to GoodRx is the library of drug description and interaction pages served up by GoodRx. GoodRx uses Applitools to validate this content, even as company logos, web banners, and page functionality get tweaked constantly.</p>
+<p>Similarly, Fiserv uses Applitools to test a range of PDF content generated by Fiserv applications.  In their webinar, <a target="_blank" href="https://applitools.com/blog/pdf-testing-fiserv-webinar/" rel="noopener">David Harrison and Christopher Kane of Fiserv</a> describe how Applitools makes their whole workflow run more smoothly.</p>
+<p>These are just some of the customer stories shared in their own words in 2020.</p>
+<h2 id="h.38ssyj4q7at0">Looking Ahead to 2021</h2>
+<p>As I mentioned earlier, we plan to publish a series of case studies outlining customer successes with Applitools in 2021.</p>
+<p>When you read the published stories, you might be surprised by the results they get. For example, the company whose test suite for their graphical application today runs in 5 minutes. They previously used a home-grown visual test suite that took 4 hours to complete. Instead of running their tests infrequently, they can now run their application test suite as part of every software build. That’s what a 48x improvement can do.</p>
+<p>Another company has tests that used to require every developer to run, analyze, and evaluate on their own. Visual tests were incorporated into their suite and had to be validated manually. Today, the tests get run automatically and require just a single engineer to review and either approve or delegate for rework, the results of tests.</p>
+<p>You might be surprised to find competitors in your industry using Applitools. And, you might find that they feel guarded about sharing that information among competitors. Some companies see Applitools as a secret weapon in making their teams more efficient.</p>
+<p>We look forward to sharing more with you in the weeks and months ahead.</p>
+<p>Happy Testing, and Happy 2021.</p>
+<p><em>Featured photo by <a target="_blank" href="https://unsplash.com/@alexbracken?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">alex bracken</a> on <a target="_blank" href="https://unsplash.com/s/photos/audience?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/customer-insights-2020/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>McAfee Security Innovation Alliance 2020 MPOWER Awards</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/mcafee-security-innovation-alliance-2020-mpower-awards/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 20:33:42 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Alliance]]></category>
+		<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[MPOWER]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/mcafee-security-innovation-alliance-2020-mpower-awards/</guid>
+
+					<description><![CDATA[McAfee, the device-to-cloud cybersecurity company, announced the winners of its distinguished SIA Partner Awards. The 2020 awards recognize partners who]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>McAfee, the device-to-cloud cybersecurity company, announced the winners of its distinguished SIA Partner Awards. The 2020 awards recognize partners who demonstrated innovation, strategic value, and market leadership in their respective market segments which are a complement to the McAfee solution portfolio.</p>
+<p>2020 has been a difficult year for everyone that has required organizations to be flexible and rethink how they deploy security to ensure their critical assets remain protected. The McAfee SIA program enables organizations to embrace the flexibility they need through certified integrated solutions from industry-leading providers to ensure they have the tools and resources needed to stay protected and ensure business keeps operating.</p>
+<p>We are pleased to announce the winners of the 2020 McAfee Security Innovation Alliance Awards in the following three categories: Most Innovative Partners of the Year, and SIA Partner of the Year.</p>
+<h2><strong>Most Innovative Partner of the Year: IBM Security </strong></h2>
+<p>IBM Security is a strategic partnered with McAfee across multiple IBM teams including Resilient and QRadar. To date McAfee has certified integrations with IBM’s Incident Response platform, Resilient to include: TIE, DXL, ePO, ESM, ATD and now MVISION. McAfee has released QRadar integrations to both ePO and MVISION. All McAfee Resilient integrations are published on IBM’s AppExchange. In 2019 McAfee and IBM jointly founded the Open Cybersecurity Alliance under the auspices of Oasis. <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/solution-briefs/sb-ibm-resilient.pdf" rel="noopener noreferrer">Read our  solution brief for more details</a>. IBM Security was amongst the inaugural partners announced during the recent launch of the MVISION Marketplace.</p>
+<h2><strong>Most Innovative Partner of the Year: Siemplify </strong></h2>
+<p>Siemplify is a great McAfee partner, previously integrating their SOAR product with McAfee ePO. Now, with McAfee’s latest announcement of the MVISION Marketplace including Siemplify as one of the inaugural development partners. Siemplify has shown themselves to be one of our most innovative partners during 2020 and now enable mutual customers to discover, try, buy, and deploy partner technologies as a Composable solution with a few clicks of the mouse.</p>
+<h2><strong>SIA Partner of the Year 2020 : ThreatQuotient</strong></h2>
+<p>Most Valuable Partner of the Year criteria cover the breadth and depth of the partner’s multiple integrations and close business engagement with McAfee.</p>
+<p>ThreatQuotient, “ThreatQ” Joined the SIA program in January 2017 and quickly showed their value through their Threat Intelligence Platform. In ThreatQ fashion, they quickly, integrated with McAfee TIE, McAfee Data Exchange Layer (DXL), McAfee Advanced Threat Detection (ATD), McAfee Active Response (MAR) and Enterprise Security Manager (ESM), followed by MVISION Endpoint Detection and Response (EDR). Most recently ThreatQ was amongst the inaugural partners to launch with McAfee’s new MVISION Marketplace.</p>
+<p>Partnership integrations and the most deal closures within the SIA programs tells the story or why ThreatQuotient was selected as the Partner of The Year.</p>
+<p>To learn more about these partners and MVISION Marketplace visit: <a target="_blank" href="https://marketplace.mcafee.com" rel="noopener noreferrer">https://marketplace.mcafee.com</a></p>
+<p>Read the MVISION Marketplace press release here: <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=5ef09bb3-bffe-4a2d-9499-8c15a1a55934" rel="noopener noreferrer">McAfee Announces MVISION Marketplace</a></p>
+<p> </p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-partners/mcafee-security-innovation-alliance-2020-mpower-awards/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Lazarus Group Hits COVID-19 Vaccine-Maker in Espionage Attack</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/lazarus-group-hits-covid-19-vaccine-maker-in-espionage-attack/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 19:02:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Espionage]]></category>
+		<category><![CDATA[Group]]></category>
+		<category><![CDATA[Hits]]></category>
+		<category><![CDATA[Lazarus]]></category>
+		<category><![CDATA[VaccineMaker]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/lazarus-group-hits-covid-19-vaccine-maker-in-espionage-attack/</guid>
+
+					<description><![CDATA[The nation-state actor is looking to speed up vaccine development efforts in North Korea. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The nation-state actor is looking to speed up vaccine development efforts in North Korea.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/lazarus-covid-19-vaccine-maker-espionage/162591/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>October is #LGBTQ History Month and October 11 was National Coming Out Day!  Our&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2020 18:26:08 +0000</pubDate>
+				<category><![CDATA[Accruent]]></category>
+		<category><![CDATA[Coming]]></category>
+		<category><![CDATA[Day]]></category>
+		<category><![CDATA[ERG]]></category>
+		<category><![CDATA[History]]></category>
+		<category><![CDATA[LGBTQ]]></category>
+		<category><![CDATA[Month]]></category>
+		<category><![CDATA[National]]></category>
+		<category><![CDATA[October]]></category>
+		<category><![CDATA[PRIDE]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</guid>
+
+					<description><![CDATA[October is #LGBTQ History Month and October 11 was National Coming Out Day! 🏳️‍🌈 Our #PRIDE Employee Resource Group #ERG]]></description>
+										<content:encoded><![CDATA[
+<p>October is <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/lgbtq?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#LGBTQ</a> History Month and October 11 was National Coming Out Day! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f3f3-fe0f-200d-1f308.png" alt="🏳️‍🌈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Our <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/pride?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#PRIDE</a> Employee Resource Group <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/erg?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#ERG</a> at <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/accruent?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#Accruent</a> connects and creates a community for LGBTQ+ individuals &amp; their allies, and seeks to provide education, perspective, outreach, and resources to create a more&#8230; <a target="_blank" href="https://facebook.com/story.php?story_fbid=3316092801777124&amp;id=227818503937918&amp;refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">More</a>
+</p>
+<p> <img loading="lazy" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c267.0.1514.1536a/s75x225/121289689_3316092145110523_2782085661071101523_o.jpg?_nc_cat=109&#038;ccb=2&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=N2WT4jl9P20AX_YH4x6&#038;tn=jpm6h0gXLGpKYT2C&#038;_nc_ht=scontent-iad3-1.xx&#038;tp=28&#038;oh=35c553d67a51932140135d346c9153c1&#038;oe=60097776" width="67" height="68" class="bs r" alt="Image may contain: 22 people, outdoor"><img loading="lazy" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c0.245.1536.1558a/s75x225/121637616_3316092188443852_2657372423963690071_o.jpg?_nc_cat=102&#038;ccb=2&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=bqKGPanuI9cAX9cvfjO&#038;tn=t6RcbhucArP2r5wi&#038;_nc_ht=scontent-iad3-1.xx&#038;tp=28&#038;oh=912e36b92ac58e6dd59a9baf89fd9e40&#038;oe=60083395" width="67" height="68" class="bs r" alt="Image may contain: 2 people, people standing and outdoor"><br />
+<br />
+<br /><a href="https://www.facebook.com/227818503937918/posts/3316092801777124">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
