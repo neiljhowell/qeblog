@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 24 Dec 2020 01:24:45 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 24 Dec 2020 15:41:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,111 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>New Year? Yes, please! Wishing you Happy Holidays and a great 2021</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/new-year-yes-please-wishing-you-happy-holidays-and-a-great-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 15:41:43 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[great]]></category>
+		<category><![CDATA[Happy]]></category>
+		<category><![CDATA[Holidays]]></category>
+		<category><![CDATA[Wishing]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/new-year-yes-please-wishing-you-happy-holidays-and-a-great-2021/</guid>
+
+					<description><![CDATA[New Year? Yes, please! Wishing you Happy Holidays and a great 2021 Source]]></description>
+										<content:encoded><![CDATA[
+<p><div><span></p>
+<p>New Year? Yes, please! Wishing you Happy Holidays and a great 2021</p>
+<p></span></div>
+</p>
+<p> <br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3968385859839514">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Shadow DOM Elements and Using TestProject&#8217;s AI Recorder {Part 3}</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-ai-recorder-part-3/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 06:49:07 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[DOM]]></category>
+		<category><![CDATA[Elements]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Recorder]]></category>
+		<category><![CDATA[Shadow]]></category>
+		<category><![CDATA[TestProjects]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-ai-recorder-part-3/</guid>
+
+					<description><![CDATA[So far {1st Part of Shadow DOM series  &#38;  2nd Part of Shadow DOM series}, we are much familiar with]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span style="font-weight: 400;">So far {</span><a target="_blank" href="https://blog.testproject.io/2020/09/29/the-rise-of-shadow-dom-core-technical-aspects/" rel="noopener"><span style="font-weight: 400;">1st Part of Shadow DOM series</span></a><span style="font-weight: 400;">  &amp;  </span><a target="_blank" href="https://blog.testproject.io/2020/10/13/shadow-dom-elements-and-using-the-testproject-opensdk-part-2/" rel="noopener"><span style="font-weight: 400;">2nd Part of Shadow DOM series</span></a><span style="font-weight: 400;">}, we are much familiar with Shadow DOM aspects as well as TestProject’s SDK flawless support for it. Now it’s high time to understand – </span><span style="color: #000080;"><i><span style="font-weight: 400;">How TestProject’s AI-powered Record/Playback feature leverages graceful handling of Shadow DOM elements?</span></i></span><span style="font-weight: 400;"> So without wasting a single moment, we should jump on TestProject’s <a target="_blank" href="https://blog.testproject.io/2020/12/23/self-healing-to-the-rescue-of-flaky-test-automation/" rel="noopener">AI-powered Self-Healing Test Recorder</a>. I hope you would <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f497.png" alt="💗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> it!</span></p>
+<p><span style="color: #000080;"><b>Does TestProject’s record/playback feature directly record the Shadow DOM elements?</b></span></p>
+<p><a target="_blank" href="https://testproject.io/easy-test-automation/" rel="noopener"><span style="font-weight: 400;">Record and playback</span></a><span style="font-weight: 400;"> features are a really useful tool for automated testing – especially for naive test engineers. The way they work is that the test engineers just click a record button, do some actions on AUT, and then click stop. When replaying the recording, the same actions should be performed.</span></p>
+<p><span style="font-weight: 400;">When you do recording on TestProject, automation scripts are automatically generated and saved on the platform under your account. Later we can run the same scripts by playback feature. We can also make changes to the script to make the test run differently e.g. change selectors or test data. This allows the test engineer to update, maintain, and make improvements to the recorded scripts.</span></p>
+<p><span style="font-weight: 400;">By default, TestProject’s record/playback feature records the web elements by using all legacy selectors {CSS, XPath, etc.}, moreover, it considers the Shadow DOM elements as plain DOM elements. In our application, we will record the Shadow DOM elements by taking two actions:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Enter some text inside the element</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘enter-text-area’</span></i></span></li>
+<li style="font-weight: 400;">Click<span style="color: #000080;"><i> ‘btn-enter’</i></span> element</li>
+</ul>
+<p></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-16505 size-full" title="Shadow DOM Elements and Using TestProject's AI Recorder" src="https://blog.testproject.io/wp-content/uploads/2020/12/old11.gif" alt="Shadow DOM Elements and Using TestProject's AI Recorder" width="750" height="500"/></noscript></p>
+<p><span style="font-weight: 400;"><span style="color: #000080;">Let’s record and save the script on your TestProject account &gt;<br /></span><br /><img loading="lazy" class="aligncenter wp-image-16500 size-large" title="Create New TestProject Test" alt="Create New TestProject Test" width="640" height="512" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-512x410.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-768x614.png 768w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" src="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png"/><noscript><img loading="lazy" class="aligncenter wp-image-16500 size-large" title="Create New TestProject Test" src="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png" alt="Create New TestProject Test" width="640" height="512" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-512x410.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-768x614.png 768w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></span></p>
+<p><span style="font-weight: 400; color: #000080;">Let’s observe the recorded elements and rectify the problem &gt;<br /></span>Navigate to your account and open the respectively recorded script. Here we can clearly observe, it has no capability to record Shadow DOM elements inside the shadow-root i.e.<span style="color: #000080;"><i> ‘enter-text-area’ </i></span>and<span style="color: #000080;"><i> ‘btn-enter’</i></span><span style="color: #000080;">.</span> Despite recording the Shadow DOM elements, it has recorded the general element<span style="color: #000080;"><i> “ID=todo-app’’</i></span> i.e. just outside the entry point of the shadow-root. Moreover, we can clearly see, it has used CSSSelector for the recording, which does not support Shadow DOM elements.</p>
+<p><span style="font-weight: 400;"><img loading="lazy" class="aligncenter wp-image-16478 size-full" title="TestProject AI-powered Test Recorder" alt="TestProject AI-powered Test Recorder" width="825" height="500" src="https://blog.testproject.io/wp-content/uploads/2020/12/old.gif"/><noscript><img loading="lazy" class="aligncenter wp-image-16478 size-full" title="TestProject AI-powered Test Recorder" src="https://blog.testproject.io/wp-content/uploads/2020/12/old.gif" alt="TestProject AI-powered Test Recorder" width="825" height="500"/></noscript><br /></span><span style="font-weight: 400; color: #000080;">Let’s run the recorded scripts – if it FAILS or not? &gt;<br /></span><span style="font-weight: 400;">Of course, it would fail because – it will try to take action on the Shadow DOM elements that are actually recorded in the wrong way. We can clearly see the failed <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">test report</a> on our TestProject’s account:</span></p>
+<p><img loading="lazy" class="aligncenter wp-image-16427 size-full" title="TestProject Test Report" alt="TestProject Test Report" width="1978" height="938" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png 1978w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-512x243.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-768x364.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-1024x486.png 1024w" data-lazy-sizes="(max-width: 1978px) 100vw, 1978px" src="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png"/></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-16427 size-full" title="TestProject Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png" alt="TestProject Test Report" width="1978" height="938" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png 1978w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-512x243.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-768x364.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-1024x486.png 1024w" sizes="(max-width: 1978px) 100vw, 1978px"/></noscript><br /><span style="color: #000080;"><i>Are we stuck or do we have an easy workaround to come out of this problem? </i></span>So let’s solve this problem <b><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b></p>
+<p><span style="color: #000080;"><b>What tweaks are required in the recorded TestProject’s script, so that it can identify the Shadow DOM elements?</b></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">If we are good at our technology then we can tweak our stuff very easily – whenever automated recording fails then manual intervention comes into the picture. Let’s edit those recorded elements:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Change TYPE from</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘Element Action’</span></i></span><span style="font-weight: 400;"> to</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘Action</span></i><span style="font-weight: 400;">’</span></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Select ACTION as </span><span style="color: #000080;"><i><span style="font-weight: 400;">‘Execute JavaScript’</span></i><span style="font-weight: 400;"> </span></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Add CODE for</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘enter-text-area’</span></i></span><span style="font-weight: 400;"> element i.e. your JS code to find Shadow DOM element</span></li>
+</ul>
+<pre class="EnlighterJSRAW" data-enlighter-language="js">return document.querySelector('#todo-app').shadowRoot.querySelector('#adds-item')
+.shadowRoot.querySelector('#enter-text-area').value="Demo Test"</pre>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Add CODE for</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘btn-enter’</span></i></span><span style="font-weight: 400;"> element i.e. your JS code to find Shadow DOM element</span></li>
+</ul>
+<pre class="EnlighterJSRAW" data-enlighter-language="js">return document.querySelector('#todo-app').shadowRoot.querySelector('#adds-item')
+.shadowRoot.querySelector('.btn-enter').click()</pre>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><span style="font-weight: 400;"><span style="font-weight: 400;">Save all changes for both elements</span></span></span></li>
+</ul>
+<p><img loading="lazy" class="aligncenter wp-image-16475 size-full" title="JS code to find Shadow DOM element" alt="JS code to find Shadow DOM element" width="825" height="500" src="https://blog.testproject.io/wp-content/uploads/2020/12/abcd.gif"/></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-16475 size-full" title="JS code to find Shadow DOM element" src="https://blog.testproject.io/wp-content/uploads/2020/12/abcd.gif" alt="JS code to find Shadow DOM element" width="825" height="500"/></noscript></p>
+<p><span style="font-weight: 400; color: #000080;">Let’s run the updated scripts – if it PASSES or not? &gt;<br /></span><span style="font-weight: 400;">Of course, it would pass because – this time it will interact and take actions on the Shadow DOM elements. We can clearly see the passes test report on our TestProject’s account:</span></p>
+<p><img loading="lazy" class="aligncenter wp-image-16428 size-full" title="TestProject Test Report" alt="TestProject Test Report" width="2002" height="902" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png 2002w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-512x231.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-768x346.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-1024x461.png 1024w" data-lazy-sizes="(max-width: 2002px) 100vw, 2002px" src="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png"/></p>
+<p><noscript><img loading="lazy" class="aligncenter wp-image-16428 size-full" title="TestProject Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png" alt="TestProject Test Report" width="2002" height="902" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png 2002w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-512x231.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-768x346.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-1024x461.png 1024w" sizes="(max-width: 2002px) 100vw, 2002px"/></noscript></p>
+<p><span style="font-weight: 400; color: #000080;">As a workaround &gt;<br /></span><span style="color: #008000;"><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span><span style="color: #000000;"><i><span style="font-weight: 400;">We have seen that TestProject’s record/playback feature leverages options to edit the recorded script and moreover giving the option to add our own JavaScript. With the help of JS, we can interact easily with Shadow DOM elements. The best part of TestProject’s record/playback feature is its in-built handling of typecasting the WebDriver with JavascriptExecutor interface.</span></i></span></span></p>
+<p><span style="font-weight: 400;">After my webinar on <a target="_blank" href="https://confengine.com/selenium-conf-2020/proposal/13709/rise-of-shadow-dom-lets-solve-it-through-webdriver" rel="noopener">Selenium International Virtual conference 2020</a> – I came across one exciting query from many of the test engineers so let’s discuss it right here:</span></p>
+<p><b/><span style="color: #000080;"><b>How to interact with Shadow DOM elements, if they reside inside the iFrame?</b></span><b><br /></b><span style="font-weight: 400;">Truthfully, there is no change in the handling of Shadow DOM elements if they reside inside the iFrame or not. But before taking any action on iFrame’s Shadow DOM elements, we have to do context switching to iFrame and after taking our actions we can switch back our context to the main window.</span></p>
+<p><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" />An application</span><i><span style="font-weight: 400;"> that we have used above for the automation, can be found at – </span></i><a target="_blank" href="https://github.com/VirenderPannu/polymer3-letsplanapp" rel="noopener"><i><span style="font-weight: 400;">GitHub repo</span></i></a><i><span style="font-weight: 400;">. This application is implemented by using Google’s Polymer library with NodeJS. So install those first before recording this application locally. </span></i></p>
+<h2><strong><span style="color: #000080;">Key Takeaways</span></strong></h2>
+<ul>
+<li><span style="font-weight: 400;">Clear thought – What tweaks are required in the recorded TestProject’s script, so that it can identify the Shadow DOM elements?</span></li>
+<li><span style="font-weight: 400;">Familiar with TestProject’s in-built typecasting of WebDriver with JavascriptExecutor</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understood – How to interact with Shadow DOM elements, if they reside inside the iFrame?</span></li>
+</ul>
+<p><span style="font-weight: 400;">Now we are completely handy with Shadow DOM trees with their elements and their graceful handling with TestProject’s Open SDK as well as Record/Playback feature. Happy testing guys and try to play with Shadow DOM and its elements.</span></p>
+<p><b><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b> <b><i><span style="color: #000080;">I would love to hear your thoughts in the comments below. Let’s start an open discussion on Shadow DOM</span>  </i><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b></p>
+<p> </p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/12/24/shadow-dom-elements-and-using-testproject-ai-recorder-part-3/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Neotys &#8211; Christmas PAC Meet Up &#8211; Special Edition</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/neotys-christmas-pac-meet-up-special-edition/</link>
 		
@@ -407,62 +512,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-partners/mcafee-security-innovation-alliance-2020-mpower-awards/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Lazarus Group Hits COVID-19 Vaccine-Maker in Espionage Attack</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/lazarus-group-hits-covid-19-vaccine-maker-in-espionage-attack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 23 Dec 2020 19:02:30 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[COVID19]]></category>
-		<category><![CDATA[Espionage]]></category>
-		<category><![CDATA[Group]]></category>
-		<category><![CDATA[Hits]]></category>
-		<category><![CDATA[Lazarus]]></category>
-		<category><![CDATA[VaccineMaker]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/lazarus-group-hits-covid-19-vaccine-maker-in-espionage-attack/</guid>
-
-					<description><![CDATA[The nation-state actor is looking to speed up vaccine development efforts in North Korea. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The nation-state actor is looking to speed up vaccine development efforts in North Korea.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/lazarus-covid-19-vaccine-maker-espionage/162591/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>October is #LGBTQ History Month and October 11 was National Coming Out Day!  Our&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 23 Dec 2020 18:26:08 +0000</pubDate>
-				<category><![CDATA[Accruent]]></category>
-		<category><![CDATA[Coming]]></category>
-		<category><![CDATA[Day]]></category>
-		<category><![CDATA[ERG]]></category>
-		<category><![CDATA[History]]></category>
-		<category><![CDATA[LGBTQ]]></category>
-		<category><![CDATA[Month]]></category>
-		<category><![CDATA[National]]></category>
-		<category><![CDATA[October]]></category>
-		<category><![CDATA[PRIDE]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/october-is-lgbtq-history-month-and-october-11-was-national-coming-out-day-our/</guid>
-
-					<description><![CDATA[October is #LGBTQ History Month and October 11 was National Coming Out Day! 🏳️‍🌈 Our #PRIDE Employee Resource Group #ERG]]></description>
-										<content:encoded><![CDATA[
-<p>October is <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/lgbtq?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#LGBTQ</a> History Month and October 11 was National Coming Out Day! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f3f3-fe0f-200d-1f308.png" alt="🏳️‍🌈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Our <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/pride?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#PRIDE</a> Employee Resource Group <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/erg?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#ERG</a> at <a target="_blank" class="_5ayv _qdx" href="https://facebook.com/hashtag/accruent?refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">#Accruent</a> connects and creates a community for LGBTQ+ individuals &amp; their allies, and seeks to provide education, perspective, outreach, and resources to create a more&#8230; <a target="_blank" href="https://facebook.com/story.php?story_fbid=3316092801777124&amp;id=227818503937918&amp;refid=17&amp;_ft_=mf_story_key.3316092801777124%3Atop_level_post_id.3316092801777124%3Atl_objid.3316092801777124%3Acontent_owner_id_new.227818503937918%3Athrowback_story_fbid.3316092801777124%3Apage_id.227818503937918%3Aphoto_attachments_list.%5B3316090381777366%2C3316092141777190%2C3316092178443853%5D%3Aphoto_id.3316090381777366%3Astory_location.4%3Astory_attachment_style.album%3Atds_flgs.3%3Aott.AX-cqm4ZpjC2Unaq%3Athid.227818503937918%3A306061129499414%3A2%3A0%3A1609487999%3A7561438470450762924&amp;__tn__=%2As-R" rel="noopener">More</a>
-</p>
-<p> <img loading="lazy" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c267.0.1514.1536a/s75x225/121289689_3316092145110523_2782085661071101523_o.jpg?_nc_cat=109&#038;ccb=2&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=N2WT4jl9P20AX_YH4x6&#038;tn=jpm6h0gXLGpKYT2C&#038;_nc_ht=scontent-iad3-1.xx&#038;tp=28&#038;oh=35c553d67a51932140135d346c9153c1&#038;oe=60097776" width="67" height="68" class="bs r" alt="Image may contain: 22 people, outdoor"><img loading="lazy" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/c0.245.1536.1558a/s75x225/121637616_3316092188443852_2657372423963690071_o.jpg?_nc_cat=102&#038;ccb=2&#038;_nc_sid=8024bb&#038;efg=eyJpIjoiYiJ9&#038;_nc_ohc=bqKGPanuI9cAX9cvfjO&#038;tn=t6RcbhucArP2r5wi&#038;_nc_ht=scontent-iad3-1.xx&#038;tp=28&#038;oh=912e36b92ac58e6dd59a9baf89fd9e40&#038;oe=60083395" width="67" height="68" class="bs r" alt="Image may contain: 2 people, people standing and outdoor"><br />
-<br />
-<br /><a href="https://www.facebook.com/227818503937918/posts/3316092801777124">Source</a>  </p>
 ]]></content:encoded>
 					
 		
