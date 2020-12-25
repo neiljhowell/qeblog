@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 24 Dec 2020 15:41:43 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 24 Dec 2020 16:31:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,30 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Windows Zero-Day Still Circulating After Faulty Fix</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/windows-zero-day-still-circulating-after-faulty-fix/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 16:31:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Circulating]]></category>
+		<category><![CDATA[Faulty]]></category>
+		<category><![CDATA[Fix]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[ZeroDay]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/windows-zero-day-still-circulating-after-faulty-fix/</guid>
+
+					<description><![CDATA[The LPE bug could allow an attacker to install programs; view, change, or delete data; or create new accounts with]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The LPE bug could allow an attacker to install programs; view, change, or delete data; or create new accounts with full user rights.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/windows-zero-day-circulating-faulty-fix/162610/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>New Year? Yes, please! Wishing you Happy Holidays and a great 2021</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/new-year-yes-please-wishing-you-happy-holidays-and-a-great-2021/</link>
 		
@@ -447,71 +471,6 @@ fbq('track', "PageView");</p>
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/customer-insights-2020/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>McAfee Security Innovation Alliance 2020 MPOWER Awards</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/mcafee-security-innovation-alliance-2020-mpower-awards/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 23 Dec 2020 20:33:42 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Alliance]]></category>
-		<category><![CDATA[Awards]]></category>
-		<category><![CDATA[Innovation]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[MPOWER]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/mcafee-security-innovation-alliance-2020-mpower-awards/</guid>
-
-					<description><![CDATA[McAfee, the device-to-cloud cybersecurity company, announced the winners of its distinguished SIA Partner Awards. The 2020 awards recognize partners who]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>McAfee, the device-to-cloud cybersecurity company, announced the winners of its distinguished SIA Partner Awards. The 2020 awards recognize partners who demonstrated innovation, strategic value, and market leadership in their respective market segments which are a complement to the McAfee solution portfolio.</p>
-<p>2020 has been a difficult year for everyone that has required organizations to be flexible and rethink how they deploy security to ensure their critical assets remain protected. The McAfee SIA program enables organizations to embrace the flexibility they need through certified integrated solutions from industry-leading providers to ensure they have the tools and resources needed to stay protected and ensure business keeps operating.</p>
-<p>We are pleased to announce the winners of the 2020 McAfee Security Innovation Alliance Awards in the following three categories: Most Innovative Partners of the Year, and SIA Partner of the Year.</p>
-<h2><strong>Most Innovative Partner of the Year: IBM Security </strong></h2>
-<p>IBM Security is a strategic partnered with McAfee across multiple IBM teams including Resilient and QRadar. To date McAfee has certified integrations with IBM’s Incident Response platform, Resilient to include: TIE, DXL, ePO, ESM, ATD and now MVISION. McAfee has released QRadar integrations to both ePO and MVISION. All McAfee Resilient integrations are published on IBM’s AppExchange. In 2019 McAfee and IBM jointly founded the Open Cybersecurity Alliance under the auspices of Oasis. <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/solution-briefs/sb-ibm-resilient.pdf" rel="noopener noreferrer">Read our  solution brief for more details</a>. IBM Security was amongst the inaugural partners announced during the recent launch of the MVISION Marketplace.</p>
-<h2><strong>Most Innovative Partner of the Year: Siemplify </strong></h2>
-<p>Siemplify is a great McAfee partner, previously integrating their SOAR product with McAfee ePO. Now, with McAfee’s latest announcement of the MVISION Marketplace including Siemplify as one of the inaugural development partners. Siemplify has shown themselves to be one of our most innovative partners during 2020 and now enable mutual customers to discover, try, buy, and deploy partner technologies as a Composable solution with a few clicks of the mouse.</p>
-<h2><strong>SIA Partner of the Year 2020 : ThreatQuotient</strong></h2>
-<p>Most Valuable Partner of the Year criteria cover the breadth and depth of the partner’s multiple integrations and close business engagement with McAfee.</p>
-<p>ThreatQuotient, “ThreatQ” Joined the SIA program in January 2017 and quickly showed their value through their Threat Intelligence Platform. In ThreatQ fashion, they quickly, integrated with McAfee TIE, McAfee Data Exchange Layer (DXL), McAfee Advanced Threat Detection (ATD), McAfee Active Response (MAR) and Enterprise Security Manager (ESM), followed by MVISION Endpoint Detection and Response (EDR). Most recently ThreatQ was amongst the inaugural partners to launch with McAfee’s new MVISION Marketplace.</p>
-<p>Partnership integrations and the most deal closures within the SIA programs tells the story or why ThreatQuotient was selected as the Partner of The Year.</p>
-<p>To learn more about these partners and MVISION Marketplace visit: <a target="_blank" href="https://marketplace.mcafee.com" rel="noopener noreferrer">https://marketplace.mcafee.com</a></p>
-<p>Read the MVISION Marketplace press release here: <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=5ef09bb3-bffe-4a2d-9499-8c15a1a55934" rel="noopener noreferrer">McAfee Announces MVISION Marketplace</a></p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-partners/mcafee-security-innovation-alliance-2020-mpower-awards/">Source link </a></p>
 ]]></content:encoded>
 					
 		
