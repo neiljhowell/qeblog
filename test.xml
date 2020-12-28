@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 28 Dec 2020 06:13:37 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 28 Dec 2020 16:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,85 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Best of TechBeacon 2020: DevOps</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-devops/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[TechBeacon]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/?p=4630</guid>
+
+					<description><![CDATA[In 2020, DevOps practices crossed the chasm from &#8220;early stage&#8221; and &#8220;experimental&#8221; to mainstream. For DevOps leaders and teams, the focus has]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>In 2020, DevOps practices crossed the chasm from &#8220;early stage&#8221; and &#8220;experimental&#8221; to mainstream. For DevOps leaders and teams, the focus has been more on how to mature their programs than on figuring out ways to justify and get agile projects off the ground.</p>
+<p>More organizations broke into the elite category of DevOps implementers, and there were more examples of best practices and metrics to draw upon for everyone.</p>
+<p>Rather than just presenting <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/5-mistakes-doom-devops?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">DevOps challenges and fails</a>, <em>TechBeacon</em>&#8216;s best DevOps stories for 2020 examine the success that organizations have had with DevOps, the lessons that others can learn from them, the leadership and culture needed to succeed, <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-success-metrics?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">how to measure success</a>, and steps organizations can take to get agile right.</p>
+<h3>Best practices</h3>
+<h4><a target="_blank" href="https://techbeacon.com/devops/10-companies-killing-it-devops-2020" rel="noopener">10 companies killing it at DevOps in 2020</a></h4>
+<p>Many of the leading implementers of DevOps practices five years ago—including Netflix, Walmart, and Amazon—have gone on to become household names both within the tech community and in the consumer arena. In this report, freelance writer <a target="_blank" href="https://twitter.com/christophernull" rel="nofollow noopener">Christopher Null</a> rounds up a list of 10 companies that are pushing the limits of DevOps practices and have emerged as clear leaders in the implementation of DevOps.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/6-proven-metrics-devops-success" rel="noopener">6 proven metrics for DevOps success</a> </h4>
+<p><span><span>Many teams have a hard time demonstrating the value of DevOps practices to management because of a failure to use the right metrics. Figuring out the right measurements and knowing how to use them can have a big influence on DevOps transformation efforts. Here, </span></span><a target="_blank" href="https://twitter.com/DukeAMO" rel="nofollow noopener"><span><span>Ann Marie Fred</span></span></a><span><span>, DevOps and security lead at IBM, and </span></span><a target="_blank" href="https://twitter.com/CraigCookIT" rel="nofollow noopener"><span><span>Craig Cook</span></span></a><span><span>, DevOps coach at IBM, identify six metrics that have worked for their team.</span></span></p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/how-agile-teams-can-get-devops-right-6-essential-steps" rel="noopener">How agile teams can get DevOps right: 6 essential steps</a></h4>
+<p><span><span>Agile teams can often get off to a great start but then stumble along the way. The positive user feedback and progress that was evident in biweekly increments begin to fade, and suddenly defect lists start growing, testing takes longer, and velocity becomes erratic. </span></span><a target="_blank" href="https://www.linkedin.com/in/natespillson/" rel="nofollow noopener"><span><span>Nate Berent-Spillson</span></span></a><span><span>, technology principal at software development consultancy Nexient, explains the six steps that agile teams can take to get DevOps right. His recommendations include killing off manual practices, identifying code bottlenecks, and implementing test automation.</span></span></p>
+<h3>Leadership/culture</h3>
+<h4><a target="_blank" href="https://techbeacon.com/devops/devops-must-reads-7-titles-every-practitioner-should-read" rel="noopener">DevOps must-reads: 7 titles every practitioner should read</a></h4>
+<p>Upskilling has become a key requirement for career development in the IT industry. This is especially true in the talent-strapped DevOps space, where enterprises are actively investing in skills transformation programs for their current staff. Here, <a target="_blank" href="https://twitter.com/JayneGroll" rel="nofollow noopener">Jayne Groll</a>, CEO of the DevOps Institute, lists seven must-read books for everyone interested in advancing their DevOps careers. The newly published books help readers deepen their understanding of DevOps challenges and cover a variety of topics, including software delivery, digital transformation, and digital disruption.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/devops-100-do-your-ops-boss-follow-these-top-pros" rel="noopener">DevOps 100: Do ops like a boss. Follow these top pros</a></h4>
+<p>The best way to keep up with new DevOps developments is to pay attention to what the leaders in the space are doing, says freelance writer <a target="_blank" href="https://twitter.com/jpmello" rel="nofollow noopener">John P. Mello, Jr.</a> in this lineup of the industry&#8217;s 100 top DevOps leaders. Mello&#8217;s list was assembled using feedback from the <a target="_blank" href="https://events.itrevolution.com/" rel="nofollow noopener">DevOps Enterprise Summit</a> programming committee at IT Revolution. The list is organized into multiple categories, including noted authors, developer relations, next-generation operations, and open source.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/are-poor-team-interactions-killing-your-devops-transformation" rel="noopener">Are poor team interactions killing your DevOps transformation?</a></h4>
+<p>The pandemic-triggered shift to a largely distributed workforce has exposed weaknesses in the way many organizations have defined teams and areas of focus for their DevOps efforts. For some, the lack of well-defined ways for team interaction in a remote-first world is threatening digital transformation efforts. Here <a target="_blank" href="https://twitter.com/matthewpskelton" rel="nofollow noopener">Matthew Skelton</a>, founder and head of consulting at training firm Conflux, and <a target="_blank" href="https://www.linkedin.com/in/manuelpais/" rel="nofollow noopener">Manuel Pais</a>, an independent IT organizational consultant, explain the risks organizations face when they fail to explicitly design communication among DevOps teams that are scattered across physical and online spaces.</p>
+<h3>Secure DevOps</h3>
+<h4><a target="_blank" href="https://techbeacon.com/devops/why-injecting-security-devops-no-brainer" rel="noopener">Why injecting security into DevOps is a no-brainer</a></h4>
+<p>Despite heightened awareness of security issues, many DevOps teams are reluctant to integrate security into their processes because they perceive it as a roadblock to agile software development and delivery. In addition to concerns about security slowing down development, many software managers also continue to be unaware of how to integrate security into DevOps processes. In this cautionary report, <a target="_blank" href="https://twitter.com/itsridhar" rel="nofollow noopener">Sridhar Jayaraman</a>, vice president of engineering at digital transformation services provider Qentelli, highlights the dangers of not implementing a DevSecOps program.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/get-security-compliance-devsecops-4-key-components" rel="noopener">Get security and compliance with DevSecOps: 4 key components</a></h4>
+<p>Security is only one aspect of DevSecOps. Compliance is the other. A good DevSecOps program embeds compliance policies, best practices, and tools into every phase of the development lifecycle. It will not only allow for better productivity, quality, and security, but also help all aspects of a compliance framework, says <a target="_blank" href="https://www.linkedin.com/in/andrewdavis-io/" rel="nofollow noopener">Andrew Davis</a>, evangelist at Copado, which sells a value-stream platform for Salesforce. In this report, he outlines the four components that are key to building both security and compliance into a DevSecOps program.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/3-best-practices-devsecops-elite" rel="noopener">3 best practices of the DevSecOps elite</a></h4>
+<p>Employee engagement and satisfaction can have a big impact on software security. The 2020 DevOps Community Survey found that happy developers tend to be more engaged with their work and tend to be more readily found in organizations with mature DevSecOps practices than in organizations with weak and immature practices. <a target="_blank" href="https://twitter.com/djschleen" rel="nofollow noopener">DJ Schleen</a>, Senior Manager, Software Security at Rally Health, identifies three best practices of DevSecOps elites and explains why each trait matters.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/devops-fatigue-next-dont-buy-dogma" rel="noopener">Is DevOps fatigue next? Don&#8217;t buy into the dogma</a></h4>
+<p>Implementing DevOps can be challenging. The many dead ends and wrong turns that DevOps teams often encounter along the way can be frustrating. To facilitate the transition from an established development practice—such as waterfall—to a more agile environment, DevOps leaders need to be patient, supportive, and understanding. Here, <a target="_blank" href="https://www.linkedin.com/in/james-head-b2241b3/" rel="nofollow noopener">James Head</a>, CEO and founder at Rebellion Consulting, offers helpful guidance on what organizations should do to avoid DevOps fatigue.</p>
+<h3>Trends</h3>
+<h4><a target="_blank" href="https://techbeacon.com/devops/4-devops-anti-patterns-lead-disaster" rel="noopener">4 DevOps anti-patterns that lead to disaster</a></h4>
+<p>Demanding consistency in agile transformation efforts at all times can be counter-productive, says <a target="_blank" href="https://www.linkedin.com/in/thomas-stiehm/" rel="nofollow noopener">Thomas Stiehm</a>, chief technology officer at Coveros, which provides agile and transformation products and services. The request for ever-present consistency might help address short-term issues but can lead to long-term pain and failure. In this article, Stiehm explains what anti-patterns are and why they are so sneaky and counter-productive. He lists four anti-patterns that are particularly problematic and offers tips on how DevOps leaders can fix each of them.</p>
+<h4><a target="_blank" href="https://techbeacon.com/devops/top-5-devops-trends-what-being-mainstream-means-your-team" rel="noopener">The top 5 DevOps trends: What being mainstream means to your team</a></h4>
+<p>Data from the 2019 Accelerate State of DevOps Report suggests that DevOps practices have gone mainstream. No longer attempting to justify and implement, DevOps leaders have begun focusing more on issues such as how to get more efficiencies out of once-experimental projects, how to bake in resilience, and how to make software delivery pipelines more compliant and safer. Freelance writer <a target="_blank" href="https://twitter.com/erickachick" rel="nofollow noopener">Ericka Chickowski</a> identifies the top five trends now that DevOps has gone mainstream.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/best-techbeacon-2020-devops">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ransomware in 2020: A Banner Year for Extortion</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/ransomware-in-2020-a-banner-year-for-extortion/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 14:00:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Banner]]></category>
+		<category><![CDATA[Extortion]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/ransomware-in-2020-a-banner-year-for-extortion/</guid>
+
+					<description><![CDATA[From attacks on the UVM Health Network that delayed chemotherapy appointments, to ones on public schools that delayed students going]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />From attacks on the UVM Health Network that delayed chemotherapy appointments, to ones on public schools that delayed students going back to the classroom, ransomware gangs disrupted organizations to inordinate levels in 2020.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/ransomware-2020-extortion/162319/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>10 Common Selenium Exceptions in C# and How to Fix Them</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/10-common-selenium-exceptions-in-c-and-how-to-fix-them/</link>
 		
@@ -473,111 +552,6 @@ fbq('track', "PageView");</p>
 <p><a target="_blank" href="https://bit.ly/3mSQ6zC?fbclid=IwAR2F24VPVUKGR-Yyyad36UouuAc00mwsGxREflXGOLOiD83vlJjD64rGvIc" rel="noopener">Scaling Performance Engineering to an Organization-wide Approach &#8211; Neotys</a></p>
 <p><br />
 <br /><a href="https://www.facebook.com/163354693676002/posts/3953426434668790">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Why SolarWinds-SUNBURST is our Cyber Pearl Harbor</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/why-solarwinds-sunburst-is-our-cyber-pearl-harbor/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 23 Dec 2020 23:45:25 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cyber]]></category>
-		<category><![CDATA[Harbor]]></category>
-		<category><![CDATA[Pearl]]></category>
-		<category><![CDATA[SolarWindsSUNBURST]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/why-solarwinds-sunburst-is-our-cyber-pearl-harbor/</guid>
-
-					<description><![CDATA[On December 13, 2020, FireEye announced that threat actors had compromised SolarWinds’s Orion IT monitoring and management software and used]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>On December 13, 2020, <a target="_blank" href="https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html" rel="noopener noreferrer">FireEye announced</a> that threat actors had compromised SolarWinds’s Orion IT monitoring and management software and used it to distribute a software backdoor to dozens of that company’s customers, including several high profile U.S. government agencies.</p>
-<p>Many are referring to the SolarWinds-SUNBURST campaign incidents as the long-prophesied “Cyber Pearl Harbor.” We agree, but it is important to be clear as to why this is the case.</p>
-<h2><strong>Game Changing Attack Vector</strong></h2>
-<p>This campaign is the first major supply chain attack of its kind at scale and represents a shift in tactics where a nation state has employed a new weapon for cyber-espionage.  Just as the use of nuclear weapons at the end of WWII changed military strategy for the next 75 years, the use of a supply chain attack will change the way we need to consider defense against cyber-attacks.</p>
-<p>This supply chain attack operated at the scale of a worm such as WannaCry in 2017, combined with the precision and lethality of the 2014 Sony Pictures or 2015 U.S. Office of Personnel Management (OPM) attacks.</p>
-<p>The impact of this attack shows how a high-volume commercial software product can impact many organizations simultaneously. In the past, cyber-attacks such as WannaCry relied on vulnerabilities, exploiting organizations that failed to install critical patches. In the case of SolarWinds-SUNBURST, any organization that simply updated its software could be vulnerable to attack, which is why we saw the impact across multiple agencies in the federal government and private sector.  Furthermore, the backdoor used stealth tactics to monitor if it was being analyzed by looking for the presence of debuggers and network monitors and suppressing communications and alerts of other malicious behavior in those scenarios.</p>
-<h2><strong>Broad Reach and Impact </strong></h2>
-<p>From a U.S. national security perspective, this attack enables the nation’s enemies to steal all manner of information, from inter-governmental communications to national secrets. Attackers can, in turn, leverage this information to influence or impact U.S. policy through malicious leaks.</p>
-<p>The attack impacted private companies as well. Unlike government networks which isolate classified information both from the internet and non-classified material, private organizations often have critical intellectual property on the same internet-facing network they store non sensitive information.  Exactly what corporate intellectual property or private data on employees has been stolen will be difficult to determine, and the full extent of theft may never be fully known.</p>
-<p>These cyber supply chain attacks are a concern for consumers as well. In today’s highly interconnected homes, a breach of consumer electronics companies can result in attackers using their access to smart appliances such as TVs, virtual assistants, and smart phones to steal their information or act as a gateway to attack businesses while users are working remotely from home.</p>
-<h2><strong>Endless Possibilities for Attackers</strong></h2>
-<p>What makes this campaign so insidious is that the attackers used trusted SolarWinds software to infiltrate victim organizations with the SUNBURST backdoor, which then enabled the attacker to take any number of secondary steps. This could involve stealing data, destroying data, holding critical systems for ransom, orchestrating system malfunctions that could result in kinetic damage, or simply implanting additional malicious content throughout the organization to stay in control and maintain access even after the initial threat appears to have passed.</p>
-<h2><strong>Encourages the Wrong Behavior</strong></h2>
-<p>Such an attack is particularly challenging in that it raises concerns around best practices cybersecurity professionals have been trying to communicate for years. For decades, we have been saying that it is critical to patch and keep software updated. In this case, however, it was patching and bringing new software into an environment that opened organizations up to attack.</p>
-<p>Organizations must not read into these SolarWinds-SUNBURST revelations that they should not prioritize keeping their environments up to date. Doing so would certainly open them up to a variety of other attacks.</p>
-<p>How do we reconcile these two conflicting security viewpoints? Organizations and cybersecurity practitioners must be vigilant in their review and understanding of the software being brought into their environments. Additionally, they must identify their most critical information and data and apply the principles of least privilege to these items, ensuring that sensitive information such as national secrets and intellectual property are protected.</p>
-<h2><strong>Daisy Chained Victims Amplify Impact</strong></h2>
-<p>One additional area of concern is when software vendors are impacted.  In this scenario, it is possible for there to be a daisy chain effect. The adversary could modify either source code or a development toolchain within a victim’s environment to plant additional backdoors that are then distributed to their customers.</p>
-<h2><strong>Conclusion and More Information</strong></h2>
-<p>The SolarWinds-SUNBURST campaign is like a “smart bomb” on a crowded landscape of “dumb bomb” cyber threats. WannaCry was a dumb bomb in that it was fully autonomous and indiscriminate in what it attacked. Whereas this SolarWinds-SUNBURST attack is a “precision guided” smart cyber weapon that is being used to target specific organizations in very specific ways. Every organization that is of interest to the attacker might be targeted slightly differently.</p>
-<p>McAfee has incorporated technical indicators gleaned from the FireEye and SolarWinds incidents into our cyber defenses and solutions portfolio to protect our environment and customers. The details of these supplemental protections can be found in McAfee’s knowledge base (KB) articles <a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93830" rel="noopener">KB89830</a> and <a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93861" rel="noopener">KB93861</a>.</p>
-<p>Please also see the following analysis blogs focused on SolarWinds-SUNBURST:</p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/executive-perspectives/why-solarwinds-sunburst-is-our-cyber-pearl-harbor/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Now available on-demand. Our webinar reveals 6 key takeaways from enterprises wh&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/now-available-on-demand-our-webinar-reveals-6-key-takeaways-from-enterprises-wh/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 23 Dec 2020 23:21:47 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[enterprises]]></category>
-		<category><![CDATA[Key]]></category>
-		<category><![CDATA[LoadRunner]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[ondemand]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[reveals]]></category>
-		<category><![CDATA[takeaways]]></category>
-		<category><![CDATA[Webinar]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/now-available-on-demand-our-webinar-reveals-6-key-takeaways-from-enterprises-wh/</guid>
-
-					<description><![CDATA[Now available on-demand. Our webinar reveals 6 key takeaways from enterprises who switched from #LoadRunner to #NeoLoad. What they say]]></description>
-										<content:encoded><![CDATA[
-<p>Now available on-demand. Our webinar reveals 6 key takeaways from enterprises who switched from <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/loadrunner?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#LoadRunner</a> to <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#NeoLoad</a>. What they say may surprise you. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F38cy7Oo%3Ffbclid%3DIwAR0nH22A0-T4ogt7I3fGTJy2OT9G862iXiByRZoQAYSHOnIW1O284k4Cnbs&amp;h=AT38KSVBv5JGMIHCHR0_3FnsXhTjTmyNdB8f5JOpKFEvFkFNmIkxLeKA9OtBYCh5kiZonJnNkDJU3qMKJ9ak3UNxrktHLDpe2IAESCKBseX1VuqyxdzrchQi8exxwBLZOQIBdGI8M8Em_QofwWYOqsQJqMKa-zUsxd-c2g2LOleZKjkpJ5KZozJxMGJHerT86RiMPz3pT7jrIRvhsle-hKg4n2uCTZfK3UWIJKdbTHZ2YCugPQCT6fZBsG0HzepZLKVRL8JelF3Sxe5qMW7Bj3nX1BWznBWETF-u1oeyoa4k1GcN9fIhz56mYXv2SyfSV7oR5hYxCqpdt26O3wQr6DACnk2YCZhHC_iw57TkjT57UoFYSDKaEO3qVjUlLY3ezXXmAm5U9E2xm6uboOycrYLWg50SDOcvY0lfqO8zIyxetLjin7qM6le6RuO0Gd9CkS6neoh0Dwy5aJu9GftBLFfhoB6G3hajmiI_wREB-cFkpmVfqokDT5g5l-wHwnyKhxDUVd0NoSTKWsWeBsMJih1piCSWmo6bYOFHb8F24IIKrMXWfXc3Ef5AFGfNyzShWovNO9vO6UHShhG8I_HsOAGflVaaVWWKMF7JgsVNmmihvKtzwbxGNM_7x8XajzwjIOKaJPhjUtVXkadWfSqC" rel="noopener">https://bit.ly/38cy7Oo</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.3960820773929356%3Atop_level_post_id.3960820773929356%3Atl_objid.3960820773929356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3960820773929356%3Apage_id.163354693676002%3Aphoto_id.3960820593929374%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8CHB6UnIiHYzSx%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1609487999%3A6566628194410885547&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p> <br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3960820773929356">Source</a>  </p>
 ]]></content:encoded>
 					
 		
