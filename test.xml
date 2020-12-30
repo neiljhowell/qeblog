@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 28 Dec 2020 17:21:55 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 29 Dec 2020 22:40:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,527 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Bring on 2021! &#124; McAfee Blogs</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/bring-on-2021-mcafee-blogs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 22:40:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[bring]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/bring-on-2021-mcafee-blogs/</guid>
+
+					<description><![CDATA[With 2021 approaching, it is a time to both reflect on the outstanding progress we have each made – personally and professionally,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p><span data-contrast="none">With 2021 approaching, it is a time to </span><span data-contrast="auto">both </span><span data-contrast="none">reflect on the outstanding progress we have each made – personally and professionally, and warmly welcome a new chapter in 2021! </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">2020 has been one of the most unexpected </span><span data-contrast="auto">years </span><span data-contrast="none">in our history. However, despite COVID-19, we </span><span data-contrast="none">had some amazing successes</span><span data-contrast="none">.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">January brought McAfee our new CEO – </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=7c5097fe-9dc2-47c0-87b9-13ccca41515f%22%20t%20%22_blank%22%20HYPERLINK%20%22https://mcafee-my.sharepoint.com/personal/ingrid_kambe_mcafee_com/Documents/Documents/ShishirBlogs/McAfee%20Names%20Peter%20Leav%20as%20Chief%20Executive%20Officer%22%20t%20%22_blank" rel="noopener noreferrer"><span data-contrast="none">Peter </span><span data-contrast="none">Leav</span></a><span data-contrast="none">. It’s hard to believe it has only been a year under his leadership. What an impact! And, McAfee is back on the stock exchange.  </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">2020 </span><span data-contrast="auto">has </span><span data-contrast="none">also </span><span data-contrast="auto">seen</span><span data-contrast="none"> the rapid acceleration of cloud adoption. Typically, a move like that involves immense planning to minimize complexity. That didn’t always happen.  And, as our Advanced Threat Research team has reported, cybercriminals took full advantage of more ransomware, malware, and general bad behavior. In fact, a recent McAfee report estimates </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-hidden-costs-of-cybercrime.pdf" rel="noopener noreferrer"><span data-contrast="none">global cybercrime losses will exceed $1 Trillion</span></a><span data-contrast="none">.  </span><span data-contrast="none">Fortunately, McAfee customers benefited from the get-go with a robust, award-winning cloud-native portfolio that became even stronger in 2020.  </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<h2><b><span data-contrast="none">Excelling at Cloud Security with SASE</span></b><b><span data-contrast="none"> and CNAPP</span></b><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></h2>
+<p><span data-contrast="none">Shortly after Peter joined, we closed our </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=b5521303-cdf8-442c-9cf1-d9e8401eae10" rel="noopener noreferrer"><span data-contrast="none">LightPoint Acquisition</span></a><span data-contrast="none">, enabling us to </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=a755e651-5cd1-4418-8e23-da91c6325c3d" rel="noopener noreferrer"><span data-contrast="none">add Remote Browser Isolation (RBI)</span></a><span data-contrast="none"> to </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/unified-cloud-edge.html" rel="noopener noreferrer"><span data-contrast="none">MVISION Unified Cloud Edge</span></a><span data-contrast="none"> (UCE)</span><span data-contrast="none">. In March, we delivered </span><a target="_blank" href="https://www.mcafee.com/blogs/enterprise/cloud-security/finally-true-unified-multi-vector-data-protection-in-a-cloud-world/" rel="noopener"><span data-contrast="none">multi-vector data protection</span></a><span data-contrast="none"> for unified and comprehensive data protection across endpoints, web, and cloud. In August, we further enhanced our MVISION UCE offering by announcing pivotal </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=6c2d14aa-1db5-4b52-9494-2d448f4db618" rel="noopener noreferrer"><span data-contrast="none">SD-WAN Technology</span></a><span data-contrast="none"> integrations. </span><span data-contrast="none">Finally,</span><span data-contrast="none"> at MPOWER, we announced the industry first integration of </span><span data-contrast="none">Remote Browser Isolation into our Unified </span><span data-contrast="none">Cloud Edge </span><span data-contrast="none">solution. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">To our award-winning </span><span data-contrast="none">and unmatched </span><span data-contrast="none">MVISION Cloud solution</span><span data-contrast="none"> which is </span><span data-contrast="none">natively integrated into UCE</span><span data-contrast="none">, we were the first CASB to map cloud threats to </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=57348b4f-c3d8-4e53-b1be-1e570d05b4b1" rel="noopener noreferrer"><span data-contrast="none">MITRE A</span><span data-contrast="none">TT</span><span data-contrast="none">&amp;</span><span data-contrast="none">CK</span></a><span data-contrast="none">.</span><span data-contrast="none"> Introducing </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/security-awareness/cybersecurity/what-is-mitre-attack-framework.html" rel="noopener noreferrer"><span data-contrast="none">MITRE ATT&amp;CK</span></a><span data-contrast="none"> into the MVISION Cloud workflow helps SOC analysts to investigate cloud threats and security managers defend against future attacks with increased precision. Our new </span><a target="_blank" href="https://www.mcafee.com/blogs/enterprise/cloud-security/quantifying-cloud-security-effectiveness/" rel="noopener noreferrer"><span data-contrast="none">MVISION Cloud Security Advisor</span></a><span data-contrast="none"> (CSA) – provides recommendations – broken into visibility and control metrics – to help prioritize cloud security controls implementation.  We also delivered </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=5856ce67-73d4-435e-b4cf-ebc020487b68" rel="noopener noreferrer"><span data-contrast="none">MVISION Cloud for Teams</span></a><span data-contrast="none">, which provides policy and collaboration controls to enable organizations to safely collaborate with partners without having to worry about exposing confidential data to guest users.  </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">MVISION Cloud received its </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=c977fe06-20aa-43f1-97e5-d39d57275040" rel="noopener noreferrer"><span data-contrast="none">FedRAMP High JAB P-ATO</span></a><span data-contrast="none"> designation and McAfee MVISION for Endpoint achieved </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=8d065af8-9a58-44ed-9f0c-3beb2b34d9f9" rel="noopener"><span data-contrast="none">FedRAMP Moderate Authorization</span></a><span data-contrast="none">.</span><span data-contrast="none"> Both of those are important to enable our Federal customers to take advantage of the MVISION portfolio. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">All of this helps our customers accelerate the </span><span data-contrast="none">easy </span><span data-contrast="none">adoption of a more complete </span><span data-contrast="none">Secure Access Service Edge (</span><span data-contrast="none">SASE</span><span data-contrast="none">)</span><span data-contrast="none"> architecture and better defend against advanced web and cloud-based threats. </span><span data-contrast="none">In fact, our </span><span data-contrast="none">MVISION </span><span data-contrast="none">UCE customers can enjoy </span><span data-contrast="none">a </span><span data-contrast="none">nearly 40% annual TCO savings when they go from on-prem to cloud.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">For our customers who want cloud native IaaS security while dealing existing on-prem data center deployments, we rolled out our new </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=9c05d85b-e6c5-4351-9c52-d503eb7eccbf" rel="noopener noreferrer"><span data-contrast="none">McAfee MVISION Cloud-Native Application Protection Platform (CNAPP)</span></a><span data-contrast="none">, an integrated hybrid cloud security platform for comprehensive data protection, threat prevention, governance, and compliance for the cloud-native application lifecycle. We also announced </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=af20ba13-5212-42b2-8e98-62e2fed1ae38" rel="noopener"><span data-contrast="none">native AWS Integrations</span></a><span data-contrast="none"> for </span><span data-contrast="none">MVISION </span><span data-contrast="none">CNAPP. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<h2><b><span data-contrast="none">Delivering</span></b><b><span data-contrast="none"> </span></b><b><span data-contrast="none">a </span></b><b><span data-contrast="none">future proof</span></b><b><span data-contrast="none"> SOC </span></b><b><span data-contrast="none">with </span></b><b><span data-contrast="none">XDR</span></b><b><span data-contrast="none"> </span></b><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></h2>
+<p><span data-contrast="none">The team and I are also extremely excited about the progress with </span><span data-contrast="none">our Endpoint portfolio across </span><span data-contrast="none">ENS</span><span data-contrast="none">, </span><span data-contrast="none">EDR and momentum behind </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=0f578ddf-99f4-456f-a781-786a90c7f393" rel="noopener noreferrer"><span data-contrast="none">MVISION Insights</span></a><span data-contrast="none">. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">The </span><span data-contrast="none">still unfolding </span><a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/how-a-device-to-cloud-architecture-defends-against-the-solarwinds-supply-chain-compromise/" rel="noopener"><span data-contrast="none">SolarWinds supply chain compromise</span></a><span data-contrast="none"> has shown how unprepared SOC teams can be</span><span data-contrast="none"> and </span><span data-contrast="none">why it is ever more important to have proactive and actionable threat intelligence at your fingertips. </span><span data-contrast="none">As news of an emerging campaign </span><span data-contrast="none">becomes viral, SOC teams </span><span data-contrast="none">must</span><span data-contrast="none"> answer the </span><span data-contrast="none">topical question</span><span data-contrast="none"> </span><span data-contrast="none">raised by the </span><span data-contrast="none">C-level or the Board </span><span data-contrast="none">“Are we impacted”</span><span data-contrast="none"> which unfortunately till now took weeks if not days of scrambling to answer. </span><span data-contrast="none">We launched MVISION Insights </span><span data-contrast="none">early this summer</span><span data-contrast="none"> to solve for exactly this problem.</span><span data-contrast="none"> </span><span data-contrast="none"><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/products/mvision-insights.html" rel="noopener noreferrer">MVISION Insights</a> </span><span data-contrast="none">leverages McAfee’s cutting-edge threat research, augmented</span><span data-contrast="none"> with </span><span data-contrast="none">AI</span><span data-contrast="none"> app</span><span data-contrast="none">lied to real-time telemetry streamed from over a Billion sensors</span><span data-contrast="none"> to identify and prioritize threats, before they h</span><span data-contrast="none">it. </span><span data-contrast="none">MVISION Insights can </span><span data-contrast="none">predict</span><span data-contrast="none"> the</span><span data-contrast="none"> impact on your countermeasures, and then tells you exactly how and where to improve your security posture. In essence, it enables you to “shift left” and anticipate and stop breaches before they happen. </span><span data-contrast="none">As the </span><span data-contrast="none">SolarWinds compromise</span><span data-contrast="none"> was unfolding, MVISION Insights </span><span data-contrast="none">delivered actiona</span><span data-contrast="none">ble threat intelligence to McAfee’s customers within hours. </span><span data-contrast="none">The fact that we now have hundreds of customers who have adopted MVISION Insights</span><span data-contrast="none"> as part of their SOC </span><span data-contrast="none">framework</span><span data-contrast="none"> </span><span data-contrast="none">within a few months of </span><span data-contrast="none">release </span><span data-contrast="none">is a testament to the real value </span><span data-contrast="none">add they are</span><span data-contrast="none"> enjoying.</span><span data-contrast="none"> Best part is that it is also free </span><span data-contrast="none">for all our customers who have</span><span data-contrast="none"> our integrated </span><span data-contrast="none">E</span><span data-contrast="none">PP+EDR SKUs: MV6 or MV7</span><span data-contrast="none">.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">Our latest Endpoint protection product, ENS 10.7, is stronger </span><span data-contrast="none">with the highest quality and customer satisfaction than ever</span><span data-contrast="none">.</span><span data-contrast="none"> </span><span data-contrast="none">ENS 10.7 couples all our endpoint protection capabilities with machine learning, behavior monitoring, fileless threat defense and Rollback Remediation. It’s also backed by our </span><span data-contrast="none">Global Threat Intelligence (</span><span data-contrast="none">GTI</span><span data-contrast="none">)</span><span data-contrast="none"> to provide adaptable, defense in depth capability against the techniques used in targeted ransomware attacks.</span><span data-contrast="none"> </span><span data-contrast="none">ENS 10.7 delivers meaningful value. Rollback Remediation, for instance, can save an average $500 per node in labor and productivity costs by eliminating need to reimage machines.</span><span data-contrast="none"> ENS 10.7 became generally available about a year ago and has emerged as our #1 deployed enterprise product worldwide – the fastest ramp of any ENS release.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">Equally on the EDR front, we delivered </span><span data-contrast="none">capabilities that </span><span data-contrast="none">make a measurable </span><span data-contrast="none">imp</span><span data-contrast="none">rovement for the ever tired SOC teams. </span><span data-contrast="none">The included AI Guided investigations can speed threat investigations </span><span data-contrast="none">from </span><span data-contrast="none">greater than 2 hours to as little as 6 minutes per incident. </span><span data-contrast="none">The SolarWinds compromise also showed that Organizations need an integrated </span><span data-contrast="none">platform that delivers </span><span data-contrast="none">complete visibility and control across their infrastructure </span><span data-contrast="none">including their supply chain. </span><span data-contrast="none">The recently announced </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=e0959323-6ec9-46bc-b52d-ce7f1d801767" rel="noopener noreferrer"><span data-contrast="none">MVISION XDR</span></a><span data-contrast="none"> </span><span data-contrast="none">builds upon our EDR solution making it easier for</span><span data-contrast="none"> our customers </span><span data-contrast="none">to </span><span data-contrast="none">achieve this</span><span data-contrast="none"> complete visibility and control</span><span data-contrast="none">. It </span><span data-contrast="none">extends </span><span data-contrast="none">MVISION </span><span data-contrast="none">Insights across endpoints, network and cloud, making it the first proactive XDR platform to manage your risk. MVISION XDR dramatically expands the capabilities of traditional Endpoint Detection and Response (EDR) point solutions by delivering a fully integrated, SaaS-based platform to rapidly discover and mitigate the real threats to your users and data across all threat vectors.  And, complementing our MVSION XDR solution is a host of partner solutions available via </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/newsroom/press-releases/press-release.html?news_id=5ef09bb3-bffe-4a2d-9499-8c15a1a55934" rel="noopener noreferrer"><span data-contrast="none">MVISION Marketplace</span></a><span data-contrast="none">. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">Finally, we rolled out the </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/device-to-cloud-suites.html" rel="noopener noreferrer"><span data-contrast="none">Device-to-Cloud suites</span></a><span data-contrast="none">, making it easier for our customers to move to a cloud-native architecture. These three SaaS offerings all feature MVISION Insights and endpoint protection to provide right-sized security solutions in a simple-to-acquire package. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">I am so proud </span><span data-contrast="none">that our customers and the</span><span data-contrast="none"> </span><span data-contrast="none">industry also </span><span data-contrast="none">recognize</span><span data-contrast="none"> the McAfee teams’ hard work. </span><span data-contrast="none">We were able to add a long list of awards and accolades to our portfolio in 2020.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none"><img loading="lazy" class="aligncenter wp-image-115651 size-full" src="https://www.mcafee.com/wp-content/uploads/2020/12/Picture1.png" alt="" width="977" height="550" srcset="https://www.mcafee.com/wp-content/uploads/2020/12/Picture1.png 977w, https://www.mcafee.com/wp-content/uploads/2020/12/Picture1-300x169.png 300w, https://www.mcafee.com/wp-content/uploads/2020/12/Picture1-768x432.png 768w, https://www.mcafee.com/wp-content/uploads/2020/12/Picture1-205x115.png 205w" sizes="(max-width: 977px) 100vw, 977px"/> </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">Now that we’ve looked back at our successes, let’s take a moment to look forward and set goals for ourselves in the coming year. My team and I are committed to: </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></p>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="14" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1"><span data-contrast="none">Expanding </span><span data-contrast="none">on our</span><span data-contrast="none"> XDR </span><span data-contrast="none">strategy by </span><span data-contrast="none">chang</span><span data-contrast="auto">ing</span><span data-contrast="none"> the landscape </span><span data-contrast="auto">of</span><span data-contrast="none"> how we enable our customers to </span><span data-contrast="none">being more proactive</span><span data-contrast="none"> and </span><span data-contrast="none">get complete visibility and control </span><span data-contrast="none">halting threats before they reach devices, networks, and the cloud. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
+<li data-leveltext="" data-font="Symbol" data-listid="14" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1"><span data-contrast="none">Strengthening UCE by innovating and expanding our portfolio features and functionality to enable comprehensive Zero Trust </span><span data-contrast="none">and SASE </span><span data-contrast="none">coverage from McAfee that spans all major threat vectors.  </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
+<li data-leveltext="" data-font="Symbol" data-listid="14" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1"><span data-contrast="none">Raising the bar of </span><span data-contrast="auto">MVISION</span><span data-contrast="none"> </span><span data-contrast="none">CNAPP </span><span data-contrast="none">innovation and making it easier (and safer) to accelerate cloud transitions with continued cloud security innovation</span><span data-contrast="none">.</span><span data-contrast="none"> </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
+</ul>
+<p> </p>
+<p><span data-contrast="none">Against today’s increasingly sophisticated adversaries, your success is our success.   </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">As we head into 2021, I want to take a moment to wish each of you peace, good health, and prosperity.  </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="none">Happy holidays to you and yours!</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><span data-contrast="auto">Thanks, </span><span data-contrast="none">Shishir</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:200,&quot;335559740&quot;:240}"> </span></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-115669" src="https://www.mcafee.com/wp-content/uploads/2020/12/2-4.png" alt="" width="652" height="108" srcset="https://www.mcafee.com/wp-content/uploads/2020/12/2-4.png 652w, https://www.mcafee.com/wp-content/uploads/2020/12/2-4-300x50.png 300w, https://www.mcafee.com/wp-content/uploads/2020/12/2-4-205x34.png 205w" sizes="(max-width: 652px) 100vw, 652px"/></p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/bring-on-2021/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Lawsuit Claims Flawed Facial Recognition Led to Man’s Wrongful Arrest</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 21:27:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Arrest]]></category>
+		<category><![CDATA[Claims]]></category>
+		<category><![CDATA[Facial]]></category>
+		<category><![CDATA[Flawed]]></category>
+		<category><![CDATA[Lawsuit]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[Mans]]></category>
+		<category><![CDATA[Recognition]]></category>
+		<category><![CDATA[Wrongful]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/</guid>
+
+					<description><![CDATA[Black man sues police, saying he was falsely ID’d by facial recognition, joining other Black Americans falling victim to the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Black man sues police, saying he was falsely ID’d by facial recognition, joining other Black Americans falling victim to the technology’s racial bias.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/162663/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>6 Questions Attackers Ask Before Choosing an Asset to Exploit</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/6-questions-attackers-ask-before-choosing-an-asset-to-exploit/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 16:30:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Asset]]></category>
+		<category><![CDATA[Attackers]]></category>
+		<category><![CDATA[Choosing]]></category>
+		<category><![CDATA[Exploit]]></category>
+		<category><![CDATA[Questions]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/6-questions-attackers-ask-before-choosing-an-asset-to-exploit/</guid>
+
+					<description><![CDATA[David “moose” Wolpoff at Randori explains how hackers pick their targets, and how understanding &#8220;hacker logic&#8221; can help prioritize defenses.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />David “moose” Wolpoff at Randori explains how hackers pick their targets, and how understanding &#8220;hacker logic&#8221; can help prioritize defenses.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/6-questions-attackers-ask-exploit/162651/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Best of TechBeacon 2020: App dev and testing</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-app-dev-and-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Dev]]></category>
+		<category><![CDATA[TechBeacon]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-app-dev-and-testing/</guid>
+
+					<description><![CDATA[Application development and testing practices are in a state of flux, as a growing number of organizations embrace agile, DevOps,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><span><span>Application development and testing practices are in a state of flux, as a growing number of organizations embrace agile, DevOps, and other modern methodologies.</span></span></p>
+<p><em>TechBeacon</em>&#8216;s top app dev and testing stories for 2020 cover some of the most prevalent trends in the space. These 12 stories offer experts&#8217; guidance about some of the best automation and testing tools currently available, best practices to adopt, and what development teams can learn from companies that are killing it with agile.</p>
+<h3>Testing</h3>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know" rel="noopener">11 top open-source API testing tools: What your team needs to know</a></h4>
+<p>APIs have become the basis of modern application development, especially for organizations making the shift away from older, monolithic applications to microservices architectures. For such entities, API security has become a key consideration, says <a target="_blank" href="https://twitter.com/joecolantonio" rel="nofollow noopener">Joe Colantonio</a>, founder of TestGuild. In this report, Colantonio describes why organizations need to pay attention to API security and lists 11 of the top open-source tools for testing application programming interfaces.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/web-performance-testing-18-free-open-source-tools-consider" rel="noopener">Web performance testing: 18 free open-source tools to consider</a></h4>
+<p><span><span>Bad things can happen when organizations fail to conduct—or improperly conduct—performance tests on critical web applications. Stock-trading firm Robinhood learned that lesson the hard way when the company&#8217;s app crashed under heavy load during one of the stock market&#8217;s most significant swings. <a target="_blank" href="https://twitter.com/joecolantonio" rel="nofollow noopener">Joe Colantonio</a>, founder of TestGuild, provides an overview of key performance metrics for web applications and explains the importance of web performance testing. He lists 18 open-source tools that organizations can use in place of—or to complement—commercial testing tools.</span></span></p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/ai-testing-13-essential-resources-qa-pros" rel="noopener">AI in testing: 13 essential resources for QA pros</a></h4>
+<p>AI promises to change software-testing processes drastically in the future. But the industry is not quite there yet, says <a target="_blank" href="https://www.linkedin.com/in/dpaulmerrill/" rel="nofollow noopener">Paul Merrill</a>, CEO and test automation consultant at software delivery consultancy Beaufort Fairmont. In this report, he explains why AI can still assist in testing efforts so long as the right tools are chosen. Merrill provides a quick overview of AI and its role in testing and lists 13 resources that he says every QA pro needs to share with the decision makers in their organizations.</p>
+<h3>Automation</h3>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/10-portfolio-projects-aspiring-automation-engineers" rel="noopener">10 portfolio projects for aspiring automation engineers</a></h4>
+<p>Lack of demonstrable experience can be a big problem for people trying to get into the test automation field. Many hone their skills through self-study and practice but then have a hard time demonstrating their newly acquired skills to employers. <a target="_blank" href="https://twitter.com/techgirl1908" rel="nofollow noopener">Angie Jones</a>, senior developer advocate at testing-tool provider Applitools, explains why automation engineers should consider creating portfolios to highlight their skills just as developers do. In this report she lists 10 projects that will make an automation engineer&#8217;s portfolio stand out among the competition.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/test-automation-qa-career-guide-top-roles-skills" rel="noopener">Test automation and QA career guide: Top roles and skills</a></h4>
+<p>Maturing DevOps practices are driving enormous change in the test automation and quality assurance (QA) field. QA engineers need to remain on top of these changes to stay on a solid career track, says freelance writer <a target="_blank" href="https://twitter.com/erickachick" rel="nofollow noopener">Ericka Chickowski</a>. She spoke with hiring managers, recruiters, and practitioners in QA and test automation to compile this list of the three hottest skills and five most essential roles in the field.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/test-automation-tools-top-trends-challenges-2020" rel="noopener">Automation test automation tools: Top trends and challenges for 2020</a></h4>
+<p>As with most things IT-related, the market for test automation tools has kept evolving and changing steadily over the years. A growing number of tools have begun incorporating AI and robotic process automation capabilities. The market has begun showing signs of fragmentation and big platform vendors are expanding their footprint in the space. Freelance writer <a target="_blank" href="https://www.linkedin.com/in/linda-rosencrance-a8508876/" rel="nofollow noopener">Linda Rosencrance</a> sums up the state of the test automation tool market and lists the top trends to watch out for in the space.</p>
+<h3>Agile</h3>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/confused-about-safe-epics-follow-real-world-example" rel="noopener">Confused about SAFe epics? Follow this real-world example</a></h4>
+<p>Epics—or containers for significant services, systems, or products—can be confusing for organizations moving to a Scaled Agile Framework (SAFe) and the SAFe Portfolio Kanban. In this comprehensive report, <a target="_blank" href="https://www.linkedin.com/in/anthonyrc/" rel="nofollow noopener">Anthony Crain</a>, delivery manager for agile transformation at agile-services provider Cprime, uses a real-world example to explain SAFe epics in a way that brings greater clarity to the topic.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/8-ways-know-when-youve-done-agile-well" rel="noopener">8 ways to know when you&#8217;ve done agile well</a></h4>
+<p>Numerous measures are available to help agile teams know if they are succeeding or not. Ironically, the most important among them are the ones that most teams don&#8217;t hear about much because they are indicators of success more than they are direct metrics. <a target="_blank" href="https://twitter.com/bobgalen" rel="nofollow noopener">Bob Galen</a>, agile practitioner, coach, trainer, and author at his consultancy in Cary, North Carolina, lists eight of the top measures that IT leaders should use to tell if their agile transformation efforts are really working or not.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/10-companies-killing-it-scaling-agile" rel="noopener">10 companies killing it at scaling agile</a></h4>
+<p>The rigid structure within development organizations can often be at odds with agile and its requirements for experimentation, flexibility, and the ability to pivot quickly as things change. Scaling agile to meet the requirements of large organizations can be even trickier and challenging. However, this doesn&#8217;t mean companies aren&#8217;t succeeding at it. Freelance writer <a target="_blank" href="https://twitter.com/intent/user?screen_name=christophernull" rel="nofollow noopener">Christopher Null</a> identifies 10 organizations that are setting an example for others through their work with agile.</p>
+<h3>Dev</h3>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/five-best-web-application-frameworks-how-choose" rel="noopener">The 5 best web application frameworks: How to choose</a></h4>
+<p><a target="_blank" href="https://twitter.com/matthewadavid" rel="nofollow noopener">Matthew David</a>, digital leader at Accenture, takes the guesswork out of selecting web application frameworks in this handy list of the top five. David, whose previous experience includes a stint as global leader at the Kimberly-Clark Mobile Center of Excellence, explains what exactly organizations should be looking for when evaluating a web application framework. David&#8217;s compilation of the five frameworks listed in this report is based on his own experience, and he lists the pros and the cons of each of them.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/better-behavior-driven-development-4-rules-writing-good-gherkin" rel="noopener">Better behavior-driven development: 4 rules for writing good Gherkin</a></h4>
+<p>Behavior-driven development (BDD) practices can help create better software because they emphasize the use of plain-language examples to specify a product&#8217;s behaviors. Few languages exemplify the BDD movement better than Gherkin, says <a target="_blank" href="https://www.linkedin.com/in/andrew-leland-knight/" rel="nofollow noopener">Andy Knight</a>, lead software engineer in test at commercial-banking software provider PrecisionLender. He&#8217;s also the designer of multiple robust test automation systems for operating systems, services, APIs, and web apps. Here he explains why Gherkin is trickier to handle than most might initially assume and walks readers through four rules for writing good Gherkin.</p>
+<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/why-enterprises-are-adapting-their-cobol-apps-vs-ditching-them" rel="noopener">Why enterprises are adapting their COBOL apps vs. ditching them</a></h4>
+<p>Enterprise use of COBOL apps received some scrutiny this year after some US states that are using the venerable programming language ran into problems distributing unemployment checks in the middle of the global pandemic. But as freelance writer <a target="_blank" href="https://www.linkedin.com/in/johannaambrosio/" rel="nofollow noopener">Johanna Ambrosio</a> discovered in reporting this story, many organizations using COBOL apps have no plans to ditch them any time soon. Here she explains why enterprises are adapting COBOL apps to meet modern business requirements instead of replacing them altogether.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/best-techbeacon-2020-app-dev-testing">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Japanese Aerospace Firm Kawasaki Warns of Data Breach</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/japanese-aerospace-firm-kawasaki-warns-of-data-breach/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 15:11:13 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Aerospace]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Firm]]></category>
+		<category><![CDATA[Japanese]]></category>
+		<category><![CDATA[Kawasaki]]></category>
+		<category><![CDATA[Warns]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/japanese-aerospace-firm-kawasaki-warns-of-data-breach/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/japanese-aerospace-firm-kawasaki-warns-of-data-breach/162642/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2020 Work-for-Home Shift: What We Learned</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/2020-work-for-home-shift-what-we-learned/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 13:00:39 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Learned]]></category>
+		<category><![CDATA[Shift]]></category>
+		<category><![CDATA[WorkforHome]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/2020-work-for-home-shift-what-we-learned/</guid>
+
+					<description><![CDATA[Threatpost explores 5 big takeaways from 2020 &#8212; and what they mean for 2021. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Threatpost explores 5 big takeaways from 2020 &#8212; and what they mean for 2021.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/2020-work-for-home-shift-learned/162595/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Design Patterns for High-Quality Automated Tests: Singleton</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/design-patterns-for-high-quality-automated-tests-singleton/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 03:27:31 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[HighQuality]]></category>
+		<category><![CDATA[Patterns]]></category>
+		<category><![CDATA[Singleton]]></category>
+		<category><![CDATA[Tests]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/design-patterns-for-high-quality-automated-tests-singleton/</guid>
+
+					<description><![CDATA[In the previous article from the series we discussed the Fluent Interface design pattern and achieve maximum API usability. It is]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In the previous article from the series we discussed the <a target="_blank" href="https://blog.testproject.io/2020/12/23/design-patterns-for-high-quality-automated-tests-fluent-api/" rel="noopener"><strong>Fluent Interface design pattern</strong></a> and achieve maximum API usability. It is implemented through method chaining (method cascading). In the current publication, I am going to share with you how to create only once your page object models and afterwards reuse them. To do that we are going to use the <strong>Singleton design pattern</strong>.</p>
+<h2><strong>Test Case</strong></h2>
+<p>We will automate the main Bing search main page. All of the code is placed inside the <strong>BingMainPage </strong>class.</p>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-16419 size-medium" title="Design Patterns for High-Quality Automated Tests: Singleton" src="https://blog.testproject.io/wp-content/uploads/2020/12/bingmainpage-512x420.png" alt="Design Patterns for High-Quality Automated Tests: Singleton" width="512" height="420" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/bingmainpage-512x420.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/bingmainpage-768x629.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/bingmainpage.png 987w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
+<h2><strong>Page Object Model – Non-Singleton Version</strong></h2>
+<p>Let us see how a regular non-singleton page object looks and how we use it in tests. Then we are going to refactor it and make it a singleton.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public class BingMainPage
+{
+    private readonly IWebDriver _driver;
+    private readonly string _url = @"http://www.bing.com/";
+
+    public BingMainPage(IWebDriver browser)
+    {
+        _driver = browser;
+    }
+
+    public void Navigate()
+    {
+        _driver.Navigate().GoToUrl(_url);
+    }
+
+    public void Search(string textToType)
+    {
+        GetSearchBox().Clear();
+        GetSearchBox().SendKeys(textToType);
+        GetGoButton().Click();
+    }
+
+    public void AssertResultsCount(string expectedCount)
+    {
+        Assert.AreEqual(GetResultsCountDiv().Text, expectedCount);
+    }
+
+    private IWebElement GetSearchBox()
+    {
+        return _driver.FindElement(By.Id("sb_form_q"));
+    }
+
+    private IWebElement GetGoButton()
+    {
+        return _driver.FindElement(By.Id("sb_form_go"));
+    }
+
+    private IWebElement GetResultsCountDiv()
+    {
+        return _driver.FindElement(By.Id("b_tween"));
+    }
+}</pre>
+<p><strong>Note</strong>: I put the assertion methods here as well. It is suggested to add them if you are going to use them in more than one test, especially if you have set a detailed exception method.</p>
+<p>Also, to make the example simpler, I haven’t created a separate class for the element maps, as we did in the <a target="_blank" href="https://blog.testproject.io/2020/12/23/design-patterns-for-high-quality-automated-tests-fluent-api/" rel="noopener">Fluent API</a> article.</p>
+<p><strong>Non-Singleton Version in Tests</strong></p>
+<p><span data-preserver-spaces="true">The tests are implemented using the MSTest framework. Before all tests, we start the browser, reuse it for all, and at the end of the run, we close it. We need to create a new instance of the page object model before using it. If we use the page in all tests in the file, we can create a single shared instance in a </span><strong><span data-preserver-spaces="true">TestInitialize</span></strong><span data-preserver-spaces="true"> method.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">[TestClass]
+public class BingTests
+{
+    private IWebDriver _driver;
+
+    [TestInitialize]
+    public void TestInitialize()
+    {
+        _driver = new FirefoxDriver();
+        _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+    }
+
+    [TestCleanup]
+    public void TestCleanup()
+    {
+        _driver.Quit();
+    }
+
+    [TestMethod]
+    public void SearchTextInBing_First()
+    {
+        var bingMainPage = new BingMainPage(_driver);
+
+        bingMainPage.Navigate();
+        bingMainPage.Search("Automate The Planet");
+
+        bingMainPage.AssertResultsCount("236,000 RESULTS");
+    }
+}</pre>
+<p>The drawback of this approach is that we need every time to initialize our pages. Here the constructor of the page takes only a single parameter, but sometimes there are more parameters. If we use this kind of initialization in many tests, later test changes will be more challenging and more error prompt. Moreover, since the pages are stateless, we do not need to initialize them multiple times since the elements are always located in the current browser instance.</p>
+<p>Now, we will discuss an alternative approach using the <strong>Singleton design pattern</strong>.</p>
+<h2><strong>Singleton Design Pattern</strong></h2>
+<p><strong>Definition</strong>:</p>
+<p>The class has only one instance and provides access to it.</p>
+<p><strong>UML Class Diagram:</strong></p>
+<p><img loading="lazy" class="alignnone wp-image-16456 size-medium" title="singleton-design-pattern-uml-class-diagram" alt="singleton-design-pattern-uml-class-diagram" width="512" height="284" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/singleton-design-pattern-uml-class-diagram-512x284.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/singleton-design-pattern-uml-class-diagram.png 523w" data-lazy-sizes="(max-width: 512px) 100vw, 512px" src="https://blog.testproject.io/wp-content/uploads/2020/12/singleton-design-pattern-uml-class-diagram-512x284.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-16456 size-medium" title="singleton-design-pattern-uml-class-diagram" src="https://blog.testproject.io/wp-content/uploads/2020/12/singleton-design-pattern-uml-class-diagram-512x284.png" alt="singleton-design-pattern-uml-class-diagram" width="512" height="284" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/singleton-design-pattern-uml-class-diagram-512x284.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/singleton-design-pattern-uml-class-diagram.png 523w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
+<p><strong>Participants:</strong></p>
+<p>The classes and objects participating in this pattern are:</p>
+<ul>
+<li><strong>Base Page </strong>– holds a static property to the instance of the class. It is created on the first call to the class. The class cannot be created through the usage of the keyword <strong>new</strong>.</li>
+<li><strong>Concrete Page </strong>– inherits the base page. Can be used in tests through the Instance property but cannot be created through the usage of the keyword <strong>new</strong>.</li>
+</ul>
+<p>The basic implementation of the pattern requires a static variable and a static property. Also, to make sure that the class cannot be initialized through the keyword <strong>new</strong>, the constructor access modifier is set to <strong>private.</strong></p>
+<p><strong>Page Object Model – Singleton Version</strong></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public class BingMainPage : WebPage&lt;BingMainPage&gt;
+{
+    private readonly string _url = @"http://www.bing.com/";
+
+    public void Navigate()
+    {
+        WrappedDriver.Navigate().GoToUrl(_url);
+    }
+
+    public void Search(string textToType)
+    {
+        GetSearchBox().Clear();
+        GetSearchBox().SendKeys(textToType);
+        GetGoButton().Click();
+    }
+
+    public void AssertResultsCount(string expectedCount)
+    {
+        Assert.AreEqual(GetResultsCountDiv().Text, expectedCount);
+    }
+
+    private IWebElement GetSearchBox()
+    {
+        return WrappedDriver.FindElement(By.Id("sb_form_q"));
+    }
+
+    private IWebElement GetGoButton()
+    {
+        return WrappedDriver.FindElement(By.Id("sb_form_go"));
+    }
+
+    private IWebElement GetResultsCountDiv()
+    {
+        return WrappedDriver.FindElement(By.Id("b_tween"));
+    }
+}</pre>
+<p><strong>Driver</strong></p>
+<p><span data-preserver-spaces="true">Below you can find a static utility class that we use to create a single instance of WebDriver. It comes in handy instead of copy-paste the same code repeatedly in the </span><strong><span data-preserver-spaces="true">TestInitialize</span></strong><span data-preserver-spaces="true"> methods.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public static class Driver
+{
+    private static WebDriverWait _browserWait;
+
+    private static IWebDriver _browser;
+
+    public static IWebDriver GetBrowser()
+    {
+        if (_browser == null)
+        {
+            throw new NullReferenceException("The WebDriver browser instance was not initialized. You should first call the method Start.");
+        }
+        return _browser;
+    }
+
+    private static void SetBrowser(IWebDriver value)
+    {
+        _browser = value;
+    }
+
+    public static WebDriverWait GetBrowserWait()
+    {
+        if (_browserWait == null || _browser == null)
+        {
+            throw new NullReferenceException("The WebDriver browser wait instance was not initialized. You should first call the method Start.");
+        }
+        return _browserWait;
+    }
+
+    private static void SetBrowserWait(WebDriverWait value)
+    {
+        _browserWait = value;
+    }
+
+    public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int defaultTimeOut = 30)
+    {
+        switch (browserType)
+        {
+            case BrowserType.Firefox:
+                SetBrowser(new FirefoxDriver());
+                break;
+            case BrowserType.InternetExplorer:
+                break;
+            case BrowserType.Chrome:
+                break;
+            default:
+                throw new ArgumentException("You need to set a valid browser type.");
+        }
+
+        SetBrowserWait(new WebDriverWait(GetBrowser(), TimeSpan.FromSeconds(defaultTimeOut)));
+    }
+
+    public static void StopBrowser()
+    {
+        GetBrowser().Quit();
+        SetBrowser(null);
+        SetBrowserWait(null);
+    }
+}</pre>
+<p><strong>WebPage</strong></p>
+<p><span data-preserver-spaces="true">We hold here a static instance of our page. We create it only once. Afterward, each time we request the instance, we return the already created value. The built-in .NET framework generic class </span><a target="_blank" href="https://docs.microsoft.com/en-us/dotnet/api/system.lazy-1?view=net-5.0" rel="noopener"><strong><span data-preserver-spaces="true">Lazy&lt;T&gt;</span></strong></a><span data-preserver-spaces="true"> saves some code for implementing the lazy initialization. Also, it is thread-safe.</span></p>
+<p><strong>Note:</strong> <strong>Lazy initialization</strong> is a technique that defers the creation of an object until the first time it is needed. In other words, <strong>the initialization</strong> of the object happens only on demand. Note that the terms <strong>lazy initialization</strong> and <strong>lazy instantiation</strong> mean the same thing – they can be used interchangeably.</p>
+<p><span data-preserver-spaces="true">To follow the singleton design pattern more closely, we can add a private constructor to the page, and instead of using the <strong>new</strong> keyword to create the instance, we can use <a target="_blank" href="https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/reflection" rel="noopener"><strong>Reflection</strong></a>.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public abstract class WebPage&lt;TPage&gt;
+    where TPage : new()
+{
+    private static readonly Lazy&lt;TPage&gt; _lazyPage 
+        = new Lazy&lt;TPage&gt;(() =&gt; new TPage());
+
+    protected readonly IWebDriver WrappedDriver;
+
+    protected WebPage()
+    {
+        WrappedDriver = Driver.GetBrowser() ?? throw new ArgumentNullException("The wrapped IWebDriver instance is not initialized.");
+    }
+
+    public static TPage GetInstance()
+    {
+        return _lazyPage.Value;
+    }
+}</pre>
+<p><strong>Note:</strong> Generic classes allow you to define code that can be used as a template instead of specifying separate classes for each type. You provide the type as a parameter in the class definition. The generics were added to version 2.0 of C#. There are similar implementations for Java, C++ and other major programming languages.</p>
+<p><strong>Singleton Version in Tests</strong></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">[TestClass]
+public class BingTests
+{
+    private IWebDriver _driver;
+
+    [TestInitialize]
+    public void TestInitialize()
+    {
+        Driver.StartBrowser();
+    }
+
+    [TestCleanup]
+    public void TestCleanup()
+    {
+        Driver.StopBrowser();
+    }
+
+    [TestMethod]
+    public void Singleton_SearchTextInBing_First()
+    {
+        BingMainPage.GetInstance().Navigate();
+        BingMainPage.GetInstance().Search("Automate The Planet");
+
+        BingMainPage.GetInstance().AssertResultsCount("236,000 RESULTS");
+    }
+}</pre>
+<p><span data-preserver-spaces="true">Now we do not have the WebDriver initialization logic in the </span><strong><span data-preserver-spaces="true">TestInitialize</span></strong><span data-preserver-spaces="true"> method. Also, the usage of the page object in the test is changed. We use the </span><strong><span data-preserver-spaces="true">Instance</span></strong><span data-preserver-spaces="true"> static getter method to retrieve the instance of the page.</span></p>
+<h2><strong>Summary</strong></h2>
+<p><span data-preserver-spaces="true">As we mentioned above, the API is the specification of what you can do with a software library. When we use the term usability together with the term API, it means “<em>How easy it is for you as a user to find out what the methods do and how to use them?</em>”. In the case of a Test Library – “<em>How much time a new user needs to create a new test?</em>“. </span></p>
+<p><span data-preserver-spaces="true">In the programming community, we sometimes use another term for the same thing called </span><strong><span data-preserver-spaces="true">syntactic sugar</span></strong><span data-preserver-spaces="true">. It describes how easy it is to use or read some expressions. It sweetens the programming languages for humans <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f36c.png" alt="🍬" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The programming statements become more concise and clearer. </span><strong><span data-preserver-spaces="true">Singleton design pattern</span></strong><span data-preserver-spaces="true"> can be applied in <a target="_blank" href="https://testproject.io/" rel="noopener">automated testing</a> to improve API usability and help us write tests faster with less code. </span></p>
+<p><span data-preserver-spaces="true">In the next articles from the series, we will look into other essential design patterns that can help you write more maintainable, readable, and stable automated tests.</span></p>
+<p>For more detailed overview and usage of many more design patterns and best practices in automated testing, check my book “<a target="_blank" href="https://www.amazon.com/dp/B085L9W1KH" data-tcb-href="https://www.amazon.com/dp/B085L9W1KH" rel="noopener"><b><strong><span data-preserver-spaces="true">Design Patterns for High-Quality Automated Tests, C# Edition, High-Quality Tests Attributes, and Best Practices</span></strong></b></a><span data-preserver-spaces="true">“.  You can read part of three of the chapters:</span></p>
+<p><strong>Happy Testing!</strong> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f320.png" alt="🌠" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2020/12/29/design-patterns-for-high-quality-automated-tests-singleton/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Hackers Amp Up COVID-19 IP Theft Attacks</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/hackers-amp-up-covid-19-ip-theft-attacks/</link>
 		
@@ -125,430 +646,6 @@
 <br />From attacks on the UVM Health Network that delayed chemotherapy appointments, to ones on public schools that delayed students going back to the classroom, ransomware gangs disrupted organizations to inordinate levels in 2020.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/ransomware-2020-extortion/162319/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>10 Common Selenium Exceptions in C# and How to Fix Them</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/10-common-selenium-exceptions-in-c-and-how-to-fix-them/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 28 Dec 2020 06:13:37 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Common]]></category>
-		<category><![CDATA[Exceptions]]></category>
-		<category><![CDATA[Fix]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/10-common-selenium-exceptions-in-c-and-how-to-fix-them/</guid>
-
-					<description><![CDATA[As you start writing more and more automated tests with Selenium WebDriver, you will start encountering various exceptions. I’ll guide]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>As you start writing more and more automated tests with <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener">Selenium WebDriver</a>, you will start encountering various exceptions. I’ll guide you through the most common Selenium exceptions and help you solve them so your C# automation framework is more reliable.</p>
-<h2>Table of Contents – 10 Common Selenium Exceptions in C# and How to Fix Them</h2>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/#what-are-exceptions" rel="noopener">What are exceptions?</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#selenium-exceptions" rel="noopener">Common Selenium Exceptions</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#handling-exceptions" rel="noopener">Handling exceptions with try-catch</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#conclusion" rel="noopener">Conclusion</a></li>
-</ol>
-<hr/>
-<h2><strong><a target="_blank" id="what-are-exceptions" rel="noopener">What are exceptions?</strong></h2>
-<p>Exceptions are errors that occur during application execution. Exception objects are created and then they are thrown with the <strong>throw</strong> keyword. When unhandled, they disrupt the normal program execution.</p>
-<h2><strong><a target="_blank" id="selenium-exceptions" rel="noopener">Common Selenium exceptions</strong></h2>
-<p>Let’s go through the most common Selenium exceptions that you might encounter, understand their causes, and see the possible solutions.</p>
-<h3><strong>1. NoSuchElementException</strong></h3>
-<p>The <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/dotnet/html/T_OpenQA_Selenium_NoSuchElementException.htm" rel="noopener">NoSuchElementException</a> is thrown when the element cannot be found on the web page. This can happen for a number of reasons:</p>
-<ul>
-<li>You are using the wrong locator. There is no “one fits all” <a target="_blank" href="https://blog.testproject.io/2020/11/13/optimized-selenium-selector-strategies-from-a-z/" rel="noopener">locator strategy</a>, but you have to make sure that you are using a locator that is both unique, and correct. Pay extra attention if you are using CSS selectors or <a target="_blank" href="https://blog.testproject.io/2019/11/18/xpath-and-ui-element-identification-using-xpath-selectors/" rel="noopener">XPaths</a>, and make sure they are correct.</li>
-<li>The web page was not completely loaded and the element is not found. To solve it, you can use Selenium explicit waits, and wait until the element can be found on the page. Here’s a code example in C# (you’ll also need to install the DotNetSeleniumExtras NuGet package):</li>
-</ul>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-IWebElement LoginButton = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(By.Id("login")));</pre>
-<ul>
-<li>The element is not visible on the page and you have to scroll up or down to reach it. You can do this using a JavaScript executor:</li>
-</ul>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">public void scrollDown()
-{
-      IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-      js.ExecuteScript("window.scrollBy(0,250)", "");
-}</pre>
-<h3><strong>2. ElementNotVisibleException</strong></h3>
-<p>This one is a bit different than the NoSuchElementException, because it means that the element was found in the DOM, but it is not visible on the page. This also means that we cannot interact with the element, so we can’t click, send keys, or perform other actions on it. It can happen if:</p>
-<ul>
-<li>The element is hidden.</li>
-<li>The locator strategy you are using finds more elements with the same locator, and the first one is not visible.</li>
-</ul>
-<p>To fix this, first make sure that you are using a unique locator, and that you are identifying the correct element on the page.</p>
-<p>If your locator is good, then you can add a wait, that checks when the element is visible:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10)); 
-IWebElement LoginButton = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.Id("login")));</pre>
-<h3><strong>3. InvalidSelectorException</strong></h3>
-<p>This Selenium exception is thrown if you are using an incorrect selector. An example of this would be using a compound class name, which is not allowed:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">private IWebElement LoginButton =&gt; driver.FindElement(By.ClassName("login button"));</pre>
-<p>The solution for this is to make sure that the locator is correct. In the above scenario, you can replace the ClassName locator strategy with CssSelector:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">private IWebElement LoginButton =&gt; driver.FindElement(By.CssSelector("login.button"));</pre>
-<h3><strong>4. ElementClickInterceptedException</strong></h3>
-<p>This Selenium exception is usually thrown when the element was found on the page, but the click action would be performed on a different element that is overlapped our element. For example, if you go to the TestProject <a target="_blank" href="https://blog.testproject.io/" rel="noopener">blog</a> page and scroll down a bit, you will see a message prompting you to Sign Up for the <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a> test automation platform. You won’t be able to click any of the links on the page until you close it.</p>
-<p></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-16142 size-medium" title="Selenium Exception ElementClickInterceptedException" src="https://blog.testproject.io/wp-content/uploads/2020/12/ElementClickInterceptedException-512x340.png" alt="Selenium Exception ElementClickInterceptedException" width="512" height="340" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ElementClickInterceptedException-512x340.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementClickInterceptedException-768x510.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementClickInterceptedException-1024x680.png 1024w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
-<p>So, if you have something like this in a <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a> test, and your test tries to click a blog title, you will get an ElementClickInterceptedException.</p>
-<p>One solution to this exception is to use the Action class for performing the click:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">Actions _action = new Actions(driver);
-_action.MoveToElement(elementToClick).Click();</pre>
-<p>Or if the element is simply out of view and scrolling will reveal it, you can use the JavaScript scroll executor as shown above for the NoSuchElementException.</p>
-<h3><strong>5. StaleElementReferenceException</strong></h3>
-<p>The <a target="_blank" href="https://www.selenium.dev/exceptions/#stale_element_reference" rel="noopener">StaleElementReferenceException</a> means that a reference to an element is now “stale”, i.e. the element is no longer available on the web page DOM. In other words, the element was initially found on the DOM, but the DOM has changed since then. The common causes for this are:</p>
-<ul>
-<li>The element was deleted from the DOM.</li>
-<li>The element is no longer attached to the DOM.</li>
-</ul>
-<p>One possible solution is to refresh the page and try to find the element again:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">driver.Navigate().Refresh();
-driver.FindElement(By.Id("ElementId")).Click();</pre>
-<p>Or you can wait for the element to load before you manipulate it. Again, you can do this using explicit <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener">waits</a>:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10)); 
-IWebElement elementToInteract = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.Id("elementId")));</pre>
-<h3><strong>6. UnhandledAlertException</strong></h3>
-<p>This exception is thrown when an alert is present on the page, preventing you from interacting with the elements. You can dismiss or accept the alert, as needed, and move on with the test steps:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// Dismiss the alert
-driver.SwitchTo().Alert().Dismiss();
-// Accept the alert
-driver.SwitchTo().Alert().Accept();</pre>
-<h3><strong>7. NoAlertPresentException</strong></h3>
-<p>The <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/dotnet/html/T_OpenQA_Selenium_NoAlertPresentException.htm" rel="noopener">NoAlertPresentException</a> is thrown when Selenium is trying to interact with an alert that is not loaded on the webpage. If the alert is indeed not loaded at all, then you may have found a bug in your AUT, or perhaps you are missing the steps that lead to the alert opening. Another reason can be that the alert is displayed slower than Selenium performs the actions. In this case, you can add an implicit wait to your code, so the action performed on the alert is delayed by a few seconds:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);</pre>
-<p>However, be mindful when using implicit waits, as the timespan you select will apply even if the element or alert you are waiting for has already been loaded on the page.</p>
-<h3><strong>8. NoSuchFrameException</strong></h3>
-<p>Similar to the NoSuchElementException, this Selenium exception is thrown when a frame is not found. Again, this can happen for multiple reasons:</p>
-<ul>
-<li>You are using an incorrect frame Id or name. In this case, make sure that you correctly identify the frame you want to switch to.</li>
-<li>The frame was not yet loaded. To solve this, you can use the solution above and add an implicit wait.</li>
-<li>The frame is nested inside a different frame. In this case, you must first switch to the parent frame, then to the frame you want to use.</li>
-</ul>
-<p><img loading="lazy" class="alignnone wp-image-16157 " title="Nested Frames in HTML" alt="Nested Frames in HTML" width="952" height="468" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames.png 1476w, https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames-512x252.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames-768x378.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames-1024x504.png 1024w" data-lazy-sizes="(max-width: 952px) 100vw, 952px" src="https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames.png"/></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-16157 " title="Nested Frames in HTML" src="https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames.png" alt="Nested Frames in HTML" width="952" height="468" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames.png 1476w, https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames-512x252.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames-768x378.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/NestedFrames-1024x504.png 1024w" sizes="(max-width: 952px) 100vw, 952px"/></noscript></p>
-<p>In this example, to interact with elements inside “frame-left”, you would first need to switch to “frame-top”:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">driver.SwitchTo().Frame("frame-top");
-driver.SwitchTo().Frame("frame-left");</pre>
-<h3><strong>9. NoSuchWindowException</strong></h3>
-<p>This one is very similar to the previous exception, applied to windows. This happens when you try to switch to a new window (or tab), which cannot be found. You can solve this by getting all the windows handles, then switching to the correct one:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">var windows = driver.WindowHandles;
-driver.SwitchTo().Window(windows[1]);</pre>
-<h3><strong>10. TimeoutException</strong></h3>
-<p>This exception will be thrown when the page or element was not loaded after the specified wait time. To overcome this, you can increase the wait time, if you are using an implicit wait, or better yet, replace the implicit wait with an explicit wait.</p>
-<h2><a target="_blank" id="handling-exceptions" rel="noopener"><strong>Handling exceptions with try-catch</strong></h2>
-<p>Sometimes, the expected result is to actually have an exception thrown. In this case, you don’t want your code to stop executing or to throw the exception. Instead, you want to catch the exception and perform a certain action when the exception is thrown.</p>
-<p>That means you need to <strong>handle </strong>the exception. This can be done with a try-catch block. Let’s assume you have a method that searches for the Logout button. You will use it in the test assertions, and you expect the button to be found when the login is successful, and not found when the login fails. In this case, the method will return a boolean, and if the element is not found it will throw a NoSuchElementException. Instead of the exception, you want the method to return false. This can be achieved by using the following code:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">public bool IsElementFound()
-{
-        try
-        {
-                driver.FindElement(By.Id("LogoutButton"));
-                return true;
-        }
-        catch (NoSuchElementException e)
-        {
-                return false;
-        }
-}</pre>
-<p>Another scenario can be that even though you don’t expect the error, you still want your program to continue running, and have the failure result logged and displayed gracefully in your <a target="_blank" href="https://blog.testproject.io/2020/10/25/built-in-html-reports-for-selenium-c-tests/" rel="noopener">test report</a>. In this case, you can use the catch block to log the error and display a more user-friendly message, such as “The test failed because the Logout button was not found”. Looks a lot more better than “ClassName=OpenQA.Selenium.NoSuchElementException, Message=no such element: Unable to locate element”. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h2><a target="_blank" id="conclusion" rel="noopener"><strong>Conclusion</strong></h2>
-<p>The more tests you write, the higher the chances that you’ll encounter at least some of these Selenium exceptions during your work. Hopefully, this article can help you understand them and deal with them <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/12/28/10-common-selenium-exceptions-in-c-and-how-to-fix-them/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Your Testing Journey to Skyrocket 2021 &#8211; Live Sessions</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/your-testing-journey-to-skyrocket-2021-live-sessions/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sun, 27 Dec 2020 06:20:39 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Journey]]></category>
-		<category><![CDATA[Live]]></category>
-		<category><![CDATA[Sessions]]></category>
-		<category><![CDATA[Skyrocket]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/your-testing-journey-to-skyrocket-2021-live-sessions/</guid>
-
-					<description><![CDATA[Start your journey to test automation success before everyone else, and make 2021 your best year ever 💪🚀 Whether you’re]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Start your journey to test automation success before everyone else, and <strong>make 2021 your best year ever</strong> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Whether you’re just getting started or already a testing expert – you definitely want to take part in our end of year adventure!</p>
-<p>Go ahead &amp; save your seat for any/all of the sessions below – all attendees will <strong>receive a cool certificate</strong> of attendance by Jan 1st! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f3c5.png" alt="🏅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Oh and make sure to take active part in our <strong>#TestingInto2021 <a target="_blank" href="https://blog.testproject.io/#challenge" rel="noopener">challenge</a></strong> for a chance to <strong>win awesome TestProject swag</strong>! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f381.png" alt="🎁" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>Boosting your testing knowledge &amp; skills starts in 3… 2… 1… <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h2><strong><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f3a4.png" alt="🎤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Live Sessions Agenda &amp; Registration Links</strong></h2>
-<p>We invite you to 5 days of interesting &amp; fun sessions to skyrocket your testing skills in 2021! We’ll be there live to answers all of your burning questions:</p>
-<ol>
-<li><strong>Tuesday, Dec 29<sup>th</sup> – Next-Level Locator Strategies &amp; Page Object Maintenance </strong>
-<ol>
-<li><strong>Time</strong>: 10 AM EST / 4 PM CET / 8:30 PM IST – <a target="_blank" href="https://tricentis.zoom.us/webinar/register/7616090806820/WN_VaGvS3IcS2OTd0hVtuGmrw" rel="noopener noreferrer">Save your seat!</a></li>
-<li><strong>Description</strong>: We’ll walk you through all of TestProject’s powerful capabilities for locating elements, dealing with dynamic elements, leveraging TestProject’s AI-powered Self-healing capabilities &amp; eliminating flaky tests. We’ll also discuss best practices to overcome maintenance challenges, such as: Data-driven tests, nested tests, recovery tests, if-else logic, element repository management and more!</li>
-</ol>
-</li>
-<li><strong>Wednesday, Dec 30<sup>th</sup> – Deep Dive into Mobile Testing </strong>
-<ol>
-<li><strong>Time</strong>: 8 AM EST / 2 PM CET / 6:30 PM IST – <a target="_blank" href="https://tricentis.zoom.us/webinar/register/2216090816217/WN_rACR1ZSmRhC9K34XegRU0Q" rel="noopener noreferrer">Save your seat!</a></li>
-<li><strong>Description</strong>: We’ll walk you through all of TestProject’s powerful capabilities for Appium mobile testing, both for Android and iOS apps. We’ll show you how to set your iOS device to work for any OS (even on Windows!), explore how to use both physical devices as well as emulators AND simulators, and review Sauce Labs and BrowserStack integrations. Through the entire session, we’ll share cool automation tips and tricks to help you kick start your mobile automation journey.</li>
-</ol>
-</li>
-<li><strong>Friday, Jan 1<sup>st</sup></strong> <strong>– Seamless Test Execution &amp; Orchestration Experience </strong>
-<ol>
-<li><strong>Time</strong>: 8 AM EST / 2 PM CET / 6:30 PM IST – <a target="_blank" href="https://tricentis.zoom.us/webinar/register/8216090817579/WN_HvJvZsotTqevG8PhKKHKGA" rel="noopener noreferrer">Save your seat!</a></li>
-<li><strong>Description</strong>: We’ll walk you through all of TestProject’s powerful capabilities for easy test executions and CI/CD process to achieve scalability: Jobs, Jenkins/TeamCity Integration, using the API swagger, Docker containers &amp; parallel executions, email notifications and more.</li>
-</ol>
-</li>
-</ol>
-<p>***Even if you can’t make it – we’ll send you a recording of the event, just make sure to register.</p>
-<h2><strong><a target="_blank" id="challenge" rel="noopener"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Testing Into 2021 Challenge</strong></h2>
-<p>Spread the knowledge with your friends for a chance to win awesome TestProject swag!</p>
-<ol>
-<li>Share on LinkedIn what you’ve learned from each session &amp; be creative with your posts!</li>
-<li>Tag TestProject and use the hashtag #TestingInto2021</li>
-<li>Invite your friends to join in on all the fun by linking this article in your post.</li>
-</ol>
-<p>That’s it! All posts will be entered for a random raffle &amp; get the chance to win! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f3c6.png" alt="🏆" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />Winners will be announced Jan. 4th, 2021.</p>
-<p>Psst… The more sessions you attend <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/27a1.png" alt="➡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> the more posts you’ll have to share about what you’ve learned <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/27a1.png" alt="➡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> the more knowledge you’ll spread &amp; the more chances you’ll get to be among the raffle winners! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p><strong>Go ahead and save your seats in the registration links above! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4ba.png" alt="💺" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br /></strong>We’ll see you there <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f440.png" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/12/27/your-testing-journey-to-skyrocket-2021/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Looking Ahead to 2021: The Things We’ll Carry Forward</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/looking-ahead-to-2021-the-things-well-carry-forward/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Sat, 26 Dec 2020 14:00:01 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Ahead]]></category>
-		<category><![CDATA[Carry]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/looking-ahead-to-2021-the-things-well-carry-forward/</guid>
-
-					<description><![CDATA[Looking Ahead to 2021: The Things We’ll Carry Forward Right now, I’m thinking about how my life changed in 2020.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>Looking Ahead to 2021: The Things We’ll Carry Forward </strong></h2>
-<p>Right now, I’m thinking about how my life changed in 2020. Not so much in the sweeping and upending ways. More in the little ways. I’m thinking about the coping ways. The cobble-it-all-together ways. The little changes to make things work ways. There were plenty.  Now, with the first doses of vaccine going to those who need it most, I find myself wondering which of those little changes from 2020 will carry over into post-pandemic days.</p>
-<p>One thing I do know, central to many of those changes was the internet.</p>
-<h2><strong>The little things meant a lot</strong></h2>
-<p>For starters, I now have a chocolatier in my home. That’s courtesy of the online Master Classes my husband  and I took—his course of study being chocolate making. (We’ll see how he tops that in 2021. Chocolate sets a pretty high bar.) Would we have taken our respective classes otherwise? Hard to say. But I will say this—it was a comfort.</p>
-<p>I know that ordering my mother’s groceries online so she could avoid going into the store and stay safe was new. And through working online, I feel like I got invited into my team members’ homes where I had the pleasure of meeting  their spouses, children and pets. Also, while I could not travel like I wanted to, I could still <a target="_blank" href="https://www.mcafee.com/blogs/consumer/date-night-fromhome-ideas-2/?hilite=%27virtual%27%2C%27tours%27" rel="noopener">go exploring with virtual tours</a> of the world’s great museums plus catch a few <a target="_blank" href="https://sanctuaries.noaa.gov/vr/" rel="noopener">great dive sites without getting wet</a>. Those were all unique to 2020 as well.</p>
-<p>I count myself fortunate that I had those options available to me, as many people simply did not—whether because a lack of connectivity held them back, or their working situations simply could not make the jump to online. With that, I think of the essential workers, the first responders, the medical professionals of all walks, and the people who kept our communities going by being on the front lines of this pandemic. We all owe them so much, both now and moving forward.</p>
-<h2><strong>The internet helped us live our lives in 2020</strong></h2>
-<p>Yet where possible, the internet responded, in the best way that it could. For those of us who saw our work, studies, and livelihoods shift online, the internet proved that it could step in. It’s been far from ideal, of course. The internet is simply no substitute for us working and being together, yet it helped so many of us face the challenges of 2020. Even if we didn’t use the internet for work or school, it <a target="_blank" href="https://www.mcafee.com/blogs/consumer/how-to-ace-your-video-interview-job-hunting-from-home/?hilite=%27job%27%2C%27hunt%27" rel="noopener">helped us find employment</a>, get care by way of <a target="_blank" href="https://www.mcafee.com/blogs/consumer/medical-care-fromhome-telemedicine-and-seniors/?hilite=%27telemedicine%27" rel="noopener">telemedicine</a>, and keep in touch thanks to <a target="_blank" href="https://www.mcafee.com/blogs/consumer/family-safety/zooming-with-the-grandkids-five-easy-video-chat-apps-for-the-holidays/" rel="noopener">free video conferencing</a>, just to name a few things.</p>
-<p>Put plainly, the internet helped us live our lives this year. And out of necessity, it re-shaped the way we live our lives too. So, without question, I can see some of little changes I made carrying over. My husband and I will take more Master Classes. I like the idea of helping my mom with the shopping when I can’t be with her. And I’ll keep exploring, even while that means restricting it to online for now. I’m sure you can count think of a few examples of your own too—things that made your life a little better this year and that can make the years to come better too.</p>
-<h2><strong>Some of the big changes ahead in 2021</strong></h2>
-<p>Looking beyond my own homestead, I’m hoping that 2021 will prompt broader, and immensely positive, changes as part of lessons learned from 2020.</p>
-<p>With regards to internet access, <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/thankful-for-broadband-internet-and-hopeful-for-much-more/" rel="noopener">this year has underscored the internet’s role as an essential utility</a>. It’s no longer a luxury. I predict we’ll see renewed energy in public and private partnerships that will connect more people to fixed broadband internet connections so that they can benefit from the same professional, educational, and personal opportunities that the rest of us on broadband already enjoy.</p>
-<p>During the election year here in the U.S., there’s been plenty of conversation about the propagation of disinformation and misinformation on the internet, both by bad actors and by the unwitting parties who fall prey to their falsehoods. We covered the topic extensively in <a target="_blank" href="https://www.mcafee.com/blogs/?s=election" rel="noopener">our election blogs</a>, and I believe the ability to critically assess what we see and read on the internet is a major issue of our time, whether it’s an election year or not. Disinformation and misinformation online are here to stay, and there’s an opportunity for schools to introduce instruction on smart media consumption as part of their curriculums.</p>
-<p>And, what about working from home? Will it become a new norm for business in some shape or other? Working from home remains a complicated conversation, as a mix of public health concerns, local mandates, and stark financial realities drove that shift to remote workforces in the first place. Now, similar questions arise as communities and economies recover. Companies will make strategic decisions about their properties, people, and how they all work together—not to mention how they ensure personal and corporate security in a remote workplace setting. If we use <a target="_blank" href="https://www.outsideonline.com/2416265/rei-selling-bellevue-headquarters-remote-work" rel="noopener">major outdoor retailer REI as one example</a>, we’ll see that the answers are nuanced—particularly when the end result means selling a newly built and never-used corporate headquarters like REI did.</p>
-<h2><strong>A stronger and greater 2021</strong></h2>
-<p>To bring it all back home, let’s see what’s worth carrying forward into 2021. We learned a multitude of hard lessons in 2020, and we pulled off plenty of clever moves in response. As much as we’d like to put 2020 behind us, let’s take a moment to pause and consider where some of the silver linings were and see if we can spin them into something stronger and greater in 2021.</p>
-<p>And on a personal note I would like to end 2020 and start 2021 expressing my gratitude for the frontline workers, teachers and humanitarians who place service to society above all else. We have heroes in our midst and that is something to celebrate!</p>
-<p>Happy New Year!</p>
-<h2><strong>Stay Updated </strong></h2>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/looking-ahead-to-2021-the-things-well-carry-forward/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Windows Zero-Day Still Circulating After Faulty Fix</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/windows-zero-day-still-circulating-after-faulty-fix/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 24 Dec 2020 16:31:38 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Circulating]]></category>
-		<category><![CDATA[Faulty]]></category>
-		<category><![CDATA[Fix]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[ZeroDay]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/windows-zero-day-still-circulating-after-faulty-fix/</guid>
-
-					<description><![CDATA[The LPE bug could allow an attacker to install programs; view, change, or delete data; or create new accounts with]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The LPE bug could allow an attacker to install programs; view, change, or delete data; or create new accounts with full user rights.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/windows-zero-day-circulating-faulty-fix/162610/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New Year? Yes, please! Wishing you Happy Holidays and a great 2021</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/new-year-yes-please-wishing-you-happy-holidays-and-a-great-2021/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 24 Dec 2020 15:41:43 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[great]]></category>
-		<category><![CDATA[Happy]]></category>
-		<category><![CDATA[Holidays]]></category>
-		<category><![CDATA[Wishing]]></category>
-		<category><![CDATA[Year]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/new-year-yes-please-wishing-you-happy-holidays-and-a-great-2021/</guid>
-
-					<description><![CDATA[New Year? Yes, please! Wishing you Happy Holidays and a great 2021 Source]]></description>
-										<content:encoded><![CDATA[
-<p><div><span></p>
-<p>New Year? Yes, please! Wishing you Happy Holidays and a great 2021</p>
-<p></span></div>
-</p>
-<p> <br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3968385859839514">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Shadow DOM Elements and Using TestProject&#8217;s AI Recorder {Part 3}</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-ai-recorder-part-3/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 24 Dec 2020 06:49:07 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[DOM]]></category>
-		<category><![CDATA[Elements]]></category>
-		<category><![CDATA[Part]]></category>
-		<category><![CDATA[Recorder]]></category>
-		<category><![CDATA[Shadow]]></category>
-		<category><![CDATA[TestProjects]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/shadow-dom-elements-and-using-testprojects-ai-recorder-part-3/</guid>
-
-					<description><![CDATA[So far {1st Part of Shadow DOM series  &#38;  2nd Part of Shadow DOM series}, we are much familiar with]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p><span style="font-weight: 400;">So far {</span><a target="_blank" href="https://blog.testproject.io/2020/09/29/the-rise-of-shadow-dom-core-technical-aspects/" rel="noopener"><span style="font-weight: 400;">1st Part of Shadow DOM series</span></a><span style="font-weight: 400;">  &amp;  </span><a target="_blank" href="https://blog.testproject.io/2020/10/13/shadow-dom-elements-and-using-the-testproject-opensdk-part-2/" rel="noopener"><span style="font-weight: 400;">2nd Part of Shadow DOM series</span></a><span style="font-weight: 400;">}, we are much familiar with Shadow DOM aspects as well as TestProject’s SDK flawless support for it. Now it’s high time to understand – </span><span style="color: #000080;"><i><span style="font-weight: 400;">How TestProject’s AI-powered Record/Playback feature leverages graceful handling of Shadow DOM elements?</span></i></span><span style="font-weight: 400;"> So without wasting a single moment, we should jump on TestProject’s <a target="_blank" href="https://blog.testproject.io/2020/12/23/self-healing-to-the-rescue-of-flaky-test-automation/" rel="noopener">AI-powered Self-Healing Test Recorder</a>. I hope you would <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f497.png" alt="💗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> it!</span></p>
-<p><span style="color: #000080;"><b>Does TestProject’s record/playback feature directly record the Shadow DOM elements?</b></span></p>
-<p><a target="_blank" href="https://testproject.io/easy-test-automation/" rel="noopener"><span style="font-weight: 400;">Record and playback</span></a><span style="font-weight: 400;"> features are a really useful tool for automated testing – especially for naive test engineers. The way they work is that the test engineers just click a record button, do some actions on AUT, and then click stop. When replaying the recording, the same actions should be performed.</span></p>
-<p><span style="font-weight: 400;">When you do recording on TestProject, automation scripts are automatically generated and saved on the platform under your account. Later we can run the same scripts by playback feature. We can also make changes to the script to make the test run differently e.g. change selectors or test data. This allows the test engineer to update, maintain, and make improvements to the recorded scripts.</span></p>
-<p><span style="font-weight: 400;">By default, TestProject’s record/playback feature records the web elements by using all legacy selectors {CSS, XPath, etc.}, moreover, it considers the Shadow DOM elements as plain DOM elements. In our application, we will record the Shadow DOM elements by taking two actions:</span></p>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Enter some text inside the element</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘enter-text-area’</span></i></span></li>
-<li style="font-weight: 400;">Click<span style="color: #000080;"><i> ‘btn-enter’</i></span> element</li>
-</ul>
-<p></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-16505 size-full" title="Shadow DOM Elements and Using TestProject's AI Recorder" src="https://blog.testproject.io/wp-content/uploads/2020/12/old11.gif" alt="Shadow DOM Elements and Using TestProject's AI Recorder" width="750" height="500"/></noscript></p>
-<p><span style="font-weight: 400;"><span style="color: #000080;">Let’s record and save the script on your TestProject account &gt;<br /></span><br /><img loading="lazy" class="aligncenter wp-image-16500 size-large" title="Create New TestProject Test" alt="Create New TestProject Test" width="640" height="512" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-512x410.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-768x614.png 768w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" src="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png"/><noscript><img loading="lazy" class="aligncenter wp-image-16500 size-large" title="Create New TestProject Test" src="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png" alt="Create New TestProject Test" width="640" height="512" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/record-1-1024x819.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-512x410.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/record-1-768x614.png 768w" sizes="(max-width: 640px) 100vw, 640px"/></noscript></span></p>
-<p><span style="font-weight: 400; color: #000080;">Let’s observe the recorded elements and rectify the problem &gt;<br /></span>Navigate to your account and open the respectively recorded script. Here we can clearly observe, it has no capability to record Shadow DOM elements inside the shadow-root i.e.<span style="color: #000080;"><i> ‘enter-text-area’ </i></span>and<span style="color: #000080;"><i> ‘btn-enter’</i></span><span style="color: #000080;">.</span> Despite recording the Shadow DOM elements, it has recorded the general element<span style="color: #000080;"><i> “ID=todo-app’’</i></span> i.e. just outside the entry point of the shadow-root. Moreover, we can clearly see, it has used CSSSelector for the recording, which does not support Shadow DOM elements.</p>
-<p><span style="font-weight: 400;"><img loading="lazy" class="aligncenter wp-image-16478 size-full" title="TestProject AI-powered Test Recorder" alt="TestProject AI-powered Test Recorder" width="825" height="500" src="https://blog.testproject.io/wp-content/uploads/2020/12/old.gif"/><noscript><img loading="lazy" class="aligncenter wp-image-16478 size-full" title="TestProject AI-powered Test Recorder" src="https://blog.testproject.io/wp-content/uploads/2020/12/old.gif" alt="TestProject AI-powered Test Recorder" width="825" height="500"/></noscript><br /></span><span style="font-weight: 400; color: #000080;">Let’s run the recorded scripts – if it FAILS or not? &gt;<br /></span><span style="font-weight: 400;">Of course, it would fail because – it will try to take action on the Shadow DOM elements that are actually recorded in the wrong way. We can clearly see the failed <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">test report</a> on our TestProject’s account:</span></p>
-<p><img loading="lazy" class="aligncenter wp-image-16427 size-full" title="TestProject Test Report" alt="TestProject Test Report" width="1978" height="938" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png 1978w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-512x243.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-768x364.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-1024x486.png 1024w" data-lazy-sizes="(max-width: 1978px) 100vw, 1978px" src="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png"/></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-16427 size-full" title="TestProject Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png" alt="TestProject Test Report" width="1978" height="938" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/failed.png 1978w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-512x243.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-768x364.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/failed-1024x486.png 1024w" sizes="(max-width: 1978px) 100vw, 1978px"/></noscript><br /><span style="color: #000080;"><i>Are we stuck or do we have an easy workaround to come out of this problem? </i></span>So let’s solve this problem <b><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b></p>
-<p><span style="color: #000080;"><b>What tweaks are required in the recorded TestProject’s script, so that it can identify the Shadow DOM elements?</b></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">If we are good at our technology then we can tweak our stuff very easily – whenever automated recording fails then manual intervention comes into the picture. Let’s edit those recorded elements:</span></p>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Change TYPE from</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘Element Action’</span></i></span><span style="font-weight: 400;"> to</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘Action</span></i><span style="font-weight: 400;">’</span></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Select ACTION as </span><span style="color: #000080;"><i><span style="font-weight: 400;">‘Execute JavaScript’</span></i><span style="font-weight: 400;"> </span></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Add CODE for</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘enter-text-area’</span></i></span><span style="font-weight: 400;"> element i.e. your JS code to find Shadow DOM element</span></li>
-</ul>
-<pre class="EnlighterJSRAW" data-enlighter-language="js">return document.querySelector('#todo-app').shadowRoot.querySelector('#adds-item')
-.shadowRoot.querySelector('#enter-text-area').value="Demo Test"</pre>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Add CODE for</span><span style="color: #000080;"><i><span style="font-weight: 400;"> ‘btn-enter’</span></i></span><span style="font-weight: 400;"> element i.e. your JS code to find Shadow DOM element</span></li>
-</ul>
-<pre class="EnlighterJSRAW" data-enlighter-language="js">return document.querySelector('#todo-app').shadowRoot.querySelector('#adds-item')
-.shadowRoot.querySelector('.btn-enter').click()</pre>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;"><span style="font-weight: 400;"><span style="font-weight: 400;">Save all changes for both elements</span></span></span></li>
-</ul>
-<p><img loading="lazy" class="aligncenter wp-image-16475 size-full" title="JS code to find Shadow DOM element" alt="JS code to find Shadow DOM element" width="825" height="500" src="https://blog.testproject.io/wp-content/uploads/2020/12/abcd.gif"/></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-16475 size-full" title="JS code to find Shadow DOM element" src="https://blog.testproject.io/wp-content/uploads/2020/12/abcd.gif" alt="JS code to find Shadow DOM element" width="825" height="500"/></noscript></p>
-<p><span style="font-weight: 400; color: #000080;">Let’s run the updated scripts – if it PASSES or not? &gt;<br /></span><span style="font-weight: 400;">Of course, it would pass because – this time it will interact and take actions on the Shadow DOM elements. We can clearly see the passes test report on our TestProject’s account:</span></p>
-<p><img loading="lazy" class="aligncenter wp-image-16428 size-full" title="TestProject Test Report" alt="TestProject Test Report" width="2002" height="902" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png 2002w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-512x231.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-768x346.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-1024x461.png 1024w" data-lazy-sizes="(max-width: 2002px) 100vw, 2002px" src="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png"/></p>
-<p><noscript><img loading="lazy" class="aligncenter wp-image-16428 size-full" title="TestProject Test Report" src="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png" alt="TestProject Test Report" width="2002" height="902" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/passed.png 2002w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-512x231.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-768x346.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/passed-1024x461.png 1024w" sizes="(max-width: 2002px) 100vw, 2002px"/></noscript></p>
-<p><span style="font-weight: 400; color: #000080;">As a workaround &gt;<br /></span><span style="color: #008000;"><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span><span style="color: #000000;"><i><span style="font-weight: 400;">We have seen that TestProject’s record/playback feature leverages options to edit the recorded script and moreover giving the option to add our own JavaScript. With the help of JS, we can interact easily with Shadow DOM elements. The best part of TestProject’s record/playback feature is its in-built handling of typecasting the WebDriver with JavascriptExecutor interface.</span></i></span></span></p>
-<p><span style="font-weight: 400;">After my webinar on <a target="_blank" href="https://confengine.com/selenium-conf-2020/proposal/13709/rise-of-shadow-dom-lets-solve-it-through-webdriver" rel="noopener">Selenium International Virtual conference 2020</a> – I came across one exciting query from many of the test engineers so let’s discuss it right here:</span></p>
-<p><b/><span style="color: #000080;"><b>How to interact with Shadow DOM elements, if they reside inside the iFrame?</b></span><b><br /></b><span style="font-weight: 400;">Truthfully, there is no change in the handling of Shadow DOM elements if they reside inside the iFrame or not. But before taking any action on iFrame’s Shadow DOM elements, we have to do context switching to iFrame and after taking our actions we can switch back our context to the main window.</span></p>
-<p><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4cd.png" alt="📍" class="wp-smiley" style="height: 1em; max-height: 1em;" />An application</span><i><span style="font-weight: 400;"> that we have used above for the automation, can be found at – </span></i><a target="_blank" href="https://github.com/VirenderPannu/polymer3-letsplanapp" rel="noopener"><i><span style="font-weight: 400;">GitHub repo</span></i></a><i><span style="font-weight: 400;">. This application is implemented by using Google’s Polymer library with NodeJS. So install those first before recording this application locally. </span></i></p>
-<h2><strong><span style="color: #000080;">Key Takeaways</span></strong></h2>
-<ul>
-<li><span style="font-weight: 400;">Clear thought – What tweaks are required in the recorded TestProject’s script, so that it can identify the Shadow DOM elements?</span></li>
-<li><span style="font-weight: 400;">Familiar with TestProject’s in-built typecasting of WebDriver with JavascriptExecutor</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Understood – How to interact with Shadow DOM elements, if they reside inside the iFrame?</span></li>
-</ul>
-<p><span style="font-weight: 400;">Now we are completely handy with Shadow DOM trees with their elements and their graceful handling with TestProject’s Open SDK as well as Record/Playback feature. Happy testing guys and try to play with Shadow DOM and its elements.</span></p>
-<p><b><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b> <b><i><span style="color: #000080;">I would love to hear your thoughts in the comments below. Let’s start an open discussion on Shadow DOM</span>  </i><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></b></p>
-<p> </p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2020/12/24/shadow-dom-elements-and-using-testproject-ai-recorder-part-3/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Neotys &#8211; Christmas PAC Meet Up &#8211; Special Edition</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/neotys-christmas-pac-meet-up-special-edition/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 24 Dec 2020 01:24:45 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Christmas]]></category>
-		<category><![CDATA[Edition]]></category>
-		<category><![CDATA[Meet]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[PAC]]></category>
-		<category><![CDATA[special]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/neotys-christmas-pac-meet-up-special-edition/</guid>
-
-					<description><![CDATA[🎅What a magical night yesterday for our special Christmas Neotys PAC Meet-Up! If you missed it, you can watch the]]></description>
-										<content:encoded><![CDATA[
-<p><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f385.png" alt="🎅" class="wp-smiley" style="height: 1em; max-height: 1em;" />What a magical night yesterday for our special Christmas Neotys PAC Meet-Up! If you missed it, you can watch the recording video here<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2KzLQXw%3Ffbclid%3DIwAR1EyG71LBMfDcN3a7-ZkatiOqgrY4HOoKRLSgyMIOgVoz-vk64oyiGhHCI&amp;h=AT07SWUl3BeEdWnlbhdKmUI5wFTG0U_t4KY4sBKBG3yxTbvBsFTdwzsW0m_nBo9nJ36EyrYxhvyWtHyGNOGN4zOVOMjdMFhey2-I1rWwppx-A3_7fFgWubMQadEof3si6CSaKCfV-wNAY94HUdxKJOxo8IEVzQXl0qE5fNL-mwwq9tocD9wniMFXT20xUiPPtPp5oUpE8p0wT2sdMRgbAPhCJ-QzSLrkAho5URaqarHm7Q6F5hr9sPkakeapHvxx5TK9dCe2MBLupV99WN4FzBp44ZH3WihCe1dLnXmNsDqLd_CzQc7Psv0J8sC6yMwibJsVMUe5BerA3Gl922Z_xy2k-lK3v_OWdq9A40gtEQs2wmJ-lkLv1lgdJ1LED5BHC7KJR8Ev5oRJ2T_iB9P19lCxXQ13U9eez5xgDsnh1nGbl98ef1OtSP_lIh0v80164ukO7G2lrG0Yy4PD66RQTM4E30e-wnrfu0MZRC5FUl8WZz21rzNfw72mUxO0vnPhDs8VR1yUuNj3U9KRIzRZAoTbFYukyHBUgX7w8bNxE-zgJnDebMhkLGYU8hUrFEBs_aVvxzdYIYNcFv4h45o8sBSAsMZm24qjA09qVGywg2sah2gUWQ" rel="noopener">https://bit.ly/2KzLQXw</a> <br /> You can also listen to the entire meet-up audio broadcast on PerfBytes here<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3p5tRHa%3Ffbclid%3DIwAR0mAwA3C_qVMG0HxkA_hTFVEGfcdDWsBOc8jRwmk3SNlpOMwsLkprnjYQQ&amp;h=AT1LRcIvvTAxCENIMzv8eij3Jw7LVk8HJLBM2Ksy2IY_KhoXyr67-8xptg-hS3ln-hvlJm9ViCTFlbSvtpL3MTzEe4GZ74saeM2Q75O5E76G5ZR1O7Dw86C7UH2Ja-aswUsnrIYuzJmok5AvlFxofiEC0c27pYQLTr8hYnn_-rKo_ZFy26sZpMzbxY6imrMqGuvswYCirQoX6v8y-zrPNhrgNmUXcsnecQH3BfILmK7xNorFAGpgnnf6ZWu2F61-UyF6mCuiKbFfgQLJ4VOm4tMqYU0XPopqZVAbCiwF5LWWJn2lYK6FAjfpmMgP3wjPyjGJ9bg_Bj6t-IBzeB_TZ7OfVAbYMh0_NaoKcMk52yLjZMXLknqLTD9TQ6ESpV8K7OroWGzFSopv735tDpviA9vZlfKyN8-lgfKnITrNnr8m7viSdYfNjeh_qh1Uxoaj5tNVNSeNrT0KFe8UljJ-Hqw5zQU0eLvcECMX_uZzB5kHMUiO1u1kXt8WjRPYMmaD1gVjDO0r5NzdHiLTwayPA06TsiRNtmvNu7wJEfALFwmfduztGv4lGRoVIdnE3RlVhV5jmPCi5btOY0WAkh9gqB5irwxqd6uouFpeyhbySGrdMLQ_iQ" rel="noopener">https://bit.ly/3p5tRHa</a><br /> Merry Christmas<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f381.png" alt="🎁" class="wp-smiley" style="height: 1em; max-height: 1em;" />
-</p>
-<p><a target="_blank" href="https://bit.ly/2KzLQXw?fbclid=IwAR1EyG71LBMfDcN3a7-ZkatiOqgrY4HOoKRLSgyMIOgVoz-vk64oyiGhHCI" rel="noopener"></a> </p>
-<p><a target="_blank" href="https://bit.ly/2KzLQXw?fbclid=IwAR1EyG71LBMfDcN3a7-ZkatiOqgrY4HOoKRLSgyMIOgVoz-vk64oyiGhHCI" rel="noopener">Neotys &#8211; Christmas PAC Meet Up &#8211; Special Edition</a></p>
-<p><br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3953167798027987">Source</a>  </p>
 ]]></content:encoded>
 					
 		
