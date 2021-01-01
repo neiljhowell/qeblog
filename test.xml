@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 30 Dec 2020 21:42:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 31 Dec 2020 19:13:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,152 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>4 Ways to Help Your Family Combat Cyber Threats in the New Year</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 19:13:32 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Combat]]></category>
+		<category><![CDATA[Cyber]]></category>
+		<category><![CDATA[Family]]></category>
+		<category><![CDATA[threats]]></category>
+		<category><![CDATA[ways]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/</guid>
+
+					<description><![CDATA[No doubt, we have a lot to be hopeful for as we step into the New Year. We’ve adapted, survived,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>No doubt, we have a lot to be hopeful for as we step into the New Year. We’ve adapted, survived, and learned to thrive under extraordinary circumstances. While faced with plenty of challenges, families successfully transitioned to working and learning from home like pros. So, as we set our intentions for 2021, we will need that same resolve to tackle growing cyber threats.</p>
+<p><strong>The good news:</strong> With a COVID-19 vaccine making its debut, we’re trusting there’s an end in sight to the pandemic of 2020, which may help curb a lot of our emotional as well as digital stressors.</p>
+<p><strong>The not-so-good-news:</strong> According to McAfee’s latest <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-labs-report-reveals-continuing-surge-of-covid-19-threats-and-malware/?hilite=%27November%27%2C%27threats%27%2C%272020%27" rel="noopener noreferrer">Quarterly Threat Report</a>, pandemic-themed threats that began in 2020 will continue, specifically, phishing and malware scams targeting people working from home. According to the recent report, bad actors are especially taking advantage of the mass remote workforces.</p>
+<p>According to Raj Samani, McAfee Fellow and Chief Scientist, “What began as a trickle of phishing campaigns and the occasional malicious app quickly turned into a deluge of malicious URLs, attacks on cloud users and capable threat actors leveraging the world’s thirst for more information on COVID-19 as an entry mechanism into systems across the globe.”</p>
+<p>This report points inspires a few best practices for families as we launch a new year: Stay informed and keep talking about the threats and — as grandma might advise — dress in layers to protect against the elements (in this case, digital threats).</p>
+<p><strong>Safe Family Tips</strong></p>
+<ol>
+<li><strong>Information is power.</strong>The best defense against online threats is a good offense, which is the digital space means staying informed. The more you know about how hackers exploit consumers, the more you can dodge shady phishing scams such as emails trying to sell you the COVID-19 vaccine online or a voucher allowing you to skip the vaccination line.</li>
+<li><strong>Verify email sources.</strong>Be skeptical of emails or text messages claiming to be from people you know or organizations with requests or offers that seem too good to be true. Before you click, go straight to the organization’s website or contact customer service. Verifying sources will help you steer clear of downloading malicious content from phishing links. Remind family members to keep their guards up and never to share personal information.</li>
+<li><strong>Hover over links, scrutinize URLs.</strong>If someone sends you a message with a link, hover over the link without clicking on it. This will allow you to see a link preview. If the URL looks suspicious, delete the message. A few red flags: Fake links generally imitate established websites but may include unnecessary words and domains in the address. When in doubt about a link’s validity — don’t click.</li>
+<li><strong>Think in layers.</strong>When it comes to cybersecurity for the new year, try thinking (or dressing) your devices in layers. A few ways to layer up:</li>
+</ol>
+<p style="padding-left: 80px;">• Use 2FA passwords. Regularly changing passwords and adding two-factor authentication (2FA) is proving to be the most effective way to thwart hackers. If you work from home, 2FA is a more secure way to access work applications. This password/username combo requires you to verify who you are with a personal device only you own puts an extra barrier between your data and a creative hacker.</p>
+<p style="padding-left: 80px;">• Use a VPN. If you travel or choose to work in a coffee shop, a <a target="_blank" href="https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html" rel="noopener">Virtual Private Network (VPN)</a> will give your family an encrypted channel that shields your online activity from hackers.</p>
+<p style="padding-left: 80px;">• Security software. If you’ve been cobbling your security plan together, consider one <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener">comprehensive security solution</a> to help protect you from malware, phishing attacks, and viruses. Leading products such as McAfee Total protection will include safe browsing and a VPN.</p>
+<p>The past year, while difficult, also gave us several gifts to carry into 2021. For families, it connected us with our resilience and creativity. It made us wiser, braver, and more ready for the challenges ahead, be they online or within the ebb and flow of everyday life. That’s something we can all celebrate.</p>
+<p> </p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Best of TechBeacon 2020: Security</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-security/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[TechBeacon]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-security/</guid>
+
+					<description><![CDATA[The sudden shift to a largely distributed workforce because of the COVID-19 pandemic complicated already Byzantine security challenges at many]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>The sudden shift to a largely distributed workforce because of the COVID-19 pandemic complicated already Byzantine security challenges at many organizations this year.</p>
+<p>Security teams were forced to find ways to <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/state-zero-trust-cybersecurity?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">protect their enterprise from an army of work-from-home users</a> even as they had to confront other challenges from ongoing digital transformation initiatives and cloud adoption.</p>
+<p><i>TechBeacon</i>&#8216;s top 12 security stories from 2020 provide a broad overview of the trends, challenges, and changes that organizations had to deal with on all of the major fronts: <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/6-best-practices-for?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">application security</a>, <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/state-secops-202021-takeaways?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">information security</a>, <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-security-data-privacy-trends?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">data security</a>, and <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/state-zero-trust-cybersecurity?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">identity and access management</a>.</p>
+<h3>Application security</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/more-authorities-more-cves-what-it-means-app-sec-teams" rel="noopener">More authorities, more CVEs: What it means for app sec teams</a></h4>
+<p>A <i>TechBeacon</i> analysis of the widely used National Vulnerability Database (NVD) showed that organizations have more to be worried about than just the rising number of vulnerabilities. With the threat landscape changing rapidly, organizations also need to be cognizant of the different types of vulnerabilities being disclosed, their organization&#8217;s exposure to those threats, and risks from vulnerable open-source components in their software.</p>
+<p>Freelance writer <a target="_blank" href="https://twitter.com/roblemos?lang=en" rel="nofollow noopener">Rob Lemos</a> explains why companies need to adjust their development, patching, and app sec practices to address the increasing number of vulnerabilities being identified, and offers other key takeaways.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/3-new-rules-cloud-native-application-security" rel="noopener">3 new rules of cloud-native application security</a></h4>
+<p>The rapid adoption of SaaS applications has created a variety of new security problems for enterprises. Mobile workforces opened up new holes in the network perimeter a decade ago, and SaaS applications are doing the same now and forcing organizations to rethink traditional approaches to application security. <a target="_blank" href="https://twitter.com/dd_davidoff?lang=en" rel="nofollow noopener">Dror Davidoff</a>, co-founder and CEO of container and cloud-security provider Aqua Security, says addressing the security issues around how organizations configure and use cloud-native applications requires new thinking.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/critical-api-security-risks-10-best-practices" rel="noopener">Critical API security risks: 10 best practices</a></h4>
+<p>Application programming interfaces (APIs) that connect services and transfer data have become critical for microservices architectures, but are becoming increasingly harder to secure because of their growing numbers. Common API security risks include excessive data exposure, misconfiguration, insufficient monitoring, and logging and broken authorization mechanisms at the object, user, and function levels. <a target="_blank" href="https://twitter.com/lucycloudbling?lang=en" rel="nofollow noopener">Lucy Kerner</a>, security evangelist and strategist at Red Hat, draws on her expertise as a cloud security architect to compile this handy list of 10 best practices for managing API risks.</p>
+<h3>Information security</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/state-secops-202021-its-time-think-beyond-soc" rel="noopener">The State of SecOps: It&#8217;s time to think beyond the SOC</a></h4>
+<p>The global pandemic has pushed many companies to accelerate their digital transformation initiatives—not just for business continuity purposes, but also as a way to take advantage of new market opportunities, deliver new customer channels, and leapfrog the competition. The changes have broadened the operational attack surface and increased exposure to automated, AI-based exploits at many organizations. <a target="_blank" href="https://www.linkedin.com/in/mbfernandes/" rel="nofollow noopener">Mark Fernandes</a>, CTO of security at <em>TechBeacon</em> corporate parent Micro Focus, explains why digital transformation requires organizations to think beyond the traditional SOC to concepts such as an integrated threat operations center (ITOC).</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/8-lessons-garmin-ransomware-attack" rel="noopener">8 lessons from the Garmin ransomware attack</a></h4>
+<p>Some breaches are either so big in scope or so significant that they serve as lessons to others of what <i>not </i>to do when it comes to information security. One example is a ransomware attack at GPS smartwatch maker Garmin in July 2020 that forced the company to shut down its main customers for five days while it attempted to recover locked systems. In the end, Garmin paid a multimillion-dollar ransom to get the decryption key to restore encrypted data. Freelance writer <a target="_blank" href="https://twitter.com/jpmello" rel="nofollow noopener">John P. Mello, Jr.</a> spoke with multiple industry experts to compile this list of eight major takeaways from the Garmin attack.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/5-ways-make-your-serverless-functions-more-secure" rel="noopener">5 ways to make your serverless functions more secure</a></h4>
+<p>Serverless applications allow developers to create custom functions and speed up app deployment without having to worry about issues such as the underlying infrastructure and delays while the operations team spins up virtual machines or containers. A survey that RightScale conducted found that more than one-third of the respondent organizations already had deployed serverless apps for these reasons. In this report, <a target="_blank" href="https://twitter.com/emjohn20" rel="nofollow noopener">Eric Johnson</a>, a senior instructor at the SANS Institute, explains why, in their enthusiasm to use the technology, development teams should not overlook security.</p>
+<h3>Data security</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/how-meet-privacy-requirements-your-pii" rel="noopener">How to meet privacy requirements with your PII</a></h4>
+<p>Regulations such as the <a target="_blank" href="https://techbeacon.com/security/gdpr-execution-will-be-major-task-year-reap-benefits" rel="noopener">European Union&#8217;s GDPR</a>, <a target="_blank" href="https://techbeacon.com/security/what-your-data-security-team-needs-know-about-ccpa" rel="noopener">California&#8217;s CCPA</a>, and Turkey&#8217;s KVKK have put enormous pressure on organizations to better protect personally identifying information (PII) belonging to customers, employees, and others. The regulations mandate not just better data security but also processes that allow data subjects to ask for and expeditiously receive copies of their PII. Meeting these requirements can be challenging and highlights the need for new processes where PII files can be quickly identified, indexed, and retrieved, says <a target="_blank" href="https://www.linkedin.com/in/david-humphrey-0919293/" rel="nofollow noopener">Dave Humphrey</a>, CTO at Micro Focus. In this report he offers advice on how privacy and security leaders can best meet PII privacy requirements.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/cobol-gdpr-why-format-preserving-data-protection-key" rel="noopener">COBOL and GDPR: Why format-preserving data protection is key</a></h4>
+<p>COBOL continues to be one of the most widely used programming languages, especially among large organizations, though it has been around for six decades. The main reason for its longevity is the sheer value of the business logic encapsulated in COBOL code over all these years. Nobody wants to rewrite the code, because it is working fine, says <a target="_blank" href="https://www.linkedin.com/in/phsiii/" rel="nofollow noopener">Phil Smith III</a>, senior product manager and architect for mainframe and enterprise at Micro Focus. Smith, who has deep experience with z/OS, z/VM, and Linux on IBM mainframes, explains why format-preserving data protection is the best way to guard data in COBOL environments in a compliance-friendly manner.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/what-you-need-know-about-bring-your-own-key-cloud" rel="noopener">What you need to know about &#8216;bring your own key&#8217; in the cloud</a></h4>
+<p>Many organizations have adopted a cloud-first or cloud-only strategy because of the scale, agility, and consumption-based pricing benefits available in the cloud. However, few have done so with any formal strategy for data security. Often, organizations have hybrid, multi-cloud environments where they are forced to deal with different security models that they know little about. <a target="_blank" href="https://www.linkedin.com/in/sid-dutta/" rel="nofollow noopener">Sid Dutta</a>, data security evangelist at Micro Focus, takes a look at some of the data-centric security capabilities available from the biggest cloud providers.</p>
+<h3>Identity and access management</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/zero-trust-remote-workforces-identity-access-management-key" rel="noopener">Zero trust and remote work: Identity and access management is key</a></h4>
+<p>The large-scale shift to remote work as the result of the COVID-19 pandemic exposed organizations to a slew of new cyber security risks this year. Security teams suddenly were forced to find ways to secure the enterprise network against remote workers logging in from insecure home networks, often with poorly protected personally owned devices. This report, from freelance writer <a target="_blank" href="https://twitter.com/roblemos?lang=en" rel="nofollow noopener">Rob Lemos</a>, on the importance of a zero-trust security model in this environment, is based on perspective from industry analysts and security specialists.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/why-your-approach-security-architecture-needs-change" rel="noopener">Why your approach to security architecture needs to change</a></h4>
+<p>Many security groups might think they are doing all the right things to protect sensitive enterprise data against improper access and abuse. The reality is quite different, says <a target="_blank" href="https://www.linkedin.com/in/nick-nikols-754383/" rel="nofollow noopener">Nick Nikols</a>, vice president of strategy at Micro Focus. Nikols, whose areas of specialization include identity and access management (IAM), says that while many companies may have invested heavily in comprehensive IAM, the architecture at their organizations is not equipped to deal with how data travels in the cloud. He explains why security leaders should consider revamping their security architectures for the cloud.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/how-iam-powers-cyber-resilience-5-best-practices" rel="noopener">How IAM powers cyber resilience: 5 best practices</a></h4>
+<p>Even the best security controls can be undermined by a lack of secure identity and access management practices. IAM is the foundation of cyber resilience. To be good at it, organizations need to have comprehensive control and an unimpeded, real-time view of identities across the enterprise, says <a target="_blank" href="https://twitter.com/MacDonaldRob" rel="nofollow noopener">Rob MacDonald</a>, security evangelist at Micro Focus. Here he offers five best practices for strengthening cyber resilience with strong IAM practices.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/best-techbeacon-2020-security">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What’s Next for Ransomware in 2021?</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/whats-next-for-ransomware-in-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 14:00:22 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Whats]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/whats-next-for-ransomware-in-2021/</guid>
+
+					<description><![CDATA[Ransomware response demands a whole-of-business plan before the next attack, according to our roundtable of experts. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Ransomware response demands a whole-of-business plan before the next attack, according to our roundtable of experts.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/ransomware-getting-ahead-inevitable-attack/162655/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>FBI Warn Hackers are Using Hijacked Home Security Devices for ‘Swatting’</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/fbi-warn-hackers-are-using-hijacked-home-security-devices-for-swatting/</link>
 		
@@ -306,118 +452,6 @@ fbq('track', "PageView");</p>
 <br />Black man sues police, saying he was falsely ID’d by facial recognition, joining other Black Americans falling victim to the technology’s racial bias.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/162663/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>6 Questions Attackers Ask Before Choosing an Asset to Exploit</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/6-questions-attackers-ask-before-choosing-an-asset-to-exploit/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 29 Dec 2020 16:30:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Asset]]></category>
-		<category><![CDATA[Attackers]]></category>
-		<category><![CDATA[Choosing]]></category>
-		<category><![CDATA[Exploit]]></category>
-		<category><![CDATA[Questions]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/6-questions-attackers-ask-before-choosing-an-asset-to-exploit/</guid>
-
-					<description><![CDATA[David “moose” Wolpoff at Randori explains how hackers pick their targets, and how understanding &#8220;hacker logic&#8221; can help prioritize defenses.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />David “moose” Wolpoff at Randori explains how hackers pick their targets, and how understanding &#8220;hacker logic&#8221; can help prioritize defenses.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/6-questions-attackers-ask-exploit/162651/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Best of TechBeacon 2020: App dev and testing</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-app-dev-and-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 29 Dec 2020 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[Dev]]></category>
-		<category><![CDATA[TechBeacon]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-app-dev-and-testing/</guid>
-
-					<description><![CDATA[Application development and testing practices are in a state of flux, as a growing number of organizations embrace agile, DevOps,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p><span><span>Application development and testing practices are in a state of flux, as a growing number of organizations embrace agile, DevOps, and other modern methodologies.</span></span></p>
-<p><em>TechBeacon</em>&#8216;s top app dev and testing stories for 2020 cover some of the most prevalent trends in the space. These 12 stories offer experts&#8217; guidance about some of the best automation and testing tools currently available, best practices to adopt, and what development teams can learn from companies that are killing it with agile.</p>
-<h3>Testing</h3>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know" rel="noopener">11 top open-source API testing tools: What your team needs to know</a></h4>
-<p>APIs have become the basis of modern application development, especially for organizations making the shift away from older, monolithic applications to microservices architectures. For such entities, API security has become a key consideration, says <a target="_blank" href="https://twitter.com/joecolantonio" rel="nofollow noopener">Joe Colantonio</a>, founder of TestGuild. In this report, Colantonio describes why organizations need to pay attention to API security and lists 11 of the top open-source tools for testing application programming interfaces.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/web-performance-testing-18-free-open-source-tools-consider" rel="noopener">Web performance testing: 18 free open-source tools to consider</a></h4>
-<p><span><span>Bad things can happen when organizations fail to conduct—or improperly conduct—performance tests on critical web applications. Stock-trading firm Robinhood learned that lesson the hard way when the company&#8217;s app crashed under heavy load during one of the stock market&#8217;s most significant swings. <a target="_blank" href="https://twitter.com/joecolantonio" rel="nofollow noopener">Joe Colantonio</a>, founder of TestGuild, provides an overview of key performance metrics for web applications and explains the importance of web performance testing. He lists 18 open-source tools that organizations can use in place of—or to complement—commercial testing tools.</span></span></p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/ai-testing-13-essential-resources-qa-pros" rel="noopener">AI in testing: 13 essential resources for QA pros</a></h4>
-<p>AI promises to change software-testing processes drastically in the future. But the industry is not quite there yet, says <a target="_blank" href="https://www.linkedin.com/in/dpaulmerrill/" rel="nofollow noopener">Paul Merrill</a>, CEO and test automation consultant at software delivery consultancy Beaufort Fairmont. In this report, he explains why AI can still assist in testing efforts so long as the right tools are chosen. Merrill provides a quick overview of AI and its role in testing and lists 13 resources that he says every QA pro needs to share with the decision makers in their organizations.</p>
-<h3>Automation</h3>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/10-portfolio-projects-aspiring-automation-engineers" rel="noopener">10 portfolio projects for aspiring automation engineers</a></h4>
-<p>Lack of demonstrable experience can be a big problem for people trying to get into the test automation field. Many hone their skills through self-study and practice but then have a hard time demonstrating their newly acquired skills to employers. <a target="_blank" href="https://twitter.com/techgirl1908" rel="nofollow noopener">Angie Jones</a>, senior developer advocate at testing-tool provider Applitools, explains why automation engineers should consider creating portfolios to highlight their skills just as developers do. In this report she lists 10 projects that will make an automation engineer&#8217;s portfolio stand out among the competition.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/test-automation-qa-career-guide-top-roles-skills" rel="noopener">Test automation and QA career guide: Top roles and skills</a></h4>
-<p>Maturing DevOps practices are driving enormous change in the test automation and quality assurance (QA) field. QA engineers need to remain on top of these changes to stay on a solid career track, says freelance writer <a target="_blank" href="https://twitter.com/erickachick" rel="nofollow noopener">Ericka Chickowski</a>. She spoke with hiring managers, recruiters, and practitioners in QA and test automation to compile this list of the three hottest skills and five most essential roles in the field.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/test-automation-tools-top-trends-challenges-2020" rel="noopener">Automation test automation tools: Top trends and challenges for 2020</a></h4>
-<p>As with most things IT-related, the market for test automation tools has kept evolving and changing steadily over the years. A growing number of tools have begun incorporating AI and robotic process automation capabilities. The market has begun showing signs of fragmentation and big platform vendors are expanding their footprint in the space. Freelance writer <a target="_blank" href="https://www.linkedin.com/in/linda-rosencrance-a8508876/" rel="nofollow noopener">Linda Rosencrance</a> sums up the state of the test automation tool market and lists the top trends to watch out for in the space.</p>
-<h3>Agile</h3>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/confused-about-safe-epics-follow-real-world-example" rel="noopener">Confused about SAFe epics? Follow this real-world example</a></h4>
-<p>Epics—or containers for significant services, systems, or products—can be confusing for organizations moving to a Scaled Agile Framework (SAFe) and the SAFe Portfolio Kanban. In this comprehensive report, <a target="_blank" href="https://www.linkedin.com/in/anthonyrc/" rel="nofollow noopener">Anthony Crain</a>, delivery manager for agile transformation at agile-services provider Cprime, uses a real-world example to explain SAFe epics in a way that brings greater clarity to the topic.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/8-ways-know-when-youve-done-agile-well" rel="noopener">8 ways to know when you&#8217;ve done agile well</a></h4>
-<p>Numerous measures are available to help agile teams know if they are succeeding or not. Ironically, the most important among them are the ones that most teams don&#8217;t hear about much because they are indicators of success more than they are direct metrics. <a target="_blank" href="https://twitter.com/bobgalen" rel="nofollow noopener">Bob Galen</a>, agile practitioner, coach, trainer, and author at his consultancy in Cary, North Carolina, lists eight of the top measures that IT leaders should use to tell if their agile transformation efforts are really working or not.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/10-companies-killing-it-scaling-agile" rel="noopener">10 companies killing it at scaling agile</a></h4>
-<p>The rigid structure within development organizations can often be at odds with agile and its requirements for experimentation, flexibility, and the ability to pivot quickly as things change. Scaling agile to meet the requirements of large organizations can be even trickier and challenging. However, this doesn&#8217;t mean companies aren&#8217;t succeeding at it. Freelance writer <a target="_blank" href="https://twitter.com/intent/user?screen_name=christophernull" rel="nofollow noopener">Christopher Null</a> identifies 10 organizations that are setting an example for others through their work with agile.</p>
-<h3>Dev</h3>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/five-best-web-application-frameworks-how-choose" rel="noopener">The 5 best web application frameworks: How to choose</a></h4>
-<p><a target="_blank" href="https://twitter.com/matthewadavid" rel="nofollow noopener">Matthew David</a>, digital leader at Accenture, takes the guesswork out of selecting web application frameworks in this handy list of the top five. David, whose previous experience includes a stint as global leader at the Kimberly-Clark Mobile Center of Excellence, explains what exactly organizations should be looking for when evaluating a web application framework. David&#8217;s compilation of the five frameworks listed in this report is based on his own experience, and he lists the pros and the cons of each of them.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/better-behavior-driven-development-4-rules-writing-good-gherkin" rel="noopener">Better behavior-driven development: 4 rules for writing good Gherkin</a></h4>
-<p>Behavior-driven development (BDD) practices can help create better software because they emphasize the use of plain-language examples to specify a product&#8217;s behaviors. Few languages exemplify the BDD movement better than Gherkin, says <a target="_blank" href="https://www.linkedin.com/in/andrew-leland-knight/" rel="nofollow noopener">Andy Knight</a>, lead software engineer in test at commercial-banking software provider PrecisionLender. He&#8217;s also the designer of multiple robust test automation systems for operating systems, services, APIs, and web apps. Here he explains why Gherkin is trickier to handle than most might initially assume and walks readers through four rules for writing good Gherkin.</p>
-<h4><a target="_blank" href="https://techbeacon.com/app-dev-testing/why-enterprises-are-adapting-their-cobol-apps-vs-ditching-them" rel="noopener">Why enterprises are adapting their COBOL apps vs. ditching them</a></h4>
-<p>Enterprise use of COBOL apps received some scrutiny this year after some US states that are using the venerable programming language ran into problems distributing unemployment checks in the middle of the global pandemic. But as freelance writer <a target="_blank" href="https://www.linkedin.com/in/johannaambrosio/" rel="nofollow noopener">Johanna Ambrosio</a> discovered in reporting this story, many organizations using COBOL apps have no plans to ditch them any time soon. Here she explains why enterprises are adapting COBOL apps to meet modern business requirements instead of replacing them altogether.</p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/best-techbeacon-2020-app-dev-testing">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Japanese Aerospace Firm Kawasaki Warns of Data Breach</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/japanese-aerospace-firm-kawasaki-warns-of-data-breach/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 29 Dec 2020 15:11:13 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Aerospace]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Firm]]></category>
-		<category><![CDATA[Japanese]]></category>
-		<category><![CDATA[Kawasaki]]></category>
-		<category><![CDATA[Warns]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/japanese-aerospace-firm-kawasaki-warns-of-data-breach/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/japanese-aerospace-firm-kawasaki-warns-of-data-breach/162642/">Source link </a></p>
 ]]></content:encoded>
 					
 		
