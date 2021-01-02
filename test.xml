@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 31 Dec 2020 19:13:32 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 01 Jan 2021 11:00:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,29 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Inbox Attacks: The Miserable Year (2020) That Was</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/inbox-attacks-the-miserable-year-2020-that-was/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2021 11:00:04 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Inbox]]></category>
+		<category><![CDATA[Miserable]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/inbox-attacks-the-miserable-year-2020-that-was/</guid>
+
+					<description><![CDATA[Reflecting on 2020&#8217;s record-breaking year of spam and inbox threats. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Reflecting on 2020&#8217;s record-breaking year of spam and inbox threats.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/miserable-spam-year-2020/162566/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>4 Ways to Help Your Family Combat Cyber Threats in the New Year</title>
 		<link>http://wp.qe-blog.10.50.222.172.xip.io/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/</link>
 		
@@ -424,34 +447,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/enterprise/bring-on-2021/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Lawsuit Claims Flawed Facial Recognition Led to Man’s Wrongful Arrest</title>
-		<link>http://wp.qe-blog.10.50.222.172.xip.io/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 29 Dec 2020 21:27:23 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Arrest]]></category>
-		<category><![CDATA[Claims]]></category>
-		<category><![CDATA[Facial]]></category>
-		<category><![CDATA[Flawed]]></category>
-		<category><![CDATA[Lawsuit]]></category>
-		<category><![CDATA[led]]></category>
-		<category><![CDATA[Mans]]></category>
-		<category><![CDATA[Recognition]]></category>
-		<category><![CDATA[Wrongful]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/</guid>
-
-					<description><![CDATA[Black man sues police, saying he was falsely ID’d by facial recognition, joining other Black Americans falling victim to the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Black man sues police, saying he was falsely ID’d by facial recognition, joining other Black Americans falling victim to the technology’s racial bias.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/lawsuit-claims-flawed-facial-recognition-led-to-mans-wrongful-arrest/162663/">Source link </a></p>
 ]]></content:encoded>
 					
 		
