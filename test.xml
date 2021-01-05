@@ -1,1 +1,439 @@
-default backend - 404
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>QE Blog</title>
+	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
+	<description>Where we share news, resources, and latest trends in testing</description>
+	<lastBuildDate>Mon, 04 Jan 2021 21:45:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+
+<image>
+	<url>http://wp.qe-blog.10.50.222.159.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
+	<title>QE Blog</title>
+	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Researcher Breaks reCAPTCHA With Google’s Speech-to-Text API</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/researcher-breaks-recaptcha-with-googles-speech-to-text-api/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2021 21:45:55 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Breaks]]></category>
+		<category><![CDATA[Googles]]></category>
+		<category><![CDATA[reCAPTCHA]]></category>
+		<category><![CDATA[researcher]]></category>
+		<category><![CDATA[SpeechtoText]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/researcher-breaks-recaptcha-with-googles-speech-to-text-api/</guid>
+
+					<description><![CDATA[Researcher uses an old unCAPTCHA trick against latest the audio version of reCAPTCHA, with a 97 percent success rate. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researcher uses an old unCAPTCHA trick against latest the audio version of reCAPTCHA, with a 97 percent success rate.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/researcher-breaks-recaptcha-speech-to-text-api/162734/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Leading Game Publishers Hit Hard by Leaked-Credential Epidemic</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/leading-game-publishers-hit-hard-by-leaked-credential-epidemic/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2021 20:14:52 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Epidemic]]></category>
+		<category><![CDATA[Game]]></category>
+		<category><![CDATA[Hard]]></category>
+		<category><![CDATA[Hit]]></category>
+		<category><![CDATA[Leading]]></category>
+		<category><![CDATA[LeakedCredential]]></category>
+		<category><![CDATA[Publishers]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/leading-game-publishers-hit-hard-by-leaked-credential-epidemic/</guid>
+
+					<description><![CDATA[Over 500,000 leaked credentials tied to the top two dozen leading gaming companies are for sale online. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Over 500,000 leaked credentials tied to the top two dozen leading gaming companies are for sale online.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/game-publishers-hit-by-leaked-credentials/162725/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Did your #performancetesting solution let you down over the holiday shopping wee&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/did-your-performancetesting-solution-let-you-down-over-the-holiday-shopping-wee/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2021 18:58:42 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Holiday]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Shopping]]></category>
+		<category><![CDATA[Solution]]></category>
+		<category><![CDATA[wee]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/did-your-performancetesting-solution-let-you-down-over-the-holiday-shopping-wee/</guid>
+
+					<description><![CDATA[Did your #performancetesting solution let you down over the holiday shopping week? Well, you&#8217;re not alone. That’s why major online]]></description>
+										<content:encoded><![CDATA[
+<p>Did your <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3995728897105210%3Atop_level_post_id.3995728897105210%3Atl_objid.3995728897105210%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3995728897105210%3Apage_id.163354693676002%3Aphoto_id.3995728747105225%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8enSqp6mOHsZ8b%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A5795958478808865779&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> solution let you down over the holiday shopping week? Well, you&#8217;re not alone. That’s why major online retailers are increasingly looking at <a target="_blank" class="fm fn" href="https://facebook.com/hashtag/neoload?refid=17&amp;_ft_=mf_story_key.3995728897105210%3Atop_level_post_id.3995728897105210%3Atl_objid.3995728897105210%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3995728897105210%3Apage_id.163354693676002%3Aphoto_id.3995728747105225%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8enSqp6mOHsZ8b%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A5795958478808865779&amp;__tn__=%2As-R" rel="noopener">#NeoLoad</a>. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2M731Ax%3Ffbclid%3DIwAR2stAs-JOKhloWd0_uF0h_gC29-LXPnDLXD13m3qIcmJVeerObxb6W5oTU&amp;h=AT3Colfx19nPjey1inQVWubjy7XMdtsgqILNGk4hRB2ZR4n00fOoafDGifarwGFKj8LkNDqSvL86DzI0gvYy18kQMzdl1xkU6urswoGXL7fanlAOdE5_Vvd4xdJhW-lo8JdcNdsvw1O4vojgApzHdWohAY0WzAGeoBRriBgEUnjpgEJ2zgwcKyBPjFX30K7GM1eFDmPgMJqvLImXxfRnqripFlzluCKadpdi5s-jFnTJ497Q3uKHCiytizAfBSOEjhBqhHccGkk3CTEsLGgwy4Y7e7aJNKGifFfoSI7qLsu45uhvfgf17YTiRIJzpZ9ibhKFjHO4Eow53GvHP5d964jvTv8JJcXmB02F0QGUBToWCPXiO6PG7z3-384PVAuSGKQeRk_4OYhMPly8apizrNmANkmAufxmB5EyrfNjYtbi4wLTaM_qkIW_3U5sKmROtvoF0mVLINPcF3ZiDHjrefsJfM4N7hLr8w3aJv3HSrkY71oMuavZunlNTABBzRPJTnX5nZmFWAkkbOYl_aOgucLS9LPpczqF669mFyjGwRyxZyR6wW4lBd4XwqQB_Q4H2R8sWr8-2gq2L4OJmE3wA2uTM0Iwmyb9q8cQZJmlwBja-koAvFVjBw6JNVo-DuN9LgohEHOHkmiHNU4Vgpp9" rel="noopener">https://bit.ly/2M731Ax</a>
+</p>
+<p> <br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/3995728897105210">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>T-Mobile Faces Yet Another Data Breach</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/t-mobile-faces-yet-another-data-breach/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2021 17:09:53 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Faces]]></category>
+		<category><![CDATA[TMobile]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/t-mobile-faces-yet-another-data-breach/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/t-mobile-another-data-breach/162703/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Build in app sec like a pro: 5 key takeaways from BSIMM 11</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/build-in-app-sec-like-a-pro-5-key-takeaways-from-bsimm-11/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[BSIMM]]></category>
+		<category><![CDATA[build]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[pro]]></category>
+		<category><![CDATA[sec]]></category>
+		<category><![CDATA[takeaways]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=5514</guid>
+
+					<description><![CDATA[Whether you&#8217;re just starting to get your software security initiatives in place or you want to compare your organization to its peers, the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Whether you&#8217;re just starting to get your software security initiatives in place or you want to compare your organization to its peers, the latest BSIMM tool can offer up some instructive takeaways.</p>
+<p>This year&#8217;s edition of the Building Security In Maturity Model—<a target="_blank" href="https://www.bsimm.com/content/dam/bsimm/reports/bsimm11.pdf" rel="nofollow noopener">BSIMM 11 (PDF)</a>—analyzed security practices at 130 firms in multiple industry verticals, including financial services, independent software vendors, cloud, healthcare, fintech, Internet of Things, insurance, and retail. It describes the work of 8,457 software security professionals, who in turn guide the efforts of over 490,000 developers.</p>
+<p>BSIMM 11 made evident how organizations are actively working to speed up software security activity to match the pace of software delivery.</p>
+<p>In the conventional model of on-premises development, <a target="_blank" href="https://techbeacon.com/devops/how-bridge-security-development-divide" rel="noopener">coding and testing are separate</a>. The code is written by developers and tested by the security team.</p>
+<p>That model no longer holds up. &#8220;In a DevOps, continuous-build environment, there&#8217;s no way to apply those controls in that way,&#8221; said <a target="_blank" href="https://twitter.com/jmrouth1" rel="nofollow noopener">Jim Routh</a>, CISO at the life insurance company MassMutual.</p>
+<p>The right way is for cybersecurity professionals to design instrumentation to <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-i-created-culture-quality" rel="noopener">enable the developers to measure quality</a>. Then, accountability is where it&#8217;s needed. The development leader becomes accountable for the quality of what&#8217;s being built, Routh said.</p>
+<p>The trend of <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-applica?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">developers being in the driver&#8217;s seat for application security</a> is reflected in these five key takeaways from the BSIMM 11 project.</p>
+<h2>1. Let engineering lead software security efforts</h2>
+<p>Matt Trevors, a technical manager at the Software Engineering Institute of Carnegie Mellon University (CMU) in Pittsburgh, explained that engineering-led development teams contribute to <a target="_blank" href="https://techbeacon.com/devops/how-defrag-your-devops-value-stream" rel="noopener">DevOps value streams</a> in pursuit of resiliency.</p>
+<p>This approach also works for <a target="_blank" href="https://techbeacon.com/devops/josh-corman-security-devops-how-shared-team-values-can-reduce-threats" rel="noopener">developing shared responsibility</a> for the security of a project. &#8220;It&#8217;s not just the person with the security title on the team being held accountable for security,&#8221; Trevors said.</p>
+<blockquote>
+<p>&#8220;Sharing responsibility means sharing the accolades when you achieve success. It&#8217;s very important to developing a sense of ownership and pride in the security of the application or system you&#8217;re developing.&#8221;<br />—<a target="_blank" href="https://twitter.com/CysecAficionado" rel="nofollow noopener">Matt Trevors</a></p>
+</blockquote>
+<p>Shared responsibility is a cornerstone of DevSecOps, said Larry Maccherone, DevSecOps transformation initiative lead at Comcast. &#8220;The whole idea of DevSecOps is you want the engineering team—a single entity that can think holistically—to own the problem of security and operations,&#8221; he said.</p>
+<blockquote>
+<p>&#8220;The reason that it&#8217;s more powerful than having a separate security group is you get a less confrontational situation, and you get more holistic decisions.&#8221;<br />—<a target="_blank" href="https://twitter.com/LMaccherone" rel="nofollow noopener">Larry Maccherone</a></p>
+</blockquote>
+<p>His research shows that the holistic approach is six times more effective in producing vulnerability-free products than the dedicated, external security group approach.</p>
+<p>Sandy Carielli, a principal analyst with Forrester Research, pointed out another problem with the approach of having a team that&#8217;s led solely by security: It can&#8217;t scale to meet the requirements of DevOps.</p>
+<blockquote>
+<p>&#8220;The security team is further from where the software is being developed. If you follow a champions approach, where developers close to the product are <a target="_blank" href="https://techbeacon.com/security/4-steps-transforming-developers-security-people" rel="noopener">trained in security principles</a> and serve as local go-tos, you can scale the security team more effectively.&#8221;<br />—<a target="_blank" href="https://twitter.com/sandycarielli" rel="nofollow noopener">Sandy Carielli</a></p>
+</blockquote>
+<h2>2. Software-defined security governance is now required</h2>
+<p>The movement to a cloud-first development model has made software-defined security governance an important activity. &#8220;IT organizations in the enterprise assume that developing in the cloud is the same as developing software on-prem. That&#8217;s false,&#8221; MassMutual&#8217;s Routh said.</p>
+<p>Shawn Smith, director of infrastructure at nVisium, an application security vendor, said that separating organizational resources by team and owner becomes far easier when using the ephemeral resources from cloud providers. What&#8217;s more, they allow for strong controls that are enforced programmatically from the outset.</p>
+<blockquote>
+<p>&#8220;Previously, policies had no teeth without an auditor constantly ensuring they were enforced. Now, policies can be implemented and enforced programmatically.&#8221;<br />—<a target="_blank" href="https://twitter.com/SpiralingHelix" rel="nofollow noopener">Shawn Smith</a></p>
+</blockquote>
+<p>Several key developments have taken software-defined governance out of the aspirational realm and and into reality. New security tools that let developers and DevOps teams codify security controls and checks as part of building their workflows allow governance to be enforced throughout the entire lifecycle of applications and infrastructure, said <a target="_blank" href="https://twitter.com/weiliendang" rel="nofollow noopener">Wei Lien Dang</a>, co-founder and chief strategy officer for StackRox, a maker of a security platform for containers and Kubernetes.</p>
+<p><a target="_blank" href="https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it" rel="noopener">Adopting cloud-native technologies such as Kubernetes</a> that are based on declarative APIs allows governance policies to be easily configured, Dang added.</p>
+<p>In addition, he said, companies can implement community-led and ecosystem-wide standards and benchmarks for security best practices to ensure effective governance and risk management.</p>
+<h3>3. Security is becoming part of a quality practice</h3>
+<p>When developers take on more responsibility for security, they see vulnerabilities in a different light. &#8220;Frequently, a security group&#8217;s definition of a problem is in terminology that&#8217;s hard for a development team to understand,&#8221; Comcast&#8217;s Maccherone said.</p>
+<p>When an engineering team owns security, he said, that changes.</p>
+<blockquote>
+<p>&#8220;They use terminology familiar to them and tend to think of security as just another aspect of quality. &#8216;A vulnerability is just a bug. Here&#8217;s how we deal with bugs.'&#8221;<br />—Larry Maccherone</p>
+</blockquote>
+<p>Forrester&#8217;s Carielli added that in certain industries, resilience has always been a primary goal. Think about industrial equipment, automobiles, or medical devices, she said.</p>
+<blockquote>
+<p>&#8220;Failing safely and recovering quickly could be the difference between life and death. As software gets added to these traditionally hardware products, resilience becomes as important as security and quality.&#8221;<br />—Sandy Carielli</p>
+</blockquote>
+<h3>4. CSPs&#8217; shared-responsibility model doesn&#8217;t always work for engineering teams</h3>
+<p>When applications are developed on premises, an engineering team can order up a development environment that includes things such as secure network configurations and identity and access management. But in a cloud-first development model, including those used by many cloud service providers (CSPs), development teams make those decisions. The same holds true for other security elements, including logging, encryption, access privileges, and multifactor authentication.</p>
+<blockquote>
+<p>&#8220;Those decisions really shouldn&#8217;t be left to developers, who are ill-equipped to make them. The net result is there are lots of opportunity for exposure and information leakage.&#8221;<br />—<a target="_blank" href="https://twitter.com/jmrouth1" rel="nofollow noopener">Jim Routh</a></p>
+</blockquote>
+<p>To reduce the risk created by developing in the cloud, cybersecurity engineers need to install guardrails to keep developers on the security straight and narrow. The guardrails are configuration management choices that are enforced in the provisioning of a cloud account, Routh explained.</p>
+<p>They&#8217;re designed and built for reuse across development teams, he added. The policy is embedded in the configuration management choices reinforced by scripts.</p>
+<p>While <a target="_blank" href="https://techbeacon.com/security/3-new-rules-cloud-native-application-security" rel="noopener">the shared-responsibility model</a> may add to the difficulty of managing risk, Maccherone argues that the benefits of working with CSPs outweigh the disadvantages.</p>
+<blockquote>
+<p>&#8220;AWS, Azure, and Google Cloud are going to screw up sometimes and expose you to more risk. But by handing over security responsibilities to these very motivated and highly resourced third parties, you&#8217;re likely to get better results, even though you have less management of the risk.&#8221;<br />—Larry Maccherone</p>
+</blockquote>
+<h2>5. Automation can address people and skills shortages</h2>
+<p>The use of automation, such as with as bots or sensors, can be very effective in addressing the security manpower shortage when done correctly, CMU&#8217;s Trevors said. But if you&#8217;re not evaluating the resiliency of the AI or ML you&#8217;re using, it could be detrimental, he added. </p>
+<p>For example, if the training sets used for your machine learning algorithms are poisoned by an adversary, then the actions taken by sensors and bots will be incorrect.</p>
+<p>System defenders aren&#8217;t alone in using automation to achieve their ends; attackers are using it, too.</p>
+<blockquote>
+<p>&#8220;There is no way for a human to keep up with an AI adversary, so it&#8217;s going to become compulsory to have some form of bot sensors and automation in your environment just to keep pace with your adversaries.&#8221;<br />—Matt Trevors</p>
+</blockquote>
+<p>You can also use automation to enrich the jobs of existing security team members. It allows security teams to push repetitive processes off their plate and focus on the more specialized, strategic issues, Forrester&#8217;s Carielli said.</p>
+<p>nVisium&#8217;s Smith cautioned, however, that automation can&#8217;t totally replace human expertise.</p>
+<blockquote>
+<p>&#8220;Automation will almost always have false positives at one point or another in the software development lifecycle. As such, the more complex and niche issues will mostly not be discovered only by automation.&#8221;<br />—Shawn Smith</p>
+</blockquote>
+<h3>&#8216;Shift left&#8217; is becoming &#8216;shift everywhere&#8217;</h3>
+<p>Bringing security into the software development lifecycle earlier and earlier has been gaining momentum for years. But now, BSIMM 11 found, &#8220;shift left&#8221; is <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-software-development-needs-shift-not-left-or-right" rel="noopener">becoming &#8220;shift everywhere.&#8221;</a></p>
+<p>&#8220;Ultimately, shift-left is part of a broader trend within organizations to move towards a DevSecOps-type model that recognizes <a target="_blank" href="https://techbeacon.com/devops/information-security-needs-community-6-ways-build-your-teams" rel="noopener">security is everyone&#8217;s responsibility</a>,&#8221; StackRox&#8217;s Dang said.</p>
+<p>Development and engineering teams &#8220;increasingly have a significant role in implementing security,&#8221; but effective security approaches require collaboration between these teams and security operators, he added. &#8220;The end goal is to have common, standardized workflows, tooling, and languages that all teams can use to protect their software environments, enforce policies, and reduce risks.&#8221;</p>
+<p>MassMutual&#8217;s Routh maintained that shift left is no longer absolute. If there&#8217;s a build every day, then development and security teams must decide whether to fix defects in the current 24-hour version, in the next version or some future version, he said.</p>
+<blockquote>
+<p>&#8220;The right choice may be to leave the defect alone and fix it in a future build. That&#8217;s not shift left; that&#8217;s shift right. What does this mean for software security? It means shift is good.&#8221;<br />—Jim Routh</p>
+</blockquote>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/build-app-sec-pro-5-key-takeaways-bsimm-11">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ticketmaster Coughs Up $10 Million Fine After Hacking Rival Business</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/ticketmaster-coughs-up-10-million-fine-after-hacking-rival-business/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2021 15:26:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Coughs]]></category>
+		<category><![CDATA[Fine]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[million]]></category>
+		<category><![CDATA[Rival]]></category>
+		<category><![CDATA[Ticketmaster]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ticketmaster-coughs-up-10-million-fine-after-hacking-rival-business/</guid>
+
+					<description><![CDATA[Several Ticketmaster executives conspired a hack against a rival concert presales firm, in attempt to &#8216;choke off&#8217; its business. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Several Ticketmaster executives conspired a hack against a rival concert presales firm, in attempt to &#8216;choke off&#8217; its business.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/ticketmaster-10-million-fine-hacking-rival/162695/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2021 Cybersecurity Trends: Bigger Budgets, Endpoint Emphasis and Cloud</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/2021-cybersecurity-trends-bigger-budgets-endpoint-emphasis-and-cloud/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sun, 03 Jan 2021 15:00:52 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bigger]]></category>
+		<category><![CDATA[Budgets]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Emphasis]]></category>
+		<category><![CDATA[Endpoint]]></category>
+		<category><![CDATA[Trends]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/2021-cybersecurity-trends-bigger-budgets-endpoint-emphasis-and-cloud/</guid>
+
+					<description><![CDATA[Insider threats are redefined in 2021, the work-from-home trend will continue define the threat landscape and mobile endpoints become the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Insider threats are redefined in 2021, the work-from-home trend will continue define the threat landscape and mobile endpoints become the attack vector of choice, according 2021 forecasts.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/2021-cybersecurity-trends/162629/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Inbox Attacks: The Miserable Year (2020) That Was</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/inbox-attacks-the-miserable-year-2020-that-was/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2021 11:00:04 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Inbox]]></category>
+		<category><![CDATA[Miserable]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/inbox-attacks-the-miserable-year-2020-that-was/</guid>
+
+					<description><![CDATA[Reflecting on 2020&#8217;s record-breaking year of spam and inbox threats. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Reflecting on 2020&#8217;s record-breaking year of spam and inbox threats.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/miserable-spam-year-2020/162566/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>4 Ways to Help Your Family Combat Cyber Threats in the New Year</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 19:13:32 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Combat]]></category>
+		<category><![CDATA[Cyber]]></category>
+		<category><![CDATA[Family]]></category>
+		<category><![CDATA[threats]]></category>
+		<category><![CDATA[ways]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/</guid>
+
+					<description><![CDATA[No doubt, we have a lot to be hopeful for as we step into the New Year. We’ve adapted, survived,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>No doubt, we have a lot to be hopeful for as we step into the New Year. We’ve adapted, survived, and learned to thrive under extraordinary circumstances. While faced with plenty of challenges, families successfully transitioned to working and learning from home like pros. So, as we set our intentions for 2021, we will need that same resolve to tackle growing cyber threats.</p>
+<p><strong>The good news:</strong> With a COVID-19 vaccine making its debut, we’re trusting there’s an end in sight to the pandemic of 2020, which may help curb a lot of our emotional as well as digital stressors.</p>
+<p><strong>The not-so-good-news:</strong> According to McAfee’s latest <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-labs-report-reveals-continuing-surge-of-covid-19-threats-and-malware/?hilite=%27November%27%2C%27threats%27%2C%272020%27" rel="noopener noreferrer">Quarterly Threat Report</a>, pandemic-themed threats that began in 2020 will continue, specifically, phishing and malware scams targeting people working from home. According to the recent report, bad actors are especially taking advantage of the mass remote workforces.</p>
+<p>According to Raj Samani, McAfee Fellow and Chief Scientist, “What began as a trickle of phishing campaigns and the occasional malicious app quickly turned into a deluge of malicious URLs, attacks on cloud users and capable threat actors leveraging the world’s thirst for more information on COVID-19 as an entry mechanism into systems across the globe.”</p>
+<p>This report points inspires a few best practices for families as we launch a new year: Stay informed and keep talking about the threats and — as grandma might advise — dress in layers to protect against the elements (in this case, digital threats).</p>
+<p><strong>Safe Family Tips</strong></p>
+<ol>
+<li><strong>Information is power.</strong>The best defense against online threats is a good offense, which is the digital space means staying informed. The more you know about how hackers exploit consumers, the more you can dodge shady phishing scams such as emails trying to sell you the COVID-19 vaccine online or a voucher allowing you to skip the vaccination line.</li>
+<li><strong>Verify email sources.</strong>Be skeptical of emails or text messages claiming to be from people you know or organizations with requests or offers that seem too good to be true. Before you click, go straight to the organization’s website or contact customer service. Verifying sources will help you steer clear of downloading malicious content from phishing links. Remind family members to keep their guards up and never to share personal information.</li>
+<li><strong>Hover over links, scrutinize URLs.</strong>If someone sends you a message with a link, hover over the link without clicking on it. This will allow you to see a link preview. If the URL looks suspicious, delete the message. A few red flags: Fake links generally imitate established websites but may include unnecessary words and domains in the address. When in doubt about a link’s validity — don’t click.</li>
+<li><strong>Think in layers.</strong>When it comes to cybersecurity for the new year, try thinking (or dressing) your devices in layers. A few ways to layer up:</li>
+</ol>
+<p style="padding-left: 80px;">• Use 2FA passwords. Regularly changing passwords and adding two-factor authentication (2FA) is proving to be the most effective way to thwart hackers. If you work from home, 2FA is a more secure way to access work applications. This password/username combo requires you to verify who you are with a personal device only you own puts an extra barrier between your data and a creative hacker.</p>
+<p style="padding-left: 80px;">• Use a VPN. If you travel or choose to work in a coffee shop, a <a target="_blank" href="https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html" rel="noopener">Virtual Private Network (VPN)</a> will give your family an encrypted channel that shields your online activity from hackers.</p>
+<p style="padding-left: 80px;">• Security software. If you’ve been cobbling your security plan together, consider one <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener">comprehensive security solution</a> to help protect you from malware, phishing attacks, and viruses. Leading products such as McAfee Total protection will include safe browsing and a VPN.</p>
+<p>The past year, while difficult, also gave us several gifts to carry into 2021. For families, it connected us with our resilience and creativity. It made us wiser, braver, and more ready for the challenges ahead, be they online or within the ebb and flow of everyday life. That’s something we can all celebrate.</p>
+<p> </p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/4-ways-to-help-your-family-combat-cyber-threats-in-the-new-year/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Best of TechBeacon 2020: Security</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/best-of-techbeacon-2020-security/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[TechBeacon]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/best-of-techbeacon-2020-security/</guid>
+
+					<description><![CDATA[The sudden shift to a largely distributed workforce because of the COVID-19 pandemic complicated already Byzantine security challenges at many]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>The sudden shift to a largely distributed workforce because of the COVID-19 pandemic complicated already Byzantine security challenges at many organizations this year.</p>
+<p>Security teams were forced to find ways to <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/state-zero-trust-cybersecurity?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">protect their enterprise from an army of work-from-home users</a> even as they had to confront other challenges from ongoing digital transformation initiatives and cloud adoption.</p>
+<p><i>TechBeacon</i>&#8216;s top 12 security stories from 2020 provide a broad overview of the trends, challenges, and changes that organizations had to deal with on all of the major fronts: <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/6-best-practices-for?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">application security</a>, <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/state-secops-202021-takeaways?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">information security</a>, <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-security-data-privacy-trends?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">data security</a>, and <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/state-zero-trust-cybersecurity?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">identity and access management</a>.</p>
+<h3>Application security</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/more-authorities-more-cves-what-it-means-app-sec-teams" rel="noopener">More authorities, more CVEs: What it means for app sec teams</a></h4>
+<p>A <i>TechBeacon</i> analysis of the widely used National Vulnerability Database (NVD) showed that organizations have more to be worried about than just the rising number of vulnerabilities. With the threat landscape changing rapidly, organizations also need to be cognizant of the different types of vulnerabilities being disclosed, their organization&#8217;s exposure to those threats, and risks from vulnerable open-source components in their software.</p>
+<p>Freelance writer <a target="_blank" href="https://twitter.com/roblemos?lang=en" rel="nofollow noopener">Rob Lemos</a> explains why companies need to adjust their development, patching, and app sec practices to address the increasing number of vulnerabilities being identified, and offers other key takeaways.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/3-new-rules-cloud-native-application-security" rel="noopener">3 new rules of cloud-native application security</a></h4>
+<p>The rapid adoption of SaaS applications has created a variety of new security problems for enterprises. Mobile workforces opened up new holes in the network perimeter a decade ago, and SaaS applications are doing the same now and forcing organizations to rethink traditional approaches to application security. <a target="_blank" href="https://twitter.com/dd_davidoff?lang=en" rel="nofollow noopener">Dror Davidoff</a>, co-founder and CEO of container and cloud-security provider Aqua Security, says addressing the security issues around how organizations configure and use cloud-native applications requires new thinking.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/critical-api-security-risks-10-best-practices" rel="noopener">Critical API security risks: 10 best practices</a></h4>
+<p>Application programming interfaces (APIs) that connect services and transfer data have become critical for microservices architectures, but are becoming increasingly harder to secure because of their growing numbers. Common API security risks include excessive data exposure, misconfiguration, insufficient monitoring, and logging and broken authorization mechanisms at the object, user, and function levels. <a target="_blank" href="https://twitter.com/lucycloudbling?lang=en" rel="nofollow noopener">Lucy Kerner</a>, security evangelist and strategist at Red Hat, draws on her expertise as a cloud security architect to compile this handy list of 10 best practices for managing API risks.</p>
+<h3>Information security</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/state-secops-202021-its-time-think-beyond-soc" rel="noopener">The State of SecOps: It&#8217;s time to think beyond the SOC</a></h4>
+<p>The global pandemic has pushed many companies to accelerate their digital transformation initiatives—not just for business continuity purposes, but also as a way to take advantage of new market opportunities, deliver new customer channels, and leapfrog the competition. The changes have broadened the operational attack surface and increased exposure to automated, AI-based exploits at many organizations. <a target="_blank" href="https://www.linkedin.com/in/mbfernandes/" rel="nofollow noopener">Mark Fernandes</a>, CTO of security at <em>TechBeacon</em> corporate parent Micro Focus, explains why digital transformation requires organizations to think beyond the traditional SOC to concepts such as an integrated threat operations center (ITOC).</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/8-lessons-garmin-ransomware-attack" rel="noopener">8 lessons from the Garmin ransomware attack</a></h4>
+<p>Some breaches are either so big in scope or so significant that they serve as lessons to others of what <i>not </i>to do when it comes to information security. One example is a ransomware attack at GPS smartwatch maker Garmin in July 2020 that forced the company to shut down its main customers for five days while it attempted to recover locked systems. In the end, Garmin paid a multimillion-dollar ransom to get the decryption key to restore encrypted data. Freelance writer <a target="_blank" href="https://twitter.com/jpmello" rel="nofollow noopener">John P. Mello, Jr.</a> spoke with multiple industry experts to compile this list of eight major takeaways from the Garmin attack.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/5-ways-make-your-serverless-functions-more-secure" rel="noopener">5 ways to make your serverless functions more secure</a></h4>
+<p>Serverless applications allow developers to create custom functions and speed up app deployment without having to worry about issues such as the underlying infrastructure and delays while the operations team spins up virtual machines or containers. A survey that RightScale conducted found that more than one-third of the respondent organizations already had deployed serverless apps for these reasons. In this report, <a target="_blank" href="https://twitter.com/emjohn20" rel="nofollow noopener">Eric Johnson</a>, a senior instructor at the SANS Institute, explains why, in their enthusiasm to use the technology, development teams should not overlook security.</p>
+<h3>Data security</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/how-meet-privacy-requirements-your-pii" rel="noopener">How to meet privacy requirements with your PII</a></h4>
+<p>Regulations such as the <a target="_blank" href="https://techbeacon.com/security/gdpr-execution-will-be-major-task-year-reap-benefits" rel="noopener">European Union&#8217;s GDPR</a>, <a target="_blank" href="https://techbeacon.com/security/what-your-data-security-team-needs-know-about-ccpa" rel="noopener">California&#8217;s CCPA</a>, and Turkey&#8217;s KVKK have put enormous pressure on organizations to better protect personally identifying information (PII) belonging to customers, employees, and others. The regulations mandate not just better data security but also processes that allow data subjects to ask for and expeditiously receive copies of their PII. Meeting these requirements can be challenging and highlights the need for new processes where PII files can be quickly identified, indexed, and retrieved, says <a target="_blank" href="https://www.linkedin.com/in/david-humphrey-0919293/" rel="nofollow noopener">Dave Humphrey</a>, CTO at Micro Focus. In this report he offers advice on how privacy and security leaders can best meet PII privacy requirements.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/cobol-gdpr-why-format-preserving-data-protection-key" rel="noopener">COBOL and GDPR: Why format-preserving data protection is key</a></h4>
+<p>COBOL continues to be one of the most widely used programming languages, especially among large organizations, though it has been around for six decades. The main reason for its longevity is the sheer value of the business logic encapsulated in COBOL code over all these years. Nobody wants to rewrite the code, because it is working fine, says <a target="_blank" href="https://www.linkedin.com/in/phsiii/" rel="nofollow noopener">Phil Smith III</a>, senior product manager and architect for mainframe and enterprise at Micro Focus. Smith, who has deep experience with z/OS, z/VM, and Linux on IBM mainframes, explains why format-preserving data protection is the best way to guard data in COBOL environments in a compliance-friendly manner.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/what-you-need-know-about-bring-your-own-key-cloud" rel="noopener">What you need to know about &#8216;bring your own key&#8217; in the cloud</a></h4>
+<p>Many organizations have adopted a cloud-first or cloud-only strategy because of the scale, agility, and consumption-based pricing benefits available in the cloud. However, few have done so with any formal strategy for data security. Often, organizations have hybrid, multi-cloud environments where they are forced to deal with different security models that they know little about. <a target="_blank" href="https://www.linkedin.com/in/sid-dutta/" rel="nofollow noopener">Sid Dutta</a>, data security evangelist at Micro Focus, takes a look at some of the data-centric security capabilities available from the biggest cloud providers.</p>
+<h3>Identity and access management</h3>
+<h4><a target="_blank" href="https://techbeacon.com/security/zero-trust-remote-workforces-identity-access-management-key" rel="noopener">Zero trust and remote work: Identity and access management is key</a></h4>
+<p>The large-scale shift to remote work as the result of the COVID-19 pandemic exposed organizations to a slew of new cyber security risks this year. Security teams suddenly were forced to find ways to secure the enterprise network against remote workers logging in from insecure home networks, often with poorly protected personally owned devices. This report, from freelance writer <a target="_blank" href="https://twitter.com/roblemos?lang=en" rel="nofollow noopener">Rob Lemos</a>, on the importance of a zero-trust security model in this environment, is based on perspective from industry analysts and security specialists.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/why-your-approach-security-architecture-needs-change" rel="noopener">Why your approach to security architecture needs to change</a></h4>
+<p>Many security groups might think they are doing all the right things to protect sensitive enterprise data against improper access and abuse. The reality is quite different, says <a target="_blank" href="https://www.linkedin.com/in/nick-nikols-754383/" rel="nofollow noopener">Nick Nikols</a>, vice president of strategy at Micro Focus. Nikols, whose areas of specialization include identity and access management (IAM), says that while many companies may have invested heavily in comprehensive IAM, the architecture at their organizations is not equipped to deal with how data travels in the cloud. He explains why security leaders should consider revamping their security architectures for the cloud.</p>
+<h4><a target="_blank" href="https://techbeacon.com/security/how-iam-powers-cyber-resilience-5-best-practices" rel="noopener">How IAM powers cyber resilience: 5 best practices</a></h4>
+<p>Even the best security controls can be undermined by a lack of secure identity and access management practices. IAM is the foundation of cyber resilience. To be good at it, organizations need to have comprehensive control and an unimpeded, real-time view of identities across the enterprise, says <a target="_blank" href="https://twitter.com/MacDonaldRob" rel="nofollow noopener">Rob MacDonald</a>, security evangelist at Micro Focus. Here he offers five best practices for strengthening cyber resilience with strong IAM practices.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/best-techbeacon-2020-security">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
