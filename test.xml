@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 05 Jan 2021 22:28:17 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 06 Jan 2021 05:44:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,197 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test Automation Framework Benefits &#8211; POM, Selenium Locators, OpenSDK &#038; JUnit [Cheat Sheet Included]</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit-cheat-sheet-included/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 05:44:14 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Benefits]]></category>
+		<category><![CDATA[Cheat]]></category>
+		<category><![CDATA[Framework]]></category>
+		<category><![CDATA[Included]]></category>
+		<category><![CDATA[JUnit]]></category>
+		<category><![CDATA[Locators]]></category>
+		<category><![CDATA[OpenSDK]]></category>
+		<category><![CDATA[POM]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Sheet]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit-cheat-sheet-included/</guid>
+
+					<description><![CDATA[In this series, we are going to dive into some benefits and examples of a Test Automation Framework. A framework]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In this series, we are going to dive into some benefits and examples of a Test Automation Framework. A framework is an architecture of integrated parts. Some of those integrated parts are libraries, test data, and Page Object Model (POM). For <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a>, Data-Driven and Hybrid are two popular Test Automation Frameworks:</p>
+<ul>
+<li>Data-Driven Framework – read values from a test source, then store the values in a test script.</li>
+<li>Hybrid Framework – consists of two or more frameworks plus utilities, logs, reporting, etc.</li>
+</ul>
+<p>By the end of this article, you will read about the <a target="_blank" href="https://blog.testproject.io/#POMBenefits" rel="noopener">benefits of a POM</a>, <a target="_blank" href="https://blog.testproject.io/#OpenSDKBenefits" rel="noopener">TestProject’s OpenSDK</a>, <a target="_blank" href="https://blog.testproject.io/#LocatorBenefits" rel="noopener">Selenium Locators</a>, and <a target="_blank" href="https://blog.testproject.io/#JUnitBenefits" rel="noopener">JUnit 5</a>.</p>
+<h2><strong>Table of Contents – Test Automation Framework Benefits</strong></h2>
+<ul>
+<li>Benefits – Test Automation Framework</li>
+<li>Example – Test Automation Framework
+<ul>
+<li>How To Install Selenium Drivers via TestProject’s Agent</li>
+<li>How To Create Development Token</li>
+<li>Model Your First Page Object Model (POM)</li>
+<li>How To Build CSS Strategy Using Chrome Developer Tools</li>
+<li>Create Test Class Using POM and TestProject’s OpenSDK</li>
+<li>View Example Report In TestProject</li>
+</ul>
+</li>
+</ul>
+<h2><a target="_blank" id="POMBenefits" rel="noopener"><strong>POM Test Automation Framework </strong><strong>Benefits</strong></h2>
+<p>A Page Object Model is a design pattern with classes that represent each page of an application. It can also represent components within a page. For example, if an application has a Login Page then the Page Object may have a LoginPage class. After creating a Page Object class, each individual test script has access to the class. All test scripts are stored separately from the variables and methods. Here’s a screenshot that shows the Web Pages, Page Objects, and Test Scripts:</p>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-16374 size-full" title="POM Test Automation Framework" src="https://blog.testproject.io/wp-content/uploads/2020/12/15.1-Page-Object-Model.png" alt="POM Test Automation Framework" width="638" height="334" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/15.1-Page-Object-Model.png 638w, https://blog.testproject.io/wp-content/uploads/2020/12/15.1-Page-Object-Model-512x268.png 512w" sizes="(max-width: 638px) 100vw, 638px"/></noscript></p>
+<p>The benefits of a Page Object Model are code readability, code reusability, and code maintainability. Code readability means the code is descriptive and easy to follow. Code reusability is a technique for reusing the same code in multiple locations. Code maintainability is an approach of taking less time to make a change to our code.</p>
+<p>The results from a Page Object Model greatly outweighs a plain vanilla test. A vanilla test has everything like locators in each test script. Therefore, if a change happens in the Application Under Test (AUT), then each test script requires an update to its locator. This approach defeats the benefits of a Page Object Model such as code maintainability.</p>
+<p>It’s time-consuming to update the locator in multiple test scripts. Can you imagine how long it would take if the AUT had more than one change? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" /> That means each test script demands multiple updates for successful execution. However, the Page Object Model only requires an update in one place <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2><a target="_blank" id="OpenSDKBenefits" rel="noopener"><strong>Benefits of Using TestProject’s OpenSDK</strong></h2>
+<p>The <a target="_blank" href="https://testproject.io/advanced-scripting-capabilities/" rel="noopener">OpenSDK</a> from TestProject is a complete coding solution for Test Automation. It’s unified across multiple programming languages: Java, C#, and Python. One of the benefits is an extension of Selenium and Appium. The standard Selenium and Appium drivers are wrapped within TestProject’s powerful Agent that takes care of all the maintenance &amp; heavy-lifting for you, while extending Selenium and Appium with additional features, such as AI and automatic out-of-the-box reporting.</p>
+<p>Selenium is designed for web testing while Appium is built for mobile testing. Therefore, the <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2" rel="noopener">TestProject OpenSDK</a> possesses the ability to test web and mobile applications. It’s comparable to getting the best of two worlds, plus additional features like API testing. A few more benefits include:</p>
+<ul>
+<li>Support for Windows, Mac, Linux, and Docker</li>
+<li>Support for RESTful API</li>
+<li>Store and execute tests locally on any source control tool like Git</li>
+<li>Test runner capabilities for local and remote execution</li>
+<li>Automatic test reports in HTML/PDF format</li>
+<li>Screenshots included in the test report</li>
+<li>Reporting dashboard with execution history</li>
+</ul>
+<p>TestProject has several built-in <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">test report</a> dashboards (Velocity, Distribution, Platforms, Trends, Targets, Individual Run) and an API to get the report. We can manually create a test report or automate the report into our Continuous Integration (CI) pipeline. When it comes to logging, TestProject uses an SLF4J API. We can implement Log4j, Logback, or Java Logging to control the logging output. The following is a screenshot of <a target="_blank" href="https://docs.testproject.io/testproject-sdk/using-testproject-scripted-tests-within-ci-cd" rel="noopener">CI/CD using TestProject OpenSDK</a>:</p>
+<p><img loading="lazy" class="alignnone wp-image-16375 size-full" title="CI/CD with TestProject SDK" alt="CI/CD with TestProject SDK" width="579" height="476" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png 579w, https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow-512x421.png 512w" data-lazy-sizes="(max-width: 579px) 100vw, 579px" src="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-16375 size-full" title="CI/CD with TestProject SDK" src="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png" alt="CI/CD with TestProject SDK" width="579" height="476" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png 579w, https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow-512x421.png 512w" sizes="(max-width: 579px) 100vw, 579px"/></noscript></p>
+<h2><a target="_blank" id="LocatorBenefits" rel="noopener"><strong>Benefits of Selenium Locators (CSS Selectors vs XPath)</strong></h2>
+<p>The purpose of a <a target="_blank" href="https://blog.testproject.io/2020/11/13/optimized-selenium-selector-strategies-from-a-z/" rel="noopener">Selenium locator</a> is to help us find elements on a web page. An element is anything you see on the page such as buttons, text boxes, links, etc. The two most powerful Selenium locators are CSS Selector and XPath. CSS Selector finds an element by the CSS Selector’s engine. XPath finds an element by its XML Path. Both are powerful because they assist with finding all types of elements. In addition to CSS Selector and XPath, Selenium provides 6 more locators:</p>
+<ol>
+<li><span style="text-decoration: underline;"><strong>className</strong></span> – finds an element by the value of its class attribute.</li>
+<li><span style="text-decoration: underline;"><strong>id</strong> </span>– finds an element by the value of its id attribute.</li>
+<li><span style="text-decoration: underline;"><strong>linkText</strong> </span>– finds a hyperlink element by its complete text.</li>
+<li><span style="text-decoration: underline;"><strong>name</strong></span> – finds an element by the value of its name attribute.</li>
+<li><span style="text-decoration: underline;"><strong>partialLinkText</strong> </span>– finds a hyperlink element by partial text contained within the complete text.</li>
+<li><span style="text-decoration: underline;"><strong>tagName</strong> </span>– finds an element by its tag name.</li>
+</ol>
+<p>With the release of Selenium 4, <a target="_blank" href="https://blog.testproject.io/2020/07/13/selenium-4-relative-locators/" rel="noopener">Relative Locators</a> are added to the existing 6 locators to find elements based on the location of another element:</p>
+<ol>
+<li><strong><u>above</u> </strong>– finds an element or elements located above a fixed element.</li>
+<li><u><strong>below</strong> </u>– finds an element or elements located below a fixed element.</li>
+<li><u><strong>near</strong> </u>– finds an element or elements located near a fixed element.</li>
+<li><strong><u>toLeftOf </u></strong>– finds an element or elements located to the left of a fixed element.</li>
+<li><strong><u>toRightOf </u></strong>– finds an element or elements located to the right of a fixed element.</li>
+</ol>
+<p>Although there are many Selenium locators, the benefit of using CSS Selector or XPath is their flexibility. They provide different options for finding an element. As a result, we can locate complex elements like dynamic elements. A dynamic element is an element with a continuously changing value upon reloading the web page. We can locate elements that start with a specific value, end with a specific value, contain a certain value, and many more complicated elements. The following are CSS Selector and XPath syntaxes that can also be downloaded via the below Cheat Sheet <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h3 style="text-align: center;"><strong><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f469-200d-1f4bb.png" alt="👩‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://blog.testproject.io/wp-content/uploads/2020/12/Cheat-Sheet-XPath_CSS.pdf" rel="noopener">CSS Selector and XPath – Download Cheat Sheet</a> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f469-200d-1f4bb.png" alt="👩‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="css">XPath
+• //TagName[@AttributeName="AttributeValue"]
+• //TagName[@AttributeName="AttributeValue"][@AttributeName="AttributeValue"]
+• //TagName[@AttributeName="AttributeValue" and @AttributeName="AttributeValue"]
+• //TagName[@AttributeName="AttributeValue" or @AttributeName="AttributeValue"]
+• //TagName[@AttributeName="AttributeValue"]/TagName[n]/TagName[n]
+
+XPath Partial Pattern Match - //TagName[PartialPatternMatch(@AttributeName,'AttributeValue')]
+• //TagName[starts-with(@AttributeName,'AttributeValue')]
+• //TagName[contains(@AttributeName,'AttributeValue')]
+
+XPath Search For Text
+• //TagName[text()='Value']
+
+XPath Axes
+• //TagName[text()='Value']//preceding::TagName[n]
+• //TagName[@AttributeName="AttributeValue"]//preceding::TagName[n]
+• //TagName[text()='Value']//following::TagName[n]
+• //TagName[@AttributeName="AttributeValue"]//following::TagName[n]
+
+CSS
+(* = any TagName / # (pound) = ID AttributeName / . (dot) = Class AttributeName)
+• TagName#AttributeValue
+• TagName.AttributeValue
+• TagName[AttributeName="AttributeValue"]
+• TagName[AttributeName="AttributeValue"][AttributeName="AttributeValue"]
+
+CSS nth-child(n) Syntax
+• TagName[AttributeName="AttributeValue"] TagName TagName:nth-child(n) TagName
+
+CSS Child Select (&gt; = Parent-Child Relationship)
+• TagName.AttributeValue &gt; TagName.AttributeValue
+• TagName.AttributeValue &gt; TagName#AttributeValue
+
+CSS Symbols For Matching Patterns - TagName[AttributeName Symbol="AttributeValue"]
+• (^ (caret) = starts-with / * (asterisk) = every element with a specific substring
+• TagName[AttributeName^='AttributeValue']
+• TagName[AttributeName*='AttributeValue']</pre>
+<h2><a target="_blank" id="JUnitBenefits" rel="noopener"><strong>Benefits of JUnit 5</strong></h2>
+<p><a target="_blank" href="https://blog.testproject.io/2019/02/26/junit-5/" rel="noopener">JUnit</a> is a Unit Testing Framework that’s part of the Test Automation Framework. The goal is to provide a way for testing our code. According to the <a target="_blank" href="https://junit.org/junit5/docs/current/user-guide/index.html#user-guide" rel="noopener">User Guide</a>, JUnit 5 is unlike previous versions. JUnit 5 is composed of several different modules from 3 different sub-projects. The sub-projects are JUnit Platform, JUnit Jupiter, and JUnit Vintage:</p>
+<ol>
+<li><strong><u>JUnit Platform</u></strong> serves as a foundation for launching testing frameworks on the JVM.</li>
+<li><strong><u>JUnit Jupiter</u></strong> is the combination of the new programming model and extension model for writing tests and extensions.</li>
+<li><strong><u>JUnit Vintage</u></strong> provides a test engine for running JUnit 3 and JUnit 4.</li>
+</ol>
+<p>Some of the benefits include code quality, debugging process, and locate defects early. Code quality impacts the overall quality of an application. Therefore, JUnit ensures the code is reliable and testable. The debugging process helps us detect and remove defects in our code. It is important because we can prevent unexpected or incorrect software operations. Last but not least, is locating defects early in the Software Development Life Cycle (SDLC). This benefit produces additional benefits such as reducing business risk, reducing cost, and improving application security. Eliminating a defect early is better than waiting for a problem to occur in production.</p>
+<p>An example of a Test Automation Framework will be next. Stay Tuned <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/01/06/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Reduce Your Test Automation Costs Significantly with Open Source Frameworks</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 04:11:36 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[costs]]></category>
+		<category><![CDATA[frameworks]]></category>
+		<category><![CDATA[Open]]></category>
+		<category><![CDATA[Reduce]]></category>
+		<category><![CDATA[Significantly]]></category>
+		<category><![CDATA[source]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/</guid>
+
+					<description><![CDATA[The COVID pandemic has not only altered the lives of millions of software professionals around the world, but it also]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>The COVID pandemic has not only altered the lives of millions of software professionals around the world, but it also has made many software companies think about various ways they can reduce costs and risks to preserve their production and exist in this highly competitive software industry.</p>
+<p>It is a fact that now many companies have started to think about the different ways they can curtail their spending plans. But at the same time, they also have to ensure that their existing products and the new products that they are/will be launching in the market are of high quality, valuable to their clients/customers, and provide a great user experience. Thus they have to be cautious when it comes to Testing and <a target="_blank" href="https://testproject.io/" rel="noopener">Test Automation</a>.</p>
+<p>One of the ways by which companies can reduce their costs significantly is by adopting Open Source technologies. If we talk about Test Automation, Open Source Test Automation Frameworks can come to the rescue. Costs involved in Test Automation can have many facets and we will discuss those later in this article. But first, let’s understand what we mean by “<strong>Open Source</strong>”.</p>
+<h2><strong>What is Open Source software and how is it different from Proprietary ones?</strong></h2>
+<p>If any software (tool/platform/technology/framework) is referred to as “<em>Open Source</em>”, it means that its source-code/blueprint/design can be accessed, used, inspected, reviewed, modified, and distributed by anyone with its original rights and licenses. The reasons can be many and may vary from enhancing its functionalities by adding features in it, fixing its bugs, or providing entirely new functionalities by creating wrappers around it. It will mostly be available free of charge <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f193.png" alt="🆓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>On the other hand, if the software is “<em>Proprietary</em>” (or “<em>Commercial</em>”), it means that its source-code/blueprint/design is available only to the person(s)/organization(s) who have created it or own it. Only they can exclusively maintain, modify, and distribute it with its original rights and licenses. If anyone else (user/organization) wants to use that software, they usually need to sign a license agreement stating that they will not do anything with the software that its legal owner has not permitted.</p>
+<h2><strong>Different ways Open Source Frameworks bring down Test Automation costs</strong></h2>
+<p>With the widespread adoption of <a target="_blank" href="https://blog.testproject.io/2020/11/18/waterfall-agile-scrum-kanban-methodologies/" rel="noopener">Agile</a> and <a target="_blank" href="https://blog.testproject.io/2020/08/06/can-manual-testers-survive-in-the-age-of-devops/" rel="noopener">DevOps</a>, the benefits provided by Test Automation are undoubtedly numerous. I will not go into the details of those benefits as I am sure you are already aware of them from personal experiences or from reading different articles/blog posts. But like all other things related to software, Test Automation also involves costs from various aspects. The total cost can be a summation of the individual cost involved in the setup of the Test Automation Framework, its maintenance, its training/knowledge transfer, its enhancement, test execution time, test execution result interpretation, the infrastructure/environment in which the tests will run, and so on. Let’s discuss them and see how adopting open source frameworks can help in reducing test automation costs:</p>
+<p><strong>1. Setup Cost</strong></p>
+<p>If we go for a commercial tool for our Test Automation initiative, then there will be some license fee and subscription charge to start with. The subscription charge may be based on the number of users who will be using that product and for a defined timeframe (monthly/yearly). On the other hand, an Open Source Test Automation framework, which can consist of and provide the functionalities of popular open-source libraries like WebDriver, Appium, RestAssured, etc. out-of-the-box will not require any such charges (license/subscription). Even if the number of users who will be using the framework increases in the future, it will not have a direct correlation to the cost associated with the framework setup. The setup cost will be one-time unless there is a significant change required and a need arises to rewrite the majority of the core part of the framework.</p>
+<p><strong>2. Maintenance Cost</strong></p>
+<p>Most of the Test Automation Engineers around the world are already working or have worked on most of the open-source technologies which make up the Open Source Test Automation frameworks. So if your team comprises skilled Test Automation Engineers, then the cost of maintaining the framework, can significantly go down compared to any commercial tool. Maintenance means to ensure that the framework continues to be relevant to the testing of the product-under-test and can provide value by revealing problems.</p>
+<p>Suppose, there is an issue in the framework itself. Then the resolution time can turn out to be quite less since, for open source technologies, the test automation engineers in the team can themselves solve the issue as they are already skilled in those technologies. If the issue is related to some core part of the framework and they are not able to solve it, then they can directly raise the issue with the maintainers of that framework or it is also possible that the issue might have already been encountered by someone else in some other part of the world and the solution has already been put in some collaboration platform like GitHub, StackOverflow.</p>
+<p><strong>3. Training and Knowledge Transfer Cost</strong></p>
+<p>For commercial tools, there will always be some associated training and knowledge transfer costs. The tool knowledge has to be cascaded from the people who are already using the tool or from the tool provider to the people who will be the users of that tool. Since there will be limited learning resources available in the public domain, the engineers in the team would need some time to get themselves accustomed and become proficient in that tool/framework. For Open source frameworks, this will not be the case since all or most of the required learning resources will be publicly available which means that learning and becoming proficient in them will be much easier.</p>
+<p><strong>4. </strong><strong>Execution Result Interpretation Cost</strong></p>
+<p>Whenever tests are run using a Test Automation tool or framework (be it open source or commercial), execution results get generated. The results can be in the form of simple stack traces, <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">useful reports</a> (HTML/PDF/JSON), logs, charts, and visualizations. Probably one of the most important aspects of Test Automation is the execution outcome in the form of generated results. A good clear detailed report/log can help the engineers quickly interpret and investigate the execution outcome which in turn can provide valuable insights on how the product is behaving under certain conditions.</p>
+<p>In open-source frameworks, we can customize and tailor those generated execution results according to our needs, without spending any extra bucks to get those customized for us. Another benefit is that most of the open-source technologies which are created for reporting or monitoring purposes can be easily integrated with the Open Source automation frameworks and most of the time the integration processes (with step-by-step instructions) can be easily found on the net. Some tools also have <a target="_blank" href="https://blog.testproject.io/2020/07/27/html-test-reports-for-selenium-and-appium-python-test-automation/" rel="noopener">out-of-the-box automatic test reports</a>.</p>
+<p><strong>5. Infrastructure Cost</strong></p>
+<p>When we talk about the infrastructure required for a successful Test Automation implementation, we refer to configuring and maintaining the automation setups like the platforms in which the tests will run, the browsers, the environments, the libraries which will help to run the tests, the monitoring and management tools, the evidence-capture and video-recording tools, the version control systems where the automation code will be maintained, the CI servers, etc. Multiple open-source technologies can be leveraged to meet these infrastructural needs like <a target="_blank" href="https://git-scm.com/" rel="noopener">Git</a>, <a target="_blank" href="https://docs.testproject.io/testproject-integrations/integration-with-jenkins" rel="noopener">Jenkins</a>, <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a>, <a target="_blank" href="https://blog.testproject.io/2020/05/30/the-ultimate-docker-tutorial-for-automation-testing-using-testproject/" rel="noopener">Docker</a>, <a target="_blank" href="https://kubernetes.io/" rel="noopener">Kubernetes</a>, etc. and most of them are completely free or provide community versions that are free to use.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>More and more companies have started to embrace open-source technologies to deliver high-quality products to the market. This adoption is a result of the dedication of thousands of open-source contributors/maintainers and the continuous trust that open-source is providing in terms of control, ease of training/knowledge transfer, stability, and help from a large supportive community in addition to significant cost benefits to the business. Being an open-source enthusiast and seeing the recent trends in Test Automation, it looks clear to me that the popularity and usage index of open-source frameworks will continue to rise in the coming years <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/01/06/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>RCE &#8216;Bug&#8217; Found and Disputed in Popular PHP Scripting Framework</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/rce-bug-found-and-disputed-in-popular-php-scripting-framework/</link>
 		
@@ -307,67 +498,6 @@ fbq('track', "PageView");</p>
 <br />At least 6,500 cryptocurrency users have been infected by new, &#8216;extremely intrusive&#8217; malware that&#8217;s spread via trojanized macOS, Windows and Linux apps.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/electrorat-drains-cryptocurrency-wallet-funds-of-thousands/162705/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How has Raiffeisen Bank been able to accelerate performance testing to test more&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-has-raiffeisen-bank-been-able-to-accelerate-performance-testing-to-test-more/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 14:19:40 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Accelerate]]></category>
-		<category><![CDATA[bank]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Raiffeisen]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-has-raiffeisen-bank-been-able-to-accelerate-performance-testing-to-test-more/</guid>
-
-					<description><![CDATA[How has Raiffeisen Bank been able to accelerate performance testing to test more with fewer resources and deliver more reliable]]></description>
-										<content:encoded><![CDATA[
-<p>How has Raiffeisen Bank been able to accelerate performance testing to test more with fewer resources and deliver more reliable software, faster? Watch this on-demand video from our Ramp Up 2020. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F34H81lw%3Ffbclid%3DIwAR0aN1uu6O7MEO7lQKVVxxRG-wPqry5s2fRsy5ryhcGKiN63_oBSlA7erZI&amp;h=AT1S7znTgrbAy5p-zEoUYrkQvbzziX_Y0Bq60LV_DEnwkJ2877ygyaGzSMli5sb2y2X5KJIxA_9NJmnfpsOOzOW6NtYTHnuzHa0wcnfuHKQBhCvKajt4OLHueBspm8NUWXPMDuYgcJpU_sQTWHx1m6YwT8qN2J5T7u9gLT6JAtoNcEndrnlAkzn_iCU7WaV0BOruBP3rTWri1xKZEEgPxx5tc1xXGcX60L_exfmj3Wq77y8hQ_cn0QkGUo9wB0IjEUTpZ4D_Oc5i5C4B6oWuLdAuY3Vocn4S4XlVhybjqPAIQc4tEegED5ploqJ68_2Y5Bwbsm2Zitv_upZ7s8rgRGJttUcRXJla8egAg66eJ176uWPkcxP68XO-N2SAQPSjW24CgzairoVadvurbM4KueE3dCvWSCPvW2yWjSyFHkz1RJhW5kYq4Dw_ZJfAtlslRUI6COLTGBDZBoyduXTUVgmXVjIq651ZbjcLQsuxCgJhA9ff1S4eAuSuRzqdbo6fQJPwoyeUTankf6qXjirBgpBGaFkWsQGvVuXIqcxWKNYonh2F4iG-lTwvOJReIOXzxO9T-gJJQX4RtTej1NMl1xRH5FxSxFZpcHYilEyC_5sHAdpSFgb-hYY3M48X4Fh47PTkHtkJSZZijK2ZzD-p" rel="noopener">https://bit.ly/34H81lw</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.3997831243561642%3Atop_level_post_id.3997831243561642%3Atl_objid.3997831243561642%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3997831243561642%3Apage_id.163354693676002%3Aphoto_id.3997831133561653%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9elmYQyovxpcK6%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A2687823841527789870&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.3997831243561642%3Atop_level_post_id.3997831243561642%3Atl_objid.3997831243561642%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3997831243561642%3Apage_id.163354693676002%3Aphoto_id.3997831133561653%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9elmYQyovxpcK6%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A2687823841527789870&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fo fp" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.3997831243561642%3Atop_level_post_id.3997831243561642%3Atl_objid.3997831243561642%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.3997831243561642%3Apage_id.163354693676002%3Aphoto_id.3997831133561653%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9elmYQyovxpcK6%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A2687823841527789870&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p> <br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/3997831243561642">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Data from August Breach of Amazon Partner Juspay Dumped Online</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/data-from-august-breach-of-amazon-partner-juspay-dumped-online/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 13:51:38 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[August]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Dumped]]></category>
-		<category><![CDATA[Juspay]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Partner]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/data-from-august-breach-of-amazon-partner-juspay-dumped-online/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/data-from-august-breach-of-amazon-partner-juspay-dumped-online/162740/">Source link </a></p>
 ]]></content:encoded>
 					
 		
