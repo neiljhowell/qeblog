@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 06 Jan 2021 22:16:51 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 07 Jan 2021 06:11:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,199 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>10 Good Practices in Selenium C# Automation</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/10-good-practices-in-selenium-c-automation/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 Jan 2021 06:11:19 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[good]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/10-good-practices-in-selenium-c-automation/</guid>
+
+					<description><![CDATA[I wanted to share with you some of the good practices I learned along the way, that I wish I]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>I wanted to share with you some of the good practices I learned along the way, that I wish I knew when I first started my automation testing journey. While what we call “<a target="_blank" href="https://blog.testproject.io/2020/06/14/are-best-practices-really-the-best/" rel="noopener">best practice</a>” may not apply to all projects or all people, please read on to find advice on how you can improve your Selenium C# automation framework.</p>
+<h2><strong>Table of Contents – Good Practices in Selenium C# Automation</strong></h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#CodeConventions" rel="noopener">Coding Conventions</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#DRY" rel="noopener">The DRY principle</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#IndependentTests" rel="noopener">Independent tests</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#SingleResponsibility" rel="noopener">Single responsibility principle</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#LimitAssertions" rel="noopener">Limit the number of assertions</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#Locators" rel="noopener">Locator strategy</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#Waits" rel="noopener">Use waits</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#POM" rel="noopener">Page Object Model</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#Screenshots" rel="noopener">Take screenshots</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#Reporting" rel="noopener">Reporting</a></li>
+</ol>
+<hr/>
+<h2><strong><a target="_blank" id="CodeConventions" rel="noopener">Coding conventions</strong></h2>
+<p>These conventions exist to have a consistent-looking code and enable readers to understand the code faster by making assumptions based on previous experiences. This article focuses on C#, so the conventions found here will not apply to other programming languages.</p>
+<h3><strong><a target="_blank" id="Naming" rel="noopener">Naming conventions</strong></h3>
+<ul>
+<li>Use <strong>PascalCase </strong>for method and class names.</li>
+</ul>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// Good
+public class HomePage
+// Bad
+public class homepage
+public class homePage</pre>
+<ul>
+<li>Use <strong>camelCase </strong>for local variables and parameters (the first word starts with lower case, following words with upper case).</li>
+<li>Don’t use abbreviations – there is no limit on the number of characters a class, method, or variable name can have, so avoid creating confusion or inconsistencies by using abbreviations.</li>
+<li>Avoid using the underscore character (the only exception are private variables).</li>
+</ul>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// Good
+private string _password = "12345";
+HomePage homePage = new HomePage(driver);
+// Bad
+HomePage home_Page = new HomePage(driver);</pre>
+<ul>
+<li>Include the word “Test” at the end of your test classes (e.g. LoginTest, ShoppingCartTest etc.).</li>
+<li>Use nouns for class names, and verbs for methods.</li>
+</ul>
+<h3><strong><a target="_blank" id="Layout" rel="noopener">Layout conventions</strong></h3>
+<ul>
+<li>Do not include more than one statement or declaration per line.</li>
+<li>The comments should be added on the line preceding the code, not after the code. Also, try to make the code as clear as possible so it does not need to be explained through comments.</li>
+</ul>
+<p>A good example of comment formatting:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// This methods sends the credentials.
+public void Login(string name, string password)
+{
+      Name.SendKeys(name);
+      Password.SendKeys(password);
+      LoginButton.Click();
+}
+</pre>
+<p>And a bad example:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">public void Login(string name, string password)
+{
+      Name.SendKeys(name); //sends the name
+      Password.SendKeys(password); //sends the password
+      LoginButton.Click();
+}
+</pre>
+<h2><strong><a target="_blank" id="DRY" rel="noopener">The DRY principle</strong></h2>
+<p>DRY, short for <strong>D</strong>on’t <strong>R</strong>epeat <strong>Y</strong>ourself, is a principle aimed at reducing code duplication. It’s <a target="_blank" href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" rel="noopener">defined as</a> “Every piece of knowledge must have a single, unambiguous, authoritative representation within a system”.</p>
+<p>To achieve the DRY principle, make sure you avoid code duplication. For example, if all your tests require the user to log in, create a setup method that performs the login and runs before each test. Or declare your web elements as variables so you don’t search for them on the page each time you need to interact with them:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">// Good:
+private IWebElement name =&gt; driver.FindElement(By.CssSelector("#name"));
+name.Click();
+name.SendKeys("User Name");
+
+// Bad:
+driver.FindElement(By.CssSelector("#name")).Click();
+driver.FindElement(By.CssSelector("#name")).SendKeys("User Name");</pre>
+<h2><strong><a target="_blank" id="IndependentTests" rel="noopener">Independent tests</strong></h2>
+<p>This is a very important aspect of a good and stable automation framework. If you want your tests to be reliable, avoid making one test depend on another i.e. create the test data for TestCase2 in TestCase1. This may cause unexpected test failures, which can consume valuable time spent debugging and fixing, without actually uncovering any issues in the AUT. Also, if you want to consider test parallelization (which you definitely should), you can’t control the order in which the tests run, which means that the dependent test might run before the test it depends on.</p>
+<h2><strong><a target="_blank" id="SingleResponsibility" rel="noopener">Single responsibility principle</strong></h2>
+<p>A term introduced by Uncle Bob, author of the <a target="_blank" href="https://www.oreilly.com/library/view/clean-code-a/9780136083238/" rel="noopener">Clean Code book</a>, the Single responsibility principle refers to the fact that classes should have one single responsibility, therefore only one reason to change. In test automation, this translates into short tests, that don’t validate multiple functionalities, and that should have only one reason for failure.</p>
+<p>Consider using setup and teardown methods, to separate the preconditions (such as opening the browser, signing in) from the tests, and also to clean up after your test (close the browser, delete any test-specific data).</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">[SetUp]
+public void Login()
+{         
+        runner.Run(new LoginTest());
+}
+
+[Test]
+public void AddItemsToCart()
+{         
+        runner.Run(new AddItemsToCartTest());
+}
+
+[OneTimeTearDown]
+public void TearDown()
+{
+        runner.Dispose();            
+}</pre>
+<p>The above example uses NUnit with <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a> C# <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview" rel="noopener">SDK</a>. The [SetUp] is the method that logs the user in, and then the test itself only checks that items are added to the cart. If there is something wrong with the login, only the setup will fail, and the test will be blocked. This way, we’ll know that the problem lies with the login functionality, and not with adding items to the cart.</p>
+<h2><strong><a target="_blank" id="LimitAssertions" rel="noopener">Limit the number of assertions</strong></h2>
+<p>This practice reinforces the single responsibility principle. Keep in mind that the tests should have one, or two assertions at most. If you feel the need to include more, consider splitting your large test into smaller, more granular ones, that focus on fewer validations.</p>
+<h2><strong><a target="_blank" id="Locators" rel="noopener">Locator strategy</strong></h2>
+<p>An important part of UI automation is using the right <a target="_blank" href="https://blog.testproject.io/2017/02/09/inspect-web-elements-chrome-devtools/" rel="noopener">locators</a>. The locator strategies available in Selenium C# are:</p>
+<ul>
+<li>Id</li>
+<li>Name</li>
+<li>LinkText</li>
+<li>PartialLinkText</li>
+<li>TagName</li>
+<li>ClassName</li>
+<li>CssSelector</li>
+<li>XPath</li>
+</ul>
+<p>When available and unique, the most <a target="_blank" href="https://www.selenium.dev/documentation/en/getting_started_with_webdriver/locating_elements/" rel="noopener">recommended locator strategy</a> is the ID. It’s the fastest locator, and it’s also easy to use. ClassName is also a good locator strategy, but it also has to be unique, which you probably noticed is not always the case.</p>
+<p>When ID and ClassName are not available, the following preferred locator is the <a target="_blank" href="https://blog.testproject.io/2017/08/10/css-selector-custom-attributes/" rel="noopener">CssSelector</a>, which is a pattern that uses attributes and their values. Here’s how to use CssSelector in C# to identify a div element that follows an element with ID=password:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">driver.FindElement(By.CssSelector("#password ~div"));</pre>
+<p>After CssSelector, comes the <a target="_blank" href="https://blog.testproject.io/2019/11/18/xpath-and-ui-element-identification-using-xpath-selectors/" rel="noopener">XPath,</a> which locates the elements in the DOM structure. The LinkText and PartialLinkText are available only when the element you need to locate is a link, otherwise they cannot be used. Name and TagName should be used only if they are unique, or when you need to find multiple elements with the same name, or tag name, using the FindElements() method.</p>
+<p>To help with identifying the best locator for your element, you can use the developer tools in your browser, or you can use a tool like <a target="_blank" href="https://app.testproject.io/" rel="noopener">TestProject</a> to help you identify the element’s attributes:</p>
+<p></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-16246 " title="Element Locators in TestProject" src="https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator.png" alt="Element Locators in TestProject" width="921" height="422" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator.png 1690w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator-512x234.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator-768x352.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator-1024x469.png 1024w" sizes="(max-width: 921px) 100vw, 921px"/></noscript></p>
+<h2><strong><a target="_blank" id="Waits" rel="noopener">Use waits</strong></h2>
+<h3><strong><a target="_blank" id="AvoidSleep" rel="noopener">Avoid using Thread.Sleep()</strong></h3>
+<p>You probably heard this before, but I will say it again. Thread.Sleep() will make the test wait the amount of time passed as a parameter, statically. For example, if you set the sleep time to 5 seconds, and then try to find an element, you have to wait the whole 5 seconds before the test continues, even if it takes only 3 seconds to load the element. This adds unnecessary delays to your code. Two seconds may not seem like a lot, but if you use this in hundreds of tests, they amount to a few minutes <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/23f3.png" alt="⏳" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>A good practice is to use Selenium WebDriver’s <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener">wait</a> methods instead.</p>
+<h3><strong><a target="_blank" id="ImplicitWaits" rel="noopener">Implicit waits</strong></h3>
+<p>The implicit wait delays the execution for the specified amount of time until the web element is found. However, unlike the Sleep, if the element is found before the time elapses, the test will continue normally. It also applies to all the web elements in the test script.</p>
+<p>Here’s how an implicit wait looks in C#:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);</pre>
+<p>The downside of the implicit wait is that it only applies to the <a target="_blank" href="https://blog.testproject.io/2020/03/05/selenium-webelement-methods/" rel="noopener">FindElement() method</a>.</p>
+<h3><strong><a target="_blank" id="ExplicitWaits" rel="noopener">Explicit waits</strong></h3>
+<p>Explicit waits apply only to a specific element. We use them to wait until a certain condition is met.</p>
+<figure id="attachment_16276" aria-describedby="caption-attachment-16276" style="width: 1098px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-16276 " title="Explicit Wait Expected Conditions in C#" alt="Explicit Wait Expected Conditions in C#" width="1098" height="602" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png 2650w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-512x281.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-768x421.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-1024x561.png 1024w" data-lazy-sizes="(max-width: 1098px) 100vw, 1098px" src="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png"/><noscript><img loading="lazy" class="wp-image-16276 " title="Explicit Wait Expected Conditions in C#" src="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png" alt="Explicit Wait Expected Conditions in C#" width="1098" height="602" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png 2650w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-512x281.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-768x421.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-1024x561.png 1024w" sizes="(max-width: 1098px) 100vw, 1098px"/></noscript><figcaption id="caption-attachment-16276" class="wp-caption-text">The list of available expected conditions</figcaption></figure>
+<p>To use explicit waits in C#, you need the DotNetSeleniumExtras NuGet package. Here’s a code sample of an explicit wait that waits for an element to be clickable:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+IWebElement element = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.Id("element-id")));
+</pre>
+<h3><strong><a target="_blank" id="DontMixWaits" rel="noopener">Be mindful when mixing explicit and implicit waits</strong></h3>
+<p>This can cause undefined behavior, unexpected wait times, and overall decrease the reliability of your tests.</p>
+<h2><strong><a target="_blank" id="POM" rel="noopener">Page Object Model</strong></h2>
+<p>An already well-known good practice in UI test automation is to use a <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener">design pattern</a>. The most popular design pattern in UI automation is probably the <a target="_blank" href="https://blog.testproject.io/2020/11/09/page-object-model-in-selenium-using-c-sharp-nunit-reporting/" rel="noopener">Page Object Model</a> (also known as POM).  When working with POM, we separate the UI interaction methods from the actual tests. Each web page or web component is represented by its own class, where we store all the methods related to this particular page or component, which we then call from the test methods. This provides a great way to avoid code duplication and allows easier maintenance of the test framework.</p>
+<h3><strong><a target="_blank" id="NoAssertions" rel="noopener">No Assertions in page objects</strong></h3>
+<p>Keep assertions out of the page object classes. If you want to include a validation inside the test class, make it return a boolean value. This way, you can use it to validate both positive and <a target="_blank" href="https://blog.testproject.io/2019/05/27/the-positive-outcomes-of-negative-testing/" rel="noopener">negative</a> scenarios.</p>
+<p>Here’s an example:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// The method inside the page object class returns true if the name is displayed, and false if it not:
+public bool IsUserLoggedIn(string name)
+{
+      return DisplayName.Text.Equals(name);
+}
+
+// The assertions inside the test method:
+Assert.IsTrue(IsUserLoggedIn("My Username");</pre>
+<h3><strong><a target="_blank" id="NoSeleniumMethods" rel="noopener">No Selenium methods in tests</strong></h3>
+<p>Include Selenium methods in your page object classes, not your test methods. Each web element can be declared as a private variable inside its class, and the methods should be public so they can be accessed from the test classes.</p>
+<h3><strong><a target="_blank" id="Wrappers" rel="noopener">Use wrappers</strong></h3>
+<p>Or better yet, wrap the Selenium methods inside your own methods. This reduces the dependency on any possible changes inside the Selenium libraries. It can also be useful if you often use certain methods together.</p>
+<p>For example, to write something inside a text box, you might click the text box, clear the existing text, then enter your text. You can create a method that takes the element as a parameter and performs all these actions:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public void WriteText(IWebElement element, string text)
+{
+        element.Click();
+        element.Clear();
+        element.SendKeys(text);
+}</pre>
+<h2><strong><a target="_blank" id="Screenshots" rel="noopener">Take screenshots</strong></h2>
+<p>Another good practice is to take screenshots of the failed steps. This will help you better understand where and why the step failed, and also make debugging easier. Selenium has the method GetScreenshot() available, which takes screenshots of the entire webpage or a specific element.</p>
+<p>If you are using the TestProject <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview" rel="noopener">SDK</a>, you can use the TakeScreenshotConditionType enum as a parameter in the test step to decide when to take a screenshot:</p>
+<p><img loading="lazy" class="alignnone wp-image-16366 size-medium" title="TestProject Take Screenshot" alt="TestProject Take Screenshot" width="512" height="197" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-768x295.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-1024x394.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot.png 1241w" data-lazy-sizes="(max-width: 512px) 100vw, 512px" src="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png"/></p>
+<p><noscript><img loading="lazy" class="alignnone wp-image-16366 size-medium" title="TestProject Take Screenshot" src="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png" alt="TestProject Take Screenshot" width="512" height="197" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-768x295.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-1024x394.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot.png 1241w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
+<h2><strong><a target="_blank" id="Reporting" rel="noopener">Reporting</strong></h2>
+<p>Last, but definitely not least, use a good <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener">reporting tool</a> to demonstrate the results of your test run. Not only will this help your work become more visible, but you can share the results with management, clients, or other non-technical audiences that may be interested in the various test metrics.</p>
+<p><a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">Test reports</a> can also help you see how your tests progressed – how much time they take, how many passed or failed, compared to previous runs, and so on.</p>
+<h2><strong>Conclusions</strong></h2>
+<p>Even if you already know of some of these good practices in test automation, I hope this article was a good reminder of how to apply them in your work. While they might seem like a lot of work in the beginning, I promise you they will make your life easier in the long run <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/01/07/good-practices-in-selenium-csharp-automation/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>NSA Urges SysAdmins to Replace Obsolete TLS Protocols</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/</link>
 		
@@ -119,6 +312,228 @@
 <br />More than 100,000 Zyxel networking products could be vulnerable to a hardcoded credential vulnerability (CVE-2020-29583) potentially allowing cybercriminal device takeover.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/cybercriminals-exploits-zyxel-flaw/162789/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>DevOps security culture: 12 fails your team can learn from</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/devops-security-culture-12-fails-your-team-can-learn-from/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[culture]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[fails]]></category>
+		<category><![CDATA[Learn]]></category>
+		<category><![CDATA[team]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/devops-security-culture-12-fails-your-team-can-learn-from/</guid>
+
+					<description><![CDATA[Will DevOps and DevSecOps still be relevant in 50 years? Today&#8217;s DevOps technology will be long gone, but some cultural pieces may still be around. My]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Will DevOps and DevSecOps still be relevant in 50 years? Today&#8217;s DevOps technology will be long gone, but some cultural pieces may still be around. My best guess on the part of DevOps that will still exist: <a target="_blank" href="https://techbeacon.com/security/how-hack-your-security-culture" rel="noopener">DevOps security culture</a>.</p>
+<p>What is DevOps security culture? </p>
+<ul>
+<li><strong>Knowledge,</strong> because there are things that you must learn and understand to build secure software fast.</li>
+<li><strong>Experience,</strong> because you improve the process and tools the more times that you fail.</li>
+<li><strong>Art and creativity, </strong>because the innovation of process and tools requires exploring new security ideas, not just relying on the status quo.</li>
+<li><strong>Science, </strong>because what matters gets measured, and DevOps security improves by measuring input and output and making adjustments.</li>
+</ul>
+<p>DevOps security culture is defined by what happens with security when people are left to make their own decisions. We all do the right thing for security when a security team member is standing over our shoulder. But your true security culture is revealed on Friday at 4:30 p.m. when a feature promised to a customer must either get pushed to production or shelved until next week.</p>
+<p>If there is a security issue, and the customer requirement trumps the potential platform weakness, you have a weak security culture. If a developer can say, &#8220;Nope, this has a security issue, and we are unable to push to production,&#8221; you have a strong security culture.</p>
+<p>You want your DevOps security culture to continue to grow because it is <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-applica?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">crucial to your success in building secure software fast</a>. Your DevOps security culture is a living, breathing thing. <a target="_blank" href="https://techbeacon.com/security/4-ways-build-better-security-culture" rel="noopener">Security culture</a> can stagnate, but it can also continue to grow if you can absorb others&#8217; learnings and failures.</p>
+<p>Here are 12 DevOps security culture fails—and how to change.</p>
+<h3>1. Name and brand</h3>
+<p>The industry created a monster when it agreed to accept the term <em>DevSecOps</em>. The debate over the name—DevSecOps, SecDevOps, SecOps with dev, dev with a side of sec—has been a distraction, time misspent worrying about what amounts to a marketing term. </p>
+<blockquote>
+<p>Let&#8217;s just call it DevOps and teach everyone that there is no DevOps without security integrated.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Embrace and believe that security is not an afterthought with DevOps. Stop using any term other than <em>DevOps</em>.</li>
+</ul>
+<ul>
+<li>Teach all product and application-adjacent people this new definition. Your teams look to you for guidance. Standardize, and reap the reward of less confusion.</li>
+</ul>
+<ul>
+<li>Create a &#8220;DevSecOps&#8221; swear jar, and make people add money to it every time they use the term.</li>
+</ul>
+<h3>2. The infinity graph</h3>
+<p>The infinity graph is the never-ending visualization of DevOps that shows you&#8217;ll never complete anything. That is perhaps an exaggeration, but it&#8217;s not a good representation of building modern software in a development organization.</p>
+<p>To make matters worse, folks will wrap a rectangle around the infinity graph and write &#8220;security&#8221; on it to represent how they integrate security into their software.</p>
+<blockquote>
+<p>There is much more to integrating security than a rectangle.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Ban the infinity graph from your world. Choose an image or illustration that matches up to what you do with DevOps.</li>
+<li>Embrace pipeline visualization. DevOps with security is always a pipeline because a pipeline is a factual representation of how we build software with security integrated.</li>
+</ul>
+<h3>3. Security as a special team and lack of collaboration</h3>
+<p>&#8220;Special team&#8221; is sometimes used to describe the security team. This is especially true in older companies transitioning from other software development methodologies toward DevOps, where a security team was a separate entity, but it can also occur in startups if they&#8217;re not careful.</p>
+<p>Security as a particular team is a failure because when security is &#8220;special&#8221; and separate, it spends its time governing the DevOps process and the build pipelines instead of collaborating with the developers and operations folks to improve flow and security in tandem.</p>
+<p>Another failure with security teams is having team members who do not know how to code. <a target="_blank" href="https://techbeacon.com/security/secure-coding-throw-down-5-takeaways-your-app-sec-team" rel="noopener">Successful application security people</a> can read code in an object-oriented language. To gain this level of competence, app sec people must learn at least one language. Once you discover one, you can apply that knowledge to other languages and become a trusted adviser to development and operations.</p>
+<p>Collaboration among development, operations, and security is challenging when the security team thinks it&#8217;s unique.</p>
+<blockquote>
+<p>Siloed organizations and lack of communication result in more bugs and slower building software cycles.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Security isn&#8217;t special; lean into the fact that developers want to be responsible for security.</li>
+<li>Responsibility requires knowledge and experience.</li>
+<li>Teach everyone the foundational lessons of security.</li>
+<li>Teach security folk how to code. They must speak the language of the developer.</li>
+</ul>
+<ul>
+<li>To foster collaboration, institute communication paths among specialties and share both the good and the bad; no hiding anything.</li>
+<li>Build DevOps strike teams—dev, sec, and ops together.</li>
+<li>Foster a mutual partnership aimed at serving each other.</li>
+</ul>
+<h3>4. Vendor-defined DevOps</h3>
+<p>Who defines the DevOps standard? Where is the governing body that determines what DevOps is? Here&#8217;s the catch: There is no DevOps standard. Vendors define what DevOps means in the context of their product offerings. The things that vendors want to sell represent the category.</p>
+<p>There must be a vendor-independent architecture for what DevOps means to customers.</p>
+<blockquote>
+<p>Build the best possible solutions from your architecture, not from a vendor&#8217;s playbook.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Realize that there is no DevOps standard.</li>
+</ul>
+<ul>
+<li>Define <em>your</em> DevOps, and do not allow vendors to define DevOps for you within the context of whatever solution they provide.</li>
+</ul>
+<ul>
+<li>Study and teach the bigger, contextual reality of a vendor-independent DevOps throughout your organization.</li>
+</ul>
+<h3>5. Marketing term infatuation</h3>
+<p>Marketing terms are a necessary evil, and they&#8217;re not something that can be wished away, no matter how hard you try. <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-software-development-needs-shift-not-left-or-right" rel="noopener">&#8220;Shift left&#8221; and &#8220;shift right&#8221;</a> are the two marketing terms that are driving the DevOps space.</p>
+<p>Shift left means you start at the beginning of your process and consider security at each step of the way. Shift right means you adapt security tools and technologies in your production environment to bolster your capabilities. Neither is wrong, but better advice is to start left and start right. The catch here is that when you start left and start right, you&#8217;re back to what&#8217;s been called the &#8220;secure development lifecycle&#8221; for the past 20 years.</p>
+<p>When organizational strategy is driven according to marketing terms, you set yourself up for failure.</p>
+<blockquote>
+<p>Follow the best practices, but leave the marketing terms to the marketeers.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>&#8220;Start left&#8221; by embedding security into every section of your DevOps pipeline.</li>
+</ul>
+<h3>6. Big-company envy</h3>
+<p>Everyone wants to emulate the best. The acronym FAANG (Facebook, Amazon, Apple, Netflix, and Google) exists because small and large teams look to these giants as setters of the standard.</p>
+<p>The failure here is trying to base your DevOps security program on what the FAANGs are doing. The catch is that you&#8217;re not them. You&#8217;re a different organization with a different culture.</p>
+<blockquote>
+<p>Leave big-company envy for other people.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Avoid distracting yourself by fixating on what those at the top of the industry are doing with security.</li>
+</ul>
+<ul>
+<li>Make incremental progress: a tool here, a tool there.</li>
+</ul>
+<ul>
+<li>Cast a vision for where your DevOps with security needs to go.</li>
+</ul>
+<h3>7. Overcomplicated pipelines and doing everything now</h3>
+<p>DevOps and pipelines are complicated beasts. If you&#8217;re not careful, you can create pipelines that are so complicated, nobody really knows how your software gets built. A lack of understanding is a tough thing to admit, and the other danger is that if you are teetering on this edge of the cliff, you&#8217;re not going to be willing to accept it.</p>
+<p>The other challenge is doing everything now. As you build and mature your pipelines, the temptation exists to deploy all the tools and all the tech immediately.</p>
+<blockquote>
+<p>Immediacy sets you up for failure because adding all these moving pieces and building complexity means it&#8217;s even more challenging to understand the big picture.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Realize that there are dozens of categories of security tools.</li>
+</ul>
+<ul>
+<li>Start with a small subset of security tools and grow the pipeline over time. Software composition analysis (SCA) and static application security testing (SAST) are the best places to start.</li>
+</ul>
+<ul>
+<li>Keep it simple; the pipeline must be simple enough for all product and application-adjacent people to visualize and explain it.</li>
+</ul>
+<ul>
+<li>Avoid the pressure to solve all problems immediately. Take a phased approach.</li>
+</ul>
+<h3>8. Security as gatekeeper</h3>
+<p>The process of gatekeeping is adding manual checkpoints to an automated process, and it&#8217;s a dangerous temptation for old-school security people. Security people that have been doing security for more than a decade are used to a gatekeeping approach. When things moved slowly, it was easy to make the security checkpoints exist at the main gates in a process.</p>
+<blockquote>
+<p>DevOps goes fast and deploys often. If you&#8217;re gatekeeping, there is no way things are going fast.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Practice empathy. Walk a mile in each other&#8217;s shoes to truly understand the challenges of each role.</li>
+<li>Move security toward development, development toward operations. and operations toward security.</li>
+<li>Work together to find solutions, not roadblocks.</li>
+<li>Provide coaches from each discipline. Coaching is a teaching method, and collaboration occurs when all the roles learn from one another.</li>
+</ul>
+<h3>9. Noisy security tools</h3>
+<p>Noisy security tools hamper the productivity of developers. A loud security tool runs in the build pipeline and then sends a 10,000-line report or generates 1,000 tickets requiring resolution.</p>
+<blockquote>
+<p>The over-generation of data results in developers hating the pipeline security tools or, even worse, ignoring the output of the tools wholeheartedly.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Tune the existing security tools that exist in the pipeline before adding any new tools.</li>
+</ul>
+<ul>
+<li>Never waste anyone&#8217;s time with security findings that do not matter. Your team members measure the value of every tool you employ, and if you send them garbage results, they conclude that the tool is garbage.</li>
+</ul>
+<ul>
+<li>When adding new tools, start with a minimal policy; this is one where you tune the tool to look for one specific type of error. With a new tool, most people fall into the trap of turning on a maximum policy or everything that the tool supports, and they get 10,000 results when they run the tool, a quantity that no developer could ever take action on. By setting the policy at a minimal level, the developer learns to trust the tool, and over time you can increase the number of things the tool is checking for.</li>
+</ul>
+<h3>10. Lack of threat modeling</h3>
+<p>Threat modeling is analyzing representations of a system to highlight concerns about security and privacy characteristics. Threat modeling teaches everyone in your DevOps process how to think through and mitigate every new feature&#8217;s security challenges.</p>
+<p>The failure here is not tapping into the cultural eye-opening and knowledge building that <a target="_blank" href="https://techbeacon.com/security/threat-modeling-devops-3-lessons-front-lines" rel="noopener">security threat modeling</a> unlocks. When all team members grasp threat modeling concepts, they start to see potential security issues and can mitigate them and make them go away early in the process.</p>
+<blockquote>
+<p>Threat modeling makes for more secure features, applications, and products.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Perform threat modeling outside the scope of the pipeline. Threat modeling is not a pipeline activity, because it&#8217;s more process than it is an automated tool. <a target="_blank" href="https://techbeacon.com/security/how-defend-enterprise-apps-threat-modeling-4-lessons-learned" rel="noopener">Address it correctly</a> to maximize success.</li>
+</ul>
+<ul>
+<li>Connect threat modeling to your approach for doling out new feature assignments. Make threat modeling inherent in your process, and threat model all things.</li>
+</ul>
+<h3>11. Vulnerable code that&#8217;s in the wild</h3>
+<p>Open-source and third-party software is both great and terrible, at the same time. It&#8217;s great because it provides functionality and saves us from having to create the same feature functionality over and over again. It&#8217;s terrible because of <a target="_blank" href="https://techbeacon.com/security/5-ways-keep-open-source-based-apps-secure" rel="noopener">vulnerabilities in the software supply chain</a>.</p>
+<p>Vulnerable code could be a library or package with a known flaw, or a package with a backdoor.</p>
+<blockquote>
+<p>The failure from a DevOps perspective is allowing vulnerable code to slip into the wild.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Embed SCA into <em>all</em> your pipelines. In addition to commercial packages, open-source options are available, including <a target="_blank" href="https://github.com/rubysec/bundler-audit" rel="nofollow noopener">bundle-audit for Ruby</a>, <a target="_blank" href="https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities" rel="nofollow noopener">Npm audit for Node.js</a>, and <a target="_blank" href="https://owasp.org/www-project-dependency-check/" rel="nofollow noopener">the OWASP Dependency Check</a>, with numerous plugins.</li>
+<li>Set your SCA policy to fail and break the build when a vulnerability is detected.</li>
+<li>Ensure you have a time-boxed filtering policy. Sometimes there is no fix for a known problem yet, but you have to move forward. Instead of having a policy that allows filtering out vulnerabilities forever, time-box it so that after seven, 14, or 30 days, the issue starts to break the build again, causing developers to check if the fix is now available.</li>
+</ul>
+<h3>12. Lack of security retrospective</h3>
+<p>The final failure is forgetting to step back and examine how well security has worked out for your team. Security retrospective is about having a defined time to collect data about what went well and poorly, in a safe and blame-free place.</p>
+<blockquote>
+<p>Failing to perform retrospective creates a culture where learning from your failures is impossible because you never stop long enough to determine how you&#8217;re doing.</p>
+</blockquote>
+<h4>How to change culture</h4>
+<ul>
+<li>Always practice security retrospective and consider security failures as you would any other failure.</li>
+</ul>
+<ul>
+<li>Leave the blame at the door; growth comes from the ability to discuss failures freely.</li>
+</ul>
+<ul>
+<li>Measure output from retrospectives and manage process and pipeline change.</li>
+</ul>
+<h3>Go all in on resilient code</h3>
+<p>Some of the above failures discussed are outside of your control, but you can change how you present and use them for your teams. Naming, infinity graphs, and marketing terms are things you can fix to create an image for DevOps-plus-security that will stick with everyone.</p>
+<p>Remember that security and coding are for everyone. You must define <em>your</em> DevOps, not the DevOps that your vendors want you to live. Keep up the collaboration, keep it simple, lower the noise, add the best practices, threat model, add software composition analysis, and do blameless retrospectives.</p>
+<blockquote>
+<p>You must define <em>your</em> DevOps, not the DevOps that your vendors want you to live.</p>
+</blockquote>
+<p>Embrace and laugh at your failures. Life&#8217;s too short to let your failures define you. Failure determines how you get to success.</p>
+<p>The only impact DevOps could have 50 years from now is on security culture. DevOps security culture is a work in process, so continue to create it. Continue to strive to meld together dev, sec, and ops in a shared mission to secure everything you build. It&#8217;s a worthy cause and a mission with multiple levels of rewards.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/devops-security-culture-12-fails-your-team-can-learn">Source link </a></p>
 ]]></content:encoded>
 					
 		
@@ -404,60 +819,6 @@ CSS Symbols For Matching Patterns - TagName[AttributeName Symbol="AttributeValue
 </div>
 <p><br />
 <br /><a href="https://blog.testproject.io/2021/01/06/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>RCE &#8216;Bug&#8217; Found and Disputed in Popular PHP Scripting Framework</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/rce-bug-found-and-disputed-in-popular-php-scripting-framework/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 22:28:17 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Disputed]]></category>
-		<category><![CDATA[Framework]]></category>
-		<category><![CDATA[php]]></category>
-		<category><![CDATA[Popular]]></category>
-		<category><![CDATA[RCE]]></category>
-		<category><![CDATA[Scripting]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/rce-bug-found-and-disputed-in-popular-php-scripting-framework/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/rce-bug-php-scripting-framework/162773/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cyberattacks on Healthcare Spike 45% Since November</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/cyberattacks-on-healthcare-spike-45-since-november/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 21:33:22 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cyberattacks]]></category>
-		<category><![CDATA[Healthcare]]></category>
-		<category><![CDATA[November]]></category>
-		<category><![CDATA[Spike]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cyberattacks-on-healthcare-spike-45-since-november/</guid>
-
-					<description><![CDATA[The relentless rise in COVID-19 cases is battering already frayed healthcare systems — and ransomware criminals are using the opportunity]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The relentless rise in COVID-19 cases is battering already frayed healthcare systems — and ransomware criminals are using the opportunity to strike.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cyberattacks-healthcare-spike-ransomware/162770/">Source link </a></p>
 ]]></content:encoded>
 					
 		
