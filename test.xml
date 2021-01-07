@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 06 Jan 2021 05:44:14 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 06 Jan 2021 22:16:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,197 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>NSA Urges SysAdmins to Replace Obsolete TLS Protocols</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 22:16:51 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[NSA]]></category>
+		<category><![CDATA[Obsolete]]></category>
+		<category><![CDATA[Protocols]]></category>
+		<category><![CDATA[Replace]]></category>
+		<category><![CDATA[SysAdmins]]></category>
+		<category><![CDATA[TLS]]></category>
+		<category><![CDATA[Urges]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/</guid>
+
+					<description><![CDATA[The NSA released new guidance providing system administrators with the tools to update outdated TLS protocols. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The NSA released new guidance providing system administrators with the tools to update outdated TLS protocols.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/162814/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>It’s Not the Trump Sex Tape, It’s a RAT</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/its-not-the-trump-sex-tape-its-a-rat/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 21:20:47 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[RAT]]></category>
+		<category><![CDATA[Sex]]></category>
+		<category><![CDATA[Tape]]></category>
+		<category><![CDATA[Trump]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/its-not-the-trump-sex-tape-its-a-rat/</guid>
+
+					<description><![CDATA[Criminals are using the end of the Trump presidency to deliver a new remote-access trojan (RAT) variant disguised as a]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Criminals are using the end of the Trump presidency to deliver a new remote-access trojan (RAT) variant disguised as a sex video of the outgoing POTUS, researchers report.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/trump-sex-tape-rat/162810/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Feds Issue Recommendations for Maritime Cybersecurity</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/feds-issue-recommendations-for-maritime-cybersecurity/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 20:29:39 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Feds]]></category>
+		<category><![CDATA[Issue]]></category>
+		<category><![CDATA[Maritime]]></category>
+		<category><![CDATA[Recommendations]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/feds-issue-recommendations-for-maritime-cybersecurity/</guid>
+
+					<description><![CDATA[Report outlines deep cybersecurity challenges for the public/private seagoing sector. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Report outlines deep cybersecurity challenges for the public/private seagoing sector.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/feds-recommendations-maritime-cybersecurity/162804/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cybercriminals Ramp Up Exploits Against Serious Zyxel Flaw</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/cybercriminals-ramp-up-exploits-against-serious-zyxel-flaw/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 16:40:26 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercriminals]]></category>
+		<category><![CDATA[Exploits]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[Ramp]]></category>
+		<category><![CDATA[ZyXel]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cybercriminals-ramp-up-exploits-against-serious-zyxel-flaw/</guid>
+
+					<description><![CDATA[More than 100,000 Zyxel networking products could be vulnerable to a hardcoded credential vulnerability (CVE-2020-29583) potentially allowing cybercriminal device takeover.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />More than 100,000 Zyxel networking products could be vulnerable to a hardcoded credential vulnerability (CVE-2020-29583) potentially allowing cybercriminal device takeover.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cybercriminals-exploits-zyxel-flaw/162789/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>3 enterprise continuous testing challenges—and how to beat them</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/3-enterprise-continuous-testing-challenges-and-how-to-beat-them/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[beat]]></category>
+		<category><![CDATA[challengesand]]></category>
+		<category><![CDATA[Continuous]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/3-enterprise-continuous-testing-challenges-and-how-to-beat-them/</guid>
+
+					<description><![CDATA[Organizations on the Forbes Global 2000 list are increasingly beset by nimble startups intent on disrupting their industry. Accelerating application]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Organizations on <a target="_blank" href="https://en.wikipedia.org/wiki/Forbes_Global_2000" rel="nofollow noopener">the Forbes Global 2000 list</a> are increasingly beset by nimble startups intent on disrupting their industry. Accelerating application delivery is a key part of maintaining a competitive advantage, but it&#8217;s hard for enterprise organizations to keep pace.</p>
+<p>All too often, it&#8217;s testing that holds back <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">the speed of application delivery</a>—specifically, a lack of a mature continuous testing practice that provides near-real-time feedback on whether the application has an acceptable level of business risk. At times, it can seem as if you&#8217;re competing in the Tour de France while towing a child in a bike trailer.</p>
+<p>Nobody doubts that <a target="_blank" href="https://techbeacon.com/app-dev-testing/seven-key-enablers-continuous-testing" rel="noopener">continuous testing</a><a target="_blank" href="http://content.microfocus.com/world-quality-report-2020-21-tb/5-takeaways-world-quality-report?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener"> is essential</a>. But making it a reality is a challenge in any development environment, and it&#8217;s an especially pointed pain in enterprises, for a number of reasons. These include complex application stacks, deeply entrenched processes built for dramatically different delivery models, and strict compliance requirements.</p>
+<p>Here are three challenges enterprises commonly face when trying to implement an <a target="_blank" href="https://techbeacon.com/app-dev-testing/4-elements-highly-effective-continuous-testing-strategy" rel="noopener">effective continuous testing practice</a>—and how top organizations have solved them. </p>
+<h3>1. Introduce and expand test automation where it has been most difficult </h3>
+<p>Having a core set of automated tests that expose business risks as they&#8217;re introduced is a key component of continuous testing. Yet <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/world-quality-report-digital-transformation?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">the latest World Quality Report </a>found that <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/quality-test-automation?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">test automation</a> has been stalled at around a dismally low 15% for years now.</p>
+<p>You can&#8217;t—and shouldn&#8217;t—automate all your testing efforts. But if you want fast feedback on whether the latest changes broke any critical business processes, ramping up automation is essential.</p>
+<p>The problem is that getting started can be hard, and keeping it going is, unfortunately, even harder. Most large organizations have at least one or two <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/top-mistakes?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">failed test automation initiatives</a> under their belt, so quality leaders are understandably reluctant to spearhead another. </p>
+<p>Yet many brave QA leaders are up for the challenge, and many of those have achieved success. What&#8217;s their secret? At a high level, they remain laser-focused on the long-term goal of <a target="_blank" href="https://techbeacon.com/app-dev-testing/dos-donts-testing-automation" rel="noopener">sustainable test automation</a> and architect the deep-seated process and cultural change required to support that.</p>
+<p>Getting it started requires finding a test automation approach that crosses the various technologies involved in your business processes (technology-agnostic or broad technology support). You also need an approach that can be adopted rapidly and broadly by your existing team members, whatever their current skill set may be.</p>
+<p>Keeping it going also requires addressing what I call “the three nightmares&#8221; of test automation: test maintenance, test data, and test environments.</p>
+<p>Here are some tips from how Linde, the world&#8217;s largest gas company, introduced test automation into its complex network of highly customized SAP, Salesforce, web, and mobile apps:</p>
+<ul>
+<li><strong>Think about where automation will have the greatest impact, then focus on creating stable automation for those use cases.</strong> You can gain much more attention and internal support by automating a handful of high-impact, end-to-end processes than you can by automating thousands of ill-conceived tests.</li>
+<li><strong>Root out the &#8220;more-tests&#8221; mindset. </strong>For years, many organizations have been using the number of tests to measure the extent of testing and even to compensate testing providers. More tests that address the same business risks don&#8217;t help. In fact, they hurt. They consume resources to create as well as resources to maintain—eating into <a target="_blank" href="https://techbeacon.com/app-dev-testing/test-automation-roi-5-ways-show-business-benefits" rel="noopener">your test automation ROI</a>. </li>
+<li><strong>Sometimes you need to cut your losses.</strong> If an approach or tool really isn&#8217;t working for your existing resources—e.g., it&#8217;s too technical or doesn&#8217;t suit your ecosystem—understand what&#8217;s needed instead, and resolve to address it going forward. </li>
+</ul>
+<h3>2. Assess &#8216;release readiness&#8217; of new functionality across teams and applications </h3>
+<p>A primary goal of continuous testing is to determine if a release candidate is ready for production. As described above, you absolutely need to ensure that the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/release-managers-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">changes in each release don&#8217;t break existing functionality</a>. But you also need to test the new functionality to ensure that it works and meets expectations.</p>
+<p>Making the ultimate go/no-go release decision can be a bit of a guessing game when different teams are responsible for different components and layers of the application: the browser interface, the mobile experience, the various packaged apps at work behind the scenes, and all the microservices, APIs, and integration platforms that are probably gluing it all together.</p>
+<p>Teams are likely developing new functionality at different cadences, and testing &#8220;their&#8221; parts in different ways, using different testing practices and different tools. But the user doesn&#8217;t make those distinctions. They expect it all to just work … flawlessly. </p>
+<p>Moët Hennessy-Louis Vuitton (LVMH), the parent company behind luxury brands such as Christian Dior, TAG Heuer, and Dom Perignon, recently decided to streamline its testing process to support ambitious plans for e-commerce growth. The company perfected the art of testing new functionality efficiently and making release decisions that ensure the ultimate user experience, in part by doing the following:</p>
+<ul>
+<li><strong>Take a structured approach to testing new functionality. </strong>To better defend both the customer and the brand, each QA team took a deep dive into the DNA of the brand and its core customer profiles (personas). The teams then developed new test strategies for checking how the customer experiences the brand and captured them as reusable &#8220;rollout kits.&#8221;</li>
+<li><strong>Reuse, reuse, reuse.</strong> The teams built a library of strategically designed test building blocks that allow 70% to 90% reuse across their launches. These building blocks map to an array of test automation tools that they combine to view, interact with, and evaluate the site like a human—on a broad variety of devices. With this head start on automation, they can start testing early in each release cycle and gain fast feedback as they implement and refine new user stories.</li>
+<li><strong>Connect the dots. </strong>All the disparate testing data for web, mobile, Salesforce eCommerce, enterprise resource planning, customer relationship management, etc. is integrated into a single pane of glass. This provides real-time insight into release readiness by persona, feature, and tech layer. Team members can always tell, at a glance, what&#8217;s ready to release, what&#8217;s holding the release back, and who&#8217;s responsible for getting it on track. </li>
+</ul>
+<h3>3. Balance collaboration with autonomy</h3>
+<p>For years, the trend has been toward autonomous, self-governing development teams that choose the practices and tools best suited for their culture and projects. This is great for team motivation, but it&#8217;s not ideal for collaboration. At the same time, another competing trend—toward highly interconnected applications—has made collaboration even more critical.</p>
+<p>At the points of intersection, there&#8217;s a huge opportunity to share test artifacts (as well as code and deployment artifacts). However, that&#8217;s easier said than done, now that so many teams have grown accustomed to using their own processes and tools. </p>
+<p>It is possible to promote cross-team continuous testing collaboration without homogenizing all the distinct ways of working that different teams have invested considerable resources into developing and perfecting. Dell has devised an effective strategy to tap synergies across 30 divisions working across more than 20 test automation frameworks. Here&#8217;s what the company did:</p>
+<ul>
+<li><strong>Abstraction is key.</strong> Dell analyzed the elements of DevOps success from a high-level philosophical perspective, then crafted an abstract continuous integration/continuous delivery/continuous testing architecture. This specified what activities to address (source control, requirements management, test management, etc.) without prescribing low-level implementation details on how to complete them.</li>
+<li><strong>Build an overarching layer.</strong> For continuous testing, Dell established an overarching layer that allows team members to find and run relevant test assets without even thinking about which test automation framework is used behind the scenes. This way everyone can share, but no team has to compromise.</li>
+<li><strong>Standardize on one test framework.</strong> For new projects, the company plans to standardize on a test framework that&#8217;s flexible enough to cover its various application stacks and delivery cadences. Dell will make it available to existing teams and projects, but nobody is being forced to change. </li>
+</ul>
+<h3>Focus on the right approach for your challenges</h3>
+<p>There’s no such thing as enterprise <a target="_blank" href="https://techbeacon.com/app-dev-testing/4-ways-testers-can-adapt-speed-business-today" rel="noopener">continuous testing</a> in a box. As these examples show, the top challenges and potential solutions vary widely, and yours will too. </p>
+<p>To succeed, you need to get real. Take a long, hard look at what you&#8217;re working with, and craft an approach accordingly. Don&#8217;t expect longtime manual testers to download some open-source testing tools and automate processes that span packaged applications, custom applications, mainframes, and more.</p>
+<p>Likewise, don&#8217;t expect a high-performing, tech-savvy team to give up the homegrown or highly customized approach they poured significant time and resources into over the years.  </p>
+<p>Continuous testing itself is all about assessing the impact of change. Your approach to continuous testing must also be built around change. You need to determine what you can do from a technology, process, and change management perspective to ease the transition from your current state. Your goal is to craft an enterprise continuous testing process that achieves your organization&#8217;s goals with respect to quality, speed, and efficiency.</p>
+<p><em>For a more in-depth discussion of these continuous testing challenges, read my book, </em><a target="_blank" href="https://www.amazon.com/Enterprise-Continuous-Testing-Transforming-DevOps/dp/1699022941" rel="nofollow noopener">Enterprise Continuous Testing: Transforming Testing for Agile and DevOps</a><em>.</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/3-enterprise-continuous-testing-challenges-how-beat-them">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Feds Pinpoint Russia as ‘Likely’ Culprit Behind SolarWinds Attack</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/feds-pinpoint-russia-as-likely-culprit-behind-solarwinds-attack/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 15:05:32 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Culprit]]></category>
+		<category><![CDATA[Feds]]></category>
+		<category><![CDATA[Pinpoint]]></category>
+		<category><![CDATA[Russia]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/feds-pinpoint-russia-as-likely-culprit-behind-solarwinds-attack/</guid>
+
+					<description><![CDATA[The widespread compromise affecting key government agencies is ongoing, according to the U.S. government. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The widespread compromise affecting key government agencies is ongoing, according to the U.S. government.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/feds-russia-culprit-solarwinds/162785/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test Automation Framework Benefits &#8211; POM, Selenium Locators, OpenSDK &#038; JUnit [Cheat Sheet Included]</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit-cheat-sheet-included/</link>
 		
@@ -267,237 +458,6 @@ CSS Symbols For Matching Patterns - TagName[AttributeName Symbol="AttributeValue
 <br />The relentless rise in COVID-19 cases is battering already frayed healthcare systems — and ransomware criminals are using the opportunity to strike.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/cyberattacks-healthcare-spike-ransomware/162770/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Telegram Triangulation Pinpoints Users’ Exact Locations</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/telegram-triangulation-pinpoints-users-exact-locations/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 20:33:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Exact]]></category>
-		<category><![CDATA[Locations]]></category>
-		<category><![CDATA[Pinpoints]]></category>
-		<category><![CDATA[Telegram]]></category>
-		<category><![CDATA[Triangulation]]></category>
-		<category><![CDATA[Users]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/telegram-triangulation-pinpoints-users-exact-locations/</guid>
-
-					<description><![CDATA[The &#8220;People Nearby&#8221; feature in the secure messaging app can be abused to unmask a user&#8217;s precise location, a researcher]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The &#8220;People Nearby&#8221; feature in the secure messaging app can be abused to unmask a user&#8217;s precise location, a researcher said.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/telegram-triangulation-users-locations/162762/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Google Warns of Critical Android Remote Code Execution Bug</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/google-warns-of-critical-android-remote-code-execution-bug/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 20:21:40 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Code]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Execution]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Remote]]></category>
-		<category><![CDATA[Warns]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/google-warns-of-critical-android-remote-code-execution-bug/</guid>
-
-					<description><![CDATA[Google&#8217;s Android security update addressed 43 bugs overall affecting Android handsets, including Samsung phones. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Google&#8217;s Android security update addressed 43 bugs overall affecting Android handsets, including Samsung phones.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-warns-of-critical-android-remote-code-execution-bug/162756/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The Road to XDR &#124; McAfee Blogs</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-road-to-xdr-mcafee-blogs/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 16:00:47 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Road]]></category>
-		<category><![CDATA[XDR]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-road-to-xdr-mcafee-blogs/</guid>
-
-					<description><![CDATA[XDR (eXtended Detection and Response) is a cybersecurity acronym being used by most vendors today.  It is not a new]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>XDR (eXtended Detection and Response) is a cybersecurity acronym being used by most vendors today.  It is not a new strategy. It’s been around for a while but the journey for customers and vendors has been slow for many reasons. For McAfee, XDR has been integral to our vision, strategy and design philosophy that has guided our solution development for many years. Understanding our road to XDR can help your organization map your XDR journey.</p>
-<h2><strong>The Building Pressure for XDR</strong></h2>
-<p>Let’s start with why <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/security-awareness/endpoint/what-is-xdr.html" rel="noopener noreferrer">XDR</a>?  The cry for XDR reflects where cybersecurity is today with fragmented, cumbersome and ineffective security and where folks want to go.  In my CISO conversations it is well noted that security operation centers (SOC) are struggling.  Disjointed control points and disparate tools lead to ineffective security teams.  It allows adversaries to more easily move laterally across the infrastructure undetected and moving intentionally erratic to avoid detection.  Analysts only know this if they manually connect the thousand dots which is time consuming leaving the adversaries with ample dwell time to do damage. It’s no secret. There is a lack of security expertise, and these are regularly tested.  Their investigations are cumbersome, highly manual, and riddled with blind spots. It’s nearly impossible to prioritize efforts, leaving the SOC simply buried in reactive cycles and alert fatigue.  Bottom line—SOC metrics are getting worse—while adversaries are becoming more sophisticated and creative in carrying out their mission.</p>
-<p>XDR has the potential to be a one-stop solution to alleviating these SOC issues and improving operational inefficiencies.</p>
-<h2><strong>XDR Options</strong></h2>
-<p>Many cybersecurity providers are trying to offer an XDR capability of some sort. They promise to provide visibility and control across all vectors, and offer more analysis, context and automation to obtain faster and better response when reacting to a threat. Point players are limited to expertise in their domain (endpoint or network) and can’t offer a critical, proven cross-portfolio platform. After all, can your endpoint platform offer true XDR functionality it it’s not also connected to network, cloud and web?</p>
-<p>McAfee’s long-time mantra has been Better Together. That mantra underscores our commitment to deliver comprehensive security that works cohesively across all threat vectors – device, network, web and cloud and with non-McAfee products.  Industry analysts and customers agree that McAfee is well positioned to deliver a solid XDR offering given our platform strategy and portfolio.</p>
-<h2><strong>There is more to the McAfee XDR Story</strong></h2>
-<p>Now, what if you had that same comprehensive XDR capability that not only offered visibility and control across the vectors, but also allows you to get ahead of adversary and empowering you to be more proactive. It could give you a heads up on threats that are likely to attack you based on global and industry trends, based on what your local environment looks like. With this highly credible prediction comes the prescribed guidance on how to counter the threat before it hits you. Imagine it also supplies prescriptive actions you can take to protect your users, data, applications and devices spanning from device to cloud. Other XDR conversations can’t take the conversation to this level of proactivity. McAfee can in our recently announced <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/xdr.html" rel="noopener noreferrer">MVISION XDR.</a></p>
-<p>Not only does McAfee take XDR to the next level, but it also helps you better mitigate cyber risk by enabling you to prioritize and focus on what most matters. What if your threat response was prioritized based on the impact to the organization? You need to understand what the attackers are targeting. How close are they to the most sensitive data based on the users and devices? MVISION XDR offers this context and data-awareness to focus your analysts on what counts. For example, threats that jeopardize sensitive data from a finance executive on his device will automatically be of priority versus a maybe threat on general purpose device with no data. This data-awareness is not noted well in other XDR conversations, but it is with recently announced MVISION XDR<strong><em>.  </em></strong></p>
-<p>Let’s look at McAfee’s journey and investment with XDR and how we got to this exceptional XDR approach.</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-115705" src="https://www.mcafee.com/wp-content/uploads/2021/01/1.png" alt="" width="750" height="422" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/1.png 750w, https://www.mcafee.com/wp-content/uploads/2021/01/1-300x169.png 300w, https://www.mcafee.com/wp-content/uploads/2021/01/1-205x115.png 205w" sizes="(max-width: 750px) 100vw, 750px"/></p>
-<h2><strong>McAfee XDR Journey</strong></h2>
-<p>McAfee’s XDR Journey did not simply start up recently because a buzz word appeared that needed to spoke to.   As noted earlier, McAfee’s mantra “Together is Better” sets the stage for a unified security approach, which is core to the XDR promise.  McAfee recognized early on that multi-vendors security ecosystem is a key requirement to build a defense in depth security practice. OpenDXL the open-source community delivered the data exchange layer or the DXL message bus architecture. This enabled our diverse ecosystem of partners from threat intelligence platforms, to orchestration tools to use a common transport mechanism and information exchange protocol. Most enterprise security architectures will be a heterogenous mix of various security solutions. McAfee is one of the founding members of the <a target="_blank" href="https://opencybersecurityalliance.org/" rel="noopener noreferrer">Open CyberSecurity Alliance (OCA)</a> where we contributed our DXL ontology – enabling participating vendors to not only communicate vital threat details but inform what to do to all connected multi-vendor security solutions.</p>
-<p>Realizing EDR is network blind and SIEM is endpoint blind, we integrated McAfee EDR and SIEM.  McAfee continues to deliver XDR capabilities by bringing multiple telemetry sources on a platform from a single console for analytics and investigation, driving remediation decisions with automatic enforcement across the enterprise.  When you combine  <a target="_blank" href="https://www.businesswire.com/news/home/20201029005036/en/McAfee-Introduces-MVISION-XDR-Industry-First-Proactive-Data-Aware" rel="noopener noreferrer">MVISION XDR</a> the first proactive, data-aware and open XDR and <a target="_blank" href="https://www.businesswire.com/news/home/20201112005143/en/McAfee-Announces-MVISION-Marketplace-MVISION-API-Enable" rel="noopener noreferrer">released MVISION Marketplace and API</a> further supporting the open security ecosystem for XDR capabilities, organizations have a solid starting point to advance their visibility and control across their entire cyber infrastructure.</p>
-<p>Before all the XDR hype, McAfee customers have been on the XDR path. Our customers have already gained XDR capabilities and are positioned to grow with more XDR capabilities. I encourage you to check out the video below.</p>
-<p><iframe title="Introducing MVISION XDR" width="800" height="450" src="https://www.youtube.com/embed/zzCqKzgj_r4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/security-operations/the-road-to-xdr/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Build your digital transformation on these four pillars</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/build-your-digital-transformation-on-these-four-pillars/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[build]]></category>
-		<category><![CDATA[Digital]]></category>
-		<category><![CDATA[Pillars]]></category>
-		<category><![CDATA[transformation]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/build-your-digital-transformation-on-these-four-pillars/</guid>
-
-					<description><![CDATA[Digital transformation has been a complex endeavor since businesses first started going down this path, and it&#8217;s not getting any simpler.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Digital transformation has been a complex endeavor since businesses first started going down this path, and it&#8217;s not getting any simpler. The technology landscape runs from mainframe to PC, from mobile to server, and from on-premises operations to the cloud, with most organizations running some combination of the above.</p>
-<p><a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">Getting a handle on a digital transformation</a> today means trying to control as much of this as possible as you support the business’s broader goals of building new revenue streams, cutting costs, and minimizing overall risk.</p>
-<p>While IT has traditionally been a cost center that helps in optimizing the business, in the new normal, CIOs must collaborate with the entire C-suite in order to move the business forward effectively, even if everyone has a different agenda. (And everyone always has a different agenda.) IT is no longer just about optimizing the business. It’s about delivering business.</p>
-<p>To maximize the value of your digital transformation, focus on these four key areas.</p>
-<h3><strong>1. Accelerate application delivery</strong></h3>
-<p>It’s critical to be able to reliably scale agile and DevOps across all of your environments, from the mainframe to the cloud, while quickly <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">bringing innovations to life at the pace your business demands</a>.</p>
-<h3><strong>2. Simplify your IT transformation</strong></h3>
-<p>By <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/manage-cloud-complexity?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">simplifying the complexity of a hybrid IT environment</a> and unifying how you provision and manage it, you can transform into an agile, services-driven organization.</p>
-<h3><strong>3. Strengthen your cyber resilience</strong></h3>
-<p>Now more than ever, it&#8217;s critical to <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">intelligently adapt your security posture</a> to respond to an ever-evolving threat landscape and protect your company’s most important assets: its data.</p>
-<h3><strong>4. Analyze in time to act</strong></h3>
-<p>Finally, you need to <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-enterprise-6-t?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">leverage machine learning </a>in order to transform unlimited volumes of data into accurate, actionable, and automated insights that are useful to the business.</p>
-<h3>Shared architecture is key</h3>
-<p>All four of these pillars should be built with a shared architecture in mind. It’s essential to avoid implementing a jumble of disparate products, each of which is designed to tackle a single aspect of this strategy. Instead, <a target="_blank" href="https://techbeacon.com/devops/how-value-stream-mapping-delivers-better-devops-toolchain" rel="noopener">implement tool chain components that work together </a>in a unified, cohesive manner.</p>
-<p>Leverage common tools whenever possible, regardless of the underlying platform, and your teams should use them across functions, including strategic planning, development and operations, quality assurance, customer support, and security and governance.</p>
-<h3>Your best option to get started: IT4IT</h3>
-<p>This all sounds complex, but help is available, because this methodology and architecture has been standardized as part of <a target="_blank" href="https://techbeacon.com/enterprise-it/why-new-it4it-reference-architecture-game-changer" rel="noopener">the IT4IT Reference Architecture</a>, which lays out the groundwork of this implementation for you. The <a target="_blank" href="https://techbeacon.com/enterprise-it/why-interest-it4it-rise" rel="noopener">IT4IT standard is gaining traction</a> because it defines a comprehensive IT framework for delivering value to the business through key value streams—the <a target="_blank" href="https://www.opengroup.org/IT4IT/downloads" rel="nofollow noopener">standard has been downloaded</a> more than 10,000 times to date.</p>
-<p>So how do you get started with this process, and what steps do you need to take to implement an IT4IT architecture foundation in your enterprise? The first step is to identify the stakeholders across your IT organization: the people who will be essential in implementing this strategy.</p>
-<p>Then assess what systems currently exist in each of the functional buckets that serve as the backdrop to your architecture and ask which value streams are the most critical to standardize and improve. From there, the process is iterative. Determine which tools will meet your needs and implement them in iterations based on importance.</p>
-<p>In several businesses we worked with, we created a visual map of all the tools the organization was using in order to paint a clear picture of its trouble spots and disconnects, and to develop an appropriate strategy for the business’s transformation.</p>
-<p>For example, you can leverage IT4IT to solve <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">hybrid IT management challenges</a>. You do this by leveraging a common tool set to manage a closed-loop incident process that uses predictive technology to automate your customer support requests, connecting your assurance, support, consumption, and fulfillment functional groups.</p>
-<p>IT4IT can also <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/software-factory-devops?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">improve DevOps automation</a> by increasing service reliability, helping you to visualize, analyze, and maintain IT health through a feedback loop that connects assurance, support, consumption, quality, and development—while accelerating delivery through automated release and fulfillment systems.</p>
-<blockquote>
-<p>With everyone aligned on a common set of tools, the business runs more efficiently and with a greater alignment to the business’s overall goals.</p>
-</blockquote>
-<h3>How my team consolidated tool chains</h3>
-<p>My team adopted these strategies and processes after recognizing the challenges and limitations of our own disconnected tool chains. (In our software build group alone, we were using 96 different tools, mostly due to many acquisitions.) Because of this disconnect, our IT group was unable to effectively connect with customers or support them, because everything was buried in different tool chains.</p>
-<p>Resources could not be reused across departments, and teams didn’t trust one another from one department to the next because their operational environments were so different. Without the IT4IT reference architecture, we didn’t have an effective way of <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">building a digital factory that could deliver digital products effectively</a>.</p>
-<p>IT4IT was designed to correct this type of issue, and it’s been dramatically successful in our own ecosystem. Now we’re working on the next iteration of IT4IT, and there’s more innovation coming in the generation of the standard. IT4IT gives you the freedom to re-architect and re-engineer your existing processes—and best of all, it does so in a vendor-agnostic way, so you can freely move any element of your architecture from one vendor to another as needed.</p>
-<p><em>Want to learn more? Join the IT4IT webinar, &#8220;<a target="_blank" href="https://www.brighttalk.com/webcast/8743/454357" rel="nofollow noopener">Control Your Digital Transformation with IT4IT Value Streams</a>,&#8221; where I discuss how your enterprise can move through the IT value chain with maximum efficiency and agility.</em></p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/build-your-digital-transformation-these-four-pillars">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Major Gaming Companies Hit with Ransomware Linked to APT27</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/major-gaming-companies-hit-with-ransomware-linked-to-apt27/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 15:26:12 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APT27]]></category>
-		<category><![CDATA[companies]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Hit]]></category>
-		<category><![CDATA[Linked]]></category>
-		<category><![CDATA[Major]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/major-gaming-companies-hit-with-ransomware-linked-to-apt27/</guid>
-
-					<description><![CDATA[Researchers say a recent attack targeting videogaming developers has &#8216;strong links&#8217; to the infamous APT27 threat group. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers say a recent attack targeting videogaming developers has &#8216;strong links&#8217; to the infamous APT27 threat group.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/ransomware-major-gaming-companies-apt27/162735/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ElectroRAT Drains Cryptocurrency Wallet Funds of Thousands</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/electrorat-drains-cryptocurrency-wallet-funds-of-thousands/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 05 Jan 2021 15:00:21 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Drains]]></category>
-		<category><![CDATA[ElectroRAT]]></category>
-		<category><![CDATA[Funds]]></category>
-		<category><![CDATA[thousands]]></category>
-		<category><![CDATA[Wallet]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/electrorat-drains-cryptocurrency-wallet-funds-of-thousands/</guid>
-
-					<description><![CDATA[At least 6,500 cryptocurrency users have been infected by new, &#8216;extremely intrusive&#8217; malware that&#8217;s spread via trojanized macOS, Windows and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />At least 6,500 cryptocurrency users have been infected by new, &#8216;extremely intrusive&#8217; malware that&#8217;s spread via trojanized macOS, Windows and Linux apps.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/electrorat-drains-cryptocurrency-wallet-funds-of-thousands/162705/">Source link </a></p>
 ]]></content:encoded>
 					
 		
