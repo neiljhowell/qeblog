@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 07 Jan 2021 06:11:19 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 08 Jan 2021 06:00:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,797 +28,387 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>10 Good Practices in Selenium C# Automation</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/10-good-practices-in-selenium-c-automation/</link>
+		<title>Bugs in Firefox, Chrome, Edge Allow Remote System Hijacking</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/bugs-in-firefox-chrome-edge-allow-remote-system-hijacking/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 07 Jan 2021 06:11:19 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[good]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/10-good-practices-in-selenium-c-automation/</guid>
-
-					<description><![CDATA[I wanted to share with you some of the good practices I learned along the way, that I wish I]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>I wanted to share with you some of the good practices I learned along the way, that I wish I knew when I first started my automation testing journey. While what we call “<a target="_blank" href="https://blog.testproject.io/2020/06/14/are-best-practices-really-the-best/" rel="noopener">best practice</a>” may not apply to all projects or all people, please read on to find advice on how you can improve your Selenium C# automation framework.</p>
-<h2><strong>Table of Contents – Good Practices in Selenium C# Automation</strong></h2>
-<ol>
-<li><a target="_blank" href="https://blog.testproject.io/#CodeConventions" rel="noopener">Coding Conventions</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#DRY" rel="noopener">The DRY principle</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#IndependentTests" rel="noopener">Independent tests</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#SingleResponsibility" rel="noopener">Single responsibility principle</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#LimitAssertions" rel="noopener">Limit the number of assertions</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#Locators" rel="noopener">Locator strategy</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#Waits" rel="noopener">Use waits</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#POM" rel="noopener">Page Object Model</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#Screenshots" rel="noopener">Take screenshots</a></li>
-<li><a target="_blank" href="https://blog.testproject.io/#Reporting" rel="noopener">Reporting</a></li>
-</ol>
-<hr/>
-<h2><strong><a target="_blank" id="CodeConventions" rel="noopener">Coding conventions</strong></h2>
-<p>These conventions exist to have a consistent-looking code and enable readers to understand the code faster by making assumptions based on previous experiences. This article focuses on C#, so the conventions found here will not apply to other programming languages.</p>
-<h3><strong><a target="_blank" id="Naming" rel="noopener">Naming conventions</strong></h3>
-<ul>
-<li>Use <strong>PascalCase </strong>for method and class names.</li>
-</ul>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// Good
-public class HomePage
-// Bad
-public class homepage
-public class homePage</pre>
-<ul>
-<li>Use <strong>camelCase </strong>for local variables and parameters (the first word starts with lower case, following words with upper case).</li>
-<li>Don’t use abbreviations – there is no limit on the number of characters a class, method, or variable name can have, so avoid creating confusion or inconsistencies by using abbreviations.</li>
-<li>Avoid using the underscore character (the only exception are private variables).</li>
-</ul>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// Good
-private string _password = "12345";
-HomePage homePage = new HomePage(driver);
-// Bad
-HomePage home_Page = new HomePage(driver);</pre>
-<ul>
-<li>Include the word “Test” at the end of your test classes (e.g. LoginTest, ShoppingCartTest etc.).</li>
-<li>Use nouns for class names, and verbs for methods.</li>
-</ul>
-<h3><strong><a target="_blank" id="Layout" rel="noopener">Layout conventions</strong></h3>
-<ul>
-<li>Do not include more than one statement or declaration per line.</li>
-<li>The comments should be added on the line preceding the code, not after the code. Also, try to make the code as clear as possible so it does not need to be explained through comments.</li>
-</ul>
-<p>A good example of comment formatting:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// This methods sends the credentials.
-public void Login(string name, string password)
-{
-      Name.SendKeys(name);
-      Password.SendKeys(password);
-      LoginButton.Click();
-}
-</pre>
-<p>And a bad example:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">public void Login(string name, string password)
-{
-      Name.SendKeys(name); //sends the name
-      Password.SendKeys(password); //sends the password
-      LoginButton.Click();
-}
-</pre>
-<h2><strong><a target="_blank" id="DRY" rel="noopener">The DRY principle</strong></h2>
-<p>DRY, short for <strong>D</strong>on’t <strong>R</strong>epeat <strong>Y</strong>ourself, is a principle aimed at reducing code duplication. It’s <a target="_blank" href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" rel="noopener">defined as</a> “Every piece of knowledge must have a single, unambiguous, authoritative representation within a system”.</p>
-<p>To achieve the DRY principle, make sure you avoid code duplication. For example, if all your tests require the user to log in, create a setup method that performs the login and runs before each test. Or declare your web elements as variables so you don’t search for them on the page each time you need to interact with them:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">// Good:
-private IWebElement name =&gt; driver.FindElement(By.CssSelector("#name"));
-name.Click();
-name.SendKeys("User Name");
-
-// Bad:
-driver.FindElement(By.CssSelector("#name")).Click();
-driver.FindElement(By.CssSelector("#name")).SendKeys("User Name");</pre>
-<h2><strong><a target="_blank" id="IndependentTests" rel="noopener">Independent tests</strong></h2>
-<p>This is a very important aspect of a good and stable automation framework. If you want your tests to be reliable, avoid making one test depend on another i.e. create the test data for TestCase2 in TestCase1. This may cause unexpected test failures, which can consume valuable time spent debugging and fixing, without actually uncovering any issues in the AUT. Also, if you want to consider test parallelization (which you definitely should), you can’t control the order in which the tests run, which means that the dependent test might run before the test it depends on.</p>
-<h2><strong><a target="_blank" id="SingleResponsibility" rel="noopener">Single responsibility principle</strong></h2>
-<p>A term introduced by Uncle Bob, author of the <a target="_blank" href="https://www.oreilly.com/library/view/clean-code-a/9780136083238/" rel="noopener">Clean Code book</a>, the Single responsibility principle refers to the fact that classes should have one single responsibility, therefore only one reason to change. In test automation, this translates into short tests, that don’t validate multiple functionalities, and that should have only one reason for failure.</p>
-<p>Consider using setup and teardown methods, to separate the preconditions (such as opening the browser, signing in) from the tests, and also to clean up after your test (close the browser, delete any test-specific data).</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">[SetUp]
-public void Login()
-{         
-        runner.Run(new LoginTest());
-}
-
-[Test]
-public void AddItemsToCart()
-{         
-        runner.Run(new AddItemsToCartTest());
-}
-
-[OneTimeTearDown]
-public void TearDown()
-{
-        runner.Dispose();            
-}</pre>
-<p>The above example uses NUnit with <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a> C# <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview" rel="noopener">SDK</a>. The [SetUp] is the method that logs the user in, and then the test itself only checks that items are added to the cart. If there is something wrong with the login, only the setup will fail, and the test will be blocked. This way, we’ll know that the problem lies with the login functionality, and not with adding items to the cart.</p>
-<h2><strong><a target="_blank" id="LimitAssertions" rel="noopener">Limit the number of assertions</strong></h2>
-<p>This practice reinforces the single responsibility principle. Keep in mind that the tests should have one, or two assertions at most. If you feel the need to include more, consider splitting your large test into smaller, more granular ones, that focus on fewer validations.</p>
-<h2><strong><a target="_blank" id="Locators" rel="noopener">Locator strategy</strong></h2>
-<p>An important part of UI automation is using the right <a target="_blank" href="https://blog.testproject.io/2017/02/09/inspect-web-elements-chrome-devtools/" rel="noopener">locators</a>. The locator strategies available in Selenium C# are:</p>
-<ul>
-<li>Id</li>
-<li>Name</li>
-<li>LinkText</li>
-<li>PartialLinkText</li>
-<li>TagName</li>
-<li>ClassName</li>
-<li>CssSelector</li>
-<li>XPath</li>
-</ul>
-<p>When available and unique, the most <a target="_blank" href="https://www.selenium.dev/documentation/en/getting_started_with_webdriver/locating_elements/" rel="noopener">recommended locator strategy</a> is the ID. It’s the fastest locator, and it’s also easy to use. ClassName is also a good locator strategy, but it also has to be unique, which you probably noticed is not always the case.</p>
-<p>When ID and ClassName are not available, the following preferred locator is the <a target="_blank" href="https://blog.testproject.io/2017/08/10/css-selector-custom-attributes/" rel="noopener">CssSelector</a>, which is a pattern that uses attributes and their values. Here’s how to use CssSelector in C# to identify a div element that follows an element with ID=password:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">driver.FindElement(By.CssSelector("#password ~div"));</pre>
-<p>After CssSelector, comes the <a target="_blank" href="https://blog.testproject.io/2019/11/18/xpath-and-ui-element-identification-using-xpath-selectors/" rel="noopener">XPath,</a> which locates the elements in the DOM structure. The LinkText and PartialLinkText are available only when the element you need to locate is a link, otherwise they cannot be used. Name and TagName should be used only if they are unique, or when you need to find multiple elements with the same name, or tag name, using the FindElements() method.</p>
-<p>To help with identifying the best locator for your element, you can use the developer tools in your browser, or you can use a tool like <a target="_blank" href="https://app.testproject.io/" rel="noopener">TestProject</a> to help you identify the element’s attributes:</p>
-<p></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-16246 " title="Element Locators in TestProject" src="https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator.png" alt="Element Locators in TestProject" width="921" height="422" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator.png 1690w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator-512x234.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator-768x352.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ElementLocator-1024x469.png 1024w" sizes="(max-width: 921px) 100vw, 921px"/></noscript></p>
-<h2><strong><a target="_blank" id="Waits" rel="noopener">Use waits</strong></h2>
-<h3><strong><a target="_blank" id="AvoidSleep" rel="noopener">Avoid using Thread.Sleep()</strong></h3>
-<p>You probably heard this before, but I will say it again. Thread.Sleep() will make the test wait the amount of time passed as a parameter, statically. For example, if you set the sleep time to 5 seconds, and then try to find an element, you have to wait the whole 5 seconds before the test continues, even if it takes only 3 seconds to load the element. This adds unnecessary delays to your code. Two seconds may not seem like a lot, but if you use this in hundreds of tests, they amount to a few minutes <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/23f3.png" alt="⏳" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>A good practice is to use Selenium WebDriver’s <a target="_blank" href="https://blog.testproject.io/2020/04/13/selenium-wait-methods/" rel="noopener">wait</a> methods instead.</p>
-<h3><strong><a target="_blank" id="ImplicitWaits" rel="noopener">Implicit waits</strong></h3>
-<p>The implicit wait delays the execution for the specified amount of time until the web element is found. However, unlike the Sleep, if the element is found before the time elapses, the test will continue normally. It also applies to all the web elements in the test script.</p>
-<p>Here’s how an implicit wait looks in C#:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);</pre>
-<p>The downside of the implicit wait is that it only applies to the <a target="_blank" href="https://blog.testproject.io/2020/03/05/selenium-webelement-methods/" rel="noopener">FindElement() method</a>.</p>
-<h3><strong><a target="_blank" id="ExplicitWaits" rel="noopener">Explicit waits</strong></h3>
-<p>Explicit waits apply only to a specific element. We use them to wait until a certain condition is met.</p>
-<figure id="attachment_16276" aria-describedby="caption-attachment-16276" style="width: 1098px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-16276 " title="Explicit Wait Expected Conditions in C#" alt="Explicit Wait Expected Conditions in C#" width="1098" height="602" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png 2650w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-512x281.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-768x421.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-1024x561.png 1024w" data-lazy-sizes="(max-width: 1098px) 100vw, 1098px" src="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png"/><noscript><img loading="lazy" class="wp-image-16276 " title="Explicit Wait Expected Conditions in C#" src="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png" alt="Explicit Wait Expected Conditions in C#" width="1098" height="602" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions.png 2650w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-512x281.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-768x421.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/ExpectedConditions-1024x561.png 1024w" sizes="(max-width: 1098px) 100vw, 1098px"/></noscript><figcaption id="caption-attachment-16276" class="wp-caption-text">The list of available expected conditions</figcaption></figure>
-<p>To use explicit waits in C#, you need the DotNetSeleniumExtras NuGet package. Here’s a code sample of an explicit wait that waits for an element to be clickable:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
-IWebElement element = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.Id("element-id")));
-</pre>
-<h3><strong><a target="_blank" id="DontMixWaits" rel="noopener">Be mindful when mixing explicit and implicit waits</strong></h3>
-<p>This can cause undefined behavior, unexpected wait times, and overall decrease the reliability of your tests.</p>
-<h2><strong><a target="_blank" id="POM" rel="noopener">Page Object Model</strong></h2>
-<p>An already well-known good practice in UI test automation is to use a <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener">design pattern</a>. The most popular design pattern in UI automation is probably the <a target="_blank" href="https://blog.testproject.io/2020/11/09/page-object-model-in-selenium-using-c-sharp-nunit-reporting/" rel="noopener">Page Object Model</a> (also known as POM).  When working with POM, we separate the UI interaction methods from the actual tests. Each web page or web component is represented by its own class, where we store all the methods related to this particular page or component, which we then call from the test methods. This provides a great way to avoid code duplication and allows easier maintenance of the test framework.</p>
-<h3><strong><a target="_blank" id="NoAssertions" rel="noopener">No Assertions in page objects</strong></h3>
-<p>Keep assertions out of the page object classes. If you want to include a validation inside the test class, make it return a boolean value. This way, you can use it to validate both positive and <a target="_blank" href="https://blog.testproject.io/2019/05/27/the-positive-outcomes-of-negative-testing/" rel="noopener">negative</a> scenarios.</p>
-<p>Here’s an example:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">// The method inside the page object class returns true if the name is displayed, and false if it not:
-public bool IsUserLoggedIn(string name)
-{
-      return DisplayName.Text.Equals(name);
-}
-
-// The assertions inside the test method:
-Assert.IsTrue(IsUserLoggedIn("My Username");</pre>
-<h3><strong><a target="_blank" id="NoSeleniumMethods" rel="noopener">No Selenium methods in tests</strong></h3>
-<p>Include Selenium methods in your page object classes, not your test methods. Each web element can be declared as a private variable inside its class, and the methods should be public so they can be accessed from the test classes.</p>
-<h3><strong><a target="_blank" id="Wrappers" rel="noopener">Use wrappers</strong></h3>
-<p>Or better yet, wrap the Selenium methods inside your own methods. This reduces the dependency on any possible changes inside the Selenium libraries. It can also be useful if you often use certain methods together.</p>
-<p>For example, to write something inside a text box, you might click the text box, clear the existing text, then enter your text. You can create a method that takes the element as a parameter and performs all these actions:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public void WriteText(IWebElement element, string text)
-{
-        element.Click();
-        element.Clear();
-        element.SendKeys(text);
-}</pre>
-<h2><strong><a target="_blank" id="Screenshots" rel="noopener">Take screenshots</strong></h2>
-<p>Another good practice is to take screenshots of the failed steps. This will help you better understand where and why the step failed, and also make debugging easier. Selenium has the method GetScreenshot() available, which takes screenshots of the entire webpage or a specific element.</p>
-<p>If you are using the TestProject <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview" rel="noopener">SDK</a>, you can use the TakeScreenshotConditionType enum as a parameter in the test step to decide when to take a screenshot:</p>
-<p><img loading="lazy" class="alignnone wp-image-16366 size-medium" title="TestProject Take Screenshot" alt="TestProject Take Screenshot" width="512" height="197" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-768x295.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-1024x394.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot.png 1241w" data-lazy-sizes="(max-width: 512px) 100vw, 512px" src="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png"/></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-16366 size-medium" title="TestProject Take Screenshot" src="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png" alt="TestProject Take Screenshot" width="512" height="197" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-512x197.png 512w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-768x295.png 768w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot-1024x394.png 1024w, https://blog.testproject.io/wp-content/uploads/2020/12/TakeScreenshot.png 1241w" sizes="(max-width: 512px) 100vw, 512px"/></noscript></p>
-<h2><strong><a target="_blank" id="Reporting" rel="noopener">Reporting</strong></h2>
-<p>Last, but definitely not least, use a good <a target="_blank" href="https://blog.testproject.io/2020/08/12/8-leading-test-reporting-tools-for-selenium/" rel="noopener">reporting tool</a> to demonstrate the results of your test run. Not only will this help your work become more visible, but you can share the results with management, clients, or other non-technical audiences that may be interested in the various test metrics.</p>
-<p><a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">Test reports</a> can also help you see how your tests progressed – how much time they take, how many passed or failed, compared to previous runs, and so on.</p>
-<h2><strong>Conclusions</strong></h2>
-<p>Even if you already know of some of these good practices in test automation, I hope this article was a good reminder of how to apply them in your work. While they might seem like a lot of work in the beginning, I promise you they will make your life easier in the long run <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2021/01/07/good-practices-in-selenium-csharp-automation/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>NSA Urges SysAdmins to Replace Obsolete TLS Protocols</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 22:16:51 +0000</pubDate>
+		<pubDate>Fri, 08 Jan 2021 06:00:28 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[NSA]]></category>
-		<category><![CDATA[Obsolete]]></category>
-		<category><![CDATA[Protocols]]></category>
-		<category><![CDATA[Replace]]></category>
-		<category><![CDATA[SysAdmins]]></category>
-		<category><![CDATA[TLS]]></category>
-		<category><![CDATA[Urges]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/</guid>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Edge]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[Hijacking]]></category>
+		<category><![CDATA[Remote]]></category>
+		<category><![CDATA[System]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/bugs-in-firefox-chrome-edge-allow-remote-system-hijacking/</guid>
 
-					<description><![CDATA[The NSA released new guidance providing system administrators with the tools to update outdated TLS protocols. Source link]]></description>
+					<description><![CDATA[Major browsers get an update to fix separate bugs that both allow for remote attacks, which could potentially allow hackers]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />The NSA released new guidance providing system administrators with the tools to update outdated TLS protocols.<br />
+<br />Major browsers get an update to fix separate bugs that both allow for remote attacks, which could potentially allow hackers to takeover targeted devices.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/nsa-urges-sysadmins-to-replace-obsolete-tls-protocols/162814/">Source link </a></p>
+<br /><a href="https://threatpost.com/firefox-chrome-edge-bugs-system-hijacking/162873/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>It’s Not the Trump Sex Tape, It’s a RAT</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/its-not-the-trump-sex-tape-its-a-rat/</link>
+		<title>Biden to Appoint Cybersecurity Advisor to NSC – Report</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/biden-to-appoint-cybersecurity-advisor-to-nsc-report/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 21:20:47 +0000</pubDate>
+		<pubDate>Thu, 07 Jan 2021 22:21:27 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[RAT]]></category>
-		<category><![CDATA[Sex]]></category>
-		<category><![CDATA[Tape]]></category>
-		<category><![CDATA[Trump]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/its-not-the-trump-sex-tape-its-a-rat/</guid>
-
-					<description><![CDATA[Criminals are using the end of the Trump presidency to deliver a new remote-access trojan (RAT) variant disguised as a]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Criminals are using the end of the Trump presidency to deliver a new remote-access trojan (RAT) variant disguised as a sex video of the outgoing POTUS, researchers report.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/trump-sex-tape-rat/162810/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Feds Issue Recommendations for Maritime Cybersecurity</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/feds-issue-recommendations-for-maritime-cybersecurity/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 20:29:39 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Advisor]]></category>
+		<category><![CDATA[Appoint]]></category>
+		<category><![CDATA[Biden]]></category>
 		<category><![CDATA[Cybersecurity]]></category>
-		<category><![CDATA[Feds]]></category>
-		<category><![CDATA[Issue]]></category>
-		<category><![CDATA[Maritime]]></category>
-		<category><![CDATA[Recommendations]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/feds-issue-recommendations-for-maritime-cybersecurity/</guid>
+		<category><![CDATA[NSC]]></category>
+		<category><![CDATA[Report]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/biden-to-appoint-cybersecurity-advisor-to-nsc-report/</guid>
 
-					<description><![CDATA[Report outlines deep cybersecurity challenges for the public/private seagoing sector. Source link]]></description>
+					<description><![CDATA[Anne Neuberger will join the National Security Council, according to sources. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Report outlines deep cybersecurity challenges for the public/private seagoing sector.<br />
+<br />Anne Neuberger will join the National Security Council, according to sources.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/feds-recommendations-maritime-cybersecurity/162804/">Source link </a></p>
+<br /><a href="https://threatpost.com/biden-cybersecurity-advisor-nsc/162867/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Cybercriminals Ramp Up Exploits Against Serious Zyxel Flaw</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/cybercriminals-ramp-up-exploits-against-serious-zyxel-flaw/</link>
+		<title>Nvidia Warns Windows Gamers of High-Severity Graphics Driver Flaws</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/nvidia-warns-windows-gamers-of-high-severity-graphics-driver-flaws/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 16:40:26 +0000</pubDate>
+		<pubDate>Thu, 07 Jan 2021 21:14:36 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cybercriminals]]></category>
-		<category><![CDATA[Exploits]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[Ramp]]></category>
-		<category><![CDATA[ZyXel]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cybercriminals-ramp-up-exploits-against-serious-zyxel-flaw/</guid>
+		<category><![CDATA[Driver]]></category>
+		<category><![CDATA[Flaws]]></category>
+		<category><![CDATA[Gamers]]></category>
+		<category><![CDATA[Graphics]]></category>
+		<category><![CDATA[HighSeverity]]></category>
+		<category><![CDATA[Nvidia]]></category>
+		<category><![CDATA[Warns]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/nvidia-warns-windows-gamers-of-high-severity-graphics-driver-flaws/</guid>
 
-					<description><![CDATA[More than 100,000 Zyxel networking products could be vulnerable to a hardcoded credential vulnerability (CVE-2020-29583) potentially allowing cybercriminal device takeover.]]></description>
+					<description><![CDATA[In all, Nvidia patched flaws tied to 16 CVEs across its graphics drivers and vGPU software, in its first security]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />More than 100,000 Zyxel networking products could be vulnerable to a hardcoded credential vulnerability (CVE-2020-29583) potentially allowing cybercriminal device takeover.<br />
+<br />In all, Nvidia patched flaws tied to 16 CVEs across its graphics drivers and vGPU software, in its first security update of 2021.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/cybercriminals-exploits-zyxel-flaw/162789/">Source link </a></p>
+<br /><a href="https://threatpost.com/nvidia-windows-gamers-graphics-driver-flaws/162857/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>DevOps security culture: 12 fails your team can learn from</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/devops-security-culture-12-fails-your-team-can-learn-from/</link>
+		<title>9 Test Automation Predictions for 2021 &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/9-test-automation-predictions-for-2021-automated-visual-testing/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[culture]]></category>
-		<category><![CDATA[DevOps]]></category>
-		<category><![CDATA[fails]]></category>
-		<category><![CDATA[Learn]]></category>
-		<category><![CDATA[team]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/devops-security-culture-12-fails-your-team-can-learn-from/</guid>
-
-					<description><![CDATA[Will DevOps and DevSecOps still be relevant in 50 years? Today&#8217;s DevOps technology will be long gone, but some cultural pieces may still be around. My]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Will DevOps and DevSecOps still be relevant in 50 years? Today&#8217;s DevOps technology will be long gone, but some cultural pieces may still be around. My best guess on the part of DevOps that will still exist: <a target="_blank" href="https://techbeacon.com/security/how-hack-your-security-culture" rel="noopener">DevOps security culture</a>.</p>
-<p>What is DevOps security culture? </p>
-<ul>
-<li><strong>Knowledge,</strong> because there are things that you must learn and understand to build secure software fast.</li>
-<li><strong>Experience,</strong> because you improve the process and tools the more times that you fail.</li>
-<li><strong>Art and creativity, </strong>because the innovation of process and tools requires exploring new security ideas, not just relying on the status quo.</li>
-<li><strong>Science, </strong>because what matters gets measured, and DevOps security improves by measuring input and output and making adjustments.</li>
-</ul>
-<p>DevOps security culture is defined by what happens with security when people are left to make their own decisions. We all do the right thing for security when a security team member is standing over our shoulder. But your true security culture is revealed on Friday at 4:30 p.m. when a feature promised to a customer must either get pushed to production or shelved until next week.</p>
-<p>If there is a security issue, and the customer requirement trumps the potential platform weakness, you have a weak security culture. If a developer can say, &#8220;Nope, this has a security issue, and we are unable to push to production,&#8221; you have a strong security culture.</p>
-<p>You want your DevOps security culture to continue to grow because it is <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-applica?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">crucial to your success in building secure software fast</a>. Your DevOps security culture is a living, breathing thing. <a target="_blank" href="https://techbeacon.com/security/4-ways-build-better-security-culture" rel="noopener">Security culture</a> can stagnate, but it can also continue to grow if you can absorb others&#8217; learnings and failures.</p>
-<p>Here are 12 DevOps security culture fails—and how to change.</p>
-<h3>1. Name and brand</h3>
-<p>The industry created a monster when it agreed to accept the term <em>DevSecOps</em>. The debate over the name—DevSecOps, SecDevOps, SecOps with dev, dev with a side of sec—has been a distraction, time misspent worrying about what amounts to a marketing term. </p>
-<blockquote>
-<p>Let&#8217;s just call it DevOps and teach everyone that there is no DevOps without security integrated.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Embrace and believe that security is not an afterthought with DevOps. Stop using any term other than <em>DevOps</em>.</li>
-</ul>
-<ul>
-<li>Teach all product and application-adjacent people this new definition. Your teams look to you for guidance. Standardize, and reap the reward of less confusion.</li>
-</ul>
-<ul>
-<li>Create a &#8220;DevSecOps&#8221; swear jar, and make people add money to it every time they use the term.</li>
-</ul>
-<h3>2. The infinity graph</h3>
-<p>The infinity graph is the never-ending visualization of DevOps that shows you&#8217;ll never complete anything. That is perhaps an exaggeration, but it&#8217;s not a good representation of building modern software in a development organization.</p>
-<p>To make matters worse, folks will wrap a rectangle around the infinity graph and write &#8220;security&#8221; on it to represent how they integrate security into their software.</p>
-<blockquote>
-<p>There is much more to integrating security than a rectangle.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Ban the infinity graph from your world. Choose an image or illustration that matches up to what you do with DevOps.</li>
-<li>Embrace pipeline visualization. DevOps with security is always a pipeline because a pipeline is a factual representation of how we build software with security integrated.</li>
-</ul>
-<h3>3. Security as a special team and lack of collaboration</h3>
-<p>&#8220;Special team&#8221; is sometimes used to describe the security team. This is especially true in older companies transitioning from other software development methodologies toward DevOps, where a security team was a separate entity, but it can also occur in startups if they&#8217;re not careful.</p>
-<p>Security as a particular team is a failure because when security is &#8220;special&#8221; and separate, it spends its time governing the DevOps process and the build pipelines instead of collaborating with the developers and operations folks to improve flow and security in tandem.</p>
-<p>Another failure with security teams is having team members who do not know how to code. <a target="_blank" href="https://techbeacon.com/security/secure-coding-throw-down-5-takeaways-your-app-sec-team" rel="noopener">Successful application security people</a> can read code in an object-oriented language. To gain this level of competence, app sec people must learn at least one language. Once you discover one, you can apply that knowledge to other languages and become a trusted adviser to development and operations.</p>
-<p>Collaboration among development, operations, and security is challenging when the security team thinks it&#8217;s unique.</p>
-<blockquote>
-<p>Siloed organizations and lack of communication result in more bugs and slower building software cycles.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Security isn&#8217;t special; lean into the fact that developers want to be responsible for security.</li>
-<li>Responsibility requires knowledge and experience.</li>
-<li>Teach everyone the foundational lessons of security.</li>
-<li>Teach security folk how to code. They must speak the language of the developer.</li>
-</ul>
-<ul>
-<li>To foster collaboration, institute communication paths among specialties and share both the good and the bad; no hiding anything.</li>
-<li>Build DevOps strike teams—dev, sec, and ops together.</li>
-<li>Foster a mutual partnership aimed at serving each other.</li>
-</ul>
-<h3>4. Vendor-defined DevOps</h3>
-<p>Who defines the DevOps standard? Where is the governing body that determines what DevOps is? Here&#8217;s the catch: There is no DevOps standard. Vendors define what DevOps means in the context of their product offerings. The things that vendors want to sell represent the category.</p>
-<p>There must be a vendor-independent architecture for what DevOps means to customers.</p>
-<blockquote>
-<p>Build the best possible solutions from your architecture, not from a vendor&#8217;s playbook.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Realize that there is no DevOps standard.</li>
-</ul>
-<ul>
-<li>Define <em>your</em> DevOps, and do not allow vendors to define DevOps for you within the context of whatever solution they provide.</li>
-</ul>
-<ul>
-<li>Study and teach the bigger, contextual reality of a vendor-independent DevOps throughout your organization.</li>
-</ul>
-<h3>5. Marketing term infatuation</h3>
-<p>Marketing terms are a necessary evil, and they&#8217;re not something that can be wished away, no matter how hard you try. <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-software-development-needs-shift-not-left-or-right" rel="noopener">&#8220;Shift left&#8221; and &#8220;shift right&#8221;</a> are the two marketing terms that are driving the DevOps space.</p>
-<p>Shift left means you start at the beginning of your process and consider security at each step of the way. Shift right means you adapt security tools and technologies in your production environment to bolster your capabilities. Neither is wrong, but better advice is to start left and start right. The catch here is that when you start left and start right, you&#8217;re back to what&#8217;s been called the &#8220;secure development lifecycle&#8221; for the past 20 years.</p>
-<p>When organizational strategy is driven according to marketing terms, you set yourself up for failure.</p>
-<blockquote>
-<p>Follow the best practices, but leave the marketing terms to the marketeers.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>&#8220;Start left&#8221; by embedding security into every section of your DevOps pipeline.</li>
-</ul>
-<h3>6. Big-company envy</h3>
-<p>Everyone wants to emulate the best. The acronym FAANG (Facebook, Amazon, Apple, Netflix, and Google) exists because small and large teams look to these giants as setters of the standard.</p>
-<p>The failure here is trying to base your DevOps security program on what the FAANGs are doing. The catch is that you&#8217;re not them. You&#8217;re a different organization with a different culture.</p>
-<blockquote>
-<p>Leave big-company envy for other people.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Avoid distracting yourself by fixating on what those at the top of the industry are doing with security.</li>
-</ul>
-<ul>
-<li>Make incremental progress: a tool here, a tool there.</li>
-</ul>
-<ul>
-<li>Cast a vision for where your DevOps with security needs to go.</li>
-</ul>
-<h3>7. Overcomplicated pipelines and doing everything now</h3>
-<p>DevOps and pipelines are complicated beasts. If you&#8217;re not careful, you can create pipelines that are so complicated, nobody really knows how your software gets built. A lack of understanding is a tough thing to admit, and the other danger is that if you are teetering on this edge of the cliff, you&#8217;re not going to be willing to accept it.</p>
-<p>The other challenge is doing everything now. As you build and mature your pipelines, the temptation exists to deploy all the tools and all the tech immediately.</p>
-<blockquote>
-<p>Immediacy sets you up for failure because adding all these moving pieces and building complexity means it&#8217;s even more challenging to understand the big picture.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Realize that there are dozens of categories of security tools.</li>
-</ul>
-<ul>
-<li>Start with a small subset of security tools and grow the pipeline over time. Software composition analysis (SCA) and static application security testing (SAST) are the best places to start.</li>
-</ul>
-<ul>
-<li>Keep it simple; the pipeline must be simple enough for all product and application-adjacent people to visualize and explain it.</li>
-</ul>
-<ul>
-<li>Avoid the pressure to solve all problems immediately. Take a phased approach.</li>
-</ul>
-<h3>8. Security as gatekeeper</h3>
-<p>The process of gatekeeping is adding manual checkpoints to an automated process, and it&#8217;s a dangerous temptation for old-school security people. Security people that have been doing security for more than a decade are used to a gatekeeping approach. When things moved slowly, it was easy to make the security checkpoints exist at the main gates in a process.</p>
-<blockquote>
-<p>DevOps goes fast and deploys often. If you&#8217;re gatekeeping, there is no way things are going fast.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Practice empathy. Walk a mile in each other&#8217;s shoes to truly understand the challenges of each role.</li>
-<li>Move security toward development, development toward operations. and operations toward security.</li>
-<li>Work together to find solutions, not roadblocks.</li>
-<li>Provide coaches from each discipline. Coaching is a teaching method, and collaboration occurs when all the roles learn from one another.</li>
-</ul>
-<h3>9. Noisy security tools</h3>
-<p>Noisy security tools hamper the productivity of developers. A loud security tool runs in the build pipeline and then sends a 10,000-line report or generates 1,000 tickets requiring resolution.</p>
-<blockquote>
-<p>The over-generation of data results in developers hating the pipeline security tools or, even worse, ignoring the output of the tools wholeheartedly.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Tune the existing security tools that exist in the pipeline before adding any new tools.</li>
-</ul>
-<ul>
-<li>Never waste anyone&#8217;s time with security findings that do not matter. Your team members measure the value of every tool you employ, and if you send them garbage results, they conclude that the tool is garbage.</li>
-</ul>
-<ul>
-<li>When adding new tools, start with a minimal policy; this is one where you tune the tool to look for one specific type of error. With a new tool, most people fall into the trap of turning on a maximum policy or everything that the tool supports, and they get 10,000 results when they run the tool, a quantity that no developer could ever take action on. By setting the policy at a minimal level, the developer learns to trust the tool, and over time you can increase the number of things the tool is checking for.</li>
-</ul>
-<h3>10. Lack of threat modeling</h3>
-<p>Threat modeling is analyzing representations of a system to highlight concerns about security and privacy characteristics. Threat modeling teaches everyone in your DevOps process how to think through and mitigate every new feature&#8217;s security challenges.</p>
-<p>The failure here is not tapping into the cultural eye-opening and knowledge building that <a target="_blank" href="https://techbeacon.com/security/threat-modeling-devops-3-lessons-front-lines" rel="noopener">security threat modeling</a> unlocks. When all team members grasp threat modeling concepts, they start to see potential security issues and can mitigate them and make them go away early in the process.</p>
-<blockquote>
-<p>Threat modeling makes for more secure features, applications, and products.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Perform threat modeling outside the scope of the pipeline. Threat modeling is not a pipeline activity, because it&#8217;s more process than it is an automated tool. <a target="_blank" href="https://techbeacon.com/security/how-defend-enterprise-apps-threat-modeling-4-lessons-learned" rel="noopener">Address it correctly</a> to maximize success.</li>
-</ul>
-<ul>
-<li>Connect threat modeling to your approach for doling out new feature assignments. Make threat modeling inherent in your process, and threat model all things.</li>
-</ul>
-<h3>11. Vulnerable code that&#8217;s in the wild</h3>
-<p>Open-source and third-party software is both great and terrible, at the same time. It&#8217;s great because it provides functionality and saves us from having to create the same feature functionality over and over again. It&#8217;s terrible because of <a target="_blank" href="https://techbeacon.com/security/5-ways-keep-open-source-based-apps-secure" rel="noopener">vulnerabilities in the software supply chain</a>.</p>
-<p>Vulnerable code could be a library or package with a known flaw, or a package with a backdoor.</p>
-<blockquote>
-<p>The failure from a DevOps perspective is allowing vulnerable code to slip into the wild.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Embed SCA into <em>all</em> your pipelines. In addition to commercial packages, open-source options are available, including <a target="_blank" href="https://github.com/rubysec/bundler-audit" rel="nofollow noopener">bundle-audit for Ruby</a>, <a target="_blank" href="https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities" rel="nofollow noopener">Npm audit for Node.js</a>, and <a target="_blank" href="https://owasp.org/www-project-dependency-check/" rel="nofollow noopener">the OWASP Dependency Check</a>, with numerous plugins.</li>
-<li>Set your SCA policy to fail and break the build when a vulnerability is detected.</li>
-<li>Ensure you have a time-boxed filtering policy. Sometimes there is no fix for a known problem yet, but you have to move forward. Instead of having a policy that allows filtering out vulnerabilities forever, time-box it so that after seven, 14, or 30 days, the issue starts to break the build again, causing developers to check if the fix is now available.</li>
-</ul>
-<h3>12. Lack of security retrospective</h3>
-<p>The final failure is forgetting to step back and examine how well security has worked out for your team. Security retrospective is about having a defined time to collect data about what went well and poorly, in a safe and blame-free place.</p>
-<blockquote>
-<p>Failing to perform retrospective creates a culture where learning from your failures is impossible because you never stop long enough to determine how you&#8217;re doing.</p>
-</blockquote>
-<h4>How to change culture</h4>
-<ul>
-<li>Always practice security retrospective and consider security failures as you would any other failure.</li>
-</ul>
-<ul>
-<li>Leave the blame at the door; growth comes from the ability to discuss failures freely.</li>
-</ul>
-<ul>
-<li>Measure output from retrospectives and manage process and pipeline change.</li>
-</ul>
-<h3>Go all in on resilient code</h3>
-<p>Some of the above failures discussed are outside of your control, but you can change how you present and use them for your teams. Naming, infinity graphs, and marketing terms are things you can fix to create an image for DevOps-plus-security that will stick with everyone.</p>
-<p>Remember that security and coding are for everyone. You must define <em>your</em> DevOps, not the DevOps that your vendors want you to live. Keep up the collaboration, keep it simple, lower the noise, add the best practices, threat model, add software composition analysis, and do blameless retrospectives.</p>
-<blockquote>
-<p>You must define <em>your</em> DevOps, not the DevOps that your vendors want you to live.</p>
-</blockquote>
-<p>Embrace and laugh at your failures. Life&#8217;s too short to let your failures define you. Failure determines how you get to success.</p>
-<p>The only impact DevOps could have 50 years from now is on security culture. DevOps security culture is a work in process, so continue to create it. Continue to strive to meld together dev, sec, and ops in a shared mission to secure everything you build. It&#8217;s a worthy cause and a mission with multiple levels of rewards.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/devops-security-culture-12-fails-your-team-can-learn">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>3 enterprise continuous testing challenges—and how to beat them</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/3-enterprise-continuous-testing-challenges-and-how-to-beat-them/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[beat]]></category>
-		<category><![CDATA[challengesand]]></category>
-		<category><![CDATA[Continuous]]></category>
-		<category><![CDATA[Enterprise]]></category>
+		<pubDate>Thu, 07 Jan 2021 20:24:40 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Predictions]]></category>
+		<category><![CDATA[Test]]></category>
 		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/3-enterprise-continuous-testing-challenges-and-how-to-beat-them/</guid>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/9-test-automation-predictions-for-2021-automated-visual-testing/</guid>
 
-					<description><![CDATA[Organizations on the Forbes Global 2000 list are increasingly beset by nimble startups intent on disrupting their industry. Accelerating application]]></description>
+					<description><![CDATA[Every year, pundits and critics offer their predictions for the year ahead. Here are my predictions for test automation in]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Every year, pundits and critics offer their predictions for the year ahead. Here are my predictions for test automation in 2021. (Note: these are my personal predictions)</p>
+<h2 id="h.zc6uaxdxazwi">Prediction 1: Stand-alone QA faces challenges of dev teams with integrated quality engineering</h2>
+<figure class="wp-block-image"></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">CHUTTERSNAP</a> on<a target="_blank" href="https://unsplash.com/s/photos/stairway?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/stairway?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>Teams running Continuous Integration/Continuous Deployment (CICD) have learned that developers must own the quality of their code. In 2021, everyone else will figure that out, too. Engineers know that the delay between developing code and finding bugs produces inefficient development teams. Companies running standalone QA teams find bugs later than teams with integrated quality. In 2021, this difference will begin to become painful as more companies adopt quality engineering in the midst of development.</p>
+<h2 id="h.vkmlp4oum3xb">Prediction 2: Development teams will own core test automation</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="1064" src="https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small.jpg" alt="sara cervera oEaGiyEjQyY unsplash Small" class="wp-image-25358" srcset="https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small.jpg 1600w, https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small-300x200.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small-1024x681.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small-768x511.jpg 768w, https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small-1536x1021.jpg 1536w, https://applitools.com/wp-content/uploads/2021/01/sara-cervera-oEaGiyEjQyY-unsplash-Small-462x308.jpg 462w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@saracervera?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@saracervera?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Sara Cervera</a> on<a target="_blank" href="https://unsplash.com/images/food/apple?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/images/food/apple?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>Dev owns test automation across many CICD teams. With more quality responsibility, more of the development teams will build test automation. Because they use JavaScript in development, front-end teams will choose JavaScript as the prime test automation language. As a result, Selenium JavaScript and Cypress adoption will grow, with Cypress seeing the most increase.</p>
+<h2 id="h.ovv2vfrw1ibe">Prediction 3: Primary test automation moves to build</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="800" src="https://applitools.com/wp-content/uploads/2021/01/thisisengineering-raeng-zdBOU0faYK4-unsplash-Small.jpg" alt="thisisengineering raeng zdBOU0faYK4 unsplash Small" class="wp-image-25355" srcset="https://applitools.com/wp-content/uploads/2021/01/thisisengineering-raeng-zdBOU0faYK4-unsplash-Small.jpg 1600w, https://applitools.com/wp-content/uploads/2021/01/thisisengineering-raeng-zdBOU0faYK4-unsplash-Small-300x150.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/thisisengineering-raeng-zdBOU0faYK4-unsplash-Small-1024x512.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/thisisengineering-raeng-zdBOU0faYK4-unsplash-Small-768x384.jpg 768w, https://applitools.com/wp-content/uploads/2021/01/thisisengineering-raeng-zdBOU0faYK4-unsplash-Small-1536x768.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">ThisisEngineering RAEng</a> on<a target="_blank" href="https://unsplash.com/s/photos/software-screen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/software-screen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>In 2021, core testing will occur during code build. In past test approaches, unit tests ran independently of system-level and full end-to-end integration tests. Quality engineers wrote much of the end-to-end test code. When bugs got discovered at the end, developers had to stop what they were doing to jump back and fix code. With bugs located at build time, developer productivity increases as they improve what they just checked in real-time.</p>
+<h2 id="h.t7azlsehz9ba">Prediction 4: Speed+Coverage as the driving test metric</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="1200" src="https://applitools.com/wp-content/uploads/2021/01/marc-sendra-martorell-Vqn2WrfxTQ-unsplash-Small.jpg" alt="marc sendra martorell Vqn2WrfxTQ unsplash Small" class="wp-image-25356" srcset="https://applitools.com/wp-content/uploads/2021/01/marc-sendra-martorell-Vqn2WrfxTQ-unsplash-Small.jpg 1600w, https://applitools.com/wp-content/uploads/2021/01/marc-sendra-martorell-Vqn2WrfxTQ-unsplash-Small-300x225.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/marc-sendra-martorell-Vqn2WrfxTQ-unsplash-Small-1024x768.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/marc-sendra-martorell-Vqn2WrfxTQ-unsplash-Small-768x576.jpg 768w, https://applitools.com/wp-content/uploads/2021/01/marc-sendra-martorell-Vqn2WrfxTQ-unsplash-Small-1536x1152.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@marcsm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@marcsm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Marc Sendra Martorell</a> on<a target="_blank" href="https://unsplash.com/s/photos/speed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/speed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>As more testing moves to build, <a target="_blank" href="https://applitools.com/blog/visual-testing-devops-revisited/" rel="noopener">speed matters</a>. Every minute needed to validate the build <a target="_blank" href="https://applitools.com/blog/uncover-flaky-tests/" rel="noopener">wastes engineering time</a>. Check-in tests will require parallel testing for the unit, system, and end-to-end tests. Sure, test speed matters. What about redundant tests? Each test must validate unique aspects of the code. Developers will need to use existing tools or new tools to measure the fraction of unexercised code in their test suites.</p>
+<h2 id="h.v0w24tyd6re0">Prediction 5: AI assists in selecting tests to ensure coverage</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1200" height="674" src="https://applitools.com/wp-content/uploads/2021/01/hitesh-choudhary-t1PaIbMTJIM-unsplash-Small.jpg" alt="hitesh choudhary t1PaIbMTJIM unsplash Small" class="wp-image-25354" srcset="https://applitools.com/wp-content/uploads/2021/01/hitesh-choudhary-t1PaIbMTJIM-unsplash-Small.jpg 1200w, https://applitools.com/wp-content/uploads/2021/01/hitesh-choudhary-t1PaIbMTJIM-unsplash-Small-300x169.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/hitesh-choudhary-t1PaIbMTJIM-unsplash-Small-1024x575.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/hitesh-choudhary-t1PaIbMTJIM-unsplash-Small-768x431.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@hiteshchoudhary?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@hiteshchoudhary?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Hitesh Choudhary</a> on<a target="_blank" href="https://unsplash.com/s/photos/artificial-intelligence?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/artificial-intelligence?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>To speed up testing, development teams will look to eliminate redundant tests. They will look to AI tools to generate test conditions, standardize test setup, and identify both untested code and redundancy in tests. You can look up a range of companies adding AI to test flows for test generation and refactoring. Companies adopting this technology will attempt to maximize test coverage as they speed up testing.</p>
+<h2 id="h.cp931iy3r2e9">Prediction 6: Visual AI Page Checks Grows 10x</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="1200" src="https://applitools.com/wp-content/uploads/2021/01/johen-redman-pktNMFsHNVs-unsplash-Small.jpg" alt="johen redman pktNMFsHNVs unsplash Small" class="wp-image-25350" srcset="https://applitools.com/wp-content/uploads/2021/01/johen-redman-pktNMFsHNVs-unsplash-Small.jpg 1600w, https://applitools.com/wp-content/uploads/2021/01/johen-redman-pktNMFsHNVs-unsplash-Small-300x225.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/johen-redman-pktNMFsHNVs-unsplash-Small-1024x768.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/johen-redman-pktNMFsHNVs-unsplash-Small-768x576.jpg 768w, https://applitools.com/wp-content/uploads/2021/01/johen-redman-pktNMFsHNVs-unsplash-Small-1536x1152.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@johenredman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@johenredman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Johen Redman</a> on<a target="_blank" href="https://unsplash.com/s/photos/10?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/10?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>I’m making this prediction based on feedback from <a target="_blank" href="https://applitools.com/blog/ask-your-peers-about-visual-ai/" rel="noopener">Applitools Visual AI</a> customers. Each year, Applitools tracks the number of pages using Visual AI for validation. We continue to see exponential growth in visual AI use within our existing customers. The biggest driver for this growth in usage follows through from the next two predictions about Visual AI utility.</p>
+<h2 id="h.q2bj33v0lblv">Prediction 7: Visual tests on every check-in</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1600" height="991" src="https://applitools.com/wp-content/uploads/2021/01/larissa-gies-MQWc4I9VuTc-unsplash-Small.jpg" alt="larissa gies MQWc4I9VuTc unsplash Small" class="wp-image-25352" srcset="https://applitools.com/wp-content/uploads/2021/01/larissa-gies-MQWc4I9VuTc-unsplash-Small.jpg 1600w, https://applitools.com/wp-content/uploads/2021/01/larissa-gies-MQWc4I9VuTc-unsplash-Small-300x186.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/larissa-gies-MQWc4I9VuTc-unsplash-Small-1024x634.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/larissa-gies-MQWc4I9VuTc-unsplash-Small-768x476.jpg 768w, https://applitools.com/wp-content/uploads/2021/01/larissa-gies-MQWc4I9VuTc-unsplash-Small-1536x951.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@eqacademy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@eqacademy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Larissa Gies</a> on<a target="_blank" href="https://unsplash.com/s/photos/check-in?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/check-in?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>When companies adopt visual testing, they often add visual validation to their end-to-end tests. At some point, every company realizes that bug discovery must come sooner. They want to <a target="_blank" href="https://applitools.com/blog/ui-tests-in-cicd/" rel="noopener">uncover bugs at check-in</a>, so developers can fix their code while it remains fresh in their minds. Visual AI provides the accuracy to provide visual validation on code build and code merge – letting engineers validate both the behavior and rendering of their code within the build process.</p>
+<h2 id="h.lj4n216xv759">Prediction 8: Visual tests run with unit tests</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1200" height="1200" src="https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small.jpg" alt="wesley tingey 0are122T4ho unsplash Small" class="wp-image-25353" srcset="https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small.jpg 1200w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-300x300.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-1024x1024.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-150x150.jpg 150w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-768x768.jpg 768w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-462x462.jpg 462w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-200x200.jpg 200w, https://applitools.com/wp-content/uploads/2021/01/wesley-tingey-0are122T4ho-unsplash-Small-50x50.jpg 50w" sizes="(max-width: 1200px) 100vw, 1200px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@wesleyphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@wesleyphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Wesley Tingey</a> on<a target="_blank" href="https://unsplash.com/s/photos/eye-doctor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/eye-doctor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>Engineers treat their unit tests as sanity checks.  They run unit tests regularly and only check results when the tests fail. Why not automate unit tests for the UI? Many Applitools customers have been running visual validation alongside standard unit tests. Visual AI, unlike pixel diffs and DOM diffs, provides high accuracy validation for visual components and mocks. With the Ultrafast Test Platform, these checks can be validated across multiple platforms with just a single code run. Many more Applitools customers will adopt visual unit testing in 2021.</p>
+<h2 id="h.nza7r8c0ncq1">Prediction 9: The gap between automation haves and have-nots will grow</h2>
+<figure class="wp-block-image"><img loading="lazy" width="1200" height="600" src="https://applitools.com/wp-content/uploads/2021/01/brett-jordan-2dwqHcTjbtQ-unsplash-Small.jpg" alt="brett jordan 2dwqHcTjbtQ unsplash Small" class="wp-image-25357" srcset="https://applitools.com/wp-content/uploads/2021/01/brett-jordan-2dwqHcTjbtQ-unsplash-Small.jpg 1200w, https://applitools.com/wp-content/uploads/2021/01/brett-jordan-2dwqHcTjbtQ-unsplash-Small-300x150.jpg 300w, https://applitools.com/wp-content/uploads/2021/01/brett-jordan-2dwqHcTjbtQ-unsplash-Small-1024x512.jpg 1024w, https://applitools.com/wp-content/uploads/2021/01/brett-jordan-2dwqHcTjbtQ-unsplash-Small-768x384.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px"/></figure>
+<p>Photo by<a target="_blank" href="https://unsplash.com/@brett_jordan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/@brett_jordan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Brett Jordan</a> on<a target="_blank" href="https://unsplash.com/s/photos/mind-the-gap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener"> </a><a target="_blank" href="https://unsplash.com/s/photos/mind-the-gap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+<p>As more development teams own test automation, we will see a stark divide between legacy and modern approaches. Modern teams will deliver features and capabilities more quickly with the quality demanded by users. Legacy teams will struggle to keep up; they will choose between quality and speed and continue to fall behind in reputation.</p>
+<h2 id="h.b846ab8pt71r">Where Do You See The Future?</h2>
+<p>These are nine predictions I see. What do you see? How will you get ahead of your competition in 2021? How will you keep from falling behind? What will matter to your business?</p>
+<p>Each of us makes predictions and then sees how they come to fruition. Let’s check back in a year and see how each of us did.</p>
+<p>Featured Photo by <a target="_blank" href="https://unsplash.com/@sanfrancisco?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Sasha • Stories</a> on <a target="_blank" href="https://unsplash.com/s/photos/crystal-ball?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/9-test-automation-predictions-2021/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Fired Healthcare Exec Stalls Critical PPE Shipment for Months</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/fired-healthcare-exec-stalls-critical-ppe-shipment-for-months/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 Jan 2021 19:36:31 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Exec]]></category>
+		<category><![CDATA[Fired]]></category>
+		<category><![CDATA[Healthcare]]></category>
+		<category><![CDATA[Months]]></category>
+		<category><![CDATA[PPE]]></category>
+		<category><![CDATA[Shipment]]></category>
+		<category><![CDATA[Stalls]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/fired-healthcare-exec-stalls-critical-ppe-shipment-for-months/</guid>
+
+					<description><![CDATA[A fired Stradis Healthcare employee sought revenge by tampering with shipping data for desperately needed healthcare PPE. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A fired Stradis Healthcare employee sought revenge by tampering with shipping data for desperately needed healthcare PPE.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/healthcare-exec-stalls-critical-ppe-shipment/162855/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Threatpost Poll: Weigh in on Ransomware Security</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/threatpost-poll-weigh-in-on-ransomware-security/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 Jan 2021 18:34:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Poll]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Threatpost]]></category>
+		<category><![CDATA[Weigh]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/threatpost-poll-weigh-in-on-ransomware-security/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/threatpost-poll-ransomware-security/162842/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How app sec teams can boost cyber resilience: 4 New Year&#8217;s resolutions</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-app-sec-teams-can-boost-cyber-resilience-4-new-years-resolutions/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 Jan 2021 18:15:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Boost]]></category>
+		<category><![CDATA[Cyber]]></category>
+		<category><![CDATA[resilience]]></category>
+		<category><![CDATA[Resolutions]]></category>
+		<category><![CDATA[sec]]></category>
+		<category><![CDATA[Teams]]></category>
+		<category><![CDATA[Years]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-app-sec-teams-can-boost-cyber-resilience-4-new-years-resolutions/</guid>
+
+					<description><![CDATA[In 2020, companies were taught a lesson in the consequences of failing to shore up their defenses and improve their]]></description>
 										<content:encoded><![CDATA[<p> <br />
 <br /></p>
 <div>
-<p>Organizations on <a target="_blank" href="https://en.wikipedia.org/wiki/Forbes_Global_2000" rel="nofollow noopener">the Forbes Global 2000 list</a> are increasingly beset by nimble startups intent on disrupting their industry. Accelerating application delivery is a key part of maintaining a competitive advantage, but it&#8217;s hard for enterprise organizations to keep pace.</p>
-<p>All too often, it&#8217;s testing that holds back <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">the speed of application delivery</a>—specifically, a lack of a mature continuous testing practice that provides near-real-time feedback on whether the application has an acceptable level of business risk. At times, it can seem as if you&#8217;re competing in the Tour de France while towing a child in a bike trailer.</p>
-<p>Nobody doubts that <a target="_blank" href="https://techbeacon.com/app-dev-testing/seven-key-enablers-continuous-testing" rel="noopener">continuous testing</a><a target="_blank" href="http://content.microfocus.com/world-quality-report-2020-21-tb/5-takeaways-world-quality-report?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener"> is essential</a>. But making it a reality is a challenge in any development environment, and it&#8217;s an especially pointed pain in enterprises, for a number of reasons. These include complex application stacks, deeply entrenched processes built for dramatically different delivery models, and strict compliance requirements.</p>
-<p>Here are three challenges enterprises commonly face when trying to implement an <a target="_blank" href="https://techbeacon.com/app-dev-testing/4-elements-highly-effective-continuous-testing-strategy" rel="noopener">effective continuous testing practice</a>—and how top organizations have solved them. </p>
-<h3>1. Introduce and expand test automation where it has been most difficult </h3>
-<p>Having a core set of automated tests that expose business risks as they&#8217;re introduced is a key component of continuous testing. Yet <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/world-quality-report-digital-transformation?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">the latest World Quality Report </a>found that <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/quality-test-automation?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">test automation</a> has been stalled at around a dismally low 15% for years now.</p>
-<p>You can&#8217;t—and shouldn&#8217;t—automate all your testing efforts. But if you want fast feedback on whether the latest changes broke any critical business processes, ramping up automation is essential.</p>
-<p>The problem is that getting started can be hard, and keeping it going is, unfortunately, even harder. Most large organizations have at least one or two <a target="_blank" href="https://content.microfocus.com/software-test-automation-tb/top-mistakes?lx=wYdl7c&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">failed test automation initiatives</a> under their belt, so quality leaders are understandably reluctant to spearhead another. </p>
-<p>Yet many brave QA leaders are up for the challenge, and many of those have achieved success. What&#8217;s their secret? At a high level, they remain laser-focused on the long-term goal of <a target="_blank" href="https://techbeacon.com/app-dev-testing/dos-donts-testing-automation" rel="noopener">sustainable test automation</a> and architect the deep-seated process and cultural change required to support that.</p>
-<p>Getting it started requires finding a test automation approach that crosses the various technologies involved in your business processes (technology-agnostic or broad technology support). You also need an approach that can be adopted rapidly and broadly by your existing team members, whatever their current skill set may be.</p>
-<p>Keeping it going also requires addressing what I call “the three nightmares&#8221; of test automation: test maintenance, test data, and test environments.</p>
-<p>Here are some tips from how Linde, the world&#8217;s largest gas company, introduced test automation into its complex network of highly customized SAP, Salesforce, web, and mobile apps:</p>
-<ul>
-<li><strong>Think about where automation will have the greatest impact, then focus on creating stable automation for those use cases.</strong> You can gain much more attention and internal support by automating a handful of high-impact, end-to-end processes than you can by automating thousands of ill-conceived tests.</li>
-<li><strong>Root out the &#8220;more-tests&#8221; mindset. </strong>For years, many organizations have been using the number of tests to measure the extent of testing and even to compensate testing providers. More tests that address the same business risks don&#8217;t help. In fact, they hurt. They consume resources to create as well as resources to maintain—eating into <a target="_blank" href="https://techbeacon.com/app-dev-testing/test-automation-roi-5-ways-show-business-benefits" rel="noopener">your test automation ROI</a>. </li>
-<li><strong>Sometimes you need to cut your losses.</strong> If an approach or tool really isn&#8217;t working for your existing resources—e.g., it&#8217;s too technical or doesn&#8217;t suit your ecosystem—understand what&#8217;s needed instead, and resolve to address it going forward. </li>
-</ul>
-<h3>2. Assess &#8216;release readiness&#8217; of new functionality across teams and applications </h3>
-<p>A primary goal of continuous testing is to determine if a release candidate is ready for production. As described above, you absolutely need to ensure that the <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/release-managers-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">changes in each release don&#8217;t break existing functionality</a>. But you also need to test the new functionality to ensure that it works and meets expectations.</p>
-<p>Making the ultimate go/no-go release decision can be a bit of a guessing game when different teams are responsible for different components and layers of the application: the browser interface, the mobile experience, the various packaged apps at work behind the scenes, and all the microservices, APIs, and integration platforms that are probably gluing it all together.</p>
-<p>Teams are likely developing new functionality at different cadences, and testing &#8220;their&#8221; parts in different ways, using different testing practices and different tools. But the user doesn&#8217;t make those distinctions. They expect it all to just work … flawlessly. </p>
-<p>Moët Hennessy-Louis Vuitton (LVMH), the parent company behind luxury brands such as Christian Dior, TAG Heuer, and Dom Perignon, recently decided to streamline its testing process to support ambitious plans for e-commerce growth. The company perfected the art of testing new functionality efficiently and making release decisions that ensure the ultimate user experience, in part by doing the following:</p>
-<ul>
-<li><strong>Take a structured approach to testing new functionality. </strong>To better defend both the customer and the brand, each QA team took a deep dive into the DNA of the brand and its core customer profiles (personas). The teams then developed new test strategies for checking how the customer experiences the brand and captured them as reusable &#8220;rollout kits.&#8221;</li>
-<li><strong>Reuse, reuse, reuse.</strong> The teams built a library of strategically designed test building blocks that allow 70% to 90% reuse across their launches. These building blocks map to an array of test automation tools that they combine to view, interact with, and evaluate the site like a human—on a broad variety of devices. With this head start on automation, they can start testing early in each release cycle and gain fast feedback as they implement and refine new user stories.</li>
-<li><strong>Connect the dots. </strong>All the disparate testing data for web, mobile, Salesforce eCommerce, enterprise resource planning, customer relationship management, etc. is integrated into a single pane of glass. This provides real-time insight into release readiness by persona, feature, and tech layer. Team members can always tell, at a glance, what&#8217;s ready to release, what&#8217;s holding the release back, and who&#8217;s responsible for getting it on track. </li>
-</ul>
-<h3>3. Balance collaboration with autonomy</h3>
-<p>For years, the trend has been toward autonomous, self-governing development teams that choose the practices and tools best suited for their culture and projects. This is great for team motivation, but it&#8217;s not ideal for collaboration. At the same time, another competing trend—toward highly interconnected applications—has made collaboration even more critical.</p>
-<p>At the points of intersection, there&#8217;s a huge opportunity to share test artifacts (as well as code and deployment artifacts). However, that&#8217;s easier said than done, now that so many teams have grown accustomed to using their own processes and tools. </p>
-<p>It is possible to promote cross-team continuous testing collaboration without homogenizing all the distinct ways of working that different teams have invested considerable resources into developing and perfecting. Dell has devised an effective strategy to tap synergies across 30 divisions working across more than 20 test automation frameworks. Here&#8217;s what the company did:</p>
-<ul>
-<li><strong>Abstraction is key.</strong> Dell analyzed the elements of DevOps success from a high-level philosophical perspective, then crafted an abstract continuous integration/continuous delivery/continuous testing architecture. This specified what activities to address (source control, requirements management, test management, etc.) without prescribing low-level implementation details on how to complete them.</li>
-<li><strong>Build an overarching layer.</strong> For continuous testing, Dell established an overarching layer that allows team members to find and run relevant test assets without even thinking about which test automation framework is used behind the scenes. This way everyone can share, but no team has to compromise.</li>
-<li><strong>Standardize on one test framework.</strong> For new projects, the company plans to standardize on a test framework that&#8217;s flexible enough to cover its various application stacks and delivery cadences. Dell will make it available to existing teams and projects, but nobody is being forced to change. </li>
-</ul>
-<h3>Focus on the right approach for your challenges</h3>
-<p>There’s no such thing as enterprise <a target="_blank" href="https://techbeacon.com/app-dev-testing/4-ways-testers-can-adapt-speed-business-today" rel="noopener">continuous testing</a> in a box. As these examples show, the top challenges and potential solutions vary widely, and yours will too. </p>
-<p>To succeed, you need to get real. Take a long, hard look at what you&#8217;re working with, and craft an approach accordingly. Don&#8217;t expect longtime manual testers to download some open-source testing tools and automate processes that span packaged applications, custom applications, mainframes, and more.</p>
-<p>Likewise, don&#8217;t expect a high-performing, tech-savvy team to give up the homegrown or highly customized approach they poured significant time and resources into over the years.  </p>
-<p>Continuous testing itself is all about assessing the impact of change. Your approach to continuous testing must also be built around change. You need to determine what you can do from a technology, process, and change management perspective to ease the transition from your current state. Your goal is to craft an enterprise continuous testing process that achieves your organization&#8217;s goals with respect to quality, speed, and efficiency.</p>
-<p><em>For a more in-depth discussion of these continuous testing challenges, read my book, </em><a target="_blank" href="https://www.amazon.com/Enterprise-Continuous-Testing-Transforming-DevOps/dp/1699022941" rel="nofollow noopener">Enterprise Continuous Testing: Transforming Testing for Agile and DevOps</a><em>.</em></p>
+<p>In 2020, companies were taught a lesson in the consequences of failing to shore up their defenses and improve their resiliency to cyber attack.</p>
+<p>Ransomware took off, infecting companies and accounting for <a target="_blank" href="https://www.darkreading.com/application-security/ransomware-makes-up-half-of-all-major-incidents/d/d-id/1339667" rel="nofollow noopener">81% of financially motivated cyber crimes</a>. With the compromise of SolarWinds, government agencies, technology companies, and other organizations scrambled to assess the damage of the massive UNC2452 cyber-espionage campaign conducted by a suspected nation-state adversary. And data breaches and privacy violations continued to lead to significant fines as a variety of new privacy regulations came into force.</p>
+<p>Companies in 2021 must work toward <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/tools-best-practices-cyber-resilience?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">making their businesses more resistant to cyber attack and adverse events</a>, specifically moving from focusing on individual systems to overall cyber resilience.</p>
+<p>While <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">the path to cyber resiliency</a> is not easy, it can be successfully traversed. Here are four New Year&#8217;s resolutions your application security team should sign on to in order to improve your organization&#8217;s security maturity and reduce the risk of potential attacks.</p>
+<h3>1. Use strong credentials</h3>
+<p>Reused, weak passwords are the zombies of the cybersecurity world. Companies have repeatedly tried to eliminate them, but they always come back and—more often than not—are at the heart of major breaches.</p>
+<p>In the latest case of massive cyber espionage, for example, an update server was reportedly protected only with the <a target="_blank" href="https://www.theregister.com/2020/12/16/solarwinds_github_password/" rel="nofollow noopener">password &#8220;solarwinds123,&#8221;</a> and brute-force password guessing could have gained easy access to the server and been the starting point for attackers. The Trump Administration learned this lesson as well, when a Dutch hacker twice determined that the password to the president&#8217;s Twitter account—and his primary communication medium to his 89 million followers—were simple passwords: <a target="_blank" href="https://www.washingtonpost.com/world/2020/12/17/dutch-trump-twitter-password-hack/" rel="nofollow noopener">&#8220;yourfired&#8221; and then &#8220;maga2020!&#8221;</a></p>
+<p><a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/state-zero-trust-cybersecurity?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">Passwords should be dead</a>. Companies should require strong credentials, prevent password reuse, and augment all passwords with other types of authentication. For developers, secrets—such as database passwords and private encryption keys—need to have automated tests to ensure that no sensitive credentials are exposed. Default entities must be removed where possible or at least disabled. Where credentials are required for services and non-personal accounts (NPAs)—such as for database access—those should not be reused outside of that particular lifecycle stage (DTAP, development, test, acceptance, or production).</p>
+<p>Solutions do exist. For identity and attribute-based access, multi-factor authentication (MFA) is a key technology that can protect remote users. Microsoft estimates that 99.9% of account-compromise attacks rely on stolen or leaked credentials and can be <a target="_blank" href="https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" rel="nofollow noopener">blocked by MFA and &#8220;password-less&#8221; technology</a>.</p>
+<p>Any system that currently relies solely on passwords should either be bolstered by multi-factor authentication or have user-generated passwords eliminated. Limiting the time that security tokens are valid is important, as is setting the certificate&#8217;s expiration date not too far into the future. Validating that a certificate has not been revoked requires collaboration between business groups or between a company and its partners.</p>
+<p>These are not easy steps. MFA can be expensive when you&#8217;re talking about ≠≠hundreds or even thousands of accounts, and certificate management is cumbersome. Creating secrets storage and verification can be difficult. But the payoff for companies, in terms of cyber resilience, is enormous.</p>
+<h3>2. Maintain strict segregation</h3>
+<p>Segregation is a key concept in cyber defense. Companies need to segregate privileged roles from everyday users, segment networks to wall off sensitive capabilities such as finance and development, and restrict untrusted hardware and software components from accessing sensitive data. With the rise of the connected devices and industrial Internet of Things (IoT) devices—such as surveillance cameras and industrial sensors—companies are increasingly susceptible to these devices&#8217; security shortcomings, including poor upgradeability and basic errors, such as hard-coded passwords.</p>
+<p>Understanding the purpose of established and maintained segregation and segmentation policies is key. Companies should identify their valuable assets—and take a broad view of what those are or could be—and then identify multiple interlocking layers that protect those assets. The key is to find defensive processes or technologies that can serve to protect multiple assets. The fact that the attacks on SolarWinds were able to infect the development process without raising an alert should be a warning.</p>
+<p>Network segmentation can wall off untrusted and less secure devices from critical assets and resources, which brings us to our next lesson.</p>
+<h3>3. Maintain trusted resources and supply chains</h3>
+<p>Attacks on the supply chain are increasingly common. The SolarWinds attack focused on corrupting software updates sent out between March and June 2020. Alternatively, the use of untrusted or compromised hardware as a way to get inside a network is a common tactic of nation-state intelligence programs.</p>
+<p>For developers, the problem is equally dire. Many development supply chains continue to mix untrusted and trusted components, leading to what commonly is called &#8220;trust-boundary violations.&#8221; About 70% of the code in modern applications is typically open-source components or libraries, but more than <a target="_blank" href="https://www.darkreading.com/application-security/nine-in-10-applications-contain-outdated-software-components/d/d-id/1337797" rel="nofollow noopener">91% of applications</a> use code from projects that are either abandoned or more than four years out of date.</p>
+<p>Yet companies cannot rely on third-party developers to become more serious about security. Overall, securing software is a low priority, according to a recent study by Harvard University and the Linux Foundation, which found that open-source developers typically <a target="_blank" href="https://www.darkreading.com/application-security/open-source-developers-still-not-interested-in-secure-coding/d/d-id/1339654" rel="nofollow noopener">spend less than 3% of their time on security</a>.</p>
+<p>Identifying and determining the level of trust of other supply chains, whether hardware, software, or services, should be a high priority for companies. Those that maintain their own applications should regularly check on the components used by developers to build those tools or, better yet, use automation to make the process simple and fast. External components and libraries must come from a verified source and managed, staged repository, to validate the dependencies origin and increase security.</p>
+<p>Companies need to not only know what resources are critical and which are untrusted, but also have visibility into the state of those resources. Change management, automated unit tests, and the detection of malicious behavior need to be bolstered to make such attacks on the software supply chain more difficult in the future. In addition, focusing on supply chain cleanliness and validating external software components—in terms of their origins and signature—are also important.</p>
+<p>Undetected compromises of IT processes contributed significantly to the success of the UNC2452 cyber-espionage campaign, for example, allowing attackers to <a target="_blank" href="https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html" rel="nofollow noopener">insert malicious code into updates for the SolarWinds Orion network-management platform</a>. In 2017, attackers <a target="_blank" href="https://www.darkreading.com/operations/avast-foils-another-ccleaner-attack/d/d-id/1336132" rel="nofollow noopener">infiltrated the network of system utilities developer Piriform</a>, which had just been bought by security firm Avast, and pushed out malicious updates to its CCleaner utility, infecting customers. The same year, three updates published by Ukrainian firm Intellect Service, which produces accounting software known as M.E. Doc, <a target="_blank" href="https://www.databreachtoday.com/notpetya-patient-zero-ukrainian-accounting-software-vendor-a-10080" rel="nofollow noopener">had malicious code</a> that resulted in the NotPetya ransomware attack.</p>
+<h3>4. Invest in monitoring and detection</h3>
+<p>Breaches happen. In 2020, 56% of companies suffered a ransomware attack, <a target="_blank" href="https://www.crowdstrike.com/blog/global-security-attitude-survey-takeaways-2020/" rel="nofollow noopener">according to one survey</a>. The average organization suffers some 22 security breaches every year, down from 30 breaches in 2019, <a target="_blank" href="https://www.accenture.com/_acnmedia/PDF-116/Accenture-Cybersecurity-Report-2020.pdf" rel="nofollow noopener">according to business consultancy Accenture</a>.</p>
+<p>Failing to detect those breaches, however, can make the consequences much more damaging. Solutions do exist to detect and block lateral movement by attackers, especially when linked to behavior-anomaly detection. Define and maintain your SOC use cases to improve the quality of detection and reduce noise. Too many alerts will drown investigation capabilities. You cannot detect behavioral anomalies without understanding and defining normal behavior. The malicious activities against SolarWinds could have been detected early and possibly blocked by a strict anomaly-detection system.</p>
+<h3>Be resolute for better resilience</h3>
+<p>Companies that focus on these four areas—and frequently rinse and repeat—will have a more resilient cyber infrastructure and a software development process that produces more secure software. Like many New Year&#8217;s resolutions, improving is often more of a journey than a destination. Tackling these challenges will not assure a resilient informational and operational posture, but it can help you to maintain good cyber hygiene and highlight deficiencies.</p>
 <h4>Keep learning</h4>
 </div>
 <p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/3-enterprise-continuous-testing-challenges-how-beat-them">Source link </a></p>
+<br /><a href="https://techbeacon.com/security/how-app-sec-teams-can-boost-cyber-resilience-4-new-years-resolutions">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Feds Pinpoint Russia as ‘Likely’ Culprit Behind SolarWinds Attack</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/feds-pinpoint-russia-as-likely-culprit-behind-solarwinds-attack/</link>
+		<title>New Year, New Ransomware: Babuk Locker Targets Large Corporations</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/new-year-new-ransomware-babuk-locker-targets-large-corporations/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 15:05:32 +0000</pubDate>
+		<pubDate>Thu, 07 Jan 2021 18:08:14 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Culprit]]></category>
-		<category><![CDATA[Feds]]></category>
-		<category><![CDATA[Pinpoint]]></category>
-		<category><![CDATA[Russia]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/feds-pinpoint-russia-as-likely-culprit-behind-solarwinds-attack/</guid>
+		<category><![CDATA[Babuk]]></category>
+		<category><![CDATA[Corporations]]></category>
+		<category><![CDATA[large]]></category>
+		<category><![CDATA[Locker]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Targets]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/new-year-new-ransomware-babuk-locker-targets-large-corporations/</guid>
 
-					<description><![CDATA[The widespread compromise affecting key government agencies is ongoing, according to the U.S. government. Source link]]></description>
+					<description><![CDATA[Despite being a mostly run-of-the-mill ransomware strain, Babuk Locker&#8217;s encryption mechanisms and abuse of Windows Restart Manager sets it apart.]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />The widespread compromise affecting key government agencies is ongoing, according to the U.S. government.<br />
+<br />Despite being a mostly run-of-the-mill ransomware strain, Babuk Locker&#8217;s encryption mechanisms and abuse of Windows Restart Manager sets it apart.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/feds-russia-culprit-solarwinds/162785/">Source link </a></p>
+<br /><a href="https://threatpost.com/ransomware-babuk-locker-large-corporations/162836/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Test Automation Framework Benefits &#8211; POM, Selenium Locators, OpenSDK &#038; JUnit [Cheat Sheet Included]</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit-cheat-sheet-included/</link>
+		<title>McAfee Welcomes its ISO 27701 Certificate!</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/mcafee-welcomes-its-iso-27701-certificate/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 05:44:14 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Benefits]]></category>
-		<category><![CDATA[Cheat]]></category>
-		<category><![CDATA[Framework]]></category>
-		<category><![CDATA[Included]]></category>
-		<category><![CDATA[JUnit]]></category>
-		<category><![CDATA[Locators]]></category>
-		<category><![CDATA[OpenSDK]]></category>
-		<category><![CDATA[POM]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[Sheet]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit-cheat-sheet-included/</guid>
+		<pubDate>Thu, 07 Jan 2021 17:06:31 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Certificate]]></category>
+		<category><![CDATA[Iso]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Welcomes]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mcafee-welcomes-its-iso-27701-certificate/</guid>
 
-					<description><![CDATA[In this series, we are going to dive into some benefits and examples of a Test Automation Framework. A framework]]></description>
+					<description><![CDATA[This post was also written by Darragh McMahon At McAfee, we adhere to a set of core values and principles]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<p>In this series, we are going to dive into some benefits and examples of a Test Automation Framework. A framework is an architecture of integrated parts. Some of those integrated parts are libraries, test data, and Page Object Model (POM). For <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a>, Data-Driven and Hybrid are two popular Test Automation Frameworks:</p>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p><span style="font-size: 10pt;"><em>This post was also written by Darragh McMahon</em></span></p>
+<p>At McAfee, we adhere to a set of core values and principles – We Put the Customer at The Core, We Achieve Excellence with Speed and Agility, We Play to Win or We Don’t Play, We Practice Inclusive Candor and Transparency.</p>
+<p>And reaching the ISO 27701 enshrines all of these values.</p>
+<p>For those who are not familiar with it, the ISO 27701 is the industry leading certification for information security &amp; privacy management. Achieving the ISO 27701 certification demonstrates that McAfee is able to protect personal data, thanks to a multidisciplinary effort coupled with cross-functional expertise. Because yes, We Play to Win or We Don’t Play.</p>
+<p>Over the past years, and all around the world, lawmakers and regulators have been and continue to introduce new laws governing the processing of personal data (such as those adopted in Australia, Brazil, Singapore and Canada) -the GDPR and the CCPA are only few of these. This changing legal environment raises challenges for all businesses, but especially those that must comply globally with regulations in multiple jurisdictions. Compliance to requirements and controls of ISO 27701 is relevant to support the fulfillment of obligations to articles 5 to 49 (except 43) of the GDPR. The application of the ISO 27701 standard can also be used for supporting compliance with other data privacy laws. Because yes, We Practice Inclusive Candor and Transparency.</p>
+<p>The ISO 27701 Standard has been published in August 2019, and all companies, whether vendors or customers, should look into it. At the time of certification by McAfee’s assessment firm<a target="_blank" href="https://www.mcafee.com/#_ftn1" name="_ftnref1" rel="noopener">[1]</a>, McAfee is one of the very first companies to achieve the certification within the cyber-security industry. Because yes, not only do We Achieve Excellence with Speed and Agility, but We also Put the Customer at the Core.</p>
+<p>Key requirements include, but are not limited to:</p>
 <ul>
-<li>Data-Driven Framework – read values from a test source, then store the values in a test script.</li>
-<li>Hybrid Framework – consists of two or more frameworks plus utilities, logs, reporting, etc.</li>
+<li><strong><em>Fundamental Data Protection Principles:</em></strong>p urpose of the data processing, legal basis for the data processing, obtaining individuals’ consent and mechanisms to modify or withdraw that consent, records of data processing activities, and privacy impact assessments;</li>
+<li><strong><em>Individuals’ Data Protection Rights: </em></strong>notice, access, correction, erasure, and automated decisions;</li>
+<li><strong><em>Privacy by Design and by Default: </em></strong>data minimization, de-identification and deletion, and data retention;</li>
+<li>Data processing agreements, data transfers and data sharing;</li>
+<li>Determination of the role of the organization as a data controller and/or data processor;</li>
+<li>Unified management of IT risks for the organization of privacy risks for data subjects;</li>
+<li>Appointment of a person responsible for the protection of privacy (DPO or equivalent);</li>
+<li>Staff awareness; data classification; protection of removable media; user access management and data encryption; backups and event logging; conditions for the transfer of personal data; Incident management; and</li>
+<li>Compliance with legal and regulatory requirements, etc.</li>
 </ul>
-<p>By the end of this article, you will read about the <a target="_blank" href="https://blog.testproject.io/#POMBenefits" rel="noopener">benefits of a POM</a>, <a target="_blank" href="https://blog.testproject.io/#OpenSDKBenefits" rel="noopener">TestProject’s OpenSDK</a>, <a target="_blank" href="https://blog.testproject.io/#LocatorBenefits" rel="noopener">Selenium Locators</a>, and <a target="_blank" href="https://blog.testproject.io/#JUnitBenefits" rel="noopener">JUnit 5</a>.</p>
-<h2><strong>Table of Contents – Test Automation Framework Benefits</strong></h2>
-<ul>
-<li>Benefits – Test Automation Framework</li>
-<li>Example – Test Automation Framework
-<ul>
-<li>How To Install Selenium Drivers via TestProject’s Agent</li>
-<li>How To Create Development Token</li>
-<li>Model Your First Page Object Model (POM)</li>
-<li>How To Build CSS Strategy Using Chrome Developer Tools</li>
-<li>Create Test Class Using POM and TestProject’s OpenSDK</li>
-<li>View Example Report In TestProject</li>
-</ul>
-</li>
-</ul>
-<h2><a target="_blank" id="POMBenefits" rel="noopener"><strong>POM Test Automation Framework </strong><strong>Benefits</strong></h2>
-<p>A Page Object Model is a design pattern with classes that represent each page of an application. It can also represent components within a page. For example, if an application has a Login Page then the Page Object may have a LoginPage class. After creating a Page Object class, each individual test script has access to the class. All test scripts are stored separately from the variables and methods. Here’s a screenshot that shows the Web Pages, Page Objects, and Test Scripts:</p>
+<p>McAfee’s ISO 27701 certificate, along with its other certificates, is publicly available at <a target="_blank" href="http://www.trust.mcafee.com/privacy-compliance" rel="noopener">www.trust.mcafee.com/privacy-compliance</a></p>
+<p><span style="font-size: 10pt;"><em><a target="_blank" href="https://www.mcafee.com/#_ftnref1" name="_ftn1" rel="noopener">[1]</a> Schellman, December 2020</em></span></p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/data-security/mcafee-welcomes-its-iso-27701-certificate/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Welcome to Gaetan! – Gatling Open-Source Load Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/welcome-to-gaetan-gatling-open-source-load-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 07 Jan 2021 16:47:13 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Gaetan]]></category>
+		<category><![CDATA[Gatling]]></category>
+		<category><![CDATA[Load]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/welcome-to-gaetan-gatling-open-source-load-testing/</guid>
+
+					<description><![CDATA[Reading Time: &#60; 1 min   Gatling and more particularly the Sales team is growing!We are very happy to welcome]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">&lt; 1</span> <span class="rt-label rt-postfix">min</span></span></p>
+<p> </p>
+<p>Gatling and more particularly the Sales team is growing!<br />We are very happy to welcome <strong>Gaetan Guespereau</strong>.</p>
 <p></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-16374 size-full" title="POM Test Automation Framework" src="https://blog.testproject.io/wp-content/uploads/2020/12/15.1-Page-Object-Model.png" alt="POM Test Automation Framework" width="638" height="334" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/15.1-Page-Object-Model.png 638w, https://blog.testproject.io/wp-content/uploads/2020/12/15.1-Page-Object-Model-512x268.png 512w" sizes="(max-width: 638px) 100vw, 638px"/></noscript></p>
-<p>The benefits of a Page Object Model are code readability, code reusability, and code maintainability. Code readability means the code is descriptive and easy to follow. Code reusability is a technique for reusing the same code in multiple locations. Code maintainability is an approach of taking less time to make a change to our code.</p>
-<p>The results from a Page Object Model greatly outweighs a plain vanilla test. A vanilla test has everything like locators in each test script. Therefore, if a change happens in the Application Under Test (AUT), then each test script requires an update to its locator. This approach defeats the benefits of a Page Object Model such as code maintainability.</p>
-<p>It’s time-consuming to update the locator in multiple test scripts. Can you imagine how long it would take if the AUT had more than one change? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" /> That means each test script demands multiple updates for successful execution. However, the Page Object Model only requires an update in one place <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h2><a target="_blank" id="OpenSDKBenefits" rel="noopener"><strong>Benefits of Using TestProject’s OpenSDK</strong></h2>
-<p>The <a target="_blank" href="https://testproject.io/advanced-scripting-capabilities/" rel="noopener">OpenSDK</a> from TestProject is a complete coding solution for Test Automation. It’s unified across multiple programming languages: Java, C#, and Python. One of the benefits is an extension of Selenium and Appium. The standard Selenium and Appium drivers are wrapped within TestProject’s powerful Agent that takes care of all the maintenance &amp; heavy-lifting for you, while extending Selenium and Appium with additional features, such as AI and automatic out-of-the-box reporting.</p>
-<p>Selenium is designed for web testing while Appium is built for mobile testing. Therefore, the <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2" rel="noopener">TestProject OpenSDK</a> possesses the ability to test web and mobile applications. It’s comparable to getting the best of two worlds, plus additional features like API testing. A few more benefits include:</p>
-<ul>
-<li>Support for Windows, Mac, Linux, and Docker</li>
-<li>Support for RESTful API</li>
-<li>Store and execute tests locally on any source control tool like Git</li>
-<li>Test runner capabilities for local and remote execution</li>
-<li>Automatic test reports in HTML/PDF format</li>
-<li>Screenshots included in the test report</li>
-<li>Reporting dashboard with execution history</li>
-</ul>
-<p>TestProject has several built-in <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">test report</a> dashboards (Velocity, Distribution, Platforms, Trends, Targets, Individual Run) and an API to get the report. We can manually create a test report or automate the report into our Continuous Integration (CI) pipeline. When it comes to logging, TestProject uses an SLF4J API. We can implement Log4j, Logback, or Java Logging to control the logging output. The following is a screenshot of <a target="_blank" href="https://docs.testproject.io/testproject-sdk/using-testproject-scripted-tests-within-ci-cd" rel="noopener">CI/CD using TestProject OpenSDK</a>:</p>
-<p><img loading="lazy" class="alignnone wp-image-16375 size-full" title="CI/CD with TestProject SDK" alt="CI/CD with TestProject SDK" width="579" height="476" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png 579w, https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow-512x421.png 512w" data-lazy-sizes="(max-width: 579px) 100vw, 579px" src="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png"/></p>
-<p><noscript><img loading="lazy" class="alignnone wp-image-16375 size-full" title="CI/CD with TestProject SDK" src="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png" alt="CI/CD with TestProject SDK" width="579" height="476" srcset="https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow.png 579w, https://blog.testproject.io/wp-content/uploads/2020/12/15.2-CI_CD-Workflow-512x421.png 512w" sizes="(max-width: 579px) 100vw, 579px"/></noscript></p>
-<h2><a target="_blank" id="LocatorBenefits" rel="noopener"><strong>Benefits of Selenium Locators (CSS Selectors vs XPath)</strong></h2>
-<p>The purpose of a <a target="_blank" href="https://blog.testproject.io/2020/11/13/optimized-selenium-selector-strategies-from-a-z/" rel="noopener">Selenium locator</a> is to help us find elements on a web page. An element is anything you see on the page such as buttons, text boxes, links, etc. The two most powerful Selenium locators are CSS Selector and XPath. CSS Selector finds an element by the CSS Selector’s engine. XPath finds an element by its XML Path. Both are powerful because they assist with finding all types of elements. In addition to CSS Selector and XPath, Selenium provides 6 more locators:</p>
-<ol>
-<li><span style="text-decoration: underline;"><strong>className</strong></span> – finds an element by the value of its class attribute.</li>
-<li><span style="text-decoration: underline;"><strong>id</strong> </span>– finds an element by the value of its id attribute.</li>
-<li><span style="text-decoration: underline;"><strong>linkText</strong> </span>– finds a hyperlink element by its complete text.</li>
-<li><span style="text-decoration: underline;"><strong>name</strong></span> – finds an element by the value of its name attribute.</li>
-<li><span style="text-decoration: underline;"><strong>partialLinkText</strong> </span>– finds a hyperlink element by partial text contained within the complete text.</li>
-<li><span style="text-decoration: underline;"><strong>tagName</strong> </span>– finds an element by its tag name.</li>
-</ol>
-<p>With the release of Selenium 4, <a target="_blank" href="https://blog.testproject.io/2020/07/13/selenium-4-relative-locators/" rel="noopener">Relative Locators</a> are added to the existing 6 locators to find elements based on the location of another element:</p>
-<ol>
-<li><strong><u>above</u> </strong>– finds an element or elements located above a fixed element.</li>
-<li><u><strong>below</strong> </u>– finds an element or elements located below a fixed element.</li>
-<li><u><strong>near</strong> </u>– finds an element or elements located near a fixed element.</li>
-<li><strong><u>toLeftOf </u></strong>– finds an element or elements located to the left of a fixed element.</li>
-<li><strong><u>toRightOf </u></strong>– finds an element or elements located to the right of a fixed element.</li>
-</ol>
-<p>Although there are many Selenium locators, the benefit of using CSS Selector or XPath is their flexibility. They provide different options for finding an element. As a result, we can locate complex elements like dynamic elements. A dynamic element is an element with a continuously changing value upon reloading the web page. We can locate elements that start with a specific value, end with a specific value, contain a certain value, and many more complicated elements. The following are CSS Selector and XPath syntaxes that can also be downloaded via the below Cheat Sheet <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<h3 style="text-align: center;"><strong><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f469-200d-1f4bb.png" alt="👩‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://blog.testproject.io/wp-content/uploads/2020/12/Cheat-Sheet-XPath_CSS.pdf" rel="noopener">CSS Selector and XPath – Download Cheat Sheet</a> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f469-200d-1f4bb.png" alt="👩‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="css">XPath
-• //TagName[@AttributeName="AttributeValue"]
-• //TagName[@AttributeName="AttributeValue"][@AttributeName="AttributeValue"]
-• //TagName[@AttributeName="AttributeValue" and @AttributeName="AttributeValue"]
-• //TagName[@AttributeName="AttributeValue" or @AttributeName="AttributeValue"]
-• //TagName[@AttributeName="AttributeValue"]/TagName[n]/TagName[n]
-
-XPath Partial Pattern Match - //TagName[PartialPatternMatch(@AttributeName,'AttributeValue')]
-• //TagName[starts-with(@AttributeName,'AttributeValue')]
-• //TagName[contains(@AttributeName,'AttributeValue')]
-
-XPath Search For Text
-• //TagName[text()='Value']
-
-XPath Axes
-• //TagName[text()='Value']//preceding::TagName[n]
-• //TagName[@AttributeName="AttributeValue"]//preceding::TagName[n]
-• //TagName[text()='Value']//following::TagName[n]
-• //TagName[@AttributeName="AttributeValue"]//following::TagName[n]
-
-CSS
-(* = any TagName / # (pound) = ID AttributeName / . (dot) = Class AttributeName)
-• TagName#AttributeValue
-• TagName.AttributeValue
-• TagName[AttributeName="AttributeValue"]
-• TagName[AttributeName="AttributeValue"][AttributeName="AttributeValue"]
-
-CSS nth-child(n) Syntax
-• TagName[AttributeName="AttributeValue"] TagName TagName:nth-child(n) TagName
-
-CSS Child Select (&gt; = Parent-Child Relationship)
-• TagName.AttributeValue &gt; TagName.AttributeValue
-• TagName.AttributeValue &gt; TagName#AttributeValue
-
-CSS Symbols For Matching Patterns - TagName[AttributeName Symbol="AttributeValue"]
-• (^ (caret) = starts-with / * (asterisk) = every element with a specific substring
-• TagName[AttributeName^='AttributeValue']
-• TagName[AttributeName*='AttributeValue']</pre>
-<h2><a target="_blank" id="JUnitBenefits" rel="noopener"><strong>Benefits of JUnit 5</strong></h2>
-<p><a target="_blank" href="https://blog.testproject.io/2019/02/26/junit-5/" rel="noopener">JUnit</a> is a Unit Testing Framework that’s part of the Test Automation Framework. The goal is to provide a way for testing our code. According to the <a target="_blank" href="https://junit.org/junit5/docs/current/user-guide/index.html#user-guide" rel="noopener">User Guide</a>, JUnit 5 is unlike previous versions. JUnit 5 is composed of several different modules from 3 different sub-projects. The sub-projects are JUnit Platform, JUnit Jupiter, and JUnit Vintage:</p>
-<ol>
-<li><strong><u>JUnit Platform</u></strong> serves as a foundation for launching testing frameworks on the JVM.</li>
-<li><strong><u>JUnit Jupiter</u></strong> is the combination of the new programming model and extension model for writing tests and extensions.</li>
-<li><strong><u>JUnit Vintage</u></strong> provides a test engine for running JUnit 3 and JUnit 4.</li>
-</ol>
-<p>Some of the benefits include code quality, debugging process, and locate defects early. Code quality impacts the overall quality of an application. Therefore, JUnit ensures the code is reliable and testable. The debugging process helps us detect and remove defects in our code. It is important because we can prevent unexpected or incorrect software operations. Last but not least, is locating defects early in the Software Development Life Cycle (SDLC). This benefit produces additional benefits such as reducing business risk, reducing cost, and improving application security. Eliminating a defect early is better than waiting for a problem to occur in production.</p>
-<p>An example of a Test Automation Framework will be next. Stay Tuned <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Gaetan joined us as a <strong>Junior Business Developer, </strong>he is currently in the 2nd year of IPAG Business School in Paris and he joined us for a 9 weeks internship.</p>
+<p>Gaetan wants to know more about the industry and the sales job by learning about with us while applying his knowledge.</p>
+<p>It’s a pleasure for us to welcome him!</p>
+<p><strong>The Gatling Team</strong></p>
+<p> </p>
 </div>
 <p><br />
-<br /><a href="https://blog.testproject.io/2021/01/06/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Reduce Your Test Automation Costs Significantly with Open Source Frameworks</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 06 Jan 2021 04:11:36 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[costs]]></category>
-		<category><![CDATA[frameworks]]></category>
-		<category><![CDATA[Open]]></category>
-		<category><![CDATA[Reduce]]></category>
-		<category><![CDATA[Significantly]]></category>
-		<category><![CDATA[source]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/</guid>
-
-					<description><![CDATA[The COVID pandemic has not only altered the lives of millions of software professionals around the world, but it also]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>The COVID pandemic has not only altered the lives of millions of software professionals around the world, but it also has made many software companies think about various ways they can reduce costs and risks to preserve their production and exist in this highly competitive software industry.</p>
-<p>It is a fact that now many companies have started to think about the different ways they can curtail their spending plans. But at the same time, they also have to ensure that their existing products and the new products that they are/will be launching in the market are of high quality, valuable to their clients/customers, and provide a great user experience. Thus they have to be cautious when it comes to Testing and <a target="_blank" href="https://testproject.io/" rel="noopener">Test Automation</a>.</p>
-<p>One of the ways by which companies can reduce their costs significantly is by adopting Open Source technologies. If we talk about Test Automation, Open Source Test Automation Frameworks can come to the rescue. Costs involved in Test Automation can have many facets and we will discuss those later in this article. But first, let’s understand what we mean by “<strong>Open Source</strong>”.</p>
-<h2><strong>What is Open Source software and how is it different from Proprietary ones?</strong></h2>
-<p>If any software (tool/platform/technology/framework) is referred to as “<em>Open Source</em>”, it means that its source-code/blueprint/design can be accessed, used, inspected, reviewed, modified, and distributed by anyone with its original rights and licenses. The reasons can be many and may vary from enhancing its functionalities by adding features in it, fixing its bugs, or providing entirely new functionalities by creating wrappers around it. It will mostly be available free of charge <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f193.png" alt="🆓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>On the other hand, if the software is “<em>Proprietary</em>” (or “<em>Commercial</em>”), it means that its source-code/blueprint/design is available only to the person(s)/organization(s) who have created it or own it. Only they can exclusively maintain, modify, and distribute it with its original rights and licenses. If anyone else (user/organization) wants to use that software, they usually need to sign a license agreement stating that they will not do anything with the software that its legal owner has not permitted.</p>
-<h2><strong>Different ways Open Source Frameworks bring down Test Automation costs</strong></h2>
-<p>With the widespread adoption of <a target="_blank" href="https://blog.testproject.io/2020/11/18/waterfall-agile-scrum-kanban-methodologies/" rel="noopener">Agile</a> and <a target="_blank" href="https://blog.testproject.io/2020/08/06/can-manual-testers-survive-in-the-age-of-devops/" rel="noopener">DevOps</a>, the benefits provided by Test Automation are undoubtedly numerous. I will not go into the details of those benefits as I am sure you are already aware of them from personal experiences or from reading different articles/blog posts. But like all other things related to software, Test Automation also involves costs from various aspects. The total cost can be a summation of the individual cost involved in the setup of the Test Automation Framework, its maintenance, its training/knowledge transfer, its enhancement, test execution time, test execution result interpretation, the infrastructure/environment in which the tests will run, and so on. Let’s discuss them and see how adopting open source frameworks can help in reducing test automation costs:</p>
-<p><strong>1. Setup Cost</strong></p>
-<p>If we go for a commercial tool for our Test Automation initiative, then there will be some license fee and subscription charge to start with. The subscription charge may be based on the number of users who will be using that product and for a defined timeframe (monthly/yearly). On the other hand, an Open Source Test Automation framework, which can consist of and provide the functionalities of popular open-source libraries like WebDriver, Appium, RestAssured, etc. out-of-the-box will not require any such charges (license/subscription). Even if the number of users who will be using the framework increases in the future, it will not have a direct correlation to the cost associated with the framework setup. The setup cost will be one-time unless there is a significant change required and a need arises to rewrite the majority of the core part of the framework.</p>
-<p><strong>2. Maintenance Cost</strong></p>
-<p>Most of the Test Automation Engineers around the world are already working or have worked on most of the open-source technologies which make up the Open Source Test Automation frameworks. So if your team comprises skilled Test Automation Engineers, then the cost of maintaining the framework, can significantly go down compared to any commercial tool. Maintenance means to ensure that the framework continues to be relevant to the testing of the product-under-test and can provide value by revealing problems.</p>
-<p>Suppose, there is an issue in the framework itself. Then the resolution time can turn out to be quite less since, for open source technologies, the test automation engineers in the team can themselves solve the issue as they are already skilled in those technologies. If the issue is related to some core part of the framework and they are not able to solve it, then they can directly raise the issue with the maintainers of that framework or it is also possible that the issue might have already been encountered by someone else in some other part of the world and the solution has already been put in some collaboration platform like GitHub, StackOverflow.</p>
-<p><strong>3. Training and Knowledge Transfer Cost</strong></p>
-<p>For commercial tools, there will always be some associated training and knowledge transfer costs. The tool knowledge has to be cascaded from the people who are already using the tool or from the tool provider to the people who will be the users of that tool. Since there will be limited learning resources available in the public domain, the engineers in the team would need some time to get themselves accustomed and become proficient in that tool/framework. For Open source frameworks, this will not be the case since all or most of the required learning resources will be publicly available which means that learning and becoming proficient in them will be much easier.</p>
-<p><strong>4. </strong><strong>Execution Result Interpretation Cost</strong></p>
-<p>Whenever tests are run using a Test Automation tool or framework (be it open source or commercial), execution results get generated. The results can be in the form of simple stack traces, <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">useful reports</a> (HTML/PDF/JSON), logs, charts, and visualizations. Probably one of the most important aspects of Test Automation is the execution outcome in the form of generated results. A good clear detailed report/log can help the engineers quickly interpret and investigate the execution outcome which in turn can provide valuable insights on how the product is behaving under certain conditions.</p>
-<p>In open-source frameworks, we can customize and tailor those generated execution results according to our needs, without spending any extra bucks to get those customized for us. Another benefit is that most of the open-source technologies which are created for reporting or monitoring purposes can be easily integrated with the Open Source automation frameworks and most of the time the integration processes (with step-by-step instructions) can be easily found on the net. Some tools also have <a target="_blank" href="https://blog.testproject.io/2020/07/27/html-test-reports-for-selenium-and-appium-python-test-automation/" rel="noopener">out-of-the-box automatic test reports</a>.</p>
-<p><strong>5. Infrastructure Cost</strong></p>
-<p>When we talk about the infrastructure required for a successful Test Automation implementation, we refer to configuring and maintaining the automation setups like the platforms in which the tests will run, the browsers, the environments, the libraries which will help to run the tests, the monitoring and management tools, the evidence-capture and video-recording tools, the version control systems where the automation code will be maintained, the CI servers, etc. Multiple open-source technologies can be leveraged to meet these infrastructural needs like <a target="_blank" href="https://git-scm.com/" rel="noopener">Git</a>, <a target="_blank" href="https://docs.testproject.io/testproject-integrations/integration-with-jenkins" rel="noopener">Jenkins</a>, <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a>, <a target="_blank" href="https://blog.testproject.io/2020/05/30/the-ultimate-docker-tutorial-for-automation-testing-using-testproject/" rel="noopener">Docker</a>, <a target="_blank" href="https://kubernetes.io/" rel="noopener">Kubernetes</a>, etc. and most of them are completely free or provide community versions that are free to use.</p>
-<h2><strong>Conclusion</strong></h2>
-<p>More and more companies have started to embrace open-source technologies to deliver high-quality products to the market. This adoption is a result of the dedication of thousands of open-source contributors/maintainers and the continuous trust that open-source is providing in terms of control, ease of training/knowledge transfer, stability, and help from a large supportive community in addition to significant cost benefits to the business. Being an open-source enthusiast and seeing the recent trends in Test Automation, it looks clear to me that the popularity and usage index of open-source frameworks will continue to rise in the coming years <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-</div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2021/01/06/reduce-your-test-automation-costs-significantly-with-open-source-frameworks/">Source link </a></p>
+<br /><a href="https://gatling.io/2021/01/07/welcome-to-gaetan/">Source link </a></p>
 ]]></content:encoded>
 					
 		
