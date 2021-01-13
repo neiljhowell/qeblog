@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 11 Jan 2021 22:21:35 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 12 Jan 2021 21:45:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,340 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Critical Microsoft Defender Bug Actively Exploited; Patch Tuesday Offers 83 Fixes</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/critical-microsoft-defender-bug-actively-exploited-patch-tuesday-offers-83-fixes/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 21:45:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Actively]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Defender]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Fixes]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Offers]]></category>
+		<category><![CDATA[Patch]]></category>
+		<category><![CDATA[Tuesday]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/critical-microsoft-defender-bug-actively-exploited-patch-tuesday-offers-83-fixes/</guid>
+
+					<description><![CDATA[The first Patch Tuesday security bulletin for 2021 from Microsoft includes fixes for one bug under active attack, possibly linked]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The first Patch Tuesday security bulletin for 2021 from Microsoft includes fixes for one bug under active attack, possibly linked to the massive SolarWinds hacks.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/critical-microsoft-defender-bug-exploited/162992/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Data Breach at &#8216;Resident Evil&#8217; Gaming Company Widens</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/data-breach-at-resident-evil-gaming-company-widens/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 18:45:14 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[company]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Evil]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[resident]]></category>
+		<category><![CDATA[Widens]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/data-breach-at-resident-evil-gaming-company-widens/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/data-breach-resident-evil-gaming/162977/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mimecast Certificate Hacked in Microsoft Email Supply-Chain Attack</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/mimecast-certificate-hacked-in-microsoft-email-supply-chain-attack/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 18:35:41 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Certificate]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Hacked]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Mimecast]]></category>
+		<category><![CDATA[SupplyChain]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mimecast-certificate-hacked-in-microsoft-email-supply-chain-attack/</guid>
+
+					<description><![CDATA[A sophisticated threat actor has hijacked email security connections to spy on targets. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A sophisticated threat actor has hijacked email security connections to spy on targets.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/mimecast-certificate-microsoft-supply-chain-attack/162965/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>BumbleBee Opens Exchange Servers in xHunt Spy Campaign</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/bumblebee-opens-exchange-servers-in-xhunt-spy-campaign/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 18:30:47 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[BumbleBee]]></category>
+		<category><![CDATA[Campaign]]></category>
+		<category><![CDATA[Exchange]]></category>
+		<category><![CDATA[Opens]]></category>
+		<category><![CDATA[Servers]]></category>
+		<category><![CDATA[Spy]]></category>
+		<category><![CDATA[xHunt]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/bumblebee-opens-exchange-servers-in-xhunt-spy-campaign/</guid>
+
+					<description><![CDATA[The BumbleBee web shell allows APT attackers to upload and download files, and move laterally by running commands. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The BumbleBee web shell allows APT attackers to upload and download files, and move laterally by running commands.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/bumblebee-exchange-servers-xhunt-spy/162973/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Discover why large broadcasting company chose NeoLoad for its high-volume, high-&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/discover-why-large-broadcasting-company-chose-neoload-for-its-high-volume-high/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 18:18:46 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[broadcasting]]></category>
+		<category><![CDATA[chose]]></category>
+		<category><![CDATA[company]]></category>
+		<category><![CDATA[Discover]]></category>
+		<category><![CDATA[high]]></category>
+		<category><![CDATA[highvolume]]></category>
+		<category><![CDATA[large]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/discover-why-large-broadcasting-company-chose-neoload-for-its-high-volume-high/</guid>
+
+					<description><![CDATA[Discover why large broadcasting company chose NeoLoad for its high-volume, high-velocity performance tests during its migration to AWS CloudFront. 👉]]></description>
+										<content:encoded><![CDATA[
+<p>Discover why large broadcasting company chose NeoLoad for its high-volume, high-velocity performance tests during its migration to AWS CloudFront. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2LfsxDC&amp;h=AT3MjRD6-SqJsI7o0NNaMY2rbEhT1ITFm9cac2cXhYba7xUFFA7EWd_OdEmMGDiUU92UBGgmKbs2JN1OlxmjIzvGlPDmle25I_eG6L29HgBMPDvMgnITZe03VAuNYX2f8XwDoIIzbELgYqmGZFZNlokmUoWCPkkEvgjYuxv6wxLwKXfZepcCD_2TBd7zctc5HjRwohvw1kJXK8o7TYLpYnINRR2aO-Qz6XETtXY9n-Hvmvo9KJrkyvMCn0nBoSMfemWFBTHg1vyMAhueg5j6iYPiIX924avHFfhTA6YAg3brE5uM4TwJgEdc5ddewjmcLDbp4sCIW1kacsiZ-PagZzYkV5-l3oG4zEz2-9bkrL2Z5wmQk7Ku8xSFBT7sBXpeWlKdXS_IMyF_5w31CkUuN0eZsV7UI7kCXSvVJvxxfQnehK_vt1CyodmaogWz7U9FrUGPJOoVm8RL6Ot0oqGILjzia2GZtyxYgnlvJHszLKRk0aSmiAxyo-eQJpTitCE9ncDIwQHLTHkG2DqSbha81blgwmGR3tSoUzKVTK4BMwJR-4XBqO07RIhzVKbj3zw8hRtzEn941mdB_XzZOGJwJ9Ys0qAds9ULUheQJiGLFQ-s2B94aJi6f9x2JqE3gi2fNU_x3Xm26JeG33-FVUNHWkyCfz97nQf0QbE8-Bs-4oK0KlOiMu527CWphhGize0yzjhT1D_ezfSQcF_cfFJh1_6UO4FwqKZyiKqn1CCI-kNIqFQHrb-F3i8SszGXSLQhr0qeMcyjxlQzqfL-T16dN6vGoJuKZSHKs8U15JxbMqk0JT_k0NkOXLsrxBjQvw76OtX9x1wspvtVkyLCpmyid_d4OJS4WJogH6-h4mZt6ViqR5n_OUPS7DTZDkUXyAXn-WoGnw9Td082hedYLuTjrdBeMGOgUiGUe3z9mWUEnu0GNmqy8dRaxv8-3QEyvlOsqlDlRudbs6VY9I0wjXLxD6z76TXOqF2JeEQtJ46Alvp87nngLAYP5OTxgwgGbQlthbDA2-dPAR7OmbK80LM77vINXhUJN2C8azu3k41uL0cVrU_j-GIr-AmAE3daDqOPYtqwXOpsaWtYsWF0IZnbV4V4E7CJ-gJF-fbrxQPrc1GlqSrnbNC9dAhbQovzr11d78fQpzPUrd3xij_FBto7AhljaiaBxEnrKImQgzKYb8a-wccTb6a6eeBGuUgb6rHTCVCyhKxm2vbwiOWO_BJ4sv1vtygBzxuRjJLNb08BfTnyV0TIOHPJTv38SUBYJg" rel="noopener">https://bit.ly/2LfsxDC</a>
+</p>
+<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/138689371_4017085208302912_6005561075912548341_o.png?_nc_cat=105&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=1X0B9NeErHMAX_37CQS&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=e33673a086da175d31bc9d124d1ffc8c&#038;oe=60245BCB" rel="noopener"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4017085281636238">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Adobe Fixes 7 Critical Flaws, Blocks Flash Player Content</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/adobe-fixes-7-critical-flaws-blocks-flash-player-content/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 17:13:28 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[Blocks]]></category>
+		<category><![CDATA[Content]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Fixes]]></category>
+		<category><![CDATA[Flash]]></category>
+		<category><![CDATA[Flaws]]></category>
+		<category><![CDATA[Player]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/adobe-fixes-7-critical-flaws-blocks-flash-player-content/</guid>
+
+					<description><![CDATA[Adobe issued patches for seven critical arbitrary-code-execution flaws plaguing Windows and MacOS users. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Adobe issued patches for seven critical arbitrary-code-execution flaws plaguing Windows and MacOS users.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/adobe-critical-flaws-flash-player/162958/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Europol Reveals Dismantling of ‘Largest’ Underground Marketplace</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/europol-reveals-dismantling-of-largest-underground-marketplace/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 16:26:58 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Dismantling]]></category>
+		<category><![CDATA[Europol]]></category>
+		<category><![CDATA[largest]]></category>
+		<category><![CDATA[Marketplace]]></category>
+		<category><![CDATA[reveals]]></category>
+		<category><![CDATA[Underground]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/europol-reveals-dismantling-of-largest-underground-marketplace/</guid>
+
+					<description><![CDATA[Europol announced a wide-ranging investigation that led to the arrest of the alleged DarkMarket operator and the seizure of the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Europol announced a wide-ranging investigation that led to the arrest of the alleged DarkMarket operator and the seizure of the marketplace&#8217;s infrastructure, including more than 20 servers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/europol-dismantling-underground-marketplace/162949/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Remote-work and burnout: 10 ways to avoid it on your tech team</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/remote-work-and-burnout-10-ways-to-avoid-it-on-your-tech-team/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Avoid]]></category>
+		<category><![CDATA[burnout]]></category>
+		<category><![CDATA[remotework]]></category>
+		<category><![CDATA[team]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ways]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/remote-work-and-burnout-10-ways-to-avoid-it-on-your-tech-team/</guid>
+
+					<description><![CDATA[For many tech pros, remote work is hell because all the traditional work/home boundaries are blurred. And in this economic environment, everyone is]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>For many tech pros, remote work is hell because all the traditional work/home boundaries are blurred. And in this economic environment, everyone is trying to avoid getting laid off. All the more reason, then, for wanting or needing to be always available to the job.</p>
+<p>One example: having a security operations center dashboard on your mobile phone, to be alerted to problems day or night. That sort of connectivity can bring <a target="_blank" href="https://techbeacon.com/devops/how-avoid-devops-burnout" rel="noopener">work-related stress</a> to a whole new level.</p>
+<p><em>TechBeacon</em> talked to tech pros and HR managers to see what best practices have emerged in this remote era. Here are 10 suggestions for avoiding burnout as a development, testing, security, or other IT professional.</p>
+<h3>1. Accept that burnout is a real problem</h3>
+<p>The first step is to understand that burnout is real, said <a target="_blank" href="https://twitter.com/jgallimore" rel="nofollow noopener">Jeff Gallimore</a>, co-founder and chief technology and innovation officer at Excella, a technology consulting firm.</p>
+<blockquote>
+<p>&#8220;We are at an increased risk of burnout, particularly in these times. Our individual ability to deal with things is not what it was a year ago because of all the other things we have to deal with now, such as healthcare concerns.&#8221;<br />—<a target="_blank" href="https://twitter.com/jgallimore" rel="nofollow noopener">Jeff Gallimore</a></p>
+</blockquote>
+<p>That&#8217;s reducing the capacity of individuals to handle the other stuff that they used to cope with on a normal day-to-day basis at work, he said.</p>
+<p>To help, Gallimore said, managers can take &#8220;a more proactive stance on trying to root out where those risks are&#8221; in their teams. One way to deal with it: &#8220;[By] realizing that my team might need a little bit more connection time in meetings just to catch up with each other.&#8221;</p>
+<p>Rather than launching right into the agenda and starting to talk about business or the work of the day that needs to get done, managers should create space for chatter, to maintain the rapport that people used to have in the office, he said.</p>
+<h3>2. Communicate and connect</h3>
+<p>The mental health of all employees is especially critical during this tumultuous time, and individuals are struggling to manage the sudden shift to all-remote work, the need to handle family and schooling priorities, and their feelings of isolation, said Shani Brounshtein, vice president of HR at Atera, an Israeli company that provides a remote-monitoring management platform. </p>
+<blockquote>
+<p>&#8220;Instant messaging platforms can simulate a water cooler-style conversation and office banter. By connecting with each other, it can help bring the teams closer together.&#8221;<br />—<a target="_blank" href="https://twitter.com/Shani_Plarium" rel="nofollow noopener">Shani Brounshtein</a></p>
+</blockquote>
+<p>In the pre-pandemic world, Srini Vadlamani, CTO of Cyral, which makes a cloud-native security tool, preferred face-to-face communication, because it allowed for better conversation. Talking to someone in person also helped him understand what was going on from the other person&#8217;s point of view. Now, with the pandemic driving remote work, he encourages employees to use video during online meetings.</p>
+<blockquote>
+<p>&#8220;We have this culture where we all turn on our videos, unless someone&#8217;s not feeling so well.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/svadlama/" rel="nofollow noopener">Srini Vadlamani</a></p>
+</blockquote>
+<h3>3. Deliver a well-being program</h3>
+<p>When employees are burned out, it&#8217;s generally because they have been hyper-engaged for long periods of time without taking care of their well-being or having the support from their companies to take care of themselves, said Laura Hamill, chief people officer at Limeade, an employee experience company.</p>
+<blockquote>
+<p>&#8220;Sometimes burnout goes so far that in order to cope with the exhaustion, cynicism, and inefficacy, employees start to detach and disengage from their work. When this happens, it&#8217;s easy for the employee to lose sight of why they liked their job in the first place and how their work helps them find more meaning and purpose in their life.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/laurahamill/" rel="nofollow noopener">Laura Hamill</a></p>
+</blockquote>
+<p>To prevent employee burnout, organizations should deliver a well-being program, according to Hamill. This can include providing recovery time between big IT rollouts, training managers to support well-being within their teams, building support systems among employees, addressing unreasonable deadlines and overwork (often associated with IT departments), and helping people reconnect to their sense of purpose at work, she said.</p>
+<h3>4. Hold mindful meetings</h3>
+<p>Meetings have increased on average for developers since the start of the pandemic, according to <a target="_blank" href="https://uplevelteam.com/wp-content/uploads/2020/10/Uplevel-2020-Remote-Work-Report.pdf" rel="nofollow noopener">an analysis based on over 2,000 developers conducted by Uplevel</a>, an engineering effectiveness platform. </p>
+<p>Developers are working longer hours, and the risk for developer burnout is high, in part because of the increase <a target="_blank" href="https://techbeacon.com/devops/balanced-calendar-how-software-teams-can-optimize-their-time" rel="noopener">in overall time spent in meetings</a>.</p>
+<p>September tallied &#8220;one of the highest [meeting] increases we&#8217;ve seen, and we&#8217;ve also heard subjectively from our customers that everything has to be a meeting now,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/ravs-kaur-653b245/" rel="nofollow noopener">Ravs Kaur</a>, chief technology officer at Uplevel.</p>
+<p>One way organizations can deal with meeting burnout is to hold &#8220;mindful&#8221; team meetings. In other words, try starting meetings with a quick meditation or allowing time for some chat before diving into work, said <a target="_blank" href="https://www.linkedin.com/in/bstallings/" rel="nofollow noopener">Bryan Stallings</a>, chief evangelist for Lucid, an online visual collaboration suite. One best practice he recommends: &#8220;Use visuals to create an interactive environment rather than an audience of zombies with a single person presenting.&#8221;</p>
+<p><a target="_blank" href="https://www.linkedin.com/in/williammiller285/" rel="nofollow noopener">Bill Miller</a>, CIO of NetAPP, a provider of cloud data services, said his company is very mindful when scheduling meetings, with the goals of making them shorter, but also as inclusive and as productive as possible.</p>
+<p>Anything that can be read and digested ahead of a meeting is sent via collaboration channels, he said. </p>
+<blockquote>
+<p>&#8220;[That gives] each person time to share their thoughts, which is something that didn&#8217;t always happen in a conference room, because the biggest voices with the most bravado often dominated the conversation. Now we’re going more thoughtfully around the visual space asking every person for their opinion, and that’s bringing to light more ideas, more perspectives, and deepening the feeling of inclusion and belonging.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/williammiller285/" rel="nofollow noopener">Bill Miller</a></p>
+</blockquote>
+<h3>5. Be aware of people&#8217;s time</h3>
+<p>Leaders have to ensure that they&#8217;re using their people efficiently, said Cyral&#8217;s Vadlamani.</p>
+<blockquote>
+<p>&#8220;Let&#8217;s say a team of five people are all watching all the Slack alerts for a security channel. Do they all need to be watching at all times during the day, during the week, during the weekend?&#8221;<br />—Srini Vadlamani</p>
+</blockquote>
+<p>He suggests setting up a rotation and designating which team member will be responsible for monitoring the Slack alerts at a specific time.</p>
+<p>Another suggestion is to urn off notifications during certain hours of the day, certain days of the week, and so on, he said.</p>
+<blockquote>
+<p>&#8220;We basically encourage people to switch off, disconnect, when they don&#8217;t have anything to do. That way, at least for the time that they&#8217;re not engaged, they&#8217;re not being bombarded with all these sensory inputs.&#8221;<br />—Srini Vadlamani</p>
+</blockquote>
+<h3>6. Connect back with your purpose</h3>
+<p>One of the best approaches to combat burnout is for developers and IT pros to connect back with their purpose—especially from the perspective of how their work impacts real human beings, according to Limeade&#8217;s Hamill.</p>
+<p>For example, remind yourself of the problems your customers face and how your technology is helping to solve them, she said. &#8220;How did your contribution help them? How did that feel? From an internal perspective, remind yourself of the projects that you worked on with others and how it felt to have a positive impact on your co-workers.&#8221;</p>
+<p>Managers can help by having &#8220;line-of-sight&#8221; discussions with their employees, describing to each employee how their specific work helps the team, department, and company be successful. &#8220;Sometimes, we might think that is obvious to our employees, but it isn’t always,&#8221; she said. </p>
+<h3>7. Use the off switch</h3>
+<p>It&#8217;s important to remember that &#8220;always on&#8221; has a corresponding off switch—and it should be used, said Derek Weeks, vice president of Sonatype, a provider of DevSecOps-native tools.</p>
+<p>He advocates having a set schedule for the day, a time to both start and stop. &#8220;[You] have to be steadfast. When it says, &#8216;Stop,&#8217; it means stop. It doesn&#8217;t mean bring your phone to dinner and check what&#8217;s happening on Slack.&#8221;</p>
+<p>Before the pandemic, when employees used to leave the office, they weren&#8217;t usually responding to work issues when they got home in the evening. Rather, they were spending time with their kids, their partners, and their pets, Weeks said.</p>
+<p>He said that although he works on Sundays and may send messages to his team on Sunday mornings, he doesn&#8217;t expect responses that day. </p>
+<blockquote>
+<p>&#8220;I let my team know that it is totally okay to wait until Monday to answer it. If it was so time-critical, I&#8217;d call them.&#8221;<br />—<a target="_blank" href="https://twitter.com/weekstweets" rel="nofollow noopener">Derek Weeks</a></p>
+</blockquote>
+<p>One of the keys to using the on/off switch when working remotely is to develop a physical action to support the shut-off valve, said Mika Liss, COO of NeuroLeadership Institute, a consulting company that aims to help organizations apply neuroscience to work.</p>
+<p>For instance, if you decide to stop working at 5 p.m. every day, you have to take action to enforce that.</p>
+<blockquote>
+<p>&#8220;Physically shut off your laptop you put it in a drawer. And since all tech people are online, you can have your teammates say something like, &#8216;Shutting down in five, four, three&#8217;—or you can put a reminder in your calendar.&#8221;<br />—<a target="_blank" href="https://twitter.com/mikaliss" rel="nofollow noopener">Mika Liss</a></p>
+</blockquote>
+<h3>8. Offer flexible schedules</h3>
+<p>NetApp is giving its employees far more flexibility in terms of work hours and schedules now that everyone is working from home, Miller said.</p>
+<p>&#8220;We understand that some families have young children at home to address, while other employees may care for elderly family members,&#8221; he said. &#8220;We need to be very sensitive to the unique needs of families to succeed both in business and in life, thus removing inherent stress and eventual burnout.&#8221;</p>
+<p>Working from home has introduced the need for different perspectives on balance, Miller said.</p>
+<blockquote>
+<p>&#8220;We deeply believe a healthy work-life balance and an inherent sense of accomplishment and job satisfaction will result in the best employees for the long term.&#8221;<br />—Bill Miller</p>
+</blockquote>
+<h3>9. Learn to collaborate remotely</h3>
+<p>Before the pandemic, remote workers could physically go into the office to get some help with a problem, said Hyoun Park, CEO and principal analyst at Amalgam Insights.</p>
+<blockquote>
+<p>&#8220;You used some human interaction to figure out how to work with other people and get some things done, synchronously. Now, a lot of us have to get the same amount of communication and collaboration done [remotely], and we have to use the technical tools that we have.&#8221;<br />—<a target="_blank" href="https://twitter.com/hyounpark" rel="nofollow noopener">Hyoun Park</a></p>
+</blockquote>
+<p>The hardest part is understanding how to collaborate with other team members, especially when they&#8217;re nontechnical or business people—for instance, the people who care about security and applications and development but who are in sales or marketing or other areas where they don&#8217;t deal with code, Park said.</p>
+<p>Although remote access to systems and tools has been around for decades, without in-person human interaction, something gets lost in translation.</p>
+<p>The majority of person-to-person communication is nonverbal. &#8220;And a lot of that nuance gets lost because there&#8217;s just a little bit of a delay when we&#8217;re speaking to each other remotely—there&#8217;s less spatial detail that you can get from a two-inch box in a Zoom&#8221; meeting, Park said.</p>
+<h3>10. Reclaim your commute time</h3>
+<p>Justin Rodenbostel, vice president of solution delivery at SPR, which specializes in custom software development, said he used to have a 60-to-90-minute commute, and for a while he found himself logging on at the time that he would have left for work, which lead to really long days.</p>
+<p>&#8220;We&#8217;re now working during the time that we spent commuting,&#8221; he said. People have to reclaim their commute times to preserve a normal workday, he added.</p>
+<blockquote>
+<p>&#8220;This allows a time for the mental transition, which normally happens during your commute, to kind of warm your brain up for the day or wind it down at the end of the day so that you can switch from a family member to a team member and back to a family member.&#8221;<br />—<a target="_blank" href="https://twitter.com/revdrjrr" rel="nofollow noopener">Justin Rodenbostel</a></p>
+</blockquote>
+<h3>The new normal</h3>
+<p>This new landscape has already lasted much longer than most anticipated—and it will <a target="_blank" href="https://techbeacon.com/enterprise-it/4-technology-leadership-lessons-coming-post-pandemic-world" rel="noopener">likely continue for some time</a>.</p>
+<p>Many developers and IT pros will ultimately work remotely full time and may never return to the office. These tips will can help you avoid burnout and be more productive in this environment.</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/remote-work-burnout-10-ways-avoid-it-your-tech-team">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ethical Hackers Breach U.N., Access 100,000 Private Records</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/ethical-hackers-breach-u-n-access-100000-private-records/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 15:00:19 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Access]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Ethical]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[Private]]></category>
+		<category><![CDATA[Records]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ethical-hackers-breach-u-n-access-100000-private-records/</guid>
+
+					<description><![CDATA[Researchers informed organization of a flaw that exposed GitHub credentials through the organization’s vulnerability disclosure program. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researchers informed organization of a flaw that exposed GitHub credentials through the organization’s vulnerability disclosure program.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/hackers-breach-un-access-records/162944/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Aliens and UFOs: A Final Frontier for Social Engineers</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/aliens-and-ufos-a-final-frontier-for-social-engineers/</link>
 		
@@ -47,270 +381,6 @@
 <br />The release of a CIA archive on UFOs is exactly the kind of headline-making event that phishing and scam actors long for.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/aliens-ufos-frontier-social-engineers/162939/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Millions of Social Profiles Leaked by Chinese Data-Scrapers</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/millions-of-social-profiles-leaked-by-chinese-data-scrapers/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 11 Jan 2021 21:54:43 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Chinese]]></category>
-		<category><![CDATA[DataScrapers]]></category>
-		<category><![CDATA[leaked]]></category>
-		<category><![CDATA[Millions]]></category>
-		<category><![CDATA[profiles]]></category>
-		<category><![CDATA[Social]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/millions-of-social-profiles-leaked-by-chinese-data-scrapers/</guid>
-
-					<description><![CDATA[A cloud misconfig by SocialArks exposed 318 million records gleaned from Facebook, Instagram and LinkedIn. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A cloud misconfig by SocialArks exposed 318 million records gleaned from Facebook, Instagram and LinkedIn.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/social-profiles-leaked-chinese-data-scrapers/162936/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Researcher Builds Parler Archive Amid Amazon Suspension</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/researcher-builds-parler-archive-amid-amazon-suspension/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 11 Jan 2021 20:54:43 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Archive]]></category>
-		<category><![CDATA[Builds]]></category>
-		<category><![CDATA[Parler]]></category>
-		<category><![CDATA[researcher]]></category>
-		<category><![CDATA[Suspension]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/researcher-builds-parler-archive-amid-amazon-suspension/</guid>
-
-					<description><![CDATA[A researcher scraped and archived public Parler posts before the conservative social networking service was taken down by Amazon, Apple]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A researcher scraped and archived public Parler posts before the conservative social networking service was taken down by Amazon, Apple and Google.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/parler-archive-amazon-suspension/162928/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SolarWinds Hack Potentially Linked to Turla APT</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-hack-potentially-linked-to-turla-apt/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 11 Jan 2021 17:53:21 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APT]]></category>
-		<category><![CDATA[Hack]]></category>
-		<category><![CDATA[Linked]]></category>
-		<category><![CDATA[Potentially]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[Turla]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-hack-potentially-linked-to-turla-apt/</guid>
-
-					<description><![CDATA[Researchers have spotted notable code overlap between the Sunburst backdoor and a known Turla weapon. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers have spotted notable code overlap between the Sunburst backdoor and a known Turla weapon.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/solarwinds-hack-linked-turla-apt/162918/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What do you need to evaluate to determine the ROI of performance testing softwar&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/what-do-you-need-to-evaluate-to-determine-the-roi-of-performance-testing-softwar/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 11 Jan 2021 17:34:34 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[determine]]></category>
-		<category><![CDATA[evaluate]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[ROI]]></category>
-		<category><![CDATA[softwar]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/what-do-you-need-to-evaluate-to-determine-the-roi-of-performance-testing-softwar/</guid>
-
-					<description><![CDATA[What do you need to evaluate to determine the ROI of performance testing software? It’s more than just license fees.]]></description>
-										<content:encoded><![CDATA[
-<p>What do you need to evaluate to determine the ROI of performance testing software? It’s more than just license fees. Our eBook What’s the ROI? lays out 6 essential criteria. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3aGC7JM&amp;h=AT17SeC3DSNi4Cm2zS5TVIH0Uaba8c5eEpFInRHEWoF1sWQr9HbDPwovdTfySFrinHgKn68pXNAJ9JmTbadPJU6EPI7Xm2MGgUgt-MlLPonen920ayDZafgEnfHb53J1_bDCXMN7nWQWqklHjBHv0cXPCoPk1Zd5C6ckDsOlDDmw8xqBhI46QIgSNbuDRv124_fuL1Lbt_zOQTMUDTL_PWXBFOcBgmkKTgB2l-9HkZSkmMDN84K5LvsFZKF9zJtSc_DF2yT534OgEcirSSxU68tbMUBHd87AORfyv8vPMQhYuwUuV3t90fufzW-Q8Y2ffBS28Bb2b1rqPzu8B5VbgElnR8M9RNrC9rV5qlNdQAGz04QwRxt5tPx8CWBAi4G7BvZ8ZYfgGS-eLIzr1m_R1AyPN9x-A3MhXRoHwdqju9zjENlhWSpEeC8HnOkRkIN43R1o73yTCQqVT9v8dkw3NY4uuCs5JyDxH-iLgZTYDdd8Y_rgqYvbT8QAoIdtqXfmWXd0kE77ATl-XELsiDjcNlriHsvEBslnFr3tiZE8000LUr4ia0tiT4zlswFYPvbFMJB2jeyeHXoQ-yBvRHkca8uaV9sUu8FZIwykGzfyolr6PZTNcmeA9FKdJs8YF-59gQeAiSp4VyFHpKvOlm2lzfeeTRBlvbozzxoYu2LFQSq_Y7PUaXsMKodcJxuKVlW4Wo49zPqUcJ9a8EFinDO7vakjA9pBU7D_x8_EKd6vUDYZl8uq_UTES_R64667bgODzwb4hDNt77nnGBDKa8R8iO_FbQ6e6wl54GgdBxdPMZI1LjehDrTAvQdVPzd7ZAq6ACZbQLTTQbL-kSDa-7WYuflBGpjJOaiIzowOky4oChd1tMqHuY760Vkm7-Kq-RMv6JPELZTZ8LZBd9Ih7cLOz7XndVHfcD2LxV9lCx7x5zaWAcswdgQFZG0SWFuY8jlXVNNsZR0MXhIPdNuUslydaMjsVxjvNN5ypm5JZ_3FyQX5W-8Y9tV-rGmcQIwtxunIKD3Ad_4SAnUwJJWISfgknQhCb6_z1etH0MC700HmhbXSfUhhVpd1H2esG3LHRXKMnBz9HWLfpZAnzL2YMAu5CzScRKh5lj1p7UMtvpE_-XHGwHlpTqK2EXjfkHKbqPlqOC1HYk8Svgz2iwZ3t6qOKSoHlAeesTtBml42aUHnjQV7OvZeCxDZHYWcsC34VHOhBUq6RB-7RWlcbevv022SNrZtYm1f5CaKZKchTYXSB1EMgdo5txFtkZJ2nPmc" rel="noopener">https://bit.ly/3aGC7JM</a> <a target="_blank" class="fh fi" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4014295521915214%3Atop_level_post_id.4014295521915214%3Atl_objid.4014295521915214%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4014295521915214%3Apage_id.163354693676002%3Aphoto_id.4014295398581893%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_aCU9Tj-ZRwMRe%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1610386474%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4014295521915214%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4014295521915214%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A2065126510198656389&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fh fi" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4014295521915214%3Atop_level_post_id.4014295521915214%3Atl_objid.4014295521915214%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4014295521915214%3Apage_id.163354693676002%3Aphoto_id.4014295398581893%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_aCU9Tj-ZRwMRe%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1610386474%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4014295521915214%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4014295521915214%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A2065126510198656389&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fh fi" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4014295521915214%3Atop_level_post_id.4014295521915214%3Atl_objid.4014295521915214%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4014295521915214%3Apage_id.163354693676002%3Aphoto_id.4014295398581893%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_aCU9Tj-ZRwMRe%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1610386474%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4014295521915214%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4014295521915214%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A2065126510198656389&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/138197856_4014295408581892_8489031292696114363_o.jpg?_nc_cat=101&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=NtVTbHSbx4QAX_kPqkq&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=aff2156160dcc819b3092a24e5e9a25c&#038;oe=6022FB61" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4014295521915214">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Malicious Software Infrastructure Easier to Get and Deploy Than Ever</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/malicious-software-infrastructure-easier-to-get-and-deploy-than-ever/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 08 Jan 2021 21:31:52 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Deploy]]></category>
-		<category><![CDATA[Easier]]></category>
-		<category><![CDATA[infrastructure]]></category>
-		<category><![CDATA[Malicious]]></category>
-		<category><![CDATA[software]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/malicious-software-infrastructure-easier-to-get-and-deploy-than-ever/</guid>
-
-					<description><![CDATA[Researchers at Recorded Future report a rise in cracked Cobalt Strike and other open-source adversarial tools with easy-to-use interfaces. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers at Recorded Future report a rise in cracked Cobalt Strike and other open-source adversarial tools with easy-to-use interfaces.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/malicious-software-infrastructure-easier-deploy/162913/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>A Look Ahead at 2021: SolarWinds Fallout and Shifting CISO Budgets</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/a-look-ahead-at-2021-solarwinds-fallout-and-shifting-ciso-budgets/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 08 Jan 2021 20:44:59 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Ahead]]></category>
-		<category><![CDATA[Budgets]]></category>
-		<category><![CDATA[CISO]]></category>
-		<category><![CDATA[Fallout]]></category>
-		<category><![CDATA[Shifting]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/a-look-ahead-at-2021-solarwinds-fallout-and-shifting-ciso-budgets/</guid>
-
-					<description><![CDATA[Threatpost editors discuss the SolarWinds hack, healthcare ransomware attacks and other threats that will plague enterprises in 2021. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Threatpost editors discuss the SolarWinds hack, healthcare ransomware attacks and other threats that will plague enterprises in 2021.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/2021-solarwinds-fallout-shifting-ciso-budgets/162897/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ryuk Rakes in $150M in Ransom Payments</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/ryuk-rakes-in-150m-in-ransom-payments/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 08 Jan 2021 20:19:54 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[150M]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Rakes]]></category>
-		<category><![CDATA[Ransom]]></category>
-		<category><![CDATA[Ryuk]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ryuk-rakes-in-150m-in-ransom-payments/</guid>
-
-					<description><![CDATA[An examination of the malware gang&#8217;s payments reveals insights into its economic operations. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />An examination of the malware gang&#8217;s payments reveals insights into its economic operations.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/ryuk-150m-ransom-payments/162905/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SolarWinds Hires Chris Krebs, Alex Stamos in Wake of Hack</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-hires-chris-krebs-alex-stamos-in-wake-of-hack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 08 Jan 2021 17:19:09 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Alex]]></category>
-		<category><![CDATA[Chris]]></category>
-		<category><![CDATA[Hack]]></category>
-		<category><![CDATA[Hires]]></category>
-		<category><![CDATA[Krebs]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[Stamos]]></category>
-		<category><![CDATA[Wake]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-hires-chris-krebs-alex-stamos-in-wake-of-hack/</guid>
-
-					<description><![CDATA[Former CISA director Chris Krebs and former Facebook security exec Alex Stamos have teamed up to create a new consulting]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Former CISA director Chris Krebs and former Facebook security exec Alex Stamos have teamed up to create a new consulting group &#8211; and have been hired by SolarWinds.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/solarwinds-chris-krebs-alex-stamos-hack/162889/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The future of software testing: Machine learning to the rescue</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-future-of-software-testing-machine-learning-to-the-rescue/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 08 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[future]]></category>
-		<category><![CDATA[Learning]]></category>
-		<category><![CDATA[Machine]]></category>
-		<category><![CDATA[rescue]]></category>
-		<category><![CDATA[software]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-future-of-software-testing-machine-learning-to-the-rescue/</guid>
-
-					<description><![CDATA[The last decade has seen a relentless push to deliver software faster. Automated testing has emerged as one of the most]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>The last decade has seen a relentless push to deliver software faster. <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/quality-test-automation?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">Automated testing</a> has emerged as one of the most important <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/devops-scale-software-factory?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">technologies for scaling DevOps</a>, companies are investing enormous time and effort to build end-to-end software delivery pipelines, and containers and their ecosystem are holding up on their early promise.</p>
-<p>The combination of <a target="_blank" href="https://techbeacon.com/devops/these-devops-practices-will-speed-your-delivery-pipeline" rel="noopener">delivery pipelines</a> and containers has helped high performers to <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/high-perf-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">deliver software faster than ever</a>. That said, many organizations are still struggling to balance speed and quality. Many are stuck trying to make <a target="_blank" href="https://techbeacon.com/devops/how-migrate-legacy-code-bases-continuous-delivery" rel="noopener">headway with legacy software</a>, large test suites, and brittle pipelines. So where do you go from here?</p>
-<p>In the drive to release quickly, <a target="_blank" href="https://techbeacon.com/app-dev-testing/two-years-no-testers-what-i-learned" rel="noopener">end users have become software testers</a>. But they no longer want to be your testers, and companies are taking note. Companies now want to ensure that <a target="_blank" href="https://techbeacon.com/app-dev-testing/5-tips-high-quality-app-delivery-devops-speed" rel="noopener">quality is not compromised in the pursuit of speed</a>.</p>
-<p>Testing is one of the top DevOps controls that organizations can leverage to ensure that their customers engage with a delightful brand experience. Others include access control, activity logging, traceability, and disaster recovery. Our company&#8217;s research over the past year indicates that slow feedback cycles, slow development loops, and developer productivity will remain the top priorities over the next few years.</p>
-<p>Quality and access control are preventative controls, while others are reactive. There will be an <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/world-quality-report-digital-transformation?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">increasing focus on quality</a> in the future because it prevents customers from having a bad experience. Thus, delivering value fast—or better yet, delivering the right value at the right quality level fast—is the key trend that we will see this year and beyond.</p>
-<p>Here are the five key trends to watch.</p>
-<h3>1. Automating tests</h3>
-<p>Test automation efforts will continue to accelerate. A surprising number of companies <a target="_blank" href="https://techbeacon.com/app-dev-testing/keep-calm-carry-manual-testing-not-dying" rel="noopener">still have manual tests</a> in their delivery pipeline, but you can&#8217;t deliver fast if you have humans in the critical path of the value chain, slowing things down. (The exception is exploratory testing, where humans are a must.)</p>
-<p>Automating manual tests is a long process that requires dedicated engineering time. While many organizations have at least some test automation, there&#8217;s more that needs to be done. That&#8217;s why automated testing will remain one of the top trends going forward.</p>
-<h3>2. Establishing a continuous quality culture</h3>
-<p>As teams automate tests and adopt DevOps, <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-get-your-test-automation-right-go-big-picture-quality" rel="noopener">quality must become part of the DevOps mindset</a>. That means quality will become a shared responsibility of everyone in the organization.</p>
-<p><em>Figure 2. Top performers shift tests around to create new workflows. They shift left for earlier validation and right to speed up delivery. Source: Launchable</em></p>
-<p>Teams will need to become more intentional about where tests land. Should they <a target="_blank" href="https://www.launchableinc.com/test-automation-glossary/shift-left-testing" rel="nofollow noopener">shift tests left</a> to catch issues much earlier, or should they add more quality controls to the right? On the &#8220;shift-right&#8221; side of the house, practices such as <a target="_blank" href="https://techbeacon.com/app-dev-testing/chaos-engineering-testing-34-tools-tutorials" rel="noopener">chaos engineering</a> and canary deployments are becoming essential.</p>
-<p>Shifting large test suites left is difficult because you don&#8217;t want to introduce long delays while running tests in an earlier part of your workflow. Many companies tag some tests from a large suite to run in pre-merge, but the downside is that these tests may or may not be relevant to a specific change set. Predictive test selection (see trend 5 below) provides a compelling solution for running just the relevant tests.</p>
-<h3>3. Data-driven DevOps</h3>
-<p>Over the past six to eight years, the industry has focused on connecting various tools by building robust delivery pipelines. Each of those tools generates a heavy exhaust of data, but that <a target="_blank" href="https://techbeacon.com/app-dev-testing/want-effective-test-automation-devops-manage-your-test-data" rel="noopener">data is being used minimally, if at all</a>. We have moved from &#8220;craft&#8221; or &#8220;artisanal&#8221; solutions to the &#8220;at-scale&#8221; stage in the evolution of tools in delivery pipelines.</p>
-<p>The next phase is to <a target="_blank" href="https://techbeacon.com/app-dev-testing/6-ways-rightsize-your-tests-analytics" rel="noopener">bring smarts to the tooling</a>. Expect to see an increased emphasis by practitioners on making data-driven decisions.</p>
-<h3>4. The rise of AI: Test-generation tools</h3>
-<p>There are two key problems in testing: not enough tests, and too many of them. Test-generation tools take a shot at the first problem.</p>
-<p>To create a UI test today, you either must write a lot of code or a tester has to click through the UI manually, which is an incredibly painful and slow process. To relieve this pain, test-generation tools use AI to create and run UI tests on various platforms.</p>
-<p>For example, one tool my team explored uses a &#8220;trainer&#8221; that lets you record actions on a web app to create scriptless tests. While scriptless testing isn’t a new idea, what is new is that this tool &#8220;auto-heals&#8221; tests in lockstep with the changes to your UI.</p>
-<p>Another tool that we explored has AI bots that act like humans. They tap buttons, swipe images, type text, and navigate screens to detect issues. Once they find an issue, they create a ticket in Jira for the developers to take action on.</p>
-<p><a target="_blank" href="https://techbeacon.com/app-dev-testing/rise-machines-coming-aitesting-singularity" rel="noopener">More testing tools that use AI</a> will gain traction in 2021.</p>
-<h3>5. Machine learning and predictive test selection</h3>
-<p>AI has other uses for testing apart from test generation. For organizations struggling with runtimes of large test suites, an emerging technology called predictive test selection is gaining traction.</p>
-<p>Many companies have thousands of tests that run all the time. Testing a small change might take hours or even days to get feedback on. While more tests are generally good for quality, it also means that feedback comes more slowly.</p>
-<p>To date, companies such as Google and Facebook have <a target="_blank" href="https://engineering.fb.com/2018/11/21/developer-tools/predictive-test-selection/" rel="nofollow noopener">developed machine-learning algorithms</a> that process incoming changes and run only the tests that are most likely to fail. This is predictive test selection.</p>
-<p>What&#8217;s amazing about this technology is that you can run between 10% and 20% of your tests to reach 90% confidence that a full run will not fail. This allows you to reduce a five-hour test suite that normally runs post-merge to 30 minutes on pre-merge, running only the tests that are most relevant to the source changes. Another scenario would be to reduce a one-hour run to six minutes.</p>
-<p>Expect <a target="_blank" href="https://www.launchableinc.com/test-automation-glossary/predictive-test-selection" rel="nofollow noopener">predictive test selection</a> to become more mainstream in 2021.</p>
-<h2>The real problem: Test execution time</h2>
-<p>Automated testing is taking over the world. Even so, many teams are struggling to make the transition. <a target="_blank" href="https://techbeacon.com/app-dev-testing/seven-key-enablers-continuous-testing" rel="noopener">Continuous quality culture</a> will become part of the DevOps mindset. Tools will continue to become smarter. Test-generation tools will help close the gap between manual and automated testing.</p>
-<p>But as teams add more tests, they face real problems with test execution time. While more tests help improve quality, they often become a roadblock to productivity. <a target="_blank" href="https://techbeacon.com/app-dev-testing/state-test-automation-7-key-trends-watch" rel="noopener">Machine learning will come to the rescue</a> as we roll into 2021.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/future-software-testing-machine-learning-rescue">Source link </a></p>
 ]]></content:encoded>
 					
 		
