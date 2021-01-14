@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 13 Jan 2021 09:00:21 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 Jan 2021 23:09:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,462 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Holiday Shopping Hackathon Winners Announced! &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/holiday-shopping-hackathon-winners-announced-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 23:09:28 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Announced]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Hackathon]]></category>
+		<category><![CDATA[Holiday]]></category>
+		<category><![CDATA[Shopping]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<category><![CDATA[Winners]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/holiday-shopping-hackathon-winners-announced-automated-visual-testing/</guid>
+
+					<description><![CDATA[With over 1100 registrations and 300 completed submissions – it came down to only 50! It’s an honor to announce]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>With over 1100 registrations and 300 completed submissions – it came down to only 50! It’s an honor to announce the winners of the first ever Holiday Shopping Hackathon. Please join the Applitools family in celebrating the winners of this festive and eye-opening event!</p>
+<p>Our top ten diamond prize winners will receive either an iPhone 12 Pro or the cash equivalent. Winners are listed in no particular order.</p>
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><figcaption>Our 10 Diamond prize winners received an iPhone 12 Pro or cash equivalent.</figcaption></figure>
+</div>
+<p>Next up are our ten platinum prize winners who will receive either a Sony PS5 Digital Edition, Oculus Quest 2,  or the cash equivalent. Winners are listed in no particular order.</p>
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122-652x1024.jpg" alt="" class="wp-image-25462" width="652" height="1024" srcset="https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122-652x1024.jpg 652w, https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122-191x300.jpg 191w, https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122.jpg 700w" sizes="(max-width: 652px) 100vw, 652px"/><figcaption>Our 10 Platinum prize winners received a PS5 Digital Edition, Oculus Quest 2, or cash equivalent.</figcaption></figure>
+</div>
+<p>Last, but certainly not least are our Gold &amp; Silver prize winners – congrats to all our amazing winners!</p>
+<h4 class="has-text-align-center" id="h-gold-silver-prize-winners">Gold &amp; Silver Prize Winners</h4>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td class="has-text-align-center" data-align="center"><strong>Gold Prize Winners</strong><br />One-year pro membership to <a target="_blank" href="https://www.ministryoftesting.com/membership" rel="noreferrer noopener sponsored nofollow">Ministry of Testing</a></td>
+<td class="has-text-align-center" data-align="center"><strong>Silver Prize Winners</strong><br /><a target="_blank" href="https://epicreact.dev/" rel="noreferrer noopener sponsored nofollow">Epic React Standard License</a></td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Glib Briia – AssertThat</td>
+<td class="has-text-align-center" data-align="center">Tyler Koske – Plex Systems, Inc.</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Arjan Blok – Mendix</td>
+<td class="has-text-align-center" data-align="center">Natasha Whitter – Third Bridge</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Jan Molak – Smartcode Ltd</td>
+<td class="has-text-align-center" data-align="center">Natalie Clay – ASOS</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Angela Shane – Credit Karma</td>
+<td class="has-text-align-center" data-align="center">Harsha Chandnani – Thoughtworks</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Gabor Liptak – N/A</td>
+<td class="has-text-align-center" data-align="center">Filip Hric – Sli.do</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Mohamed Abdulkadar – Synechron</td>
+<td class="has-text-align-center" data-align="center">Ioan Cimpean – Cognizant Softvision</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Bushra Alam – Bechtel</td>
+<td class="has-text-align-center" data-align="center">Mohammed Fazil – Photon Info Tech</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Darren Skinner – TrainLine</td>
+<td class="has-text-align-center" data-align="center">Ilyes Kallala – ADP</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Richard Edwards – Shift Left Group</td>
+<td class="has-text-align-center" data-align="center">Pavlo Poimanov – Solorwinds</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Sadeesh Kumar – Axelerant</td>
+<td class="has-text-align-center" data-align="center">Aishvarya Kapoor – Briq</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Roman Romanik – DataClarity Corporation</td>
+<td class="has-text-align-center" data-align="center">Kerry McKeever – Globys</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Umar Shakil – Cromwell Tools</td>
+<td class="has-text-align-center" data-align="center">Guilherme Meireles – Global Shares</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Matt Tucker – Dialexa</td>
+<td class="has-text-align-center" data-align="center">Adrian Jaskólski – Tooploox</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Victor Diaz – NYScopes</td>
+<td class="has-text-align-center" data-align="center">Valarie Burton – Club Automation</td>
+</tr>
+<tr>
+<td class="has-text-align-center" data-align="center">Daniel Enslin – N/A</td>
+<td class="has-text-align-center" data-align="center">Taylor Ellsworth – Peloton Interactive</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<h2 id="h.dojfz56llg4x">A bit of background on the Hackathon</h2>
+<p>The software engineering community was tasked with testing the functional and visual quality of the “Applifashion” retail app to ensure it was ready for the busy online holiday shopping season. The hackathon, which took roughly two hours to complete, challenged participants to author tests and catch bugs using the <a target="_blank" href="https://applitools.com/blog/next-generation-cross-browser-testing/" rel="noopener">Applitools Ultrafast Test Cloud platform</a>. Participants also practiced modern QA techniques, used advanced features such as <a target="_blank" href="https://applitools.com/root-cause-analysis/" rel="noopener">root cause analysis</a>, and learned how <a target="_blank" href="https://applitools.com/blog/visual-testing/" rel="noopener">Visual AI technology compares to pixel-based image comparison</a>. Winners were randomly selected from the pool of participants who successfully completed the submission criteria.</p>
+<h2 id="h.oj7xe73datht">What the Hackathon winners say</h2>
+<p>We wanted to leave you with quotes from the Hackathon winners. We are thrilled to recognize them for their achievements and are pleased with their success.</p>
+<h3>About the Hackathon</h3>
+<ul>
+<li>“The Holiday Shopping Hackathon allowed me to gain working knowledge and insight about all the great tools and features that Applitools has to offer. I now interested in looking into using Applitools in my current role.” – Taylor Ellsworth, Automation Engineer</li>
+<li>“<a target="_blank" href="https://applitools.com/blog/cypress-cross-browser-testing/" rel="noopener">Using Cypress + Applitools</a>, setting up tests to run across different browsers, devices, and viewport sizes took less than an hour. With traditional automation tools, this could take days! Even without concurrent runs, I executed 15 tests in multiple browser combos in less than 60 seconds. Applitools and Cypress’ dashboards provide helpful insights into failed tests and track execution history all without any extra setup or reporting integration. Ultra fast!” – Lauren Christianson, Automation Engineer</li>
+<li>“I am a fan of Batman and I like this quote from the movie Batman Begins – “It’s not who I am underneath, but what I do that defines me.” This is very apt for Applitools and no matter how many competitors arise, they are going to excel always.” – Sainath Ramanathan, Principal Software Engineer</li>
+<li>“Hackathon is a unique way to learn <a target="_blank" href="https://applitools.com/blog/visual-testing/" rel="noopener">visual testing</a> using such an innovative product. The tool shows the power of <a target="_blank" href="https://applitools.com/applitools-ai-and-deep-learning/" rel="noopener">complex AI-based algorithms</a> in easy and intuitive features. This is the 3rd time I am participating in the Applitools hackathon and still learning new things (features) about the product. Thank you <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> team for organizing such wonderful events.” – Sakshi Nagpai, Tester</li>
+<li>“Applitools Holiday Shopping Hackathon was fun, interesting &amp; a great opportunity to learn in depth about the Applitools platform. <a target="_blank" href="https://applitools.com/blog/next-generation-cross-browser-testing/" rel="noopener">Ultrafast grid</a> is named just right as it checks the visual diffs across a range of devices &amp; viewports within seconds.” – Tarun Narula, Test Manager</li>
+<li>“Great accessible introduction to an awesome testing platform! As a Cypress and Applitools newbie, the platform was extremely easy to use and I was able to hit the ground visual ai testing super quickly!” – Willian Andrews, Developer</li>
+</ul>
+<h3>About Visual AI</h3>
+<ul>
+<li>“Applitools hackathon was a great way of showcasing, yet again, how difficult is to create a robust and maintainable pack of automated scenarios to have a good coverage of our web applications and how important visual testing is in order to provide the best user experience. With the massive matrix of devices/browsers/versions/OS available currently, it brings even more complexity that needs to be handled, unfortunately involving a lot of time and technical expertise. After solving the traditional approach and starting into the modern one with <a target="_blank" href="https://applitools.com/visual-testing/" rel="noopener">Visual AI</a> and Ultrafast Grid solution, it made me realise how easy it was to setup the same scenarios to run across different browsers, devices, and operating systems into such a configurable tool as Applitools. Ultrafast Grid takes away the pain of having all these available, or integrating with another 3rd party cloud solution. It gives a really powerful solution to have such a broad coverage of visual tests running in different configurations, less code and less maintenance as you don’t need to handle all the required steps or selectors anymore. One screenshot and off you go!” – Ioana Porcarasu, Head of Quality</li>
+<li>“I am so happy to have found this hackathon. It changed my view of Visual AI testing from being good-to-have to a must-have in every project. Applitools Eyes is easy to use and adds a huge value to your test project.” – Bushra Alam, Automation Engineer</li>
+<li>“An extraordinary occasion to profound plunge into Applitools and to investigate Visual AI testing. Hackathon is one method of becoming more acquainted with additional about how to utilize Applitools with the references given in the notes is truly marvelous strategy. Applitools – A Game Changer for Visual Testing.” – Madan Mohan Reddy Badveli, Automation Engineer</li>
+<li>“I have learned a lot in Ultrafast Grid and the power of Visual AI testing through this hackathon. This is the tool that I have been looking for in visual testing.” Yudi Edisugiarto</li>
+<li>“After completing the challenge, I am eager to learn more about visual AI assisted testing tools.” Aabishkar KC, Automation Engineer</li>
+</ul>
+<h2 id="h.oc0nquhiy0mh">For More Information</h2>
+<p>Actions you can take today:</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/holiday-shopping-hackathon-winners-announced/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TikTok Takes Teen Accounts Private</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiktok-takes-teen-accounts-private/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 22:03:32 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Accounts]]></category>
+		<category><![CDATA[Private]]></category>
+		<category><![CDATA[Takes]]></category>
+		<category><![CDATA[Teen]]></category>
+		<category><![CDATA[TikTok]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tiktok-takes-teen-accounts-private/</guid>
+
+					<description><![CDATA[The company announced accounts for ages 13-15 will default to privacy setting, among other safety measures. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The company announced accounts for ages 13-15 will default to privacy setting, among other safety measures.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/tiktok-teen-accounts-private/163040/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>High-Severity Cisco Flaw Found in CMX Software For Retailers</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/high-severity-cisco-flaw-found-in-cmx-software-for-retailers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 21:22:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[CMX]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[HighSeverity]]></category>
+		<category><![CDATA[Retailers]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/high-severity-cisco-flaw-found-in-cmx-software-for-retailers/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/cisco-flaw-cmx-software-retailers/163027/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Critical WordPress-Plugin Bug Found in ‘Orbit Fox’ Allows Site Takeover</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/critical-wordpress-plugin-bug-found-in-orbit-fox-allows-site-takeover/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 19:41:49 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Fox]]></category>
+		<category><![CDATA[Orbit]]></category>
+		<category><![CDATA[site]]></category>
+		<category><![CDATA[Takeover]]></category>
+		<category><![CDATA[WordPressPlugin]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/critical-wordpress-plugin-bug-found-in-orbit-fox-allows-site-takeover/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/orbit-fox-wordpress-plugin-bugs/163020/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Hackers Leak Stolen Pfizer-BioNTech COVID-19 Vaccine Data</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/hackers-leak-stolen-pfizer-biontech-covid-19-vaccine-data/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 17:15:17 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[Leak]]></category>
+		<category><![CDATA[PfizerBioNTech]]></category>
+		<category><![CDATA[Stolen]]></category>
+		<category><![CDATA[Vaccine]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/hackers-leak-stolen-pfizer-biontech-covid-19-vaccine-data/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/hackers-leak-pfizer-covid-19-vaccine-data/163008/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sophisticated Hacks Against Android, Windows Reveal Zero-Day Trove</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/sophisticated-hacks-against-android-windows-reveal-zero-day-trove/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 16:57:39 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Hacks]]></category>
+		<category><![CDATA[Reveal]]></category>
+		<category><![CDATA[Sophisticated]]></category>
+		<category><![CDATA[Trove]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[ZeroDay]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/sophisticated-hacks-against-android-windows-reveal-zero-day-trove/</guid>
+
+					<description><![CDATA[Watering-hole attacks executed by ‘experts’ exploited Chrome, Windows and Android flaws and were carried out on two servers. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Watering-hole attacks executed by ‘experts’ exploited Chrome, Windows and Android flaws and were carried out on two servers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/hacks-android-windows-zero-day/163007/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The best DevOps conferences of 2021</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-best-devops-conferences-of-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=6953</guid>
+
+					<description><![CDATA[DevOps is a fast moving space, so whether conferences are held virtually or in person, it&#8221;s important that you participate to keep]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>DevOps is a <a target="_blank" href="https://content.microfocus.com/optimize-devops-tb/shift-devops-high-gear?lx=vm26kZ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">fast moving space</a>, so whether conferences are held virtually or in person, it&#8221;s important that you participate to keep up.</p>
+<p>You&#8217;ll find the traditional educational and networking opportunities here. But attending DevOps conferences will also <a target="_blank" href="https://content.microfocus.com/devops-careers-tb/disruption-and-devops-skills?lx=vimF_R&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">help you expand your skills</a>, stay on top of <a target="_blank" href="https://techbeacon.com/devops/future-devops-21-predictions-2021" rel="noopener">the latest trends in DevOps</a>, and hear from experts in the field.</p>
+<p>Mark your calendars. Here&#8217;s <em>TechBeacon</em>&#8216;s shortlist of the most popular DevOps conferences of 2021.</p>
+<h3>February</h3>
+<h4>Agile, Testing &amp; DevOps: The Evolving Scene</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/UNICOMSeminars" rel="nofollow noopener">@UNICOMSeminars</a><br /><strong>Web:</strong> <a target="_blank" href="https://conference.unicom.co.uk/adt2021/feb1/" rel="nofollow noopener">conference.unicom.co.uk/adt2021/feb1/</a><br /><strong>Date:</strong> February 10-11<br /><strong>Location:</strong> Virtual<br /><strong><a target="_blank" href="https://conference.unicom.co.uk/adt2021/feb1/" rel="nofollow noopener">Cost</a>:</strong> £95 to £295, plus VAT</p>
+<p>This event is mainly focused on participants from Europe and the United States. Topics to be covered include DevOps and continuous integration testing, agile software testing, behavior-driven development, cloud-based performance testing, agile test management, and web services testing.</p>
+<p><strong>Who should attend:</strong> Anyone interested in the business value of DevOps, as well as developers, DevOps engineers, operations professionals, security professionals, and software architects</p>
+<h4>DevOps Days</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devopsdays" rel="nofollow noopener">@devopsdays</a> / <a target="_blank" href="https://twitter.com/search?q=%23devopsdays&amp;src=typd" rel="nofollow noopener">#devopsdays</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.devopsdays.org/" rel="nofollow noopener">devopsdays.org</a><br /><strong>Dates:</strong> Various, from February to September<br /><strong>Locations:</strong> Various locations worldwide (some virtual)<br /><strong>Cost:</strong> Varies</p>
+<p>DevOps Days is a worldwide community conference series for anyone interested in IT improvement. The series, which began in Ghent, Belgium, in 2009, is run by volunteers whose target audience is front-line engineers and their managers. Since the sponsoring group is decentralized, local organizers handle their own sponsorships, registration, and all other management tasks. For questions about a specific event, contact local organizers.</p>
+<p><strong>Who should attend:</strong> Developers, operations professionals, and managers</p>
+<h3>March</h3>
+<h4>Microsoft Ignite</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/MS_Ignite" rel="nofollow noopener">@MS_Ignite</a> / <a target="_blank" href="https://twitter.com/search?q=%23MSIgnite&amp;src=typd" rel="nofollow noopener">#MSIgnite</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.microsoft.com/en-us/ignite" rel="nofollow noopener">microsoft.com/en-us/ignite</a><br /><strong>Date:</strong> March 2-4<br /><strong>Locations:</strong> Virtual<br /><strong>Cost:</strong> Free with registration</p>
+<p>Microsoft Ignite is for IT pros, decision makers, implementers, architects, developers, and data professionals to explore the latest tools, receive deep technical training, and get questions answered by Microsoft experts. Ignite covers architecture, deployment, implementation and migration, development, operations and management, security, access management and compliance, and usage and adoption.</p>
+<p><strong>Who should attend:</strong> Developers, technical team leads, software architects, engineering directors, and project managers</p>
+<h4>DevOps Talk Conference</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devopstalks?lang=en" rel="nofollow noopener">@DevOpsTalks</a><br /><strong>Web:</strong> <a target="_blank" href="https://devops.talksplus.com/au/devops.html" rel="nofollow noopener">devops.talksplus.com/au/devops.html</a><br /><strong>Date: </strong>March 25-26<br /><strong>Location:</strong> Melbourne, Australia<br /><strong><a target="_blank" href="https://www.eventbrite.com.au/e/devops-talks-conference-25-26-march-2021-melbourne-australia-tickets-68676905473" rel="nofollow noopener">Cost</a>:</strong> A$878.90 to A$1,013.63</p>
+<p>The DevOps Talks Conference brings together DevOps leaders, engineers, and architects who are implementing DevOps principles and practices in both startups and enterprises. Attendees run complex technical and cultural DevOps transformations for large and medium-size organizations.</p>
+<p><strong>Who should attend:</strong> DevOps leaders, engineers, and architects</p>
+<h3>April</h3>
+<h4>DevOpsCon London</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devops_con?lang=en" rel="nofollow noopener">@devops_con</a> / <a target="_blank" href="https://twitter.com/hashtag/DevOpsCon?src=hashtag_click" rel="nofollow noopener">#DevOpsCon</a><br /><strong>Web:</strong> <a target="_blank" href="https://devopscon.io/london/devopscon-london-hybrid-edition/" rel="nofollow noopener">devopscon.io/london/devopscon-london-hybrid-edition/</a><br /><strong>Date: </strong>April 20-23<br /><strong>Location:</strong> Hybrid: London, UK, and virtual<br /><strong><a target="_blank" href="https://devopscon.io/london/tickets-london/?go=ok" rel="nofollow noopener">Cost</a>:</strong> £494 to £1,169</p>
+<p>This is one in a series of conferences by Re-Think IT focusing on continuous delivery, microservices, containers, cloud, and lean business. Sessions cover topics such as CI/CD with GitHub actions, DevOps during COVID, and overcoming limitations in containerized applications. Workshops include exploring Go for microservices. In addition to the London conference, events will be held in <a target="_blank" href="https://devopscon.io/berlin/" rel="nofollow noopener">Berlin</a>, Germany (June 14-17), and <a target="_blank" href="https://devopscon.io/new-york/" rel="nofollow noopener">New York City</a>, New York, USA (fall 2021).</p>
+<p><strong>Who should attend:</strong> Developers, DevOps engineers, software architects, and managers</p>
+<h4>PowerShell and DevOps Global Summit</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/pshsummit?lang=en" rel="nofollow noopener">@PSHSummit</a><br /><strong>Web:</strong> <a target="_blank" href="https://powershell.org/2020/11/update-2021-powershell-devops-global-summit/" rel="nofollow noopener">powershell.org/2020/11/update-2021-powershell-devops-global-summit/</a><br /><strong>Date:</strong> April 27-29<br /><strong>Location:</strong> Virtual<br /><strong>Cost:</strong> TBD</p>
+<p>This conference is all about Microsoft&#8217;s PowerShell automation and configuration tool. PowerShell and DevOps experts from around the world, including members of Microsoft&#8217;s PowerShell team, will discuss and learn about maximizing PowerShell in the workplace in over 20 presentations. At the summit, attendees can explore and further their knowledge of DevOps principles and practices in a cross-platform environment, as well as make new connections and learn new techniques.</p>
+<p><strong>Who should attend:</strong> Developers and Windows system administrators</p>
+<h4>GOTO Chicago</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/GOTOcon" rel="nofollow noopener">@GOTOcon</a>, <a target="_blank" href="https://twitter.com/GOTOchgo" rel="nofollow noopener">@GOTOchgo</a><br /><strong>Web:</strong> <a target="_blank" href="https://gotochgo.com/" rel="nofollow noopener">gotochgo.com</a><br /><strong>Date (2020):</strong> Conference, April 27-29; master classes, April 30-May 1<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> Conference, $725 per day; master classes, $445 to $845</p>
+<p>GOTO conferences are organized by developers. They are highly technical and focus on the latest trends in software engineering.</p>
+<p><strong>Who should attend:</strong> Developers, software architects, project managers, system administrators, and DevOps engineers</p>
+<h3>May</h3>
+<h4>KubeCon/CloudNativeCon</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/KubeCon_" rel="nofollow noopener">@KubeCon_</a> /<a target="_blank" href="https://twitter.com/cloudnativefdn" rel="nofollow noopener">@CloudNativeFdn</a> / <a target="_blank" href="https://twitter.com/search?q=%23CloudNativeCon&amp;src=typd" rel="nofollow noopener">#CloudNativeCon</a><br /><strong>Web:</strong> <a target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/" rel="nofollow noopener">events.linuxfoundation.org/kubecon-cloudnativecon-europe</a><br /><strong>Date:</strong> May 4-7<br /><strong>Location:</strong> Virtual<br /><strong><a target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/" rel="nofollow noopener">Cost</a>:</strong> TBD</p>
+<p>KubeCon and CloudNativeCon are a single conference sponsored by the Linux Foundation and the Cloud Native Computing Foundation (CNCF). The conference brings together leading contributors in cloud-native applications, containers, microservices, and orchestration. The conference also focuses on open-source projects, including Kubernetes, Prometheus, OpenTracing, Fluentd, Linkerd, gRPC, CoreDNS, containerd, rkt, and CNI. In addition to the Amsterdam conference, sister conferences are scheduled for <a target="_blank" href="https://www.lfasiallc.cn/kubecon-cloudnativecon-open-source-summit-china/" rel="nofollow noopener">Shanghai</a>, China (July 28-30), and <a target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/" rel="nofollow noopener">Boston</a>, Massachusetts, USA (November 17-20).</p>
+<p><strong>Who should attend:</strong> Application developers, IT operations staff, technical management, executive leadership, product managers and product marketing pros, end users, service providers, CNCF contributors, and people looking to learn more about cloud-native</p>
+<h4>DevOps Pro Europe 2021-Hybrid Edition</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devopseu" rel="nofollow noopener">@DevOpsEU</a><br /><strong>Web:</strong> <a target="_blank" href="https://devopspro.lt/" rel="nofollow noopener">devopspro.lt</a><br /><strong>Date:</strong> May 11-13<br /><strong>Location:</strong> Vilnius, Lithuania, and virtual<br /><strong><a target="_blank" href="https://devopspro.lt/tickets/" rel="nofollow noopener">Cost</a>:</strong> €180 to €632</p>
+<p>This conference focuses on the core principles and concepts of DevOps methodology and demonstrates how to use the most common DevOps patterns to develop, deploy, and maintain applications both on premises and in the cloud. The entire software delivery pipeline is covered, from approaches (continuous delivery and integration) to tools (Docker, Chef, Puppet, Kubernetes, and more) to technologies (virtualization, containerization, orchestration, and microservices).</p>
+<p><strong>Who should attend:</strong> Developers, hands-on IT professionals, IT managers, consultants, and trainers</p>
+<h4>Continuous Lifecycle Online</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/ConLifecycleLon" rel="nofollow noopener">@ConLifecycleLon</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.continuouslifecycle.london/" rel="nofollow noopener">continuouslifecycle.london</a><br /><strong>Date: </strong>May 11-13<br /><strong>Location:</strong> Virtual<br /><strong>Cost:</strong> TBD</p>
+<p>Continuous Lifecycle Online is bringing containerization and continuous delivery practitioners online. In this special edition of the Continuous Lifecycle series, seasoned experts will share their practical experiences and help attendees understand concepts, processes, and tools—whether they&#8217;re just starting out or looking to improve their practices.</p>
+<p><strong>Who should attend:</strong> Development heads, architects, developers, CTOs, operations and systems engineers, DevOps practitioners, cloud-native developers, admins, infrastructure specialists, and QA professionals</p>
+<h4>DevSecOps Days</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devsecopsdays" rel="nofollow noopener">@DevSecOpsDays</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.mediaopsevents.com/devsecopsdays2021/home" rel="nofollow noopener">mediaopsevents.com/devsecopsdays2021/home</a><br /><strong>Date:</strong> May 17<br /><strong>Location:</strong> Virtual<br /><strong>Cost:</strong> TBD</p>
+<p>At this event, practitioners present on their DevSecOps experiences and how attendees can use those lessons in their own organizations.</p>
+<p><strong>Who should attend:</strong> Developers and DevSecOps practitioners</p>
+<h4>QCon Plus</h4>
+<p><strong>Twitter: </strong><a target="_blank" href="https://twitter.com/QCon" rel="nofollow noopener">@QCon</a> / <a target="_blank" href="https://twitter.com/hashtag/QConPlus?src=hashtag" rel="nofollow noopener">#QConPlus </a><br /><strong>Web: </strong><a target="_blank" href="https://plus.qconferences.com/" rel="nofollow noopener">plus.qconferences.com</a><br /><strong>Date: </strong>May 17-28<br /><strong>Location:</strong> Virtual<br /><strong>Cost: </strong>$450 to $599</p>
+<p>QCon Plus is a virtual conference for senior software engineers and architects. It covers the trends, best practices, and solutions leveraged by the world&#8217;s most innovative software organizations. Organizers say attendees will hear technical talks from software leaders pushing the boundaries, and presentations about innovation and change, patterns and practices—not products and pitches—and ideas they can implement.</p>
+<p><strong>Who should attend:</strong> Senior software engineers, architects, and team leads</p>
+<h4>GlueCon 2021</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/gluecon" rel="nofollow noopener">@gluecon</a> / <a target="_blank" href="https://twitter.com/defrag" rel="nofollow noopener">@defrag</a> / <a target="_blank" href="https://twitter.com/search?q=%23gluecon&amp;src=typd" rel="nofollow noopener">#gluecon</a><br /><strong>Web:</strong> <a target="_blank" href="http://gluecon.com/" rel="nofollow noopener">gluecon.com</a><br /><strong>Date:</strong> May 18-19<br /><strong>Location:</strong> Broomfield, Colorado, USA<br /><strong><a target="_blank" href="http://www.eventbrite.com/e/gluecon-2021-tickets-100190448328" rel="nofollow noopener">Cost</a>:</strong> $995 to $1,295</p>
+<p>GlueCon is a developer-oriented conference focused on providing the latest in-depth technical information, presented in a format that fosters community. GlueCon&#8217;s topics change from year to year but include things such as APIs, DevOps, serverless, edge computing, containers, microservices, blockchain-driven applications, developer evangelism, and the newest tools.</p>
+<p><strong>Who should attend:</strong> Software architects, developers, mobile developers and architects, DevOps engineers, enterprise and startup executives, and team managers</p>
+<h4>DevOps Enterprise Summit (DOES) </h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/ITRevDOES" rel="nofollow noopener">@ITRevDOES</a><br /><strong>Web:</strong> <a target="_blank" href="https://events.itrevolution.com/virtual/" rel="nofollow noopener">events.itrevolution.com/virtual/</a><br /><strong>Date:</strong> May 18-20<br /><strong>Location:</strong> Virtual<br /><strong>Cost:</strong> $650</p>
+<p>DOES is more than just a conference about technical and architectural DevOps practices. The event also covers the methods needed to lead widespread change efforts in large organizations. The goal is to give leaders the tools and practices they need to develop and deploy software faster. Attendees can expect to see speakers from many large companies and engage in ad hoc discussions within a great community and learning environment.</p>
+<p><strong>Who should attend:</strong> Leaders of large, complex organizations implementing DevOps or agile principles and practices; developers; IT operations specialists; CxOs; software architects; and systems and network admins</p>
+<h4>DockerCon Live</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/DockerCon" rel="nofollow noopener">@DockerCon</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.docker.com/dockercon/" rel="nofollow noopener">docker.com/dockercon</a><br /><strong>Date (2020):</strong> May 28<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> Free</p>
+<p>DockerCon is a multi-track conference sponsored by Docker, focusing on that platform and its ecosystem. It includes keynotes, workshops, hands-on labs, and a &#8220;hallway track&#8221; for conference-goers to find like-minded people with whom they can share ideas in a structured way. The family-friendly forum offers childcare services for attendees and activities for spouses.</p>
+<p><strong>Who should attend:</strong> Developers, DevOps engineers, CxOs, and managers</p>
+<h3>June</h3>
+<h4>LISA21</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/LISAConference" rel="nofollow noopener">@LISAConference</a> / <a target="_blank" href="https://twitter.com/search?q=%23lisa21&amp;src=hashtag" rel="nofollow noopener">#lisa21</a><br /><strong>Web</strong>: <a target="_blank" href="https://www.usenix.org/conference/lisa21" rel="nofollow noopener">usenix.org/conference/lisa21</a><br /><strong>Date:</strong> June 1-3<br /><strong>Location:</strong> Anaheim, California, USA<br /><strong>Cost:</strong> TBD</p>
+<p>The LISA conference positions itself as a vendor-neutral meeting place for the systems administration community, with a heavy training focus. It&#8217;s organized by Usenix, the Advanced Computing Systems Association, and LISA (Large Installation Systems Administration). Usenix.org includes numerous videos from previous LISA conferences.</p>
+<p><strong>Who should attend:</strong> Sysadmins, systems engineers, IT operations professionals, SRE practitioners, developers, IT managers, and academic researchers</p>
+<h4>ChefConf</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/chef" rel="nofollow noopener">@chef</a> / <a target="_blank" href="https://twitter.com/hashtag/ChefConf?src=hashtag_click" rel="nofollow noopener">#ChefConf</a><br /><strong>Web:</strong> <a target="_blank" href="https://chefconf.chef.io/" rel="nofollow noopener">chefconf.chef.io</a><br /><strong>Date (2020):</strong> June 2-3; 2021 TBA<br /><strong>Location (2020):</strong> Virtual; 2021, TBD<br /><strong>Cost:</strong> TBD</p>
+<p>ChefConf covers DevOps topics with a focus on the open-source configuration management tool Chef. According to conference organizers, sessions are built by and for professionals who &#8220;drive innovation at the heart of digital transformation in an app-centric world.&#8221;</p>
+<p><strong>Who should attend:</strong> Anyone interested in DevOps and continuous automation</p>
+<h4>Agile + DevOps West</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/techwell?lang=en" rel="nofollow noopener">@TechWell</a> / <a target="_blank" href="https://twitter.com/hashtag/agiledevwest" rel="nofollow noopener">#AgileDevWest</a><br /><strong>Web:</strong> <a target="_blank" href="https://agiledevopswest.techwell.com/" rel="nofollow noopener">agiledevopswest.techwell.com</a><br /><strong>Date:</strong> June 6-11<br /><strong>Location:</strong> Las Vegas, Nevada, USA<br /><strong><a target="_blank" href="https://agiledevopswest.techwell.com/pricing-packages" rel="nofollow noopener">Cost</a>:</strong> Free to $999</p>
+<p>Agile + DevOps conferences offer the latest in the methods, process, technology, tools, and leadership principles to help newbies and seasoned pros deliver software with greater speed and agility while meeting quality and security demands. No matter your level of agile or DevOps adoption, conference organizers say, you will find thought-provoking keynotes, deep-dive training classes, engaging tutorials, and session topics that will guide and inspire you.</p>
+<p><strong>Who should attend:</strong> Agile teams and leadership; digital transformation teams; automation, development, test, and release staff; product owners; and managers</p>
+<h4>Monitorama</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/Monitorama" rel="nofollow noopener">@Monitorama</a> / <a target="_blank" href="https://twitter.com/search?q=%23monitorama&amp;src=typd" rel="nofollow noopener">#monitorama</a><br /><strong>Web:</strong> <a target="_blank" href="http://monitorama.com/2021/pdx.html" rel="nofollow noopener">monitorama.com/2021/pdx.html</a><br /><strong>Date:</strong> June 21-23<br /><strong>Location:</strong> Portland, Oregon, USA<br /><strong><a target="_blank" href="https://ti.to/monitorama/pdx2021" rel="nofollow noopener">Cost</a>:</strong> $700</p>
+<p>Monitorama has become popular thanks to its commitment to purely technical content without a lot of vendor fluff. The conference brings together the biggest names from the open-source development and operations communities, who teach attendees about the tools and techniques used in some of the largest web architectures in the world. Its focus is strictly on monitoring and observability in software systems, which the organizers feel is an area in much need of attention. The goal of the organizers is to continue to push the boundaries of monitoring software, while having a great time in a casual setting.</p>
+<p><strong>Who should attend: </strong>Developers and DevOps engineers, operations staff, performance testers, and site reliability engineers</p>
+<h4>GOTO Amsterdam</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/GOTOcon" rel="nofollow noopener">@GOTOcon</a><br /><strong>Web:</strong> <a target="_blank" href="https://gotoams.nl/" rel="nofollow noopener">gotoams.nl</a><br /><strong>Date:</strong> June 15-18<br /><strong>Location:</strong> Amsterdam, Netherlands<br /><strong><a target="_blank" href="https://gotoams.nl/2021/register" rel="nofollow noopener">Cost</a>:</strong> Conference, $445 per day, plus 21% VAT; master classes, $645 to $665</p>
+<p>GOTO conferences are organized by developers. They are highly technical and focus on the latest trends in software engineering.</p>
+<p><strong>Who should attend:</strong> Developers, software architects, project managers, system administrators, and DevOps engineers</p>
+<h3>July</h3>
+<h4>Netdev 0x15</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/netdev01" rel="nofollow noopener">@netdev01</a> / <a target="_blank" href="https://twitter.com/hashtag/netdevconf?src=hashtag_click" rel="nofollow noopener">#netdevconf</a><br /><strong>Web:</strong> <a target="_blank" href="https://netdevconf.info/0x15/" rel="nofollow noopener">netdevconf.info/0x15/</a><br /><strong>Date:</strong> July 20-23<br /><strong>Location:</strong> San Francisco, California, USA<br /><strong>Cost:</strong> TBD</p>
+<p>NetDev is a technical conference about Linux networking organized by the NetDev Society, a Canadian nonprofit organization. The event focuses on Linux kernel networking and user-space utilization of the interfaces to the Linux kernel networking subsystem. If you are using Linux as a boot system for proprietary networking, then this conference may not be for you.</p>
+<p><strong>Who should attend:</strong> Members of the Linux community, network engineers, and security professionals</p>
+<h3>September</h3>
+<h4>DevOps World</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devopsworldconf?lang=en" rel="nofollow noopener">@devopsworldconf</a> / <a target="_blank" href="https://twitter.com/hashtag/devopsworld?src=hashtag_click" rel="nofollow noopener">#devopsworld</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.cloudbees.com/devops-world" rel="nofollow noopener">cloudbees.com/devops-world</a><br /><strong>Date (2020):</strong> September 22-24<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> Conference, free</p>
+<p>This conference attracts thousands of practitioners, developers, managers, and leaders from around the world. DevOps World, previously held with Jenkins World, offers keynotes from industry thought leaders, hundreds of breakout sessions helmed by DevOps leaders, and in-depth training courses and technical workshops.</p>
+<p><strong>Who should attend:</strong> CxOs, managers, developers, DevOps practitioners, and Jenkins users and partners</p>
+<h3>October</h3>
+<h4>Interop Digital</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/interop" rel="nofollow noopener">@interop</a> / <a target="_blank" href="https://twitter.com/search?q=%23Interop&amp;src=typd" rel="nofollow noopener">#Interop</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.interop.com/" rel="nofollow noopener">interop.com</a><br /><strong>Date (2020):</strong> October 5-8<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> Free business hall pass; $1,099 conference and certification pass</p>
+<p>A venerable tech conference, Interop delves into topics including networking, security, automation/IT management, cloud environments, collaboration, data and analytics, DevOps, hardware/systems, infrastructure, talent/teams/tactics, and wireless/mobility. The first two days of the conference are training workshops, certifications, and deep dives, and the last two offer a smorgasbord of sessions that allows attendees to build a personal program that meets their business objectives.</p>
+<p><strong>Who should attend:</strong> CEOs, CTOs, CIOs, developers, software architects, site reliability engineers, and system architects</p>
+<h4>Agile India</h4>
+<p><strong>Twitter: </strong><a target="_blank" href="https://twitter.com/agileindia" rel="nofollow noopener">@agileindia</a><br /><strong>Web:</strong> <a target="_blank" href="https://2020.agileindia.org/" rel="nofollow noopener">2020.agileindia.org</a><br /><strong>Date (2020):</strong> October 11-18<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> Conference, Rs15,000 to Rs45,000 (4-day pass); workshops Rs5,000 to Rs30,000</p>
+<p>Agile India bills itself as Asia&#8217;s largest conference on leading-edge software development methods. It&#8217;s hosted by the Agile Alliance and organized by the Agile Software Community of India. The forum includes an agile coach camp and workshops before the start of the event and more workshops after it&#8217;s finished. Each day focuses on a theme, including agile mindset day, business agility day, design innovation day, and continuous delivery and DevOps day.</p>
+<p><strong>Who should attend:</strong> Developers, agile practitioners, consultants, software engineers, thought leaders, DevOps team members and leaders, line-of-business managers, project managers, business analysts, programmers, testers, Q&amp;A practitioners, and UX designers</p>
+<h4>SRE Con Europe, Middle East, Africa</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/SREcon" rel="nofollow noopener">@SREcon</a> / <a target="_blank" href="https://twitter.com/hashtag/srecon?lang=en" rel="nofollow noopener">#SREcon</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.usenix.org/conference/srecon21emea" rel="nofollow noopener">usenix.org/conference/srecon21emea</a><br /><strong>Date:</strong> October 12-14<br /><strong>Location:</strong> Amsterdam, Netherlands<br /><strong>Cost:</strong> TBD</p>
+<p>The SRE conferences are a series of forums for site reliability engineers. The forums focus on resilience, reliability, and performance in complex distributed systems.</p>
+<p><strong>Who should attend:</strong> SREs, software architects, and developers</p>
+<h4>AnsibleFest</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/ansible" rel="nofollow noopener">@ansible</a> / <a target="_blank" href="https://twitter.com/search?q=%23ansiblefest&amp;src=typd" rel="nofollow noopener">#ansiblefest</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.ansible.com/ansiblefest" rel="nofollow noopener">ansible.com/ansiblefest</a><br /><strong>Date (2020):</strong> October 13-14<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> Free</p>
+<p>Red Hat&#8217;s Ansible is an open-source framework for configuration management and automation (infrastructure as code). AnsibleFest brings together members of the Ansible community to share information and learn about the latest developments.</p>
+<p><strong>Who should attend:</strong> Ansible users, developers, and operations professionals</p>
+<h4>DevSecCon London</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/devseccon?lang=en" rel="nofollow noopener">@devseccon</a> / <a target="_blank" href="https://twitter.com/hashtag/DevSecCon?src=hashtag_click" rel="nofollow noopener">#DevSecCon</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.devseccon.com/london/" rel="nofollow noopener">devseccon.com/london/</a><br /><strong>Date:</strong> October 20-21<br /><strong>Location:</strong> London, UK<br /><strong>Cost:</strong> TBD</p>
+<p>This conference is run by practitioners for practitioners. At the event, attendees will learn how to implement security in the overall development process, from the supply chain to the customer experience. Sessions cover topics ranging from security automation and secure development to threat modeling, serverless, and container security.</p>
+<p><strong>Who should attend:</strong> DevSecOps and IT security professionals</p>
+<h3>November</h3>
+<h4>Agile + DevOps East</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/techwell?lang=en" rel="nofollow noopener">@TechWell</a> / <a target="_blank" href="https://twitter.com/search?q=%23AgileDevEast&amp;src=typd&amp;lang=en" rel="nofollow noopener">#AgileDevEast</a><br /><strong>Web:</strong> <a target="_blank" href="http://adceast.techwell.com/" rel="nofollow noopener">adceast.techwell.com</a><br /><strong>Date:</strong> November 14-19<br /><strong>Location:</strong> Orlando, Florida, USA<br /><strong><a target="_blank" href="https://agiledevopseast.techwell.com/pricing-packages" rel="nofollow noopener">Cost</a>:</strong> Free to $999</p>
+<p>Agile + DevOps conferences offer the latest in the methods, process, technology, tools, and leadership principles to help newbies and seasoned pros deliver software with greater speed and agility while meeting quality and security demands. No matter your level of agile or DevOps adoption, conference organizers say, you will find thought-provoking keynotes, deep-dive training classes, engaging tutorials, and session topics that will guide and inspire you.</p>
+<p><strong>Who should attend:</strong> Agile teams and leadership; digital transformation teams; automation, development, test, and release staff; product owners; and managers</p>
+<h3>December</h3>
+<h4>SRE Con Americas</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/SREcon" rel="nofollow noopener">@SREcon</a> / <a target="_blank" href="https://twitter.com/hashtag/srecon?lang=en" rel="nofollow noopener">#SREcon</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.usenix.org/conference/srecon20americas/" rel="nofollow noopener">usenix.org/conference/srecon20americas/</a><br /><strong>Date (2020):</strong> December 7-9<br /><strong>Location (2020):</strong> Virtual<br /><strong>Cost (2020):</strong> $60</p>
+<p>The SRE conferences are a series of forums for site reliability engineers. The forums focus on resilience, reliability, and performance in complex distributed systems.</p>
+<p><strong>Who should attend:</strong> SREs, software architects, and developers</p>
+<p><em>And that&#8217;s our list. Not all dates, locations, and pricing were available at publication time, especially for events taking place later in the year. In those cases, we provided historical information about the event to give you an idea of what to expect and what you&#8217;ll get out of attending—and we&#8217;ll continue to update this list throughout the year.</em></p>
+<p><em>Mark your calendars and make your choices soon. Prices may vary based on how early you register. Also, remember that hotel and travel costs are generally separate from conference pricing.</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/devops/best-devops-conferences-2021">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CISOs Prep For COVID-19 Exposure Notification in the Workplace</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/cisos-prep-for-covid-19-exposure-notification-in-the-workplace/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 13 Jan 2021 14:00:07 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISOs]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Exposure]]></category>
+		<category><![CDATA[Notification]]></category>
+		<category><![CDATA[Prep]]></category>
+		<category><![CDATA[Workplace]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cisos-prep-for-covid-19-exposure-notification-in-the-workplace/</guid>
+
+					<description><![CDATA[Security teams are preparing for the inevitable return to the workplace &#8211; and the privacy implications of exposure notification apps]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Security teams are preparing for the inevitable return to the workplace &#8211; and the privacy implications of exposure notification apps that companies may need to adopt.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cisos-prep-for-covid-19-exposure-notification-in-the-workplace/162988/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Top Security Threats to Look Out for in 2021 &#124; McAfee Blogs Top Cyber Security Threats to Look Out for in 2021</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/top-security-threats-to-look-out-for-in-2021-mcafee-blogs-top-cyber-security-threats-to-look-out-for-in-2021/</link>
 		
@@ -306,315 +762,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/2021-threat-predictions-report/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Critical Microsoft Defender Bug Actively Exploited; Patch Tuesday Offers 83 Fixes</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/critical-microsoft-defender-bug-actively-exploited-patch-tuesday-offers-83-fixes/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 21:45:23 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Actively]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Defender]]></category>
-		<category><![CDATA[exploited]]></category>
-		<category><![CDATA[Fixes]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Offers]]></category>
-		<category><![CDATA[Patch]]></category>
-		<category><![CDATA[Tuesday]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/critical-microsoft-defender-bug-actively-exploited-patch-tuesday-offers-83-fixes/</guid>
-
-					<description><![CDATA[The first Patch Tuesday security bulletin for 2021 from Microsoft includes fixes for one bug under active attack, possibly linked]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The first Patch Tuesday security bulletin for 2021 from Microsoft includes fixes for one bug under active attack, possibly linked to the massive SolarWinds hacks.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/critical-microsoft-defender-bug-exploited/162992/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Data Breach at &#8216;Resident Evil&#8217; Gaming Company Widens</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/data-breach-at-resident-evil-gaming-company-widens/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 18:45:14 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[company]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Evil]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[resident]]></category>
-		<category><![CDATA[Widens]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/data-breach-at-resident-evil-gaming-company-widens/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/data-breach-resident-evil-gaming/162977/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Mimecast Certificate Hacked in Microsoft Email Supply-Chain Attack</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/mimecast-certificate-hacked-in-microsoft-email-supply-chain-attack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 18:35:41 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Certificate]]></category>
-		<category><![CDATA[Email]]></category>
-		<category><![CDATA[Hacked]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Mimecast]]></category>
-		<category><![CDATA[SupplyChain]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mimecast-certificate-hacked-in-microsoft-email-supply-chain-attack/</guid>
-
-					<description><![CDATA[A sophisticated threat actor has hijacked email security connections to spy on targets. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A sophisticated threat actor has hijacked email security connections to spy on targets.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/mimecast-certificate-microsoft-supply-chain-attack/162965/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>BumbleBee Opens Exchange Servers in xHunt Spy Campaign</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/bumblebee-opens-exchange-servers-in-xhunt-spy-campaign/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 18:30:47 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[BumbleBee]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Exchange]]></category>
-		<category><![CDATA[Opens]]></category>
-		<category><![CDATA[Servers]]></category>
-		<category><![CDATA[Spy]]></category>
-		<category><![CDATA[xHunt]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/bumblebee-opens-exchange-servers-in-xhunt-spy-campaign/</guid>
-
-					<description><![CDATA[The BumbleBee web shell allows APT attackers to upload and download files, and move laterally by running commands. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The BumbleBee web shell allows APT attackers to upload and download files, and move laterally by running commands.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/bumblebee-exchange-servers-xhunt-spy/162973/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Discover why large broadcasting company chose NeoLoad for its high-volume, high-&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/discover-why-large-broadcasting-company-chose-neoload-for-its-high-volume-high/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 18:18:46 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[broadcasting]]></category>
-		<category><![CDATA[chose]]></category>
-		<category><![CDATA[company]]></category>
-		<category><![CDATA[Discover]]></category>
-		<category><![CDATA[high]]></category>
-		<category><![CDATA[highvolume]]></category>
-		<category><![CDATA[large]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/discover-why-large-broadcasting-company-chose-neoload-for-its-high-volume-high/</guid>
-
-					<description><![CDATA[Discover why large broadcasting company chose NeoLoad for its high-volume, high-velocity performance tests during its migration to AWS CloudFront. 👉]]></description>
-										<content:encoded><![CDATA[
-<p>Discover why large broadcasting company chose NeoLoad for its high-volume, high-velocity performance tests during its migration to AWS CloudFront. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2LfsxDC&amp;h=AT3MjRD6-SqJsI7o0NNaMY2rbEhT1ITFm9cac2cXhYba7xUFFA7EWd_OdEmMGDiUU92UBGgmKbs2JN1OlxmjIzvGlPDmle25I_eG6L29HgBMPDvMgnITZe03VAuNYX2f8XwDoIIzbELgYqmGZFZNlokmUoWCPkkEvgjYuxv6wxLwKXfZepcCD_2TBd7zctc5HjRwohvw1kJXK8o7TYLpYnINRR2aO-Qz6XETtXY9n-Hvmvo9KJrkyvMCn0nBoSMfemWFBTHg1vyMAhueg5j6iYPiIX924avHFfhTA6YAg3brE5uM4TwJgEdc5ddewjmcLDbp4sCIW1kacsiZ-PagZzYkV5-l3oG4zEz2-9bkrL2Z5wmQk7Ku8xSFBT7sBXpeWlKdXS_IMyF_5w31CkUuN0eZsV7UI7kCXSvVJvxxfQnehK_vt1CyodmaogWz7U9FrUGPJOoVm8RL6Ot0oqGILjzia2GZtyxYgnlvJHszLKRk0aSmiAxyo-eQJpTitCE9ncDIwQHLTHkG2DqSbha81blgwmGR3tSoUzKVTK4BMwJR-4XBqO07RIhzVKbj3zw8hRtzEn941mdB_XzZOGJwJ9Ys0qAds9ULUheQJiGLFQ-s2B94aJi6f9x2JqE3gi2fNU_x3Xm26JeG33-FVUNHWkyCfz97nQf0QbE8-Bs-4oK0KlOiMu527CWphhGize0yzjhT1D_ezfSQcF_cfFJh1_6UO4FwqKZyiKqn1CCI-kNIqFQHrb-F3i8SszGXSLQhr0qeMcyjxlQzqfL-T16dN6vGoJuKZSHKs8U15JxbMqk0JT_k0NkOXLsrxBjQvw76OtX9x1wspvtVkyLCpmyid_d4OJS4WJogH6-h4mZt6ViqR5n_OUPS7DTZDkUXyAXn-WoGnw9Td082hedYLuTjrdBeMGOgUiGUe3z9mWUEnu0GNmqy8dRaxv8-3QEyvlOsqlDlRudbs6VY9I0wjXLxD6z76TXOqF2JeEQtJ46Alvp87nngLAYP5OTxgwgGbQlthbDA2-dPAR7OmbK80LM77vINXhUJN2C8azu3k41uL0cVrU_j-GIr-AmAE3daDqOPYtqwXOpsaWtYsWF0IZnbV4V4E7CJ-gJF-fbrxQPrc1GlqSrnbNC9dAhbQovzr11d78fQpzPUrd3xij_FBto7AhljaiaBxEnrKImQgzKYb8a-wccTb6a6eeBGuUgb6rHTCVCyhKxm2vbwiOWO_BJ4sv1vtygBzxuRjJLNb08BfTnyV0TIOHPJTv38SUBYJg" rel="noopener">https://bit.ly/2LfsxDC</a>
-</p>
-<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/138689371_4017085208302912_6005561075912548341_o.png?_nc_cat=105&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=1X0B9NeErHMAX_37CQS&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=e33673a086da175d31bc9d124d1ffc8c&#038;oe=60245BCB" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4017085281636238">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Adobe Fixes 7 Critical Flaws, Blocks Flash Player Content</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/adobe-fixes-7-critical-flaws-blocks-flash-player-content/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 17:13:28 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Adobe]]></category>
-		<category><![CDATA[Blocks]]></category>
-		<category><![CDATA[Content]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Fixes]]></category>
-		<category><![CDATA[Flash]]></category>
-		<category><![CDATA[Flaws]]></category>
-		<category><![CDATA[Player]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/adobe-fixes-7-critical-flaws-blocks-flash-player-content/</guid>
-
-					<description><![CDATA[Adobe issued patches for seven critical arbitrary-code-execution flaws plaguing Windows and MacOS users. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Adobe issued patches for seven critical arbitrary-code-execution flaws plaguing Windows and MacOS users.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/adobe-critical-flaws-flash-player/162958/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Europol Reveals Dismantling of ‘Largest’ Underground Marketplace</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/europol-reveals-dismantling-of-largest-underground-marketplace/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 16:26:58 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Dismantling]]></category>
-		<category><![CDATA[Europol]]></category>
-		<category><![CDATA[largest]]></category>
-		<category><![CDATA[Marketplace]]></category>
-		<category><![CDATA[reveals]]></category>
-		<category><![CDATA[Underground]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/europol-reveals-dismantling-of-largest-underground-marketplace/</guid>
-
-					<description><![CDATA[Europol announced a wide-ranging investigation that led to the arrest of the alleged DarkMarket operator and the seizure of the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Europol announced a wide-ranging investigation that led to the arrest of the alleged DarkMarket operator and the seizure of the marketplace&#8217;s infrastructure, including more than 20 servers.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/europol-dismantling-underground-marketplace/162949/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Remote-work and burnout: 10 ways to avoid it on your tech team</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/remote-work-and-burnout-10-ways-to-avoid-it-on-your-tech-team/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 12 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Avoid]]></category>
-		<category><![CDATA[burnout]]></category>
-		<category><![CDATA[remotework]]></category>
-		<category><![CDATA[team]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ways]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/remote-work-and-burnout-10-ways-to-avoid-it-on-your-tech-team/</guid>
-
-					<description><![CDATA[For many tech pros, remote work is hell because all the traditional work/home boundaries are blurred. And in this economic environment, everyone is]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>For many tech pros, remote work is hell because all the traditional work/home boundaries are blurred. And in this economic environment, everyone is trying to avoid getting laid off. All the more reason, then, for wanting or needing to be always available to the job.</p>
-<p>One example: having a security operations center dashboard on your mobile phone, to be alerted to problems day or night. That sort of connectivity can bring <a target="_blank" href="https://techbeacon.com/devops/how-avoid-devops-burnout" rel="noopener">work-related stress</a> to a whole new level.</p>
-<p><em>TechBeacon</em> talked to tech pros and HR managers to see what best practices have emerged in this remote era. Here are 10 suggestions for avoiding burnout as a development, testing, security, or other IT professional.</p>
-<h3>1. Accept that burnout is a real problem</h3>
-<p>The first step is to understand that burnout is real, said <a target="_blank" href="https://twitter.com/jgallimore" rel="nofollow noopener">Jeff Gallimore</a>, co-founder and chief technology and innovation officer at Excella, a technology consulting firm.</p>
-<blockquote>
-<p>&#8220;We are at an increased risk of burnout, particularly in these times. Our individual ability to deal with things is not what it was a year ago because of all the other things we have to deal with now, such as healthcare concerns.&#8221;<br />—<a target="_blank" href="https://twitter.com/jgallimore" rel="nofollow noopener">Jeff Gallimore</a></p>
-</blockquote>
-<p>That&#8217;s reducing the capacity of individuals to handle the other stuff that they used to cope with on a normal day-to-day basis at work, he said.</p>
-<p>To help, Gallimore said, managers can take &#8220;a more proactive stance on trying to root out where those risks are&#8221; in their teams. One way to deal with it: &#8220;[By] realizing that my team might need a little bit more connection time in meetings just to catch up with each other.&#8221;</p>
-<p>Rather than launching right into the agenda and starting to talk about business or the work of the day that needs to get done, managers should create space for chatter, to maintain the rapport that people used to have in the office, he said.</p>
-<h3>2. Communicate and connect</h3>
-<p>The mental health of all employees is especially critical during this tumultuous time, and individuals are struggling to manage the sudden shift to all-remote work, the need to handle family and schooling priorities, and their feelings of isolation, said Shani Brounshtein, vice president of HR at Atera, an Israeli company that provides a remote-monitoring management platform. </p>
-<blockquote>
-<p>&#8220;Instant messaging platforms can simulate a water cooler-style conversation and office banter. By connecting with each other, it can help bring the teams closer together.&#8221;<br />—<a target="_blank" href="https://twitter.com/Shani_Plarium" rel="nofollow noopener">Shani Brounshtein</a></p>
-</blockquote>
-<p>In the pre-pandemic world, Srini Vadlamani, CTO of Cyral, which makes a cloud-native security tool, preferred face-to-face communication, because it allowed for better conversation. Talking to someone in person also helped him understand what was going on from the other person&#8217;s point of view. Now, with the pandemic driving remote work, he encourages employees to use video during online meetings.</p>
-<blockquote>
-<p>&#8220;We have this culture where we all turn on our videos, unless someone&#8217;s not feeling so well.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/svadlama/" rel="nofollow noopener">Srini Vadlamani</a></p>
-</blockquote>
-<h3>3. Deliver a well-being program</h3>
-<p>When employees are burned out, it&#8217;s generally because they have been hyper-engaged for long periods of time without taking care of their well-being or having the support from their companies to take care of themselves, said Laura Hamill, chief people officer at Limeade, an employee experience company.</p>
-<blockquote>
-<p>&#8220;Sometimes burnout goes so far that in order to cope with the exhaustion, cynicism, and inefficacy, employees start to detach and disengage from their work. When this happens, it&#8217;s easy for the employee to lose sight of why they liked their job in the first place and how their work helps them find more meaning and purpose in their life.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/laurahamill/" rel="nofollow noopener">Laura Hamill</a></p>
-</blockquote>
-<p>To prevent employee burnout, organizations should deliver a well-being program, according to Hamill. This can include providing recovery time between big IT rollouts, training managers to support well-being within their teams, building support systems among employees, addressing unreasonable deadlines and overwork (often associated with IT departments), and helping people reconnect to their sense of purpose at work, she said.</p>
-<h3>4. Hold mindful meetings</h3>
-<p>Meetings have increased on average for developers since the start of the pandemic, according to <a target="_blank" href="https://uplevelteam.com/wp-content/uploads/2020/10/Uplevel-2020-Remote-Work-Report.pdf" rel="nofollow noopener">an analysis based on over 2,000 developers conducted by Uplevel</a>, an engineering effectiveness platform. </p>
-<p>Developers are working longer hours, and the risk for developer burnout is high, in part because of the increase <a target="_blank" href="https://techbeacon.com/devops/balanced-calendar-how-software-teams-can-optimize-their-time" rel="noopener">in overall time spent in meetings</a>.</p>
-<p>September tallied &#8220;one of the highest [meeting] increases we&#8217;ve seen, and we&#8217;ve also heard subjectively from our customers that everything has to be a meeting now,&#8221; said <a target="_blank" href="https://www.linkedin.com/in/ravs-kaur-653b245/" rel="nofollow noopener">Ravs Kaur</a>, chief technology officer at Uplevel.</p>
-<p>One way organizations can deal with meeting burnout is to hold &#8220;mindful&#8221; team meetings. In other words, try starting meetings with a quick meditation or allowing time for some chat before diving into work, said <a target="_blank" href="https://www.linkedin.com/in/bstallings/" rel="nofollow noopener">Bryan Stallings</a>, chief evangelist for Lucid, an online visual collaboration suite. One best practice he recommends: &#8220;Use visuals to create an interactive environment rather than an audience of zombies with a single person presenting.&#8221;</p>
-<p><a target="_blank" href="https://www.linkedin.com/in/williammiller285/" rel="nofollow noopener">Bill Miller</a>, CIO of NetAPP, a provider of cloud data services, said his company is very mindful when scheduling meetings, with the goals of making them shorter, but also as inclusive and as productive as possible.</p>
-<p>Anything that can be read and digested ahead of a meeting is sent via collaboration channels, he said. </p>
-<blockquote>
-<p>&#8220;[That gives] each person time to share their thoughts, which is something that didn&#8217;t always happen in a conference room, because the biggest voices with the most bravado often dominated the conversation. Now we’re going more thoughtfully around the visual space asking every person for their opinion, and that’s bringing to light more ideas, more perspectives, and deepening the feeling of inclusion and belonging.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/williammiller285/" rel="nofollow noopener">Bill Miller</a></p>
-</blockquote>
-<h3>5. Be aware of people&#8217;s time</h3>
-<p>Leaders have to ensure that they&#8217;re using their people efficiently, said Cyral&#8217;s Vadlamani.</p>
-<blockquote>
-<p>&#8220;Let&#8217;s say a team of five people are all watching all the Slack alerts for a security channel. Do they all need to be watching at all times during the day, during the week, during the weekend?&#8221;<br />—Srini Vadlamani</p>
-</blockquote>
-<p>He suggests setting up a rotation and designating which team member will be responsible for monitoring the Slack alerts at a specific time.</p>
-<p>Another suggestion is to urn off notifications during certain hours of the day, certain days of the week, and so on, he said.</p>
-<blockquote>
-<p>&#8220;We basically encourage people to switch off, disconnect, when they don&#8217;t have anything to do. That way, at least for the time that they&#8217;re not engaged, they&#8217;re not being bombarded with all these sensory inputs.&#8221;<br />—Srini Vadlamani</p>
-</blockquote>
-<h3>6. Connect back with your purpose</h3>
-<p>One of the best approaches to combat burnout is for developers and IT pros to connect back with their purpose—especially from the perspective of how their work impacts real human beings, according to Limeade&#8217;s Hamill.</p>
-<p>For example, remind yourself of the problems your customers face and how your technology is helping to solve them, she said. &#8220;How did your contribution help them? How did that feel? From an internal perspective, remind yourself of the projects that you worked on with others and how it felt to have a positive impact on your co-workers.&#8221;</p>
-<p>Managers can help by having &#8220;line-of-sight&#8221; discussions with their employees, describing to each employee how their specific work helps the team, department, and company be successful. &#8220;Sometimes, we might think that is obvious to our employees, but it isn’t always,&#8221; she said. </p>
-<h3>7. Use the off switch</h3>
-<p>It&#8217;s important to remember that &#8220;always on&#8221; has a corresponding off switch—and it should be used, said Derek Weeks, vice president of Sonatype, a provider of DevSecOps-native tools.</p>
-<p>He advocates having a set schedule for the day, a time to both start and stop. &#8220;[You] have to be steadfast. When it says, &#8216;Stop,&#8217; it means stop. It doesn&#8217;t mean bring your phone to dinner and check what&#8217;s happening on Slack.&#8221;</p>
-<p>Before the pandemic, when employees used to leave the office, they weren&#8217;t usually responding to work issues when they got home in the evening. Rather, they were spending time with their kids, their partners, and their pets, Weeks said.</p>
-<p>He said that although he works on Sundays and may send messages to his team on Sunday mornings, he doesn&#8217;t expect responses that day. </p>
-<blockquote>
-<p>&#8220;I let my team know that it is totally okay to wait until Monday to answer it. If it was so time-critical, I&#8217;d call them.&#8221;<br />—<a target="_blank" href="https://twitter.com/weekstweets" rel="nofollow noopener">Derek Weeks</a></p>
-</blockquote>
-<p>One of the keys to using the on/off switch when working remotely is to develop a physical action to support the shut-off valve, said Mika Liss, COO of NeuroLeadership Institute, a consulting company that aims to help organizations apply neuroscience to work.</p>
-<p>For instance, if you decide to stop working at 5 p.m. every day, you have to take action to enforce that.</p>
-<blockquote>
-<p>&#8220;Physically shut off your laptop you put it in a drawer. And since all tech people are online, you can have your teammates say something like, &#8216;Shutting down in five, four, three&#8217;—or you can put a reminder in your calendar.&#8221;<br />—<a target="_blank" href="https://twitter.com/mikaliss" rel="nofollow noopener">Mika Liss</a></p>
-</blockquote>
-<h3>8. Offer flexible schedules</h3>
-<p>NetApp is giving its employees far more flexibility in terms of work hours and schedules now that everyone is working from home, Miller said.</p>
-<p>&#8220;We understand that some families have young children at home to address, while other employees may care for elderly family members,&#8221; he said. &#8220;We need to be very sensitive to the unique needs of families to succeed both in business and in life, thus removing inherent stress and eventual burnout.&#8221;</p>
-<p>Working from home has introduced the need for different perspectives on balance, Miller said.</p>
-<blockquote>
-<p>&#8220;We deeply believe a healthy work-life balance and an inherent sense of accomplishment and job satisfaction will result in the best employees for the long term.&#8221;<br />—Bill Miller</p>
-</blockquote>
-<h3>9. Learn to collaborate remotely</h3>
-<p>Before the pandemic, remote workers could physically go into the office to get some help with a problem, said Hyoun Park, CEO and principal analyst at Amalgam Insights.</p>
-<blockquote>
-<p>&#8220;You used some human interaction to figure out how to work with other people and get some things done, synchronously. Now, a lot of us have to get the same amount of communication and collaboration done [remotely], and we have to use the technical tools that we have.&#8221;<br />—<a target="_blank" href="https://twitter.com/hyounpark" rel="nofollow noopener">Hyoun Park</a></p>
-</blockquote>
-<p>The hardest part is understanding how to collaborate with other team members, especially when they&#8217;re nontechnical or business people—for instance, the people who care about security and applications and development but who are in sales or marketing or other areas where they don&#8217;t deal with code, Park said.</p>
-<p>Although remote access to systems and tools has been around for decades, without in-person human interaction, something gets lost in translation.</p>
-<p>The majority of person-to-person communication is nonverbal. &#8220;And a lot of that nuance gets lost because there&#8217;s just a little bit of a delay when we&#8217;re speaking to each other remotely—there&#8217;s less spatial detail that you can get from a two-inch box in a Zoom&#8221; meeting, Park said.</p>
-<h3>10. Reclaim your commute time</h3>
-<p>Justin Rodenbostel, vice president of solution delivery at SPR, which specializes in custom software development, said he used to have a 60-to-90-minute commute, and for a while he found himself logging on at the time that he would have left for work, which lead to really long days.</p>
-<p>&#8220;We&#8217;re now working during the time that we spent commuting,&#8221; he said. People have to reclaim their commute times to preserve a normal workday, he added.</p>
-<blockquote>
-<p>&#8220;This allows a time for the mental transition, which normally happens during your commute, to kind of warm your brain up for the day or wind it down at the end of the day so that you can switch from a family member to a team member and back to a family member.&#8221;<br />—<a target="_blank" href="https://twitter.com/revdrjrr" rel="nofollow noopener">Justin Rodenbostel</a></p>
-</blockquote>
-<h3>The new normal</h3>
-<p>This new landscape has already lasted much longer than most anticipated—and it will <a target="_blank" href="https://techbeacon.com/enterprise-it/4-technology-leadership-lessons-coming-post-pandemic-world" rel="noopener">likely continue for some time</a>.</p>
-<p>Many developers and IT pros will ultimately work remotely full time and may never return to the office. These tips will can help you avoid burnout and be more productive in this environment.</p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/enterprise-it/remote-work-burnout-10-ways-avoid-it-your-tech-team">Source link </a></p>
 ]]></content:encoded>
 					
 		
