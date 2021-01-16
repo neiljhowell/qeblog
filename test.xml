@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 14 Jan 2021 22:30:52 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 Jan 2021 22:04:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,432 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Tractors, Pod Ice Cream and Lipstick Awarded CES 2021 Worst in Show</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/tractors-pod-ice-cream-and-lipstick-awarded-ces-2021-worst-in-show/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 22:04:12 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Awarded]]></category>
+		<category><![CDATA[CES]]></category>
+		<category><![CDATA[Cream]]></category>
+		<category><![CDATA[Ice]]></category>
+		<category><![CDATA[Lipstick]]></category>
+		<category><![CDATA[Pod]]></category>
+		<category><![CDATA[Show]]></category>
+		<category><![CDATA[Tractors]]></category>
+		<category><![CDATA[Worst]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tractors-pod-ice-cream-and-lipstick-awarded-ces-2021-worst-in-show/</guid>
+
+					<description><![CDATA[Expert panel awards dubious honors to 2021 Consumer Electronics Show’s biggest flops, including security and privacy failures. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Expert panel awards dubious honors to 2021 Consumer Electronics Show’s biggest flops, including security and privacy failures.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/tractors-pod-ice-cream-lipstick-ces-2021-worst/163117/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Implements Windows Zerologon Flaw ‘Enforcement Mode’</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/microsoft-implements-windows-zerologon-flaw-enforcement-mode/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 21:47:20 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Enforcement]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[Implements]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Mode]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Zerologon]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/microsoft-implements-windows-zerologon-flaw-enforcement-mode/</guid>
+
+					<description><![CDATA[Starting Feb. 9, Microsoft will enable Domain Controller “enforcement mode” by default to address CVE-2020-1472. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Starting Feb. 9, Microsoft will enable Domain Controller “enforcement mode” by default to address CVE-2020-1472.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/microsoft-implements-windows-zerologon-flaw-enforcement-mode/163104/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Two Pink Lines &#124; McAfee Blogs</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/two-pink-lines-mcafee-blogs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 18:58:49 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[lines]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Pink]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/two-pink-lines-mcafee-blogs/</guid>
+
+					<description><![CDATA[Depending on your life experiences, the phrase (or country song by Eric Church) “two pink lines” may bring up a]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Depending on your life experiences, the phrase (or country song by Eric Church) “two pink lines” may bring up a wide range of powerful emotions.    I suspect, like many fathers and expecting fathers, I will never forget the moment I found out my wife was pregnant.  You might recall what you were doing, or where you were and maybe even what you were thinking.   As a professional ethical hacker, I have been told many times – “You just think a little differently about things.”   I sure hope so, since that’s my day job and sure enough this experience wasn’t any different.  My brain immediately asked the question, “How am I going to ensure my family is protected from a wide range of cyberthreats?”   Having a newborn opens the door to all sorts of new technology and I would be a fool not to take advantage of all devices that makes parenting easier.   So how do we do this safely?</p>
+<h2>The A-B -C ‘s</h2>
+<p>The security industry has a well-known concept called the “principle of least privilege. “This simply means that you don’t give a piece of technology more permissions or access than it needs to perform its primary function.   This can be applied well beyond just technology that helps parents; however, for me it’s of extra importance when we talk about our kids.  One of the parenting classes I took preparing for our newborn suggested we use a baby tracking phone app.   This was an excellent idea, since I hate keeping track of anything on paper.  So I started looking at a few different apps for my phone and discovered one of them asked for permission to use “location services,” also known as GPS, along with access to my phone contacts.  This caused me to pause and ask: Why does an app to track my baby’s feeding schedule need to know where I am?  Why does it need to know who my friends are?   These are the types of questions parents should consider before just jumping into the hottest new app.  For me, I found a different, less popular app which has the same features, just with a little less access.</p>
+<p>It’s not always as easy to just “find something else.”  In my house, “if momma ain’t happy, nobody is happy.”  So, when my wife decided on a specific breast pump that came with Bluetooth and is internet enabled, that’s the one she is going to use.   The app backs up all the usage data to a server in the cloud.   There are many ways that this can be accomplished securely, and it is not necessary a bad feature, but I didn’t feel this device benefited from being internet connected.   Therefore, I simply lowered its privileges by not allowing it internet access in the settings on her phone.  The device works perfectly fine, she can show the doctor the data from her phone, yet we have limited our online exposure and footprint just a little more.  This simple concept of least privilege can be applied almost everywhere and goes a long way to limiting your exposure to cyber threats.</p>
+<h2>Peek-A-Boo</h2>
+<p>I think one of the most sought after and used products for new parents is the baby monitor or baby camera.   As someone who has spent a fair amount of time hacking cameras <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/robot-character-analysis-reveals-trust-issues/" rel="noopener noreferrer">(or cameras on wheels)</a> this was a large area of concern for me.  Most cameras these days are internet connected and if not, you often lose the ability to view the feed on your phone, which is a huge benefit to parents.  So how, as parents, do we navigate this securely?  While there is no silver bullet here, there are a few things to consider.    For starters, there are still many baby cameras on the market that come with their own independent video screen.  They generally use Wi-Fi and are only accessible from home.  If this system works for you, use it.  It is always more secure to have a video system which is not externally accessible.   If you really want to be able to use your phone, consider the below.</p>
+<ul>
+<li><strong>Where is the recorded video and audio data being stored? </strong>This may not seem important if the device is internet connected anyway, but it can be.  If your camera data is being stored locally (DVR, SD card, network storage, etc.), then an attacker would need to hack your specific device to obtain this information.   If you combine this with good security hygiene such as a strong password and keeping your device updated, an attacker has to work very hard to access your camera data.  If we look at the alternative where your footage is stored in the cloud, and it becomes subject to a security breach, now your camera’s video content is collateral damage.  Large corporations are specifically targeted by cybercriminals because they provide a high ROI for the time spent on the attack; an individual practicing good cybersecurity hygiene becomes a much more difficult target providing less incentive for the attacker, thus becoming a less likely target.</li>
+<li><strong>Is the camera on the same network as the rest of your home? </strong>An often-overlooked security implication to many IoT devices, but especially cameras, is outside of the threat of spying, but rather the threat of a network entry point. If the camera itself is compromised it can be used as a pivot point to attack other devices on your network.  A simple way to reduce this risk is to utilize the “guest” network feature that comes by default on almost all home routers.   These guest networks are preset to be isolated from your main network and generally require little to no setup.  By simply attaching your cameras to your guest network, you can reduce the risk of a compromised camera leading a cybercriminal to the banking info on your laptop.</li>
+</ul>
+<h2>Background checks – Not only for babysitters</h2>
+<p>Most parents, especially new ones, like to ensure that anyone that watches their children is thoroughly vetted.  There are a ton of services out there to do this for babysitters and nannies, however it’s not always as easy for vetting the companies that create the devices we put in our homes.  So how do we determine what is safe?  My father used to tell me: “It’s how we respond to our mistakes that makes the difference.”  When researching a company or device, should you find that the device has been found to have a vulnerability, often the response time and accountability from the vendor can tell you if it’s a company you should be investing in. Some things to look for include:</p>
+<ul>
+<li>Was the vulnerability quickly patched?</li>
+<li>Are there unpatched bugs still?</li>
+<li>Has a vendor self-reported flaws, fixed them and reported to the public they have been fixed?</li>
+<li>Are there numerous outstanding bugs filed against a company or device?</li>
+<li>Does the company not recognize the possibility of bugs in their products?</li>
+</ul>
+<p>These answers can often be discovered on a company’s website or in release notes, which are generally attached to an update of a piece of software.   Take a minute to read the notes and see if the company is making security updates. You don’t need to understand all the details, just knowing they take security seriously enough to update frequently is important.  This can help tip the scales when deciding between devices or apps.</p>
+<h2>Remember, you can do this!</h2>
+<p>Through my preparation for becoming a new parent, I constantly read in books and was told by professionals, “Remember, you can do this!”  Cybersecurity in the context of being a parent is no different.  Every situation is different, and it is important to do what works with you and your family.  As parents, we shouldn’t be afraid to use all the cool new gadgets that are emerging on the market, but instead educate ourselves on how to limit our risk.  Which features do I need, which ones can I do without?   Remember always follow a vendor’s recommendations and best practices, and of course remember to breathe!</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/two-pink-lines/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Think &#8216;next normal&#8217;: 4 cyber-resilience lessons from the pandemic</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/think-next-normal-4-cyber-resilience-lessons-from-the-pandemic/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 18:30:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[cyberresilience]]></category>
+		<category><![CDATA[Lessons]]></category>
+		<category><![CDATA[Normal]]></category>
+		<category><![CDATA[Pandemic]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=7275</guid>
+
+					<description><![CDATA[The COVID-19 pandemic has changed the way many businesses do business—for some, irrevocably. It&#8217;s also made them more aware of]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>The COVID-19 pandemic has changed the way many businesses do business—for some, irrevocably. It&#8217;s also made them more aware of the need for resiliency and <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/state-secops-beyond-soc?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">the role cybersecurity must play in ensuring that an organization can continue</a> operations in the face of disruptive events.</p>
+<p>&#8220;We are at an inflection point globally. The pandemic has affected us in ways that we never expected,&#8221; said Mark Fernandes, CTO of Micro Focus Security, at <a target="_blank" href="http://www.brighttalk.com/webcast/7477/451044?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener">a recent digital &#8220;fireside chat&#8221; about cyber resiliency during, after, and beyond COVID-19</a>. And, he added, cybersecurity teams have been here before.</p>
+<p>In 2001, there was SOX—Sarbanes-Oxley—which ushered in the era of compliance. Then in 2008, after a series of major cyber attacks, there was the era of threat management, as organizations began to recognize the potential damage cyber attacks could inflict on infrastructure and supply chains. In 2014, digital transformation began to gain steam and cybersecurity became about industry alignment with it.</p>
+<p>Now, in 2020, another one of those watershed moments has arrived. If you look at the use of digital assets before 2020, they weren&#8217;t mainstays being used at scale, Fernandes explained. Now, with everyone from educators to healthcare workers using digital tools, that&#8217;s not the case anymore.</p>
+<blockquote>
+<p>&#8220;I&#8217;m working with a government in another part of the world where they&#8217;ve actually said that 60% of their government desks are going to move to digital desks using chatbots and other types of tools.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/mbfernandes/" rel="nofollow noopener">Mark Fernandes</a></p>
+</blockquote>
+<p>Here are the key lessons from the expert chat on <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">cyber resilience now and in the future</a>. </p>
+<h2>1. Broaden your approach to resilience</h2>
+<p>A recurring issue among organizations has been distinguishing between cybersecurity and cyber resiliency.</p>
+<p>TMX Group CISO Bobby Singh, who joined Fernandes during the online event, explained that cyber resiliency is being able to deliver critical business services when a negative security event is taking place. It&#8217;s the ability to be nimble and agile, while building modularity into your architecture.</p>
+<p>Some organizations believe that their disaster recovery plans cover their resiliency needs. That&#8217;s not the case.</p>
+<blockquote>
+<p>&#8220;Resiliency goes way beyond just being a [disaster recovery plan].&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/singhbobby/" rel="nofollow noopener">Bobby Singh</a></p>
+</blockquote>
+<p>It goes beyond business continuity plans (BCP), too.</p>
+<p>Singh explained that when businesses do a BCP, they assume that anywhere from 10% to 50% of their staff will still be onsite to perform operations. That wasn&#8217;t the case when COVID-19 began to spread. &#8220;During the March pandemic,&#8221; he continued, &#8220;it was just literally 99% of the people that were offsite.&#8221;</p>
+<h2>2. It does not happen overnight</h2>
+<p>TMX provides services to the global financial community, which has weathered the pandemic better than a lot of other industries, such as retail and hospitality. &#8220;You were able to do your banking pretty well, paid your bills online, and did whatever transactions you wanted to do,&#8221; Singh said.</p>
+<p>That kind of resiliency, though, isn&#8217;t accomplished overnight.</p>
+<blockquote>
+<p>&#8220;That journey took a long time to get to March. It didn&#8217;t happen in 2020.&#8221;<br />—Bobby Singh</p>
+</blockquote>
+<p>&#8220;We as a financial sector have been thinking about the use of the cloud. We&#8217;ve been thinking about multiple data centers,&#8221; Singh said. &#8220;We&#8217;ve been thinking about spreading our resources and key staff across regions so if one region is down, the other one can come up. Those things were fundamentally ingrained into the financial sector.&#8221;</p>
+<p>He added that to achieve that kind of resiliency, a business needs to understand its full value chain. It has to know how its business services get to its clients or customers and what that entails, as well as how diversified its suppliers are.</p>
+<p>And testing multiple scenarios is key. &#8220;It takes time,&#8221; he said. &#8220;It consumes critical resources to test. But it&#8217;s quite evident by what happened in March of 2020, for example, that testing is pretty critical.&#8221;</p>
+<p>Another participant in the online event, Christina Richmond, program vice president for security services at IDC, said that organizations should make sure they have a playbook and a plan and that the plan is practiced with stakeholders. &#8220;And make sure you include stakeholders across the entire business,&#8221; she advised.</p>
+<p>To be resilient, she continued, an organization needs to include a broad set of stakeholders from across the business. &#8220;It&#8217;s a team sport.&#8221;</p>
+<h2>3. Prepare for the &#8216;next normal&#8217;</h2>
+<p>Richmond explained that during the first stage of the pandemic, many businesses were scrambling to enhance their network capacity <a target="_blank" href="https://content.microfocus.com/adapting-post-pandemic-world-tb/pandemic-your-remote?lx=V3y1kl" rel="noopener">to accommodate remote workers</a>.</p>
+<p>After dealing with initial capacity issues, they moved on to capacity optimization, she said. They continued enhancing their network capacity and remote working capabilities, as well as looking at how to secure people working from home. They also started to consider recovery.</p>
+<p>Finally, they started to look at resiliency and how they could prepare for the future. That <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">accelerated migration to the cloud and digital transformation</a>. &#8220;Companies are changing rapidly to embrace cloud in a way that they never thought they would, even if they were on that path to embrace cloud,&#8221; Richmond said.</p>
+<blockquote>
+<p>&#8220;They&#8217;re embracing digital business in ways that they never thought they would. Suddenly, it was an urgent necessity.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/christinarichmond/" rel="nofollow noopener">Christina Richmond</a></p>
+</blockquote>
+<p>Now bitten by the digital bug, as organizations move toward the &#8220;next normal,&#8221; they&#8217;re going to spend more aggressively, she predicted. And they are going to start to innovate again, she said. &#8220;They&#8217;ll focus on technologies that advance their digital capabilities in ways that they really didn&#8217;t think about before. Or if they had thought about it before, they&#8217;re accelerating those plans.&#8221;</p>
+<h3>4. It takes the right team</h3>
+<p>As digital transformation takes hold in more and more companies, resiliency will play an important role in securing business operations. But resiliency will require manpower, which seems to be in short supply these days.</p>
+<p>There are millions of jobs open in cyber security globally, said Singh.</p>
+<blockquote>
+<p>&#8220;You&#8217;re not going to fill them by hiring propeller heads or coders or developers or people in network security. We&#8217;ve got to broaden the horizon.&#8221;<br />—Bobby Singh</p>
+</blockquote>
+<p>The key to solving the cyber-security talent storage is looking for people beyond STEM, added Richmond.</p>
+<blockquote>
+<p>&#8220;They think differently. They&#8217;re asking different questions. They&#8217;re coming from that out-of-the-box perspective.&#8221;<br />—Christina Richmond</p>
+</blockquote>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/think-next-normal-4-cyber-resilience-lessons-pandemic">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Honoring Martin Luther King Jr.’s Legacy with McAfee’s African Heritage Community</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/honoring-martin-luther-king-jr-s-legacy-with-mcafees-african-heritage-community/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 17:59:45 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[African]]></category>
+		<category><![CDATA[community]]></category>
+		<category><![CDATA[Heritage]]></category>
+		<category><![CDATA[Honoring]]></category>
+		<category><![CDATA[Jrs]]></category>
+		<category><![CDATA[King]]></category>
+		<category><![CDATA[legacy]]></category>
+		<category><![CDATA[Luther]]></category>
+		<category><![CDATA[Martin]]></category>
+		<category><![CDATA[McAfees]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/honoring-martin-luther-king-jr-s-legacy-with-mcafees-african-heritage-community/</guid>
+
+					<description><![CDATA[Photo by Unseen Histories on Unsplash Today, we celebrate the life and legacy of Dr. Martin Luther King Jr. Dr.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<figure id="attachment_116005" aria-describedby="caption-attachment-116005" style="width: 343px" class="wp-caption alignleft"><img loading="lazy" class="wp-image-116005" src="https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183.jpg" alt="" width="343" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183.jpg 640w, https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183-229x300.jpg 229w, https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183-98x129.jpg 98w" sizes="(max-width: 343px) 100vw, 343px"/><figcaption id="caption-attachment-116005" class="wp-caption-text">Photo by Unseen Histories on Unsplash</figcaption></figure>
+<p><span data-contrast="auto">Today, we celebrate the life and legacy of Dr. Martin Luther King Jr. Dr. King diligently dedicated his life to dismantling systemic racism affecting marginalized groups and leading a peaceful movement to promote equality for all Americans, irrespective of color and creed. He leaves behind a legacy of courage, strength, perseverance, and a life-long dedication to pursuing a fair and just world. </span></p>
+<p><span data-contrast="auto">At McAfee, we honor the diverse voices which make up our company and encourage every team member to bring their authentic selves to the workplace. We believe that our collective voice and </span><span data-contrast="auto">act</span><span data-contrast="auto">io</span><span data-contrast="auto">n can make a difference in creating a more equal and unified world. </span></p>
+<p><span data-contrast="auto">On this day, we commemorate MLK by honoring the man behind the message of equality. Members of the McAfee African Heritage Community share their perspectives on the impact that Martin Luther King Jr. has had on their lives and what this day means to them. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
+<h2/>
+<h2/>
+<h2/>
+<h2/>
+<h2><b><span data-contrast="none"><img loading="lazy" class="alignright wp-image-116008" src="https://www.mcafee.com/wp-content/uploads/2021/01/Alexus-e1610662216837.jpg" alt="" width="551" height="450"/>Alex</span></b><b><span data-contrast="none">us, Software Sales Engineer</span></b></h2>
+<p><span data-contrast="none">When I think about what Martin Luther King Jr. Day means to me, I think of it as a time to reflect and think about the progress we have made as citizens of this country. We have made great strides, but there is much more that needs to be done for equality and justice.</span></p>
+<p><b><span data-contrast="none">I honor Martin Luther King Jr.</span></b><span data-contrast="none"> by being of service to others around me.</span></p>
+<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by</span></b><span data-contrast="none"> using my voice to uplift others.</span></p>
+<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to be</span></b><span data-contrast="none"> a man of excellence and courage.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
+<h2/>
+<h2/>
+<p> </p>
+<h2/>
+<h2/>
+<h2><b><span data-contrast="auto"><img loading="lazy" class="wp-image-116011 alignleft" src="https://www.mcafee.com/wp-content/uploads/2021/01/Denise.jpg" alt="" width="360" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/Denise.jpg 1536w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-240x300.jpg 240w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-819x1024.jpg 819w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-768x960.jpg 768w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-1229x1536.jpg 1229w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-103x129.jpg 103w" sizes="(max-width: 360px) 100vw, 360px"/>Denise, People Operations Program Manager</span></b></h2>
+<p><span data-contrast="none">For me, Martin Luther King Jr</span><span data-contrast="none">.</span><span data-contrast="none"> Day is a reminder of how far we’ve come, and how far we still </span><span data-contrast="none">have to</span><span data-contrast="none"> go as a society – especially in today’s time of social unrest. Some of Dr. King’s most poignant quotes are still so applicable and impactful today. </span></p>
+<p><span data-contrast="none">For example – “People fail to get along because they fear each other; they fear each other because they don’t know each other; they don’t know each other because they have not communicated with each other.”</span></p>
+<p><b><span data-contrast="none">I honor Martin Luther King Jr. by </span></b><span data-contrast="none">doing what I can to have a positive impact on the lives of others.</span></p>
+<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by </span></b><span data-contrast="none">looking for areas to give back and serve.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
+<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to</span></b><span data-contrast="none"> do better, be better and influence the world around me accordingly.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
+<h2/>
+<h2/>
+<h2/>
+<h2><b><span data-contrast="auto"><img loading="lazy" class="alignright wp-image-116014" src="https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260.png" alt="" width="355" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260.png 427w, https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260-237x300.png 237w, https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260-102x129.png 102w" sizes="(max-width: 355px) 100vw, 355px"/>Kristol, Global Sales Operations Manager</span></b></h2>
+<p><span data-contrast="none">MLK Jr. Day is a reminder of the influence ONE person can have on people, perspectives, and shaping a platform. It means that my voice matters and that I have a right to live my dream—a dream that we continue to fight for today. </span></p>
+<p><b><span data-contrast="none">I honor Martin Luther King Jr. by</span></b><span data-contrast="none"> never giving up on my dreams.</span></p>
+<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by</span></b><span data-contrast="none"> freely bringing my authentic self to work, home and the community every day. </span></p>
+<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to</span></b><span data-contrast="none"> be a courageous, strategic and compassionate leader.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<h2/>
+<h2/>
+<h2/>
+<h2/>
+<h2><b><span data-contrast="auto"><br /><img loading="lazy" class="wp-image-116017 alignleft" src="https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore.jpg" alt="" width="450" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore.jpg 671w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-300x300.jpg 300w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-150x150.jpg 150w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-129x129.jpg 129w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-24x24.jpg 24w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-48x48.jpg 48w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-96x96.jpg 96w" sizes="(max-width: 450px) 100vw, 450px"/>Le Var, Customer Success M</span></b><b><span data-contrast="auto">anag</span></b><b><span data-contrast="auto">er</span></b></h2>
+<p><span data-contrast="auto">MLK Day always drives me to think</span><span data-contrast="auto"> about</span><span data-contrast="auto"> Dr. King’s dream and the work of the </span><span data-contrast="auto">c</span><span data-contrast="auto">ivil </span><span data-contrast="auto">r</span><span data-contrast="auto">ights </span><span data-contrast="auto">m</span><span data-contrast="auto">ovement. I then look for ways I can make an impact in my local community to continue the work of those before </span><span data-contrast="auto">me.</span></p>
+<p><b><span data-contrast="none">I honor Martin Luther King Jr. by </span></b><span data-contrast="none">passing the baton and sharing his dream to the next generation, molding my children to understand the past, and continuing to push Dr. King’s dream for future decades.</span></p>
+<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by</span></b><span data-contrast="none"> researching African American history </span><span data-contrast="none">in an effort to</span><span data-contrast="none"> broaden my own knowledge and share information I’ve learned with my peers.</span></p>
+<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to</span></b><span data-contrast="none"> make a positive impact on the community I live in. Much like Dr. King, I am one man who strives to be the dream of my ancestors. Individually, I can move boulders, but collectively, we can move mountains.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
+<h2/>
+<h2/>
+<h2><img loading="lazy" class="wp-image-116137 alignright" src="https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020.png" alt="" width="400" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020.png 802w, https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020-267x300.png 267w, https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020-768x864.png 768w, https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020-115x129.png 115w" sizes="(max-width: 400px) 100vw, 400px"/>Lynne, EVP of Enterprise Global Sales and Marketing and Executive Sponsor</h2>
+<p>Martin Luther King Jr. Day means a chance to celebrate the legacy of a man who was a pivotal leader of the civil rights movement, hope and healing. Though his life was a short one, his impact was great, and there are so many lessons to learn from the words that MLK Jr. has left with us.</p>
+<p><strong>I honor Martin Luther King Jr. by</strong> showing up as an ally who’s ready to listen and take action.</p>
+<p><strong>I celebrate Martin Luther King Jr. Day by</strong> reflecting on the wise lessons shared by Martin Luther King Jr. and making it a point to have conversations about his impact.</p>
+<p><strong>Martin Luther King Jr. inspires me to </strong>use my voice to encourage conversation, connection and community.</p>
+<h2><b><span data-contrast="auto">Learn More About Dr. King’s Mark on the World</span></b><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></h2>
+<p><a target="_blank" href="https://thekingcenter.org/about-tkc/" rel="noopener"><span data-contrast="none">About The King Center</span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><a target="_blank" href="https://www.nobelprize.org/prizes/peace/1964/king/biographical/" rel="noopener"><span data-contrast="none">Dr. Martin Luther King Jr.’s Biography </span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><a target="_blank" href="https://www.pbs.org/weta/washingtonweek/blog-post/5-martin-luther-king-jr%e2%80%99s-most-memorable-speeches" rel="noopener"><span data-contrast="none">5 of Martin Luther King Jr.’s Most Memorable Speeches</span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><a target="_blank" href="https://www.mercurynews.com/2021/01/11/martin-luther-king-jr-day-playlist-10-songs-in-honor-of-dr-king/" rel="noopener"><span data-contrast="none">MLK Day Playlist: 10 Songs in Honor of Dr. King</span></a><span data-contrast="auto"> </span><br /><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="auto">Interested in joining a company that celebrates diverse voices and promotes meaning</span><span data-contrast="auto">ful</span><span data-contrast="auto"> change in our world?</span><span style="font-size: 14pt;"> <span style="font-size: 12pt;"><strong><a target="_blank" href="http://bit.ly/3nMhvTc" rel="noopener">Explore our career opportunities</a></strong>. Subscribe to<strong> <a target="_blank" href="http://bit.ly/2XMYmpD" rel="noopener">job alerts</a>. </strong></span></span></p>
+<p> </p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/life-at-mcafee/honoring-martin-luther-king-jr-s-legacy-with-mcafees-african-heritage-community/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Apple Kills MacOS Feature Allowing Apps to Bypass Firewalls</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-kills-macos-feature-allowing-apps-to-bypass-firewalls/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 17:02:52 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Allowing]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Bypass]]></category>
+		<category><![CDATA[Feature]]></category>
+		<category><![CDATA[Firewalls]]></category>
+		<category><![CDATA[Kills]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-kills-macos-feature-allowing-apps-to-bypass-firewalls/</guid>
+
+					<description><![CDATA[Security researchers lambasted the controversial macOS Big Sur feature for exposing users&#8217; sensitive data. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Security researchers lambasted the controversial macOS Big Sur feature for exposing users&#8217; sensitive data.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/apple-kills-macos-feature-allowing-apps-to-bypass-firewalls/163099/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Google Boots 164 Apps from Play Marketplace for Shady Ad Practices</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/google-boots-164-apps-from-play-marketplace-for-shady-ad-practices/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 16:19:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Boots]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Marketplace]]></category>
+		<category><![CDATA[Play]]></category>
+		<category><![CDATA[Practices]]></category>
+		<category><![CDATA[Shady]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/google-boots-164-apps-from-play-marketplace-for-shady-ad-practices/</guid>
+
+					<description><![CDATA[The tech giant removes 164 more offending Android apps after banning software showing this type of behavior from the store]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The tech giant removes 164 more offending Android apps after banning software showing this type of behavior from the store last year.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/google-boots-164-apps-from-play/163091/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CES 2021: Highlights From the “Cleanest” Show Yet!</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/ces-2021-highlights-from-the-cleanest-show-yet/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 13:29:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[CES]]></category>
+		<category><![CDATA[Cleanest]]></category>
+		<category><![CDATA[Highlights]]></category>
+		<category><![CDATA[Show]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ces-2021-highlights-from-the-cleanest-show-yet/</guid>
+
+					<description><![CDATA[Typically, the International Consumer Electronics Show (CES) gives us a sense of where technology is going in the future. However,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>Typically, the International Consumer Electronics Show (CES) gives us a sense of where technology is going in the future. However, this year’s show was arguably more about technology catching up with how the COVID-19 pandemic has reshaped our lives. While gathering in person was not an option, we still had the opportunity to witness incredible technological feats virtually – primarily those meant to help us better adapt to the new normal.<br />From devices aimed at making the world more sanitary to new work-from-home solutions, here are some of the highlights from this year’s first ever virtual CES:</p>
+<h3>Extreme Home Makeover: Digital Edition</h3>
+<p>Every year, CES introduces a plethora of smart home devices aimed at making our lives easier. But now that our homes have expanded beyond where we live to function as a workplace and classroom, companies have developed new gadgets to improve our lives while we stay at home. In fact, the <a target="_blank" href="https://www.cnn.com/2021/01/12/tech/ces-2021-pandemic-tech/index.html" rel="noopener noreferrer">smart home market</a> grew 6.7% from 2019 to 2020 to $88 billion and is expected to reach <a target="_blank" href="https://www.mordorintelligence.com/industry-reports/global-smart-homes-market-industry" rel="noopener noreferrer">$246.42 billion by 2025.</a></p>
+<p>This year, Kohler showed off voice control features for its sinks and other fixtures, so homeowners can turn on faucets without touching them. And while every CES is paved with an array of flashy new TVs, LG drummed up lots of excitement with its new 55-inch transparent TV that you can see through when it’s turned off.</p>
+<p>From monitors to keyboards and Wi-Fi upgrades to charging stations, plenty of the gadgets coming out of this year’s show were designed to improve the <a target="_blank" href="https://www.gearpatrol.com/tech/a35181210/best-desktop-accessories-ces-2021/" rel="noopener noreferrer">remote work experience</a>. Take Dell’s UltraSharp 40-inch Curved Ultrawide U4021QW Monitor, for example. Ultrawide is the functional equivalent of two 4K monitors side-by-side, but without the seam. Belkin and Satechi also brought their latest charging stations to CES 2021 to improve the home office, allowing users to charge multiple devices at once. With so many companies creating innovative devices to make our work-from-home lives more manageable in the long run, it’s clear that remote work is likely here to stay.</p>
+<h3>Staying Healthy at Home in Global Health Crisis</h3>
+<p>CES 2021 also brought us a whole new lineup of technology designed to help us monitor our <a target="_blank" href="https://www.cnet.com/pictures/the-health-tech-of-ces-2021/3/" rel="noopener noreferrer">health at home</a>. Fluo Labs debuted Flō, a device that stops your body from releasing histamines when pollen, dust, and other allergens enter your body. HD Medical also introduced HealthyU, a device smaller than a GoPro that includes a seven-lead ECG, a temperature sensor, a pulse oximeter, microphones to record heart and lung sounds, a heart rate monitor, and a blood pressure sensor. HealthyU is designed for people with heart issues to keep tabs on their health every day and send that information to their doctors remotely. Not only will these devices enable us to take better care of ourselves if we can’t physically go to a doctor’s office, but they will also enhance our awareness of ourselves and our loved ones.</p>
+<h3>Touchless Tech is on the Rise</h3>
+<p>In 2020, we became hyper-aware of germs and how they can easily spread – one of those ways being on digital devices. While disinfecting these surfaces with an alcohol solution can help, many look to taking a different approach to avoid germ-spreading: touchless technology.</p>
+<p>While no <a target="_blank" href="https://www.cnet.com/health/ces-2021-showcases-tech-to-fight-back-against-covid-19/" rel="noopener noreferrer">one technolog</a>y can win the battle against the virus, many companies are doing their part to promote a cleaner, healthier future. For example, Plott built a doorbell called the <a target="_blank" href="https://www.ces.tech/Innovation-Awards/Honorees/2021/Honorees/E/Ettie.aspx" rel="noopener noreferrer">Ettie</a> that can take people’s temperature before they’re allowed to enter. Another company, Alarm.com, created a <a target="_blank" href="https://www.cnet.com/news/alarm-com-touchless-video-doorbell-ces-2021-rings-itself-so-your-hands-stay-clean/" rel="noopener noreferrer">Touchless Video Doorbell</a> to cut down on the transmission of bacteria and viruses that we otherwise often leave on places we touch. Kohler also built a toilet that flushes with the <a target="_blank" href="https://www.cnet.com/news/kohler-ces-2021-bathroom-designs-include-touchless-toilet-16000-dollar-bathtub/" rel="noopener noreferrer">wave of a hand</a>. As we head further into 2021 and beyond, be on the lookout for more voice-activated and touchless devices to help slow the spread of germs and help us live our lives free from worry.</p>
+<h3>Adapt to the Cybersecurity Landscape in a Hyper-Connected World</h3>
+<p>We’ve become more reliant on technology than ever before to stay connected with loved ones from afar, work from home without missing a beat, participate in distance learning, and find new forms of digital entertainment. But with this increase in time spent online comes a greater risk of cyberthreats, and we must stay vigilant when it comes to protecting our online safety. Hackers continue to adapt their techniques to take advantage of users spending more time online, so we must educate and protect ourselves and our devices from emerging threats. This way, we can continue to embrace new technologies, while we live our digital lives free from worry.</p>
+<h3>Stay Updated</h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook</a>.</p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/ces-2021-highlights-from-the-cleanest-show-yet/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Facebook: Malicious Chrome Extension Developers Scraped Profile Data</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/facebook-malicious-chrome-extension-developers-scraped-profile-data/</link>
 		
@@ -78,396 +504,6 @@
 <br />Judge bars former Tallahassee city ethics officer from internet-connected devices after her arrest for cyberstalking.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/florida-ethics-officer-charged-cyberstalking/163074/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What the SolarWinds hack really tells us</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/what-the-solarwinds-hack-really-tells-us/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 18:15:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Hack]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[tells]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/what-the-solarwinds-hack-really-tells-us/</guid>
-
-					<description><![CDATA[The recent news that malware had been added to the Orion software sold by SolarWinds is just the latest in]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>The recent news that <a target="_blank" href="https://techbeacon.com/security/solarwinds-hack-whos-blame-its-complicated" rel="noopener">malware had been added to the Orion software sold by SolarWinds</a> is just the latest in a series of incidents in which an adversary may have managed to compromise either hardware or software.</p>
-<p>Its effect is probably much greater than the incidents that preceded it, and it probably <a target="_blank" href="https://techbeacon.com/security/31-cybersecurity-stats-matter" rel="noopener">won’t be the last such incident</a>. This may be because we got what we asked for in the <a target="_blank" href="https://en.wikipedia.org/wiki/Crypto_Wars" rel="nofollow noopener">crypto wars of the 1990s</a>.</p>
-<h3>A crypto history lesson</h3>
-<p>Back in the early ’90s, the export and use of encryption that provided more than 40 bits of strength was strictly controlled by various laws throughout the world. Then, in April 1993, the Clinton White House announced a plan to allow the use and export of strong encryption, but only if the encryption had a backdoor that gave the government the ability to decrypt any encrypted data. This was implemented as the “Clipper Chip,” technology that would be used to implement the government’s plan for <a target="_blank" href="https://en.wikipedia.org/wiki/Key_escrow" rel="nofollow noopener">key escrow</a>.</p>
-<p>In February 1994, the Department of Commerce published the Escrowed Encryption Standard (FIPS 185) to support this initiative. Attorney General Janet Reno then announced that NIST and the Department of the Treasury would be the agents for the government’s escrowed encryption program and published the procedures for releasing keys to law enforcement officials for use under approved wiretap orders. Everything seemed ready to go.</p>
-<p>But a significant number of Americans were firmly against their government’s plan for escrowed encryption and believed that their need for privacy was more important than the government’s need to be able to read encrypted messages. And although there were strong opinions on both sides of this issue, the government eventually backed down and dramatically liberalized the controls on strong encryption. Other governments soon followed, and today, it’s easy to get 128-bit encryption almost anywhere.</p>
-<p>Encryption that provides 128 bits of security is very, very secure. It’s the sort of thing that takes so long to crack that you’ll be able to watch the collision between the Milky Way and Andromeda galaxies, which will happen a couple of billion years in the future, while you wait. Thus, if you can (correctly) use encryption that gives you 128 bits of security, absolutely nobody can crack it. And that even includes rich and powerful entities such as national governments.</p>
-<h3>No problem here?</h3>
-<p>But a look at the Administrative Office of the US Courts’ annual <a target="_blank" href="https://www.uscourts.gov/statistics-reports/analysis-reports/wiretap-reports" rel="nofollow noopener">Wiretap Reports</a> suggests that the use of encryption is probably not significantly interfering with the ability of law enforcement agencies to carry out wiretaps. Every year, US courts approve a couple of thousand wiretaps, and just a few of these are protected by some form of encryption that stops law enforcement officials from getting what they want.</p>
-<p>And although their inability to get information from mobile devices may be a serious problem for them, it’s hard to find any data that supports the idea that the Internet is going dark for them due to the widespread use of encryption.</p>
-<p>But it’s also reasonable to assume that governments did not simply decide to give up on eavesdropping when strong encryption became widely available. After all, from their point of view, law enforcement and intelligence agencies have legitimate need for surveillance. And it seems naive to assume that they would simply give up on this surveillance because their targets were using encryption. And if they are not being thwarted by the use of encryption, what’s happening?</p>
-<p>If law enforcement and intelligence agencies can’t break the encryption that their targets use, we should expect them to find ways to bypass it. That’s exactly what <a target="_blank" href="https://amturing.acm.org/award_winners/shamir_2327856.cfm" rel="nofollow noopener">Adi Shamir</a> (the “S” in “RSA”) predicted in the <a target="_blank" href="https://amturing.acm.org/vp/shamir_2327856.cfm" rel="nofollow noopener">lecture</a> that he gave after accepting the ACM’s Turing Award in 2002.</p>
-<p>The third of his Three Laws of Security:</p>
-<blockquote>
-<p>&#8220;Cryptography is typically bypassed, not penetrated.”</p>
-</blockquote>
-<h3>SolarWinds is par for the course</h3>
-<p>Not too many years later, we’re seeing that take place more and more frequently. The compromise of SolarWind’s<span style="color:rgb(117, 120, 123)"> Orion software is just the most recent of these.</span></p>
-<p>An easy way to do that is to subvert the hardware and software that implements the encryption. This could be implemented as subtle modifications to cryptographic algorithms, as may have happened to the <a target="_blank" href="https://en.wikipedia.org/wiki/Dual_EC_DRBG" rel="nofollow noopener">Dual EC DRBG</a> random bit generator that is speculated to have been compromised by the US government. Or it could be implemented as malware that intercepts plaintext values at the TCP/IP application layer, when they are no longer protected by encryption that takes place at the transport layer or below. Or it could be implemented as hardware that gives government agents access to information that a computer might be processing. Or it could be implemented as something just like the malware that infected SolarWind’s Orion software.</p>
-<blockquote>
-<p>In the absence of the ability to beat strong encryption, using techniques such as SolarWind’s Orion to bypass it seems like a natural step for governments to take.</p>
-</blockquote>
-<p>Thus, it may be the case that relying on subverted hardware and software is the price that we need to pay for having strong encryption. Let’s just hope that we don’t end up having to deal with multiple, incompatible compromises at the same time when different governments don’t coordinate their efforts.</p>
-<h3>Back the backdoors</h3>
-<p>To make sure that this can’t happen, it’s not hard to imagine an ISO/IEC standard for coordinating these backdoors being worked on by representatives of lots of national governments, all of which really work for their governments’ intelligence agencies, yet won’t openly admit to the other people on their committee that they also do.</p>
-<p>It could end up being much like G.K. Chesterton’s story “A Man Called Thursday,” in which everyone on the committee of anarchists ends up being a government agent keeping tabs on the actions of anarchists. (It’s also not hard to imagine a situation in which the bumbling grandson of <a target="_blank" href="https://en.wikipedia.org/wiki/Inspector_Clouseau" rel="nofollow noopener">Jacques Clouseau</a> ends up working on this standard, along with like-minded people from other countries, of course.)</p>
-<h3>Learn to live with it</h3>
-<p>So is the SolarWinds compromise serious? Absolutely. Does its seriousness justify the time and effort being spent on double-checking the security and integrity of our software development and delivery processes? Again, yes. But will any effort to make sure that a similar compromise doesn’t happen again stop such compromises in the future?</p>
-<p>Unfortunately, probably not. There are simply too many rich and powerful governments with an interest in making sure that similar compromises will happen again in the future. And this is probably an unintended consequence of the outcome of the crypto wars of the ’90s, but it’s probably one that we’re going to have to live with.</p>
-<p><em>This post is the first of security researcher N4nk3r ph3193&#8217;s <a target="_blank" href="https://techbeacon.com/tags/no-security" rel="noopener">No Security column</a>. </em></p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/what-solarwinds-hack-really-tells-us">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Telegram Bots at Heart of Classiscam Scam-as-a-Service</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/telegram-bots-at-heart-of-classiscam-scam-as-a-service/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 17:20:34 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bots]]></category>
-		<category><![CDATA[Classiscam]]></category>
-		<category><![CDATA[Heart]]></category>
-		<category><![CDATA[ScamasaService]]></category>
-		<category><![CDATA[Telegram]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/telegram-bots-at-heart-of-classiscam-scam-as-a-service/</guid>
-
-					<description><![CDATA[The cybercriminal service has scammed victims out of $6.5 million and continues to spread on Telegram. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The cybercriminal service has scammed victims out of $6.5 million and continues to spread on Telegram.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/telegram-bots-classiscam-scam/163061/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cloud Attacks Are Bypassing MFA, Feds Warn</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/cloud-attacks-are-bypassing-mfa-feds-warn/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 16:45:04 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Bypassing]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Feds]]></category>
-		<category><![CDATA[MFA]]></category>
-		<category><![CDATA[Warn]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cloud-attacks-are-bypassing-mfa-feds-warn/</guid>
-
-					<description><![CDATA[CISA has issued an alert warning that cloud services at U.S. organizations are being actively and successfully targeted. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />CISA has issued an alert warning that cloud services at U.S. organizations are being actively and successfully targeted.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cloud-attacks-bypass-mfa-feds/163056/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>A Year in Review: Threat Landscape for 2020</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/a-year-in-review-threat-landscape-for-2020/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 14:00:05 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Landscape]]></category>
-		<category><![CDATA[Review]]></category>
-		<category><![CDATA[Threat]]></category>
-		<category><![CDATA[Year]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/a-year-in-review-threat-landscape-for-2020/</guid>
-
-					<description><![CDATA[As we gratefully move forward into the year 2021, we have to recognise that 2020 was as tumultuous in the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>As we gratefully move forward into the year 2021, we have to recognise that 2020 was as tumultuous in the digital realm as it has in the physical world. From low level fraudsters leveraging the pandemic as a vehicle to trick victims into parting with money for non-existent PPE, to more capable actors using malware that has considerably less prevalence in targeted campaigns. All of which has been played out at a time of immense personal and professional difficulties for millions of us across the world.</p>
-<h2>Dealing with the noise</h2>
-<p>What started as a trickle of phishing campaigns and the occasional malicious app quickly turned to thousands of malicious URLs and more-than-capable threat actors leveraging our thirst for more information as an entry mechanism into systems across the world. There is no question that COVID was the dominant theme of threats for the year, and whilst the natural inclination will be to focus entirely on such threats it is important to recognise that there were also very capable actors operating during this time.</p>
-<p>For the first time we made available <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/lp/covid-19-dashboard.html" rel="noopener noreferrer">a COVID-19 dashboard</a> to complement our <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-july-2020.pdf" rel="noopener noreferrer">threat report</a> to track the number of malicious files leveraging COVID as a potential lure.  What this allows is real time information on the prevalence of such campaigns, but also clarity about the most targeted sectors and geographies.  Looking at the statistics from the year clearly demonstrates that the overarching theme is that the volume of malicious content increased.</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-115996" src="https://www.mcafee.com/wp-content/uploads/2021/01/1-2.png" alt="" width="941" height="491" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/1-2.png 941w, https://www.mcafee.com/wp-content/uploads/2021/01/1-2-300x157.png 300w, https://www.mcafee.com/wp-content/uploads/2021/01/1-2-768x401.png 768w, https://www.mcafee.com/wp-content/uploads/2021/01/1-2-205x107.png 205w" sizes="(max-width: 941px) 100vw, 941px"/></p>
-<p>Whilst of course this a major concern, we must recognise that there were also more capable threat actors operating during this time.</p>
-<h2>Ransomware – A boom time</h2>
-<p>The latter part of 2020 saw headlines about increasing ransom demands and continued successes from ransomware groups. An indication as to the reason why was provided in early 2020 in a <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cybercriminals-actively-exploiting-rdp-to-target-remote-organizations/" rel="noopener noreferrer">blog</a> published by Thomas Roccia that revealed “The number of RDP ports exposed to the Internet has grown quickly, from roughly three million in January 2020 to more than four and a half million in March.”</p>
-<p>With RDP a common entry vector used predominantly by post intrusion ransomware gangs, there appears some explanation as to the reason why we are seeing more victims in the latter part of 2020.   Indeed, in the same analysis from Thomas we find that the most common passwords deployed for RDP are hardly what we would regard as strong.</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-115999" src="https://www.mcafee.com/wp-content/uploads/2021/01/2-1.png" alt="" width="922" height="622" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/2-1.png 922w, https://www.mcafee.com/wp-content/uploads/2021/01/2-1-300x202.png 300w, https://www.mcafee.com/wp-content/uploads/2021/01/2-1-768x518.png 768w, https://www.mcafee.com/wp-content/uploads/2021/01/2-1-191x129.png 191w" sizes="(max-width: 922px) 100vw, 922px"/></p>
-<p>If we consider the broader landscape of RDP being more prevalent (we have to assume due to the immediate need for remote access due to the lockdowns across the globe), the use of weak credentials, then the success of ransomware groups become very evident.  Indeed, later in the year we detailed our research into the Netwalker <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/take-a-netwalk-on-the-wild-side/" rel="noopener noreferrer">ransomware</a> group that reveals the innovation, affiliate recruitment and ultimately financial success they were able to gain during the second quarter of 2020.</p>
-<h2>A year of major vulnerabilities</h2>
-<p>The year also provided us with the added gifts of major vulnerabilities. In August, for example, there was a series of zero-day vulnerabilities in a widely used, low-level TCP/IP software library developed by Treck, Inc.  Known as Ripple 20, the affect to hundreds of millions of devices resulted in considerable concern related to the wider supply chain of devices that we depend upon. In collaboration with JSOF, the McAfee ATR team <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ripple20-critical-vulnerabilities-detection-logic-and-signatures/" rel="noopener noreferrer">developed</a> a Detection Logic and Signatures for organizations to detect these vulnerabilities.</p>
-<p>Of course the big vulnerabilities did not end there; we had the pleasure of meeting <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cve-2020-16898-bad-neighbor/" rel="noopener noreferrer">BadNeighbour</a>, <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/on-drovorub-linux-kernel-security-best-practices/" rel="noopener noreferrer">Drovorub</a>, and so many more. The almost seemingly endless stream of vulnerabilities with particularly high CVSS Scores has meant that the need to patch very high on the list of priorities.</p>
-<h2>The ‘sophisticated’ attacker</h2>
-<p>As we closed out 2020, we were presented with details of ‘nation states’ carrying out sophisticated attacks.   Whilst under normal circumstances such terminology is something that should be avoided, there is no question that the level of capability we witness from certain threat campaigns are a world away from the noisy COVID phishing scams.</p>
-<p>In August of 2020, we released the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/lp/insights-preview.html" rel="noopener noreferrer">MVISION Insights</a> dashboard which provides a free top list of campaigns each week. This includes, most recently, tracking against the SUNBURST trojan detailed in the SolarWinds attack, or the tools stolen in the FireEye breach.   What this demonstrates is that whilst prevalence is a key talking point, there exists capable threat actors targeting organizations with real precision.</p>
-<p>For example, the <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes/" rel="noopener noreferrer">Operation North Star</a> campaign in which the threat actors deployed an Allow and Block list of targets in order to limit those they would infect with a secondary implant.</p>
-<p>The term sophisticated is overused, and attribution is often too quickly relegated to the category of nation state.  However, the revelations have demonstrated that there are those campaigns where the attack did use capabilities not altogether common and we are no doubt witnessing a level of innovation from threat groups that is making the challenge of defence harder.</p>
-<p>What is clear is that 2020 was a challenging year, but as we try and conclude what 2021 has in store, we have to celebrate the good news stories.   From initiatives such as <a target="_blank" href="https://www.nomoreransom.org/" rel="noopener noreferrer">No More Ransom</a> continuing to tackle ransomware, to the unprecedented accessibility of tools that we can all use to protect ourselves (e.g. please check ATR GitHub repo, but recognise there are more).</p>
-<div class="blog-promo-blade one">
-<div class="thumbnail"><a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/2021-threat-predictions-report/" rel="noopener noreferrer"><img src="https://www.mcafee.com/wp-content/uploads/2021/01/McAfee_2021ThreatPredictions_General.png" alt=""/></a></div>
-</div>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/a-year-in-review-threat-landscape-for-2020/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ring Adds End-to-End Encryption to Quell Security Uproar</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/ring-adds-end-to-end-encryption-to-quell-security-uproar/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 13:28:22 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[adds]]></category>
-		<category><![CDATA[Encryption]]></category>
-		<category><![CDATA[EndToEnd]]></category>
-		<category><![CDATA[Quell]]></category>
-		<category><![CDATA[Ring]]></category>
-		<category><![CDATA[Uproar]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ring-adds-end-to-end-encryption-to-quell-security-uproar/</guid>
-
-					<description><![CDATA[The optional feature was released free to users in a technical preview this week, adding a new layer of security]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The optional feature was released free to users in a technical preview this week, adding a new layer of security to service, which has been plagued by privacy concerns.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/ring-adds-end-to-end-encryption-to-quell-security-uproar/163042/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Holiday Shopping Hackathon Winners Announced! &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/holiday-shopping-hackathon-winners-announced-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 13 Jan 2021 23:09:28 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Announced]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Hackathon]]></category>
-		<category><![CDATA[Holiday]]></category>
-		<category><![CDATA[Shopping]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<category><![CDATA[Winners]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/holiday-shopping-hackathon-winners-announced-automated-visual-testing/</guid>
-
-					<description><![CDATA[With over 1100 registrations and 300 completed submissions – it came down to only 50! It’s an honor to announce]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>With over 1100 registrations and 300 completed submissions – it came down to only 50! It’s an honor to announce the winners of the first ever Holiday Shopping Hackathon. Please join the Applitools family in celebrating the winners of this festive and eye-opening event!</p>
-<p>Our top ten diamond prize winners will receive either an iPhone 12 Pro or the cash equivalent. Winners are listed in no particular order.</p>
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><figcaption>Our 10 Diamond prize winners received an iPhone 12 Pro or cash equivalent.</figcaption></figure>
-</div>
-<p>Next up are our ten platinum prize winners who will receive either a Sony PS5 Digital Edition, Oculus Quest 2,  or the cash equivalent. Winners are listed in no particular order.</p>
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122-652x1024.jpg" alt="" class="wp-image-25462" width="652" height="1024" srcset="https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122-652x1024.jpg 652w, https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122-191x300.jpg 191w, https://applitools.com/wp-content/uploads/2021/01/Applitools_Winter_Hackathon_Prize_Table_2021_Jan_122.jpg 700w" sizes="(max-width: 652px) 100vw, 652px"/><figcaption>Our 10 Platinum prize winners received a PS5 Digital Edition, Oculus Quest 2, or cash equivalent.</figcaption></figure>
-</div>
-<p>Last, but certainly not least are our Gold &amp; Silver prize winners – congrats to all our amazing winners!</p>
-<h4 class="has-text-align-center" id="h-gold-silver-prize-winners">Gold &amp; Silver Prize Winners</h4>
-<figure class="wp-block-table">
-<table class="has-fixed-layout">
-<tbody>
-<tr>
-<td class="has-text-align-center" data-align="center"><strong>Gold Prize Winners</strong><br />One-year pro membership to <a target="_blank" href="https://www.ministryoftesting.com/membership" rel="noreferrer noopener sponsored nofollow">Ministry of Testing</a></td>
-<td class="has-text-align-center" data-align="center"><strong>Silver Prize Winners</strong><br /><a target="_blank" href="https://epicreact.dev/" rel="noreferrer noopener sponsored nofollow">Epic React Standard License</a></td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Glib Briia – AssertThat</td>
-<td class="has-text-align-center" data-align="center">Tyler Koske – Plex Systems, Inc.</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Arjan Blok – Mendix</td>
-<td class="has-text-align-center" data-align="center">Natasha Whitter – Third Bridge</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Jan Molak – Smartcode Ltd</td>
-<td class="has-text-align-center" data-align="center">Natalie Clay – ASOS</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Angela Shane – Credit Karma</td>
-<td class="has-text-align-center" data-align="center">Harsha Chandnani – Thoughtworks</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Gabor Liptak – N/A</td>
-<td class="has-text-align-center" data-align="center">Filip Hric – Sli.do</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Mohamed Abdulkadar – Synechron</td>
-<td class="has-text-align-center" data-align="center">Ioan Cimpean – Cognizant Softvision</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Bushra Alam – Bechtel</td>
-<td class="has-text-align-center" data-align="center">Mohammed Fazil – Photon Info Tech</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Darren Skinner – TrainLine</td>
-<td class="has-text-align-center" data-align="center">Ilyes Kallala – ADP</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Richard Edwards – Shift Left Group</td>
-<td class="has-text-align-center" data-align="center">Pavlo Poimanov – Solorwinds</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Sadeesh Kumar – Axelerant</td>
-<td class="has-text-align-center" data-align="center">Aishvarya Kapoor – Briq</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Roman Romanik – DataClarity Corporation</td>
-<td class="has-text-align-center" data-align="center">Kerry McKeever – Globys</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Umar Shakil – Cromwell Tools</td>
-<td class="has-text-align-center" data-align="center">Guilherme Meireles – Global Shares</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Matt Tucker – Dialexa</td>
-<td class="has-text-align-center" data-align="center">Adrian Jaskólski – Tooploox</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Victor Diaz – NYScopes</td>
-<td class="has-text-align-center" data-align="center">Valarie Burton – Club Automation</td>
-</tr>
-<tr>
-<td class="has-text-align-center" data-align="center">Daniel Enslin – N/A</td>
-<td class="has-text-align-center" data-align="center">Taylor Ellsworth – Peloton Interactive</td>
-</tr>
-</tbody>
-</table>
-</figure>
-<h2 id="h.dojfz56llg4x">A bit of background on the Hackathon</h2>
-<p>The software engineering community was tasked with testing the functional and visual quality of the “Applifashion” retail app to ensure it was ready for the busy online holiday shopping season. The hackathon, which took roughly two hours to complete, challenged participants to author tests and catch bugs using the <a target="_blank" href="https://applitools.com/blog/next-generation-cross-browser-testing/" rel="noopener">Applitools Ultrafast Test Cloud platform</a>. Participants also practiced modern QA techniques, used advanced features such as <a target="_blank" href="https://applitools.com/root-cause-analysis/" rel="noopener">root cause analysis</a>, and learned how <a target="_blank" href="https://applitools.com/blog/visual-testing/" rel="noopener">Visual AI technology compares to pixel-based image comparison</a>. Winners were randomly selected from the pool of participants who successfully completed the submission criteria.</p>
-<h2 id="h.oj7xe73datht">What the Hackathon winners say</h2>
-<p>We wanted to leave you with quotes from the Hackathon winners. We are thrilled to recognize them for their achievements and are pleased with their success.</p>
-<h3>About the Hackathon</h3>
-<ul>
-<li>“The Holiday Shopping Hackathon allowed me to gain working knowledge and insight about all the great tools and features that Applitools has to offer. I now interested in looking into using Applitools in my current role.” – Taylor Ellsworth, Automation Engineer</li>
-<li>“<a target="_blank" href="https://applitools.com/blog/cypress-cross-browser-testing/" rel="noopener">Using Cypress + Applitools</a>, setting up tests to run across different browsers, devices, and viewport sizes took less than an hour. With traditional automation tools, this could take days! Even without concurrent runs, I executed 15 tests in multiple browser combos in less than 60 seconds. Applitools and Cypress’ dashboards provide helpful insights into failed tests and track execution history all without any extra setup or reporting integration. Ultra fast!” – Lauren Christianson, Automation Engineer</li>
-<li>“I am a fan of Batman and I like this quote from the movie Batman Begins – “It’s not who I am underneath, but what I do that defines me.” This is very apt for Applitools and no matter how many competitors arise, they are going to excel always.” – Sainath Ramanathan, Principal Software Engineer</li>
-<li>“Hackathon is a unique way to learn <a target="_blank" href="https://applitools.com/blog/visual-testing/" rel="noopener">visual testing</a> using such an innovative product. The tool shows the power of <a target="_blank" href="https://applitools.com/applitools-ai-and-deep-learning/" rel="noopener">complex AI-based algorithms</a> in easy and intuitive features. This is the 3rd time I am participating in the Applitools hackathon and still learning new things (features) about the product. Thank you <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> team for organizing such wonderful events.” – Sakshi Nagpai, Tester</li>
-<li>“Applitools Holiday Shopping Hackathon was fun, interesting &amp; a great opportunity to learn in depth about the Applitools platform. <a target="_blank" href="https://applitools.com/blog/next-generation-cross-browser-testing/" rel="noopener">Ultrafast grid</a> is named just right as it checks the visual diffs across a range of devices &amp; viewports within seconds.” – Tarun Narula, Test Manager</li>
-<li>“Great accessible introduction to an awesome testing platform! As a Cypress and Applitools newbie, the platform was extremely easy to use and I was able to hit the ground visual ai testing super quickly!” – Willian Andrews, Developer</li>
-</ul>
-<h3>About Visual AI</h3>
-<ul>
-<li>“Applitools hackathon was a great way of showcasing, yet again, how difficult is to create a robust and maintainable pack of automated scenarios to have a good coverage of our web applications and how important visual testing is in order to provide the best user experience. With the massive matrix of devices/browsers/versions/OS available currently, it brings even more complexity that needs to be handled, unfortunately involving a lot of time and technical expertise. After solving the traditional approach and starting into the modern one with <a target="_blank" href="https://applitools.com/visual-testing/" rel="noopener">Visual AI</a> and Ultrafast Grid solution, it made me realise how easy it was to setup the same scenarios to run across different browsers, devices, and operating systems into such a configurable tool as Applitools. Ultrafast Grid takes away the pain of having all these available, or integrating with another 3rd party cloud solution. It gives a really powerful solution to have such a broad coverage of visual tests running in different configurations, less code and less maintenance as you don’t need to handle all the required steps or selectors anymore. One screenshot and off you go!” – Ioana Porcarasu, Head of Quality</li>
-<li>“I am so happy to have found this hackathon. It changed my view of Visual AI testing from being good-to-have to a must-have in every project. Applitools Eyes is easy to use and adds a huge value to your test project.” – Bushra Alam, Automation Engineer</li>
-<li>“An extraordinary occasion to profound plunge into Applitools and to investigate Visual AI testing. Hackathon is one method of becoming more acquainted with additional about how to utilize Applitools with the references given in the notes is truly marvelous strategy. Applitools – A Game Changer for Visual Testing.” – Madan Mohan Reddy Badveli, Automation Engineer</li>
-<li>“I have learned a lot in Ultrafast Grid and the power of Visual AI testing through this hackathon. This is the tool that I have been looking for in visual testing.” Yudi Edisugiarto</li>
-<li>“After completing the challenge, I am eager to learn more about visual AI assisted testing tools.” Aabishkar KC, Automation Engineer</li>
-</ul>
-<h2 id="h.oc0nquhiy0mh">For More Information</h2>
-<p>Actions you can take today:</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/holiday-shopping-hackathon-winners-announced/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>TikTok Takes Teen Accounts Private</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiktok-takes-teen-accounts-private/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 13 Jan 2021 22:03:32 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Accounts]]></category>
-		<category><![CDATA[Private]]></category>
-		<category><![CDATA[Takes]]></category>
-		<category><![CDATA[Teen]]></category>
-		<category><![CDATA[TikTok]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tiktok-takes-teen-accounts-private/</guid>
-
-					<description><![CDATA[The company announced accounts for ages 13-15 will default to privacy setting, among other safety measures. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The company announced accounts for ages 13-15 will default to privacy setting, among other safety measures.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/tiktok-teen-accounts-private/163040/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>High-Severity Cisco Flaw Found in CMX Software For Retailers</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/high-severity-cisco-flaw-found-in-cmx-software-for-retailers/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 13 Jan 2021 21:22:01 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cisco]]></category>
-		<category><![CDATA[CMX]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[HighSeverity]]></category>
-		<category><![CDATA[Retailers]]></category>
-		<category><![CDATA[software]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/high-severity-cisco-flaw-found-in-cmx-software-for-retailers/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/cisco-flaw-cmx-software-retailers/163027/">Source link </a></p>
 ]]></content:encoded>
 					
 		
