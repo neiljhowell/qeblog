@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 15 Jan 2021 22:04:12 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Jan 2021 15:35:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,29 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Medical Device Security: Diagnosis Critical</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/medical-device-security-diagnosis-critical/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 18 Jan 2021 15:35:20 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Device]]></category>
+		<category><![CDATA[Diagnosis]]></category>
+		<category><![CDATA[Medical]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/medical-device-security-diagnosis-critical/</guid>
+
+					<description><![CDATA[Medical-device security has long been a challenge, suffering the same uphill management battle that the entire sprawling mess of IoT]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Medical-device security has long been a challenge, suffering the same uphill management battle that the entire sprawling mess of IoT gadgets has faced.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/medical-device-security/163127/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Tractors, Pod Ice Cream and Lipstick Awarded CES 2021 Worst in Show</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/tractors-pod-ice-cream-and-lipstick-awarded-ces-2021-worst-in-show/</link>
 		
@@ -480,30 +503,6 @@ fbq('track', "PageView");</p>
 </div>
 <p><br />
 <br /><a href="https://threatpost.com/facebook-malicious-chrome-extension-developers-scraped-profile-data/163079/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Florida Ethics Officer Charged with Cyberstalking</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/florida-ethics-officer-charged-with-cyberstalking/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 19:33:49 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Charged]]></category>
-		<category><![CDATA[Cyberstalking]]></category>
-		<category><![CDATA[Ethics]]></category>
-		<category><![CDATA[Florida]]></category>
-		<category><![CDATA[Officer]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/florida-ethics-officer-charged-with-cyberstalking/</guid>
-
-					<description><![CDATA[Judge bars former Tallahassee city ethics officer from internet-connected devices after her arrest for cyberstalking. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Judge bars former Tallahassee city ethics officer from internet-connected devices after her arrest for cyberstalking.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/florida-ethics-officer-charged-cyberstalking/163074/">Source link </a></p>
 ]]></content:encoded>
 					
 		
