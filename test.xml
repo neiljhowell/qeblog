@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 18 Jan 2021 15:35:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 19 Jan 2021 22:32:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,424 +28,110 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Medical Device Security: Diagnosis Critical</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/medical-device-security-diagnosis-critical/</link>
+		<title>Refactoring Made Easy with IntelliJ &#8211; Corina Pip [webinar recording] &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/refactoring-made-easy-with-intellij-corina-pip-webinar-recording-automated-visual-testing/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 18 Jan 2021 15:35:20 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Device]]></category>
-		<category><![CDATA[Diagnosis]]></category>
-		<category><![CDATA[Medical]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/medical-device-security-diagnosis-critical/</guid>
+		<pubDate>Tue, 19 Jan 2021 22:32:56 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Corina]]></category>
+		<category><![CDATA[Easy]]></category>
+		<category><![CDATA[IntelliJ]]></category>
+		<category><![CDATA[Pip]]></category>
+		<category><![CDATA[Recording]]></category>
+		<category><![CDATA[Refactoring]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/refactoring-made-easy-with-intellij-corina-pip-webinar-recording-automated-visual-testing/</guid>
 
-					<description><![CDATA[Medical-device security has long been a challenge, suffering the same uphill management battle that the entire sprawling mess of IoT]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Medical-device security has long been a challenge, suffering the same uphill management battle that the entire sprawling mess of IoT gadgets has faced.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/medical-device-security/163127/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Tractors, Pod Ice Cream and Lipstick Awarded CES 2021 Worst in Show</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/tractors-pod-ice-cream-and-lipstick-awarded-ces-2021-worst-in-show/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 22:04:12 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Awarded]]></category>
-		<category><![CDATA[CES]]></category>
-		<category><![CDATA[Cream]]></category>
-		<category><![CDATA[Ice]]></category>
-		<category><![CDATA[Lipstick]]></category>
-		<category><![CDATA[Pod]]></category>
-		<category><![CDATA[Show]]></category>
-		<category><![CDATA[Tractors]]></category>
-		<category><![CDATA[Worst]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tractors-pod-ice-cream-and-lipstick-awarded-ces-2021-worst-in-show/</guid>
-
-					<description><![CDATA[Expert panel awards dubious honors to 2021 Consumer Electronics Show’s biggest flops, including security and privacy failures. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Expert panel awards dubious honors to 2021 Consumer Electronics Show’s biggest flops, including security and privacy failures.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/tractors-pod-ice-cream-lipstick-ces-2021-worst/163117/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Microsoft Implements Windows Zerologon Flaw ‘Enforcement Mode’</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/microsoft-implements-windows-zerologon-flaw-enforcement-mode/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 21:47:20 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Enforcement]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[Implements]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Mode]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[Zerologon]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/microsoft-implements-windows-zerologon-flaw-enforcement-mode/</guid>
-
-					<description><![CDATA[Starting Feb. 9, Microsoft will enable Domain Controller “enforcement mode” by default to address CVE-2020-1472. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Starting Feb. 9, Microsoft will enable Domain Controller “enforcement mode” by default to address CVE-2020-1472.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/microsoft-implements-windows-zerologon-flaw-enforcement-mode/163104/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Two Pink Lines &#124; McAfee Blogs</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/two-pink-lines-mcafee-blogs/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 18:58:49 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[lines]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Pink]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/two-pink-lines-mcafee-blogs/</guid>
-
-					<description><![CDATA[Depending on your life experiences, the phrase (or country song by Eric Church) “two pink lines” may bring up a]]></description>
+					<description><![CDATA[What is refactoring? Do we, as testers, need to perform such a task? Why and when? And especially, how can]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Depending on your life experiences, the phrase (or country song by Eric Church) “two pink lines” may bring up a wide range of powerful emotions.    I suspect, like many fathers and expecting fathers, I will never forget the moment I found out my wife was pregnant.  You might recall what you were doing, or where you were and maybe even what you were thinking.   As a professional ethical hacker, I have been told many times – “You just think a little differently about things.”   I sure hope so, since that’s my day job and sure enough this experience wasn’t any different.  My brain immediately asked the question, “How am I going to ensure my family is protected from a wide range of cyberthreats?”   Having a newborn opens the door to all sorts of new technology and I would be a fool not to take advantage of all devices that makes parenting easier.   So how do we do this safely?</p>
-<h2>The A-B -C ‘s</h2>
-<p>The security industry has a well-known concept called the “principle of least privilege. “This simply means that you don’t give a piece of technology more permissions or access than it needs to perform its primary function.   This can be applied well beyond just technology that helps parents; however, for me it’s of extra importance when we talk about our kids.  One of the parenting classes I took preparing for our newborn suggested we use a baby tracking phone app.   This was an excellent idea, since I hate keeping track of anything on paper.  So I started looking at a few different apps for my phone and discovered one of them asked for permission to use “location services,” also known as GPS, along with access to my phone contacts.  This caused me to pause and ask: Why does an app to track my baby’s feeding schedule need to know where I am?  Why does it need to know who my friends are?   These are the types of questions parents should consider before just jumping into the hottest new app.  For me, I found a different, less popular app which has the same features, just with a little less access.</p>
-<p>It’s not always as easy to just “find something else.”  In my house, “if momma ain’t happy, nobody is happy.”  So, when my wife decided on a specific breast pump that came with Bluetooth and is internet enabled, that’s the one she is going to use.   The app backs up all the usage data to a server in the cloud.   There are many ways that this can be accomplished securely, and it is not necessary a bad feature, but I didn’t feel this device benefited from being internet connected.   Therefore, I simply lowered its privileges by not allowing it internet access in the settings on her phone.  The device works perfectly fine, she can show the doctor the data from her phone, yet we have limited our online exposure and footprint just a little more.  This simple concept of least privilege can be applied almost everywhere and goes a long way to limiting your exposure to cyber threats.</p>
-<h2>Peek-A-Boo</h2>
-<p>I think one of the most sought after and used products for new parents is the baby monitor or baby camera.   As someone who has spent a fair amount of time hacking cameras <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/robot-character-analysis-reveals-trust-issues/" rel="noopener noreferrer">(or cameras on wheels)</a> this was a large area of concern for me.  Most cameras these days are internet connected and if not, you often lose the ability to view the feed on your phone, which is a huge benefit to parents.  So how, as parents, do we navigate this securely?  While there is no silver bullet here, there are a few things to consider.    For starters, there are still many baby cameras on the market that come with their own independent video screen.  They generally use Wi-Fi and are only accessible from home.  If this system works for you, use it.  It is always more secure to have a video system which is not externally accessible.   If you really want to be able to use your phone, consider the below.</p>
+<p>What is refactoring? Do we, as testers, need to perform such a task? Why and when? And especially, how can we do it easily?</p>
+<p>Listen to Senior Automation Engineer Corina Pip as she explains how IntelliJ can help us with this refactoring task, by highlighting areas that need improvement, or by automatically improving them.</p>
+<p>This is a very hands-on, practical session!</p>
+<p>Corina provided plenty of code examples, as she demonstrated — step by step — what needs to be improved and how we can easily make it happen.</p>
+<p>Talking points included:</p>
 <ul>
-<li><strong>Where is the recorded video and audio data being stored? </strong>This may not seem important if the device is internet connected anyway, but it can be.  If your camera data is being stored locally (DVR, SD card, network storage, etc.), then an attacker would need to hack your specific device to obtain this information.   If you combine this with good security hygiene such as a strong password and keeping your device updated, an attacker has to work very hard to access your camera data.  If we look at the alternative where your footage is stored in the cloud, and it becomes subject to a security breach, now your camera’s video content is collateral damage.  Large corporations are specifically targeted by cybercriminals because they provide a high ROI for the time spent on the attack; an individual practicing good cybersecurity hygiene becomes a much more difficult target providing less incentive for the attacker, thus becoming a less likely target.</li>
-<li><strong>Is the camera on the same network as the rest of your home? </strong>An often-overlooked security implication to many IoT devices, but especially cameras, is outside of the threat of spying, but rather the threat of a network entry point. If the camera itself is compromised it can be used as a pivot point to attack other devices on your network.  A simple way to reduce this risk is to utilize the “guest” network feature that comes by default on almost all home routers.   These guest networks are preset to be isolated from your main network and generally require little to no setup.  By simply attaching your cameras to your guest network, you can reduce the risk of a compromised camera leading a cybercriminal to the banking info on your laptop.</li>
+<li>Why and when do we need to perform refactoring?</li>
+<li>How did we get to this and what can we do to avoid it in the future?</li>
+<li>A LOT of examples of how IntelliJ can help with this activity</li>
 </ul>
-<h2>Background checks – Not only for babysitters</h2>
-<p>Most parents, especially new ones, like to ensure that anyone that watches their children is thoroughly vetted.  There are a ton of services out there to do this for babysitters and nannies, however it’s not always as easy for vetting the companies that create the devices we put in our homes.  So how do we determine what is safe?  My father used to tell me: “It’s how we respond to our mistakes that makes the difference.”  When researching a company or device, should you find that the device has been found to have a vulnerability, often the response time and accountability from the vendor can tell you if it’s a company you should be investing in. Some things to look for include:</p>
-<ul>
-<li>Was the vulnerability quickly patched?</li>
-<li>Are there unpatched bugs still?</li>
-<li>Has a vendor self-reported flaws, fixed them and reported to the public they have been fixed?</li>
-<li>Are there numerous outstanding bugs filed against a company or device?</li>
-<li>Does the company not recognize the possibility of bugs in their products?</li>
-</ul>
-<p>These answers can often be discovered on a company’s website or in release notes, which are generally attached to an update of a piece of software.   Take a minute to read the notes and see if the company is making security updates. You don’t need to understand all the details, just knowing they take security seriously enough to update frequently is important.  This can help tip the scales when deciding between devices or apps.</p>
-<h2>Remember, you can do this!</h2>
-<p>Through my preparation for becoming a new parent, I constantly read in books and was told by professionals, “Remember, you can do this!”  Cybersecurity in the context of being a parent is no different.  Every situation is different, and it is important to do what works with you and your family.  As parents, we shouldn’t be afraid to use all the cool new gadgets that are emerging on the market, but instead educate ourselves on how to limit our risk.  Which features do I need, which ones can I do without?   Remember always follow a vendor’s recommendations and best practices, and of course remember to breathe!</p>
+<h3 id="h-full-webinar-recording">Full Webinar Recording </h3>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<p>
+<iframe title="Refactoring Made Easy with IntelliJ - by Corina Pip [webinar recording]" width="800" height="450" src="https://www.youtube.com/embed/j30R4wo864c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</figure>
+<h3 id="h-additional-resources">Additional Resources </h3>
+<h3 class="has-text-align-center" id="h-happy-testing">— HAPPY TESTING — </h3>
 </p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/two-pink-lines/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Think &#8216;next normal&#8217;: 4 cyber-resilience lessons from the pandemic</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/think-next-normal-4-cyber-resilience-lessons-from-the-pandemic/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 18:30:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[cyberresilience]]></category>
-		<category><![CDATA[Lessons]]></category>
-		<category><![CDATA[Normal]]></category>
-		<category><![CDATA[Pandemic]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=7275</guid>
-
-					<description><![CDATA[The COVID-19 pandemic has changed the way many businesses do business—for some, irrevocably. It&#8217;s also made them more aware of]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>The COVID-19 pandemic has changed the way many businesses do business—for some, irrevocably. It&#8217;s also made them more aware of the need for resiliency and <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/state-secops-beyond-soc?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">the role cybersecurity must play in ensuring that an organization can continue</a> operations in the face of disruptive events.</p>
-<p>&#8220;We are at an inflection point globally. The pandemic has affected us in ways that we never expected,&#8221; said Mark Fernandes, CTO of Micro Focus Security, at <a target="_blank" href="http://www.brighttalk.com/webcast/7477/451044?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener">a recent digital &#8220;fireside chat&#8221; about cyber resiliency during, after, and beyond COVID-19</a>. And, he added, cybersecurity teams have been here before.</p>
-<p>In 2001, there was SOX—Sarbanes-Oxley—which ushered in the era of compliance. Then in 2008, after a series of major cyber attacks, there was the era of threat management, as organizations began to recognize the potential damage cyber attacks could inflict on infrastructure and supply chains. In 2014, digital transformation began to gain steam and cybersecurity became about industry alignment with it.</p>
-<p>Now, in 2020, another one of those watershed moments has arrived. If you look at the use of digital assets before 2020, they weren&#8217;t mainstays being used at scale, Fernandes explained. Now, with everyone from educators to healthcare workers using digital tools, that&#8217;s not the case anymore.</p>
-<blockquote>
-<p>&#8220;I&#8217;m working with a government in another part of the world where they&#8217;ve actually said that 60% of their government desks are going to move to digital desks using chatbots and other types of tools.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/mbfernandes/" rel="nofollow noopener">Mark Fernandes</a></p>
-</blockquote>
-<p>Here are the key lessons from the expert chat on <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">cyber resilience now and in the future</a>. </p>
-<h2>1. Broaden your approach to resilience</h2>
-<p>A recurring issue among organizations has been distinguishing between cybersecurity and cyber resiliency.</p>
-<p>TMX Group CISO Bobby Singh, who joined Fernandes during the online event, explained that cyber resiliency is being able to deliver critical business services when a negative security event is taking place. It&#8217;s the ability to be nimble and agile, while building modularity into your architecture.</p>
-<p>Some organizations believe that their disaster recovery plans cover their resiliency needs. That&#8217;s not the case.</p>
-<blockquote>
-<p>&#8220;Resiliency goes way beyond just being a [disaster recovery plan].&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/singhbobby/" rel="nofollow noopener">Bobby Singh</a></p>
-</blockquote>
-<p>It goes beyond business continuity plans (BCP), too.</p>
-<p>Singh explained that when businesses do a BCP, they assume that anywhere from 10% to 50% of their staff will still be onsite to perform operations. That wasn&#8217;t the case when COVID-19 began to spread. &#8220;During the March pandemic,&#8221; he continued, &#8220;it was just literally 99% of the people that were offsite.&#8221;</p>
-<h2>2. It does not happen overnight</h2>
-<p>TMX provides services to the global financial community, which has weathered the pandemic better than a lot of other industries, such as retail and hospitality. &#8220;You were able to do your banking pretty well, paid your bills online, and did whatever transactions you wanted to do,&#8221; Singh said.</p>
-<p>That kind of resiliency, though, isn&#8217;t accomplished overnight.</p>
-<blockquote>
-<p>&#8220;That journey took a long time to get to March. It didn&#8217;t happen in 2020.&#8221;<br />—Bobby Singh</p>
-</blockquote>
-<p>&#8220;We as a financial sector have been thinking about the use of the cloud. We&#8217;ve been thinking about multiple data centers,&#8221; Singh said. &#8220;We&#8217;ve been thinking about spreading our resources and key staff across regions so if one region is down, the other one can come up. Those things were fundamentally ingrained into the financial sector.&#8221;</p>
-<p>He added that to achieve that kind of resiliency, a business needs to understand its full value chain. It has to know how its business services get to its clients or customers and what that entails, as well as how diversified its suppliers are.</p>
-<p>And testing multiple scenarios is key. &#8220;It takes time,&#8221; he said. &#8220;It consumes critical resources to test. But it&#8217;s quite evident by what happened in March of 2020, for example, that testing is pretty critical.&#8221;</p>
-<p>Another participant in the online event, Christina Richmond, program vice president for security services at IDC, said that organizations should make sure they have a playbook and a plan and that the plan is practiced with stakeholders. &#8220;And make sure you include stakeholders across the entire business,&#8221; she advised.</p>
-<p>To be resilient, she continued, an organization needs to include a broad set of stakeholders from across the business. &#8220;It&#8217;s a team sport.&#8221;</p>
-<h2>3. Prepare for the &#8216;next normal&#8217;</h2>
-<p>Richmond explained that during the first stage of the pandemic, many businesses were scrambling to enhance their network capacity <a target="_blank" href="https://content.microfocus.com/adapting-post-pandemic-world-tb/pandemic-your-remote?lx=V3y1kl" rel="noopener">to accommodate remote workers</a>.</p>
-<p>After dealing with initial capacity issues, they moved on to capacity optimization, she said. They continued enhancing their network capacity and remote working capabilities, as well as looking at how to secure people working from home. They also started to consider recovery.</p>
-<p>Finally, they started to look at resiliency and how they could prepare for the future. That <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">accelerated migration to the cloud and digital transformation</a>. &#8220;Companies are changing rapidly to embrace cloud in a way that they never thought they would, even if they were on that path to embrace cloud,&#8221; Richmond said.</p>
-<blockquote>
-<p>&#8220;They&#8217;re embracing digital business in ways that they never thought they would. Suddenly, it was an urgent necessity.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/christinarichmond/" rel="nofollow noopener">Christina Richmond</a></p>
-</blockquote>
-<p>Now bitten by the digital bug, as organizations move toward the &#8220;next normal,&#8221; they&#8217;re going to spend more aggressively, she predicted. And they are going to start to innovate again, she said. &#8220;They&#8217;ll focus on technologies that advance their digital capabilities in ways that they really didn&#8217;t think about before. Or if they had thought about it before, they&#8217;re accelerating those plans.&#8221;</p>
-<h3>4. It takes the right team</h3>
-<p>As digital transformation takes hold in more and more companies, resiliency will play an important role in securing business operations. But resiliency will require manpower, which seems to be in short supply these days.</p>
-<p>There are millions of jobs open in cyber security globally, said Singh.</p>
-<blockquote>
-<p>&#8220;You&#8217;re not going to fill them by hiring propeller heads or coders or developers or people in network security. We&#8217;ve got to broaden the horizon.&#8221;<br />—Bobby Singh</p>
-</blockquote>
-<p>The key to solving the cyber-security talent storage is looking for people beyond STEM, added Richmond.</p>
-<blockquote>
-<p>&#8220;They think differently. They&#8217;re asking different questions. They&#8217;re coming from that out-of-the-box perspective.&#8221;<br />—Christina Richmond</p>
-</blockquote>
-<h4>Keep learning</h4>
-</div>
 <p><br />
-<br /><a href="https://techbeacon.com/security/think-next-normal-4-cyber-resilience-lessons-pandemic">Source link </a></p>
+<br /><a href="https://applitools.com/blog/refactoring-with-intellij/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Honoring Martin Luther King Jr.’s Legacy with McAfee’s African Heritage Community</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/honoring-martin-luther-king-jr-s-legacy-with-mcafees-african-heritage-community/</link>
+		<title>The Connected Lives of Babies: Protecting First Footprints in the Digital World, Part 1</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 17:59:45 +0000</pubDate>
+		<pubDate>Tue, 19 Jan 2021 21:44:47 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[African]]></category>
-		<category><![CDATA[community]]></category>
-		<category><![CDATA[Heritage]]></category>
-		<category><![CDATA[Honoring]]></category>
-		<category><![CDATA[Jrs]]></category>
-		<category><![CDATA[King]]></category>
-		<category><![CDATA[legacy]]></category>
-		<category><![CDATA[Luther]]></category>
-		<category><![CDATA[Martin]]></category>
-		<category><![CDATA[McAfees]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/honoring-martin-luther-king-jr-s-legacy-with-mcafees-african-heritage-community/</guid>
+		<category><![CDATA[Babies]]></category>
+		<category><![CDATA[Connected]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[Footprints]]></category>
+		<category><![CDATA[Lives]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Protecting]]></category>
+		<category><![CDATA[World]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/</guid>
 
-					<description><![CDATA[Photo by Unseen Histories on Unsplash Today, we celebrate the life and legacy of Dr. Martin Luther King Jr. Dr.]]></description>
+					<description><![CDATA[The Connected Lives of Babies: Protecting The First Footprints in the Digital World, Part One A baby can leave their]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
 <div class="author-block padding-bottom-xs">
                 
             </div>
-<figure id="attachment_116005" aria-describedby="caption-attachment-116005" style="width: 343px" class="wp-caption alignleft"><img loading="lazy" class="wp-image-116005" src="https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183.jpg" alt="" width="343" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183.jpg 640w, https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183-229x300.jpg 229w, https://www.mcafee.com/wp-content/uploads/2021/01/MLK_Small-e1610661921183-98x129.jpg 98w" sizes="(max-width: 343px) 100vw, 343px"/><figcaption id="caption-attachment-116005" class="wp-caption-text">Photo by Unseen Histories on Unsplash</figcaption></figure>
-<p><span data-contrast="auto">Today, we celebrate the life and legacy of Dr. Martin Luther King Jr. Dr. King diligently dedicated his life to dismantling systemic racism affecting marginalized groups and leading a peaceful movement to promote equality for all Americans, irrespective of color and creed. He leaves behind a legacy of courage, strength, perseverance, and a life-long dedication to pursuing a fair and just world. </span></p>
-<p><span data-contrast="auto">At McAfee, we honor the diverse voices which make up our company and encourage every team member to bring their authentic selves to the workplace. We believe that our collective voice and </span><span data-contrast="auto">act</span><span data-contrast="auto">io</span><span data-contrast="auto">n can make a difference in creating a more equal and unified world. </span></p>
-<p><span data-contrast="auto">On this day, we commemorate MLK by honoring the man behind the message of equality. Members of the McAfee African Heritage Community share their perspectives on the impact that Martin Luther King Jr. has had on their lives and what this day means to them. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
-<h2/>
-<h2/>
-<h2/>
-<h2/>
-<h2><b><span data-contrast="none"><img loading="lazy" class="alignright wp-image-116008" src="https://www.mcafee.com/wp-content/uploads/2021/01/Alexus-e1610662216837.jpg" alt="" width="551" height="450"/>Alex</span></b><b><span data-contrast="none">us, Software Sales Engineer</span></b></h2>
-<p><span data-contrast="none">When I think about what Martin Luther King Jr. Day means to me, I think of it as a time to reflect and think about the progress we have made as citizens of this country. We have made great strides, but there is much more that needs to be done for equality and justice.</span></p>
-<p><b><span data-contrast="none">I honor Martin Luther King Jr.</span></b><span data-contrast="none"> by being of service to others around me.</span></p>
-<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by</span></b><span data-contrast="none"> using my voice to uplift others.</span></p>
-<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to be</span></b><span data-contrast="none"> a man of excellence and courage.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
-<h2/>
-<h2/>
+<h2><strong>The Connected Lives of Babies: Protecting The First Footprints in the Digital World, Part One</strong></h2>
+<p>A baby can leave their first footprints internet even before they’re born.</p>
+<p>The fact is that children start creating an identity online before they even put a little pinky on a device, let alone come home for the first time. That “Hello, world!” moment can come much, much sooner. And it will come from you.</p>
+<p>From posting baby’s ultrasound pic to sharing a video of the gender reveal celebration, these are the first digital footprints that your child will make. With your help, of course, because it’s you who’ll snap all those photos, capture all those videos, and share many of them on the internet. Yet even though you’re the one who took them, those digital footprints you’ve created belong to your child.</p>
+<p>And that’s something for us to pause and consider during this wonderful (and challenging!) stretch of early parenthood. Just as we look out for our children’s well-being in every other aspect of their little lives, we must look out for their digital well-being too. Babies are entitled to privacy too. And their little digital lives need to be protected as well.</p>
+<h3><strong>The connected lives of babies</strong></h3>
+<p>Babies lives are more connected than you might think. Above and beyond the social media posts we make to commemorate all their “firsts,” from first solid food to first steps, there’s digital information that’s associated with your child as well. Things like Social Security Numbers, medical records, and even financial records related to them all exist, all of which need to be protected just like we protect that same digital information as adults.</p>
+<p>Likewise, there’s all manner of connected devices like Wi-Fi baby monitors, baby sleep monitors, even smart cribs that sense restlessness in your baby and then rocks and soothes those little cares away. Or how about a smart changing table that tracks the weight of your child over time? You and your baby may make use of those. And because all these things are connected, they have to be protected.</p>
+<p>This is the first of two articles that takes a look at this topic, and we’ll start with a look at making good choice about purchasing “smart devices” and connected baby monitors—each pieces of technology that parents should investigate before bringing them into their home or nursery.</p>
+<h3><strong>Buying smart devices for baby, Part One: Connect with your care provider</strong></h3>
+<p>As a new parent, or as a parent who’s just added another tyke to the nest, you’ll know just how many products are designed for your baby—and then marketed toward your fears or concerns. Before buying such smart devices, read reviews and speak with your health care provider to get the facts.</p>
+<p>For example, you can purchase connected monitors that track metrics like baby’s breathing, heart rate, and blood-oxygen levels while they sleep. While they’re often presented as a means of providing peace of mind, the question to ask is what that biometric information can really do for you. This is where your health care provider can come in, because if you have concerns about Sudden Infant Death Syndrome (SIDS), that’s a much larger conversation. Your provider can discuss the topic with you about and whether such a device is an effective measure for your child.</p>
+<h3><strong>Buying smart devices for baby, Part Two: Do your security research</strong></h3>
+<p>Another question to ask is what’s done with the biometric data that such devices monitor. Is it kept on your smartphone, or is it stored in the cloud by the device manufacturer? Is that storage secure? Is the data shared with any third parties? Who owns that data? Can you opt in or opt out of sharing it? Can you access and delete it as needed? Your baby’s biometrics are <em>highly </em>personal info and must be protected as such. Without clear-cut answers about how your baby’s data is handled, you should consider giving that device a hard pass.</p>
+<p>How do you get those answers? This is another instance where you’ll have to roll up your sleeves and read the privacy policy associated with the device or service in question. And as it is with privacy policies, some are written far more clearly and concisely than others. The information is in there. You may have to dig for it. (Of note, there are instances where parents consented to the use of their data for the purposes of government research, <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5718309/" rel="noopener noreferrer">such as this study</a> published by the U.S. National Institutes of Health.)</p>
+<p>Related, here’s the advice I share on every connected “smart” device out there, from baby-related items to smart refrigerators: before you purchase, read up on reviews and comments from other customers. Look for news articles about the device manufacturer too. The fact of the matter is that some smart device manufacturers are much better at baking security protocols into their devices than others, so investigate their track record to see if you can uncover any issues with their products or security practices. Information such as this can help you make an even more informed choice.</p>
+<h3><strong>Secure your Wi-Fi baby monitor (and other smart devices too)</strong></h3>
+<p>An online search for “hacked baby monitor” will quickly call up several unsettling stories about hackers tuning into Wi-Fi baby monitors—scanning the camera about the room at will and <a target="_blank" href="https://www.11alive.com/article/money/consumer/louisville-family-baby-monitor-hacked-stranger/417-f803d099-c8f9-4111-9d3e-9629e3e536a7" rel="noopener noreferrer">perhaps even speaking directly to the child</a>. Often, this is because the default factory password has not been changed by the parents. And a “default password” may as well be “public password” because lists of default passwords for connected devices are freely available on the internet. In fact, researchers from Ben Gurion University looked at the basic security of off-the-shelf smart devices found that, “<a target="_blank" href="https://www.eurekalert.org/pub_releases/2018-03/aabu-osd031218.php" rel="noopener noreferrer">It only took 30 minutes to find passwords for most of the devices and some of them were found only through a Google search of the brand</a>.”</p>
+<p>The three things you can do to prevent this from happening to your Wi-Fi baby monitor, along with other connected devices around your home, are:</p>
+<ol>
+<li><strong>Change the default password.</strong> <a target="_blank" href="https://www.mcafee.com/blogs/consumer/strong-password-ideas-to-keep-your-information-safe/?hilite=%27strong%27%2C%27passwords%27" rel="noopener">Use a strong and unique password</a> for your baby monitor and other devices.</li>
+<li><strong>Update.</strong> Check regularly for device updates, as they often harden the security of the device in addition to adding performance upgrades.</li>
+</ol>
+<ul>
+<li><strong>Use two-factor authentication if available. </strong>This, in addition to a password, offers an extra layer of protection that makes a device far more difficult to hack.</li>
+</ul>
+<p>What about “old-style” baby monitors that work on a radio frequency (RF) like a walkie-talkie does? Given that they’re not connected to the internet, there’s less risk involved. That’s because hacking into an RF monitor requires a per person to be in close physical proximity to the device and have access to the same broadcast frequency as your device—a far less likely proposition, yet a risk none the less. Some modern RF baby monitors even encrypt the radio signal, mitigating that much more risk.</p>
+<h3><strong>And now, let’s talk about online privacy for babies and children </strong></h3>
+<p>Next up, we’ll take a closer look at baby’s privacy online. Yes, that’s a thing! And an important one at that, as taking charge of their privacy right now can protect them from cybercrime and harm as they get older. Feel free to read on right here.</p>
+<h3><strong>Stay Updated </strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
 <p> </p>
-<h2/>
-<h2/>
-<h2><b><span data-contrast="auto"><img loading="lazy" class="wp-image-116011 alignleft" src="https://www.mcafee.com/wp-content/uploads/2021/01/Denise.jpg" alt="" width="360" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/Denise.jpg 1536w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-240x300.jpg 240w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-819x1024.jpg 819w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-768x960.jpg 768w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-1229x1536.jpg 1229w, https://www.mcafee.com/wp-content/uploads/2021/01/Denise-103x129.jpg 103w" sizes="(max-width: 360px) 100vw, 360px"/>Denise, People Operations Program Manager</span></b></h2>
-<p><span data-contrast="none">For me, Martin Luther King Jr</span><span data-contrast="none">.</span><span data-contrast="none"> Day is a reminder of how far we’ve come, and how far we still </span><span data-contrast="none">have to</span><span data-contrast="none"> go as a society – especially in today’s time of social unrest. Some of Dr. King’s most poignant quotes are still so applicable and impactful today. </span></p>
-<p><span data-contrast="none">For example – “People fail to get along because they fear each other; they fear each other because they don’t know each other; they don’t know each other because they have not communicated with each other.”</span></p>
-<p><b><span data-contrast="none">I honor Martin Luther King Jr. by </span></b><span data-contrast="none">doing what I can to have a positive impact on the lives of others.</span></p>
-<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by </span></b><span data-contrast="none">looking for areas to give back and serve.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
-<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to</span></b><span data-contrast="none"> do better, be better and influence the world around me accordingly.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
-<h2/>
-<h2/>
-<h2/>
-<h2><b><span data-contrast="auto"><img loading="lazy" class="alignright wp-image-116014" src="https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260.png" alt="" width="355" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260.png 427w, https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260-237x300.png 237w, https://www.mcafee.com/wp-content/uploads/2021/01/Kristol-e1610662652260-102x129.png 102w" sizes="(max-width: 355px) 100vw, 355px"/>Kristol, Global Sales Operations Manager</span></b></h2>
-<p><span data-contrast="none">MLK Jr. Day is a reminder of the influence ONE person can have on people, perspectives, and shaping a platform. It means that my voice matters and that I have a right to live my dream—a dream that we continue to fight for today. </span></p>
-<p><b><span data-contrast="none">I honor Martin Luther King Jr. by</span></b><span data-contrast="none"> never giving up on my dreams.</span></p>
-<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by</span></b><span data-contrast="none"> freely bringing my authentic self to work, home and the community every day. </span></p>
-<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to</span></b><span data-contrast="none"> be a courageous, strategic and compassionate leader.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<h2/>
-<h2/>
-<h2/>
-<h2/>
-<h2><b><span data-contrast="auto"><br /><img loading="lazy" class="wp-image-116017 alignleft" src="https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore.jpg" alt="" width="450" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore.jpg 671w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-300x300.jpg 300w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-150x150.jpg 150w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-129x129.jpg 129w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-24x24.jpg 24w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-48x48.jpg 48w, https://www.mcafee.com/wp-content/uploads/2021/01/LSeymore-96x96.jpg 96w" sizes="(max-width: 450px) 100vw, 450px"/>Le Var, Customer Success M</span></b><b><span data-contrast="auto">anag</span></b><b><span data-contrast="auto">er</span></b></h2>
-<p><span data-contrast="auto">MLK Day always drives me to think</span><span data-contrast="auto"> about</span><span data-contrast="auto"> Dr. King’s dream and the work of the </span><span data-contrast="auto">c</span><span data-contrast="auto">ivil </span><span data-contrast="auto">r</span><span data-contrast="auto">ights </span><span data-contrast="auto">m</span><span data-contrast="auto">ovement. I then look for ways I can make an impact in my local community to continue the work of those before </span><span data-contrast="auto">me.</span></p>
-<p><b><span data-contrast="none">I honor Martin Luther King Jr. by </span></b><span data-contrast="none">passing the baton and sharing his dream to the next generation, molding my children to understand the past, and continuing to push Dr. King’s dream for future decades.</span></p>
-<p><b><span data-contrast="none">I celebrate Martin Luther King Jr. Day by</span></b><span data-contrast="none"> researching African American history </span><span data-contrast="none">in an effort to</span><span data-contrast="none"> broaden my own knowledge and share information I’ve learned with my peers.</span></p>
-<p><b><span data-contrast="none">Martin Luther King Jr. inspires me to</span></b><span data-contrast="none"> make a positive impact on the community I live in. Much like Dr. King, I am one man who strives to be the dream of my ancestors. Individually, I can move boulders, but collectively, we can move mountains.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:252}"> </span></p>
-<h2/>
-<h2/>
-<h2><img loading="lazy" class="wp-image-116137 alignright" src="https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020.png" alt="" width="400" height="450" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020.png 802w, https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020-267x300.png 267w, https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020-768x864.png 768w, https://www.mcafee.com/wp-content/uploads/2021/01/Lynne-Doherty-Headshot-2020-115x129.png 115w" sizes="(max-width: 400px) 100vw, 400px"/>Lynne, EVP of Enterprise Global Sales and Marketing and Executive Sponsor</h2>
-<p>Martin Luther King Jr. Day means a chance to celebrate the legacy of a man who was a pivotal leader of the civil rights movement, hope and healing. Though his life was a short one, his impact was great, and there are so many lessons to learn from the words that MLK Jr. has left with us.</p>
-<p><strong>I honor Martin Luther King Jr. by</strong> showing up as an ally who’s ready to listen and take action.</p>
-<p><strong>I celebrate Martin Luther King Jr. Day by</strong> reflecting on the wise lessons shared by Martin Luther King Jr. and making it a point to have conversations about his impact.</p>
-<p><strong>Martin Luther King Jr. inspires me to </strong>use my voice to encourage conversation, connection and community.</p>
-<h2><b><span data-contrast="auto">Learn More About Dr. King’s Mark on the World</span></b><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></h2>
-<p><a target="_blank" href="https://thekingcenter.org/about-tkc/" rel="noopener"><span data-contrast="none">About The King Center</span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><a target="_blank" href="https://www.nobelprize.org/prizes/peace/1964/king/biographical/" rel="noopener"><span data-contrast="none">Dr. Martin Luther King Jr.’s Biography </span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><a target="_blank" href="https://www.pbs.org/weta/washingtonweek/blog-post/5-martin-luther-king-jr%e2%80%99s-most-memorable-speeches" rel="noopener"><span data-contrast="none">5 of Martin Luther King Jr.’s Most Memorable Speeches</span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><a target="_blank" href="https://www.mercurynews.com/2021/01/11/martin-luther-king-jr-day-playlist-10-songs-in-honor-of-dr-king/" rel="noopener"><span data-contrast="none">MLK Day Playlist: 10 Songs in Honor of Dr. King</span></a><span data-contrast="auto"> </span><br /><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><span data-contrast="auto">Interested in joining a company that celebrates diverse voices and promotes meaning</span><span data-contrast="auto">ful</span><span data-contrast="auto"> change in our world?</span><span style="font-size: 14pt;"> <span style="font-size: 12pt;"><strong><a target="_blank" href="http://bit.ly/3nMhvTc" rel="noopener">Explore our career opportunities</a></strong>. Subscribe to<strong> <a target="_blank" href="http://bit.ly/2XMYmpD" rel="noopener">job alerts</a>. </strong></span></span></p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/life-at-mcafee/honoring-martin-luther-king-jr-s-legacy-with-mcafees-african-heritage-community/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Apple Kills MacOS Feature Allowing Apps to Bypass Firewalls</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-kills-macos-feature-allowing-apps-to-bypass-firewalls/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 17:02:52 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Allowing]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Bypass]]></category>
-		<category><![CDATA[Feature]]></category>
-		<category><![CDATA[Firewalls]]></category>
-		<category><![CDATA[Kills]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-kills-macos-feature-allowing-apps-to-bypass-firewalls/</guid>
-
-					<description><![CDATA[Security researchers lambasted the controversial macOS Big Sur feature for exposing users&#8217; sensitive data. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Security researchers lambasted the controversial macOS Big Sur feature for exposing users&#8217; sensitive data.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/apple-kills-macos-feature-allowing-apps-to-bypass-firewalls/163099/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Google Boots 164 Apps from Play Marketplace for Shady Ad Practices</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/google-boots-164-apps-from-play-marketplace-for-shady-ad-practices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 16:19:40 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Boots]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Marketplace]]></category>
-		<category><![CDATA[Play]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[Shady]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/google-boots-164-apps-from-play-marketplace-for-shady-ad-practices/</guid>
-
-					<description><![CDATA[The tech giant removes 164 more offending Android apps after banning software showing this type of behavior from the store]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The tech giant removes 164 more offending Android apps after banning software showing this type of behavior from the store last year.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-boots-164-apps-from-play/163091/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>CES 2021: Highlights From the “Cleanest” Show Yet!</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/ces-2021-highlights-from-the-cleanest-show-yet/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 15 Jan 2021 13:29:25 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[CES]]></category>
-		<category><![CDATA[Cleanest]]></category>
-		<category><![CDATA[Highlights]]></category>
-		<category><![CDATA[Show]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ces-2021-highlights-from-the-cleanest-show-yet/</guid>
-
-					<description><![CDATA[Typically, the International Consumer Electronics Show (CES) gives us a sense of where technology is going in the future. However,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Typically, the International Consumer Electronics Show (CES) gives us a sense of where technology is going in the future. However, this year’s show was arguably more about technology catching up with how the COVID-19 pandemic has reshaped our lives. While gathering in person was not an option, we still had the opportunity to witness incredible technological feats virtually – primarily those meant to help us better adapt to the new normal.<br />From devices aimed at making the world more sanitary to new work-from-home solutions, here are some of the highlights from this year’s first ever virtual CES:</p>
-<h3>Extreme Home Makeover: Digital Edition</h3>
-<p>Every year, CES introduces a plethora of smart home devices aimed at making our lives easier. But now that our homes have expanded beyond where we live to function as a workplace and classroom, companies have developed new gadgets to improve our lives while we stay at home. In fact, the <a target="_blank" href="https://www.cnn.com/2021/01/12/tech/ces-2021-pandemic-tech/index.html" rel="noopener noreferrer">smart home market</a> grew 6.7% from 2019 to 2020 to $88 billion and is expected to reach <a target="_blank" href="https://www.mordorintelligence.com/industry-reports/global-smart-homes-market-industry" rel="noopener noreferrer">$246.42 billion by 2025.</a></p>
-<p>This year, Kohler showed off voice control features for its sinks and other fixtures, so homeowners can turn on faucets without touching them. And while every CES is paved with an array of flashy new TVs, LG drummed up lots of excitement with its new 55-inch transparent TV that you can see through when it’s turned off.</p>
-<p>From monitors to keyboards and Wi-Fi upgrades to charging stations, plenty of the gadgets coming out of this year’s show were designed to improve the <a target="_blank" href="https://www.gearpatrol.com/tech/a35181210/best-desktop-accessories-ces-2021/" rel="noopener noreferrer">remote work experience</a>. Take Dell’s UltraSharp 40-inch Curved Ultrawide U4021QW Monitor, for example. Ultrawide is the functional equivalent of two 4K monitors side-by-side, but without the seam. Belkin and Satechi also brought their latest charging stations to CES 2021 to improve the home office, allowing users to charge multiple devices at once. With so many companies creating innovative devices to make our work-from-home lives more manageable in the long run, it’s clear that remote work is likely here to stay.</p>
-<h3>Staying Healthy at Home in Global Health Crisis</h3>
-<p>CES 2021 also brought us a whole new lineup of technology designed to help us monitor our <a target="_blank" href="https://www.cnet.com/pictures/the-health-tech-of-ces-2021/3/" rel="noopener noreferrer">health at home</a>. Fluo Labs debuted Flō, a device that stops your body from releasing histamines when pollen, dust, and other allergens enter your body. HD Medical also introduced HealthyU, a device smaller than a GoPro that includes a seven-lead ECG, a temperature sensor, a pulse oximeter, microphones to record heart and lung sounds, a heart rate monitor, and a blood pressure sensor. HealthyU is designed for people with heart issues to keep tabs on their health every day and send that information to their doctors remotely. Not only will these devices enable us to take better care of ourselves if we can’t physically go to a doctor’s office, but they will also enhance our awareness of ourselves and our loved ones.</p>
-<h3>Touchless Tech is on the Rise</h3>
-<p>In 2020, we became hyper-aware of germs and how they can easily spread – one of those ways being on digital devices. While disinfecting these surfaces with an alcohol solution can help, many look to taking a different approach to avoid germ-spreading: touchless technology.</p>
-<p>While no <a target="_blank" href="https://www.cnet.com/health/ces-2021-showcases-tech-to-fight-back-against-covid-19/" rel="noopener noreferrer">one technolog</a>y can win the battle against the virus, many companies are doing their part to promote a cleaner, healthier future. For example, Plott built a doorbell called the <a target="_blank" href="https://www.ces.tech/Innovation-Awards/Honorees/2021/Honorees/E/Ettie.aspx" rel="noopener noreferrer">Ettie</a> that can take people’s temperature before they’re allowed to enter. Another company, Alarm.com, created a <a target="_blank" href="https://www.cnet.com/news/alarm-com-touchless-video-doorbell-ces-2021-rings-itself-so-your-hands-stay-clean/" rel="noopener noreferrer">Touchless Video Doorbell</a> to cut down on the transmission of bacteria and viruses that we otherwise often leave on places we touch. Kohler also built a toilet that flushes with the <a target="_blank" href="https://www.cnet.com/news/kohler-ces-2021-bathroom-designs-include-touchless-toilet-16000-dollar-bathtub/" rel="noopener noreferrer">wave of a hand</a>. As we head further into 2021 and beyond, be on the lookout for more voice-activated and touchless devices to help slow the spread of germs and help us live our lives free from worry.</p>
-<h3>Adapt to the Cybersecurity Landscape in a Hyper-Connected World</h3>
-<p>We’ve become more reliant on technology than ever before to stay connected with loved ones from afar, work from home without missing a beat, participate in distance learning, and find new forms of digital entertainment. But with this increase in time spent online comes a greater risk of cyberthreats, and we must stay vigilant when it comes to protecting our online safety. Hackers continue to adapt their techniques to take advantage of users spending more time online, so we must educate and protect ourselves and our devices from emerging threats. This way, we can continue to embrace new technologies, while we live our digital lives free from worry.</p>
-<h3>Stay Updated</h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home</a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook</a>.</p>
 </p></div>
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
   !function(f,b,e,v,n,t,s)
@@ -470,39 +156,289 @@ fbq('track', "PageView");</p>
 <p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
 </script><br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/ces-2021-highlights-from-the-cleanest-show-yet/">Source link </a></p>
+<br /><a href="https://www.mcafee.com/blogs/consumer/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Facebook: Malicious Chrome Extension Developers Scraped Profile Data</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/facebook-malicious-chrome-extension-developers-scraped-profile-data/</link>
+		<title>DNSpooq Flaws Allow DNS Hijacking of Millions of Devices</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/dnspooq-flaws-allow-dns-hijacking-of-millions-of-devices/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 14 Jan 2021 22:30:52 +0000</pubDate>
+		<pubDate>Tue, 19 Jan 2021 21:25:10 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Developers]]></category>
-		<category><![CDATA[Extension]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[Malicious]]></category>
-		<category><![CDATA[Profile]]></category>
-		<category><![CDATA[Scraped]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/facebook-malicious-chrome-extension-developers-scraped-profile-data/</guid>
+		<category><![CDATA[Devices]]></category>
+		<category><![CDATA[DNS]]></category>
+		<category><![CDATA[DNSpooq]]></category>
+		<category><![CDATA[Flaws]]></category>
+		<category><![CDATA[Hijacking]]></category>
+		<category><![CDATA[Millions]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/dnspooq-flaws-allow-dns-hijacking-of-millions-of-devices/</guid>
 
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+					<description><![CDATA[Seven flaws in open-source software Dnsmasq could allow DNS cache poisoning attacks and remote code execution. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Seven flaws in open-source software Dnsmasq could allow DNS cache poisoning attacks and remote code execution.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/dnspooq-flaws-allow-dns-hijacking-of-millions-of-devices/163163/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Rob Joyce to Take Over as NSA Cybersecurity Director</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/rob-joyce-to-take-over-as-nsa-cybersecurity-director/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 20:20:03 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Director]]></category>
+		<category><![CDATA[Joyce]]></category>
+		<category><![CDATA[NSA]]></category>
+		<category><![CDATA[Rob]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/rob-joyce-to-take-over-as-nsa-cybersecurity-director/</guid>
+
+					<description><![CDATA[Joyce will replace Anne Neuberger, who is now deputy national security advisor for the incoming Biden administration. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Joyce will replace Anne Neuberger, who is now deputy national security advisor for the incoming Biden administration.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/rob-joyce-nsa-cybersecurity-director/163160/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Selenium vs Cypress: The Rematch &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/selenium-vs-cypress-the-rematch-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 17:09:43 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Cypress]]></category>
+		<category><![CDATA[Rematch]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/selenium-vs-cypress-the-rematch-automated-visual-testing/</guid>
+
+					<description><![CDATA[It’s been more than two years since we last evaluated Cypress vs Selenium WebDriver, and as we all know, a]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
+<p>It’s been more than two years since we last evaluated <a target="_blank" href="https://info.applitools.com/uc2zs" rel="noopener">Cypress vs Selenium WebDriver</a>, and as we all know, a lot can happen in two years.</p>
+<p>Since then, Selenium WebDriver has made impressive improvements as they prepare for the <a target="_blank" href="https://info.applitools.com/uc2zz" rel="noopener">major release of Selenium 4</a>, and Cypress has grown from its infancy phase. Let’s see what’s changed!</p>
+<h2 id="h-target-audience">Target Audience</h2>
+<p>In our previous post, we asserted that most of Selenium’s users are testers, while developers seemed to favor Cypress. While this was certainly true in its early days, <a target="_blank" href="https://info.applitools.com/uc2zQ" rel="noopener">the popularity of Cypress has increased with testers</a> as well. Cypress has become the most widely used test automation tool amongst our JavaScript users, which comprises mostly of dedicated automation engineers.</p>
+<p>My theory for the uptick in the use of Cypress amongst testers is that collaboration is a key factor in tooling. It’s hard enough to get developers to contribute to UI testing, and if Cypress is a way to bridge that gap, then testers are all for it!</p>
+<h2 id="h-language-support">Language Support</h2>
+<p>Since Cypress was designed for frontend developers, it only supports JavaScript – the language of the web. This has not changed since Cypress was released, and it does not seem to be on the product’s roadmap. Consequentially, this puts Cypress at a disadvantage to Selenium which supports JavaScript as well as Java, Python, C#, Ruby, and Kotlin. This gives Selenium a much wider target audience, especially since <a target="_blank" href="https://info.applitools.com/uc2Ag" rel="noopener">Java is the most popular programming language for UI testing</a>.</p>
+<h2 id="h-browser-support">Browser Support</h2>
+<p>Arguably, the biggest enhancement to Cypress since our last post is its move from Chrome-only to cross browser support!</p>
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"/>
+<p>Cypress’ lack of cross-browser support was a major con for those who needed to test their applications on more than just Chrome. Many Cypress users had to rely on third-party plugins such as <a target="_blank" href="https://info.applitools.com/uc27F" rel="noopener">Applitools’ Ultrafast Grid</a> to gain test coverage on multiple browsers.  However, with version 4 of Cypress, this now opens the possibility of <a target="_blank" href="https://cypress.io/blog/2020/02/06/introducing-firefox-and-edge-support-in-cypress-4-0" rel="noreferrer noopener">testing on Firefox and Edge</a> as well.</p>
+<p>Of course, Selenium WebDriver has always supported Chrome, Firefox, and IE; and has also supported Edge and Safari for years. This gives Selenium an edge in this category for those who need to test on Internet Explorer and Safari (the default browser for iOS devices).</p>
+<h2 id="h-browser-capabilities">Browser Capabilities</h2>
+<p>The architecture for Cypress and Selenium varies quite a bit (see our <a target="_blank" href="https://info.applitools.com/uc2zs" rel="noopener">original comparison</a> for the details). Cypress runs tests in-browser while Selenium uses a browser driver. Both of these approaches have their pros and cons. </p>
+<p>Cypress tests are faster since there are less processes to call for every browser interaction. However, features such as opening and manipulating multiple tabs and windows is not supported in Cypress. Likewise, Cypress has <a target="_blank" href="https://www.cypress.io/blog/2020/02/12/working-with-iframes-in-cypress/" rel="noreferrer noopener">limited support</a> for working with iframes and requires you to write custom code to be able to do so.</p>
+<p>Selenium users do not have to concern themselves with these limitations. Not only are iframes fully supported in WebDriver, but Selenium 4 boasts updated support for <a target="_blank" href="https://info.applitools.com/uc278" rel="noopener">multiple windows and tabs</a>.</p>
+<h2 id="h-server-manipulation">Server Manipulation</h2>
+<p>In our previous post, we admired Cypress’ built-in support for mocking and intercepting server requests and responses. At that time, this powerful feature was not available in Selenium. However, Selenium 4 provides a brand new <a target="_blank" href="https://info.applitools.com/uc273" rel="noopener">Chrome DevTools Protocol API</a> which enables Selenium tests to not only mock server requests and intercept responses, but to fully leverage all of the possibilities of Chrome DevTools. This is a game-changing feature for Selenium WebDriver!</p>
+<h2 id="h-which-is-better-selenium-or-cypress">Which is Better? Selenium or Cypress?</h2>
+<p>That depends on your needs. </p>
+<p>Cypress integrates quite nicely into a given production codebase making it favorable for developers, which therefore fares better for collaboration between developers and automation engineers/testers. Cypress’ architecture also inherently speeds up test execution.</p>
+<p>However, Selenium has far more reach and support for browsers, programming languages, and browser capabilities. </p>
+<p>If your application is relatively simple and speed and collaboration are the most important factors, then Cypress is a great choice. However, if your application and user journeys are more complex and require extensive testing across multiple platforms, then Selenium would be a better choice.</p>
+<p>I applaud you for reading to the end! Tools have their intended purposes and while multiple tools may seem similar, we shouldn’t be so quick to label one tool as “better” than another. Evaluate any given tool against your requirements to determine which would be the most efficient for your needs. </p>
+<p>I’m excited to see the progress in both Selenium WebDriver and Cypress over the last two years. Both are clearly here to stay!</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/selenium-vs-cypress-the-rematch/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SolarWinds Malware Arsenal Widens with Raindrop</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-malware-arsenal-widens-with-raindrop/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 16:40:55 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Arsenal]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Raindrop]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<category><![CDATA[Widens]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-malware-arsenal-widens-with-raindrop/</guid>
+
+					<description><![CDATA[The post-compromise backdoor installs Cobalt Strike to help attackers more laterally through victim networks. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The post-compromise backdoor installs Cobalt Strike to help attackers more laterally through victim networks.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/solarwinds-malware-arsenal-raindrop/163153/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why cloud operations management is the next big thing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/why-cloud-operations-management-is-the-next-big-thing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[big]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[Operations]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/why-cloud-operations-management-is-the-next-big-thing/</guid>
+
+					<description><![CDATA[This is the year to get down to business with cloud computing. It&#8217;s time to move from the hype-driven world of]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>This is the year to get down to business with cloud computing. It&#8217;s time to move from the hype-driven world of cloud migration—including <a target="_blank" href="https://content.microfocus.com/app-modernization-dx-tb/app-modernization-101?lx=my4KH8&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=WQDGNFY2037340&amp;_ga=2.80536343.188473915.1611057387-403716879.1610126925" rel="noopener">application modernization</a> and <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/about-digital-transformation?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">digital transformation</a>—to the humbler world of long-term cloud-based systems operations. </p>
+<p>Here&#8217;s where many IT shops stand today: Their organization moved to the cloud in a big way, and they now have a mix of cloud configurations—<a target="_blank" href="https://techbeacon.com/enterprise-it/multicloud-vs-hybrid-cloud-management-top-approaches-tools" rel="noopener">whether they call it hybrid IT, hybrid cloud, or multicloud</a>—and the looming X-factor is how to manage the resulting complexity. They&#8217;re ready to set up standard operating procedures for long-term cloud operations. </p>
+<p>It&#8217;s already clear that rapidly expanding cloud ecosystems are shaping up to be a <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/manage-cloud-complexity?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">huge headache for IT in the coming yea</a><a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">r</a>. Success depends upon having an effective CloudOps strategy. You need an action plan to deal with everything from problem management to monitoring, security, and performance.</p>
+<p>Here&#8217;s how your team can <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/architect-manage-hybrid-multiclouds?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">better control cloud management issues at scale</a>, including <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">what needs to be done now to ensure success</a>. </p>
+<h2>CloudOps requires a reset</h2>
+<p>Here&#8217;s an uncomfortable truth: Most enterprises that migrated to cloud-based platforms, both public and private, did not focus on operations. Most transition teams believed that operations would be covered by the existing operational teams and that cloud computing systems would simply be another platform to be maintained, secured, and governed. </p>
+<p>The enlightenment usually happens when enterprises are 30% to 40% migrated, both data and applications. Teams discover that approaches and technologies leveraged for traditional operations are unsuitable for use with cloud-based deployments. </p>
+<p>If you&#8217;re wondering why, the answer lies with these three main factors:</p>
+<h4>1. The remote nature of cloud-based platforms  </h4>
+<p>Because cloud systems are out of the direct physical control of ops teams, special care must be taken in how they carry out operations. Typically, the ops team is dependent upon the cloud provider for all information, and the provider schedules and executes most platform-related fixes. </p>
+<p>This lack of control actually contributes to the value of leveraging public cloud. You turn over most of the direct control to the public cloud provider, which typically involves relinquishing the time-consuming control of platforms down to the raw metal. In rare instances, it&#8217;s possible to maintain that control with some public cloud providers, but not many. </p>
+<h4>2. Security is a shared responsibility </h4>
+<p>Much like the issue above, responsibility for security operations (SecOps) needs to be partitioned between the enterprise CloudOps teams and the cloud provider. And this can get confusing, quick. </p>
+<p>Most breaches that occurred within public clouds did not lack necessary security technology. Instead, there was a lack of understanding about the roles and responsibilities of each party. </p>
+<p>If you want to review the legalese of this relationship, the particulars are spelled out in the agreements you accept (or accepted) before becoming your cloud provider&#8217;s customer. Today, it&#8217;s hard to find a CloudOps team member who has read and understands the legal jargon.  </p>
+<h4>3. Teams can&#8217;t keep up with the number of new cloud services moving to production</h4>
+<p>The &#8220;abundance of choice&#8221; or the need to select best-of-breed are the prime culprits of increased complexity that, in turn, the CloudOps team finds the most challenging. <a target="_blank" href="https://info.aptum.com/cloud-impact-study-1#whichcloud" rel="nofollow noopener">A report</a> by Aptum explains that abundance of choice typically results in a technological smorgasbord, where decoupled cloud dev and migration teams make their own calls around what technology to use.</p>
+<p>Complexity naturally arises when it&#8217;s time to join and coordinate the multitudes of those apples and oranges, which come in every flavor and variety. </p>
+<h3>Key tools and technology</h3>
+<p>It&#8217;s time to recognize CloudOps as a new, separate discipline. Although many people had hoped to toss CloudOps in with traditional operations, the special needs of public cloud-based applications and data just won&#8217;t allow that strategy to succeed. Get comfortable with the idea that cloud requires a new set of concepts, approaches, and, yes, technologies. </p>
+<p>Enterprises that have a set of ops tools and hope to extend them out to their newer public cloud platforms will find that the old tools won&#8217;t meet the changing requirements. Most ops teams will need to invest in new brands and technologies that make cloud and non-cloud operations specialized and separate, and thus more costly than expected.</p>
+<p>The good news for CloudOps has been bad news for traditional enterprise IT Ops. No matter what report or metric you review these days, legacy systems do not get the investment they did just a few years ago. </p>
+<p><a target="_blank" href="https://www.cloudindustryforum.org/content/cloud-infrastructure-spend-surpasses-spend-legacy-it-finds-new-research-cif" rel="nofollow noopener">A report by the Cloud Industry Forum concluded</a> that UK organizations devote 19% of their IT budgets to cloud infrastructure, just ahead of the 18% spent on on-premises infrastructure, and that by 2022, just 12% of IT budgets will be spent on legacy technology, as cloud usage increases. Keep in mind, legacy systems still comprise the majority of <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-enterprises-are-adapting-their-cobol-apps-vs-ditching-them" rel="noopener">systems that run businesses</a>. </p>
+<p>Among tool-makers, the lion&#8217;s share of R&amp;D investment is earmarked for CloudOps tool development. Obviously, this new focus comes at the expense of traditional ops tools, where users already see fewer updates and almost no innovation in on-premises systems operations technology. </p>
+<p>The good news for those already in the cloud, or moving there, is that new categories of technology will be created around the emerging needs of CloudOps teams. This will include tools such as <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-essentials?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">AIOps (artificial intelligence operations)</a>, <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/release-managers-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">CI/CD (continuous integration/continuous deployment)</a>, <a target="_blank" href="https://techbeacon.com/enterprise-it/infrastructure-code-engine-heart-devops" rel="noopener">IAC (infrastructure as code)</a>, <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/state-secops-202021-takeaways?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">SecOps (security operations)</a>, and MLOps (machine learning operations), just to name a few, all created specifically for the cloud.</p>
+<p>The current state of the market makes it possible for those who support CloudOps to access special-purpose tooling, where the capabilities of CloudOps tools have surpassed the capabilities of traditional operations tools. But back on premises, the once unthinkable is becoming commonplace: Systems that run the majority of business processes are often the most neglected.  </p>
+<h2>Steps to CloudOps success</h2>
+<p>Your plan to succeed with CloudOps should include establishing approaches, playbooks, tool sets, skills, and ongoing processes to achieve sustainable long-term success. </p>
+<p>Here are four emerging best practices that usually translate into an effective, optimized CloudOps enterprise. </p>
+<h4>1. Include traditional systems in the CloudOps strategy and tooling, if possible</h4>
+<p>Typically, this is not easy. There are paths to leverage the same operations approaches, including common SecOps processes and tooling, that may simplify enterprise IT operations overall. </p>
+<p>However, in many instances, existing enterprise ops teams force common solutions and processes into places where they are not an optimized fit. While it&#8217;s more complex to keep different tools and skills around to support cloud and non-cloud systems, for the majority who approach CloudOps, there are no other options. </p>
+<p>In this step, you&#8217;re determining if using a combined toolkit or processes is even a possibility. </p>
+<h4>2. Promote data to become a first-class citizen  </h4>
+<p>Data is often mixed in with general-purpose operations and approaches, including data that&#8217;s managed on public clouds. This is a big mistake. Consider the data—across platforms, across applications, even across clouds. </p>
+<p>Managing data under a holistic and unified approach carries huge advantages. <a target="_blank" href="https://techbeacon.com/enterprise-it/key-requirements-successful-dataops-initiative" rel="noopener">The DataOps strategy</a> needs to be large and overarching, and then broken down into different approaches and tooling. This includes DataOps technology such as master data management (MDM), backup and recovery, data performance engineering, microservices, containers, serverless, and even data using cloud connected edge-based systems. </p>
+<p>However, all should exist under a unified approach to DataOps that everyone on the ops teams understands. </p>
+<blockquote>
+<p><a target="_blank" href="https://techbeacon.com/enterprise-it/why-you-should-centralize-it-ops-destroy-data-islands" rel="noopener">Proper management of your data</a>, in the cloud and out, is about 75% of the CloudOps battle. </p>
+</blockquote>
+<h4>3. Make security systemic throughout CloudOps </h4>
+<p>While SecOps is part of CloudOps, there are many organizations that try to put SecOps, DataOps, NetOps, GovOps, etc., into their own silos. The trouble with that approach is that security needs to be a part of every aspect of CloudOps. Your workload security is only as effective as the most vulnerable component. </p>
+<p>Even though SecOps should be centrally managed, the security systems leveraged in public clouds should be purpose-built for the application, data, systems, use case, etc. Yes, this means you&#8217;ll spend much more for cloud security than you might have anticipated, and, typically, the most secure cloud-based systems will also be the most complex. </p>
+<h4>4. Place volatility and complexity into an operational domain </h4>
+<p>The most successful CloudOps shops understand their underlying cloud-based services and how applications and data storage leverage those services. They also realize that cloud-based services will be in a constant state of change, pretty much forever. If you restrict change, the value of cloud computing goes down significantly. </p>
+<p>Rather than limit change, learn to manage it effectively. The best practice here is to figure out where things change the most, such as database and development technology. Then learn how to leverage abstraction and automation to reduce the number of changes that need to be made to CloudOps processes and approaches. </p>
+<p>For instance, leverage data services for all database access, no matter what technology or platform. This approach allows the actual database to change as often as needed, limiting the impact on applications or other entities that leverage data. This can be done for processes, DevOps tooling, and even operating systems. </p>
+<h3>Get a clue, or buy one</h3>
+<p>This year the alarm will sound around the importance of CloudOps. The fact that most enterprises have no clue as to how to <a target="_blank" href="https://techbeacon.com/enterprise-it/cloudops-nirvana-achieve-continuous-ops-public-private-clouds" rel="noopener">properly implement CloudOps</a> will also come to light. </p>
+<p>A few enterprises will react by slowing down their digital transformation efforts, which will allow ops to catch up. But if your enterprise ends up on that path, the above best practices were applied improperly or ignored altogether. You can count that as a fail. </p>
+<p>If your enterprise does follow best practices, you will still need to remain vigilant to keep change and complexity issues under control. This is your mission, and with the proper planning and management, you will succeed.</p>
+<h4>Keep learning</h4>
 </div>
 <p><br />
-<br /><a href="https://threatpost.com/facebook-malicious-chrome-extension-developers-scraped-profile-data/163079/">Source link </a></p>
+<br /><a href="https://techbeacon.com/enterprise-it/why-cloud-operations-management-next-big-thing">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Linux Devices Under Attack by New FreakOut Malware</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/linux-devices-under-attack-by-new-freakout-malware/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 15:51:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Devices]]></category>
+		<category><![CDATA[FreakOut]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/linux-devices-under-attack-by-new-freakout-malware/</guid>
+
+					<description><![CDATA[The FreakOut malware is adding infected Linux devices to a botnet, in order to launch DDoS and cryptomining attacks. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The FreakOut malware is adding infected Linux devices to a botnet, in order to launch DDoS and cryptomining attacks.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/linux-attack-freakout-malware/163137/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Attackers Steal E-Mails, Info from OpenWrt Forum</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/attackers-steal-e-mails-info-from-openwrt-forum/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 14:45:27 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attackers]]></category>
+		<category><![CDATA[Emails]]></category>
+		<category><![CDATA[forum]]></category>
+		<category><![CDATA[Info]]></category>
+		<category><![CDATA[OpenWrt]]></category>
+		<category><![CDATA[Steal]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/attackers-steal-e-mails-info-from-openwrt-forum/</guid>
+
+					<description><![CDATA[Users of the Linux-based open-source firmware—which include developers from commercial router companies&#8211;may be targeted by phishing campaigns, administrators warn. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Users of the Linux-based open-source firmware—which include developers from commercial router companies&#8211;may be targeted by phishing campaigns, administrators warn.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/attackers-e-mails-openwrt-forum/163136/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Check out #NeotysPAC contributor Joey Hendricks’ blog about performance testing &#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/check-out-neotyspac-contributor-joey-hendricks-blog-about-performance-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 13:18:40 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Check]]></category>
+		<category><![CDATA[contributor]]></category>
+		<category><![CDATA[Hendricks]]></category>
+		<category><![CDATA[Joey]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[NeotysPAC]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/check-out-neotyspac-contributor-joey-hendricks-blog-about-performance-testing/</guid>
+
+					<description><![CDATA[Check out #NeotysPAC contributor Joey Hendricks’ blog about performance testing on the unit level with his open source framework QuickPotato.]]></description>
+										<content:encoded><![CDATA[
+<p>Check out <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#NeotysPAC</a> contributor Joey Hendricks’ blog about performance testing on the unit level with his open source framework QuickPotato.  <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2LN1f7k&amp;h=AT0uNs5H5slYE2CImhi5f5uvR3CBjssx9UWp7vhHMZ_K22LGyMw5dRacizKkNQCNmHYXS4TNxf4JYu59Bn6PEE-_sKukQ1DpoWjupV06Il8JTSDIEJIU7DNLwe1ZDUGuyT-iJ_X6DO81WbW00aU3c0Xw7XjxZD6RLvNw3nSU672aPPyMjCwdBodyn6AoINnZTKKOryL27Rx5jCwoQUT-KODMP3P5qykdB4-su7OXxHgHsmIvKHbdTI9oeYkfv4lFh8OfvmROyGeSmi4PTAExBr7pj3VfqEOrt0SVHmvRK2B4g03CecPsPkTq2eYiBgbgjq-oTdYM3oA8wqLufGZr2vusymUINEEOCiW52_BOLnJMZbp3KpaG-T1p65DknlJGV4yaoNt4C2CUUwt4pg-ehMzQmwRN3s1XIym4560J253_52ZLItvI6uyG9BZojLczLUUFb9GcOvy1qijWoK6JjnD3yAW3YZhn2H61AoHJ5tT9BsV_pG9g6MKyKAblyTO0rwseX5IITUA6KKa4LM8-emMkkUio3mttGD6rDQItegHoZR_7RR0jiUef_Mtj96F4VPuncNezrZXGOjIZTI7vX0oVajFup_kam_pB306LBCmYZNNpINxbgHXFngji0-AgkwWUotpzs-OPUiMiRsgW6Jl6Qhkr9ApiCYcwJDLD-g15kj7jG8919EXkiGWCLVvFS3cQIWdhsaI_677pVpVJwy1ZWEvYOvgmhLMmtcVA379ko-YqI-UB7HoXk8yBFEuwf9x-He7P7l6xhS4ghYl76Ngn3Y9OBU_W801uaK9cyZG_2AZZ4hMe4d_AXNQbaGAVZGQuGqoUxQ6BqCCeg4YuMo9h7Sns8GjwU1K7atY-TRadbwP4i-pJ5NY3gRjuLg0oGOZ7sjkYCMayVVsPJn5JBLGVa0b563zAfYjv9o74hwHy75SEN1p-D5zvEkjrfTWJlUeKNd6ne9ctQ0cVvtdAVykY-zwBBPkGG84mrB9yWOEoSDzbR9eilb3RTo0w1p6wmt2y8yky_3gPA3BT9NefdwIYfrfjh7ERo4QYkc7LX_hGiXQQyZc1jYWkoSHvu4JRO0V2KW7FieWfp6tLNNRgRiBrDyznorB6WM5j6Z9aZ_vaCWB-k8FND-GRgBVQgcimEOeW2JlOeVMUl7pmkX_x4N_pt5gtHohtafNYzBfB1VHTaFTVafYqJxi5nAHS-MPyr0-BgLcXJ60-AiMJ_2n8Nhtp6BRTM3WjBcUyhtmmNCNvxCdKtIianGTLFgZFzg" rel="noopener">https://bit.ly/2LN1f7k</a> <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/140439954_4035227556488677_8626971597150286923_o.png?_nc_cat=104&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=2TXjzwKR4tQAX-ysgpA&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=6b83a7af56a5a2ed80dc28887eafe02c&#038;oe=602C01B4" rel="noopener"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4035227656488667">Source</a>  </p>
 ]]></content:encoded>
 					
 		
