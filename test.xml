@@ -9,10 +9,10 @@
 
 <channel>
 	<title>QE Blog</title>
-	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
-	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
+	<atom:link href="http://wp.qe-blog.10.50.222.172.xip.io/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 19 Jan 2021 22:32:56 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 21 Jan 2021 00:31:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,15 +21,563 @@
 	<generator>https://wordpress.org/?v=5.6</generator>
 
 <image>
-	<url>http://wp.qe-blog.10.50.222.159.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
+	<url>http://wp.qe-blog.10.50.222.172.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
 	<title>QE Blog</title>
-	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
+	<link>http://wp.qe-blog.10.50.222.172.xip.io</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>Ransomware and DDoS is on the Rise: Tips for Distance Learning in 2021 &#124; McAfee Blogs Ransomware and DDoS is on the Rise: Tips for Distance Learning in 2021</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/ransomware-and-ddos-is-on-the-rise-tips-for-distance-learning-in-2021-mcafee-blogs-ransomware-and-ddos-is-on-the-rise-tips-for-distance-learning-in-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 21 Jan 2021 00:31:49 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[Distance]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Rise]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/ransomware-and-ddos-is-on-the-rise-tips-for-distance-learning-in-2021-mcafee-blogs-ransomware-and-ddos-is-on-the-rise-tips-for-distance-learning-in-2021/</guid>
+
+					<description><![CDATA[Ransomware and DDoS is on the Rise: Tips for Distance Learning in 2021 The holidays have come and gone, and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2><strong>Ransomware and DDoS is on the Rise: Tips for Distance Learning in 2021</strong></h2>
+<p>The holidays have come and gone, and students returned to the virtual classroom. But according to the FBI, cyberattacks are likely to <a target="_blank" href="https://abcnews.go.com/Politics/fbi-warns-cyberattacks-distance-learning/story?id=75038470" rel="noopener noreferrer">disrupt online learning</a> in the new year. As of December 2020, the FBI, Cybersecurity and Infrastructure Security Agency (CISA), and MS-ISAC continue to receive reports from K-12 educational institutions about the disruptions caused by cyberthreats, primarily ransomware and Distributed Denial of Service (DDoS). To protect their education and digital lives, distance learners will need to stay vigilant when it comes to ransomware and DDoS attacks. Let’s dive into the impact these threats have on the K-12 education system now that more people are plugged in as a result of distance learning.</p>
+<h3><strong>Hackers Hold Education for Ransom</strong></h3>
+<p>Of all the attacks plaguing K-12 schools this year, ransomware has been a particularly aggressive threat. Ransomware attacks typically block access to a computer system or files until the victim pays a certain amount of money or “ransom.” The FBI and the CISA issued a warning that showed a nearly 30% increase in ransomware attacks against schools. In August and September, 57% of ransomware incidents involved K-12 schools, compared to 28% of all reported ransomware incidents from January through July. And it’s unlikely that hackers will let up anytime soon. <a target="_blank" href="https://www.baltimoresun.com/education/bs-md-baltimore-county-schools-ransomware-20200106-20210107-7auuijearndh5oblbndcws74wa-story.html" rel="noopener noreferrer">Baltimore County’s school system</a> was recently shut down by a ransomware attack that hit all of its network systems and closed schools for several days for about 111,000 students. It wasn’t until last week that school officials could finally regain access to files they feared were lost forever, including student transcripts, first-quarter grades, and vital records for children in special education programs.</p>
+<p>According to to <a target="_blank" href="https://www.zdnet.com/article/cisa-and-fbi-warn-of-rise-in-ransomware-attacks-targeting-k-12-schools/" rel="noopener">ZDNet</a>, the five most active ransomware groups targeting K-12 schools are <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ryuk-ransomware-attack-rush-to-attribution-misses-the-point/?hilite=%27ransomware%27" rel="noopener">Ryuk</a>, Maze, Nefilim, AKO, and Sodinokibi/REvil. Furthermore, all five of these ransomware families are known to run “leak sites,” where they dump data from victims who don’t pay the ransom. This creates a particularly dangerous problem of having student data published online. To prevent distance learning disruption, students and educators need to understand the effects of ransomware on school systems and take steps to prevent the damage caused by this threat.</p>
+<h3><strong>DDoS Attacks Disrupt the Distance Learning</strong></h3>
+<p>An increase in ransomware attacks isn’t the only problem that K-12 schools are facing. The CISA and the FBI warned those participating in distance learning to protect themselves against other forms of cyberattacks such as Distributed Denial of Service (DDoS). DDoS is a method where hackers flood a network with so much traffic that it cannot operate or communicate as it normally would.</p>
+<p>According to <a target="_blank" href="https://www.darkreading.com/vulnerabilities---threats/preventing-and-mitigating-ddos-attacks-its-elementary/a/d-id/1339385" rel="noopener noreferrer">Dark Reading</a>, Miami-Dade County Public Schools experienced significant disruptions during their first three days of distance learning for the 2020-2021 school year, thanks to a series of DDoS attacks. The school system stated it had already experienced more than a dozen DDoS attacks since the start of the school year. Sandwich Public Schools in Massachusetts were also knocked offline by a DDoS attack. When school systems fall victim to DDoS attacks, students can lose access to essential documents, files, or online platforms that they need to complete assignments. And with many students relying heavily on distance learning systems, losing access could put them behind.</p>
+<h3><strong>Delete Disruptions: Follow These Security Tips</strong></h3>
+<p>In an effort to create a standardized framework for dealing with ransomware attacks across verticals – including education – McAfee has teamed up with Microsoft to lead the <a target="_blank" href="https://www.zdnet.com/article/microsoft-and-mcafee-headline-newly-formed-ransomware-task-force/" rel="noopener noreferrer">Ransomware Task Force</a>, along with 17 other security firms, tech companies, and non-profits. And while we’re taking critical actions to decrease the threat of ransomware attacks, there are other steps you can take to prevent ransomware and DDoS attacks from interrupting your distance learning experience. Follow these tips to take charge of your education and live your digital life free from worry:</p>
+<h3><strong>Don’t pay the ransom </strong></h3>
+<p>Many ransom notes seem convincing, and many only request small, seemingly doable amounts of money. Nevertheless, you should never pay the ransom. Paying does not promise you’ll get your information back, and many victims often don’t. So, no matter how desperate you are for your files, hold off on paying up.</p>
+<h3><strong>Do a complete backup </strong></h3>
+<p>With ransomware attacks locking away crucial data, it’s important to back up your files on all your machines. If a device becomes infected with ransomware, there’s no promise you’ll get that data back. Ensure you cover all your bases and have your data stored on an external hard drive or in the cloud.</p>
+<p><strong>Use decryption tools </strong></p>
+<p><a target="_blank" href="https://www.nomoreransom.org/" rel="noopener noreferrer"><strong>No More Ransom </strong></a>– an initiative that teams up security firms, including McAfee, and law enforcement – provides tools to free your data, each tailored for a specific type of ransomware. If your device gets held for ransom, start by researching what type of ransomware it is. Then, check out <a target="_blank" href="https://www.nomoreransom.org/decryption-tools.html" rel="noopener">No More Ransom’s decryption tools</a> and see if one is available for your specific strain.</p>
+<h3><strong>Secure your router </strong></h3>
+<p>Your Wi-Fi router is the gateway to your network. Secure it by changing the default password. If you aren’t sure how to do this, consult the internet for instructions on how to do it for your specific make and model, or call the manufacturer. Solutions like <a target="_blank" href="https://securehomeplatform.mcafee.com/" rel="noopener">McAfee Secure Home Platform</a>, which is embedded within select routers, can help you easily manage and protect your network from DDoS attacks and more.</p>
+<h3><strong>Change default passwords on IoT devices</strong></h3>
+<p>A lot of internet of things (IoT) devices come with default usernames and passwords. After taking your IoT device out of the box, the first thing you should do is change those default credentials. If you’re unsure of how to change the default setting on your IoT device, refer to setup instructions or do a bit of research online.</p>
+<h2><strong>Stay Updated</strong></h2>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
+<p> </p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/ransomware-and-ddos-is-on-the-rise-tips-for-distance-learning-in-2021/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Critical Cisco SD-WAN Bugs Allow RCE Attacks</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/critical-cisco-sd-wan-bugs-allow-rce-attacks/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 21:47:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[RCE]]></category>
+		<category><![CDATA[SDWAN]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/critical-cisco-sd-wan-bugs-allow-rce-attacks/</guid>
+
+					<description><![CDATA[Cisco is stoppering critical holes in its SD-WAN solutions and its smart software manager satellite. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Cisco is stoppering critical holes in its SD-WAN solutions and its smart software manager satellite.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/critical-cisco-sd-wan-bugs-rce-attacks/163204/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>NVIDIA Gamers Face DoS, Data Loss from Shield TV Bugs</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/nvidia-gamers-face-dos-data-loss-from-shield-tv-bugs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 20:45:43 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[DoS]]></category>
+		<category><![CDATA[Face]]></category>
+		<category><![CDATA[Gamers]]></category>
+		<category><![CDATA[Loss]]></category>
+		<category><![CDATA[Nvidia]]></category>
+		<category><![CDATA[Shield]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/nvidia-gamers-face-dos-data-loss-from-shield-tv-bugs/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/nvidia-gamers-dos-data-loss-shield-tv-bugs/163200/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Connected Lives of Babies: Protecting First Footprints in the Digital World, Part Two</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-two/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 19:08:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Babies]]></category>
+		<category><![CDATA[Connected]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[Footprints]]></category>
+		<category><![CDATA[Lives]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Protecting]]></category>
+		<category><![CDATA[World]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-two/</guid>
+
+					<description><![CDATA[  Picture an infant with a credit card.In her name. With a $10,000 limit. Well, it happens. As recent as]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p> </p>
+<p>Picture an infant with a credit card.<br />In her name. With a $10,000 limit.</p>
+<p>Well, it happens. As recent as 2017, it was estimated that more than<a target="_blank" href="https://www.cnbc.com/2018/04/24/child-identity-theft-is-a-growing-and-expensive-problem.html" rel="noopener noreferrer"> 1 million children in the U.S. were victims of identity theft.</a> Of them, two-thirds were under the age of seven, and the total losses connected to all this fraud weighed in $2.6 <em>billion</em> dollars.</p>
+<p>As I mentioned in <a target="_blank" href="https://www.mcafee.com/blogs/consumer/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/" rel="noopener">part one</a> of our article on the connected lives of babies, babies can make their first digital footprints before they’re even born. What’s more, the moment a child enters this world along with a unique ID like a Social Security Number, they become a tempting target for cybercriminals. The reason is this: babies and very young children are effectively a blank slate, upon which crooks can write their own illicit history of fraud. And it can be years before you or your child find out, long after the damage to their credit has been done.</p>
+<p>So, let’s pick up where we left off in part one by taking a close look baby’s privacy and how you can protect it.</p>
+<h3>Protect baby’s identity</h3>
+<p>There’s rightfully a great deal of conversation out there about the things <a target="_blank" href="https://www.mcafee.com/blogs/consumer/identity-protection/id-theft-faq/?hilite=%27identity%27%2C%27theft%27" rel="noopener noreferrer">we can do to protect our identity from theft</a>. What’s talked about less often is protecting children from identity theft. In fact, little ones are high-value targets for cybercriminals is because we typically don’t run credit reports on children. In this way, a crook with the Social Security Number of a child in the U.S. can open all manner of credit and accounts and go undetected for years until that child attempts to rent an apartment or open his or her first credit card.</p>
+<p>To protect your family from this kind of identity theft, the major credit reporting agencies suggest the following:</p>
+<p><strong>I. Check your child’s credit regularly.</strong> If your child indeed has a credit report against their name, there’s a strong chance that their identity has been stolen. You can work directly with the credit reporting agency to begin resolving the issue. If there is theft, file a report with the appropriate law enforcement agency. You’ll want a record of this as you dispute any false records.<br /><strong>II. Freeze your child’s credit.</strong> <a target="_blank" href="https://www.equifax.com/personal/education/identity-theft/freezing-your-childs-credit-report-faq/" rel="noopener noreferrer">A freeze will prevent access to your child’s report</a> and thus prevent any illicit activity. In the U.S., you’ll need to create a separate freeze with each of the three major credit reporting agencies (Equifax, Experian, and TransUnion). It’s free to do so, yet you’ll have to do a little legwork to prove that you’re indeed the child’s parent or guardian.<br /><strong>III. Secure your documents and keep personal info close to the vest</strong>. Along with things like a passport, insurance cards, and birth certificates, store these items in a safe location when you’re not actively using them. That goes extra for Social Security cards. Likewise, doctor’s offices often ask patients for their Social Security Number, which typically helps with their billing. See if they can accept an alternative form of ID, use just the last four digits, or simply forgo it altogether.</p>
+<h3>Register a URL for your child</h3>
+<p>Getting your kiddo a website is probably low on your list of priorities, yet it’s a sound move to consider. Here’s why: it carves out a piece of digital real estate that’s theirs and theirs alone.</p>
+<p>Whether you opt for a dot-com or one of several hundred other extensions like .net, .us, and .me, a personal URL gives you and your child ownership of yet another piece of their digital identity. No one else can own it as long as you’re paying the fee to maintain it. Think of it as an investment. Down the road, it could be used for a personal email address, a professional portfolio site someday, or just a side project in web design. With internet URLs being a finite resource, it’s wise to see if spending a relatively small fee each a year is worth securing this piece of your child’s identity.</p>
+<h3>Sharenting: Think of baby’s future</h3>
+<p>We all have one—that picture from our childhood that we absolutely dread because it’s embarrassing as all get-out. Now contrast that with today’s digital age, where an estimated <a target="_blank" href="https://99firms.com/blog/instagram-marketing-statistics/#gref" rel="noopener noreferrer">95 million photos are posted each day on Instagram alone</a>. We’re chronicling our lives, our friends’ lives, and the lives of our families at an incredible rate—almost without thinking about it. And that opens a host of issues about privacy and just how much we share. <a target="_blank" href="https://www.mcafee.com/blogs/consumer/family-safety/oversharing-are-you-ignoring-your-childs-privacy-when-you-post-online/?hilite=%27sharenting%27" rel="noopener">Enter the notion of “sharenting,” a form of oversharing that can trample your child’s right to privacy.</a></p>
+<p>For babies, we have to remember that they’re little people who, one day, before you know it, will grow up. How will some of those photos that seemed cute in the moment hold up when baby gets older? Will those photos that you posted prove embarrassing some day? Could they be used to harm their reputation or damage their sense of privacy and trust in you?</p>
+<p>With that, let’s remember a couple things when it comes to sharing photos of our children:</p>
+<p>• The internet is forever. Work on this basic assumption: once you post it, it’s online for good.<br />• Babies have a right to privacy too. It’s your job to protect it while they can’t.</p>
+<p>So, before you post, run through that one-two mental checklist.</p>
+<h3>Sharenting: Identity Theft</h3>
+<p>Sharenting can also lead to identity theft. In 2018, Barclay’s financial services estimated that oversharing by parents on social media will amount to more than 7 million cases of identity theft a year by 2030—just shy of a billion dollars U.S. worth of damage. This includes all the tips and cues that crooks can glean from social media posts and geographic metadata that’s captured in photographic files. Things like birthdays, pet names, names of schools, favorite teams, maiden names, and so forth are all fodder for password hacks and targeted phishing attacks. The advice here is to keep your digital lives close to the vest:<br />I. Set all social media accounts to private. Nothing posted on the internet is 100% private. Even when you post to “friends only,” your content can still get copied and re-shared.<br />II. This way, the general public can’t see what you’re posting. However, keep in mind that nothing you ever post online is 100% private. Someone who has access to your page could just as easily grab a screenshot of your post and then continue to share it that way.<br />III. Go into your phone’s settings and disable location information for photos. Specifics will depend on the brand of your phone, but you should have an option via the phone’s “location services” settings or within the camera app itself. Doing so will prevent the geographic location, time, date, and even device type from appearing in the metadata of your photos.<br />IV. Above all, think twice about posting in the first place. “Do I really need to share this?” is the right question to ask, particularly if it can damage your child’s privacy or be used by a scammer in some form, whether today or down the road.</p>
+<h3>The first steps for keeping your family safe online</h3>
+<p>Like new parents don’t have enough to think about already! However, thinking about these things now at the earliest stages will get you and your growing family off on a strong and secure start, one that you can build on for years to come—right up to the day when they ask for their first smartphone. But you have a while before that conversation crops up, so enjoy!</p>
+<h2>Stay Updated</h2>
+<p>To stay updated on all things McAfee and for more resources on staying secure from home, follow @McAfee_Home on Twitter, listen to our podcast Hackable?, and ‘Like’ us on Facebook.</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-two/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Malwarebytes Hit by SolarWinds Attackers</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/malwarebytes-hit-by-solarwinds-attackers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 17:36:35 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attackers]]></category>
+		<category><![CDATA[Hit]]></category>
+		<category><![CDATA[Malwarebytes]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/malwarebytes-hit-by-solarwinds-attackers/</guid>
+
+					<description><![CDATA[The attack vector was not the Orion platform but rather an email-protection application for Microsoft 365. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The attack vector was not the Orion platform but rather an email-protection application for Microsoft 365.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/malwarebytes-solarwinds-attackers/163190/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Investment Scammers Prey on Dating App Users, Interpol Warns</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/investment-scammers-prey-on-dating-app-users-interpol-warns/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 16:42:58 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Dating]]></category>
+		<category><![CDATA[Interpol]]></category>
+		<category><![CDATA[Investment]]></category>
+		<category><![CDATA[Prey]]></category>
+		<category><![CDATA[Scammers]]></category>
+		<category><![CDATA[Users]]></category>
+		<category><![CDATA[Warns]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/investment-scammers-prey-on-dating-app-users-interpol-warns/</guid>
+
+					<description><![CDATA[Users of dating apps &#8211; like Tinder, Match and Bumble &#8211; should be on the lookout for investment-fraud scammers. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Users of dating apps &#8211; like Tinder, Match and Bumble &#8211; should be on the lookout for investment-fraud scammers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/investment-scammers-dating-app-interpol/163179/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The best AI, analytics, and big data conferences of 2021</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/the-best-ai-analytics-and-big-data-conferences-of-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Analytics]]></category>
+		<category><![CDATA[big]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Data]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=7919</guid>
+
+					<description><![CDATA[As in 2020, most conference organizers are once again opting to hold their events virtually, althoug some events scheduled for the latter]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><span>As in 2020, most conference organizers are once again opting to hold their events virtually, althoug some events scheduled for the latter half of the year are optimistically scheduled to be in-person events.</span></p>
+<p><span>But whether events are online or in-person, they&#8217;re still one of the best ways to learn and develop new skills. Additionally, you can meet interesting people and discover how others are applying AI, <a target="_blank" href="https://content.microfocus.com/guide-to-modern-data-warehouse-tb/data-analytics-101?lx=hLKzJ4&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=2000174153" rel="noopener">analytics</a>, <a target="_blank" href="https://content.microfocus.com/guide-to-modern-data-warehouse-tb/about-machine-learning-data-warehouse?lx=hLKzJ4&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=2000174153" rel="noopener">big data, and machine learning</a> in their work.</span></p>
+<p><span>Here&#8217;s <em>TechBeacon</em>&#8216;s 2021 A-list of AI, analytics, and big data conferences. </span></p>
+<h3>January</h3>
+<h4>Subsurface: The Cloud Data Lake Conference</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter:</strong> </span><a target="_blank" href="https://twitter.com/dremio/" rel="nofollow noopener">@dremio</a></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> </span><a target="_blank" href="https://subsurfaceconf.com/winter2021" rel="nofollow noopener">subsurfaceconf.com/winter2021</a></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> January 27-28</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Virtual</span></p>
+<p style="margin-bottom:0in"><span><strong>Cost:</strong> Free</span></p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><span>This conference explores the latest innovations and offers real-world use cases. Attendees will hear firsthand from technology leaders at companies including Netflix, USAA, Adobe, Microsoft, and AWS about their experiences building modern data lakes. Participants will also learn how to innovate with open-source technologies, such as Apache Iceberg, Amundsen, InfluxDB IOx, Apache Parquet, and more.</span></p>
+<p style="margin-bottom:0in"> </p>
+<p><span><strong>Who should attend: </strong>Data architects and data engineers</span></p>
+<h4>Deep Learning 2.0 Virtual Summit</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/teamrework" rel="nofollow noopener">@teamrework</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> <a target="_blank" href="https://www.re-work.co/summits/deep-learning-virtual-summit-2021" rel="nofollow noopener">re-work.co/summits/deep-learning-virtual-summit-2021</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> January 28-29</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Virtual</span></p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="https://www.re-work.co/events/deep-learning-virtual-summit-2021/register" rel="nofollow noopener">Cost</a>:</strong> $199 (Last chance pass $249)</span></p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><span>This event brings together the latest technology advancements as well as practical examples of applying AI to solve challenges in business and society. Attendees will hear about advances in deep learning and from leading innovators. They will also learn from industry experts in speech and image recognition, neural networks, and big data. </span></p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><span><strong>Who should attend:</strong> </span>Developers, data scientists, DevOps specialists, IT decision makers, and anyone interested in combining DevOps practices with machine learning</p>
+<p style="margin-bottom:0in"> </p>
+<h3>February</h3>
+<h4>Data2030 Summit 2021</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter:</strong> </span><a target="_blank" href="https://twitter.com/data2030summit" rel="nofollow noopener">@Data2030Summit</a></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> </span><a target="_blank" href="https://data2030summit.com/" rel="nofollow noopener">data2030summit.com</a></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> February 8-11</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Virtual</span></p>
+<p style="margin-bottom:0in"><span><strong>Cost:</strong> 2,490 SEK</span></p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><span>Data2030 Summit is an annual strategy roundtable event that gathers the data management community to discuss ways to allow faster data innovation and AI </span>deployment across the enterprise. The 2021 program focuses on the most business-critical data management challenges, as well the latest methodologies, strategies, and tools that organizations use to address those challenges.</p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><strong>Who should attend:</strong> <span>Chief data officers</span> and data practitioners working with information management, data governance, master data management, data quality, enterprise architecture, and DataOps</p>
+<p style="margin-bottom:0in"> </p>
+<h4>Data Science Salon Virtual: General Machine Learning Practices (Healthcare, Technology, Finance)</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter: </strong><a target="_blank" href="https://twitter.com/datascisalon?lang=en" rel="nofollow noopener">@datascisalon</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> <a target="_blank" href="https://www.datascience.salon/healthcare-finance-technology/" rel="nofollow noopener">datascience.salon/healthcare-finance-technology/</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> February 16-17</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Virtual</span></p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="https://www.eventbrite.com/e/dss-general-machine-learning-practices-healthcare-technology-finance-tickets-123235146641" rel="nofollow noopener">Cost</a>:</strong> Free to $295</span></p>
+<p style="margin-bottom:0in"> </p>
+<p>This event brings together data science specialists in the healthcare, technology, and finance fields to educate one another, illuminate best practices, and develop new solutions. Attendees will learn from practitioners, technical experts, and executives about how to solve real-world problems by harnessing disruptions in data, AI, machine learning, and cutting-edge technologies.</p>
+<p><strong>Who should attend:</strong> Senior data scientists and data decision makers</p>
+<h3>March</h3>
+<h4>ODSC East</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter: </strong></span><a target="_blank" href="https://twitter.com/odsc" rel="nofollow noopener">@odsc</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://odsc.com/boston/" rel="nofollow noopener">odsc.com/boston</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>March 30-April 1</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Virtual</span></p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="https://odsc.com/boston" rel="nofollow noopener">Cost</a>:</strong> </span>$129 to $479 (time-sensitive discounts available); virtual bootcamp, $599</p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in">ODSC East 2021 is billed as one of the largest applied data science conferences in the world. Speakers at this year&#8217;s event include core contributors to many open-source libraries and languages. Attendees will learn about the latest AI and data science topics, tools, and languages from some of the best and brightest minds in the field.</p>
+<p style="margin-bottom:0in"> </p>
+<p><strong>Who should attend:</strong> Data scientists, software engineers, analysts, managers, and CxOs</p>
+<h3>April</h3>
+<h4>Deep Learning Summit London</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter: </strong></span><a target="_blank" href="https://twitter.com/teamrework" rel="nofollow noopener">@teamrework</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://www.re-work.co/events/deep-learning-summit-london-2021" rel="nofollow noopener">re-work.co/events/deep-learning-summit-london-2021</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>April 15-16</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Hybrid: London, United Kingdom, and online</p>
+<p style="margin-bottom:0in"><span><strong>Cost:</strong> </span>TBD</p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in">This event brings together the latest technology advancements as well as practical examples to solve challenges in business and society by using AI. Attendees will hear about advances in deep learning from leading innovators. They will also learn from industry experts in speech and image recognition, neural networks, and big data.</p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><strong>Who should attend:</strong> Developers, data scientists, DevOps specialists, IT decision makers, and anyone interested in combining DevOps practices with machine learning</p>
+<p style="margin-bottom:0in"> </p>
+<h4>Enterprise Data World</h4>
+<p style="margin-bottom:0in"><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/EnterpriseData" rel="nofollow noopener">@EnterpriseData</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://edw2021.dataversity.net/" rel="nofollow noopener">edw2021.dataversity.net</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>April 18-23</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Hybrid: San Diego, California, USA, or online</p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="http://edw2021.dataversity.net/registration-welcome.cfm" rel="nofollow noopener">Cost</a>:</strong> $499 to $1,499</span></p>
+<p style="margin-bottom:0in"> </p>
+<p>For more than 24 years, this conference has been recognized as one of the most comprehensive when it comes to data management. The forum covers a wide range of topics, including data architecture, enterprise information management, data engineering, AI, machine learning, and data and information quality. This event features live, instructor-led workshops, tutorials, product demos, case studies, and keynotes.</p>
+<p><strong>Who should attend:</strong> Chief data officers; data and information architects; vice presidents and directors of analytics, business intelligence, and data governance; information quality professionals; data scientists; and big data engineers</p>
+<h3>May</h3>
+<h4>Gartner Data &amp; Analytics Summit</h4>
+<p style="margin-bottom:0in"><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/hashtag/GartnerDA?src=hash" rel="nofollow noopener">#GartnerDA</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://www.gartner.com/en/conferences/emea/data-analytics-uk" rel="nofollow noopener">gartner.com/en/conferences/emea/data-analytics-uk</a></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>May 18-20</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Virtual</p>
+<p style="margin-bottom:0in"><strong><span><a target="_blank" href="http://www.gartner.com/en/conferences/emea/data-analytics-uk/register" rel="nofollow noopener">Cost</a>: </span></strong>€1,275 (public-sector and group discounts available)</p>
+<p style="margin-bottom:0in"> </p>
+<p>Attendees at this event will learn how to tie data and analytics strategy to business outcomes and promote the adoption of technologies such as AI, while creating a culture that accelerates change. The event offers participants a deep dive into the latest data and analytics trends and tools.</p>
+<p><strong>Who should attend:</strong> Analytics and business information practitioners, business analysts, data scientists, analytics and business information program leaders, enterprise information leaders, master data management program managers, and others</p>
+<h4>World Data Summit</h4>
+<p style="margin-bottom:0in"><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/WorldDataSummit" rel="nofollow noopener">@WorldDataSummit</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://worlddatasummit.com/" rel="nofollow noopener">worlddatasummit.com</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>May 19-21</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Amsterdam, Netherlands</span></p>
+<p style="margin-bottom:0in"><span><strong>Cost:</strong> </span>Conference, €1,295.00; workshop day, €495; conference and workshop, €1,595.00</p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in">The three-day conference will help attendees get a better understanding of developing an analytical model for their business and customer growth. Experts will discuss all aspects of data analysis, how to work with unstructured data, and how to upgrade data visualization and interpretability to the next level. Attendees can also dig deeper into customer analytics or increase their technical knowledge by attending a workshop.</p>
+<p style="margin-bottom:0in"> </p>
+<p><strong>Who should attend:</strong> Directors and managers of data analytics and modeling, data science, customer and market insight analytics, data integration and AI, business analytics, predictive analytics, data architecture, and statistics</p>
+<h4>Data Summit 2021</h4>
+<p style="margin-bottom:0in"><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/infotoday?lang=en&amp;lang=en" rel="nofollow noopener">@infotoday</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://www.dbta.com/DataSummit/2020/Default.aspx" rel="nofollow noopener">dbta.com/DataSummit/2020/Default.aspx</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>May 24-26</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Boston, Massachusetts, USA</p>
+<p style="margin-bottom:0in"><span><strong>Cost:</strong> TBD</span></p>
+<p style="margin-bottom:0in">This conference is organized by Information Today Inc., a publisher of Internet and technology magazines, newsletters, and books, as well as a stager of large-scale conferences and trade shows. The forum typically has four conference tracks, including one about the latest trends in analytics and another on the latest advances in data architecture.</p>
+<p><strong>Who should attend:</strong> CIOs, c<span>hief data officers</span>, database administrators, application developers, IT directors and managers, software engineers, data architects, technology specialists, data analysts, project managers, data scientists, and business directors and managers</p>
+<h3>June</h3>
+<h4>The Responsible AI Forum</h4>
+<p style="margin-bottom:0in"><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/TRAIF2021" rel="nofollow noopener">@TRAIF2021</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://responsibleaiforum.com/" rel="nofollow noopener">responsibleaiforum.com</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>June 7-9</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Munich, Germany</p>
+<p style="margin-bottom:0in"><strong><span><a target="_blank" href="http://responsibleaiforum.com/registration/registration-fees/" rel="nofollow noopener">Cost</a>: </span></strong>€800 (student, startup, and early discounts available)</p>
+<p style="margin-bottom:0in">This three-day event brings together members of industry, civil society, government, and academia to explore through shared stories, cutting-edge research, and practical applications the most relevant and pressing issues related to the responsible use of AI. Organizers also aim to encourage exchange between research and practice through productive discussion and demonstration.</p>
+<p style="margin-bottom:0in"><strong>Who should attend:</strong> Anyone involved the field of AI</p>
+<h4> </h4>
+<h4>Gartner Data &amp; Analytics Summit</h4>
+<p style="margin-bottom:0in"><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/hashtag/GartnerDA?src=hash" rel="nofollow noopener">#GartnerDA</a></p>
+<p style="margin-bottom:0in"><span><strong>Web: </strong></span><a target="_blank" href="https://www.gartner.com/en/conferences/apac/data-analytics-australia" rel="nofollow noopener">gartner.com/en/conferences/apac/data-analytics-australia</a><span> </span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> </span>June 8-9</p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Virtual</p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="http://www.gartner.com/en/conferences/apac/data-analytics-australia/register" rel="nofollow noopener">Cost</a>:</strong> </span>$1,325 (public-sector and group discounts available)</p>
+<p>Attendees will learn how to tie data and analytics strategy to business outcomes and promote the adoption of technologies such as AI, while creating a culture that accelerates change. The event offers participants a deep dive into the latest data and analytics trends and tools.</p>
+<p><strong>Who should attend: </strong>Analytics and business information practitioners, business analysts, data scientists, analytics and business information program leaders, enterprise information leaders, master data management program managers, and others</p>
+<h4>Monitorama</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/Monitorama" rel="nofollow noopener">@Monitorama</a> / <a target="_blank" href="https://twitter.com/search?q=%23monitorama&amp;src=typd" rel="nofollow noopener">#monitorama</a><br /><strong>Web:</strong> <a target="_blank" href="http://monitorama.com/2021/pdx.html" rel="nofollow noopener">monitorama.com/2021/pdx.html</a><br /><strong>Date:</strong> June 21-23<br /><strong>Location:</strong> Portland, Oregon, USA<br /><strong><a target="_blank" href="https://ti.to/monitorama/pdx2021" rel="nofollow noopener">Cost</a>:</strong> $700</p>
+<p>This conference focuses on techniques and tools used to monitor complex applications and infrastructure. Attendees can hear talks by industry experts and community leaders about the newest approaches to monitoring and observability, including AIOps. Past conferences have covered topics such as rethinking UX for AI-driven monitoring tools and how AI helps observe decentralized systems.</p>
+<p><strong>Who should attend:</strong> Monitoring engineers, developers, production engineers, software architects and engineers, reliability engineers, and network architects</p>
+<h4>AIOPs Expo</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/AIOpsExpo" rel="nofollow noopener">@AIOpsExpo</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.aiopsexpo.com/" rel="nofollow noopener">aiopsexpo.com</a><br /><strong>Date:</strong> June 22-25<br /><strong>Location:</strong> Miami, Florida, USA<br /><strong><a target="_blank" href="https://www.aiopsexpo.com/registration.aspx" rel="nofollow noopener">Cost</a>:</strong> $599 to $1,995 (time-sensitive discounts available)</p>
+<p>AIOps Expo offers attendees a deep dive into how AI and machine learning can improve application performance, network performance, and security. The forum focuses specifically on AI for IT operations platforms that build and improve upon application performance monitoring, network performance monitoring, and diagnostic tools.</p>
+<p><strong>Who should attend:</strong> IT operations analysts, IT operations assistants, IT operations managers, business systems analysts, CRM and sales force experts, industrial engineers, network admins and engineers, performance management experts, process engineers, service management team members, and others</p>
+<h3>July</h3>
+<h4>Industry of Things World USA</h4>
+<p><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/IoTClan" rel="nofollow noopener">@IoTClan</a> / <a target="_blank" href="https://twitter.com/search?q=%23IoTClan&amp;src=typd" rel="nofollow noopener">#IoTClan</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.industryofthingsworldusa.com/" rel="nofollow noopener">industryofthingsworldusa.com</a><br /><strong>Date:</strong> July 12-13<br /><strong>Location:</strong> Hybrid: San Diego, California, USA, and online<br /><strong>Cost:</strong> Varies</p>
+<p>Organizers say that this event is the leading business platform for smart manufacturing and the industrial IoT. The event focuses on real-world case studies of end users, looking at how smart manufacturing technologies are changing businesses and industries. Speakers from around the world offer insights into their concepts and present current strategies. Topics include automation, machine-to-machine communication, interoperability, analytics, and new business models. Sister conferences are scheduled for <a target="_blank" href="https://www.industryofthingsworld.com/" rel="nofollow noopener">Berlin, Germany</a>, and <a target="_blank" href="https://www.industryofthingsworldasia.com/" rel="nofollow noopener">Singapore</a>.</p>
+<p><strong>Who should attend:</strong> IoT specialists and strategists, IoT novices, cloud computing adopters, big data analytics experts, and anyone else involved in a business&#8217;s digital transformation</p>
+<h4>MLDM 2021: International Conference on Machine Learning and Data Mining</h4>
+<p><strong>Twitter:</strong> <span><a target="_blank" href="https://twitter.com/sciencepp" rel="nofollow noopener">@sciencepp</a></span><br /><strong>Web:</strong> <span><a target="_blank" href="http://www.mldm.de/" rel="nofollow noopener">mldm.de</a></span><br /><strong>Date:</strong> July 17-22<br /><strong>Location:</strong> <span>New York City, New York, USA</span><br /><strong><a target="_blank" href="https://www.mldm.de/registration.php" rel="nofollow noopener">Cost</a>:</strong> Varies</p>
+<p><span>This conference aims to bring together researchers from all over the world who deal with machine learning and data mining to discuss the recent status of the research and to direct further developments. </span></p>
+<p><span><strong>Who should attend: </strong>Anyone interested in machine learning and data mining</span></p>
+<h3>August</h3>
+<h4>Ai4 2021</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/Ai4Conferences" rel="nofollow noopener">@Ai4Conferences</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> <a target="_blank" href="https://ai4.io/2021/" rel="nofollow noopener">ai4.io/2021/</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> August 17-19</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Virtual</span></p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="https://ai4.io/2021/register/" rel="nofollow noopener">Cost</a>:</strong> $395 (general registration)</span></p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in">This event brings together business leaders and data practitioners to facilitate the adoption of AI and machine-learning technologies. Organizers say their mission is to help provide a common framework for what AI means to the enterprise as well as the future of the world in the face of a new era of responsible human-machine collaboration.</p>
+<p style="margin-bottom:0in"> </p>
+<p><strong>Who should attend: </strong>Individuals who hold nontechnical, senior-level positions and/or technical roles at their organizations, data scientists, and data practitioners</p>
+<h3>September</h3>
+<h4>Real Business Intelligence Conference</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter:</strong> </span><a target="_blank" href="https://twitter.com/RealBIEvent" rel="nofollow noopener">@RealBIEvent</a> / <a target="_blank" href="https://twitter.com/hashtag/REALBIEVENT?src=hash" rel="nofollow noopener">#REALBIEVENT</a></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> </span><a target="_blank" href="https://realbusinessintelligence.com/" rel="nofollow noopener">realbusinessintelligence.com</a></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> September 21-22</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> </span>Hybrid: Cambridge, Massachusetts, USA, and online</p>
+<p style="margin-bottom:0in"><span><strong><a target="_blank" href="http://www.eventbrite.com/e/2021-real-business-intelligence-conference-an-in-person-and-on-line-event-tickets-113842333484" rel="nofollow noopener">Cost</a>: </strong></span>$299 to $499</p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in">Organized by Dresner Advisory Services, this conference is designed for IT and business leaders looking for strategies for success with business intelligence, analytics, and information and performance management. It emphasizes using real-world best practices and proven methods to produce pragmatic and actionable takeaways.</p>
+<p style="margin-bottom:0in"> </p>
+<p><strong>Who should attend:</strong> Business and IT leaders, CIOs, c<span>hief data officers</span>, business intelligence and data governance practitioners, and data scientists</p>
+<h4>AI &amp; Big Data Expo North America</h4>
+<p style="margin-bottom:0in"><span><strong>Twitter:</strong> <a target="_blank" href="https://twitter.com/ai_expo/" rel="nofollow noopener">@ai_expo</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Web:</strong> <a target="_blank" href="https://www.ai-expo.net/northamerica/" rel="nofollow noopener">ai-expo.net/northamerica/</a></span></p>
+<p style="margin-bottom:0in"><span><strong>Date:</strong> September 22-23</span></p>
+<p style="margin-bottom:0in"><span><strong>Location:</strong> Santa Clara, California, USA</span></p>
+<p style="margin-bottom:0in"><span><strong>Cost: </strong>TBD</span></p>
+<p style="margin-bottom:0in"> </p>
+<p>This event will provide insight from over 500 speakers sharing their industry knowledge and real-life experiences in solo presentations, expert panel discussions, and in-depth fireside chats. Topics include demystifying AI, creating an AI-powered organization, machine learning, decision science, RPA and automation, data analytics, and chatbots.</p>
+<p><strong>Who should attend:</strong> CTOs, heads of innovation and technology, IT directors, developers, investors, and professionals from the government and automotive sectors</p>
+<h3>October</h3>
+<h4>SRECon Europe, Middle East, Africa</h4>
+<p style="margin-bottom:0in"><span>Twitter: <a target="_blank" href="https://twitter.com/SREcon" rel="nofollow noopener">@SREcon</a> / <a target="_blank" href="https://twitter.com/hashtag/srecon?lang=en" rel="nofollow noopener">#SREcon</a><br /><strong>Web:</strong> <a target="_blank" href="https://www.usenix.org/conference/srecon21emea" rel="nofollow noopener">usenix.org/conference/srecon21emea</a><br />Date: October 12-14<br />Location: Amsterdam, Netherlands<br />Cost: TBD</span></p>
+<p style="margin-bottom:0in"><span>The SRE conferences are a series of forums for site reliability engineers. The forums focus on resilience, reliability, and performance in complex distributed systems. </span></p>
+<p><strong>Who should attend:</strong><span> SREs, software architects, and developers</span></p>
+<h3>November</h3>
+<h4>AI for Good Summit</h4>
+<p><span>Twitter: </span><a target="_blank" href="https://twitter.com/teamrework" rel="nofollow noopener">@teamrework</a><br /><span><strong>Web:</strong> </span><a target="_blank" href="https://www.re-work.co/events/ai-for-good-summit-seattle-2021" rel="nofollow noopener">re-work.co/events/ai-for-good-summit-seattle-2021</a><br /><span>Date: </span>November 11-12<br /><span>Location: </span>Seattle, Washington, USA<br /><strong><span><a target="_blank" href="http://www.re-work.co/events/ai-for-good-summit-seattle-2021/register" rel="nofollow noopener">Cost</a>: </span></strong>$1,095 to $1,495 (time-sensitive discounts apply)</p>
+<p><span>The summit will explore responsible and practical applications of machine learning and deep learning to improve individual lives and society, including environmental sustainability, increasing access to education and healthcare, reducing AI bias, and increasing transparency.</span></p>
+<p><span><strong>Who should attend:</strong> Chief data officers, CEOs, CIOs, company founders, government leaders, policy advisors, professors, and chief AI officers</span></p>
+<h4>ODSC West</h4>
+<p><span>Twitter: </span><a target="_blank" href="https://twitter.com/odsc" rel="nofollow noopener">@odsc</a><br /><span><strong>Web:</strong> </span> <a target="_blank" href="https://odsc.com/california/" rel="nofollow noopener">odsc.com/california/</a><br /><span>Date: </span>November 15-18<br /><span>Location: </span>San Francisco, California, USA<br /><strong><span><a target="_blank" href="http://odsc.com/california/" rel="nofollow noopener">Cost</a>: </span></strong>$299 to $1,299 (time-sensitive discounts available)</p>
+<p><span>The ODSC West Conference 2021 is billed as one of the largest and only applied data science training conferences in the world. Instructors include some of the core contributors of many open-source tools, libraries, and languages. Attendees will hear about the latest AI and data science topics, tools, and languages from some of the best and brightest individuals in the field.</span></p>
+<p style="margin-bottom:0in"><span><strong>Who should attend:</strong> Data scientists, software engineers, analysts, managers, and CxOs</span></p>
+<p style="margin-bottom:0in"> </p>
+<p style="margin-bottom:0in"><span><i>Mark your calendars and make your choices soon! Prices may vary based on how early you register. Also, remember that hotel and travel costs are generally separate from the conference pricing.</i></span></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/best-ai-analytics-big-data-conferences-2021">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Google Research Pinpoints Security Soft Spot in Multiple Chat Platforms</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/google-research-pinpoints-security-soft-spot-in-multiple-chat-platforms/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 15:21:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chat]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Multiple]]></category>
+		<category><![CDATA[Pinpoints]]></category>
+		<category><![CDATA[platforms]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Soft]]></category>
+		<category><![CDATA[Spot]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/google-research-pinpoints-security-soft-spot-in-multiple-chat-platforms/</guid>
+
+					<description><![CDATA[Mystery of spying using popular chat apps uncovered by Google Project Zero researcher. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Mystery of spying using popular chat apps uncovered by Google Project Zero researcher.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/google-research-pinpoints-security-soft-spot-in-multiple-chat-platforms/163175/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Switching from Selenium to Cypress, TestCafe or Playwright?</title>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/switching-from-selenium-to-cypress-testcafe-or-playwright/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Cypress]]></category>
+		<category><![CDATA[Playwright]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[Switching]]></category>
+		<category><![CDATA[TestCafe]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/switching-from-selenium-to-cypress-testcafe-or-playwright/</guid>
+
+					<description><![CDATA[This past year, we’ve seen a lot of trends emerging among our customers and the market. Organizations are doubling down]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>This past year, we’ve seen a lot of trends emerging among our customers and the market. Organizations are doubling down on testing as they heavily rely on their online experiences to either survive or thrive, and they are also taking time to streamline their operations. DevOps transformation is accelerating, and to support that we’re seeing more and more organizations adopting native JavaScript testing frameworks as they <a target="_blank" href="https://saucelabs.com/blog/shift-left-continuous-testing-eliminating-risk-through-agile-testing-practices" rel="noopener">shift testing left.</a> </p>
+<p>Let’s take a look at why organizations are choosing JavaScript testing frameworks and how Sauce Labs can help you in your test automation and DevOps journey. </p>
+<h3>Why are Cypress, TestCafe and Playwright gaining popularity? </h3>
+<p>Cypress, TestCafe and Playwright are all native JavaScript test frameworks that have been in development for the past few years. They are each gaining popularity among developers as their capabilities become more robust. The advantages of native frameworks is that they are written in JavaScript, which many developers prefer, and they run within a browser, rather than remotely executing tests like Selenium. </p>
+<p>This makes them developer-friendly and can reduce flakiness through the tight browser integration, network mocking/stubbing, emulating network capabilities and resolutions, as well as delightful features such as built-in waits and test reruns. All of these frameworks are open source and each have their own pros and cons depending on your testing priorities. Sauce Labs <a target="_blank" href="https://saucelabs.com/platform/sauce-testrunner-toolkit" rel="noopener">supports all three</a>, and works with customers as they make decisions on the future of testing at their organizations. </p>
+<h3>Is Selenium still relevant?</h3>
+<p>Selenium is the most adopted and most robust test automation framework used today. It is also the preferred test automation framework for QA testers who run comprehensive test automation strategies, so we think it’s here to stay. </p>
+<p>Selenium is comprehensive, complies with the W3C WebDriver standard, and is supported by the open source community. That means it offers the best test coverage and testing capabilities and remains the framework of choice for QA teams. With Selenium, you have remote testing targets, which allows you to specify exact browsers or browser versions and device combinations on a<a target="_blank" href="https://saucelabs.com/resources/articles/selenium-grid" rel="noopener"> Selenium grid</a> for complete and reliable testing. </p>
+<h3>Are there other JavaScript testing frameworks?</h3>
+<p>Yes, there are a lot of other JavaScript testing frameworks being developed such as WebdriverIO, Nightwatch and Puppeteer. </p>
+<p>Of particular interest is WebdriverIO, which also complies with W3C standards and has broad support from the open source community. It leverages some of the native browser APIs to solve many of the same problems that Cypress, TestCafe and Playwright address. If you want Sauce Labs to support a framework that you use, <a target="_blank" href="https://info.saucelabs.com/javascript-at-scale-on-sauce.html" rel="noopener">let us know</a>! </p>
+<h3>How does Sauce Labs integrate with Cypress, TestCafe or Playwright testing?</h3>
+<p>Sauce Labs is a solution that scales test automation. So whether you use Selenium or Cypress along with Sauce Labs, you can both execute tests at scale, and deliver test insights for fast debugging. </p>
+<p>As developers adopt DevOps, test automation needs to be robust to run each time code is committed and to provide tools for debugging. Sauce Labs has preconfigured Docker images and VMs for each framework that can be leveraged to run tests in the cloud at scale through the <a target="_blank" href="https://saucelabs.com/platform/sauce-testrunner-toolkit" rel="noopener">Sauce Testrunner Toolkit</a>. This lets a team test locally, or on CI at scale. And no matter how you test, test assets are sent to the Sauce Cloud for easy debugging with screenshots, videos and logs and historical insights. </p>
+<p>The Sauce Testrunner Toolkit can be used in conjunction with Sauce API testing, sisual testing, performance testing and live testing solutions to provide a full DevOps test toolchain solution. </p>
+<h3>Should you switch from Selenium to Cypress, TestCafe or Playwright?</h3>
+<p>Switching test automation frameworks is a big undertaking and you need to make sure you understand the tradeoffs. Start with your testing needs. Which browsers do you need to test on? Who will write automated tests in your organization? Are you integrating with CI/CD? No matter which test automation framework you decide to use, Sauce Labs solutions will let you scale and increase productivity as you shift testing left. </p>
+<p>We’ve just opened a beta for native JavaScript testing on the Sauce Labs Cloud. If you use any native JavaScript framework, <a target="_blank" href="https://info.saucelabs.com/javascript-at-scale-on-sauce.html" rel="noopener">check out the beta here</a>. </p>
+</div>
+<p><br />
+<br /><a href="https://saucelabs.com/blog/switching-from-selenium-to-cypress-testcafe-or-playwright">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Refactoring Made Easy with IntelliJ &#8211; Corina Pip [webinar recording] &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/refactoring-made-easy-with-intellij-corina-pip-webinar-recording-automated-visual-testing/</link>
+		<link>http://wp.qe-blog.10.50.222.172.xip.io/refactoring-made-easy-with-intellij-corina-pip-webinar-recording-automated-visual-testing/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
 		<pubDate>Tue, 19 Jan 2021 22:32:56 +0000</pubDate>
@@ -71,374 +619,6 @@
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/refactoring-with-intellij/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The Connected Lives of Babies: Protecting First Footprints in the Digital World, Part 1</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 21:44:47 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Babies]]></category>
-		<category><![CDATA[Connected]]></category>
-		<category><![CDATA[Digital]]></category>
-		<category><![CDATA[Footprints]]></category>
-		<category><![CDATA[Lives]]></category>
-		<category><![CDATA[Part]]></category>
-		<category><![CDATA[Protecting]]></category>
-		<category><![CDATA[World]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/</guid>
-
-					<description><![CDATA[The Connected Lives of Babies: Protecting The First Footprints in the Digital World, Part One A baby can leave their]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>The Connected Lives of Babies: Protecting The First Footprints in the Digital World, Part One</strong></h2>
-<p>A baby can leave their first footprints internet even before they’re born.</p>
-<p>The fact is that children start creating an identity online before they even put a little pinky on a device, let alone come home for the first time. That “Hello, world!” moment can come much, much sooner. And it will come from you.</p>
-<p>From posting baby’s ultrasound pic to sharing a video of the gender reveal celebration, these are the first digital footprints that your child will make. With your help, of course, because it’s you who’ll snap all those photos, capture all those videos, and share many of them on the internet. Yet even though you’re the one who took them, those digital footprints you’ve created belong to your child.</p>
-<p>And that’s something for us to pause and consider during this wonderful (and challenging!) stretch of early parenthood. Just as we look out for our children’s well-being in every other aspect of their little lives, we must look out for their digital well-being too. Babies are entitled to privacy too. And their little digital lives need to be protected as well.</p>
-<h3><strong>The connected lives of babies</strong></h3>
-<p>Babies lives are more connected than you might think. Above and beyond the social media posts we make to commemorate all their “firsts,” from first solid food to first steps, there’s digital information that’s associated with your child as well. Things like Social Security Numbers, medical records, and even financial records related to them all exist, all of which need to be protected just like we protect that same digital information as adults.</p>
-<p>Likewise, there’s all manner of connected devices like Wi-Fi baby monitors, baby sleep monitors, even smart cribs that sense restlessness in your baby and then rocks and soothes those little cares away. Or how about a smart changing table that tracks the weight of your child over time? You and your baby may make use of those. And because all these things are connected, they have to be protected.</p>
-<p>This is the first of two articles that takes a look at this topic, and we’ll start with a look at making good choice about purchasing “smart devices” and connected baby monitors—each pieces of technology that parents should investigate before bringing them into their home or nursery.</p>
-<h3><strong>Buying smart devices for baby, Part One: Connect with your care provider</strong></h3>
-<p>As a new parent, or as a parent who’s just added another tyke to the nest, you’ll know just how many products are designed for your baby—and then marketed toward your fears or concerns. Before buying such smart devices, read reviews and speak with your health care provider to get the facts.</p>
-<p>For example, you can purchase connected monitors that track metrics like baby’s breathing, heart rate, and blood-oxygen levels while they sleep. While they’re often presented as a means of providing peace of mind, the question to ask is what that biometric information can really do for you. This is where your health care provider can come in, because if you have concerns about Sudden Infant Death Syndrome (SIDS), that’s a much larger conversation. Your provider can discuss the topic with you about and whether such a device is an effective measure for your child.</p>
-<h3><strong>Buying smart devices for baby, Part Two: Do your security research</strong></h3>
-<p>Another question to ask is what’s done with the biometric data that such devices monitor. Is it kept on your smartphone, or is it stored in the cloud by the device manufacturer? Is that storage secure? Is the data shared with any third parties? Who owns that data? Can you opt in or opt out of sharing it? Can you access and delete it as needed? Your baby’s biometrics are <em>highly </em>personal info and must be protected as such. Without clear-cut answers about how your baby’s data is handled, you should consider giving that device a hard pass.</p>
-<p>How do you get those answers? This is another instance where you’ll have to roll up your sleeves and read the privacy policy associated with the device or service in question. And as it is with privacy policies, some are written far more clearly and concisely than others. The information is in there. You may have to dig for it. (Of note, there are instances where parents consented to the use of their data for the purposes of government research, <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5718309/" rel="noopener noreferrer">such as this study</a> published by the U.S. National Institutes of Health.)</p>
-<p>Related, here’s the advice I share on every connected “smart” device out there, from baby-related items to smart refrigerators: before you purchase, read up on reviews and comments from other customers. Look for news articles about the device manufacturer too. The fact of the matter is that some smart device manufacturers are much better at baking security protocols into their devices than others, so investigate their track record to see if you can uncover any issues with their products or security practices. Information such as this can help you make an even more informed choice.</p>
-<h3><strong>Secure your Wi-Fi baby monitor (and other smart devices too)</strong></h3>
-<p>An online search for “hacked baby monitor” will quickly call up several unsettling stories about hackers tuning into Wi-Fi baby monitors—scanning the camera about the room at will and <a target="_blank" href="https://www.11alive.com/article/money/consumer/louisville-family-baby-monitor-hacked-stranger/417-f803d099-c8f9-4111-9d3e-9629e3e536a7" rel="noopener noreferrer">perhaps even speaking directly to the child</a>. Often, this is because the default factory password has not been changed by the parents. And a “default password” may as well be “public password” because lists of default passwords for connected devices are freely available on the internet. In fact, researchers from Ben Gurion University looked at the basic security of off-the-shelf smart devices found that, “<a target="_blank" href="https://www.eurekalert.org/pub_releases/2018-03/aabu-osd031218.php" rel="noopener noreferrer">It only took 30 minutes to find passwords for most of the devices and some of them were found only through a Google search of the brand</a>.”</p>
-<p>The three things you can do to prevent this from happening to your Wi-Fi baby monitor, along with other connected devices around your home, are:</p>
-<ol>
-<li><strong>Change the default password.</strong> <a target="_blank" href="https://www.mcafee.com/blogs/consumer/strong-password-ideas-to-keep-your-information-safe/?hilite=%27strong%27%2C%27passwords%27" rel="noopener">Use a strong and unique password</a> for your baby monitor and other devices.</li>
-<li><strong>Update.</strong> Check regularly for device updates, as they often harden the security of the device in addition to adding performance upgrades.</li>
-</ol>
-<ul>
-<li><strong>Use two-factor authentication if available. </strong>This, in addition to a password, offers an extra layer of protection that makes a device far more difficult to hack.</li>
-</ul>
-<p>What about “old-style” baby monitors that work on a radio frequency (RF) like a walkie-talkie does? Given that they’re not connected to the internet, there’s less risk involved. That’s because hacking into an RF monitor requires a per person to be in close physical proximity to the device and have access to the same broadcast frequency as your device—a far less likely proposition, yet a risk none the less. Some modern RF baby monitors even encrypt the radio signal, mitigating that much more risk.</p>
-<h3><strong>And now, let’s talk about online privacy for babies and children </strong></h3>
-<p>Next up, we’ll take a closer look at baby’s privacy online. Yes, that’s a thing! And an important one at that, as taking charge of their privacy right now can protect them from cybercrime and harm as they get older. Feel free to read on right here.</p>
-<h3><strong>Stay Updated </strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/the-connected-lives-of-babies-protecting-first-footprints-in-the-digital-world-part-1/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>DNSpooq Flaws Allow DNS Hijacking of Millions of Devices</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/dnspooq-flaws-allow-dns-hijacking-of-millions-of-devices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 21:25:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[DNS]]></category>
-		<category><![CDATA[DNSpooq]]></category>
-		<category><![CDATA[Flaws]]></category>
-		<category><![CDATA[Hijacking]]></category>
-		<category><![CDATA[Millions]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/dnspooq-flaws-allow-dns-hijacking-of-millions-of-devices/</guid>
-
-					<description><![CDATA[Seven flaws in open-source software Dnsmasq could allow DNS cache poisoning attacks and remote code execution. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Seven flaws in open-source software Dnsmasq could allow DNS cache poisoning attacks and remote code execution.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/dnspooq-flaws-allow-dns-hijacking-of-millions-of-devices/163163/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Rob Joyce to Take Over as NSA Cybersecurity Director</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/rob-joyce-to-take-over-as-nsa-cybersecurity-director/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 20:20:03 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cybersecurity]]></category>
-		<category><![CDATA[Director]]></category>
-		<category><![CDATA[Joyce]]></category>
-		<category><![CDATA[NSA]]></category>
-		<category><![CDATA[Rob]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/rob-joyce-to-take-over-as-nsa-cybersecurity-director/</guid>
-
-					<description><![CDATA[Joyce will replace Anne Neuberger, who is now deputy national security advisor for the incoming Biden administration. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Joyce will replace Anne Neuberger, who is now deputy national security advisor for the incoming Biden administration.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/rob-joyce-nsa-cybersecurity-director/163160/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Selenium vs Cypress: The Rematch &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/selenium-vs-cypress-the-rematch-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 17:09:43 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Cypress]]></category>
-		<category><![CDATA[Rematch]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/selenium-vs-cypress-the-rematch-automated-visual-testing/</guid>
-
-					<description><![CDATA[It’s been more than two years since we last evaluated Cypress vs Selenium WebDriver, and as we all know, a]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>It’s been more than two years since we last evaluated <a target="_blank" href="https://info.applitools.com/uc2zs" rel="noopener">Cypress vs Selenium WebDriver</a>, and as we all know, a lot can happen in two years.</p>
-<p>Since then, Selenium WebDriver has made impressive improvements as they prepare for the <a target="_blank" href="https://info.applitools.com/uc2zz" rel="noopener">major release of Selenium 4</a>, and Cypress has grown from its infancy phase. Let’s see what’s changed!</p>
-<h2 id="h-target-audience">Target Audience</h2>
-<p>In our previous post, we asserted that most of Selenium’s users are testers, while developers seemed to favor Cypress. While this was certainly true in its early days, <a target="_blank" href="https://info.applitools.com/uc2zQ" rel="noopener">the popularity of Cypress has increased with testers</a> as well. Cypress has become the most widely used test automation tool amongst our JavaScript users, which comprises mostly of dedicated automation engineers.</p>
-<p>My theory for the uptick in the use of Cypress amongst testers is that collaboration is a key factor in tooling. It’s hard enough to get developers to contribute to UI testing, and if Cypress is a way to bridge that gap, then testers are all for it!</p>
-<h2 id="h-language-support">Language Support</h2>
-<p>Since Cypress was designed for frontend developers, it only supports JavaScript – the language of the web. This has not changed since Cypress was released, and it does not seem to be on the product’s roadmap. Consequentially, this puts Cypress at a disadvantage to Selenium which supports JavaScript as well as Java, Python, C#, Ruby, and Kotlin. This gives Selenium a much wider target audience, especially since <a target="_blank" href="https://info.applitools.com/uc2Ag" rel="noopener">Java is the most popular programming language for UI testing</a>.</p>
-<h2 id="h-browser-support">Browser Support</h2>
-<p>Arguably, the biggest enhancement to Cypress since our last post is its move from Chrome-only to cross browser support!</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"/>
-<p>Cypress’ lack of cross-browser support was a major con for those who needed to test their applications on more than just Chrome. Many Cypress users had to rely on third-party plugins such as <a target="_blank" href="https://info.applitools.com/uc27F" rel="noopener">Applitools’ Ultrafast Grid</a> to gain test coverage on multiple browsers.  However, with version 4 of Cypress, this now opens the possibility of <a target="_blank" href="https://cypress.io/blog/2020/02/06/introducing-firefox-and-edge-support-in-cypress-4-0" rel="noreferrer noopener">testing on Firefox and Edge</a> as well.</p>
-<p>Of course, Selenium WebDriver has always supported Chrome, Firefox, and IE; and has also supported Edge and Safari for years. This gives Selenium an edge in this category for those who need to test on Internet Explorer and Safari (the default browser for iOS devices).</p>
-<h2 id="h-browser-capabilities">Browser Capabilities</h2>
-<p>The architecture for Cypress and Selenium varies quite a bit (see our <a target="_blank" href="https://info.applitools.com/uc2zs" rel="noopener">original comparison</a> for the details). Cypress runs tests in-browser while Selenium uses a browser driver. Both of these approaches have their pros and cons. </p>
-<p>Cypress tests are faster since there are less processes to call for every browser interaction. However, features such as opening and manipulating multiple tabs and windows is not supported in Cypress. Likewise, Cypress has <a target="_blank" href="https://www.cypress.io/blog/2020/02/12/working-with-iframes-in-cypress/" rel="noreferrer noopener">limited support</a> for working with iframes and requires you to write custom code to be able to do so.</p>
-<p>Selenium users do not have to concern themselves with these limitations. Not only are iframes fully supported in WebDriver, but Selenium 4 boasts updated support for <a target="_blank" href="https://info.applitools.com/uc278" rel="noopener">multiple windows and tabs</a>.</p>
-<h2 id="h-server-manipulation">Server Manipulation</h2>
-<p>In our previous post, we admired Cypress’ built-in support for mocking and intercepting server requests and responses. At that time, this powerful feature was not available in Selenium. However, Selenium 4 provides a brand new <a target="_blank" href="https://info.applitools.com/uc273" rel="noopener">Chrome DevTools Protocol API</a> which enables Selenium tests to not only mock server requests and intercept responses, but to fully leverage all of the possibilities of Chrome DevTools. This is a game-changing feature for Selenium WebDriver!</p>
-<h2 id="h-which-is-better-selenium-or-cypress">Which is Better? Selenium or Cypress?</h2>
-<p>That depends on your needs. </p>
-<p>Cypress integrates quite nicely into a given production codebase making it favorable for developers, which therefore fares better for collaboration between developers and automation engineers/testers. Cypress’ architecture also inherently speeds up test execution.</p>
-<p>However, Selenium has far more reach and support for browsers, programming languages, and browser capabilities. </p>
-<p>If your application is relatively simple and speed and collaboration are the most important factors, then Cypress is a great choice. However, if your application and user journeys are more complex and require extensive testing across multiple platforms, then Selenium would be a better choice.</p>
-<p>I applaud you for reading to the end! Tools have their intended purposes and while multiple tools may seem similar, we shouldn’t be so quick to label one tool as “better” than another. Evaluate any given tool against your requirements to determine which would be the most efficient for your needs. </p>
-<p>I’m excited to see the progress in both Selenium WebDriver and Cypress over the last two years. Both are clearly here to stay!</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/selenium-vs-cypress-the-rematch/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SolarWinds Malware Arsenal Widens with Raindrop</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-malware-arsenal-widens-with-raindrop/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 16:40:55 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Arsenal]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Raindrop]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[Widens]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-malware-arsenal-widens-with-raindrop/</guid>
-
-					<description><![CDATA[The post-compromise backdoor installs Cobalt Strike to help attackers more laterally through victim networks. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The post-compromise backdoor installs Cobalt Strike to help attackers more laterally through victim networks.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/solarwinds-malware-arsenal-raindrop/163153/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Why cloud operations management is the next big thing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/why-cloud-operations-management-is-the-next-big-thing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[big]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Management]]></category>
-		<category><![CDATA[Operations]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/why-cloud-operations-management-is-the-next-big-thing/</guid>
-
-					<description><![CDATA[This is the year to get down to business with cloud computing. It&#8217;s time to move from the hype-driven world of]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>This is the year to get down to business with cloud computing. It&#8217;s time to move from the hype-driven world of cloud migration—including <a target="_blank" href="https://content.microfocus.com/app-modernization-dx-tb/app-modernization-101?lx=my4KH8&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=WQDGNFY2037340&amp;_ga=2.80536343.188473915.1611057387-403716879.1610126925" rel="noopener">application modernization</a> and <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/about-digital-transformation?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">digital transformation</a>—to the humbler world of long-term cloud-based systems operations. </p>
-<p>Here&#8217;s where many IT shops stand today: Their organization moved to the cloud in a big way, and they now have a mix of cloud configurations—<a target="_blank" href="https://techbeacon.com/enterprise-it/multicloud-vs-hybrid-cloud-management-top-approaches-tools" rel="noopener">whether they call it hybrid IT, hybrid cloud, or multicloud</a>—and the looming X-factor is how to manage the resulting complexity. They&#8217;re ready to set up standard operating procedures for long-term cloud operations. </p>
-<p>It&#8217;s already clear that rapidly expanding cloud ecosystems are shaping up to be a <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/manage-cloud-complexity?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">huge headache for IT in the coming yea</a><a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">r</a>. Success depends upon having an effective CloudOps strategy. You need an action plan to deal with everything from problem management to monitoring, security, and performance.</p>
-<p>Here&#8217;s how your team can <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/architect-manage-hybrid-multiclouds?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">better control cloud management issues at scale</a>, including <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">what needs to be done now to ensure success</a>. </p>
-<h2>CloudOps requires a reset</h2>
-<p>Here&#8217;s an uncomfortable truth: Most enterprises that migrated to cloud-based platforms, both public and private, did not focus on operations. Most transition teams believed that operations would be covered by the existing operational teams and that cloud computing systems would simply be another platform to be maintained, secured, and governed. </p>
-<p>The enlightenment usually happens when enterprises are 30% to 40% migrated, both data and applications. Teams discover that approaches and technologies leveraged for traditional operations are unsuitable for use with cloud-based deployments. </p>
-<p>If you&#8217;re wondering why, the answer lies with these three main factors:</p>
-<h4>1. The remote nature of cloud-based platforms  </h4>
-<p>Because cloud systems are out of the direct physical control of ops teams, special care must be taken in how they carry out operations. Typically, the ops team is dependent upon the cloud provider for all information, and the provider schedules and executes most platform-related fixes. </p>
-<p>This lack of control actually contributes to the value of leveraging public cloud. You turn over most of the direct control to the public cloud provider, which typically involves relinquishing the time-consuming control of platforms down to the raw metal. In rare instances, it&#8217;s possible to maintain that control with some public cloud providers, but not many. </p>
-<h4>2. Security is a shared responsibility </h4>
-<p>Much like the issue above, responsibility for security operations (SecOps) needs to be partitioned between the enterprise CloudOps teams and the cloud provider. And this can get confusing, quick. </p>
-<p>Most breaches that occurred within public clouds did not lack necessary security technology. Instead, there was a lack of understanding about the roles and responsibilities of each party. </p>
-<p>If you want to review the legalese of this relationship, the particulars are spelled out in the agreements you accept (or accepted) before becoming your cloud provider&#8217;s customer. Today, it&#8217;s hard to find a CloudOps team member who has read and understands the legal jargon.  </p>
-<h4>3. Teams can&#8217;t keep up with the number of new cloud services moving to production</h4>
-<p>The &#8220;abundance of choice&#8221; or the need to select best-of-breed are the prime culprits of increased complexity that, in turn, the CloudOps team finds the most challenging. <a target="_blank" href="https://info.aptum.com/cloud-impact-study-1#whichcloud" rel="nofollow noopener">A report</a> by Aptum explains that abundance of choice typically results in a technological smorgasbord, where decoupled cloud dev and migration teams make their own calls around what technology to use.</p>
-<p>Complexity naturally arises when it&#8217;s time to join and coordinate the multitudes of those apples and oranges, which come in every flavor and variety. </p>
-<h3>Key tools and technology</h3>
-<p>It&#8217;s time to recognize CloudOps as a new, separate discipline. Although many people had hoped to toss CloudOps in with traditional operations, the special needs of public cloud-based applications and data just won&#8217;t allow that strategy to succeed. Get comfortable with the idea that cloud requires a new set of concepts, approaches, and, yes, technologies. </p>
-<p>Enterprises that have a set of ops tools and hope to extend them out to their newer public cloud platforms will find that the old tools won&#8217;t meet the changing requirements. Most ops teams will need to invest in new brands and technologies that make cloud and non-cloud operations specialized and separate, and thus more costly than expected.</p>
-<p>The good news for CloudOps has been bad news for traditional enterprise IT Ops. No matter what report or metric you review these days, legacy systems do not get the investment they did just a few years ago. </p>
-<p><a target="_blank" href="https://www.cloudindustryforum.org/content/cloud-infrastructure-spend-surpasses-spend-legacy-it-finds-new-research-cif" rel="nofollow noopener">A report by the Cloud Industry Forum concluded</a> that UK organizations devote 19% of their IT budgets to cloud infrastructure, just ahead of the 18% spent on on-premises infrastructure, and that by 2022, just 12% of IT budgets will be spent on legacy technology, as cloud usage increases. Keep in mind, legacy systems still comprise the majority of <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-enterprises-are-adapting-their-cobol-apps-vs-ditching-them" rel="noopener">systems that run businesses</a>. </p>
-<p>Among tool-makers, the lion&#8217;s share of R&amp;D investment is earmarked for CloudOps tool development. Obviously, this new focus comes at the expense of traditional ops tools, where users already see fewer updates and almost no innovation in on-premises systems operations technology. </p>
-<p>The good news for those already in the cloud, or moving there, is that new categories of technology will be created around the emerging needs of CloudOps teams. This will include tools such as <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-essentials?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">AIOps (artificial intelligence operations)</a>, <a target="_blank" href="https://content.microfocus.com/continuous-delivery-release-automation-tb/release-managers-continuous-delivery?lx=-DC2cJ&amp;custom_url=continuous-delivery-release-automation-tb?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">CI/CD (continuous integration/continuous deployment)</a>, <a target="_blank" href="https://techbeacon.com/enterprise-it/infrastructure-code-engine-heart-devops" rel="noopener">IAC (infrastructure as code)</a>, <a target="_blank" href="https://content.microfocus.com/state-of-secops-tb/state-secops-202021-takeaways?lx=ipOpkU&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">SecOps (security operations)</a>, and MLOps (machine learning operations), just to name a few, all created specifically for the cloud.</p>
-<p>The current state of the market makes it possible for those who support CloudOps to access special-purpose tooling, where the capabilities of CloudOps tools have surpassed the capabilities of traditional operations tools. But back on premises, the once unthinkable is becoming commonplace: Systems that run the majority of business processes are often the most neglected.  </p>
-<h2>Steps to CloudOps success</h2>
-<p>Your plan to succeed with CloudOps should include establishing approaches, playbooks, tool sets, skills, and ongoing processes to achieve sustainable long-term success. </p>
-<p>Here are four emerging best practices that usually translate into an effective, optimized CloudOps enterprise. </p>
-<h4>1. Include traditional systems in the CloudOps strategy and tooling, if possible</h4>
-<p>Typically, this is not easy. There are paths to leverage the same operations approaches, including common SecOps processes and tooling, that may simplify enterprise IT operations overall. </p>
-<p>However, in many instances, existing enterprise ops teams force common solutions and processes into places where they are not an optimized fit. While it&#8217;s more complex to keep different tools and skills around to support cloud and non-cloud systems, for the majority who approach CloudOps, there are no other options. </p>
-<p>In this step, you&#8217;re determining if using a combined toolkit or processes is even a possibility. </p>
-<h4>2. Promote data to become a first-class citizen  </h4>
-<p>Data is often mixed in with general-purpose operations and approaches, including data that&#8217;s managed on public clouds. This is a big mistake. Consider the data—across platforms, across applications, even across clouds. </p>
-<p>Managing data under a holistic and unified approach carries huge advantages. <a target="_blank" href="https://techbeacon.com/enterprise-it/key-requirements-successful-dataops-initiative" rel="noopener">The DataOps strategy</a> needs to be large and overarching, and then broken down into different approaches and tooling. This includes DataOps technology such as master data management (MDM), backup and recovery, data performance engineering, microservices, containers, serverless, and even data using cloud connected edge-based systems. </p>
-<p>However, all should exist under a unified approach to DataOps that everyone on the ops teams understands. </p>
-<blockquote>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/why-you-should-centralize-it-ops-destroy-data-islands" rel="noopener">Proper management of your data</a>, in the cloud and out, is about 75% of the CloudOps battle. </p>
-</blockquote>
-<h4>3. Make security systemic throughout CloudOps </h4>
-<p>While SecOps is part of CloudOps, there are many organizations that try to put SecOps, DataOps, NetOps, GovOps, etc., into their own silos. The trouble with that approach is that security needs to be a part of every aspect of CloudOps. Your workload security is only as effective as the most vulnerable component. </p>
-<p>Even though SecOps should be centrally managed, the security systems leveraged in public clouds should be purpose-built for the application, data, systems, use case, etc. Yes, this means you&#8217;ll spend much more for cloud security than you might have anticipated, and, typically, the most secure cloud-based systems will also be the most complex. </p>
-<h4>4. Place volatility and complexity into an operational domain </h4>
-<p>The most successful CloudOps shops understand their underlying cloud-based services and how applications and data storage leverage those services. They also realize that cloud-based services will be in a constant state of change, pretty much forever. If you restrict change, the value of cloud computing goes down significantly. </p>
-<p>Rather than limit change, learn to manage it effectively. The best practice here is to figure out where things change the most, such as database and development technology. Then learn how to leverage abstraction and automation to reduce the number of changes that need to be made to CloudOps processes and approaches. </p>
-<p>For instance, leverage data services for all database access, no matter what technology or platform. This approach allows the actual database to change as often as needed, limiting the impact on applications or other entities that leverage data. This can be done for processes, DevOps tooling, and even operating systems. </p>
-<h3>Get a clue, or buy one</h3>
-<p>This year the alarm will sound around the importance of CloudOps. The fact that most enterprises have no clue as to how to <a target="_blank" href="https://techbeacon.com/enterprise-it/cloudops-nirvana-achieve-continuous-ops-public-private-clouds" rel="noopener">properly implement CloudOps</a> will also come to light. </p>
-<p>A few enterprises will react by slowing down their digital transformation efforts, which will allow ops to catch up. But if your enterprise ends up on that path, the above best practices were applied improperly or ignored altogether. You can count that as a fail. </p>
-<p>If your enterprise does follow best practices, you will still need to remain vigilant to keep change and complexity issues under control. This is your mission, and with the proper planning and management, you will succeed.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/why-cloud-operations-management-next-big-thing">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Linux Devices Under Attack by New FreakOut Malware</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/linux-devices-under-attack-by-new-freakout-malware/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 15:51:30 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[FreakOut]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Malware]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/linux-devices-under-attack-by-new-freakout-malware/</guid>
-
-					<description><![CDATA[The FreakOut malware is adding infected Linux devices to a botnet, in order to launch DDoS and cryptomining attacks. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The FreakOut malware is adding infected Linux devices to a botnet, in order to launch DDoS and cryptomining attacks.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/linux-attack-freakout-malware/163137/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Attackers Steal E-Mails, Info from OpenWrt Forum</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/attackers-steal-e-mails-info-from-openwrt-forum/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 14:45:27 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attackers]]></category>
-		<category><![CDATA[Emails]]></category>
-		<category><![CDATA[forum]]></category>
-		<category><![CDATA[Info]]></category>
-		<category><![CDATA[OpenWrt]]></category>
-		<category><![CDATA[Steal]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/attackers-steal-e-mails-info-from-openwrt-forum/</guid>
-
-					<description><![CDATA[Users of the Linux-based open-source firmware—which include developers from commercial router companies&#8211;may be targeted by phishing campaigns, administrators warn. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Users of the Linux-based open-source firmware—which include developers from commercial router companies&#8211;may be targeted by phishing campaigns, administrators warn.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/attackers-e-mails-openwrt-forum/163136/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Check out #NeotysPAC contributor Joey Hendricks’ blog about performance testing &#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/check-out-neotyspac-contributor-joey-hendricks-blog-about-performance-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 19 Jan 2021 13:18:40 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Check]]></category>
-		<category><![CDATA[contributor]]></category>
-		<category><![CDATA[Hendricks]]></category>
-		<category><![CDATA[Joey]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/check-out-neotyspac-contributor-joey-hendricks-blog-about-performance-testing/</guid>
-
-					<description><![CDATA[Check out #NeotysPAC contributor Joey Hendricks’ blog about performance testing on the unit level with his open source framework QuickPotato.]]></description>
-										<content:encoded><![CDATA[
-<p>Check out <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#NeotysPAC</a> contributor Joey Hendricks’ blog about performance testing on the unit level with his open source framework QuickPotato.  <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2LN1f7k&amp;h=AT0uNs5H5slYE2CImhi5f5uvR3CBjssx9UWp7vhHMZ_K22LGyMw5dRacizKkNQCNmHYXS4TNxf4JYu59Bn6PEE-_sKukQ1DpoWjupV06Il8JTSDIEJIU7DNLwe1ZDUGuyT-iJ_X6DO81WbW00aU3c0Xw7XjxZD6RLvNw3nSU672aPPyMjCwdBodyn6AoINnZTKKOryL27Rx5jCwoQUT-KODMP3P5qykdB4-su7OXxHgHsmIvKHbdTI9oeYkfv4lFh8OfvmROyGeSmi4PTAExBr7pj3VfqEOrt0SVHmvRK2B4g03CecPsPkTq2eYiBgbgjq-oTdYM3oA8wqLufGZr2vusymUINEEOCiW52_BOLnJMZbp3KpaG-T1p65DknlJGV4yaoNt4C2CUUwt4pg-ehMzQmwRN3s1XIym4560J253_52ZLItvI6uyG9BZojLczLUUFb9GcOvy1qijWoK6JjnD3yAW3YZhn2H61AoHJ5tT9BsV_pG9g6MKyKAblyTO0rwseX5IITUA6KKa4LM8-emMkkUio3mttGD6rDQItegHoZR_7RR0jiUef_Mtj96F4VPuncNezrZXGOjIZTI7vX0oVajFup_kam_pB306LBCmYZNNpINxbgHXFngji0-AgkwWUotpzs-OPUiMiRsgW6Jl6Qhkr9ApiCYcwJDLD-g15kj7jG8919EXkiGWCLVvFS3cQIWdhsaI_677pVpVJwy1ZWEvYOvgmhLMmtcVA379ko-YqI-UB7HoXk8yBFEuwf9x-He7P7l6xhS4ghYl76Ngn3Y9OBU_W801uaK9cyZG_2AZZ4hMe4d_AXNQbaGAVZGQuGqoUxQ6BqCCeg4YuMo9h7Sns8GjwU1K7atY-TRadbwP4i-pJ5NY3gRjuLg0oGOZ7sjkYCMayVVsPJn5JBLGVa0b563zAfYjv9o74hwHy75SEN1p-D5zvEkjrfTWJlUeKNd6ne9ctQ0cVvtdAVykY-zwBBPkGG84mrB9yWOEoSDzbR9eilb3RTo0w1p6wmt2y8yky_3gPA3BT9NefdwIYfrfjh7ERo4QYkc7LX_hGiXQQyZc1jYWkoSHvu4JRO0V2KW7FieWfp6tLNNRgRiBrDyznorB6WM5j6Z9aZ_vaCWB-k8FND-GRgBVQgcimEOeW2JlOeVMUl7pmkX_x4N_pt5gtHohtafNYzBfB1VHTaFTVafYqJxi5nAHS-MPyr0-BgLcXJ60-AiMJ_2n8Nhtp6BRTM3WjBcUyhtmmNCNvxCdKtIianGTLFgZFzg" rel="noopener">https://bit.ly/2LN1f7k</a> <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="ff fg" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4035227656488667%3Atop_level_post_id.4035227656488667%3Atl_objid.4035227656488667%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4035227656488667%3Apage_id.163354693676002%3Aphoto_id.4035227553155344%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX9tpIVLA-v3G1r-%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611062320%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4035227656488667%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4035227656488667%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A-3770797997227088313&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/140439954_4035227556488677_8626971597150286923_o.png?_nc_cat=104&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=2TXjzwKR4tQAX-ysgpA&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=6b83a7af56a5a2ed80dc28887eafe02c&#038;oe=602C01B4" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4035227656488667">Source</a>  </p>
 ]]></content:encoded>
 					
 		
