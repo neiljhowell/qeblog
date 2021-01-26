@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 25 Jan 2021 21:51:13 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 26 Jan 2021 11:00:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,35 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>TikTok Flaw Lay Bare Phone Numbers, User IDs For Phishing Attacks</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiktok-flaw-lay-bare-phone-numbers-user-ids-for-phishing-attacks/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 11:00:07 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Bare]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[IDs]]></category>
+		<category><![CDATA[Lay]]></category>
+		<category><![CDATA[Numbers]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Phone]]></category>
+		<category><![CDATA[TikTok]]></category>
+		<category><![CDATA[User]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tiktok-flaw-lay-bare-phone-numbers-user-ids-for-phishing-attacks/</guid>
+
+					<description><![CDATA[A security flaw in TikTok could have allowed attackers to query query the platform&#8217;s database – potentially opening up for]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A security flaw in TikTok could have allowed attackers to query query the platform&#8217;s database – potentially opening up for privacy violations.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/tiktok-flaw-phishing-attacks/163322/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Breaking Down Joe Biden’s $10B Cybersecurity ‘Down Payment’</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/breaking-down-joe-bidens-10b-cybersecurity-down-payment/</link>
 		
@@ -363,86 +392,6 @@ fbq('track', "PageView");</p>
 <br />The &#8220;KindleDrip&#8221; attack would have allowed attackers to siphon money from unsuspecting victims.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/amazon-kindle-attack-email/163282/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Fast, Efficient and Effective Cross Browser Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/fast-efficient-and-effective-cross-browser-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 22 Jan 2021 19:36:30 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Cross]]></category>
-		<category><![CDATA[Effective]]></category>
-		<category><![CDATA[Efficient]]></category>
-		<category><![CDATA[Fast]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/fast-efficient-and-effective-cross-browser-testing/</guid>
-
-					<description><![CDATA[What do you think about cross browser testing? Developers likely develop on only one browser – and maybe only one]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>What do you think about <a target="_blank" href="https://applitools.com/cross-browser-testing/" rel="noopener">cross browser testing</a>? </p>
-<p>Developers likely develop on only one browser – and maybe only one operating system. How does an app maker ensure that defects on other browsers will not escape to their user base? In theory, cross browser testing can help companies catch product defects before products get released to customers. But the legacy approach – setting up a bunch of parallel devices and running tests across each – incurs significant engineering skill and resource cost.</p>
-<h2 id="h-choose-your-cross-browser-testing-camp">Choose Your Cross Browser Testing Camp</h2>
-<p>With this legacy infrastructure requirement, most engineering managers find themselves in one of two camps:</p>
-<figure class="wp-block-table">
-<table>
-<tbody>
-<tr>
-<td class="has-text-align-center" data-align="center">
-<p><strong>CAMP 1: </strong></p>
-<p>CROSS BROWSER TESTING </p>
-<p>NECESSARY IF INEFFICIENT</p>
-</td>
-<td class="has-text-align-center" data-align="center">
-<p><strong>CAMP 2: </strong></p>
-<p>CROSS-BROWSER TESTING </p>
-<p>NOT WORTH THE EFFORT</p>
-</td>
-</tr>
-</tbody>
-</table>
-</figure>
-<p>Managers in Camp 1 run cross browser tests. These managers have been held accountable for missed bugs due to an untested platform in the past. They know that cross browser testing provides coverage, even though it requires resources for infrastructure deployment and test maintenance. </p>
-<p>Managers in Camp 2 have not experienced significant field bugs that were caused by untested behavior in different browsers. Camp 2 managers have evaluated cross browser testing. They have concluded that cross browser testing has a low likelihood of exposing unique bugs. </p>
-<p>So, yes, Camp 1 and Camp 2 share a common view of cross browser testing – slow, cumbersome to manage with limited effectiveness in catching defects. Camp 1 people have been burned by a bug they could have caught with cross browser testing. Members of Camp 2 have not.</p>
-<h2 id="h-camp-3-use-modern-cross-browser-testing">Camp 3 – Use Modern Cross Browser Testing</h2>
-<p>The first two camps get stifled by the legacy approach to cross browser testing. In the legacy approach, you take your existing test infrastructure and port it from your browser of choice (Chrome, Firefox, Edge, Safari) on your test operating system and check out combinations of browsers and operating systems. You might even check out different viewport sizes to validate responsive app behavior.</p>
-<p>Camp 3 uses Modern Cross Browser Testing, made possible by <a target="_blank" href="https://applitools.com/applitools-ai-and-deep-learning/" rel="noopener">Applitools Visual AI</a> and <a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener">Applitools Ultrafast Grid</a>. Applitools Visual AI provides highly accurate visual comparisons between a captured screen and a previous baseline. With Applitools Ultrafast Grid, the Visual AI screen capture also returns the DOM of the captured screen.  Then, Applitools Ultrafast Grid reruns the DOM against each target browser/operating system/viewport combination specified by the tester. For each target, Applitools captures the resulting screen and compares it against the relevant baseline.</p>
-<p>Modern cross browser testing leverages key insights:</p>
-<ul>
-<li>The bulk of apps generate a single DOM response regardless of the target browser;</li>
-<li>Cross browser tests expose visual defects, as functional defects get caught elsewhere;</li>
-<li>Legacy test code, which inspects elements of the DOM, requires lots of code to capture and compare all the visual elements for an app response;</li>
-<li>Visual AI makes cross browser test automation feasible and effective.</li>
-</ul>
-<p>At Applitools, we know that our Ultrafast Grid, combined with Visual AI, create a simple approach to cross browser testing. We overcome all the objections and complaints from both Camp 1 and Camp 2. And our approach contradicts the conventional wisdom of engineers who sit in Camp 1 and in Camp 2.</p>
-<p>We found ourselves stuck with a question: </p>
-<p><em>How do you get a group of really smart people who think one way to change their minds?</em></p>
-<p>Evidence? Maybe. Let them try it for themselves? Possibly – but why would someone want to try something out? </p>
-<p><em>What if you give them an incentive? Like a contest?</em></p>
-<p>Applitools had a lot of experience from the <a target="_blank" href="https://applitools.com/2019-ultrafast-visual-ai-hackathon-winners/" rel="noopener">2019 Visual AI Rockstar Hackathon</a>. We knew we could get engineers to try their hand at using Visual AI. Perhaps, we could get a similar response with another hackathon pitting legacy cross browser testing against Visual AI plus Ultrafast Grid. </p>
-<p>So, we ran the <a target="_blank" href="https://applitools.com/blog/ultrafast-cross-browser-hackathon/" rel="noopener">Applitools Cross Browser Testing Hackathon</a> in June 2020. My next few blog posts will go through the hackathon in detail and present you with some of the results and conclusions. They include:</p>
-<ul>
-<li>Ultrafast Grid provides faster test execution</li>
-<li>You need fewer test runs with Ultrafast Grid</li>
-<li>Your tests require less coding (and less time debugging test code)</li>
-<li>Ultrafast grid needs no additional hardware (whether onsite or provided by a service)</li>
-<li>Cross browser tests with Ultrafast Grid are easier to maintain</li>
-<li>A large number of the participants who were not previously inclined towards cross browser testing would recommend Visual AI and Ultrafast Grid.</li>
-</ul>
-<p>You can skip the blog posts and <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">read the full report</a> instead. </p>
-<p>You can read <a target="_blank" href="https://www.linkedin.com/in/marie-drake/" rel="noopener">Marie Drake’s</a><a target="_blank" href="https://applitools.com/blog/can-automated-cross-browser-testing-be-ultrafast/" rel="noopener">summary of her experience as a Hackathon participant</a> and winner.</p>
-<p>Or, you can wait for my next blog post.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/effective-cross-browser-testing/">Source link </a></p>
 ]]></content:encoded>
 					
 		
