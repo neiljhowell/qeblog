@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 26 Jan 2021 22:11:54 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 27 Jan 2021 12:21:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,192 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Apple Patches Three Actively Exploited Zero-Days, Part of iOS Emergency Update</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-patches-three-actively-exploited-zero-days-part-of-ios-emergency-update/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2021 12:21:28 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Actively]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Emergency]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Patches]]></category>
+		<category><![CDATA[Update]]></category>
+		<category><![CDATA[ZeroDays]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-patches-three-actively-exploited-zero-days-part-of-ios-emergency-update/</guid>
+
+					<description><![CDATA[An anonymous researcher identified bugs in the software’s kernel and WebKit browser engine that are likely part of an exploit]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />An anonymous researcher identified bugs in the software’s kernel and WebKit browser engine that are likely part of an exploit chain.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/apple-patches-zero-days-ios-emergency-update/163374/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Getting Started with TestProject C# OpenSDK</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/getting-started-with-testproject-c-opensdk/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2021 06:43:26 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[OpenSDK]]></category>
+		<category><![CDATA[started]]></category>
+		<category><![CDATA[TestProject]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/getting-started-with-testproject-c-opensdk/</guid>
+
+					<description><![CDATA[The TestProject OpenSDK allows you to execute your Selenium and Appium tests using the power of the TestProject platform. This means]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>The TestProject <a target="_blank" href="https://docs.testproject.io/testproject-sdk/overview/sdk-v1-vs-opensdk-v2" rel="noopener">OpenSDK</a> allows you to execute your Selenium and Appium tests using the power of the <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a> platform. This means you’ll benefit from automatic <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">test reporting</a> in HTML and PDF, automatic updates and configuration of your Selenium browser drivers, collaborative reporting dashboards, and much more, all using a single, free and open-source SDK. Recently, <strong>a new member of the OpenSDK family has been released: the TestProject C# OpenSDK</strong> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>In this article, we’ll take a look at how to get started with this brand new C# SDK. We’ll first see how we can convert an existing <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a>-based test to a TestProject-powered test, and then we will explore some of the reporting features of the SDK.</p>
+<p style="text-align: center;"><strong><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://tricentis.zoom.us/webinar/register/4216117400180/WN_G9ZsdTMCTD-IsiDxgbEnTA" rel="noopener">Want to see it in action? Join me TODAY for this live hands-on webinar!</a> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<h2>Table of Contents</h2>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#csharp-opensdk" rel="noopener">Installing the TestProject C# OpenSDK</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#agent-and-dev-token" rel="noopener">Configuring your TestProject Agent and Developer Token</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#selenium-test" rel="noopener">Creating and running your first test</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#test-reports" rel="noopener">Inspecting the test reports in the cloud</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#specflow" rel="noopener">SpecFlow support</a></li>
+<li><a target="_blank" href="https://blog.testproject.io/#summary" rel="noopener">Summary</a></li>
+</ol>
+<hr/>
+<h2><strong><a target="_blank" id="csharp-opensdk" rel="noopener">Installing the TestProject C# OpenSDK</strong></h2>
+<p>The TestProject C# OpenSDK is 100% free and open-source and is available as a NuGet <a target="_blank" href="https://www.nuget.org/packages/TestProject.OpenSDK/" rel="noopener">package</a>.</p>
+<p>When you add this package to your C# project, either through the NuGet package manager in Visual Studio or by using the command line, the SDK, as well as its dependencies, will be added to your project or solution.</p>
+<h2><strong><a target="_blank" id="agent-and-dev-token" rel="noopener">Configuring your TestProject Agent and Developer Token</strong></h2>
+<p>As with the other TestProject OpenSDKs (<a target="_blank" href="https://blog.testproject.io/2020/07/15/getting-started-with-testproject-python-sdk/" rel="noopener">Python</a> and <a target="_blank" href="https://blog.testproject.io/2020/12/14/easily-create-mobile-testing-framework-with-java-and-appium/" rel="noopener">Java</a>), tests are run using the <a target="_blank" href="https://youtu.be/6TWgSBPP2YU" rel="noopener">TestProject Agent</a>, which takes care of browser driver detection, installation and configuration and sends reports to TestProject Cloud. The TestProject Agent can be downloaded from <a target="_blank" href="https://app.testproject.io/#/agents" rel="noopener">here</a>.</p>
+<p>By default, the SDK will communicate with the Agent on its default address, which is <a target="_blank" href="http://localhost:8585" rel="noopener">http://localhost:8585</a>. If you’re running the Agent on another port, or even an entirely different machine, you can configure the correct address by setting the TP_AGENT_URL environment variable to the correct address.</p>
+<p>After installing and registering the Agent (watch <a target="_blank" href="https://youtu.be/6TWgSBPP2YU" rel="noopener">this</a> great quick video to see it in action and learn even more about the Agent’s power), you will also need to generate and configure a developer token. You can get this token from <a target="_blank" href="https://app.testproject.io/#/integrations/sdk" rel="noopener">https://app.testproject.io/#/integrations/sdk</a> and either set it in the TP_DEV_TOKEN environment variable, or pass it explicitly in your test code when you create a new driver.</p>
+<h2><strong><a target="_blank" id="selenium-test" rel="noopener">Creating and running your first test</strong></h2>
+<p>Now that all setup work is done, let’s take the C# OpenSDK for a spin <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f938-200d-2642-fe0f.png" alt="🤸‍♂️" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Here is an example test, using Selenium and the <a target="_blank" href="https://nunit.org/" rel="noopener">NUnit</a> unit testing framework, that opens the <a target="_blank" href="https://example.testproject.io/web/" rel="noopener">TestProject demo application</a>, logs in, and checks that a greeting message is displayed:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">namespace TestProject.OpenSDK.Examples.NUnit&#13;
+{&#13;
+    using NUnit.Framework;&#13;
+    using OpenQA.Selenium;&#13;
+    using TestProject.OpenSDK.Drivers.Web;&#13;
+&#13;
+    [TestFixture]&#13;
+    public class ExampleTest&#13;
+    {&#13;
+        private ChromeDriver driver;&#13;
+&#13;
+        [SetUp]&#13;
+        public void StartBrowser()&#13;
+        {&#13;
+            this.driver = new ChromeDriver();&#13;
+        }&#13;
+&#13;
+        [Test]&#13;
+        public void ExampleTestUsingChromeDriver()&#13;
+        {&#13;
+            this.driver.Navigate().GoToUrl("https://example.testproject.io");&#13;
+            this.driver.FindElement(By.CssSelector("#name")).SendKeys("John Smith");&#13;
+            this.driver.FindElement(By.CssSelector("#password")).SendKeys("12345");&#13;
+            this.driver.FindElement(By.CssSelector("#login")).Click();&#13;
+&#13;
+            Assert.IsTrue(this.driver.FindElement(By.CssSelector("#greetings")).Displayed);&#13;
+        }&#13;
+&#13;
+        [TearDown]&#13;
+        public void CloseBrowser()&#13;
+        {&#13;
+            this.driver.Quit();&#13;
+        }&#13;
+    }&#13;
+}</pre>
+<p><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> For those of you that are familiar with developing Selenium-based tests in C#, this code will probably be easy to understand. The most important thing is that we use the <strong>ChromeDriver class</strong> <strong>from the TestProject OpenSDK</strong>, rather than the same class from Selenium itself. This is <strong>the only thing you need to change</strong> in your existing tests to start using the power of the <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject platform</a>.</p>
+<h2><strong><a target="_blank" id="test-reports" rel="noopener">Inspecting the test reports</strong></h2>
+<p>Once your TestProject Agent and the corresponding development token have been configured, the Agent will <strong>automatically</strong> report your test results to the TestProject cloud. After running the above test, if you go to the <a target="_blank" href="https://app.testproject.io/#/reports" rel="noopener">Reports</a> tab, you’ll see a project called ‘NUnit’:</p>
+<p></p>
+<p><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Note: The C# OpenSDK supports <strong>automatically inferring project and job names for all major C# unit testing frameworks</strong>, i.e., <strong>MSTest</strong>, <strong>NUnit</strong> and <strong>xUnit.NET</strong>. The project name, unless explicitly specified, is the last section of the namespace that the current test is in (hence in this case ‘NUnit’). The automatically inferred job name is the name of the class that the test method is in, in this case, ‘ExampleTest’.</p>
+<p>If you open this ‘NUnit’ project, you’ll see the ‘ExampleTest’ job, corresponding test executions, and the tests that have been run as part of these:</p>
+<p><img loading="lazy" class="alignnone wp-image-17408 size-full" title="TestProject Reports - NUnit Selenium C# Reports in Cloud" src="https://blog.testproject.io/wp-content/uploads/2021/01/report_details-1.png" alt="TestProject Reports - NUnit Selenium C# Reports in Cloud" width="1857" height="697" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/report_details-1.png 1857w, https://blog.testproject.io/wp-content/uploads/2021/01/report_details-1-512x192.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/report_details-1-768x288.png 768w, https://blog.testproject.io/wp-content/uploads/2021/01/report_details-1-1024x384.png 1024w" sizes="(max-width: 1857px) 100vw, 1857px"/></p>
+<p>As you can see, adding the OpenSDK to our C# Selenium-based test and running it through the TestProject Agent produced a <strong>detailed report containing all the driver commands</strong> that were executed during this test.</p>
+<p>Like the other OpenSDKs, the TestProject C# OpenSDK offers a variety of options to <strong>customize your reporting</strong>. These options have been described in an <a target="_blank" href="https://blog.testproject.io/2020/07/27/html-test-reports-for-selenium-and-appium-python-test-automation/" rel="noopener">article</a> covering the Python OpenSDK. All options and settings described in that article are available in the C# OpenSDK, too.</p>
+<h2><strong><a target="_blank" id="specflow" rel="noopener">SpecFlow support</strong></h2>
+<p>An incredibly exciting feature of the TestProject C# OpenSDK is that it does not only support the major C# unit testing frameworks MSTest, NUnit, and xUnit.NET, but that it offers cloud reporting of <a target="_blank" href="https://blog.testproject.io/2019/11/21/get-started-with-specflow-in-your-test-automation-project/" rel="noopener">SpecFlow</a>-based tests, too. What exactly this entails, you will read in an upcoming article, coming soon! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f51c.png" alt="🔜" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2><strong><a target="_blank" id="summary" rel="noopener">Summary</strong></h2>
+<p>As we’ve seen in this tutorial, with just <strong>one unified SDK</strong> (that’s also available in <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/java-sdk" rel="noopener">Java</a> and <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2/python-sdk" rel="noopener">Python</a>, by the way), <strong>developers and testers receive a go-to toolset, solving some of the greatest challenges in open-source test automation</strong>. Using this SDK will save you a lot of time, with the following benefits that come out of the box:</p>
+<p>* Open source and available as a Maven dependency / a NuGet package / a PyPI project.<br />* 5-minute simple Selenium and Appium setup with a single Agent deployment.<br />* Automatic test reports in HTML/PDF format (including screenshots and customization capabilities).<br />* Collaborative reporting dashboards with execution history and RESTful API support.<br />* Always up-to-date with the latest and stable Selenium driver version.<br />* A simplified, familiar syntax for both web and mobile applications.<br />* Complete test runner capabilities for both local and remote executions, anywhere.<br />* Cross-platform support for Mac, Windows, Linux, and Docker.<br />* Ability to store and execute tests locally on any source control tool, such as Git.</p>
+<p style="text-align: center;"><strong><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://tricentis.zoom.us/webinar/register/4216117400180/WN_G9ZsdTMCTD-IsiDxgbEnTA" rel="noopener">Want to see it in action? Join me TODAY for this live hands-on webinar!</a> <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+</p></div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/01/27/getting-started-with-testproject-csharp-opensdk/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>GraphQL, Data Sources, &#038; Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/graphql-data-sources-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2021 04:01:31 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[GraphQL]]></category>
+		<category><![CDATA[Sources]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/graphql-data-sources-visual-testing/</guid>
+
+					<description><![CDATA[In the ever-changing world of development, new tools are constantly popping up to help developers create and manage complex solutions]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In the ever-changing world of development, new tools are constantly popping up to help developers create and manage complex solutions with the ultimate goal of building a great experience for their customers.</p>
+<p>Whether it’s a tool to help that developer become more productive or an entirely new way of thinking about the architecture of the project, developers are able to spend more time focusing on the unique parts of our code and focus on that great experience.</p>
+<p>But as technology and tools evolve, we’re often facing the reality that with those new powers, we can support more platforms and more experiences, adding more overhead to ensuring the quality of the product remains high.</p>
+<h2 id="h-how-does-graphql-help-developers-scale-to-more-platforms">How does GraphQL help developers scale to more platforms?</h2>
+<p><a target="_blank" href="https://graphql.org/" rel="noopener">GraphQL</a> is a query language for APIs that allow developers to request only the parts they need from large amounts of data. This includes the ability to create complex queries across different databases, that may previously have required multiple REST API requests to fulfill.</p>
+<p></p>
+<p class="has-text-align-center"><em><em>Describe your data, ask for what you want, and get predictable results with GraphQL</em></em></p>
+<p>With the ability to query for only the data you need, Front End Engineers and App Developers have an easier time managing that data, being able to create lean interfaces with reduced complexity. This helps reduce both up front cost (from a money and time perspective) and maintenance cost.</p>
+<p>As that time starts to free up, it becomes more realistic that those developers can support additional interfaces, creating more opportunity to support more platforms.</p>
+<h2 id="h-how-can-more-platforms-put-you-at-risk">How can more platforms put you at risk?</h2>
+<p>The ultimate goal of adding your product to more platforms is that you can provide a better experience for your customers. Having a native application on iOS and Android allows developers to tap into the resources and features of those devices, allowing people to become more productive with those apps.</p>
+<p><img src="https://applitools.com/wp-content/uploads/2021/01/pasted-image-0-3.png"/></p>
+<p class="has-text-align-center"><em>Leveraging GraphQL to manage content for multiple platforms</em></p>
+<p>But every platform that’s added to your product offering creates additional overhead for the team that’s testing those platforms, whether that’s a single developer or a larger team of Quality Engineers. If your testing process can’t scale to meet the needs of the platforms offered,</p>
+<p>This isn’t meant to deter someone from moving to new platforms, but it’s a reality that should be considered before making that jump. What options do we have to mitigate these concerns, scale our testing solutions, and maintain confidence in our platforms?</p>
+<h2 id="h-how-can-visual-regression-testing-help-you-scale-your-testing-strategy">How can Visual Regression Testing help you scale your testing strategy?</h2>
+<p><a target="_blank" href="https://applitools.com/visual-testing/" rel="noopener">Visual Regression Testing</a> is an automated testing strategy that uses real-world screenshots of your application to ensure your product is working the way it should. It helps you gain confidence with how your application’s front end without having to spend time writing tests that end up testing the same things as your back end.</p>
+<p>Starting with a baseline image, every time you trigger a new test, a new snapshot will be compared to the baseline image to see if anything changed, immediately flagging any discrepancies that could mean a feature regression or an issue with the user experience.</p>
+<p><img src="https://applitools.com/wp-content/uploads/2021/01/pasted-image-0-2.png"/></p>
+<p class="has-text-align-center"><em>Applitools Eyes highlights the visual difference between the baseline and the most recent snapshot</em></p>
+<p>The best part about Visual Regression Testing is it often leads to reduced testing overhead, as there’s much less code required to test a wider surface area of an application or website. These tests are also less fragile, as they don’t require code-specific selectors that could break if a developer decides it’s time to refactor.</p>
+<p>While Visual Regression Testing alone is a great way to level up your testing plan, most solutions will compare those snapshots pixel-by-pixel without any sort of intelligence in those comparisons. This can mean you’re getting failed tests due expected changes like content updates that are expected in any application lifecycle.</p>
+<p>Applitools leverages the<a target="_blank" href="https://applitools.com/applitools-ai-and-deep-learning/" rel="noopener">power of Artificial Intelligence</a> (AI) to give Visual Regression Testing superpowers, giving your tests the ability to actually understand what’s on the page.</p>
+<p class="has-text-align-center"><img src="https://applitools.com/wp-content/uploads/2021/01/pasted-image-0-1.png"/></p>
+<p class="has-text-align-center"><em>Your app uses the Applitools SDK to extract screenshots and code to assess differences with Visual AI</em></p>
+<p>If your content manager fixed a typo on a page, your tests are no longer getting flagged. If the product team just posted an update to the blog, you can be sure that you’re not spending time debugging failed tests, that Applitools can detect that it’s a content update, and not a layout regression.</p>
+<p>On top of the benefits of AI, Applitools allows you to scale these tests across all of your platforms with its vast library of SDKs and the<a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener">Applitools Ultrafast Test Cloud</a>.</p>
+<p>Whether you’re trying to run your tests with Java or JavaScript, there’s an SDK that will let you easily hook into your favorite testing framework like<a target="_blank" href="https://applitools.com/tutorials/selenium-java.html" rel="noopener">Selenium</a> and<a target="_blank" href="https://applitools.com/tutorials/cypress.html" rel="noopener">Cypress</a>.</p>
+<p>If you want Applitools to help cover a wide range of platforms, you can take advantage of the Ultrafast Test Cloud where you write your tests once and make sure all platforms are getting tested.</p>
+<p><img src="https://applitools.com/wp-content/uploads/2021/01/pasted-image-0-1.jpg"/></p>
+<p class="has-text-align-center"><em>Running tests on multiple platforms using Ultrafast Test Cloud</em></p>
+<p>Being able to multiply the impact of each test you write can help you scale your testing strategy as you bring on more and more platforms to your product offering.</p>
+<h2 id="h-grow-with-confidence">Grow with confidence</h2>
+<p>As tools like GraphQL allow your business and product offerings to grow, don’t let testing strategies hold you back or worse, prevent you from testing at all.</p>
+<p>By making sure you’re covering a wide range of platforms with Visual Regression Testing, you’re not only keeping your customers happy, you’re able to let Visual AI do the hard work and let you grow and remain confident that you’re maintaining a high level of quality for your business.</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/graphql-visual-testing/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Nvidia Squashes High-Severity Jetson DoS Flaw</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/nvidia-squashes-high-severity-jetson-dos-flaw/</link>
 		
@@ -101,6 +287,166 @@
 		
 			</item>
 		<item>
+		<title>New Year, New Digital You: Consumer Security Findings from McAfee’s Latest Report</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/new-year-new-digital-you-consumer-security-findings-from-mcafees-latest-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 17:55:52 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Consumer]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[Findings]]></category>
+		<category><![CDATA[Latest]]></category>
+		<category><![CDATA[McAfees]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/new-year-new-digital-you-consumer-security-findings-from-mcafees-latest-report/</guid>
+
+					<description><![CDATA[from McAfee’s Latest Report  2020 was a year unlike any other. We transitioned from the corporate office to the home office,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2><span class="TextRun SCXW13657723 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"/><span class="TextRun SCXW13657723 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW13657723 BCX0">from</span></span><span class="TextRun SCXW13657723 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW13657723 BCX0"> McAfee’s Latest Report</span></span><span class="EOP SCXW13657723 BCX0" data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2}"> </span></h2>
+<p>2020 was a year unlike any other. We transitioned from the corporate office to the home office, participated in distance learning, and figured out how to communicate with one another from afar. We sought out new forms of entertainment by streaming countless movies and TV shows and found new ways to stay active with at-home workouts. But none of this would’ve been possible without our devices and the technology we rapidly adopted.  In fact, <a target="_blank" href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days" rel="noopener">data shows</a> that we accelerated five years forward in digital adoption during the first two months of the pandemic alone.  And according to findings from our <a target="_blank" href="https://www.businesswire.com/news/home/52367395/en" rel="noopener noreferrer">2021 Consumer Security Mindset Report</a> , online alternatives will continue to replace activities in people’s lives and routines that were once in-person.</p>
+<h3><strong>Online Alternatives Are Here to Stay </strong></h3>
+<p>In the past year, many of us started to use or increased our use of various online tools. For example, online banking usage increased from 22% in 2020, online fitness classes increased by 7%, and virtual doctor’s appointments increased by 9%. We’ve adapted to the convenience of these online alternatives and have used them to replace activities that were once primarily in-person. Additionally, 77% of survey respondents indicated that they now use or have adopted common features designed for convenience, such as text and email notifications, web or mobile applications versus desktop sites, and more.</p>
+<p>Online alternatives will continue to replace activities in people’s lives that were once in-person. According to our survey, the top digital activities that will remain part of our routines even as social distancing and stay-at-home restrictions lift include online banking, social engagements, and personal shopping. But as we continue to rely on technology to complete these tasks, how are we adapting our security habits to greater time spent online?</p>
+<h3><strong>New Digital Worlds Also Means an Increase in New Digital Threats</strong></h3>
+<p>The more time we spend online interacting with various apps and services, the greater our exposure is to potential cybersecurity risks and threats. So, as we continue to adapt to and embrace our new digital world, hackers are simultaneously taking notes. Survey results show that 71% of respondents are most concerned about their financial data being stolen or compromised, while 68% are concerned that their personal information could get hacked.</p>
+<p>A heightened sense of security is of the utmost importance so we can continue to live our digital lives free from worry. But 29% of survey respondents don’t feel very confident about their ability to prevent a cyberattack and believe that they don’t have what they need to prevent one. And while another 40% is confident in their ability to prevent an attack, they think they could better understand how to identify or combat threats.</p>
+<p>Even with these concerns, there still appears to be a discrepancy between our perceptions around online security versus our actions. While 70% of respondents stated that they purchased at least one connected device in 2020, only 50% bought security software, and only a quarter admitted that they check if their security software is up to date. But to preserve our digital wellness as we adopt new technology into our lives, we must upgrade our security habits in tandem. After all, it’s better to prevent a problem than be in a position of having to fix it.</p>
+<h3><strong>Stay One Step Ahead of Hackers in 2021 and Beyond</strong></h3>
+<p>To help prevent a hacker from striking, it helps to think about why they would want your data in the first place. However, over half of U.S. respondents admitted that they never considered how much their online data is worth. Hackers are always looking for ways to exploit others for money. By scavenging and stealing our personally identifiable information over the internet, hackers can piece together our identities – a valuable asset and can be sold for a lot of <a target="_blank" href="https://www.techrepublic.com/article/what-your-personal-identity-and-data-are-worth-on-the-dark-web/" rel="noopener noreferrer">cash.</a></p>
+<p><img loading="lazy" class="wp-image-116239 size-full" src="https://www.mcafee.com/wp-content/uploads/2021/01/NewDigitalYou_Infographic_800px_EN-US_fnl_optimized.jpg" alt="New Digital You Infographic" width="387" height="1920" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/NewDigitalYou_Infographic_800px_EN-US_fnl_optimized.jpg 387w, https://www.mcafee.com/wp-content/uploads/2021/01/NewDigitalYou_Infographic_800px_EN-US_fnl_optimized-26x129.jpg 26w" sizes="(max-width: 387px) 100vw, 387px"/></p>
+<p>To stay one step ahead of hackers and protect your digital wellness into the new year and beyond, continue to work on your own online habits and follow these security tips:</p>
+<h3><strong>Use multi-factor authentication</strong></h3>
+<p>Two or multi-factor authentication provides an extra layer of security, as it requires multiple forms of verification like texting or emailing a secure code to verify your identity. Most popular online sites like Gmail, Dropbox, LinkedIn, Facebook, etc. offer multi-factor authentication, and it takes just a few minutes to set it up. This reduces the risk of successful impersonation by criminals who may have uncovered your information by keyboard snooping.</p>
+<h3><strong>Connect with caution</strong></h3>
+<p>Hackers tend to lurk in the shadows on public Wi-Fi networks to catch unsuspecting users looking for free internet access. If you have to conduct transactions on a public Wi-Fi network, use a virtual private network (VPN) like <a target="_blank" href="https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html" rel="noopener">McAfee® Safe Connect</a> to help keep you safe while you’re online.</p>
+<h3><strong>Browse with added security</strong></h3>
+<p>Use a comprehensive security solution, like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee Total Protection</a>, which can help protect devices against malware, phishing attacks, and other threats. It includes <a target="_blank" href="https://www.mcafee.com/consumer/en-us/store/m0/catalog/mwad_528/mcafee-web-advisor.html" rel="noopener noreferrer">McAfee WebAdvisor</a>, which can help identify malicious websites.</p>
+<h3><strong>Enable security settings</strong></h3>
+<p>When using third-party tools like video conferencing platforms, adjust your security settings by password protecting your meetings and blocking other meeting attendees from sharing their screens. You can also adjust your device’s app permissions to only access your location when actively in use, or enable safe browsing options to protect you from malicious websites.</p>
+<h3><strong>Stay Updated  </strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
+<p> </p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/new-year-new-digital-you-consumer-security-findings-from-mcafees-latest-report/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>New Year, New Digital You: Canadian Survey Findings from McAfee &#124; McAfee Blogs Consumer Security Findings from McAfee’s Latest Report</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/new-year-new-digital-you-canadian-survey-findings-from-mcafee-mcafee-blogs-consumer-security-findings-from-mcafees-latest-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 17:55:18 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Canadian]]></category>
+		<category><![CDATA[Consumer]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[Findings]]></category>
+		<category><![CDATA[Latest]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[McAfees]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[Survey]]></category>
+		<category><![CDATA[Year]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/new-year-new-digital-you-canadian-survey-findings-from-mcafee-mcafee-blogs-consumer-security-findings-from-mcafees-latest-report/</guid>
+
+					<description><![CDATA[New Year, New Digital You: Canadian Survey Findings from McAfee McAfee is headquartered in the U.S. and with our impressive]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h3>New Year, New Digital You: Canadian Survey Findings from McAfee</h3>
+<p>McAfee is headquartered in the U.S. and with our impressive global footprint protecting over 600 million devices protecting users’ connected lives isn’t just a priority for one location, but for the entire world that we serve.  As Site Leader of our Consumer Ontario offices, when it came time to reflect on the past year, we knew it was important to gather findings for the communities we protect including those in Canada.</p>
+<p>In 2020, we abruptly transitioned from offices to home workspaces, participated in distance learning, and figured out how to stay connected with friends and family from afar. We sought out new forms of entertainment by streaming countless movies and TV shows and found new ways to stay active with at-home workouts. None of this would’ve been possible without our devices and the technologies we rapidly adopted. In fact, <a target="_blank" href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days" rel="noopener noreferrer">data shows</a> that we accelerated five years forward in digital adoption during the first two months of the pandemic alone. And according to findings from our 2021 Consumer Security Mindset Report, Canadian consumers plan to stick with this digital-first lifestyle in the new year and beyond.</p>
+<p>In the past year, many of us started to use or increased our use of various online tools. In Canada, online banking surged to 78%, personal shopping to 63%, and social engagements to 59%. We’ve adapted to the convenience of these online alternatives and have used them to replace activities that were once primarily in-person. In fact, 70% of survey respondents indicated that they now use or have adopted common features designed for convenience, such as text and email notifications, web or mobile applications versus desktop sites, and more.</p>
+<p>Online alternatives will continue to replace activities in people’s lives that were once in-person. According to our survey, the top digital activities that will remain part of our routines even as social distancing and stay-at-home restrictions lift include online banking, social engagements, and personal shopping. But as we continue to rely on technology to complete these tasks, how are we adapting our security habits to greater time spent online?</p>
+<h3><img loading="lazy" class="alignright wp-image-116335 size-full" style="font-size: 16px;" src="https://www.mcafee.com/wp-content/uploads/2021/01/NewDigitalYou_Infographic_800px_EN-CA_fnl_optimized.jpg" alt="New Year, New Digital You" width="387" height="1920" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/NewDigitalYou_Infographic_800px_EN-CA_fnl_optimized.jpg 387w, https://www.mcafee.com/wp-content/uploads/2021/01/NewDigitalYou_Infographic_800px_EN-CA_fnl_optimized-26x129.jpg 26w" sizes="(max-width: 387px) 100vw, 387px"/></h3>
+<h3><strong>New Digital Worlds Also Means an Increase in New Digital Threats </strong></h3>
+<p>The more time we spend online interacting with various apps and services, the greater our exposure is to potential c</p>
+<p>ybersecurity risks and threats. So, as we continue to adapt to and embrace our new digital world, hackers are simultaneously taking notes. Survey results show that 67% of respondents are most concerned about their financial data being stolen or compromised, while 65% are concerned that their personal information could get hacked.</p>
+<p>A heightened sense of security is of the utmost importance so we can continue to live our digital lives free from worry. But 45% of survey respondents don’t feel very confident about their ability to prevent a cyberattack and believe that they don’t have what they need to ward  one off.</p>
+<p>Even with these concerns, there still appears to be a discrepancy between our perceptions around online security ver</p>
+<p>sus our actions. While 66% of respondents stated that they purchased at least one connected device in 2020, only 42% bought security software, and only a quarter admitted that they check if their security software is up to date. But to preserve our digital wellness as we adopt new technology into our lives, we must upgrade our security habits in tandem. After all, it’s better to prevent a problem than be in a position of having to fix it.</p>
+<h3><strong>Stay One Step Ahead of Hackers in 2021 and Beyond</strong></h3>
+<p>To help prevent a hacker from striking, it helps to think about why they would want your data in the first place. However, 61% of Canadian respondents admitted that they never considered how much their online data is worth. Hackers are always looking for ways to exploit others for money. By scavenging and stealing our personally identifiable information over the internet, hackers can piece together our identities – a valuable asset and can be <a target="_blank" href="https://www.techrepublic.com/article/what-your-personal-identity-and-data-are-worth-on-the-dark-web/" rel="noopener noreferrer">resold for a lot of cash</a>.</p>
+<p>To stay one step ahead of hackers and protect your digital wellness into the new year and beyond, continue to work on your own online habits and follow these security tips:</p>
+<h3><strong>Use multi-factor authentication</strong></h3>
+<p>Two or multi-factor authentication provides an extra layer of security, as it requires multiple forms of verification like texting or emailing a secure code to verify your identity. Most popular online sites like Gmail, Dropbox, LinkedIn, Facebook, etc. offer multi-factor authentication, and it takes just a few minutes to set it up. This reduces the risk of successful impersonation by criminals who may have uncovered your information by keyboard snooping.</p>
+<h3><strong>Connect with caution</strong>.</h3>
+<p>Hackers tend to lurk in the shadows on public Wi-Fi networks to catch unsuspecting users looking for free internet access. If you have to conduct transactions on a public Wi-Fi network, use a virtual private network (VPN) like <a target="_blank" href="https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html" rel="noopener">McAfee® Safe Connect</a> to help keep you safe while you’re online.</p>
+<h3><strong>Browse with added security</strong></h3>
+<p>Use a comprehensive security solution, like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener">McAfee Total Protection</a>, which can help protect devices against malware, phishing attacks, and other threats. It includes <a target="_blank" href="https://www.mcafee.com/consumer/en-us/store/m0/catalog/mwad_528/mcafee-web-advisor.html" rel="noopener">McAfee WebAdvisor</a>, which can help identify malicious websites.</p>
+<h3><strong>Enable security settings</strong></h3>
+<p>When using third-party tools like video conferencing platforms, adjust your security settings by password protecting your meetings and blocking other meeting attendees from sharing their screens. You can also adjust your device’s app permissions to only access your location when actively in use, or enable safe browsing options to protect you from malicious websites.</p>
+<h3><strong>Stay Updated  </strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
+<p> </p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/canada-new-year-new-digital-you/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Criminal, Domestic Violence Case Info Exposed in Cook County Leak</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/criminal-domestic-violence-case-info-exposed-in-cook-county-leak/</link>
 		
@@ -149,183 +495,6 @@
 <br />An unmonitored account belonging to a deceased employee allowed Nefilim to exfiltrate data and infiltrate systems for a month, without being noticed.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/nefilim-ransomware-ghost-account/163341/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The top 5 open-source frameworks for building progressive web apps</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-top-5-open-source-frameworks-for-building-progressive-web-apps/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 26 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Building]]></category>
-		<category><![CDATA[frameworks]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[progressive]]></category>
-		<category><![CDATA[Top]]></category>
-		<category><![CDATA[web]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-top-5-open-source-frameworks-for-building-progressive-web-apps/</guid>
-
-					<description><![CDATA[Almost half of all people now have an Android or iOS phone that has the compute power of a desktop PC. That means developers have an]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Almost half of all people now <a target="_blank" href="http://www.bankmycell.com/blog/how-many-phones-are-in-the-world" rel="nofollow noopener">have an Android or iOS phone</a> that has the compute power of a desktop PC. That means developers have an opportunity to build increasingly sophisticated apps—which is why <a target="_blank" href="https://techbeacon.com/app-dev-testing/should-enterprises-start-building-progressive-web-apps" rel="noopener">you need to use progressive web apps,</a> or<a target="_blank" href="https://techbeacon.com/app-dev-testing/should-enterprises-start-building-progressive-web-apps" rel="noopener"> </a>PWAs.</p>
-<p>A PWA is a web application designed to function like a native app on a mobile platform, though it&#8217;s delivered over the web. You can use PWAs to optimize your app&#8217;s mobile web experience and to take advantage of the advances that have emerged over the last four years. </p>
-<p>PWAs <a target="_blank" href="https://techbeacon.com/app-dev-testing/should-enterprises-start-building-progressive-web-apps" rel="noopener">offer several benefits to users and developers</a>. Once users have downloaded and installed your application, they can use it without having to log in over and over again. Also, PWAs use the least memory possible, which can be a significant advantage for users, especially those who frequently access a mobile network, such as truck drivers or outdoor recreation enthusiasts.</p>
-<p>While commercial tools for building PWAs are available, open source is the dominant player in this space. The bottom line is that you can deliver successful PWAs using a combination of open-source and commercial cloud solutions. </p>
-<p>Here are my recommendations for the top five open-source frameworks you should consider for building your own PWAs, along with an explanation of which are best for different needs and levels of experience. My team has used all of them at one time or another.</p>
-<h3>Webpack </h3>
-<p><a target="_blank" href="https://github.com/webpack/webpack" rel="nofollow noopener">Webpack </a>can create module bundles on the client side, which means your source files will be parsed and compiled on the server as your code is processed. It can also pass the compiled bundles to the browser as-is, without any more work.</p>
-<p>Webpack automatically creates additional modules, known as transpilers, to include in the final PWA bundle. It uses Babel to transform code between different languages. These modules perform local optimizations on the code by taking advantage of hardware-specific features. They&#8217;re also responsible for the Babel translations.</p>
-<p>Babel works with global modules and custom modules, which is particularly useful for custom language support. In many ways, Webpack is the leader for PWA creation. The tool is relatively easy to use and does exactly what it says on the tin: you can build PWAs. Webpack is an excellent tool to create PWAs and is ideal for midsized and large companies. Smaller companies may want to rely on AMP (covered later in the article) as an alternative to PWAs.</p>
-<h4>Ionic </h4>
-<p><a target="_blank" href="https://github.com/ionic-team/ionic-framework" rel="nofollow noopener">Ionic apps</a> offer you two key benefits that make them the right way to develop a PWA. The first is direct control of the code you are working with. App developers usually have only a limited amount of power over a website. While most of the control is out of the developer&#8217;s hands, there are some places where you can exert some control, for example, during deployment or displaying pages. Progressive websites give you some of that control back.</p>
-<p>The second benefit is increased control over the content. When developing progressive websites, you can use Ionic&#8217;s UI components to add extra features to a website. This makes the code more flexible and enables you to create more immersive experiences.</p>
-<p>Ionic is a solid framework and, in the days when PWA solutions were still new, it was an excellent choice. Today, my teams find Ionic incorporated into other CMS solutions, and we are more than happy to use it. With that said, Angular remains our current favorite as an alternative to using Ionic.</p>
-<h4>PWABuilder</h4>
-<p><a target="_blank" href="https://github.com/pwa-builder" rel="nofollow noopener">PWABuilder</a> lets you easily convert an existing website to a PWA. You can view a production version of the open-source project at <a target="_blank" href="https://www.pwabuilder.com/" rel="nofollow noopener">pwabuilder.com</a>.</p>
-<p>Here are some of the primary reasons why you would use PWABuilder:</p>
-<ul>
-<li>Clean and intuitive user experience</li>
-<li>Fast and easy development</li>
-<li>Simplified deployment with pre-built typography, HTML, JavaScript, CSS, and UX</li>
-<li>The freedom of an application with the power of a CMS</li>
-</ul>
-<p>PWABuilder is an excellent tool to convert a website and showcase a &#8220;to be&#8221; PWA version of the original site. This is ideal for small and midsized sites where time and budget are restrictive. It is not a tool my teams often use because many of the sites we build are very large. Our experience has shown that customers want PWA solutions that are specific and can solve an immediate need. If your website is large, then PWABuilder can feel like a Swiss Army Knife that is trying to solve all problems. Keep your approach simple.</p>
-<h4>Angular</h4>
-<p>Responsive design has made developers&#8217; lives much more comfortable, with websites that scale according to the needs of the device accessing it. Not all websites can be written in a strict architectural manner, making it harder to design for specific devices.</p>
-<p><a target="_blank" href="https://github.com/angular/angular" rel="nofollow noopener">Angular </a>brings the concept of progressive enhancement to the table. Using a method in Angular known as &#8220;directives,&#8221; you can make websites that scale to different devices. This way, you can write high-quality code to fit any apparatus without making significant HTML code modifications.</p>
-<p>Another plus of Angular is that it uses TypeScript, a superset of JavaScript. TypeScript automatically converts your JavaScript code into the languages you need to make development smoother. Also, TypeScript is polyglot, which means it can handle more than one programming language.</p>
-<p>Using the built-in powerful TypeScript compiler and the in-house real-time runtime, you get the best of both worlds. Using the TypeScript compiler, you can write JavaScript code, which means that you have access to the latest JavaScript APIs, but you don&#8217;t need to know the intricacies of JavaScript to program your website.</p>
-<h4>Svelte</h4>
-<p>The strength of <a target="_blank" href="https://github.com/sveltejs/svelte" rel="nofollow noopener">Svelte</a> is that it is easy to use. Its drag-and-drop interface makes Svelte the right choice for designers with no development experience. You can be up and running quickly.</p>
-<p>With that said, there are a couple of challenges with Svelte. The first is that, as a tool, it falls between beginner tools such as PWABuilder and advanced frameworks such as Angular and Ionic. For this reason, it is somewhat unclear who the target audience for Svelte is.</p>
-<p>A second challenge is that it is difficult to add complexity to Svelte-developed solutions. Other platforms, such as Angular, offer a much deeper set of features, even if you need to know TypeScript to build those solutions. </p>
-<p>What my team has found is that Svelte is useful to create rapid prototypes. We can show a client in a matter of a couple of hours what a potential solution can look and act like. If the client is happy with the outcome, then we can give them the Svelte-built answer. More often, the client will see what has been produced and will then ask for additional complexity. This is when we switch from prototype to building a complete PWA with tools such as Ionic or Angular.</p>
-<h3>Accelerated Mobile Pages</h3>
-<p>Why should you consider applying Accelerated Mobile Pages (AMP) to your website? The answer, says Google, is simple. AMP gives developers, publishers, and publishers &#8220;a fast and secure publishing experience.&#8221;</p>
-<p>AMP uses HTML, CSS, and JavaScript to quickly load and render a website to a mobile device. The AMP Store&#8217;s hundreds of free templates and themes make it easy for publishers to find and test AMP-compatible technology.</p>
-<p>Since AMP is open source, you can incorporate it into any type of site, including blogs, forums, shopping carts, wikis, galleries, music sites, news sites, stock photography sites, online game sites, WordPress sites, etc.</p>
-<p>Many of the leading open-source content management platforms, such as WordPress.com and Joomla, have adopted AMP, while others, such as Drupal, support AMP through third-party extensions. This opens up possibilities for WordPress website owners: A whole new group of publishers and users can reach the same search traffic and traffic from social networks.</p>
-<h3>How to decide</h3>
-<p>In deciding which of these five tools is best for you, first consider what skillsets your team has to implement a PWA framework. Unfortunately, these skills hard to find, so for many teams the PWA tool you implement will be driven by your team&#8217;s knowledge and the support you can get from the open-source community. That&#8217;s why Angular and Ionic are popular choices for larger, more experienced teams, while Webpack and PWABuilder are better options for smaller groups with less experience.</p>
-<p>As a framework, Angular is more comfortable to adapt than other frameworks due to its reliance on TypeScript. Also, Angular has a strong support community. There is a good chance that if you run into a problem, someone else has too and has posted a solution.</p>
-<p>At the end of the day, you must have a website that can adapt quickly to any screen size. Check your web logs, and you might find that 75% to 80% of the traffic to your site is coming from smartphones with a screen size of 3.5 to 6 inches. Your customers are probably also using tablet computers, as well as traditional laptops. If you don&#8217;t use a PWA, those users could have a less-than-optimal experience. Developing your site as a PWA and your customers will be much happier.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/top-5-open-source-frameworks-building-progressive-web-apps">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>North Korea Targets Security Researchers in Elaborate 0-Day Campaign</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/north-korea-targets-security-researchers-in-elaborate-0-day-campaign/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 26 Jan 2021 14:49:03 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[0Day]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Elaborate]]></category>
-		<category><![CDATA[Korea]]></category>
-		<category><![CDATA[North]]></category>
-		<category><![CDATA[Researchers]]></category>
-		<category><![CDATA[Targets]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/north-korea-targets-security-researchers-in-elaborate-0-day-campaign/</guid>
-
-					<description><![CDATA[Hackers masquerade as security researchers to befriend analysts and eventually infect fully patched systems at multiple firms with a malicious]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Hackers masquerade as security researchers to befriend analysts and eventually infect fully patched systems at multiple firms with a malicious backdoor.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/north-korea-security-researchers-0-day/163333/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>TikTok Flaw Lay Bare Phone Numbers, User IDs For Phishing Attacks</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiktok-flaw-lay-bare-phone-numbers-user-ids-for-phishing-attacks/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 26 Jan 2021 11:00:07 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Bare]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[IDs]]></category>
-		<category><![CDATA[Lay]]></category>
-		<category><![CDATA[Numbers]]></category>
-		<category><![CDATA[Phishing]]></category>
-		<category><![CDATA[Phone]]></category>
-		<category><![CDATA[TikTok]]></category>
-		<category><![CDATA[User]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tiktok-flaw-lay-bare-phone-numbers-user-ids-for-phishing-attacks/</guid>
-
-					<description><![CDATA[A security flaw in TikTok could have allowed attackers to query query the platform&#8217;s database – potentially opening up for]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A security flaw in TikTok could have allowed attackers to query query the platform&#8217;s database – potentially opening up for privacy violations.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/tiktok-flaw-phishing-attacks/163322/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Breaking Down Joe Biden’s $10B Cybersecurity ‘Down Payment’</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/breaking-down-joe-bidens-10b-cybersecurity-down-payment/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 21:51:13 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[10B]]></category>
-		<category><![CDATA[Bidens]]></category>
-		<category><![CDATA[Breaking]]></category>
-		<category><![CDATA[Cybersecurity]]></category>
-		<category><![CDATA[Joe]]></category>
-		<category><![CDATA[Payment]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/breaking-down-joe-bidens-10b-cybersecurity-down-payment/</guid>
-
-					<description><![CDATA[Tom Kellermann, head of cybersecurity strategy for VMware Carbon Black, talks about the top security challenges facing the US government]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Tom Kellermann, head of cybersecurity strategy for VMware Carbon Black, talks about the top security challenges facing the US government as a new presidential administration steps in.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/breaking-down-joe-bidens-10b-cybersecurity-down-payment/163304/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Outgoing FCC Chair Issues Final Security Salvo Against China</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/outgoing-fcc-chair-issues-final-security-salvo-against-china/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 21:16:11 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Chair]]></category>
-		<category><![CDATA[China]]></category>
-		<category><![CDATA[FCC]]></category>
-		<category><![CDATA[Final]]></category>
-		<category><![CDATA[Issues]]></category>
-		<category><![CDATA[Outgoing]]></category>
-		<category><![CDATA[Salvo]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/outgoing-fcc-chair-issues-final-security-salvo-against-china/</guid>
-
-					<description><![CDATA[Ajit Pai says Chinese telecom companies ‘biggest national security threat’ for regulators in exit interview. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Ajit Pai says Chinese telecom companies ‘biggest national security threat’ for regulators in exit interview.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/outgoing-fcc-chair-security-china/163318/">Source link </a></p>
 ]]></content:encoded>
 					
 		
