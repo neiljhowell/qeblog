@@ -16,7 +16,7 @@ pipeline {
         }
           stage('Commit') {
             steps {
-                bat '''git config user.name "svcselenium"'''
+                bat '''git config user.name "svc"'''
                 bat '''git config user.email "robosquad@accruent.com"'''
                 bat 'git add .'
                 bat '''git commit -m "testing"'''
