@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 26 Jan 2021 11:00:07 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 26 Jan 2021 22:11:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,230 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Nvidia Squashes High-Severity Jetson DoS Flaw</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/nvidia-squashes-high-severity-jetson-dos-flaw/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 22:11:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DoS]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[HighSeverity]]></category>
+		<category><![CDATA[Jetson]]></category>
+		<category><![CDATA[Nvidia]]></category>
+		<category><![CDATA[Squashes]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/nvidia-squashes-high-severity-jetson-dos-flaw/</guid>
+
+					<description><![CDATA[If exploited, the most serious of these flaws could lead to a denial-of-service condition for Jetson products. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />If exploited, the most serious of these flaws could lead to a denial-of-service condition for Jetson products.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/nvidia-squashes-high-severity-jetson-dos-flaw/163360/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>DanaBot Malware Roars Back into Relevancy</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/danabot-malware-roars-back-into-relevancy/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 21:24:34 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[DanaBot]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Relevancy]]></category>
+		<category><![CDATA[Roars]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/danabot-malware-roars-back-into-relevancy/</guid>
+
+					<description><![CDATA[Sophisticated and dangerous, DanaBot has resurfaced after laying dormant for seven months. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Sophisticated and dangerous, DanaBot has resurfaced after laying dormant for seven months.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/danabot-malware-roars-back/163358/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>23M Gamer Records Exposed in VIPGames Leak</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/23m-gamer-records-exposed-in-vipgames-leak/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 19:35:44 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[23M]]></category>
+		<category><![CDATA[Exposed]]></category>
+		<category><![CDATA[Gamer]]></category>
+		<category><![CDATA[Leak]]></category>
+		<category><![CDATA[Records]]></category>
+		<category><![CDATA[VIPGames]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/23m-gamer-records-exposed-in-vipgames-leak/</guid>
+
+					<description><![CDATA[The personal data of 66,000 users was left wide open on a misconfigured Elasticsearch server, joining a growing list of]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The personal data of 66,000 users was left wide open on a misconfigured Elasticsearch server, joining a growing list of companies with leaky clouds.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/gamer-records-exposed-vipgames-leak/163352/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Criminal, Domestic Violence Case Info Exposed in Cook County Leak</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/criminal-domestic-violence-case-info-exposed-in-cook-county-leak/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 17:24:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Case]]></category>
+		<category><![CDATA[Cook]]></category>
+		<category><![CDATA[County]]></category>
+		<category><![CDATA[Criminal]]></category>
+		<category><![CDATA[Domestic]]></category>
+		<category><![CDATA[Exposed]]></category>
+		<category><![CDATA[Info]]></category>
+		<category><![CDATA[Leak]]></category>
+		<category><![CDATA[Violence]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/criminal-domestic-violence-case-info-exposed-in-cook-county-leak/</guid>
+
+					<description><![CDATA[Cook County, Ill., home to Chicago, has left a database exposed since at least September that contained sensitive criminal and]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Cook County, Ill., home to Chicago, has left a database exposed since at least September that contained sensitive criminal and family-court records.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/criminal-domestic-case-cook-county-leak23k-sensitive-court-records/163336/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Nefilim Ransomware Gang Hits Jackpot with Ghost Account</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/nefilim-ransomware-gang-hits-jackpot-with-ghost-account/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 17:15:33 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Account]]></category>
+		<category><![CDATA[Gang]]></category>
+		<category><![CDATA[Ghost]]></category>
+		<category><![CDATA[Hits]]></category>
+		<category><![CDATA[Jackpot]]></category>
+		<category><![CDATA[Nefilim]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/nefilim-ransomware-gang-hits-jackpot-with-ghost-account/</guid>
+
+					<description><![CDATA[An unmonitored account belonging to a deceased employee allowed Nefilim to exfiltrate data and infiltrate systems for a month, without]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />An unmonitored account belonging to a deceased employee allowed Nefilim to exfiltrate data and infiltrate systems for a month, without being noticed.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/nefilim-ransomware-ghost-account/163341/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The top 5 open-source frameworks for building progressive web apps</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-top-5-open-source-frameworks-for-building-progressive-web-apps/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Building]]></category>
+		<category><![CDATA[frameworks]]></category>
+		<category><![CDATA[opensource]]></category>
+		<category><![CDATA[progressive]]></category>
+		<category><![CDATA[Top]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-top-5-open-source-frameworks-for-building-progressive-web-apps/</guid>
+
+					<description><![CDATA[Almost half of all people now have an Android or iOS phone that has the compute power of a desktop PC. That means developers have an]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Almost half of all people now <a target="_blank" href="http://www.bankmycell.com/blog/how-many-phones-are-in-the-world" rel="nofollow noopener">have an Android or iOS phone</a> that has the compute power of a desktop PC. That means developers have an opportunity to build increasingly sophisticated apps—which is why <a target="_blank" href="https://techbeacon.com/app-dev-testing/should-enterprises-start-building-progressive-web-apps" rel="noopener">you need to use progressive web apps,</a> or<a target="_blank" href="https://techbeacon.com/app-dev-testing/should-enterprises-start-building-progressive-web-apps" rel="noopener"> </a>PWAs.</p>
+<p>A PWA is a web application designed to function like a native app on a mobile platform, though it&#8217;s delivered over the web. You can use PWAs to optimize your app&#8217;s mobile web experience and to take advantage of the advances that have emerged over the last four years. </p>
+<p>PWAs <a target="_blank" href="https://techbeacon.com/app-dev-testing/should-enterprises-start-building-progressive-web-apps" rel="noopener">offer several benefits to users and developers</a>. Once users have downloaded and installed your application, they can use it without having to log in over and over again. Also, PWAs use the least memory possible, which can be a significant advantage for users, especially those who frequently access a mobile network, such as truck drivers or outdoor recreation enthusiasts.</p>
+<p>While commercial tools for building PWAs are available, open source is the dominant player in this space. The bottom line is that you can deliver successful PWAs using a combination of open-source and commercial cloud solutions. </p>
+<p>Here are my recommendations for the top five open-source frameworks you should consider for building your own PWAs, along with an explanation of which are best for different needs and levels of experience. My team has used all of them at one time or another.</p>
+<h3>Webpack </h3>
+<p><a target="_blank" href="https://github.com/webpack/webpack" rel="nofollow noopener">Webpack </a>can create module bundles on the client side, which means your source files will be parsed and compiled on the server as your code is processed. It can also pass the compiled bundles to the browser as-is, without any more work.</p>
+<p>Webpack automatically creates additional modules, known as transpilers, to include in the final PWA bundle. It uses Babel to transform code between different languages. These modules perform local optimizations on the code by taking advantage of hardware-specific features. They&#8217;re also responsible for the Babel translations.</p>
+<p>Babel works with global modules and custom modules, which is particularly useful for custom language support. In many ways, Webpack is the leader for PWA creation. The tool is relatively easy to use and does exactly what it says on the tin: you can build PWAs. Webpack is an excellent tool to create PWAs and is ideal for midsized and large companies. Smaller companies may want to rely on AMP (covered later in the article) as an alternative to PWAs.</p>
+<h4>Ionic </h4>
+<p><a target="_blank" href="https://github.com/ionic-team/ionic-framework" rel="nofollow noopener">Ionic apps</a> offer you two key benefits that make them the right way to develop a PWA. The first is direct control of the code you are working with. App developers usually have only a limited amount of power over a website. While most of the control is out of the developer&#8217;s hands, there are some places where you can exert some control, for example, during deployment or displaying pages. Progressive websites give you some of that control back.</p>
+<p>The second benefit is increased control over the content. When developing progressive websites, you can use Ionic&#8217;s UI components to add extra features to a website. This makes the code more flexible and enables you to create more immersive experiences.</p>
+<p>Ionic is a solid framework and, in the days when PWA solutions were still new, it was an excellent choice. Today, my teams find Ionic incorporated into other CMS solutions, and we are more than happy to use it. With that said, Angular remains our current favorite as an alternative to using Ionic.</p>
+<h4>PWABuilder</h4>
+<p><a target="_blank" href="https://github.com/pwa-builder" rel="nofollow noopener">PWABuilder</a> lets you easily convert an existing website to a PWA. You can view a production version of the open-source project at <a target="_blank" href="https://www.pwabuilder.com/" rel="nofollow noopener">pwabuilder.com</a>.</p>
+<p>Here are some of the primary reasons why you would use PWABuilder:</p>
+<ul>
+<li>Clean and intuitive user experience</li>
+<li>Fast and easy development</li>
+<li>Simplified deployment with pre-built typography, HTML, JavaScript, CSS, and UX</li>
+<li>The freedom of an application with the power of a CMS</li>
+</ul>
+<p>PWABuilder is an excellent tool to convert a website and showcase a &#8220;to be&#8221; PWA version of the original site. This is ideal for small and midsized sites where time and budget are restrictive. It is not a tool my teams often use because many of the sites we build are very large. Our experience has shown that customers want PWA solutions that are specific and can solve an immediate need. If your website is large, then PWABuilder can feel like a Swiss Army Knife that is trying to solve all problems. Keep your approach simple.</p>
+<h4>Angular</h4>
+<p>Responsive design has made developers&#8217; lives much more comfortable, with websites that scale according to the needs of the device accessing it. Not all websites can be written in a strict architectural manner, making it harder to design for specific devices.</p>
+<p><a target="_blank" href="https://github.com/angular/angular" rel="nofollow noopener">Angular </a>brings the concept of progressive enhancement to the table. Using a method in Angular known as &#8220;directives,&#8221; you can make websites that scale to different devices. This way, you can write high-quality code to fit any apparatus without making significant HTML code modifications.</p>
+<p>Another plus of Angular is that it uses TypeScript, a superset of JavaScript. TypeScript automatically converts your JavaScript code into the languages you need to make development smoother. Also, TypeScript is polyglot, which means it can handle more than one programming language.</p>
+<p>Using the built-in powerful TypeScript compiler and the in-house real-time runtime, you get the best of both worlds. Using the TypeScript compiler, you can write JavaScript code, which means that you have access to the latest JavaScript APIs, but you don&#8217;t need to know the intricacies of JavaScript to program your website.</p>
+<h4>Svelte</h4>
+<p>The strength of <a target="_blank" href="https://github.com/sveltejs/svelte" rel="nofollow noopener">Svelte</a> is that it is easy to use. Its drag-and-drop interface makes Svelte the right choice for designers with no development experience. You can be up and running quickly.</p>
+<p>With that said, there are a couple of challenges with Svelte. The first is that, as a tool, it falls between beginner tools such as PWABuilder and advanced frameworks such as Angular and Ionic. For this reason, it is somewhat unclear who the target audience for Svelte is.</p>
+<p>A second challenge is that it is difficult to add complexity to Svelte-developed solutions. Other platforms, such as Angular, offer a much deeper set of features, even if you need to know TypeScript to build those solutions. </p>
+<p>What my team has found is that Svelte is useful to create rapid prototypes. We can show a client in a matter of a couple of hours what a potential solution can look and act like. If the client is happy with the outcome, then we can give them the Svelte-built answer. More often, the client will see what has been produced and will then ask for additional complexity. This is when we switch from prototype to building a complete PWA with tools such as Ionic or Angular.</p>
+<h3>Accelerated Mobile Pages</h3>
+<p>Why should you consider applying Accelerated Mobile Pages (AMP) to your website? The answer, says Google, is simple. AMP gives developers, publishers, and publishers &#8220;a fast and secure publishing experience.&#8221;</p>
+<p>AMP uses HTML, CSS, and JavaScript to quickly load and render a website to a mobile device. The AMP Store&#8217;s hundreds of free templates and themes make it easy for publishers to find and test AMP-compatible technology.</p>
+<p>Since AMP is open source, you can incorporate it into any type of site, including blogs, forums, shopping carts, wikis, galleries, music sites, news sites, stock photography sites, online game sites, WordPress sites, etc.</p>
+<p>Many of the leading open-source content management platforms, such as WordPress.com and Joomla, have adopted AMP, while others, such as Drupal, support AMP through third-party extensions. This opens up possibilities for WordPress website owners: A whole new group of publishers and users can reach the same search traffic and traffic from social networks.</p>
+<h3>How to decide</h3>
+<p>In deciding which of these five tools is best for you, first consider what skillsets your team has to implement a PWA framework. Unfortunately, these skills hard to find, so for many teams the PWA tool you implement will be driven by your team&#8217;s knowledge and the support you can get from the open-source community. That&#8217;s why Angular and Ionic are popular choices for larger, more experienced teams, while Webpack and PWABuilder are better options for smaller groups with less experience.</p>
+<p>As a framework, Angular is more comfortable to adapt than other frameworks due to its reliance on TypeScript. Also, Angular has a strong support community. There is a good chance that if you run into a problem, someone else has too and has posted a solution.</p>
+<p>At the end of the day, you must have a website that can adapt quickly to any screen size. Check your web logs, and you might find that 75% to 80% of the traffic to your site is coming from smartphones with a screen size of 3.5 to 6 inches. Your customers are probably also using tablet computers, as well as traditional laptops. If you don&#8217;t use a PWA, those users could have a less-than-optimal experience. Developing your site as a PWA and your customers will be much happier.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/top-5-open-source-frameworks-building-progressive-web-apps">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>North Korea Targets Security Researchers in Elaborate 0-Day Campaign</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/north-korea-targets-security-researchers-in-elaborate-0-day-campaign/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 14:49:03 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[0Day]]></category>
+		<category><![CDATA[Campaign]]></category>
+		<category><![CDATA[Elaborate]]></category>
+		<category><![CDATA[Korea]]></category>
+		<category><![CDATA[North]]></category>
+		<category><![CDATA[Researchers]]></category>
+		<category><![CDATA[Targets]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/north-korea-targets-security-researchers-in-elaborate-0-day-campaign/</guid>
+
+					<description><![CDATA[Hackers masquerade as security researchers to befriend analysts and eventually infect fully patched systems at multiple firms with a malicious]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Hackers masquerade as security researchers to befriend analysts and eventually infect fully patched systems at multiple firms with a malicious backdoor.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/north-korea-security-researchers-0-day/163333/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>TikTok Flaw Lay Bare Phone Numbers, User IDs For Phishing Attacks</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiktok-flaw-lay-bare-phone-numbers-user-ids-for-phishing-attacks/</link>
 		
@@ -102,296 +326,6 @@
 <br />Ajit Pai says Chinese telecom companies ‘biggest national security threat’ for regulators in exit interview.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/outgoing-fcc-chair-security-china/163318/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>2.28M MeetMindful Daters Compromised in Data Breach</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/2-28m-meetmindful-daters-compromised-in-data-breach/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 21:08:02 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[228M]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Compromised]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Daters]]></category>
-		<category><![CDATA[MeetMindful]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/2-28m-meetmindful-daters-compromised-in-data-breach/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/meetmindful-daters-compromised-data-breach/163313/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Take It Personally: Ten Tips for Protecting Your Personally Identifiable Information (PII) &#124; McAfee Blogs Ten Tips for Protecting Your Personally Identifiable Information (PII)</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/take-it-personally-ten-tips-for-protecting-your-personally-identifiable-information-pii-mcafee-blogs-ten-tips-for-protecting-your-personally-identifiable-information-pii/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 19:30:43 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[Identifiable]]></category>
-		<category><![CDATA[Information]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Personally]]></category>
-		<category><![CDATA[PII]]></category>
-		<category><![CDATA[Protecting]]></category>
-		<category><![CDATA[Ten]]></category>
-		<category><![CDATA[tips]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/take-it-personally-ten-tips-for-protecting-your-personally-identifiable-information-pii-mcafee-blogs-ten-tips-for-protecting-your-personally-identifiable-information-pii/</guid>
-
-					<description><![CDATA[Take It Personally: Ten Tips for Protecting Your Personally Identifiable Information (PII) Seems like we always have a connected device]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>Take It Personally: Ten Tips for Protecting Your Personally Identifiable Information (PII)</strong></h2>
-<p>Seems like we always have a connected device somewhere within arm’s reach, whether it’s a smartphone, laptop, tablet, a wearable, or some combination of them all. In a way, we bring the internet along with us nearly wherever we go. Yet there’s something else that follows us around as well—a growing body of personally identifiable information, also known as PII.</p>
-<h3><strong>What is PII?</strong></h3>
-<p>What is PII? It’s information relating to an identified or identifiable individual when such individual can be identified <em>directly or indirectly, </em>when used alone or linked to other online identifiers provided by their devices, applications, tools and protocols. A prime example is your Social Security Number, if you live in the U.S. That clearly calls out your identity. Further examples include your facial image to unlock your smartphone, your medical information, your finances, your phone number (because it can be easily linked back to you),  internet protocol addresses, or other identifiers such as radio frequency identification tags.</p>
-<p>You can also find examples of PII in the accounts you use, like your Google to Apple IDs, which can be linked to your name, your email address, and the apps you have. You’ll also find it in places like the apps you use to map your runs, because the combination of your smartphone’s unique device ID and GPS tracking can be used in conjunction with other information to identify who you are and where you like to do your 5k hill days. The same goes for messenger apps, which can collect how you interact with others, how often you use the app, and your location information based on your IP address, GPS information, or both.</p>
-<p>In all, there’s a cloud of PII that follows us around as we go about our day online. Some wisps of that cloud are more personally identifying than others, yet gather enough of it and PII can create a high-resolution snapshot of you—who you are, what you’re doing, when you’re doing it, and even where you’re doing it too—particularly if it gets into the wrong hands.</p>
-<h3><strong>Protecting your PII protects your identity and privacy</strong></h3>
-<p>It reminds me of Pig-Pen, the character straight from the old funny pages of Charles Schultz’s Charlie Brown, followed as he was by an ever-present cloud of dust. Charlie Brown once said, “He may be carrying the soil that was trod upon by Solomon or Nebuchadnezzar or Genghis Khan!” Except the cloud surrounding us isn’t the dust of kings and conquerors, they’re motes of digital information that are of tremendously high value to crooks and bad actors—whether for purposes of identity theft or invasion of privacy.</p>
-<p>Needless to say, with all PII we create and share on the internet, it means we need to take steps to protect it—lest that PII get abused.</p>
-<p>I’ve outlined a set of ten things you can do to help ensure that what’s private stays that way.</p>
-<h3><strong>1) Use a complete security platform that can also protect your privacy</strong></h3>
-<p><em>Square One</em> is to <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">protect your devices with comprehensive security software</a>. This will defend you against the latest virus, malware, spyware, and ransomware attacks plus further protect your privacy and identity. In addition to this, it can also provide it can also provide strong password protection by generating and automatically storing complex passwords to keep your credentials safer from hackers and crooks who may try to force their way into your accounts.</p>
-<p>Further, security software can also include a firewall that blocks unwanted traffic from entering your home network, such as an attacker poking around for network vulnerabilities so that they can “break in” to your computer and steal information. Again, setting yourself up with security software really is your first step, as it offers numerous means of protecting your PII and other important information.</p>
-<p>In the case of our security software, Identity Theft Protection Essentials is available with every subscription of <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener">McAfee Total Protection</a> 5-Device or 10-Device. This allows you to set up monitoring for several key pieces of PII—such as your passport info, Social Security Number, or driver’s license info—so you can be alerted should they appear on the web or Dark Web.</p>
-<h3><strong>2) Use a VPN</strong></h3>
-<p>Also known as a virtual private network, <a target="_blank" href="https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html?id=303132&amp;langid=1&amp;cid=40395&amp;culture=en-US&amp;pir=1" rel="noopener noreferrer">a VPN helps protect your vital PII and other data with bank-grade encryption</a>.  The VPN encrypts your internet connection to keep your online activity private on any network, even public networks.  Using a public network without a VPN can increase your cybersecurity risk because  others on the network may be able to easily hack into  your browsing and data.</p>
-<p>If you’re new to the notion of using a VPN, <a target="_blank" href="https://www.mcafee.com/blogs/consumer/free-vpns-may-still-come-with-a-price/?hilite=%27vpn%27" rel="noopener">check out my recent article on the VPNs</a> and how to choose one so that you can get the best protection and privacy possible.</p>
-<h3><strong>3) Keep a close grip on your Social Security Number</strong></h3>
-<p>Here in the U.S., the Social Security Number (SSN) is one of the most prized pieces of PII as it unlocks the door to employment, finances, and much more. First up, keep a close grip on it. Literally. Store your card in a secure location. Not your purse or wallet.</p>
-<p>Certain businesses and medical practices may ask you for your SSN for billing practices and the like. You don’t have to provide it (although some businesses could refuse service if you don’t). However, there are a handful of instances where an SSN <em>is </em>a requirement. These include:</p>
-<ul>
-<li>For employment or contracting with a business</li>
-<li>Group health insurance</li>
-<li>Financial and real estate transactions</li>
-<li>Applying for credit cards, car loans, and so forth</li>
-</ul>
-<p>Be aware that <a target="_blank" href="https://www.marketwatch.com/story/is-your-doctors-office-asking-for-your-social-security-number-think-twice-2018-12-03" rel="noopener noreferrer">many instances of hacked credit cards come by way of internal negligence</a>, rather than the direct efforts of cybercriminals. Minimizing how often you provide your SSN can offer an extra degree of protection.  <img loading="lazy" class="alignright wp-image-116281 size-large" src="https://www.mcafee.com/wp-content/uploads/2021/01/PII_Sidebar_400px_V1-341x1024.jpg" alt="Personal identifiable information" width="341" height="1024" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/PII_Sidebar_400px_V1-341x1024.jpg 341w, https://www.mcafee.com/wp-content/uploads/2021/01/PII_Sidebar_400px_V1-100x300.jpg 100w, https://www.mcafee.com/wp-content/uploads/2021/01/PII_Sidebar_400px_V1-43x129.jpg 43w, https://www.mcafee.com/wp-content/uploads/2021/01/PII_Sidebar_400px_V1.jpg 400w" sizes="(max-width: 341px) 100vw, 341px"/></p>
-<h3><strong>4) Protect </strong> <strong>your files</strong></h3>
-<p>Protecting your files with encryption is a core concept in data and information security, and thus it’s a powerful way to protect your PII. It involves transforming data or information into code that requires a digital key to access it in its original, unencrypted format. For example, <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">McAfee® Total Protection</a> includes File Lock, which is our file encryption feature that lets you lock important files in secure digital vaults on your device.</p>
-<p>Additionally, you should also delete sensitive files with an application such as McAfee Shredder<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" />, which securely deletes files so that thieves can’t access them. (Quick fact: deleting files in your trash doesn’t actually delete them in the truest sense. They’re still there until they’re “shredded” or otherwise overwritten such that they can’t be restored.)</p>
-<h3><strong>5) Steer clear of those internet “quizzes”</strong></h3>
-<p>Which Marvel Universe superhero are you? Does it really matter? After all, such quizzes and social media posts are often grifting pieces of your PII in a seemingly playful way. While you’re not giving up your SSN, you may be giving up things like your birthday, your pet’s name, your first car … things that people often use to compose their passwords or use as answers to common security questions on banking and financial sites. The one way to pass this kind of quiz is not to take it!</p>
-<h3><strong>6) Be on the lookout for phishing attacks</strong></h3>
-<p>A far more direct form of separating you from your PII are phishing attacks. Posing as emails from known or trusted brands and financial institutions, a cybercrook’s phishing attack will  attempt to trick you into sharing important information like your logins, account numbers, credit card numbers, and so on under the guise of providing customer service.</p>
-<p>How do you spot such emails? Well, it’s getting a little tougher nowadays because scammers are getting more sophisticated and can make their phishing emails look nearly legitimate. However, <a target="_blank" href="https://www.mcafee.com/blogs/consumer/phishing-email-examples-how-to-recognize-a-phishing-email/?hilite=%27phishing%27" rel="noopener">there are several ways you can spot a phishing email as outlined here</a>.</p>
-<p>Comprehensive security offers another layer of prevention here, in this case by offering browser protection like our own <a target="_blank" href="https://www.mcafee.com/en-us/safe-browser/mcafee-webadvisor.html" rel="noopener noreferrer">Web Advisor</a>, which will alert you in the event you come across suspicious links and downloads that can steal your PII or otherwise expose you to attacks.</p>
-<h3><strong>7) Keep mum in your social media profile</strong></h3>
-<p>With <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/social-engineering-scammers/?hilite=%27social%27%2C%27engineering%27" rel="noopener">social engineering attacks that deceive victims by posing as people the victim knows</a> and the way we can sometimes overshare a little too much about our lives, you can see why a social media profile is a potential goldmine for cybercriminals.</p>
-<p>Two things you can do to help protect  your PII from being at risk via social media: one, think twice about what PII you might be sharing in that post or photo—like the location of your child’s school or the license plate on your car; two, set your profile to private so that only friends can see it. Review your privacy settings regularly to keep your profile information out of the public eye. And remember, nothing is 100% private on the internet. Never post anything you wouldn’t want to see shared.</p>
-<h3><strong>8) Look for HTTPS when you browse</strong></h3>
-<p>The “S” stands for secure. Any time you are shopping, banking, or sharing any kind of PII, look for “https” at the start of the web address. Some browsers will also indicate HTTP by showing a small “lock” icon. Doing otherwise on plain HTTP sites exposes your PII for anyone who cares to monitor that site for unsecure connections.</p>
-<h3><strong>9) Lock your devices—and keep an eye out for “shoulder surfers”</strong></h3>
-<p>By locking your devices, you protect yourself that much better from PII and data theft in the event your device is lost, stolen, or even left unattended for a short stretch. Use your password, PIN, facial recognition, thumbprint ID, what have you. Just lock your stuff.</p>
-<p>And just like you covered your work while taking that math test in grade school, cover your work when you’re out in public. Or better yet, do your shopping, banking, and other sensitive work strictly at home or in another controlled situation. The thing is, crooks are happy to lower themselves and simply peep over your shoulder to get the PII they want.</p>
-<p>While it’s necessary to talk about all of the digital ways a criminal can skim your PII, it’s important to remember that physical security, like being aware of your surroundings and simply not leaving your laptop in the car even for a moment while you pay for gas inside the station, is just as important.</p>
-<h3><strong>10) Keep tabs on your credit</strong></h3>
-<p>Theft of your PII can of course lead to credit cards and other accounts being opened falsely in your name. What’s more, it can be some time be some time before you even become aware of it, until perhaps your credit score takes a hit or a bill collector comes calling. By checking your credit, you can address any issues that come up, as companies typically have a clear-cut process for contesting any fraud. You can get <a target="_blank" href="https://www.consumer.ftc.gov/articles/0155-free-credit-reports" rel="noopener noreferrer">a free credit report in the U.S.</a> via the Federal Trade Commission (FTC) and likewise <a target="_blank" href="https://www.which.co.uk/money/credit-cards-and-loans/credit-scores/how-to-check-your-credit-score-for-free-avgzx7h867dp" rel="noopener noreferrer">other nations like the UK have similar free offerings</a> as well.</p>
-<p>Consider identity theft protection as well. A good identity theft protection package pairs well with keeping track of your credit in the way I mentioned above, and should offer cyber monitoring that scans black market sites on the Dark Web, and Social Security Number monitoring that can detect if any new aliases or addresses are attached to your number.</p>
-<h3><strong>Stay Updated </strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/take-it-personally-ten-tips-for-protecting-your-personally-identifiable-information-pii/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cisco DNA Center Bug Opens Enterprises to Remote Attack</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/cisco-dna-center-bug-opens-enterprises-to-remote-attack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 17:53:51 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Center]]></category>
-		<category><![CDATA[Cisco]]></category>
-		<category><![CDATA[DNA]]></category>
-		<category><![CDATA[enterprises]]></category>
-		<category><![CDATA[Opens]]></category>
-		<category><![CDATA[Remote]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cisco-dna-center-bug-opens-enterprises-to-remote-attack/</guid>
-
-					<description><![CDATA[The high-severity security vulnerability (CVE-2021-1257) allows cross-site request forgery (CSRF) attacks. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The high-severity security vulnerability (CVE-2021-1257) allows cross-site request forgery (CSRF) attacks.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cisco-dna-center-bug-remote-attack/163302/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SonicWall Breach Stems from ‘Probable’ Zero-Days</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/sonicwall-breach-stems-from-probable-zero-days/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 17:04:19 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Breach]]></category>
-		<category><![CDATA[Probable]]></category>
-		<category><![CDATA[SonicWall]]></category>
-		<category><![CDATA[Stems]]></category>
-		<category><![CDATA[ZeroDays]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/sonicwall-breach-stems-from-probable-zero-days/</guid>
-
-					<description><![CDATA[The security vendor is investigating potential zero-day vulnerabilities in its Secure Mobile Access (SMA) 100 series. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The security vendor is investigating potential zero-day vulnerabilities in its Secure Mobile Access (SMA) 100 series.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/sonicwall-breach-zero-days-in-remote-access/163290/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>INSPIRE 20 Podcast: Vandana Verma Sehgal, Infosec Girls</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/inspire-20-podcast-vandana-verma-sehgal-infosec-girls/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 25 Jan 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Girls]]></category>
-		<category><![CDATA[InfoSec]]></category>
-		<category><![CDATA[Inspire]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[Sehgal]]></category>
-		<category><![CDATA[Vandana]]></category>
-		<category><![CDATA[Verma]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=8443</guid>
-
-					<description><![CDATA[An experienced security solutions architect, Vandana Verma Sehgal is president of Infosec Girls, an initiative that assists women in their cybersecurity]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>An experienced security solutions architect, Vandana Verma Sehgal is president of Infosec Girls, an initiative that assists women in their <a target="_blank" href="https://techbeacon.com/security/application-security-your-career-5-key-areas-focus" rel="noopener">cybersecurity careers</a>.</p>
-<p>Verma Sehgal started Infosec Girls to provide support and mentorship to <a target="_blank" href="https://techbeacon.com/security/why-we-need-more-women-cybersecurity" rel="noopener">encourage women to pursue careers</a> in the field of information security. The goal is to get more women curious about cybersecurity by urging them to actively participate in events such as security conferences and community meet-ups.</p>
-<p>Many of the Infosec Girls chapters are based in Verma Sehgal&#8217;s home country of India. However, the influence of the organization is growing, and there are now chapters in the United States and Italy.</p>
-<h3>The INSPIRE 20 podcast</h3>
-<p>Verma Sehgal is one of the executives taking part in INSPIRE 20, a new podcast series that is showcasing 20 executives from around the world who are making a difference in terms of inclusion and diversity in their organizations, communities, and/or in their industries.</p>
-<p>Listen to the podcast with Vandana Verma Sehgal on <a target="_blank" href="https://podcasts.apple.com/gb/podcast/ep15-vandana-verma-sehgal-board-directors-at-owasp/id1510305176?i=1000506199311" rel="nofollow noopener">Apple Podcasts</a>, <a target="_blank" href="https://soundcloud.com/user-699370465/inspire-20-vandana-verma-infosec-girls" rel="nofollow noopener">SoundCloud</a>, or <a target="_blank" href="https://open.spotify.com/episode/4N0k110YTU1y8GgsKhjbyg?si=C7Q3GdMOQ1GgnYfzqsQpfA" rel="nofollow noopener">Spotify</a>. Plus: Listen to<a target="_blank" href="https://content.microfocus.com/l/inspire-20-podcast-series-tb" rel="noopener"> all of the INSPIRE 20 podcasts here</a>.</p>
-<p><iframe allow="autoplay" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/945509797&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no"></iframe></p>
-<h3>A wide-ranging security background</h3>
-<p>Verma Sehgal is a seasoned security professional with experience ranging from application security to infrastructure to DevSecOps. She participates in the Open Web Application Security Project (OWASP) and has been a keynote speaker and trainer in various venues, ranging from OWASP application security events to Black Hat conferences and regional meetings, including <a target="_blank" href="https://bsidesdelhi.in/index.php" rel="nofollow noopener">BSides in India.</a></p>
-<p>She is also a member of the OWASP global board of directors and works on diversity initiatives in various communities. She has been <a target="_blank" href="https://infosecvandana.com/rewards/" rel="nofollow noopener">the recipient of multiple honors</a>, including the <a target="_blank" href="https://infosecvandana.com/rewards/cybersecawards/" rel="nofollow noopener">2020 Cyber Security Woman of the Year</a> award, and Instasafe has listed her as <a target="_blank" href="http://https://instasafe.com/top-women-in-cybersecurity-in-india/" rel="nofollow noopener">one of the top women leaders</a> in the field of technology and cybersecurity in India.</p>
-<p>In the podcast, she explains why Infosec Girls is so important.</p>
-<blockquote>
-<p>&#8220;Sometimes people have the notion that women [belong in] the kitchen and men belong in tech, but that&#8217;s not the case. I know some really wonderful women who are doing amazing work in the tech industry.&#8221;<br />—Vandana Verma Sehgal</p>
-</blockquote>
-<h3>Why it can be difficult to recruit women</h3>
-<p>In the podcast, Verma Sehgal also talks about <a target="_blank" href="https://techbeacon.com/security/isaca-state-security-report-gender-diversity-issues-troubling" rel="noopener">the struggles with getting more women into tech careers</a>.</p>
-<p>&#8220;The main challenge is our own misconceptions,&#8221; she said. &#8220;We think that this field is not for us and we would not be able to thrive because it&#8217;s such a dynamic field.&#8221; Another difficulty can be figuring out how we are going to balance our family with work.</p>
-<p>To overcome these problems, women need to ask for help, she said in the podcast.</p>
-<blockquote>
-<p>&#8220;Nothing can be done without that. We have to look for people who can guide us. We have to share things with them.&#8221;<br />—Vandana Verma Sehgal</p>
-</blockquote>
-<p>For example, managers and organizations can provide women with more flexibility to manage their home and work lives by allowing them to work remotely when possible.</p>
-<p>In the podcast, Verma Sehgal also talks about OWASP&#8217;s future plans as well as the importance of mentorship, which she sees as a means to &#8220;uplift others,&#8221; help them conquer their fears, and guide them in the right direction.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/inspire-20-podcast-vandana-verma-sehgal-infosec-girls">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Microsoft Edge, Google Chrome Roll Out Password Protection Tools</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/microsoft-edge-google-chrome-roll-out-password-protection-tools/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 22 Jan 2021 21:57:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Edge]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Password]]></category>
-		<category><![CDATA[protection]]></category>
-		<category><![CDATA[Roll]]></category>
-		<category><![CDATA[Tools]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/microsoft-edge-google-chrome-roll-out-password-protection-tools/</guid>
-
-					<description><![CDATA[The new tools on Chrome and Edge will make it easier for browser users to discover &#8211; and change &#8211;]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The new tools on Chrome and Edge will make it easier for browser users to discover &#8211; and change &#8211; compromised passwords.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/microsoft-edge-google-chrome-roll-out-password-protection-tools/163272/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Amazon Kindle RCE Attack Starts with an Email</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/amazon-kindle-rce-attack-starts-with-an-email/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 22 Jan 2021 21:55:34 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Email]]></category>
-		<category><![CDATA[Kindle]]></category>
-		<category><![CDATA[RCE]]></category>
-		<category><![CDATA[starts]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.172.xip.io/amazon-kindle-rce-attack-starts-with-an-email/</guid>
-
-					<description><![CDATA[The &#8220;KindleDrip&#8221; attack would have allowed attackers to siphon money from unsuspecting victims. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The &#8220;KindleDrip&#8221; attack would have allowed attackers to siphon money from unsuspecting victims.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/amazon-kindle-attack-email/163282/">Source link </a></p>
 ]]></content:encoded>
 					
 		
