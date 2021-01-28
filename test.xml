@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 27 Jan 2021 21:43:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 28 Jan 2021 08:22:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,96 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Fast Testing Across Multiple Browsers</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/fast-testing-across-multiple-browsers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 08:22:47 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Fast]]></category>
+		<category><![CDATA[Multiple]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/fast-testing-across-multiple-browsers/</guid>
+
+					<description><![CDATA[If you think like the smartest people in software, you conclude that testing time detracts from software productivity. Investments in]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>If you think like the smartest people in software, you conclude that testing time detracts from software productivity. Investments in parallel test platforms pay off by shortening the time to validate builds and releases. But, you wonder about the limits of parallel testing. If you invest in infrastructure for fast testing across multiple browsers, do you capture failures that justify such an investment?</p>
+<h2 id="h-the-old-problem-browser-behavior">The Old Problem: Browser Behavior</h2>
+<p>Back in the day, browsers used different code bases. In the 2000s and early 2010s, most application developers struggled to ensure cross browser behavior. There were known behavior differences among Chrome, Firefox, Safari, and Internet Explorer. </p>
+<p>Annoyingly, each major version of Internet Explorer had its own idiosyncrasies. When do you abandon users who still run IE 6 beyond its end of support date? How do you handle the IE 6 thorough IE 10 behavioral differences? </p>
+<p>While Internet Explorer differences could be tied to major versions of operating systems, Firefox and Chrome released updates multiple times per year. Behaviors could change slightly between releases. How do you maintain your product behavior with browsers in the hands of your customers that you might not have developed with or tested against? </p>
+<p>Cross browser testing proved itself a necessary evil to catch potential behavior differences. In the beginning, app developers needed to build their own cross browser infrastructure. Eventually, companies arose to provide cross browser (and then cross device) testing as a service.</p>
+<h2 id="h-the-current-problem-speed-vs-coverage">The Current Problem: Speed Vs Coverage</h2>
+<p>In the 2020s, speed can provide a core differentiator for app providers. An app that delivers features more quickly can dominate a market. Quality issues can derail that app, so coverage matters. But, how do app developers ensure that they get a quality product without sacrificing speed of releases?</p>
+<p>In this environment, some companies invest in cross browser test infrastructure or test services. They invest in the large parallel infrastructure needed in creating and maintaining cross browser tests. And, the bulk of uncovered errors end up being rendering and visual differences. So, these tests require some kind of visual validation. But, do you really need to repeatedly run each test? </p>
+<p>Applitools concluded that repeating tests required costly infrastructure as well as costly test maintenance. App developers intend that one server response work for all browsers. With its <a target="_blank" href="https://applitools.com/ultrafast-grid/" rel="noopener">Ultrafast Grid</a>, Applitools can capture the DOM state on one browser and then repeat it across the Applitools Ultrafast Test Cloud. Testers can choose among browsers, devices, viewport sizes and multiple operating systems. How much faster can this be?</p>
+<h2 id="h-hackathon-goal-fast-testing-with-multiple-browsers">Hackathon Goal – Fast Testing With Multiple Browsers</h2>
+<p>In the <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">Applitools Ultrafast Cross Browser Hackathon</a>, participants used the traditional legacy method of running tests across multiple browsers to compare behavior results. Participants then compared their results with the more modern approach using the Applitools Ultrafast Grid. <a target="_blank" href="https://applitools.com/blog/how-easy-is-cross-browser-testing/" rel="noopener">Read here about one participant’s experiences</a>.</p>
+<p>The time that matters is the time that lets a developer know the details about a discovered error after a test run. For the legacy approach, coders wrote tests for each platform of interest, including validating and debugging the function of each app test on each platform. Once the legacy test had been coded, the tests were run, analyzed, and reports were generated. </p>
+<p>For the Ultrafast approach, coders wrote their tests using Applitools to validate the application behavior. These tests used fewer lines of code and fewer locators. Then, the coders called the Applitools Ultrafast Grid and specified the browsers, viewports, and operating systems of interest to match the legacy test infrastructure.</p>
+<h2 id="h-hackathon-results-faster-tests-across-multiple-browsers">Hackathon Results – Faster Tests Across Multiple Browsers</h2>
+<p>The report included this graphic showing the total test cycle time for the average Hackathon submission of legacy versus Ultrafast:</p>
+<figure class="wp-block-image"></figure>
+<p>Here is a breakdown of the average participant time used for legacy versus Ultrafast across the Hackathon:</p>
+<figure class="wp-block-table">
+<table>
+<tbody>
+<tr>
+<td>Activity</td>
+<td>Legacy</td>
+<td>Ultrafast</td>
+</tr>
+<tr>
+<td>Actual Run Time</td>
+<td>9 minutes</td>
+<td>2 minutes</td>
+</tr>
+<tr>
+<td>Analysis Time</td>
+<td>270 minutes</td>
+<td>10 minutes</td>
+</tr>
+<tr>
+<td>Report Time</td>
+<td>245 minutes</td>
+<td>15 minutes</td>
+</tr>
+<tr>
+<td>Test Coding Time</td>
+<td>1062 minutes</td>
+<td>59 minutes</td>
+</tr>
+<tr>
+<td>Code Maintenance Time</td>
+<td>120 minutes</td>
+<td>5 minutes</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p>The first three activities, test run, analysis, and report, make up the time between initiating a test and taking action. Across the three scenarios in the hackathon, the average legacy test required a total of 524 minutes. The average for Ultrafast was 27 minutes. For each scenario, then, the average was 175 minutes – almost three hours – for the legacy result, versus 9 minutes for the Ultrafast approach.</p>
+<p>On top of the operations time for testing, the report showed the time taken to write and maintain the test code for the legacy and Ultrafast approaches. Legacy test coding took over 1060 minutes (17 hours, 40 minutes), while Ultrafast only required an hour. And, code maintenance for legacy took 2 hours, while Ultrafast only required 5 minutes.</p>
+<h2 id="h-why-fast-testing-across-multiple-browsers-matters">Why Fast Testing Across Multiple Browsers Matters</h2>
+<p>As the Hackathon results showed, Ultrafast testing runs more quickly and gives results more quickly. </p>
+<p>Legacy cross-browser testing imposes a long time from test start to action. Their long run and analysis times do not make them suitable for any kind of software build validation. Most of these legacy tests get run in final end-to-end acceptance, with the hope that no visual differences get uncovered. </p>
+<p>Ultrafast approaches enable app developers to build fast testing across multiple browsers into software build. Ultrafast analysis catches unexpected build differences quickly so they can be resolved during the build cycle.</p>
+<p>By running tests across multiple browsers during build, Ultrafast Grid users shorten their find-to-resolve cycle to branch validation even prior to code merge. They catch the rendering differences and resolve them as part of the feature development process instead of the final QA process. </p>
+<p>Ultrafast testers seamlessly resolve unexpected browser behavior as they check in their code. This happens because, in less than 10 minutes on average, they know what differences exist. They could not do this if they had to wait the nearly three hours needed in the legacy approach. Who wants to wait half a day to see if their build worked?</p>
+<p>Combine the other speed differences in coding and maintenace, and it becomes clear why Ultrafast testing across multiple browsers makes it possible for developers to run Ultrafast Grid in development.</p>
+<h2 id="h-what-s-next">What’s Next</h2>
+<p>Next, we will cover code stability – the reason why Ultrafast tests take, on average, 5 minutes to maintain, instead of two hours. </p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/fast-testing-multiple-browsers/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>TeamTNT Cloaks Malware With Open-Source Tool</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/teamtnt-cloaks-malware-with-open-source-tool/</link>
 		
@@ -317,91 +407,79 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
-		<title>How continuous app modernization delivers remote access at scale</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-continuous-app-modernization-delivers-remote-access-at-scale/</link>
+		<title>Hybrid cloud management: There is a better way</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/hybrid-cloud-management-there-is-a-better-way/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
 		<pubDate>Wed, 27 Jan 2021 16:00:00 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Access]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[Continuous]]></category>
-		<category><![CDATA[delivers]]></category>
-		<category><![CDATA[modernization]]></category>
-		<category><![CDATA[Remote]]></category>
-		<category><![CDATA[Scale]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-continuous-app-modernization-delivers-remote-access-at-scale/</guid>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[hybrid]]></category>
+		<category><![CDATA[Management]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/hybrid-cloud-management-there-is-a-better-way/</guid>
 
-					<description><![CDATA[Remote access has been a big motivator for digital transformation, and the COVID-19 pandemic has accelerated that trend for core]]></description>
+					<description><![CDATA[The rise of hybrid cloud and multi-cloud, as well as hybrid IT, has led to the creation of a whole]]></description>
 										<content:encoded><![CDATA[<p> <br />
 <br /></p>
 <div>
-<p>Remote access has been a big motivator for digital transformation, and the COVID-19 pandemic has accelerated that trend for core business applications. As organizations the world over have been forced to implement work-from-home arrangements for tens of thousands of people, they&#8217;ve had to reckon with making irreplaceable business systems accessible to their newly distributed workforces—and do it at scale and securely.</p>
-<p>Providing this kind of access is a huge task with a high risk of failure. Adding to the pandemic-fueled urgency is increased pressure within organizations to show value quickly, said Micro Focus product marketing director <a target="_blank" href="https://twitter.com/EdAirey" rel="nofollow noopener">Ed Airey</a>.  &#8220;I just don&#8217;t think there&#8217;s the patience that was had at one point in time where they would wait for much longer projects.&#8221;</p>
-<p>Faced with these demands, many organizations are opting to transform their core applications through incremental improvements rather than taking a rip-and-replace approach. To that end, a new Micro Focus survey showed that <a target="_blank" href="https://www.microfocus.com/en-us/press-room/press-releases/2020/micro-focus-survey-finds-cobol-modernization-at-center-of-strategic-business-change" rel="noopener">63% of respondents chose to improve their COBOL systems in 2020.</a></p>
-<p>That decision is supported by research from the Standish Group. The report, &#8220;<a target="_blank" href="https://content.microfocus.com/app-modernization-dx-tb/endless-modernization?lx=my4KH8&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=%20WQDGNFY2037340" rel="noopener">Endless Modernization: How Infinite Flow Keeps Software Fresh</a>,&#8221; shows that a continuous modernization strategy often produces better results than do project-based approaches. Infinite Flow is the Standish Group&#8217;s model of incremental improvements.</p>
-<p>You don&#8217;t have months to show business value; &#8220;you only have weeks, so you have to deliver right away,&#8221; said Hans Mulder, one of the report&#8217;s authors.</p>
-<blockquote>
-<p>&#8220;There&#8217;s an end to the undertaking of projects. It&#8217;s becoming more like anti-projects. And since the core systems are crucial, organizations have to have ways in which they can improve systems on a daily basis.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/jbfmulder/" rel="nofollow noopener">Hans Mulder</a></p>
-</blockquote>
-<p>Overall, there is agreement that <a target="_blank" href="https://content.microfocus.com/app-modernization-dx-tb/app-modernization-101?lx=my4KH8&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=WQDGNFY2037340" rel="noopener">continuous modernization</a> minimizes risk, increases value, and achieves higher success rates. It&#8217;s becoming a critical engine for <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/about-digital-transformation?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">digital transformation</a>. Here&#8217;s are key lessons from the report.</p>
-<h3>Continuous modernization suits core applications</h3>
-<p>It&#8217;s common for organizations to approach modernizing mission-critical application software as one big project with a beginning and an end. But the scale of these projects often becomes unmanageable, resulting in them being aborted or abandoned. Even when a project is completed, the requirements may have changed by the time it&#8217;s delivered, due to the rapid speed of today&#8217;s business.</p>
-<p>Conversely, data shows that Flow-like micro-projects should succeed 80% to 90% of the time, according to report co-author <a target="_blank" href="https://www.linkedin.com/in/jim-johnson-83052/" rel="nofollow noopener">Jim Johnson</a>. And because micro-projects incrementally deliver new features and functions, it&#8217;s easier for end users to adapt to and provide feedback on the changes.</p>
-<blockquote>
-<p>According to the study, Infinite Flow-style daily delivery strategies can increase customer satisfaction to about 80%.</p>
-</blockquote>
-<p>The Micro Focus survey also found that this method of modernization is driving digital transformation. It reported that 70% of enterprises prefer a modernization approach for implementing strategic change over replacing or retiring <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-enterprises-are-adapting-their-cobol-apps-vs-ditching-them" rel="noopener">key COBOL applications</a>, because it &#8220;continues to offer a low-risk and effective means of transforming IT to support digital business initiatives.&#8221;</p>
-<p>Continuous modernization is especially popular with government, educational, and financial institutions, where technological complexity, compliance requirements, and an ingrained culture make large, one-off projects particularly challenging. Looking at how they can transform their core business systems to provide remote access, these organizations are challenging the status quo around how projects are managed and delivered.</p>
-<blockquote>
-<p>&#8220;What we&#8217;ve seen within our customer base are folks looking for faster ways to deliver value back to the business. They&#8217;re looking for ways that take out the cost and the risk, because every project, every IT initiative now, is under scrutiny for obvious reasons—budget, people, time.&#8221;<br />—<a target="_blank" href="https://twitter.com/EdAirey" rel="nofollow noopener">Ed Airey</a></p>
-</blockquote>
-<h3>Getting into the Flow</h3>
-<p>Teams are the building blocks of <a target="_blank" href="https://content.microfocus.com/app-modernization-dx-tb/continuous-modernization-results?lx=my4KH8&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=WQDGNFY2037340" rel="noopener">Infinite Flow modernization</a>, and the idea, according to Johnson, is to assign a Flow team to a specific app or embed one in a particular department. The goal is for these teams to build relationships with the people using the application, absorb their user experiences, and determine how to improve and keep the application relevant over time.</p>
-<p>This is the approach the city of Amsterdam took when it was forced to shift 30,000 employees to remote work at the beginning of pandemic lockdowns last year, Standish Group&#8217;s Mulder said. It divided its 180 IT workers among its 30 or so government departments so that each had its own Flow team, directed by executives acting as each micro-project&#8217;s sponsor.</p>
-<p>The sponsor can &#8220;tap in and get the work that they need to be done to run their department&#8221; with the strategic vision of the Amsterdam government, which is designed so any citizen can get any information they need from the city without requiring a lot of work, Standish Group&#8217;s Johnson said </p>
-<p>Any employee can do the work they need to, Johnson said. Most of the people who work for the city now, except the people doing things such as sweeping the streets and repairing the traffic lights, are remote.</p>
-<p>While a large-scale transformation such as this might seem cost-prohibitive, Johnson said Flow-style modernization actually reduces budgets and increases output. The bigger challenge, he said, is getting around the sacred cows and inertia within a given organization.</p>
-<p>The organization has its strategy, but every day somebody is working on implementing solutions for that strategy tactically.</p>
-<blockquote>
-<p>&#8220;When we talk about Flow, we&#8217;re talking about a culture change that puts more focus on getting organizations to think strategically, but to act tactically.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/jim-johnson-83052/" rel="nofollow noopener">Jim Johnson</a></p>
-</blockquote>
-<h3>Welcome transformation</h3>
-<p>At this point, organizations must embrace change. Given that, Mulder believes it comes down to the amount of complexity an organization can master at once. &#8220;If you have a project of Є540 million, you can&#8217;t master this—it&#8217;s too huge,&#8221; he said. &#8220;You have to be able to say, &#8216;What can we do on a daily basis?&#8217; Because that&#8217;s actually the thing you can steer.&#8221;</p>
-<p>It&#8217;s clear that organizations are still finding their core applications integral to how they operate their businesses, and <a target="_blank" href="https://techbeacon.com/app-dev-testing/app-modernization-101-understand-your-options-how-get-started" rel="noopener">retiring or replacing them is unthinkable</a>. Flow-like modernization is proving to be a fast, flexible way to retune them for remote access and keep them vital as IT ecosystems evolve.</p>
+<p>The rise of hybrid cloud and multi-cloud, as well as hybrid IT, has led to the creation of a whole sub-science of <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/manage-cloud-complexity?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">tools, approaches, and techniques to manage complex and distributed cloud deployments</a>.</p>
+<p>While some of these are sophisticated enough to leverage deep abstraction layers and <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">simplify the management of a hybrid cloud</a>, most are ad hoc and chaotic. The result: Many organizations don&#8217;t know where to start, and don&#8217;t understand when they are making the wrong choices.</p>
+<p>But there&#8217;s a path to complex, distributed cloud management (CDCM) that has yet to be mapped. You start by understanding your own requirements, learn about CDCM at its most primitive level, and then determine the best approach for both management and tooling.</p>
+<p>Here&#8217;s what&#8217;s new, and what&#8217;s better, with CDCM—in other words, what&#8217;s not widely well known or understood, and the secrets to success.</p>
+<p><em>(If you need guidance on the fundamentals before proceeding, check out &#8220;<a target="_blank" href="https://techbeacon.com/5-essentials-managing-hybrid-cloud" rel="noopener">5 essentials for managing hybrid cloud</a>,&#8221; which covers how to understand what&#8217;s being managed, security and governance, building a &#8220;single pane of glass,&#8221; SLAs, and the tools available to you.)</em></p>
+<h3>Cloud complexity: Where are the tools?</h3>
+<p>I&#8217;m defining &#8220;hybrid cloud&#8221; using the <a target="_blank" href="https://csrc.nist.gov/publications/detail/sp/800-145/final" rel="nofollow noopener">classic NIST definition</a>, but many vendors have taken liberties with the term, and in some cases their interpretation has little to do with a true cloud. To be clear, a hybrid cloud is a paired private and public cloud, the core components of a hybrid architecture.</p>
+<p>Multi-cloud is a bit more complex. While you could argue that a hybrid cloud is also a multi-cloud, the industry has defined multi-cloud as two or more public clouds within an architecture. It may or may not include private clouds.</p>
+<p>These days, most cloud architectures are complex and far-reaching. This includes traditional systems paired with public clouds, IoT-based private clouds paired with public clouds, multiple private clouds paired with single or plural public clouds, and so on. Indeed, it&#8217;s <a target="_blank" href="http://techbeacon.com/enterprise-it/how-match-your-it-workloads-right-cloud" rel="noopener">any cloud architecture</a> and deployment that extends to more than one public or private cloud.</p>
+<p>Those charged with cloud management are feeling the stress, given the chaotic and complex nature of the tools. Many practitioners view tools and best practices to be two years behind the emerging complex hybrid cloud architecture that organizations are using today.</p>
+<p>Here&#8217;s what a cloud architect, developer, or administrator can do to manage their complex cloud deployments in a repeatable and reliable way.</p>
+<h3>Understand your cloud and your requirements</h3>
+<p>Most of those who own a complicated, distributed cloud do so without a good understanding of what they are managing. This leads to the misapplication of tools and approaches, and ends with shops too often using management approaches and tooling that could derail an operational complex cloud deployment.</p>
+<p>The best way to manage a complex cloud is to understand its nature. This includes the architecture that encompasses which private clouds are leveraged and which platforms they externalize. Moreover, you must gain the same understanding of any public clouds that are leveraged as part of your hybrid cloud or multi-cloud deployment(s).</p>
+<p>The focus should be on requirements, or what you plan to do with your hybrid cloud or multi-cloud. For most enterprises, this means you need to understand the cloud&#8217;s business use and which applications are paired with databases that will either be distributed between the private and public cloud instances or run in one tier or another (on either a private or public cloud).</p>
+<p>Or perhaps you&#8217;re running systems inter-cloud, such as spreading applications and data across Amazon Web Services (AWS) and Azure, for example.</p>
+<p>In this set of requirements, you need to understand:</p>
+<ul>
+<li>Which databases you leverage, such as MySQL or Oracle</li>
+<li>Which programming language you use, such as Python or Java</li>
+<li>Which platform you run on, such as Linux or Windows NT </li>
+</ul>
+<p>You must repeat the same set of questions for all private and public clouds that are a part of your architecture.</p>
+<h4>Understand your management interfaces</h4>
+<p>Next, you need to define the management interfaces into those technologies, which include, at a minimum, the database, application, and platform. You get bonus points for understanding and defining the interfaces into your security systems, governance systems, and cost accounting systems as well.</p>
+<p>Interfaces include API sets for accessing features of those subsystems, such as monitoring and managing processor and I/O saturation points, and the ability to spin up additional resources, and spin them down as needed.</p>
+<p>The output of this process varies from one management solution to another.</p>
+<h3>Management technology available today</h3>
+<p>A common approach to complex distributed cloud management, or other complex and distributed architectures for that matter, is to toss as many tools at the problem as you can. But this leads to more complexity, cost, and, in some cases, epic failure.</p>
+<p>The correct selection of <a target="_blank" href="https://techbeacon.com/7-essential-open-source-tools-cloud-management" rel="noopener">cloud management platform tools</a>, or CMPs, as well as <a target="_blank" href="https://www.gartner.com/it-glossary/cloud-services-brokerage-csb/" rel="nofollow noopener">cloud service broker tools</a>, or CSBs, as well as <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-tools-implementation?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">AIOps and other emerging ops tools</a>, will ensure survival or guarantee failure, depending upon what tools you select.</p>
+<p>There is enough written about CSBs and CMPs that there&#8217;s no need to go into details here. If you&#8217;re not up to date on this technology, get that knowledge before proceeding. Once you have the basic requirements in place, it&#8217;s pretty easy to map those requirements to the correct tool set.</p>
+<p>These tools typically provide a layer of abstraction and automation between the humans who manage the complex cloud deployments, the many clouds themselves, and, most importantly, the different components, including application, data, platform, security, governance, and so on.</p>
+<p>Moreover, the right tools have the ability to automate the things that can be automated. Examples include shutting down or restarting server instances that produce I/O errors or that are blocking access from specific IP addresses that appear to be launching a distributed denial-of-service attack.</p>
+<p>However, you need to do a fair amount of research, testing, and operational trials to find the correct tool (or tools) you&#8217;ll need for your cloud-hosted applications. There are about 40 viable tools on the market today. Getting that list down to the final five will take you a month or two. From there, plan on another month or two to test the tools before making your final pick.</p>
+<p>It&#8217;s an easy process to follow. However, success depends in large part on your ability to define your requirements up front.</p>
+<h3>Create a plan that will ensure success the first time</h3>
+<p>Now that you have defined the requirements and tools, based on the specific needs of your complex, distributed cloud, focus on the larger-scale planning and budgeting that need to occur next.</p>
+<p>These plans differ, depending upon the type and complexity of the hybrid cloud and/or multi-clouds. However, they typically include:</p>
+<ul>
+<li>A high-level solution, including core requirements, objectives, SLAs, and other macro requirements</li>
+<li>A low-level solution, which defines all the APIs, tools, approaches, and other tactical solutions in detail</li>
+<li>The planned budgets for all approaches, technologies, etc.; this includes humans needed over time, technology deployed over time, cost of risk, and ongoing improvements</li>
+</ul>
+<p>While this might sound simple, cloud management pros are typically not good at writing things down, nor are they good at understanding costs. I recommend creating <a target="_blank" href="https://techbeacon.com/enterprise-it/why-you-need-digital-transformation-center-excellence" rel="noopener">a center of business management</a> to do this kind of planning centrally, as opposed to pursuing ad-hoc efforts for each project instance.</p>
+<h3>Track the key trends</h3>
+<p>Finally, consider what&#8217;s coming next. Complex, distributed cloud management solutions, best practices, and approaches are continuously changing. You need to continuously improve, so <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/hybrid-IT-management-trends?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">keep up with the trends</a>. Look for new ideas, new approaches, and new tools that will provide value.</p>
+<p>A plan for <a target="_blank" href="https://techbeacon.com/enterprise-it/how-use-kaizen-events-drive-lean-it-continuous-improvement" rel="noopener">continuous improvement</a> is a fairly new concept to IT, considering that IT organizations have grown accustomed to releasing 1.0 1.1, 2.0, etc., and have thus found the waterfall way of doing application development—even for complex, distributed cloud solutions—more comforting. However, the progress of technology means that you need to look for better best practices and technologies.</p>
+<p>New technology adoption also drives this need, including serverless technology that runs on public clouds such as AWS and Microsoft Azure, as well as container technology that can run on private or public clouds.</p>
+<p>There are two macro patterns to consider:</p>
+<ul>
+<li>The evolution of technology that enhances your ability to build solutions on a hybrid cloud, such as serverless and containers </li>
+<li>The evolution of cloud management tooling, such as new CMP, AIOps, or CSB products</li>
+</ul>
+<p>Many organizations don&#8217;t know where to start, or they make the wrong choices when they approach complex cloud architectures. However, the single most important takeaway is that as successful cloud management pro you should never be satisfied with the solutions you currently use. Always be on the lookout for something better.</p>
 <h4>Keep learning</h4>
 </div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/how-continuous-app-modernization-delivers-remote-access-scale">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Apple Patches Three Actively Exploited Zero-Days, Part of iOS Emergency Update</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-patches-three-actively-exploited-zero-days-part-of-ios-emergency-update/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 12:21:28 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Actively]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Emergency]]></category>
-		<category><![CDATA[exploited]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[Part]]></category>
-		<category><![CDATA[Patches]]></category>
-		<category><![CDATA[Update]]></category>
-		<category><![CDATA[ZeroDays]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-patches-three-actively-exploited-zero-days-part-of-ios-emergency-update/</guid>
-
-					<description><![CDATA[An anonymous researcher identified bugs in the software’s kernel and WebKit browser engine that are likely part of an exploit]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />An anonymous researcher identified bugs in the software’s kernel and WebKit browser engine that are likely part of an exploit chain.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/apple-patches-zero-days-ios-emergency-update/163374/">Source link </a></p>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/hybrid-cloud-management-there-better-way">Source link </a></p>
 ]]></content:encoded>
 					
 		
