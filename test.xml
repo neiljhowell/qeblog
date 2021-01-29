@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 28 Jan 2021 21:09:47 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 Jan 2021 07:59:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,230 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Playing with Playwright &#8211; Java API &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/playing-with-playwright-java-api-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 Jan 2021 07:59:28 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Playing]]></category>
+		<category><![CDATA[Playwright]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/playing-with-playwright-java-api-automated-visual-testing/</guid>
+
+					<description><![CDATA[Playwright, Microsoft’s new end-to-end browser automation framework, is making quite the splash! I took Playwright for a spin only a]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Playwright, Microsoft’s new end-to-end browser automation framework, is making quite the splash! I took Playwright for a spin only a few months ago when it was a <a target="_blank" href="https://info.applitools.com/uc4ys" rel="noopener">JavaScript-only framework</a>, and am pleasantly surprised to learn that language support has expanded to my beloved Java as well as Python and C#! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60d.png" alt="😍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>With the additional language support, as well as the ability to execute across modern browser engines Chromium, Firefox, and WebKit – this puts Playwright in the same category as Selenium WebDriver as viable testing solutions for all (not just JS) web testers who need cross-browser testing capabilities for complex applications.</p>
+<p>Browsing the <a target="_blank" href="https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/index.html" rel="noreferrer noopener">Playwright Javadocs</a> was helpful, but I like to evaluate frameworks by actually using them to automate realistic scenarios. So in this post, I’ll share the steps of building a testing project with Playwright which includes Page Objects, and I’ll also compare the Playwright steps to their equivalents in Selenium WebDriver.</p>
+<h2 id="h-how-to-install-playwright-java">How to Install Playwright Java</h2>
+<p>The first step in getting started with Playwright is adding the dependency to your project. You can get the Playwright client from <a target="_blank" href="https://mvnrepository.com/artifact/com.microsoft.playwright/playwright/" rel="noreferrer noopener">Maven Repository</a>. I created a new pom.xml file and added the playwright dependency.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/af0f739d020d99ee49961838ab8c6706.js</p>
+</div>
+<p>Like Selenium WebDriver, Playwright is a browser automation tool and not necessarily limited to a testing framework. In fact, neither of them provide any assertion methods. Therefore, you’ll need to add an assertion library as well. For this example, I’ll use <a target="_blank" href="https://mvnrepository.com/artifact/org.testng/testng" rel="noreferrer noopener">TestNG</a>.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/88570851233fdb8db139c931db21d47f.js</p>
+</div>
+<h2 id="h-how-to-launch-browser-in-playwright">How to Launch Browser in Playwright</h2>
+<p>The <em>Playwright</em> interface allows you to create specific types of <em>Browser</em> objects. The options are Chromium which is what Chrome and Edge are built upon, Firefox, and WebKit (the engine Safari is built upon). With this <em>Browser<strong> </strong></em>object, a <em>launch()</em> method is available which will start a browser instance.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/abfc846aed634f3917937952d5caec44.js</p>
+</div>
+<p>By default, Playwright launches the browser in headless mode, which means you won’t actually see the tests execute. If you want to see the browser open, you can disable headless mode by passing in a <em>LaunchOption.</em></p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/f26a970e673e3e92d8695333596a2e63.js</p>
+</div>
+<p>In addition to setting the headless mode, <a target="_blank" href="https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/com/microsoft/playwright/BrowserType.LaunchOptions.html" rel="noreferrer noopener">LaunchOptions</a> provide several other methods including ones to set environment variables and open Chromium dev tools.</p>
+<h2 id="h-how-to-launch-a-website-in-playwright">How to Launch a Website in Playwright</h2>
+<p>Now that we have a browser, we can load the application under test – <a target="_blank" href="https://automationbookstore.dev/" rel="noreferrer noopener">Automation Bookstore</a>. To do so, we need a <em>Page</em> object – which is similar to the <em>WebDriver</em> objects in Selenium. To create the <em>Page</em> object, we call <em>browser.newPage()</em> on line 8. This represents a single tab within the browser window. With this object, we can then navigate to our URL (line 9).</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/f2686fc54d93ba891c6ec7c454556151.js</p>
+</div>
+<h2 id="h-how-to-create-a-page-object-in-playwright">How to Create a Page Object in Playwright</h2>
+<p>We have our application loaded in the browser, and now we’d like to use the <a target="_blank" href="https://angiejones.tech/page-object-model/" rel="noreferrer noopener">Page Object Model design pattern</a> to create a Java class that represents the Search page of our application.</p>
+<p>In order to interact with the web elements, the Page Object class will need access to the Playwright <em>Page</em> object we created above. Again, this is comparable to how we pass the Selenium <em>WebDriver</em> object to Page Object classes so that they can perform browser interaction methods.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/f01d7d02e64f08e3e692e8fd74ac65ef.js</p>
+</div>
+<p>I created that <em>SearchPage</em> class and the constructor that accepts the <em>Page</em> object.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/6d16b27db88504694853f7ba853445ff.js</p>
+</div>
+<p>The first method I’ll add to this class is <em>search()</em> which will take in text and enter it into a text field. The method to do this is <em>fill(), </em>which takes a locator and the text you’d like entered into the field. You can see the call on line 11.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/79844b19d8fd0eec81fb5d0c71b1967b.js</p>
+</div>
+<h3 id="h-locators">Locators</h3>
+<p>The element locator for the search field is defined on line 4 as a simple String. This is true for all locators used in Playwright; unlike Selenium which uses the <em>By</em> class to allow you to express locators as id, name, XPath, css selector, link text, etc. In Playwright, it’s only CSS selectors and these are represented as Strings. This is a limitation for cases where XPath is the more favorable option such as when you need to find an element by its text or familial relationship to other elements.</p>
+<pre class="wp-block-code"><code>private String locator_searchBar = "#searchBar";</code></pre>
+<h3 id="h-wait-strategies">Wait Strategies</h3>
+<p>Playwright has <a target="_blank" href="https://playwright.dev/docs/actionability" rel="noreferrer noopener">auto-waiting</a> for elements that you are directly interacting with. Selenium WebDriver often gets a bad rap for things that are out of its control, for example the need to wait for a desired state of the application. In my particular application, there is a slight delay between the time I enter the search query and the time that the results are filtered. Since the search results element is a different element than the one I used the automation tool to interact with (search field), I have to account for this wait in my code, and it doesn’t matter if I use Selenium, Cypress, or Playwright – this remains true.</p>
+<p>To wait within Playwright, there’s a <em><a target="_blank" href="https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/com/microsoft/playwright/Page.WaitForSelectorOptions.html" rel="noreferrer noopener">WaitForSelectorOptions</a></em> class that allows you to specify the state you’re waiting for. The <a target="_blank" href="https://www.javadoc.io/static/com.microsoft.playwright/playwright/0.180.0/com/microsoft/playwright/Page.WaitForSelectorOptions.State.html" rel="noreferrer noopener">available states</a> are ATTACHED, DETACHED, HIDDEN, and VISIBLE.</p>
+<p>So here, after entering text into the field, I need to ask Playwright to wait until there are hidden books attached to the DOM. This is shown on lines 4-5.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/fa413dae21f67c0b76e6cd2f3b3db735.js</p>
+</div>
+<p>To demonstrate the <em>DETACHED</em> selector option, I’ll also make a <em>clear()</em> method. In this method, I clear the text field by sending an empty String, then wait for the hidden books element to be detached from the DOM.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/ea490f8821f5bd9a6593ef2216421a9b.js</p>
+</div>
+<h2 id="h-how-to-get-elements-in-playwright">How to Get Elements in Playwright</h2>
+<p>Playwright provides the <em>querySelector()</em> mehod which returns a single element as an <em>ElementHandle</em> object. This is equivalent to Selenium’s <em>WebElement</em> object obtained by <em>findElement()</em>. To get multiple elements that match the locator, Playwright provides <em>querySelectorAll()</em> and this will return a list of elements: <em>List&lt;ElementHandle&gt;.</em></p>
+<p>This is demonstrated in our Page Object class as we get the number of visible books.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/9b676af6e4dfe396721839d8889bff13.js</p>
+</div>
+<p>From an <em>ElementHandle</em>, you can take actions (e.g. click, fill, etc) or get information (getAttribute, isEnabled, isChecked, etc). The two methods that are JavaScripty and maybe not obvious at first glance to Java programmers are:<em> innerText()</em> and <em>innerHTML()</em>. The <em>innerText()</em> method is equivalent to Selenium’s getText() method; and there is no equivalent for <em>innerHTML()</em> in Selenium, bu it’s used to get the entire HTML contained between an element’s opening and closing tags.</p>
+<p>Here I use the <em>innerText()</em> method to get the titles of the visible books on line 4.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/53fb0225c8ed0f8433b6793c5923dc60.js</p>
+</div>
+<h2 id="h-the-tests">The Tests</h2>
+<p>Now that all of the heavy lifting has been done in the BaseTests and Page Object classes, the tests look exactly like they would if written in Selenium.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/746425b97b7d89523ec0f3c6c6b98f27.js</p>
+</div>
+<h2 id="h-there-s-much-more">There’s Much More</h2>
+<p>What I’ve demonstrated here is how to use Playwright for some of the most common everyday tasks, however the API boasts a lot more! It can capture screenshots, mock geolocation, emulate mobile device settings, intercept network calls, and <a target="_blank" href="https://github.com/microsoft/playwright-java" rel="noreferrer noopener">much more</a>. It already contains a lot of the features that make Selenium 4 more modern. While Playwright is still very new, it looks extremely promising and I’m definitely keeping my eye on it.</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/playwright-java/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Performing Page Interactions with Selenium Actions</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/performing-page-interactions-with-selenium-actions/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 Jan 2021 07:37:30 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Actions]]></category>
+		<category><![CDATA[Interactions]]></category>
+		<category><![CDATA[Page]]></category>
+		<category><![CDATA[Performing]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/performing-page-interactions-with-selenium-actions/</guid>
+
+					<description><![CDATA[Selenium Actions are used whenever you need a more complex interaction with an HTML element. More complex means it could]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Selenium Actions are used whenever you need a more complex interaction with an HTML element. More complex means it could be either: a double click, a hover, a right-click, or even drag and drop. Such interactions are very easy to make, and in this post, I want to go over some clear examples of how you can use the <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a> Actions class for this purpose.</p>
+<h2><strong>Table of Contents – Performing Page Interactions with Selenium Actions</strong></h2>
+<hr/>
+<h2><strong><a target="_blank" id="selenium-actions-class" rel="noopener">The Selenium Actions class</strong></h2>
+<p>Whenever you want to perform some of the interactions I mentioned, first, in your test class, or in a base class your tests are extending, you need to import the Actions class. You can do this quite easily:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">import org.openqa.selenium.interactions.Actions;</pre>
+<p>Then, you will need to declare a field (or variable, depending on how you structure your tests) of type Actions. In the examples I will show in this post, I will declare a field in my test class, as follows:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">private Actions actions;</pre>
+<p>I will then initialize this field in the @BeforeAll method of my test class, right after I created my WebDriver instance (which I store in the ‘driver’ field):</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions = new Actions(driver);</pre>
+<p><code/><br />In order to initialize the ‘actions’ field, I am calling the Actions class constructor, to which I am passing the ‘driver’ as a parameter. Once this step is done, we can get started with performing our required interactions.</p>
+<h2><strong><a target="_blank" id="test-setup" rel="noopener">Test setup</strong></h2>
+<p>At the end of the article, I will provide a GitHub link where you can find the resources I used for these examples: the HTML code, the Page class, and the test class. The Page class is called ActionsPage. In the test class, ActionsTest, I first declare the page instance as a field, and then, in the @BeforeAll method, I initialize it. I  also open the test webpage in this method. This webpage is part of the test project I am using and can be found in the test ‘resources’ folder. The entire @BeforeAll and @AfterAll methods look like this:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">@BeforeAll &#13;
+void beforeAll() &#13;
+{ &#13;
+   driver = browserGetter.getChromeDriver(); &#13;
+   page = PageFactory.initElements(driver, ActionsPage.class); &#13;
+   driver.get(new File("src/test/resources/htmls/tp/actions/actions.html").getAbsolutePath()); &#13;
+   actions = new Actions(driver); &#13;
+} &#13;
+&#13;
+@AfterAll &#13;
+void afterAll() &#13;
+{ &#13;
+   driver.quit(); &#13;
+}</pre>
+<p>Of course, after the entire test class runs, the browser will be closed.</p>
+<h2><strong><a target="_blank" id="mouse-hover" rel="noopener">Actions: Mouse hover</strong></h2>
+<p>The first interaction I will look into is the mouse hover one. As an example, I will have an HTML element of type paragraph (a &lt;p&gt; tag). When this element is hovered, a tooltip with the text “Hover text displayed” is displayed. The test will need to check that upon hovering, the tooltip displays the correct text.</p>
+<p>The corresponding HTML code is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">&lt;div class="w3-panel w3-teal w3-center"&gt; &#13;
+   &lt;p class="tooltip"&gt;Element to hover &lt;span class="tooltiptext"&gt;Hover text displayed&lt;/span&gt;&lt;/p&gt; &#13;
+&lt;/div&gt;</pre>
+<p>I am interested in creating 2 Selenium WebElements. The first one corresponds to the paragraph we want to hover. The second one corresponds to the tooltip. These 2 WebElements, created in the ActionsPage page class, are:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">@FindBy(className = "tooltip") &#13;
+public WebElement elementToHover; &#13;
+&#13;
+@FindBy(className = "tooltiptext") &#13;
+public WebElement hoverTextElement;</pre>
+<p>Having created the WebElement used for identifying the paragraph to hover, we can now use the hover method from the Actions class, namely ‘moveToElement’. The usage of this method, in general, is, where ‘target’ is the WebElement we need to hover:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.moveToElement(target).perform();</pre>
+<p>The ‘perform’ method should always be called after calling the desired interaction method. It performs a required cleanup, so that the next time you are using the ‘actions’ field, you are not relating or adding an interaction to the previous one. You can think of this method as performing a reset. The actions can be chained, meaning you can perform further interactions after the hover is done, within the same line of code. I will show such an example later on.</p>
+<p>For now, looking at our HTML page and the page class, we will write the part of the test which performs the hover over the paragraph. That means we will call the ‘moveToElement’ method while passing the ‘elementToHover’ WebElement as a parameter:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.moveToElement(page.elementToHover).perform();</pre>
+<p>Because we also want to check the text of the tooltip, we can use the ‘getText’ method to read the text of the WebElement which now needs to be displayed, namely ‘hoverTextElement’. We could use this in an assertion, as below, or even better, we could use a WebDriverWait based method for waiting for the text to be the expected one. For now, let’s check the text using an assertion:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">assertEquals("Hover text displayed", page.hoverTextElement.getText());</pre>
+<h2><strong><a target="_blank" id="double-click" rel="noopener">Actions: Double click</strong></h2>
+<p>Let’s now look at another example: here we have another paragraph. Before double-clicking on it, the text it displays is: Element to double click. After we double click, the new text it will display needs to be: The element was double-clicked.</p>
+<p>The corresponding HTML for this paragraph is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">&lt;div class="w3-panel w3-cyan w3-center"&gt; &#13;
+   &lt;p id="elementToDoubleClick" ondblclick="doubleClick()"&gt;Element to double click&lt;/p&gt; &#13;
+&lt;/div&gt;</pre>
+<p>The corresponding WebElement for the paragraph we want to double click on is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">@FindBy(id = "elementToDoubleClick") &#13;
+public WebElement elementToDoubleClick;</pre>
+<p>Before we perform the double click on the paragraph, we want to check that the text is the expected initial one:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">assertEquals("Element to double click", page.elementToDoubleClick.getText());</pre>
+<p>Now, the actual interaction will take place, using the ‘doubleClick’ method. The general usage for this method is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.doubleClick(target).perform();</pre>
+<p>When calling this method, there is no need for performing a hover before the click, as this step is already included in the ‘doubleClick’ method. The double click takes place in the middle of the defined WebElement. In our example, this method call, using our WebElement, is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.doubleClick(page.elementToDoubleClick).perform();</pre>
+<p>After the double click was performed, we do want to check that the behavior of the paragraph is correct. Therefore, we will also make another assertion on its’ text, comparing it to the expected new one:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">assertEquals("The element was double clicked", page.elementToDoubleClick.getText());</pre>
+<p>This assertion should be successful, which means our interaction was successful.</p>
+<h2><strong><a target="_blank" id="right-click" rel="noopener">Actions: Right-click</strong></h2>
+<p>We also have the option to perform a right-click on a WebElement. For demonstrating how this can be done, I will again use the ‘elementToDoubleClick’ WebElement we previously defined. The method to be used for this interaction is called ‘contextClick’ and its’ normal usage would be:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.contextClick(target).perform();</pre>
+<p>For our example, the corresponding right-click method call will be:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.contextClick(page.elementToDoubleClick).perform();</pre>
+<p>No hover is required in this case either, as it is already included in the ‘contextClick’ method. Of course, once the right-click is performed, you can continue with whatever steps your test requires.</p>
+<h2><strong><a target="_blank" id="drag-and-drop" rel="noopener">Actions: Drag and drop</strong></h2>
+<p>Let’s take a look at another example: we have a paragraph that we want to move over an empty &lt;div&gt;. The corresponding HTML code is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">&lt;p id="elementToDrag" class="w3-card-4 w3-center w3-sand"&gt;Element to drag&lt;/p&gt; &#13;
+&lt;div class="droptarget w3-panel w3-pale-yellow w3-center"&gt; &lt;/div&gt;</pre>
+<p>The WebElements representing the element to drag and the element to drop it to are:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">@FindBy(id = "elementToDrag") &#13;
+public WebElement elementToDrag; &#13;
+&#13;
+@FindBy(className = "droptarget") &#13;
+public WebElement dropContainer;</pre>
+<p>The drag and drop interaction, although normally consisting of several steps, can be done easily using the ‘dragAndDrop’ method. The normal usage for this method is:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.dragAndDrop(source, target).perform();</pre>
+<p>In our example, we want to drag the ‘elementToDrag’ element over the ‘dropContainer’ element. This is done as follows:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.dragAndDrop(page.elementToDrag, page.dropContainer).perform();</pre>
+<p>Once this interaction has been made, you could check that it was performed successfully by checking that the HTML code has been changed to reflect the new location of the element which was dragged.</p>
+<h2><strong><a target="_blank" id="chaining" rel="noopener">Actions: Chaining</strong></h2>
+<p>In some cases, you will need to perform several interactions on the same element. For example, you might need to first hover the element, and only then double click on it. This all depends on your underlying HTML. For multiple interactions on the same element, one after the other, you can still call the methods from the Actions class. In this case though, you will chain the method calls.</p>
+<p>An example of how this can be done is to perform a drag and drop, but not by using the ‘dragAndDrop’ method. When you think about what this interaction is made of, you can easily see that first you need to click on a WebElement, hold the mouse down, drag the mouse to the location where you want to drop it, and then actually drop it. This, in terms of methods we can find in the Actions class, translates to:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.clickAndHold(page.elementToDrag).moveToElement(page.dropContainer).release().build().perform();</pre>
+<p>Here, the ‘clickAndHold’ method will perform exactly what the name suggests: first, a click is done, and then the mouse is not released. Right after this interaction, while the mouse is still clicked, the cursor moves over the element where we want to drop the element we are dragging. In order to drop it, we need to use the ‘release’ method, which will release the mouse click. Because there are several interactions we want to use on the same element, we will also call the ‘build’ method before calling the ‘perform’ one. And this is how we can chain any Actions methods we require.</p>
+<h2><strong><a target="_blank" id="conclusion" rel="noopener">Conclusion</strong></h2>
+<p>In this article, I went over some of the most useful methods from the <a target="_blank" href="https://blog.testproject.io/2020/12/03/selenium-automation-best-practices-tips-you-must-know/" rel="noopener">Selenium</a> Actions class. All of them performed an interaction with an HTML element which we defined by means of a WebElement. In case you only have some coordinates on the screen for performing the interaction, there are some useful methods to help you out. For the complete list of available interaction methods, please check out the <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/interactions/Actions.html" rel="noopener noreferrer">official documentation</a>.</p>
+<h2><strong><a target="_blank" id="resources" rel="noopener">Resources</strong></h2>
+<p><a target="_blank" href="https://github.com/iamalittletester/little-project/blob/master/src/test/resources/htmls/tp/actions/actions.html" rel="noopener">The HTML code used for the examples</a></p>
+<p><a target="_blank" href="https://github.com/iamalittletester/little-project/blob/master/src/main/java/com/imalittletester/pages/tp/ActionsPage.java" rel="noopener">The Page object class</a></p>
+<p><a target="_blank" href="https://github.com/iamalittletester/little-project/blob/master/src/test/java/com/imalittletester/tp/ActionsTest.java" rel="noopener">The test class</a></p>
+</p></div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/01/29/performing-page-interactions-with-selenium-actions/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>#NeotysPAC expert Alex Podelko discusses the future of #performancetesting as an&#8230;</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/neotyspac-expert-alex-podelko-discusses-the-future-of-performancetesting-as-an/</link>
 		
@@ -486,59 +710,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/this-data-privacy-day-own-your-privacy-even-on-social-sites/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>LogoKit Simplifies Office 365, SharePoint ‘Login’ Phishing Pages</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/logokit-simplifies-office-365-sharepoint-login-phishing-pages/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 16:46:01 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Login]]></category>
-		<category><![CDATA[LogoKit]]></category>
-		<category><![CDATA[Office]]></category>
-		<category><![CDATA[Pages]]></category>
-		<category><![CDATA[Phishing]]></category>
-		<category><![CDATA[SharePoint]]></category>
-		<category><![CDATA[Simplifies]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/logokit-simplifies-office-365-sharepoint-login-phishing-pages/</guid>
-
-					<description><![CDATA[A phishing kit has been found running on at least 700 domains &#8211; and mimicking services like false SharePoint portals,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A phishing kit has been found running on at least 700 domains &#8211; and mimicking services like false SharePoint portals, OneDrive and Office 365.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/logokit-simplifies-office-365-sharepoint-login-phishing-pages/163430/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Mimecast Confirms SolarWinds Hack as List of Security Vendor Victims Snowball</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/mimecast-confirms-solarwinds-hack-as-list-of-security-vendor-victims-snowball/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 15:52:29 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[confirms]]></category>
-		<category><![CDATA[Hack]]></category>
-		<category><![CDATA[List]]></category>
-		<category><![CDATA[Mimecast]]></category>
-		<category><![CDATA[Snowball]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[Vendor]]></category>
-		<category><![CDATA[Victims]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mimecast-confirms-solarwinds-hack-as-list-of-security-vendor-victims-snowball/</guid>
-
-					<description><![CDATA[A growing number of cybersecurity vendors like CrowdStrike, Fidelis, FireEye, Malwarebytes, Palo Alto Networks and Qualys are confirming being targeted]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A growing number of cybersecurity vendors like CrowdStrike, Fidelis, FireEye, Malwarebytes, Palo Alto Networks and Qualys are confirming being targeted in the espionage attack.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/mimecast-solarwinds-hack-security-vendor-victims/163431/">Source link </a></p>
 ]]></content:encoded>
 					
 		
