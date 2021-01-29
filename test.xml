@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 28 Jan 2021 08:22:47 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 28 Jan 2021 21:09:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,354 +28,365 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Fast Testing Across Multiple Browsers</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/fast-testing-across-multiple-browsers/</link>
+		<title>#NeotysPAC expert Alex Podelko discusses the future of #performancetesting as an&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/neotyspac-expert-alex-podelko-discusses-the-future-of-performancetesting-as-an/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 08:22:47 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Browsers]]></category>
-		<category><![CDATA[Fast]]></category>
-		<category><![CDATA[Multiple]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/fast-testing-across-multiple-browsers/</guid>
-
-					<description><![CDATA[If you think like the smartest people in software, you conclude that testing time detracts from software productivity. Investments in]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>If you think like the smartest people in software, you conclude that testing time detracts from software productivity. Investments in parallel test platforms pay off by shortening the time to validate builds and releases. But, you wonder about the limits of parallel testing. If you invest in infrastructure for fast testing across multiple browsers, do you capture failures that justify such an investment?</p>
-<h2 id="h-the-old-problem-browser-behavior">The Old Problem: Browser Behavior</h2>
-<p>Back in the day, browsers used different code bases. In the 2000s and early 2010s, most application developers struggled to ensure cross browser behavior. There were known behavior differences among Chrome, Firefox, Safari, and Internet Explorer. </p>
-<p>Annoyingly, each major version of Internet Explorer had its own idiosyncrasies. When do you abandon users who still run IE 6 beyond its end of support date? How do you handle the IE 6 thorough IE 10 behavioral differences? </p>
-<p>While Internet Explorer differences could be tied to major versions of operating systems, Firefox and Chrome released updates multiple times per year. Behaviors could change slightly between releases. How do you maintain your product behavior with browsers in the hands of your customers that you might not have developed with or tested against? </p>
-<p>Cross browser testing proved itself a necessary evil to catch potential behavior differences. In the beginning, app developers needed to build their own cross browser infrastructure. Eventually, companies arose to provide cross browser (and then cross device) testing as a service.</p>
-<h2 id="h-the-current-problem-speed-vs-coverage">The Current Problem: Speed Vs Coverage</h2>
-<p>In the 2020s, speed can provide a core differentiator for app providers. An app that delivers features more quickly can dominate a market. Quality issues can derail that app, so coverage matters. But, how do app developers ensure that they get a quality product without sacrificing speed of releases?</p>
-<p>In this environment, some companies invest in cross browser test infrastructure or test services. They invest in the large parallel infrastructure needed in creating and maintaining cross browser tests. And, the bulk of uncovered errors end up being rendering and visual differences. So, these tests require some kind of visual validation. But, do you really need to repeatedly run each test? </p>
-<p>Applitools concluded that repeating tests required costly infrastructure as well as costly test maintenance. App developers intend that one server response work for all browsers. With its <a target="_blank" href="https://applitools.com/ultrafast-grid/" rel="noopener">Ultrafast Grid</a>, Applitools can capture the DOM state on one browser and then repeat it across the Applitools Ultrafast Test Cloud. Testers can choose among browsers, devices, viewport sizes and multiple operating systems. How much faster can this be?</p>
-<h2 id="h-hackathon-goal-fast-testing-with-multiple-browsers">Hackathon Goal – Fast Testing With Multiple Browsers</h2>
-<p>In the <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">Applitools Ultrafast Cross Browser Hackathon</a>, participants used the traditional legacy method of running tests across multiple browsers to compare behavior results. Participants then compared their results with the more modern approach using the Applitools Ultrafast Grid. <a target="_blank" href="https://applitools.com/blog/how-easy-is-cross-browser-testing/" rel="noopener">Read here about one participant’s experiences</a>.</p>
-<p>The time that matters is the time that lets a developer know the details about a discovered error after a test run. For the legacy approach, coders wrote tests for each platform of interest, including validating and debugging the function of each app test on each platform. Once the legacy test had been coded, the tests were run, analyzed, and reports were generated. </p>
-<p>For the Ultrafast approach, coders wrote their tests using Applitools to validate the application behavior. These tests used fewer lines of code and fewer locators. Then, the coders called the Applitools Ultrafast Grid and specified the browsers, viewports, and operating systems of interest to match the legacy test infrastructure.</p>
-<h2 id="h-hackathon-results-faster-tests-across-multiple-browsers">Hackathon Results – Faster Tests Across Multiple Browsers</h2>
-<p>The report included this graphic showing the total test cycle time for the average Hackathon submission of legacy versus Ultrafast:</p>
-<figure class="wp-block-image"></figure>
-<p>Here is a breakdown of the average participant time used for legacy versus Ultrafast across the Hackathon:</p>
-<figure class="wp-block-table">
-<table>
-<tbody>
-<tr>
-<td>Activity</td>
-<td>Legacy</td>
-<td>Ultrafast</td>
-</tr>
-<tr>
-<td>Actual Run Time</td>
-<td>9 minutes</td>
-<td>2 minutes</td>
-</tr>
-<tr>
-<td>Analysis Time</td>
-<td>270 minutes</td>
-<td>10 minutes</td>
-</tr>
-<tr>
-<td>Report Time</td>
-<td>245 minutes</td>
-<td>15 minutes</td>
-</tr>
-<tr>
-<td>Test Coding Time</td>
-<td>1062 minutes</td>
-<td>59 minutes</td>
-</tr>
-<tr>
-<td>Code Maintenance Time</td>
-<td>120 minutes</td>
-<td>5 minutes</td>
-</tr>
-</tbody>
-</table>
-</figure>
-<p>The first three activities, test run, analysis, and report, make up the time between initiating a test and taking action. Across the three scenarios in the hackathon, the average legacy test required a total of 524 minutes. The average for Ultrafast was 27 minutes. For each scenario, then, the average was 175 minutes – almost three hours – for the legacy result, versus 9 minutes for the Ultrafast approach.</p>
-<p>On top of the operations time for testing, the report showed the time taken to write and maintain the test code for the legacy and Ultrafast approaches. Legacy test coding took over 1060 minutes (17 hours, 40 minutes), while Ultrafast only required an hour. And, code maintenance for legacy took 2 hours, while Ultrafast only required 5 minutes.</p>
-<h2 id="h-why-fast-testing-across-multiple-browsers-matters">Why Fast Testing Across Multiple Browsers Matters</h2>
-<p>As the Hackathon results showed, Ultrafast testing runs more quickly and gives results more quickly. </p>
-<p>Legacy cross-browser testing imposes a long time from test start to action. Their long run and analysis times do not make them suitable for any kind of software build validation. Most of these legacy tests get run in final end-to-end acceptance, with the hope that no visual differences get uncovered. </p>
-<p>Ultrafast approaches enable app developers to build fast testing across multiple browsers into software build. Ultrafast analysis catches unexpected build differences quickly so they can be resolved during the build cycle.</p>
-<p>By running tests across multiple browsers during build, Ultrafast Grid users shorten their find-to-resolve cycle to branch validation even prior to code merge. They catch the rendering differences and resolve them as part of the feature development process instead of the final QA process. </p>
-<p>Ultrafast testers seamlessly resolve unexpected browser behavior as they check in their code. This happens because, in less than 10 minutes on average, they know what differences exist. They could not do this if they had to wait the nearly three hours needed in the legacy approach. Who wants to wait half a day to see if their build worked?</p>
-<p>Combine the other speed differences in coding and maintenace, and it becomes clear why Ultrafast testing across multiple browsers makes it possible for developers to run Ultrafast Grid in development.</p>
-<h2 id="h-what-s-next">What’s Next</h2>
-<p>Next, we will cover code stability – the reason why Ultrafast tests take, on average, 5 minutes to maintain, instead of two hours. </p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/fast-testing-multiple-browsers/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>TeamTNT Cloaks Malware With Open-Source Tool</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/teamtnt-cloaks-malware-with-open-source-tool/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 21:43:22 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cloaks]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[opensource]]></category>
-		<category><![CDATA[TeamTNT]]></category>
-		<category><![CDATA[tool]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/teamtnt-cloaks-malware-with-open-source-tool/</guid>
-
-					<description><![CDATA[The detection-evasion tool, libprocesshider, hides TeamTNT&#8217;s malware from process-information programs. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The detection-evasion tool, libprocesshider, hides TeamTNT&#8217;s malware from process-information programs.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/teamtnt-cloaks-malware-open-source-tool/163414/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>NetWalker Ransomware Suspect Charged: Tor Site Seized</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/netwalker-ransomware-suspect-charged-tor-site-seized/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 21:08:48 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Charged]]></category>
-		<category><![CDATA[NetWalker]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[Seized]]></category>
-		<category><![CDATA[site]]></category>
-		<category><![CDATA[Suspect]]></category>
-		<category><![CDATA[Tor]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/netwalker-ransomware-suspect-charged-tor-site-seized/</guid>
-
-					<description><![CDATA[The suspect allegedly has extorted $27.6 million from ransomware victims, mostly in the healthcare sector. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The suspect allegedly has extorted $27.6 million from ransomware victims, mostly in the healthcare sector.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/netwalker-ransomware-suspect-charged/163405/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Remote Attackers Can Now Reach Protected Network Devices via NAT Slipstreaming</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/remote-attackers-can-now-reach-protected-network-devices-via-nat-slipstreaming/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 20:32:55 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attackers]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[NAT]]></category>
-		<category><![CDATA[Network]]></category>
-		<category><![CDATA[Protected]]></category>
-		<category><![CDATA[Reach]]></category>
-		<category><![CDATA[Remote]]></category>
-		<category><![CDATA[Slipstreaming]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/remote-attackers-can-now-reach-protected-network-devices-via-nat-slipstreaming/</guid>
-
-					<description><![CDATA[A new version of NAT slipstreaming allows cybercriminals an easy path to devices that aren&#8217;t connected to the internet. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A new version of NAT slipstreaming allows cybercriminals an easy path to devices that aren&#8217;t connected to the internet.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/remote-attackers-internal-network-devices-nat-slipstreaming/163400/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Sudo Bug Gives Root Access to Mass Numbers of Linux Systems</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/sudo-bug-gives-root-access-to-mass-numbers-of-linux-systems/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 19:16:41 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Access]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Mass]]></category>
-		<category><![CDATA[Numbers]]></category>
-		<category><![CDATA[Root]]></category>
-		<category><![CDATA[Sudo]]></category>
-		<category><![CDATA[systems]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/sudo-bug-gives-root-access-to-mass-numbers-of-linux-systems/</guid>
-
-					<description><![CDATA[Qualys said the vuln gives any local user root access to systems running the most popular version of Sudo. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Qualys said the vuln gives any local user root access to systems running the most popular version of Sudo.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/sudo-bug-root-access-linux-2/163395/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ADT Security Camera Flaw Opened Homes, Stores to Eavesdropping</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/adt-security-camera-flaw-opened-homes-stores-to-eavesdropping/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 18:05:51 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[ADT]]></category>
-		<category><![CDATA[Camera]]></category>
-		<category><![CDATA[Eavesdropping]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[Homes]]></category>
-		<category><![CDATA[Opened]]></category>
-		<category><![CDATA[Stores]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/adt-security-camera-flaw-opened-homes-stores-to-eavesdropping/</guid>
-
-					<description><![CDATA[Researchers publicly disclosed flaws in ADT&#8217;s LifeShield DIY HD Video Doorbell, which could have allowed local attackers to access credentials,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers publicly disclosed flaws in ADT&#8217;s LifeShield DIY HD Video Doorbell, which could have allowed local attackers to access credentials, video feeds and more.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/adt-security-camera-flaw-opened-homes-stores-to-eavesdropping/163378/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Emotet Takedown Disrupts Vast Criminal Infrastructure; NetWalker Site Offline</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/emotet-takedown-disrupts-vast-criminal-infrastructure-netwalker-site-offline/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 18:04:49 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Criminal]]></category>
-		<category><![CDATA[Disrupts]]></category>
-		<category><![CDATA[Emotet]]></category>
-		<category><![CDATA[infrastructure]]></category>
-		<category><![CDATA[NetWalker]]></category>
-		<category><![CDATA[Offline]]></category>
-		<category><![CDATA[site]]></category>
-		<category><![CDATA[Takedown]]></category>
-		<category><![CDATA[Vast]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/emotet-takedown-disrupts-vast-criminal-infrastructure-netwalker-site-offline/</guid>
-
-					<description><![CDATA[Hundreds of servers and 1 million Emotet infections have been dismantled globally, while tales have emerged on Twitter that NetWalker&#8217;s]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Hundreds of servers and 1 million Emotet infections have been dismantled globally, while tales have emerged on Twitter that NetWalker&#8217;s Dark Web leaks site is offline.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/emotet-takedown-infrastructure-netwalker-offline/163389/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>A Guide to Getting Started with Continuous Performance Testing &#8211; Neotys</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/a-guide-to-getting-started-with-continuous-performance-testing-neotys/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 16:49:05 +0000</pubDate>
+		<pubDate>Thu, 28 Jan 2021 21:09:47 +0000</pubDate>
 				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Continuous]]></category>
-		<category><![CDATA[Guide]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[started]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/a-guide-to-getting-started-with-continuous-performance-testing-neotys/</guid>
+		<category><![CDATA[Alex]]></category>
+		<category><![CDATA[discusses]]></category>
+		<category><![CDATA[Expert]]></category>
+		<category><![CDATA[future]]></category>
+		<category><![CDATA[NeotysPAC]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Podelko]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/neotyspac-expert-alex-podelko-discusses-the-future-of-performancetesting-as-an/</guid>
 
-					<description><![CDATA[Looking for practical guidance &#8212; not more theory &#8212; on getting started with automated performance feedback loops in CI/CD pipelines?]]></description>
+					<description><![CDATA[#NeotysPAC expert Alex Podelko discusses the future of #performancetesting as an evolution more than a revolution, asking should it grow]]></description>
 										<content:encoded><![CDATA[
-<p>Looking for practical guidance &#8212; not more theory &#8212; on getting started with automated performance feedback loops in CI/CD pipelines? Download our guide <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3cgJA30&amp;h=AT0c6WScVlxIGPpAUuxKlWbaf028DIbkQMkxXbvTQ763dIg8RfWLOx0scDZv74Tn29zwZL6EbR7OzCzXC2AavJ_VJGKC9_8Enc_3Fld4dgPtj8gRJ4YQygNiQtHSNEke9o5on8-JGz8WpNeCNf75k1BTPjNOH6wObY7mbotGTeNWimJE66_zGperf-2ri_X01N-e_2bsD9aFf0tC5H50ybIhVIFLcA8ZAmGFSbtVZEfHeBGLkLNyNkt0DFVfCAhiyR1L4U7tqNCCNQ3Kwpx_Q6VZcUTVoBEsLXF84pm_gbk2g-3ublI1043p01t5Qi_-3EqEPQSucrsJapUJd4kVpQ8D9_amBMLrRdc0XX0ZQh7hf1WXzXUdbKFVmr7eq8oCmvR8_yp5bKdlSEuCwYgWodvUfW9q_YZ1kvqicgvyVo05pZsIItji6aoQwWC7nBbbZBO6VQMe_9i6MUsFx61hLNhdsQf3dowBLvYt_tlzIo5aA8aGZCS_oqivwJqEHjbDUEock68zkoVy8X4lUPTXOEtNBj7X6i0I2ZLhnUNJi1kSYv6JEVhP7Tn7kKjaeY8L_urk86E8TxCgnMqnqEUelrxIC1LYFAgs1cBc6pBCJckoqT7RqFg6LrYFBa1Aka2bEI7KF0Nnq5Penk1ptc8lcxOrg8fKItUeB0YtmKUNEvWsFks5_uQu1wr_e5W0ZtHtjkMjikphTDvzLO7Bv1ZR_99LHZTa-Nj-o02RW1AGxhWWs7Rca0Q-cV-ZpI73XKfG_bGcGBd7K4juyhIwG5FRQX3mQhDHgUvYQSbbW3_6Xovl2JeU6T0-MBR3fZ6D0CbbSH0gRr4eQXf4D8Loi7ZlhWgdYp947NuTSQCHLiZ7F-0PPblnhmyzWirzLWa-XFpTfugN2z8gA3YrwtwNvZPzauq9QAAOYj0VD9DQrulX2CJK2OipWuLOu6-dvV1_ScGKZGlNyWUxW6aeg0FM3llPgs18FhPu899ffTP1DkiV8S3TVl_iF5bn2g3a4BpDF1ZAYfT16MzL3fsk7G12rN-csGgC2N8lWSH8cM8aW_FJ83ueyfankr9VjtMGsPNlihFpGzhd9mTCkb3g3q8_cwY2_mLdWPere1Ex22UeEhBDCF4M85lA0kADlxZl6hcVSx9mQaZZmtCyWBYa7qXbxMyV1piaOfL_ffkyT2SQ7LFfKzeCoqDJpiFh0hSeC32K-WAx4dIIvUAIH_xxvLoW0G_BwaQVBj8" rel="noopener">https://bit.ly/3cgJA30</a>
+<p><a target="_blank" class="fi fj" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.4061581510519948%3Atop_level_post_id.4061581510519948%3Atl_objid.4061581510519948%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4061581510519948%3Apage_id.163354693676002%3Aphoto_id.4061581417186624%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX94EZmxSM1ipoXL%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611868187%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4061581510519948%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4061581510519948%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A5838923561515324227&amp;__tn__=%2As-R" rel="noopener">#NeotysPAC</a> expert Alex Podelko discusses the future of <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4061581510519948%3Atop_level_post_id.4061581510519948%3Atl_objid.4061581510519948%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4061581510519948%3Apage_id.163354693676002%3Aphoto_id.4061581417186624%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX94EZmxSM1ipoXL%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611868187%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4061581510519948%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4061581510519948%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A5838923561515324227&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> as an evolution more than a revolution, asking should it grow fur or feathers to avoid extinction? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2MonDnY&amp;h=AT3Uh1EK2NlJzMI6BQpMIOrSEPD8g6dSQaPkzLtKBQpF5Yo0DUcF9A_XO346lWJFdz88AOetzOXQ2aK44-d4aUhb_04cZ4ms-2nZLMcGB2djrZL8I26A7Rc8lHW-DZALc7BVHCk1WshhCpeh_fFytE9mMP6nciC7ZGuKYeoHIt_otUnaI11AvucbXfLho6M9lGoayPHhVg2XluJ3iyYzM2hxntwl28iXA4xHuJsHxUiswyWpkpBX3AkjPlX4Va1iQegnpIy0jBef-9JosJVfo9KKS3vgiE5zZ-hDVz7sk7st4-5493LLxO6gp2qx-d3TuRbeZhrLSkIM65oQLm5XhdX0sPk3dukaoPeddLLGspcIxP0asxqYhX1x_8-uEXOV-yChq2h02ooIP_DpAPPX3zhVGjqJaMNucLELEhEUnhE47ELHi3kEuNmxBPb0ohGlZR7o9gcOedvdEl0EEFZGfpPrDo0luUTVmwaRfH1Oz4qDh_eivpYxx298e6VFjUH-t_G1tkNbUtDBqVReXEPmiFMzszMipPKZYngXBiEE0dLhJgljkJHDDs91jsWswIyps14c6f2VkzF8s_tJ-uL90WJ7ZRfxA35kpsemR2GkMTqbyDkkxAeC_Ws0H_H-C-o5NUmfpsKee6snvlZqklPVgeV242VOnQjO3UQMShqxbEGbWLu-JHznvQo68gq9YAdDppQUMwLf3CLr2o6fInPrhH-UhRCpbLtBcS-ZFVw4gc0OlEC3WIT8ilf8ptWS385iqAW0gb2zBXa0uB6wYdh6ozIO6K2y-FPKO4ZEWS10yxl3rOgGw6j5t0ts9vRvcauKYYWpZaX4YcG4PFSKFWdqjOvmMFOpcDUGPJwBtkzIi2QD5bRRx8hPG4m7AcHvMlI_CKpqlGpr718GmHfwgBuZeO8FxPH3H_9mIlfX2_FDSUIOj24ETaO23fkzcPujoioeAYxVu5XgnFWakSy31y9C7_VG6RvNMmlfxynYI-KofiO8pyw0CbRr_ngcl6cXISjuiy5vXtG1WUdnUqwYzKh87QlOCE-1JLpF6jT37V1ejMKB-_cl2k6z7sjiGnTYacmLLVQnJ70woM5WGgQTGqa4Pr3w4RKmFkgR20mMjA83k9ky6dY8AidPw2mrBfvQ-p-KwE_gk50KoOjhbJkBETuBgvihCuJ8xp7Zsv_9XDQPbri2HPhT2vHIpGy0q335Pn3e75UGtuFWEEkElvnQToyXH0MJOfJfvph0P1trJtikTDxcAng2iOwlI0tQEzAu" rel="noopener">https://bit.ly/2MonDnY</a>
 </p>
-<p><a target="_blank" href="https://bit.ly/3cgJA30" rel="noopener"></a> </p>
-<p><a target="_blank" href="https://bit.ly/3cgJA30" rel="noopener">A Guide to Getting Started with Continuous Performance Testing &#8211; Neotys</a></p>
-<p>You don’t need another thesis on the benefits of testing early and often. This guide is intended for performance engineers who get “why” to automate performance testing in CI/CD pipelines but need practical advice on “how.” This paper helps you get from theory to practice. Specifically, we&#8230;<br />
+<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/143368420_4061581423853290_6016716109906941979_o.png?_nc_cat=109&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=wGsuRUHbs4sAX8QNl2H&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=b4cf23b37ad44b4c75a72709f2ba9036&#038;oe=6038F4E5" rel="noopener"></a><br />
 <br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4058200577524708">Source</a>  </p>
+<br /><a href="https://www.facebook.com/163354693676002/posts/4061581510519948">Source</a>  </p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>McAfee ATR Launches Education-Inspired Capture the Flag Contest!</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/mcafee-atr-launches-education-inspired-capture-the-flag-contest/</link>
+		<title>Rocke Group’s Malware Now Has Worm Capabilities</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/rocke-groups-malware-now-has-worm-capabilities/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 16:00:09 +0000</pubDate>
+		<pubDate>Thu, 28 Jan 2021 20:06:57 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[ATR]]></category>
-		<category><![CDATA[Capture]]></category>
-		<category><![CDATA[Contest]]></category>
-		<category><![CDATA[EducationInspired]]></category>
-		<category><![CDATA[Flag]]></category>
-		<category><![CDATA[launches]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mcafee-atr-launches-education-inspired-capture-the-flag-contest/</guid>
+		<category><![CDATA[Capabilities]]></category>
+		<category><![CDATA[Groups]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Rocke]]></category>
+		<category><![CDATA[Worm]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/rocke-groups-malware-now-has-worm-capabilities/</guid>
 
-					<description><![CDATA[McAfee’s Advanced Threat Research team just completed its second annual capture the flag (CTF) contest for internal employees. Based on tremendous]]></description>
+					<description><![CDATA[The Pro-Ocean cryptojacking malware now comes with the ability to spread like a worm, as well as harboring new detection-evasion]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The Pro-Ocean cryptojacking malware now comes with the ability to spread like a worm, as well as harboring new detection-evasion tactics.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/rocke-groups-malware-now-has-worm-capabilities/163463/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ShinyHunters Exposes Over 125 Million Online Credentials &#124; McAfee Blogs ShinyHunters Exposes Over 125 Million Online Credentials </title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/shinyhunters-exposes-over-125-million-online-credentials-mcafee-blogs-shinyhunters-exposes-over-125-million-online-credentials/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 19:27:18 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Credentials]]></category>
+		<category><![CDATA[Exposes]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[million]]></category>
+		<category><![CDATA[Online]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/shinyhunters-exposes-over-125-million-online-credentials-mcafee-blogs-shinyhunters-exposes-over-125-million-online-credentials/</guid>
+
+					<description><![CDATA[ShinyHunters Exposes Over 125 Million Online Credentials   Meet ShinyHunters, a hacker who recently leaked 10 new databases this past month]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
 <div class="author-block padding-bottom-xs">
                 
             </div>
-<p><span data-contrast="auto">McAfee’s Advanced Threat Research team just completed its second annual capture the flag (CTF) contest for internal employees</span><span data-contrast="auto">. Based on </span><span data-contrast="auto">tremendous internal feedback</span><span data-contrast="auto">, </span><span data-contrast="auto">we’ve decided to open it up to the public, starting with a set of challenges we designed in 2019. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><span data-contrast="auto">We’ve done our best</span><span data-contrast="auto"> to </span><span data-contrast="auto">minimize</span><span data-contrast="auto"> guesswork</span><span data-contrast="auto"> and gimmicks and instead of </span><span data-contrast="auto">flashy graphics </span><span data-contrast="auto">and</span><span data-contrast="auto"> games</span><span data-contrast="auto">, we’ve distilled the kind of problems we’ve encountered many times over the years </span><span data-contrast="auto">during</span><span data-contrast="auto"> our research projects</span><span data-contrast="none">.</span><span data-contrast="auto"> Additionally, as this contest is educational in nature, </span><span data-contrast="auto">we won’t be focused as much on the winners of the competition. </span><span data-contrast="auto">The goal is for anyone and everyone to learn something new. </span><span data-contrast="auto">However, we will </span><span data-contrast="auto">provide</span><span data-contrast="auto"> a custom ATR challenge coin</span><span data-contrast="auto"> to the top 5 teams (one coin per team)</span><span data-contrast="auto">.</span><span data-contrast="auto"> </span><span data-contrast="auto">All you </span><span data-contrast="auto">need </span><span data-contrast="auto">to do is score on 2 or more challenges to be eligible. When registering for the contest, m</span><span data-contrast="auto">ake sure to use a valid email address so we can contact you. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><i><span data-contrast="auto">The ATR CTF will open on Friday, February 5</span></i><i><span data-contrast="auto">th</span></i><i><span data-contrast="auto"> at </span></i><i><span data-contrast="auto">12:01pm</span></i><i><span data-contrast="auto"> PST and conclude on Thursday, February 18</span></i><i><span data-contrast="auto">th</span></i><i><span data-contrast="auto">, at 11:59pm PST.</span></i><span data-contrast="auto"> </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><span data-contrast="auto">Cli</span><span data-contrast="auto">ck </span><a target="_blank" href="https://atrhax.mcafee.com/" rel="noopener noreferrer"><span data-contrast="none">Here</span></a><span data-contrast="auto"> to Register!</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:270,&quot;335559740&quot;:240}"> </span></p>
-<p><span data-contrast="none">​​​​​​​</span><span data-contrast="auto">If you’ve never participated in a CTF before, the concept is simple. You will:</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:270,&quot;335559740&quot;:240}"> </span></p>
+<h2>ShinyHunters Exposes Over 125 Million Online Credentials</h2>
+<p> </p>
+<p>Meet <a target="_blank" href="https://www.riskbasedsecurity.com/2021/01/25/shinyhunters-wave-3-one-hacker-exposes-over-125-million-credentials/" rel="noopener noreferrer">ShinyHunters</a>, a hacker who recently leaked 10 new databases this past month from companies including:</p>
+<p>• Pixlr.com<br />• Bonobos.com<br />• Wognai.com<br />• Tesspring.com<br />• Tunedglobal.com<br />• Buyucoin.com<br />• Wappalyzer.com<br />• Chqbook.com<br />• Rooter.io<br />• MeetMindful.com</p>
+<p>But this isn’t the first time they’ve made headlines. It all started in <a target="_blank" href="https://www.wired.com/story/shinyhunters-hacking-group-data-breach-spree/" rel="noopener noreferrer">May of 2020</a> when ShinyHunters attempted to sell several stolen databases on the Dark Web. They also leaked several other databases between <a target="_blank" href="https://www.forbes.com/sites/daveywinder/2020/07/29/hacker-gives-away-386-million-stolen-records-on-dark-web-what-you-need-to-do-now-shinyhunters-data-breach/?sh=19cca2db6f39" rel="noopener noreferrer">April and July</a>.  In October, they proceeded to leak the database of the meal kit delivery company, HomeChef. Not one to be easily satisfied, <a target="_blank" href="https://latesthackingnews.com/2020/11/16/shinyhunters-target-numerous-firms-in-a-recent-wave-of-data-breaches/" rel="noopener noreferrer">ShinyHunters continued their antics</a> by exposing sixteen other databases in November, where personal user records and information were publicly shared. Prominent companies who fell victim to this wave of data breaches include gaming site Animal Jam, online marketplace Minted, and coupon company ShopBack, among others.</p>
+<p>Personal data released ranges from contact information and addresses, dates of birth, passwords, and financial information. Not including the latest data breach, a total of 129,406,564 user records were exposed. Given the alarming size of the exposure, this gives way to rising concerns for when ShinyHunters will strike again. What’s more, this group seeks notoriety from their misdeeds, hoping to claim credibility for the number of attacks they can execute—a troubling thought for everyday users like you and me.</p>
+<p>You never know when or if a breach will occur, which is why we must take precautions to protect our data in the case of a security breach. In the past year alone, we have seen a record number of data breaches, posing unforeseen security concerns and bringing light to new priorities for data protection. That’s why we must learn from these occurrences by proactively protecting our private information in 2021 and beyond.</p>
+<h3><strong>Tips </strong> <strong>for Protecting Yourself After a Data Breach</strong></h3>
+<p>There’s no way of knowing whether your personal information will fall into the wrong hands or that it will be used maliciously, but ShinyHunters has indicated that they are on the lookout for opportunities to expose more databases, so we must take the necessary steps to protect our personal information before the damage is done.</p>
+<h4> 1. Find out what information was stolen</h4>
+<p>Not knowing what data was stolen can make it significantly more difficult to pinpoint what threats you may become subject to. If you realize a company you buy from fell victim to a data breach, start investigating. Use <a target="_blank" href="https://haveibeenpwned.com/" rel="noopener noreferrer">this tool</a> to see if the breach affects you.</p>
+<h4><strong>2. Update your credentials </strong></h4>
+<p>Great passwords are usually the first line of defense against personal data exposures, so it’s important to update them as soon as they are compromised. Additionally, use different passwords or passphrases for each of your online accounts which helps protect the majority of your data if one of your accounts becomes vulnerable. One route you can take is to use a <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">password manager</a> that not only lets you create strong passwords but can let you manage them efficiently with added security and peace of mind.</p>
+<p>On top of updating your credentials, you’ll want to secure your log-in process by enabling 2-Factor Authentication. So, if a hacker has access to your stolen passwords, they’ll still have to bypass an added security layer that is time sensitive. This makes it even more difficult for them to access your information.</p>
+<h4><strong>3. Be on the lookout for spear-phishing attacks</strong></h4>
+<p>Like regular phishing attempts, spear-phishing attempts will try to steal your information by posing as an authentic entity to target unsuspecting victims. However, spear phishing attempts can be harder to spot because the attempt is modified to target a specific individual, often in the form of a personalized email. If you receive an email, call, or text asking you to download software, app, or pay a certain amount of money, do not click or take any direct action from the message. Instead, go straight to the organization’s website. This will prevent you from downloading malicious content from phishing links or forking over money unnecessarily.</p>
+<h4><strong>4. Keep an eye out for suspicious activity on your accounts </strong></h4>
+<p>If you find that your credit card information has been exposed, keep an eye on your bank records and validate each transaction. In the above cases for a site like MeetMindful, where Facebook authentication tokens and user IDs were stolen, it’s always best to keep an eye on other social accounts for fraudulent activity.</p>
+<h4><strong> 5. Freeze your credit</strong></h4>
+<p>For maximum financial protection, freeze your credit to prevent hackers from opening new accounts in your name. Placing a freeze on your credit is free for consumers and won’t affect your credit score. Simply contact the three major credit bureaus—Equifax, Experian, and TransUnion—to set up a freeze to secure your credit file until you decide to lift it.</p>
+<h3><strong>Stay Updated</strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
+<p> </p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/shinyhunters-exposes-over-125-million-online-credentials/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>APT team attacks white hats: Google fingers North Korea</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/apt-team-attacks-white-hats-google-fingers-north-korea/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 18:15:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[APT]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[fingers]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[hats]]></category>
+		<category><![CDATA[Korea]]></category>
+		<category><![CDATA[North]]></category>
+		<category><![CDATA[team]]></category>
+		<category><![CDATA[white]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apt-team-attacks-white-hats-google-fingers-north-korea/</guid>
+
+					<description><![CDATA[North Korean state-sponsored hackers are targeting and attacking white-hat security researchers. They’re using a combination of zero-day exploits, Trojan-laced VS]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><strong>North Korean state-sponsored hackers</strong> are targeting and attacking white-hat security researchers. They’re using a combination of zero-day exploits, Trojan-laced VS project bundles, and good old social engineering.</p>
+<p><strong>So says Google’s Threat Analysis Group (TAG),</strong> which has been looking into the perps. It’s blaming APT38 (a.k.a. Lazarus Group, DarkSeoul, ZINC, etc.)</p>
+<p><strong>And there are lessons for all of us.</strong> In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener">Security Blogwatch</a></i>, let’s be careful out there.</p>
+<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>shanties jump the shark.</em></p>
+<h3>GOOG TAG tags DPRK APT</h3>
+<p><strong>What’s the craic?</strong> Catalin Cimpanu reports—<i><a target="_blank" href="https://www.zdnet.com/article/google-north-korean-hackers-have-targeted-security-researchers-via-social-media/" rel="nofollow ugc noopener" title="read the full text">North Korean hackers have targeted security researchers via social media</a>:</i></p>
+<blockquote><p><em>A North Korean government hacking group has targeted members of the cyber-security community engaging in vulnerability research. … The attacks have been spotted by … TAG, a Google security team specialized in hunting advanced persistent threat (APT) groups.<br />…<br />[It’s been] linked to the Lazarus Group, a well-known North Korean state-sponsored operation. … Some security researchers believe the North Korean group most likely used a combination of Chrome and Windows 10 zero-day vulnerabilities to deploy their malicious code.<br />…<br />The reason for targeting security researchers? … To steal exploits for vulnerabilities discovered by the infected researchers, vulnerabilities that the threat group could deploy in its own attacks with little to no development costs.</em></p></blockquote>
+<p><strong>And</strong> Jon Porter carries the story—<i><a target="_blank" href="https://www.theverge.com/2021/1/26/22250060/google-threat-analysis-group-north-korean-hackers-cybersecurity-researchers-social-engineering" rel="nofollow ugc noopener" title="read the full text">Google warns of ‘novel social engineering method’</a>:</i></p>
+<blockquote><p><em>Government-backed hackers based in North Korea are targeting individual security researchers through a number of means. [It] worryingly appears to exploit unpatched Windows 10 and Chrome vulnerabilities.<br />…<br />[TAG] cites several cases of researchers’ machines having been infected simply by visiting the hackers’ blog, even when running the latest versions of Windows 10 and Chrome. … The attackers used a range of different platforms — including Telegram, LinkedIn and Discord.</em></p></blockquote>
+<p><strong>Let’s go to the horse’s mouth.</strong> Google TAG’s Adam Weidemann hits the panic button—<i><a target="_blank" href="https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/" rel="nofollow ugc noopener" title="read the full text">New campaign targeting security researchers</a>:</i></p>
+<blockquote><p><em>The actors behind this campaign, which we attribute to a government-backed entity based in North Korea, have employed a number of means to target researchers. … We hope this post will remind those in the security research community that they are targets to government-backed attackers and should remain vigilant.<br />…<br />The actors have been observed targeting specific security researchers by a novel social engineering method. After establishing initial communications, the actors would ask the targeted researcher if they wanted to collaborate on vulnerability research [via] a Visual Studio Project. Within the Visual Studio Project would be [a] DLL that would be executed through Visual Studio Build Events. The DLL is custom malware that would immediately begin communicating with actor-controlled C2.<br />…<br />We have also observed several cases where researchers have been compromised after visiting the actors’ blog. … Shortly thereafter, a malicious service was installed on the researcher’s system and an in-memory backdoor would begin beaconing. … We’re unable to confirm the mechanism of compromise.<br />…<br />We recommend that you compartmentalize your research activities using separate physical or virtual machines for general web browsing, interacting with others in the research community, accepting files from third parties, and your own security research.</em></p></blockquote>
+<p><strong>So who got hacked?</strong> Gareth Corfield relates Alejandro Caceres’ story—<i><a target="_blank" href="https://www.theregister.com/2021/01/26/north_korea_targeted_me_0_day/" rel="nofollow ugc noopener" title="read the full text">I was targeted by North Korean 0-day hackers</a>:</i></p>
+<blockquote><p><em>&#8220;When I read the Google thing I honestly think I said out loud, &#8216;Holy ****,&#8217; I thought it was insane. Attacked by a nation state? Me!?&#8221;<br />…<br />A vulnerability broker he had known for a while and trusted had introduced him to a new researcher called James Willy &#8220;from New York,&#8221; Caceres [said]. &#8220;We hopped in a group chat, the three of us, and he sent me a Visual Studio project to take a look at a driver bug that caused a blue screen of death.&#8221;<br />…<br />&#8220;James&#8221; [said] it was linked to Google Chrome – an instant attention-grabber for bug hunters. Vulns affecting software used by tens of millions worldwide are rare and command hefty rewards. … &#8220;The code was all legit, it was a real crash with potential security implications, but I wasn&#8217;t careful when I opened the Visual Studio project.&#8221; [But] opening some Visual Studio projects can cause code to execute, which was the North Koreans&#8217; attack vector.<br />…<br />Sometimes – just sometimes – those evil nation state hackers really are coming after you. Being an ordinary bughunting pro doesn&#8217;t make you less of a target.</em></p></blockquote>
+<p><strong>But</strong> this <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=18123256&amp;cid=60994104" rel="nofollow ugc noopener" title="read the full text">Anonymous Coward</a></i> is distinctly unimpressed:</p>
+<blockquote><p><em>A whitehat that runs Windows 10, Chrome and Visual Studio outside of a sandbox doesn&#8217;t deserve to be called a hacker.</em></p></blockquote>
+<p><strong>A unique exploit?</strong> Nope: Seongsu Park—<i><a target="_blank" href="https://twitter.com/unpacker/status/1354203847455956995" rel="nofollow ugc noopener" title="read the full text">@unpacker</a></i>—has déjà vu:</p>
+<blockquote><p><em>We have seen that Lazarus group use this malware cluster, we named ThreatNeedle, in recent attack against the defense industry. It’s almost identical malware with the same RC4 key and the overlapped infrastructure. Surprised that it&#8217;s a researcher target at this time.</em></p></blockquote>
+<p><strong>Wait. <em>Pause.</em></strong> How do we know it was the DPRK, anyway? <i><a target="_blank" href="https://forums.theregister.com/forum/all/2021/01/26/north_korea_targeted_me_0_day/#c_4193852" rel="nofollow ugc noopener" title="read the full text">martinusher</a></i> ain’t convinced:</p>
+<blockquote><p><em>I think there&#8217;s some kind of dice or spinner that they use that&#8217;s marked &#8220;Russia, China, Iran, Cuba, North Korea&#8221; and so on that news services use to identify the &#8216;nation state&#8217; responsible for the hack du jour.</p>
+<p>I&#8217;m not ruling out nation states, just that there are a lot more criminals out there than there are nation states. There&#8217;s also good money to be made from vulnerabilities so I&#8217;d expect that less than ethical people would have moved in to what is a decent business opportunity.</p>
+<p></em></p></blockquote>
+<p><strong>Indeed.</strong> <i><a target="_blank" href="https://www.theverge.com/2021/1/26/22250060/google-threat-analysis-group-north-korean-hackers-cybersecurity-researchers-social-engineering#535821185" rel="nofollow ugc noopener" title="read the full text">scooby359</a></i> would have gotten away with it, if it wasn’t for you pesky kids: <em>[You’re fired—Ed.]</em></p>
+<blockquote><p><em>I’m always curious how such a seemingly backwards country can have such advanced cyber security skills.</em></p></blockquote>
+<p><strong>Yeah, right.</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=18123256&amp;cid=60994056" rel="nofollow ugc noopener" title="read the full text">Brian Bixby</a></i> agrees:</p>
+<blockquote><p><em>I&#8217;m still surprised that the &#8220;North Korean Super-Hacker&#8221; foolishness is still a thing. They have a single … fiber line that goes through the Great Firewall of China (until a few years ago it was a paired T-3 to Taiwan that frequently was congested by Kim&#8217;s porn habit.)</p>
+<p>IIRC there&#8217;s one small data center in the entire country with obsolete cast-off Chinese servers. … They don&#8217;t have the capability to hire any decent instructors for their tiny educated class to teach them hacking.</p>
+<p>And yet we&#8217;re supposed to tremble in our boots that the North Korean Super-Hackers are coming to get us. Seems far more likely some criminals in China or Hong Kong are spoofing NK addresses.</p>
+<p></em></p></blockquote>
+<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://arstechnica.com/information-technology/2021/01/north-korea-hackers-use-social-media-to-target-security-researchers/?comments=1&amp;post=39609232#comment-39609232" rel="nofollow ugc noopener" title="read the full text">QuantifiableQuoll</a></i> has this warning for us all:</p>
+<blockquote><p><em>The blog was also linked to on various security subreddits. If you’re the type of person who frequents those subreddits, you will want to check your computer over.</em></p></blockquote>
+<h3>The moral of the story?</h3>
+<p>Social engineering isn’t only for normies. Whether you’re an IT puke, an agile Dev(Sec)Ops sprinter, or a 1337 haxor: <em>Question everything</em>.</p>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=HSfG4UtiGBQ&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow" title="And Finally">Can we all agree? That’s enough sea shanties.</a></strong></p>
+<p><iframe title="The Wellerman (metal cover by Leo Moracchioli)" width="800" height="450" src="https://www.youtube.com/embed/HSfG4UtiGBQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE. 30.</em></p>
+<p><em>This week’s zomgsauce: <a target="_blank" href="https://unsplash.com/photos/0G7aFO4R6zA" rel="noopener nofollow">Micha Brändli</a> (via <a target="_blank" href="https://unsplash.com/license" rel="noopener nofollow" title="Some rights reserved">Unsplash</a>)</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/apt-team-attacks-white-hats-google-fingers-north-korea">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Utah Ponders Making Online ‘Catfishing’ a Crime</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/utah-ponders-making-online-catfishing-a-crime/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 18:01:24 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Catfishing]]></category>
+		<category><![CDATA[Crime]]></category>
+		<category><![CDATA[Making]]></category>
+		<category><![CDATA[Online]]></category>
+		<category><![CDATA[Ponders]]></category>
+		<category><![CDATA[Utah]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/utah-ponders-making-online-catfishing-a-crime/</guid>
+
+					<description><![CDATA[Pretending to be someone else online could become a criminal offense, setting a precedent for other states to follow. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Pretending to be someone else online could become a criminal offense, setting a precedent for other states to follow.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/utah-ponders-making-online-catfishing-a-crime/163456/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>10 Easy Ways to Build Up Your Family’s Online Security</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/10-easy-ways-to-build-up-your-familys-online-security/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 17:44:58 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[build]]></category>
+		<category><![CDATA[Easy]]></category>
+		<category><![CDATA[Familys]]></category>
+		<category><![CDATA[Online]]></category>
+		<category><![CDATA[ways]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/10-easy-ways-to-build-up-your-familys-online-security/</guid>
+
+					<description><![CDATA[10 Easy Ways to Build Up Your Family’s Online Security The events of 2020 didn’t just set significant lifestyle changes]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="container medium">
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<h2><strong>10 Easy Ways to Build Up Your Family’s Online Security </strong></h2>
+<p>The events of 2020 didn’t just set significant lifestyle changes in motion. According to a recent study, it also influenced our mindset about our online security.</p>
+<p>McAfee’s <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/new-year-new-digital-you-consumer-security-findings-from-mcafees-latest-report/?hilite=%272021%27%2C%27Consumer%27%2C%27Security%27%2C%27Mindset%27%2C%27Report%27" rel="noopener"><em>2021 Consumer Security Mindset Report</em></a> highlights our collective shift to a Digital-First mindset and the increased risks that come with it.</p>
+<p>This study is essential to families for several reasons. First, because it gives us a snapshot of reality, and when we understand reality, we can take steps to improve it. Second, it’s a reminder to us as parents that helping our kids build their digital skills is a process subject to cultural shifts that will require continuous recalibration.</p>
+<h3><strong>Our Reality</strong></h3>
+<p>In short, the study reveals that we’re online more and, for convenience’s sake, we’re taking more chances with our security. In step with this increase in digital activity, online scams are on the rise. And, while most of us admit to being worried about our online security and, many still don’t have the digital habits they need to protect themselves.</p>
+<p>How do we respond to this new and seemingly ongoing reality? We can say we need better cyber safety skills, or we can implement them.</p>
+<p>To help you do just that, here are ten easy peasy steps your family can take today to strengthen the protective circle around your digital life. Note: You don’t have to be tech savvy to do these things. They are easy, effective ways to build up your family’s digital defenses. Here we go!</p>
+<h3><strong>10 Ways to Boost Digital Security</strong></h3>
+<ol>
+<li><strong>Stay on top of scams.</strong> Phishing scams are at an all-time high. Discuss the precautions with kids — don’t open strange emails, click random downloads, connect with strangers online, or purchase from sketchy sources or websites.</li>
+<li><strong>Zip it online.</strong> Oversharing personal information online is low-hanging fruit for hackers. They can piece together details in surprising ways to steal your identity — or worse. Encourage kids to keep private information and keep real names, city, address, school name, extracurricular activities, and pet names under wraps online.</li>
+<li><strong>Create a family challenge.</strong> Find and fix your family’s security gaps. Inventory your technology, including IoT devices, smartphones, game systems, tablets, and toys. Rank device security 1-10 based on security best practices (see #8). Create an official 30-Day Family Security Challenge. Make it fun. Sit and change passwords together, review privacy settings, reduce friend lists. Come up with a reward system that tallies and recognizes each positive security step.</li>
+<li><strong>Layer up your protection.</strong> Use multi-factor authentication to double-check digital users’ authenticity and add a layer of security to protect personal data and information.</li>
+<li><strong>Connect with caution.</strong> If you must conduct transactions on a public Wi-Fi connection, use a virtual private network (VPN) like <a target="_blank" href="https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html" rel="noopener noreferrer">McAfee® Safe Connect</a> to help keep you safe while you’re online.</li>
+<li><strong>Follow safe browsing habits.</strong> Browse with added security using a tool like <a target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.mcafee.com%2Fen-us%2Fsafe-browser%2Fmcafee-webadvisor.html&amp;esheet=52327479&amp;newsitemid=20201116005169&amp;lan=en-US&amp;anchor=McAfee+WebAdvisor&amp;index=4&amp;md5=8668579d23bb59fdc7922b40838909e8" rel="noopener noreferrer">McAfee WebAdvisor</a> to block malware and phishing sites if you click on a malicious link. In addition to checking web sites, put your browser in private or incognito mode to reduce some tracking and auto-filling.</li>
+<li><strong>Lock up your identity.</strong>  Protect your identity and important personal information using <a target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.mcafee.com%2Fconsumer%2Fen-us%2Fmicrosite%2Fidentity-protection%2Foverview.html%3Fculture%3DEN-US%26cid%3D210317%26pir%3D1&amp;esheet=52327479&amp;newsitemid=20201116005169&amp;lan=en-US&amp;anchor=McAfee+Identity+Theft+Protection&amp;index=5&amp;md5=f65807f6a1b2c615b42b20557072b316" rel="noopener noreferrer">McAfee Identity Theft Protection</a>, which also helps you recover your information if your identity is compromised.</li>
+<li><strong>Take control of your digital footprint.</strong> Limit information online by <strong>a)</strong> setting social media profiles to private <strong>b)</strong> regularly editing friends lists, <strong>c)</strong> deleting personal information on social profiles, <strong>d) </strong>limiting app permissions someone and browser extensions</li>
+<li><strong>Purge old, unused apps and data</strong>. To strengthen security, regularly delete old data, photos, apps, emails, and unused accounts.</li>
+<li><strong>Update devices asap</strong>. Those updates you’re putting off? They may be annoying but most of them are security-related, so it’s wise to install them as they come out.</li>
+</ol>
+<h3><strong>Stay Updated  </strong></h3>
+<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
+</p></div>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/10-easy-ways-to-build-up-your-familys-online-security/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Schrems II – A few Things to Keep in Mind!</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/schrems-ii-a-few-things-to-keep-in-mind/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 17:33:12 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Mind]]></category>
+		<category><![CDATA[Schrems]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/schrems-ii-a-few-things-to-keep-in-mind/</guid>
+
+					<description><![CDATA[A couple of days ago, I have been asked whether, notably thanks to the GDPR[1] and the CCPA[2], we were]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>A couple of days ago, I have been asked whether, notably thanks to the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/gdpr.html" rel="noopener noreferrer">GDPR</a><a target="_blank" href="https://www.mcafee.com/#_ftn1" name="_ftnref1" rel="noopener">[1]</a> and the CCPA<a target="_blank" href="https://www.mcafee.com/#_ftn2" name="_ftnref2" rel="noopener">[2]</a>, we were seeing as professionals, a standardization in negotiations governing privacy terms.</p>
+<p>Alas, we have possibly never been so much away of such harmonization. 128 out of 194 countries have put in place legislation to secure the protection of data and privacy. And despite the existence of initiatives to develop tools able to harmonize compliance with legal, security and regulatory requirements, privacy is still much of a grey zone.</p>
+<p>From the EU’s standpoint, and regardless of the fact that the GDPR is seen as one of the most, if not <em>the</em> most sophisticated regulation in terms of protection of personal data, Mr. Schrems and the European Court of Justice (“ECJ”) are both playing a bit with the nerves of thousands of privacy professionals.</p>
+<p>For those who do not know Mr. Schrems, Maximilian is an Austrian privacy activist. As a privacy law student in 2011 at the Santa Clara University, he met a Facebook representative who explained to the students that Europeans had many privacy rights in the EU but were however not doing much to protect them. The words didn’t fall on deaf ears and by 2015, Max had brought a case against Facebook, and achieved to get the Safe Harbor (the then used as a mechanism to transfer personal data to the United States) invalidated<a target="_blank" href="https://www.mcafee.com/#_ftn3" name="_ftnref3" rel="noopener">[3]</a>. The Safe Harbor was replaced by the Privacy Shield, which – together with European Standard Clauses (“SCCs”) – were suspected of not being able to sufficiently protect European rights against US massive surveillance.</p>
+<p>As you may have heard, on 16 July 2020<a target="_blank" href="https://www.mcafee.com/#_ftn4" name="_ftnref4" rel="noopener">[4]</a>, the Privacy Shield has been invalidated. The SCCs are still valid, but not sufficient <em>per se</em>. Following the Schrems II Decision, the European Commission issued some 22 pages of recommendations for the transfer of personal data outside the European Union<a target="_blank" href="https://www.mcafee.com/#_ftn5" name="_ftnref5" rel="noopener">[5]</a> and the set of happy few countries considered as providing adequate protection, as well as a new draft set of SCCs<a target="_blank" href="https://www.mcafee.com/#_ftn6" name="_ftnref6" rel="noopener">[6]</a>.</p>
+<p>So, what’s next for us? Below are a couple of answers to help you out navigating through 2021.</p>
+<p> </p>
+<h2><strong>1. How much time do companies have to comply with the requirements of the Schrems II decision?</strong></h2>
+<p>No grace period was provided by the ECJ: the consequences are applicable since 16 July 2020 and companies who used to rely on the Privacy Shield had to immediately stop using that mechanism and replace with the SCCs.</p>
+<h2><strong>2. Are SCCs enough to transfer data outside of the EU?</strong></h2>
+<p>No, SCCs are no longer enough on their own: companies need to assess on a case by case basis whether the laws of the recipient country offer enough protection AND where they don’t, they must include supplementary measures. In addition, if supplementary measures are not possible or insufficient, the parties must suspend, or end transfer OR the transfer must be suspended or ended by the data protection authority.</p>
+<h2><strong>3. Now that the EU has issued new SCCs, will these replace the hassle of assessing the recipient’s country protections?</strong></h2>
+<p>No – a simple update of the SCCs will not be enough. SCCs “are not capable of binding the authorities of that third country, since they are not party to the contract.” <a target="_blank" href="https://www.mcafee.com/#_ftn7" name="_ftnref7" rel="noopener">[7]</a>. Hence, the requirement of implementing technically-enforced supplementary measures.</p>
+<h2><strong>4. Is it dangerous not to comply with the Schrems II requirements?</strong></h2>
+<p>It’s expensive and it could jeopardize your business since the Data Protection Authority may request to stop the transfer<a target="_blank" href="https://www.mcafee.com/#_ftn8" name="_ftnref8" rel="noopener">[8]</a>. In terms of fines provided by the GDPR, we are talking about €20 million or 4% of their global turnover, whichever is greater<a target="_blank" href="https://www.mcafee.com/#_ftn9" name="_ftnref9" rel="noopener">[9]</a>.</p>
+<h2><strong>5. Is Schrems II a C-Suite / Board level issue? </strong></h2>
+<p>Yes- lack of corporate changes may constitute “willful blindness to a course of action” or “reckless conduct by knowing of the risk but doing nothing.”<a target="_blank" href="https://www.mcafee.com/#_ftn10" name="_ftnref10" rel="noopener">[10]</a> This opens Board members and senior executives to potential personal and criminal liability.</p>
+<h2><strong>6. Can’t I just use encryption or anonymization as Supplementary Measures enough to protect data? </strong></h2>
+<p>No – that will not be enough. Encryption only protects data in transit and in storage, and anonymization is not recognized as existing by the European Data Protection Board (“EDPB”). Technically-enforced Supplementary Measures are required<a target="_blank" href="https://www.mcafee.com/#_ftn11" name="_ftnref11" rel="noopener">[11]</a>.</p>
+<p>Anonymisation is very difficult to very difficult to achieve without deleting important value, and the new requirements under Pseudonymisation entails that the processing of personal data must be accomplished in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, which must be kept separately; and subject to technical and organisational measures able to ensure that the personal data cannot be attributed to identifiable persons without requiring access to the separately and securely stored “additional information.”</p>
+<h2><strong>7. What types of processing are now clearly unlawful?</strong></h2>
+<p>Two types of transfers have been designated as unlawful by the EDPB:</p>
 <ul>
-<li data-leveltext="" data-font="Symbol" data-listid="1" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1"><span data-contrast="auto">Choose the type of challenge you want to work on,</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="1" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1"><span data-contrast="auto">Select</span><span data-contrast="auto"> a difficulty level</span><span data-contrast="auto"> by point value</span><span data-contrast="auto">,</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="1" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1"><span data-contrast="auto">Solve the challenge to find a ‘flag,’ and</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="1" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1"><span data-contrast="auto">Enter the flag for the corresponding points.​​​​​</span></li>
+<li>Transfer to Cloud Services Providers or Other Processors Which Require Access to Data in the Clear (EDPB Unlawful Use Case 6); and</li>
+<li>Remote Access to Data for Business Purposes (EDPB Unlawful Use Case 7)<a target="_blank" href="https://www.mcafee.com/#_ftn12" name="_ftnref12" rel="noopener">[12]</a>.</li>
 </ul>
-<p><i><span data-contrast="auto">NOTE:</span></i><span data-contrast="auto"> The format of all flags is ATR[], placing the flag</span><i><span data-contrast="auto">, for</span></i><span data-contrast="auto"> between the square brackets. For example: ATR[</span><i><span data-contrast="auto">1a2b3c4d5e]. The flag must be submitted in full, including the ATR and square bracket parts.</span></i><br /><span data-ccp-props="{&quot;134233117&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<p><span data-contrast="auto">The harder the challenge, the higher the points!  Points range from 100 to 500. All CTF challenges are designed to practice real-world security concepts, </span><span data-contrast="auto">and this year’s categories include:</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<ul>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1"><span data-contrast="auto">R</span><span data-contrast="auto">everse engineering</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1"><span data-contrast="auto">Exploitation</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><span data-contrast="auto">Web</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><span data-contrast="auto">Hacking Tools</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><span data-contrast="auto">Crypto</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><span data-contrast="auto">RF (Radio Frequency)</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><span data-contrast="auto">Mobile</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-<li data-leveltext="" data-font="Symbol" data-listid="4" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><span data-contrast="auto">Hardware</span><br /><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}"> </span></li>
-</ul>
-<p><span data-contrast="auto">The contest is set up to allow teams as groups or individuals. </span><span data-contrast="auto">If you get stuck, a basic hint is available for each challenge, but be warned – it will cost ​​​​​​​you points to access the hint and should only be used as a last resort. </span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<h2><span data-contrast="none">Read before hacking: CTF rules and guidelines</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></h2>
-<p><span data-contrast="auto">McAfee employees are not eligible for prizes in the public competition but are welcome to compete.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<p><span data-contrast="auto">When registering, please use a valid email address</span><span data-contrast="auto">, for any password resets and to be contacted for prizes. </span><i><span data-contrast="auto">We will not store or save any email addresses or contact you for any non-contest related reasons.</span></i></p>
-<p><span data-contrast="auto">Please wait until the contest ends to release any solutions publicly</span><span data-contrast="auto">.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<h3><span data-contrast="none">Cooperation</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></h3>
-<p><span data-contrast="auto">No cooperation between teams with independent accounts. Sharing of keys or providing/revealing hints to other teams is cheating, please help us keep this contest </span><span data-contrast="auto">a challenge for all!</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></p>
-<h3><span data-contrast="none">Attacking </span><span data-contrast="none">the Platform</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></h3>
-<p><span data-contrast="auto">Please refrain from</span><span data-contrast="auto"> attacking the competition infrastructure.</span><span data-contrast="auto"> </span><span data-contrast="auto">If you experience any </span><span data-contrast="auto">difficulties</span><span data-contrast="auto"> with the infrastructure itself, questions can be directed to the ATR team</span><span data-contrast="auto"> using the email </span><span data-contrast="auto">in the Contact Us section</span><span data-contrast="auto">. ATR will not provide any additional hints, feedback, or clues. This email is only for issues that might arise, not related to individual challenges.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></p>
-<h3><span data-contrast="none">Sabotage</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></h3>
-<p><span data-contrast="auto">Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></p>
-<h3><span data-contrast="none">Brute</span><span data-contrast="none"> F</span><span data-contrast="none">orcing</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></h3>
-<p><span data-contrast="auto">No brute forcing of challenge flag/ keys against the scoring site</span><span data-contrast="auto"> is accepted or required to solve the challenges. You may perform brute force attacks if necessary, on your own endpoint to determine a solution if needed.</span><span data-contrast="auto"> If you’re not sure what constitutes a brute force attack, please feel free to contact us.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></p>
-<h3><span data-contrast="none">Denial</span><span data-contrast="none">–</span><span data-contrast="none">o</span><span data-contrast="none">f</span><span data-contrast="none">–</span><span data-contrast="none">Service</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></h3>
-<p><span data-contrast="auto">DoSing</span><span data-contrast="auto"> the Capture</span><span data-contrast="auto">–</span><span data-contrast="auto">the</span><span data-contrast="auto">–</span><span data-contrast="auto">Flag (CTF) platform or any of the challenges is forbidden.</span><br /><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:259}"> </span></p>
-<p><span data-contrast="auto">Additional rules are posted within the contest following login and should be reviewed by all contestants prior to beginning.</span></p>
-<p><span data-contrast="auto">Many</span><span data-contrast="auto"> of these challenges are designed with Linux end-users in mind. </span><span data-contrast="auto">However, if you are a Windows user, </span><span data-contrast="auto">Windows </span><span data-contrast="auto">10 </span><span data-contrast="auto">has a Linux subsystem called ‘WSL’ that can be useful, or a Virtual Machine can be configured with any flavor of Linux desired and should work for most purposes.​​​​​​​</span></p>
-<p><span data-contrast="auto">​​​​​​​Happy hacking!</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<h2 aria-level="2"><span data-contrast="none">Looking for a little extra help?</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:40,&quot;335559739&quot;:0,&quot;335559740&quot;:259}"> </span></h2>
-<p><span data-contrast="auto">Find a list of </span><a target="_blank" href="https://github.com/apsdehal/awesome-ctf" rel="noopener"><span data-contrast="none">useful tools and techniques</span></a><span data-contrast="auto"> f</span><span data-contrast="auto">or CTF competitions. While it’s not exhaustive or </span><span data-contrast="auto">specifically </span><span data-contrast="auto">tailored to this contest, it should be a useful starting point to learn and understand tools required for various challenges.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<h2><span data-contrast="none">Contact Us</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></h2>
-<p><span data-contrast="auto">While it may be difficult for us to respond to emails, we will do our best – please use this email address to reach us with infrastructure problems, errors with challenges</span><span data-contrast="auto">/flag submissions, etc. </span><i><span data-contrast="auto">We are likely unable to respond to general questions on solving challenges.</span></i><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<p><a target="_blank" href="https://www.mcafee.com/mailto:ATR_CTF@McAfee.com" rel="noopener noreferrer"><span data-contrast="none">ATR_CTF@McAfee.com</span></a><span data-contrast="auto"> </span><span data-contrast="auto">TEST</span></p>
-<p><span data-contrast="none">How much do you know about </span><span data-contrast="none">McAfee’s </span><span data-contrast="none">​​​​​​​industry-leading research team?</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></p>
-<p><span data-contrast="auto">ATR is a team of security researchers that deliver cutting-edge vulnerability and malware research, red teaming, operational intelligence and more! To read more about the team and some of its highlighted research, please follow this link to the </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research.html" rel="noopener noreferrer"><span data-contrast="none">ATR website</span></a><span data-contrast="auto">.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<h4><span data-contrast="none">General Release Statement</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:240}"> </span></h4>
-<p><span data-contrast="auto">By participating in the contest, you agree to be bound to the Official Rules and to release McAfee and its employees, and the hosting organization from any and all liability, claims or actions of any kind whatsoever for injuries, damages or losses to persons and property which may be sustained in connection with the contest. You acknowledge and agree that McAfee et al is not responsible for technical, hardware or software failures, or other errors or problems which may occur in connection with the contest.  </span><span data-contrast="auto">By participating you allow us to publish your name.  The collection and use of personal information from participants will be governed by the </span><a target="_blank" href="https://www.mcafee.com/enterprise/en-us/about/legal/privacy.html" rel="noopener noreferrer"><span data-contrast="none">McAfee Private Notice</span></a><span data-contrast="auto">.</span><span data-contrast="auto"> </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p>The only option to render those as lawful is to provide for encryption.</p>
+<h2><strong>8. What’s next for companies?</strong></h2>
+<p>Companies need to evaluate what combination of SCCs, Additional Safeguards, data residency and Data Protection by Design and by Default will enable the continued success of business by fostering balanced protection of privacy, as well as legal and contractual trust in the use of technology and in the responsible, protected collection and processing of people’s data.</p>
+<p> </p>
+<p> </p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref1" name="_ftn1" rel="noopener">[1]</a> General Data Protection Regulation 2016/679</span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref2" name="_ftn2" rel="noopener">[2]</a> California Consumer Privacy Act, AB-375</span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref3" name="_ftn3" rel="noopener">[3]</a> “Maximillian Schrems / Data Protection Commissioner”, decision 2000/520/CE, Case C-362/14</span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref4" name="_ftn4" rel="noopener">[4]</a> <a target="_blank" href="https://edpb.europa.eu/sites/edpb/files/files/file1/20200724_edpb_faqoncjeuc31118_en.pdf" rel="noopener">https://edpb.europa.eu/sites/edpb/files/files/file1/20200724_edpb_faqoncjeuc31118_en.pdf</a></span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref5" name="_ftn5" rel="noopener">[5]</a> Recommendations 01/2020 on measures that supplement transfer tools to ensure compliance with the EU level of protection of personal data. <a target="_blank" href="https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf" rel="noopener">https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf</a></span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref6" name="_ftn6" rel="noopener">[6]</a>  The draft SCCs<a target="_blank" href="https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12741-Commission-Implementing-Decision-on-standard-contractual-clauses-for-the-transfer-of-personal-data-to-third-countries" rel="noopener">https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12741-Commission-Implementing-Decision-on-standard-contractual-clauses-for-the-transfer-of-personal-data-to-third-countries</a></span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref7" name="_ftn7" rel="noopener">[7]</a><a target="_blank" href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404" rel="noopener">http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404</a> paragraph 125.</span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref8" name="_ftn8" rel="noopener">[8]</a><a target="_blank" href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404" rel="noopener">http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404</a> paragraph 121, 135, 146, 154 and 203(3) </span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref9" name="_ftn9" rel="noopener">[9]</a> See GDPR Article 83(5)(c).</span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref10" name="_ftn10" rel="noopener">[10]</a> <a target="_blank" href="https://normcyber.com/advisory-note/data-protection-directors-personal-liability/" rel="noopener">https://normcyber.com/advisory-note/data-protection-directors-personal-liability/</a></span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref11" name="_ftn11" rel="noopener">[11]</a> See EDPB Guidance at : <a target="_blank" href="https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf" rel="noopener">https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf</a></span></p>
+<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref12" name="_ftn12" rel="noopener">[12]</a> Ibid.</span></p>
 </p></div>
 <p><script>
   !function(f,b,e,v,n,t,s)
@@ -400,86 +411,134 @@ fbq('track', "PageView");</p>
 <p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
 </script><br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-launches-education-inspired-capture-the-flag-contest/">Source link </a></p>
+<br /><a href="https://www.mcafee.com/blogs/enterprise/data-security/schrems-ii-a-few-things-to-keep-in-mind/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Hybrid cloud management: There is a better way</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/hybrid-cloud-management-there-is-a-better-way/</link>
+		<title>This Data Privacy Day Own Your Privacy, Even On Social Sites</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/this-data-privacy-day-own-your-privacy-even-on-social-sites/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 27 Jan 2021 16:00:00 +0000</pubDate>
+		<pubDate>Thu, 28 Jan 2021 17:14:38 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[hybrid]]></category>
-		<category><![CDATA[Management]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/hybrid-cloud-management-there-is-a-better-way/</guid>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Day]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Sites]]></category>
+		<category><![CDATA[Social]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/this-data-privacy-day-own-your-privacy-even-on-social-sites/</guid>
 
-					<description><![CDATA[The rise of hybrid cloud and multi-cloud, as well as hybrid IT, has led to the creation of a whole]]></description>
+					<description><![CDATA[One of the positive trends that we’ve seen in recent years is governments and users pressuring companies to simplify their]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br /></p>
+</p>
 <div>
-<p>The rise of hybrid cloud and multi-cloud, as well as hybrid IT, has led to the creation of a whole sub-science of <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/manage-cloud-complexity?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">tools, approaches, and techniques to manage complex and distributed cloud deployments</a>.</p>
-<p>While some of these are sophisticated enough to leverage deep abstraction layers and <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">simplify the management of a hybrid cloud</a>, most are ad hoc and chaotic. The result: Many organizations don&#8217;t know where to start, and don&#8217;t understand when they are making the wrong choices.</p>
-<p>But there&#8217;s a path to complex, distributed cloud management (CDCM) that has yet to be mapped. You start by understanding your own requirements, learn about CDCM at its most primitive level, and then determine the best approach for both management and tooling.</p>
-<p>Here&#8217;s what&#8217;s new, and what&#8217;s better, with CDCM—in other words, what&#8217;s not widely well known or understood, and the secrets to success.</p>
-<p><em>(If you need guidance on the fundamentals before proceeding, check out &#8220;<a target="_blank" href="https://techbeacon.com/5-essentials-managing-hybrid-cloud" rel="noopener">5 essentials for managing hybrid cloud</a>,&#8221; which covers how to understand what&#8217;s being managed, security and governance, building a &#8220;single pane of glass,&#8221; SLAs, and the tools available to you.)</em></p>
-<h3>Cloud complexity: Where are the tools?</h3>
-<p>I&#8217;m defining &#8220;hybrid cloud&#8221; using the <a target="_blank" href="https://csrc.nist.gov/publications/detail/sp/800-145/final" rel="nofollow noopener">classic NIST definition</a>, but many vendors have taken liberties with the term, and in some cases their interpretation has little to do with a true cloud. To be clear, a hybrid cloud is a paired private and public cloud, the core components of a hybrid architecture.</p>
-<p>Multi-cloud is a bit more complex. While you could argue that a hybrid cloud is also a multi-cloud, the industry has defined multi-cloud as two or more public clouds within an architecture. It may or may not include private clouds.</p>
-<p>These days, most cloud architectures are complex and far-reaching. This includes traditional systems paired with public clouds, IoT-based private clouds paired with public clouds, multiple private clouds paired with single or plural public clouds, and so on. Indeed, it&#8217;s <a target="_blank" href="http://techbeacon.com/enterprise-it/how-match-your-it-workloads-right-cloud" rel="noopener">any cloud architecture</a> and deployment that extends to more than one public or private cloud.</p>
-<p>Those charged with cloud management are feeling the stress, given the chaotic and complex nature of the tools. Many practitioners view tools and best practices to be two years behind the emerging complex hybrid cloud architecture that organizations are using today.</p>
-<p>Here&#8217;s what a cloud architect, developer, or administrator can do to manage their complex cloud deployments in a repeatable and reliable way.</p>
-<h3>Understand your cloud and your requirements</h3>
-<p>Most of those who own a complicated, distributed cloud do so without a good understanding of what they are managing. This leads to the misapplication of tools and approaches, and ends with shops too often using management approaches and tooling that could derail an operational complex cloud deployment.</p>
-<p>The best way to manage a complex cloud is to understand its nature. This includes the architecture that encompasses which private clouds are leveraged and which platforms they externalize. Moreover, you must gain the same understanding of any public clouds that are leveraged as part of your hybrid cloud or multi-cloud deployment(s).</p>
-<p>The focus should be on requirements, or what you plan to do with your hybrid cloud or multi-cloud. For most enterprises, this means you need to understand the cloud&#8217;s business use and which applications are paired with databases that will either be distributed between the private and public cloud instances or run in one tier or another (on either a private or public cloud).</p>
-<p>Or perhaps you&#8217;re running systems inter-cloud, such as spreading applications and data across Amazon Web Services (AWS) and Azure, for example.</p>
-<p>In this set of requirements, you need to understand:</p>
-<ul>
-<li>Which databases you leverage, such as MySQL or Oracle</li>
-<li>Which programming language you use, such as Python or Java</li>
-<li>Which platform you run on, such as Linux or Windows NT </li>
-</ul>
-<p>You must repeat the same set of questions for all private and public clouds that are a part of your architecture.</p>
-<h4>Understand your management interfaces</h4>
-<p>Next, you need to define the management interfaces into those technologies, which include, at a minimum, the database, application, and platform. You get bonus points for understanding and defining the interfaces into your security systems, governance systems, and cost accounting systems as well.</p>
-<p>Interfaces include API sets for accessing features of those subsystems, such as monitoring and managing processor and I/O saturation points, and the ability to spin up additional resources, and spin them down as needed.</p>
-<p>The output of this process varies from one management solution to another.</p>
-<h3>Management technology available today</h3>
-<p>A common approach to complex distributed cloud management, or other complex and distributed architectures for that matter, is to toss as many tools at the problem as you can. But this leads to more complexity, cost, and, in some cases, epic failure.</p>
-<p>The correct selection of <a target="_blank" href="https://techbeacon.com/7-essential-open-source-tools-cloud-management" rel="noopener">cloud management platform tools</a>, or CMPs, as well as <a target="_blank" href="https://www.gartner.com/it-glossary/cloud-services-brokerage-csb/" rel="nofollow noopener">cloud service broker tools</a>, or CSBs, as well as <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-tools-implementation?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">AIOps and other emerging ops tools</a>, will ensure survival or guarantee failure, depending upon what tools you select.</p>
-<p>There is enough written about CSBs and CMPs that there&#8217;s no need to go into details here. If you&#8217;re not up to date on this technology, get that knowledge before proceeding. Once you have the basic requirements in place, it&#8217;s pretty easy to map those requirements to the correct tool set.</p>
-<p>These tools typically provide a layer of abstraction and automation between the humans who manage the complex cloud deployments, the many clouds themselves, and, most importantly, the different components, including application, data, platform, security, governance, and so on.</p>
-<p>Moreover, the right tools have the ability to automate the things that can be automated. Examples include shutting down or restarting server instances that produce I/O errors or that are blocking access from specific IP addresses that appear to be launching a distributed denial-of-service attack.</p>
-<p>However, you need to do a fair amount of research, testing, and operational trials to find the correct tool (or tools) you&#8217;ll need for your cloud-hosted applications. There are about 40 viable tools on the market today. Getting that list down to the final five will take you a month or two. From there, plan on another month or two to test the tools before making your final pick.</p>
-<p>It&#8217;s an easy process to follow. However, success depends in large part on your ability to define your requirements up front.</p>
-<h3>Create a plan that will ensure success the first time</h3>
-<p>Now that you have defined the requirements and tools, based on the specific needs of your complex, distributed cloud, focus on the larger-scale planning and budgeting that need to occur next.</p>
-<p>These plans differ, depending upon the type and complexity of the hybrid cloud and/or multi-clouds. However, they typically include:</p>
-<ul>
-<li>A high-level solution, including core requirements, objectives, SLAs, and other macro requirements</li>
-<li>A low-level solution, which defines all the APIs, tools, approaches, and other tactical solutions in detail</li>
-<li>The planned budgets for all approaches, technologies, etc.; this includes humans needed over time, technology deployed over time, cost of risk, and ongoing improvements</li>
-</ul>
-<p>While this might sound simple, cloud management pros are typically not good at writing things down, nor are they good at understanding costs. I recommend creating <a target="_blank" href="https://techbeacon.com/enterprise-it/why-you-need-digital-transformation-center-excellence" rel="noopener">a center of business management</a> to do this kind of planning centrally, as opposed to pursuing ad-hoc efforts for each project instance.</p>
-<h3>Track the key trends</h3>
-<p>Finally, consider what&#8217;s coming next. Complex, distributed cloud management solutions, best practices, and approaches are continuously changing. You need to continuously improve, so <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/hybrid-IT-management-trends?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">keep up with the trends</a>. Look for new ideas, new approaches, and new tools that will provide value.</p>
-<p>A plan for <a target="_blank" href="https://techbeacon.com/enterprise-it/how-use-kaizen-events-drive-lean-it-continuous-improvement" rel="noopener">continuous improvement</a> is a fairly new concept to IT, considering that IT organizations have grown accustomed to releasing 1.0 1.1, 2.0, etc., and have thus found the waterfall way of doing application development—even for complex, distributed cloud solutions—more comforting. However, the progress of technology means that you need to look for better best practices and technologies.</p>
-<p>New technology adoption also drives this need, including serverless technology that runs on public clouds such as AWS and Microsoft Azure, as well as container technology that can run on private or public clouds.</p>
-<p>There are two macro patterns to consider:</p>
-<ul>
-<li>The evolution of technology that enhances your ability to build solutions on a hybrid cloud, such as serverless and containers </li>
-<li>The evolution of cloud management tooling, such as new CMP, AIOps, or CSB products</li>
-</ul>
-<p>Many organizations don&#8217;t know where to start, or they make the wrong choices when they approach complex cloud architectures. However, the single most important takeaway is that as successful cloud management pro you should never be satisfied with the solutions you currently use. Always be on the lookout for something better.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/hybrid-cloud-management-there-better-way">Source link </a></p>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>One of the positive trends that we’ve seen in recent years is governments and users pressuring companies to simplify their privacy policies and security settings. This comes after a slew of concerning incidents, such as widespread <a target="_blank" href="https://www.securitymagazine.com/articles/94076-the-top-10-data-breaches-of-2020" rel="noopener noreferrer">data breaches</a> and <a target="_blank" href="https://www.computerweekly.com/news/252487895/Social-media-data-leak-highlights-murky-world-of-data-scraping" rel="noopener noreferrer">data sharing</a> by social media companies.</p>
+<p>The spotlight on these issues is beginning to take effect, as Facebook’s latest “<a target="_blank" href="https://9to5mac.com/2021/01/12/facebook-new-tool-download-personal-information/" rel="noopener">Access Your Information</a>” tool shows, and users are feeling more empowered. Furthermore, in November 2020, Californians voted in favor of the <a target="_blank" href="https://www.natlawreview.com/article/california-voters-approve-another-overhaul-california-consumer-privacy-laws-meet" rel="noopener noreferrer">new California Privacy Rights Act</a> to strengthen privacy protections for consumers. This is also reinforced by more and more states and countries considering or debating the introduction of comprehensive privacy legislation.</p>
+<p>In fact, a recent study found that <a target="_blank" href="https://www.viasatsavings.com/news/blog/are-more-people-public-or-private-on-social-media/" rel="noopener noreferrer">71% of respondents</a> checked their social media platform’s advanced privacy settings when they joined. This is great progress, but we can do more. We know from our research that only 39% of users make sure the site or service they’re using is legitimate, and a mere 12% use a dark web monitoring service. This year’s International <strong>Data </strong><strong>Privacy </strong><strong>Day, January 28th</strong>, is the perfect opportunity to make sure that your sensitive information stays as safe as possible.</p>
+<p>The data we are looking to protect, known as Personal Data or , can be anything that relates to your identity. And although many technology users feel that protecting this information is <a target="_blank" href="https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/" rel="noopener noreferrer">beyond their control</a>, we actually have a lot of simple and effective ways to safeguard our PII. So, let’s start this new year by owning our privacy with a closer look at our social media accounts.</p>
+<p>After all, we take pains to safeguard our finances, and the personal data we share on social channels is similar: it has value, and it’s up to us to make sure we take the right steps to keep it protected. Security tools like antivirus software and password managers help enormously in boosting our overall security, but when it comes to social media in particular it’s essential to know what kind of data we’re generating, and how it is used and shared.</p>
+<p>First we need to recognize that where we click, “like” and login, all leave a <a target="_blank" href="https://www.internetsociety.org/tutorials/your-digital-footprint-matters/" rel="noopener noreferrer">digital footprint</a> that can be used to reveal more about your identity and habits than you would think. For example, just using Facebook, Amazon, or Google to login to third-party sites generates an enormous amount of information about where you go and what you do. Many users choose this route because it is easier than creating and remembering passwords to each individual site.</p>
+<p>Another way your data gets scattered around is through sharing—whether you intentionally post on social media sites, or use a website, app, or service that permits third-party access of user information. Many users unwittingly agree to this access because it’s buried somewhere in a thick privacy policy.</p>
+<p>Now that we know a little more about how your PII gets out, let’s learn how to protect it.</p>
+<h3><strong>Here are a few</strong><strong> tips to own your privacy:</strong></h3>
+<p><strong>Avoid oversharing—</strong>When it comes to social media accounts, set them to share with “friends only.” This should give you some control, but it’s also important to realize that your photos and data can still travel beyond your immediate network, so our best advice is not to post anything you wouldn’t want a future boss to see, for example.</p>
+<p>For your other sensitive accounts, check to see which information is being shared, and with whom. If you’re not comfortable with the terms, you can decide to opt out, or close your account.</p>
+<p><strong>Check for linked logins—</strong>If you use your Facebook or Google login credentials to log in to other accounts, it’s a good idea to revise the list of sites that have access to your information and pare it down. In many cases you may have visited a site just once, and there is no reason for the third-party site to hold onto your data. <a target="_blank" href="https://www.howtogeek.com/198673/secure-your-online-accounts-by-removing-third-party-app-access/" rel="noopener noreferrer">Delete the linked information</a> by visiting the website you used to login in the first place, and create unique login credentials for the sites you visit frequently.</p>
+<p><strong>Keep a careful eye on your apps—</strong>Mobile apps have become a <a target="_blank" href="https://www.mcafee.com/blogs/consumer/mobile-and-iot-security/the-latest-mobile-scams-how-to-stay-safe/" rel="noopener">key vector for hackers</a>, so you want to make sure that you only download and install apps from reputable providers that have positive reviews.</p>
+<p>For the apps that are already on on your phone or tablet, check the security settings to see if they are accessing more information than they need to work properly. For instance, a mapping app needs your exact physical location, but a gaming app may not. <a target="_blank" href="https://www.mcafeemobilesecurity.com/" rel="noopener noreferrer">McAfee® Mobile Security</a> can safeguard your devices from malicious files, and help prevent you from oversharing data with apps.</p>
+<p><strong>Lose what you don’t use—</strong>If you have accounts for apps or services that you no longer use, it’s time to get rid of them. This prevents them from potentially leaking your information in the future. Just remember that deleting an app doesn’t mean that your data is deleted. For that, you’ll need to close your account.</p>
+<p>For the apps you want to keep, make sure they are updated, since updates often contain security fixes. You may also want to recheck the settings to ensure that your data is only being shared if you explicitly allow it.</p>
+<p><strong>Let</strong><strong> tech tools help—</strong>Of course, I always recommend that you download security software, and a holistic solution like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener">McAfee Total Protection</a> includes dedicated privacy tools, like a virtual private network (VPN), which scrambles your data while it flows over the network, ensuring that no one else can see it. It also includes safe browsing tools to keep you safer from malicious sites and downloads, and dark web monitoring to help you keep tabs on your personal data.</p>
+<p>McAfee also recently released a <a target="_blank" href="https://www.mcafee.com/consumer/en-us/landing-page/mcafee-security/download.html" rel="noopener noreferrer">personal protection app</a> (in beta) that monitors the dark web to see if your login credentials have been leaked. If so, it alerts you, so you can change your passwords immediately. It also includes a VPN.</p>
+<p><strong>Be careful where you click</strong>—Even the most savvy users can still accidentally click on a dangerous link, so consider using the free McAfee® <a target="_blank" href="https://www.mcafee.com/en-us/safe-browser/mcafee-webadvisor.html" rel="noopener">WebAdvisor</a> to alert you to <a target="_blank" href="https://www.mcafee.com/blogs/consumer/stay-connected-protected-weaving-security-into-our-social-media-habits/" rel="noopener noreferrer">risky links and downloads that may be hiding in your newsfeeds and timelines</a>, before you click on them.</p>
+<p><strong>Stay aware of the latest scams—</strong>Part of owning your privacy includes staying informed about the latest threats. These <a target="_blank" href="https://www.mcafee.com/blogs" rel="noopener">blogs</a> are a great resource.</p>
+<p>This Data Privacy Day make a resolution to take back control of your personal information, and help others do the same. For more information visit the <a target="_blank" href="https://staysafeonline.org/data-privacy-day/" rel="noopener noreferrer">National Cyber Security Alliance</a>.</p>
+<p> </p>
+<p>Looking for more mobile security tips and trends? Be sure to follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee Home</a> on Twitter, and like us on <a target="_blank" href="https://www.facebook.com/McAfee/" rel="noopener">Facebook</a>.</p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/this-data-privacy-day-own-your-privacy-even-on-social-sites/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LogoKit Simplifies Office 365, SharePoint ‘Login’ Phishing Pages</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/logokit-simplifies-office-365-sharepoint-login-phishing-pages/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 16:46:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Login]]></category>
+		<category><![CDATA[LogoKit]]></category>
+		<category><![CDATA[Office]]></category>
+		<category><![CDATA[Pages]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[SharePoint]]></category>
+		<category><![CDATA[Simplifies]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/logokit-simplifies-office-365-sharepoint-login-phishing-pages/</guid>
+
+					<description><![CDATA[A phishing kit has been found running on at least 700 domains &#8211; and mimicking services like false SharePoint portals,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A phishing kit has been found running on at least 700 domains &#8211; and mimicking services like false SharePoint portals, OneDrive and Office 365.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/logokit-simplifies-office-365-sharepoint-login-phishing-pages/163430/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mimecast Confirms SolarWinds Hack as List of Security Vendor Victims Snowball</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/mimecast-confirms-solarwinds-hack-as-list-of-security-vendor-victims-snowball/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 15:52:29 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[confirms]]></category>
+		<category><![CDATA[Hack]]></category>
+		<category><![CDATA[List]]></category>
+		<category><![CDATA[Mimecast]]></category>
+		<category><![CDATA[Snowball]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<category><![CDATA[Vendor]]></category>
+		<category><![CDATA[Victims]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mimecast-confirms-solarwinds-hack-as-list-of-security-vendor-victims-snowball/</guid>
+
+					<description><![CDATA[A growing number of cybersecurity vendors like CrowdStrike, Fidelis, FireEye, Malwarebytes, Palo Alto Networks and Qualys are confirming being targeted]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A growing number of cybersecurity vendors like CrowdStrike, Fidelis, FireEye, Malwarebytes, Palo Alto Networks and Qualys are confirming being targeted in the espionage attack.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/mimecast-solarwinds-hack-security-vendor-victims/163431/">Source link </a></p>
 ]]></content:encoded>
 					
 		
