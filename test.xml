@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 29 Jan 2021 07:59:28 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 Jan 2021 16:52:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,57 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Apple iOS 14 Thwarts iMessage Attacks With BlastDoor System</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-ios-14-thwarts-imessage-attacks-with-blastdoor-system/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 Jan 2021 16:52:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[BlastDoor]]></category>
+		<category><![CDATA[iMessage]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[System]]></category>
+		<category><![CDATA[Thwarts]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-ios-14-thwarts-imessage-attacks-with-blastdoor-system/</guid>
+
+					<description><![CDATA[Apple has made structural improvements in iOS 14 to block message-based, zero-click exploits. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Apple has made structural improvements in iOS 14 to block message-based, zero-click exploits.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/apple-ios-imessage-blastdoor/163479/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Lazarus Affiliate ‘ZINC’ Blamed for Campaign Against Security Researcher</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/lazarus-affiliate-zinc-blamed-for-campaign-against-security-researcher/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 29 Jan 2021 13:29:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Affiliate]]></category>
+		<category><![CDATA[Blamed]]></category>
+		<category><![CDATA[Campaign]]></category>
+		<category><![CDATA[Lazarus]]></category>
+		<category><![CDATA[researcher]]></category>
+		<category><![CDATA[ZINC]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/lazarus-affiliate-zinc-blamed-for-campaign-against-security-researcher/</guid>
+
+					<description><![CDATA[New details emerge of how North Korean-linked APT won trust of experts and exploited Visual Studio to infect systems with]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />New details emerge of how North Korean-linked APT won trust of experts and exploited Visual Studio to infect systems with ‘Comebacker’ malware.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/lazarus-affiliate-zinc-blamed-for-campaign-against-security-researcher/163474/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Playing with Playwright &#8211; Java API &#8211; Automated Visual Testing</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/playing-with-playwright-java-api-automated-visual-testing/</link>
 		
@@ -545,171 +596,6 @@ fbq('track', "PageView");</p>
 </script><br />
 <br /><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/10-easy-ways-to-build-up-your-familys-online-security/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Schrems II – A few Things to Keep in Mind!</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/schrems-ii-a-few-things-to-keep-in-mind/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 17:33:12 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Mind]]></category>
-		<category><![CDATA[Schrems]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/schrems-ii-a-few-things-to-keep-in-mind/</guid>
-
-					<description><![CDATA[A couple of days ago, I have been asked whether, notably thanks to the GDPR[1] and the CCPA[2], we were]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>A couple of days ago, I have been asked whether, notably thanks to the <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/solutions/gdpr.html" rel="noopener noreferrer">GDPR</a><a target="_blank" href="https://www.mcafee.com/#_ftn1" name="_ftnref1" rel="noopener">[1]</a> and the CCPA<a target="_blank" href="https://www.mcafee.com/#_ftn2" name="_ftnref2" rel="noopener">[2]</a>, we were seeing as professionals, a standardization in negotiations governing privacy terms.</p>
-<p>Alas, we have possibly never been so much away of such harmonization. 128 out of 194 countries have put in place legislation to secure the protection of data and privacy. And despite the existence of initiatives to develop tools able to harmonize compliance with legal, security and regulatory requirements, privacy is still much of a grey zone.</p>
-<p>From the EU’s standpoint, and regardless of the fact that the GDPR is seen as one of the most, if not <em>the</em> most sophisticated regulation in terms of protection of personal data, Mr. Schrems and the European Court of Justice (“ECJ”) are both playing a bit with the nerves of thousands of privacy professionals.</p>
-<p>For those who do not know Mr. Schrems, Maximilian is an Austrian privacy activist. As a privacy law student in 2011 at the Santa Clara University, he met a Facebook representative who explained to the students that Europeans had many privacy rights in the EU but were however not doing much to protect them. The words didn’t fall on deaf ears and by 2015, Max had brought a case against Facebook, and achieved to get the Safe Harbor (the then used as a mechanism to transfer personal data to the United States) invalidated<a target="_blank" href="https://www.mcafee.com/#_ftn3" name="_ftnref3" rel="noopener">[3]</a>. The Safe Harbor was replaced by the Privacy Shield, which – together with European Standard Clauses (“SCCs”) – were suspected of not being able to sufficiently protect European rights against US massive surveillance.</p>
-<p>As you may have heard, on 16 July 2020<a target="_blank" href="https://www.mcafee.com/#_ftn4" name="_ftnref4" rel="noopener">[4]</a>, the Privacy Shield has been invalidated. The SCCs are still valid, but not sufficient <em>per se</em>. Following the Schrems II Decision, the European Commission issued some 22 pages of recommendations for the transfer of personal data outside the European Union<a target="_blank" href="https://www.mcafee.com/#_ftn5" name="_ftnref5" rel="noopener">[5]</a> and the set of happy few countries considered as providing adequate protection, as well as a new draft set of SCCs<a target="_blank" href="https://www.mcafee.com/#_ftn6" name="_ftnref6" rel="noopener">[6]</a>.</p>
-<p>So, what’s next for us? Below are a couple of answers to help you out navigating through 2021.</p>
-<p> </p>
-<h2><strong>1. How much time do companies have to comply with the requirements of the Schrems II decision?</strong></h2>
-<p>No grace period was provided by the ECJ: the consequences are applicable since 16 July 2020 and companies who used to rely on the Privacy Shield had to immediately stop using that mechanism and replace with the SCCs.</p>
-<h2><strong>2. Are SCCs enough to transfer data outside of the EU?</strong></h2>
-<p>No, SCCs are no longer enough on their own: companies need to assess on a case by case basis whether the laws of the recipient country offer enough protection AND where they don’t, they must include supplementary measures. In addition, if supplementary measures are not possible or insufficient, the parties must suspend, or end transfer OR the transfer must be suspended or ended by the data protection authority.</p>
-<h2><strong>3. Now that the EU has issued new SCCs, will these replace the hassle of assessing the recipient’s country protections?</strong></h2>
-<p>No – a simple update of the SCCs will not be enough. SCCs “are not capable of binding the authorities of that third country, since they are not party to the contract.” <a target="_blank" href="https://www.mcafee.com/#_ftn7" name="_ftnref7" rel="noopener">[7]</a>. Hence, the requirement of implementing technically-enforced supplementary measures.</p>
-<h2><strong>4. Is it dangerous not to comply with the Schrems II requirements?</strong></h2>
-<p>It’s expensive and it could jeopardize your business since the Data Protection Authority may request to stop the transfer<a target="_blank" href="https://www.mcafee.com/#_ftn8" name="_ftnref8" rel="noopener">[8]</a>. In terms of fines provided by the GDPR, we are talking about €20 million or 4% of their global turnover, whichever is greater<a target="_blank" href="https://www.mcafee.com/#_ftn9" name="_ftnref9" rel="noopener">[9]</a>.</p>
-<h2><strong>5. Is Schrems II a C-Suite / Board level issue? </strong></h2>
-<p>Yes- lack of corporate changes may constitute “willful blindness to a course of action” or “reckless conduct by knowing of the risk but doing nothing.”<a target="_blank" href="https://www.mcafee.com/#_ftn10" name="_ftnref10" rel="noopener">[10]</a> This opens Board members and senior executives to potential personal and criminal liability.</p>
-<h2><strong>6. Can’t I just use encryption or anonymization as Supplementary Measures enough to protect data? </strong></h2>
-<p>No – that will not be enough. Encryption only protects data in transit and in storage, and anonymization is not recognized as existing by the European Data Protection Board (“EDPB”). Technically-enforced Supplementary Measures are required<a target="_blank" href="https://www.mcafee.com/#_ftn11" name="_ftnref11" rel="noopener">[11]</a>.</p>
-<p>Anonymisation is very difficult to very difficult to achieve without deleting important value, and the new requirements under Pseudonymisation entails that the processing of personal data must be accomplished in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, which must be kept separately; and subject to technical and organisational measures able to ensure that the personal data cannot be attributed to identifiable persons without requiring access to the separately and securely stored “additional information.”</p>
-<h2><strong>7. What types of processing are now clearly unlawful?</strong></h2>
-<p>Two types of transfers have been designated as unlawful by the EDPB:</p>
-<ul>
-<li>Transfer to Cloud Services Providers or Other Processors Which Require Access to Data in the Clear (EDPB Unlawful Use Case 6); and</li>
-<li>Remote Access to Data for Business Purposes (EDPB Unlawful Use Case 7)<a target="_blank" href="https://www.mcafee.com/#_ftn12" name="_ftnref12" rel="noopener">[12]</a>.</li>
-</ul>
-<p>The only option to render those as lawful is to provide for encryption.</p>
-<h2><strong>8. What’s next for companies?</strong></h2>
-<p>Companies need to evaluate what combination of SCCs, Additional Safeguards, data residency and Data Protection by Design and by Default will enable the continued success of business by fostering balanced protection of privacy, as well as legal and contractual trust in the use of technology and in the responsible, protected collection and processing of people’s data.</p>
-<p> </p>
-<p> </p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref1" name="_ftn1" rel="noopener">[1]</a> General Data Protection Regulation 2016/679</span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref2" name="_ftn2" rel="noopener">[2]</a> California Consumer Privacy Act, AB-375</span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref3" name="_ftn3" rel="noopener">[3]</a> “Maximillian Schrems / Data Protection Commissioner”, decision 2000/520/CE, Case C-362/14</span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref4" name="_ftn4" rel="noopener">[4]</a> <a target="_blank" href="https://edpb.europa.eu/sites/edpb/files/files/file1/20200724_edpb_faqoncjeuc31118_en.pdf" rel="noopener">https://edpb.europa.eu/sites/edpb/files/files/file1/20200724_edpb_faqoncjeuc31118_en.pdf</a></span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref5" name="_ftn5" rel="noopener">[5]</a> Recommendations 01/2020 on measures that supplement transfer tools to ensure compliance with the EU level of protection of personal data. <a target="_blank" href="https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf" rel="noopener">https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf</a></span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref6" name="_ftn6" rel="noopener">[6]</a>  The draft SCCs<a target="_blank" href="https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12741-Commission-Implementing-Decision-on-standard-contractual-clauses-for-the-transfer-of-personal-data-to-third-countries" rel="noopener">https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12741-Commission-Implementing-Decision-on-standard-contractual-clauses-for-the-transfer-of-personal-data-to-third-countries</a></span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref7" name="_ftn7" rel="noopener">[7]</a><a target="_blank" href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404" rel="noopener">http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404</a> paragraph 125.</span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref8" name="_ftn8" rel="noopener">[8]</a><a target="_blank" href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404" rel="noopener">http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=228677&amp;pageIndex=0&amp;doclang=EN&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9745404</a> paragraph 121, 135, 146, 154 and 203(3) </span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref9" name="_ftn9" rel="noopener">[9]</a> See GDPR Article 83(5)(c).</span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref10" name="_ftn10" rel="noopener">[10]</a> <a target="_blank" href="https://normcyber.com/advisory-note/data-protection-directors-personal-liability/" rel="noopener">https://normcyber.com/advisory-note/data-protection-directors-personal-liability/</a></span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref11" name="_ftn11" rel="noopener">[11]</a> See EDPB Guidance at : <a target="_blank" href="https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf" rel="noopener">https://edpb.europa.eu/sites/edpb/files/consultation/edpb_recommendations_202001_supplementarymeasurestransferstools_en.pdf</a></span></p>
-<p><span style="font-size: 8pt;"><a target="_blank" href="https://www.mcafee.com/#_ftnref12" name="_ftn12" rel="noopener">[12]</a> Ibid.</span></p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/data-security/schrems-ii-a-few-things-to-keep-in-mind/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>This Data Privacy Day Own Your Privacy, Even On Social Sites</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/this-data-privacy-day-own-your-privacy-even-on-social-sites/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 17:14:38 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[Day]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Sites]]></category>
-		<category><![CDATA[Social]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/this-data-privacy-day-own-your-privacy-even-on-social-sites/</guid>
-
-					<description><![CDATA[One of the positive trends that we’ve seen in recent years is governments and users pressuring companies to simplify their]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>One of the positive trends that we’ve seen in recent years is governments and users pressuring companies to simplify their privacy policies and security settings. This comes after a slew of concerning incidents, such as widespread <a target="_blank" href="https://www.securitymagazine.com/articles/94076-the-top-10-data-breaches-of-2020" rel="noopener noreferrer">data breaches</a> and <a target="_blank" href="https://www.computerweekly.com/news/252487895/Social-media-data-leak-highlights-murky-world-of-data-scraping" rel="noopener noreferrer">data sharing</a> by social media companies.</p>
-<p>The spotlight on these issues is beginning to take effect, as Facebook’s latest “<a target="_blank" href="https://9to5mac.com/2021/01/12/facebook-new-tool-download-personal-information/" rel="noopener">Access Your Information</a>” tool shows, and users are feeling more empowered. Furthermore, in November 2020, Californians voted in favor of the <a target="_blank" href="https://www.natlawreview.com/article/california-voters-approve-another-overhaul-california-consumer-privacy-laws-meet" rel="noopener noreferrer">new California Privacy Rights Act</a> to strengthen privacy protections for consumers. This is also reinforced by more and more states and countries considering or debating the introduction of comprehensive privacy legislation.</p>
-<p>In fact, a recent study found that <a target="_blank" href="https://www.viasatsavings.com/news/blog/are-more-people-public-or-private-on-social-media/" rel="noopener noreferrer">71% of respondents</a> checked their social media platform’s advanced privacy settings when they joined. This is great progress, but we can do more. We know from our research that only 39% of users make sure the site or service they’re using is legitimate, and a mere 12% use a dark web monitoring service. This year’s International <strong>Data </strong><strong>Privacy </strong><strong>Day, January 28th</strong>, is the perfect opportunity to make sure that your sensitive information stays as safe as possible.</p>
-<p>The data we are looking to protect, known as Personal Data or , can be anything that relates to your identity. And although many technology users feel that protecting this information is <a target="_blank" href="https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/" rel="noopener noreferrer">beyond their control</a>, we actually have a lot of simple and effective ways to safeguard our PII. So, let’s start this new year by owning our privacy with a closer look at our social media accounts.</p>
-<p>After all, we take pains to safeguard our finances, and the personal data we share on social channels is similar: it has value, and it’s up to us to make sure we take the right steps to keep it protected. Security tools like antivirus software and password managers help enormously in boosting our overall security, but when it comes to social media in particular it’s essential to know what kind of data we’re generating, and how it is used and shared.</p>
-<p>First we need to recognize that where we click, “like” and login, all leave a <a target="_blank" href="https://www.internetsociety.org/tutorials/your-digital-footprint-matters/" rel="noopener noreferrer">digital footprint</a> that can be used to reveal more about your identity and habits than you would think. For example, just using Facebook, Amazon, or Google to login to third-party sites generates an enormous amount of information about where you go and what you do. Many users choose this route because it is easier than creating and remembering passwords to each individual site.</p>
-<p>Another way your data gets scattered around is through sharing—whether you intentionally post on social media sites, or use a website, app, or service that permits third-party access of user information. Many users unwittingly agree to this access because it’s buried somewhere in a thick privacy policy.</p>
-<p>Now that we know a little more about how your PII gets out, let’s learn how to protect it.</p>
-<h3><strong>Here are a few</strong><strong> tips to own your privacy:</strong></h3>
-<p><strong>Avoid oversharing—</strong>When it comes to social media accounts, set them to share with “friends only.” This should give you some control, but it’s also important to realize that your photos and data can still travel beyond your immediate network, so our best advice is not to post anything you wouldn’t want a future boss to see, for example.</p>
-<p>For your other sensitive accounts, check to see which information is being shared, and with whom. If you’re not comfortable with the terms, you can decide to opt out, or close your account.</p>
-<p><strong>Check for linked logins—</strong>If you use your Facebook or Google login credentials to log in to other accounts, it’s a good idea to revise the list of sites that have access to your information and pare it down. In many cases you may have visited a site just once, and there is no reason for the third-party site to hold onto your data. <a target="_blank" href="https://www.howtogeek.com/198673/secure-your-online-accounts-by-removing-third-party-app-access/" rel="noopener noreferrer">Delete the linked information</a> by visiting the website you used to login in the first place, and create unique login credentials for the sites you visit frequently.</p>
-<p><strong>Keep a careful eye on your apps—</strong>Mobile apps have become a <a target="_blank" href="https://www.mcafee.com/blogs/consumer/mobile-and-iot-security/the-latest-mobile-scams-how-to-stay-safe/" rel="noopener">key vector for hackers</a>, so you want to make sure that you only download and install apps from reputable providers that have positive reviews.</p>
-<p>For the apps that are already on on your phone or tablet, check the security settings to see if they are accessing more information than they need to work properly. For instance, a mapping app needs your exact physical location, but a gaming app may not. <a target="_blank" href="https://www.mcafeemobilesecurity.com/" rel="noopener noreferrer">McAfee® Mobile Security</a> can safeguard your devices from malicious files, and help prevent you from oversharing data with apps.</p>
-<p><strong>Lose what you don’t use—</strong>If you have accounts for apps or services that you no longer use, it’s time to get rid of them. This prevents them from potentially leaking your information in the future. Just remember that deleting an app doesn’t mean that your data is deleted. For that, you’ll need to close your account.</p>
-<p>For the apps you want to keep, make sure they are updated, since updates often contain security fixes. You may also want to recheck the settings to ensure that your data is only being shared if you explicitly allow it.</p>
-<p><strong>Let</strong><strong> tech tools help—</strong>Of course, I always recommend that you download security software, and a holistic solution like <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener">McAfee Total Protection</a> includes dedicated privacy tools, like a virtual private network (VPN), which scrambles your data while it flows over the network, ensuring that no one else can see it. It also includes safe browsing tools to keep you safer from malicious sites and downloads, and dark web monitoring to help you keep tabs on your personal data.</p>
-<p>McAfee also recently released a <a target="_blank" href="https://www.mcafee.com/consumer/en-us/landing-page/mcafee-security/download.html" rel="noopener noreferrer">personal protection app</a> (in beta) that monitors the dark web to see if your login credentials have been leaked. If so, it alerts you, so you can change your passwords immediately. It also includes a VPN.</p>
-<p><strong>Be careful where you click</strong>—Even the most savvy users can still accidentally click on a dangerous link, so consider using the free McAfee® <a target="_blank" href="https://www.mcafee.com/en-us/safe-browser/mcafee-webadvisor.html" rel="noopener">WebAdvisor</a> to alert you to <a target="_blank" href="https://www.mcafee.com/blogs/consumer/stay-connected-protected-weaving-security-into-our-social-media-habits/" rel="noopener noreferrer">risky links and downloads that may be hiding in your newsfeeds and timelines</a>, before you click on them.</p>
-<p><strong>Stay aware of the latest scams—</strong>Part of owning your privacy includes staying informed about the latest threats. These <a target="_blank" href="https://www.mcafee.com/blogs" rel="noopener">blogs</a> are a great resource.</p>
-<p>This Data Privacy Day make a resolution to take back control of your personal information, and help others do the same. For more information visit the <a target="_blank" href="https://staysafeonline.org/data-privacy-day/" rel="noopener noreferrer">National Cyber Security Alliance</a>.</p>
-<p> </p>
-<p>Looking for more mobile security tips and trends? Be sure to follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee Home</a> on Twitter, and like us on <a target="_blank" href="https://www.facebook.com/McAfee/" rel="noopener">Facebook</a>.</p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/this-data-privacy-day-own-your-privacy-even-on-social-sites/">Source link </a></p>
 ]]></content:encoded>
 					
 		
