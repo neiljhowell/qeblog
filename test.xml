@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 29 Jan 2021 17:58:57 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Feb 2021 21:38:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,590 +28,293 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Digital Marriage—Making Sure Your Online Wedding is Safe and Secure &#124; McAfee Blogs Keep Your Online Wedding Away from Prying Eyes</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/digital-marriage-making-sure-your-online-wedding-is-safe-and-secure-mcafee-blogs-keep-your-online-wedding-away-from-prying-eyes/</link>
+		<title>TrickBot Continues Resurgence with Port-Scanning Module</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/trickbot-continues-resurgence-with-port-scanning-module/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 Jan 2021 17:58:57 +0000</pubDate>
+		<pubDate>Tue, 02 Feb 2021 21:38:50 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[Digital]]></category>
-		<category><![CDATA[Eyes]]></category>
-		<category><![CDATA[MarriageMaking]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Prying]]></category>
-		<category><![CDATA[Safe]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[Wedding]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/digital-marriage-making-sure-your-online-wedding-is-safe-and-secure-mcafee-blogs-keep-your-online-wedding-away-from-prying-eyes/</guid>
+		<category><![CDATA[continues]]></category>
+		<category><![CDATA[Module]]></category>
+		<category><![CDATA[PortScanning]]></category>
+		<category><![CDATA[Resurgence]]></category>
+		<category><![CDATA[TrickBot]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/trickbot-continues-resurgence-with-port-scanning-module/</guid>
 
-					<description><![CDATA[Digital Marriage—Making Sure Your Online Wedding is Safe and Secure Love finds a way. Even in a pandemic.  Across this]]></description>
+					<description><![CDATA[The infamous malware has incorporated the legitimate Masscan tool, which looks for open TCP/IP ports with lightning-fast results. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>Digital Marriage—Making Sure Your Online Wedding is Safe and Secure</strong></h2>
-<p>Love finds a way. Even in a pandemic.  <img loading="lazy" class="alignleft wp-image-116467 size-full" src="https://www.mcafee.com/wp-content/uploads/2021/01/AdobeStock_354089820-Online-Wedding.jpeg" alt="Online Wedding" width="300" height="200" srcset="https://www.mcafee.com/wp-content/uploads/2021/01/AdobeStock_354089820-Online-Wedding.jpeg 300w, https://www.mcafee.com/wp-content/uploads/2021/01/AdobeStock_354089820-Online-Wedding-194x129.jpeg 194w" sizes="(max-width: 300px) 100vw, 300px"/></p>
-<p>Across this year and last, a growing number of couples are sticking to their wedding dates as planned, yet with a twist—they’re holding them online.</p>
-<p>Whether to comply with local guidance, accommodate friends and family who cannot travel, or some mix of both, online weddings are indeed happening. They take many forms—from streaming a small ceremony at a church or venue, to a couple in their home with an officiant in another location and attendees viewing online, love is indeed finding a way.</p>
-<p>I was intrigued and ultimately moved by the story of one couple, Irene and Troy, which I read in <a target="_blank" href="https://www.theknot.com/content/virtual-weddings-legal" rel="noopener noreferrer">an article about couples who have opted to hold an online wedding</a>. According to the article, Irene said that the timing could not have been better. “My father, who is older in age, was especially thrilled to join our wedding from the comfort of his home, and virtually shared his sentiments on video for all to see. One of our guests who watched the virtual marriage shared: ‘We were moved and uplifted by it all… by your love to each other, your commitment, your generosity. We all needed it [at this time]: the affirmation of life and beauty and faith. It made us all happy. And, in a way, fulfilled.&#8217;”</p>
-<p>That’s absolutely wonderful and a testament to the way a wedding can lift us all, particularly now—the embodiment of commitment, resilience, and love.</p>
-<p>With more and more articles and services taking shape that describe the planning of an online wedding, I’d like to share a few of my thoughts about the technical and security considerations that will inevitably come up as couples plan and hold their online wedding ceremonies.</p>
-<h3><strong>Make it official before you make it official</strong></h3>
-<p>First off, you’ll need an official wedding license and to make sure that your locality recognizes an online wedding. Earlier in the pandemic, <a target="_blank" href="https://theamm.org/articles/317-these-states-are-where-you-can-and-can-t-get-married-online" rel="noopener noreferrer">several states and localities issued legal orders to allow couples to get their wedding licenses online and even conduct their wedding online with a recognized officiant</a>. Naturally, the answer as to whether you can hold an official wedding will vary where you live and what the exact requirements are. The best advice here is to consult with your local officials or family law practitioner to determine what options are legally available to you—from obtaining a wedding license either by mail or online, to who must officiate and witness the ceremony and how.</p>
-<h3><strong>Getting connected</strong></h3>
-<p>If you’re livestreaming your ceremony, a strong and reliable internet connection will top your list of must-haves. If it turns out that your location has so-so Wi-Fi or no internet at all, you can look into a <a target="_blank" href="https://www.pcmag.com/picks/the-best-mobile-hotspots" rel="noopener noreferrer">mobile hotspot device</a>. Available as either as a prepaid device or as a rental, the advantage of using a mobile hotspot device over the hotspot on your phone is that it can host multiple devices, have a better connection range than your phone, and last much longer than your phone in terms of battery usage.</p>
-<p>Of course, the performance of a mobile hotspot will be influenced by the network that’s available to it. Check the specs of the device and the coverage in the area to see if it can support streaming reliably.</p>
-<p>Given that 5G mobile connectivity is making its first appearances, you may find that your 5G-ready phone is a better choice than a 4G LTE mobile hotspot device. If this sounds like a bit much to you, or if you’d simply rather focus on other things for your big days, this is an area where you may want the help of a producer to coordinate this aspect of your online wedding.</p>
-<h3><strong>Consider hiring a producer to coordinate your online wedding</strong></h3>
-<p>An online wedding is a live streaming event, just like a show, <em>your </em>show, and it’s one you’ll want to have go off seamlessly so you and everyone else can bask in the moment. If you’ve been working, studying, or socializing online, you know what kind of headaches can crop up with video conferencing—bad lighting, bad sound, or simply the dreaded bad internet connection. That’s where a producer can help, both on the big day and well in advance of it too.</p>
-<p>Depending on the size and experience you want for an online wedding ceremony, you can hire a dedicated producer who can oversee the technical aspects of your ceremony and even act as a digital emcee who can orchestrate the flow of your big day by making introductions, playing music, controlling the microphones of guests, or even setting up a digital receiving line so that everyone can get some dedicated time with the couple. They can help you select the streaming platform for your needs as well.</p>
-<p>Online services like <a target="_blank" href="https://wedfuly.com/" rel="noopener noreferrer">Wedfuly</a> and <a target="_blank" href="https://simplyeloped.com/virtual-weddings/" rel="noopener noreferrer">SimplyEloped</a> offer a variety of plans that can handle details such as these for you, from getting the right tech and camera angles in place to rehearsals just like an in-person ceremony—with the bonus of troubleshooting any issues. Other options include looking into local DJ services, as some of them have adapted to run online weddings too. As with any such service or wedding vendor like your photographer or florist, do your research. Look for testimonials from other couples and their guests to get a sense if the service and the experience they provide is the right fit for you.</p>
-<h3><strong>Keep out wedding crashers</strong></h3>
-<p>Just like you need to keep any sort of video conference secure, that goes extra for your online wedding. My earlier advice on <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/how-secure-is-video-conferencing" rel="noopener noreferrer">keeping video conferences secure</a> still holds sway, yet I’ll add a few more things specific to weddings:</p>
-<ul>
-<li><strong>Don’t post the link to your wedding on social media.</strong> No need to broadcast it that way such that the general public, or a bad actor, can barge in. Instead, provide the link to your wedding as part of your R.S.V.P. process. That will give you a reasonable estimate of your attendance and help you act as the gatekeeper as to who attends and who does not.</li>
-<li><strong>Create a waiting room.</strong> This allows you or your producer or coordinator to act as an usher and only allow invited guests into the ceremony.</li>
-</ul>
-<h3><strong>Inviting guests to your online wedding with email invitations</strong></h3>
-<p>The mailed wedding invitation will always be an elegant and personal touch, yet the online wedding begs another kind of invitation—the sharing of a link and a password. As mentioned above, you can include this in your R.S.V.P. process by requesting your guests to share their email with you to receive the link and password. Another option is to use a shared spreadsheet in the cloud, like a Google Sheets or an Excel document in Office 365. You can direct invitees to the document and have them fill out their email address, number of attendees, and so on. This way, you can email your guests the secure link and password to your wedding when you’re ready.</p>
-<p>If you’re feeling extra confident with online tools, you can set up an account with Mailchimp and deliver a mass email invite (designed with your colors and photos too) to your friends and family in one fell swoop. Similarly, there are yet more options for paperless invites. <a target="_blank" href="https://www.brides.com/story/unique-ways-send-paperless-wedding-invitation" rel="noopener noreferrer">Check out this article for a rundown of other couple-friendly wedding invitation resources</a>.</p>
-<h3><strong>What if you’re attending an online wedding?</strong></h3>
-<p>Contemporary wedding etiquette has taken shape over dozens of years, and once again it has adapted to the times. Some tips about online wedding etiquette are obvious. Like wearing sweatpants below dress attire is a no-no. However, some are a bit more subtle. From gift-giving to receptions to when to mute or unmute your mic, <a target="_blank" href="https://www.nytimes.com/2020/10/31/at-home/virtual-weddings-etiquette.html?fbclid=IwAR1dtr72UXAa-RrkEex9BAMGRCW_6LudFKoX2O-kIUkV-25hlraQhLnt8-g" rel="noopener noreferrer">this article touches on many of the basics</a>.</p>
-<p>And don’t be shy to ask the couple or their coordinator questions if you’re uncertain about how the day will unfold or how you should dress. Just as with any wedding, some may be more formal or more casual than others. You can take a cue from the couple. In all, putting some extra effort into dressing up and maybe putting some flowers or a nice setting in the background will appear on the happy couple’s screen in wonderful ways. Imagine the look on their faces when they see you and your space looking joyful too!</p>
-<p>If you’re looking for tips on how to get your devices and viewing space working and looking great, check out my earlier article on “<a target="_blank" href="https://www.mcafee.com/blogs/consumer/setting-the-stage-for-your-video-interview-job-hunting-from-home" rel="noopener noreferrer">Setting the Stage for Your Job Interview.”</a> While it’s certainly focused on online interviews, much of the advice applies to setting up your device and your space for attending a wedding too.</p>
-<h3><strong>Get ready for your big day online!</strong></h3>
-<p>For those of you who have your big day circled on the calendar, or soon will, congratulations! Whether you’re planning a ceremony that’s completely online or some manner of hybrid for your guests, I hope that what I’ve shared here will make your online wedding safer, more secure, and, above all, that much more memorable in the best of ways.</p>
-<h3><strong>Stay Updated </strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and for more resources on staying secure from home, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a>on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener"><em>Hackable?</em></a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
-<p> </p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
+<br />The infamous malware has incorporated the legitimate Masscan tool, which looks for open TCP/IP ports with lightning-fast results.<br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/digital-marriage-making-sure-your-online-wedding-is-safe-and-secure/">Source link </a></p>
+<br /><a href="https://threatpost.com/trickbot-port-scanning-module/163615/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Apple iOS 14 Thwarts iMessage Attacks With BlastDoor System</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-ios-14-thwarts-imessage-attacks-with-blastdoor-system/</link>
+		<title>Crypto Crook Hired Steven Seagal to Promote Scam, Now Faces Charges</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/crypto-crook-hired-steven-seagal-to-promote-scam-now-faces-charges/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 Jan 2021 16:52:30 +0000</pubDate>
+		<pubDate>Tue, 02 Feb 2021 18:17:18 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[BlastDoor]]></category>
-		<category><![CDATA[iMessage]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[System]]></category>
-		<category><![CDATA[Thwarts]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-ios-14-thwarts-imessage-attacks-with-blastdoor-system/</guid>
+		<category><![CDATA[Charges]]></category>
+		<category><![CDATA[Crook]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Faces]]></category>
+		<category><![CDATA[Hired]]></category>
+		<category><![CDATA[Promote]]></category>
+		<category><![CDATA[scam]]></category>
+		<category><![CDATA[Seagal]]></category>
+		<category><![CDATA[Steven]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/crypto-crook-hired-steven-seagal-to-promote-scam-now-faces-charges/</guid>
 
-					<description><![CDATA[Apple has made structural improvements in iOS 14 to block message-based, zero-click exploits. Source link]]></description>
+					<description><![CDATA[Feds charged California-based private detective for stealing $11M from investors, with help from actor Steven Seagal. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Apple has made structural improvements in iOS 14 to block message-based, zero-click exploits.<br />
+<br />Feds charged California-based private detective for stealing $11M from investors, with help from actor Steven Seagal.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/apple-ios-imessage-blastdoor/163479/">Source link </a></p>
+<br /><a href="https://threatpost.com/crypto-crook-steven-segal-scam/163612/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Lazarus Affiliate ‘ZINC’ Blamed for Campaign Against Security Researcher</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/lazarus-affiliate-zinc-blamed-for-campaign-against-security-researcher/</link>
+		<title>Tiny Kobalos Malware Bedevils Supercomputers to Steal Logins</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiny-kobalos-malware-bedevils-supercomputers-to-steal-logins/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 Jan 2021 13:29:10 +0000</pubDate>
+		<pubDate>Tue, 02 Feb 2021 17:37:56 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Affiliate]]></category>
-		<category><![CDATA[Blamed]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Lazarus]]></category>
-		<category><![CDATA[researcher]]></category>
-		<category><![CDATA[ZINC]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/lazarus-affiliate-zinc-blamed-for-campaign-against-security-researcher/</guid>
-
-					<description><![CDATA[New details emerge of how North Korean-linked APT won trust of experts and exploited Visual Studio to infect systems with]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />New details emerge of how North Korean-linked APT won trust of experts and exploited Visual Studio to infect systems with ‘Comebacker’ malware.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/lazarus-affiliate-zinc-blamed-for-campaign-against-security-researcher/163474/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Playing with Playwright &#8211; Java API &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/playing-with-playwright-java-api-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 Jan 2021 07:59:28 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[API]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Java]]></category>
-		<category><![CDATA[Playing]]></category>
-		<category><![CDATA[Playwright]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/playing-with-playwright-java-api-automated-visual-testing/</guid>
-
-					<description><![CDATA[Playwright, Microsoft’s new end-to-end browser automation framework, is making quite the splash! I took Playwright for a spin only a]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Playwright, Microsoft’s new end-to-end browser automation framework, is making quite the splash! I took Playwright for a spin only a few months ago when it was a <a target="_blank" href="https://info.applitools.com/uc4ys" rel="noopener">JavaScript-only framework</a>, and am pleasantly surprised to learn that language support has expanded to my beloved Java as well as Python and C#! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60d.png" alt="😍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p>With the additional language support, as well as the ability to execute across modern browser engines Chromium, Firefox, and WebKit – this puts Playwright in the same category as Selenium WebDriver as viable testing solutions for all (not just JS) web testers who need cross-browser testing capabilities for complex applications.</p>
-<p>Browsing the <a target="_blank" href="https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/index.html" rel="noreferrer noopener">Playwright Javadocs</a> was helpful, but I like to evaluate frameworks by actually using them to automate realistic scenarios. So in this post, I’ll share the steps of building a testing project with Playwright which includes Page Objects, and I’ll also compare the Playwright steps to their equivalents in Selenium WebDriver.</p>
-<h2 id="h-how-to-install-playwright-java">How to Install Playwright Java</h2>
-<p>The first step in getting started with Playwright is adding the dependency to your project. You can get the Playwright client from <a target="_blank" href="https://mvnrepository.com/artifact/com.microsoft.playwright/playwright/" rel="noreferrer noopener">Maven Repository</a>. I created a new pom.xml file and added the playwright dependency.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/af0f739d020d99ee49961838ab8c6706.js</p>
-</div>
-<p>Like Selenium WebDriver, Playwright is a browser automation tool and not necessarily limited to a testing framework. In fact, neither of them provide any assertion methods. Therefore, you’ll need to add an assertion library as well. For this example, I’ll use <a target="_blank" href="https://mvnrepository.com/artifact/org.testng/testng" rel="noreferrer noopener">TestNG</a>.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/88570851233fdb8db139c931db21d47f.js</p>
-</div>
-<h2 id="h-how-to-launch-browser-in-playwright">How to Launch Browser in Playwright</h2>
-<p>The <em>Playwright</em> interface allows you to create specific types of <em>Browser</em> objects. The options are Chromium which is what Chrome and Edge are built upon, Firefox, and WebKit (the engine Safari is built upon). With this <em>Browser<strong> </strong></em>object, a <em>launch()</em> method is available which will start a browser instance.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/abfc846aed634f3917937952d5caec44.js</p>
-</div>
-<p>By default, Playwright launches the browser in headless mode, which means you won’t actually see the tests execute. If you want to see the browser open, you can disable headless mode by passing in a <em>LaunchOption.</em></p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/f26a970e673e3e92d8695333596a2e63.js</p>
-</div>
-<p>In addition to setting the headless mode, <a target="_blank" href="https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/com/microsoft/playwright/BrowserType.LaunchOptions.html" rel="noreferrer noopener">LaunchOptions</a> provide several other methods including ones to set environment variables and open Chromium dev tools.</p>
-<h2 id="h-how-to-launch-a-website-in-playwright">How to Launch a Website in Playwright</h2>
-<p>Now that we have a browser, we can load the application under test – <a target="_blank" href="https://automationbookstore.dev/" rel="noreferrer noopener">Automation Bookstore</a>. To do so, we need a <em>Page</em> object – which is similar to the <em>WebDriver</em> objects in Selenium. To create the <em>Page</em> object, we call <em>browser.newPage()</em> on line 8. This represents a single tab within the browser window. With this object, we can then navigate to our URL (line 9).</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/f2686fc54d93ba891c6ec7c454556151.js</p>
-</div>
-<h2 id="h-how-to-create-a-page-object-in-playwright">How to Create a Page Object in Playwright</h2>
-<p>We have our application loaded in the browser, and now we’d like to use the <a target="_blank" href="https://angiejones.tech/page-object-model/" rel="noreferrer noopener">Page Object Model design pattern</a> to create a Java class that represents the Search page of our application.</p>
-<p>In order to interact with the web elements, the Page Object class will need access to the Playwright <em>Page</em> object we created above. Again, this is comparable to how we pass the Selenium <em>WebDriver</em> object to Page Object classes so that they can perform browser interaction methods.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/f01d7d02e64f08e3e692e8fd74ac65ef.js</p>
-</div>
-<p>I created that <em>SearchPage</em> class and the constructor that accepts the <em>Page</em> object.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/6d16b27db88504694853f7ba853445ff.js</p>
-</div>
-<p>The first method I’ll add to this class is <em>search()</em> which will take in text and enter it into a text field. The method to do this is <em>fill(), </em>which takes a locator and the text you’d like entered into the field. You can see the call on line 11.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/79844b19d8fd0eec81fb5d0c71b1967b.js</p>
-</div>
-<h3 id="h-locators">Locators</h3>
-<p>The element locator for the search field is defined on line 4 as a simple String. This is true for all locators used in Playwright; unlike Selenium which uses the <em>By</em> class to allow you to express locators as id, name, XPath, css selector, link text, etc. In Playwright, it’s only CSS selectors and these are represented as Strings. This is a limitation for cases where XPath is the more favorable option such as when you need to find an element by its text or familial relationship to other elements.</p>
-<pre class="wp-block-code"><code>private String locator_searchBar = "#searchBar";</code></pre>
-<h3 id="h-wait-strategies">Wait Strategies</h3>
-<p>Playwright has <a target="_blank" href="https://playwright.dev/docs/actionability" rel="noreferrer noopener">auto-waiting</a> for elements that you are directly interacting with. Selenium WebDriver often gets a bad rap for things that are out of its control, for example the need to wait for a desired state of the application. In my particular application, there is a slight delay between the time I enter the search query and the time that the results are filtered. Since the search results element is a different element than the one I used the automation tool to interact with (search field), I have to account for this wait in my code, and it doesn’t matter if I use Selenium, Cypress, or Playwright – this remains true.</p>
-<p>To wait within Playwright, there’s a <em><a target="_blank" href="https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/com/microsoft/playwright/Page.WaitForSelectorOptions.html" rel="noreferrer noopener">WaitForSelectorOptions</a></em> class that allows you to specify the state you’re waiting for. The <a target="_blank" href="https://www.javadoc.io/static/com.microsoft.playwright/playwright/0.180.0/com/microsoft/playwright/Page.WaitForSelectorOptions.State.html" rel="noreferrer noopener">available states</a> are ATTACHED, DETACHED, HIDDEN, and VISIBLE.</p>
-<p>So here, after entering text into the field, I need to ask Playwright to wait until there are hidden books attached to the DOM. This is shown on lines 4-5.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/fa413dae21f67c0b76e6cd2f3b3db735.js</p>
-</div>
-<p>To demonstrate the <em>DETACHED</em> selector option, I’ll also make a <em>clear()</em> method. In this method, I clear the text field by sending an empty String, then wait for the hidden books element to be detached from the DOM.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/ea490f8821f5bd9a6593ef2216421a9b.js</p>
-</div>
-<h2 id="h-how-to-get-elements-in-playwright">How to Get Elements in Playwright</h2>
-<p>Playwright provides the <em>querySelector()</em> mehod which returns a single element as an <em>ElementHandle</em> object. This is equivalent to Selenium’s <em>WebElement</em> object obtained by <em>findElement()</em>. To get multiple elements that match the locator, Playwright provides <em>querySelectorAll()</em> and this will return a list of elements: <em>List&lt;ElementHandle&gt;.</em></p>
-<p>This is demonstrated in our Page Object class as we get the number of visible books.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/9b676af6e4dfe396721839d8889bff13.js</p>
-</div>
-<p>From an <em>ElementHandle</em>, you can take actions (e.g. click, fill, etc) or get information (getAttribute, isEnabled, isChecked, etc). The two methods that are JavaScripty and maybe not obvious at first glance to Java programmers are:<em> innerText()</em> and <em>innerHTML()</em>. The <em>innerText()</em> method is equivalent to Selenium’s getText() method; and there is no equivalent for <em>innerHTML()</em> in Selenium, bu it’s used to get the entire HTML contained between an element’s opening and closing tags.</p>
-<p>Here I use the <em>innerText()</em> method to get the titles of the visible books on line 4.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/53fb0225c8ed0f8433b6793c5923dc60.js</p>
-</div>
-<h2 id="h-the-tests">The Tests</h2>
-<p>Now that all of the heavy lifting has been done in the BaseTests and Page Object classes, the tests look exactly like they would if written in Selenium.</p>
-<div class="gist-wrapper">
-<p>Embedding: https://gist.github.com/angiejones/746425b97b7d89523ec0f3c6c6b98f27.js</p>
-</div>
-<h2 id="h-there-s-much-more">There’s Much More</h2>
-<p>What I’ve demonstrated here is how to use Playwright for some of the most common everyday tasks, however the API boasts a lot more! It can capture screenshots, mock geolocation, emulate mobile device settings, intercept network calls, and <a target="_blank" href="https://github.com/microsoft/playwright-java" rel="noreferrer noopener">much more</a>. It already contains a lot of the features that make Selenium 4 more modern. While Playwright is still very new, it looks extremely promising and I’m definitely keeping my eye on it.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/playwright-java/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Performing Page Interactions with Selenium Actions</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/performing-page-interactions-with-selenium-actions/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 29 Jan 2021 07:37:30 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Actions]]></category>
-		<category><![CDATA[Interactions]]></category>
-		<category><![CDATA[Page]]></category>
-		<category><![CDATA[Performing]]></category>
-		<category><![CDATA[Selenium]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/performing-page-interactions-with-selenium-actions/</guid>
-
-					<description><![CDATA[Selenium Actions are used whenever you need a more complex interaction with an HTML element. More complex means it could]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Selenium Actions are used whenever you need a more complex interaction with an HTML element. More complex means it could be either: a double click, a hover, a right-click, or even drag and drop. Such interactions are very easy to make, and in this post, I want to go over some clear examples of how you can use the <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a> Actions class for this purpose.</p>
-<h2><strong>Table of Contents – Performing Page Interactions with Selenium Actions</strong></h2>
-<hr/>
-<h2><strong><a target="_blank" id="selenium-actions-class" rel="noopener">The Selenium Actions class</strong></h2>
-<p>Whenever you want to perform some of the interactions I mentioned, first, in your test class, or in a base class your tests are extending, you need to import the Actions class. You can do this quite easily:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">import org.openqa.selenium.interactions.Actions;</pre>
-<p>Then, you will need to declare a field (or variable, depending on how you structure your tests) of type Actions. In the examples I will show in this post, I will declare a field in my test class, as follows:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">private Actions actions;</pre>
-<p>I will then initialize this field in the @BeforeAll method of my test class, right after I created my WebDriver instance (which I store in the ‘driver’ field):</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions = new Actions(driver);</pre>
-<p><code/><br />In order to initialize the ‘actions’ field, I am calling the Actions class constructor, to which I am passing the ‘driver’ as a parameter. Once this step is done, we can get started with performing our required interactions.</p>
-<h2><strong><a target="_blank" id="test-setup" rel="noopener">Test setup</strong></h2>
-<p>At the end of the article, I will provide a GitHub link where you can find the resources I used for these examples: the HTML code, the Page class, and the test class. The Page class is called ActionsPage. In the test class, ActionsTest, I first declare the page instance as a field, and then, in the @BeforeAll method, I initialize it. I  also open the test webpage in this method. This webpage is part of the test project I am using and can be found in the test ‘resources’ folder. The entire @BeforeAll and @AfterAll methods look like this:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">@BeforeAll &#13;
-void beforeAll() &#13;
-{ &#13;
-   driver = browserGetter.getChromeDriver(); &#13;
-   page = PageFactory.initElements(driver, ActionsPage.class); &#13;
-   driver.get(new File("src/test/resources/htmls/tp/actions/actions.html").getAbsolutePath()); &#13;
-   actions = new Actions(driver); &#13;
-} &#13;
-&#13;
-@AfterAll &#13;
-void afterAll() &#13;
-{ &#13;
-   driver.quit(); &#13;
-}</pre>
-<p>Of course, after the entire test class runs, the browser will be closed.</p>
-<h2><strong><a target="_blank" id="mouse-hover" rel="noopener">Actions: Mouse hover</strong></h2>
-<p>The first interaction I will look into is the mouse hover one. As an example, I will have an HTML element of type paragraph (a &lt;p&gt; tag). When this element is hovered, a tooltip with the text “Hover text displayed” is displayed. The test will need to check that upon hovering, the tooltip displays the correct text.</p>
-<p>The corresponding HTML code is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">&lt;div class="w3-panel w3-teal w3-center"&gt; &#13;
-   &lt;p class="tooltip"&gt;Element to hover &lt;span class="tooltiptext"&gt;Hover text displayed&lt;/span&gt;&lt;/p&gt; &#13;
-&lt;/div&gt;</pre>
-<p>I am interested in creating 2 Selenium WebElements. The first one corresponds to the paragraph we want to hover. The second one corresponds to the tooltip. These 2 WebElements, created in the ActionsPage page class, are:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@FindBy(className = "tooltip") &#13;
-public WebElement elementToHover; &#13;
-&#13;
-@FindBy(className = "tooltiptext") &#13;
-public WebElement hoverTextElement;</pre>
-<p>Having created the WebElement used for identifying the paragraph to hover, we can now use the hover method from the Actions class, namely ‘moveToElement’. The usage of this method, in general, is, where ‘target’ is the WebElement we need to hover:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.moveToElement(target).perform();</pre>
-<p>The ‘perform’ method should always be called after calling the desired interaction method. It performs a required cleanup, so that the next time you are using the ‘actions’ field, you are not relating or adding an interaction to the previous one. You can think of this method as performing a reset. The actions can be chained, meaning you can perform further interactions after the hover is done, within the same line of code. I will show such an example later on.</p>
-<p>For now, looking at our HTML page and the page class, we will write the part of the test which performs the hover over the paragraph. That means we will call the ‘moveToElement’ method while passing the ‘elementToHover’ WebElement as a parameter:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.moveToElement(page.elementToHover).perform();</pre>
-<p>Because we also want to check the text of the tooltip, we can use the ‘getText’ method to read the text of the WebElement which now needs to be displayed, namely ‘hoverTextElement’. We could use this in an assertion, as below, or even better, we could use a WebDriverWait based method for waiting for the text to be the expected one. For now, let’s check the text using an assertion:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">assertEquals("Hover text displayed", page.hoverTextElement.getText());</pre>
-<h2><strong><a target="_blank" id="double-click" rel="noopener">Actions: Double click</strong></h2>
-<p>Let’s now look at another example: here we have another paragraph. Before double-clicking on it, the text it displays is: Element to double click. After we double click, the new text it will display needs to be: The element was double-clicked.</p>
-<p>The corresponding HTML for this paragraph is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">&lt;div class="w3-panel w3-cyan w3-center"&gt; &#13;
-   &lt;p id="elementToDoubleClick" ondblclick="doubleClick()"&gt;Element to double click&lt;/p&gt; &#13;
-&lt;/div&gt;</pre>
-<p>The corresponding WebElement for the paragraph we want to double click on is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">@FindBy(id = "elementToDoubleClick") &#13;
-public WebElement elementToDoubleClick;</pre>
-<p>Before we perform the double click on the paragraph, we want to check that the text is the expected initial one:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">assertEquals("Element to double click", page.elementToDoubleClick.getText());</pre>
-<p>Now, the actual interaction will take place, using the ‘doubleClick’ method. The general usage for this method is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.doubleClick(target).perform();</pre>
-<p>When calling this method, there is no need for performing a hover before the click, as this step is already included in the ‘doubleClick’ method. The double click takes place in the middle of the defined WebElement. In our example, this method call, using our WebElement, is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.doubleClick(page.elementToDoubleClick).perform();</pre>
-<p>After the double click was performed, we do want to check that the behavior of the paragraph is correct. Therefore, we will also make another assertion on its’ text, comparing it to the expected new one:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">assertEquals("The element was double clicked", page.elementToDoubleClick.getText());</pre>
-<p>This assertion should be successful, which means our interaction was successful.</p>
-<h2><strong><a target="_blank" id="right-click" rel="noopener">Actions: Right-click</strong></h2>
-<p>We also have the option to perform a right-click on a WebElement. For demonstrating how this can be done, I will again use the ‘elementToDoubleClick’ WebElement we previously defined. The method to be used for this interaction is called ‘contextClick’ and its’ normal usage would be:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.contextClick(target).perform();</pre>
-<p>For our example, the corresponding right-click method call will be:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.contextClick(page.elementToDoubleClick).perform();</pre>
-<p>No hover is required in this case either, as it is already included in the ‘contextClick’ method. Of course, once the right-click is performed, you can continue with whatever steps your test requires.</p>
-<h2><strong><a target="_blank" id="drag-and-drop" rel="noopener">Actions: Drag and drop</strong></h2>
-<p>Let’s take a look at another example: we have a paragraph that we want to move over an empty &lt;div&gt;. The corresponding HTML code is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">&lt;p id="elementToDrag" class="w3-card-4 w3-center w3-sand"&gt;Element to drag&lt;/p&gt; &#13;
-&lt;div class="droptarget w3-panel w3-pale-yellow w3-center"&gt; &lt;/div&gt;</pre>
-<p>The WebElements representing the element to drag and the element to drop it to are:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">@FindBy(id = "elementToDrag") &#13;
-public WebElement elementToDrag; &#13;
-&#13;
-@FindBy(className = "droptarget") &#13;
-public WebElement dropContainer;</pre>
-<p>The drag and drop interaction, although normally consisting of several steps, can be done easily using the ‘dragAndDrop’ method. The normal usage for this method is:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.dragAndDrop(source, target).perform();</pre>
-<p>In our example, we want to drag the ‘elementToDrag’ element over the ‘dropContainer’ element. This is done as follows:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.dragAndDrop(page.elementToDrag, page.dropContainer).perform();</pre>
-<p>Once this interaction has been made, you could check that it was performed successfully by checking that the HTML code has been changed to reflect the new location of the element which was dragged.</p>
-<h2><strong><a target="_blank" id="chaining" rel="noopener">Actions: Chaining</strong></h2>
-<p>In some cases, you will need to perform several interactions on the same element. For example, you might need to first hover the element, and only then double click on it. This all depends on your underlying HTML. For multiple interactions on the same element, one after the other, you can still call the methods from the Actions class. In this case though, you will chain the method calls.</p>
-<p>An example of how this can be done is to perform a drag and drop, but not by using the ‘dragAndDrop’ method. When you think about what this interaction is made of, you can easily see that first you need to click on a WebElement, hold the mouse down, drag the mouse to the location where you want to drop it, and then actually drop it. This, in terms of methods we can find in the Actions class, translates to:</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">actions.clickAndHold(page.elementToDrag).moveToElement(page.dropContainer).release().build().perform();</pre>
-<p>Here, the ‘clickAndHold’ method will perform exactly what the name suggests: first, a click is done, and then the mouse is not released. Right after this interaction, while the mouse is still clicked, the cursor moves over the element where we want to drop the element we are dragging. In order to drop it, we need to use the ‘release’ method, which will release the mouse click. Because there are several interactions we want to use on the same element, we will also call the ‘build’ method before calling the ‘perform’ one. And this is how we can chain any Actions methods we require.</p>
-<h2><strong><a target="_blank" id="conclusion" rel="noopener">Conclusion</strong></h2>
-<p>In this article, I went over some of the most useful methods from the <a target="_blank" href="https://blog.testproject.io/2020/12/03/selenium-automation-best-practices-tips-you-must-know/" rel="noopener">Selenium</a> Actions class. All of them performed an interaction with an HTML element which we defined by means of a WebElement. In case you only have some coordinates on the screen for performing the interaction, there are some useful methods to help you out. For the complete list of available interaction methods, please check out the <a target="_blank" href="https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/interactions/Actions.html" rel="noopener noreferrer">official documentation</a>.</p>
-<h2><strong><a target="_blank" id="resources" rel="noopener">Resources</strong></h2>
-<p><a target="_blank" href="https://github.com/iamalittletester/little-project/blob/master/src/test/resources/htmls/tp/actions/actions.html" rel="noopener">The HTML code used for the examples</a></p>
-<p><a target="_blank" href="https://github.com/iamalittletester/little-project/blob/master/src/main/java/com/imalittletester/pages/tp/ActionsPage.java" rel="noopener">The Page object class</a></p>
-<p><a target="_blank" href="https://github.com/iamalittletester/little-project/blob/master/src/test/java/com/imalittletester/tp/ActionsTest.java" rel="noopener">The test class</a></p>
-</p></div>
-<p><br />
-<br /><a href="https://blog.testproject.io/2021/01/29/performing-page-interactions-with-selenium-actions/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>#NeotysPAC expert Alex Podelko discusses the future of #performancetesting as an&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/neotyspac-expert-alex-podelko-discusses-the-future-of-performancetesting-as-an/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 21:09:47 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Alex]]></category>
-		<category><![CDATA[discusses]]></category>
-		<category><![CDATA[Expert]]></category>
-		<category><![CDATA[future]]></category>
-		<category><![CDATA[NeotysPAC]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Podelko]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/neotyspac-expert-alex-podelko-discusses-the-future-of-performancetesting-as-an/</guid>
-
-					<description><![CDATA[#NeotysPAC expert Alex Podelko discusses the future of #performancetesting as an evolution more than a revolution, asking should it grow]]></description>
-										<content:encoded><![CDATA[
-<p><a target="_blank" class="fi fj" href="https://facebook.com/hashtag/neotyspac?refid=17&amp;_ft_=mf_story_key.4061581510519948%3Atop_level_post_id.4061581510519948%3Atl_objid.4061581510519948%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4061581510519948%3Apage_id.163354693676002%3Aphoto_id.4061581417186624%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX94EZmxSM1ipoXL%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611868187%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4061581510519948%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4061581510519948%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A5838923561515324227&amp;__tn__=%2As-R" rel="noopener">#NeotysPAC</a> expert Alex Podelko discusses the future of <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4061581510519948%3Atop_level_post_id.4061581510519948%3Atl_objid.4061581510519948%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4061581510519948%3Apage_id.163354693676002%3Aphoto_id.4061581417186624%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX94EZmxSM1ipoXL%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1611868187%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4061581510519948%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4061581510519948%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1612166399%3A5838923561515324227&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> as an evolution more than a revolution, asking should it grow fur or feathers to avoid extinction? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2MonDnY&amp;h=AT3Uh1EK2NlJzMI6BQpMIOrSEPD8g6dSQaPkzLtKBQpF5Yo0DUcF9A_XO346lWJFdz88AOetzOXQ2aK44-d4aUhb_04cZ4ms-2nZLMcGB2djrZL8I26A7Rc8lHW-DZALc7BVHCk1WshhCpeh_fFytE9mMP6nciC7ZGuKYeoHIt_otUnaI11AvucbXfLho6M9lGoayPHhVg2XluJ3iyYzM2hxntwl28iXA4xHuJsHxUiswyWpkpBX3AkjPlX4Va1iQegnpIy0jBef-9JosJVfo9KKS3vgiE5zZ-hDVz7sk7st4-5493LLxO6gp2qx-d3TuRbeZhrLSkIM65oQLm5XhdX0sPk3dukaoPeddLLGspcIxP0asxqYhX1x_8-uEXOV-yChq2h02ooIP_DpAPPX3zhVGjqJaMNucLELEhEUnhE47ELHi3kEuNmxBPb0ohGlZR7o9gcOedvdEl0EEFZGfpPrDo0luUTVmwaRfH1Oz4qDh_eivpYxx298e6VFjUH-t_G1tkNbUtDBqVReXEPmiFMzszMipPKZYngXBiEE0dLhJgljkJHDDs91jsWswIyps14c6f2VkzF8s_tJ-uL90WJ7ZRfxA35kpsemR2GkMTqbyDkkxAeC_Ws0H_H-C-o5NUmfpsKee6snvlZqklPVgeV242VOnQjO3UQMShqxbEGbWLu-JHznvQo68gq9YAdDppQUMwLf3CLr2o6fInPrhH-UhRCpbLtBcS-ZFVw4gc0OlEC3WIT8ilf8ptWS385iqAW0gb2zBXa0uB6wYdh6ozIO6K2y-FPKO4ZEWS10yxl3rOgGw6j5t0ts9vRvcauKYYWpZaX4YcG4PFSKFWdqjOvmMFOpcDUGPJwBtkzIi2QD5bRRx8hPG4m7AcHvMlI_CKpqlGpr718GmHfwgBuZeO8FxPH3H_9mIlfX2_FDSUIOj24ETaO23fkzcPujoioeAYxVu5XgnFWakSy31y9C7_VG6RvNMmlfxynYI-KofiO8pyw0CbRr_ngcl6cXISjuiy5vXtG1WUdnUqwYzKh87QlOCE-1JLpF6jT37V1ejMKB-_cl2k6z7sjiGnTYacmLLVQnJ70woM5WGgQTGqa4Pr3w4RKmFkgR20mMjA83k9ky6dY8AidPw2mrBfvQ-p-KwE_gk50KoOjhbJkBETuBgvihCuJ8xp7Zsv_9XDQPbri2HPhT2vHIpGy0q335Pn3e75UGtuFWEEkElvnQToyXH0MJOfJfvph0P1trJtikTDxcAng2iOwlI0tQEzAu" rel="noopener">https://bit.ly/2MonDnY</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/143368420_4061581423853290_6016716109906941979_o.png?_nc_cat=109&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=wGsuRUHbs4sAX8QNl2H&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=b4cf23b37ad44b4c75a72709f2ba9036&#038;oe=6038F4E5" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4061581510519948">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Rocke Group’s Malware Now Has Worm Capabilities</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/rocke-groups-malware-now-has-worm-capabilities/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 20:06:57 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Capabilities]]></category>
-		<category><![CDATA[Groups]]></category>
+		<category><![CDATA[Bedevils]]></category>
+		<category><![CDATA[Kobalos]]></category>
+		<category><![CDATA[Logins]]></category>
 		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Rocke]]></category>
-		<category><![CDATA[Worm]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/rocke-groups-malware-now-has-worm-capabilities/</guid>
+		<category><![CDATA[Steal]]></category>
+		<category><![CDATA[Supercomputers]]></category>
+		<category><![CDATA[Tiny]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tiny-kobalos-malware-bedevils-supercomputers-to-steal-logins/</guid>
 
-					<description><![CDATA[The Pro-Ocean cryptojacking malware now comes with the ability to spread like a worm, as well as harboring new detection-evasion]]></description>
+					<description><![CDATA[The sophisticated backdoor steals SSH credentials for servers in academic and scientific high-performance computing clusters. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />The Pro-Ocean cryptojacking malware now comes with the ability to spread like a worm, as well as harboring new detection-evasion tactics.<br />
+<br />The sophisticated backdoor steals SSH credentials for servers in academic and scientific high-performance computing clusters.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/rocke-groups-malware-now-has-worm-capabilities/163463/">Source link </a></p>
+<br /><a href="https://threatpost.com/kobalos-malware-supercomputers-logins/163604/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>ShinyHunters Exposes Over 125 Million Online Credentials &#124; McAfee Blogs ShinyHunters Exposes Over 125 Million Online Credentials </title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/shinyhunters-exposes-over-125-million-online-credentials-mcafee-blogs-shinyhunters-exposes-over-125-million-online-credentials/</link>
+		<title>Don’t miss the next session in Paul Bruce’s NeoLoad and Jenkins virtual workshop&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/dont-miss-the-next-session-in-paul-bruces-neoload-and-jenkins-virtual-workshop/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 19:27:18 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[Credentials]]></category>
-		<category><![CDATA[Exposes]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[million]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[ShinyHunters]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/shinyhunters-exposes-over-125-million-online-credentials-mcafee-blogs-shinyhunters-exposes-over-125-million-online-credentials/</guid>
+		<pubDate>Tue, 02 Feb 2021 17:35:35 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Bruces]]></category>
+		<category><![CDATA[Dont]]></category>
+		<category><![CDATA[Jenkins]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[Paul]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[session]]></category>
+		<category><![CDATA[Virtual]]></category>
+		<category><![CDATA[workshop]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/dont-miss-the-next-session-in-paul-bruces-neoload-and-jenkins-virtual-workshop/</guid>
 
-					<description><![CDATA[ShinyHunters Exposes Over 125 Million Online Credentials   Meet ShinyHunters, a hacker who recently leaked 10 new databases this past month]]></description>
-										<content:encoded><![CDATA[<p> <br />
+					<description><![CDATA[Don’t miss the next session in Paul Bruce’s NeoLoad and Jenkins virtual workshop series: Advanced Patterns for Performance Pipelines, Feb.]]></description>
+										<content:encoded><![CDATA[
+<p>Don’t miss the next session in Paul Bruce’s NeoLoad and Jenkins virtual workshop series: Advanced Patterns for Performance Pipelines, Feb. 4, 9am-12pm EST. Sign up here <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3tivAvK&amp;h=AT0-Y7cxoCI2bWMjq09ytRfkNq7i7n1xmRVguJKJkcVvo9-UAIifE36hzRNIoTSx9DH-dPWtWdJlsQgIT0mYc0gbOAI8fD0plf6kCncqDuQGhDTNw_k8CqbW8SIssIrqRnd8SC4M6use26vW39INeGxO8qycPLimS8E8oXvv63NEwwBxGk4n-SMpZRMrHkHd1EE2335Tkq_wIpBj3hxTKpBMSO8-zzhucKn7S5_ssAzn1oQtErw-jff5vhQXZOPittX3_XkzknxmlDH-gUiZSsMxwXWdCVW2Aw9OjNPot2RYKY0OulKXmTUNfH9BwPIJtGeswJ2IF9kwkbGKHsgJqpZ-Bbx6kXAtL-4gd0PJcstVXBIfQvkDr7GBlI99tIoPyA6KI8rPr5Mm1rrtRD11Yap_77Axw5pDioSs5ocjDp1ZvxFbfdVpr6qM3S6AR9ZuCfjfaRzU4T9k_g96liQHLy7oAgHu3SJ6iuXbiHLGOqbD05BjVwKQf11WWPDH3qWhicoAhcUwkUMycII4stpakTVBpZ4Cuy27DNby6o6aG1qmPLjH7McZvc8h0nvyx96WyQe5N8kJ1blbQGvW8B9D8vRjsvnIh7HFSQPEr_i6CWzQa3B9MadmpWdoxd8YhYw_s9djAzqKx7JREUITtr0W7G78ZAOACdJ3sDeDJZpPg4sQTiZ41cW7PzjFYOdFD_UWqoeRAFbAOpN88nkKRCO3bz0-SCBtOhkSLvKe8twJJuYk4kQPK1AOa2om5NfpS1rMIiFYAadh2VyYkrICJbZTWYW2IwYt9bVcAKATWAIuBj1dEtUjQe8-VWAGey00VcJmcVAg3x-wmPiBymyFUAeGhQyDlbXqDcFzHqHOw7ooLb9uY7csJZ0lrz0lJGAh2w6NPqMBSqcgO3RAmNxMxcTV_hJwnBEOmPzzGcU4IGKZEKJT3vywJx8FcqXrG4VLzm5dP1ugWcIoGg6WHcw-8yTUOeFN1RKqzQu3OhgjJrsXUyS9rWnSd7JtW9fb9vDLSvWXRY0cpXkxH0iotCKJMr_1IYktgDfX4OGaKJ4ObQ14sNkl-CM_TH5eOU_DDLXtOsZwa4_sx7dAlyl9DKm6Sm4OXtWs7CZPC-iNYAkQB7Qlmt9rPWQ3XIM1WmZNa4f7v4-3XTXVQjEuRLWxkh3bdCc-7Li9UIzhuKHn2SoGB80FBqYlzp8_U9P0UlOrCpwJd5dziyhLehT-ZtJZrCYeNskf4C89ripRKBb2vL597hcNPjufCRqoKEk_YxgF4nY" rel="noopener">https://bit.ly/3tivAvK</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4074065089271590%3Atop_level_post_id.4074065089271590%3Atl_objid.4074065089271590%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4074065089271590%3Apage_id.163354693676002%3Aphoto_id.4074064899271609%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_h1v0VXRB64h1s%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612287335%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4074065089271590%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4074065089271590%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A873939298177050461&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4074065089271590%3Atop_level_post_id.4074065089271590%3Atl_objid.4074065089271590%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4074065089271590%3Apage_id.163354693676002%3Aphoto_id.4074064899271609%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_h1v0VXRB64h1s%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612287335%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4074065089271590%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4074065089271590%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A873939298177050461&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4074065089271590%3Atop_level_post_id.4074065089271590%3Atl_objid.4074065089271590%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4074065089271590%3Apage_id.163354693676002%3Aphoto_id.4074064899271609%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_h1v0VXRB64h1s%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612287335%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4074065089271590%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4074065089271590%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A873939298177050461&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
 </p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2>ShinyHunters Exposes Over 125 Million Online Credentials</h2>
-<p> </p>
-<p>Meet <a target="_blank" href="https://www.riskbasedsecurity.com/2021/01/25/shinyhunters-wave-3-one-hacker-exposes-over-125-million-credentials/" rel="noopener noreferrer">ShinyHunters</a>, a hacker who recently leaked 10 new databases this past month from companies including:</p>
-<p>• Pixlr.com<br />• Bonobos.com<br />• Wognai.com<br />• Tesspring.com<br />• Tunedglobal.com<br />• Buyucoin.com<br />• Wappalyzer.com<br />• Chqbook.com<br />• Rooter.io<br />• MeetMindful.com</p>
-<p>But this isn’t the first time they’ve made headlines. It all started in <a target="_blank" href="https://www.wired.com/story/shinyhunters-hacking-group-data-breach-spree/" rel="noopener noreferrer">May of 2020</a> when ShinyHunters attempted to sell several stolen databases on the Dark Web. They also leaked several other databases between <a target="_blank" href="https://www.forbes.com/sites/daveywinder/2020/07/29/hacker-gives-away-386-million-stolen-records-on-dark-web-what-you-need-to-do-now-shinyhunters-data-breach/?sh=19cca2db6f39" rel="noopener noreferrer">April and July</a>.  In October, they proceeded to leak the database of the meal kit delivery company, HomeChef. Not one to be easily satisfied, <a target="_blank" href="https://latesthackingnews.com/2020/11/16/shinyhunters-target-numerous-firms-in-a-recent-wave-of-data-breaches/" rel="noopener noreferrer">ShinyHunters continued their antics</a> by exposing sixteen other databases in November, where personal user records and information were publicly shared. Prominent companies who fell victim to this wave of data breaches include gaming site Animal Jam, online marketplace Minted, and coupon company ShopBack, among others.</p>
-<p>Personal data released ranges from contact information and addresses, dates of birth, passwords, and financial information. Not including the latest data breach, a total of 129,406,564 user records were exposed. Given the alarming size of the exposure, this gives way to rising concerns for when ShinyHunters will strike again. What’s more, this group seeks notoriety from their misdeeds, hoping to claim credibility for the number of attacks they can execute—a troubling thought for everyday users like you and me.</p>
-<p>You never know when or if a breach will occur, which is why we must take precautions to protect our data in the case of a security breach. In the past year alone, we have seen a record number of data breaches, posing unforeseen security concerns and bringing light to new priorities for data protection. That’s why we must learn from these occurrences by proactively protecting our private information in 2021 and beyond.</p>
-<h3><strong>Tips </strong> <strong>for Protecting Yourself After a Data Breach</strong></h3>
-<p>There’s no way of knowing whether your personal information will fall into the wrong hands or that it will be used maliciously, but ShinyHunters has indicated that they are on the lookout for opportunities to expose more databases, so we must take the necessary steps to protect our personal information before the damage is done.</p>
-<h4> 1. Find out what information was stolen</h4>
-<p>Not knowing what data was stolen can make it significantly more difficult to pinpoint what threats you may become subject to. If you realize a company you buy from fell victim to a data breach, start investigating. Use <a target="_blank" href="https://haveibeenpwned.com/" rel="noopener noreferrer">this tool</a> to see if the breach affects you.</p>
-<h4><strong>2. Update your credentials </strong></h4>
-<p>Great passwords are usually the first line of defense against personal data exposures, so it’s important to update them as soon as they are compromised. Additionally, use different passwords or passphrases for each of your online accounts which helps protect the majority of your data if one of your accounts becomes vulnerable. One route you can take is to use a <a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">password manager</a> that not only lets you create strong passwords but can let you manage them efficiently with added security and peace of mind.</p>
-<p>On top of updating your credentials, you’ll want to secure your log-in process by enabling 2-Factor Authentication. So, if a hacker has access to your stolen passwords, they’ll still have to bypass an added security layer that is time sensitive. This makes it even more difficult for them to access your information.</p>
-<h4><strong>3. Be on the lookout for spear-phishing attacks</strong></h4>
-<p>Like regular phishing attempts, spear-phishing attempts will try to steal your information by posing as an authentic entity to target unsuspecting victims. However, spear phishing attempts can be harder to spot because the attempt is modified to target a specific individual, often in the form of a personalized email. If you receive an email, call, or text asking you to download software, app, or pay a certain amount of money, do not click or take any direct action from the message. Instead, go straight to the organization’s website. This will prevent you from downloading malicious content from phishing links or forking over money unnecessarily.</p>
-<h4><strong>4. Keep an eye out for suspicious activity on your accounts </strong></h4>
-<p>If you find that your credit card information has been exposed, keep an eye on your bank records and validate each transaction. In the above cases for a site like MeetMindful, where Facebook authentication tokens and user IDs were stolen, it’s always best to keep an eye on other social accounts for fraudulent activity.</p>
-<h4><strong> 5. Freeze your credit</strong></h4>
-<p>For maximum financial protection, freeze your credit to prevent hackers from opening new accounts in your name. Placing a freeze on your credit is free for consumers and won’t affect your credit score. Simply contact the three major credit bureaus—Equifax, Experian, and TransUnion—to set up a freeze to secure your credit file until you decide to lift it.</p>
-<h3><strong>Stay Updated</strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://www.mcafee.com/en-us/index.html" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://twitter.com/McAfee_Home" rel="noopener">@McAfee_Home </a> on Twitter, listen to our podcast <a target="_blank" href="https://geo.itunes.apple.com/podcast/us/id1257232208?mt=2&amp;at=1010lbVy&amp;ct=mcafeehackable_GaryBlog_EndBlurb" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://www.facebook.com/McAfee" rel="noopener">Facebook.</a></p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/shinyhunters-exposes-over-125-million-online-credentials/">Source link </a></p>
+<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/145835553_4074064902604942_5553627112072131531_n.jpg?_nc_cat=104&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=z3btZQgpqBUAX8ehSTd&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=dee4beadc4dccaad4034d9280e52b60d&#038;oe=603E3BA5" rel="noopener"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4074065089271590">Source</a>  </p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>APT team attacks white hats: Google fingers North Korea</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/apt-team-attacks-white-hats-google-fingers-north-korea/</link>
+		<title>Magento Web Skimmers Piggyback in Ongoing Costway Website Compromise</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/magento-web-skimmers-piggyback-in-ongoing-costway-website-compromise/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 18:15:00 +0000</pubDate>
+		<pubDate>Tue, 02 Feb 2021 17:31:10 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APT]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[fingers]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[hats]]></category>
-		<category><![CDATA[Korea]]></category>
-		<category><![CDATA[North]]></category>
-		<category><![CDATA[team]]></category>
-		<category><![CDATA[white]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apt-team-attacks-white-hats-google-fingers-north-korea/</guid>
+		<category><![CDATA[Compromise]]></category>
+		<category><![CDATA[Costway]]></category>
+		<category><![CDATA[Magento]]></category>
+		<category><![CDATA[Ongoing]]></category>
+		<category><![CDATA[Piggyback]]></category>
+		<category><![CDATA[Skimmers]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[website]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/magento-web-skimmers-piggyback-in-ongoing-costway-website-compromise/</guid>
 
-					<description><![CDATA[North Korean state-sponsored hackers are targeting and attacking white-hat security researchers. They’re using a combination of zero-day exploits, Trojan-laced VS]]></description>
+					<description><![CDATA[An e-commerce credit-card skimmer is being used by a second skimmer to steal payment data &#8211; and both are on]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />An e-commerce credit-card skimmer is being used by a second skimmer to steal payment data &#8211; and both are on Costway&#8217;s website.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/magento-web-skimmers-costway/163593/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>We can make software secure, but not at a price you&#8217;d be willing to pay</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/we-can-make-software-secure-but-not-at-a-price-youd-be-willing-to-pay/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Feb 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Pay]]></category>
+		<category><![CDATA[Price]]></category>
+		<category><![CDATA[Secure]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[youd]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=9012</guid>
+
+					<description><![CDATA[The recent compromise of SolarWinds’ Orion software has led to lots of largely ineffective hand-wringing. I’ve seen more time spent on]]></description>
 										<content:encoded><![CDATA[<p> <br />
 <br /></p>
 <div>
-<p><strong>North Korean state-sponsored hackers</strong> are targeting and attacking white-hat security researchers. They’re using a combination of zero-day exploits, Trojan-laced VS project bundles, and good old social engineering.</p>
-<p><strong>So says Google’s Threat Analysis Group (TAG),</strong> which has been looking into the perps. It’s blaming APT38 (a.k.a. Lazarus Group, DarkSeoul, ZINC, etc.)</p>
-<p><strong>And there are lessons for all of us.</strong> In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener">Security Blogwatch</a></i>, let’s be careful out there.</p>
-<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>shanties jump the shark.</em></p>
-<h3>GOOG TAG tags DPRK APT</h3>
-<p><strong>What’s the craic?</strong> Catalin Cimpanu reports—<i><a target="_blank" href="https://www.zdnet.com/article/google-north-korean-hackers-have-targeted-security-researchers-via-social-media/" rel="nofollow ugc noopener" title="read the full text">North Korean hackers have targeted security researchers via social media</a>:</i></p>
-<blockquote><p><em>A North Korean government hacking group has targeted members of the cyber-security community engaging in vulnerability research. … The attacks have been spotted by … TAG, a Google security team specialized in hunting advanced persistent threat (APT) groups.<br />…<br />[It’s been] linked to the Lazarus Group, a well-known North Korean state-sponsored operation. … Some security researchers believe the North Korean group most likely used a combination of Chrome and Windows 10 zero-day vulnerabilities to deploy their malicious code.<br />…<br />The reason for targeting security researchers? … To steal exploits for vulnerabilities discovered by the infected researchers, vulnerabilities that the threat group could deploy in its own attacks with little to no development costs.</em></p></blockquote>
-<p><strong>And</strong> Jon Porter carries the story—<i><a target="_blank" href="https://www.theverge.com/2021/1/26/22250060/google-threat-analysis-group-north-korean-hackers-cybersecurity-researchers-social-engineering" rel="nofollow ugc noopener" title="read the full text">Google warns of ‘novel social engineering method’</a>:</i></p>
-<blockquote><p><em>Government-backed hackers based in North Korea are targeting individual security researchers through a number of means. [It] worryingly appears to exploit unpatched Windows 10 and Chrome vulnerabilities.<br />…<br />[TAG] cites several cases of researchers’ machines having been infected simply by visiting the hackers’ blog, even when running the latest versions of Windows 10 and Chrome. … The attackers used a range of different platforms — including Telegram, LinkedIn and Discord.</em></p></blockquote>
-<p><strong>Let’s go to the horse’s mouth.</strong> Google TAG’s Adam Weidemann hits the panic button—<i><a target="_blank" href="https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/" rel="nofollow ugc noopener" title="read the full text">New campaign targeting security researchers</a>:</i></p>
-<blockquote><p><em>The actors behind this campaign, which we attribute to a government-backed entity based in North Korea, have employed a number of means to target researchers. … We hope this post will remind those in the security research community that they are targets to government-backed attackers and should remain vigilant.<br />…<br />The actors have been observed targeting specific security researchers by a novel social engineering method. After establishing initial communications, the actors would ask the targeted researcher if they wanted to collaborate on vulnerability research [via] a Visual Studio Project. Within the Visual Studio Project would be [a] DLL that would be executed through Visual Studio Build Events. The DLL is custom malware that would immediately begin communicating with actor-controlled C2.<br />…<br />We have also observed several cases where researchers have been compromised after visiting the actors’ blog. … Shortly thereafter, a malicious service was installed on the researcher’s system and an in-memory backdoor would begin beaconing. … We’re unable to confirm the mechanism of compromise.<br />…<br />We recommend that you compartmentalize your research activities using separate physical or virtual machines for general web browsing, interacting with others in the research community, accepting files from third parties, and your own security research.</em></p></blockquote>
-<p><strong>So who got hacked?</strong> Gareth Corfield relates Alejandro Caceres’ story—<i><a target="_blank" href="https://www.theregister.com/2021/01/26/north_korea_targeted_me_0_day/" rel="nofollow ugc noopener" title="read the full text">I was targeted by North Korean 0-day hackers</a>:</i></p>
-<blockquote><p><em>&#8220;When I read the Google thing I honestly think I said out loud, &#8216;Holy ****,&#8217; I thought it was insane. Attacked by a nation state? Me!?&#8221;<br />…<br />A vulnerability broker he had known for a while and trusted had introduced him to a new researcher called James Willy &#8220;from New York,&#8221; Caceres [said]. &#8220;We hopped in a group chat, the three of us, and he sent me a Visual Studio project to take a look at a driver bug that caused a blue screen of death.&#8221;<br />…<br />&#8220;James&#8221; [said] it was linked to Google Chrome – an instant attention-grabber for bug hunters. Vulns affecting software used by tens of millions worldwide are rare and command hefty rewards. … &#8220;The code was all legit, it was a real crash with potential security implications, but I wasn&#8217;t careful when I opened the Visual Studio project.&#8221; [But] opening some Visual Studio projects can cause code to execute, which was the North Koreans&#8217; attack vector.<br />…<br />Sometimes – just sometimes – those evil nation state hackers really are coming after you. Being an ordinary bughunting pro doesn&#8217;t make you less of a target.</em></p></blockquote>
-<p><strong>But</strong> this <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=18123256&amp;cid=60994104" rel="nofollow ugc noopener" title="read the full text">Anonymous Coward</a></i> is distinctly unimpressed:</p>
-<blockquote><p><em>A whitehat that runs Windows 10, Chrome and Visual Studio outside of a sandbox doesn&#8217;t deserve to be called a hacker.</em></p></blockquote>
-<p><strong>A unique exploit?</strong> Nope: Seongsu Park—<i><a target="_blank" href="https://twitter.com/unpacker/status/1354203847455956995" rel="nofollow ugc noopener" title="read the full text">@unpacker</a></i>—has déjà vu:</p>
-<blockquote><p><em>We have seen that Lazarus group use this malware cluster, we named ThreatNeedle, in recent attack against the defense industry. It’s almost identical malware with the same RC4 key and the overlapped infrastructure. Surprised that it&#8217;s a researcher target at this time.</em></p></blockquote>
-<p><strong>Wait. <em>Pause.</em></strong> How do we know it was the DPRK, anyway? <i><a target="_blank" href="https://forums.theregister.com/forum/all/2021/01/26/north_korea_targeted_me_0_day/#c_4193852" rel="nofollow ugc noopener" title="read the full text">martinusher</a></i> ain’t convinced:</p>
-<blockquote><p><em>I think there&#8217;s some kind of dice or spinner that they use that&#8217;s marked &#8220;Russia, China, Iran, Cuba, North Korea&#8221; and so on that news services use to identify the &#8216;nation state&#8217; responsible for the hack du jour.</p>
-<p>I&#8217;m not ruling out nation states, just that there are a lot more criminals out there than there are nation states. There&#8217;s also good money to be made from vulnerabilities so I&#8217;d expect that less than ethical people would have moved in to what is a decent business opportunity.</p>
-<p></em></p></blockquote>
-<p><strong>Indeed.</strong> <i><a target="_blank" href="https://www.theverge.com/2021/1/26/22250060/google-threat-analysis-group-north-korean-hackers-cybersecurity-researchers-social-engineering#535821185" rel="nofollow ugc noopener" title="read the full text">scooby359</a></i> would have gotten away with it, if it wasn’t for you pesky kids: <em>[You’re fired—Ed.]</em></p>
-<blockquote><p><em>I’m always curious how such a seemingly backwards country can have such advanced cyber security skills.</em></p></blockquote>
-<p><strong>Yeah, right.</strong> <i><a target="_blank" href="https://it.slashdot.org/comments.pl?sid=18123256&amp;cid=60994056" rel="nofollow ugc noopener" title="read the full text">Brian Bixby</a></i> agrees:</p>
-<blockquote><p><em>I&#8217;m still surprised that the &#8220;North Korean Super-Hacker&#8221; foolishness is still a thing. They have a single … fiber line that goes through the Great Firewall of China (until a few years ago it was a paired T-3 to Taiwan that frequently was congested by Kim&#8217;s porn habit.)</p>
-<p>IIRC there&#8217;s one small data center in the entire country with obsolete cast-off Chinese servers. … They don&#8217;t have the capability to hire any decent instructors for their tiny educated class to teach them hacking.</p>
-<p>And yet we&#8217;re supposed to tremble in our boots that the North Korean Super-Hackers are coming to get us. Seems far more likely some criminals in China or Hong Kong are spoofing NK addresses.</p>
-<p></em></p></blockquote>
-<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://arstechnica.com/information-technology/2021/01/north-korea-hackers-use-social-media-to-target-security-researchers/?comments=1&amp;post=39609232#comment-39609232" rel="nofollow ugc noopener" title="read the full text">QuantifiableQuoll</a></i> has this warning for us all:</p>
-<blockquote><p><em>The blog was also linked to on various security subreddits. If you’re the type of person who frequents those subreddits, you will want to check your computer over.</em></p></blockquote>
-<h3>The moral of the story?</h3>
-<p>Social engineering isn’t only for normies. Whether you’re an IT puke, an agile Dev(Sec)Ops sprinter, or a 1337 haxor: <em>Question everything</em>.</p>
-<h3>And finally</h3>
-<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=HSfG4UtiGBQ&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow" title="And Finally">Can we all agree? That’s enough sea shanties.</a></strong></p>
-<p><iframe title="The Wellerman (metal cover by Leo Moracchioli)" width="800" height="450" src="https://www.youtube.com/embed/HSfG4UtiGBQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow">Previously in “And finally”</a></p>
-<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE. 30.</em></p>
-<p><em>This week’s zomgsauce: <a target="_blank" href="https://unsplash.com/photos/0G7aFO4R6zA" rel="noopener nofollow">Micha Brändli</a> (via <a target="_blank" href="https://unsplash.com/license" rel="noopener nofollow" title="Some rights reserved">Unsplash</a>)</em></p>
+<p>The recent <a target="_blank" href="https://techbeacon.com/security/what-solarwinds-hack-really-tells-us" rel="noopener">compromise of SolarWinds’ Orion software</a> has led to lots of largely ineffective hand-wringing. I’ve seen more time spent on talking about whom should be blamed for the incident than on how to mitigate the damage that it caused or to reduce the chances of a similar incident happening in the future.</p>
+<p>But it has motivated the creation of lots of new initiatives to increase the security of software by adding <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-applica?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">all sorts of additional processes and oversight to software engineering organizations</a>. These efforts might provide some small, incremental gains in the security of software, but they are probably doomed to do little more than that.</p>
+<p><a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/deliver-security-as-code?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">Security of code</a> simply isn’t a priority for some developers, and it’s going to be very hard to change that for much of the software currently in use. And it’s probably the case that even the most careful and thorough software security engineering practices are not going to produce secure commercial software. Here&#8217;s why.</p>
+<h3>The problem with FOSS</h3>
+<p>Free and open-source software (FOSS) is here to stay. Although most FOSS projects don’t go anywhere, those that do can end up making a huge difference. Lots of the Internet now runs on the FOSS <a target="_blank" href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)" rel="nofollow noopener">LAMP stack</a>—the Linux operating system, the Apache web server, the MySQL database, and the PHP programming language. Commercial alternatives for each of these exist, but they have yet to gain the level of acceptance and use that their FOSS competitors have. Similarly, FOSS components are part of essentially all commercial software these days.</p>
+<p>It isn’t easy for software companies to get their developers to take software security seriously. My experience has been that it takes a significant effort backed by the highest levels of management to get this to happen. But it has happened in some places, and the quality of software has dramatically increased in many cases because of these efforts.</p>
+<p>But it seems to be much harder to get FOSS contributors to take security seriously. The <a target="_blank" href="https://www.linuxfoundation.org/" rel="nofollow noopener">Linux Foundation&#8217;s </a>recent <a target="_blank" href="https://www.linuxfoundation.org/en/resources/publications/2020-foss-contributor-survey/" rel="nofollow noopener">2020 FOSS Contributor Survey</a> suggests that FOSS programmers just aren’t that interested in security. Instead, things such as learning new things and gaining the respect of their peers motivate them. They spend less than 3% of their time responding to security issues. And some of their responses to the survey suggest that it’s going to be very hard to get them to take security more seriously.</p>
+<p>Text responses indicated that many respondents had no interest in increasing time and effort on security; it was not simply that they wanted to be proactive. One respondent said, “I find the enterprise of security a soul-withering chore and a subject best left for the lawyers and process freaks. I am an application developer.” Another said, “I find security an insufferably boring procedural hindrance.”</p>
+<p>So with a significant amount of software that’s being used today using FOSS in some way, it seems likely that we’ll be dealing with the security issues that come with it for the foreseeable future.</p>
+<h3>The problem with software</h3>
+<p>But the security issues with software aren’t limited to FOSS. Those related to FOSS are probably just harder to manage (and FOSS programmers may be more honest about how they feel about security).</p>
+<blockquote>
+<p>I routinely do things that definitely qualify as insufferably boring procedural hindrances, but I do them because it’s part of my job. I can’t just decide to not do them because I don’t feel like doing them, but that’s an option that FOSS developers have, and some seem to take advantage of this.</p>
+</blockquote>
+<p>It’s hard to fault them. If I wasn’t getting paid to do my job, I’d be avoiding insufferable procedural hindrances, too. Unfortunately, it looks as if security might be getting less attention than some people might like it to because of that.</p>
+<p>But it may be impossible to make any form of software reasonably secure, at least in a commercially acceptable way.</p>
+<p>Modern software is probably the most complex thing ever created by man. Getting something that complex to work is hard. Try understanding the build process for your typical enterprise software these days and you’ll be surprised that we can even get the stuff to work at all. Getting something that complex to work correctly is even harder. Getting something that complex to work securely may be so hard that it might be impossible in many cases. A <a target="_blank" href="https://calhoun.nps.edu/handle/10945/527" rel="nofollow noopener">study</a> done by the <a target="_blank" href="https://nps.edu/" rel="nofollow noopener">Naval Postgraduate School</a> nicely summed up the situation:</p>
+<blockquote>
+<p>The problem with system security is that it is easy to find flaws, but it is difficult to find all flaws. Thus, if post-development flaw discovery and remediation is chosen as the path to achieving a secure system, then it is difficult to make a statement regarding the completeness of the security mechanism. Similarly, security functions that are added to a pre-existing system require analysis to ensure that they will perform with the level of trustworthiness intended. This analysis will extend to all elements depending on or upon which the security addition depends, as well as all resources shared by the addition, e.g. global data. Furthermore, unless the system has already been rigorously developed, the security analysis is likely to become so complex that starting anew would be more effective.</p>
+</blockquote>
+<p>In other words, it’s probably impossible to make a system secure unless you carefully design it to be secure from the beginning. But commercial systems aren’t made that way. It’s simply too expensive.</p>
+<p>NASA’s experience suggests that it is indeed possible to create <a target="_blank" href="https://www.nasa.gov/mission_pages/shuttle/flyout/flyfeature_shuttlecomputers.html" rel="nofollow noopener">very reliable and secure software</a>, but it will end up <a target="_blank" href="https://history.nasa.gov/computers/Ch4-5.html" rel="nofollow noopener">costing more</a>. Way more. Maybe a factor of 20 or so more. So if you think enterprise software is expensive now, imagine how much more expensive it would be if it were developed using the robust system security engineering methodology that NASA uses.</p>
+<h3>An unfortunate reality</h3>
+<p>So we know how to make secure software. We just don’t know how to make secure software that’s cheap enough to be sold. And because of that, it seems likely that we’ll be living with software that’s merely expensive instead of prohibitively expensive and that we’ll also be living with the many security issues that will come with that software.</p>
+<p>That’s the unfortunate reality of the software business. We can make it better, but we can’t make it perfect. At least not for a price that you’d be willing to pay.</p>
+<p>No Security<em> is a monthly column. Recent posts can be found <a target="_blank" href="https://techbeacon.com/tags/no-security" rel="noopener">here</a>.</em></p>
 <h4>Keep learning</h4>
 </div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/apt-team-attacks-white-hats-google-fingers-north-korea">Source link </a></p>
+<p><br />
+<br /><a href="https://techbeacon.com/security/we-can-make-software-secure-not-price-youd-be-willing-pay">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Utah Ponders Making Online ‘Catfishing’ a Crime</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/utah-ponders-making-online-catfishing-a-crime/</link>
+		<title>Agent Tesla Trojan ‘Kneecaps’ Microsoft’s Anti-Malware Interface</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/agent-tesla-trojan-kneecaps-microsofts-anti-malware-interface/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 28 Jan 2021 18:01:24 +0000</pubDate>
+		<pubDate>Tue, 02 Feb 2021 15:15:44 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Catfishing]]></category>
-		<category><![CDATA[Crime]]></category>
-		<category><![CDATA[Making]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Ponders]]></category>
-		<category><![CDATA[Utah]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/utah-ponders-making-online-catfishing-a-crime/</guid>
+		<category><![CDATA[Agent]]></category>
+		<category><![CDATA[AntiMalware]]></category>
+		<category><![CDATA[Interface]]></category>
+		<category><![CDATA[Kneecaps]]></category>
+		<category><![CDATA[Microsofts]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[Trojan]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/agent-tesla-trojan-kneecaps-microsofts-anti-malware-interface/</guid>
 
-					<description><![CDATA[Pretending to be someone else online could become a criminal offense, setting a precedent for other states to follow. Source]]></description>
+					<description><![CDATA[A new version of the Agent Tesla RAT can &#8216;kneecap&#8217; endpoint protection software supported by Microsoft ASMI. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Pretending to be someone else online could become a criminal offense, setting a precedent for other states to follow.<br />
+<br />A new version of the Agent Tesla RAT can &#8216;kneecap&#8217; endpoint protection software supported by Microsoft ASMI.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/utah-ponders-making-online-catfishing-a-crime/163456/">Source link </a></p>
+<br /><a href="https://threatpost.com/agent-tesla-microsoft-asmi/163581/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Identity Theft Spikes Due to COVID-19 Relief</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/identity-theft-spikes-due-to-covid-19-relief/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 02 Feb 2021 14:00:11 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Due]]></category>
+		<category><![CDATA[Identity]]></category>
+		<category><![CDATA[Relief]]></category>
+		<category><![CDATA[spikes]]></category>
+		<category><![CDATA[Theft]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/identity-theft-spikes-due-to-covid-19-relief/</guid>
+
+					<description><![CDATA[Cases reported to the FTC doubled last year as cybercriminals took advantage of increased filing for government relief benefits due]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Cases reported to the FTC doubled last year as cybercriminals took advantage of increased filing for government relief benefits due to the pandemic.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/identity-theft-spikes-covid-19-relief/163577/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Wind River Security Incident Affects SSNs, Passport Numbers</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/wind-river-security-incident-affects-ssns-passport-numbers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 01 Feb 2021 21:47:19 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Affects]]></category>
+		<category><![CDATA[incident]]></category>
+		<category><![CDATA[Numbers]]></category>
+		<category><![CDATA[Passport]]></category>
+		<category><![CDATA[River]]></category>
+		<category><![CDATA[SSNs]]></category>
+		<category><![CDATA[Wind]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/wind-river-security-incident-affects-ssns-passport-numbers/</guid>
+
+					<description><![CDATA[Wind River Systems is warning of a &#8216;security incident&#8217; after one or more files was downloaded from its network. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Wind River Systems is warning of a &#8216;security incident&#8217; after one or more files was downloaded from its network.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/wind-river-security-incident-ssns-passport-numbers/163550/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Hezbollah-Linked Lebanese Cedar APT Infiltrates Hundreds of Servers</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/hezbollah-linked-lebanese-cedar-apt-infiltrates-hundreds-of-servers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 01 Feb 2021 21:18:09 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[APT]]></category>
+		<category><![CDATA[Cedar]]></category>
+		<category><![CDATA[HezbollahLinked]]></category>
+		<category><![CDATA[Hundreds]]></category>
+		<category><![CDATA[Infiltrates]]></category>
+		<category><![CDATA[Lebanese]]></category>
+		<category><![CDATA[Servers]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/hezbollah-linked-lebanese-cedar-apt-infiltrates-hundreds-of-servers/</guid>
+
+					<description><![CDATA[Enhanced Explosive RAT and Caterpillar tools are at the forefront of a global espionage campaign. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Enhanced Explosive RAT and Caterpillar tools are at the forefront of a global espionage campaign.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/hezbollah-lebanese-cedar-apt-servers/163555/">Source link </a></p>
 ]]></content:encoded>
 					
 		
