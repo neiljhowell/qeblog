@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 02 Feb 2021 21:38:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 03 Feb 2021 11:00:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,32 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>SolarWinds Orion Bug Allows Easy Remote-Code Execution and Takeover</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-orion-bug-allows-easy-remote-code-execution-and-takeover/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 11:00:21 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[Easy]]></category>
+		<category><![CDATA[Execution]]></category>
+		<category><![CDATA[Orion]]></category>
+		<category><![CDATA[RemoteCode]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<category><![CDATA[Takeover]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-orion-bug-allows-easy-remote-code-execution-and-takeover/</guid>
+
+					<description><![CDATA[The by-now infamous company has issued patches for three security vulnerabilities in total. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The by-now infamous company has issued patches for three security vulnerabilities in total.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/solarwinds-orion-bug-remote-code-execution/163618/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>TrickBot Continues Resurgence with Port-Scanning Module</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/trickbot-continues-resurgence-with-port-scanning-module/</link>
 		
@@ -289,32 +315,6 @@
 <br />Wind River Systems is warning of a &#8216;security incident&#8217; after one or more files was downloaded from its network.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/wind-river-security-incident-ssns-passport-numbers/163550/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Hezbollah-Linked Lebanese Cedar APT Infiltrates Hundreds of Servers</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/hezbollah-linked-lebanese-cedar-apt-infiltrates-hundreds-of-servers/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 01 Feb 2021 21:18:09 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[APT]]></category>
-		<category><![CDATA[Cedar]]></category>
-		<category><![CDATA[HezbollahLinked]]></category>
-		<category><![CDATA[Hundreds]]></category>
-		<category><![CDATA[Infiltrates]]></category>
-		<category><![CDATA[Lebanese]]></category>
-		<category><![CDATA[Servers]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/hezbollah-linked-lebanese-cedar-apt-infiltrates-hundreds-of-servers/</guid>
-
-					<description><![CDATA[Enhanced Explosive RAT and Caterpillar tools are at the forefront of a global espionage campaign. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Enhanced Explosive RAT and Caterpillar tools are at the forefront of a global espionage campaign.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/hezbollah-lebanese-cedar-apt-servers/163555/">Source link </a></p>
 ]]></content:encoded>
 					
 		
