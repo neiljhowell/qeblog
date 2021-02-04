@@ -12,13 +12,13 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 03 Feb 2021 11:00:21 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 04 Feb 2021 01:45:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6</generator>
+	<generator>https://wordpress.org/?v=5.6.1</generator>
 
 <image>
 	<url>http://wp.qe-blog.10.50.222.159.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
@@ -28,6 +28,297 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Page objects vs. App actions in Cypress &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/page-objects-vs-app-actions-in-cypress-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 01:45:44 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Actions]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Cypress]]></category>
+		<category><![CDATA[Objects]]></category>
+		<category><![CDATA[Page]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/page-objects-vs-app-actions-in-cypress-automated-visual-testing/</guid>
+
+					<description><![CDATA[If you started using Cypress in recent years, chances are that you heard about “app actions” being preferred over using]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>If you started using Cypress in recent years, chances are that you heard about “app actions” being preferred over using page objects. In fact, if you google “Cypress page objects” the first article you’ll see is Gleb Bahmutov’s blog titled:</p>
+<p class="has-text-align-center"><a target="_blank" href="https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/#just-functions" rel="noopener">Stop using Page Objects and Start using App Actions</a></p>
+<p>I see this statement confusing some people, making them think that using Page Object Model (POM) is some sort of anti-pattern in Cypress. The truth is, that using POM does no harm in Cypress and can be really helpful. But I like that Gleb has made a strong argument for other options. Because using them unleashes some Cypress superpowers. In this post, I’d like to explore and describe both of these options.</p>
+<h2 id="h-page-objects"><strong>Page objects</strong></h2>
+<p><a target="_blank" href="https://twitter.com/giltayar" rel="noopener">Gil Tayar</a> has made an<a target="_blank" href="https://testautomationu.applitools.com/cypress-tutorial/chapter7.html" rel="noopener"> excellent demonstration</a> of how to use page objects in Cypress. If you are new to this concept or haven’t yet used page objects in Cypress, I suggest you watch that video. In fact, go watch the full course on Test Automation University. It’s free! To sum things up for this article, let me just give you a very quick TL;DR version of how to create page objects.</p>
+<p>For demonstration, you can take a look at my<a target="_blank" href="https://github.com/filiphric/trelloapp/tree/page-objects-app-actions" rel="noopener"> Trello clone app</a>. Make sure you check out the page-objects-app-actions branch.</p>
+<p>Let’s say we want to work with the login/signup part of our app. Normally this is the part where many of our test efforts start. To create a page object, create a separate .js or .ts file where all your functions for a particular component will be stored.</p>
+<p>I will create a login.ts file that will look like this:</p>
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler"/>
+<p>I am creating a Login class, which contains two functions. One will open my login window, and the other clicks a link to the signup page. So basically, I’m grouping sequences of Cypress commands into these functions. These help me divide my test code into smaller chunks that I can later reuse.</p>
+<p>Paraphrasing Gleb from Cypress again – </p>
+<p><em>It’s all JavaScript, you can do whatever you want.</em> </p>
+<p>And he’s right. I can add actions, assertions, or pass arguments into these functions. Let’s see what these two functions do in our application (I slowed the video down a little so it’s clear to see):</p>
+<figure class="wp-block-image"></figure>
+<p>In my test, I want to open the login modal window, and then click on the „Sign up here“ text. This is what our test code looks like, using functions from our page object:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/filiphric/8fb54a00bbd40280cd30b134c897dc44.js?file=login.spec.ts</p>
+</div>
+<p>Notice how our functions are chained together. This is because in each of our page object functions I’m using </p>
+<pre class="wp-block-preformatted">return this;
+</pre>
+<p>This way, each of our functions returns to the original context and will be chained off our Login class.</p>
+<p>Now, whenever I want to create a flow that includes clicking on a “Log in” button, I can use a function from my page object. Since I have this action abstracted in page object, in theory, I can now write tests for login, signup, reset password, logout, and many other user stories.</p>
+<p>Also, whenever something in our login flow would change, I can just edit my page object and that change translates everywhere. This helps avoid situations when I need to rewrite multiple tests because of a single change in the tested app.</p>
+<p>Page objects are also a great way to get your app into the desired state that you want to test functionally or with visual tests.</p>
+<p>These are some main reasons why testers abstract their UI actions into page objects. So why wouldn’t you use them in Cypress?</p>
+<h2 id="h-why-don-t-just-stick-with-page-objects"><strong>Why don’t just stick with page objects?</strong></h2>
+<p>The main reason for choosing a different approach is to take advantage of how Cypress is built. Cypress runs inside the browser, which is the main difference compared to Selenium-based test automation. That means that Cypress can actually get access to a lot of what’s happening inside of our application.</p>
+<p>For example, we can call the exact same function that gets called when we click on the “log in” button. In other words, <strong>we can open our login modal window without actually doing the click.</strong> That way, we can skip interacting with UI through our page objects, and just start our app in any state we want. This enables us to avoid doing UI actions that are not actually a part of our test.</p>
+<p>In our app, let’s say we want to do a visual test for our signup view. In order to create such a test, we need to:</p>
+<ol>
+<li>Click “log in” button</li>
+<li>Click “sign up here” link</li>
+<li>Do our visual test</li>
+</ol>
+<p>Notice, that steps 1 and 2 are not actually part of what we want to achieve. We are here just for the state that we want to test visually. Furthermore, I imagine this is an example of a very simple flow. There may be some hard-to-reach places in your app that require you to do multiple steps. So how about we just:</p>
+<ol>
+<li>Set our app to the desired state</li>
+<li>Do our visual test?</li>
+</ol>
+<p>This is what app actions actually do. Instead of clicking, typing, and interacting with our app, we will set it up the way we want.</p>
+<p>Before we write our first app action, let’s examine how our app actually works.</p>
+<h2 id="h-looking-into-the-app"><strong>Looking into the app</strong></h2>
+<p>Our app is built with Vue.js. If you are not familiar with it, I suggest you check it out. It provides a great developer experience. For some reason, Vue was the easiest to learn for me as a tester out of the most popular frameworks. But if you are working with Angular or React, principles are pretty much the same.</p>
+<p>Vue.js comes with some amazing developer tools. These enable you to change the state of your app right from devtools. Look at how I’m able to toggle the visibility of our login element with these tools:</p>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/e-Ymu6eAg36oEzjudY2nnWO2pK92aUkGLgkLxctyOF6b8iEUMr1pdCfkJq6WuFXO0CvrDiq30uiUvhkutQ8P4bMgDG9IkShQpjSpQ_zuz8D3KBwqEs4FcA3TArILXIvXK0Diqqcv" alt=""/></figure>
+<p>You can see that I have an attribute called </p>
+<pre class="wp-block-preformatted">showLoginModule</pre>
+<p>that can be set to true or false. With Cypress, we are going to change the state of our app in a very similar way. To do that, we need to first expose our app to our window context. This may sound like a challenge, but in our Vue app is just done by adding the last line in this piece of code:</p>
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler"/>
+<p>Whenever we now open our dev tools and type window.app into our console, we will see our attributes, app functions, and much more information about our app. In fact, if we decide to type </p>
+<pre class="wp-block-preformatted">window.app.showLoginModule = true </pre>
+<p>into our console, our login modal window will open. Go ahead and try that!</p>
+<h2 id="h-creating-an-app-action"><strong>Creating an app action</strong></h2>
+<p>Now, we can do the exact same thing using Cypress, like this:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/filiphric/8fb54a00bbd40280cd30b134c897dc44.js?file=loginAA1.spec.ts</p>
+</div>
+<p>And just like that, our login modal is open! We have made our first app action. In other words, we have set our app to the desired state. Let’s go one step further and get to our signup page. Now, instead of simply setting our attribute to the desired state, we will call a function that changes the state for us.</p>
+<p>To save us some time, I have created a helper custom command in our app, that will select one of our components:</p>
+<ul>
+<li>root</li>
+<li>Navbar</li>
+<li>Login</li>
+<li>board-collection</li>
+<li>board</li>
+</ul>
+<p>These are the same components you can see in Vue.js dev tools. You can use the command simply by calling </p>
+<pre class="wp-block-preformatted">cy.component('Login')</pre>
+<p>This command will return our component with all its data and functions:</p>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/K1I96mBSe_B826W1_4djOGG3QZTZR2_G_W9CT_f53sk9j42wL9lpA27hkM5SSPPFqO19sV_Gsfur7fnapUABtjy4Q37lgOi4VPeZC13VMl7gb5nOzdzT8ub8ykb-ueOU6zGiskok" alt=""/></figure>
+<p>Notice that this component contains a </p>
+<pre class="wp-block-preformatted">logSignSwitch() </pre>
+<p>function.<a target="_blank" href="https://github.com/filiphric/trelloapp/blob/page-objects-app-actions/assets/js/components/login.js#L46" rel="noopener"> If you look into the code</a>, you’ll see that this is a function responsible for switching between “login” and “signup” view in our modal window.</p>
+<p>We will now call this function from within our test using the following code:</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/filiphric/8fb54a00bbd40280cd30b134c897dc44.js?file=loginAA2.spec.ts</p>
+</div>
+<p>This will now open our app in desired state, which is our signup screen.</p>
+<h2 id="h-why-bother-though"><strong>Why bother though?</strong></h2>
+<p>This is a legitimate question. Seems like the setup is more complicated than setting up page objects. However, one does not rule the other. You can combine both approaches and use the one that is more appropriate for your test. It is however good to design your tests in a way that will shorten them by starting it at a desired point.</p>
+<p>App actions can also be quite fast. During my comparison of these two tests, I got to finish my tests in 0.34 seconds for page objects and 0.18 seconds for app actions. Although both are pretty fast, things can really make a difference when running thousands of tests.</p>
+<p>App actions also skip the part where e.g. your inputs need to become interactive, our your buttons need to become clickable. There are no incomplete input fields or misclicks because we are skipping this kind of interaction altogether.</p>
+<p>Of course, we cannot write an end-to-end test without interacting with our application directly. For these parts, abstracting common actions make absolute sense. But for the parts of our app that are already tested, we can save some time and skip a few steps.</p>
+<p>I find app actions especially useful for setting up your app for a visual test. You may save yourself a few headaches by skipping UI interaction and jumping straight into your desired state.</p>
+<p>If you liked this blog, be sure to check out my page at <a target="_blank" href="https://filiphric.com/" rel="noopener">filiphric.com</a>, I write a Cypress tip every week and do all kinds of fun stuff <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</p></div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://applitools.com/blog/page-objects-app-actions-cypress/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Emotet’s Takedown: Have We Seen the Last of the Malware?</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/emotets-takedown-have-we-seen-the-last-of-the-malware/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 21:37:41 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Emotets]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Takedown]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/emotets-takedown-have-we-seen-the-last-of-the-malware/</guid>
+
+					<description><![CDATA[A week after law enforcement agencies said they took down Emotet, there has been no sign of the prolific malware.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A week after law enforcement agencies said they took down Emotet, there has been no sign of the prolific malware.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/emotets-takedown-have-we-seen-the-last-of-the-malware/163636/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Second SolarWinds Attack Group Breaks into USDA Payroll — Report</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/second-solarwinds-attack-group-breaks-into-usda-payroll-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 21:22:49 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Breaks]]></category>
+		<category><![CDATA[Group]]></category>
+		<category><![CDATA[Payroll]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<category><![CDATA[USDA]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/second-solarwinds-attack-group-breaks-into-usda-payroll-report/</guid>
+
+					<description><![CDATA[A second APT, potentially linked to the Chinese government, could be behind the Supernova malware. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A second APT, potentially linked to the Chinese government, could be behind the Supernova malware.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/second-solarwinds-attack-group-usda-payroll/163635/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>New Malware Hijacks Kubernetes Clusters to Mine Monero</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/new-malware-hijacks-kubernetes-clusters-to-mine-monero/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 20:50:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Clusters]]></category>
+		<category><![CDATA[Hijacks]]></category>
+		<category><![CDATA[kubernetes]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Monero]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/new-malware-hijacks-kubernetes-clusters-to-mine-monero/</guid>
+
+					<description><![CDATA[Researchers warn that the Hildegard malware is part of &#8216;one of the most complicated attacks targeting Kubernetes.&#8217; Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Researchers warn that the Hildegard malware is part of &#8216;one of the most complicated attacks targeting Kubernetes.&#8217;<br />
+<br /><br />
+<br /><a href="https://threatpost.com/new-malware-hijacks-kubernetes-clusters-to-mine-monero/163629/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The state of app sec tools: 5 trends shaping the big shift in 2021</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-state-of-app-sec-tools-5-trends-shaping-the-big-shift-in-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 18:15:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[big]]></category>
+		<category><![CDATA[sec]]></category>
+		<category><![CDATA[shaping]]></category>
+		<category><![CDATA[Shift]]></category>
+		<category><![CDATA[State]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Trends]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-state-of-app-sec-tools-5-trends-shaping-the-big-shift-in-2021/</guid>
+
+					<description><![CDATA[Companies have for some time been focused on digitally transforming the business, especially in reaction to the COVID-19 pandemic. For]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Companies have for some time been <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">focused on digitally transforming the business</a>, especially in reaction to the COVID-19 pandemic. For developers, that means adopting an agile development methodology in a framework such as DevOps.</p>
+<p>Yet DevOps teams have to move beyond the <a target="_blank" href="https://techbeacon.com/security/12-app-sec-tool-trends-watch" rel="noopener">basic four categories of application security tools</a> (static analysis, dynamic analysis, interactive testing, and software component analysis, or SCA), according to experts. The entire team—developers, application security professionals, and IT operations—should <a target="_blank" href="https://content.microfocus.com/application-security-tb/appsec-tool-trends?lx=P_znZe&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">incorporate tools and processes </a>that support the full DevOps lifecycle, said Guy Podjarny, co-founder and president of software security and services firm Snyk.</p>
+<blockquote>
+<p>&#8220;Those classes of tools are no longer sufficient in the world of cloud-native applications. All of those tools—outside of SCA—are about finding vulnerabilities in your custom code, but increasingly that is only a portion of your overall application and only a small part of your risk.&#8221;<br />—<a target="_blank" href="https://twitter.com/guypod" rel="nofollow noopener">Guy Podjarny</a></p>
+</blockquote>
+<p>While recent recommendations for application security have suggested that more security processes be adopted by developers—in a move known as &#8220;<a target="_blank" href="https://techbeacon.com/app-dev-testing/shift-security-left-your-continuous-testing-3-key-focus-areas" rel="noopener">shifting left</a>&#8220;—companies need to find tools that support all the various functions inside a DevOps team, from developers to quality control to operations, as discussed in TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/appsec-tools-2021-tb/buyers-guide-appsec-tools-2021?lx=_uoJSd?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">Buyer&#8217;s Guide for Application Security Tools 2021</a>.</p>
+<p>Developers should use software component analysis and in-pipeline static code analysis to reduce vulnerabilities in code, while IT operations professionals need to move beyond web application firewalls and focus on containers and other infrastructure, according to the report.</p>
+<p>Here are five <a target="_blank" href="https://content.microfocus.com/appsec-tools-2021-tb/the-state-of-applica?lx=_uoJSd?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">key trends shaping the shift to more secure development</a> and deployment of software.</p>
+<h3>1. Security requires more than few classes of tools</h3>
+<p>Application security is often boiled down to four classes of tools: <a target="_blank" href="https://content.microfocus.com/appsec-tools-2021-tb/forrester-wave-sast-q1-2021?lx=_uoJSd?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">static analysis security testing (SAST)</a>, dynamic analysis security testing (DAST), runtime application self-protection (RASP), and software composition analysis (SCA). However, securing the entire application development and deployment pipeline requires a far greater set of tools and processes.</p>
+<p>Unit tests and linters help keep errors from becoming vulnerabilities. Threat modeling and attack testing give DevOps teams insight into how their application could be attacked. <a target="_blank" href="https://techbeacon.com/security/container-security-checklist-5-key-questions-answer" rel="noopener">Container security</a> and infrastructure controls can help prevent vulnerabilities from affecting deployment. And ongoing analysis of actual attack data can keep teams updated on the latest attacker tactics.</p>
+<p>The focus should be to incorporate security considerations during every step of the DevOps process, said Rohit Sethi, CEO of Security Compass, a security services firm.</p>
+<blockquote>
+<p>&#8220;Software development still emphasizes and promotes the &#8216;find-and-fix model,&#8217; which is one of the biggest perils of the security industry. Even if you shift left to scan for vulnerabilities earlier in the lifecycle, there is no substitution for building in security and compliance in by design.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/rohit-sethi-8429591/" rel="nofollow noopener">Rohit Sethi</a></p>
+</blockquote>
+<h3>2. Threat modeling becomes more important</h3>
+<p>In November, a group of 15 cybersecurity professionals <a target="_blank" href="https://techbeacon.com/security/threat-modeling-gets-its-manifesto-how-map-out-your-app-sec-risk" rel="noopener">created the Threat Modeling Manifesto</a> as a way to call attention to businesses&#8217; needs to better understand their risks. The document, modeled after <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-manifesto-20-whats-still-relevant-whats-not" rel="noopener">the Agile Manifesto</a> that is the basis of the agile development movement, promotes security as an ideal goal that takes continuous work and threat modeling as a way to understand the journey.</p>
+<p>Security needs to become more proactive, and threat modeling is one of the core tools that security teams and DevOps partners have to focus on understanding threats and create a secure architecture based on their risk profile, said Security Compass&#8217; Sethi.</p>
+<blockquote>
+<p>&#8220;Planning tools are underappreciated in this arena. Most of the tools—<a target="_blank" href="https://techbeacon.com/sast-dast-iast-rasp-pros-cons-how-choose" rel="noopener">SAST, DAST, IAST/RASP</a>—are reactionary tools focused on find and fix.&#8221;<br />—Rohit Sethi</p>
+</blockquote>
+<h3>3. Introduce security in simple ways to succeed</h3>
+<p>While the simple static code analysis tools known as linters that flag defects and code-quality errors to developers are widely adopted, they are not a replacement for the more in-depth, automated analysis provided by commercial SAST. That said, they are an excellent way to <a target="_blank" href="https://techbeacon.com/security/state-app-sec-testing-get-your-shift-secure-code" rel="noopener">insert code-checking into the development process</a>, allowing DevOps teams to adopt better technology as their processes and skills mature.</p>
+<p>Don&#8217;t ignore the ability of linting to gradually introduce developers to security testing, said Dan Cornell, chief technology officer of software security consulting firm Denim Group.</p>
+<p>Linting SAST tools and commercial-grade SAST tools have different enough characteristics that their deployment scenarios are potentially very different, he said.</p>
+<blockquote>
+<p>&#8220;The linting-style SAST tools can be a great entry point into deploying SAST, especially for organizations looking to incorporate security testing into pipelines to give some visibility to developers.&#8221;<br />—<a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener" style="color:#0096d6">Dan Cornell</a></p>
+</blockquote>
+<h3>4. More focus on open source and third-party suppliers</h3>
+<p>DevOps teams also have to expand their focus beyond their own code and look at the application and infrastructure components that create their software stack. While companies have increasingly adopted SCA, tools that measure the security of the containers used to host applications are only starting to take off.</p>
+<p>Like <a target="_blank" href="https://content.microfocus.com/application-security-tb/open-source-risks?lx=P_znZe&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">open-source components </a>that now make up more than 70% of the code in an average project, containers are the third-party infrastructure component that many companies rely on for deployment.</p>
+<p>Companies should appreciate that. Since they require their development teams to also manage containers and infrastructure, they need to equip them with the tools to do so securely, said Snyk&#8217;s Podjarny.</p>
+<blockquote>
+<p>&#8220;That means including container security in the context of software development, not just runtime, and infrastructure as code, such as securing Kubernetes configuration, Terraform clusters, and others.&#8221;<br />—Guy Podjarny</p>
+</blockquote>
+<h3>5. Mistakes continue to be the greatest threat</h3>
+<p>Cloud-native development teams can easily deploy their application, but also often find fewer checks in place to prevent mistakes. For that reason, tools that examine the <a target="_blank" href="https://techbeacon.com/security/state-cloud-security-privacy-5-key-trends-watch" rel="noopener">security of cloud environments </a>have become more popular, from checking the configuration of Amazon S3 buckets and MongoDB databases to finding insecure implementations of APIs and accidentally published development keys.</p>
+<p>These tools can help teams developing cloud-native applications identify potential risks in the environments into which they’ll be deployed, said Denim Group&#8217;s Cornell.</p>
+<blockquote>
+<p>&#8220;Cloud-native development teams need better frameworks to make sense of these disparate sources of potential vulnerabilities and weaknesses in order to prioritize remediation activities.&#8221;<br />—Dan Cornell</p>
+</blockquote>
+<h3>Focus on DevOps team maturity</h3>
+<p>The trends are different for every team. The approach a company should take to incorporating more security tools and processes into its DevOps pipeline is not determined by the tools, but by the DevOps team&#8217;s maturity, said Denim Group&#8217;s Cornell:</p>
+<blockquote>
+<p>&#8220;Tool deployment priorities really aren’t tied to years or periods of calendar time. Instead, organizations should look at the level of maturity of their testing programs, their goals, and select next steps based on those criteria.&#8221;</p>
+</blockquote>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/state-app-sec-tools-5-trends-shaping-big-shift-2021">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Five Critical Android Bugs Patched, Part of Feb. Security Bulletin</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/five-critical-android-bugs-patched-part-of-feb-security-bulletin/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 15:40:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Bugs]]></category>
+		<category><![CDATA[Bulletin]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Feb]]></category>
+		<category><![CDATA[Part]]></category>
+		<category><![CDATA[Patched]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/five-critical-android-bugs-patched-part-of-feb-security-bulletin/</guid>
+
+					<description><![CDATA[February’s security update for the mobile OS includes a Qualcomm flaw rated critical, with a CVSS score of 9.8. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />February’s security update for the mobile OS includes a Qualcomm flaw rated critical, with a CVSS score of 9.8.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/five-critical-bugs-patched-feb-security-bulletin/163623/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>SolarWinds Orion Bug Allows Easy Remote-Code Execution and Takeover</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-orion-bug-allows-easy-remote-code-execution-and-takeover/</link>
 		
@@ -126,195 +417,6 @@
 <br />The sophisticated backdoor steals SSH credentials for servers in academic and scientific high-performance computing clusters.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/kobalos-malware-supercomputers-logins/163604/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Don’t miss the next session in Paul Bruce’s NeoLoad and Jenkins virtual workshop&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/dont-miss-the-next-session-in-paul-bruces-neoload-and-jenkins-virtual-workshop/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 17:35:35 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Bruces]]></category>
-		<category><![CDATA[Dont]]></category>
-		<category><![CDATA[Jenkins]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[NeoLoad]]></category>
-		<category><![CDATA[Paul]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[session]]></category>
-		<category><![CDATA[Virtual]]></category>
-		<category><![CDATA[workshop]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/dont-miss-the-next-session-in-paul-bruces-neoload-and-jenkins-virtual-workshop/</guid>
-
-					<description><![CDATA[Don’t miss the next session in Paul Bruce’s NeoLoad and Jenkins virtual workshop series: Advanced Patterns for Performance Pipelines, Feb.]]></description>
-										<content:encoded><![CDATA[
-<p>Don’t miss the next session in Paul Bruce’s NeoLoad and Jenkins virtual workshop series: Advanced Patterns for Performance Pipelines, Feb. 4, 9am-12pm EST. Sign up here <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3tivAvK&amp;h=AT0-Y7cxoCI2bWMjq09ytRfkNq7i7n1xmRVguJKJkcVvo9-UAIifE36hzRNIoTSx9DH-dPWtWdJlsQgIT0mYc0gbOAI8fD0plf6kCncqDuQGhDTNw_k8CqbW8SIssIrqRnd8SC4M6use26vW39INeGxO8qycPLimS8E8oXvv63NEwwBxGk4n-SMpZRMrHkHd1EE2335Tkq_wIpBj3hxTKpBMSO8-zzhucKn7S5_ssAzn1oQtErw-jff5vhQXZOPittX3_XkzknxmlDH-gUiZSsMxwXWdCVW2Aw9OjNPot2RYKY0OulKXmTUNfH9BwPIJtGeswJ2IF9kwkbGKHsgJqpZ-Bbx6kXAtL-4gd0PJcstVXBIfQvkDr7GBlI99tIoPyA6KI8rPr5Mm1rrtRD11Yap_77Axw5pDioSs5ocjDp1ZvxFbfdVpr6qM3S6AR9ZuCfjfaRzU4T9k_g96liQHLy7oAgHu3SJ6iuXbiHLGOqbD05BjVwKQf11WWPDH3qWhicoAhcUwkUMycII4stpakTVBpZ4Cuy27DNby6o6aG1qmPLjH7McZvc8h0nvyx96WyQe5N8kJ1blbQGvW8B9D8vRjsvnIh7HFSQPEr_i6CWzQa3B9MadmpWdoxd8YhYw_s9djAzqKx7JREUITtr0W7G78ZAOACdJ3sDeDJZpPg4sQTiZ41cW7PzjFYOdFD_UWqoeRAFbAOpN88nkKRCO3bz0-SCBtOhkSLvKe8twJJuYk4kQPK1AOa2om5NfpS1rMIiFYAadh2VyYkrICJbZTWYW2IwYt9bVcAKATWAIuBj1dEtUjQe8-VWAGey00VcJmcVAg3x-wmPiBymyFUAeGhQyDlbXqDcFzHqHOw7ooLb9uY7csJZ0lrz0lJGAh2w6NPqMBSqcgO3RAmNxMxcTV_hJwnBEOmPzzGcU4IGKZEKJT3vywJx8FcqXrG4VLzm5dP1ugWcIoGg6WHcw-8yTUOeFN1RKqzQu3OhgjJrsXUyS9rWnSd7JtW9fb9vDLSvWXRY0cpXkxH0iotCKJMr_1IYktgDfX4OGaKJ4ObQ14sNkl-CM_TH5eOU_DDLXtOsZwa4_sx7dAlyl9DKm6Sm4OXtWs7CZPC-iNYAkQB7Qlmt9rPWQ3XIM1WmZNa4f7v4-3XTXVQjEuRLWxkh3bdCc-7Li9UIzhuKHn2SoGB80FBqYlzp8_U9P0UlOrCpwJd5dziyhLehT-ZtJZrCYeNskf4C89ripRKBb2vL597hcNPjufCRqoKEk_YxgF4nY" rel="noopener">https://bit.ly/3tivAvK</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4074065089271590%3Atop_level_post_id.4074065089271590%3Atl_objid.4074065089271590%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4074065089271590%3Apage_id.163354693676002%3Aphoto_id.4074064899271609%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_h1v0VXRB64h1s%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612287335%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4074065089271590%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4074065089271590%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A873939298177050461&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4074065089271590%3Atop_level_post_id.4074065089271590%3Atl_objid.4074065089271590%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4074065089271590%3Apage_id.163354693676002%3Aphoto_id.4074064899271609%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_h1v0VXRB64h1s%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612287335%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4074065089271590%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4074065089271590%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A873939298177050461&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4074065089271590%3Atop_level_post_id.4074065089271590%3Atl_objid.4074065089271590%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4074065089271590%3Apage_id.163354693676002%3Aphoto_id.4074064899271609%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_h1v0VXRB64h1s%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612287335%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4074065089271590%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4074065089271590%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A873939298177050461&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/145835553_4074064902604942_5553627112072131531_n.jpg?_nc_cat=104&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=z3btZQgpqBUAX8ehSTd&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=dee4beadc4dccaad4034d9280e52b60d&#038;oe=603E3BA5" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4074065089271590">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Magento Web Skimmers Piggyback in Ongoing Costway Website Compromise</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/magento-web-skimmers-piggyback-in-ongoing-costway-website-compromise/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 17:31:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Compromise]]></category>
-		<category><![CDATA[Costway]]></category>
-		<category><![CDATA[Magento]]></category>
-		<category><![CDATA[Ongoing]]></category>
-		<category><![CDATA[Piggyback]]></category>
-		<category><![CDATA[Skimmers]]></category>
-		<category><![CDATA[web]]></category>
-		<category><![CDATA[website]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/magento-web-skimmers-piggyback-in-ongoing-costway-website-compromise/</guid>
-
-					<description><![CDATA[An e-commerce credit-card skimmer is being used by a second skimmer to steal payment data &#8211; and both are on]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />An e-commerce credit-card skimmer is being used by a second skimmer to steal payment data &#8211; and both are on Costway&#8217;s website.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/magento-web-skimmers-costway/163593/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>We can make software secure, but not at a price you&#8217;d be willing to pay</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/we-can-make-software-secure-but-not-at-a-price-youd-be-willing-to-pay/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Pay]]></category>
-		<category><![CDATA[Price]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[software]]></category>
-		<category><![CDATA[youd]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=9012</guid>
-
-					<description><![CDATA[The recent compromise of SolarWinds’ Orion software has led to lots of largely ineffective hand-wringing. I’ve seen more time spent on]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>The recent <a target="_blank" href="https://techbeacon.com/security/what-solarwinds-hack-really-tells-us" rel="noopener">compromise of SolarWinds’ Orion software</a> has led to lots of largely ineffective hand-wringing. I’ve seen more time spent on talking about whom should be blamed for the incident than on how to mitigate the damage that it caused or to reduce the chances of a similar incident happening in the future.</p>
-<p>But it has motivated the creation of lots of new initiatives to increase the security of software by adding <a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/the-state-of-applica?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">all sorts of additional processes and oversight to software engineering organizations</a>. These efforts might provide some small, incremental gains in the security of software, but they are probably doomed to do little more than that.</p>
-<p><a target="_blank" href="https://content.microfocus.com/state-of-application-security-testing-tb/deliver-security-as-code?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">Security of code</a> simply isn’t a priority for some developers, and it’s going to be very hard to change that for much of the software currently in use. And it’s probably the case that even the most careful and thorough software security engineering practices are not going to produce secure commercial software. Here&#8217;s why.</p>
-<h3>The problem with FOSS</h3>
-<p>Free and open-source software (FOSS) is here to stay. Although most FOSS projects don’t go anywhere, those that do can end up making a huge difference. Lots of the Internet now runs on the FOSS <a target="_blank" href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)" rel="nofollow noopener">LAMP stack</a>—the Linux operating system, the Apache web server, the MySQL database, and the PHP programming language. Commercial alternatives for each of these exist, but they have yet to gain the level of acceptance and use that their FOSS competitors have. Similarly, FOSS components are part of essentially all commercial software these days.</p>
-<p>It isn’t easy for software companies to get their developers to take software security seriously. My experience has been that it takes a significant effort backed by the highest levels of management to get this to happen. But it has happened in some places, and the quality of software has dramatically increased in many cases because of these efforts.</p>
-<p>But it seems to be much harder to get FOSS contributors to take security seriously. The <a target="_blank" href="https://www.linuxfoundation.org/" rel="nofollow noopener">Linux Foundation&#8217;s </a>recent <a target="_blank" href="https://www.linuxfoundation.org/en/resources/publications/2020-foss-contributor-survey/" rel="nofollow noopener">2020 FOSS Contributor Survey</a> suggests that FOSS programmers just aren’t that interested in security. Instead, things such as learning new things and gaining the respect of their peers motivate them. They spend less than 3% of their time responding to security issues. And some of their responses to the survey suggest that it’s going to be very hard to get them to take security more seriously.</p>
-<p>Text responses indicated that many respondents had no interest in increasing time and effort on security; it was not simply that they wanted to be proactive. One respondent said, “I find the enterprise of security a soul-withering chore and a subject best left for the lawyers and process freaks. I am an application developer.” Another said, “I find security an insufferably boring procedural hindrance.”</p>
-<p>So with a significant amount of software that’s being used today using FOSS in some way, it seems likely that we’ll be dealing with the security issues that come with it for the foreseeable future.</p>
-<h3>The problem with software</h3>
-<p>But the security issues with software aren’t limited to FOSS. Those related to FOSS are probably just harder to manage (and FOSS programmers may be more honest about how they feel about security).</p>
-<blockquote>
-<p>I routinely do things that definitely qualify as insufferably boring procedural hindrances, but I do them because it’s part of my job. I can’t just decide to not do them because I don’t feel like doing them, but that’s an option that FOSS developers have, and some seem to take advantage of this.</p>
-</blockquote>
-<p>It’s hard to fault them. If I wasn’t getting paid to do my job, I’d be avoiding insufferable procedural hindrances, too. Unfortunately, it looks as if security might be getting less attention than some people might like it to because of that.</p>
-<p>But it may be impossible to make any form of software reasonably secure, at least in a commercially acceptable way.</p>
-<p>Modern software is probably the most complex thing ever created by man. Getting something that complex to work is hard. Try understanding the build process for your typical enterprise software these days and you’ll be surprised that we can even get the stuff to work at all. Getting something that complex to work correctly is even harder. Getting something that complex to work securely may be so hard that it might be impossible in many cases. A <a target="_blank" href="https://calhoun.nps.edu/handle/10945/527" rel="nofollow noopener">study</a> done by the <a target="_blank" href="https://nps.edu/" rel="nofollow noopener">Naval Postgraduate School</a> nicely summed up the situation:</p>
-<blockquote>
-<p>The problem with system security is that it is easy to find flaws, but it is difficult to find all flaws. Thus, if post-development flaw discovery and remediation is chosen as the path to achieving a secure system, then it is difficult to make a statement regarding the completeness of the security mechanism. Similarly, security functions that are added to a pre-existing system require analysis to ensure that they will perform with the level of trustworthiness intended. This analysis will extend to all elements depending on or upon which the security addition depends, as well as all resources shared by the addition, e.g. global data. Furthermore, unless the system has already been rigorously developed, the security analysis is likely to become so complex that starting anew would be more effective.</p>
-</blockquote>
-<p>In other words, it’s probably impossible to make a system secure unless you carefully design it to be secure from the beginning. But commercial systems aren’t made that way. It’s simply too expensive.</p>
-<p>NASA’s experience suggests that it is indeed possible to create <a target="_blank" href="https://www.nasa.gov/mission_pages/shuttle/flyout/flyfeature_shuttlecomputers.html" rel="nofollow noopener">very reliable and secure software</a>, but it will end up <a target="_blank" href="https://history.nasa.gov/computers/Ch4-5.html" rel="nofollow noopener">costing more</a>. Way more. Maybe a factor of 20 or so more. So if you think enterprise software is expensive now, imagine how much more expensive it would be if it were developed using the robust system security engineering methodology that NASA uses.</p>
-<h3>An unfortunate reality</h3>
-<p>So we know how to make secure software. We just don’t know how to make secure software that’s cheap enough to be sold. And because of that, it seems likely that we’ll be living with software that’s merely expensive instead of prohibitively expensive and that we’ll also be living with the many security issues that will come with that software.</p>
-<p>That’s the unfortunate reality of the software business. We can make it better, but we can’t make it perfect. At least not for a price that you’d be willing to pay.</p>
-<p>No Security<em> is a monthly column. Recent posts can be found <a target="_blank" href="https://techbeacon.com/tags/no-security" rel="noopener">here</a>.</em></p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/we-can-make-software-secure-not-price-youd-be-willing-pay">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Agent Tesla Trojan ‘Kneecaps’ Microsoft’s Anti-Malware Interface</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/agent-tesla-trojan-kneecaps-microsofts-anti-malware-interface/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 15:15:44 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Agent]]></category>
-		<category><![CDATA[AntiMalware]]></category>
-		<category><![CDATA[Interface]]></category>
-		<category><![CDATA[Kneecaps]]></category>
-		<category><![CDATA[Microsofts]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[Trojan]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/agent-tesla-trojan-kneecaps-microsofts-anti-malware-interface/</guid>
-
-					<description><![CDATA[A new version of the Agent Tesla RAT can &#8216;kneecap&#8217; endpoint protection software supported by Microsoft ASMI. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A new version of the Agent Tesla RAT can &#8216;kneecap&#8217; endpoint protection software supported by Microsoft ASMI.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/agent-tesla-microsoft-asmi/163581/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Identity Theft Spikes Due to COVID-19 Relief</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/identity-theft-spikes-due-to-covid-19-relief/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 14:00:11 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[COVID19]]></category>
-		<category><![CDATA[Due]]></category>
-		<category><![CDATA[Identity]]></category>
-		<category><![CDATA[Relief]]></category>
-		<category><![CDATA[spikes]]></category>
-		<category><![CDATA[Theft]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/identity-theft-spikes-due-to-covid-19-relief/</guid>
-
-					<description><![CDATA[Cases reported to the FTC doubled last year as cybercriminals took advantage of increased filing for government relief benefits due]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Cases reported to the FTC doubled last year as cybercriminals took advantage of increased filing for government relief benefits due to the pandemic.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/identity-theft-spikes-covid-19-relief/163577/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Wind River Security Incident Affects SSNs, Passport Numbers</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/wind-river-security-incident-affects-ssns-passport-numbers/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Mon, 01 Feb 2021 21:47:19 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Affects]]></category>
-		<category><![CDATA[incident]]></category>
-		<category><![CDATA[Numbers]]></category>
-		<category><![CDATA[Passport]]></category>
-		<category><![CDATA[River]]></category>
-		<category><![CDATA[SSNs]]></category>
-		<category><![CDATA[Wind]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/wind-river-security-incident-affects-ssns-passport-numbers/</guid>
-
-					<description><![CDATA[Wind River Systems is warning of a &#8216;security incident&#8217; after one or more files was downloaded from its network. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Wind River Systems is warning of a &#8216;security incident&#8217; after one or more files was downloaded from its network.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/wind-river-security-incident-ssns-passport-numbers/163550/">Source link </a></p>
 ]]></content:encoded>
 					
 		
