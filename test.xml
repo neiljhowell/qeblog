@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Thu, 04 Feb 2021 01:45:44 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 04 Feb 2021 23:56:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,541 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Stability In Cross Browser Test Code</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/stability-in-cross-browser-test-code/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 23:56:57 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Cross]]></category>
+		<category><![CDATA[Stability]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/stability-in-cross-browser-test-code/</guid>
+
+					<description><![CDATA[If you read my previous blog, Fast Testing Across Multiple Browsers, you know that participants in the Applitools Ultrafast Cross]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>If you read my previous blog, <a target="_blank" href="https://applitools.com/blog/fast-testing-multiple-browsers/" rel="noopener">Fast Testing Across Multiple Browsers</a>, you know that participants in the <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">Applitools Ultrafast Cross Browser Hackathon</a> learned the following:</p>
+<ul>
+<li>Applitools <a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener">Ultrafast Grid</a> requires an application test to be run just once. Legacy approaches require repeating tests for each browser, operating system, and viewport size of interest.</li>
+<li><a target="_blank" href="https://applitools.com/cross-browser-testing/" rel="noopener">Cross browser tests</a> and analysis complete typically within 10 minutes, meaning that test times match the scale of application build times. Legacy test and analysis times involve several hours to generate results</li>
+<li>Applitools makes it possible to incorporate cross browser tests into the build process, with both speed and accuracy.</li>
+</ul>
+<p>Today, we’re going to talk about another benefit of using Applitools Visual AI and Ultrafast Grid: test code stability.</p>
+<h2 id="h-what-is-test-code-stability">What is Test Code Stability?</h2>
+<p>Test code stability is the property of test code continuing to give consistent and appropriate results over time. With stable test code, tests that pass continue to pass correctly, and tests that fail continue to fail correctly. Stable tests do not generate false positives (report a failure in error) or generate false negatives (missing a failure).</p>
+<p>Stable test code produces consistent results. Unstable test code requires maintenance to address the sources of instability. So, what causes test code instability?</p>
+<p><a target="_blank" href="https://www.linkedin.com/in/anandbagmar/" rel="noopener">Anand Bagmar</a> did a great <a target="_blank" href="https://applitools.com/blog/uncover-flaky-tests/" rel="noopener">review of the sources of flaky tests</a>. Some of the key sources of instability:</p>
+<ul>
+<li>Race conditions – you apply inputs too quickly to ensure a consistent output</li>
+<li>Ignoring settling time – your output becomes stable only after your sampling time</li>
+<li>Network delay – your network infrastructure causes unexpected behavior</li>
+<li>Dynamic environments – your inputs cannot guarantee all the outputs</li>
+<li>Incompletely scoped test conditions – you have not specified the correct changes</li>
+<li>Myopia – you only look for expected changes and actual changes occur elsewhere</li>
+<li>Code changes – your code uses obsolete controls or measures obsolete output.</li>
+</ul>
+<p>When you develop tests for an evolving application, code changes introduce the most instability in your tests. UI tests, whether testing the UI or complete end-to-end behavior, depends on the underlying UI code. You use your knowledge of the app code to build the test interfaces. Locator changes – whether changes to coded identifiers or CSS or Xpath locators – can cause your tests to break.</p>
+<p>When test code depends on the App code, each app release will require test maintenance. Otherwise, no engineer can ensure that a “passing” test omitted an actual failure, or that  a “failing” test indicates a real failure and not a locator change.</p>
+<h2 id="h-test-code-stability-and-cross-browser-testing">Test Code Stability and Cross Browser Testing</h2>
+<p>Considering the instability sources, a tester like you takes on a huge challenge with cross browser tests. You need to ensure that your cross browser test infrastructure addresses these sources of instability so that your cross browser behavior matches expected results.</p>
+<p>If you use a legacy approach to cross browser testing, you need to ensure that your physical infrastructure does not introduce network or other infrastructure sources of test flakiness.  Part of your maintenance ensures that your test infrastructure does not become a source of false positives or false negatives.  </p>
+<p>Another check you make relates to responsive app design. How do you ensure responsive app behavior? How do you validate page location based on viewport size?</p>
+<p>If you use legacy approaches, you spend a lot of time ensuring that your infrastructure, your tests, and your results all match expected app user behavior. In contrast, the Applitools approach does not require debugging and maintenance of multiple test infrastructures, since the purpose of the test involves ensuring proper rendering of server response.</p>
+<p>Finally, you have to account for the impact of every new app coding change on your tests. How do you update your locators? How do you ensure that your test results match your expected user behavior?</p>
+<h2 id="h-improving-stability-limiting-dependency-on-code-changes">Improving Stability: Limiting Dependency on Code Changes</h2>
+<p>One thing we have observed over time: code changes drive test code maintenance. We demonstrated this dependency relationship in the Applitools Visual AI Rockstar Hackathon, and again in the Applitools Ultrafast Cross Browser Hackathon. </p>
+<p>The legacy approach uses locators to both apply test conditions and measure application behavior. As locators can change from release to release, test authors must consider appropriate actions.</p>
+<p>Many teams have tried to address the locator dependency in test code. </p>
+<p>Some test developers sit inside the development team. They create their tests as they develop their application, and they build the dependencies into the app development process. This approach can ensure that locators remain current. On the flip side, they provide little information on how the application behavior changes over time. </p>
+<p>Some developers provide a known set of identifiers in the development process. They work to ensure that the UI tests use a consistent set of identifiers. These tests can run the risk of myopic inspection. By depending on supplied identifiers – especially to measure application behavior, these tests run the risk of false negatives. While the identifiers do not change, they may no longer reflect the actual behavior of the application. </p>
+<p>The modern approach limits identifier use to applying test conditions. Applitools Visual AI measures the application response of the UI. This approach still depends on identifier consistency – but with way fewer identifiers. In both hackathons, participants cut their dependence on identifiers by 75% to 90% – basically, they used way fewer identifiers. Their code ran more consistently and required less maintenance.</p>
+<figure class="wp-block-image"></figure>
+<h2 id="h-implications-of-modern-cross-browser-testing">Implications of Modern Cross Browser Testing</h2>
+<p>Applitools Ultrafast Grid overcomes many of the hurdles that testers experience running legacy cross browser test approaches. Beyond the pure speed gains, Applitools offers improved stability and reduced test maintenance.</p>
+<p>Modern cross browser testing reduces dependency on locators. By using Visual AI instead of locators to measure application response, Applitools Ultrafast Grid can show when an application behavior has changed – even if the locators remain the same. Or, alternatively, Ultrafast Grid can show when the behavior remains stable even though locators have changed. By reducing dependency on locators, Applitools ensures a higher degree of stability in test results.</p>
+<p>Also, Applitools Ultrafast Grid reduces infrastructure setup and maintenance for cross browser tests. In the legacy setup, each unique browser requires its own setup and connection to the server. Each setup can have physical or other failure modes that must be identified and isolated independent of the application behavior. By capturing the response from a server once and validating the DOM across other target browsers, operating systems, and viewport sizes, Applitools reduces the infrastructure debug and maintenance efforts.</p>
+<h2 id="h-conclusions">Conclusions</h2>
+<p>Participant feedback from the Hackathon provided us with consistent views on cross browser testing. From their perspective, participants viewed legacy cross browser tests as:</p>
+<ul>
+<li>Likely to break on an app update</li>
+<li>Susceptible to infrastructure problems</li>
+<li>Expensive to maintain over time</li>
+</ul>
+<p>In contrast, they saw Applitools Ultrafast Grid as:</p>
+<ul>
+<li>Less expensive to maintain</li>
+<li>More likely to expose rendering errors</li>
+<li>Providing more consistent results.</li>
+</ul>
+<p>You can <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">read the entire report here</a>.</p>
+<h2 id="h-what-s-next">What’s Next</h2>
+<p>What holds companies back from cross browser testing? Bad experiences getting results. But, what if they could get good test results and have a good experience at the same time? We ask participants about their experience on the Applitools Cross Browser Hackathon.</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/stability-in-cross-browser-test-code/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Android Devices Prone to Botnet’s DDoS Onslaught</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/android-devices-prone-to-botnets-ddos-onslaught/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 21:47:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Botnets]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[Devices]]></category>
+		<category><![CDATA[Onslaught]]></category>
+		<category><![CDATA[Prone]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/android-devices-prone-to-botnets-ddos-onslaught/</guid>
+
+					<description><![CDATA[A new DDoS botnet propagates via the Android Debug Bridge and uses Tor to hide its activity. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A new DDoS botnet propagates via the Android Debug Bridge and uses Tor to hide its activity.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/android-devices-prone-to-botnets-ddos-onslaught/163680/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Stolen: perl.com and other domains—was Web.com socially engineered?</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/stolen-perl-com-and-other-domains-was-web-com-socially-engineered/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 21:30:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[domainswas]]></category>
+		<category><![CDATA[engineered]]></category>
+		<category><![CDATA[perlcom]]></category>
+		<category><![CDATA[socially]]></category>
+		<category><![CDATA[Stolen]]></category>
+		<category><![CDATA[Webcom]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=9264</guid>
+
+					<description><![CDATA[A pile of high-value .com domains are still missing in action after they were stolen and resold by miscreants unknown.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><strong>A pile of high-value .com domains are still missing in action</strong> after they were stolen and resold by miscreants unknown. Perl.com was among them.</p>
+<p><strong>Some observers are pointing the finger of blame</strong> at Web.com—specifically its subsidiary Network Solutions. Could this be the sex.com debacle all over again? That took <em>five years</em> to resolve.</p>
+<p><strong>Hopefully perl.com will be back</strong> quicker than that. In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener">Security Blogwatch</a></i>, we sudo vi /etc/hosts.</p>
+<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Poor old Windows.</em></p>
+<h3>“How <em>you</em> dune?”</h3>
+<p><strong>What’s the craic?</strong> Lawrence Abrams reports—<i><a target="_blank" href="https://www.bleepingcomputer.com/news/security/perlcom-domain-stolen-now-using-ip-address-tied-to-malware/" rel="nofollow ugc noopener" title="read the full text">Perl.com domain stolen, now using IP address tied to malware</a>:</i></p>
+<blockquote><p><em>Perl.com is a site owned by Tom Christiansen and has been used since 1997 to post news and articles about the Perl programming language. … The domain was stolen in September 2020 while at Network Solutions, transferred to a registrar in China on Christmas Day, and finally moved to the Key-Systems registrar on January 27th.<br />…<br />It wasn&#8217;t until the last transfer that the IP addresses assigned to the domain were changed. … The IP address … has a long history of being used in … malware campaigns.<br />…<br />Until the domain hijacking is resolved, perl.org is recommending that users do not use perl.com as a CPAN mirror. [And] it is strongly advised not to visit perl.com until the domain is back in the hands of The Perl Foundation.</em></p></blockquote>
+<p><strong>And</strong> Richard Speed dashes off this—<i><a target="_blank" href="https://www.theregister.com/2021/01/28/perl_hijacking/" rel="nofollow ugc noopener" title="read the full text">Hijackers appear to have seized control of 33-year-old … domain</a>:</i></p>
+<blockquote><p><em>The hijack appears to have followed the age-old path of an attacker pouncing on a compromised account and swiping the domain. … Perl.org is unaffected.<br />…<br />Prior to the change, Tom Christiansen was listed as the domain administrative contact. … A hijacking of Christiansen&#8217;s account seems a possibility. … Shortly after the hijacking, the domain … turned up as available to buy for $190k on afternic.com [which] is part of the GoDaddy organisation.</em></p></blockquote>
+<p><strong>We turn to</strong> the famous capital letter-hating author brian d foy—<i><a target="_blank" href="https://twitter.com/briandfoy_perl/with_replies" rel="nofollow ugc noopener" title="read the full text">@briandfoy_perl</a></i>—who tweets thuswise:</p>
+<blockquote><p><em>Huh, it looks like there was some snafu with the perl.com domain registration and now it&#8217;s registered under someone else. … The proper address for perl.com is 151.101.2.132. Put that in your /etc/hosts and you should get to the right site. … Anyone using a perl.com host for their CPAN mirror should use cpan.org instead.<br />…<br />We&#8217;ve temporarily set up the perl.com site at perldotcom.perl.org. … There&#8217;s no news on the recovery progress. Everyone who needs to be talking is talking to each other and it&#8217;s just a process now. … Network Solutions is working with Tom Christiansen, the rightful registrant, on the recovery of the perl.com domain.</p>
+<p>There is no estimated timeline for its recovery but the process is underway. … We&#8217;re in the long, boring phase now.</p>
+<p></em></p></blockquote>
+<p><strong>An isolated incident?</strong> Nope. Here’s <i><a target="_blank" href="https://news.ycombinator.com/item?id=25942367" rel="nofollow ugc noopener" title="read the full text">bhartzer</a>:</i></p>
+<blockquote><p><em>I’ve seen other domains get stolen recently, it seems to be about the same time: patterns.com, piracy.com, perl.com … neurologist.com and chip.com. … All stolen at around the same time.<br />…<br />With Patterns, the thief hacked the Network Solutions account, put the domain under privacy, transferred it to a Chinese registrar, and then put the old whois data back. They then tried to sell it on Sedo and Afternic for 10 percent of what it’s worth.<br />…<br />My advice is to lock down your domains, register them for at least 5 years, and if there are changes deal with them quickly. … Definitely use 2FA if it’s offered … there are a lot of registrars still using less secure platforms. So moving to a more secure registrar can help.<br />…<br />Once a domain is transferred it’s much harder to get back. It can be done, but it’s a lot of work to unravel it all.</em></p></blockquote>
+<p><strong>A lot of work?</strong> As Dave Piscitello explained, a long time ago, <i><a target="_blank" href="https://www.icann.org/news/blog/documentation-is-key-to-recovering-hijacked-domain-names" rel="nofollow ugc noopener" title="read the full text">Documentation is Key</a>:</i></p>
+<blockquote><p><em>When victims of domain name hijackings contact our Security Team for guidance, we will ask …  &#8220;Do you have any way to demonstrate to your sponsoring registrar that the registration or use of the domain is rightfully yours?&#8221; … Sadly, many parties who contact us haven&#8217;t considered that they will have to prove that the domain is theirs to use.<br />…<br />You will need to provide documentation to registrars or dispute resolution service provider that proves an association existed between you … (the one who has legitimately registered the domain name) and the hijacked domain name or account, prior to the incident.</em></p></blockquote>
+<p><strong>But how could this happen</strong> at a totally legit registrar such as NetSol? <i><a target="_blank" href="https://developers.slashdot.org/comments.pl?sid=18156794&amp;cid=61011738" rel="nofollow ugc noopener" title="read the full text">gmack</a></i> scoffs at the thought:</p>
+<blockquote><p><em>You make it sound like Network Solutions has never made that sort of mistake before. NetSol is one of the least secure registrars and has a history of transferring domains over the phone or with a fax.</p>
+<p>The most famous case was of course sex.com where they argued that they had no responsibility to even try to fix the problem. There are still scattered reports of domains being stolen from them.</p>
+<p></em></p></blockquote>
+<p><strong>But</strong> <i><a target="_blank" href="https://news.ycombinator.com/item?id=25942884" rel="nofollow ugc noopener" title="read the full text">fogihujy</a></i> is a touch more circumspect:</p>
+<blockquote><p><em>There&#8217;s always the chance someone social-engineered their way past the registrar&#8217;s access control, or that they got some kind of access to the registrar&#8217;s systems. Or the domain owner simply didn&#8217;t read an email properly and clicked the wrong link.</p>
+<p>There&#8217;s too little information to draw conclusions at this point.</p>
+<p></em></p></blockquote>
+<p><strong>Back in my day</strong> everyone on the internet was nice. <i><a target="_blank" href="https://forums.theregister.com/forum/all/2021/01/28/perl_hijacking/#c_4195754" rel="nofollow ugc noopener" title="read the full text">drankinatty</a></i> waxes prosaic:</p>
+<blockquote><p><em>Not too long ago … domain registration and ownership was a simple matter, whois noted all details, including name, addresses, telephone (and fax) numbers and e-mail addresses. Not a care or thought was given to the registration details being available in the world of the honest actor.</p>
+<p>But since that time, [as with] all manner of life and politics, dishonest actors, so lacking in integrity and moral character, set about making mischief and perverting every aspect of available information and data, either for personal gain or to sow general chaos. To such an extent that if you look at the time, toil, resources and effort expended in defensive measures, it likely surpasses the amounts spent in the pursuit of normal business operations.<br />…<br />Having experienced the world pre–NCSA Mosaic … it is truly a sad reflection on humanity.</p>
+<p></em></p></blockquote>
+<p><strong>If only we knew how it happened.</strong> <i><a target="_blank" href="https://news.ycombinator.com/item?id=25943628" rel="nofollow ugc noopener" title="read the full text">classichasclass</a></i> thinks they do:</p>
+<blockquote><p><em>[Floodgap.com] was part of this. I just talked to a very helpful person in NetSol&#8217;s security department and she looked through the ticket. It was initiated by a web chat, and they produced official looking but completely fraudulent documents (photo ID, utility bill, business license, etc.) to prove identity.</p>
+<p>So this was socially engineered and apparently for multiple domains. They&#8217;re supposed to contact me tomorrow for more on the post mortem.</p>
+<p></em></p></blockquote>
+<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://forums.theregister.com/forum/all/2021/01/28/perl_hijacking/#c_4195504" rel="nofollow ugc noopener" title="read the full text">GBE</a></i> goes all poetic on us:</p>
+<blockquote><p><em>I used to dislike Perl. Then I learned PHP in order to maintain a pile of somebody else&#8217;s code. And my feelings for Perl faded into insignificance.</p>
+<p>Then I met a beggar who had no feet. And thought to myself, &#8220;At least he doesn&#8217;t have to maintain PHP code.&#8221;</p>
+<p></em></p></blockquote>
+<h3>The moral of the story?</h3>
+<p>Do whatever you can to prevent your domains getting stolen, including MFA and red-teaming a social-engineering attack on your registrar.</p>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=bSugfGEdBZk&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow" title="And Finally">If you ever wanted to feel sorry for Windows, watch this</a></strong></p>
+<p><iframe title="Messing with Windows GDI" width="800" height="450" src="https://www.youtube.com/embed/bSugfGEdBZk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE. 30.</em></p>
+<p><em>This week’s zomgsauce: <a target="_blank" href="https://unsplash.com/photos/zbc2SOXfpGk" rel="noopener nofollow">Andre Iv</a> (via <a target="_blank" href="https://unsplash.com/license" rel="noopener nofollow" title="Some rights reserved">Unsplash</a>)</em></p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/stolen-perlcom-other-domains-was-webcom-socially-engineered">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Spotify Suffers Second Credential-Stuffing Cyberattack in 3 Months</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/spotify-suffers-second-credential-stuffing-cyberattack-in-3-months/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 19:31:33 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[CredentialStuffing]]></category>
+		<category><![CDATA[Cyberattack]]></category>
+		<category><![CDATA[Months]]></category>
+		<category><![CDATA[Spotify]]></category>
+		<category><![CDATA[Suffers]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/spotify-suffers-second-credential-stuffing-cyberattack-in-3-months/</guid>
+
+					<description><![CDATA[As many as 100,000 of the music streaming service&#8217;s customers could face account takeover. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />As many as 100,000 of the music streaming service&#8217;s customers could face account takeover.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/spotify-credential-stuffing-cyberattack/163672/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SOCwise Series: Practical Considerations on SUNBURST</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/socwise-series-practical-considerations-on-sunburst/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 17:20:56 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Considerations]]></category>
+		<category><![CDATA[Practical]]></category>
+		<category><![CDATA[Series]]></category>
+		<category><![CDATA[SOCwise]]></category>
+		<category><![CDATA[SUNBURST]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/socwise-series-practical-considerations-on-sunburst/</guid>
+
+					<description><![CDATA[This blog is part of our SOCwise series where we’ll be digging into all things related to SecOps from a practitioner’s point]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p><span data-contrast="none">This blog is part of our SOCwise series where we’ll be digging into all things related to <a target="_blank" href="https://www.mcafee.com/enterprise/en-us/security-awareness/operations/what-is-soc.html" rel="noopener noreferrer">SecOps</a> from a practitioner’s point of view, helping us enable defenders to both build context and confidence in what they do.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">Although there’s been a lot of chatter about supply chain attacks, we’re going to bring you a slightly different perspective. Instead of talking about the technique, let’s talk about what it means to a SOC and more importantly focusing on the <a target="_blank" href="https://www.mcafee.com/blogs/?s=sunburst" rel="noopener noreferrer">SUNBURST attack</a>, where the adversary leveraged a trusted application from SolarWinds.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">Below you are going to see the riveting discussion between our very own <a target="_blank" href="https://www.mcafee.com/blogs/author/ismael-valenzuela/" rel="noopener noreferrer">Ismael Valenzuela</a> and <a target="_blank" href="https://www.mcafee.com/blogs/author/michael-leland/" rel="noopener noreferrer">Michael Leland</a> where they’ll talk about the supply chain hacks and the premise behind them. More importantly, why this one in particular was so successful. And lastly, they’ll cover best practices, hardening prevention, and early detection.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Michael:</span></b><span data-contrast="none"> Ismael, let’s start by talking a little bit about what the common types of supply chain attacks. We know from </span><span data-contrast="none">past experience</span><span data-contrast="none"> that they’ve primarily been software; though, it’s not unheard of to have hardware-based supply chain attacks as well. But really, it’s about hijacking or masquerading as a vendor or a trusted supplier and objecting malicious code into trusted, authorized applications. Sometimes even hijacking the certificate to make it look legitimate. And this last one was </span><span data-contrast="none">about</span><span data-contrast="none"> injecting into third party libraries.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">In relation to SUNBURST, it was a long game, right? This was an adversary long game attack where they had over 12 months to plan, stage, deploy, weaponize and reap the benefits. And we’re going to talk more about what they did, but more importantly, also how we as practitioners can leverage the sources of telemetry we have for both detection and hopefully future prevention. The first question that most people ask is, is this new and clearly this is not a new technique or tactic, but let’s talk a little bit about why this one was </span><span data-contrast="none">different.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Ismael:</span></b><span data-contrast="none"> Right! The most interesting piece about SolarWinds is not that much of it is a supply chain attack because as you said, it’s true. It’s not new. We’ve seen similar things in the past. I know there’s a lot of controversy around some of them like Supermicro, we and many others over the last few years and it’s difficult to prove these types of attacks. But to me, the most interesting piece is not just how it got into the environment, but we talked about malicious updates into legitimate applications. For example, we’ve seen some of that in the past with modifying code on GitHub, right? Unprotected reports, attackers, threat actors are modifying the code.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">We’re going to talk a little bit about what organizations can do to identify these but what I really want to highlight out of this is about the attackers, they have a plan right? They compromise the environment carefully, they stayed dormant for about two weeks, and after that, as we have seen in recent research, they started to deploy second stage payloads. The way they did that was very, very interesting, and its changing the game. It’s not radically new, but there’s always something new that we may have not seen before. And it’s important for defendants to understand these behaviors so they can start trying to detect them. In summary, they have a plan and we should ask ourselves if we have a plan for these type of attacks? Not only the initial vector but also what happens after that.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Michael:</span></b><span data-contrast="none"> Let’s take a look at the timeline (figure 1 below) and talk about the story arc of what took place. I think the important thing is, again the adversary knew long before the attack long before the weaponization of the application, long before the deployment, they had this planned out. They knew they were going after a very specific vendor. In this case, SolarWinds knew as far back as 2018, early 2019, that they had a registration domain registered for it already. And they didn’t even give it a DNS look up until almost a year later. But the code application 2019 was weaponization in 2020. We’re talking about months almost a year of time passed, and they knew very well going into it what their intent was.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> <img loading="lazy" class="aligncenter wp-image-116788 size-large" src="https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-1024x574.png" alt="" width="1024" height="574" srcset="https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-1024x574.png 1024w, https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-300x168.png 300w, https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-768x430.png 768w, https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-1536x860.png 1536w, https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-2048x1147.png 2048w, https://www.mcafee.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-04-at-9.13.22-AM-205x115.png 205w" sizes="(max-width: 1024px) 100vw, 1024px"/></span></p>
+<p><b><span data-contrast="none">Ismael:</span></b><span data-contrast="none"> Yep, absolutely. And as I mentioned before, even once they have the back door in place, the infamous DLL now stays dormant for two weeks. And then they start a careful reconnaissance discovery trying to find out where they are, what type of information they have around them, the users, and identity management. In some cases, we have seen them pivoting and stealing the tokens and credentials then pivoting to the cloud, all of that takes time. right? Which indicates that the attacker has a lot of knowledge on how to do these in a stealthy way. But if we think in terms of attack chains it also helps us to understand where we could have better opportunities to catch these types of activities.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Michael:</span></b><span data-contrast="none"> We’ve set the stage to understand kind of what exactly took place and a lot of people have talked about the methodology and the attack life cycle. But they had a plan, they weren’t specifically advanced in the way they leveraged the tools. They were very specific about leveraging multiple somewhat novice or novel methods to make use of the vulnerability. More importantly, it was the amount of effort they put into planning also the amount of time they spent trying not to get seen, right. We look at telemetry all the time, whether it’s in a SIEM tool or EDR tool, and we need those pieces of telemetry that tell us what’s happening, and they were very stealthy in the way they were leveraging the techniques.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">Let’s talk a little bit about what they did that was unique to this specific attack and then we’ll talk more about how we can better define our defenses and prevention around what we learned.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Ismael:</span></b><span data-contrast="none"> Yep, absolutely! And one of the interesting things that we have seen recently is how they disassociated the stage one and stage two to make sure that stage one, the backdoor/DLL wasn’t going to be detected or burnt. So once again, you were talking about the long game. They were planning, they were architecting their attack for the long game. Even if you would find an artifact from a specific machine, it would be harder for you to trace that back to the original backdoor. So they would maintain persistency in the environment for quite some time. I know that this is not new necessarily. We have been telling defenders for a long time: You need to focus on finding persistency, because attackers, they need to stay in the environment.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">We need to look at command and control but obviously these techniques are evolving. They went to great lengths to ensure that the artifacts, the indicators of compromise on each of these different systems for stage two, and at this point we know they use colon strike beacons. Each of these beacons were unique, not just for each organization, which would make sense but also for each computer within each organization. What does that mean for a SOC? Well, imagine you’re doing this and in response you find some odd behavior coming out of the machine, you look at the indicators and what are you going to do next…. scoping, right? Let’s see where else in my network. I’m seeing activity going into that domain to those IPS or those registry keys or that, you know, WMI consumer, for example. But the truth is that those indicators were not used anywhere else, not even in your environment. So that was interesting.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Michael:</span></b><span data-contrast="none"> Given that we don’t have specific indicators that we could attribute to something malicious in that stage, what we do know is that they’re leveraging common protocols in an uncommon way. The majority of this tactic took place from a C2 perspective through the partial exfiltration being done using DNS. To the organizations that aren’t successfully or effectively monitoring the types of DNS traffic, the DNS taking place on non-standard ports or more quarterly, the volume of DNS that’s originating from machines that don’t typically have it and volume metric analysis can tell us a lot. If in fact, there’s some heuristic value that we can leverage to detect. What else should we be thinking about in terms of the protection side of things, an abuse of trust?</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">We trusted an application; we trusted a vendor. This was a clear abuse of that. Zero trust would be one methodology that can incorporate both micro-segmentation as well as explicit verification and more importantly, least trust methodology that we can ensure. I also think about the fact that we’re giving these applications rights and privileges to our environment and administrative privileges. We need to make sure that we’re monitoring both those accounts and service accounts that are being utilized by these applications; specifically, so that we can prescribe a domain, walls and barriers around what they have access to. What else can we do in terms of detection or providing visibility for these types of attacks?</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Ismael:</span></b><span data-contrast="none"> When we’re talking about a complicated or advanced attack, I like to think in terms of frameworks like the new cybersecurity framework, for example that talks about prevention, detection, and response but also identifying the risks and assets first. If you look at it from that perspective and look at an attack chain, even though some of the aspects of these attack were very advanced, there’s always limitations from the attacker perspective. There’s no such thing as the perfect attack, so be aware of the perfect attack fallacy. There’s always something the attacker’s going to do that can help you to detect them. With that in mind, think about putting the MITRE attack behaviors, tactics and the techniques on one side of the matrix and on the other side, like NIST cybersecurity framework identify, protect, detect.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">Some of the things I would suggest is identifying the assets of risk, and I always talk about BCP. This is continuity planning. Sometimes we work in silos and we don’t leverage some of the information that can be in your organization that can point you to the crown jewel. You can’t protect everything, but you need to know what to protect and know how the information flows. For example, where are your soft spots, where are your vendors located on the network, your/their products, how do they get updated? It will be helpful for you to determine or define a defensible secure architecture that enforces it by trying to protect that…the flow of the data.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-contrast="none">When protection fails, it could be a firewall rule that can be any type of protection. The attempts to bypass the firewalls can be turned into detections. Visibility is very important to have across your environment, that doesn’t mean to just manage devices, it also means the network, and endpoints, and servers. Attackers are going to go after the servers, the main controllers, right? Why? Because they want to steal those credentials, those identities used somewhere else and maybe pivot to the cloud. So having enough visibility across the network is important, which means having the camera’s point to the right places. That is when EDR or XDR can come into play, product that keep that telemetry and give you visibility of what’s going on and potentially detect the attack.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Michael:</span></b><span data-contrast="none"> I think it’s important as we conclude our discussion to chat about the fact that telemetry can come in various flavors; more importantly, both real-time and historical telemetry that’s of significant value, not only in the detection side, but in the forensic investigation/scoping side, and understand exactly where an adversary may have landed. It’s not just having the telemetry accessible, it’s also sometimes the lack of telemetry. That’s the indicator that tells us when logging gets disabled on a device and we stop hearing from it then the SIEM starts seeing a gap in its visibility to a specific asset. That’s why combination of both real-time endpoint protection technologies deployed on both endpoints and servers, as well as the historical telemetry that we’re typically consuming in our analytics frameworks, and technologies like SIEM</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Ismael:</span></b><span data-contrast="none"> Absolutely, and to reiterate the point of finding those places where attackers are going to be, can be spotted more easily. If you look at the whole attack chain maybe the initial vector is harder to find, but start looking at how they got privileges, their escalation, and their persistence. Michael, you mentioned cleaning logs apparently were disabling the auditing logs by using auditpol on the endpoint or creating new firewall rules on the endpoints. If you consume these events, why would somebody disable the event logging temporarily by turning it off and then back on again after some time? Well, they were doing this for a reason.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><b><span data-contrast="none">Michael:</span></b><span data-contrast="none"> Right. So we’re going to conclude our discussion, hopefully this was informative. Please subscribe to our Securing Tomorrow blog where you can keep up to date with all things SOC related and feel free to visit McAfee.com/SOCwise for more SOC material from our experts.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+<p><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span><br /><iframe title="Embedded post" src="https://www.linkedin.com/video/embed/live/urn:li:ugcPost:6758545890195099648" width="504" height="284" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/enterprise/security-operations/socwise-series-practical-considerations-on-sunburst/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Critical Cisco Flaws Open VPN Routers Up to RCE Attacks</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/critical-cisco-flaws-open-vpn-routers-up-to-rce-attacks/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 15:59:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Flaws]]></category>
+		<category><![CDATA[Open]]></category>
+		<category><![CDATA[RCE]]></category>
+		<category><![CDATA[Routers]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/critical-cisco-flaws-open-vpn-routers-up-to-rce-attacks/</guid>
+
+					<description><![CDATA[The vulnerabilities exist in Cisco&#8217;s RV160, RV160W, RV260, RV260P, and RV260W VPN routers for small businesses. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The vulnerabilities exist in Cisco&#8217;s RV160, RV160W, RV260, RV260P, and RV260W VPN routers for small businesses.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/cisco-flaws-vpn-routers-rce/163662/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Office 365 Attacks Sparked from Google Firebase</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/microsoft-office-365-attacks-sparked-from-google-firebase/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 15:58:45 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Firebase]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Office]]></category>
+		<category><![CDATA[Sparked]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/microsoft-office-365-attacks-sparked-from-google-firebase/</guid>
+
+					<description><![CDATA[A savvy phishing campaign manages to evade native Microsoft security defenses, looking to steal O365 credentials. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A savvy phishing campaign manages to evade native Microsoft security defenses, looking to steal O365 credentials.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/microsoft-office-365-attacks-google-firebase/163666/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Clearview Facial-Recognition Technology Ruled Illegal in Canada</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/clearview-facial-recognition-technology-ruled-illegal-in-canada/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 12:52:35 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Canada]]></category>
+		<category><![CDATA[Clearview]]></category>
+		<category><![CDATA[FacialRecognition]]></category>
+		<category><![CDATA[Illegal]]></category>
+		<category><![CDATA[Ruled]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/clearview-facial-recognition-technology-ruled-illegal-in-canada/</guid>
+
+					<description><![CDATA[The company’s controversial practice of collecting and selling billions of faceprints was dealt a heavy blow by the Privacy Commissioner]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The company’s controversial practice of collecting and selling billions of faceprints was dealt a heavy blow by the Privacy Commissioner that could set a precedent in other legal challenges.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/clearview-facial-recognition-canada/163650/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Design Patterns for High-Quality Automated Tests: Template Method</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/design-patterns-for-high-quality-automated-tests-template-method/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 06:02:51 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[HighQuality]]></category>
+		<category><![CDATA[Method]]></category>
+		<category><![CDATA[Patterns]]></category>
+		<category><![CDATA[Template]]></category>
+		<category><![CDATA[Tests]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/design-patterns-for-high-quality-automated-tests-template-method/</guid>
+
+					<description><![CDATA[In the first article from the series, we discussed a strategy to create more maintainable and readable page object models]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p><span data-preserver-spaces="true">In the <a target="_blank" href="https://blog.testproject.io/2020/12/23/design-patterns-for-high-quality-automated-tests-fluent-api/" rel="noopener">first article</a> from the series, we discussed a strategy to create more maintainable and readable page object models in <a target="_blank" href="https://blog.testproject.io/2020/11/11/selenium-webdriver-from-a-to-z/" rel="noopener">Selenium WebDriver</a> tests. We used the </span><a target="_blank" class="editor-rtfLink" href="https://blog.testproject.io/2020/12/23/design-patterns-for-high-quality-automated-tests-fluent-api/" rel="noopener noreferrer"><strong><span data-preserver-spaces="true">Fluent Interface design pattern</span></strong></a><span data-preserver-spaces="true"> for achieving maximum API usability. Next, we talked about another API usability pattern called</span><a target="_blank" class="editor-rtfLink" href="https://blog.testproject.io/2020/12/29/design-patterns-for-high-quality-automated-tests-singleton/" rel="noopener noreferrer"><strong><span data-preserver-spaces="true"> Singleton</span></strong></a> <span data-preserver-spaces="true">for creating only once page object models and afterward reusing them. In this one, we will discuss issues causing your tests to fail once in a while, such as opening pages fast and not all elements are ready for interaction. If you try to act on them while they are still loading – an error will occur <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span></p>
+<p><span data-preserver-spaces="true">A standard way to handle the situation is to <a target="_blank" href="https://blog.testproject.io/2021/01/13/using-selenium-webdriver-waits-as-retries-in-your-selenium-tests/" rel="noopener">wait for an element</a> that takes the most time to load on the page and wait for it to be visible before performing any actions. However, we cannot put this logic in the base class since each page’s unique element is different. To handle this, we can use the </span><strong><span data-preserver-spaces="true">Template Method design pattern</span></strong><span data-preserver-spaces="true">.</span></p>
+<h2><strong>Test Case</strong></h2>
+<p>We will automate the main Bing page. We will write the logic for using the advanced images’ filtering options.</p>
+<p></p>
+<p>After that, we will open the detailed page about specific image results and verify that the correct title and URL are displayed.</p>
+<p><img loading="lazy" class="alignnone wp-image-17319 " title="bing-image-detailed-page" src="https://blog.testproject.io/wp-content/uploads/2021/01/bing-image-detailed-page.png" alt="bing-image-detailed-page" width="809" height="220" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/bing-image-detailed-page.png 1919w, https://blog.testproject.io/wp-content/uploads/2021/01/bing-image-detailed-page-512x139.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/bing-image-detailed-page-768x209.png 768w, https://blog.testproject.io/wp-content/uploads/2021/01/bing-image-detailed-page-1024x279.png 1024w" sizes="(max-width: 809px) 100vw, 809px"/></p>
+<p><span data-preserver-spaces="true">In the <a target="_blank" href="https://blog.testproject.io/2020/12/29/design-patterns-for-high-quality-automated-tests-singleton/" rel="noopener">previous article</a>, we had only a single page object called </span><strong><span data-preserver-spaces="true">BingMainPage</span></strong><span data-preserver-spaces="true"> containing all of the logic. However, for this extended scenario, we will create an additional page called </span><strong><span data-preserver-spaces="true">ResultDetailedPage</span></strong><span data-preserver-spaces="true">. In many cases, we don’t need to navigate to a particular page because it is just part of the workflow, the same way the results page right now is part of the search workflow. We cannot go to it directly only by navigating. This is why we will create two separate base classes in the solution, one for the navigatable pages and another for simpler pages. We will enhance the navigatable pages with the <strong>Template Method</strong> Design Pattern’s integration so that we are sure the page is fully loaded before we start interacting with it, avoiding any potential errors.</span></p>
+<h2><strong>Template Method Design Pattern</strong></h2>
+<h4><strong><span lang="EN-AU">Definition</span><span lang="EN-AU">: </span></strong></h4>
+<p>The Template Method <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener">design pattern</a> defines a skeleton/structure of an algorithm in a base class and then leaves its specific implementation to the child classes.</p>
+<h4><strong>UML Class Diagram:</strong></h4>
+<p><img loading="lazy" class="alignnone wp-image-17320 size-full" title="template-method-design-pattern" src="https://blog.testproject.io/wp-content/uploads/2021/01/template-method-design-pattern.png" alt="template-method-design-pattern" width="535" height="342" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/template-method-design-pattern.png 535w, https://blog.testproject.io/wp-content/uploads/2021/01/template-method-design-pattern-512x327.png 512w" sizes="(max-width: 535px) 100vw, 535px"/></p>
+<h4><strong>Participants:</strong></h4>
+<p>The objects participating in this pattern are:</p>
+<ul>
+<li><strong>Abstract Class </strong>– defines the structure of the algorithm, usually uses abstract protected methods and a public method containing the algorithm.</li>
+<li><strong>Concrete Class </strong>– inherits the abstract class and implements the abstract methods as part of the defined algorithm.</li>
+</ul>
+<h2><strong>Template Method Design Pattern Implementation</strong></h2>
+<p>To incorporate the <strong>Template Method design pattern</strong>, we can include an abstract method in the navigatable page class. Its child classes can implement it and wait for their specific element to be displayed.</p>
+<p>First, I created a base class for all pages that we cannot go to directly. We reuse two components – the <strong>Driver</strong> instance and the <strong>GetElements</strong> method.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public abstract class WebPage&lt;TElements&gt;&#13;
+    where TElements : WebElements&#13;
+{&#13;
+    protected readonly IWebDriver Driver;&#13;
+&#13;
+    protected WebPage(IWebDriver driver)&#13;
+    {&#13;
+        Driver = driver;&#13;
+    }&#13;
+&#13;
+    protected TElements GetElements()&#13;
+    {&#13;
+        return (TElements)Activator.CreateInstance(typeof(TElements), new object[] { Driver });&#13;
+    }&#13;
+}</pre>
+<p><span data-preserver-spaces="true">Notice that we marked the class as abstract and as generic. The generic parameter is the type of our elements class, which contains all elements locators. Some people call it an element map. We need the generic parameter so that we can adequately implement the </span><strong><span data-preserver-spaces="true">GetElements</span></strong><span data-preserver-spaces="true"> method. You will notice a piece of more complicated code inside the method’s body. It uses the so-called Reflection API for creating an instance of the elements’ type by calling its constructor and passing the </span><strong><span data-preserver-spaces="true">Driver</span></strong><span data-preserver-spaces="true"> instance as a parameter.</span></p>
+<p><strong>NOTE: </strong>Reflection API in C# and Java allows you to examine the objects at runtime, manipulate internal properties, dynamically create an instance of a type, invoking its methods, or accessing its fields or properties no matter of their access modifiers.</p>
+<p>In the where clause we said that the elements’ type needs to derive from the base class called <strong>WebElements</strong>. This statement is called a generic constraint.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public abstract class WebElements&#13;
+{&#13;
+    protected readonly IWebDriver Driver;&#13;
+&#13;
+    protected WebElements(IWebDriver driver)&#13;
+    {&#13;
+        Driver = driver;&#13;
+    }&#13;
+}</pre>
+<p><span data-preserver-spaces="true">Here is how we use it. We use it, for now, to reuse the </span><strong><span data-preserver-spaces="true">IWebDriver</span></strong><span data-preserver-spaces="true"> instance again. In the future, we can add helper methods for easing the finding of elements.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public partial class MainPageElements : WebElements&#13;
+{&#13;
+    public MainPageElements(IWebDriver driver)&#13;
+        : base(driver)&#13;
+    {&#13;
+    }&#13;
+&#13;
+    public IWebElement GetSearchBox()&#13;
+    {&#13;
+        return Driver.FindElement(By.Id("sb_form_q"));&#13;
+    }&#13;
+&#13;
+    public IWebElement GetResultsCountDiv()&#13;
+    {&#13;
+        return Driver.FindElement(By.Id("b_tween"));&#13;
+    }&#13;
+   // rest of the elements&#13;
+}</pre>
+<p>Shall we discuss now the exciting part about integrating the <strong>Template Method Design Pattern</strong>? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> As we discussed we need a separate base page class for the pages to which we can navigate directly. Such a class will hold a property to the URL of the page and a method for navigating.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public abstract class NavigatableWebPage&lt;TElements&gt; : WebPage&lt;TElements&gt;&#13;
+    where TElements : WebElements&#13;
+{&#13;
+    private WebDriverWait _webDriverWait;&#13;
+&#13;
+    protected NavigatableWebPage(IWebDriver driver)&#13;
+        : base(driver)&#13;
+    {&#13;
+        _webDriverWait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));&#13;
+    }&#13;
+&#13;
+    protected abstract string Url { get; }&#13;
+&#13;
+    public TPage Open&lt;TPage&gt;()&#13;
+    {&#13;
+        Driver.Navigate().GoToUrl(Url);&#13;
+        WaitForPageLoad();&#13;
+        return (TPage)Activator.CreateInstance(typeof(TPage), new object[] { Driver });&#13;
+    }&#13;
+&#13;
+    protected void WaitForElementToExists(By by)&#13;
+    {&#13;
+        var js = (IJavaScriptExecutor)Driver;&#13;
+        _webDriverWait.Until(ExpectedConditions.ElementExists(by));&#13;
+    }&#13;
+&#13;
+    protected abstract void WaitForPageLoad();&#13;
+}</pre>
+<p><span data-preserver-spaces="true">To incorporate the pattern, we can include an abstract method in the navigatable page class. Its child classes can implement it and wait for their specific element to be displayed. After we open the page, we will wait for it to be fully loaded through the abstract </span><strong><span data-preserver-spaces="true">WaitForPageToLoad</span></strong><span data-preserver-spaces="true">. Each child class will be responsible for specifying what “fully loaded” means. </span></p>
+<p><span data-preserver-spaces="true">The usual approach is to wait for a particular element on the page is visible. This is why I added the helper protected method </span><strong><span data-preserver-spaces="true">WaitForElementToExists</span></strong><span data-preserver-spaces="true">. We can use it later in the concrete page models to wait for their specific web components to appear. Sometimes instead of waiting for an element to show up, you can wait for all AJAX or Angular requests to finish. </span></p>
+<p><span data-preserver-spaces="true">Lastly, the navigatable base class is marked again as abstract and generic. To follow the <a target="_blank" href="https://blog.testproject.io/2020/12/23/design-patterns-for-high-quality-automated-tests-fluent-api/" rel="noopener">fluent API</a> we developed in the first article from the series, we also use the Reflection API to create an instance of the page itself. We have the page type since I marked the </span><strong><span data-preserver-spaces="true">Open</span></strong><span data-preserver-spaces="true"> method as generic.</span></p>
+<p>This is how the <strong>MainPage</strong> changed:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">public class MainPage : NavigatableWebPage&lt;MainPageElements&gt;&#13;
+{&#13;
+    public MainPage(IWebDriver driver)&#13;
+        : base(driver)&#13;
+    {&#13;
+    }&#13;
+&#13;
+    protected override string Url =&gt; "http://www.bing.com/";&#13;
+&#13;
+    protected override void WaitForPageLoad()&#13;
+    {&#13;
+        WaitForElementToExists(By.Id("sb_form_q"));&#13;
+    }&#13;
+&#13;
+    public MainPage Search(string textToType)&#13;
+    {&#13;
+        GetElements().GetSearchBox().Clear();&#13;
+        GetElements().GetSearchBox().SendKeys(textToType);&#13;
+        GetElements().GetSearchBox().SendKeys(Keys.Enter);&#13;
+        return this;&#13;
+    }&#13;
+   // rest of the code&#13;
+}</pre>
+<p>The important part is that we override the URL and set it to the correct one. We also implemented the <strong>WaitForPageLoad</strong>, where we wait for the main search box to be displayed before starting acting on the page.</p>
+<p>Here is how our test looks:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="csharp">[TestMethod]&#13;
+public void AssertSearchImageResults()&#13;
+{&#13;
+    _bingPage&#13;
+            .Open&lt;MainPage&gt;()&#13;
+            .Search("automate the planet")&#13;
+            .ClickImages()&#13;
+            .SetSize(Sizes.Large)&#13;
+            .SetColor(Colors.BlackWhite)&#13;
+            .SetTypes(Types.Clipart)&#13;
+            .SetPeople(People.All)&#13;
+            .SetDate(Dates.PastYear)&#13;
+            .SetLicense(Licenses.All)&#13;
+            .ClickImageResult(1);&#13;
+    _resultDetailedPage.AssertResultTitle("Homepage - Automate The Planet")&#13;
+        .AssertResultLink("https://www.automatetheplanet.com/")&#13;
+        .ClickVisitSiteButton();&#13;
+&#13;
+    Assert.AreEqual("https://www.automatetheplanet.com/", _driver.Url);&#13;
+}</pre>
+<h2><strong>Summary</strong></h2>
+<p>Separating the base page class into two separate classes made our tests much more maintainable. But why? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f914.png" alt="🤔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The maintainability is connected with the future costs of fixing broken tests and adding new logic for automating a new website feature. The refactoring that we made will ease the addition of new logic. If we had left the previous implementation, this would mean that each time you need to change the navigation logic, you would change a single base class but at the same time affect all pages that should not be able to be opened directly. The changes helped us to follow the <strong>Single Responsibility Principle</strong> more closely as well.</p>
+<p>In the next part of the series, we will focus on another common problem in automated tests – test workflows.</p>
+<p>For a more detailed overview and usage of many more design patterns and best practices in automated testing, check my book “<a target="_blank" href="https://www.amazon.com/dp/B085L9W1KH" data-tcb-href="https://www.amazon.com/dp/B085L9W1KH" rel="noopener"><b><strong><span data-preserver-spaces="true">Design Patterns for High-Quality Automated Tests, C# Edition, High-Quality Tests Attributes, and Best Practices</span></strong></b></a><span data-preserver-spaces="true">“.  You can read part of three of the chapters here:</span></p>
+<p>Happy Testing! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</p></div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/02/04/design-patterns-for-high-quality-automated-tests-template-method/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Page objects vs. App actions in Cypress &#8211; Automated Visual Testing</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/page-objects-vs-app-actions-in-cypress-automated-visual-testing/</link>
 		
@@ -138,285 +673,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://applitools.com/blog/page-objects-app-actions-cypress/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Emotet’s Takedown: Have We Seen the Last of the Malware?</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/emotets-takedown-have-we-seen-the-last-of-the-malware/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 21:37:41 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Emotets]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Takedown]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/emotets-takedown-have-we-seen-the-last-of-the-malware/</guid>
-
-					<description><![CDATA[A week after law enforcement agencies said they took down Emotet, there has been no sign of the prolific malware.]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A week after law enforcement agencies said they took down Emotet, there has been no sign of the prolific malware.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/emotets-takedown-have-we-seen-the-last-of-the-malware/163636/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Second SolarWinds Attack Group Breaks into USDA Payroll — Report</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/second-solarwinds-attack-group-breaks-into-usda-payroll-report/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 21:22:49 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Breaks]]></category>
-		<category><![CDATA[Group]]></category>
-		<category><![CDATA[Payroll]]></category>
-		<category><![CDATA[Report]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[USDA]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/second-solarwinds-attack-group-breaks-into-usda-payroll-report/</guid>
-
-					<description><![CDATA[A second APT, potentially linked to the Chinese government, could be behind the Supernova malware. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A second APT, potentially linked to the Chinese government, could be behind the Supernova malware.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/second-solarwinds-attack-group-usda-payroll/163635/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New Malware Hijacks Kubernetes Clusters to Mine Monero</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/new-malware-hijacks-kubernetes-clusters-to-mine-monero/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 20:50:54 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Clusters]]></category>
-		<category><![CDATA[Hijacks]]></category>
-		<category><![CDATA[kubernetes]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Monero]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/new-malware-hijacks-kubernetes-clusters-to-mine-monero/</guid>
-
-					<description><![CDATA[Researchers warn that the Hildegard malware is part of &#8216;one of the most complicated attacks targeting Kubernetes.&#8217; Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Researchers warn that the Hildegard malware is part of &#8216;one of the most complicated attacks targeting Kubernetes.&#8217;<br />
-<br /><br />
-<br /><a href="https://threatpost.com/new-malware-hijacks-kubernetes-clusters-to-mine-monero/163629/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The state of app sec tools: 5 trends shaping the big shift in 2021</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-state-of-app-sec-tools-5-trends-shaping-the-big-shift-in-2021/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 18:15:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[big]]></category>
-		<category><![CDATA[sec]]></category>
-		<category><![CDATA[shaping]]></category>
-		<category><![CDATA[Shift]]></category>
-		<category><![CDATA[State]]></category>
-		<category><![CDATA[Tools]]></category>
-		<category><![CDATA[Trends]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-state-of-app-sec-tools-5-trends-shaping-the-big-shift-in-2021/</guid>
-
-					<description><![CDATA[Companies have for some time been focused on digitally transforming the business, especially in reaction to the COVID-19 pandemic. For]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Companies have for some time been <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">focused on digitally transforming the business</a>, especially in reaction to the COVID-19 pandemic. For developers, that means adopting an agile development methodology in a framework such as DevOps.</p>
-<p>Yet DevOps teams have to move beyond the <a target="_blank" href="https://techbeacon.com/security/12-app-sec-tool-trends-watch" rel="noopener">basic four categories of application security tools</a> (static analysis, dynamic analysis, interactive testing, and software component analysis, or SCA), according to experts. The entire team—developers, application security professionals, and IT operations—should <a target="_blank" href="https://content.microfocus.com/application-security-tb/appsec-tool-trends?lx=P_znZe&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">incorporate tools and processes </a>that support the full DevOps lifecycle, said Guy Podjarny, co-founder and president of software security and services firm Snyk.</p>
-<blockquote>
-<p>&#8220;Those classes of tools are no longer sufficient in the world of cloud-native applications. All of those tools—outside of SCA—are about finding vulnerabilities in your custom code, but increasingly that is only a portion of your overall application and only a small part of your risk.&#8221;<br />—<a target="_blank" href="https://twitter.com/guypod" rel="nofollow noopener">Guy Podjarny</a></p>
-</blockquote>
-<p>While recent recommendations for application security have suggested that more security processes be adopted by developers—in a move known as &#8220;<a target="_blank" href="https://techbeacon.com/app-dev-testing/shift-security-left-your-continuous-testing-3-key-focus-areas" rel="noopener">shifting left</a>&#8220;—companies need to find tools that support all the various functions inside a DevOps team, from developers to quality control to operations, as discussed in TechBeacon&#8217;s <a target="_blank" href="https://content.microfocus.com/appsec-tools-2021-tb/buyers-guide-appsec-tools-2021?lx=_uoJSd?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">Buyer&#8217;s Guide for Application Security Tools 2021</a>.</p>
-<p>Developers should use software component analysis and in-pipeline static code analysis to reduce vulnerabilities in code, while IT operations professionals need to move beyond web application firewalls and focus on containers and other infrastructure, according to the report.</p>
-<p>Here are five <a target="_blank" href="https://content.microfocus.com/appsec-tools-2021-tb/the-state-of-applica?lx=_uoJSd?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">key trends shaping the shift to more secure development</a> and deployment of software.</p>
-<h3>1. Security requires more than few classes of tools</h3>
-<p>Application security is often boiled down to four classes of tools: <a target="_blank" href="https://content.microfocus.com/appsec-tools-2021-tb/forrester-wave-sast-q1-2021?lx=_uoJSd?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">static analysis security testing (SAST)</a>, dynamic analysis security testing (DAST), runtime application self-protection (RASP), and software composition analysis (SCA). However, securing the entire application development and deployment pipeline requires a far greater set of tools and processes.</p>
-<p>Unit tests and linters help keep errors from becoming vulnerabilities. Threat modeling and attack testing give DevOps teams insight into how their application could be attacked. <a target="_blank" href="https://techbeacon.com/security/container-security-checklist-5-key-questions-answer" rel="noopener">Container security</a> and infrastructure controls can help prevent vulnerabilities from affecting deployment. And ongoing analysis of actual attack data can keep teams updated on the latest attacker tactics.</p>
-<p>The focus should be to incorporate security considerations during every step of the DevOps process, said Rohit Sethi, CEO of Security Compass, a security services firm.</p>
-<blockquote>
-<p>&#8220;Software development still emphasizes and promotes the &#8216;find-and-fix model,&#8217; which is one of the biggest perils of the security industry. Even if you shift left to scan for vulnerabilities earlier in the lifecycle, there is no substitution for building in security and compliance in by design.&#8221;<br />—<a target="_blank" href="https://www.linkedin.com/in/rohit-sethi-8429591/" rel="nofollow noopener">Rohit Sethi</a></p>
-</blockquote>
-<h3>2. Threat modeling becomes more important</h3>
-<p>In November, a group of 15 cybersecurity professionals <a target="_blank" href="https://techbeacon.com/security/threat-modeling-gets-its-manifesto-how-map-out-your-app-sec-risk" rel="noopener">created the Threat Modeling Manifesto</a> as a way to call attention to businesses&#8217; needs to better understand their risks. The document, modeled after <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-manifesto-20-whats-still-relevant-whats-not" rel="noopener">the Agile Manifesto</a> that is the basis of the agile development movement, promotes security as an ideal goal that takes continuous work and threat modeling as a way to understand the journey.</p>
-<p>Security needs to become more proactive, and threat modeling is one of the core tools that security teams and DevOps partners have to focus on understanding threats and create a secure architecture based on their risk profile, said Security Compass&#8217; Sethi.</p>
-<blockquote>
-<p>&#8220;Planning tools are underappreciated in this arena. Most of the tools—<a target="_blank" href="https://techbeacon.com/sast-dast-iast-rasp-pros-cons-how-choose" rel="noopener">SAST, DAST, IAST/RASP</a>—are reactionary tools focused on find and fix.&#8221;<br />—Rohit Sethi</p>
-</blockquote>
-<h3>3. Introduce security in simple ways to succeed</h3>
-<p>While the simple static code analysis tools known as linters that flag defects and code-quality errors to developers are widely adopted, they are not a replacement for the more in-depth, automated analysis provided by commercial SAST. That said, they are an excellent way to <a target="_blank" href="https://techbeacon.com/security/state-app-sec-testing-get-your-shift-secure-code" rel="noopener">insert code-checking into the development process</a>, allowing DevOps teams to adopt better technology as their processes and skills mature.</p>
-<p>Don&#8217;t ignore the ability of linting to gradually introduce developers to security testing, said Dan Cornell, chief technology officer of software security consulting firm Denim Group.</p>
-<p>Linting SAST tools and commercial-grade SAST tools have different enough characteristics that their deployment scenarios are potentially very different, he said.</p>
-<blockquote>
-<p>&#8220;The linting-style SAST tools can be a great entry point into deploying SAST, especially for organizations looking to incorporate security testing into pipelines to give some visibility to developers.&#8221;<br />—<a target="_blank" href="https://twitter.com/danielcornell" rel="nofollow noopener" style="color:#0096d6">Dan Cornell</a></p>
-</blockquote>
-<h3>4. More focus on open source and third-party suppliers</h3>
-<p>DevOps teams also have to expand their focus beyond their own code and look at the application and infrastructure components that create their software stack. While companies have increasingly adopted SCA, tools that measure the security of the containers used to host applications are only starting to take off.</p>
-<p>Like <a target="_blank" href="https://content.microfocus.com/application-security-tb/open-source-risks?lx=P_znZe&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">open-source components </a>that now make up more than 70% of the code in an average project, containers are the third-party infrastructure component that many companies rely on for deployment.</p>
-<p>Companies should appreciate that. Since they require their development teams to also manage containers and infrastructure, they need to equip them with the tools to do so securely, said Snyk&#8217;s Podjarny.</p>
-<blockquote>
-<p>&#8220;That means including container security in the context of software development, not just runtime, and infrastructure as code, such as securing Kubernetes configuration, Terraform clusters, and others.&#8221;<br />—Guy Podjarny</p>
-</blockquote>
-<h3>5. Mistakes continue to be the greatest threat</h3>
-<p>Cloud-native development teams can easily deploy their application, but also often find fewer checks in place to prevent mistakes. For that reason, tools that examine the <a target="_blank" href="https://techbeacon.com/security/state-cloud-security-privacy-5-key-trends-watch" rel="noopener">security of cloud environments </a>have become more popular, from checking the configuration of Amazon S3 buckets and MongoDB databases to finding insecure implementations of APIs and accidentally published development keys.</p>
-<p>These tools can help teams developing cloud-native applications identify potential risks in the environments into which they’ll be deployed, said Denim Group&#8217;s Cornell.</p>
-<blockquote>
-<p>&#8220;Cloud-native development teams need better frameworks to make sense of these disparate sources of potential vulnerabilities and weaknesses in order to prioritize remediation activities.&#8221;<br />—Dan Cornell</p>
-</blockquote>
-<h3>Focus on DevOps team maturity</h3>
-<p>The trends are different for every team. The approach a company should take to incorporating more security tools and processes into its DevOps pipeline is not determined by the tools, but by the DevOps team&#8217;s maturity, said Denim Group&#8217;s Cornell:</p>
-<blockquote>
-<p>&#8220;Tool deployment priorities really aren’t tied to years or periods of calendar time. Instead, organizations should look at the level of maturity of their testing programs, their goals, and select next steps based on those criteria.&#8221;</p>
-</blockquote>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/state-app-sec-tools-5-trends-shaping-big-shift-2021">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Five Critical Android Bugs Patched, Part of Feb. Security Bulletin</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/five-critical-android-bugs-patched-part-of-feb-security-bulletin/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 15:40:01 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Bugs]]></category>
-		<category><![CDATA[Bulletin]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Feb]]></category>
-		<category><![CDATA[Part]]></category>
-		<category><![CDATA[Patched]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/five-critical-android-bugs-patched-part-of-feb-security-bulletin/</guid>
-
-					<description><![CDATA[February’s security update for the mobile OS includes a Qualcomm flaw rated critical, with a CVSS score of 9.8. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />February’s security update for the mobile OS includes a Qualcomm flaw rated critical, with a CVSS score of 9.8.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/five-critical-bugs-patched-feb-security-bulletin/163623/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SolarWinds Orion Bug Allows Easy Remote-Code Execution and Takeover</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-orion-bug-allows-easy-remote-code-execution-and-takeover/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 11:00:21 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Easy]]></category>
-		<category><![CDATA[Execution]]></category>
-		<category><![CDATA[Orion]]></category>
-		<category><![CDATA[RemoteCode]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<category><![CDATA[Takeover]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/solarwinds-orion-bug-allows-easy-remote-code-execution-and-takeover/</guid>
-
-					<description><![CDATA[The by-now infamous company has issued patches for three security vulnerabilities in total. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The by-now infamous company has issued patches for three security vulnerabilities in total.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/solarwinds-orion-bug-remote-code-execution/163618/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>TrickBot Continues Resurgence with Port-Scanning Module</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/trickbot-continues-resurgence-with-port-scanning-module/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 21:38:50 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[continues]]></category>
-		<category><![CDATA[Module]]></category>
-		<category><![CDATA[PortScanning]]></category>
-		<category><![CDATA[Resurgence]]></category>
-		<category><![CDATA[TrickBot]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/trickbot-continues-resurgence-with-port-scanning-module/</guid>
-
-					<description><![CDATA[The infamous malware has incorporated the legitimate Masscan tool, which looks for open TCP/IP ports with lightning-fast results. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The infamous malware has incorporated the legitimate Masscan tool, which looks for open TCP/IP ports with lightning-fast results.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/trickbot-port-scanning-module/163615/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Crypto Crook Hired Steven Seagal to Promote Scam, Now Faces Charges</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/crypto-crook-hired-steven-seagal-to-promote-scam-now-faces-charges/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 18:17:18 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Charges]]></category>
-		<category><![CDATA[Crook]]></category>
-		<category><![CDATA[Crypto]]></category>
-		<category><![CDATA[Faces]]></category>
-		<category><![CDATA[Hired]]></category>
-		<category><![CDATA[Promote]]></category>
-		<category><![CDATA[scam]]></category>
-		<category><![CDATA[Seagal]]></category>
-		<category><![CDATA[Steven]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/crypto-crook-hired-steven-seagal-to-promote-scam-now-faces-charges/</guid>
-
-					<description><![CDATA[Feds charged California-based private detective for stealing $11M from investors, with help from actor Steven Seagal. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Feds charged California-based private detective for stealing $11M from investors, with help from actor Steven Seagal.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/crypto-crook-steven-segal-scam/163612/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Tiny Kobalos Malware Bedevils Supercomputers to Steal Logins</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/tiny-kobalos-malware-bedevils-supercomputers-to-steal-logins/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 02 Feb 2021 17:37:56 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bedevils]]></category>
-		<category><![CDATA[Kobalos]]></category>
-		<category><![CDATA[Logins]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Steal]]></category>
-		<category><![CDATA[Supercomputers]]></category>
-		<category><![CDATA[Tiny]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tiny-kobalos-malware-bedevils-supercomputers-to-steal-logins/</guid>
-
-					<description><![CDATA[The sophisticated backdoor steals SSH credentials for servers in academic and scientific high-performance computing clusters. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The sophisticated backdoor steals SSH credentials for servers in academic and scientific high-performance computing clusters.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/kobalos-malware-supercomputers-logins/163604/">Source link </a></p>
 ]]></content:encoded>
 					
 		
