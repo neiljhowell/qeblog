@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Sat, 06 Feb 2021 20:26:32 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 08 Feb 2021 04:35:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,376 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test Automation Framework &#8211; Page Object Model Example</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-page-object-model-example/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 04:35:17 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Framework]]></category>
+		<category><![CDATA[Model]]></category>
+		<category><![CDATA[Object]]></category>
+		<category><![CDATA[Page]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-page-object-model-example/</guid>
+
+					<description><![CDATA[In this article, let us look at an example Page Object Model (POM) for a Test Automation Framework. POM is]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>In this article, let us look at an example Page Object Model (POM) for a Test Automation Framework. POM is a popular <a target="_blank" href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" rel="noopener">design pattern</a> with classes that represent each page of an application. In some cases, it represents a repeating element such as a menu, header, footer, or widget. By the end of this article, you will read about TestProject’s <a target="_blank" href="https://blog.testproject.io/#HowToInstallSeleniumDrivers" rel="noopener">agent</a> and <a target="_blank" href="https://blog.testproject.io/#HowToCreateToken" rel="noopener">development token</a>.</p>
+<ul>
+<li>The agent installs Selenium drivers.</li>
+<li>The development token is used by the open-source OpenSDK for communication between the agent and TestProject’s platform.</li>
+</ul>
+<p>In addition to the agent and development token, we are going to <a target="_blank" href="https://blog.testproject.io/#ModelYourFirstPage" rel="noopener">model our first POM</a>, <a target="_blank" href="https://blog.testproject.io/#HowToBuildCSS" rel="noopener">build a CSS Strategy using Chrome Developer Tools</a>, <a target="_blank" href="https://blog.testproject.io/#CreateTestClass" rel="noopener">create a Test Class</a>, then <a target="_blank" href="https://blog.testproject.io/#ViewExampleReport" rel="noopener">view an example report</a> in TestProject. The code will be placed on GitHub at <a target="_blank" href="https://github.com/RexJonesII/TestProject-POM-CI_CD.git" rel="noopener">https://github.com/RexJonesII/TestProject-POM-CI_CD.git</a></p>
+<h2><strong>Table of Contents</strong></h2>
+<ul>
+<li>Benefits – Test Automation Framework
+</li>
+<li>Example – Test Automation Framework
+</li>
+</ul>
+<h2><a target="_blank" id="HowToInstallSeleniumDrivers" rel="noopener"><strong>How To Install Selenium Drivers via TestProject’s Agent</strong></h2>
+<p>The agent from TestProject is a free wrapper that comes with Selenium and Appium dependencies. As a result, we have benefits for testing web and mobile applications. We can install the agent on our local machine, virtual machine, or Docker container. The operating systems include Windows, Mac, and Linux. While installing our agent, the drivers are automatically consolidated for each browser.</p>
+<p>Here are the steps for installing TestProject’s agent:</p>
+<ol>
+<li><a target="_blank" href="https://app.testproject.io/" rel="noopener">Log into TestProject</a> (or <a target="_blank" href="https://app.testproject.io/signup/" rel="noopener">sign up</a> to create a new account if you don’t have one yet. Don’t worry, it’s 100% free)</li>
+<li>Click the <strong>Agents</strong> menu</li>
+<li>Select the <a target="_blank" href="https://youtu.be/6TWgSBPP2YU" rel="noopener"><strong>Download Agent</strong></a> button
+<ul>
+<li>Available for Windows, Mac, and Linux</li>
+<li>Available for Docker</li>
+</ul>
+</li>
+</ol>
+<p></p>
+<p><img loading="lazy" class="alignnone wp-image-16834 size-full" title="TestProject Agent Download" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.2-Download-Agent.png" alt="TestProject Agent Download" width="887" height="643" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.2-Download-Agent.png 887w, https://blog.testproject.io/wp-content/uploads/2021/01/16.2-Download-Agent-512x371.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.2-Download-Agent-768x557.png 768w" sizes="(max-width: 887px) 100vw, 887px"/></p>
+<p>We can also hover over the <strong>Agents</strong> menu and select <strong>Download An Agent</strong>. After installing the agent, we must make sure it is running to register the agent. We register by hovering over the Agents menu then selecting Register An Agent. In the background, our agent provides a way to control our devices while maintaining a way to share our Test Scripts.</p>
+<p><img loading="lazy" class="alignnone wp-image-16835" title="Select OS for TestProject Agent Download" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.3-Agent-Ment.png" alt="Select OS for TestProject Agent Download" width="590" height="597"/></p>
+<h2><a target="_blank" id="HowToCreateToken" rel="noopener"><strong>How To Create Development Token</strong></h2>
+<p>The purpose of a development token is to help <a target="_blank" href="https://docs.testproject.io/testproject-sdk/opensdk-v2" rel="noopener">TestProject’s OpenSDK</a> communicate with the agent and platform. We configure the token by defining it as an environment variable or adding it as a parameter in the driver’s constructor.</p>
+<ul>
+<li>The environment variable is <strong>TP_DEV_TOKEN</strong>.</li>
+<li>Example constructor syntax is <strong>ChromeDriver driver = new ChromeDriver (“token”);</strong></li>
+</ul>
+<p>Here are the steps for creating a developer token:</p>
+<ol>
+<li><a target="_blank" href="https://app.testproject.io/" rel="noopener">Log into TestProject</a></li>
+<li>Click the <strong>Integrations</strong> menu</li>
+<li>Click <strong>Display token</strong> to receive your token</li>
+</ol>
+<p><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <u>Note</u>: A new token can be created after clicking the circular icon</p>
+<p><img loading="lazy" class="alignnone wp-image-16836 size-full" title="Get developer token" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.4-Developer-Key.png" alt="Get developer token" width="888" height="664" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.4-Developer-Key.png 888w, https://blog.testproject.io/wp-content/uploads/2021/01/16.4-Developer-Key-512x383.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.4-Developer-Key-768x574.png 768w" sizes="(max-width: 888px) 100vw, 888px"/></p>
+<p>From the screenshot, we see TestProject’s OpenSDK is available for Java, C#, and Python. It’s 1 solution for our end-to-end Test Automation Scripts.</p>
+<ul>
+<li>Step 2 allows us to select the programming language.</li>
+<li>Step 3 installs the OpenSDK.</li>
+<li>Step 4 provides examples and documentation for the OpenSDK.</li>
+</ul>
+<h2><a target="_blank" id="ModelYourFirstPage" rel="noopener"><strong>Model Your First Page Object Model (POM)</strong></h2>
+<p>TestProject supports POM in our coded test and when using the <a target="_blank" href="https://testproject.io/ai-tools/" rel="noopener">AI-Powered</a> Test Recorder. The POM is an efficient approach for managing our Test Scripts. There are 3 components in a <a target="_blank" href="https://blog.testproject.io/2021/01/06/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit/#POMBenefits" rel="noopener">POM</a> whereby the Test Scripts are stored separately from the Page Objects:</p>
+<ol>
+<li><a target="_blank" href="https://blog.testproject.io/#WebPages" rel="noopener">Web Pages</a> are pages in our Application Under Test (AUT).</li>
+<li><a target="_blank" href="https://blog.testproject.io/#PageObjects" rel="noopener">Page Objects</a> are class files representing a web page or repeating elements on a web page.</li>
+<li><a target="_blank" href="https://blog.testproject.io/#FormTest" rel="noopener">Test Scripts</a> are logical automation steps for testing an AUT.</li>
+</ol>
+<h3><a target="_blank" id="WebPages" rel="noopener"><strong>Web Pages</strong></h3>
+<p>In this POM model, there will be two Web Pages from TestProject’s <a target="_blank" href="https://example.testproject.io/web/index.html" rel="noopener">Example Page</a>: Login page and Form page. The Login page contains 3 elements and the Form page contains 6 elements for our POM.</p>
+<ul>
+<li>Login page
+<ol>
+<li>Full Name field</li>
+<li>Password field</li>
+<li>Login button</li>
+</ol>
+</li>
+<li>Form Page
+<ol>
+<li>Country dropdown</li>
+<li>Address field</li>
+<li>Email field</li>
+<li>Phone field</li>
+<li>Save button</li>
+<li>Confirmation message</li>
+</ol>
+</li>
+</ul>
+<p><img loading="lazy" class="alignnone wp-image-16837" title="Login page" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.5-Login-Page-512x338.png" alt="Login page" width="588" height="388" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.5-Login-Page-512x338.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.5-Login-Page.png 617w" sizes="(max-width: 588px) 100vw, 588px"/><br /><img loading="lazy" class="alignnone wp-image-16838" title="Form page" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.6-Form-Page-512x411.png" alt="Form page" width="590" height="474" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.6-Form-Page-512x411.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.6-Form-Page.png 617w" sizes="(max-width: 590px) 100vw, 590px"/></p>
+<h3><a target="_blank" id="PageObjects" rel="noopener"><strong>Page Objects</strong></h3>
+<h4><a target="_blank" id="BasePage" rel="noopener"><strong>BasePage</strong></h4>
+<p>For a Page Object, it’s optional to include a BasePage. However, the objective of a BasePage is to operate as a superclass with common actions that will be used across other Page Objects. In our model, 2 common actions are typing text into a field and clicking a button. The following BasePage class has a method for type and click.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">package pages;&#13;
+&#13;
+import org.openqa.selenium.By;&#13;
+import org.openqa.selenium.WebDriver;&#13;
+import org.openqa.selenium.WebElement;&#13;
+&#13;
+public class BasePage {&#13;
+&#13;
+  protected WebDriver driver;&#13;
+&#13;
+  public BasePage (WebDriver driver) {&#13;
+    this.driver = driver;&#13;
+  }&#13;
+&#13;
+  protected WebElement find (By locator) {&#13;
+    return driver.findElement(locator);&#13;
+  }&#13;
+&#13;
+  protected void type (String text, By locator) {&#13;
+    find(locator).sendKeys(text);&#13;
+  }&#13;
+&#13;
+  protected void click (By locator) {&#13;
+    find(locator).click();&#13;
+  }&#13;
+}</pre>
+<p>In addition to the common actions, our BasePage contains a constructor and find method. Here’s a breakdown of the BasePage:</p>
+<ul>
+<li><strong>public BasePage() </strong>is the constructor designed to accept a WebDriver driver parameter. The driver will access our browser and locate elements.</li>
+<li><strong>protected WebElement find ()</strong> improves readability and reduces code duplication by not writing driver.findElement() in the common method actions. For example, the type and click methods implement <u>find()</u> rather than writing <u>findElement()</u> when locating an element. The By locator parameter accepts a Selenium locator such as id, XPath, and cssSelector.</li>
+<li><strong><a target="_blank" id="type" rel="noopener">protected void type ()</strong> enters data into a field using the sendKeys method. The String text parameter receives data while By locator receives a Selenium locator. find(locator) locates an element such as the text field.</li>
+<li><strong><a target="_blank" id="click" rel="noopener">protected void click ()</strong> clicks a button on the Login and Form pages. When applicable, this method can also be used to click a link, radio button, or checkbox. The By locator parameter receives a Selenium locator while find(locator) locates the Login and Save buttons.</li>
+</ul>
+<h4><a target="_blank" id="LoginPage" rel="noopener"><strong>LoginPage</strong></h4>
+<p>The LoginPage has 3 variables, 1 constructor, and 3 methods for logging into TestProject’s <a target="_blank" href="https://example.testproject.io/web/index.html" rel="noopener">Example Page</a>. Here’s the code snippet displaying LoginPage extending BasePage so LoginPage can leverage the type and click methods.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">package pages;&#13;
+&#13;
+import org.openqa.selenium.By;&#13;
+import org.openqa.selenium.WebDriver;&#13;
+&#13;
+public class LoginPage extends BasePage {&#13;
+&#13;
+  private By fullNameField = By.id("name");&#13;
+  private By passwordField = By.id("password");&#13;
+  private By loginButton = By.id("login");&#13;
+&#13;
+  public LoginPage (WebDriver driver) {&#13;
+    super(driver);&#13;
+  }&#13;
+&#13;
+  public void setFullName (String fullName) {&#13;
+    type(fullName, fullNameField);&#13;
+  }&#13;
+&#13;
+  public void setPassword (String password) {&#13;
+    type(password, passwordField);&#13;
+  }&#13;
+&#13;
+  public FormPage clickLoginButton () {&#13;
+    click(loginButton);&#13;
+    return new FormPage(driver);&#13;
+  }&#13;
+}&#13;
+</pre>
+<ul>
+<li>Variables
+<ol>
+<li>private By fullNameField</li>
+<li>private By passwordField</li>
+<li>private By loginButton</li>
+</ol>
+</li>
+<li>Constructor = public LoginPage (WebDriver driver)</li>
+<li>Methods
+<ol>
+<li>public void setFullName (String fullName)</li>
+<li>public void setPassword (String password)</li>
+<li>public FormPage clickLoginButton ()</li>
+</ol>
+</li>
+</ul>
+<p>The <a target="_blank" id="variables" rel="noopener">variables are private so only methods in the LoginPage have access to them. By is a class for locating each element. The <a target="_blank" id="constructor" rel="noopener">constructor calls super(driver) so it can load the constructor from our BasePage. When it comes to methods, this LoginPage class has 2 types of methods:</p>
+<ol>
+<li><strong>Setter method</strong> helps create a test to interact with our application.</li>
+<li><strong>Transition method</strong> helps our Test Script adapt when a page changes in the application.</li>
+</ol>
+<p>The setter methods are setFullName() and setPassword(). Notice how both methods take advantage of <a target="_blank" href="https://blog.testproject.io/#type" rel="noopener">type()</a> from our BasePage.</p>
+<ul>
+<li><strong>type(fullName, fullNameField)</strong> = only write <strong>type</strong> then <strong>fullName</strong> followed by the <strong>fullNameField</strong> variable</li>
+<li><strong>type(password, passwordField)</strong> = only write <strong>type</strong> then <strong>password</strong> followed by the <strong>passwordField</strong> variable</li>
+</ul>
+<p>The transition method is clickLoginButton(). It’s called a transition method because the application transitions from the Login Page to the Form Page after clicking the Login button. Our return type is FormPage followed by the method name clickLoginButton. The return type and return new <strong>FormPage(driver)</strong> complete the transition method. Our BasePage is called again via click then we pass in the loginButton variable.</p>
+<h4><strong>FormPage</strong></h4>
+<p>The FormPage has 6 variables, 1 constructor, and 3 methods. Here’s the code snippet for selecting a country, entering data, and clicking the Save button on TestProject’s <a target="_blank" href="https://example.testproject.io/web/index.html" rel="noopener">Example Page</a>.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">package pages;&#13;
+&#13;
+import org.openqa.selenium.By;&#13;
+import org.openqa.selenium.WebDriver;&#13;
+import org.openqa.selenium.support.ui.Select;&#13;
+&#13;
+public class FormPage extends BasePage {&#13;
+&#13;
+  private By countryDropDown = By.id("country");&#13;
+  private By addressField = By.cssSelector("#address");&#13;
+  private By emailAddressField = By.cssSelector("#email");&#13;
+  private By phoneNumberField = By.xpath("//input[@id='phone']");&#13;
+  private By saveButton = By.xpath("//button[@id='save']");&#13;
+  private By confirmationMessage = By.cssSelector("#saved span");&#13;
+&#13;
+  public FormPage (WebDriver driver) {&#13;
+    super(driver);&#13;
+  }&#13;
+&#13;
+  public void selectFromCountryDropDown (String value) {&#13;
+    Select country = new Select(find(countryDropDown));&#13;
+    country.selectByVisibleText(value);&#13;
+  }&#13;
+&#13;
+  public void completeForm (String country, String address, String email, String phone) {&#13;
+    selectFromCountryDropDown(country);&#13;
+    type(address, addressField);&#13;
+    type(email, emailAddressField);&#13;
+    type(phone, phoneNumberField);&#13;
+    click(saveButton);&#13;
+  }&#13;
+&#13;
+  public String getConfirmationMessage () {&#13;
+    return find(confirmationMessage).getText();&#13;
+  }&#13;
+}</pre>
+<p>The same concept exists for our <a target="_blank" href="https://blog.testproject.io/#variables" rel="noopener">variables</a> and <a target="_blank" href="https://blog.testproject.io/#constructor" rel="noopener">constructor</a> regarding both Page Objects. However, there are 2 different types of methods. It has a Convenience method and Getter method.</p>
+<ol>
+<li><strong>Convenience method</strong> combines multiple methods.</li>
+<li><strong>Getter method</strong> gets the state of our application.</li>
+</ol>
+<p>The convenience method is <strong>completeForm()</strong> and it accepts several parameters with multiple methods. Parameters are country, address, email, and phone while the methods are selectFromCountryDropDown, type, and click. First method selectFromCountryDropDown() was created in this FormPage class but type and click leverage the <a target="_blank" href="https://blog.testproject.io/#BasePage" rel="noopener">BasePage</a>.</p>
+<p>The getter method is <strong>getConfirmationMessage()</strong> which gets a message after saving the form. It finds the confirmation message and returns the text via Selenium’s getText method. Here’s a screenshot of the confirmation message labeled “Saved”.</p>
+<p><img loading="lazy" class="alignnone wp-image-16839" title="Saved form" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.7-Confirmation-Message-512x430.png" alt="Saved form" width="586" height="492" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.7-Confirmation-Message-512x430.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.7-Confirmation-Message.png 621w" sizes="(max-width: 586px) 100vw, 586px"/></p>
+<h2><a target="_blank" id="HowToBuildCSS" rel="noopener"><strong>How To Build CSS Strategy Using Chrome Developer Tools</strong></h2>
+<p><a target="_blank" href="https://blog.testproject.io/2019/11/26/next-generation-front-end-testing-using-webdriver-and-devtools-part-1/" rel="noopener">Chrome Developer Tools</a> is a set of tools built into Chrome and Edge. Both browsers provide ways to gain more knowledge about a web application. It has several tabs such as Elements, Console, Sources, Network, Performance, Memory, Application, Security, and Lighthouse. In the Elements tab, we can inspect an element by finding a string, selector, or XPath. Here are a screenshot and code snippet of the Login page inspecting the Full Name field.</p>
+<p><img loading="lazy" class="alignnone wp-image-16840 size-full" title="Element locator strategy" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.8-Inspect-Full-Name.png" alt="Element locator strategy" width="888" height="602" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.8-Inspect-Full-Name.png 888w, https://blog.testproject.io/wp-content/uploads/2021/01/16.8-Inspect-Full-Name-512x347.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.8-Inspect-Full-Name-768x521.png 768w" sizes="(max-width: 888px) 100vw, 888px"/></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="html">&lt;input id="name" type="text" class="form-control" placeholder="Enter your full name" required=""&gt;</pre>
+<p>It’s best to find an element when the DOM has an id attribute with a unique value. In this example, the id attribute has a value of name. As a result, we can quickly find the element using CSS Selector by writing <strong>#name</strong> in the Find by string, selector, or XPath text field.</p>
+<p><img loading="lazy" class="alignnone wp-image-16841" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.9-Full-Name-CSS-Selector-512x145.png" alt="Inspect using Developer Tools" width="593" height="168" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.9-Full-Name-CSS-Selector-512x145.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.9-Full-Name-CSS-Selector-768x218.png 768w, https://blog.testproject.io/wp-content/uploads/2021/01/16.9-Full-Name-CSS-Selector.png 887w" sizes="(max-width: 593px) 100vw, 593px"/></p>
+<p>Notice how the <strong>input tag</strong> is highlighted yellow after writing <strong>#name</strong> in the text field. That means the Full Name element was successfully located in the DOM. However, in the Selenium automation code, we have the option of choosing <a target="_blank" href="https://blog.testproject.io/2021/01/06/test-automation-framework-benefits-pom-selenium-locators-opensdk-junit/#LocatorBenefits" rel="noopener">different locators</a>.</p>
+<p>Recall the <a target="_blank" href="https://blog.testproject.io/#LoginPage" rel="noopener">LoginPage</a> class used an id locator for the fullNameField, passwordField, and loginButton variables. It’s not a requirement but many engineers start with the Selenium id locator if the <strong>id</strong> is available in the DOM.</p>
+<p><img loading="lazy" class="alignnone wp-image-16842" title="Elements located by ID" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.10-LoginPage-Variables-512x152.png" alt="Elements located by ID" width="596" height="177" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.10-LoginPage-Variables-512x152.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.10-LoginPage-Variables.png 581w" sizes="(max-width: 596px) 100vw, 596px"/></p>
+<p>Like the Full Name field, most elements (Country, Address, Email, Phone, Save) contain an id attribute on the Form page. Therefore, we can use the Selenium id locator for each variable. However, the FormPage class uses a combination of id, cssSelector, and xpath as the <a target="_blank" href="https://blog.testproject.io/category/selenium/" rel="noopener">Selenium</a> locators.</p>
+<p><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2757.png" alt="❗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Note: We probably would not use a combination of locators if our preferred locators were applicable for finding an element.</p>
+<p>Let’s look at the cssSelector and XPath values. The following is a screenshot of Address located using CSS Selector and variables from our FormPage class.</p>
+<p><img loading="lazy" class="alignnone wp-image-16843 size-full" title="Css Selector in Developer Tools" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.11-Inspect-Address.png" alt="Css Selector in Developer Tools" width="888" height="550" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.11-Inspect-Address.png 888w, https://blog.testproject.io/wp-content/uploads/2021/01/16.11-Inspect-Address-512x317.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.11-Inspect-Address-768x476.png 768w" sizes="(max-width: 888px) 100vw, 888px"/></p>
+<p><img loading="lazy" class="alignnone wp-image-16844" title="Using different locator strategies" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.12-FormPage-Variables-512x172.png" alt="Using different locator strategies" width="595" height="200" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.12-FormPage-Variables-512x172.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.12-FormPage-Variables.png 745w" sizes="(max-width: 595px) 100vw, 595px"/></p>
+<p>The addressField and emailAddressField use cssSelector with a value starting with #.</p>
+<ul>
+<li>addressField = By.cssSelector(“#address”);</li>
+<li>emailAddressField = By.cssSelector(“#email”)</li>
+</ul>
+<p>It’s different for the Phone field and Save button. They use XPath as the Selenium locator. We are going to use the Save button as an example.</p>
+<p><img loading="lazy" class="alignnone wp-image-16845 size-full" title="XPath example" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.13-Save-Button.png" alt="XPath example" width="887" height="347" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.13-Save-Button.png 887w, https://blog.testproject.io/wp-content/uploads/2021/01/16.13-Save-Button-512x200.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.13-Save-Button-768x300.png 768w" sizes="(max-width: 887px) 100vw, 887px"/></p>
+<p>In the AUT and Page Object class, the XPath value for the Save button is <strong>//button[@id=’save’]</strong>.</p>
+<ul>
+<li><strong>button</strong> is the tag name</li>
+<li><strong>@id</strong> identifies the attribute name</li>
+<li><strong>‘save’</strong> shows the value for id is save</li>
+</ul>
+<p>The confirmationMessage is different from all other variables in our Page Objects. It does not have an id value and must use cssSelector or XPath. For this example, the cssSelector is shorter than XPath so our FormPage class assigns the variable to <strong>#saved span</strong>. The value for XPath is <strong>//div[@id=’saved’]/h3/span</strong>.</p>
+<p><img loading="lazy" class="alignnone wp-image-16846 size-full" title="Css example" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.14-Confirmation-CSS-Selector.png" alt="Css example" width="883" height="454" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.14-Confirmation-CSS-Selector.png 883w, https://blog.testproject.io/wp-content/uploads/2021/01/16.14-Confirmation-CSS-Selector-512x263.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.14-Confirmation-CSS-Selector-768x395.png 768w" sizes="(max-width: 883px) 100vw, 883px"/></p>
+<p><img loading="lazy" class="alignnone wp-image-16847 size-full" title="Css example" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.15-Confirmation-XPath.png" alt="Css example" width="889" height="449" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.15-Confirmation-XPath.png 889w, https://blog.testproject.io/wp-content/uploads/2021/01/16.15-Confirmation-XPath-512x259.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.15-Confirmation-XPath-768x388.png 768w" sizes="(max-width: 889px) 100vw, 889px"/></p>
+<h2><a target="_blank" id="CreateTestClass" rel="noopener"><strong>Create Test Class Using POM and TestProject’s OpenSDK</strong></h2>
+<p>The Test Classes consist of a class for our BaseTest and a class for executing our automation steps.</p>
+<h3><strong>BaseTest</strong></h3>
+<p>The purpose of our BaseTest is similar to a BasePage. It serves as a parent class that will be extended by child classes. The common methods across each Test Class are set up and tear down our test. Set up methods are annotated with @BeforeClass while tear down methods are annotated with @AfterClass. We use a Test Framework like <a target="_blank" href="https://blog.testproject.io/2019/02/26/junit-5/" rel="noopener">JUnit</a> or <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/" rel="noopener">TestNG</a> for testing java classes. Here’s the code snippet for BaseTest.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">package tests;&#13;
+&#13;
+import io.github.bonigarcia.wdm.WebDriverManager;&#13;
+import io.testproject.sdk.drivers.web.ChromeDriver;&#13;
+import org.openqa.selenium.chrome.ChromeOptions;&#13;
+import org.testng.annotations.AfterClass;&#13;
+import org.testng.annotations.BeforeClass;&#13;
+import pages.LoginPage;&#13;
+&#13;
+public class BaseTest {&#13;
+  protected ChromeDriver driver;&#13;
+  private final String URL = "https://example.testproject.io/web/index.html";&#13;
+  protected LoginPage loginPage;&#13;
+&#13;
+  @BeforeClass&#13;
+  public void setUp () throws Exception {&#13;
+    WebDriverManager.chromedriver().setup();&#13;
+&#13;
+    driver = new ChromeDriver(&#13;
+            "add token value from TestProject",&#13;
+            new ChromeOptions(),&#13;
+            "My first Project");&#13;
+    driver.manage().window().maximize();&#13;
+    driver.get(URL);&#13;
+    loginPage = new LoginPage(driver);&#13;
+  }&#13;
+&#13;
+  @AfterClass&#13;
+  public void tearDown () throws Exception {&#13;
+    driver.quit();&#13;
+  }&#13;
+}</pre>
+<p>TestProject’s OpenSDK looks just like pure Selenium code. That’s the benefit of using <a target="_blank" href="https://testproject.io/" rel="noopener">TestProject</a>. There’s not a learning curve if you are already familiar with Selenium commands. The ChromeDriver import statement is <strong>import io.testproject.sdk.drivers.web.ChromeDriver</strong> which initiates a new session with the Agent using a provided token and project name.</p>
+<p><img loading="lazy" class="alignnone wp-image-16848 size-full" title="Initialize ChromeDriver using TestProject" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.16-ChromeDriver.png" alt="Initialize ChromeDriver using TestProject" width="810" height="552" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.16-ChromeDriver.png 810w, https://blog.testproject.io/wp-content/uploads/2021/01/16.16-ChromeDriver-512x349.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.16-ChromeDriver-768x523.png 768w" sizes="(max-width: 810px) 100vw, 810px"/></p>
+<p>Within the setup() method, we add the <a target="_blank" href="https://blog.testproject.io/##HowToCreateToken" rel="noopener">token value</a> from TestProject, new ChromeOptions(), then include a project name. The application is loaded by writing driver.get(URL) and we quit the browser via teardown() method.</p>
+<h3><a target="_blank" id="FormTest" rel="noopener"><strong>FormTest</strong></h3>
+<p>The FormTest class contains easy to read steps for completing the form. They are easy to read because our Page Objects and BaseTest incorporate most of the work. Page Object classes utilize Object-Oriented Programming (OOP) principles and incorporate Selenium WebDriver methods. The BaseTest makes sure our Pre-Conditions and Post-Conditions are in place. Here’s the code snippet for the FormTest class.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="java">package tests;&#13;
+&#13;
+import org.testng.Assert;&#13;
+import org.testng.annotations.Test;&#13;
+import pages.FormPage;&#13;
+&#13;
+public class FormTest extends BaseTest {&#13;
+&#13;
+  @Test&#13;
+  public void logIntoTestProjectExamplePage () {&#13;
+&#13;
+    loginPage.setFullName("Rex Jones II");&#13;
+    loginPage.setPassword("12345");&#13;
+    FormPage formPage = loginPage.clickLoginButton();&#13;
+&#13;
+    formPage.completeForm(&#13;
+            "United States",&#13;
+            "1234 TestProject",&#13;
+            "<a target="_blank" href="https://blog.testproject.io/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c193a4b9ef8baeafa4b28195a4b2b5f592b4a2a2a4b2b2efaeb3a6" rel="noopener">[email protected]</a>",&#13;
+            "214-225-1234");&#13;
+&#13;
+    Assert.assertTrue(formPage.getConfirmationMessage().equals("Saved"));&#13;
+  }&#13;
+}</pre>
+<p>Before writing our automation steps, we begin by extending our BaseTest. Next, is the <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#test-annotation" rel="noopener">@Test</a> annotation which identifies our <strong>logIntoTestProjectExamplePage</strong> method as a Test Method. At this point, our logic starts on the Login page.</p>
+<ul>
+<li>Login Page
+<ul>
+<li>The first step is to enter the Full Name via <strong>setFullName(“Rex Jones II”)</strong></li>
+<li>The second step is to enter the Password via <strong>setPassword(“12345”)</strong></li>
+<li>The final step is to click the Login button via <strong>clickLoginButton()</strong></li>
+<li>Our Test Script transitions to the <strong>FormPage</strong></li>
+</ul>
+</li>
+<li>Form Page
+<ul>
+<li>Complete the form by selecting “<strong>United States</strong>” as the country</li>
+<li>Enter the address as “<strong>1234 TestProject</strong>”</li>
+<li>Enter the email as <strong><a target="_blank" href="https://blog.testproject.io/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="83d1e6fbadc9ecede6f0c3d7e6f0f7b7d0f6e0e0e6f0f0adecf1e4" rel="noopener">[email protected]</a></strong></li>
+<li>Enter the phone as “<strong>214-225-1234</strong>”</li>
+</ul>
+</li>
+<li>Verify the form with an <a target="_blank" href="https://blog.testproject.io/2019/10/31/the-power-of-testng-test-next-generation/#assertions" rel="noopener">assertion</a>. We assertTrue the confirmation message equals Saved on the Form page.</li>
+</ul>
+<h2><a target="_blank" id="ViewExampleReport" rel="noopener"><strong>View Example Report In TestProject</strong></h2>
+<p>The <a target="_blank" href="https://testproject.io/executive-test-reports/" rel="noopener">reports</a> are generated automatically and offer visibility into our testing progress. Examples of the Velocity and Individual Run Reports are below after executing the FormTest.</p>
+<p><img loading="lazy" class="alignnone wp-image-16849 size-full" title="TestProject Velocity report example" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.17-Velocity-Report.png" alt="TestProject Velocity report example" width="888" height="565" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.17-Velocity-Report.png 888w, https://blog.testproject.io/wp-content/uploads/2021/01/16.17-Velocity-Report-512x326.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.17-Velocity-Report-768x489.png 768w" sizes="(max-width: 888px) 100vw, 888px"/></p>
+<p><img loading="lazy" class="alignnone wp-image-16850 size-full" title="Test run report example" src="https://blog.testproject.io/wp-content/uploads/2021/01/16.18-Individual-Run-Report.png" alt="Test run report example" width="888" height="470" srcset="https://blog.testproject.io/wp-content/uploads/2021/01/16.18-Individual-Run-Report.png 888w, https://blog.testproject.io/wp-content/uploads/2021/01/16.18-Individual-Run-Report-512x271.png 512w, https://blog.testproject.io/wp-content/uploads/2021/01/16.18-Individual-Run-Report-768x406.png 768w" sizes="(max-width: 888px) 100vw, 888px"/></p>
+<p>The Velocity Report shows a total of 4 executions. 1 test failed and 3 tests passed for a 75% Success Ratio. It also shows the last execution Passed status.</p>
+<p>The Individual Run Report provides details for each test and each step. We see 100% Passed for the test and every step on the right side of the report. A green vertical bar indicates that a specific step passed. In addition, we can also download a Summary and/or Full Report of the test. This helps a lot for debugging and understanding the quality of our Application Under Test. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2><strong>Conclusions</strong></h2>
+<p>This Page Object Model example should give you an idea of how to build your own automation testing framework using TestProject, Selenium WebDriver and TestNG.</p>
+<p>Happy Testing! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</p></div>
+<p><br />
+<br /><a href="https://blog.testproject.io/2021/02/08/test-automation-framework-page-object-model-example/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Lets Have “The Talk” About the Internet: 7 Conversation-Starters for Staying Safer Online &#124; McAfee Blogs 7 Conversation-Starters for Staying Much Safer Online</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/lets-have-the-talk-about-the-internet-7-conversation-starters-for-staying-safer-online-mcafee-blogs-7-conversation-starters-for-staying-much-safer-online/</link>
 		
@@ -480,31 +850,6 @@ fbq('track', "PageView");</p>
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/stability-in-cross-browser-test-code/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Android Devices Prone to Botnet’s DDoS Onslaught</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/android-devices-prone-to-botnets-ddos-onslaught/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 04 Feb 2021 21:47:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Botnets]]></category>
-		<category><![CDATA[DDoS]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[Onslaught]]></category>
-		<category><![CDATA[Prone]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/android-devices-prone-to-botnets-ddos-onslaught/</guid>
-
-					<description><![CDATA[A new DDoS botnet propagates via the Android Debug Bridge and uses Tor to hide its activity. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A new DDoS botnet propagates via the Android Debug Bridge and uses Tor to hide its activity.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/android-devices-prone-to-botnets-ddos-onslaught/163680/">Source link </a></p>
 ]]></content:encoded>
 					
 		
