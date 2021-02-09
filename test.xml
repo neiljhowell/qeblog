@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 08 Feb 2021 04:35:17 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 08 Feb 2021 22:38:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,207 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>XRAY-NEOLOAD INTEGRATION SYNCHRONIZES ALL PERFORMANCE TEST ACTIVITIES IN JIRA &#8211; Neotys</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/xray-neoload-integration-synchronizes-all-performance-test-activities-in-jira-neotys/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 22:38:32 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[ACTIVITIES]]></category>
+		<category><![CDATA[Integration]]></category>
+		<category><![CDATA[jira]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[Neotys]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[SYNCHRONIZES]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[XRAYNEOLOAD]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/xray-neoload-integration-synchronizes-all-performance-test-activities-in-jira-neotys/</guid>
+
+					<description><![CDATA[The new Xray-NeoLoad integration synchronizes every individual performance test into Jira for a single source of truth for all testing]]></description>
+										<content:encoded><![CDATA[
+<p>The new Xray-NeoLoad integration synchronizes every individual performance test into Jira for a single source of truth for all testing results. Download the datasheet here <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2YLDKyG&amp;h=AT2kHZfHAIQvZ0YNVUYiUqdaldLUyaVqP5Y6_lzcy9Fkw5eqHdpVqd9a96e-MCh_LXDESkVHI_2K-DFFQAzX4EGw1DS3NuZoo59UMA6n_CyHAgceIwqm3V_qAirbB9Ej1K7kHDqdAi4OMa54Q9pq19nWDAq4zQknYpFbjPDVGCOhy2poGFIclbzU2wsxEtaSejFfNAcyTROJUDGcb9DaIdPtJl9d1GIT4gTM3OQl4DRdsNL4lCQYHqAkijc4hM63glBG4OJ2MVs654PAnP6yp1iZkyZgj43-M4CajONcqA8IHuWW__SfZeS1opZO_5ZQ6x6JX_8VXwB5DOER25WCaFbO7ddh2_3RFPx_gpcZTP1_seUjHpkXsK0ALufS7NeOMh6wQaDLel7YaoFsl-02emVdle9TbRdcMqrDZjT7w9qNy4PdGjef2exdY5PMJ2h4eKW-D7X-iBAprhlghWAQ3zMScQ-Y7KX7lwJrLiCK4jQL0cYkmRGVAlONIBoyZ0iEttZlaBTMTyX5HXcwHMOadYkMQ2fKZwy7yuouMo4R1Rx3SnWpMRXyUjnkBUpG-4atFTAVFGZKMsh-0luhfZtwuPzFP2fYG6NpyABrWd9o618HsNf4gpdEEYEG7Tbcgts3TCqR0MX9gFZ7-vcEUgEarxRSj_lkPZ7MonwH8UFl7i4WZgw3zRdnXHaPZjG5NzghFZhELcwfwrKIZg0uUuIuYI1jY-76rFF2LDO-TJNiqQ7cqGD4a76iMWcJwWqeJSWXWQiSrp95w7CL6Sy3_BIjKJeptfrCDxvw7eRsWzXW4b890JYtfl2vom4AsiIepVbFT321-rV1OKdsN1tMgQgOTs_CWlQU6WkLtnwJhqT-0WN1Yv8c-faG_F_GfQvyZ1-Uq_UXQCT9v5oxwT3dUHjlJbn9Nhu9kuDfWxAB27bHIdunak3zkk8CtnuLjZL6dQP_XzFBUs9MRnCxDGLiyH-WGvaR1mcwHaSao7fNMPRWGdC70BBXFZJXf1MBY3FSENXU6hlxbfKaP0_pXWEXxYdgqDY0XEEyxLK5NR6bjjkPuEh3ALOtDYTfDay49G79jN8Ago4S0b_S9epMX6QjlCdacdthjfqjFmk1da8APMAKXJycTjYCrfR8nscAMuJ8Hy8oDcoOraQYWPrqh8WXEP2Poi8UBKQj-rrSIVQf-9y4sREBpkTKTFMFmYUKk5PINtlsK9nCPlwyAeQbXT7f06E0NjuYPG4" rel="noopener">https://bit.ly/2YLDKyG</a> <a target="_blank" class="fh fi" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4090101974334568%3Atop_level_post_id.4090101974334568%3Atl_objid.4090101974334568%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4090101974334568%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-aUAD0b9K5EWcu%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612823912%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4090101974334568%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4090101974334568%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-5438282194232569341&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fh fi" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4090101974334568%3Atop_level_post_id.4090101974334568%3Atl_objid.4090101974334568%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4090101974334568%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-aUAD0b9K5EWcu%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612823912%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4090101974334568%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4090101974334568%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-5438282194232569341&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fh fi" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4090101974334568%3Atop_level_post_id.4090101974334568%3Atl_objid.4090101974334568%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4090101974334568%3Apage_id.163354693676002%3Astory_location.4%3Astory_attachment_style.share%3Atds_flgs.3%3Aott.AX-aUAD0b9K5EWcu%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612823912%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4090101974334568%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4090101974334568%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-5438282194232569341&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p><a target="_blank" href="https://bit.ly/2YLDKyG" rel="noopener"></a> </p>
+<p><a target="_blank" href="https://bit.ly/2YLDKyG" rel="noopener">XRAY-NEOLOAD INTEGRATION SYNCHRONIZES ALL PERFORMANCE TEST ACTIVITIES IN JIRA &#8211; Neotys</a></p>
+<p>The integration between NeoLoad and Xray synchronizes every individual performance test into Jira. This integration provides the ability to track performance and load testing results in Xray, thus making it the single source of truth for tracking different testing efforts.Each performance test is re&#8230;<br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4090101974334568">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Billions of Passwords Offered for $2 in Cyber-Underground</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/billions-of-passwords-offered-for-2-in-cyber-underground/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 21:12:01 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Billions]]></category>
+		<category><![CDATA[CyberUnderground]]></category>
+		<category><![CDATA[Offered]]></category>
+		<category><![CDATA[passwords]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/billions-of-passwords-offered-for-2-in-cyber-underground/</guid>
+
+					<description><![CDATA[About 3.27 billion stolen account logins have been posted to the RaidForums English-language cybercrime community in a &#8216;COMB&#8217; collection. Source]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />About 3.27 billion stolen account logins have been posted to the RaidForums English-language cybercrime community in a &#8216;COMB&#8217; collection.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/billions-passwords-cyber-underground/163738/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Critical WordPress Plugin Flaw Allows Site Takeover</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/critical-wordpress-plugin-flaw-allows-site-takeover/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 21:11:57 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[flaw]]></category>
+		<category><![CDATA[Plugin]]></category>
+		<category><![CDATA[site]]></category>
+		<category><![CDATA[Takeover]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/critical-wordpress-plugin-flaw-allows-site-takeover/</guid>
+
+					<description><![CDATA[A patch in the NextGen Gallery WordPress plugin fixes critical and high-severity cross-site request forgery flaws. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A patch in the NextGen Gallery WordPress plugin fixes critical and high-severity cross-site request forgery flaws.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/critical-wordpress-plugin-flaw-site-takeover/163734/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ransomware Demands Spike 320%, Payments Rise</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/ransomware-demands-spike-320-payments-rise/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 21:06:39 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Demands]]></category>
+		<category><![CDATA[Payments]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Rise]]></category>
+		<category><![CDATA[Spike]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ransomware-demands-spike-320-payments-rise/</guid>
+
+					<description><![CDATA[Remote work continues to fueling a spike in phishing and cyberattacks, particularly in the U.S. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Remote work continues to fueling a spike in phishing and cyberattacks, particularly in the U.S.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/ransomware-demands-spike-payments-rise/163744/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Fake Forcepoint Google Chrome Extension Hacks Windows Users</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/fake-forcepoint-google-chrome-extension-hacks-windows-users/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 17:24:31 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Extension]]></category>
+		<category><![CDATA[Fake]]></category>
+		<category><![CDATA[Forcepoint]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hacks]]></category>
+		<category><![CDATA[Users]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/fake-forcepoint-google-chrome-extension-hacks-windows-users/</guid>
+
+					<description><![CDATA[In a unique attack, cybercriminals locally install an extension to manipulate data in internal web applications that the victims have]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />In a unique attack, cybercriminals locally install an extension to manipulate data in internal web applications that the victims have access to.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/fake-forcepoint-google-chrome-extension-hacks/163728/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WestRock Ransomware Attack Hinders Packaging Production</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/westrock-ransomware-attack-hinders-packaging-production/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 16:39:52 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Hinders]]></category>
+		<category><![CDATA[Packaging]]></category>
+		<category><![CDATA[Production]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[WestRock]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/westrock-ransomware-attack-hinders-packaging-production/</guid>
+
+					<description><![CDATA[The ransomware attack, affecting OT systems, resulted in some of WestRock&#8217;s facilities lagging in production levels. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The ransomware attack, affecting OT systems, resulted in some of WestRock&#8217;s facilities lagging in production levels.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/westrock-ransomware-attack/163717/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>INSPIRE 20 Podcast: Phillip Jenkinson, Baidam Solutions</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/inspire-20-podcast-phillip-jenkinson-baidam-solutions/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Baidam]]></category>
+		<category><![CDATA[Inspire]]></category>
+		<category><![CDATA[Jenkinson]]></category>
+		<category><![CDATA[Phillip]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Solutions]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/inspire-20-podcast-phillip-jenkinson-baidam-solutions/</guid>
+
+					<description><![CDATA[Phillip Jenkinson, CEO of Australian tech company Baidam Solutions, started it as a tribute to his late father&#8217;s passion for indigenous]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><a target="_blank" href="https://www.linkedin.com/in/phillipjenkinson" rel="nofollow noopener">Phillip Jenkinson</a>, CEO of Australian tech company Baidam Solutions, started it as a tribute to his late father&#8217;s passion for indigenous rights and his desire to leave the world a better place. Baidam Solutions is committed to filling the gap in indigenous representation in the IT security sector.</p>
+<p>Baidam gives back to regional and remote communities by partnering with some of Australia&#8217;s largest employers to create job opportunities and funding for cybersecurity certification training.</p>
+<p>This program gives a significant percentage of its profits to providing pathways to employment in the IT sector for <a target="_blank" href="https://www.commonground.org.au/learn/aboriginal-or-indigenous" rel="nofollow noopener">indigenous and First Nations people</a> of Australia, a definition that recognizes aboriginal and Torres Strait Islanders people as the first people of Australia.</p>
+<h3>The INSPIRE 20 podcast series</h3>
+<p>Jenkinson is one of the executives taking part in INSPIRE 20, a new podcast series that showcases 20 executives from around the world who are making a difference in terms of inclusion and diversity in their organizations, communities, and/or their industries.</p>
+<p><em>Listen to the podcast with Phillip Jenkinson on <a target="_blank" href="https://podcasts.apple.com/gb/podcast/inspire-20/id1510305176?i=1000507692642" rel="nofollow noopener">Apple Podcasts</a>, <a target="_blank" href="https://soundcloud.com/user-699370465/micro-focus-inspire-20-micro-focus-phillip-jenkinson-baidam-solutions" rel="nofollow noopener">SoundCloud</a>, or <a target="_blank" href="https://open.spotify.com/episode/5TxB3fjVgj7rC5BrPcqIu9?si=sYnMpwXuS8CLRfoX56Ghxw" rel="nofollow noopener">Spotify</a>. Plus: Listen to<a target="_blank" href="https://content.microfocus.com/l/inspire-20-podcast-series-tb" rel="noopener"> all of the INSPIRE 20 podcasts here</a>.</em></p>
+<p><iframe allow="autoplay" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/938187010&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no"></iframe></p>
+<h3>Helping on many fronts</h3>
+<p>A former member of the Australian Defence Force, Jenkinson sits on a number of not-for-profit advisory boards and regularly supports the charity Soldier On, which helps veterans and their families build successful futures.</p>
+<p>&#8220;I&#8217;ve been involved in the [IT] industry for roundabout 12 years,&#8221; Jenkinson said in the podcast. &#8220;And it embarrassed me to say that I couldn&#8217;t think of a First Nations man or woman who I&#8217;d either worked with or worked for in IT security. And I thought that . . . Baidam could meet that challenge head on and start to create a successful business in its own right, with a firm view of overcoming barriers for indigenous inclusion and diversity.&#8221;</p>
+<p>In the podcast, Jenkinson talks about how his company helps aboriginal and Torres Strait Islanders people find employment in the Australian information security sector—free of charge. He also explains how he recruits indigenous talent and how many placements Baidam has made.</p>
+<p>&#8220;We measure progress and success exactly the same as any other business—from a financial perspective, but also importantly, for us, we measure success from our give-back to society,&#8221; Jenkinson said in the podcast.</p>
+<h4>How others can help</h4>
+<p>Jenkinson also offers advice to other leaders trying to make a difference in society.</p>
+<p>&#8220;My advice to other leaders would be to stay the course,&#8221; he said. &#8220;The key word in &#8216;leaders,&#8217; I think, is &#8216;lead,&#8217; right? You have to lead by example, by bringing a positive attitude toward how we are going to talk to and how we are going to welcome indigenous employees into our organization.&#8221;</p>
+<p>Jenkinson is also looking toward the future for his business, with the goal for Baidam to become Australia&#8217;s leading indigenous IT security solutions provider by 2025, Jenkinson said.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/inspire-20-podcast-phillip-jenkinson-baidam-solutions">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test Automation Framework &#8211; Page Object Model Example</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/test-automation-framework-page-object-model-example/</link>
 		
@@ -508,348 +709,6 @@ fbq('track', "PageView");</p>
 <br />Claroty reports that adversaries, CISOs and researchers have all turned their attention to finding critical security bugs in ICS networks.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/industrial-networks-hackable-security-holes/163708/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Unpatched WordPress Plugin Code-Injection Bug Afflicts 50K Sites</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/unpatched-wordpress-plugin-code-injection-bug-afflicts-50k-sites/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Feb 2021 22:20:20 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[50K]]></category>
-		<category><![CDATA[Afflicts]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[CodeInjection]]></category>
-		<category><![CDATA[Plugin]]></category>
-		<category><![CDATA[Sites]]></category>
-		<category><![CDATA[Unpatched]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/unpatched-wordpress-plugin-code-injection-bug-afflicts-50k-sites/</guid>
-
-					<description><![CDATA[An CRSF-to-stored-XSS security bug plagues 50,000 &#8216;Contact Form 7&#8217; Style users. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />An CRSF-to-stored-XSS security bug plagues 50,000 &#8216;Contact Form 7&#8217; Style users.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/unpatched-wordpress-plugin-code-injection/163706/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Neotys Director of Customer Engineering Paul Bruce shares best practices and pra&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/neotys-director-of-customer-engineering-paul-bruce-shares-best-practices-and-pra/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Feb 2021 19:59:52 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Bruce]]></category>
-		<category><![CDATA[Customer]]></category>
-		<category><![CDATA[Director]]></category>
-		<category><![CDATA[Engineering]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[Neotys]]></category>
-		<category><![CDATA[Paul]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[pra]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[shares]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/neotys-director-of-customer-engineering-paul-bruce-shares-best-practices-and-pra/</guid>
-
-					<description><![CDATA[Neotys Director of Customer Engineering Paul Bruce shares best practices and practical advice on Getting Started with Automated Continuous Performance]]></description>
-										<content:encoded><![CDATA[
-<p>Neotys Director of Customer Engineering Paul Bruce shares best practices and practical advice on Getting Started with Automated Continuous Performance Testing <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2MNSUAC&amp;h=AT3lHzjVObCZm2FhOFxsRM3WVSoLho9ndL9XdANOY2GcvtXoAw1oeSKYZI6yRPyV-nvy9LSXPnkKQ5UoV-ANuklN0ZJvamOSJulaviW3nDYee4TxNhPFhV7rPFJv7XX9TEbSWK3RoyaqIvuID7_w7tbkUQySZpgwUesIGGZnqR-4GC5HdnSB-5MFeKWQtHZbuIhK1BKdCFFVfjl8ELEPVeEfr8PWkAnDFygOo4UwWY2A4pgArgwjEeu4F_KEuqfmaQBBxWXHpmKQiYOXYHP7OWwYtfka7GGCg-irlRpWNBQm3AxMul9wxGHfkW0oAKKQdsMfmGynVRkrL1WGrrBroTikIuKUY1jOinuz55x2qFj6BmG-DbOla5cuFj8gE44uDyg6KMDk43PFyERxowQ_33OkB7HZDHj4GlYH7kHr54paVc1xxif08lYyFB76xT1TLpPN3Lo7ObI8OT0r2KEGfxDf6oOA-NU8Uxeo2vo3MzWMSojV37xEeHBCW4X_ZiJmWXq-RHaRFRthIiE4WuHn0X4h_CN2Pn0NlxtVCwG5fpGD2j2nnJ0yveCeg8nOWDf5wA7V2jEaStDRu2w89begFCnogYdo_z5tq2mveudLezSS2XlVkdaUD0y4hTAlIfUYRdSH7OQbFFueHsdBqTVstgSTHLqniH00CEhhcF1XVE7ya9GDNlo4Fe6YdAoSZjo1axm5gMrl0ipD84NogzV9U5yobTR8yjPEqUHQtj8kagpShAyj_3oERbfMsmiwovRK7LqgUZhdWcAkRZhwh9nHik3BDUvQ8axTw_-cHsveu-P__XCxq6ICBQaA9QvAiXWT3CkBAgimtGwXZLoSRUTuPOzIJI3bbsHGSA5dVQ0n-dJ27z3XFWh0iLgQplVHKIUwbkkIIYETHdWJzXBW2bdsrbmd34t4_4-Y1TglYF42-jEUidt_OMVdYCrzGvquXSBxaF7_HEMv-BzRon8u1talxHlpwLOqBbbSP_-7-IXdU-e0oPW5yWgi-ILQ14x7eqbG0MFm2fJjDJT7FmNZAFvJm9DkC3vtktUDKB1swksvVT5ePYC5rpjrJwvw0ELOqlUXxvJqX5JSXP-Gi6pujyjlh1hkoQVJodTVB2WX1SWEHfb4A2Bs_-srCR_QnBzVD9ugSXcYeB8Z7d8_hWAzzZx0Yefw4Cpkln_QzD68Y1yFiOZvFISKliB37hV-l4XTD1Sgee2dj2XuQYKJJ6H37fgtoYwSQtJvGasmUlHXRsFZxSBQbOfsXxpJ2wmxZZUN" rel="noopener">https://bit.ly/2MNSUAC</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4082191695125596%3Atop_level_post_id.4082191695125596%3Atl_objid.4082191695125596%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4082191695125596%3Apage_id.163354693676002%3Aphoto_id.4082191588458940%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8virqNdmfDLhK6%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612555192%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4082191695125596%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4082191695125596%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A3314382172252148298&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4082191695125596%3Atop_level_post_id.4082191695125596%3Atl_objid.4082191695125596%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4082191695125596%3Apage_id.163354693676002%3Aphoto_id.4082191588458940%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8virqNdmfDLhK6%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612555192%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4082191695125596%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4082191695125596%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A3314382172252148298&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fk fl" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4082191695125596%3Atop_level_post_id.4082191695125596%3Atl_objid.4082191695125596%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4082191695125596%3Apage_id.163354693676002%3Aphoto_id.4082191588458940%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX8virqNdmfDLhK6%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1612555192%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4082191695125596%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4082191695125596%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A3314382172252148298&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/146383245_4082191598458939_7811480266600763102_o.jpg?_nc_cat=100&#038;ccb=2&#038;_nc_sid=8024bb&#038;_nc_ohc=_4P-lTiGqCsAX9B9TOy&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=8260510e2e37d6e65d9ee5bd8c23ebfa&#038;oe=6041D4CF" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4082191695125596">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>6 Best Practices for SecOps in the Wake of the Sunburst Threat Campaign</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/6-best-practices-for-secops-in-the-wake-of-the-sunburst-threat-campaign/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Feb 2021 18:52:59 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[SecOps]]></category>
-		<category><![CDATA[SUNBURST]]></category>
-		<category><![CDATA[Threat]]></category>
-		<category><![CDATA[Wake]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/6-best-practices-for-secops-in-the-wake-of-the-sunburst-threat-campaign/</guid>
-
-					<description><![CDATA[1. Attackers have a plan, with clear objectives and outcomes in mind. Do you have one? Clearly this was a]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<h2><strong>1. Attackers have a plan, with clear objectives and outcomes in mind. Do you have one?</strong></h2>
-<p><span data-contrast="auto">Clearly this was a motivated and patient adversary. They spent many months in the planning and execution of an attack that was not incredibly sophisticated in its tactics, but rather used multiple semi-novel attack methods combined with persistent, stealthy and well-orchestrated processes. In a world where we always need to find ways to stay even one step ahead of adversaries, how well is your SOC prepared to bring the same level of consistent, methodical and well-orchestrated visibility and response when such an adversary comes knocking at your door?</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><span data-contrast="auto">Plan, test and continuously improve your SecOps processes with effective purple-teaming exercises. Try to think like a stealthy attacker and predict what sources of telemetry will be necessary to detect suspicious usage of legitimate applications and trusted software solutions.</span></p>
-<h2><b><span data-contrast="auto">2. Modern attacks abuse trust, not necessarily vulnerabilities. Be</span></b><b><span data-contrast="auto">threat focused</span></b><b><span data-contrast="auto">. Do threat modeling and identify where the risks are. Leverage BCP data and think of your identity providers (AD Domain Controllers, Azure AD, etc.) as ‘crown jewels’.</span></b></h2>
-<p><span data-contrast="auto">Assume that your most critical assets are under attack, especially those that leverage third-party applications where elevated privileges are a requirement for their effective operation. Granting service accounts unrestricted administrative privileges sounds like a bad idea – because it is. Least-privilege access, </span><span data-contrast="auto">micro segmentation</span><span data-contrast="auto"> and ingress/egress traffic filtering should be implemented in support of a Zero-Trust program for those assets specifically that allow outside access by a ‘trusted’ 3rd-party.</span></p>
-<h2><b><span data-contrast="auto">3. IOCs are becoming less useful as attackers don’t reuse them, sometimes even inside the same victim. Focus on TTPs &amp; behaviors.</span></b></h2>
-<p><span data-contrast="auto">The threat research world has moved beyond atomic indicators, file hashes and watchlists of malicious IPs and domains upon which most threat intelligence providers still rely. Think beyond Indicators of Compromise. </span><span data-contrast="auto">We should rely less on</span><span data-contrast="auto"> static lists of artifacts but </span><span data-contrast="auto">instead</span><span data-contrast="auto"> focused on heuristics and behavioral indicators. Event-only analysis can easily identify the low-hanging fruit of commodity attack patterns, but more sophisticated adversaries are going to make it more difficult. Ephemeral C2 servers and single-use DNS entries per asset (not target enterprise) were some of the more well-planned (yet relatively simple) behaviors seen in the Sunburst attack. </span><span data-contrast="auto">Monitor</span><span data-contrast="auto"> carefully for changes in asset configuration like logging output/location or even the absence of new audit messages in a given polling period. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<h2><b><span data-contrast="auto">4</span></b><b><span data-contrast="auto">. Beware of the perfect attack fallacy. Attackers can’t innovate across the entire attack chain. Identify places where you have more chances to detect their presence (i.e. privilege escalation, persistency, discovery, defense evasion, etc.)</span></b></h2>
-<p><span data-contrast="auto">All telemetry is NOT created equal. Behavioral analysis of authentication events in support of UEBA detections can be incredibly effective, but that assumes identity data is available in the event stream. </span><span data-contrast="auto">Based on my experience, </span><span data-contrast="auto">SIEM data typically yields only 15-20% of events that include useful identity data, whereas almost 85% of cloud access events contain this rich contextual data, a byproduct of growing IAM adoption and SSO practices. Events generated from critical assets (crown jewels) are of obvious interest to SecOps analysts for both detection and investigation, but don’t lose sight of those assets on the periphery; perhaps an RDP </span><span data-contrast="auto">jump box</span><span data-contrast="auto"> sitting in the DMZ that also synchronizes trust with enterprise AD servers either on-premises or in the cloud. Find ways to isolate assets with elevated privilege or those running ‘trusted’ third-party applications using </span><span data-contrast="auto">micro segmentation</span><span data-contrast="auto"> where behavioral analysis can more easily be performed. Leverage volumetric analysis of network traffic to identify potentially abnormal patterns; monitor inbound and outbound requests (DNS, HTTP, FTP, </span><span data-contrast="auto">etc</span><span data-contrast="auto">) to detect when a new session has been made to/from an unknown source/destination – or where the registration age of the target domain seems suspiciously new. Learn what ‘normal’ looks like from these assets by baselining and fingerprinting, so that unusual activity can be blocked or at the very least escalated to an analyst for review.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<h2><b><span data-contrast="auto">5</span></b><b><span data-contrast="auto">. Architect your defenses for visibility, detection &amp; response to augment protection capabilities. Leverage EDR, XDR &amp; SIEM for historical and real-time threat hunting.</span></b></h2>
-<p><span data-contrast="auto">The only way to gain insight into the attacker behaviors – and any chance of detecting and disrupting attacks of this style – require extensive telemetry from a wide array of sensors. Endpoint sensor grids provide high-fidelity telemetry about all things on-</span><span data-contrast="auto">device but</span><span data-contrast="auto"> </span><span data-contrast="auto">are rarely deployed </span><span data-contrast="auto">on server assets</span><span data-contrast="auto"> and tend to be </span><span data-contrast="auto">‘</span><span data-contrast="auto">network-blind</span><span data-contrast="auto">’</span><span data-contrast="auto">. SIEMs have traditionally been leveraged to consume and correlate data from all 3rd-party data sources, but it likely does not have the ability (or scale) to consume all EDR/endpoint events, leaving them largely </span><span data-contrast="auto">‘</span><span data-contrast="auto">endpoint-blind</span><span data-contrast="auto">’</span><span data-contrast="auto">. As more enterprise assets and applications move to the </span><span data-contrast="auto">cloud,</span><span data-contrast="auto"> we have yet a third source of high-value telemetry that must be available to SOC analysts for detection and investigation. Threat hunting can only effectively be performed when SecOps practitioners have access to a broad range of </span><span data-contrast="auto">real-time and historical </span><span data-contrast="auto">telemetry from a diverse sensor grid that spans the entire enterprise. They need the ability to look for behaviors – not just events or artifacts – across the full spectrum of enterprise assets and data.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<h2><b/><b><span data-contrast="auto">6. In today’s #</span></b><b><span data-contrast="auto">cyberdefense</span></b><b><span data-contrast="auto">game it’s all about TIME.</span></b><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></h2>
-<p><span data-contrast="auto">Time can be an attacker’s best offense, sometimes because of the speed with which they can penetrate, reconnoiter, locate and exfiltrate sensitive data – a proverbial ‘smash-and-grab’ looting. Hardly subtle and quickly noticed for the highly visible crime that it is. However in the case of Sunburst the adversary used time to their advantage, this time making painstakingly small and subtle changes to code in the software supply chain to weaponize a trusted application, waiting for it to be deployed across a wide spectrum of enterprises and governmental agencies, quietly performing reconnaissance on the affected asset and those around it, and leveraging low-and-slow C2 communications over a trusted protocol like DNS. Any one of these activities might easily be overlooked by even the most observant SOC. This creates an even longer detection cycle, allowing potential attackers a longer dwell time. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><em>This blog is a summary of the <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6758545890773938176" rel="noopener">SOCwise Conversation on January 25th 2020.</a>  Watch for the next one! </em></p>
-<p><span data-contrast="auto">For more information on the Sunburst</span><span data-contrast="auto"> attack, please visit our other resources on the subject:</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-<p><span data-contrast="auto">Blogs:</span></p>
-<section class="hero title">
-</section>
-<p><a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93861" rel="noopener"><span data-contrast="auto">McAfee Knowledge-base Article</span><span data-contrast="auto"> (Product Coverage)</span></a></p>
-<p><a target="_blank" href="https://kc.mcafee.com/corporate/index?page=content&amp;id=KB93879" rel="noopener"><span data-contrast="auto">McAfee Knowledge-base Article (Insights Visibility)</span></a></p>
-<p><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/security-operations/6-best-practices-for-secops-in-the-wake-of-the-sunburst-threat-campaign/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>5 organizational capabilities you need to drive digital transformation</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/5-organizational-capabilities-you-need-to-drive-digital-transformation/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Feb 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Capabilities]]></category>
-		<category><![CDATA[Digital]]></category>
-		<category><![CDATA[drive]]></category>
-		<category><![CDATA[Organizational]]></category>
-		<category><![CDATA[transformation]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/5-organizational-capabilities-you-need-to-drive-digital-transformation/</guid>
-
-					<description><![CDATA[To achieve the high-velocity goals of digital transformation, you need to improve your organization&#8217;s ability to consistently deliver customer value through shared]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>To achieve the high-velocity goals of digital transformation, you need to improve your organization&#8217;s ability to consistently deliver customer value through shared processes.</p>
-<p>Organizations that want to <a target="_blank" href="https://techbeacon.com/devops/6-takeaways-how-forecast-value-devops-transformations" rel="noopener">accelerate value delivery</a> and improve collaboration, people, and teams traditionally have turned to published IT frameworks and models. But defining, documenting, and <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-tools-implementation?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">automating your processes</a> are not enough.</p>
-<p>For shared organizational processes to be sustainable and improved over the long term, you need to establish effective, accountable, and scalable governance and ownership roles. And for these to be effective, you need to create a shared vision, a collaborative culture, effective teaming models, and a shared tooling strategy.</p>
-<p>Effective process and practice ownership require interest, time, skills, knowledge, passion, and authority.</p>
-<p>Several well-known frameworks address this issue. Lean Six Sigma and COBIT identify the process owner role as a critical control. <a target="_blank" href="https://techbeacon.com/app-dev-testing/enter-nexus-ken-schwaber-scaling-scrum-future-agile" rel="noopener">Agile Scrum</a> says that while self-managed teams have roles with accountability for process elements, the product owner is responsible for product outcomes, while the Scrum master is responsible for the processes.</p>
-<p>ITIL describes the need for governance roles, such as process owners and coordinators, to <a target="_blank" href="https://content.microfocus.com/it-service-management-tb/it-tools-practices?lx=-rqtPA&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">improve the productivity of ITSM practices.</a> These roles focus on process design, communication, awareness, and process advocacy.</p>
-<p>Here are five foundational capabilities that will help nurture and sustain <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">any digital transformation practice or shared objective</a>, across complex value chains consisting of internal and external service organizations.</p>
-<h3>1. Leadership: Creating systems thinking and constancy of purpose</h3>
-<p>Your behavior and choices reflect the environment you come from, which includes both good and bad attributes demonstrated by current and past organizational leaders.</p>
-<p>The tone at the top primarily determines an organization&#8217;s culture, ethics, focus, drive, direction, and willingness to collaborate. Leadership either intentionally programs organizational culture or develops haphazardly through workers&#8217; beliefs and experiences.</p>
-<p>There&#8217;s a direct correlation between an organization&#8217;s results and its culture, while, conversely, the culture&#8217;s relationship to the organization&#8217;s beliefs and experiences reflects its leadership.</p>
-<p>In turn, there&#8217;s a direct correlation between an organization&#8217;s ability to establish effective <a target="_blank" href="https://techbeacon.com/units/how-governance-change-depend-your-business-processes" rel="noopener">process governance</a> roles and how that organization&#8217;s leaders work with their peers and teams. Organizations in which senior leaders visibly align around common objectives and demonstrate their commitment are better able to establish this role as well as create coherence and a common approach across teams.</p>
-<p>Systems thinking and <a target="_blank" href="https://techbeacon.com/devops/transformational-leadership-what-every-devops-leader-needs-know" rel="noopener">lean leadership practices</a> stress that for a complex system to gain overall speed and velocity, stakeholders must share common values, beliefs, practices, and priorities. A main role of lean leadership is to create a constancy of purpose within the value system.</p>
-<p>While you can partially accomplish this by planning systems and focusing on organizational culture, it also depends on <a target="_blank" href="https://techbeacon.com/app-dev-testing/why-value-stream-management-success-hinges-flow-governance" rel="noopener">process governance</a>—which in turn depends on a leadership team that helps create a systems-thinking culture.</p>
-<h3>2. Culture: Moving from silo-based to collaborative relationships and shared goals</h3>
-<p>Both human societies and organizations have natural boundaries where our concept of &#8220;us&#8221; ends and we consider all others to be &#8220;them.&#8221; While this is normal, challenges can arise when our sense of whom we self-identify with is too narrow. Systems thinking centers on sharing the same values, beliefs, practices, and prioritization of work to effectively achieve common goals.</p>
-<p>Establishing efficient process governance structures that cross multiple teams is largely impossible when the sense of &#8220;us&#8221; is narrow and limited. Building an agreement for shared and common practices within your silo isn&#8217;t a problem, but introducing a common practice into other groups in a highly siloed culture becomes almost impossible due to cultural constraints.</p>
-<p>The solution is to widen the sense of &#8220;us&#8221; through systems thinking to establish trust-based relationships that reduce silo thinking and move relationships from transactional to cooperative and, ultimately, collaborative.</p>
-<p><em>Figure 1. Readiness for collaboration happens when both parties have built initial trust and are prepared to form a working relationship where individual goals and desires are willingly subordinated to a shared set of values, beliefs, practices, and priorities that can co-create value. Source:</em> <em>AXELOS</em></p>
-<p><a target="_blank" href="https://techbeacon.com/enterprise-it/why-new-it4it-reference-architecture-game-changer" rel="noopener">ITIL 4 models</a> can help organizations create this larger sense of identity and systems thinking, while enabling a culture and willingness to collaborate across teams.</p>
-<h3>3. Structure: Creating velocity through cross-functional teams</h3>
-<p>Vertically oriented structures and management systems are often based on turn-of-the-century design principles that focused on task specialization. While creating localized specialization is important, it can also negatively affect cross-functional collaboration.</p>
-<p>Today&#8217;s fast-paced, highly automated business environment requires both increased speed to market and faster innovation, so leaders must find ways to increase collaboration, engagement, and creativity across teams using shared processes and tools.</p>
-<p>Traditional, top-down organizational structures are experimenting with <a target="_blank" href="https://techbeacon.com/app-dev-testing/project-management-surefire-way-kill-your-software-product" rel="noopener">product-oriented cross-functional teams</a> for both development and support. These concepts have been in place for decades in other verticals that have adopted lean manufacturing principles.</p>
-<p>The principle of cross-functional collaboration is not new. Developing a project team of members with specializations means forming a temporary teaming structure that shares values, goals, priorities, and outcome-based measures for which they are mutually accountable.</p>
-<p>Recent discussion in the IT community has centered on transitioning the project team to <a target="_blank" href="https://techbeacon.com/app-dev-testing/projects-products-what-it-means-why-it-matters" rel="noopener">a semi-permanent, cross-functional product team</a>. This is not a new concept; Agile Scrum describes the development team and <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-recruit-great-scrum-master" rel="noopener">the Scrum master role</a>. DevOps literature describes a DevOps team as having both development and operations members on a product-oriented team.</p>
-<blockquote>
-<p>While people describe DevOps teams as full-stack, this doesn&#8217;t represent how most organizations use them. Most teams labeled &#8220;DevOps&#8221; are silo-based.</p>
-</blockquote>
-<p>Creating a team structure that includes the right skills and specializations results in a culture of collaboration that reduces silos and establishes a larger sense of &#8220;us.&#8221; This ultimately makes process ownership roles such as the Scrum master more effective.</p>
-<h3>4. Performance: Moving to shared outcome versus activity-based measures</h3>
-<p><a target="_blank" href="https://techbeacon.com/devops/how-agile-coaches-measure-high-performance-spotify" rel="noopener">Highly effective teams</a> have shared outcome-based measures, rather than individual activity measures.</p>
-<p>What is measured is important and, in many organizations, current performance management systems are tied to vertical organizational structures. Teams and individuals are measured on individual activity versus shared process or product outcomes.</p>
-<p>The problem is that traditional performance measurement systems often contradict the aim of creating shared process goals. This negatively affects process governance roles; ultimately, people pay attention to what they are measured on.</p>
-<h3>5. Automation: Moving from best-of-breed point solutions to integrated suites</h3>
-<p>The desire to use shared tools for shared processes is the final foundational requirement for creating effective process governance. Achieving this goal depends on the previous four enablers.</p>
-<p>Vertical, silo-based organization and team structures drive the acquisition process for tools and how they&#8217;re used. This aligns with the DevOps community&#8217;s <a target="_blank" href="https://www.agilealliance.org/glossary/collective-ownership/" rel="nofollow noopener">description of Conway&#8217;s Law</a>: &#8220;Any organization that designs a system (defined more broadly here than just information systems) will inevitably produce a design whose structure is a copy of the organization&#8217;s communication structure.&#8221;</p>
-<p>Unless you align your organization&#8217;s leadership, culture, team structure, and measurement systems around systems thinking and shared processes, the likelihood of adopting shared tools is quite low. Most organizations preach integrated solutions to their customers, but when it comes to their own acquisition of IT tools, they prefer best-of-breed point solutions over integrated suites.</p>
-<p>The use of shared tools comes back to leadership and culture. To address this, leaders and teams must first resolve the following five questions before sharing tools. Can they:</p>
-<ul>
-<li>Agree to agree to agree? (Engage in systems versus silo thinking.)</li>
-<li>Agree on one way to do something? (Reduce complexity and variability.)</li>
-<li>Agree to focus on simplifying how that should be done? (Focus on value-added activities and reducing waste.)</li>
-<li>Agree to use one tool for collaboration? (Move to common tools for each category to improve collaboration and reduce technical debt.)</li>
-<li>Agree on an integrated solution over a best-of-breed point solution? (Help automate delivery pipelines via systems integration.)</li>
-</ul>
-<h3>Digital transformation requires effective processes</h3>
-<p>To move from a reactive and low maturity to an improved ability to deliver value consistently and reliably, your organization must establish effective process governance. Ownership roles need to define, deploy, sustain, and improve those processes to support your organization&#8217;s objectives.</p>
-<p>For these roles to fulfill their mandate, you need to have the five critical foundational enablers described above. And for most organizations, there&#8217;s much work left to do.</p>
-<p><em>Learn how to implement the five foundational enablers with Troy DuMoulin and his colleagues as they offer practical recommendations and approaches for success at Pink Elephant&#8217;s <a target="_blank" href="https://www.pinkelephant.com/en-us/PinkInAction/Home" rel="nofollow noopener">ITIL 4 in Action</a> online symposium</em>. <em>The event takes place February 22 and 23, 2021.</em></p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/enterprise-it/5-organizational-capabilities-you-need-drive-digital-transformation">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Google Chrome Zero-Day Afflicts Windows, Mac Users</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/google-chrome-zero-day-afflicts-windows-mac-users/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Feb 2021 15:47:55 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Afflicts]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Mac]]></category>
-		<category><![CDATA[Users]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[ZeroDay]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/google-chrome-zero-day-afflicts-windows-mac-users/</guid>
-
-					<description><![CDATA[Google warns of a zero-day vulnerability in the V8 open-source engine that&#8217;s being actively exploited by attackers. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Google warns of a zero-day vulnerability in the V8 open-source engine that&#8217;s being actively exploited by attackers.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-chrome-zero-day-windows-mac/163688/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ransomware Attacks Hit Major Utilities</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/ransomware-attacks-hit-major-utilities/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 05 Feb 2021 15:17:53 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Hit]]></category>
-		<category><![CDATA[Major]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[Utilities]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ransomware-attacks-hit-major-utilities/</guid>
-
-					<description><![CDATA[Eletrobras, the largest power company in Latin America, faces a temporary suspension of some operations. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Eletrobras, the largest power company in Latin America, faces a temporary suspension of some operations.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/ransomware-attacks-major-utilities/163687/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Stability In Cross Browser Test Code</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/stability-in-cross-browser-test-code/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 04 Feb 2021 23:56:57 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Code]]></category>
-		<category><![CDATA[Cross]]></category>
-		<category><![CDATA[Stability]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/stability-in-cross-browser-test-code/</guid>
-
-					<description><![CDATA[If you read my previous blog, Fast Testing Across Multiple Browsers, you know that participants in the Applitools Ultrafast Cross]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>If you read my previous blog, <a target="_blank" href="https://applitools.com/blog/fast-testing-multiple-browsers/" rel="noopener">Fast Testing Across Multiple Browsers</a>, you know that participants in the <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">Applitools Ultrafast Cross Browser Hackathon</a> learned the following:</p>
-<ul>
-<li>Applitools <a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener">Ultrafast Grid</a> requires an application test to be run just once. Legacy approaches require repeating tests for each browser, operating system, and viewport size of interest.</li>
-<li><a target="_blank" href="https://applitools.com/cross-browser-testing/" rel="noopener">Cross browser tests</a> and analysis complete typically within 10 minutes, meaning that test times match the scale of application build times. Legacy test and analysis times involve several hours to generate results</li>
-<li>Applitools makes it possible to incorporate cross browser tests into the build process, with both speed and accuracy.</li>
-</ul>
-<p>Today, we’re going to talk about another benefit of using Applitools Visual AI and Ultrafast Grid: test code stability.</p>
-<h2 id="h-what-is-test-code-stability">What is Test Code Stability?</h2>
-<p>Test code stability is the property of test code continuing to give consistent and appropriate results over time. With stable test code, tests that pass continue to pass correctly, and tests that fail continue to fail correctly. Stable tests do not generate false positives (report a failure in error) or generate false negatives (missing a failure).</p>
-<p>Stable test code produces consistent results. Unstable test code requires maintenance to address the sources of instability. So, what causes test code instability?</p>
-<p><a target="_blank" href="https://www.linkedin.com/in/anandbagmar/" rel="noopener">Anand Bagmar</a> did a great <a target="_blank" href="https://applitools.com/blog/uncover-flaky-tests/" rel="noopener">review of the sources of flaky tests</a>. Some of the key sources of instability:</p>
-<ul>
-<li>Race conditions – you apply inputs too quickly to ensure a consistent output</li>
-<li>Ignoring settling time – your output becomes stable only after your sampling time</li>
-<li>Network delay – your network infrastructure causes unexpected behavior</li>
-<li>Dynamic environments – your inputs cannot guarantee all the outputs</li>
-<li>Incompletely scoped test conditions – you have not specified the correct changes</li>
-<li>Myopia – you only look for expected changes and actual changes occur elsewhere</li>
-<li>Code changes – your code uses obsolete controls or measures obsolete output.</li>
-</ul>
-<p>When you develop tests for an evolving application, code changes introduce the most instability in your tests. UI tests, whether testing the UI or complete end-to-end behavior, depends on the underlying UI code. You use your knowledge of the app code to build the test interfaces. Locator changes – whether changes to coded identifiers or CSS or Xpath locators – can cause your tests to break.</p>
-<p>When test code depends on the App code, each app release will require test maintenance. Otherwise, no engineer can ensure that a “passing” test omitted an actual failure, or that  a “failing” test indicates a real failure and not a locator change.</p>
-<h2 id="h-test-code-stability-and-cross-browser-testing">Test Code Stability and Cross Browser Testing</h2>
-<p>Considering the instability sources, a tester like you takes on a huge challenge with cross browser tests. You need to ensure that your cross browser test infrastructure addresses these sources of instability so that your cross browser behavior matches expected results.</p>
-<p>If you use a legacy approach to cross browser testing, you need to ensure that your physical infrastructure does not introduce network or other infrastructure sources of test flakiness.  Part of your maintenance ensures that your test infrastructure does not become a source of false positives or false negatives.  </p>
-<p>Another check you make relates to responsive app design. How do you ensure responsive app behavior? How do you validate page location based on viewport size?</p>
-<p>If you use legacy approaches, you spend a lot of time ensuring that your infrastructure, your tests, and your results all match expected app user behavior. In contrast, the Applitools approach does not require debugging and maintenance of multiple test infrastructures, since the purpose of the test involves ensuring proper rendering of server response.</p>
-<p>Finally, you have to account for the impact of every new app coding change on your tests. How do you update your locators? How do you ensure that your test results match your expected user behavior?</p>
-<h2 id="h-improving-stability-limiting-dependency-on-code-changes">Improving Stability: Limiting Dependency on Code Changes</h2>
-<p>One thing we have observed over time: code changes drive test code maintenance. We demonstrated this dependency relationship in the Applitools Visual AI Rockstar Hackathon, and again in the Applitools Ultrafast Cross Browser Hackathon. </p>
-<p>The legacy approach uses locators to both apply test conditions and measure application behavior. As locators can change from release to release, test authors must consider appropriate actions.</p>
-<p>Many teams have tried to address the locator dependency in test code. </p>
-<p>Some test developers sit inside the development team. They create their tests as they develop their application, and they build the dependencies into the app development process. This approach can ensure that locators remain current. On the flip side, they provide little information on how the application behavior changes over time. </p>
-<p>Some developers provide a known set of identifiers in the development process. They work to ensure that the UI tests use a consistent set of identifiers. These tests can run the risk of myopic inspection. By depending on supplied identifiers – especially to measure application behavior, these tests run the risk of false negatives. While the identifiers do not change, they may no longer reflect the actual behavior of the application. </p>
-<p>The modern approach limits identifier use to applying test conditions. Applitools Visual AI measures the application response of the UI. This approach still depends on identifier consistency – but with way fewer identifiers. In both hackathons, participants cut their dependence on identifiers by 75% to 90% – basically, they used way fewer identifiers. Their code ran more consistently and required less maintenance.</p>
-<figure class="wp-block-image"></figure>
-<h2 id="h-implications-of-modern-cross-browser-testing">Implications of Modern Cross Browser Testing</h2>
-<p>Applitools Ultrafast Grid overcomes many of the hurdles that testers experience running legacy cross browser test approaches. Beyond the pure speed gains, Applitools offers improved stability and reduced test maintenance.</p>
-<p>Modern cross browser testing reduces dependency on locators. By using Visual AI instead of locators to measure application response, Applitools Ultrafast Grid can show when an application behavior has changed – even if the locators remain the same. Or, alternatively, Ultrafast Grid can show when the behavior remains stable even though locators have changed. By reducing dependency on locators, Applitools ensures a higher degree of stability in test results.</p>
-<p>Also, Applitools Ultrafast Grid reduces infrastructure setup and maintenance for cross browser tests. In the legacy setup, each unique browser requires its own setup and connection to the server. Each setup can have physical or other failure modes that must be identified and isolated independent of the application behavior. By capturing the response from a server once and validating the DOM across other target browsers, operating systems, and viewport sizes, Applitools reduces the infrastructure debug and maintenance efforts.</p>
-<h2 id="h-conclusions">Conclusions</h2>
-<p>Participant feedback from the Hackathon provided us with consistent views on cross browser testing. From their perspective, participants viewed legacy cross browser tests as:</p>
-<ul>
-<li>Likely to break on an app update</li>
-<li>Susceptible to infrastructure problems</li>
-<li>Expensive to maintain over time</li>
-</ul>
-<p>In contrast, they saw Applitools Ultrafast Grid as:</p>
-<ul>
-<li>Less expensive to maintain</li>
-<li>More likely to expose rendering errors</li>
-<li>Providing more consistent results.</li>
-</ul>
-<p>You can <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">read the entire report here</a>.</p>
-<h2 id="h-what-s-next">What’s Next</h2>
-<p>What holds companies back from cross browser testing? Bad experiences getting results. But, what if they could get good test results and have a good experience at the same time? We ask participants about their experience on the Applitools Cross Browser Hackathon.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/stability-in-cross-browser-test-code/">Source link </a></p>
 ]]></content:encoded>
 					
 		
