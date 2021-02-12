@@ -256,6 +256,86 @@ fbq('track', "PageView");</p>
 		
 			</item>
 		<item>
+		<title>What&#8217;s between your clouds? That&#8217;s key to multi-cloud performance</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/whats-between-your-clouds-thats-key-to-multi-cloud-performance/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[clouds]]></category>
+		<category><![CDATA[Key]]></category>
+		<category><![CDATA[MultiCloud]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Whats]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/whats-between-your-clouds-thats-key-to-multi-cloud-performance/</guid>
+
+					<description><![CDATA[Multi-cloud success is more about what lies between the clouds than what&#8217;s on the clouds themselves. These critical layers of software]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>Multi-cloud success is more about what lies between the clouds than what&#8217;s on the clouds themselves. These critical layers of software that exist between the heterogeneous mix of clouds your enterprise uses will need your full attention in the coming year.</p>
+<p>First, though, remember the primary <a target="_blank" href="https://techbeacon.com/enterprise-it/why-multi-cloud-approach-gaining-such-popularity" rel="noopener">reasons most enterprises choose multi-cloud</a> to begin with. The most obvious benefit is that multi-cloud can leverage best-of-breed cloud services from all of the providers. Next is the opportunity to save money, and third is the ability to avoid vendor lock-in. </p>
+<p>On the flip side, <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/manage-cloud-complexity?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">multi-cloud&#8217;s operational complexity</a> can outpace its benefits when compared to enterprises that leverage a single public cloud deployment. However, more and more enterprises require certain features of multi-cloud that can offset the complexity issues, if managed correctly.  </p>
+<p>Here&#8217;s what you need to know to minimize complexity to <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/ease-multi-cloud-management?lx=ooPdGt&amp;custom_url=hybrid-multicloud-management-tb%2Fmanage-cloud-complexity&amp;amp;utm_campaign=00172425&amp;amp;utm_medium=referral&amp;amp;utm_source=techbeacon" rel="noopener">make multi-cloud work</a> at peak performance levels.</p>
+<h3>Get your multi-cloud up to speed</h3>
+<p>First, you need management and monitoring layers. These include AIOps, security managers, governance tooling, and other technologies that can manage and control heterogeneous cloud deployments.</p>
+<p>The management and monitoring layers are just as important—perhaps even more so—than are the native services that run on those public clouds. These layers of software systems become the jumping-off point for <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/hybrid-IT-management-trends?lx=ooPdGt&amp;custom_url=hybrid-multicloud-management-tb%2Fmanage-cloud-complexity&amp;amp;utm_campaign=00172425&amp;amp;utm_medium=referral&amp;amp;utm_source=techbeacon" rel="noopener">modern cloud operations</a>, and they can operate without leveraging cloud-specific systems as you move forward. </p>
+<p>Second, public cloud providers are <a target="_blank" href="https://techbeacon.com/enterprise-it/why-cloud-operations-management-next-big-thing" rel="noopener">beginning to invest in cross-cloud solutions</a>. Most won&#8217;t mention the word <em>multi-cloud</em>, but they plan to support this architecture, nonetheless. This puts the nail in the coffin of less complex, single-cloud deployments that do not take advantage of best-of-breed. </p>
+<p>Some people remain skeptical that public cloud providers will build technology that will integrate with the competition, but the providers really have no other choice. Remember when Apple and Microsoft devices could not communicate? Cloud vendors do. This is not a new trend.</p>
+<h3>It&#8217;s what&#8217;s in the middle that counts</h3>
+<p>Enterprises will continue to move to multi-cloud as the preferred cloud deployment platform, and that move is to the middle. While each cloud&#8217;s native services are perhaps more mature than many of the cross-cloud solutions that reside in the middle, they are native to only one cloud. </p>
+<p>So native services can provide an operational function or functions to the native cloud, and some have been modified to interact with other clouds, but none are purpose-built to manage other cloud brands. </p>
+<p>Here&#8217;s a hard reality: For multi-cloud deployments to benefit from common operational services that may run from a particular cloud, the common operational services must logically exist above all cloud brands to leverage the native services of each cloud. </p>
+<p>Instead of two, three, or more consoles that provide operational information from each cloud provider, you want a single user interface, both visual and API-based, that can abstract the differences in the native services from the human operators. </p>
+<p>This concept applies to platform, data, and application management and monitoring services. It&#8217;s also relevant to services such as cost management, security operations, backup and recovery, user management, and tagging. Even common services such as an AI knowledge base can instantly learn from the data housed in all of the leveraged clouds.</p>
+<h4>AIOps and other tools</h4>
+<p>Tools vary and become a reflection of your requirements. However, <a target="_blank" href="https://content.microfocus.com/ai-ops-transform-it-tb/aiops-tools-implementation?lx=my3YKV&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">AIOps tooling</a> is emerging as one of the larger players. This allows you to centrally operate a multi-cloud, and it will learn how to do its job better the more it does it. The idea is to leverage abstraction and automation as much as you can to remove as many humans from the operational processes as you can.</p>
+<p>Other tools that are emerging as common cross-cloud services include <a target="_blank" href="http://techbeacon.com/security/how-secure-your-cloud-infrastructure-3-planes-opsec" rel="noopener">security managers that provide identity management</a>, key management, encryption services, and others, to span all cloud brands as well as traditional systems. </p>
+<p>They do this by abstracting the native security services that run in each cloud, and then they allow common processes such as authorization to be centrally managed. The downside: Many of these systems are new, all approach the problem in different ways, and thus you might have to <a target="_blank" href="https://content.microfocus.com/hybrid-multicloud-management-tb/architect-manage-hybrid-multiclouds?lx=ooPdGt&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172425" rel="noopener">adopt a mix of tools</a> instead of only one.</p>
+<h3>What does the new middle mean for cloud computing?</h3>
+<p>If you leverage cross-cloud solutions to operate your multi-cloud, you&#8217;ll likely experience the following:</p>
+<ul>
+<li>Reduced complexity: While multi-cloud deployments are vastly more complex, the use of cross-cloud tools should reduce how that increased complexity affects your operations.</li>
+<li>Reduced costs: You&#8217;ll need fewer ops staffers to run the multi-cloud, since you&#8217;ll be able to operate the multi-cloud using a single, simplified interface. </li>
+<li>Reduced security risks: When you reduce the complexity, SecOps will become more effective. Unified security layers that encompass traditional and cloud computing systems will continue to become more effective due to the lack of individual security systems for each silo in the enterprise. </li>
+</ul>
+<p>This new reality caught some enterprises by surprise: We no longer design for native cloud-based systems, but for software that runs between clouds. Enterprises will find themselves once more in charge of the software solutions that may run for a particular cloud, but the solutions will be purpose-built to provide common services across clouds, such as the examples covered above.</p>
+<p>Best practices are just beginning to emerge for this new type of cloud architecture. That said, enterprises will likely make a few mistakes, and cross-cloud solutions will need to mature a bit before common services built to work across public clouds become commonplace. </p>
+<h3>Steps to cloud success</h3>
+<p>Cloud architects are having a hard time reaching a consensus on the best approach and technology solutions for the middle of the clouds. Pioneers are experimenting with common cloud services as a few enterprises move to migrate more than one-third of the enterprise&#8217;s workloads to a multi-cloud. </p>
+<p>With best practices and approaches still in their experimental stages, the current best process is as follows.</p>
+<h4>Deep planning</h4>
+<p>This is often overlooked when moving to a single public cloud provider, largely because that cloud provider will not likely let you fail. The only defense against failure for multi-cloud solutions is to splurge on planning, with some initial validation testing. </p>
+<p>This means creating lists of native cloud services you&#8217;ll use, and approaches and technical solutions to address common security, common governance, common management, and so on. </p>
+<p>These are the harder problems to solve, considering the prior lack of interest among vendors to develop cross-cloud services, and the immaturity of current multi-cloud solutions. </p>
+<p>Some of the thinking that should come out of this process includes: ops planning, SecOps planning, integration with DevOps/DevSecOps, testing, network, common data storage and management, and any number of architecture patterns that may be applicable to your needs. </p>
+<h4>Deep testing  </h4>
+<p>Even if a provider offers cross-cloud services using one configuration or architecture, it can&#8217;t account for all configurations that need to work and play well together. Security systems don&#8217;t provide the points of integration that most assumed were there or were untested. This becomes a limitation that can kill multi-cloud projects and/or momentum. </p>
+<p>It&#8217;s the responsibility of those who deploy cross-cloud services to ensure that the solutions will work and play well together on the multi-cloud configuration you wish to use. This includes the public clouds you want to employ and the native services you want to leverage—storage, compute, database, etc.—within those public clouds. </p>
+<p>You should be at least 98% certain that the solution is workable coming out of this testing process.</p>
+<h4>Deep operations<i>  </i></h4>
+<p>Most of what will be considered a success with multi-cloud, and multi-cloud using common cloud services, won&#8217;t be what rolls out on the first day of deployment. The longer-term achievements of consistent business services leveraged from multi-cloud will be the hallmarks of its success. </p>
+<p>Operations will be the most measured aspect of multi-cloud success or failure. Businesses will leverage systems within the public clouds that they will grow to depend upon. The systems in the cloud could become the entire business. </p>
+<p>This means you can&#8217;t get operations wrong at any step of deployment or at any time thereafter. Ops planning needs to lead to approaches and tools that work longer term. This means you also need to leverage a <a target="_blank" href="https://techbeacon.com/enterprise-it/how-use-kaizen-events-drive-lean-it-continuous-improvement" rel="noopener">continuous improvement</a> model, where the ops processes and tooling change continuously to improve ops efficiency, performance, and resiliency. </p>
+<h2>Focus on the right tasks</h2>
+<p>Many who plan to deploy multi-clouds focus on the wrong things. They concentrate on what native cloud services to leverage and deploy, on which public cloud, more than they evaluate common services that span public clouds. That approach will work, but it won&#8217;t scale, which means it won&#8217;t work well—and eventually it won&#8217;t work at all. </p>
+<blockquote>
+<p>If you focus on building out redundant native services on each cloud, you will create a massive amount of complexity that will lead to efficiency and security issues that could kill your multi-cloud deployment.</p>
+</blockquote>
+<p>Building in the middle of public clouds should be your focus right now. The struggle in the short term will be to find guidance to approach your middle-based, multi-cloud deployment, and what the costs and benefits will be to get a cross-cloud architecture and solution set properly funded. </p>
+<p>What lies between a multi-cloud could contain the set of solutions that allow your business to become more effective in its markets and incorporate traditional systems with newer cloud-based systems. </p>
+<p>There is also a larger strategic advantage to building out the middle of the clouds. You’ll be able to solve problems you have yet to get around to, such as master data management, identity-based security, and cross-platform audit systems, to name just a few. </p>
+<p>If you are involved with IT, multi-cloud is in your future. The layers that lie between a multi-cloud are where the next innovations will evolve and development efforts will explode. This is the next big trend.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/enterprise-it/whats-between-your-clouds-thats-key-multi-cloud-performance">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How Email Attacks are Evolving in 2021</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-email-attacks-are-evolving-in-2021/</link>
 		
@@ -381,62 +461,6 @@ fbq('track', "PageView");</p>
 </p></div>
 <p><br />
 <br /><a href="https://applitools.com/blog/holiday-hackathon-mckeever/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>More than a Hackathon to me &#8211; Ivana Dilparic</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/more-than-a-hackathon-to-me-ivana-dilparic/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 11 Feb 2021 00:20:27 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Dilparic]]></category>
-		<category><![CDATA[Hackathon]]></category>
-		<category><![CDATA[Ivana]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/more-than-a-hackathon-to-me-ivana-dilparic/</guid>
-
-					<description><![CDATA[I remember the feeling when I submitted my entry for Holiday Shopping Hackathon. Sure, there is always a bit of]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>I remember the feeling when I submitted my entry for Holiday Shopping Hackathon. Sure, there is always a bit of relief once you wrap something up. But mostly I was just proud that I managed to handle each task from Hackathon instructions. </p>
-<p>I wasn’t eyeing any of the prices nor expected to ever hear back from judges. I simply saw Applitools Holiday Shopping Hackathon as a learning opportunity and went for it. This sense of pride was coming from having my learning mission accomplished. </p>
-<figure class="wp-block-pullquote">
-<blockquote>
-<p>I see a lot of potential of this kind of testing. I recognize the benefit for the current project my team is working on.</p>
-<p><cite>–Ivana dilparic</cite></p></blockquote>
-</figure>
-<p>But Hackathon ended up being much more for me, besides getting fine JavaScript and Cypress practice and getting introduced to this amazing visual testing tool, now I also have lifetime bragging rights and a bit of self esteem boost to keep up with my new tech goals.</p>
-<h3 id="h-why-did-i-need-new-tech-goals-in-the-first-place">Why did I need new tech goals in the first place?</h3>
-<p>I have been in managerial and leadership roles in IT industry for over 12 years. Even though I hold Master’s degree in Computer Science and my first role after graduation was as Software Engineer, 12 years is a lot of time to not be actively developing software.   </p>
-<p>All this time I have been making constant efforts to build and enhance an array of soft skills, to accumulate industry specific knowledge (for at least 5 industries) and to be able to actively participate in tech discussions. It turned out that this was not enough, at least not for the tech part, as I started getting feedback that I am “behind with the tech side”. </p>
-<p>One thing was clear, I needed to craft a plan which will turn the things around.</p>
-<h3 id="h-the-things-i-tried">The things I tried</h3>
-<p>I know by now that the best way to learn something is to start practicing it actively and to combine theory with practice. My work is not leaving me with much room for something like getting hands on experience with new cool frameworks. So all the learning and practicing had to happen in the evenings and over the weekend.</p>
-<p>I subscribed to several podcasts and blogs and I handpicked some development courses which seemed related to technologies currently used with my team. I was investing a lot of time and was absolutely sure that there is no significant improvement. Courses I choose were either focused on very basic examples or were too demanding in terms of mandatory coursework. Even if I managed to stretch my time and cover self-assignments, whatever I learned there would fade away shortly because I was not actively using it. </p>
-<h3 id="h-then-came-hackathon">Then came Hackathon</h3>
-<p>The hackathon just sounded like a good idea. The instructions were very specific; it was very clear what was expected from participants. Timeframe for submission was very generous – since learning about Hackathon, I had several weeks to complete my submission, so I didn’t need to pause on rest of my life and get behind with the sleep (something I have been associating with Hackathons until now).</p>
-<p>For <a target="_blank" href="https://www.cypress.io/" rel="noreferrer noopener">Cypress</a> part I relied on Introduction to <a target="_blank" href="https://testautomationu.applitools.com/cypress-tutorial/" rel="noreferrer noopener">Cypress course</a> from <a target="_blank" href="https://testautomationu.applitools.com/" rel="noreferrer noopener">Test Automation University</a>. Mr. Gil Tayar did a great job!</p>
-<h3 id="h-visual-testing-in-applitools">Visual testing in Applitools</h3>
-<p>I admit that I ignored the manual and relied on exploring Applitools myself. Overall, I find the app to be intuitive and easy to use. All information about test runs is very well structured and easy to navigate through. </p>
-<p>Multi-browser testing worked like a charm. It took me no time to set this up, and speed of multi-browser testing was more than I hoped for.</p>
-<p>For one of Hackathon tasks, I figured out how bugs work. That was straight forward. Potential issues were very obviously highlighted. They scream action.</p>
-<p>Another task was related to root causes. I didn’t figure this one in first attempt, but I have obviously excelled on that second try.</p>
-<h3 id="h-visual-testing-before-i-knew-applitools">Visual testing before I knew Applitools</h3>
-<p>I recall scenarios where QA team on my projects was using Selenium to automate tests. Idea was to automate UI tests as well. </p>
-<p>There were too many visual issues which tests were not detecting. Even the issues important for the end user were being undetected by these tests. QA Engineers were explaining the causes for this, coming up with workarounds how to increase the test coverage with limited time investments. This didn’t sit that well with the client.</p>
-<h3 id="h-conclusion">Conclusion</h3>
-<p>What can I say, this experience has turned me into advocate for Applitools. I see a lot of potential of this kind of testing. I recognize the benefit for the current project my team is working on. And looking back I see there were many cases over the years where it would have helped QA Engineers I have worked with. It shortens the time to set up UI tests and it probably shortens running time. Plus, it provides better coverage. </p>
-<p>Also, I find Test Automation University to be one of the best things that happened in testing community lately. Thank you for doing this, Applitools!</p>
-<p>As for my personal development, Hackathon was a great boost for me. It helped me carry on with my learning trajectory. And I expect more Hackathons in my future.</p>
-<p><em>Lead image by <a target="_blank" href="https://pixabay.com/users/antoniskousoulas-16131995/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5067826" rel="noopener">Antonis Kousoulas</a> from <a target="_blank" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5067826" rel="noopener">Pixabay</a></em></p>
-<figure class="wp-block-image size-large is-resized"></figure>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/holiday-hackathon-dilparic/">Source link </a></p>
 ]]></content:encoded>
 					
 		
