@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Tue, 09 Feb 2021 23:47:06 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Feb 2021 21:32:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,465 +28,415 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Getting Started with Appium 2.0 Beta &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/getting-started-with-appium-2-0-beta-automated-visual-testing/</link>
+		<title>Pre-Valentine’s Day Malware Attack Mimics Flower, Lingerie Stores</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/pre-valentines-day-malware-attack-mimics-flower-lingerie-stores/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 23:47:06 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Appium]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Beta]]></category>
-		<category><![CDATA[started]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/getting-started-with-appium-2-0-beta-automated-visual-testing/</guid>
-
-					<description><![CDATA[Appium released its first major version almost 7 years ago. Since then, Appium has rolled out a lot of new]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Appium released its first major version almost 7 years ago. Since then, Appium has rolled out a lot of new features and its automation backend architecture has evolved quite a lot. </p>
-<p>Appium 2.0, the next major release, has been in talks for a couple of years now, as Jonathan Lipps and the team have been brainstorming and implementing new features. </p>
-<h2 id="h-installing-appium-2-0-server">Installing Appium 2.0 Server</h2>
-<p>Appium team has released 2.0.0-beta.10 recently with the official <a target="_blank" href="https://github.com/appium/appium-plugins/blob/master/packages/images" rel="noopener">Appium image plugin</a> and some minor bug fixes and improvements over its earlier beta versions. Appium 2.0 beta versions can be installed using the below command:</p>
-<pre class="wp-block-preformatted">npm install -g appium@next </pre>
-<p>Appium server can take up several optional arguments. In addition to the <a target="_blank" href="http://appium.io/docs/en/writing-running-appium/server-args/index.html#server-flags" rel="noopener">server arguments</a>, Appium 2.0 introduces new arguments:</p>
-<ul>
-<li><em>-ah </em>to specify a directory to install Appium drivers</li>
-</ul>
-<pre class="wp-block-preformatted">appium server -ah /path/to/install/drivers driver install uiautomator2</pre>
-<ul>
-<li><em>-ka </em>or <em>–keep-alive-timeout </em>to specify the number of seconds the Appium server should apply as both the keep-alive timeout and the connection timeout for all requests. Defaults to 600 seconds.</li>
-</ul>
-<pre class="wp-block-preformatted"><br/>appium server -ka 800</pre>
-<h2 id="h-decoupled-drivers">Decoupled Drivers</h2>
-<p>Appium drivers (UIAutomator2 driver, XCUITest driver, Espresso Driver, etc) are tightly coupled with Appium Server but from Appium 2.0 these drivers are separated from Appium Server and can be installed separately based on users’ needs. Creating custom drivers for any new platform or special use cases are going to be easy from Appium 2.0. </p>
-<p>For example, in the future, we might have an Appium Wear driver to automate WearOS Apps or an Appium KaiOS driver to automate smart feature apps in kaiOS.</p>
-<p>To list all the available drivers in appium, enter the following command:</p>
-<pre class="wp-block-preformatted">appium driver list
-</pre>
-<pre class="wp-block-preformatted"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Listing available drivers</pre>
-<pre class="wp-block-preformatted">- uiautomator2 [not installed]</pre>
-<pre class="wp-block-preformatted">- xcuitest [not installed]</pre>
-<pre class="wp-block-preformatted">- youiengine [not installed]</pre>
-<pre class="wp-block-preformatted">- windows [not installed]</pre>
-<pre class="wp-block-preformatted">- mac [not installed]</pre>
-<pre class="wp-block-preformatted">- mac2 [not installed]</pre>
-<pre class="wp-block-preformatted">- espresso [not installed]</pre>
-<pre class="wp-block-preformatted">- tizen [not installed]</pre>
-<pre class="wp-block-preformatted">- flutter [not installed]</pre>
-<pre class="wp-block-preformatted">- safari [not installed]</pre>
-<pre class="wp-block-preformatted">- gecko [not installed]</pre>
-<p>To install a driver for say uiautomator2 driver, Appium now has subcommands to install, update, etc</p>
-<pre class="wp-block-preformatted">appium driver install uiautomator2<br/></pre>
-<pre class="wp-block-preformatted">Attempting to find and install driver 'uiautomator2'</pre>
-<pre class="wp-block-preformatted"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Installing 'uiautomator2' using NPM install spec 
-'appium-uiautomator2-driver'</pre>
-<pre class="wp-block-preformatted">Driver uiautomator2@1.61.2 successfully installed</pre>
-<pre class="wp-block-preformatted">- automationName: UiAutomator2</pre>
-<pre class="wp-block-preformatted">- platformNames: ["Android"]</pre>
-<p>To view the list of installed appium drivers, type the following command:</p>
-<pre class="wp-block-preformatted">appium driver list --installed</pre>
-<pre class="wp-block-preformatted"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Listing installed drivers</pre>
-<pre class="wp-block-preformatted">- uiautomator2@1.61.2 [installed (NPM)]</pre>
-<p>There are many other options offered by the Drivers CLI to install drivers from a specific source, update all the installed drivers, etc. This simplifies the overall installation process and users have the flexibility to choose to upgrade drivers without updating the server itself.</p>
-<h2 id="h-plugins">Plugins</h2>
-<p>Appium plugins will be here to help with the various use cases that require a change to Appium’s default behavior. These changes provide users an opportunity to build new plugins in the future, for example,  Jonathan Lipps is currently working on a driver for Roku smart TV!</p>
-<p>The Appium team continues to maintain some plugins which can be found <a target="_blank" href="https://github.com/appium/appium-plugins" rel="noopener">here</a>. </p>
-<p>Plugins help add arbitrary functionality before or after actual Appium commands. Also, the plugin can modify the Appium Server itself to introduce new commands and distribute them. For example, the current “image” plugin from Appium helps find an element by an image and also helps in image comparison too. </p>
-<p>To list all available Appium Plugins:</p>
-<pre class="wp-block-preformatted">appium plugin list<br/></pre>
-<pre class="wp-block-preformatted"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Listing available plugins</pre>
-<pre class="wp-block-preformatted">- images [not installed]</pre>
-<p>To install an Appium plugin, use this command and replace “images” with the name of the plugin you’d like to install:</p>
-<pre class="wp-block-preformatted">appium plugin install images</pre>
-<p>To activate a plugin when starting the Appium server, use the following command (replace “images” with the name of the plugin you’d like to activate):</p>
-<pre class="wp-block-preformatted">appium server -ka 800 --plugins=images -pa /wd/hub</pre>
-<pre class="wp-block-preformatted">[Appium] Welcome to Appium v2.0.0-beta.10</pre>
-<pre class="wp-block-preformatted">[Appium] Non-default server args:</pre>
-<pre class="wp-block-preformatted">[Appium]   plugins: {</pre>
-<pre class="wp-block-preformatted">[Appium]     0: images</pre>
-<pre class="wp-block-preformatted">[Appium]   }</pre>
-<pre class="wp-block-preformatted">[Appium]   basePath: /wd/hub</pre>
-<pre class="wp-block-preformatted">[Appium]   keepAliveTimeout: 800</pre>
-<pre class="wp-block-preformatted">[Appium]   tmpDir: 
-/var/folders/f5/fwh8w_ms6q377gn_fb2bmjp40000gp/T</pre>
-<pre class="wp-block-preformatted">[Appium] Appium REST http interface listener started on 
-0.0.0.0:4723</pre>
-<pre class="wp-block-preformatted">[Appium] Available drivers:</pre>
-<pre id="h-appium-uiautomator2-1-61-2-automationname-uiautomator2" class="wp-block-preformatted">[Appium]   - uiautomator2@1.61.2 (automationName 
-'UiAutomator2')</pre>
-<pre class="wp-block-preformatted">[Appium]   - xcuitest@3.36.0 (automationName 'XCUITest')</pre>
-<pre class="wp-block-preformatted">[Appium] Available plugins:</pre>
-<pre class="wp-block-preformatted">[Appium]   - images@1.1.2 (ACTIVE)</pre>
-<p>No code changes are required at this time in the client script to execute using the latest Appium server.</p>
-<h2 id="h-other-breaking-changes">Other Breaking Changes</h2>
-<p>The minimum node version required for the Appium server to run is node 12.</p>
-<h2 id="h-summary">Summary</h2>
-<p>A lot of new plugins are expected to come soon. The ability to easily create new drivers and plugins in Appium 2.0 will help solve many interesting use cases and problems that were hard to solve before. Watch this space as we share more details related to the same as it happens. </p>
-<p>Credits to <a target="_blank" href="https://github.com/jlipps" rel="noopener">Jonathan Lipps</a>, <a target="_blank" href="https://github.com/mykola-mokhnach" rel="noopener">Mykola Mokhnach</a>, <a target="_blank" href="https://github.com/kazucocoa" rel="noopener">kazucocoa</a>, and other contributors for their wonderful contributions to the Appium community.  </p>
-<p>Srinivasan Sekar – <a target="_blank" href="https://www.linkedin.com/in/srinivasan-sekar/" rel="noopener">https://www.linkedin.com/in/srinivasan-sekar/</a></p>
-<p>Sai Krishna – <a target="_blank" href="https://www.linkedin.com/in/sai-krishna-3755407b/" rel="noopener">https://www.linkedin.com/in/sai-krishna-3755407b/</a></p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/appium-2-0-beta/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Actively Exploited Windows Kernel EoP Bug Allows Takeover</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/actively-exploited-windows-kernel-eop-bug-allows-takeover/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 22:33:08 +0000</pubDate>
+		<pubDate>Thu, 11 Feb 2021 21:32:47 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Actively]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[EoP]]></category>
-		<category><![CDATA[exploited]]></category>
-		<category><![CDATA[Kernel]]></category>
-		<category><![CDATA[Takeover]]></category>
-		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/actively-exploited-windows-kernel-eop-bug-allows-takeover/</guid>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Day]]></category>
+		<category><![CDATA[Flower]]></category>
+		<category><![CDATA[Lingerie]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Mimics]]></category>
+		<category><![CDATA[PreValentines]]></category>
+		<category><![CDATA[Stores]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/pre-valentines-day-malware-attack-mimics-flower-lingerie-stores/</guid>
 
-					<description><![CDATA[Microsoft addressed 56 security vulnerabilities for February Patch Tuesday &#8212; including 11 critical and six publicly known. And, it continued]]></description>
+					<description><![CDATA[Emails pretending to confirm hefty orders from lingerie shop Ajour Lingerie and flower store Rose World are actually spreading the]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Microsoft addressed 56 security vulnerabilities for February Patch Tuesday &#8212; including 11 critical and six publicly known. And, it continued to address the Zerologon bug.<br />
+<br />Emails pretending to confirm hefty orders from lingerie shop Ajour Lingerie and flower store Rose World are actually spreading the BazaLoader malware.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/exploited-windows-kernel-bug-takeover/163800/">Source link </a></p>
+<br /><a href="https://threatpost.com/valentines-day-malware-attack/163900/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Google Play Boots Barcode Scanner App After Ad Explosion</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/google-play-boots-barcode-scanner-app-after-ad-explosion/</link>
+		<title>There are no good app stores. Not iOS nor Android. Change my mind</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/there-are-no-good-app-stores-not-ios-nor-android-change-my-mind/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 22:31:16 +0000</pubDate>
+		<pubDate>Thu, 11 Feb 2021 21:30:00 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
 		<category><![CDATA[App]]></category>
-		<category><![CDATA[Barcode]]></category>
-		<category><![CDATA[Boots]]></category>
-		<category><![CDATA[Explosion]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Play]]></category>
-		<category><![CDATA[Scanner]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/google-play-boots-barcode-scanner-app-after-ad-explosion/</guid>
+		<category><![CDATA[change]]></category>
+		<category><![CDATA[good]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Mind]]></category>
+		<category><![CDATA[Stores]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=9984</guid>
 
-					<description><![CDATA[A barcode scanner with 10 million downloads is removed from Google Play marketplace after ad blitz hits phones. Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A barcode scanner with 10 million downloads is removed from Google Play marketplace after ad blitz hits phones.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/google-boots-barcode-scanner-app-ad-explosion/163803/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Attackers Exploit Critical Adobe Flaw to Target Windows Users</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/attackers-exploit-critical-adobe-flaw-to-target-windows-users/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 19:40:47 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Adobe]]></category>
-		<category><![CDATA[Attackers]]></category>
-		<category><![CDATA[Critical]]></category>
-		<category><![CDATA[Exploit]]></category>
-		<category><![CDATA[flaw]]></category>
-		<category><![CDATA[Target]]></category>
-		<category><![CDATA[Users]]></category>
-		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/attackers-exploit-critical-adobe-flaw-to-target-windows-users/</guid>
-
-					<description><![CDATA[A critical vulnerability in Adobe Reader has been exploited in &#8220;limited attacks.&#8221; Source link]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A critical vulnerability in Adobe Reader has been exploited in &#8220;limited attacks.&#8221;<br />
-<br /><br />
-<br /><a href="https://threatpost.com/critical-adobe-windows-flaw/163789/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Researchers Follow the Breadcrumbs: The Latest Vulnerabilities in Windows&#8217; Network Stack</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/researchers-follow-the-breadcrumbs-the-latest-vulnerabilities-in-windows-network-stack/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 19:07:52 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Breadcrumbs]]></category>
-		<category><![CDATA[Follow]]></category>
-		<category><![CDATA[Latest]]></category>
-		<category><![CDATA[Network]]></category>
-		<category><![CDATA[Researchers]]></category>
-		<category><![CDATA[Stack]]></category>
-		<category><![CDATA[vulnerabilities]]></category>
-		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/researchers-follow-the-breadcrumbs-the-latest-vulnerabilities-in-windows-network-stack/</guid>
-
-					<description><![CDATA[The concept of a trail of breadcrumbs in the offensive security community is nothing new; for many years, researchers on]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<div>
-<div>The concept of a trail of breadcrumbs in the offensive security community is nothing new; for many years, researchers on both sides of the ethical spectrum have followed the compass based on industry-wide security findings, often leading to groundbreaking discoveries in both legacy and modern codebases alike. This happened in countless instances, from Java to Flash to Internet Explorer and many more, often resulting in widespread findings and subsequent elimination or modification to large amounts of code. Over the last 12 months, we have noticed a similar trend in the analysis, discovery and disclosures of vulnerabilities in networking stacks. Starting with JSOF’s <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ripple20-critical-vulnerabilities-detection-logic-and-signatures/" rel="noopener">Ripple20</a>, which we analyzed and released signatures for, a clear pattern emerged as researchers investigated anew the threat surfaces in the tcp/ip stacks deployed worldwide. Microsoft was no exception, of course running the Windows networking stack dating back to the earliest iterations of Windows, and frequently updated with new features and fixes.</div>
-</div>
-<p>In fact, looking back at just the last 8 months of Microsoft patches, we’ve tracked at least 25 significant vulnerabilities directly related to the Windows network stack. These have ranged from DNS to NTFS, SMB to NFS and recently, several tcp/ip bugs in fragmentation and packet reassembly for IPv4 and IPv6.</p>
-<p>That brings us to this month’s patch Tuesday, which contains several more high-profile critical vulnerabilities in tcpip.sys. We’ll focus on three of these, including 2 marked as “remote code execution” bugs, which could lead to wormability if code execution is truly possible, and a persistent denial-of-service vulnerability which could cause a permanent Blue Screen of Death on the latest versions of Windows.</p>
-<p>There are clear similarities between all 3, indicating both Microsoft and researchers external to Microsoft are highly interested in auditing this library, and are having success in weeding out a number of interesting bugs. The following is a short summary of each bug and the progress we have made to date in analyzing them.</p>
-<p><strong>What is CVE-2021-24086?</strong><br />The first vulnerability analyzed in this set is a Denial-of-Service (DOS) attack. Generally, these types of bugs are rather uninteresting; however, a few can have enough of an impact that although an attacker can’t get code execution, they are well worth discussing. This is one of those few. One of the things that boost this vulnerability’s impact is the fact it is internet routable and many devices using IPv6 can be directly accessible over the internet, even when behind a router. It is also worth noting that the default Windows Defender Firewall configuration does not mitigate this attack. In a worst-case scenario, an attacker could spray this attack and put it on a continuous loop to potentially cause a “permanent” or persistent DOS to a wide range of systems.</p>
-<p>This vulnerability exists when Windows’ tcpip.sys driver attempts to reassemble fragmented IPv6 packets. As a result, this attack requires many packets to be successful.  The root cause of this vulnerability is a NULL pointer dereference which occurs in <code>Ipv6pReassembleDatagram</code>. The crash occurs when reassembling a packet with around 0xffff bytes of extension headers.  It should be impossible to send a packet with that many bytes in the extension headers according to the RFC, however this is not considered in the <code>Ipv6pReceiveFragments</code> function when calculating the unfragmented length. Leveraging a proof-of-concept through the Microsoft MAPP program, McAfee was easily able to reproduce this bug, demonstrating it has the potential to be seen in the wild.</p>
-<p><strong>What is CVE-2021-24094?</strong><br />This vulnerability is classified by Remote Code Execution (RCE), though our analysis thus far, code execution comes with unique challenges. Similar to CVE-2021-24086, this issue involves IPv6 packet reassembly by the Windows tcpip.sys driver. It is different from 24086 in that it doesn’t require a large packet with extension headers, and it is not a NULL pointer dereference. Instead, it is a dangling pointer which, if the right packet data is sprayed from an attacker over IPv6, will causes the pointer to be overwritten and reference an arbitrary memory location. When the data at the pointer’s target is accessed, it causes a page fault and thus a Blue Screen of Death (BSOD). Additionally, an attacker can create persistence of the DoS by continually pointing the attack at a victim machine.</p>
-<p>While the reproduction of this issue causes crashes on the target in all reproductions so far, it’s unclear how easy it would be to force the pointer to a location that would cause valid execution without crashing. The pointer would need to point to a paged-in memory location that had already been written with additional data that could manipulate the IPv6 reassembly code, which would likely not come from this attack alone, but may require a separate attack to do so.</p>
-<p><strong>What is CVE-2021-24074?</strong><br />CVE-2021-24074 is a potential RCE in tcpip.sys triggered during the reassembly of fragmented IPv4 packets in conjunction with a confusion of IPv4 IP Options. During reassembly, it is possible to have two fragments with different IP Options; this is against the IPv4 standard, but Windows will proceed further, while failing to perform proper sanity checks for the respective options. This type confusion can be leveraged to trigger an Out of Bounds (OOB) read and write by “smuggling” an IP option <a target="_blank" href="http://www.networksorcery.com/enp/protocol/ip/option003.htm" rel="noopener">Loose source and record route</a> (LSRR) with invalid parameters. This option is normally meant to specify the route a packet should take. It has a variable length, starts with a pointer field, and is followed by a list of IP addresses to route the packet through.</p>
-<p>By leveraging the type confusion, we have an invalid pointer field that will point beyond the end of the routing list provided in the packet. When the routing function <code>Ipv4pReceiveRoutingHeader</code> looks up the next hop for the packet, it will OOB read this address (as a DWORD) and perform a handful of checks on it. If these checks are successful, the IP stack will attempt to route the packet to its next hop by copying the original packet and then writing its own IP address in the record route. Because this write relies on the same invalid pointer value as before, this turns out to be an OOB write (beyond the end of the newly allocated packet). The content of this OOB write is the IP address of the target machine represented as a DWORD (thus, not controlled by the attacker).</p>
-<p>Microsoft rates this bug as “Exploitation more likely”, however exploitation might not be as straightforward as it sounds. For an attack to succeed, one would have to groom the kernel heap to place a certain value to be read during the OOB read, and then make it so the OOB write would corrupt something of interest. Likely, a better exploitation primitive would need to be established first in order to successfully exploit the bug. For instance, leveraging the OOB write to corrupt another data structure that could lead to information disclosure and/or a write-what-where scenario.</p>
-<p>From a detection standpoint, the telltale signs of an active exploitation would be fragmented packets whose IP Options vary between fragments. For instance, the first fragment would not contain an LSRR option, while the second fragment would. This would likely be accompanied by a heavy traffic meant to shape the kernel heap.</p>
-<p><strong>Similarities and Impact Assessment</strong><br />There are obvious similarities between all three of these vulnerabilities. Each is present in the tcpip.sys library, responsible for parsing IPv4 and IPv6 traffic. Furthermore, the bugs all deal with packet reassembly and the RCE vulnerabilities leverage similar functions for IPv4 and IPv6 respectively. Given a combination of public and Microsoft-internal attribution, it’s clear that researchers and vendor alike are chasing down the same types of bugs. Whenever we see vulnerabilities in network stacks or Internet-routed protocols, we’re especially interested to determine difficulty of exploitation, wormability, and impact. For vulnerabilities such as the RCEs above, a deep dive is essential to understand the likelihood of these types of flaws being built into exploit kits or used in targeted attacks and are prime candidates for threat actors to weaponize. Despite the real potential for harm, the criticality of these bugs is somewhat lessened by a higher bar to exploitation and the upcoming patches from Microsoft. We do expect to see additional vulnerabilities in the TCP/IP stack and will continue to provide similar analysis and guidance. As it is likely to take some time for threat actors to integrate these vulnerabilities in a meaningful way, the best course of action, as always, is widespread mitigation via patching.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/researchers-follow-the-breadcrumbs-the-latest-vulnerabilities-in-windows-network-stack/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Europe’s Quantum Story is Accelerating, and the World Will be Better for it</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/europes-quantum-story-is-accelerating-and-the-world-will-be-better-for-it/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 17:31:40 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Accelerating]]></category>
-		<category><![CDATA[Europes]]></category>
-		<category><![CDATA[Quantum]]></category>
-		<category><![CDATA[Story]]></category>
-		<category><![CDATA[World]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/europes-quantum-story-is-accelerating-and-the-world-will-be-better-for-it/</guid>
-
-					<description><![CDATA[Quantum computing is the next frontier in computer science. It can bring untold benefits, allowing the development of new materials,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Quantum computing is the next frontier in computer science. It can bring untold benefits, allowing the development of new materials, tackling pandemics and making the world a greener, safer place. But it also threatens to break the encryption that keeps our data safe from prying eyes. <a target="_blank" href="https://www.lemonde.fr/politique/article/2021/01/21/emmanuel-macron-presente-un-plan-quantique-de-1-8-milliard-d-euros-sur-cinq-ans_6067037_823448.html" rel="noopener noreferrer">France’s recent announcement</a> to invest €1.8b into Europe’s quantum computing effort – on top of Germany’s two billion euros and the EU’s one billion euro quantum strategy – will help ensure Europe doesn’t miss the boat on what is set to become the cornerstone of innovation in the coming decades.</p>
-<p>In short, quantum computing is an entirely new paradigm for making calculations on computers. Today, all computing relies on sequences of ones and zeroes to make increasingly complex calculations, culminating in the smartphones, cloud services and the supercomputers that exist today.</p>
-<p>Quantum computing uses peculiar characteristics of physics to allow machines to perform complex algebra calculations in one fell swoop: “It would take ten thousand years to factor something on the fastest computer today, that could be minutes or seconds given a sufficiently powerful quantum computer,” said McAfee’s chief technology officer Steve Grobman on a recent <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/podcast/st20-quantum-computing-with-steve-grobman-jon-king/" rel="noopener noreferrer">podcast</a>. “Think about it more as waves than binary,” added John King, a McAfee research fellow also on the podcast. “You reinforce the ones that you want, and dampen the ones that you don’t want,” he said.</p>
-<p>To achieve these quirks of physics requires machines operating at temperatures colder than outer space, so it is unlikely that every person will have a quantum computer in their basement anytime soon. However, with the Internet and cloud computing, we <em>will </em>have the ability to harness the power of quantum computing remotely, just like data centres can be used from hundreds of kilometers away at the tap of a few buttons in a web browser today.</p>
-<p>Nor is quantum computing always going to be superior to the well-developed binary technologies in place today, which are handsomely suited to making precise calculations. “Quantum computing is not well suited for general purpose computing, but for solving very specific math problems that are well suited to the quantum model,” said Grobman.</p>
-<p>But the pattern-recognising abilities of quantum algorithms are uniquely well suited to complex problem. Think how to best distribute COVID-19 vaccines across populations, or even the world, or optimising global shipping networks leading to lower emissions from boats and planes.</p>
-<p>On the flipside quantum is also, unfortunately, much better at breaking encryption algorithms than tradiditional computing power . Data that is considered secure today could be rendered public knowledge in the coming decade’s advances in quantum technology, with massive implications for company secrets and national security.</p>
-<p>In the US and China, private and public actors are already pouring huge investments into quantum, and without considerable efforts, Europe exposes itself to gaping security holes, and missing out on harnessing the power of quantum to solve pressing problems such as climate change.</p>
-<p><strong>This is why France’s recent announcement is not just timely, but necessary, for Europe to continue charting a path of global success in the future</strong>. Today, the theory of quantum computers is way ahead of their actual capability. But in 10 years, it will be a different story, and given the scale of the challenge, acting now is of essence.</p>
-<p>Making the most of quantum is not just about building the computers themselves. The entire paradigm of computer science is being upended. Europe is already facing a shortage of computer scientists, and its future computer science graduates must have the tools and knowledge needed to harness this new technology. <strong>This is why France is right to focusing funding not only on research and equipment, but also talent and skills to power this computer science revolution.</strong></p>
-<p>For McAfee, making the digital world safe is a top priority, and naturally our attention gravitates toward the opportunities and threats quantum computing poses to keeping data secure and safe.</p>
-<p>But making the world a safer place isn’t just about preventing cyberattacks and encrypting valuable data. It’s equally about making the world greener and using the power of technology to solve our pressing societal and economic challenges. Quantum computing will play a key role in all these goals, provided the technology is in the right hands. Bad actors see the same opportunities in quantum to disrupt and bring chaos as we see in making the world a better place, and the only way to stymie their efforts is ensuring that Europe, along with the US and others determined to make the world a better place, stay one step ahead.</p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/executive-perspectives/europes-quantum-story-is-accelerating-and-the-world-will-be-better-for-it/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Forget what the Agile Manifesto says: Distributed agile is here to stay</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/forget-what-the-agile-manifesto-says-distributed-agile-is-here-to-stay/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Agile]]></category>
-		<category><![CDATA[Distributed]]></category>
-		<category><![CDATA[Forget]]></category>
-		<category><![CDATA[Manifesto]]></category>
-		<category><![CDATA[Stay]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/forget-what-the-agile-manifesto-says-distributed-agile-is-here-to-stay/</guid>
-
-					<description><![CDATA[While many aspects of the Agile Manifesto, created 20 years ago this month, remain relevant, one principle is holding organizations]]></description>
+					<description><![CDATA[Apple and Google are under fire yet again for allowing scam apps into their curated app stores: Apple for permitting]]></description>
 										<content:encoded><![CDATA[<p> <br />
 <br /></p>
 <div>
-<p dir="ltr">While many aspects of the Agile Manifesto, <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-manifesto-20-whats-still-relevant-whats-not" rel="noopener">created 20 years ago this month</a>, remain relevant, one principle is holding organizations back. It&#8217;s the sixth principle, which states: </p>
-<blockquote>
-<p dir="ltr">&#8220;The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.&#8221;  </p>
-</blockquote>
-<p dir="ltr">Agile purists have taken this to mean that unless your team collaborates face-to-face, you will be at a disadvantage. That mindset has been dangerous and wrong, because it has resulted in &#8220;rules&#8221; that require people on agile teams to be in the office, reversing previous policies that allowed for greater flexibility. But trust does not depend on seeing someone in person.</p>
-<p dir="ltr">While <a target="_blank" href="https://techbeacon.com/app-dev-testing/agile-manifesto-dead-not-long-shot" rel="noopener">most of the Agile Manifesto still holds</a>, this principle is outdated. Those who hold on to forcing face-to-face communication will be at a disadvantage to competitors that embrace and adapt to change, as stated in the overarching principles of agile.</p>
-<p dir="ltr">While there&#8217;s no question that face-to-face communication has benefits, <a target="_blank" href="https://content.microfocus.com/world-quality-report-2020-21-tb/agile-leadership-uncertain-times?lx=62a6Zf&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener">agile leaders in these uncertain times</a> have discovered that having a work-from-anywhere approach saves money and gives employees more flexibility. Yes, this trend has been <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">accelerated by the pandemic</a>, but it was already happening—and there&#8217;s no going back.</p>
-<p dir="ltr">Here&#8217;s how you can maintain a <a target="_blank" href="https://techbeacon.com/app-dev-testing/distributed-agile-teams-8-hacks-make-them-work" rel="noopener">collaborative agile culture</a> during the pandemic—and beyond.</p>
-<h3>Take advantage of a geographically distributed team</h3>
-<p>A global team brings different perspectives and the opportunity for round-the-clock teaming without anyone having to work outside of normal business hours.</p>
-<p dir="ltr">I&#8217;ve led mission-critical support teams with staff members in Europe, North America, and Asia-Pacific, a distributed approach that allowed us to provide coverage without anyone receiving annoying wakeup calls.</p>
-<p dir="ltr">Another mistake agilists who misinterpret the sixth principle make: forcing team members to attend meetings outside of their business time zone. While it&#8217;s important to have strong communication and trust between team members, this does not mean you have to always have real-time meetings.</p>
-<p dir="ltr">Even if your team is not geographically diverse, the freedom to hire outside of your location provides flexibility and diversity in hiring practices and allows people to <a target="_blank" href="https://techbeacon.com/enterprise-it/best-places-work-tech-5-lessons-dev-ops-security" rel="noopener">live in areas where real estate and the cost of living are more affordable</a>.</p>
-<p dir="ltr">As with all agile processes, <a target="_blank" href="https://techbeacon.com/app-dev-testing/are-self-organizing-agile-teams-realistic" rel="noopener">your team needs to self-organize</a> and determine the communication strategies that work best for the team, while continuing to reflect and improve. There&#8217;s a multitude of communication tools you can choose from that foster teaming and collaboration and offer alternatives to face-to-face, real-time meetings.</p>
-<p dir="ltr">Misunderstandings can occur whether you&#8217;re using tools, email, or talking directly. However, the &#8220;paper trail&#8221; these tools generate provides a better avenue for being able to drill down and get to the root of misunderstandings and correct them. These tools also provide a better means for everyone to get on the same page.</p>
-<blockquote>
-<p dir="ltr">Often, it&#8217;s the face-to-face conversations that cause the biggest misunderstandings, and there&#8217;s no easy way to go back and analyze the root cause.</p>
-</blockquote>
-<h3>Foster personal relationships and stay focused</h3>
-<p>The intent of the sixth principle of the Agile Manifesto was to serve as a reminder that we all communicate not only by what we say, but also with our body language. More trust can be established when you are looking into someone&#8217;s eyes and read what they&#8217;re saying—and what they&#8217;re not saying—through their body language and tone.</p>
-<p dir="ltr">When teams are in the office together, camaraderie builds and people can easily share smiles, small talk, photos, frustrations, and all the ups and downs of their day. They can take walks to brainstorm, meet for coffee, celebrate birthdays, and go for happy hours. Friendships flourish, and work provides a place where people want to go every day because it&#8217;s where they see and work with their friends.</p>
-<blockquote>
-<p dir="ltr">When people are not physically together, you need to expend more effort to foster those relationships. One way to do this is to turn on those cameras for online interactions.</p>
-</blockquote>
-<p dir="ltr">Most people don&#8217;t like to turn on their cameras because, let&#8217;s face it, with the cameras off, they are freer to multitask without anyone knowing. They keep one ear open to listen for their name during meetings, but more often than not, they&#8217;re on mute, maybe doing pushups, doing the laundry, or walking the dog.</p>
-<h4>How to stay engaged</h4>
-<p dir="ltr">During the pandemic, people are dealing with a lot of unusual circumstances, often with kids at home doing their classes over Zoom. Personally, I disagree with having rules of any kind unless they are agreed upon by the team. However, to build trust with your teammates, you need to listen and be engaged.</p>
-<p dir="ltr">Make an effort to get to know your teammates personally. Take the time to share stories and pictures or have one-on-one chats and phone calls. Certainly, if you are a leader or manager, make one-on-ones a priority and keep your camera on as often as possible. Make sure you have a virtual open-door policy and maintain transparency, approachability, and availability.</p>
-<p dir="ltr">Take advantage of <a target="_blank" href="https://techbeacon.com/enterprise-it/digital-transformation-fast-forward-time-adjust-accelerate" rel="noopener">the flexibility that comes with remote work</a>. Schedule walk-and-talk one-on-ones where you can walk and enjoy nature at the same time, in different locations. Let your entertaining pets join a chat, and let others know if you have to break away from a meeting for a personal issue, with the promise to catch up on whatever&#8217;s necessary.</p>
-<p dir="ltr">The pandemic has taught us that there is no substitute for the human connection that can result when we are physically together. Indeed, in some agile teams I engaged with before the pandemic that had remote members, those remote participants felt excluded.</p>
-<p dir="ltr">The rhetoric from agilists implied that the remote team members were at a disadvantage and could never be as effective as their co-located counterparts. But this is not the true mindset of an agilist.</p>
-<blockquote>
-<p dir="ltr">Agile teams must <a target="_blank" href="https://techbeacon.com/app-dev-testing/remote-vs-office-software-teams-which-better" rel="noopener">embrace diversity and talent</a>, regardless of physical location or time zone, and provide opportunities for strong communication and collaboration.</p>
-</blockquote>
-<h3>Embrace change, self-organize, adapt, and improve</h3>
-<p>Other than rebelling against the sixth principle that drove some behaviors that have been detrimental for teams, I&#8217;m a firm believer in the overall agile philosophies. For healthy teams, we need to have trust, strong communication, and caring, supportive relationships.</p>
-<blockquote>
-<p>There are <a target="_blank" href="https://techbeacon.com/app-dev-testing/distributed-vs-colocated-agile-teams-pros-cons" rel="noopener">no one-size-fits-all answers</a> that tell us the &#8220;best&#8221; way to communicate. Every situation is different, as is every team.</p>
-</blockquote>
-<p dir="ltr">We live in an age with wonderful technology advancements that allow us to foster collaboration, communication, and teaming with people all over the world. At the same time, we can be spending physical time with our families.</p>
-<p dir="ltr">Use this time to experiment and creatively communicate. Embrace and celebrate these technological advancements and their abilities to keep us connected during the pandemic.</p>
-<p dir="ltr">If I could make one amendment to the Manifesto, it would be to add trust over co-location as a value statement. Co-location is beneficial, but trust is golden.</p>
+<p><strong>Apple and Google are under fire yet again</strong> for allowing scam apps into their curated app stores: Apple for permitting useless clone apps that sneakily charge recurring fees, and Google for not dealing with once-good apps that go rogue.</p>
+<p><strong>There are no good app stores.</strong> There, I said it. Change my mind.</p>
+<p><strong>It’s all about the mighty dollar.</strong> In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener">Security Blogwatch</a></i>, we follow the money.</p>
+<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>BOOM.</em></p>
+<h3>A plague on both your houses</h3>
+<p><strong>What’s the craic?</strong> Dan Goodin reports—<i><a target="_blank" href="https://arstechnica.com/information-technology/2021/02/android-barcode-scanner-with-10-million-downloads-infects-users/" rel="nofollow ugc noopener" title="read the full text">Android barcode scanner with 10 million+ downloads infects users</a>:</i></p>
+<blockquote><p><em>Barcode Scanner, one of dozens of such apps available in the official Google app repository, began its life as a legitimate offering. Then in late December … ads were opening out of nowhere. … An update delivered in December included code that was responsible for the bombardment.<br />…<br />Google [has] removed the app. … So far, however, Google has yet to use its Google Play Protect tool to remove the app from devices that had it installed. … Anyone who has a barcode scanner installed on an Android device should inspect it.</em></p></blockquote>
+<p><strong>How can we tell?</strong> Thomas Claburn explainifies—<i><a target="_blank" href="https://www.theregister.com/2021/02/08/barcode_scan_app_malwarebytes_update/" rel="nofollow ugc noopener" title="read the full text">Barcode scan app amassed millions of downloads before weird update</a>:</i></p>
+<blockquote><p><em>Barcode Scanner, distributed by a London-based company called LavaBird, received an update on December 4, 2020, that appears to have introduced the code in question. … LavaBird&#8217;s now-banished Android app shouldn&#8217;t be confused with ZXing Team&#8217;s Barcode Scanner that remains in the Play Store.<br />…<br />LavaBird … is run by Dmytro Kizema, a resident of Ukraine. [It] was incorporated in March, 2020 [but] those involved appear to have been using variations on that name for several years and have other apps that they use to sell traffic to advertisers.</em></p></blockquote>
+<p><strong>Who discovered it?</strong> Nathan Collier slightly over-hypes the scale of the problem—<i><a target="_blank" href="https://blog.malwarebytes.com/android/2021/02/barcode-scanner-app-on-google-play-infects-10-million-users-with-one-update/" rel="nofollow ugc noopener" title="read the full text">Barcode Scanner app on Google Play infects 10 million users with one update</a>:</i></p>
+<blockquote><p><em>Late last December we started getting a distress call. … One patron, who goes by username Anon00, discovered that it was coming from a long-time installed app, Barcode Scanner. An app that has 10,000,000+ installs from Google Play.<br />…<br />We predict … the update occurred on December 4th. … Malicious code had been added that was not in previous versions of the app. Furthermore, the added code used heavy obfuscation to avoid detection. … We confirmed it had been signed by the same digital certificate as previous clean versions.<br />…<br />It is frightening that with one update an app can turn malicious while going under the radar of Google Play Protect. … Because there are so many other legitimate barcode and QR scanners on Google Play, [here’s the] app information:<br />Publisher: LavaBird LTD<br />App Name: Barcode Scanner<br />MD5: A922F91BAF324FA07B3C40846EBBFE30<br />Package Name: com.qrcodescanner.barcodescanner.</em></p></blockquote>
+<p><strong>As opposed to other apps with the same name?</strong> Thus spake <i><a target="_blank" href="https://arstechnica.com/information-technology/2021/02/android-barcode-scanner-with-10-million-downloads-infects-users/?comments=1&amp;post=39646011#comment-39646011" rel="nofollow ugc noopener" title="read the full text">marsilies</a>:</i></p>
+<blockquote><p><em>I use an app called &#8220;Barcode Scanner&#8221; that&#8217;s not the malware app. However, the recent reviews blast it for adware, which I haven&#8217;t noticed. I think having the exact same name has caused some people to post negative reviews on the wrong app.</em></p></blockquote>
+<p><strong>As wooped</strong> <i><a target="_blank" href="https://news.ycombinator.com/item?id=26063924" rel="nofollow ugc noopener" title="read the full text">wooptoo</a></i>, too: <em>[You’re fired—Ed.]</em></p>
+<blockquote><p><em>This is possibly tied to the recent assault on the ZXing Barcode scanner app. This is a legit open source app that&#8217;s been recently flooded by 1-star reviews claiming that the app contains malware, probably in order to get users to switch to the other apps.</p>
+<p>The funny thing is this app has not been updated since 2019 on the Play Store, so those reviews are clearly bogus. It takes a special kind of scum to slander an open source project in order to push malware.</p>
+<p></em></p></blockquote>
+<p><strong>And this problem isn’t unique to Android.</strong> Tim Hardwick explains—<i><a target="_blank" href="https://www.macrumors.com/2021/02/09/scam-apps-ios-making-millions-revenue/" rel="nofollow ugc noopener" title="read the full text">Scam iOS Apps Still Raking in Millions in Revenue on App Store</a>:</i></p>
+<blockquote><p><em>The problem of scam iOS apps has dogged Apple&#8217;s App Store for some years now. … Scammers prey on and exploit the work of genuine app developers. … The developer Kosta Eleftheriou has taken to Twitter to highlight that the problem remains as big as ever in at least some app categories – and also offered iOS users a way to spot them.<br />…<br />According to Eleftheriou, there are several clones of his … app, but one of the most clear non-functional rip-offs … launched with a blank interface and an &#8220;Unlock now&#8221; button. Tapping the button prompted users to confirm an $8/week subscription—for an app that doesn&#8217;t do anything.<br />…<br />[He said] the scam achieved prominence in the App Store by gaming Apple&#8217;s algorithmic ranking system through the purchase of fake ratings and glowing five-star reviews, which bumped it up to the top of its app category. It even advertised its software using his own promotional video.</em></p></blockquote>
+<p><strong>Old news, I hear you cry?</strong> <i><a target="_blank" href="https://news.ycombinator.com/item?id=26069947" rel="nofollow ugc noopener" title="read the full text">alex331</a></i> counts the days:</p>
+<blockquote><p><em>It&#8217;s been a week since this issue [was] highlighted. And a week since Apple still hasn&#8217;t said a single thing. This is sad.</em></p></blockquote>
+<p><strong>IANAL, and neither is</strong> <i><a target="_blank" href="https://apple.slashdot.org/comments.pl?sid=18218238&amp;cid=61041426" rel="nofollow ugc noopener" title="read the full text">Anubis IV</a>:</i></p>
+<blockquote><p><em>Not a lawyer here, but it even seems as if there may be a case for fraud. … If they&#8217;re stealing someone else&#8217;s videos, posting them as their own, delivering a non-functioning app, and charging users $8/week for the privilege of using said app, the App Store might be well-served by Apple going after them in court.</em></p></blockquote>
+<p><strong>Cui bono?</strong> With an eye on Apple’s 30%, <i><a target="_blank" href="https://news.ycombinator.com/item?id=26054879" rel="nofollow ugc noopener" title="read the full text">ekurutepe</a></i> blames Tim Apple:</p>
+<blockquote><p><em>I&#8217;m sure Apple wants to do the right thing but they&#8217;ve set themselves up badly from the top down in this case: Tim Cook has been promising (and delivering) services revenue and subscriber count growth since 2016. If your employer says services revenue growth is the most important thing, people do respond to incentives even if they&#8217;re aware of it or not.</em></p></blockquote>
+<p><strong>Meanwhile,</strong> what’s the best way to curate an app store? <i><a target="_blank" href="https://apple.slashdot.org/comments.pl?sid=18208056&amp;cid=61036706" rel="nofollow ugc noopener" title="read the full text">arglebargle_xiv</a></i> comment YOU:</p>
+<blockquote><p><em>Google method is much more economical. Google asks Google Play authors, &#8220;Are you Russian hacker?&#8221; and if reply is &#8220;Nyet!&#8221; then app gets approved.</em></p></blockquote>
+<h3>The moral of the story?</h3>
+<p>Watch out for scam clones of your app, and for bad reviews targeting similarly named apps.</p>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=N5Ws87gxFDY&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow" title="And Finally">Don’t try this at home, kids</a></strong></p>
+<p><iframe title="How To Mount a Car Tires Using FIRE" width="800" height="450" src="https://www.youtube.com/embed/N5Ws87gxFDY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE. 30.</em></p>
+<p><em>This week’s zomgsauce: <a target="_blank" href="https://unsplash.com/photos/EPeK7w5Eeic" rel="noopener nofollow">Proxyclick</a> (via <a target="_blank" href="https://unsplash.com/license" rel="noopener nofollow" title="Some rights reserved">Unsplash</a>)</em></p>
 <h4>Keep learning</h4>
 </div>
-<p><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/forget-what-agile-manifesto-says-distributed-agile-here-stay">Source link </a></p>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/security/there-are-no-good-app-stores-not-ios-nor-android-change-my-mind">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Android Devices Hunted by LodaRAT Windows Malware</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/android-devices-hunted-by-lodarat-windows-malware/</link>
+		<title>Here’s What I’m Doing to Avoid Being Caught Up in A Puppy Scam</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/heres-what-im-doing-to-avoid-being-caught-up-in-a-puppy-scam/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 15:47:03 +0000</pubDate>
+		<pubDate>Thu, 11 Feb 2021 18:54:42 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Avoid]]></category>
+		<category><![CDATA[Caught]]></category>
+		<category><![CDATA[Heres]]></category>
+		<category><![CDATA[Puppy]]></category>
+		<category><![CDATA[scam]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/heres-what-im-doing-to-avoid-being-caught-up-in-a-puppy-scam/</guid>
+
+					<description><![CDATA[In November last year, we lost our much-loved family dog. We were all so devasted. Harley was a very handsome]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="author-block padding-bottom-xs">
+                
+            </div>
+<p>In November last year, we lost our much-loved family dog. We were all so devasted. Harley was a very handsome black and white Cavoodle who died from a paralysis tick bite after giving us 12 years of love. After lots of tears and weeks of sadness, we have decided it’s time to start our search for another fur baby.</p>
+<p>But it seems we are not the only ones in the market for a new puppy. Thanks to COVID and our new very home focussed lives, puppies have been in hot demand since early 2020 and they still are. What better way to deal with lockdown loneliness and a home-based existence than a brand-new ball of fluff!</p>
+<p>Over the last few weeks, I’ve spoken to multiple breeders from all around Australia who have over 50 families waiting for a puppy! A Portuguese Water Dog breeder told me yesterday that it would be 2023 before she could offer me a puppy!! So,</p>
+<p>And this trend hasn’t gone unnoticed by cybercriminals with <a target="_blank" href="https://thenewdaily.com.au/life/2020/11/24/puppy-prices-peak-as-scams-increase-fourfold-on-last-year/" rel="noopener noreferrer">the Australian Competition and Consumer Commission (ACCC) reporting a four-fold increase in puppy scams in 2020!! In fact, a whopping $1.6 million was scammed from unsuspecting Aussies simply looking for a ball of fur to love between January and October 2020.</a></p>
+<p>So, how do you avoid being caught up in a puppy scam and losing money? Here’s what I’m doing to ensure we don’t get swindled while we search for our new puppy:</p>
+<h2><strong>1. Take Your Time</strong></h2>
+<p>Cybercriminals rely on us being in a rush and not doing our homework. A quick google search for popular dog breeds such as Cavoodles, Labradors or Dachshunds will yield pages of results, not all of them legit!</p>
+<p>Scammers are very talented at making their sites look genuine. They will copy photos of puppies and breeders from legitimate sites and will even use certificates and identification numbers from these legitimate breeders too. Quite often the only detail that differs is the contact telephone number and email address.</p>
+<p>Facebook and Instagram ads are also created using these details too making it very hard to identify what is legitimate and what isn’t.</p>
+<h2><strong>2. Do Your Homework</strong></h2>
+<p>Doing your due diligence is the best way to prevent becoming a victim of a puppy scam. Even if the person on the end of the phone sounds delightful and the pictures are gorgeous, you owe it to yourself – and your bank account – to ensure you are dealing with a legitimate breeder. Here’s what I recommend you do:</p>
+<ul>
+<li>Google the name of the breeder to ascertain whether they have NOT been caught up in a scam.</li>
+<li>Always ring the association that the breeder says they are registered with and crosscheck all the information you have been given.</li>
+<li>As most puppies come vaccinated and microchipped, ask the breeder to share contact details of the veterinary clinic the puppy has been to.</li>
+</ul>
+<h2><strong>3. Photos and Video Chat</strong></h2>
+<p>If you are not able to pick up your pet in person, requesting photos and even a video call with the breeder and your potential puppy is essential.</p>
+<p>Ask the breeder for multiple photos of the pet with specific items – this help you ascertain that the pet is real and not photoshopped. A recent newspaper is a great item to suggest.</p>
+<p>However, a video call is probably the best way of giving you total piece of mind. Yes, it maybe crazy and noisy but there’s nothing like seeing something with your own eyes to satisfy yourself that it is real and not photoshopped!</p>
+<h2><strong>4. Trust Your Gut</strong></h2>
+<p>We all have a 6<sup>th</sup> sense and now is the time to use it:</p>
+<ul>
+<li>If the breeder is trying to push for the sale as they are moving to a new house or are unwell, be suspicious.</li>
+<li>If the breeder is putting pressure on you to deposit funds to secure your puppy ASAP, be suspicious.</li>
+<li>If the breeder is asking an inflated price for the pet, be suspicious. Do your research so you know what an average asking price would be.</li>
+<li>If email communication with breeder has signs of broken English or poor grammar, be very suspicious.</li>
+</ul>
+<p>I can’t imagine our family without pets. They play such an important, cohesive role and we take such joy in sharing photos of our crazy cats and their weird antics on our family group chat.</p>
+<p>Next week, we are going to pickup our new puppy. After much debate about breeds, we have chosen a tri coloured beaglier – male of course! The breeder sounds delightful over the phone and the pictures are gorgeous. But just to ensure total piece of mind, I am driving nearly 7 hours to pick up our new fur baby in person. I’ll be sure to share some photos!</p>
+<p>Happy pet shopping!</p>
+<p>Alex xx</p>
+</p></div>
+<p><script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '187610925152304');
+  fbq('track', 'PageView');
+</script><script>
+// load Facebook
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '766537420057144');
+fbq('track', "PageView");</p>
+<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
+</script><br />
+<br /><br />
+<br /><a href="https://www.mcafee.com/blogs/consumer/heres-what-im-doing-to-avoid-being-caught-up-in-a-puppy-scam/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>NeoLoad 7.8 is here! Powerful dynamic monitoring capabilities for Prometheus and&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/neoload-7-8-is-here-powerful-dynamic-monitoring-capabilities-for-prometheus-and/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2021 17:21:23 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Capabilities]]></category>
+		<category><![CDATA[Dynamic]]></category>
+		<category><![CDATA[Monitoring]]></category>
+		<category><![CDATA[NeoLoad]]></category>
+		<category><![CDATA[Powerful]]></category>
+		<category><![CDATA[Prometheus]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/neoload-7-8-is-here-powerful-dynamic-monitoring-capabilities-for-prometheus-and/</guid>
+
+					<description><![CDATA[NeoLoad 7.8 is here! Powerful dynamic monitoring capabilities for Prometheus and Microsoft monitors, visual editing of test scenarios from the]]></description>
+										<content:encoded><![CDATA[
+<p>NeoLoad 7.8 is here! Powerful dynamic monitoring capabilities for Prometheus and Microsoft monitors, visual editing of test scenarios from the NeoLoad Web Platform, one-click export of any dashboard as a PDF and more. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F2MGpmpd&amp;h=AT3mgCWpqn97cBlul-oO9i8AwzkzrYmxsHzad1GWc7ZCIbQWv9des8inGZNusN4wUtBniOuNPUBXkVzsAMa17nFO71f_a8UwQsLS_kEfRau9ydJLoeqieB52uwyra9k6nolNNGqt19yJFQtOIgJbHeMcxWqdOY-ZdnJlmPiKOstyM_ZLr9EtCKc4eZguMfxW70xTsNVteze4Vmr51Zar26sN5iAk6FLXi1KuHJ5Er31esxQPlcl-WfQxSwEjMQe0-REPsa_43bBHgyzFiU9VI9bZwBb6NKde7oqmgDPVQOXjdDIq9paegGuWjBBvYf5HA5xb5XfqdhP_K1wp3Rq-Cb6qcZS0overE-U6Y6HZGeerS9OzWINn43ctm4LQyYrM-BH-eVsrAsmupob7hDAUmK6_cGhbaoiEDGpFfv6boklFEgpa5bITMhkg9xY0mWkgahYYErJi_uFLiIA3cCzxgZObPwj7sac7FL7yUs-jgg2YtBeZ5_Wq7nto97VA3wFKetJ3EI0WV80v2csKIFGZBYAE_tsEFz6AdkUScomH-n2GIkmNs0y66XPU4kQf_ZZ1qwk9F-kJiJoxFW74jPprB1eZVjBeP16GQcfo2ju4eC5Uwbvf1V0-3bKI17ZoNcWEW99OS1Ly1HR2m2PqfBbYCdNS9OedNWk-BxEvm9f_o0mBi_kF37M2TGQ5xrn1MYiXZgWD8Q5iUqVhDphG44mdB0aa2BoJsMV0Amrc2LloefV26XLtVeBdAJszq8SNJSQDeIVnHGpu0nV5Y5wS7NiNFP-3scyI0zXI48a1ZR_MDyeur0hlr67kSdGCMbExfDZR2pIzHIdO65roXevNCPL9G_kCVxx1aOhpfMWN0Q1l9f15rzhtTRvZd73vwhyAYzpa8A6xKEVSvL7SwIFyIyBC1iYsTvu5B7Nkj51p3j--ofDX41kmPfABlZjBChIZbJLEMVo48vICjsq7aFyDTifkZTfopz6b3TwxDWWN3Lb3A2Hn_TI9UDytDi7rPL9dk3WDM7LUPs15G72tp3IJHLbm16KzUKY6lwr6bDwfr9YD3YEgMHbdj1q4Yla-RwyypgOY9lrjxrOIKyeG74iLtwKzaUgYDCeNzO_ilKSXxGRhgaZd3B_vY16rvJB6nRrVT6nUJEd4nQG8ybVkjPjzWjbuNJF5Rd5E-G7o8FdVkbZtiFgvM-P4P8hiFigo2nrcwztYjpJbWDVXgaJqQs8T4Ehfz4h2-4GUcJ6y9Gh5drGluhXcEctXO-fjESfRTqyY" rel="noopener">https://bit.ly/2MGpmpd</a>
+</p>
+<p><a target="_blank" href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/148684498_4097603366917762_3455767657588566156_o.png?_nc_cat=103&#038;ccb=3&#038;_nc_sid=8024bb&#038;_nc_ohc=IU5xQxk9as0AX8g1YrO&#038;_nc_ht=scontent-iad3-1.xx&#038;oh=f5c617de0526ec06b186450734cf6fd2&#038;oe=604BD445" rel="noopener"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4097603420251090">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Celeb SIM-Swap Crime Ring Stole $100M from U.S. Victims</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/celeb-sim-swap-crime-ring-stole-100m-from-u-s-victims/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2021 16:03:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[100M]]></category>
+		<category><![CDATA[Celeb]]></category>
+		<category><![CDATA[Crime]]></category>
+		<category><![CDATA[Ring]]></category>
+		<category><![CDATA[SIMSwap]]></category>
+		<category><![CDATA[Stole]]></category>
+		<category><![CDATA[Victims]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/celeb-sim-swap-crime-ring-stole-100m-from-u-s-victims/</guid>
+
+					<description><![CDATA[The attackers ported victims&#8217; cell phone lines and then defeated 2FA to access accounts and apps. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The attackers ported victims&#8217; cell phone lines and then defeated 2FA to access accounts and apps.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/celeb-sim-swap-crime-ring-100m/163888/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How Email Attacks are Evolving in 2021</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-email-attacks-are-evolving-in-2021/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2021 15:52:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Evolving]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-email-attacks-are-evolving-in-2021/</guid>
+
+					<description><![CDATA[The money being wire transferred by business email compromise victims is on the rise, as cybersecurity criminals evolve their tactics.]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The money being wire transferred by business email compromise victims is on the rise, as cybersecurity criminals evolve their tactics.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/email-security-attacks-bec/163869/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Various Malware Lurking in Discord App to Target Gamers</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/various-malware-lurking-in-discord-app-to-target-gamers/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2021 15:03:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Discord]]></category>
+		<category><![CDATA[Gamers]]></category>
+		<category><![CDATA[Lurking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Target]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/various-malware-lurking-in-discord-app-to-target-gamers/</guid>
+
+					<description><![CDATA[Research from Zscaler ThreatLabZ shows attackers using spam emails and legitimate-looking links to gaming software to serve up Epsilon ransomware,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Research from Zscaler ThreatLabZ shows attackers using spam emails and legitimate-looking links to gaming software to serve up Epsilon ransomware, the XMRrig cryptominer and various data and token stealers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/various-malware-lurking-in-discord-app-to-target-gamers/163867/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Military, Nuclear Entities Under Target By Novel Android Malware</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/military-nuclear-entities-under-target-by-novel-android-malware/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2021 12:00:22 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
 		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[Hunted]]></category>
-		<category><![CDATA[LodaRAT]]></category>
+		<category><![CDATA[Entities]]></category>
 		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/android-devices-hunted-by-lodarat-windows-malware/</guid>
+		<category><![CDATA[Military]]></category>
+		<category><![CDATA[Nuclear]]></category>
+		<category><![CDATA[Target]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/military-nuclear-entities-under-target-by-novel-android-malware/</guid>
 
-					<description><![CDATA[The LodaRAT &#8211; known for targeting Windows devices &#8211; has been discovered also targeting Android devices in a new espionage]]></description>
+					<description><![CDATA[The two malware families have sophisticated capabilities to exfiltrate SMS messages, WhatsApp messaging content and geolocation. Source link]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />The LodaRAT &#8211; known for targeting Windows devices &#8211; has been discovered also targeting Android devices in a new espionage campaign.<br />
+<br />The two malware families have sophisticated capabilities to exfiltrate SMS messages, WhatsApp messaging content and geolocation.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/android-devices-lodarat-windows/163769/">Source link </a></p>
+<br /><a href="https://threatpost.com/military-nuclear-entities-under-target-by-novel-android-malware/163830/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Cyberpunk 2077 Publisher Hit with Hack, Threats and Ransomware</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/cyberpunk-2077-publisher-hit-with-hack-threats-and-ransomware/</link>
+		<title>My Holiday Hackathon 2020 &#8211; Kerry McKeever</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/my-holiday-hackathon-2020-kerry-mckeever/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 15:33:11 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cyberpunk]]></category>
-		<category><![CDATA[Hack]]></category>
-		<category><![CDATA[Hit]]></category>
-		<category><![CDATA[Publisher]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[threats]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cyberpunk-2077-publisher-hit-with-hack-threats-and-ransomware/</guid>
+		<pubDate>Thu, 11 Feb 2021 00:21:52 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Hackathon]]></category>
+		<category><![CDATA[Holiday]]></category>
+		<category><![CDATA[Kerry]]></category>
+		<category><![CDATA[McKeever]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/my-holiday-hackathon-2020-kerry-mckeever/</guid>
 
-					<description><![CDATA[CD Projekt Red was hit with a cyberattack (possibly the work of the &#8220;Hello Kitty&#8221; gang), and the attackers are]]></description>
+					<description><![CDATA[As a test automation architect, I am always on the lookout for the best solutions that can help reduce the]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />CD Projekt Red was hit with a cyberattack (possibly the work of the &#8220;Hello Kitty&#8221; gang), and the attackers are threatening to release source code for Witcher 3, corporate documents and more.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cyberpunk-2077-publisher-hack-ransomware/163775/">Source link </a></p>
+</p>
+<div>
+<p>As a test automation architect, I am always on the lookout for the best solutions that can help reduce the feedback loop between development and QA. As development cycles speed up, having the ability to release features at breakneck speed has become crucial to the success of many organizations. With software infrastructure becoming ever more complicated, and multiple teams contributing to a single application to accommodate these release cycles, the need for effective solutions to catch bugs as fast as possible has never been greater. Enter Applitools.</p>
+<p>Applitools has been making waves across the test community for years now by disrupting the traditional means by which test engineers automate their solutions with more coverage, fewer lines of code, and less time spent toward test maintenance. In a stroke of genius, they have invited engineers worldwide to participate in hackathons leveraging the Applitools Ultrafast Grid to show them firsthand how powerful the tool can be. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f4aa.png" alt="💪" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<figure class="wp-block-pullquote">
+<blockquote>
+<p>…standing up an automated test solution can easily take hours to lay the groundwork before you write a single test. The best part of leveraging Cypress and Applitools is that it took roughly one hour from start to finish including the development of my tests, which is almost unheard of. </p>
+<p><cite>Kerry McKeever</cite></p></blockquote>
+</figure>
+<p>During my first Applitools hackathon, I set up my framework how I traditionally would for any company requiring strong cross-browser compatibility. To do this, I leveraged Selenium and C#, since that is what stack I had been working on for multiple employers up to that point. My challenge to myself for that hackathon was to see how I could build comparable tests in Applitools with as few lines as possible compared to my core Selenium tests.</p>
+<p>Once I completed the solution, I ran an analysis on both projects to see where I stood. These comparisons do not account for the shared framework code for the Driver classes, enums to handle driver types and viewport sizes, page object models, and helper classes used between both solutions – just the test code itself. In the end, <strong>my core Selenium test project contained 845 lines of </strong><strong><em>just</em></strong><strong> test code</strong>.</p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"></figure>
+</div>
+<p>Conversely, to execute the same tests with the same, or greater, level of confidence in the solution, <strong>the number of lines written for the Applitools test code was only 174</strong>! </p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><img loading="lazy" src="https://lh4.googleusercontent.com/oZdFcDvtmSPFb08SkSOLV-C9vYhnXsmIwTevNWUxmOAElRqxrzkZJbxFMbAcU_rG6bhUl-xNrL2I46SlGJnvn0yv1b6z03I741HQ1jv0TyQTxAIuvmGXH_Xxw2pKHi3JkfRrO6Y" alt="" width="953" height="155"/></figure>
+</div>
+<p>Though we SDETS do all we can to ensure that we have a robust test framework that is as resilient to change as possible, UI test code, by nature, is flaky. Having to maintain and refactor test code isn’t a possibility, it’s a <strong>promise</strong>. Keeping your test code lean = less time writing and maintaining test code = more time focusing on new application features and implementing other test solutions! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2 id="h-my-challenge-maximize-coverage-minimize-code">My Challenge – Maximize Coverage, Minimize Code</h2>
+<p>When I saw the opportunity to join Applitools’ Holiday Shopping Hackathon, I jumped on it. This time, I wanted to challenge myself to create both my solution and test framework in not only as few lines as possible, but also as fast as I possibly could. </p>
+<p>Traditionally, building out a test framework takes considerable time and effort. If you are working in Selenium, you can spend hours just building out a proper driver manager and populating your page object models. </p>
+<p>Instead, I opted to go another route and use Cypress with my reasoning being two-pronged: 1) Cypress allows for fast ramp up of testing, where you can easily have your tests solution up and running against your application in as little as 5 minutes. <em>Seriously</em>. 2) Cypress is used as the test framework at my current place of employment, and it allowed me to build a functioning POC to showcase the power of Applitools to my colleagues. Win-win!</p>
+<p>But there is a caveat…While Cypress allows for cross-browser automation against modern browsers, it does not support Safari or IE11. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f61e.png" alt="😞" class="wp-smiley" style="height: 1em; max-height: 1em;" /> For many companies with a large client base using one or both of these browsers, this can be a non-starter. But that’s where Applitools comes in.</p>
+<p>While Cypress has a browser limitation, Applitools allowed me to leverage the easy, quick setup of test automation in Cypress without sacrificing the ability to run these tests on Safari and IE11. <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Essentially, my test runs once with Cypress in a single browser, then Applitools re-renders the DOM from my test execution and runs the test against all browser combinations I specify. No browser limitations, no duplication of tests, in as few lines as possible.</p>
+<p>How few? Let me share with you my simple solution that covered all necessary scenarios:</p>
+<figure class="wp-block-image is-resized"><img loading="lazy" src="https://lh4.googleusercontent.com/wO_UTUlZNuUGTlChaydxiLja8ejFwQzOYa7CZdLoqS5UrCgyRdh7NJl84mKAtTRRRoE4gRsUnN3BpRmj_0axT5l-bYFHgz7raI9lepn-HLcCMlmfyqwQEM7Fw6Tu3cHnWPcnnGs" alt="" width="984" height="467"/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/TFIXZIDoIvj4ik3hyTbzsGEMj7uVmH97HhGhDSwpia4EeirkdyA914mxkNCkNdScu32yffUk2MeEHr71auJLaMMbcMWRWwdNMS6DPHUe18VxaDTMdjTd_0gOjGApYBSMNSlTAUE" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/-fZIbCkKaEYkZCpuWF94yIyXj-Fnl8BRtPAkZb6aw2RQucUhYSdr2daa6FlfaoClTvHvbnmSxdmmFcAnwmuRvZ9tODxmvcSRCJb6ipoKwF5cfESWte2eFqvfWU28LFA7oiMj3q8" alt=""/></figure>
+<p>That’s it! A whopping 84 lines of very lean code that executes all test scenarios across all supported browsers and viewports. </p>
+<h2 id="h-fast-from-concept-to-completion">Fast From Concept To Completion</h2>
+<p>As mentioned previously, standing up an automated test solution can easily take hours to lay the groundwork before you write a single test. The best part of leveraging Cypress and Applitools is that it took roughly 1 hour from start to finish including the development of my tests, which is almost unheard of. </p>
+<p>Beyond just the speed and ease of using Applitools, having such a powerful and succinct dashboard where you can collaboratively work with the entire development team on bugs is where they really shine. Using AI to intelligently identify discrepancies between a base image and the test run, capturing the DOM for easy debugging, controlling A/B testing for variants of your application, and integrating with CI/CD pipelines <em>and</em> Jira…I could go on. </p>
+<p>All these capabilities provide great visibility into the health of a product, and allow product owners, managers, developers and QA engineers to work harmoniously together in management of test flows, bugs, and regressions from a single dashboard. In any organization adopting a shift-left mentality, you really can’t ask for much more. </p>
+<p><em>Lead image by <a target="_blank" href="https://pixabay.com/users/jamesmarkosborne-1640589/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1076533" rel="noopener">James Osborne</a> from <a target="_blank" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1076533" rel="noopener">Pixabay</a></em></p>
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever.jpeg" alt="" class="wp-image-26820" width="279" height="279" srcset="https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever.jpeg 800w, https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever-300x300.jpeg 300w, https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever-150x150.jpeg 150w, https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever-768x768.jpeg 768w, https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever-462x462.jpeg 462w, https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever-200x200.jpeg 200w, https://applitools.com/wp-content/uploads/2021/02/Kerry-McKeever-50x50.jpeg 50w" sizes="(max-width: 279px) 100vw, 279px"/></figure>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/holiday-hackathon-mckeever/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Hacker Tries to Poison Water Supply of Florida Town</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/hacker-tries-to-poison-water-supply-of-florida-town/</link>
+		<title>More than a Hackathon to me &#8211; Ivana Dilparic</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/more-than-a-hackathon-to-me-ivana-dilparic/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Tue, 09 Feb 2021 12:54:39 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Florida]]></category>
-		<category><![CDATA[hacker]]></category>
-		<category><![CDATA[Poison]]></category>
-		<category><![CDATA[Supply]]></category>
-		<category><![CDATA[Town]]></category>
-		<category><![CDATA[Water]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/hacker-tries-to-poison-water-supply-of-florida-town/</guid>
+		<pubDate>Thu, 11 Feb 2021 00:20:27 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Dilparic]]></category>
+		<category><![CDATA[Hackathon]]></category>
+		<category><![CDATA[Ivana]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/more-than-a-hackathon-to-me-ivana-dilparic/</guid>
 
-					<description><![CDATA[A threat actor remotely accessed the IT system of the water treatment facility of Oldsmar and raised the levels of]]></description>
+					<description><![CDATA[I remember the feeling when I submitted my entry for Holiday Shopping Hackathon. Sure, there is always a bit of]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />A threat actor remotely accessed the IT system of the water treatment facility of Oldsmar and raised the levels of sodium hydroxide in the water, an action that was quickly noticed and remediated.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/hacker-tries-to-poison-water-supply-of-florida-town/163761/">Source link </a></p>
+</p>
+<div>
+<p>I remember the feeling when I submitted my entry for Holiday Shopping Hackathon. Sure, there is always a bit of relief once you wrap something up. But mostly I was just proud that I managed to handle each task from Hackathon instructions. </p>
+<p>I wasn’t eyeing any of the prices nor expected to ever hear back from judges. I simply saw Applitools Holiday Shopping Hackathon as a learning opportunity and went for it. This sense of pride was coming from having my learning mission accomplished. </p>
+<figure class="wp-block-pullquote">
+<blockquote>
+<p>I see a lot of potential of this kind of testing. I recognize the benefit for the current project my team is working on.</p>
+<p><cite>–Ivana dilparic</cite></p></blockquote>
+</figure>
+<p>But Hackathon ended up being much more for me, besides getting fine JavaScript and Cypress practice and getting introduced to this amazing visual testing tool, now I also have lifetime bragging rights and a bit of self esteem boost to keep up with my new tech goals.</p>
+<h3 id="h-why-did-i-need-new-tech-goals-in-the-first-place">Why did I need new tech goals in the first place?</h3>
+<p>I have been in managerial and leadership roles in IT industry for over 12 years. Even though I hold Master’s degree in Computer Science and my first role after graduation was as Software Engineer, 12 years is a lot of time to not be actively developing software.   </p>
+<p>All this time I have been making constant efforts to build and enhance an array of soft skills, to accumulate industry specific knowledge (for at least 5 industries) and to be able to actively participate in tech discussions. It turned out that this was not enough, at least not for the tech part, as I started getting feedback that I am “behind with the tech side”. </p>
+<p>One thing was clear, I needed to craft a plan which will turn the things around.</p>
+<h3 id="h-the-things-i-tried">The things I tried</h3>
+<p>I know by now that the best way to learn something is to start practicing it actively and to combine theory with practice. My work is not leaving me with much room for something like getting hands on experience with new cool frameworks. So all the learning and practicing had to happen in the evenings and over the weekend.</p>
+<p>I subscribed to several podcasts and blogs and I handpicked some development courses which seemed related to technologies currently used with my team. I was investing a lot of time and was absolutely sure that there is no significant improvement. Courses I choose were either focused on very basic examples or were too demanding in terms of mandatory coursework. Even if I managed to stretch my time and cover self-assignments, whatever I learned there would fade away shortly because I was not actively using it. </p>
+<h3 id="h-then-came-hackathon">Then came Hackathon</h3>
+<p>The hackathon just sounded like a good idea. The instructions were very specific; it was very clear what was expected from participants. Timeframe for submission was very generous – since learning about Hackathon, I had several weeks to complete my submission, so I didn’t need to pause on rest of my life and get behind with the sleep (something I have been associating with Hackathons until now).</p>
+<p>For <a target="_blank" href="https://www.cypress.io/" rel="noreferrer noopener">Cypress</a> part I relied on Introduction to <a target="_blank" href="https://testautomationu.applitools.com/cypress-tutorial/" rel="noreferrer noopener">Cypress course</a> from <a target="_blank" href="https://testautomationu.applitools.com/" rel="noreferrer noopener">Test Automation University</a>. Mr. Gil Tayar did a great job!</p>
+<h3 id="h-visual-testing-in-applitools">Visual testing in Applitools</h3>
+<p>I admit that I ignored the manual and relied on exploring Applitools myself. Overall, I find the app to be intuitive and easy to use. All information about test runs is very well structured and easy to navigate through. </p>
+<p>Multi-browser testing worked like a charm. It took me no time to set this up, and speed of multi-browser testing was more than I hoped for.</p>
+<p>For one of Hackathon tasks, I figured out how bugs work. That was straight forward. Potential issues were very obviously highlighted. They scream action.</p>
+<p>Another task was related to root causes. I didn’t figure this one in first attempt, but I have obviously excelled on that second try.</p>
+<h3 id="h-visual-testing-before-i-knew-applitools">Visual testing before I knew Applitools</h3>
+<p>I recall scenarios where QA team on my projects was using Selenium to automate tests. Idea was to automate UI tests as well. </p>
+<p>There were too many visual issues which tests were not detecting. Even the issues important for the end user were being undetected by these tests. QA Engineers were explaining the causes for this, coming up with workarounds how to increase the test coverage with limited time investments. This didn’t sit that well with the client.</p>
+<h3 id="h-conclusion">Conclusion</h3>
+<p>What can I say, this experience has turned me into advocate for Applitools. I see a lot of potential of this kind of testing. I recognize the benefit for the current project my team is working on. And looking back I see there were many cases over the years where it would have helped QA Engineers I have worked with. It shortens the time to set up UI tests and it probably shortens running time. Plus, it provides better coverage. </p>
+<p>Also, I find Test Automation University to be one of the best things that happened in testing community lately. Thank you for doing this, Applitools!</p>
+<p>As for my personal development, Hackathon was a great boost for me. It helped me carry on with my learning trajectory. And I expect more Hackathons in my future.</p>
+<p><em>Lead image by <a target="_blank" href="https://pixabay.com/users/antoniskousoulas-16131995/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5067826" rel="noopener">Antonis Kousoulas</a> from <a target="_blank" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5067826" rel="noopener">Pixabay</a></em></p>
+<figure class="wp-block-image size-large is-resized"></figure>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/holiday-hackathon-dilparic/">Source link </a></p>
 ]]></content:encoded>
 					
 		
