@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 12 Feb 2021 21:01:25 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 14 Feb 2021 16:00:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,172 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Buyer&#8217;s Guide to Performance Engineering Tools</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/buyers-guide-to-performance-engineering-tools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Sun, 14 Feb 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Buyers]]></category>
+		<category><![CDATA[Engineering]]></category>
+		<category><![CDATA[Guide]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Tools]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=9088</guid>
+
+					<description><![CDATA[Overview Performance engineering is about far more than just performance testing. It&#8217;s about achieving consistent, predictable system performance under load, with]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<h3>Overview</h3>
+<p>Performance engineering is about far more than just performance testing. It&#8217;s about achieving consistent, predictable system performance under load, with changing conditions, and even during a partial system failure.</p>
+<p>To accomplish this, performance engineers engage in capacity planning, modeling and simulation, development, performance testing, platform engineering, and production monitoring.</p>
+<p>The body of knowledge performance engineers need includes system administration, coding practices, networking, CPU and memory management, the theory of constraints, testing, and traditional debugging skills. More recently, cloud provisioning, DevOps skills, microservices, and non-relational databases have become relevant as well, said Vicky Giavelli, director of product management for performance engineering, Micro Focus</p>
+<blockquote>
+<p>&#8220;You&#8217;ll need a complete set of tools to engineer performance; the problem is just too broad.&#8221;<br />—<a target="_blank" href="https://twitter.com/Kwyjiba" rel="nofollow noopener">Vicky Giavelli</a></p>
+</blockquote>
+<p>In other words, any systems in the cloud or the data center could become part of a performance engineering effort.</p>
+<h4>Why read this report?</h4>
+<p>This guide covers the most important benefits of performance engineering, the key features and tools available, and how to select the right tools for the job.</p>
+<p>The wrong tool can waste time and money, but the wrong selection process can waste twice as much of both. To help you buy the correct tool and use your time judiciously, this report defines the current state of the tools, including what they offer. You&#8217;ll also learn which criteria to consider for each tool category.</p>
+<p>The RFP section covers the questions you should ask performance engineering tool vendors. These are not simple, cut-and-paste, hands-off questions. Instead, to get the most relevant answers, those making the technical selection should work closely with the engineering team and the vendor to select the right questions and provide the right background.</p>
+<p>Performance engineering can be challenging, but it does not have to be overwhelming, nor does it need to break budgets or timelines. Understand the problem, model it, test it, evaluate it, improve it, and choose tools to monitor and improve production.</p>
+<p>That&#8217;s how you take the guesswork out of performance engineering.</p>
+<h3>The state of today&#8217;s performance engineering tools and techniques</h3>
+<p>The performance engineering discipline is in transition from the old waterfall approach, where performance testing was done by a single expert (if at all), and production monitoring was handled by the IT operations group.</p>
+<p>Now that&#8217;s in flux, with the work distributed within engineering teams. Thanks to DevOps, those same teams are adding production deploy and production support to their workloads.</p>
+<h4>Performance engineering as a role has diminished</h4>
+<p>On one hand, &#8220;everybody pays lip service to performance, and indeed the role of performance and efficiency grows,&#8221; said <a target="_blank" href="https://twitter.com/apodelko" rel="nofollow noopener">Alexander Podelko</a>, a consulting performance engineer at MongoDB. &#8220;We are spending more on it.&#8221;</p>
+<p>But on the other hand, he added, &#8220;the number of people with &#8216;performance&#8217; or &#8216;capacity&#8217; in their titles is shrinking,&#8221; with <a target="_blank" href="https://techbeacon.com/app-dev-testing/performance-engineering-now-its-everyones-job" rel="noopener">the responsibility spread</a> between site reliability engineers (SREs), developers, software developers in test (SDET), and so on. &#8220;Yet no one has specific responsibility for the subject.&#8221; </p>
+<p>This extra responsibility can lead to waste, with elements of the test picture falling through the cracks. Without anyone to coordinate the process of fixing problems, teams can develop gigabytes of data without any relevant insights, or insights without any actual corrective activity.</p>
+<p>In the worst case, this can push teams backwards, from <a target="_blank" href="https://techbeacon.com/app-dev-testing/getting-performance-testing-performance-engineering" rel="noopener">performance testing</a> into production firefighting, also known as &#8220;code and fix&#8221; behavior.</p>
+<h4>Current tools can be difficult to integrate</h4>
+<p>Most performance tools were built for performance testers, to serve a single function. They may be difficult to integrate. And when they do work together, the architecture is frequently closed, encouraging a single-stack, instead of best-of-breed, approach.</p>
+<p>Worse, because the responsibility is now distributed to other roles on the team, those people have to leave their work environment and set up an entirely new workspace to do performance. Developers who are offered tools that are not tied to the style or scope of their core work are likely to abandon those tools.</p>
+<p>One result: Tools that report on performance are viewed in isolation. Test results are viewed by a &#8220;test group,&#8221; application performance monitoring (APM) data and logs are viewed by operations, and front-end performance, if it is measured at all, is measured by a design or front-end specialist.</p>
+<p>There is no shared analysis, especially for complex systems developed by teams in different locations and time zones.</p>
+<h4>Performance testing has a high startup cost</h4>
+<p>An excellent load test will have multiple users performing somewhat random operations, perhaps from different locations. The test will need to include the accounts, the possible workflows, perhaps logic to track state, as well as meaningful measures on the test data.</p>
+<p>That is, <a target="_blank" href="https://techbeacon.com/app-dev-testing/want-effective-test-automation-devops-manage-your-test-data" rel="noopener">you need all the test data</a>—the average (mean), typical experience (median) load speeds including the front end, as well as perhaps the experience for the slowest 10% or 25%.</p>
+<p>Setting all of that up, including creating the test environments, takes a significant amount of time and money. But even more than the tool cost, the human time required to do the work invariably drains the entire delivery team, not just the tester. Physical hardware, which is more often the case than not, can be expensive, especially in large organizations with multiple teams that do not coordinate or reuse resources.</p>
+<p><a target="_blank" href="https://www.linkedin.com/in/leandromelendez/" rel="nofollow noopener">Leandro Melendez</a>, a consulting performance tester at Qualitest, warns that he still sees many organizations with a physical test environment that&#8217;s a miniature version of production. This saves money but guarantees that the test environment is not a realistic model of production. Since most larger organizations have no way to share performance test resources, teams have to reinvent the wheel, creating more cost and delays.</p>
+<h4>Performance testing alone remains a bottleneck</h4>
+<p>Given that the setup of performance testing is expensive and slow, it will inevitably push out the schedule. Vicky Giavelli, director of product management for performance engineering at Micro Focus, said that leads to either a delayed release, or, more likely, to an attitude of &#8220;catching it in the next release&#8221; or &#8220;we&#8217;ll test it later.&#8221; This, in turn, inevitably leads to &#8220;testing never&#8221; and firefighting in production.</p>
+<h4>Key takeaways</h4>
+<p>Large organizations have DevOps teams that tend to focus on infrastructure and setup, leaving testing behind. Without infrastructure, testing falls even further behind. That bottleneck could eventually lead teams to ignore performance testing itself, resulting in production problems that could cost customers, sales, and the expense of fixing the problem.</p>
+<p>But the news is not entirely bad. Pushing for teams that &#8220;own&#8221; large parts of the process, from product design to support, creates an opportunity to extend performance engineering <a target="_blank" href="https://techbeacon.com/app-dev-testing/software-testing-devops-how-one-qa-team-sets-pace" rel="noopener">throughout all of the delivery lifecycle</a>, from concept to cash.</p>
+<p>Centers of excellence and communities of practice can push down information to the team about how to test. As tools evolve to <a target="_blank" href="https://techbeacon.com/app-dev-testing/9-top-open-source-testing-automation-frameworks-how-choose" rel="noopener">become more open</a> and better integrated, to support the cloud, and to work for different specialties within software development, performance engineering has a chance to become a team sport, with a lighter burden on each person.</p>
+<h3>What to look for when building a performance engineering toolbox</h3>
+<p>The simplest performance testing toolbox includes a load test generator, hardware to generate that load, and some way to monitor performance. Those tools tell the tester how the system is performing, but they don&#8217;t help fix it. They also don&#8217;t focus on general performance metrics that are unrelated to load, such as unitary, single user, web performance, and so on. </p>
+<p>Performance engineering requires a broader approach and perspective. It includes prevention, modeling, analysis, and repair.</p>
+<p><em>Figure 1. Performance testing is the least-implemented type of testing within a continuous delivery pipeline, likely due to a lack of proper tools to perform the work. Source: <a target="_blank" href="https://www.capgemini.com/de-de/wp-content/uploads/sites/5/2020/03/Report_Continous_Testing_2020_Sogeti_Capgemini.pdf" rel="nofollow noopener">CapGemini&#8217;s 2020 Continuous Testing report</a></em></p>
+<p>Here are the types of tools to use for performance engineering.</p>
+<h4>Monitoring</h4>
+<p>This isn&#8217;t really a testing tool, but all the load and simulations in the world don&#8217;t mean anything <a target="_blank" href="https://techbeacon.com/app-dev-testing/3-highly-effective-strategies-managing-test-data" rel="noopener">without data</a> on system performance. Sometimes called application performance monitoring (APM), these tools should provide drill-down dashboards along with mean, medium, top 25%, bottom 25%, and other metrics on any operation.</p>
+<p>A good data dashboard can receive information from anywhere, making it possible to report synthetic transaction results, and logs for delays for every subsystem, along with cloud usage and CPU, memory, and disk use statistics.</p>
+<p>This combination for test and production makes finding problems, developing hypotheses, and conducting experiments an engineering exercise, instead of guesswork.</p>
+<p>For the purposes of this report, a monitoring tool stores the data, reports on it, and either gathers it or has &#8220;listeners&#8221; that forward the information to it. <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-apm-tools-can-help-predict-prepare-traffic-spikes" rel="noopener">An APM tool</a> will have additional API hooks into the systems themselves to trigger tasks in the system, perform synthetic transactions, or sometimes inject an audit trail into the code itself.</p>
+<h4>Load generation tools</h4>
+<p>A performance test tool usually means <a target="_blank" href="https://techbeacon.com/app-dev-testing/when-should-i-start-load-testing" rel="noopener">a load simulator</a>, scripts and data to send to the load simulator, and a view of results. These tools predate the web and used to run through the user interface. As mobile and microservices have become more popular and software has become incremental, the ability to record production queries and replay them is increasingly popular.</p>
+<h4>Front-end performance tools</h4>
+<p>These tools analyze what is downloaded, how long it takes, how large the download is, and how that impacts page load. A simple load fix might be to swap out a high-resolution image for a medium-resolution one, or one with better compression. Note that many vendors include front-end performance and load generation in a single tool.</p>
+<h4>Service virtualization/mocking</h4>
+<p>Some teams directly support only one subset of the system, or a handful of microservices, and those services may be dependent on a wider part of the system. By recording how the other systems interact and then playing it back, it is possible to test just the subsystems a team builds in isolation.</p>
+<p>That can lead to faster testing and easier debugging. The term for these lightweight, pre-programmed services with a limited number of requests/responses is &#8220;<a target="_blank" href="https://techbeacon.com/app-dev-testing/service-virtualization-how-misunderstood-tech-could-save-you-millions" rel="noopener">service virtualization</a>.&#8221;</p>
+<h4>Network virtualization</h4>
+<p>In many cases, the delay is in the network infrastructure outside of the data center. Network virtualization allows a test to simulate a 3G/4G/5G connection, perhaps to a different continent, without the expense of having to fly someone to Europe to use an older phone model. Armed with this data, programmers can reduce the size and complexity of downloads, improving performance.</p>
+<h4>Static code analyzers</h4>
+<p>While these aren’t typically included in a list of performance engineering tools, they&#8217;re good for finding memory leaks. If your software has memory leaks, which cause delays or errors, a code analyzer could prevent them from getting into your code in the first place.</p>
+<h4>Code profiling tools</h4>
+<p>A different approach to performance is looking at how long each line of code takes to execute, and how many times it is executed.</p>
+<p>Code profiling tools show where the code is spending its time, providing opportunities for improvement. (Of course, it is possible that the network is slow.) This is essentially a dynamic version of code analysis, or analysis as the code runs.</p>
+<h4>Query and database optimizers</h4>
+<p>A single line of code that takes too long might be calling out to a database. Query optimizers change the way a query or command is structured to make it run faster. Database performance tuning is an entire discipline, but it certainly fits within performance engineering.</p>
+<h4>Build and provisioning tools</h4>
+<p>These tools allow self-service and the creation of test environments on demand. For a deeper understanding of why these tools are important, read how <a target="_blank" href="https://twitter.com/bernieberger" rel="nofollow noopener">Bernie Berger</a>, an IT and quality coach at EPAM Solutions, described the absence of build tools and test environments in his &#8220;<a target="_blank" href="https://www.softwaretestpro.com/a-day-in-the-life-of-a-software-tester/" rel="nofollow noopener">Day in the Life of a Software Tester</a>&#8221; series of articles.</p>
+<p>In Berger&#8217;s examples, the tester might spend four days on setup and configuration to perform a one-hour test. Provisioning tools create a data environment, and possibly seed a test database, so that performance tests can be executed quickly.</p>
+<h4>Chaos engineering</h4>
+<p>These tools work to pull down subsystems intentionally to see if the architecture has the necessary redundancy to survive failure. Chaos tools plan for failure, simulate it (often in production), and require layers of redundancy to create highly available, resilient architectures.</p>
+<h4>Now pull it all together</h4>
+<p>There are quite a few types of tools to consider. Fortunately, you probably only need a subset of these tools, and you might want to implement them in a specific order. Given this information, most technical groups should be able to explain what is missing from their current tool lineup, and how any new tools will fit with existing systems to create a performance engineering culture.</p>
+<p>The challenge will be deciding who will do the work, how they will find the time to do the work, and the right tool to do the work.</p>
+<p>Once you’ve completed these steps you&#8217;re ready to create an RFP and move forward with a proof of concept to help narrow down your tool choices.</p>
+<h3>How to create an RFP for performance engineering tools</h3>
+<p>Once you understand the landscape of tools, the challenges in your organization, and the relevant features, it is time to get down to tool selection. Part of that process might be creating a request for proposal, or RFP.</p>
+<p>The RFP can be an important part of the process of limiting a large group of tools to the select few. That said, Qualitest&#8217;s Melendez warns that the process can remove all context from the conversation. Leaving aside the vendor, making assumptions about what terms such as &#8220;build provisioning&#8221; mean for this particular client or other missteps can lead to the wrong decisions.</p>
+<p><em>Figure 2: Accurate performance insights of real users are the top challenge for continuous testing. Source: <a target="_blank" href="https://www.capgemini.com/de-de/wp-content/uploads/sites/5/2020/03/Report_Continous_Testing_2020_Sogeti_Capgemini.pdf" rel="nofollow noopener">Capgemini&#8217;s Continuous Testing Survey 2020</a></em></p>
+<p>The RFP process should look more like a conversation, with bidirectional feedback and explanations.</p>
+<h4>Describing your company and performance-engineering problems</h4>
+<p>Most performance engineering tools solve a specific problem, address a specific need, and work in a single area of performance engineering. Even companies that offer an entire integrated suite of tools, designed to address multiple problems within performance engineering, present those as a suite, not a single tool.</p>
+<p>Think of them like puzzle pieces that fit together to craft a solution.</p>
+<p>You want to know how the pieces will fit. By describing your organization, the existing performance culture and approach, the desired state, and the gaps you&#8217;re trying to address, you allow the vendor to answer questions about how its piece will help solve the puzzle. The vendor can also suggest anything else that may be needed, based on its experiences with other customers.</p>
+<p>This section consists of three components: goals and objectives, resources, and infrastructure.</p>
+<blockquote>
+<p>&#8220;The tool may meet all the requirements, and actually be able to solve our problems. But do our people have the skills and capability to use it as intended? Moreover, will they?&#8221;<br />—<a target="_blank" href="https://twitter.com/perfpulley" rel="nofollow noopener">James Pulley</a>, test practice manager at TEKSystems</p>
+</blockquote>
+<p>The outline below is a guide; you&#8217;ll want to tweak it to fit your group and the type of solution you&#8217;re seeking. Monitoring tools should have a very different set of questions than performance testing tools.</p>
+<p><strong>Statement of goals and objectives</strong></p>
+<p>Start with the current state of performance engineering. The temptation here is to overestimate the existing state, to talk about the way things should be. Have a technical person, who can set aside bias, write about the true state of what is really happening.</p>
+<p>Follow with the end-state goal for performance engineering, any gaps that exist, ideal timelines, and how success will be measured. If you can, include information about budget, existing slow performance, and the effect that improved performance could have on the business.</p>
+<p><strong>Statement of resources</strong></p>
+<p>This is about who will be doing the performance engineering work—whether it will be an additional duty, whether you will create a specific role or use consultants, the number of people who will be involved, their skill sets, and what group they will report to.</p>
+<p>You may also include a high-level description of the IT department, along with more detail on the system administration, database administrators, programmers, team composition, development model, continuous integration approach, DevOps, and other areas that part of performance engineering.</p>
+<p><strong>Infrastructure</strong></p>
+<p>This section describes the hardware and software elements of your IT environment relevant to performance. That includes the operating system, hardware and database, and the public or private cloud infrastructure and chipset. An all-Microsoft environment and a Linux-heavy environment may lead to very different solutions, as might a Java-, .NET-, or Kubernetes/Docker-heavy group or a particular brand of enterprise service bus.</p>
+<p>Include any security issues or relevant regulations. For example, specify if all the software needs to run inside the data center, or if the system needs to be compliant with Sarbanes-Oxley, Dodd Frank, HIPAA, PCI, FDA, or other regulations.</p>
+<h4>Soliciting vendor information</h4>
+<p>Once you&#8217;ve created the infrastructure section of your RFP, it&#8217;s time to learn about the vendor and its tools. Consider asking the questions below in the vendor information section of your RFP.</p>
+<ul>
+<li>Describe your company, history, and solution focus.</li>
+<li>What is your financial situation? Provide at least two years of financial data.</li>
+<li>Who is the primary contact for sales?</li>
+<li>Who is the primary contact for technical questions and support during a trial period?</li>
+<li>Do you have a list of reference customers we can speak to? If so, please list them along with contact information. Links to case studies are not a replacement, but can be listed here if available.</li>
+</ul>
+<p><strong>Products and capabilities</strong></p>
+<p>This section allows the vendor to explain its product, approach, and any competitive advantage it has. Ideally these answers demonstrate that the vendor&#8217;s representatives actually read the previous section and understand how their products will fit into your IT picture.</p>
+<ul>
+<li>List your product or products and the primary category each falls into: capacity planning, modeling and simulation, development and DevOps, performance testing (include web performance and front-end performance), platform engineering, production monitoring.</li>
+<li>What technologies and API protocols do you support?</li>
+<li>What cloud and virtualization technologies do you support?</li>
+<li>What skills are required to use this tool?</li>
+<li>How much time and additional training will we need to be effective?</li>
+<li>What devices and platforms does the tool support?</li>
+<li>Do you provide extensions to support performance engineering for commercial products (ERP, CRM, HR systems, and so on)?</li>
+<li>How does your product work with other products—via APIs, or other means? What other products does your software typically interact with? What open-source products?</li>
+<li>What continuous integration or continuous delivery tools do you support/integrate with?</li>
+<li>Describe how to customize or extend your product.</li>
+<li>What types of reporting and analytics does your product provide? </li>
+<li>What unique features or innovations does your product suite have compared to the competition? Whom do you consider to be your competition?</li>
+<li>Does your product, or product suite, work better as a suite, or as part of a particular stack of technologies?</li>
+</ul>
+<p><strong>Deployment and support protocols</strong></p>
+<ul>
+<li>Is your product or service on premises, a cloud service, or part of a hybrid solution?</li>
+<li>Does a typical installation involve consulting or training? Is it via a third party, or do you provide it?</li>
+<li>How often are new versions released, and how does that impact the licensing model?</li>
+<li>Do you offer support? What are the terms of your support contracts? (It might be helpful to ask for support during the process and see how that goes.)</li>
+<li>What training options do you offer, and at what prices?</li>
+</ul>
+<p>Describe the licensing and pricing model in a separate document. This should include fees for virtual users (for load testing), real users, if the license can float between computers, cloud hosting costs, and so on.</p>
+<h4>Once the RFP is drafted</h4>
+<p>Pulley, the test practice manager at TEKSystems, provides these examples of problems the RFP should help answer:</p>
+<p>(1) Does the tool in question have the ability to interrogate all my systems to understand how resources are being used? (These include operating systems, guest operating systems, and services web server, app server, database server, and so on.)</p>
+<p>(2) Does it work in my environment? Does it run on Macs or Linux or Windows or that embedded thing that Bob has running a robot? If not, then it may be a perfectly capable tool but it can&#8217;t be used in my environment.</p>
+<p>(3) Can this tool be used successfully by the intended users of the tool? The scripting language is Erlang. No one knows Erlang. Heck, the group is full of manual testers, and almost no one in the group has programming as a background. All performance testing tools assume a robust level of architectural knowledge and programming acumen. You cannot diagnose issues in code and architecture without a foundational command of the same.</p>
+<p>Once you get responses to the RFP, take a hard look to see if the vendor really answered your questions or engaged in marketing-speak, and if it seems like it will really work to resolve the performance engineering issues you require.</p>
+<p>After the RFP has passed muster with you and your team, send it out for review to any others who will be using the tool. Then it may be time to create your short list and start talking to vendors. Good luck!</p>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/app-dev-testing/special-report-buyers-guide-performance-engineering-tools">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>mHealth Apps Expose Millions to Cyberattacks</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/mhealth-apps-expose-millions-to-cyberattacks/</link>
 		
@@ -391,89 +557,6 @@
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
 <br /><a href="https://techbeacon.com/security/there-are-no-good-app-stores-not-ios-nor-android-change-my-mind">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Here’s What I’m Doing to Avoid Being Caught Up in A Puppy Scam</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/heres-what-im-doing-to-avoid-being-caught-up-in-a-puppy-scam/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 11 Feb 2021 18:54:42 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Avoid]]></category>
-		<category><![CDATA[Caught]]></category>
-		<category><![CDATA[Heres]]></category>
-		<category><![CDATA[Puppy]]></category>
-		<category><![CDATA[scam]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/heres-what-im-doing-to-avoid-being-caught-up-in-a-puppy-scam/</guid>
-
-					<description><![CDATA[In November last year, we lost our much-loved family dog. We were all so devasted. Harley was a very handsome]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>In November last year, we lost our much-loved family dog. We were all so devasted. Harley was a very handsome black and white Cavoodle who died from a paralysis tick bite after giving us 12 years of love. After lots of tears and weeks of sadness, we have decided it’s time to start our search for another fur baby.</p>
-<p>But it seems we are not the only ones in the market for a new puppy. Thanks to COVID and our new very home focussed lives, puppies have been in hot demand since early 2020 and they still are. What better way to deal with lockdown loneliness and a home-based existence than a brand-new ball of fluff!</p>
-<p>Over the last few weeks, I’ve spoken to multiple breeders from all around Australia who have over 50 families waiting for a puppy! A Portuguese Water Dog breeder told me yesterday that it would be 2023 before she could offer me a puppy!! So,</p>
-<p>And this trend hasn’t gone unnoticed by cybercriminals with <a target="_blank" href="https://thenewdaily.com.au/life/2020/11/24/puppy-prices-peak-as-scams-increase-fourfold-on-last-year/" rel="noopener noreferrer">the Australian Competition and Consumer Commission (ACCC) reporting a four-fold increase in puppy scams in 2020!! In fact, a whopping $1.6 million was scammed from unsuspecting Aussies simply looking for a ball of fur to love between January and October 2020.</a></p>
-<p>So, how do you avoid being caught up in a puppy scam and losing money? Here’s what I’m doing to ensure we don’t get swindled while we search for our new puppy:</p>
-<h2><strong>1. Take Your Time</strong></h2>
-<p>Cybercriminals rely on us being in a rush and not doing our homework. A quick google search for popular dog breeds such as Cavoodles, Labradors or Dachshunds will yield pages of results, not all of them legit!</p>
-<p>Scammers are very talented at making their sites look genuine. They will copy photos of puppies and breeders from legitimate sites and will even use certificates and identification numbers from these legitimate breeders too. Quite often the only detail that differs is the contact telephone number and email address.</p>
-<p>Facebook and Instagram ads are also created using these details too making it very hard to identify what is legitimate and what isn’t.</p>
-<h2><strong>2. Do Your Homework</strong></h2>
-<p>Doing your due diligence is the best way to prevent becoming a victim of a puppy scam. Even if the person on the end of the phone sounds delightful and the pictures are gorgeous, you owe it to yourself – and your bank account – to ensure you are dealing with a legitimate breeder. Here’s what I recommend you do:</p>
-<ul>
-<li>Google the name of the breeder to ascertain whether they have NOT been caught up in a scam.</li>
-<li>Always ring the association that the breeder says they are registered with and crosscheck all the information you have been given.</li>
-<li>As most puppies come vaccinated and microchipped, ask the breeder to share contact details of the veterinary clinic the puppy has been to.</li>
-</ul>
-<h2><strong>3. Photos and Video Chat</strong></h2>
-<p>If you are not able to pick up your pet in person, requesting photos and even a video call with the breeder and your potential puppy is essential.</p>
-<p>Ask the breeder for multiple photos of the pet with specific items – this help you ascertain that the pet is real and not photoshopped. A recent newspaper is a great item to suggest.</p>
-<p>However, a video call is probably the best way of giving you total piece of mind. Yes, it maybe crazy and noisy but there’s nothing like seeing something with your own eyes to satisfy yourself that it is real and not photoshopped!</p>
-<h2><strong>4. Trust Your Gut</strong></h2>
-<p>We all have a 6<sup>th</sup> sense and now is the time to use it:</p>
-<ul>
-<li>If the breeder is trying to push for the sale as they are moving to a new house or are unwell, be suspicious.</li>
-<li>If the breeder is putting pressure on you to deposit funds to secure your puppy ASAP, be suspicious.</li>
-<li>If the breeder is asking an inflated price for the pet, be suspicious. Do your research so you know what an average asking price would be.</li>
-<li>If email communication with breeder has signs of broken English or poor grammar, be very suspicious.</li>
-</ul>
-<p>I can’t imagine our family without pets. They play such an important, cohesive role and we take such joy in sharing photos of our crazy cats and their weird antics on our family group chat.</p>
-<p>Next week, we are going to pickup our new puppy. After much debate about breeds, we have chosen a tri coloured beaglier – male of course! The breeder sounds delightful over the phone and the pictures are gorgeous. But just to ensure total piece of mind, I am driving nearly 7 hours to pick up our new fur baby in person. I’ll be sure to share some photos!</p>
-<p>Happy pet shopping!</p>
-<p>Alex xx</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/heres-what-im-doing-to-avoid-being-caught-up-in-a-puppy-scam/">Source link </a></p>
 ]]></content:encoded>
 					
 		
