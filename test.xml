@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Mon, 15 Feb 2021 20:50:58 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Feb 2021 07:15:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,62 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Thunderhead Speeds Quality Delivery with Applitools</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/thunderhead-speeds-quality-delivery-with-applitools/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Tue, 16 Feb 2021 07:15:36 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Applitools]]></category>
+		<category><![CDATA[Delivery]]></category>
+		<category><![CDATA[Quality]]></category>
+		<category><![CDATA[Speeds]]></category>
+		<category><![CDATA[Thunderhead]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/thunderhead-speeds-quality-delivery-with-applitools/</guid>
+
+					<description><![CDATA[Thunderhead is the recognised global leader in the Customer Journey Orchestration and Analytics market. The ONE Engagement Hub helps global]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Thunderhead is the recognised global leader in the Customer Journey Orchestration and Analytics market. The ONE Engagement Hub helps global brands build customer engagement in the era of digital transformation.  </p>
+<p>Thunderhead provides its users with great insights into customer behavior. To continue to improve user experience with their highly-visual web application, Thunderhead develops continuously. How does Thunderhead keep this visual user experience working well? A key component is Applitools.</p>
+<h2 id="h-before-using-traditional-output-locators">Before – Using Traditional Output Locators</h2>
+<p>Prior to using Applitools, Thunderhead drove its UI-driven tests with Selenium for browser automation and Python as the primary test language. They used traditional web element locators both for setting test conditions and for measuring the page responses.</p>
+<p>Element locators have been state-of-the-art for measuring page response because of precision. Locators get generated programmatically. Test developers can find any visual structure on the page as an element.</p>
+<p>Depending on page complexity, a given page can have dozens, or even hundreds, of locators. Because test developers can inspect individual locators, they can choose which elements they want to check. But, locators limit inspection. If a change takes place outside the selected locators, the test cannot find the change.</p>
+<p>These output locators must be maintained as the application changes. Unmaintained locators can cause test problems by reporting errors because the locator value has changed while the test has not. Locators may also remain the same but reflect a different behavior not caught by a test.</p>
+<p>Thunderhead engineers knew about pixel diff tools for visual validation. They also had experience with those tools; they had concluded that pixel diff tools would be unusable for test automation because of the frequency of false positives.</p>
+<p>When Thunderhead started looking to improve their test throughput, they came across Applitools. Thunderhead had not considered a visual validation tool, but Applitools made some interesting claims. The engineers thought that AI might be marketing buzz, but they were intrigued by a tool that could abstract pixels into visible elements.</p>
+<p>As they began using Applitools, Thunderhead engineers realized that Applitools gave them the ability to inspect an entire page.  Not only that, Applitools would capture visual differences without yielding bogus errors. Soon they realized that Applitools offered more coverage than their existing web locator tests, with less overall maintenance because of reduced code.</p>
+<p>The net benefits included:</p>
+<ul>
+<li>Coverage – Thunderhead could write tests for each visible on-page element on every page</li>
+<li>Maintainability – By measuring the responses visually, Thunderhead did not have to maintain all the web element locator code for the responses – reducing the effort needed to maintain tests</li>
+<li>Visual Validation – Applitools helped Thunderhead engineers see the visual differences between builds under test, highlighting problems and aiding problem-solving.</li>
+<li>Faster operation – Visual validation analyzed more quickly than traditional web element locators.</li>
+</ul>
+<h2 id="h-moving-visual-testing-into-development">Moving Visual Testing Into Development</h2>
+<p>After. using Applitools in end-to-end testing, Thunderhead realized that Applitools could help in several areas. </p>
+<p>First, Applitools could help with development. Often, when developers made changes to the user interface, unintended consequences could show up at check-in time. However, by waiting for end-to-end tests to expose these issues, developers often had to stop existing work and shift context to repair older code. By moving visual validation to check-in, Thunderhead could make developers more effective.</p>
+<p>Second, developers often waited to run their full suite of element locator tests until final build. These tests ran against multiple platforms, browsers, and viewports. The net test run would take several hours. The equivalent test. using Applitools took five minutes. So, Thunderhead could run these tests with every build. </p>
+<p>For Thunderhead, the net result was both greater coverage with tests run at the right time for developer productivity.</p>
+<h2 id="h-adding-visual-testing-to-component-tests">Adding Visual Testing to Component Tests</h2>
+<p>Most recently, Thunderhead has seen the value of using a component library in their application development. By standardizing on the library, Thunderhead looks to improve development productivity over time. Components ensure that applications provide consistency across different development teams and use cases.</p>
+<p>To ensure component behavior, Thunderhead uses Applitools to validate the individual components in the library. Thunderhead also tests the components in mocks that demonstrate the components in typical deployment uses cases.</p>
+<p>By adding visual validation to components, Thunderhead expects to see visual consistency validated much earlier in the application development cycle.</p>
+<p>Beyond the benefits listed above, Thunderhead has seen the virtual elimination of visual defects found through end-to-end testing. The check-in and build tests have exposed the vast majority of visual behavior issues during the development cycle. They have also made developers more productive by eliminating the context switches previously needed if bugs were discovered during end-to-end testing. As a result, Thunderhead has gained greater predictability in the development process.</p>
+<p> In turn, Thunderhead engineers have gained greater agility. They can try new code and behaviors and know they will visually catch all unexpected behaviors. As a result, they are learning previously-unexplored dependencies in their code base. As they expose these dependencies, Thunderhead engineers gain greater control of their application delivery process.  </p>
+<p>With predictability and control comes confidence. Using Applitools has given Thunderhead increased confidence in the effectiveness of their design processes and product delivery. With Applitools, Thunderhead knows how customers will experience the ONE platform and how that experience changes over time. </p>
+<p><em>Featured photo by <a target="_blank" href="https://unsplash.com/@a_steger?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Andreas Steger</a> on <a target="_blank" href="https://unsplash.com/s/photos/freeway?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener">Unsplash</a></em></p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/thunderhead-speeds-quality-delivery-with-applitools/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Cybercrooks Rake in $304M in Romance Scams</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/cybercrooks-rake-in-304m-in-romance-scams/</link>
 		
@@ -71,6 +127,67 @@
 <p>The post <a target="_blank" rel="nofollow noopener" href="https://www.mcafee.com/blogs/consumer/true-security-requires-a-holistic-approach/">True Security Requires a Holistic Approach</a> appeared first on <a target="_blank" rel="nofollow noopener" href="https://www.mcafee.com/blogs">McAfee Blogs</a>.</p>
 <p><br />
 <br /><a href="https://www.mcafee.com/blogs/consumer/true-security-requires-a-holistic-approach/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>#Selenium JavaScript Bindings 4.0b1 are now up on @npmjs ! Please install the latest! They are a drop in replacement for previous versions! &#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/selenium-javascript-bindings-4-0b1-are-now-up-on-npmjs-please-install-the-latest-they-are-a-drop-in-replacement-for-previous-versions/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 15 Feb 2021 14:59:25 +0000</pubDate>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/selenium-javascript-bindings-4-0b1-are-now-up-on-npmjs-please-install-the-latest-they-are-a-drop-in-replacement-for-previous-versions/</guid>
+
+					<description><![CDATA[#Selenium JavaScript Bindings 4.0b1 are now up on @npmjs ! Please install the latest! They are a drop in replacement]]></description>
+										<content:encoded><![CDATA[
+<p>#Selenium JavaScript Bindings 4.0b1 are now up on @npmjs ! Please install the latest! They are a drop in replacement for previous versions! <a target="_blank" href="https://t.co/T7cMacaQrF" rel="noopener">https://t.co/T7cMacaQrF</a><br />
+<br />
+<br /><a href="https://twitter.com/AutomatedTester/statuses/1361329272120610818">Source</a> by <a href="https://t.co/Ji7sDrtaWI">David Burns</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The beta version of #Selenium 4 is released in #ruby! As is, it should provide a better experience than 3.142.7, so give `gem install seleni&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/the-beta-version-of-selenium-4-is-released-in-ruby-as-is-it-should-provide-a-better-experience-than-3-142-7-so-give-gem-install-seleni/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 15 Feb 2021 14:14:40 +0000</pubDate>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/the-beta-version-of-selenium-4-is-released-in-ruby-as-is-it-should-provide-a-better-experience-than-3-142-7-so-give-gem-install-seleni/</guid>
+
+					<description><![CDATA[The beta version of #Selenium 4 is released in #ruby! As is, it should provide a better experience than 3.142.7,]]></description>
+										<content:encoded><![CDATA[
+<p>The beta version of #Selenium 4 is released in #ruby! As is, it should provide a better experience than 3.142.7, so give `gem install selenium-webdriver &#8211;pre` a shot and let us know what you think! <a target="_blank" href="https://t.co/rQrM3gh0zX" rel="noopener">https://t.co/rQrM3gh0zX</a><br />
+<br />
+<br /><a href="https://twitter.com/titusfortner/statuses/1361318010645065731">Source</a> by <a href="https://t.co/d3QdhF548u">Titus Fortner</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>#Selenium Python Bindings 4.0.0.b1 has just been released! Go get it from  or install the latest with `pip install selenium &#8211;pre`&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/selenium-python-bindings-4-0-0-b1-has-just-been-released-go-get-it-from-or-install-the-latest-with-pip-install-selenium-pre/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 15 Feb 2021 14:03:23 +0000</pubDate>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/selenium-python-bindings-4-0-0-b1-has-just-been-released-go-get-it-from-or-install-the-latest-with-pip-install-selenium-pre/</guid>
+
+					<description><![CDATA[#Selenium Python Bindings 4.0.0.b1 has just been released! Go get it from https://t.co/UTnrFoyjHe or install the latest with `pip install]]></description>
+										<content:encoded><![CDATA[
+<p>#Selenium Python Bindings 4.0.0.b1 has just been released! Go get it from <a target="_blank" href="https://t.co/UTnrFoyjHe" rel="noopener">https://t.co/UTnrFoyjHe</a> or install the latest with `pip install selenium &#8211;pre`<br />
+<br />
+<br /><a href="https://twitter.com/AutomatedTester/statuses/1361315171403194369">Source</a> by <a href="https://t.co/Ji7sDrtaWI">David Burns</a></p>
 ]]></content:encoded>
 					
 		
@@ -321,197 +438,6 @@
 </div>
 <p><br />
 <br /><a href="https://threatpost.com/yandex-data-breach-email-accounts/163960/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>‘Annoyingly Believable’ Tax Scam Targets Mobile Users</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/annoyingly-believable-tax-scam-targets-mobile-users/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 12 Feb 2021 19:03:01 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Annoyingly]]></category>
-		<category><![CDATA[Believable]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[scam]]></category>
-		<category><![CDATA[Targets]]></category>
-		<category><![CDATA[Tax]]></category>
-		<category><![CDATA[Users]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/annoyingly-believable-tax-scam-targets-mobile-users/</guid>
-
-					<description><![CDATA[A well-crafted SMS phishing effort is harvesting personal data and credit-card details under the guise of offering tax refunds. Source]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A well-crafted SMS phishing effort is harvesting personal data and credit-card details under the guise of offering tax refunds.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/believable-tax-scam-mobile-users/163951/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Secure your value chain: Emerging trends and best practices</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/secure-your-value-chain-emerging-trends-and-best-practices/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 12 Feb 2021 18:45:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Chain]]></category>
-		<category><![CDATA[Emerging]]></category>
-		<category><![CDATA[Practices]]></category>
-		<category><![CDATA[Secure]]></category>
-		<category><![CDATA[Trends]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/secure-your-value-chain-emerging-trends-and-best-practices/</guid>
-
-					<description><![CDATA[Digital transformation was gaining momentum before COVID-19 shut down the world last year, but the pandemic put the process into]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>Digital transformation was gaining momentum before COVID-19 shut down the world last year, but <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">the pandemic put the process into hyper-drive</a>. Businesses and consumers have been pushed over a digital fault line where physical channels are moving to digital channels.</p>
-<p>While some organizations have scrambled to adjust to this brave new digital world, those that are agile and growth-centric see new opportunities to jump ahead of competitors in their industries. To put more spring into their operations, these organizations are investing in technologies that will make their business operations more agile and <a target="_blank" href="https://content.microfocus.com/cloud-native-computing-tb/cloud-native-architecture?lx=R4i7m5" rel="noopener">shifting to the cloud</a> for their core operations.</p>
-<p>Indeed, to bring new products and experiences to their customers, many businesses have become borderless entities that give customers, employees, suppliers, and other partners access to corporate resources anytime, anywhere. In those environments, access to data is not only important to the members of an organization&#8217;s value chain, but also to the entity itself, which depends on information to gain key business insights, make faster decisions in response to market changes, and stay in tune with customer needs and requirements.</p>
-<p>Providing anywhere, anytime access to resources and data—while beneficial for driving efficiency, speed, and flexibility—magnifies the challenges of <a target="_blank" href="https://techbeacon.com/security/access-control-pandemic-forces-rethink-its-trust-model" rel="noopener">the challenges of securing the data itself</a><a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-security-data-privacy?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener"> and access to it</a>. These issues are due to the sheer volume and distribution of information created in an anywhere, anytime environment.</p>
-<p>That&#8217;s why enterprises are placing greater emphasis on <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/encryption-vs-tokenization?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">technologies that protect data and applications</a>, in addition to updating out-of-date policies and procedures for effectively granting access privileges to corporate data wherever it resides.</p>
-<p>Once you&#8217;re on the road to protecting data and applications, it doesn&#8217;t take long to realize the need for cyber resiliency to ensure the business can continue operations in the face of disruptive events such as a pandemic. A key component of establishing cyber resiliency is having a <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/cloud-security-data-privacy-trends?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">comprehensive strategy for data and application protection</a>.</p>
-<p>Here are the emerging trends you need to be aware of—and essential best practices—to make cyber resilience happen in your organization.</p>
-<h3>The value of data</h3>
-<p>First, crafters of such a strategy need to understand the value of data to the business, the liability and risks associated with data, where data resides inside and outside the organization, and the dynamic and distributed nature of data. They also need to know how to classify data.</p>
-<p>A comprehensive plan needs to cover the entire data lifecycle—from storage to when it&#8217;s moving to its destruction; otherwise, there&#8217;s a chance of leakage. Having this 360-degree view of data allows for effective decision making to implement the appropriate technologies, policies, and procedures needed for data protection.</p>
-<p>Without a 360-degree view of your data, you can end up spending money protecting data that doesn&#8217;t require protection.</p>
-<h3>Emerging trends that matter</h3>
-<p>As if building a framework and implementing a comprehensive plan to support resiliency weren&#8217;t hard enough, several emerging trends will have a significant impact on how to best manage data, applications, and identities.</p>
-<h4>Privacy regulations&#8217; increased complexities </h4>
-<p>Measures such as the European Union&#8217;s <a target="_blank" href="https://techbeacon.com/security/essential-gdpr-guide-18-resources-get-privacy-compliant" rel="noopener">General Data Protection Regulation</a> and the <a target="_blank" href="https://techbeacon.com/security/what-your-data-security-team-needs-know-about-ccpa" rel="noopener">California Consumer Privacy Act</a> impose restrictions and requirements governing the collection, storage, and handling of data. And more regulatory and legislative actions  in the future will further complicate matters for organizations.</p>
-<h4>Software supply chains and the shift required to ensure secure code is embedded in the software development lifecycle</h4>
-<p>Increased use of <a target="_blank" href="https://techbeacon.com/security/rise-third-party-code-zero-trust-key" rel="noopener">open-source components</a> by enterprise applications has increased supply chain risks. According to <a target="_blank" href="https://blog.sonatype.com/2020-state-of-the-software-supply-chain-report" rel="nofollow noopener">a report</a> by Sonatype, cyber attacks aimed at actively infiltrating open source code increased 430% in 2020 compared to 2019.</p>
-<p>By shifting their focus upstream, bad actors can infect a single component, which will then be distributed downstream using legitimate software workflows and update mechanisms, the report said.</p>
-<h4>Accelerated digital transformation with the movement of enterprise applications between multi-cloud and on-prem </h4>
-<p>Traditional security policies designed to protect on-premises applications are largely ineffective in the cloud. The scale is bigger, and things happen faster than in traditional IT environments. Moreover, there are more things in more places that need to be monitored and protected, which makes automation essential for <a target="_blank" href="https://techbeacon.com/security/cloud-misconfigurations-security-5-ways-avoid-your-next-fail" rel="noopener">cloud security</a>.</p>
-<h4>The proliferation of connected devices brought about by greater adoption of IoT</h4>
-<p>As these devices proliferate, so does <a target="_blank" href="https://techbeacon.com/security/7-ways-secure-iot-your-enterprise" rel="noopener">the attack surface</a> for adversaries. Many of the devices connect to IP networks, where they can be attacked from anywhere in the world; can&#8217;t be updated or patched when flaws are discovered; are gaining in capability so they can be used in more sophisticated attacks; and are &#8220;headless,&#8221; so they can be protected only with proximity controls or strong access policies.</p>
-<h4>Digital identities and ensuring appropriate governance no matter whether human or a technical element</h4>
-<p>Controls need to govern access to resources by people on the network as well as other entities. Use of <a target="_blank" href="https://content.microfocus.com/zero-trust-security-tb/zero-trust-security-matters?lx=9nmHuO&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">zero-trust schemes</a> to govern access has gone from a nice-to-have to a business priority, especially as the remote workforce has ballooned during the pandemic. <a target="_blank" href="https://blogs.microsoft.com/latinx/2020/08/19/new-data-from-microsoft-shows-how-the-pandemic-is-accelerating-the-digital-transformation-of-cyber-security/" rel="nofollow noopener">According to Microsoft</a>, 51% of business leaders say they&#8217;re speeding up deployment of zero-trust capabilities, while 94% of companies report they are in the process of implementing new zero-trust systems to some extent.</p>
-<h3>Protect your organization&#8217;s value chain</h3>
-<p>As the wave of digital transformation breaks over business, protecting data and applications is essential to preserve the integrity of your organization&#8217;s value chain. That protection must foil attacks aimed at compromising data and applications while providing a 360-degree view of data.</p>
-<p>You&#8217;ll use that view to formulate a comprehensive strategy that will form the bedrock for establishing cyber resiliency throughout your organization.</p>
-<p><em>Join Satyavathi Divadari on February 25, 2021 for a webinar discussion with IDC&#8217;s Curtis Price about <a target="_blank" href="https://www.brighttalk.com/webcast/7477/461608?utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="nofollow noopener">how organizations can secure their value chain and build trust</a> in enabling technologies such as cloud, AI, and blockchain. The recorded presentation will also be available for replay afterwards.</em></p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/secure-your-value-chain-emerging-trends-best-practices">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Singtel Suffers Zero-Day Cyberattack, Damage Unknown</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/singtel-suffers-zero-day-cyberattack-damage-unknown/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 12 Feb 2021 17:05:10 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cyberattack]]></category>
-		<category><![CDATA[Damage]]></category>
-		<category><![CDATA[Singtel]]></category>
-		<category><![CDATA[Suffers]]></category>
-		<category><![CDATA[Unknown]]></category>
-		<category><![CDATA[ZeroDay]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/singtel-suffers-zero-day-cyberattack-damage-unknown/</guid>
-
-					<description><![CDATA[The Tier 1 telecom giant was caught up in a coordinated, wide-ranging attack using unpatched security bugs in the Accellion]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The Tier 1 telecom giant was caught up in a coordinated, wide-ranging attack using unpatched security bugs in the Accellion legacy file-transfer platform.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/singtel-zero-day-cyberattack/163938/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Skeptics Who Recommend Cross Browser Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/skeptics-who-recommend-cross-browser-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 12 Feb 2021 15:50:42 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[browser]]></category>
-		<category><![CDATA[Cross]]></category>
-		<category><![CDATA[Recommend]]></category>
-		<category><![CDATA[Skeptics]]></category>
-		<category><![CDATA[testing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/skeptics-who-recommend-cross-browser-testing/</guid>
-
-					<description><![CDATA[Who recommends cross browser testing to their organizations?  In this series, we discuss the results of the Applitools Ultrafast Cross]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Who recommends cross browser testing to their organizations? </p>
-<p>In this series, we discuss the results of the <a target="_blank" href="https://applitools.com/modern-cross-browser-testing-report/" rel="noopener">Applitools Ultrafast Cross Browser Hackathon</a>. Today, we will explain how those who were skeptics about cross browser testing would recommend that their organizations run <a target="_blank" href="https://applitools.com/product-ultrafast-test-cloud/" rel="noopener">Applitools Ultrafast Grid</a> for cross browser testing.</p>
-<h2 id="h-reviewing-past-posts-in-this-series">Reviewing Past Posts In This Series</h2>
-<p>In this series we have covered the results of the Applitools Ultrafast Cross Browser Hackathon. </p>
-<ul>
-<li>My <a target="_blank" href="https://applitools.com/blog/effective-cross-browser-testing/" rel="noopener">first post</a> covered the overall results. I wrote specifically about the ease of creating cross browser tests with Applitools and introduced the topics to follow. </li>
-<li>My <a target="_blank" href="https://applitools.com/blog/fast-testing-multiple-browsers/" rel="noopener">second post</a> covered how the speed of Applitools Ultrafast Grid makes cross browser testing a reality within the application build process.</li>
-<li><a target="_blank" href="https://applitools.com/blog/stability-in-cross-browser-test-code/" rel="noopener">In the third</a>, I explained how Applitools Visual AI tests provide much greater code stability compared with legacy cross browser tests, making the code easier to develop and maintain over time.</li>
-</ul>
-<p>With this post, I will cover the survey topic in the hackathon: would Hackathon participants recommend that their organizations adopt legacy cross browser testing approach to their peers, and would they recommend Applitools Ultrafast Grid for that purpose?</p>
-<h2 id="h-methodology">Methodology</h2>
-<p>For this survey, Applitools used an approach called <a target="_blank" href="https://www.netpromoter.com/know/" rel="noreferrer noopener">Net Promoter Score</a> (NPS). Net Promoter Score uses a survey question with the highest correlation to satisfaction:</p>
-<p>“On a scale of 0 to 10, with 0 being not likely and 10 being highly likely, how likely are you to recommend [the survey object] to others?”</p>
-<p>Researchers have shown that this question correlates most highly with satisfaction. Respondents who give a 9 or 10 (highly likely to recommend) get classified as “promoters.” Promoters have high satisfaction. Those who give a 7 or 8 get classified as neutral – they are neither satisfied or dissatisfied. Others with a 6 or below get classified as detractors. Detractors have been dissatisfied with something and have no willingness to recommend the survey object.</p>
-<p>Break the survey responses into respondents by value and count. Add 1 for each 10 and 9. Give 0 for each 7 or 8. Subtract 1 for each 6 or below. Then, normalize the results to 100 by taking your count and dividing it by the number of respondents, and multiplying by 100. </p>
-<p>Results can range from -100 to 100. According to Bain &amp; Co, the developers of NPS:</p>
-<ul>
-<li>80 rates as ‘world class’</li>
-<li>50 rates as ‘excellent’</li>
-<li>20 rates as ‘favorable’</li>
-<li>Around 0 rates as ‘neutral’</li>
-<li>-10 and lower rates as ‘negative’</li>
-</ul>
-<h2 id="h-asking-hackathon-participants">Asking Hackathon Participants</h2>
-<p>Applitools surveyed the the 2,224 Hackathon participants about their willingness to recommend the use of Applitools Ultrafast Grid to their peers. The survey also asked their willingness to recommend the use of legacy cross browser testing.  Of the participants, 203 engineers were able to run both the legacy and the Ultrafast cross browser tests. </p>
-<p>Here were the survey responses:</p>
-<figure class="wp-block-image"></figure>
-<h3 id="h-few-fans-of-traditional-cross-browser-testing">Few Fans Of Traditional Cross Browser Testing</h3>
-<p>For legacy cross browser testing, using a traditional test application and validation process, 68% of participants got classified as detractors. 17% got classified as passives. Only 15% promoted the legacy approach. This gave a NPS of -54 (rounded down). Participants were, in general, not fans of legacy cross browser testing.</p>
-<p>This result mirrors how much people use the legacy approach to cross browser testing. Companies listed in the graphic above provide the infrastructure to run tests. They don’t reduce the test load, or the code load. Their pricing reflects the cheaper cost  for them to set up and maintain that infrastructure of devices, browsers, operating systems, and viewport sizes. Given the cost of setting up and maintaining legacy cross browser tests, it makes sense that not a lot of companies use cross browser testing actively.</p>
-<h3 id="h-willing-to-recommend-applitools-ultrafast-grid-for-cross-browser-testing">Willing to Recommend Applitools Ultrafast Grid for Cross Browser Testing</h3>
-<p>Also, the survey asked participants their willingness to recommend Applitools Ultrafast Grid for Cross Browser testing. Here, 75% gave a 10 or 9 and got classified as promoters. Another 20% responded 7 or 8 and got classified as neutral. </p>
-<p>The promoters valued:</p>
-<ul>
-<li>Speed of tests – noting they could run their tests in the build process</li>
-<li>Simplicity of management – no tests needed to be run and tuned across multiple plaforms</li>
-<li>Simplified code management – fewer locators meant easier to set up and manage</li>
-<li>More accurate – the underlying Visual AI wasn’t plagued by false positives and caught all the code errors</li>
-</ul>
-<p>The promoters discovered the ease of creating and maintaining cross browser tests using Applitools Ultrafast Grid. The promoters also realized that, with tests completed and analzyed accurately in well under 10 minutes, Applitools Ultrafast Grid made it possible to run cross browser tests in the scope of a build or during unit tests. Legacy tests, even when run in parallel, took tens of minutes to complete and analyze.</p>
-<h2 id="h-implications-of-recommending-cross-browser-testing">Implications of Recommending Cross Browser Testing</h2>
-<p>If you read my earlier posts, you know that two camps existed related to cross browser testing. One camp ran cross browser tests because they had encountered issues in the past and saw cross browser tests as a safe approach. The other camp avoided it altogether and thought cross browser testing unnecessary.</p>
-<p>There is a third camp using Applitools Ultrafast Grid. This camp recognizes that the combination of:</p>
-<ul>
-<li>test speed appropriate for software build processes</li>
-<li>ease of deployment</li>
-<li>lack of infrastructure to manage, and </li>
-<li>simplified test code management, </li>
-</ul>
-<p>made cross browser testing feasible. This third camp can deploy Applitools Ultrafast Grid to run and validate rendering behavior for any combination of browser, operating system, and viewport size and run this test set quickly at the unit, build, merge, and final test timeframes. </p>
-<p>What then are the implications for the Applitools Ultrafast Cross Browser Hackathon? 75% of the 208 engineers who completed both sets of tests could see the value of Applitools Ultrafast Grid just by using it. And, they would be willing to recommend it.  They realized that, whether they had previously released a bug to the field that they could have caught with cross browser testing, that Ultrafast Grid changed their understanding about this kind of testing completely.</p>
-<p>Applitools users know that Applitools Visual AI makes it possible to run visual tests as part of their unit tests. These users can incorporate visual tests at every build and merge. And with Applitools Ultrafast Grid, they can incorporate cross browser tests as well.</p>
-<p>Importantly, Hackathon participants learned these lessons just through their time on the Hackathon. </p>
-<h2 id="h-what-these-recommendations-mean-for-you">What These Recommendations Mean For You</h2>
-<p>When you have 75% of engineers recommending something, it might be worth trying. Whether you classify yourself as a cross browser skeptic or a grudging participant, it is clear that Applitools Ultrafast Grid offers something that differs from your current conception of cross browser testing. </p>
-<p>At the very least, read the Applitools results in detail. You will learn why the engineers gave these recommendations.</p>
-<p>More importantly, why not give Applitools a try? Sign up for a <a target="_blank" href="https://www.applitools.com/free/" rel="noreferrer noopener">free account</a>? Or, if you prefer, <a target="_blank" href="https://www.applitools.com/request-demo/" rel="noreferrer noopener">request a demo</a> from an Applitools representative. </p>
-<h2 id="h-next-week">Next Week</h2>
-<p>Next week, in my last blog post in this series, I will help you draw your own conclusions about Modern Cross Browser Testing.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/skeptics-who-recommend-cross-browser-testing/">Source link </a></p>
 ]]></content:encoded>
 					
 		
