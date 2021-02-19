@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Wed, 17 Feb 2021 22:58:03 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Feb 2021 01:38:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,49 +28,153 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>How 2020 Has Shaped The Way We Live Our Lives</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-2020-has-shaped-the-way-we-live-our-lives/</link>
+		<title>Automate your Appium setup &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/automate-your-appium-setup-automated-visual-testing/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 22:58:03 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Live]]></category>
-		<category><![CDATA[Lives]]></category>
-		<category><![CDATA[Shaped]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-2020-has-shaped-the-way-we-live-our-lives/</guid>
+		<pubDate>Fri, 19 Feb 2021 01:38:10 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Appium]]></category>
+		<category><![CDATA[Automate]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Setup]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/automate-your-appium-setup-automated-visual-testing/</guid>
 
-					<description><![CDATA[How 2020 Has Shaped The Way We Live Our Lives I’ve had such a busy morning! I’ve hunted down my]]></description>
+					<description><![CDATA[Appium is an open source test automation framework for use with native, hybrid and mobile web apps. It drives iOS,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Appium is an open source test automation framework for use with native, hybrid and mobile web apps.</p>
+<p>It drives iOS, Android, and Windows apps using the WebDriver protocol and gives you the ability to automate any mobile app from any language and any test framework.</p>
+<p>Appium released its first major version almost 7 years ago. Since then, Appium has rolled out a lot of new features and its automation backend architecture has evolved quite a lot. </p>
+<p>That said, getting started with implementing automated tests and executing them using Appium the 1st time can be a daunting experience.</p>
+<p>There are a lot of dependencies that need to be set up – node, android-command-line tools, appium, etc.</p>
+<h2 id="h-appium-setup-scripts">Appium Setup Scripts</h2>
+<p>In order to make this task easier, and avoid having to do this manually, one at a time, I have written a script that will help set the Appium-Android environment automatically for you. The script is available for Mac OSX and Ubuntu and will set up the latest available version of the dependencies &amp; appium itself.</p>
+<p>You can find the scripts here:</p>
+<p>MacOSX: <a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_mac.sh" rel="noopener">setup_mac.sh</a></p>
+<p>Ubuntu: <a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_linux.sh" rel="noopener">setup_linux.sh</a></p>
+<p>The mentioned setup scripts install all dependencies required for implementing / running tests on Android devices. To do the setup for iOS devices, run <strong><em>appium-doctor</em></strong> and see the list of dependencies that are missing, and install the same.</p>
+<p>To ensure the setup is working properly, you can clone / download this sample repository (<a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample" rel="noopener">https://github.com/anandbagmar/AppiumJavaSample</a>) which has 2 tests that can be executed to verify the setup. </p>
+<p>Refer to the <a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/README.md" rel="noopener">README</a> file for specifics of the prerequisites to do the setup and also for running the tests.</p>
+<p>To get full value of your functional test automation, add the power of Visual AI to your tests. You can refer to the relevant tutorial for adding Applitools Visual AI to your Appium tests from <a target="_blank" href="https://applitools.com/tutorials/" rel="noopener">here</a>.</p>
+<h2 id="h-summary">Summary</h2>
+<p>Automate your Android and Appium test execution environment setup using an automated script on MacOSX (<a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_mac.sh" rel="noopener">setup_mac.sh</a>) and Ubuntu (<a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_linux.sh" rel="noopener">setup_linux.sh</a>).</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/automatic-appium-setup/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Beyond Clubhouse: Vulnerable Agora SDKs Still in Widespread Use</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/beyond-clubhouse-vulnerable-agora-sdks-still-in-widespread-use/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 00:21:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Agora]]></category>
+		<category><![CDATA[Clubhouse]]></category>
+		<category><![CDATA[SDKs]]></category>
+		<category><![CDATA[vulnerable]]></category>
+		<category><![CDATA[Widespread]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/beyond-clubhouse-vulnerable-agora-sdks-still-in-widespread-use/</guid>
+
+					<description><![CDATA[On February 17th, 2021, McAfee disclosed findings based on a 10-month long disclosure process with major video conferencing vendor Agora,]]></description>
 										<content:encoded><![CDATA[<p> <br />
 </p>
 <div>
 <div class="author-block padding-bottom-xs">
                 
             </div>
-<h2><strong>How 2020 Has Shaped The Way We Live Our Lives</strong></h2>
-<p>I’ve had such a busy morning! I’ve hunted down my favourite foundation, bought a puzzle mat, stocked up on special dog food for our naughty new puppy, ordered the groceries, made a few appointments and chatted with several friends. And guess what? I haven’t left my study – or changed out of my pyjamas!! Ssshhh!! Because it’s all happened online…</p>
-<h3><strong>Are our 2020 Habits Here to Stay?</strong></h3>
-<p>Of course, some of us embraced the benefits of the online world long before 2020 but the Pandemic forced almost everyone to replace our in-person activities and routines with online ones. New research from McAfee in their<strong> 2021 Consumer Security Mindset Report </strong>shows that 72% of Aussies made changes in their online activities last year out of convenience which makes complete sense!</p>
-<p>But what’s so interesting is that now we have these super handy new online routines in place – we aren’t that keen to give them up! McAfee’s report shows that 76% of Aussies are planning on continuing with online banking, 59% of us want to keep connecting with friends and family online and 55% of us remain totally committed to online shopping! Hear, hear, I say! I am absolutely staying that course too!!</p>
-<h3><strong>But What About The Risks?</strong></h3>
-<p>There’s no doubt that there is a lot of upside to managing our lives online but unfortunately there is also a downside – increased risk! The more time spent online, the greater the chance that we will be exposed to potential risks and threats such as phishing attacks, entering details into malicious websites or even becoming a victim of fraud.</p>
-<p>McAfee’s research shows that we are aware of the risks of being online. In fact, 66% of us are concerned about the potential dangers of living our lives online with losing control of our financial data top of the list for the majority of us. And almost 2/3 (65%) of us are also worried about having our social media accounts hacked.</p>
-<p>But pandemic life has meant that we are now a lot more comfortable with sharing information online. Whether it’s paperless transaction records, text and email notifications, opting to stay logged in or auto-populating forms with our credit card, this level of online sharing does make life so convenient but it can be a risky business! Why, I hear you ask? Because these conveniences usually only work when you share multiple pieces of your contact details. And the more you share, the greater your chance of being hacked or compromised. But the report was very clear – if we can make our online life more seamless then we are only too happy to share our key contact information! Oh dear!!</p>
-<h3><strong>‘Why Would Hackers Want My Data?’</strong></h3>
-<p>In addition to confessing that they don’t always take the necessary security precautions, Aussie consumers in McAfee’s report also admitted that they haven’t thought about why hackers might want their data. I don’t know how many people tell me that they don’t need to really bother with a lot of online precautions because they live a pretty boring life and don’t spend that much time online.</p>
-<p>But this is a very dangerous way to think. Your online data is like a pot of gold to hackers. Not only can they use it to possibly steal your identity and try to empty your bank accounts but they can also on-sell it for a profit. But the majority of Aussies don’t stop to consider this with the research showing that 64% of Aussies have never considered just how valuable their online data is worth.</p>
-<p>Hackers are ALWAYS on the lookout for new ‘up-to-date’ ways to exploit others for money. Don’t forget how quick they were to conjure up scams around COVID in early 2020 <a target="_blank" href="https://www.accc.gov.au/media-release/warning-on-covid-19-scams" rel="noopener noreferrer">– it was just a matter of weeks before Aussies received phishing emails and malicious text messages with the aim of extracting personal information from vulnerable consumers</a>.</p>
-<p>But, encouragingly, 85% of Aussies said they would be far more proactive about managing their data if it could be traded as a currency.</p>
-<h3><strong>How To Protect Your Digital Life</strong></h3>
-<p>The good news is that there are ways to secure your online life and minimise the risk of being hacked. Here are my top tips:</p>
-<h3 style="padding-left: 40px;">1.Always Use Multi-Factor Authentication</h3>
-<p>Yes, it might take a minute or 2 more, but using multi-factor authentication is an easy way to add an additional layer of security to protect your personal data and information. Commit to using it wherever it is offered!</p>
-<h3 style="padding-left: 40px;">2.Use a VPN</h3>
-<p>If you live your life out &amp; about like I do then you’ll be very tempted to use Wi-Fi. Using public Wi-Fi to conduct transactions, particularly financial ones is a big no-no! It takes keen hackers minimal effort to set up a fraudulent wi-fi service which could easily fool a busy person into connecting. Using a Virtual Private Network (or VPN) like <a target="_blank" href="https://www.mcafee.com/en-au/vpn/mcafee-safe-connect.html" rel="noopener noreferrer">McAfee® Safe Connect</a>, is the best way of ensuring everything you share over Wi-Fi is safe and secure.</p>
-<h3 style="padding-left: 40px;">3.Sign Up For A Site Advisor</h3>
-<p>Browsing the internet with a tool like the <a target="_blank" href="https://www.mcafee.com/en-nz/safe-browser/mcafee-webadvisor.html" rel="noopener noreferrer">McAfee WebAdvisor</a> is a great way of ensuring dangerous malware is blocked if you click on a malicious link in a phishing email. You’ll have real peace of mind knowing you can manage your online life while someone looks out for you!</p>
-<p>With 4 kids, 3 pets, 2 jobs – I know I could never get to the bottom of my ‘to-do’ lists without managing the bulk of it online. I often think I should send the internet an e-card at Christmas!! Of course, I understand why corners are cut and precautions are overlooked when we all feel so stretched for time. But just think about how much more time it would take if you were hacked and had to spend hours on the phone to your bank or if you had to reconfigure all your online accounts and social media platforms!!</p>
-<p>So, you know what you need to do! Stay safe online everyone!</p>
+<p>On February 17<sup>th</sup>, 2021, McAfee <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/dont-call-us-well-call-you-mcafee-atr-finds-vulnerability-in-agora-video-sdk/" rel="noopener noreferrer">disclosed findings</a> based on a 10-month long disclosure process with major video conferencing vendor Agora, Inc.  As we disclosed the findings to Agora in April 2020, this lengthy disclosure timeline represents a nonstandard process for McAfee but was a joint agreement with the vendor to allow sufficient time for the development and release of a secure SDK. The release of the SDK mitigating the vulnerability took place on December 17<sup>th</sup>, 2020. Given the implications of <a target="_blank" href="https://youtu.be/ApphMr2k5QE" rel="noopener noreferrer">snooping and spying on video</a> and audio calls, we felt it was important to provide Agora the extended disclosure time. The affected users of Agora include popular voice and video messaging apps, with one notable application being the popular new iOS app known as Clubhouse.</p>
 <p> </p>
+<p style="text-align: center;"><img loading="lazy" class="aligncenter wp-image-117547 size-full" src="https://www.mcafee.com/wp-content/uploads/2021/02/1.png" alt="" width="403" height="660" srcset="https://www.mcafee.com/wp-content/uploads/2021/02/1.png 403w, https://www.mcafee.com/wp-content/uploads/2021/02/1-183x300.png 183w, https://www.mcafee.com/wp-content/uploads/2021/02/1-79x129.png 79w" sizes="(max-width: 403px) 100vw, 403px"/><br /><em>Clubhouse Application Screenshot</em></p>
+<p>Clubhouse has made headlines recently as one of the newest players in the social networking sphere, rising in popularity after a series of high-profile users including Elon Musk, Kanye West and influencers in various geographies posted about the platform. <a target="_blank" href="https://en.wikipedia.org/wiki/Clubhouse_(app)" rel="noopener noreferrer">Released in April of 2020</a>, Clubhouse quickly carved out a niche in Chinese social media as the platform to discuss sensitive social and political topics – perhaps aided by its invite-only approach to membership – and the spotlight shined on it by these key players further propelled it into viral status early this year. Perhaps unsurprisingly, the application was <a target="_blank" href="https://www.businessinsider.com/china-ban-clubhouse-reports-social-app-users-avoid-government-censorship-2021-2" rel="noopener noreferrer">blocked for use in China</a> on February 8<sup>th</sup>, 2021.</p>
+<p>Last week, Stanford Internet Observatory (SIO) <a target="_blank" href="https://cyber.fsi.stanford.edu/io/news/clubhouse-china" rel="noopener noreferrer">released research</a> regarding the popular Clubhouse app’s use of Agora real-time engagement software and suggested that Agora could have provided the Chinese government access to Clubhouse user information and communications.  While the details of Stanford’s disclosure focus on the audio SDK compared to our work on the video SDK, the functionality and flaw are similar to our recent disclosure, CVE-2020-25605.  This includes the plaintext transmission of app ID, channel ID and token – credentials necessary to join either audio or video calls. We can confirm that Clubhouse updated to the most recent version of the Agora SDK on February 16<sup>th </sup>– just a day prior to our public disclosure.</p>
+<p>Despite the recent noise surrounding Clubhouse, the reality is that this application is just one of many applications that leverage the Agora SDK. Among others, we investigated the social apps eHarmony, Skout, and MeetMe, along with several widely-used healthcare apps, some of which have a significantly larger user base. For example, MeetGroup (comprised of several apps) reported approximately 18 million monthly users compared to Clubhouse, which had approximately 600k total users as of December 2020.</p>
+<p>We felt it was important to highlight these data points and are continuing to investigate these applications as well as monitor any potential instances of malicious actors exploiting this vulnerability. Given that Agora has released an updated SDK that fixes the call setup issues, vulnerable applications should have already switched to the secure calling SDK, thus protecting the sensitive audio and video call data as many claim to do. With that in mind, we decided to check back in with some of the Agora-based apps we previously investigated to confirm whether they had updated to the patched version. We were surprised to see many, as of February 18, 2020, still had not:</p>
+<table width="609">
+<tbody>
+<tr>
+<td width="169"><strong>App Name</strong></td>
+<td width="91"><strong>Installs</strong></td>
+<td width="92"><strong>App Version</strong></td>
+<td width="112"><strong>App Version Date</strong></td>
+<td width="145"><strong>Updated Agora SDK</strong></td>
+</tr>
+<tr>
+<td width="169">MeetMe</td>
+<td width="91">50,000,000+</td>
+<td width="92">14.24.4.2910</td>
+<td width="112">2/9/2021</td>
+<td width="145">Yes</td>
+</tr>
+<tr>
+<td width="169">LOVOO</td>
+<td width="91">50,000,000+</td>
+<td width="92">93.0</td>
+<td width="112">2/15/2021</td>
+<td width="145">No</td>
+</tr>
+<tr>
+<td width="169">Plenty of Fish</td>
+<td width="91">50,000,000+</td>
+<td width="92">4.36.0.1500755</td>
+<td width="112">2/5/2021</td>
+<td width="145">No</td>
+</tr>
+<tr>
+<td width="169">SKOUT</td>
+<td width="91">50,000,000+</td>
+<td width="92">6.32.0</td>
+<td width="112">2/3/2021</td>
+<td width="145">Yes</td>
+</tr>
+<tr>
+<td width="169">Tagged</td>
+<td width="91">10,000,000+</td>
+<td width="92">9.32.0</td>
+<td width="112">12/29/2020</td>
+<td width="145">No</td>
+</tr>
+<tr>
+<td width="169">GROWLr</td>
+<td width="91">1,000,000+</td>
+<td width="92">16.1.1</td>
+<td width="112">2/11/2021</td>
+<td width="145">No</td>
+</tr>
+<tr>
+<td width="169">eharmony</td>
+<td width="91">5,000,000+</td>
+<td width="92">8.16.2</td>
+<td width="112">2/5/2021</td>
+<td width="145">Yes</td>
+</tr>
+<tr>
+<td width="169">Clubhouse</td>
+<td width="91">2,000,000+</td>
+<td width="92">0.1.2.8</td>
+<td width="112">2/16/2021</td>
+<td width="145">Yes</td>
+</tr>
+<tr>
+<td width="169">Practo</td>
+<td width="91">5,000,000+</td>
+<td width="92">4.93</td>
+<td width="112">1/26/2021</td>
+<td width="145">No</td>
+</tr>
+</tbody>
+</table>
+<p>With the context around censorship and basic privacy concerns, it will be interesting to see if these and many other apps using the vulnerable SDK update quickly, or even ever, and what kind of lasting effects these types of findings have on users’ trust and confidence in social media platforms.</p>
+<p>For more on McAfee ATR’s research into the Agora SDK, please see our <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/dont-call-us-well-call-you-mcafee-atr-finds-vulnerability-in-agora-video-sdk/" rel="noopener noreferrer">technical research blog</a>.</p>
+<p>For information on how users can protect themselves when using such apps, please see our <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/hang-up-on-hackers-protect-yourself-from-mobile-app-video-conferencing-vulnerabilities/" rel="noopener noreferrer">consumer safety tips blog</a>.</p>
 </p></div>
 <p><script>
   !function(f,b,e,v,n,t,s)
@@ -95,378 +199,265 @@ fbq('track', "PageView");</p>
 <p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
 </script><br />
 <br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/family-safety/how-2020-has-shaped-the-way-we-live-our-lives/">Source link </a></p>
+<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/beyond-clubhouse-vulnerable-agora-sdks-still-in-widespread-use/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Stolen Jones Day Law Firm Files Posted on Dark Web</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/stolen-jones-day-law-firm-files-posted-on-dark-web/</link>
+		<title>Cybercriminal Enterprise ‘Ringleaders’ Stole $55M Via COVID-19 Fraud, Romance Scams</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 22:02:23 +0000</pubDate>
+		<pubDate>Thu, 18 Feb 2021 21:30:16 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[dark]]></category>
-		<category><![CDATA[Day]]></category>
-		<category><![CDATA[Files]]></category>
-		<category><![CDATA[Firm]]></category>
-		<category><![CDATA[Jones]]></category>
-		<category><![CDATA[Law]]></category>
-		<category><![CDATA[posted]]></category>
-		<category><![CDATA[Stolen]]></category>
-		<category><![CDATA[web]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/stolen-jones-day-law-firm-files-posted-on-dark-web/</guid>
+		<category><![CDATA[55M]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Cybercriminal]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[Ringleaders]]></category>
+		<category><![CDATA[Romance]]></category>
+		<category><![CDATA[Scams]]></category>
+		<category><![CDATA[Stole]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/</guid>
 
-					<description><![CDATA[Jones Day, which represented Trump, said the breach is part of the Accellion attack from December. Source link]]></description>
+					<description><![CDATA[The Department of Justice (DoJ) cracked down on a Ghana-based cybercriminal enterprise behind a slew of romance scams, COVID-19 fraud]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Jones Day, which represented Trump, said the breach is part of the Accellion attack from December.<br />
+<br />The Department of Justice (DoJ) cracked down on a Ghana-based cybercriminal enterprise behind a slew of romance scams, COVID-19 fraud attacks and business email compromise schemes since 2013.<br />
 <br /><br />
-<br /><a href="https://threatpost.com/stolen-jones-day-law-firm-files-posted/164066/">Source link </a></p>
+<br /><a href="https://threatpost.com/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/164086/">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Windows, Linux Devices Hijacked In Two-Year Cryptojacking Campaign</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/windows-linux-devices-hijacked-in-two-year-cryptojacking-campaign/</link>
+		<title>Lesson from supply chain attacks: Beware &#8216;dependency confusion&#8217;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/lesson-from-supply-chain-attacks-beware-dependency-confusion/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 21:39:10 +0000</pubDate>
+		<pubDate>Thu, 18 Feb 2021 21:30:00 +0000</pubDate>
 				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[Cryptojacking]]></category>
-		<category><![CDATA[Devices]]></category>
-		<category><![CDATA[Hijacked]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[TwoYear]]></category>
-		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/windows-linux-devices-hijacked-in-two-year-cryptojacking-campaign/</guid>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Beware]]></category>
+		<category><![CDATA[Chain]]></category>
+		<category><![CDATA[confusion]]></category>
+		<category><![CDATA[dependency]]></category>
+		<category><![CDATA[Lesson]]></category>
+		<category><![CDATA[Supply]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=10484</guid>
 
-					<description><![CDATA[The WatchDog malware has flown under the radar for two years in what researchers call one of the &#8216;largest&#8217; Monero]]></description>
+					<description><![CDATA[After Alex Birsan’s $130,000 bug-bounty haul last week, hundreds of bogus npm packages have popped up out of nowhere. They]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />The WatchDog malware has flown under the radar for two years in what researchers call one of the &#8216;largest&#8217; Monero cryptojacking attacks ever.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/windows-linux-devices-hijacked-in-two-year-cryptojacking-campaign/164048/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Millions Affected by Malware Attributed to Android Barcode-Scanning App  &#124; McAfee Blogs Millions Affected by Malware Attributed to Android Barcode-Scanning App</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/millions-affected-by-malware-attributed-to-android-barcode-scanning-app-mcafee-blogs-millions-affected-by-malware-attributed-to-android-barcode-scanning-app/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 21:32:17 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Affected]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[App]]></category>
-		<category><![CDATA[Attributed]]></category>
-		<category><![CDATA[BarcodeScanning]]></category>
-		<category><![CDATA[Blogs]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[McAfee]]></category>
-		<category><![CDATA[Millions]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/millions-affected-by-malware-attributed-to-android-barcode-scanning-app-mcafee-blogs-millions-affected-by-malware-attributed-to-android-barcode-scanning-app/</guid>
-
-					<description><![CDATA[We’ve all come to a realization that we don’t go anywhere without our phone. It’s a utility that helps us]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
+<br /></p>
 <div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>We’ve all come to a realization that we don’t go anywhere without our phone. It’s a utility that helps us navigate our daily lives: directions, schedules, shopping, discounts, banking, and so on. And as our reliance on our smartphone continues to grow, it’s no wonder that hackers have taken notice. This time, it’s another case of an app gone rogue.</p>
-<h3><strong>Innocent Scanner Turned Malware Super-Spreader</strong></h3>
-<p>With over 10 million downloads, the Barcode Scanner app provided users with a basic QR code reader and barcode generator, useful for things like making purchases and redeeming discounts.  Then, most likely in a recent update, the <a target="_blank" href="https://gizmodo.com/barcode-scanning-app-for-android-pushed-malware-onto-mi-1846221452" rel="noopener noreferrer">app began to deliver ad-producing malware</a> onto users’ phones – with the malware being traced back to the Android Barcode Scanner app. While Barcode Scanner was previously benign, it is believed that a hacker injected malicious code into the app before the latest update, pushing malware onto Android devices. Once installed, the malware hijacks your default web browsers and redirects you to random advertisements.</p>
-<p>In a typical case of <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/adrozek-malware-is-wreaking-havoc-on-web-browsers-how-to-stay-protected/?hilite=%27malicious%27%2C%27advertising%27" rel="noopener noreferrer">malvertising,</a> or malicious advertising, fraudsters submit infected graphic or text ads to legitimate advertisement networks, which often can’t distinguish harmful ads from trustworthy ones. Under the guise of everyday pop-ups, these malicious ads push fake browser updates, free utilities, or antivirus programs in the hope that unsuspecting users will click. Depending on what kind of programs the malicious ads succeed in downloading, hackers might steal your data, encrypt or delete your information, or hijack your computer functions – as is the case with the Barcode Scanner’s malware.</p>
-<p>While Google has taken down the Barcode Scanner from its store, it has not been deleted from infected devices. So, if you have the app on your phone, it’s time to uninstall it from your device manually…ASAP.</p>
-<h3><strong>How to Stay Protected</strong></h3>
-<p>We all need to reflect on the state of our digital health, especially as hackers continue to target us through the device we use most – our phones. To help protect your data, family, and friends, check out these security tactics to keep sneaky mobile threats out:</p>
-<h3><strong>1. Do your research</strong></h3>
-<p>While some malicious apps do make it through the app store screening process, most attack downloads appear to stem from social media, fake ads, and other unofficial app sources. Before downloading an app to your device, do some quick research about the origin and developer.</p>
-<h3><strong> </strong><strong>2. Read app reviews with a critical eye </strong></h3>
-<p>Reviews and rankings are still a suitable method of determining whether an app is legitimate. However, watch out for assessments that reuse repetitive or straightforward phrases, as this could be a sign of a fraudulent review.</p>
-<h3><strong>3. Update, update, update</strong></h3>
-<p>Developers are actively working to identify and address security issues. Frequently update your operating systems and apps so that they have the latest fixes and security protections.</p>
-<h3><strong>4. Use a VPN</strong></h3>
-<p>A virtual private network, or VPN, allows you to send and receive data across a public network, but it encrypts your information so others can’t read it. This can prevent hackers from spying on your internet activity, therefore protecting your privacy.</p>
-<h3><strong>5. Defend your devices with security software</strong></h3>
-<p><u><a target="_blank" href="https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html" rel="noopener noreferrer">Holistic security solutions</a> </u>across all devices continues to be a strong defensive measure to protect your data and privacy from online threats like malware.</p>
-<h3><strong>Stay Updated</strong></h3>
-<p>To stay updated on all things <a target="_blank" href="https://protect-eu.mimecast.com/s/gDFSCPZYoT4LRE9hzxrqP?domain=mcafee.com" rel="noopener">McAfee</a> and on top of the latest consumer and mobile security threats, follow <a target="_blank" href="https://protect-eu.mimecast.com/s/k0LjCQ0Oph6wpjghPn0h2?domain=twitter.com" rel="noopener">@McAfee_Home </a> on Twitter, subscribe to our <a target="_blank" href="https://protect-eu.mimecast.com/s/TE2KCRoLqUr31qofPJIrC?domain=mcafee.com" rel="noopener">email</a>, listen to our podcast <a target="_blank" href="https://protect-eu.mimecast.com/s/FexcCVPNxclp6omTJ58zy?domain=geo.itunes.apple.com" rel="noopener">Hackable?</a>, and ‘Like’ us on <a target="_blank" href="https://protect-eu.mimecast.com/s/xLB_CW78ycjnKmZimS2L_?domain=facebook.com" rel="noopener">Facebook.</a></p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-</p></div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/millions-affected-by-malware-attributed-to-android-barcode-scanning-app/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Domain Age as an Internet Filter Criteria</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/domain-age-as-an-internet-filter-criteria/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 20:11:17 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Age]]></category>
-		<category><![CDATA[criteria]]></category>
-		<category><![CDATA[Domain]]></category>
-		<category><![CDATA[Filter]]></category>
-		<category><![CDATA[Internet]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/domain-age-as-an-internet-filter-criteria/</guid>
-
-					<description><![CDATA[Use of “domain age” is a feature being promoted by various firewall and web security vendors as a method to]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>Use of “domain age” is a feature being promoted by various firewall and web security vendors as a method to protect users and systems from accessing malicious internet destinations. The concept is to use domain age as a generic traffic filtering parameter. The thought is that hosts associated with newly registered domains should be either completely blocked, isolated, or treated with high suspicion. This blog will describe what domain age is, how domains are created and registered, domain age value, and how domain age can be used most effectively as a compliment to other web security tools.</p>
-<h2><strong>Domain Age Feature Definition</strong></h2>
-<p>The sites and domains of the internet are constantly changing and evolving. In the first quarter of 2020 an average of over 40,000 domains were registered per day. If the domain of a target host is known that domain has a registration date available for lookup from various sources. Domain age is a simple calculation of the time between initial domain registration and the current date.</p>
-<p>A domain age feature is designed for use in policy control, where an administrator can set a minimum domain age that should be necessary to allow access to a given internet destination. The idea is that since domains are so easy and cheap to establish, new domains should be treated with great care, if not blocked outright. Unfortunately, with most protocols and implementations, domain age policy selection is a binary decision to allow or block. This is not very useful when the ultimate destinations are hosts, subdomains, and destination addresses that can be rapidly activated, changed, and deactivated without ever changing the domain age. As a result, binary security decisions based solely on domain name or domain age will naturally result in both false positives and false negatives that are detrimental to security, user experience, and productivity.</p>
-<h2><strong>Domain Registration</strong></h2>
-<p>IANA (Internet Assigned Numbers Authority) is the department of ICANN (Internet Corporation for Assigned Names and Numbers) responsible for managing the registries of, protocol parameters, domain names, IP addresses, and Autonomous System Numbers.</p>
-<p>IANA manages the DNS root zone and TLDs (Top Level Domains like .com, .org, .edu, etc.) and registrars are responsible for working with the Internet Registry and IANA to register individual subdomains within the top-level domains.</p>
-<p>Details of the registration process and definitions can be found on the IANA site (iana.org). Additional details can be found here: <a target="_blank" href="https://whois.icann.org/en/domain-name-registration-process" rel="noopener noreferrer">https://whois.icann.org/en/domain-name-registration-process</a> This location includes the following statement:</p>
-<p>“In some cases, a person or organization who does not wish to have their information listed in WHOIS may contract with a proxy service provider to register domain names on their behalf. In this case, the service provider is the domain name registrant, not the end customer.”</p>
-<p>This means that service providers, and end customers are free to register a domain once and reuse, reassign or sell that domain without changing the registration date or changing any other registration information. Registrars can and do auction addresses creating a vast market for domain “squatters and trolls.” An attacker can cheaply purchase an established domain of a defunct business or register a completely new legitimate sounding domain and leave it unused for weeks, months or years.  For example, as of this writing airnigeria.com is up for sale on godaddy.com for just $65 USD. The domain airnigeria.com was originally registered in 2003. IANA and the registrars have no responsibility or control over usage of domains.</p>
-<h2><strong>Determining Domain Age</strong></h2>
-<p>Domain age is determined from the domain record in the Internet Registry managed by the registry operator for a TLD (Top Level Domain). Ultimately the registrar is responsible for the establishment of a domain registration and updating related data. The record in the registry will have an original creation date but that date doesn’t change unless the registration for a specific domain expires and the domain name is re-registered. Because of this, domain age is an extremely inaccurate measure of when an individual destination became active.</p>
-<p>And what if only the destination IP address is known at the time of the filtering decision? This could be the case for filtering the first packet sent to a specific destination (TCP SYN or first UDP packet of some other network or transport level protocol). One way to get the domain for the destination would be a reverse DNS lookup, but the domain for the host may not match the domain that was originally submitted for resolution, so what value is domain age there?</p>
-<p>For example, <a target="_blank" href="http://www.mcafee.com" rel="noopener">www.mcafee.com</a> can currently resolve to 172.224.15.98 which reverse resolves to a172-224-15-98.deploy.static.akamaitechnologies.com. While the mcafee.com domain was registered on 1992-08-05, akamaitechnologies.com was registered on 1998-08-18. Both are long established domains, but just because this destination, in the well-established mcafee.com domain, is hosted on the well-established akamaitechnologies.com domain, this doesn’t provide any indication of when the <a target="_blank" href="http://www.mcafee.com" rel="noopener">www.mcafee.com</a>, or 172.224.15.98 destination became active, or the risk of communicating with that IP address. Domain age becomes even less useful when we consider destinations hosted in the public cloud (IaaS and SaaS) using the providers’ domains.</p>
-<p>Obtaining the wrong domain and therefore wrong domain age from reverse lookup could be somewhat mitigated by tracking the DNS queries of the client and attempting to map those domains back to the requested destination IP. However, doing this would also be dependent on having full visibility into all DNS requests from the client, and assumes that the destination IP address was determined using standard DNS or by the system providing the domain age filtering.</p>
-<h2><strong>Challenges with Using Domain Age as a Generic Filter Criteria</strong></h2>
-<p>Even if the correct domain for the transmission can be established, and the domain age can be accurately retrieved, there are still issues that should be considered.</p>
-<p>Registrars are free to maintain, change, and reassign established domains to any customer, and resellers can do the same. This greatly diminishes the usefulness of domain age as a stand-alone filtering parameter because a malicious actor can easily acquire an existing well-established domain with a neutral or even positive reputation. A malicious actor can also register a new domain long before it is put into use as a command and control or attack domain.</p>
-<p>Legitimate and perfectly safe sites are constantly being registered and established in many cases within days or even hours of being put into use. When using domain age as filter criteria there will always be a tradeoff between false positive and false negative rates.</p>
-<p>It should also be noted that domain age provides little value relative to when an individual hostname record was created within a domain. Well established domains can have an infinite number of subdomains and individual hosts within those domains, and there is no way to accurately determine hostname age or even when the name was associated with an active IP. All that could possibly be determined is that the destination hostname is part of a domain that was registered at some earlier date.</p>
-<p>The bottom line is that domain age is not nearly granular or substantive enough to make a useful filtering decision on its own. However, domain age could provide some limited security value in the complete absence of more specific criteria, provided the false positive rate and false negative rate associated with the selected recency threshold can be tolerated. Domain age can provide supplemental value when combined with other more definitive filter criteria for example protocol, content type, host category, host reputation, host first seen, frequency of host access, web service attributes, and others.</p>
-<h2><strong>Domain Age in the Context of HTTP/S and Proxy Based Filtering</strong></h2>
-<p>More specific criteria are always available when the HTTP protocol is in use. HTTP and HTTPS filtering is most effectively handled via explicit or transparent proxy. If the protocol is followed (enforced by the device or service), information cannot be transferred, and a compromise or attack cannot be initiated, until after TCP connection establishment.</p>
-<p>Given that the traffic is being proxied, and HTTPS can be decrypted, accurate Fully Qualified Domain Name (FQDNs) for the host, URL path, and URL parameters can be identified and verified by the proxy for use in filtering decisions. The ability to lookup information on the FQDN, full URL path, and URL parameters provides much more valuable information relative to the history, risk level, and usage of the specific site, destination, and service independent of the domain or the domain’s date of registration Such contextual data can be further enhanced when the proxy associates the request with a specific service and its data security attributes (such as type of service, intellectual property ownership, breach history, etc.).</p>
-<p>Industry leading web proxy vendors maintain extensive and comprehensive databases of the most frequently used sites, domains, applications, services, and URLs. The McAfee Global Threat Intelligence and Cloud Registry databases associate sites, domains, and URLs with geolocation, category, service, service attributes, applications, data risk reputations, threat reputations and more. As a side benefit, lack of an entry in the databases for a specific host, domain, service, or URL is an extremely strong, and much more accurate, indication that the site is newly established or little used and therefore should not be inherently trusted. Such sites should be treated with caution and blocked or coached or isolated (the latter two options are uniquely available with proxied HTTP/S) based on that criteria alone, regardless of domain age.</p>
-<p>McAfee’s Unified Cloud Edge provides all of the above functionality and includes remote browser isolation (RBI) for uncategorized, unverified, and otherwise risky sites. This virtually eliminates the risks of browsers or other applications accessing uncategorized sites, without adding the complications of false positives and false negatives from a domain age filter.</p>
-<p>When using HTTP/S, hostname age, or even first and/or last hostname seen date could provide additional value, but domain age is pretty much useless when the FQDN and more specific site or service related information is available. Best practice is to block, isolate, or at a minimum, coach unverified sites and services without regard to domain age. Allowing unverified sites or services based on domain age adds significant risk of false negatives (risky sites and services being allowed simply because the domain was not recently registered). Generically blocking sites and services based on domain age alone would lead to over-blocking sites that have established good reputations and should not be blocked.</p>
-<h2><strong>Conclusion</strong></h2>
-<p>Domain age can be somewhat useful for supplementing filter decisions in situations where no other more accurate and specific information is available about the destination of a network packet. When considering use of domain age for HTTP/S filtering, it is an extremely poor substitute for a more comprehensive threat intelligence and service database. If the decision is made to deviate from best practice and allow HTTP/S connections to unverified sites, without isolation, then domain age can provide limited supplemental value by blocking unverified sites that are in newly registered domains. This comes at the expense of a false sense of security and much greater risk of false negatives when compared to the best practice of using comprehensive web threat intelligence, performing thorough request and response analysis, and simply blocking, isolating, or coaching unverified sites.</p>
-<p> </p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/enterprise/cloud-security/domain-age-as-an-internet-filter-criteria/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ninja Forms WordPress Plugin Bug Opens Websites to Hacks</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/ninja-forms-wordpress-plugin-bug-opens-websites-to-hacks/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 19:57:26 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[Forms]]></category>
-		<category><![CDATA[Hacks]]></category>
-		<category><![CDATA[Ninja]]></category>
-		<category><![CDATA[Opens]]></category>
-		<category><![CDATA[Plugin]]></category>
-		<category><![CDATA[Websites]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/ninja-forms-wordpress-plugin-bug-opens-websites-to-hacks/</guid>
-
-					<description><![CDATA[The popular plugin is installed on more than 1 million websites, and has four flaws that allow various kinds of]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The popular plugin is installed on more than 1 million websites, and has four flaws that allow various kinds of serious attacks, including site takeover and email hijacking.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/ninja-forms-wordpress-plugin-hacks/164042/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>U.S. Accuses North Korean Hackers of Stealing Millions</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/u-s-accuses-north-korean-hackers-of-stealing-millions/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 18:20:28 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Accuses]]></category>
-		<category><![CDATA[hackers]]></category>
-		<category><![CDATA[Korean]]></category>
-		<category><![CDATA[Millions]]></category>
-		<category><![CDATA[North]]></category>
-		<category><![CDATA[Stealing]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/u-s-accuses-north-korean-hackers-of-stealing-millions/</guid>
-
-					<description><![CDATA[The feds have expanded the list of financial and political hacking crimes they allege are linked to Lazarus Group and]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The feds have expanded the list of financial and political hacking crimes they allege are linked to Lazarus Group and North Korea.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/us-accuses-north-korean-hackers/164039/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Masslogger Swipes Microsoft Outlook, Google Chrome Credentials</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/masslogger-swipes-microsoft-outlook-google-chrome-credentials/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 16:31:40 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Chrome]]></category>
-		<category><![CDATA[Credentials]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Masslogger]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Outlook]]></category>
-		<category><![CDATA[Swipes]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/masslogger-swipes-microsoft-outlook-google-chrome-credentials/</guid>
-
-					<description><![CDATA[A new version of the Masslogger trojan has been targeting Windows users &#8211; now using a compiled HTML (CHM) file]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A new version of the Masslogger trojan has been targeting Windows users &#8211; now using a compiled HTML (CHM) file format to start the infection chain.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/masslogger-microsoft-outlook-google-chrome/164011/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to get started with performance engineering: The what, why, and how</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-to-get-started-with-performance-engineering-the-what-why-and-how/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 16:00:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Engineering]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[started]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-to-get-started-with-performance-engineering-the-what-why-and-how/</guid>
-
-					<description><![CDATA[Performance engineering is the discipline of determining the performance requirements of a system, then designing, evaluating, and improving that system]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Performance engineering is the discipline of determining the performance requirements of a system, then designing, evaluating, and improving that system to accomplish those requirements. Before you review <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-techniques?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener">the latest performance engineering techniques</a> or begin <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/buyers-guide-performance?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener">the process of selecting the right tools</a>, you should understand these basics.</p>
-<p>The essential elements of performance engineering include capacity planning, modeling and simulation, development, performance testing, platform engineering, and production monitoring. That definition is largely based on the work of <a target="_blank" href="https://twitter.com/perfpulley" rel="nofollow noopener">James Pulley</a>, practice manager for release and test at TEKsystems and co-host of the PerfBytes podcast.</p>
-<p></p>
-<p><em>Figure 1. Core elements of performance engineering. Source:<a target="_blank" href="http://www.jamespulley.com" rel="nofollow noopener"> James Pulley</a></em> </p>
-<p>While there&#8217;s general agreement on this definition, opinions on how to accomplish it vary. A major issue with performance engineering is proving its benefit to the business, said <a target="_blank" href="https://twitter.com/grabnerandi" rel="nofollow noopener">Andreas Grabner</a>, a DevOps advocate at Dynatrace. Anyone involved with systems performance knows the advantages, but they are not always obvious to the business people who approve the budget.</p>
-<p>Consider Amazon&#8217;s claim that every extra 100 milliseconds of latency costs 1% in sales, and Google&#8217;s claim that an extra half-second in search page generation drops traffic by 20%. And the TABB Group estimates that if a broker&#8217;s electronic trading platform is 5 milliseconds behind the competition, it can lose 1% of revenue. </p>
-<p>These figures estimate the cost of only a small delay. An extended delay, even a few hours of downtime, could mean loss of reputation that ripples out for months or years. Trying to mitigate those risks with performance testing alone creates new costs and delays. Worse, that limited approach fails to integrate into a modern DevOps world.</p>
-<p>While <a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/performance-engineering-techniques?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00172440" rel="noopener">performance engineering evolved</a> from performance testing, it now encompasses much more. Here&#8217;s what you need to know to get started. </p>
-<h3>Performance testing&#8217;s beginnings</h3>
-<p>Classic performance testing took a &#8220;build and test&#8221; approach. Fred Brooks called that &#8220;build it twice&#8221; in his landmark book <a target="_blank" href="https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month" rel="nofollow noopener"><em>Mythical Man-Month: Essays on Software Engineering</em></a>, perhaps the oldest work about software engineering to remain in print. Brooks said, &#8220;Plan to throw one away; you will, anyhow.&#8221;</p>
-<p>In days of yore, traditional performance testing might be done once, just prior to the software&#8217;s release, and involved a fair bit of tweaking. If modeling happened in any formal sense, it was what performance-testing guru <a target="_blank" href="https://twitter.com/sbarber" rel="nofollow noopener">Scott Barber</a> called &#8220;with crayons,&#8221; drawing a flow diagram of the website and guessing about user actions.</p>
-<p>The thinking was that performance testing could not happen until the entire system was built and assembled. That made performance testing part of a waterfall process, instead of being done an incremental piece at a time. </p>
-<p>Software testing consultant <a target="_blank" href="https://twitter.com/michaelbolton" rel="nofollow noopener">Michael Bolton</a> puts it succinctly: The core issues in software are less often testing, and more often fixing.</p>
-<p>Performance engineering both fixes and prevents problems. The goal is for performance problems that appear in any change to be identified as part of that change, almost immediately, or within minutes of it moving to production.</p>
-<h3>Modern performance engineering</h3>
-<p>Especially given the adoption of DevOps, you will need to understand about <a target="_blank" href="https://techbeacon.com/app-dev-testing/shift-your-testing-how-increase-quality-not-anxiety" rel="noopener">moving testing &#8220;left&#8221; and &#8220;right.&#8221;</a> The term <em>shift left</em> means moving conversations about quality, requirements, and how things will be tested to places that are earlier in the process—and taking appropriate action. Shifting right involves releasing the code earlier, perhaps to a small subset of the user population, a technique sometimes called &#8220;testing in production.&#8221;</p>
-<p>Several years ago <a target="_blank" href="https://www.linkedin.com/in/goranka-bjedov-5969a6/" rel="nofollow noopener">Goranka Bjedov</a>, then a capacity engineer at Facebook, pointed out that <a target="_blank" href="https://www.youtube.com/watch?v=iJrOiGuaVBg" rel="nofollow noopener">her company was shifting performance right</a>. The company could push a change to a specific cluster and monitor that cluster&#8217;s performance. Performance engineering combines shift-left and shift-right techniques to make performance built in, or engineered, into the process.</p>
-<p>The modern approach takes the disciplines listed above and applies technologies to the problem. Performance engineering includes continuous integration, continuous delivery, virtualization, and cloud-based deployments. <a target="_blank" href="https://techbeacon.com/enterprise-it/how-do-monitoring-code-devops-way" rel="noopener">Production monitoring</a> is more than application uptime and response time, and includes application performance monitoring (APM).</p>
-<p>According to Gartner, APM includes front-end response/load monitoring, application discovery/tracing, and analytics. Once a change is launched, APM provides the tools to see how that change is performing and allows you to roll it back or adjust if there are problems. Performance engineering can also include canary testing, to deploy a change to a limited population and test in production.</p>
-<p><a target="_blank" href="https://www.linkedin.com/in/leandromelendez/" rel="nofollow noopener">Leandro Melendez</a>, a consulting performance tester at Qualitest, suggests cloud-based delivery as the &#8220;secret weapon on QA modernization.&#8221; That means the ability to create a test environment on demand for any given change, including all the infrastructure automation needed. Once that infrastructure is in place, <a target="_blank" href="https://techbeacon.com/app-dev-testing/how-define-load-models-continuous-testing" rel="noopener">continuous performance evaluation</a> becomes possible.</p>
-<h3>Continuous performance evaluation</h3>
-<p>Compared to waterfall development, which built, tested, and deployed everything, the DevOps approach builds one piece at a time, tests it, deploys just that piece, and monitors for success. That makes performance engineering and evaluation part of the continuous integration (CI) pipeline.</p>
-<p>Performance testing tools need to generate demand, run, and publish results in a test environment that is created on demand, as well as load realistic test data. To do that, these tools need to integrate with a wider set of infrastructure, creating output that can be consumed by the CI pipeline and reported on. The tools also need to provide enough information to allow code to be debugged after a failing run.</p>
-<p>Qualitest&#8217;s Melendez suggests that, in addition to test results (response times), you may want to review CPU, disk, memory, and network utilization, along with trends. In a complex environment, delay, tracing, and debugging information will help with the next step: remediation.</p>
-<p>The same tools can help with <a target="_blank" href="https://techbeacon.com/app-dev-testing/no-fear-how-test-software-production" rel="noopener">monitoring production</a>, to respond to changes in performance due to changes in demand, customer use patterns, or code rollouts with unexpected use cases. Some monitoring tools can capture production customer behavior, to create models for testing, or even make real production data anonymous to create accurate performance and load test scenarios.</p>
-<h3>Make the right investment</h3>
-<p>Finally, there should be a sense of realism, or business value, about this effort. <a target="_blank" href="https://twitter.com/apodelko" rel="nofollow noopener">Alex Podelko</a>, a consulting performance engineer at MongoDB, said performance engineering mitigates risk, but cannot prevent it.</p>
-<p>Time and effort spent on performance engineering should result in much more time and money saved than invested. That means there is a sweet spot where you&#8217;ll hit the maximum ROI. To do that, you&#8217;ll have to<a target="_blank" href="https://content.microfocus.com/performance-engineering-tb/buyers-guide-performance?lx=zTFJra&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172440" rel="noopener"> choose the right tools and techniques</a>. </p>
+<p><strong>After Alex Birsan’s $130,000 bug-bounty haul last week,</strong> hundreds of bogus npm packages have popped up out of nowhere. They appear to have been published by copycat researchers—some of whom have less-than-pure intentions.</p>
+<p><strong>Yes, it’s our old friend, <a target="_blank" href="https://techbeacon.com/security/check-your-dependencies-githubs-npm-finds-nasty-trojan-packages" title=" GitHub's npm finds nasty Trojan packages" rel="noopener">dependency confusion</a>,</strong> but this time with a twist. Birsan discovered a bunch of private module names and created aliases on public repositories, with higher version numbers.</p>
+<p><strong>And, of course,</strong> that means he was running his code on other people’s networks. In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener">Security Blogwatch</a></i>, we get lost.</p>
+<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Discombobulate.</em></p>
+<h3>‘Now Publish Malware’ redux</h3>
+<p><strong>What’s the craic?</strong> Careful with that Ax Sharma—<i><a target="_blank" href="https://www.bleepingcomputer.com/news/security/copycats-imitate-novel-supply-chain-attack-that-hit-tech-giants/" rel="nofollow ugc noopener" title="read the full text">Copycats imitate novel supply chain attack</a>:</i></p>
+<blockquote><p><em>This week, over 275 new packages have been published to the npm open-source repository named after private components being internally used by major companies. [The] packages are identical to the proof-of-concept packages created by Alex Birsan [who] recently managed to infiltrate over 35 major tech firms and walk away with over six-figures in bug bounty.<br />…<br />Birsan had taken advantage of an inherent design flaw of open-source development tools called &#8220;dependency confusion&#8221; or &#8220;namespace confusion&#8221; to squat names of private dependencies used by major companies on public open-source repos including npm, PyPI, and RubyGems. [He] hit over 35 tech firms, [including] Microsoft, Apple, PayPal, Tesla, Uber, Yelp, Shopify.<br />…<br />&#8220;It is … only natural to expect other bug hunters, or even malicious actors, to start uploading packages too now, and I have no control over what they do,&#8221; Birsan [said] in a statement. [He] believes these attacks are here to stay. … The possibility remains for such attacks to resurface and grow.<br />…<br />Companies should consider squatting their own private dependency names on public repos. … Also, the configuration of your development tools should be evaluated to ensure both private and public dependencies are not being inadvertently pulled from the public repository by default.</em></p></blockquote>
+<p><strong>And</strong> Dan Goodin adds—<i><a target="_blank" href="https://arstechnica.com/information-technology/2021/02/supply-chain-attack-that-fooled-apple-and-microsoft-is-attracting-copycats/" rel="nofollow ugc noopener" title="read the full text">New type of supply-chain attack</a>:</i></p>
+<blockquote><p><em>Last week, a researcher demonstrated a new supply-chain attack that executed counterfeit code on networks belonging to some of the biggest companies on the planet, Apple, Microsoft, and Tesla included. Now, fellow researchers are peppering the Internet with copycat packages.<br />…<br />[Birsan’s] attack starts by placing malicious code in an official public repository such as NPM, PyPI, or RubyGems. By giving the submissions the same package name as dependencies used by companies such as Apple, Microsoft, Tesla, [etc.], Birsan was able to get these companies to automatically download and install the counterfeit code … by giving the packages version numbers that were higher than the authentic ones.<br />…<br />In other words, the researcher was squatting on the authentic package name belonging to the companies. [He] ended up receiving $130,000 in bug bounties. … Both Shopify and Apple awarded Birsan $30,000 bounties each.</em></p></blockquote>
+<p><strong>This has been a slow train coming</strong> for Alex Birsan—<i><a target="_blank" href="https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610" rel="nofollow ugc noopener" title="read the full text">How I Hacked Into Apple</a>:</i></p>
+<blockquote><p><em>Ever since I started learning how to code, I have been fascinated by the level of trust we put in a simple command like … <strong>pip install package_name</strong><br />…<br />When downloading and using a package from any of these … public code repositories … you are essentially trusting its publisher to run code on your machine. So can this blind trust be exploited by malicious actors?</p>
+<p>Of course it can.</p>
+<p></em></p></blockquote>
+<p><strong>See that light?</strong> Is it the end of the tunnel, or an oncoming express train? Microsoft suggests <i><a target="_blank" href="https://aka.ms/pkg-sec-wp" rel="nofollow ugc noopener" title="read the full text">3 Ways to Mitigate Risk</a>:</i></p>
+<blockquote><p><em>Many organizations use public package feeds — such as Maven Central, npm, NuGet Gallery, and the Python Package Index (PyPI). [But some] organizations fail to treat these uncurated feeds as a potential source of malware.<br />…<br />Unexplained build or test failures should be treated as a potential warning of a package substitution attack. [But] even though the build failed, the attacker likely achieved remote code execution.<br />…<br />1. Reference one private feed, not multiple: … Configuring the package manager to use only a single source isolates you from unexpected public feed changes. [But] ensure your feed is configured to disallow … public packages to override private packages.<br />…<br />2. Protect your packages using … controlled scopes, namespaces, or prefixes: The details vary by ecosystem, but the purpose is to protect a range of package names.<br />…<br />3. Utilize client-side verification features: … These include options such as version pinning and integrity verification.</em></p></blockquote>
+<p><strong>Heed the work ethic of</strong> <a target="_blank" href="https://medium.com/@markusdresch/wow-thanks-for-sharing-this-gem-ef2bedd9dae1" rel="nofollow ugc noopener" title="read the full text">Markus Dresch</a>:</p>
+<blockquote><p><em>I just finished reviewing and fixing all pipelines. Took me several hours, but hey — this vulnerability is so scary simple it just waits to be exploited.</em></p></blockquote>
+<p><strong>But are we asking the right questions?</strong> Let <i><a target="_blank" href="https://news.ycombinator.com/item?id=26090204" rel="nofollow ugc noopener" title="read the full text">ryukafalz</a></i> ask you this:</p>
+<blockquote><p><em>Let me ask you this: Why do we consider it acceptable that code you install through a package manager implicitly gets to do anything to your system that you can do? That seems silly! Surely we can do better than that?<br />…<br />In many cases, the dependencies you install don&#8217;t need nearly as much authority as we give them right now. Maybe some of these packages need network access … but do they need unrestricted filesystem access?<br />…<br />They don&#8217;t necessarily even need unrestricted network access either. What they&#8217;re communicating with is likely pretty well-known.</em></p></blockquote>
+<p><strong>The problem is endemic.</strong> Or so says <i><a target="_blank" href="https://linux.slashdot.org/comments.pl?sid=18033396&amp;cid=60939058" rel="nofollow ugc noopener" title="read the full text">vanyel</a>:</i></p>
+<blockquote><p><em>Seems to me all too many things, particularly websites, fetch things from third parties on the fly, making them susceptible to compromise by things they have given up control over, whether it be security or gratuitous changes. Keeping the things you know work local will make things much more stable.</em></p></blockquote>
+<p><strong><em>oBvIoUsLy</em>, the answer is blockchain.</strong> Now, what was the question? <i><a target="_blank" href="https://news.ycombinator.com/item?id=26081713" rel="nofollow ugc noopener" title="read the full text">codevark</a>’s</i> suggestion didn’t go down well on HN:</p>
+<blockquote><p><em>If each new package name were checked against an immutable blockchain of existing names, and was only allowed if it did not already exist either privately or publicly, would that help mitigate this issue?</em></p></blockquote>
+<p><strong>But it’s turtles all the way down,</strong> screams <i><a target="_blank" href="https://arstechnica.com/information-technology/2021/02/supply-chain-attack-that-fooled-apple-and-microsoft-is-attracting-copycats/?comments=1&amp;post=39667516#comment-39667516" rel="nofollow ugc noopener" title="read the full text">HYS</a>:</i></p>
+<blockquote><p><em>I have been bitten by this bug when trying to install a relatively unknown program from PyPI that had a even more unknown dependency. There happened to be another obscure package with the same name as that dependency, and my installation attempt was always trying to install that wrong one.<br />…<br />In the context of security, this becomes a more serious problem. Signing the packages, or using some sort of provider ID would sort out the duplicates.</em></p></blockquote>
+<p><strong>This is something J2EE did right.</strong> (I guess there had to be <i>something</i>.) Here’s a surprised <a target="_blank" href="https://medium.com/@tomas.langer/i-was-expecting-that-exact-versions-should-be-used-coming-from-java-ecosystem-7942cae67f5c" rel="nofollow ugc noopener" title="read the full text">Tomas Langer</a>:</p>
+<blockquote><p><em>Coming from Java ecosystem … I was expecting that exact versions should be used. … Surprising how many modules depend on &#8220;latest&#8221; versions.</em></p></blockquote>
+<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://linux.slashdot.org/comments.pl?sid=18033396&amp;cid=60938826" rel="nofollow ugc noopener" title="read the full text">brunes69</a></i> suggests a nice idea:</p>
+<blockquote><p><em>Umm, have these folks never heard of a local NPM registry? There are literally a dozen different solutions to choose from here. Do they think commercial vendors download all their NPM dependencies from the internet every time they build?</em></p></blockquote>
+<h3>The moral of the story?</h3>
+<p>Make sure the code you’re importing really is <a target="_blank" href="https://techbeacon.com/security/check-your-dependencies-githubs-npm-finds-nasty-trojan-packages" title=" GitHub's npm finds nasty Trojan packages" rel="noopener">the code you <em>think</em> you’re importing</a>.</p>
+<h3>And finally</h3>
+<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=ILMbkp8Nc2U&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow" title="And Finally">Robert Downey Jr. vs. ST:TOS Gorn Cpt.</a></strong></p>
+<p><iframe title="Kirk Discombobulates Gorn" width="800" height="450" src="https://www.youtube.com/embed/ILMbkp8Nc2U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><i>Trigger warnings: Vasquez Rocks, fake rocks, Romulan ale</i></p>
+<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow">Previously in “And finally”</a></p>
+<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE. 30.</em></p>
+<p><em>This week’s zomgsauce: <a target="_blank" href="https://unsplash.com/photos/QSRXNv9kmus" rel="noopener nofollow">Daniele Levis Pelusi</a> (via <a target="_blank" href="https://unsplash.com/license" rel="noopener nofollow" title="Some rights reserved">Unsplash</a>)</em></p>
 <h4>Keep learning</h4>
 </div>
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
 <br /><br />
-<br /><a href="https://techbeacon.com/app-dev-testing/how-get-started-performance-engineering-what-why-how">Source link </a></p>
+<br /><a href="https://techbeacon.com/security/lesson-supply-chain-attacks-beware-dependency-confusion">Source link </a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Details Tied to Safari Browser-based ‘ScamClub’ Campaign Revealed</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/details-tied-to-safari-browser-based-scamclub-campaign-revealed/</link>
+		<title>What is chaos engineering — and how would you combine it within performance test&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/what-is-chaos-engineering-and-how-would-you-combine-it-within-performance-test/</link>
 		
 		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Wed, 17 Feb 2021 15:30:37 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Browserbased]]></category>
-		<category><![CDATA[Campaign]]></category>
-		<category><![CDATA[details]]></category>
-		<category><![CDATA[Revealed]]></category>
-		<category><![CDATA[Safari]]></category>
-		<category><![CDATA[ScamClub]]></category>
-		<category><![CDATA[Tied]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/details-tied-to-safari-browser-based-scamclub-campaign-revealed/</guid>
+		<pubDate>Thu, 18 Feb 2021 21:23:42 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[chaos]]></category>
+		<category><![CDATA[Combine]]></category>
+		<category><![CDATA[Engineering]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Test]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/what-is-chaos-engineering-and-how-would-you-combine-it-within-performance-test/</guid>
 
-					<description><![CDATA[Public disclosure of a privilege escalation attack details how a cybergang bypassed browser iframe sandboxing with malicious PostMessage popups. Source]]></description>
+					<description><![CDATA[What is chaos engineering — and how would you combine it within performance testing? Join co-hosts Gremlin-Neotys in their webinar]]></description>
+										<content:encoded><![CDATA[
+<p>What is chaos engineering — and how would you combine it within performance testing? Join co-hosts Gremlin-Neotys in their webinar on Thurs., March 11, at 9am (EST). Register here <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3jHYbpQ&amp;h=AT3c0QuaKad7znLEF4k_u_FWVM4LO9DupCSMUwKEQmFjmMpEEe1iILqv2C_3zBwZG2rEPwdn11Wo3JFA6lt6OnN6qf1aFulsUlASSMmCxTBEa4NP5yJPRXBXJleLNS4HztlkROJs7ExiS2duR-Nl8u83joBlde7pHbM7z7i9AKvrp7LWHsNsOtft_NHcnpyiaPJ1xsoxEkBKoqvKSb31MlT58pUNE01O_GhCGnalnIV36nMrGVA-4pqYv-LBZcPaNETJ6k_BCPnpPx0H77D12I07WTHATGPn_QX2SX1bSKC6OTl5cAQCGAivsn6gQt7nTPh6gOhAkm4A33LOOIKHwL1D2YMhAX1BebtRqCrxQ1g3Veoz-XLqoh7rXq7EQPfZOwLMbW0yOpkn9gyAxN4eBdfec2Rf7AssIwoP5eJuVrba8XOc8gEwzSRf21xRZvn8Tq60Yu972JMS0hltyC4qRyMEpXbytjRsTEW9eFNVjDDKCNS97nMWFT4zW7HscqJj37a2NdXs0Nen_jCvzP1lqoH7f0Mfu7WK7U-8bTQup3KnHHD4CfVsS6cwZ6-800pSobO6Yj2JUR-FkpQVeWaZy-kQk5AJqJbbMKo8W1WIsphqUUXMrmifZizRa2kJw_SsoLI6ZYkWGOIR6CbVBceI3rfbgVu8HTzI3_QrdQuWw8SVDQJgPjRgpyzDhnAUkAradf9InEwlDzEQKcMcSdu33tkuCqpAK9HTf4tyLHzfI98_1ogIG-inqla0E8YQ378gdrCdXLqeXhGPHarswXN4obA_Pr9x91aZvwBDdxdTkEY_7ImwMITrZ05G-elYQ_JBzx6FCK36xRSfsXtblEWoWGjl0HRkug6PvT5re5yWOJnWpmkSb-ZewQXbdtuhCgH_pZPUUbM-vumD1_2Emk4ERnkQS2gwtt3zP5Af5oOc0bKppjkc6eQFY8Fel4VuPr1YXsbSf-u3fqULcFIdK-ZgTCX7grH8OFP4ESgTCqcoR9-dgQirCrYpwCbaBZUGSdLod_6hQv-rgLoMLh-5A63o7Dooc7TTwV5X_V07FAuY-UoWpyXUV0mv0wRBbjiw3QORVUupDHwjzPyZOnhWHLlXxPb1v9RRCLWSvLt4cHBr6OO-T3sMysGTYGsC5tB1FZcHmflen4XSSrAVSd1XunrLncz9qPNNOx7Xoif0hhGTioyaYX4kD9C1nhvXMKySI5uzvgV83v2T2z259pbSD556ULaL-RTdZntzrFBiXagYkAvpKdgfKkK5kCX15fcz" rel="noopener">https://bit.ly/3jHYbpQ</a>  <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4117296414948457%3Atop_level_post_id.4117296414948457%3Atl_objid.4117296414948457%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4117296414948457%3Apage_id.163354693676002%3Aphoto_id.4117296344948464%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX--dWdxfxJYca_X%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613683422%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4117296414948457%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4117296414948457%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A6703659660597750054&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4117296414948457%3Atop_level_post_id.4117296414948457%3Atl_objid.4117296414948457%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4117296414948457%3Apage_id.163354693676002%3Aphoto_id.4117296344948464%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX--dWdxfxJYca_X%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613683422%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4117296414948457%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4117296414948457%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A6703659660597750054&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4117296414948457%3Atop_level_post_id.4117296414948457%3Atl_objid.4117296414948457%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4117296414948457%3Apage_id.163354693676002%3Aphoto_id.4117296344948464%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX--dWdxfxJYca_X%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613683422%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4117296414948457%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4117296414948457%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A6703659660597750054&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/152102105_4117296348281797_142593134927423562_n.png?_nc_cat=101&#038;ccb=3&#038;_nc_sid=8024bb&#038;_nc_ohc=IePAIBlGuhMAX_rF42T&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=e53ccdbfad974b08dd3b226cd458f481&#038;oe=605455C1" rel="noopener"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4117296414948457">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Apple Outlines 2021 Security, Privacy Roadmap</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-outlines-2021-security-privacy-roadmap/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 21:04:03 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Outlines]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Roadmap]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-outlines-2021-security-privacy-roadmap/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
 										<content:encoded><![CDATA[<p> <br />
-<br />Public disclosure of a privilege escalation attack details how a cybergang bypassed  browser iframe sandboxing with malicious PostMessage popups.<br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/apple-2021-platform-security-guide/164094/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Kia Motors Hit With $20M Ransomware Attack – Report</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/kia-motors-hit-with-20m-ransomware-attack-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 20:05:12 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[20M]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Hit]]></category>
+		<category><![CDATA[Kia]]></category>
+		<category><![CDATA[Motors]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Report]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/kia-motors-hit-with-20m-ransomware-attack-report/</guid>
+
+					<description><![CDATA[So far, Kia Motors America has publicly acknowledged an &#8220;extended system outage,&#8221; but ransomware gang DoppelPaymer claimed it has locked]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />So far, Kia Motors America has publicly acknowledged an &#8220;extended system outage,&#8221; but ransomware gang DoppelPaymer claimed it has locked down the company&#8217;s files in a cyberattack that includes a $20 million ransom demand. That $20 million will gain Kia a decryptor and a guarantee to not to publish sensitive data bits on the gang&#8217;s [&#8230;]<br />
 <br /><br />
-<br /><a href="https://threatpost.com/safari-browser-scamclub-campaign-revealed/164023/">Source link </a></p>
+<br /><a href="https://threatpost.com/kia-motors-ransomware-attack/164085/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Exploit Details Emerge for Unpatched Microsoft Bug</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/exploit-details-emerge-for-unpatched-microsoft-bug/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 17:59:13 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[details]]></category>
+		<category><![CDATA[Emerge]]></category>
+		<category><![CDATA[Exploit]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Unpatched]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/exploit-details-emerge-for-unpatched-microsoft-bug/</guid>
+
+					<description><![CDATA[A malicious website or malicious ad can trigger an exploit for the IE zero-day bug, opening the door for data]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A malicious website or malicious ad can trigger an exploit for the IE zero-day bug, opening the door for data theft and code execution, new analysis notes.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/exploit-details-unpatched-microsoft-bug/164083/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mac Malware Targets Apple’s In-House M1 Processor</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/mac-malware-targets-apples-in-house-m1-processor/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 16:34:57 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apples]]></category>
+		<category><![CDATA[inhouse]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Processor]]></category>
+		<category><![CDATA[Targets]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mac-malware-targets-apples-in-house-m1-processor/</guid>
+
+					<description><![CDATA[A malicious adware-distributing application specifically targets Apple&#8217;s new M1 SoC, used in its newest-generation MacBook Air, MacBook Pro and Mac]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />A malicious adware-distributing application specifically targets Apple&#8217;s new M1 SoC, used in its newest-generation MacBook Air, MacBook Pro and Mac mini devices.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/macos-malware-apple-m1-processor/164075/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SDK Bug Lets Attackers Spy on User’s Video Calls Across Dating, Healthcare Apps</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/sdk-bug-lets-attackers-spy-on-users-video-calls-across-dating-healthcare-apps/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 14:01:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Attackers]]></category>
+		<category><![CDATA[Bug]]></category>
+		<category><![CDATA[calls]]></category>
+		<category><![CDATA[Dating]]></category>
+		<category><![CDATA[Healthcare]]></category>
+		<category><![CDATA[Lets]]></category>
+		<category><![CDATA[SDK]]></category>
+		<category><![CDATA[Spy]]></category>
+		<category><![CDATA[Users]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/sdk-bug-lets-attackers-spy-on-users-video-calls-across-dating-healthcare-apps/</guid>
+
+					<description><![CDATA[Apps like eHarmony and MeetMe are affected by a flaw in the Agora toolkit that went unpatched for eight months,]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Apps like eHarmony and MeetMe are affected by a flaw in the Agora toolkit that went unpatched for eight months, researchers discovered.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/sdk-bug-spy-calls-dating-healthcare-apps/164068/">Source link </a></p>
 ]]></content:encoded>
 					
 		
