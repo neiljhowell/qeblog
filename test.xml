@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 19 Feb 2021 01:38:10 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Feb 2021 11:05:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,36 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Not every tool works well for the reality of today’s enterprise performance test&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/not-every-tool-works-well-for-the-reality-of-todays-enterprise-performance-test/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 11:05:56 +0000</pubDate>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[loadtesting]]></category>
+		<category><![CDATA[perfmatters]]></category>
+		<category><![CDATA[performancetesting]]></category>
+		<category><![CDATA[Reality]]></category>
+		<category><![CDATA[Test]]></category>
+		<category><![CDATA[todays]]></category>
+		<category><![CDATA[tool]]></category>
+		<category><![CDATA[Works]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/not-every-tool-works-well-for-the-reality-of-todays-enterprise-performance-test/</guid>
+
+					<description><![CDATA[Not every tool works well for the reality of today’s enterprise performance testing needs. What are the criteria for evaluating]]></description>
+										<content:encoded><![CDATA[
+<p>Not every tool works well for the reality of today’s enterprise performance testing needs. What are the criteria for evaluating whether your performance testing solution fits? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3rP9QWN&amp;h=AT39u_hCwz09q9rcHvph2f40i7hstYXRuixUYKRHvm3UUYsmBC1wegoKZCec6kV0ztSrswMB7XOJhXnrdGfqUfn5D44OiGTMShKYrSz6kdssp3SsXX9SSYpp7ISK6_BlpObEWalckS1qezBNFBcGcc2DxHX5C_w-2_A8OtSuHbeQeOA3BbthAcaRSfcAOtbk8BcRrJGn0fEkldCADtp3JR9DTRM7lwbgrLRMKIDDOuyPoCuqZS_mjDkjJdRD8Rqq1pjg8X3BxkAVNsvm_ZaY3Krb20EgJP0yO2bQ73XMRYt2mzn-LV8NaHpN-k9Wn2ez_yfQYdLkq9CikvXUPT0Dy4hZ7QwC9sJeG3YD20VAINYTFXywwH-GLsxnMnprC143rq74ZTeDePYSZ3x12AHkFi-zgnWw_0wy8MuypfTU5DrlpIl5s7YdDuEBGThbr9Ybpj2VujViTGJK-AvXUfgt1FIpkLYxW65OGP6I6M8c3Geh-x8RkL4Lo8RWlTMfesVpl3j-a_NxzDWtQTnO0ihhJH9E7jCvJECBvnN5u7PEhT_WZf5sdbA2x1v65ADYAKgx6TsvQ775h7QyB-mMAahG0BQF63d2yOjmZetl5FRcv_6jHaCuzlWIWlJ5Y1G2ZoVruhlHC-fIwTRNvGEytRKQ6MlVXQFO58KtsDPzmEzkQpawStPPOj1pjsIHZAqeCv206OhDeelyO6722CmNRCF6f0blP4769dHrf2NEh118RVWkS_54_or01CiixCNErBfZEEUYWbpyvpr9CrJ2PHcMdUYANQ1j5sjBXZ6iTmqqYmxl5X4upBDIxLFS9iCKvwgpW9Q2ZL5niUsRb3ycTL2frUxP5DtITNoY5-KzT28O8otoUqJ3gPFhbd29QiH_9v6ezHViEIUDR-2T1WUwTL1KpGyfulA8k6RoC2gSSZZ1HUky1cni6oR7OY7CTaivW9ZgCdt0v2hMGdNZZwC_gPuM5-_7vrI1LBcG3nhFc7euJpqrnVWuQ-AXklWA1V-LdCGubhHDUVBfDTQFYtaq-dv-erErm6Oz05E5Z7Ep1IqV40zJkTBagkmvZO6RrLm6Bs1XbrL1QLQHJysQoQN3P_A27dBFJm_MO66L4Uj-fBKG4QP7v0d0tCXJMrW1g6JbjkH1q9TSxrNIn3OXwVEAem4MEnUX67LtVHBnf3vw6qyhyjprZzeSNtCnMq9mi1SQ6hD3a1nCnvhzXP8niSAgi43w_U9io8utmI43zsNtwqaI-_Jel0qR4PcGbrZrTjVjfw" rel="noopener">https://bit.ly/3rP9QWN</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4118614091483356%3Atop_level_post_id.4118614091483356%3Atl_objid.4118614091483356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4118614091483356%3Apage_id.163354693676002%3Aphoto_id.4118613998150032%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_LcimM9aiKl_L4%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613732756%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4118614091483356%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4118614091483356%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-1223429316027719758&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4118614091483356%3Atop_level_post_id.4118614091483356%3Atl_objid.4118614091483356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4118614091483356%3Apage_id.163354693676002%3Aphoto_id.4118613998150032%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_LcimM9aiKl_L4%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613732756%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4118614091483356%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4118614091483356%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-1223429316027719758&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4118614091483356%3Atop_level_post_id.4118614091483356%3Atl_objid.4118614091483356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4118614091483356%3Apage_id.163354693676002%3Aphoto_id.4118613998150032%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_LcimM9aiKl_L4%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613732756%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4118614091483356%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4118614091483356%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-1223429316027719758&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
+</p>
+<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/152126995_4118614001483365_4242886482830333011_n.jpg?_nc_cat=100&#038;ccb=3&#038;_nc_sid=8024bb&#038;_nc_ohc=G7TzyaHzbg4AX9IN_kf&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=1cf2eef89851cece302222d2b26098ad&#038;oe=6056DBB1" rel="noopener"></a><br />
+<br />
+<br /><a href="https://www.facebook.com/163354693676002/posts/4118614091483356">Source</a>  </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Automate your Appium setup &#8211; Automated Visual Testing</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/automate-your-appium-setup-automated-visual-testing/</link>
 		
@@ -428,36 +458,6 @@ fbq('track', "PageView");</p>
 <br />A malicious adware-distributing application specifically targets Apple&#8217;s new M1 SoC, used in its newest-generation MacBook Air, MacBook Pro and Mac mini devices.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/macos-malware-apple-m1-processor/164075/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SDK Bug Lets Attackers Spy on User’s Video Calls Across Dating, Healthcare Apps</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/sdk-bug-lets-attackers-spy-on-users-video-calls-across-dating-healthcare-apps/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 14:01:54 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Attackers]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[calls]]></category>
-		<category><![CDATA[Dating]]></category>
-		<category><![CDATA[Healthcare]]></category>
-		<category><![CDATA[Lets]]></category>
-		<category><![CDATA[SDK]]></category>
-		<category><![CDATA[Spy]]></category>
-		<category><![CDATA[Users]]></category>
-		<category><![CDATA[video]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/sdk-bug-lets-attackers-spy-on-users-video-calls-across-dating-healthcare-apps/</guid>
-
-					<description><![CDATA[Apps like eHarmony and MeetMe are affected by a flaw in the Agora toolkit that went unpatched for eight months,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />Apps like eHarmony and MeetMe are affected by a flaw in the Agora toolkit that went unpatched for eight months, researchers discovered.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/sdk-bug-spy-calls-dating-healthcare-apps/164068/">Source link </a></p>
 ]]></content:encoded>
 					
 		
