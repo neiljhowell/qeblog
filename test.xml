@@ -12,7 +12,7 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 19 Feb 2021 11:05:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Feb 2021 21:06:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,224 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Malformed URL Prefix Phishing Attacks Spike 6,000%</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/malformed-url-prefix-phishing-attacks-spike-6000/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 21:06:32 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Malformed]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Prefix]]></category>
+		<category><![CDATA[Spike]]></category>
+		<category><![CDATA[url]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/malformed-url-prefix-phishing-attacks-spike-6000/</guid>
+
+					<description><![CDATA[Sneaky attackers are flipping backslashes in phishing email URLs to evade protections, researchers said. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />Sneaky attackers are flipping backslashes in phishing email URLs to evade protections, researchers said.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/malformed-url-prefix-phishing-attacks-spike-6000/164132/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mysterious Silver Sparrow Malware Found Nesting on 30K Macs</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/mysterious-silver-sparrow-malware-found-nesting-on-30k-macs/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 19:33:14 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[30K]]></category>
+		<category><![CDATA[Macs]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Mysterious]]></category>
+		<category><![CDATA[Nesting]]></category>
+		<category><![CDATA[Silver]]></category>
+		<category><![CDATA[Sparrow]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mysterious-silver-sparrow-malware-found-nesting-on-30k-macs/</guid>
+
+					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<div class="c-note c-note--dash u-hidden u-block@md">
+<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
+</div>
+</div>
+<p><br />
+<br /><a href="https://threatpost.com/silver-sparrow-malware-30k-macs/164121/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Credential-Stuffing Attack Targets Regional Internet Registry</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/credential-stuffing-attack-targets-regional-internet-registry/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 19:32:59 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attack]]></category>
+		<category><![CDATA[CredentialStuffing]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Regional]]></category>
+		<category><![CDATA[Registry]]></category>
+		<category><![CDATA[Targets]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/credential-stuffing-attack-targets-regional-internet-registry/</guid>
+
+					<description><![CDATA[RIPE NCC, the regional Internet registry for Europe, West Asia, and the former Soviet Union, said attackers attempted a credential-stuffing]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />RIPE NCC, the regional Internet registry for Europe, West Asia, and the former Soviet Union, said attackers attempted a credential-stuffing attack against its single-sign on service.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/credential-stuffing-attack-ripe-ncc/164109/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to make your cloud service cyber resilient</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-to-make-your-cloud-service-cyber-resilient/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 18:30:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Cyber]]></category>
+		<category><![CDATA[resilient]]></category>
+		<category><![CDATA[Service]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-to-make-your-cloud-service-cyber-resilient/</guid>
+
+					<description><![CDATA[If the pandemic has taught organizations anything, it&#8217;s the value of resiliency in the face of sudden adversity. That&#8217;s made]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p>If the pandemic has taught organizations anything, it&#8217;s <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">the value of resiliency in the face of sudden adversity</a>. That&#8217;s made migration to cloud operations more attractive than ever as a means of ensuring that critical functions are &#8220;always-on&#8221; and that customers are receiving great experiences anytime and anywhere, cost-effectively.</p>
+<p>While moving IT operations from a local data center to the cloud can enable business growth by protecting business assets and building customer trust, it&#8217;s important to understand that <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/bring-your-own-key-cloud?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">a cloud provider isn&#8217;t completely responsible for privacy, security, and compliance</a>. Final responsibility lies with your organization to securely configure, manage, and operate cloud services and protect cloud-based assets.</p>
+<p>To meet those responsibilities, organizations should adopt several practices focused on data and application security, identity management, and network monitoring. Here are the key ones.</p>
+<h2>Secure your data on cloud</h2>
+<p>Protecting data throughout its lifecycle—from creation to disposal—is vital. With petabytes of data streaming into enterprises and then to the cloud, lots of sensitive personal data requires protection. Managing and protecting sensitive data throughout its lifecycle is a vital parameter.</p>
+<p>Transparent and open <a target="_blank" href="https://techbeacon.com/security/what-weakening-encryption-would-mean-enterprise-data-security" rel="noopener">encryption</a> methods should be used to secure sensitive data wherever it resides.</p>
+<p>Protection should be simple and lightweight. That will reduce the potential impact on productivity and business operations of encrypting and decrypting the data, as well as maintaining its usefulness for performing cloud-based big data analytics and business processes.</p>
+<p>To ensure data security and privacy, transparent governance and compliance reporting should be done from a single pane of glass, comprehensively across different compliance regimes and across multi-cloud, hybrid cloud, and on premises.</p>
+<h4>Avoid cloud service lock-in</h4>
+<p>Data should be secured so it&#8217;s highly portable across multi-cloud environments.</p>
+<h4>Classify your data</h4>
+<p>There is a cost to protecting data in the cloud. By classifying your data assets, you can manage your levels of protection, making sure critical data receives the highest levels of protection and that controls are applied appropriately to data based on its characteristics.</p>
+<h2>Integrate security onto cloud application development</h2>
+<p>You should embed and integrate security controls in your development lifecycle.</p>
+<p>Unlike on-premises applications, software running in hybrid and multi-cloud environments contains multiple dependencies and requires integration objects. That can create security challenges if you try to bolt on security controls at the end of the development lifecycle.</p>
+<h4>Enable integrated security testing for open-source libraries and APIs</h4>
+<p>Third-party and open-source libraries have become an integral part of most applications these days. The security of many of these components is not always well known. When enabling integrated security testing to identify vulnerabilities in your apps, that testing should also inspect open-source libraries and APIs.</p>
+<h4>Remediate security problems in a timely and appropriate manner</h4>
+<p>Security assessments are useful only if their findings are acted on before they become irrelevant. That requires continuous monitoring, remediation, and developer education.</p>
+<h2>Enable contextual and risk-based adaptive access management</h2>
+<p>It is critical to adopt a zero-trust model.</p>
+<p>With the &#8220;data everywhere&#8221; environment that many organizations operate in—an environment expanded by the need to work at home during the pandemic—identity relationships have risen to a new level of importance. <a target="_blank" href="https://techbeacon.com/security/zero-trust-cloud-native-world-best-practices-emerge" rel="noopener">Zero-trust</a> identity management, with contextual risk, should be at the center of any adaptive authentication, access management, and governance system.</p>
+<p>By creating a context for users, devices, and applications based on factors such as behavior, location, and network presence, the risk to a system can be evaluated and privileges assigned at appropriate levels.</p>
+<h4>Centralize lifecycle management and governance of identities</h4>
+<p>Cloud environments can make managing roles and entitlements complex. Centralizing lifecycle management and governance of identities helps reduce identity fraud or risk of compliance oversight.</p>
+<h2>Detect, defend, and respond to incidents faster and more effectively</h2>
+<p>Continuous monitoring for exposures and breaches is critical.</p>
+<p>In the wake of the pandemic, data breaches skyrocketed. Based on the <a target="_blank" href="https:/pages.riskbasedsecurity.com/en/2020-q1-vulnerability-quickview-report" rel="noopener">latest data breach data</a> from RiskedBased Security, at least 8.4 billion records were exposed in more than 1,100 breaches in the first quarter of 2020. Detecting and responding to a potential data breach faster and quicker helps in reducing risk and damage.</p>
+<h4>Monitor logs across your operational environment</h4>
+<p>You can enhance the visibility of your assets and build a better picture of your threat landscape by collecting logs from across your operations area and monitoring them for security events in the cloud, on premises, and in vendor and customer environments.</p>
+<h4>Use analytics to triage alerts, hunt for threats, and perform real-time analysis of threats</h4>
+<p>External and internal intelligence can be used to build the awareness needed for faster response to threats. Alert quality can be improved by continuous analysis of false positives using contextual behavior.</p>
+<h4>Accelerate decision-making through risk-based insights</h4>
+<p>Risk-based insights can speed up decisions at the time of an incident by allowing you to understand the risk score of your enterprise at any moment in time.</p>
+<h4>Automate actions and responses</h4>
+<p>Repetitive actions should be automated. In addition, some incidents can be mitigated with a routine response that can be automated. Automation can improve the efficiency of operations and save time for security analysts. It can also help reduce the time to respond to incidents effectively.</p>
+<h2>Comprehensive cyber resiliency for a secure cloud</h2>
+<p>While migration to the cloud can benefit organizations by optimizing costs, improving efficiencies, and speeding up the time it takes to bring products to market, those benefits can be squandered unless measures are taken to build resiliency into your cloud presence.</p>
+<p>It is important to have comprehensive security controls in your cloud to build cyber resiliency and <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">help accelerate business transformation</a>. You must ensure that security controls are embedded in your cloud transformation journey to take full advantage of what the cloud has to offer.</p>
+<h4>Keep learning</h4>
+</div>
+<p><br />
+<br /><a href="https://techbeacon.com/security/how-make-your-cloud-service-cyber-resilient">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Itay Yelin shares his passion for Deep Learning &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/itay-yelin-shares-his-passion-for-deep-learning-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 17:46:27 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Deep]]></category>
+		<category><![CDATA[Itay]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[passion]]></category>
+		<category><![CDATA[shares]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<category><![CDATA[Yelin]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/itay-yelin-shares-his-passion-for-deep-learning-automated-visual-testing/</guid>
+
+					<description><![CDATA[Itay Yelin has been with Applitools for more than a year now. He’s an Algorithms Developer on our Computer Vision]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>Itay Yelin has been with Applitools for more than a year now. He’s an Algorithms Developer on our Computer Vision team, and an avid canyoneer! You can find him in his spare time exploring slot canyons in locations like Jordan and Utah. He’s also a dedicated volunteer at Hoshen, a non-profit LGBT organization promoting acceptance and driving change in Israeli education systems.</p>
+<p>At Applitools, Itay is working to push the boundaries of automatic understanding of web pages and applications and is on a mission to help engineering teams worldwide release visually perfect User Interfaces. We sat down with Itay to find out what brought him to choose a career in computer vision, and what an average day for him looks like.</p>
+<p>We also picked his brain on what he plans to tackle next.</p>
+<h3 id="h-itay-can-you-tell-us-about-your-current-work-at-applitools">Itay, can you tell us about your current work at Applitools?</h3>
+<p>I joined Applitools last August. Since then I have been researching how we can improve on paragraph algorithms and visual text parsing algorithms. The way that this relates to the Applitools product: our product tries to understand content from an AI perspective. To be able to detect visual bugs that are critical, we are teaching a machine not only to differentiate text from photos, but also recognize more sophisticated page elements like paragraphs or product descriptions for example, if its a commercial site. When we’re understanding the page structure we can detect the most critical bugs, if there are any, and alert the user.</p>
+<p>This is a highly complicated task to research, and I find it challenging because it was never done before: you find yourself oftentimes faced with an ambiguous situation from which you start translating product problems into actual algorithms.. It is fascinating work.</p>
+<h3 id="h-can-you-tell-us-about-your-background-how-did-you-get-started-in-computer-vision-and-algorithms-research">Can you tell us about your background? How did you get started in Computer Vision and Algorithms research?</h3>
+<p>I’ve done my Masters thesis at Tel Aviv University, as a collaborative work with Yale University. I was researching multi-modal sensor registration, and after I graduated, I spent a few years in the industry working for medical startups. Among other projects, I developed 3D segmentation of arteries and researched image tracking algorithms. It was there where I gained most of my knowledge of computer vision and image processing.</p>
+<h3 id="h-what-motivated-you-to-apply-to-applitools">What motivated you to apply to Applitools?</h3>
+<p>What Applitools develops is unique, I’ve never heard about a company trying to tackle the same challenge and it sparked my interest. The set of problems we encounter here are new, so I can say I was intrigued by the challenge, but at the same time excited about the people behind the company. After coming onsite for my interviews, I was looking forward to being part of this team: they seemed like a group of smart folks, that are fun to work with. Our group leader, Ram Nathaniel, is an incredible person, he’s great as a mentor, who truly sets a high bar for professionalism and I find this is the best way to improve my skills.</p>
+<h3 id="h-what-surprised-you-most-about-applitools">What surprised you most about Applitools?</h3>
+<p>I would say the willingness to be open to changes in architecture, given the restriction of the way the algorithm is built. What is unique about the way our team works is the special attention put into writing robust efficient clean code and strictly keeping a clean process, it reduces a lot of the stress that other algorithms teams experience sometimes. It allows me to work in a more relaxed and organized manner.</p>
+<h3 id="h-what-does-a-typical-day-look-like-for-you">What does a typical day look like for you?</h3>
+<p>Our mornings usually start with team sync over coffee or breakfast. Then we start prioritizing the day’s work, this is a startup and things are constantly changing. We need to keep close communication methodologies and discuss between us what we work on. I love the small breaks we take during the day, every time you’re grabbing a cup of coffee you’ll easily find someone friendly to talk to and this is a great opportunity to interact with folks outside our team. There are team members here with intriguing hobbies and areas of interest that I very much enjoy connecting with and learning more about. The levels of discussions we find ourselves diving into are intriguing. This is especially great as people here come together from very different types of backgrounds (some come from religious backgrounds, some relocated from other countries, etc). Across the board, it feels like everyone is genuinely friendly, open, and very passionate about teamwork.</p>
+<h3 id="h-what-can-we-find-you-doing-outside-of-work">What can we find you doing outside of work?</h3>
+<p>I like to spend my free time climbing or volunteering. Over the weekends, I sometimes organize hikes for my LGBT outdoor group or indulge my passion for canyoneering in the Israeli desert.</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/itay-yelin-shares-his-passion-for-deep-learning/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Microsoft: SolarWinds Attackers Downloaded Azure, Exchange Code</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/microsoft-solarwinds-attackers-downloaded-azure-exchange-code/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 14:11:33 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Attackers]]></category>
+		<category><![CDATA[AZURE]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Downloaded]]></category>
+		<category><![CDATA[Exchange]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[SolarWinds]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/microsoft-solarwinds-attackers-downloaded-azure-exchange-code/</guid>
+
+					<description><![CDATA[However, internal products and systems were not leveraged to attack others during the massive supply-chain incident, the tech giant said]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />However, internal products and systems were not leveraged to attack others during the massive supply-chain incident, the tech giant said upon completion of its Solorigate investigation.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/microsoft-solarwinds-azure-exchange-code/164104/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Not every tool works well for the reality of today’s enterprise performance test&#8230;</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/not-every-tool-works-well-for-the-reality-of-todays-enterprise-performance-test/</link>
 		
@@ -258,206 +476,6 @@ fbq('track', "PageView");</p>
 <br />The Department of Justice (DoJ) cracked down on a Ghana-based cybercriminal enterprise behind a slew of romance scams, COVID-19 fraud attacks and business email compromise schemes since 2013.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/164086/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Lesson from supply chain attacks: Beware &#8216;dependency confusion&#8217;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/lesson-from-supply-chain-attacks-beware-dependency-confusion/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 21:30:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attacks]]></category>
-		<category><![CDATA[Beware]]></category>
-		<category><![CDATA[Chain]]></category>
-		<category><![CDATA[confusion]]></category>
-		<category><![CDATA[dependency]]></category>
-		<category><![CDATA[Lesson]]></category>
-		<category><![CDATA[Supply]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/?p=10484</guid>
-
-					<description><![CDATA[After Alex Birsan’s $130,000 bug-bounty haul last week, hundreds of bogus npm packages have popped up out of nowhere. They]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p><strong>After Alex Birsan’s $130,000 bug-bounty haul last week,</strong> hundreds of bogus npm packages have popped up out of nowhere. They appear to have been published by copycat researchers—some of whom have less-than-pure intentions.</p>
-<p><strong>Yes, it’s our old friend, <a target="_blank" href="https://techbeacon.com/security/check-your-dependencies-githubs-npm-finds-nasty-trojan-packages" title=" GitHub's npm finds nasty Trojan packages" rel="noopener">dependency confusion</a>,</strong> but this time with a twist. Birsan discovered a bunch of private module names and created aliases on public repositories, with higher version numbers.</p>
-<p><strong>And, of course,</strong> that means he was running his code on other people’s networks. In this week’s <i><a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener">Security Blogwatch</a></i>, we get lost.</p>
-<p><a target="_blank" href="http://richi.uk/" rel="noopener nofollow" title="Richi Jennings">Your humble blogwatcher</a> curated these bloggy bits for your entertainment. Not to mention: <em>Discombobulate.</em></p>
-<h3>‘Now Publish Malware’ redux</h3>
-<p><strong>What’s the craic?</strong> Careful with that Ax Sharma—<i><a target="_blank" href="https://www.bleepingcomputer.com/news/security/copycats-imitate-novel-supply-chain-attack-that-hit-tech-giants/" rel="nofollow ugc noopener" title="read the full text">Copycats imitate novel supply chain attack</a>:</i></p>
-<blockquote><p><em>This week, over 275 new packages have been published to the npm open-source repository named after private components being internally used by major companies. [The] packages are identical to the proof-of-concept packages created by Alex Birsan [who] recently managed to infiltrate over 35 major tech firms and walk away with over six-figures in bug bounty.<br />…<br />Birsan had taken advantage of an inherent design flaw of open-source development tools called &#8220;dependency confusion&#8221; or &#8220;namespace confusion&#8221; to squat names of private dependencies used by major companies on public open-source repos including npm, PyPI, and RubyGems. [He] hit over 35 tech firms, [including] Microsoft, Apple, PayPal, Tesla, Uber, Yelp, Shopify.<br />…<br />&#8220;It is … only natural to expect other bug hunters, or even malicious actors, to start uploading packages too now, and I have no control over what they do,&#8221; Birsan [said] in a statement. [He] believes these attacks are here to stay. … The possibility remains for such attacks to resurface and grow.<br />…<br />Companies should consider squatting their own private dependency names on public repos. … Also, the configuration of your development tools should be evaluated to ensure both private and public dependencies are not being inadvertently pulled from the public repository by default.</em></p></blockquote>
-<p><strong>And</strong> Dan Goodin adds—<i><a target="_blank" href="https://arstechnica.com/information-technology/2021/02/supply-chain-attack-that-fooled-apple-and-microsoft-is-attracting-copycats/" rel="nofollow ugc noopener" title="read the full text">New type of supply-chain attack</a>:</i></p>
-<blockquote><p><em>Last week, a researcher demonstrated a new supply-chain attack that executed counterfeit code on networks belonging to some of the biggest companies on the planet, Apple, Microsoft, and Tesla included. Now, fellow researchers are peppering the Internet with copycat packages.<br />…<br />[Birsan’s] attack starts by placing malicious code in an official public repository such as NPM, PyPI, or RubyGems. By giving the submissions the same package name as dependencies used by companies such as Apple, Microsoft, Tesla, [etc.], Birsan was able to get these companies to automatically download and install the counterfeit code … by giving the packages version numbers that were higher than the authentic ones.<br />…<br />In other words, the researcher was squatting on the authentic package name belonging to the companies. [He] ended up receiving $130,000 in bug bounties. … Both Shopify and Apple awarded Birsan $30,000 bounties each.</em></p></blockquote>
-<p><strong>This has been a slow train coming</strong> for Alex Birsan—<i><a target="_blank" href="https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610" rel="nofollow ugc noopener" title="read the full text">How I Hacked Into Apple</a>:</i></p>
-<blockquote><p><em>Ever since I started learning how to code, I have been fascinated by the level of trust we put in a simple command like … <strong>pip install package_name</strong><br />…<br />When downloading and using a package from any of these … public code repositories … you are essentially trusting its publisher to run code on your machine. So can this blind trust be exploited by malicious actors?</p>
-<p>Of course it can.</p>
-<p></em></p></blockquote>
-<p><strong>See that light?</strong> Is it the end of the tunnel, or an oncoming express train? Microsoft suggests <i><a target="_blank" href="https://aka.ms/pkg-sec-wp" rel="nofollow ugc noopener" title="read the full text">3 Ways to Mitigate Risk</a>:</i></p>
-<blockquote><p><em>Many organizations use public package feeds — such as Maven Central, npm, NuGet Gallery, and the Python Package Index (PyPI). [But some] organizations fail to treat these uncurated feeds as a potential source of malware.<br />…<br />Unexplained build or test failures should be treated as a potential warning of a package substitution attack. [But] even though the build failed, the attacker likely achieved remote code execution.<br />…<br />1. Reference one private feed, not multiple: … Configuring the package manager to use only a single source isolates you from unexpected public feed changes. [But] ensure your feed is configured to disallow … public packages to override private packages.<br />…<br />2. Protect your packages using … controlled scopes, namespaces, or prefixes: The details vary by ecosystem, but the purpose is to protect a range of package names.<br />…<br />3. Utilize client-side verification features: … These include options such as version pinning and integrity verification.</em></p></blockquote>
-<p><strong>Heed the work ethic of</strong> <a target="_blank" href="https://medium.com/@markusdresch/wow-thanks-for-sharing-this-gem-ef2bedd9dae1" rel="nofollow ugc noopener" title="read the full text">Markus Dresch</a>:</p>
-<blockquote><p><em>I just finished reviewing and fixing all pipelines. Took me several hours, but hey — this vulnerability is so scary simple it just waits to be exploited.</em></p></blockquote>
-<p><strong>But are we asking the right questions?</strong> Let <i><a target="_blank" href="https://news.ycombinator.com/item?id=26090204" rel="nofollow ugc noopener" title="read the full text">ryukafalz</a></i> ask you this:</p>
-<blockquote><p><em>Let me ask you this: Why do we consider it acceptable that code you install through a package manager implicitly gets to do anything to your system that you can do? That seems silly! Surely we can do better than that?<br />…<br />In many cases, the dependencies you install don&#8217;t need nearly as much authority as we give them right now. Maybe some of these packages need network access … but do they need unrestricted filesystem access?<br />…<br />They don&#8217;t necessarily even need unrestricted network access either. What they&#8217;re communicating with is likely pretty well-known.</em></p></blockquote>
-<p><strong>The problem is endemic.</strong> Or so says <i><a target="_blank" href="https://linux.slashdot.org/comments.pl?sid=18033396&amp;cid=60939058" rel="nofollow ugc noopener" title="read the full text">vanyel</a>:</i></p>
-<blockquote><p><em>Seems to me all too many things, particularly websites, fetch things from third parties on the fly, making them susceptible to compromise by things they have given up control over, whether it be security or gratuitous changes. Keeping the things you know work local will make things much more stable.</em></p></blockquote>
-<p><strong><em>oBvIoUsLy</em>, the answer is blockchain.</strong> Now, what was the question? <i><a target="_blank" href="https://news.ycombinator.com/item?id=26081713" rel="nofollow ugc noopener" title="read the full text">codevark</a>’s</i> suggestion didn’t go down well on HN:</p>
-<blockquote><p><em>If each new package name were checked against an immutable blockchain of existing names, and was only allowed if it did not already exist either privately or publicly, would that help mitigate this issue?</em></p></blockquote>
-<p><strong>But it’s turtles all the way down,</strong> screams <i><a target="_blank" href="https://arstechnica.com/information-technology/2021/02/supply-chain-attack-that-fooled-apple-and-microsoft-is-attracting-copycats/?comments=1&amp;post=39667516#comment-39667516" rel="nofollow ugc noopener" title="read the full text">HYS</a>:</i></p>
-<blockquote><p><em>I have been bitten by this bug when trying to install a relatively unknown program from PyPI that had a even more unknown dependency. There happened to be another obscure package with the same name as that dependency, and my installation attempt was always trying to install that wrong one.<br />…<br />In the context of security, this becomes a more serious problem. Signing the packages, or using some sort of provider ID would sort out the duplicates.</em></p></blockquote>
-<p><strong>This is something J2EE did right.</strong> (I guess there had to be <i>something</i>.) Here’s a surprised <a target="_blank" href="https://medium.com/@tomas.langer/i-was-expecting-that-exact-versions-should-be-used-coming-from-java-ecosystem-7942cae67f5c" rel="nofollow ugc noopener" title="read the full text">Tomas Langer</a>:</p>
-<blockquote><p><em>Coming from Java ecosystem … I was expecting that exact versions should be used. … Surprising how many modules depend on &#8220;latest&#8221; versions.</em></p></blockquote>
-<p><strong>Meanwhile,</strong> <i><a target="_blank" href="https://linux.slashdot.org/comments.pl?sid=18033396&amp;cid=60938826" rel="nofollow ugc noopener" title="read the full text">brunes69</a></i> suggests a nice idea:</p>
-<blockquote><p><em>Umm, have these folks never heard of a local NPM registry? There are literally a dozen different solutions to choose from here. Do they think commercial vendors download all their NPM dependencies from the internet every time they build?</em></p></blockquote>
-<h3>The moral of the story?</h3>
-<p>Make sure the code you’re importing really is <a target="_blank" href="https://techbeacon.com/security/check-your-dependencies-githubs-npm-finds-nasty-trojan-packages" title=" GitHub's npm finds nasty Trojan packages" rel="noopener">the code you <em>think</em> you’re importing</a>.</p>
-<h3>And finally</h3>
-<p><strong><a target="_blank" href="https://www.youtube.com/watch?v=ILMbkp8Nc2U&amp;list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow" title="And Finally">Robert Downey Jr. vs. ST:TOS Gorn Cpt.</a></strong></p>
-<p><iframe title="Kirk Discombobulates Gorn" width="800" height="450" src="https://www.youtube.com/embed/ILMbkp8Nc2U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p><i>Trigger warnings: Vasquez Rocks, fake rocks, Romulan ale</i></p>
-<p><a target="_blank" href="https://www.youtube.com/playlist?list=PL9zSC5i495YMjIuJjxToNGU8Ve7Gd5Rvj" rel="noopener nofollow">Previously in “And finally”</a></p>
-<p><em>You have been reading <a target="_blank" href="https://techbeacon.com/contributors/richi-jennings" rel="noopener"><i>Security Blogwatch</i></a> by <a target="_blank" href="http://richi.uk" rel="noopener nofollow">Richi Jennings</a>. Richi curates the best bloggy bits, finest forums, and weirdest websites … so you don’t have to. Hate mail may be directed to <a target="_blank" href="https://twitter.com/richi" rel="noopener nofollow">@RiCHi</a> or <a target="_blank" href="https://techbeacon.com/mailto:sbw@richi.co.uk?subject=-sbw-" rel="noopener">sbw@richi.uk</a>. Ask your doctor before reading. Your mileage may vary. E&amp;OE. 30.</em></p>
-<p><em>This week’s zomgsauce: <a target="_blank" href="https://unsplash.com/photos/QSRXNv9kmus" rel="noopener nofollow">Daniele Levis Pelusi</a> (via <a target="_blank" href="https://unsplash.com/license" rel="noopener nofollow" title="Some rights reserved">Unsplash</a>)</em></p>
-<h4>Keep learning</h4>
-</div>
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br /><br />
-<br /><a href="https://techbeacon.com/security/lesson-supply-chain-attacks-beware-dependency-confusion">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What is chaos engineering — and how would you combine it within performance test&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/what-is-chaos-engineering-and-how-would-you-combine-it-within-performance-test/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 21:23:42 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[chaos]]></category>
-		<category><![CDATA[Combine]]></category>
-		<category><![CDATA[Engineering]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Test]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/what-is-chaos-engineering-and-how-would-you-combine-it-within-performance-test/</guid>
-
-					<description><![CDATA[What is chaos engineering — and how would you combine it within performance testing? Join co-hosts Gremlin-Neotys in their webinar]]></description>
-										<content:encoded><![CDATA[
-<p>What is chaos engineering — and how would you combine it within performance testing? Join co-hosts Gremlin-Neotys in their webinar on Thurs., March 11, at 9am (EST). Register here <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3jHYbpQ&amp;h=AT3c0QuaKad7znLEF4k_u_FWVM4LO9DupCSMUwKEQmFjmMpEEe1iILqv2C_3zBwZG2rEPwdn11Wo3JFA6lt6OnN6qf1aFulsUlASSMmCxTBEa4NP5yJPRXBXJleLNS4HztlkROJs7ExiS2duR-Nl8u83joBlde7pHbM7z7i9AKvrp7LWHsNsOtft_NHcnpyiaPJ1xsoxEkBKoqvKSb31MlT58pUNE01O_GhCGnalnIV36nMrGVA-4pqYv-LBZcPaNETJ6k_BCPnpPx0H77D12I07WTHATGPn_QX2SX1bSKC6OTl5cAQCGAivsn6gQt7nTPh6gOhAkm4A33LOOIKHwL1D2YMhAX1BebtRqCrxQ1g3Veoz-XLqoh7rXq7EQPfZOwLMbW0yOpkn9gyAxN4eBdfec2Rf7AssIwoP5eJuVrba8XOc8gEwzSRf21xRZvn8Tq60Yu972JMS0hltyC4qRyMEpXbytjRsTEW9eFNVjDDKCNS97nMWFT4zW7HscqJj37a2NdXs0Nen_jCvzP1lqoH7f0Mfu7WK7U-8bTQup3KnHHD4CfVsS6cwZ6-800pSobO6Yj2JUR-FkpQVeWaZy-kQk5AJqJbbMKo8W1WIsphqUUXMrmifZizRa2kJw_SsoLI6ZYkWGOIR6CbVBceI3rfbgVu8HTzI3_QrdQuWw8SVDQJgPjRgpyzDhnAUkAradf9InEwlDzEQKcMcSdu33tkuCqpAK9HTf4tyLHzfI98_1ogIG-inqla0E8YQ378gdrCdXLqeXhGPHarswXN4obA_Pr9x91aZvwBDdxdTkEY_7ImwMITrZ05G-elYQ_JBzx6FCK36xRSfsXtblEWoWGjl0HRkug6PvT5re5yWOJnWpmkSb-ZewQXbdtuhCgH_pZPUUbM-vumD1_2Emk4ERnkQS2gwtt3zP5Af5oOc0bKppjkc6eQFY8Fel4VuPr1YXsbSf-u3fqULcFIdK-ZgTCX7grH8OFP4ESgTCqcoR9-dgQirCrYpwCbaBZUGSdLod_6hQv-rgLoMLh-5A63o7Dooc7TTwV5X_V07FAuY-UoWpyXUV0mv0wRBbjiw3QORVUupDHwjzPyZOnhWHLlXxPb1v9RRCLWSvLt4cHBr6OO-T3sMysGTYGsC5tB1FZcHmflen4XSSrAVSd1XunrLncz9qPNNOx7Xoif0hhGTioyaYX4kD9C1nhvXMKySI5uzvgV83v2T2z259pbSD556ULaL-RTdZntzrFBiXagYkAvpKdgfKkK5kCX15fcz" rel="noopener">https://bit.ly/3jHYbpQ</a>  <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4117296414948457%3Atop_level_post_id.4117296414948457%3Atl_objid.4117296414948457%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4117296414948457%3Apage_id.163354693676002%3Aphoto_id.4117296344948464%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX--dWdxfxJYca_X%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613683422%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4117296414948457%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4117296414948457%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A6703659660597750054&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4117296414948457%3Atop_level_post_id.4117296414948457%3Atl_objid.4117296414948457%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4117296414948457%3Apage_id.163354693676002%3Aphoto_id.4117296344948464%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX--dWdxfxJYca_X%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613683422%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4117296414948457%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4117296414948457%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A6703659660597750054&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4117296414948457%3Atop_level_post_id.4117296414948457%3Atl_objid.4117296414948457%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4117296414948457%3Apage_id.163354693676002%3Aphoto_id.4117296344948464%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX--dWdxfxJYca_X%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613683422%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4117296414948457%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4117296414948457%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A6703659660597750054&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/152102105_4117296348281797_142593134927423562_n.png?_nc_cat=101&#038;ccb=3&#038;_nc_sid=8024bb&#038;_nc_ohc=IePAIBlGuhMAX_rF42T&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=e53ccdbfad974b08dd3b226cd458f481&#038;oe=605455C1" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4117296414948457">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Apple Outlines 2021 Security, Privacy Roadmap</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/apple-outlines-2021-security-privacy-roadmap/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 21:04:03 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Outlines]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Roadmap]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/apple-outlines-2021-security-privacy-roadmap/</guid>
-
-					<description><![CDATA[The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="c-note c-note--dash u-hidden u-block@md">
-<p>The administrator of your personal data will be Threatpost, Inc., 500 Unicorn Park, Woburn, MA 01801. Detailed information on the processing of personal data can be found in the <a target="_blank" href="https://threatpost.com/web-privacy-policy/" rel="noopener">privacy policy</a>. In addition, you will find them in the message confirming the subscription to the newsletter.</p>
-</div>
-</div>
-<p><br />
-<br /><a href="https://threatpost.com/apple-2021-platform-security-guide/164094/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Kia Motors Hit With $20M Ransomware Attack – Report</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/kia-motors-hit-with-20m-ransomware-attack-report/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 20:05:12 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[20M]]></category>
-		<category><![CDATA[Attack]]></category>
-		<category><![CDATA[Hit]]></category>
-		<category><![CDATA[Kia]]></category>
-		<category><![CDATA[Motors]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[Report]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/kia-motors-hit-with-20m-ransomware-attack-report/</guid>
-
-					<description><![CDATA[So far, Kia Motors America has publicly acknowledged an &#8220;extended system outage,&#8221; but ransomware gang DoppelPaymer claimed it has locked]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />So far, Kia Motors America has publicly acknowledged an &#8220;extended system outage,&#8221; but ransomware gang DoppelPaymer claimed it has locked down the company&#8217;s files in a cyberattack that includes a $20 million ransom demand. That $20 million will gain Kia a decryptor and a guarantee to not to publish sensitive data bits on the gang&#8217;s [&#8230;]<br />
-<br /><br />
-<br /><a href="https://threatpost.com/kia-motors-ransomware-attack/164085/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Exploit Details Emerge for Unpatched Microsoft Bug</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/exploit-details-emerge-for-unpatched-microsoft-bug/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 17:59:13 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bug]]></category>
-		<category><![CDATA[details]]></category>
-		<category><![CDATA[Emerge]]></category>
-		<category><![CDATA[Exploit]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[Unpatched]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/exploit-details-emerge-for-unpatched-microsoft-bug/</guid>
-
-					<description><![CDATA[A malicious website or malicious ad can trigger an exploit for the IE zero-day bug, opening the door for data]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A malicious website or malicious ad can trigger an exploit for the IE zero-day bug, opening the door for data theft and code execution, new analysis notes.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/exploit-details-unpatched-microsoft-bug/164083/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Mac Malware Targets Apple’s In-House M1 Processor</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/mac-malware-targets-apples-in-house-m1-processor/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 16:34:57 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Apples]]></category>
-		<category><![CDATA[inhouse]]></category>
-		<category><![CDATA[Mac]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Processor]]></category>
-		<category><![CDATA[Targets]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/mac-malware-targets-apples-in-house-m1-processor/</guid>
-
-					<description><![CDATA[A malicious adware-distributing application specifically targets Apple&#8217;s new M1 SoC, used in its newest-generation MacBook Air, MacBook Pro and Mac]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />A malicious adware-distributing application specifically targets Apple&#8217;s new M1 SoC, used in its newest-generation MacBook Air, MacBook Pro and Mac mini devices.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/macos-malware-apple-m1-processor/164075/">Source link </a></p>
 ]]></content:encoded>
 					
 		
