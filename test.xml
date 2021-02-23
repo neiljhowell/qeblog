@@ -12,13 +12,13 @@
 	<atom:link href="http://wp.qe-blog.10.50.222.159.xip.io/feed/" rel="self" type="application/rss+xml" />
 	<link>http://wp.qe-blog.10.50.222.159.xip.io</link>
 	<description>Where we share news, resources, and latest trends in testing</description>
-	<lastBuildDate>Fri, 19 Feb 2021 21:06:32 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 22 Feb 2021 22:02:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.1</generator>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
 
 <image>
 	<url>http://wp.qe-blog.10.50.222.159.xip.io/wp-content/uploads/2020/03/cropped-Robot-icon-32x32.jpg</url>
@@ -28,6 +28,252 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>TDoS Attacks Take Aim at Emergency First-Responder Services</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/tdos-attacks-take-aim-at-emergency-first-responder-services/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 22:02:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Aim]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Emergency]]></category>
+		<category><![CDATA[FirstResponder]]></category>
+		<category><![CDATA[Services]]></category>
+		<category><![CDATA[TDoS]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/tdos-attacks-take-aim-at-emergency-first-responder-services/</guid>
+
+					<description><![CDATA[The FBI has warned that telephony denial-of-service attacks are taking aim at emergency dispatch centers, which could make it impossible]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The FBI has warned that telephony denial-of-service attacks are taking aim at emergency dispatch centers, which could make it impossible to call for police, fire or ambulance services.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/tdos-attacks-emergency-first-responder/164176/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Chinese Hackers Hijacked NSA-Linked Hacking Tool: Report</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/chinese-hackers-hijacked-nsa-linked-hacking-tool-report/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 21:07:03 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chinese]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Hijacked]]></category>
+		<category><![CDATA[NSALinked]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[tool]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/chinese-hackers-hijacked-nsa-linked-hacking-tool-report/</guid>
+
+					<description><![CDATA[APT31, a Chinese-affiliated threat group, copied a Microsoft Windows exploit previously used by the Equation Group, said researchers. Source link]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />APT31, a Chinese-affiliated threat group, copied a Microsoft Windows exploit previously used by the Equation Group, said researchers.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/chinese-hackers-hijacked-nsa-hacking-tool/164155/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Assume ClubHouse Conversations Are Being Recorded, Researchers Warn</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/assume-clubhouse-conversations-are-being-recorded-researchers-warn/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 19:40:50 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Assume]]></category>
+		<category><![CDATA[Clubhouse]]></category>
+		<category><![CDATA[Conversations]]></category>
+		<category><![CDATA[Recorded]]></category>
+		<category><![CDATA[Researchers]]></category>
+		<category><![CDATA[Warn]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/assume-clubhouse-conversations-are-being-recorded-researchers-warn/</guid>
+
+					<description><![CDATA[At nearly a year old, the invitation-only, audio-based social-media platform ClubHouse is grappling with security issues on multiple fronts, but]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />At nearly a year old, the invitation-only, audio-based social-media platform ClubHouse is grappling with security issues on multiple fronts, but the consensus among researchers is coming into focus: Assume your ClubHouse conversations are being recorded. The company confirmed to Bloomberg that over the weekend a user was able to breach &#8220;multiple&#8221; ClubHouse room audio feeds [&#8230;]<br />
+<br /><br />
+<br /><a href="https://threatpost.com/clubhouse-conversations-recorded/164158/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Accellion FTA Zero-Day Attacks Show Ties to Clop Ransomware, FIN11</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/accellion-fta-zero-day-attacks-show-ties-to-clop-ransomware-fin11/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 17:51:20 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Accellion]]></category>
+		<category><![CDATA[Attacks]]></category>
+		<category><![CDATA[Clop]]></category>
+		<category><![CDATA[FIN11]]></category>
+		<category><![CDATA[FTA]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Show]]></category>
+		<category><![CDATA[Ties]]></category>
+		<category><![CDATA[ZeroDay]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/accellion-fta-zero-day-attacks-show-ties-to-clop-ransomware-fin11/</guid>
+
+					<description><![CDATA[The threat actors stole data and used Clop&#8217;s leaks site to demand money in an extortion scheme, though no ransomware]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br />The threat actors stole data and used Clop&#8217;s leaks site to demand money in an extortion scheme, though no ransomware was deployed.<br />
+<br /><br />
+<br /><a href="https://threatpost.com/accellion-zero-day-attacks-clop-ransomware-fin11/164150/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>INSPIRE 20 Podcast: Rod Flavell, FDM Group</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/inspire-20-podcast-rod-flavell-fdm-group/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[FDM]]></category>
+		<category><![CDATA[Flavell]]></category>
+		<category><![CDATA[Group]]></category>
+		<category><![CDATA[Inspire]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Rod]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/inspire-20-podcast-rod-flavell-fdm-group/</guid>
+
+					<description><![CDATA[Rod Flavell, founder and CEO of the London-based FDM Group, believes that diversity is the key to innovation, with new ideas]]></description>
+										<content:encoded><![CDATA[<p> <br />
+<br /></p>
+<div>
+<p><a target="_blank" href="https://twitter.com/rodflavell" rel="nofollow noopener">Rod Flavell</a>, founder and CEO of the London-based FDM Group, believes that diversity is the key to innovation, with new ideas and perspectives driving success.</p>
+<p>FDM, a leader in the recruitment, training, and deployment industry, launches thousands of technology and business careers every year across the globe. Part of the company&#8217;s philosophy is a commitment to all forms of diversity, including an Ex-Forces program designed for veterans from all ranks and services, a Women in Tech initiative, and a Returners program for experienced technologists who have had a break in their careers.</p>
+<h3>The INSPIRE 20 podcast series</h3>
+<p>Flavell, who has more than 35 years of experience in the tech sector, is one of the executives taking part in INSPIRE 20, a new podcast series that is showcasing 20 executives from around the world who are making a difference in terms of inclusion and diversity in their organizations, communities, and/or industries.</p>
+<p><em>Listen to the podcast with Rod Flavell on <a target="_blank" href="https://podcasts.apple.com/gb/podcast/inspire-20/id1510305176#episodeGuid=tag%3Asoundcloud%2C2010%3Atracks%2F968763046" rel="nofollow noopener">Apple Podcasts</a>, <a target="_blank" href="https://soundcloud.com/user-699370465/micro-focus-inspire-20-rod-flavell" rel="nofollow noopener">SoundCloud</a>, or <a target="_blank" href="https://open.spotify.com/episode/0kd56l34VKY1R35EMOPiCJ?si=_i5-xLdwRey_eaKqjgWshA" rel="nofollow noopener">Spotify</a>. Plus: Listen to<a target="_blank" href="https://content.microfocus.com/l/inspire-20-podcast-series-tb" rel="noopener"> all of the INSPIRE 20 podcasts here</a>.</em></p>
+<p><iframe allow="autoplay" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/968763046&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no"></iframe></p>
+<h3>Working to make a difference</h3>
+<p>FDM has won bronze, silver, and gold awards for successful deployment of its Ex-Forces program, Flavell said in the podcast. In the UK alone, &#8220;we&#8217;ve trained 700 military Scrum masters,&#8221; Flavell said. &#8220;There isn&#8217;t a single one of the UK 200 blue chip client base of FDM that hasn&#8217;t used at least one of those Scrum masters.&#8221; In fact, one of FDM&#8217;s military Scrum masters is part of the National Health Service&#8217;s COVID response team.</p>
+<p>In 2019, Flavell was featured in <em>Management Today</em>&#8216;s<em> </em><a target="_blank" href="https://www.managementtoday.co.uk/agents-change-power-list-2019/women-in-business/article/1584330" rel="nofollow noopener">Agents of Change Power List</a> for the second consecutive year and in Yahoo&#8217;s <a target="_blank" href="https://finance.yahoo.com/news/heroes-top-40-advocate-executives-230130683.html" rel="nofollow noopener">HERoes Top 40 Advocate Executives</a> for his work promoting gender equality in the workplace. </p>
+<p>Flavell ensures that inclusivity is engrained in FDM&#8217;s corporate values and that the organization instills a culture of acceptance. He regularly advocates for women&#8217;s inclusion, making public statements in the <em>Telegraph</em>, <em>City AM</em>, <em>Management Today</em>, and <em>European CEO,</em> among other media outlets. FDM is also heavily involved in the Wounded Warrior Program in the UK.</p>
+<h3>Others can, and should, get started</h3>
+<p>In the podcast, Flavell advises other leaders or hiring managers looking to improve inclusion and diversity in their businesses to start similar initiatives.</p>
+<p>All companies should not only be thinking about doing this, &#8220;but they should start in Q1 2021 and act on it,&#8221; he said in the podcast. &#8220;It is the responsibility of the chief exec of the business to own this.&#8221;</p>
+<p>Building something such as the Ex-Forces program would be invaluable for other organizations, he said.</p>
+<blockquote>
+<p>&#8220;And of course the lessons are, Go in with your eyes open, and understand that you get huge benefit. But you&#8217;ve got management processes that you&#8217;ve got to be aware of when you start these things off—and don&#8217;t give up when at first the program doesn&#8217;t work.&#8221;<br />—<a target="_blank" href="https://twitter.com/rodflavell" rel="nofollow noopener">Rod Flavell</a></p>
+</blockquote>
+<h4>Keep learning</h4>
+</div>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+<br /><br />
+<br /><a href="https://techbeacon.com/enterprise-it/inspire-20-podcast-rod-flavell-fdm-group">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Visual Testing for Mobile Apps &#8211; Automated Visual Testing</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/visual-testing-for-mobile-apps-automated-visual-testing/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 15:34:00 +0000</pubDate>
+				<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[automated]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[Visual]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/visual-testing-for-mobile-apps-automated-visual-testing/</guid>
+
+					<description><![CDATA[A common question is “does Applitools visual testing work on mobile apps?”. The answer is a resounding YES! In this]]></description>
+										<content:encoded><![CDATA[<p> <br />
+</p>
+<div>
+<p>A common question is “does Applitools visual testing work on mobile apps?”. The answer is a resounding <a target="_blank" href="https://info.applitools.com/uc7W3" rel="noopener">YES</a>! In this post, I’ll automate a couple of scenarios and show you the power of visual testing.</p>
+<h2 id="h-the-app">The App</h2>
+<p>We’re going to work with a Todo App which will allow us to add tasks. A cool feature of this app is the ability to add colors to tasks, which is a great way to designate categories for our various types of tasks.</p>
+<figure class="wp-block-image size-large"></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="512" height="1024" src="https://applitools.com/wp-content/uploads/2021/02/image-3-512x1024.png" alt="" class="wp-image-26972" srcset="https://applitools.com/wp-content/uploads/2021/02/image-3-512x1024.png 512w, https://applitools.com/wp-content/uploads/2021/02/image-3-150x300.png 150w, https://applitools.com/wp-content/uploads/2021/02/image-3-768x1536.png 768w, https://applitools.com/wp-content/uploads/2021/02/image-3.png 778w" sizes="(max-width: 512px) 100vw, 512px"/></figure>
+<h2 id="h-scenario-1-add-multiple-tasks-of-different-categories">Scenario #1: Add multiple tasks of different categories</h2>
+<p>Our first scenario is to add four tasks, one for each of the different colors/categories. So here, we declare the 4 tasks and add them to the app: one for purple, blue, yellow, and pink. Next, we verify that the tasks were indeed added.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/84e119e76d2656ec8f9458e8db5e36bd.js</p>
+</div>
+<p>However, a key aspect of this scenario is to verify that the tasks were added as the right color. This is a native app, so we can’t make a call to get the CSS value as that is unsupported. And when looking in the Inspector, there was nothing there that identified these tasks by color. Fortunately, visual testing can help us with this!</p>
+<h3 id="h-what-is-visual-testing">What is Visual Testing?</h3>
+<p>Visual testing is an automated technique for verifying the state of your application by using snapshots. This means your tests are not limited to interrogating the DOM to determine status, like what is done with most other automation tools. Instead, with visual testing, a screenshot of your application is taken on every regression run and compared against a baseline image. Therefore, viewing and verifying your application as your users would! </p>
+<p>Applitools’ visual testing API is called <em>Eyes</em>. The <em>Eyes</em> API uses AI to compare the images and is much more reliable than all other forms of visual testing, namely the notoriously flaky pixel-to-pixel and DOM-based approaches offered by other vendors.</p>
+<h3 id="h-adding-visual-testing">Adding Visual Testing</h3>
+<p>The <em>Eyes</em> API can be added to your existing tests so there’s no need to throwout your test suite and start over! Let’s add visual testing to Scenario #1 so that we can make sure the tasks were added with the right colors.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/67ab84d225ecaa6de84c4c4f36546905.js</p>
+</div>
+<p>Here we’ve added visual testing with 4 lines of code! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f632.png" alt="😲" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>On line 21, we’re simply initializing the <em>Eyes</em> API. On line 22 is where we tell <em>Eyes</em> that we would like to begin visually testing. </p>
+<p>On line 23 is where the magic happens – we take a screenshot of our app. If this is the first time the test is run, this will become the baseline image. If there is already a baseline image, a new image will be taken and compared to the baseline image to determine if there are any differences. Notice the arguments sent into this call. This is telling Eyes to ignore the status bar region of our app because it is dynamic and will contain a timestamp and notifications. So this part of the app will be ignored every time the test runs!</p>
+<p>Finally, on line 24, we’re done so we can close our <em>Eyes.</em> At this point, the screenshots are sent to the Applitools cloud, analyzed, and stored in a nice dashboard. In the event of a failure, your team can easily review the images to determine where the application has changed, and annotate the image with bugs and remarks.</p>
+<p>But wait…</p>
+<p>We added visual testing to verify the colors of the tasks. But it’s doing so much more. It’s verifying the entire screen (sans the status bar which we explicitly said to ignore. So that means all of our assertions above are already covered by <em>Eyes</em> and we can actually DELETE CODE!!! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f92f.png" alt="🤯" class="wp-smiley" style="height: 1em; max-height: 1em;" /> In fact, we’ve deleted almost HALF of the code from this one test alone – with MORE coverage!!! Woohooo <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/9087409345f1a2ca4c76cb2a51a288ee.js</p>
+</div>
+<p>Let’s try another more scenario.</p>
+<h2 id="h-scenario-2-complete-a-task-from-the-list">Scenario #2: Complete a task from the list</h2>
+<p>In our next scenario, we need to complete one of the tasks by clicking on it, and then verify that it is crossed off.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/8ed376ffa81144f76907ba605a6fbd14.js</p>
+</div>
+<figure class="wp-block-image size-large"><img loading="lazy" width="512" height="1024" src="https://applitools.com/wp-content/uploads/2021/02/image-4-512x1024.png" alt="" class="wp-image-27026" srcset="https://applitools.com/wp-content/uploads/2021/02/image-4-512x1024.png 512w, https://applitools.com/wp-content/uploads/2021/02/image-4-150x300.png 150w, https://applitools.com/wp-content/uploads/2021/02/image-4-768x1536.png 768w, https://applitools.com/wp-content/uploads/2021/02/image-4.png 782w" sizes="(max-width: 512px) 100vw, 512px"/></figure>
+<p>Now when it’s time to verify, we run into the same issue we did in Scenario #1. The strikethrough on the completed task is an CSS effect, and cannot be verified using the Inspector. So, let’s use visual testing.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/af9ad0771b31e3594f3e482c6f983679.js</p>
+</div>
+<p>Now we’re covered! Ok, one more scenario…</p>
+<h2 id="h-scenario-3-add-long-tasks">Scenario #3: Add long tasks</h2>
+<p>For the last scenario, we want to add long tasks. What is the purpose of this test? It’s to ensure that on this mobile view, the text is displayed properly and doesn’t get cut off or bleed off the edge of the page.</p>
+<figure class="wp-block-image size-large"><img loading="lazy" width="504" height="1024" src="https://applitools.com/wp-content/uploads/2021/02/image-5-504x1024.png" alt="" class="wp-image-27027" srcset="https://applitools.com/wp-content/uploads/2021/02/image-5-504x1024.png 504w, https://applitools.com/wp-content/uploads/2021/02/image-5-148x300.png 148w, https://applitools.com/wp-content/uploads/2021/02/image-5-756x1536.png 756w, https://applitools.com/wp-content/uploads/2021/02/image-5.png 768w" sizes="(max-width: 504px) 100vw, 504px"/></figure>
+<p>But how can we make sure the text is displayed correctly without using visual testing? We can’t! We can make sure it exists. We can make sure it’s visible. But only visual testing will make sure that it’s showing up just as we intend it to.</p>
+<div class="gist-wrapper">
+<p>Embedding: https://gist.github.com/angiejones/791b02cbf39d6d042722c4b6ac4a8ffa.js</p>
+</div>
+<h2 id="h-visual-bugs-love-mobile-viewports">Visual Bugs Love Mobile Viewports</h2>
+<p>Mobile testing is such a challenge. In addition to not being able to access style attributes from the Inspector, the presentation of your apps can vary based on the various viewport sizes. This makes mobile apps ripe for visual bugs! To make matters work, traditional mobile automation tools only offer so much and are incapable of catching these visual bugs, and heck, even some of the functional ones as we’ve seen in Scenarios 1 and 2. If you’re doing mobile app test automation, you <em>need</em> visual testing! Wait no more; create your <a target="_blank" href="https://info.applitools.com/uc8k5" rel="noopener">forever-free Applitools account</a> and improve your testing today!</p>
+</p></div>
+<p><br />
+<br /><a href="https://applitools.com/blog/visual-testing-for-mobile-apps/">Source link </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Less than 4 weeks! The 4th RoboCon event is just around the corner and we are so happy about our excellent talks, keynotes, virtual networki&#8230;</title>
+		<link>http://wp.qe-blog.10.50.222.159.xip.io/less-than-4-weeks-the-4th-robocon-event-is-just-around-the-corner-and-we-are-so-happy-about-our-excellent-talks-keynotes-virtual-networki/</link>
+		
+		<dc:creator><![CDATA[svcselenium]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 08:02:16 +0000</pubDate>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[robocon]]></category>
+		<category><![CDATA[robotframework]]></category>
+		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/less-than-4-weeks-the-4th-robocon-event-is-just-around-the-corner-and-we-are-so-happy-about-our-excellent-talks-keynotes-virtual-networki/</guid>
+
+					<description><![CDATA[Less than 4 weeks! The 4th RoboCon event is just around the corner and we are so happy about our]]></description>
+										<content:encoded><![CDATA[
+<p>Less than 4 weeks! The 4th RoboCon event is just around the corner and we are so happy about our excellent talks, keynotes, virtual networking playground and the workshops. So if you haven&#8217;t bougth your ticket yet, do it asap! <a target="_blank" href="https://t.co/gOSd3gHtk7" rel="noopener">https://t.co/gOSd3gHtk7</a><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> #robotframework #robocon<br />
+<br />
+<br /><a href="https://twitter.com/robotframework/statuses/1363761009920520193">Source</a> by <a href="http://t.co/7G6bNym4Hu">Robot Framework</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Malformed URL Prefix Phishing Attacks Spike 6,000%</title>
 		<link>http://wp.qe-blog.10.50.222.159.xip.io/malformed-url-prefix-phishing-attacks-spike-6000/</link>
 		
@@ -103,379 +349,6 @@
 <br />RIPE NCC, the regional Internet registry for Europe, West Asia, and the former Soviet Union, said attackers attempted a credential-stuffing attack against its single-sign on service.<br />
 <br /><br />
 <br /><a href="https://threatpost.com/credential-stuffing-attack-ripe-ncc/164109/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How to make your cloud service cyber resilient</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/how-to-make-your-cloud-service-cyber-resilient/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Feb 2021 18:30:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[Cyber]]></category>
-		<category><![CDATA[resilient]]></category>
-		<category><![CDATA[Service]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/how-to-make-your-cloud-service-cyber-resilient/</guid>
-
-					<description><![CDATA[If the pandemic has taught organizations anything, it&#8217;s the value of resiliency in the face of sudden adversity. That&#8217;s made]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br /></p>
-<div>
-<p>If the pandemic has taught organizations anything, it&#8217;s <a target="_blank" href="https://content.microfocus.com/cyber-resilience-tb/cyber-resilience-get-started?lx=dSbBFJ&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00134846" rel="noopener">the value of resiliency in the face of sudden adversity</a>. That&#8217;s made migration to cloud operations more attractive than ever as a means of ensuring that critical functions are &#8220;always-on&#8221; and that customers are receiving great experiences anytime and anywhere, cost-effectively.</p>
-<p>While moving IT operations from a local data center to the cloud can enable business growth by protecting business assets and building customer trust, it&#8217;s important to understand that <a target="_blank" href="https://content.microfocus.com/cloud-security-data-privacy-tb/bring-your-own-key-cloud?lx=8rSV2a&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=00134846" rel="noopener">a cloud provider isn&#8217;t completely responsible for privacy, security, and compliance</a>. Final responsibility lies with your organization to securely configure, manage, and operate cloud services and protect cloud-based assets.</p>
-<p>To meet those responsibilities, organizations should adopt several practices focused on data and application security, identity management, and network monitoring. Here are the key ones.</p>
-<h2>Secure your data on cloud</h2>
-<p>Protecting data throughout its lifecycle—from creation to disposal—is vital. With petabytes of data streaming into enterprises and then to the cloud, lots of sensitive personal data requires protection. Managing and protecting sensitive data throughout its lifecycle is a vital parameter.</p>
-<p>Transparent and open <a target="_blank" href="https://techbeacon.com/security/what-weakening-encryption-would-mean-enterprise-data-security" rel="noopener">encryption</a> methods should be used to secure sensitive data wherever it resides.</p>
-<p>Protection should be simple and lightweight. That will reduce the potential impact on productivity and business operations of encrypting and decrypting the data, as well as maintaining its usefulness for performing cloud-based big data analytics and business processes.</p>
-<p>To ensure data security and privacy, transparent governance and compliance reporting should be done from a single pane of glass, comprehensively across different compliance regimes and across multi-cloud, hybrid cloud, and on premises.</p>
-<h4>Avoid cloud service lock-in</h4>
-<p>Data should be secured so it&#8217;s highly portable across multi-cloud environments.</p>
-<h4>Classify your data</h4>
-<p>There is a cost to protecting data in the cloud. By classifying your data assets, you can manage your levels of protection, making sure critical data receives the highest levels of protection and that controls are applied appropriately to data based on its characteristics.</p>
-<h2>Integrate security onto cloud application development</h2>
-<p>You should embed and integrate security controls in your development lifecycle.</p>
-<p>Unlike on-premises applications, software running in hybrid and multi-cloud environments contains multiple dependencies and requires integration objects. That can create security challenges if you try to bolt on security controls at the end of the development lifecycle.</p>
-<h4>Enable integrated security testing for open-source libraries and APIs</h4>
-<p>Third-party and open-source libraries have become an integral part of most applications these days. The security of many of these components is not always well known. When enabling integrated security testing to identify vulnerabilities in your apps, that testing should also inspect open-source libraries and APIs.</p>
-<h4>Remediate security problems in a timely and appropriate manner</h4>
-<p>Security assessments are useful only if their findings are acted on before they become irrelevant. That requires continuous monitoring, remediation, and developer education.</p>
-<h2>Enable contextual and risk-based adaptive access management</h2>
-<p>It is critical to adopt a zero-trust model.</p>
-<p>With the &#8220;data everywhere&#8221; environment that many organizations operate in—an environment expanded by the need to work at home during the pandemic—identity relationships have risen to a new level of importance. <a target="_blank" href="https://techbeacon.com/security/zero-trust-cloud-native-world-best-practices-emerge" rel="noopener">Zero-trust</a> identity management, with contextual risk, should be at the center of any adaptive authentication, access management, and governance system.</p>
-<p>By creating a context for users, devices, and applications based on factors such as behavior, location, and network presence, the risk to a system can be evaluated and privileges assigned at appropriate levels.</p>
-<h4>Centralize lifecycle management and governance of identities</h4>
-<p>Cloud environments can make managing roles and entitlements complex. Centralizing lifecycle management and governance of identities helps reduce identity fraud or risk of compliance oversight.</p>
-<h2>Detect, defend, and respond to incidents faster and more effectively</h2>
-<p>Continuous monitoring for exposures and breaches is critical.</p>
-<p>In the wake of the pandemic, data breaches skyrocketed. Based on the <a target="_blank" href="https:/pages.riskbasedsecurity.com/en/2020-q1-vulnerability-quickview-report" rel="noopener">latest data breach data</a> from RiskedBased Security, at least 8.4 billion records were exposed in more than 1,100 breaches in the first quarter of 2020. Detecting and responding to a potential data breach faster and quicker helps in reducing risk and damage.</p>
-<h4>Monitor logs across your operational environment</h4>
-<p>You can enhance the visibility of your assets and build a better picture of your threat landscape by collecting logs from across your operations area and monitoring them for security events in the cloud, on premises, and in vendor and customer environments.</p>
-<h4>Use analytics to triage alerts, hunt for threats, and perform real-time analysis of threats</h4>
-<p>External and internal intelligence can be used to build the awareness needed for faster response to threats. Alert quality can be improved by continuous analysis of false positives using contextual behavior.</p>
-<h4>Accelerate decision-making through risk-based insights</h4>
-<p>Risk-based insights can speed up decisions at the time of an incident by allowing you to understand the risk score of your enterprise at any moment in time.</p>
-<h4>Automate actions and responses</h4>
-<p>Repetitive actions should be automated. In addition, some incidents can be mitigated with a routine response that can be automated. Automation can improve the efficiency of operations and save time for security analysts. It can also help reduce the time to respond to incidents effectively.</p>
-<h2>Comprehensive cyber resiliency for a secure cloud</h2>
-<p>While migration to the cloud can benefit organizations by optimizing costs, improving efficiencies, and speeding up the time it takes to bring products to market, those benefits can be squandered unless measures are taken to build resiliency into your cloud presence.</p>
-<p>It is important to have comprehensive security controls in your cloud to build cyber resiliency and <a target="_blank" href="https://content.microfocus.com/digital-transformation-tb/digital-transformation-pandemic?lx=EGspVB&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=00172256" rel="noopener">help accelerate business transformation</a>. You must ensure that security controls are embedded in your cloud transformation journey to take full advantage of what the cloud has to offer.</p>
-<h4>Keep learning</h4>
-</div>
-<p><br />
-<br /><a href="https://techbeacon.com/security/how-make-your-cloud-service-cyber-resilient">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Itay Yelin shares his passion for Deep Learning &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/itay-yelin-shares-his-passion-for-deep-learning-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Feb 2021 17:46:27 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Deep]]></category>
-		<category><![CDATA[Itay]]></category>
-		<category><![CDATA[Learning]]></category>
-		<category><![CDATA[passion]]></category>
-		<category><![CDATA[shares]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<category><![CDATA[Yelin]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/itay-yelin-shares-his-passion-for-deep-learning-automated-visual-testing/</guid>
-
-					<description><![CDATA[Itay Yelin has been with Applitools for more than a year now. He’s an Algorithms Developer on our Computer Vision]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Itay Yelin has been with Applitools for more than a year now. He’s an Algorithms Developer on our Computer Vision team, and an avid canyoneer! You can find him in his spare time exploring slot canyons in locations like Jordan and Utah. He’s also a dedicated volunteer at Hoshen, a non-profit LGBT organization promoting acceptance and driving change in Israeli education systems.</p>
-<p>At Applitools, Itay is working to push the boundaries of automatic understanding of web pages and applications and is on a mission to help engineering teams worldwide release visually perfect User Interfaces. We sat down with Itay to find out what brought him to choose a career in computer vision, and what an average day for him looks like.</p>
-<p>We also picked his brain on what he plans to tackle next.</p>
-<h3 id="h-itay-can-you-tell-us-about-your-current-work-at-applitools">Itay, can you tell us about your current work at Applitools?</h3>
-<p>I joined Applitools last August. Since then I have been researching how we can improve on paragraph algorithms and visual text parsing algorithms. The way that this relates to the Applitools product: our product tries to understand content from an AI perspective. To be able to detect visual bugs that are critical, we are teaching a machine not only to differentiate text from photos, but also recognize more sophisticated page elements like paragraphs or product descriptions for example, if its a commercial site. When we’re understanding the page structure we can detect the most critical bugs, if there are any, and alert the user.</p>
-<p>This is a highly complicated task to research, and I find it challenging because it was never done before: you find yourself oftentimes faced with an ambiguous situation from which you start translating product problems into actual algorithms.. It is fascinating work.</p>
-<h3 id="h-can-you-tell-us-about-your-background-how-did-you-get-started-in-computer-vision-and-algorithms-research">Can you tell us about your background? How did you get started in Computer Vision and Algorithms research?</h3>
-<p>I’ve done my Masters thesis at Tel Aviv University, as a collaborative work with Yale University. I was researching multi-modal sensor registration, and after I graduated, I spent a few years in the industry working for medical startups. Among other projects, I developed 3D segmentation of arteries and researched image tracking algorithms. It was there where I gained most of my knowledge of computer vision and image processing.</p>
-<h3 id="h-what-motivated-you-to-apply-to-applitools">What motivated you to apply to Applitools?</h3>
-<p>What Applitools develops is unique, I’ve never heard about a company trying to tackle the same challenge and it sparked my interest. The set of problems we encounter here are new, so I can say I was intrigued by the challenge, but at the same time excited about the people behind the company. After coming onsite for my interviews, I was looking forward to being part of this team: they seemed like a group of smart folks, that are fun to work with. Our group leader, Ram Nathaniel, is an incredible person, he’s great as a mentor, who truly sets a high bar for professionalism and I find this is the best way to improve my skills.</p>
-<h3 id="h-what-surprised-you-most-about-applitools">What surprised you most about Applitools?</h3>
-<p>I would say the willingness to be open to changes in architecture, given the restriction of the way the algorithm is built. What is unique about the way our team works is the special attention put into writing robust efficient clean code and strictly keeping a clean process, it reduces a lot of the stress that other algorithms teams experience sometimes. It allows me to work in a more relaxed and organized manner.</p>
-<h3 id="h-what-does-a-typical-day-look-like-for-you">What does a typical day look like for you?</h3>
-<p>Our mornings usually start with team sync over coffee or breakfast. Then we start prioritizing the day’s work, this is a startup and things are constantly changing. We need to keep close communication methodologies and discuss between us what we work on. I love the small breaks we take during the day, every time you’re grabbing a cup of coffee you’ll easily find someone friendly to talk to and this is a great opportunity to interact with folks outside our team. There are team members here with intriguing hobbies and areas of interest that I very much enjoy connecting with and learning more about. The levels of discussions we find ourselves diving into are intriguing. This is especially great as people here come together from very different types of backgrounds (some come from religious backgrounds, some relocated from other countries, etc). Across the board, it feels like everyone is genuinely friendly, open, and very passionate about teamwork.</p>
-<h3 id="h-what-can-we-find-you-doing-outside-of-work">What can we find you doing outside of work?</h3>
-<p>I like to spend my free time climbing or volunteering. Over the weekends, I sometimes organize hikes for my LGBT outdoor group or indulge my passion for canyoneering in the Israeli desert.</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/itay-yelin-shares-his-passion-for-deep-learning/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Microsoft: SolarWinds Attackers Downloaded Azure, Exchange Code</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/microsoft-solarwinds-attackers-downloaded-azure-exchange-code/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Feb 2021 14:11:33 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Attackers]]></category>
-		<category><![CDATA[AZURE]]></category>
-		<category><![CDATA[Code]]></category>
-		<category><![CDATA[Downloaded]]></category>
-		<category><![CDATA[Exchange]]></category>
-		<category><![CDATA[Microsoft]]></category>
-		<category><![CDATA[SolarWinds]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/microsoft-solarwinds-attackers-downloaded-azure-exchange-code/</guid>
-
-					<description><![CDATA[However, internal products and systems were not leveraged to attack others during the massive supply-chain incident, the tech giant said]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />However, internal products and systems were not leveraged to attack others during the massive supply-chain incident, the tech giant said upon completion of its Solorigate investigation.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/microsoft-solarwinds-azure-exchange-code/164104/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Not every tool works well for the reality of today’s enterprise performance test&#8230;</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/not-every-tool-works-well-for-the-reality-of-todays-enterprise-performance-test/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Feb 2021 11:05:56 +0000</pubDate>
-				<category><![CDATA[Performance]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[loadtesting]]></category>
-		<category><![CDATA[perfmatters]]></category>
-		<category><![CDATA[performancetesting]]></category>
-		<category><![CDATA[Reality]]></category>
-		<category><![CDATA[Test]]></category>
-		<category><![CDATA[todays]]></category>
-		<category><![CDATA[tool]]></category>
-		<category><![CDATA[Works]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/not-every-tool-works-well-for-the-reality-of-todays-enterprise-performance-test/</guid>
-
-					<description><![CDATA[Not every tool works well for the reality of today’s enterprise performance testing needs. What are the criteria for evaluating]]></description>
-										<content:encoded><![CDATA[
-<p>Not every tool works well for the reality of today’s enterprise performance testing needs. What are the criteria for evaluating whether your performance testing solution fits? <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a target="_blank" href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3rP9QWN&amp;h=AT39u_hCwz09q9rcHvph2f40i7hstYXRuixUYKRHvm3UUYsmBC1wegoKZCec6kV0ztSrswMB7XOJhXnrdGfqUfn5D44OiGTMShKYrSz6kdssp3SsXX9SSYpp7ISK6_BlpObEWalckS1qezBNFBcGcc2DxHX5C_w-2_A8OtSuHbeQeOA3BbthAcaRSfcAOtbk8BcRrJGn0fEkldCADtp3JR9DTRM7lwbgrLRMKIDDOuyPoCuqZS_mjDkjJdRD8Rqq1pjg8X3BxkAVNsvm_ZaY3Krb20EgJP0yO2bQ73XMRYt2mzn-LV8NaHpN-k9Wn2ez_yfQYdLkq9CikvXUPT0Dy4hZ7QwC9sJeG3YD20VAINYTFXywwH-GLsxnMnprC143rq74ZTeDePYSZ3x12AHkFi-zgnWw_0wy8MuypfTU5DrlpIl5s7YdDuEBGThbr9Ybpj2VujViTGJK-AvXUfgt1FIpkLYxW65OGP6I6M8c3Geh-x8RkL4Lo8RWlTMfesVpl3j-a_NxzDWtQTnO0ihhJH9E7jCvJECBvnN5u7PEhT_WZf5sdbA2x1v65ADYAKgx6TsvQ775h7QyB-mMAahG0BQF63d2yOjmZetl5FRcv_6jHaCuzlWIWlJ5Y1G2ZoVruhlHC-fIwTRNvGEytRKQ6MlVXQFO58KtsDPzmEzkQpawStPPOj1pjsIHZAqeCv206OhDeelyO6722CmNRCF6f0blP4769dHrf2NEh118RVWkS_54_or01CiixCNErBfZEEUYWbpyvpr9CrJ2PHcMdUYANQ1j5sjBXZ6iTmqqYmxl5X4upBDIxLFS9iCKvwgpW9Q2ZL5niUsRb3ycTL2frUxP5DtITNoY5-KzT28O8otoUqJ3gPFhbd29QiH_9v6ezHViEIUDR-2T1WUwTL1KpGyfulA8k6RoC2gSSZZ1HUky1cni6oR7OY7CTaivW9ZgCdt0v2hMGdNZZwC_gPuM5-_7vrI1LBcG3nhFc7euJpqrnVWuQ-AXklWA1V-LdCGubhHDUVBfDTQFYtaq-dv-erErm6Oz05E5Z7Ep1IqV40zJkTBagkmvZO6RrLm6Bs1XbrL1QLQHJysQoQN3P_A27dBFJm_MO66L4Uj-fBKG4QP7v0d0tCXJMrW1g6JbjkH1q9TSxrNIn3OXwVEAem4MEnUX67LtVHBnf3vw6qyhyjprZzeSNtCnMq9mi1SQ6hD3a1nCnvhzXP8niSAgi43w_U9io8utmI43zsNtwqaI-_Jel0qR4PcGbrZrTjVjfw" rel="noopener">https://bit.ly/3rP9QWN</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/perfmatters?refid=17&amp;_ft_=mf_story_key.4118614091483356%3Atop_level_post_id.4118614091483356%3Atl_objid.4118614091483356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4118614091483356%3Apage_id.163354693676002%3Aphoto_id.4118613998150032%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_LcimM9aiKl_L4%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613732756%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4118614091483356%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4118614091483356%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-1223429316027719758&amp;__tn__=%2As-R" rel="noopener">#perfmatters</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/performancetesting?refid=17&amp;_ft_=mf_story_key.4118614091483356%3Atop_level_post_id.4118614091483356%3Atl_objid.4118614091483356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4118614091483356%3Apage_id.163354693676002%3Aphoto_id.4118613998150032%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_LcimM9aiKl_L4%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613732756%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4118614091483356%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4118614091483356%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-1223429316027719758&amp;__tn__=%2As-R" rel="noopener">#performancetesting</a> <a target="_blank" class="fi fj" href="https://facebook.com/hashtag/loadtesting?refid=17&amp;_ft_=mf_story_key.4118614091483356%3Atop_level_post_id.4118614091483356%3Atl_objid.4118614091483356%3Acontent_owner_id_new.163354693676002%3Athrowback_story_fbid.4118614091483356%3Apage_id.163354693676002%3Aphoto_id.4118613998150032%3Astory_location.4%3Astory_attachment_style.photo%3Atds_flgs.3%3Aott.AX_LcimM9aiKl_L4%3Apage_insights.%7B%22163354693676002%22%3A%7B%22page_id%22%3A163354693676002%2C%22page_id_type%22%3A%22page%22%2C%22actor_id%22%3A163354693676002%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntStatusCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A266%2C%22publish_time%22%3A1613732756%2C%22story_name%22%3A%22EntStatusCreationStory%22%2C%22story_fbid%22%3A%5B4118614091483356%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22actor_id%22%3A163354693676002%2C%22page_id%22%3A163354693676002%2C%22post_id%22%3A4118614091483356%2C%22role%22%3A1%2C%22share_id%22%3A0%7D%5D%7D%7D%3Athid.163354693676002%3A306061129499414%3A2%3A0%3A1614585599%3A-1223429316027719758&amp;__tn__=%2As-R" rel="noopener">#loadtesting</a>
-</p>
-<p><a target="_blank" href="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/152126995_4118614001483365_4242886482830333011_n.jpg?_nc_cat=100&#038;ccb=3&#038;_nc_sid=8024bb&#038;_nc_ohc=G7TzyaHzbg4AX9IN_kf&#038;_nc_ht=scontent-lga3-2.xx&#038;oh=1cf2eef89851cece302222d2b26098ad&#038;oe=6056DBB1" rel="noopener"></a><br />
-<br />
-<br /><a href="https://www.facebook.com/163354693676002/posts/4118614091483356">Source</a>  </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Automate your Appium setup &#8211; Automated Visual Testing</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/automate-your-appium-setup-automated-visual-testing/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Feb 2021 01:38:10 +0000</pubDate>
-				<category><![CDATA[Automation]]></category>
-		<category><![CDATA[Appium]]></category>
-		<category><![CDATA[Automate]]></category>
-		<category><![CDATA[automated]]></category>
-		<category><![CDATA[Setup]]></category>
-		<category><![CDATA[testing]]></category>
-		<category><![CDATA[Visual]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/automate-your-appium-setup-automated-visual-testing/</guid>
-
-					<description><![CDATA[Appium is an open source test automation framework for use with native, hybrid and mobile web apps. It drives iOS,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<p>Appium is an open source test automation framework for use with native, hybrid and mobile web apps.</p>
-<p>It drives iOS, Android, and Windows apps using the WebDriver protocol and gives you the ability to automate any mobile app from any language and any test framework.</p>
-<p>Appium released its first major version almost 7 years ago. Since then, Appium has rolled out a lot of new features and its automation backend architecture has evolved quite a lot. </p>
-<p>That said, getting started with implementing automated tests and executing them using Appium the 1st time can be a daunting experience.</p>
-<p>There are a lot of dependencies that need to be set up – node, android-command-line tools, appium, etc.</p>
-<h2 id="h-appium-setup-scripts">Appium Setup Scripts</h2>
-<p>In order to make this task easier, and avoid having to do this manually, one at a time, I have written a script that will help set the Appium-Android environment automatically for you. The script is available for Mac OSX and Ubuntu and will set up the latest available version of the dependencies &amp; appium itself.</p>
-<p>You can find the scripts here:</p>
-<p>MacOSX: <a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_mac.sh" rel="noopener">setup_mac.sh</a></p>
-<p>Ubuntu: <a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_linux.sh" rel="noopener">setup_linux.sh</a></p>
-<p>The mentioned setup scripts install all dependencies required for implementing / running tests on Android devices. To do the setup for iOS devices, run <strong><em>appium-doctor</em></strong> and see the list of dependencies that are missing, and install the same.</p>
-<p>To ensure the setup is working properly, you can clone / download this sample repository (<a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample" rel="noopener">https://github.com/anandbagmar/AppiumJavaSample</a>) which has 2 tests that can be executed to verify the setup. </p>
-<p>Refer to the <a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/README.md" rel="noopener">README</a> file for specifics of the prerequisites to do the setup and also for running the tests.</p>
-<p>To get full value of your functional test automation, add the power of Visual AI to your tests. You can refer to the relevant tutorial for adding Applitools Visual AI to your Appium tests from <a target="_blank" href="https://applitools.com/tutorials/" rel="noopener">here</a>.</p>
-<h2 id="h-summary">Summary</h2>
-<p>Automate your Android and Appium test execution environment setup using an automated script on MacOSX (<a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_mac.sh" rel="noopener">setup_mac.sh</a>) and Ubuntu (<a target="_blank" href="https://github.com/anandbagmar/AppiumJavaSample/blob/master/setup_linux.sh" rel="noopener">setup_linux.sh</a>).</p>
-</p></div>
-<p><br />
-<br /><a href="https://applitools.com/blog/automatic-appium-setup/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Beyond Clubhouse: Vulnerable Agora SDKs Still in Widespread Use</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/beyond-clubhouse-vulnerable-agora-sdks-still-in-widespread-use/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Fri, 19 Feb 2021 00:21:23 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Agora]]></category>
-		<category><![CDATA[Clubhouse]]></category>
-		<category><![CDATA[SDKs]]></category>
-		<category><![CDATA[vulnerable]]></category>
-		<category><![CDATA[Widespread]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/beyond-clubhouse-vulnerable-agora-sdks-still-in-widespread-use/</guid>
-
-					<description><![CDATA[On February 17th, 2021, McAfee disclosed findings based on a 10-month long disclosure process with major video conferencing vendor Agora,]]></description>
-										<content:encoded><![CDATA[<p> <br />
-</p>
-<div>
-<div class="author-block padding-bottom-xs">
-                
-            </div>
-<p>On February 17<sup>th</sup>, 2021, McAfee <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/dont-call-us-well-call-you-mcafee-atr-finds-vulnerability-in-agora-video-sdk/" rel="noopener noreferrer">disclosed findings</a> based on a 10-month long disclosure process with major video conferencing vendor Agora, Inc.  As we disclosed the findings to Agora in April 2020, this lengthy disclosure timeline represents a nonstandard process for McAfee but was a joint agreement with the vendor to allow sufficient time for the development and release of a secure SDK. The release of the SDK mitigating the vulnerability took place on December 17<sup>th</sup>, 2020. Given the implications of <a target="_blank" href="https://youtu.be/ApphMr2k5QE" rel="noopener noreferrer">snooping and spying on video</a> and audio calls, we felt it was important to provide Agora the extended disclosure time. The affected users of Agora include popular voice and video messaging apps, with one notable application being the popular new iOS app known as Clubhouse.</p>
-<p> </p>
-<p style="text-align: center;"><img loading="lazy" class="aligncenter wp-image-117547 size-full" src="https://www.mcafee.com/wp-content/uploads/2021/02/1.png" alt="" width="403" height="660" srcset="https://www.mcafee.com/wp-content/uploads/2021/02/1.png 403w, https://www.mcafee.com/wp-content/uploads/2021/02/1-183x300.png 183w, https://www.mcafee.com/wp-content/uploads/2021/02/1-79x129.png 79w" sizes="(max-width: 403px) 100vw, 403px"/><br /><em>Clubhouse Application Screenshot</em></p>
-<p>Clubhouse has made headlines recently as one of the newest players in the social networking sphere, rising in popularity after a series of high-profile users including Elon Musk, Kanye West and influencers in various geographies posted about the platform. <a target="_blank" href="https://en.wikipedia.org/wiki/Clubhouse_(app)" rel="noopener noreferrer">Released in April of 2020</a>, Clubhouse quickly carved out a niche in Chinese social media as the platform to discuss sensitive social and political topics – perhaps aided by its invite-only approach to membership – and the spotlight shined on it by these key players further propelled it into viral status early this year. Perhaps unsurprisingly, the application was <a target="_blank" href="https://www.businessinsider.com/china-ban-clubhouse-reports-social-app-users-avoid-government-censorship-2021-2" rel="noopener noreferrer">blocked for use in China</a> on February 8<sup>th</sup>, 2021.</p>
-<p>Last week, Stanford Internet Observatory (SIO) <a target="_blank" href="https://cyber.fsi.stanford.edu/io/news/clubhouse-china" rel="noopener noreferrer">released research</a> regarding the popular Clubhouse app’s use of Agora real-time engagement software and suggested that Agora could have provided the Chinese government access to Clubhouse user information and communications.  While the details of Stanford’s disclosure focus on the audio SDK compared to our work on the video SDK, the functionality and flaw are similar to our recent disclosure, CVE-2020-25605.  This includes the plaintext transmission of app ID, channel ID and token – credentials necessary to join either audio or video calls. We can confirm that Clubhouse updated to the most recent version of the Agora SDK on February 16<sup>th </sup>– just a day prior to our public disclosure.</p>
-<p>Despite the recent noise surrounding Clubhouse, the reality is that this application is just one of many applications that leverage the Agora SDK. Among others, we investigated the social apps eHarmony, Skout, and MeetMe, along with several widely-used healthcare apps, some of which have a significantly larger user base. For example, MeetGroup (comprised of several apps) reported approximately 18 million monthly users compared to Clubhouse, which had approximately 600k total users as of December 2020.</p>
-<p>We felt it was important to highlight these data points and are continuing to investigate these applications as well as monitor any potential instances of malicious actors exploiting this vulnerability. Given that Agora has released an updated SDK that fixes the call setup issues, vulnerable applications should have already switched to the secure calling SDK, thus protecting the sensitive audio and video call data as many claim to do. With that in mind, we decided to check back in with some of the Agora-based apps we previously investigated to confirm whether they had updated to the patched version. We were surprised to see many, as of February 18, 2020, still had not:</p>
-<table width="609">
-<tbody>
-<tr>
-<td width="169"><strong>App Name</strong></td>
-<td width="91"><strong>Installs</strong></td>
-<td width="92"><strong>App Version</strong></td>
-<td width="112"><strong>App Version Date</strong></td>
-<td width="145"><strong>Updated Agora SDK</strong></td>
-</tr>
-<tr>
-<td width="169">MeetMe</td>
-<td width="91">50,000,000+</td>
-<td width="92">14.24.4.2910</td>
-<td width="112">2/9/2021</td>
-<td width="145">Yes</td>
-</tr>
-<tr>
-<td width="169">LOVOO</td>
-<td width="91">50,000,000+</td>
-<td width="92">93.0</td>
-<td width="112">2/15/2021</td>
-<td width="145">No</td>
-</tr>
-<tr>
-<td width="169">Plenty of Fish</td>
-<td width="91">50,000,000+</td>
-<td width="92">4.36.0.1500755</td>
-<td width="112">2/5/2021</td>
-<td width="145">No</td>
-</tr>
-<tr>
-<td width="169">SKOUT</td>
-<td width="91">50,000,000+</td>
-<td width="92">6.32.0</td>
-<td width="112">2/3/2021</td>
-<td width="145">Yes</td>
-</tr>
-<tr>
-<td width="169">Tagged</td>
-<td width="91">10,000,000+</td>
-<td width="92">9.32.0</td>
-<td width="112">12/29/2020</td>
-<td width="145">No</td>
-</tr>
-<tr>
-<td width="169">GROWLr</td>
-<td width="91">1,000,000+</td>
-<td width="92">16.1.1</td>
-<td width="112">2/11/2021</td>
-<td width="145">No</td>
-</tr>
-<tr>
-<td width="169">eharmony</td>
-<td width="91">5,000,000+</td>
-<td width="92">8.16.2</td>
-<td width="112">2/5/2021</td>
-<td width="145">Yes</td>
-</tr>
-<tr>
-<td width="169">Clubhouse</td>
-<td width="91">2,000,000+</td>
-<td width="92">0.1.2.8</td>
-<td width="112">2/16/2021</td>
-<td width="145">Yes</td>
-</tr>
-<tr>
-<td width="169">Practo</td>
-<td width="91">5,000,000+</td>
-<td width="92">4.93</td>
-<td width="112">1/26/2021</td>
-<td width="145">No</td>
-</tr>
-</tbody>
-</table>
-<p>With the context around censorship and basic privacy concerns, it will be interesting to see if these and many other apps using the vulnerable SDK update quickly, or even ever, and what kind of lasting effects these types of findings have on users’ trust and confidence in social media platforms.</p>
-<p>For more on McAfee ATR’s research into the Agora SDK, please see our <a target="_blank" href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/dont-call-us-well-call-you-mcafee-atr-finds-vulnerability-in-agora-video-sdk/" rel="noopener noreferrer">technical research blog</a>.</p>
-<p>For information on how users can protect themselves when using such apps, please see our <a target="_blank" href="https://www.mcafee.com/blogs/consumer/consumer-threat-notices/hang-up-on-hackers-protect-yourself-from-mobile-app-video-conferencing-vulnerabilities/" rel="noopener noreferrer">consumer safety tips blog</a>.</p>
-</p></div>
-<p><script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '187610925152304');
-  fbq('track', 'PageView');
-</script><script>
-// load Facebook
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '766537420057144');
-fbq('track', "PageView");</p>
-<p>//document.write('x3Cnoscript>x3Cimg height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=766537420057144&ev=PageView&noscript=1" />x3C/noscript>');
-</script><br />
-<br /><br />
-<br /><a href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/beyond-clubhouse-vulnerable-agora-sdks-still-in-widespread-use/">Source link </a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Cybercriminal Enterprise ‘Ringleaders’ Stole $55M Via COVID-19 Fraud, Romance Scams</title>
-		<link>http://wp.qe-blog.10.50.222.159.xip.io/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/</link>
-		
-		<dc:creator><![CDATA[svcselenium]]></dc:creator>
-		<pubDate>Thu, 18 Feb 2021 21:30:16 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[55M]]></category>
-		<category><![CDATA[COVID19]]></category>
-		<category><![CDATA[Cybercriminal]]></category>
-		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[fraud]]></category>
-		<category><![CDATA[Ringleaders]]></category>
-		<category><![CDATA[Romance]]></category>
-		<category><![CDATA[Scams]]></category>
-		<category><![CDATA[Stole]]></category>
-		<guid isPermaLink="false">http://wp.qe-blog.10.50.222.159.xip.io/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/</guid>
-
-					<description><![CDATA[The Department of Justice (DoJ) cracked down on a Ghana-based cybercriminal enterprise behind a slew of romance scams, COVID-19 fraud]]></description>
-										<content:encoded><![CDATA[<p> <br />
-<br />The Department of Justice (DoJ) cracked down on a Ghana-based cybercriminal enterprise behind a slew of romance scams, COVID-19 fraud attacks and business email compromise schemes since 2013.<br />
-<br /><br />
-<br /><a href="https://threatpost.com/cybercriminal-enterprise-ringleaders-stole-55m-via-covid-19-fraud-romance-scams/164086/">Source link </a></p>
 ]]></content:encoded>
 					
 		
